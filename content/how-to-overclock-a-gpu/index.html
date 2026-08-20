@@ -159,7 +159,17 @@ setting power limit and voltage in Step 4).
 Most modern NVIDIA cards land somewhere around +100 to +200 MHz core offset before hitting
 instability; AMD RDNA cards are often more clock-limited and land around +50 to +150 MHz. Don't
 chase a specific number — chase the point right before instability, since silicon quality
-("the silicon lottery") varies card to card even within the same model.
+("the silicon lottery") varies card to card even within the same model, meaning two identical GPUs
+straight off the same production line can top out at noticeably different offsets.
+</p>
+<p>
+A faster way to find your rough ceiling, if you don't mind a slightly less methodical first pass:
+jump in larger increments (+25-30 MHz for NVIDIA, +50-75 MHz for AMD) until you hit instability,
+then back off by roughly double your normal step size and switch to the fine 10-15 MHz / 25-50 MHz
+increments from there. This gets you to the interesting range faster without sacrificing the
+precision that matters near your actual limit. Either approach works — the fine, cautious version
+described above is simply lower-risk for a first-time overclocker who isn't yet used to reading
+artifact warning signs.
 </p>
 
 <h3>Step 3: Increase the Memory Clock Offset</h3>
@@ -177,6 +187,15 @@ responding and has recovered"), or a full crash to desktop. GDDR6/GDDR6X memory 
 can often take large offsets (+500 to +1,000+ MHz is not unusual on high-end cards), while GDDR6
 on AMD cards is typically more conservative — often +100 to +300 MHz. Back off by one increment
 the moment you see any instability, the same rule as core clock.
+</p>
+<p>
+Note that Afterburner and Precision X1 report the memory offset differently than the card's
+actual effective data rate — a +1,000 MHz offset on GDDR6X, for example, doesn't mean the memory
+jumps by a literal 1,000 MHz in real clock terms, since GDDR reports and applies offsets at twice
+the effective transfer rate. Don't worry about the underlying math; just keep using the software's
+own offset number as your reference point and testing methodically the same way regardless of
+what the raw figure looks like. AMD Adrenalin displays memory clock more directly in its Tuning
+tab, which is one reason AMD overclocking tends to feel more approachable to first-timers.
 </p>
 
 <h3>Step 4: Adjust the Power Limit and Voltage</h3>
@@ -199,6 +218,16 @@ similar manual voltage offset under the same Tuning tab. If you're new to overcl
 recommend leaving voltage at its default (or applying a mild undervolt) rather than manually
 raising it — voltage increases are where most of the long-term wear risk lives, and the
 performance gain from added voltage is usually a couple of percent at best.
+</p>
+<p>
+If you do want to try undervolting specifically, the process is the reverse logic of the core
+clock test in Step 2: instead of raising the offset until you see instability, you lower the
+voltage at your target clock point on the curve until the card either drops out of that clock
+state or shows instability, then move it back up one notch. A well-tuned undervolt commonly cuts
+power draw by 15-25% and drops load temperatures by 5-10°C, with performance staying within a
+percent or two of stock — which is why many enthusiasts consider undervolting the single best
+"overclock" for anyone who games with the case side panel off or in a small form factor build
+where noise and heat matter more than the last few frames per second.
 </p>
 
 <h3>Step 5: Run a Full Stability Test</h3>
@@ -249,6 +278,16 @@ back off your power limit and voltage rather than chasing the last few MHz. A co
 lower overclock that holds its boost clock steady will usually outperform a hotter one that
 throttles under sustained load — check your final result against the Step 1 baseline benchmark to
 confirm you actually gained frame rate, not just a higher number on a slider.
+</p>
+<p>
+Once you've settled on final values, save the profile in your overclocking software and, if it
+supports it, set it to auto-apply on Windows startup — otherwise you'll need to reopen the app and
+reapply manually after every reboot. Revisit your overclock after major driver updates or new
+game releases; a setting that was rock-solid for months can occasionally become unstable in a
+specific new title that stresses the card differently than anything in your original stress test.
+If that happens, drop back to your saved stock profile, confirm the new title runs fine there,
+and re-tune from a slightly lower starting point rather than assuming your whole overclock has
+gone bad.
 </p>
 
 <h2>Safety and Warranty Warning</h2>
@@ -350,6 +389,26 @@ usually recovers on its own and resets to safe clocks. If it doesn't recover, fo
 your overclocking software will not reapply an unstable custom profile automatically on the next
 boot in most configurations, or you can manually reset to defaults from the software once you're
 back in Windows. This is exactly why Step 1's advice to save a stock "safe" profile matters.
+</p>
+
+<h3>Should beginners use automatic tuning instead of manual sliders?</h3>
+<p>
+It's a reasonable starting point. The NVIDIA App's "Auto-Tune" and AMD Adrenalin's one-click
+automatic tuning both run their own internal stability pass and apply a conservative overclock
+without any manual slider work. They typically land somewhere below what a careful manual pass
+using this guide would achieve, but they're a safe, fast way to get a real performance gain in
+under 15 minutes. Many people run auto-tune first, then switch to manual adjustment afterward to
+push a bit further once they're comfortable with the process.
+</p>
+
+<h3>Do I need special cooling to overclock my GPU?</h3>
+<p>
+No — the stock cooler on most current NVIDIA and AMD cards is designed with enough margin to
+handle a moderate overclock, especially if you pair it with the undervolting approach described in
+Step 4, which often keeps temperatures at or below stock levels even with higher clocks. Better
+case airflow (a couple of intake and exhaust fans with clear front and top vents) helps more than
+an aftermarket GPU cooler for most people, since ambient case temperature has a direct effect on
+how much thermal headroom your card has before it needs to throttle.
 </p>
 
 <h2>Related Guides</h2>
