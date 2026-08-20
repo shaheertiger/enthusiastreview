@@ -11,5 +11,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <ArticleLayout html={articleHtml} />;
+  return <ArticleLayout html={articleHtml} category="Motherboards" />;
 }
