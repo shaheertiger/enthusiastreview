@@ -131,3 +131,24 @@ export function IconArrowRight({ className }: IconProps) {
     </svg>
   );
 }
+
+export function IconCheck({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">
+      <path d="M4 12.5 9 17.5 20 6.5" stroke="currentColor" strokeWidth={base} strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function IconList({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">
+      <path
+        d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"
+        stroke="currentColor"
+        strokeWidth={base}
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}

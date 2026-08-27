@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run validate && next build",
     "start": "next start",
     "lint": "next lint",
-    "indexnow": "node scripts/indexnow-submit.mjs"
+    "indexnow": "node scripts/indexnow-submit.mjs",
+    "validate:words": "node scripts/validate-words.mjs",
+    "validate:links": "node scripts/validate-links.mjs",
+    "validate:format": "node scripts/format-audit.mjs",
+    "validate": "npm run validate:words && npm run validate:links && npm run validate:format"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
