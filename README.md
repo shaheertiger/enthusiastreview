@@ -1,54 +1,52 @@
-# PC Hardware SEO Pages
+# enthusiastreview — GPU bottleneck finder
 
-This batch adds 14 buying-guide pages to `enthusiastreview.com`, restructured to mirror the
-proven format of thehonestreviewers.com's top 6 ranking pages (comparison table → product
-reviews with pros/cons → buying/compatibility guide → FAQ → related links). See `TEMPLATE.md`
-for the exact structure spec used for every page.
+Next.js (App Router) site. Every CPU gets a statically generated page at
+`/best-gpu-for-{cpu}/` with an interactive picker (resolution, refresh rate, RAM, use,
+budget) that recommends a **Budget pick**, **Best match** and **Max before bottleneck** GPU,
+followed by ~2,000 words of CPU-specific long-form content and a sticky affiliate price bar.
 
-## What's here
+## Run
 
-Each folder under `content/` matches an existing enthusiastreview.com URL slug. The `index.html`
-inside is the **article body only** — no site chrome — meant to be pasted directly into the
-WordPress editor (Custom HTML block, or Classic Editor's "Text" tab) for that URL's existing post.
+```bash
+npm install
+npm run dev     # http://localhost:3000
+npm run build   # static generation of every page
+```
 
-| File | Existing URL |
+Deploy on Vercel (zero config).
+
+## Where things live
+
+| Path | What |
 |---|---|
-| `content/best-cpu-cooler-for-ryzen-9-3900x-and-3950x/` | /best-cpu-cooler-for-ryzen-9-3900x-and-3950x/ |
-| `content/best-gpu-for-ryzen-5-2600-and-3600/` | /best-gpu-for-ryzen-5-2600-and-3600/ |
-| `content/best-power-supply-psu-for-ryzen-5-2600-and-3600/` | /best-power-supply-psu-for-ryzen-5-2600-and-3600/ |
-| `content/best-psu-for-rtx-2080-and-2080-ti/` | /best-psu-for-rtx-2080-and-2080-ti/ |
-| `content/best-pc-cases-under-50/` | /best-pc-cases-under-50/ |
-| `content/best-psu-for-ryzen-9-3900x-and-3950x/` | /best-psu-for-ryzen-9-3900x-and-3950x/ |
-| `content/best-psu-for-ryzen-7-2700x-and-3700x/` | /best-psu-for-ryzen-7-2700x-and-3700x/ |
-| `content/best-ram-for-ryzen-9-3900x-and-3950x/` | /best-ram-for-ryzen-9-3900x-and-3950x/ |
-| `content/best-gpu-for-ryzen-9-3900x-and-3950x/` | /best-gpu-for-ryzen-9-3900x-and-3950x/ |
-| `content/best-motherboard-for-ryzen-9-3950x/` | /best-motherboard-for-ryzen-9-3950x/ |
-| `content/best-pc-cases-for-ryzen-3000-series/` | /best-pc-cases-for-ryzen-3000-series/ |
-| `content/best-psu-under-100/` | /best-psu-under-100/ |
-| `content/best-graphics-card-under-100/` | /best-graphics-card-under-100/ |
-| `content/how-to-overclock-a-gpu/` | /how-to-overclock-a-gpu/ |
+| `lib/data.ts` | **All hardware data**: CPUs (cap, socket, specs, editorial blurb), GPUs (score, price, VRAM, lanes, watts), games, site config, Amazon tag |
+| `lib/recommend.ts` | Recommendation model (CPU ceiling × settings multipliers → picks, FPS, PSU, upgrade path) |
+| `lib/content.ts` | Long-form text, checklist and FAQ generated from CPU + settings |
+| `components/Finder.tsx` | Client picker + article (server-rendered with default settings, hydrates on client) |
+| `app/[slug]/page.tsx` | CPU page: metadata, JSON-LD, resolution ceiling table, internal links |
+| `app/og/[file]/route.tsx` | Per-CPU Open Graph images at `/og/best-gpu-for-{cpu}.png` |
 
-Each file starts with an HTML comment giving the recommended **title tag**, **meta description**,
-and **primary keyword** for that page — set those in Yoast/RankMath, they aren't picked up
-automatically from the HTML body.
+**Add a CPU:** append it to `CPUS` in `lib/data.ts` — its page, sitemap entry, OG image and
+internal links are generated automatically. **Update prices:** edit `GPUS` and bump `SITE.updated`.
 
-## Before publishing — replace placeholders
+All scores, ceilings and prices are editorial estimates on a shared scale (see `/methodology/`);
+replace them with real benchmark data / a live price feed as it becomes available.
 
-- Every "Check Price on Amazon →" button links to a real, working `amazon.com/s?k=...` search
-  URL, flagged with `<!-- TODO: swap for real affiliate link once available -->`. Swap these for
-  your actual Associates/affiliate links before publishing — as written they earn no commission.
-- Product images aren't included — add your own product photos where the review structure expects
-  them (each product review is a natural spot for a right-aligned or top image).
-- "Editor's Rating: X.X/5" scores are original editorial scores, not scraped Amazon data — keep
-  it that way rather than presenting them as real aggregate review counts.
+## SEO (Google + Bing)
 
-## Indexing new/updated pages
+- Every page is pre-rendered HTML: title/h1 "Best GPU for {CPU} Without Bottleneck", meta
+  description, canonical, Open Graph/Twitter cards with image.
+- JSON-LD: `Article`, `BreadcrumbList`, `ItemList`, `FAQPage` on CPU pages; `WebSite`,
+  `Organization`, `WebApplication`, `FAQPage` on the home page.
+- `sitemap.xml` and `robots.txt` generated from the CPU list.
+- Old WordPress URLs 301/308-redirect to the closest new page (`next.config.mjs`).
+- Affiliate links use `rel="sponsored nofollow"` with disclosures near price blocks.
+- Search console verification: set `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` and
+  `NEXT_PUBLIC_BING_SITE_VERIFICATION` (the `msvalidate.01` value) in Vercel env vars.
+- After each deploy, ping Bing/IndexNow with every sitemap URL:
 
-You mentioned a Bing IndexNow key. Once these are live on enthusiastreview.com:
-1. Host the key verification file at `https://enthusiastreview.com/<your-key>.txt`, containing
-   just the key on one line (requires access to the live WordPress file system — not available
-   from this session).
-2. Submit updated URLs with a POST to `https://api.indexnow.org/indexnow` (or `bing.com/indexnow`)
-   with your key and the list of the 14 URLs above. Many SEO plugins (RankMath, Yoast) have a
-   built-in IndexNow integration that automates this on publish/update — that's the simpler path
-   if you're not scripting it by hand.
+```bash
+npm run indexnow
+```
+
+  The key file is served from `public/<key>.txt`.
