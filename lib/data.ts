@@ -39,7 +39,7 @@ export type Gpu = {
 
 export const SITE = {
   name: "enthusiastreview",
-  url: "https://enthusiastreview.com",
+  url: "https://www.enthusiastreview.com",
   updated: "2026-11-01",
   amazonTag: "sktiger-20",
 };

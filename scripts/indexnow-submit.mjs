@@ -2,11 +2,11 @@
 // so new/updated pages are crawled right away. Run AFTER deploying:
 //
 //   npm run indexnow
-//   INDEXNOW_KEY=<key> SITE_URL=https://enthusiastreview.com npm run indexnow
+//   INDEXNOW_KEY=<key> SITE_URL=https://www.enthusiastreview.com npm run indexnow
 //
 // IndexNow verifies ownership by fetching https://<host>/<key>.txt, which lives in /public.
 
-const SITE_URL = (process.env.SITE_URL || "https://enthusiastreview.com").replace(/\/$/, "");
+const SITE_URL = (process.env.SITE_URL || "https://www.enthusiastreview.com").replace(/\/$/, "");
 const KEY = process.env.INDEXNOW_KEY || "7536e59e5b7e4ddbaea97af125d04122";
 const host = new URL(SITE_URL).host;
 
