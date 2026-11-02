@@ -1,44 +1,42 @@
-import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
-import "./globals.css";
+import type { Metadata, Viewport } from "next";
+import "@fontsource/archivo/latin-400.css";
+import "@fontsource/archivo/latin-600.css";
+import "@fontsource/archivo/latin-800.css";
+import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Analytics } from "@vercel/analytics/next";
+import { SITE } from "@/lib/data";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
-const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap" });
+const verificationOther: Record<string, string> = {};
+if (process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION) verificationOther["msvalidate.01"] = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION;
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://enthusiastreview.com"),
-  title: {
-    default: "EnthusiastReview — PC Hardware Buying Guides",
-    template: "%s | EnthusiastReview",
-  },
+  metadataBase: new URL(SITE.url),
+  title: { default: "GPU Bottleneck Finder: Best GPU for Your CPU | enthusiastreview", template: "%s | enthusiastreview" },
   description:
-    "Tested, compared, and ranked PC hardware buying guides — CPU coolers, GPUs, PSUs, cases, RAM, and motherboards.",
+    "Find the best graphics card for your CPU without a bottleneck. Pick your processor, resolution, refresh rate and budget to get a matched GPU with FPS estimates.",
+  applicationName: SITE.name,
+  alternates: { canonical: "/" },
+  openGraph: { type: "website", siteName: SITE.name, locale: "en_US", url: "/" },
+  twitter: { card: "summary_large_image" },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+    other: verificationOther,
+  },
+  formatDetection: { telephone: false },
 };
 
-const themeInitScript = `
-(function () {
-  try {
-    var stored = localStorage.getItem('theme');
-    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if (stored ? stored === 'dark' : prefersDark) {
-      document.documentElement.classList.add('dark');
-    }
-  } catch (e) {}
-})();
-`;
+export const viewport: Viewport = { themeColor: "#ec3013", width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${mono.variable}`}>
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
-      </head>
+    <html lang="en">
       <body>
+        <a className="skip" href="#main">Skip to content</a>
         <Header />
-        <main>{children}</main>
+        <main id="main">{children}</main>
         <Footer />
         <Analytics />
       </body>
