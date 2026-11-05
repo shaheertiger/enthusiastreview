@@ -36,6 +36,9 @@ const LIMIT = Number(process.argv[process.argv.indexOf('--limit') + 1]) || Infin
 
 for (const k of Object.keys(process.env).filter((k) => k.startsWith('AMAZON_CREATORS_')))
   process.env[k] = process.env[k].trim().replace(/^<(.*)>$/, '$1').trim();
+// Accept both naming styles (…CREDENTIAL_ID/SECRET as in Amazon's docs, …CLIENT_ID/SECRET as in older setups).
+process.env.AMAZON_CREATORS_CREDENTIAL_ID ||= process.env.AMAZON_CREATORS_CLIENT_ID;
+process.env.AMAZON_CREATORS_CREDENTIAL_SECRET ||= process.env.AMAZON_CREATORS_CLIENT_SECRET;
 for (const k of ['AMAZON_CREATORS_CREDENTIAL_ID', 'AMAZON_CREATORS_CREDENTIAL_SECRET', 'AMAZON_CREATORS_PARTNER_TAG'])
   if (!process.env[k]) {
     console.error(`Missing ${k}. Copy .env.example to .env and fill it in.`);
@@ -90,7 +93,8 @@ for (const f of fs.readdirSync(PAGES).filter((f) => f.endsWith('.json'))) {
 }
 
 const report = [];
-const todo = [...wanted].filter(([k]) => !catalog[k]?.asin || !catalog[k]?.image).slice(0, LIMIT);
+// Entries marked "skip" were reviewed by hand and have no correct Amazon listing; don't retry them.
+const todo = [...wanted].filter(([k]) => !catalog[k]?.skip && (!catalog[k]?.asin || !catalog[k]?.image)).slice(0, LIMIT);
 console.log(`${wanted.size} distinct products on the site; looking up ${todo.length} without an ASIN + photo.`);
 
 /* ---------- 1. verify existing ASINs (optional) ---------- */

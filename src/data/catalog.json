@@ -162,7 +162,8 @@
     "name": "Pro Breeze PB-02 Mini Dehumidifier",
     "asin": "",
     "image": "",
-    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
   },
   "pro-breeze-pb-03": {
     "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
@@ -212,7 +213,7 @@
   "waykar-34-pint": {
     "name": "Waykar 34-Pint ENERGY STAR Dehumidifier",
     "asin": "B0GT9WCDWK",
-    "image": ""
+    "image": "https://m.media-amazon.com/images/I/31sHaE6wi0L._SL500_.jpg"
   },
   "levoit-core-300s": {
     "name": "Levoit Core 300S Smart Air Purifier",
@@ -263,5 +264,379 @@
     "name": "Levoit LV600HH Warm and Cool Mist Humidifier",
     "asin": "B08FHZTYJB",
     "image": "https://m.media-amazon.com/images/I/41elLoQYNfL._SL500_.jpg"
+  },
+  "aprilaire-e130": {
+    "name": "Aprilaire E130 Whole-House Dehumidifier (130 Pints)",
+    "asin": "B094Q72F4B",
+    "image": "https://m.media-amazon.com/images/I/31KcKDhMqjL._SL500_.jpg"
+  },
+  "alorair-storm-elite-100-pint": {
+    "name": "AlorAir Storm Elite LGR Dehumidifier",
+    "asin": "B09X451F5N",
+    "image": "https://m.media-amazon.com/images/I/4130veDO26L._SL500_.jpg"
+  },
+  "ac-infinity-hydrone-5": {
+    "name": "AC Infinity HYDRONE 5 Plant Dehumidifier",
+    "asin": "B0GFPS5PZD",
+    "image": "https://m.media-amazon.com/images/I/31M7Y5mUQcL._SL500_.jpg"
+  },
+  "ac-infinity-hydrone-7": {
+    "name": "AC Infinity HYDRONE 7 Plant Dehumidifier",
+    "asin": "B0G7MB9LHJ",
+    "image": "https://m.media-amazon.com/images/I/31As+1s93xL._SL500_.jpg"
+  },
+  "aeocky-rhea-001": {
+    "name": "AEOCKY Rhea-001 Dehumidifier (sold as 80-pint)",
+    "asin": "B0FJ2M51KY",
+    "image": "https://m.media-amazon.com/images/I/31Uv-17gWcL._SL500_.jpg"
+  },
+  "aeocky-x1-pro": {
+    "name": "AEOCKY X1-Pro Desiccant Dehumidifier",
+    "asin": "B0FXXDJJJ3",
+    "image": "https://m.media-amazon.com/images/I/41mRluULHoL._SL500_.jpg"
+  },
+  "midea-duo-portable-ac": {
+    "name": "Midea Duo Smart Inverter Portable Air Conditioner",
+    "asin": "B0FC2SGGF9",
+    "image": "https://m.media-amazon.com/images/I/31jH14QaWyL._SL500_.jpg"
+  },
+  "midea-u-window-ac": {
+    "name": "Midea U-Shaped Inverter Window Air Conditioner",
+    "asin": "B0G34M7C1M",
+    "image": "https://m.media-amazon.com/images/I/41aC+tGtZpL._SL500_.jpg"
+  },
+  "whynter-arc-14s": {
+    "name": "Whynter ARC-14S 14,000 BTU Dual-Hose Portable Air Conditioner",
+    "asin": "B0028AYQDC",
+    "image": "https://m.media-amazon.com/images/I/31DL6kGhczL._SL500_.jpg"
+  },
+  "aprilaire-e070w": {
+    "name": "Aprilaire E070W Wi-Fi Dehumidifier (70 Pints)",
+    "asin": "B0FPXRSGBQ",
+    "image": "https://m.media-amazon.com/images/I/41ZU+te9EGL._SL500_.jpg"
+  },
+  "ruggard-30l": {
+    "name": "Ruggard Electronic Dry Cabinet (30L)",
+    "asin": "B0DND6YMW3",
+    "image": "https://m.media-amazon.com/images/I/415PuQ8eO5L._SL500_.jpg"
+  },
+  "eva-dry-e-500": {
+    "name": "Eva-Dry E-500 Renewable Dehumidifier",
+    "asin": "B00BD0FN8A",
+    "image": "https://m.media-amazon.com/images/I/31t-rzUrIfL._SL500_.jpg"
+  },
+  "damprid-hanging": {
+    "name": "DampRid Hanging Moisture Absorber",
+    "asin": "B09QXT95G6",
+    "image": "https://m.media-amazon.com/images/I/41o4RTN1WzL._SL500_.jpg"
+  },
+  "alorair-storm-elite": {
+    "name": "AlorAir Storm Elite LGR Dehumidifier",
+    "asin": "B09X451F5N",
+    "image": "https://m.media-amazon.com/images/I/4130veDO26L._SL500_.jpg"
+  },
+  "dri-eaz-lgr-7000xli": {
+    "name": "Dri-Eaz LGR 7000XLi Dehumidifier",
+    "asin": "B00AB24XIW",
+    "image": "https://m.media-amazon.com/images/I/41+XiKGPMtL._SL500_.jpg"
+  },
+  "costway-32-pint": {
+    "name": "Costway 32-Pint Dehumidifier (2,000 Sq. Ft.)",
+    "asin": "B0FNCXHPR8",
+    "image": "https://m.media-amazon.com/images/I/21maYEq+czL._SL500_.jpg"
+  },
+  "vornado-660-air-circulator": {
+    "name": "Vornado 660 Large Room Air Circulator",
+    "asin": "B0025QKUE8",
+    "image": "https://m.media-amazon.com/images/I/41pNm1-Ap7L._SL500_.jpg"
+  },
+  "homelabs-32-pint-wifi": {
+    "name": "hOmeLabs 32-Pint Wi-Fi Dehumidifier",
+    "asin": "B06X9MFTZZ",
+    "image": "https://m.media-amazon.com/images/I/41MNK1ecLyL._SL500_.jpg"
+  },
+  "waykar-158-pint-dual-duct": {
+    "name": "Waykar 158-Pint Dual Duct Commercial Dehumidifier",
+    "asin": "B0FQJM5NRR",
+    "image": "https://m.media-amazon.com/images/I/41F+d7F2HQL._SL500_.jpg"
+  },
+  "davis-air-dryr-1000": {
+    "name": "Davis Instruments Air-Dryr 1000",
+    "asin": "B0014TMXVA",
+    "image": "https://m.media-amazon.com/images/I/41HKrLqe5PL._SL500_.jpg"
+  },
+  "davis-air-dryr-500": {
+    "name": "Davis Instruments Air-Dryr 500",
+    "asin": "B085W86W6G",
+    "image": "https://m.media-amazon.com/images/I/41TGToT5EdL._SL500_.jpg"
+  },
+  "acurite-01080m": {
+    "name": "AcuRite 01080M Pro Digital Hygrometer",
+    "asin": "B000XTJRRA",
+    "image": "https://m.media-amazon.com/images/I/51DuTVQwnRL._SL500_.jpg"
+  },
+  "pro-breeze-electric-mini": {
+    "name": "Pro Breeze Electric Mini Dehumidifier",
+    "asin": "B01DC5PPWM",
+    "image": "https://m.media-amazon.com/images/I/41VPIA+M0RL._SL500_.jpg"
+  },
+  "wisedry-rechargeable": {
+    "name": "WiseDry Rechargeable Desiccant Dehumidifier",
+    "asin": "B0781BR7V7",
+    "image": "https://m.media-amazon.com/images/I/51pHUtcOd3L._SL500_.jpg"
+  },
+  "waykar-80-pint": {
+    "name": "Waykar 80-Pint Dehumidifier",
+    "asin": "B0B5V2YZPZ",
+    "image": "https://m.media-amazon.com/images/I/21VmSDJgC7L._SL500_.jpg"
+  },
+  "vivosun-aerodrain-d12": {
+    "name": "VIVOSUN AeroDrain D12 Dehumidifier",
+    "asin": "B0F43NRD96",
+    "image": "https://m.media-amazon.com/images/I/41VRpLwasLL._SL500_.jpg"
+  },
+  "pro-breeze-mini-electric": {
+    "name": "Pro Breeze Mini Electric Dehumidifier",
+    "asin": "B01DC5PPWM",
+    "image": "https://m.media-amazon.com/images/I/41VPIA+M0RL._SL500_.jpg"
+  },
+  "perfectdry-lux": {
+    "name": "PerfectDry LUX Hearing Aid Dryer",
+    "asin": "B096BMPS64",
+    "image": "https://m.media-amazon.com/images/I/31pgZg9EVnL._SL500_.jpg"
+  },
+  "dry-and-store-zephyr": {
+    "name": "Dry & Store Zephyr Hearing Aid Dryer",
+    "asin": "B001CNGUQC",
+    "image": "https://m.media-amazon.com/images/I/311XbgYflxS._SL500_.jpg"
+  },
+  "eva-dry-edv-4000": {
+    "name": "Eva-Dry EDV-4000 Rotary Desiccant Dehumidifier",
+    "asin": "B00GOZ1XLK",
+    "image": "https://m.media-amazon.com/images/I/21AEXBSoSZL._SL500_.jpg"
+  },
+  "damprid-hi-capacity-fg50t": {
+    "name": "DampRid Hi-Capacity Moisture Absorber (FG50T, 4 lb)",
+    "asin": "B078HJ4M81",
+    "image": "https://m.media-amazon.com/images/I/51nlmtAjSHL._SL500_.jpg"
+  },
+  "silica-gel-packets": {
+    "name": "Rechargeable Silica Gel Packets (Shoe or Box Size)",
+    "asin": "B00DYKTS9C",
+    "image": "https://m.media-amazon.com/images/I/51ioFKpJqOL._SL500_.jpg"
+  },
+  "damprid-fg50t": {
+    "name": "DampRid Hi-Capacity Moisture Absorber (FG50T, 4 lb)",
+    "asin": "B078HJ4M81",
+    "image": "https://m.media-amazon.com/images/I/51nlmtAjSHL._SL500_.jpg"
+  },
+  "wisesorb-100g-packs": {
+    "name": "Wisesorb 100g Rechargeable Silica Gel Desiccant Packs",
+    "asin": "B0FGJJSCSK",
+    "image": "https://m.media-amazon.com/images/I/51cdjZuhT2L._SL500_.jpg"
+  },
+  "archival-poly-outer-sleeves": {
+    "name": "Archival-Quality Poly Record Outer Sleeves",
+    "asin": "B001716LMM",
+    "image": "https://m.media-amazon.com/images/I/41RXAro1ulL._SL500_.jpg"
+  },
+  "xpower-xd-85l2": {
+    "name": "XPOWER XD-85L2 Commercial LGR Dehumidifier",
+    "asin": "B07FKPFYGS",
+    "image": "https://m.media-amazon.com/images/I/411fFtnWC3L._SL500_.jpg"
+  },
+  "waykar-energy-star-pump": {
+    "name": "Waykar ENERGY STAR Dehumidifier with Pump (marketed as 150-Pint)",
+    "asin": "B0D1R9C6B8",
+    "image": "https://m.media-amazon.com/images/I/31Knh4cqF6L._SL500_.jpg"
+  },
+  "dri-eaz-lgr-6000li": {
+    "name": "Dri-Eaz LGR 6000Li Low-Grain Refrigerant Dehumidifier",
+    "asin": "B07L6WN5P5",
+    "image": "https://m.media-amazon.com/images/I/41uQ6NKLAqL._SL500_.jpg"
+  },
+  "dri-eaz-lgr-5000li": {
+    "name": "Dri-Eaz LGR 5000Li Low-Grain Refrigerant Dehumidifier",
+    "asin": "B0FHC18RJ2",
+    "image": "https://m.media-amazon.com/images/I/41J1zRB9CJL._SL500_.jpg"
+  },
+  "dri-eaz-lgr-3500i": {
+    "name": "Dri-Eaz LGR 3500i Low-Grain Refrigerant Dehumidifier",
+    "asin": "B00AB24VVG",
+    "image": "https://m.media-amazon.com/images/I/41DqvMBh3LL._SL500_.jpg"
+  },
+  "hisense-25-pint": {
+    "name": "Hisense 25-Pint ENERGY STAR Dehumidifier",
+    "asin": "B0GWFVMHZK",
+    "image": "https://m.media-amazon.com/images/I/31lSZkwbUlL._SL500_.jpg"
+  },
+  "hisense-35-pint": {
+    "name": "Hisense 35-Pint ENERGY STAR Dehumidifier",
+    "asin": "B0DBWY4W7S",
+    "image": "https://m.media-amazon.com/images/I/2137YvPm2uL._SL500_.jpg"
+  },
+  "hisense-50-pint-pump": {
+    "name": "Hisense 50-Pint Dehumidifier with Pump",
+    "asin": "B0GWFVLJF3",
+    "image": "https://m.media-amazon.com/images/I/31ZENNl8L0L._SL500_.jpg"
+  },
+  "kesnos-150-pint-pump": {
+    "name": "Kesnos 150-Pint Dehumidifier with Pump",
+    "asin": "B0GX1SLRD5",
+    "image": "https://m.media-amazon.com/images/I/31cYABv2YzL._SL500_.jpg"
+  },
+  "kesnos-216-pint-commercial": {
+    "name": "Kesnos 216-Pint Commercial Dehumidifier",
+    "asin": "B0CN6VW442",
+    "image": "https://m.media-amazon.com/images/I/41iOeiBoK-L._SL500_.jpg"
+  },
+  "damprid-refillable": {
+    "name": "DampRid Refillable Moisture Absorber (10.5 oz)",
+    "asin": "B09QXT1ZK1",
+    "image": "https://m.media-amazon.com/images/I/51e4Zh8h6PL._SL500_.jpg"
+  },
+  "damprid-hi-capacity": {
+    "name": "DampRid Hi-Capacity Moisture Absorber (4 lb, FG50T)",
+    "asin": "B078HJ4M81",
+    "image": "https://m.media-amazon.com/images/I/51nlmtAjSHL._SL500_.jpg"
+  },
+  "moiswell-70-pint": {
+    "name": "Moiswell 70 Pint Dehumidifier",
+    "asin": "B0DCZN7FCR",
+    "image": "https://m.media-amazon.com/images/I/41rHEoiCh9L._SL500_.jpg"
+  },
+  "perfect-aire-35-pint": {
+    "name": "Perfect Aire 35-Pint Flat Panel Dehumidifier",
+    "asin": "B0H56WHWMF",
+    "image": "https://m.media-amazon.com/images/I/31Hi9WPUzkL._SL500_.jpg"
+  },
+  "perfect-aire-50-pint": {
+    "name": "Perfect Aire 50-Pint Flat Panel Dehumidifier (1PFD50)",
+    "asin": "B07Z11QWRY",
+    "image": "https://m.media-amazon.com/images/I/31Rva6isnqL._SL500_.jpg"
+  },
+  "phoenix-d385": {
+    "name": "Phoenix D385 Desiccant Dehumidifier",
+    "asin": "B0074IEZC0",
+    "image": "https://m.media-amazon.com/images/I/51tqALBz8CL._SL500_.jpg"
+  },
+  "pro-breeze-50-pint": {
+    "name": "Pro Breeze 50-Pint Compressor Dehumidifier",
+    "asin": "B077GZ3TVS",
+    "image": "https://m.media-amazon.com/images/I/31zwTv4bSIL._SL500_.jpg"
+  },
+  "eva-dry-e-500-rechargeable": {
+    "name": "Eva-Dry E-500 Renewable Wireless Dehumidifier",
+    "asin": "B00BD0FN8A",
+    "image": "https://m.media-amazon.com/images/I/31t-rzUrIfL._SL500_.jpg"
+  },
+  "keystone-35-pint": {
+    "name": "Keystone 35-Pint Dehumidifier with Electronic Controls",
+    "asin": "B0GVLCB765",
+    "image": "https://m.media-amazon.com/images/I/21gqfRq3fgL._SL500_.jpg"
+  },
+  "shinco-200-pint-industrial": {
+    "name": "Shinco 200-Pint Industrial Dehumidifier",
+    "asin": "B0H5VZNW41",
+    "image": "https://m.media-amazon.com/images/I/31Wejfsxy1L._SL500_.jpg"
+  },
+  "tcl-tdw20e20": {
+    "name": "TCL 20-Pint Dehumidifier (TDW20E20)",
+    "asin": "B09FKMLZBR",
+    "image": "https://m.media-amazon.com/images/I/31526VPK1GS._SL500_.jpg"
+  },
+  "santa-fe-ultramd33": {
+    "name": "Santa Fe UltraMD33 In-Wall Dehumidifier",
+    "asin": "B0DS2VPWL3",
+    "image": "https://m.media-amazon.com/images/I/31KvHLj8UZL._SL500_.jpg"
+  },
+  "midea-22-pint-wifi": {
+    "name": "Midea 22-Pint Smart Dehumidifier (Wi-Fi/Alexa)",
+    "asin": "B07NRDBBH5",
+    "image": "https://m.media-amazon.com/images/I/31Z47hoRk4L._SL500_.jpg"
+  },
+  "ac-infinity-hydrone-3": {
+    "name": "AC Infinity HYDRONE 3 Plant Dehumidifier",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "quest-dual-105-overhead": {
+    "name": "Quest Dual 105 Overhead Dehumidifier",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "hornady-rechargeable-dehumidifier": {
+    "name": "Hornady Rechargeable Gun Safe Dehumidifier",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "quest-dual-205": {
+    "name": "Quest Dual 205 Overhead Dehumidifier",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "quest-dual-155": {
+    "name": "quest-dual-155",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "black-decker-bdt30wtb": {
+    "name": "black-decker-bdt30wtb",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "afloia-q10": {
+    "name": "afloia-q10",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "hisense-50-pint-3-speed": {
+    "name": "hisense-50-pint-3-speed",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "sanidry-sedona": {
+    "name": "sanidry-sedona",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "shinco-sdl-30p": {
+    "name": "shinco-sdl-30p",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "toshiba-tddp3513es2": {
+    "name": "toshiba-tddp3513es2",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "toshiba-tddp5013es2": {
+    "name": "toshiba-tddp5013es2",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
   }
 }
