@@ -635,5 +635,75 @@
     "image": "",
     "skip": true,
     "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "airplus-70-pint": {
+    "name": "AirPlus 70 Pint Dehumidifier with Drain Hose (4,500 sq ft)",
+    "asin": "B0CC2DR9GM",
+    "image": "https://m.media-amazon.com/images/I/31riwobe2lL._SL500_.jpg"
+  },
+  "airplus-max-30-pint": {
+    "name": "AirPlus Max 30 Pint Tall Dehumidifier",
+    "asin": "B08694X9QW",
+    "image": "https://m.media-amazon.com/images/I/31YMpTb2fJL._SL500_.jpg"
+  },
+  "airplus-max-50-pint": {
+    "name": "AirPlus Max 50 Pint Tall Dehumidifier",
+    "asin": "B0F47LZB7B",
+    "image": "https://m.media-amazon.com/images/I/41nwKzCesgL._SL500_.jpg"
+  },
+  "airplus-max-70-pint": {
+    "name": "AirPlus Max 70 Pint Quiet Dehumidifier",
+    "asin": "B0FPQJKCC1",
+    "image": "https://m.media-amazon.com/images/I/21q1DYzWtpL._SL500_.jpg"
+  },
+  "airplus-max-26-pint": {
+    "name": "AirPlus Max 26 Pint Small Dehumidifier",
+    "asin": "B0HF7565LQ",
+    "image": "https://m.media-amazon.com/images/I/21cTZEpbJtL._SL500_.jpg"
+  },
+  "goveelife-dehumidifier-4500": {
+    "name": "GoveeLife Smart Dehumidifier (4,500 sq ft)",
+    "asin": "B0BR7RHQB9",
+    "image": "https://m.media-amazon.com/images/I/31Oqr45fIgL._SL500_.jpg"
+  },
+  "goveelife-dehumidifier-pump": {
+    "name": "GoveeLife Smart Dehumidifier with Pump (4,500 sq ft)",
+    "asin": "B0DZ2H3RQ1",
+    "image": "https://m.media-amazon.com/images/I/31Oqr45fIgL._SL500_.jpg"
+  },
+  "dreo-75-pint": {
+    "name": "Dreo 75 Pint Smart Dehumidifier (ENERGY STAR)",
+    "asin": "B0GXYD5JBY",
+    "image": "https://m.media-amazon.com/images/I/31I2+KSy+VL._SL500_.jpg"
+  },
+  "dreo-95-pint": {
+    "name": "Dreo 95 Pint Smart Dehumidifier (ENERGY STAR)",
+    "asin": "B0GXY1WBCB",
+    "image": "https://m.media-amazon.com/images/I/31OBTBqeJpL._SL500_.jpg"
+  },
+  "dreo-110-pint": {
+    "name": "Dreo 110 Pint Smart Dehumidifier",
+    "asin": "B0F83XFNTB",
+    "image": "https://m.media-amazon.com/images/I/31W1P5NWicL._SL500_.jpg"
+  },
+  "tenergy-sorbi": {
+    "name": "Tenergy Sorbi 1000ml Dehumidifier with True HEPA Filter",
+    "asin": "B07C7H2MRN",
+    "image": "https://m.media-amazon.com/images/I/51M9qlYsZZL._SL500_.jpg"
+  },
+  "airthereal-zephyr-azh200": {
+    "name": "Airthereal Zephyr AZH200 Air Purifier and Dehumidifier Combo",
+    "asin": "B0GWPJJTT7",
+    "image": "https://m.media-amazon.com/images/I/419joFSRjeL._SL500_.jpg"
+  },
+  "thecosky-dehumidifier-purifier": {
+    "name": "Thecosky Dehumidifier and Air Purifier Combo (HEPA H13)",
+    "asin": "B09W9TPJGZ",
+    "image": "https://m.media-amazon.com/images/I/51pVTVMwHbL._SL500_.jpg"
+  },
+  "aircyan-32-pint": {
+    "name": "AirCyan 32 Pint Dehumidifier with HEPA Filter",
+    "asin": "B0F4QBNW1Z",
+    "image": "https://m.media-amazon.com/images/I/31lfOOrSXqL._SL500_.jpg"
   }
 }

@@ -176,11 +176,15 @@ const BRAND_TERMS: [RegExp, string][] = [
   [/\bQuest\b/, 'quest'], [/\bPhoenix\b/, 'phoenix'], [/\bMeaco\b/i, 'meaco'], [/\bSaniDry\b/i, 'sanidry'],
   [/\bHornady\b/, 'hornady'], [/\bAC Infinity\b/i, 'ac-infinity'], [/\bAnden\b/, 'anden'], [/\bMoiswell\b/i, 'moiswell'],
   [/\bAce Hardware\b/i, 'ace-hardware'],
+  [/\bAirPlus\b/i, 'airplus'], [/\bGovee(?:Life)?\b/i, 'govee'], [/\bDreo\b/i, 'dreo'],
 ];
 
 /** Topic phrases (first mention) → page. Order matters: more specific first. */
 const TOPIC_TERMS: [RegExp, string][] = [
+  [/\bencapsulated crawl ?spaces?\b|\bsealed crawl ?spaces?\b/i, '/best/best-encapsulated-crawl-space-dehumidifier/'],
   [/\bcrawl ?spaces?\b/i, '/best/best-crawl-space-dehumidifier/'],
+  [/\bpermanent(?:ly installed)? (?:basement )?(?:dehumidifiers?|units?)\b/i, '/best/best-permanent-basement-dehumidifier/'],
+  [/\b50-pint (?:dehumidifiers? |units? |models? )?with (?:a )?(?:built-in )?pump\b/i, '/best/best-50-pint-dehumidifier-with-pump/'],
   [/\bfinished basements?\b/i, '/best/best-dehumidifier-for-finished-basement/'],
   [/\bbasements?\b/i, '/best/best-dehumidifier-for-basement/'],
   [/\b(?:ducted|HVAC-integrated|in-?line) dehumidifiers?\b/i, '/best/best-ducted-dehumidifier/'],
@@ -218,6 +222,15 @@ const TOPIC_TERMS: [RegExp, string][] = [
   [/\bdust mites?\b/i, '/best/best-dehumidifier-for-dust-mites/'],
   [/\ballerg(?:y|ies)\b/i, '/best/best-dehumidifier-for-allergies/'],
   [/\bsilverfish\b/i, '/best/best-dehumidifier-for-silverfish/'],
+  [/\bfleas\b/i, '/best/best-dehumidifier-for-fleas/'],
+  [/\b(?:smoke (?:smell|odor)s?|cigarette smoke)\b/i, '/best/best-dehumidifier-for-smoke-smell/'],
+  [/\b(?:wood|lumber|solar) kilns?\b|\bdrying lumber\b/i, '/best/best-dehumidifier-for-wood-kiln/'],
+  [/\b(?:vacation|second|seasonal) homes?\b/i, '/best/best-dehumidifier-for-vacation-home/'],
+  [/\brental propert(?:y|ies)\b|\blandlords?\b/i, '/best/best-dehumidifier-for-rental-property/'],
+  [/\bFlorida\b|\bhumid climates?\b|\bGulf Coast\b/, '/best/best-dehumidifier-for-humid-climates/'],
+  [/\b(?:workshops?|wood ?shops?)\b/i, '/best/best-dehumidifier-for-workshop/'],
+  [/\b(?:car|vehicle|classic car|motorcycle) storage\b|\bstored (?:cars?|vehicles?)\b/i, '/best/best-dehumidifier-for-car-storage/'],
+  [/\b(?:books?|bookshelves|documents|old photographs)\b/i, '/best/best-dehumidifier-for-books/'],
   [/\bcentipedes?\b/i, '/best/best-dehumidifier-for-centipedes/'],
   [/\b(?:cock)?roaches\b/i, '/best/best-dehumidifier-for-cockroaches/'],
   [/\bwater damage\b/i, '/best/best-dehumidifier-for-water-damage/'],
