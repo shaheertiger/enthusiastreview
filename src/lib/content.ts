@@ -171,6 +171,9 @@ const BRAND_TERMS: [RegExp, string][] = [
   [/\bAmana\b/, 'amana'], [/\bFriedrich\b/, 'friedrich'], [/\bCostway\b/, 'costway'], [/\bVremi\b/, 'vremi'], [/\bYaufey\b/i, 'yaufey'],
   [/\bShinco\b/, 'shinco'], [/\bTOSOT\b/i, 'tosot'], [/\bKesnos\b/i, 'kesnos'], [/\bPerfect Aire\b/i, 'perfect-aire'],
   [/\bWhynter\b/, 'whynter'], [/\bAEOCKY\b/i, 'aeocky'],
+  [/\bQuest\b/, 'quest'], [/\bPhoenix\b/, 'phoenix'], [/\bMeaco\b/i, 'meaco'], [/\bSaniDry\b/i, 'sanidry'],
+  [/\bHornady\b/, 'hornady'], [/\bAC Infinity\b/i, 'ac-infinity'], [/\bAnden\b/, 'anden'], [/\bMoiswell\b/i, 'moiswell'],
+  [/\bAce Hardware\b/i, 'ace-hardware'],
 ];
 
 /** Topic phrases (first mention) → page. Order matters: more specific first. */
@@ -178,7 +181,17 @@ const TOPIC_TERMS: [RegExp, string][] = [
   [/\bcrawl ?spaces?\b/i, '/best/best-crawl-space-dehumidifier/'],
   [/\bfinished basements?\b/i, '/best/best-dehumidifier-for-finished-basement/'],
   [/\bbasements?\b/i, '/best/best-dehumidifier-for-basement/'],
+  [/\b(?:ducted|HVAC-integrated|in-?line) dehumidifiers?\b/i, '/best/best-ducted-dehumidifier/'],
   [/\bwhole-(?:house|home) (?:dehumidifiers?|systems?|units?)\b/i, '/best/best-whole-house-dehumidifier/'],
+  [/\bmini[- ]?splits?\b/i, '/best/best-dehumidifier-for-mini-split/'],
+  [/\bportable (?:air conditioners?|ACs?)\b/i, '/best/best-air-conditioner-dehumidifier/'],
+  [/\bdehumidifier rods?\b|\bGoldenRod\b/i, '/best/best-dehumidifier-rod/'],
+  [/\brechargeable\b/i, '/best/best-rechargeable-dehumidifier/'],
+  [/\b(?:refrigerators?|fridges?)\b/i, '/best/best-refrigerator-dehumidifier/'],
+  [/\b(?:fresh(?:ly)? paint(?:ed)?|drying paint)\b/i, '/best/best-dehumidifier-for-paint-drying/'],
+  [/\b(?:100|120|130|150)[- ]pints?\b/i, '/best/best-100-pint-dehumidifier/'],
+  [/\b(?:compressor dehumidifiers?|thermoelectric|Peltier)\b/i, '/best/best-compressor-dehumidifier/'],
+  [/\bhumidifier[- ]dehumidifier combos?\b|\b2-in-1 (?:humidifier|dehumidifier)\b/i, '/best/best-dehumidifier-humidifier-combo/'],
   [/\bdesiccant\b/i, '/best/best-desiccant-dehumidifier/'],
   [/\b(?:built-in|condensate) pumps?\b/i, '/best/best-dehumidifier-with-pump/'],
   [/\b(?:drain hose|gravity drain(?:age)?)\b/i, '/best/best-dehumidifier-with-drain-hose/'],
