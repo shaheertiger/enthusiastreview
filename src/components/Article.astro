@@ -21,7 +21,8 @@ const products = page.products ?? [];
 const isList = page.section === 'best' && products.length > 0;
 const isCompare = page.section === 'compare';
 const images = products.map((p) => productImage(p)).filter(Boolean) as string[];
-const heroImgs = images.slice(0, 3);
+// Hero shows the first three products that have a photo; caption and links use the same list.
+const heroItems = products.map((p) => ({ p, src: productImage(p) })).filter((x): x is { p: (typeof products)[number]; src: string } => Boolean(x.src)).slice(0, 3);
 const related = relatedPages(page, 8);
 const shortName = (p: (typeof products)[number]) => p.shortName ?? p.name;
 // Bolded product names anywhere in the copy become affiliate links.
@@ -110,12 +111,12 @@ const jsonLd = {
       <a href="/how-we-review/">Learn more about how we review.</a>
     </p>
 
-    {heroImgs.length > 0 && (
+    {heroItems.length > 0 && (
       <figure class="hero-figure">
-        <div class="hero-collage" style={`--n:${heroImgs.length}`}>
-          {heroImgs.map((src, i) => <a class="hc-item" href={amazonLink(products[i])} rel={SPONSORED} target="_blank" aria-label={`${shortName(products[i])} on Amazon`}><img src={src} alt={shortName(products[i])} loading="eager" referrerpolicy="no-referrer" width="500" height="500" /></a>)}
+        <div class="hero-collage" style={`--n:${heroItems.length}`}>
+          {heroItems.map(({ p, src }) => <a class="hc-item" href={amazonLink(p)} rel={SPONSORED} target="_blank" aria-label={`${shortName(p)} on Amazon`}><img src={src} alt={shortName(p)} loading="eager" referrerpolicy="no-referrer" width="500" height="500" /></a>)}
         </div>
-        <figcaption>{products.slice(0, heroImgs.length).map(shortName).join(' · ')}</figcaption>
+        <figcaption>{heroItems.map(({ p }) => shortName(p)).join(' · ')}</figcaption>
       </figure>
     )}
 
