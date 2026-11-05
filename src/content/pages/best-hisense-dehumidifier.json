@@ -121,9 +121,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "0", "label": "Current Hisense dehumidifiers with Wi-Fi or app control" },
-            { "value": "4,500 sq ft", "label": "Top coverage claim, shared by both 50-pint models" },
-            { "value": "24–48 hrs", "label": "How fast mold can start on damp surfaces, per the EPA" }
+            {
+              "value": "0",
+              "label": "Current Hisense dehumidifiers with Wi-Fi or app control"
+            },
+            {
+              "value": "4,500 sq ft",
+              "label": "Top coverage claim, shared by both 50-pint models"
+            },
+            {
+              "value": "24–48 hrs",
+              "label": "How fast mold can start on damp surfaces, per the EPA"
+            }
           ]
         }
       ]
@@ -138,7 +147,7 @@
         },
         {
           "type": "p",
-          "text": "We also compare each Hisense with similarly sized units from Frigidaire, Midea and hOmeLabs, since a lower price only matters if the rest of the package holds up."
+          "text": "We also compare each Hisense with similarly sized units from Frigidaire, Midea and hOmeLabs, since a lower price only matters if the rest of the package holds up. Where Hisense's coverage claims and pint ratings disagree, we size by the square-footage claim and flag the discrepancy."
         }
       ]
     },
