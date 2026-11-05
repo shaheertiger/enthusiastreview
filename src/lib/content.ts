@@ -230,7 +230,7 @@ const TOPIC_TERMS: [RegExp, string][] = [
   [/\bFlorida\b|\bhumid climates?\b|\bGulf Coast\b/, '/best/best-dehumidifier-for-humid-climates/'],
   [/\b(?:workshops?|wood ?shops?)\b/i, '/best/best-dehumidifier-for-workshop/'],
   [/\b(?:car|vehicle|classic car|motorcycle) storage\b|\bstored (?:cars?|vehicles?)\b/i, '/best/best-dehumidifier-for-car-storage/'],
-  [/\b(?:books?|bookshelves|documents|old photographs)\b/i, '/best/best-dehumidifier-for-books/'],
+  [/\b(?:books|book collections?|bookshelves|documents|old photographs)\b/i, '/best/best-dehumidifier-for-books/'],
   [/\bcentipedes?\b/i, '/best/best-dehumidifier-for-centipedes/'],
   [/\b(?:cock)?roaches\b/i, '/best/best-dehumidifier-for-cockroaches/'],
   [/\bwater damage\b/i, '/best/best-dehumidifier-for-water-damage/'],

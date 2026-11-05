@@ -162,9 +162,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "Under 60%", "label": "Indoor humidity the EPA recommends to limit mold growth" },
-            { "value": "24–48 hrs", "label": "How soon mold can start on damp materials, per the EPA" },
-            { "value": "45–50%", "label": "A sensible dehumidifier setting while you're away" }
+            {
+              "value": "Under 60%",
+              "label": "Indoor humidity the EPA recommends to limit mold growth"
+            },
+            {
+              "value": "24–48 hrs",
+              "label": "How soon mold can start on damp materials, per the EPA"
+            },
+            {
+              "value": "45–50%",
+              "label": "A sensible dehumidifier setting while you're away"
+            }
           ]
         },
         {
@@ -200,7 +209,7 @@
             },
             {
               "label": "Drainage that needs no one",
-              "text": "A pump or a gravity hose, never the bucket alone. Our [drain hose](/best/best-dehumidifier-with-drain-hose/) and [pump](/best/best-dehumidifier-with-pump/) guides cover both."
+              "text": "A pump or a gravity hose, never the bucket alone. Our [dehumidifier with pump](/best/best-dehumidifier-with-pump/) guide covers self-draining models."
             },
             {
               "label": "Two layers of alerts",
@@ -232,7 +241,7 @@
         },
         {
           "type": "p",
-          "text": "In hot, humid climates, don't switch the air conditioning off entirely. Many owners set the thermostat in the low-to-mid 80s while away and let a dehumidifier handle moisture, since a lightly cooled house holds humidity better than a sealed, sun-baked one. Our [humid climates](/best/best-dehumidifier-for-humid-climates/) guide goes deeper, and our [dehumidifier vs. air conditioner](/guides/dehumidifier-vs-air-conditioner/) guide explains how the two share the load."
+          "text": "In hot, humid climates, don't switch the air conditioning off entirely. Many owners set the thermostat in the low-to-mid 80s while away and let a dehumidifier handle moisture, since a lightly cooled house holds humidity better than a sealed, sun-baked one. Our [humid climates](/best/best-dehumidifier-for-humid-climates/) guide goes deeper."
         },
         {
           "type": "h3",
@@ -271,7 +280,7 @@
         {
           "type": "callout",
           "title": "Smell something when you get back?",
-          "text": "A musty odor means humidity got away from you. Our [musty smell](/best/best-dehumidifier-for-musty-smell/) guide covers the cleanup, and [does a dehumidifier help with mold](/guides/does-a-dehumidifier-help-with-mold/) explains what a dehumidifier can and can't fix."
+          "text": "A musty odor means humidity got away from you. Find and dry the source first; [does a dehumidifier help with mold](/guides/does-a-dehumidifier-help-with-mold/) explains what a dehumidifier can and can't fix."
         }
       ]
     },

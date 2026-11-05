@@ -467,8 +467,10 @@
   },
   "hisense-35-pint": {
     "name": "Hisense 35-Pint ENERGY STAR Dehumidifier",
-    "asin": "B0DBWY4W7S",
-    "image": "https://m.media-amazon.com/images/I/2137YvPm2uL._SL500_.jpg"
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Matched listing (B0DBWY4W7S) is a Renewed/refurbished unit; cleared."
   },
   "hisense-50-pint-pump": {
     "name": "Hisense 50-Pint Dehumidifier with Pump",
