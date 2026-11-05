@@ -162,7 +162,7 @@
     "name": "Pro Breeze PB-02 Mini Dehumidifier",
     "asin": "",
     "image": "",
-    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
+    "note": "Matched an accessory/wrong listing; cleared."
   },
   "pro-breeze-pb-03": {
     "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
@@ -284,16 +284,6 @@
     "asin": "B0G7MB9LHJ",
     "image": "https://m.media-amazon.com/images/I/31As+1s93xL._SL500_.jpg"
   },
-  "ac-infinity-hydrone-3": {
-    "name": "AC Infinity HYDRONE 3 Plant Dehumidifier",
-    "asin": "B0GFPS5PZD",
-    "image": "https://m.media-amazon.com/images/I/31M7Y5mUQcL._SL500_.jpg"
-  },
-  "quest-dual-155": {
-    "name": "Quest Dual 155 Overhead Dehumidifier",
-    "asin": "B0HMHRHRHM",
-    "image": "https://m.media-amazon.com/images/I/41Z5LPeCdbL._SL500_.jpg"
-  },
   "aeocky-rhea-001": {
     "name": "AEOCKY Rhea-001 Dehumidifier (sold as 80-pint)",
     "asin": "B0FJ2M51KY",
@@ -324,11 +314,6 @@
     "asin": "B0FPXRSGBQ",
     "image": "https://m.media-amazon.com/images/I/41ZU+te9EGL._SL500_.jpg"
   },
-  "black-decker-bdt30wtb": {
-    "name": "BLACK+DECKER 30-Pint Dehumidifier (BDT30WTB)",
-    "asin": "B0HL8NQ97D",
-    "image": "https://m.media-amazon.com/images/I/31PQqlJBz0L._SL500_.jpg"
-  },
   "ruggard-30l": {
     "name": "Ruggard Electronic Dry Cabinet (30L)",
     "asin": "B0DND6YMW3",
@@ -358,11 +343,6 @@
     "name": "Costway 32-Pint Dehumidifier (2,000 Sq. Ft.)",
     "asin": "B0FNCXHPR8",
     "image": "https://m.media-amazon.com/images/I/21maYEq+czL._SL500_.jpg"
-  },
-  "afloia-q10": {
-    "name": "Afloia Q10 Dehumidifier and Air Purifier",
-    "asin": "B0CW625W19",
-    "image": "https://m.media-amazon.com/images/I/41G6m9FrMTL._SL500_.jpg"
   },
   "vornado-660-air-circulator": {
     "name": "Vornado 660 Large Room Air Circulator",
@@ -408,11 +388,6 @@
     "name": "Waykar 80-Pint Dehumidifier",
     "asin": "B0B5V2YZPZ",
     "image": "https://m.media-amazon.com/images/I/21VmSDJgC7L._SL500_.jpg"
-  },
-  "quest-dual-105-overhead": {
-    "name": "Quest Dual 105 Overhead Dehumidifier",
-    "asin": "B0HMHRHRHM",
-    "image": "https://m.media-amazon.com/images/I/41Z5LPeCdbL._SL500_.jpg"
   },
   "vivosun-aerodrain-d12": {
     "name": "VIVOSUN AeroDrain D12 Dehumidifier",
@@ -488,5 +463,95 @@
     "name": "Dri-Eaz LGR 3500i Low-Grain Refrigerant Dehumidifier",
     "asin": "B00AB24VVG",
     "image": "https://m.media-amazon.com/images/I/41DqvMBh3LL._SL500_.jpg"
+  },
+  "hisense-25-pint": {
+    "name": "Hisense 25-Pint ENERGY STAR Dehumidifier",
+    "asin": "B0GWFVMHZK",
+    "image": "https://m.media-amazon.com/images/I/31lSZkwbUlL._SL500_.jpg"
+  },
+  "hisense-35-pint": {
+    "name": "Hisense 35-Pint ENERGY STAR Dehumidifier",
+    "asin": "B0DBWY4W7S",
+    "image": "https://m.media-amazon.com/images/I/2137YvPm2uL._SL500_.jpg"
+  },
+  "hisense-50-pint-pump": {
+    "name": "Hisense 50-Pint Dehumidifier with Pump",
+    "asin": "B0GWFVLJF3",
+    "image": "https://m.media-amazon.com/images/I/31ZENNl8L0L._SL500_.jpg"
+  },
+  "kesnos-150-pint-pump": {
+    "name": "Kesnos 150-Pint Dehumidifier with Pump",
+    "asin": "B0GX1SLRD5",
+    "image": "https://m.media-amazon.com/images/I/31cYABv2YzL._SL500_.jpg"
+  },
+  "kesnos-216-pint-commercial": {
+    "name": "Kesnos 216-Pint Commercial Dehumidifier",
+    "asin": "B0CN6VW442",
+    "image": "https://m.media-amazon.com/images/I/41iOeiBoK-L._SL500_.jpg"
+  },
+  "damprid-refillable": {
+    "name": "DampRid Refillable Moisture Absorber (10.5 oz)",
+    "asin": "B09QXT1ZK1",
+    "image": "https://m.media-amazon.com/images/I/51e4Zh8h6PL._SL500_.jpg"
+  },
+  "damprid-hi-capacity": {
+    "name": "DampRid Hi-Capacity Moisture Absorber (4 lb, FG50T)",
+    "asin": "B078HJ4M81",
+    "image": "https://m.media-amazon.com/images/I/51nlmtAjSHL._SL500_.jpg"
+  },
+  "moiswell-70-pint": {
+    "name": "Moiswell 70 Pint Dehumidifier",
+    "asin": "B0DCZN7FCR",
+    "image": "https://m.media-amazon.com/images/I/41rHEoiCh9L._SL500_.jpg"
+  },
+  "perfect-aire-35-pint": {
+    "name": "Perfect Aire 35-Pint Flat Panel Dehumidifier",
+    "asin": "B0H56WHWMF",
+    "image": "https://m.media-amazon.com/images/I/31Hi9WPUzkL._SL500_.jpg"
+  },
+  "perfect-aire-50-pint": {
+    "name": "Perfect Aire 50-Pint Flat Panel Dehumidifier (1PFD50)",
+    "asin": "B07Z11QWRY",
+    "image": "https://m.media-amazon.com/images/I/31Rva6isnqL._SL500_.jpg"
+  },
+  "phoenix-d385": {
+    "name": "Phoenix D385 Desiccant Dehumidifier",
+    "asin": "B0074IEZC0",
+    "image": "https://m.media-amazon.com/images/I/51tqALBz8CL._SL500_.jpg"
+  },
+  "pro-breeze-50-pint": {
+    "name": "Pro Breeze 50-Pint Compressor Dehumidifier",
+    "asin": "B077GZ3TVS",
+    "image": "https://m.media-amazon.com/images/I/31zwTv4bSIL._SL500_.jpg"
+  },
+  "eva-dry-e-500-rechargeable": {
+    "name": "Eva-Dry E-500 Renewable Wireless Dehumidifier",
+    "asin": "B00BD0FN8A",
+    "image": "https://m.media-amazon.com/images/I/31t-rzUrIfL._SL500_.jpg"
+  },
+  "keystone-35-pint": {
+    "name": "Keystone 35-Pint Dehumidifier with Electronic Controls",
+    "asin": "B0GVLCB765",
+    "image": "https://m.media-amazon.com/images/I/21gqfRq3fgL._SL500_.jpg"
+  },
+  "shinco-200-pint-industrial": {
+    "name": "Shinco 200-Pint Industrial Dehumidifier",
+    "asin": "B0H5VZNW41",
+    "image": "https://m.media-amazon.com/images/I/31Wejfsxy1L._SL500_.jpg"
+  },
+  "tcl-tdw20e20": {
+    "name": "TCL 20-Pint Dehumidifier (TDW20E20)",
+    "asin": "B09FKMLZBR",
+    "image": "https://m.media-amazon.com/images/I/31526VPK1GS._SL500_.jpg"
+  },
+  "santa-fe-ultramd33": {
+    "name": "Santa Fe UltraMD33 In-Wall Dehumidifier",
+    "asin": "B0DS2VPWL3",
+    "image": "https://m.media-amazon.com/images/I/31KvHLj8UZL._SL500_.jpg"
+  },
+  "midea-22-pint-wifi": {
+    "name": "Midea 22-Pint Smart Dehumidifier (Wi-Fi/Alexa)",
+    "asin": "B07NRDBBH5",
+    "image": "https://m.media-amazon.com/images/I/31Z47hoRk4L._SL500_.jpg"
   }
 }

@@ -15,8 +15,12 @@ function brandOf(name) {
 }
 const pintsOf = (s) => s.match(/(\d{2,3})[\s-]*(?:pint|pt\b)/i)?.[1];
 
+// Listings for accessories, parts or used units are never the product itself.
+const NOT_THE_PRODUCT = /\b(compatible with|replacement|cover|adapt(?:er|or)|refurbished|restored|renewed|pre-?owned|used)\b/i;
+
 export function isMatch(name, title) {
   if (!title) return false;
+  if (NOT_THE_PRODUCT.test(title) && !NOT_THE_PRODUCT.test(name)) return false;
   const t = title.toLowerCase();
   const tq = squash(title);
   const brandOk = brandOf(name).some((b) => t.includes(b) || tq.includes(squash(b)));
@@ -28,6 +32,10 @@ export function isMatch(name, title) {
     const joined = new Set(tokens.flatMap((t, i) => [t, t + (tokens[i + 1] ?? '')])); // "EDV 2400" → "edv2400"
     return models.some((m) => joined.has(m));
   }
+  // Bare numbers in the name ("Dual 155", "HYDRONE 3", "Air-Dryr 1000") must appear in the title too.
+  const titleNums = new Set(title.match(/\d+/g) ?? []);
+  const nameNums = (name.replace(/\([^)]*\)/g, ' ').match(/\b\d+\b/g) ?? []).filter((n) => !/^(19|20)\d\d$/.test(n));
+  if (nameNums.some((n) => !titleNums.has(n))) return false;
   const pints = pintsOf(name);
   if (pints) return pintsOf(title) === pints;
   // No model number or pint size: every distinctive word of the name must appear.
