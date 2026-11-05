@@ -1,0 +1,213 @@
+{
+  "slug": "when-to-use-a-dehumidifier",
+  "section": "guides",
+  "category": "Buying Advice",
+  "navLabel": "When to Use One",
+  "title": "When to Use a Dehumidifier: Summer, Winter & Signs You Need One",
+  "h1": "When to Use a Dehumidifier (and When Not To)",
+  "dek": "The signs you need one, how to run it in summer and winter, the settings that matter, and the times it's better left off.",
+  "description": "When to use a dehumidifier: signs you need one, running a dehumidifier in summer vs. winter, ideal settings, running costs and when to switch it off.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "Knowing **when to use a dehumidifier** saves you money and protects your home. Run one when indoor humidity climbs above about 50–60% — which, for most homes, means a dehumidifier in summer, in the basement, or anywhere you notice musty smells, condensation or mold. Run it when it isn't needed, and you'll waste electricity and can over-dry a room.",
+    "The quickest way to decide is to measure. The EPA recommends keeping indoor humidity between 30% and 50% and below 60%, and an inexpensive hygrometer tells you which side of that line you're on.",
+    "Below, we cover the signs you need a dehumidifier, how to use one in summer and winter, the best settings, what it costs to run, and the situations where you should turn it off."
+  ],
+  "topPicksLead": "Start with a hygrometer like the **Govee H5179** to confirm you need a dehumidifier; if you do, the **Midea Cube 35** is a versatile pick for most rooms and small basements.",
+  "products": [
+    {
+      "id": "govee-h5179-wifi-hygrometer",
+      "catalogId": "govee-h5179-wifi-hygrometer",
+      "name": "Govee H5179 Wi-Fi Hygrometer",
+      "shortName": "Govee H5179",
+      "award": "Best way to decide",
+      "pros": [
+        "Wi-Fi app shows humidity from anywhere",
+        "Logs history so you can spot patterns",
+        "Alerts when humidity crosses your limit"
+      ],
+      "cons": [
+        "Needs Wi-Fi coverage where you place it",
+        "Budget sensor, so cross-check occasionally"
+      ],
+      "whyWeLoveIt": "The question \"Do I need a dehumidifier?\" is really \"Is my humidity too high, and when?\" A logging Wi-Fi hygrometer answers both, showing whether the basement creeps above 60% after rain or the bedroom spikes on muggy nights.",
+      "performance": "Set an alert at 55–60% and leave it in the room you're worried about for a week or two. If the history shows humidity regularly above that line, it's time for a dehumidifier; if it stays in the 40s, you can save your money. Our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/) explains the targets.",
+      "specs": {
+        "Measures": "Humidity and temperature",
+        "Connectivity": "Wi-Fi app",
+        "Alerts": "Yes",
+        "Best for": "Deciding if you need a dehumidifier"
+      }
+    },
+    {
+      "id": "midea-cube-35",
+      "catalogId": "midea-cube-35",
+      "name": "Midea Cube 35-Pint Dehumidifier",
+      "shortName": "Midea Cube 35",
+      "award": "Best all-around dehumidifier",
+      "pros": [
+        "Enough capacity for large rooms and small basements",
+        "Holds an exact humidity target",
+        "Compact cube shape",
+        "Tank or gravity-hose drainage"
+      ],
+      "cons": [
+        "A damp, large basement may need 50 pints",
+        "Tank needs emptying without a hose"
+      ],
+      "whyWeLoveIt": "If the hygrometer says you need one, the Cube 35 is a flexible place to start: big enough for a living room, finished basement or large bedroom, and smart enough to switch off once it hits your target.",
+      "performance": "Set it to 45–50% in summer and it cycles on and off to hold that number, which is the most efficient way to run any dehumidifier. The tank lifts out of the base, and a hose outlet lets it drain to a floor drain for hands-off running. Compare sizes in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "35 pints/day",
+        "Type": "Compressor",
+        "Drainage": "Tank or gravity hose",
+        "Humidistat": "Digital, set % target",
+        "Best for": "Large rooms, small basements"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "signs",
+      "heading": "Signs you need a dehumidifier",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            { "label": "Humidity above 60%", "text": "A hygrometer reading consistently over 60% is the clearest sign." },
+            { "label": "Musty smell", "text": "That damp, earthy odor usually means mold or mildew is growing somewhere. See our [best dehumidifier for musty smell](/best/best-dehumidifier-for-musty-smell/) guide." },
+            { "label": "Condensation", "text": "Water beading on windows, pipes or walls, especially in the morning. See our [window condensation guide](/guides/dehumidifier-for-condensation-on-windows/)." },
+            { "label": "Mold or mildew spots", "text": "On bathroom ceilings, basement walls, closets or stored items." },
+            { "label": "Damp or warped materials", "text": "Peeling paint or wallpaper, swelling doors, cupping wood floors, soft cardboard boxes." },
+            { "label": "Clammy air and pests", "text": "Sticky air, worse allergies indoors, or moisture-loving pests like silverfish and [centipedes](/best/best-dehumidifier-for-centipedes/)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "summer-vs-winter",
+      "heading": "Dehumidifier in summer vs. winter",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Season", "Typical indoor humidity", "Run a dehumidifier?"],
+          "rows": [
+            ["Summer", "Often 55–70%+ in humid climates", "Yes, especially in basements and closed rooms"],
+            ["Spring and fall", "Varies with rain and temperature", "As needed; watch the hygrometer"],
+            ["Winter (heated rooms)", "Often below 30–40%", "Usually not"],
+            ["Winter (basements, crawl spaces)", "Can stay damp", "Sometimes, if the space is warm enough"]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Using a dehumidifier in summer"
+        },
+        {
+          "type": "p",
+          "text": "Summer is prime time. Warm air holds more moisture, and basements stay cool, so humidity there often climbs well above 60%. Run the dehumidifier on a humidistat at 45–50% from late spring through early fall. If you have central air, a dehumidifier in the basement or a clammy bedroom helps the AC feel more effective."
+        },
+        {
+          "type": "h3",
+          "text": "Should you run a dehumidifier in winter?"
+        },
+        {
+          "type": "p",
+          "text": "In most heated living spaces, no. Winter heating dries indoor air, often below 30%, and running a dehumidifier then can cause dry skin, static and gaps in wood floors. The exceptions are spaces that stay damp year-round — some basements, crawl spaces and coastal homes — or homes with persistent window condensation. Compressor units lose efficiency in cool air and many list a minimum operating temperature around the low 40s; for cold spaces, a [desiccant dehumidifier](/best/best-desiccant-dehumidifier/) works better."
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "heading": "Ideal settings and how to run a dehumidifier",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Set a target, not continuous mode.** 45–50% in summer; 35–45% if you need one in winter.",
+            "**Close doors and windows** in the room you're drying.",
+            "**Give it space.** Keep it several inches from walls and furniture. See [where to place a dehumidifier](/guides/where-to-place-a-dehumidifier/).",
+            "**Drain continuously** with a hose or pump if you can.",
+            "**Clean the filter** about every two weeks in heavy use and check the bucket for slime.",
+            "**Check the room with a separate hygrometer** once in a while; built-in sensors drift."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "heading": "How much does it cost to run a dehumidifier?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It depends on size, efficiency and how long it runs. Many 35- to 50-pint units draw several hundred watts while running. As a rough example, a unit drawing 500 watts that runs 8 hours a day uses 4 kWh — about 68 cents a day at 17 cents per kWh, or roughly $20 a month. A humidistat that lets it cycle off cuts that substantially. For a detailed breakdown, see [how much electricity a dehumidifier uses](/guides/how-much-electricity-does-a-dehumidifier-use/)."
+        }
+      ]
+    },
+    {
+      "id": "when-not",
+      "heading": "When not to use a dehumidifier",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "When indoor humidity is already below about 40%.",
+            "In unheated spaces colder than the unit's minimum operating temperature.",
+            "With windows open on a humid day — you're trying to dry the outdoors.",
+            "In the same room as a running humidifier.",
+            "When AC alone keeps the room in the 40s."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Dehumidifier or humidifier?",
+          "text": "Above 50–60%: dehumidifier. Below 30%: humidifier. Many homes in four-season climates need a dehumidifier in summer and a humidifier in winter. Our [dehumidifier vs. humidifier](/guides/dehumidifier-vs-humidifier/) guide explains the difference."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use a dehumidifier whenever indoor humidity stays above 50–60%, which for most homes means summer, basements and damp rooms. Set it to 45–50%, drain it continuously if you can, and let it cycle. In winter, heated rooms rarely need one, but damp basements and crawl spaces might. Measure first with a hygrometer like the **Govee H5179**, and if you need a machine, the **Midea Cube 35** is a flexible start. For whole-room drying tips, see [how to dehumidify a room](/guides/how-to-dehumidify-a-room/)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When should you use a dehumidifier?",
+      "a": "When indoor humidity stays above about 50–60%, or when you notice musty smells, condensation, mold or damp materials. For most homes that means summer and basements year-round in humid climates."
+    },
+    {
+      "q": "Do I need a dehumidifier in my basement?",
+      "a": "Most basements benefit from one in humid months, because cool basement walls and floors keep humidity high. If a hygrometer reads above 60% or the basement smells musty, the answer is yes."
+    },
+    {
+      "q": "Should I run a dehumidifier in the winter?",
+      "a": "Usually not in heated living spaces, which tend to be dry in winter. Damp basements, crawl spaces or homes with constant window condensation may still benefit, as long as the space is warm enough for the unit."
+    },
+    {
+      "q": "Should a dehumidifier run all the time?",
+      "a": "Let the humidistat decide. Set a target of 45–50% and the unit will cycle on and off as needed. Continuous mode is mainly for drying out a wet space."
+    },
+    {
+      "q": "Do I need a dehumidifier or a humidifier?",
+      "a": "Check your humidity. Above about 50–60%, you need a dehumidifier. Below 30%, you need a humidifier. Between those, you probably need neither."
+    },
+    {
+      "q": "What time of day should I run a dehumidifier?",
+      "a": "Whenever humidity is high, which a humidistat handles automatically. If you have time-of-use electricity rates, running it during off-peak hours can lower the cost."
+    }
+  ],
+  "related": [
+    "/guides/how-to-dehumidify-a-room/",
+    "/guides/dehumidifier-humidistat-settings-guide/",
+    "/guides/how-much-electricity-does-a-dehumidifier-use/",
+    "/guides/dehumidifier-vs-humidifier/",
+    "/guides/does-a-dehumidifier-help-with-mold/",
+    "/best/best-dehumidifier/"
+  ]
+}
