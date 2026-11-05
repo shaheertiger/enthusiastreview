@@ -149,9 +149,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "~$14,000", "label": "Average homeowners insurance claim for water damage (iPropertyManagement, 2026)" },
-            { "value": "45%", "label": "U.S. internet households with at least one smart home device (Parks Associates, 2026)" },
-            { "value": "19.6 ft", "label": "Pump lift on the AlorAir HDi65S — what actually removes manual emptying" }
+            {
+              "value": "~$14,000",
+              "label": "Average homeowners insurance claim for water damage (iPropertyManagement, 2026)"
+            },
+            {
+              "value": "45%",
+              "label": "U.S. internet households with at least one smart home device (Parks Associates, 2026)"
+            },
+            {
+              "value": "19.6 ft",
+              "label": "Pump lift on the AlorAir HDi65S — what actually removes manual emptying"
+            }
           ]
         }
       ]
@@ -264,6 +273,10 @@
     {
       "q": "What is the best Wi-Fi crawl space dehumidifier?",
       "a": "The AlorAir Sentinel HDi65S, which combines app monitoring with a built-in pump and auto-defrost for cool spaces. For a ducted or professionally installed system, the Aprilaire E070W is the connected option."
+    },
+    {
+      "q": "Why won’t my Wi-Fi dehumidifier connect to the app?",
+      "a": "The most common cause is a 5 GHz-only network — many appliance Wi-Fi modules need 2.4 GHz. Also check that your phone is on the same network during setup, move the unit closer to the router, and confirm the app has location and Bluetooth permissions if it asks."
     }
   ],
   "related": [

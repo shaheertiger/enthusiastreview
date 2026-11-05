@@ -123,19 +123,53 @@
         {
           "type": "stats",
           "items": [
-            { "value": "95°F / 90%", "label": "The saturation test condition behind Kesnos’s pint ratings" },
-            { "value": "15–20%", "label": "How much lower a DOE 2019 rating typically runs than the older AHAM test" },
-            { "value": "0", "label": "CPSC recalls we found tied to the Kesnos name" }
+            {
+              "value": "95°F / 90%",
+              "label": "The saturation test condition behind Kesnos’s pint ratings"
+            },
+            {
+              "value": "15–20%",
+              "label": "How much lower a DOE 2019 rating typically runs than the older AHAM test"
+            },
+            {
+              "value": "0",
+              "label": "CPSC recalls we found tied to the Kesnos name"
+            }
           ]
         },
         {
           "type": "table",
-          "head": ["Model", "Rated capacity", "Coverage", "Pump"],
+          "head": [
+            "Model",
+            "Rated capacity",
+            "Coverage",
+            "Pump"
+          ],
           "rows": [
-            ["30-Pint", "30 pints/day", "Up to 2,500 sq ft", "No"],
-            ["PD253D", "70 pints/day (saturation)", "Up to 5,000 sq ft", "No"],
-            ["150-Pint", "150 pints/day (saturation)", "7,000–7,500 sq ft", "Yes, 9.84-ft hose"],
-            ["216-Pint Commercial", "216 pints/day (saturation)", "Up to 8,500 sq ft", "Yes, 16.4-ft hose"]
+            [
+              "30-Pint",
+              "30 pints/day",
+              "Up to 2,500 sq ft",
+              "No"
+            ],
+            [
+              "PD253D",
+              "70 pints/day (saturation)",
+              "Up to 5,000 sq ft",
+              "No"
+            ],
+            [
+              "150-Pint",
+              "150 pints/day (saturation)",
+              "7,000–7,500 sq ft",
+              "Yes, 9.84-ft hose"
+            ],
+            [
+              "216-Pint Commercial",
+              "216 pints/day (saturation)",
+              "Up to 8,500 sq ft",
+              "Yes, 16.4-ft hose"
+            ]
           ],
           "caption": "Capacity and coverage are Kesnos’s own ratings."
         }
@@ -200,11 +234,27 @@
         },
         {
           "type": "table",
-          "head": ["Rating standard", "Test conditions", "What it’s good for"],
+          "head": [
+            "Rating standard",
+            "Test conditions",
+            "What it’s good for"
+          ],
           "rows": [
-            ["Saturation", "95°F, 90% RH", "Comparing flood and job-site machines"],
-            ["AHAM (pre-2019)", "80°F, 60% RH", "Older labels and commercial units"],
-            ["DOE 2019", "65°F, 60% RH", "Comparing modern portables"]
+            [
+              "Saturation",
+              "95°F, 90% RH",
+              "Comparing flood and job-site machines"
+            ],
+            [
+              "AHAM (pre-2019)",
+              "80°F, 60% RH",
+              "Older labels and commercial units"
+            ],
+            [
+              "DOE 2019",
+              "65°F, 60% RH",
+              "Comparing modern portables"
+            ]
           ]
         },
         {
@@ -249,6 +299,10 @@
     {
       "q": "Has a Kesnos dehumidifier been recalled?",
       "a": "We found no CPSC recall tied to the Kesnos name as of this update. Kesnos doesn’t disclose its contract manufacturer, so it isn’t possible to confirm whether it shares a factory with brands that have had recalls."
+    },
+    {
+      "q": "How do I clean a Kesnos dehumidifier filter?",
+      "a": "Unplug the unit, slide out the filter (usually behind the intake grille or above the tank), rinse it under lukewarm water, let it dry completely and reinstall. Every two weeks during heavy use keeps airflow and capacity up."
     }
   ],
   "related": [
