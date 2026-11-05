@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { AUTHORS, DEFAULT_AUTHOR, authorSchema, type Author } from '../../data/authors';
+import { PAGES } from '../../lib/content';
+export function getStaticPaths() {
+  return Object.values(AUTHORS).map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props as { a: Author };
+const pages = PAGES.filter((p) => (p.author ?? DEFAULT_AUTHOR) === a.slug).sort((x, y) => y.updated.localeCompare(x.updated));
+---
+<Base title={`${a.name} — ${a.role}`} description={a.short} jsonLd={{ '@context': 'https://schema.org', ...authorSchema(a.slug) }}>
+  <div class="col">
+    <nav class="crumbs"><a href="/">Home</a><span>›</span><span>Authors</span></nav>
+    <div class="author-card" style="border:0;padding:0">
+      <div class="avatar" aria-hidden="true">{a.initials}</div>
+      <div><h1 class="a-title" style="font-size:2.4rem">{a.name}</h1><div class="ac-k">{a.role}</div></div>
+    </div>
+    <div class="body" style="margin-top:1.5rem">
+      {a.bio.map((b) => <p>{b}</p>)}
+      <h2>Covers</h2>
+      <ul>{a.beat.map((b) => <li>{b}</li>)}</ul>
+    </div>
+  </div>
+  <div class="wrap">
+    <h2 class="section-title">Latest from {a.name}</h2>
+    <div class="grid grid-4">{pages.slice(0, 24).map((p) => <Card page={p} />)}</div>
+  </div>
+</Base>

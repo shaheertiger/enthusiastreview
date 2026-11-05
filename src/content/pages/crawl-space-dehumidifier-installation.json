@@ -1,0 +1,265 @@
+{
+  "slug": "crawl-space-dehumidifier-installation",
+  "section": "guides",
+  "category": "How-To & Fixes",
+  "navLabel": "Crawl Space Install",
+  "title": "Crawl Space Dehumidifier Installation: Steps, Drains & Cost",
+  "h1": "Crawl Space Dehumidifier Installation: A Step-by-Step Guide",
+  "dek": "Where it sits, how it drains, how it's powered and what it costs — everything to plan before a dehumidifier goes under your house.",
+  "description": "Crawl space dehumidifier installation explained: prep, placement, drain and pump options, electrical, ducting, typical costs and when to DIY vs. hire a pro.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "A good **crawl space dehumidifier installation** is mostly about planning. The unit itself is simple to set down; what makes or breaks the job is the prep work around it — a sealed vapor barrier, a reliable drain, a safe power supply and a spot where you can actually reach it for maintenance.",
+    "Get those right and a crawl-space dehumidifier can run for years with little attention, keeping floor joists dry, musty smells out of the house and pests like centipedes and silverfish from settling in. Get them wrong and you'll be crawling back under the house to deal with a tripped breaker, a flooded vapor barrier or a unit fighting humid outdoor air.",
+    "This guide walks through each step, the drainage and ducting options, typical costs, and how to decide whether to do it yourself or hire a crawl-space contractor."
+  ],
+  "products": [
+    {
+      "id": "aprilaire-e070",
+      "catalogId": "aprilaire-e070",
+      "name": "Aprilaire E070 Crawl Space Dehumidifier",
+      "shortName": "Aprilaire E070",
+      "award": "Best overall for crawl spaces",
+      "pros": [
+        "70-pint capacity for crawl spaces up to about 2,200 sq ft",
+        "Bucketless with gravity or pump drainage",
+        "Five-year warranty",
+        "Widely installed by contractors"
+      ],
+      "cons": [
+        "About 56 lb to maneuver into a tight space",
+        "Pump is a separate consideration if no gravity route"
+      ],
+      "whyWeLoveIt": "The E070 is designed specifically for crawl spaces and is one of the units installers reach for most often. It's straightforward to set up, drains continuously and is easy to find service parts for.",
+      "performance": "Aprilaire rates it at 70 pints a day and coverage up to about 2,200 square feet. It drains by gravity or with a condensate pump, and its compact shape fits under typical floor framing. Owners commonly set it at 50–55% and leave it alone. Compare it with the rest of the brand in our [best Aprilaire dehumidifier](/best/best-aprilaire-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "70 pints/day",
+        "Coverage": "Up to about 2,200 sq ft",
+        "Drainage": "Gravity hose or pump",
+        "Weight": "About 56 lb",
+        "Warranty": "5 years"
+      }
+    },
+    {
+      "id": "santa-fe-compact70",
+      "catalogId": "santa-fe-compact70",
+      "name": "Santa Fe Compact70 Dehumidifier",
+      "shortName": "Santa Fe Compact70",
+      "award": "Best for tight crawl spaces",
+      "pros": [
+        "Very compact body",
+        "ENERGY STAR Most Efficient (2024)",
+        "Six-year warranty",
+        "Can be ducted"
+      ],
+      "cons": [
+        "Needs a gravity drain or separate pump",
+        "Premium price"
+      ],
+      "whyWeLoveIt": "When the crawl-space access hatch is small and clearance is low, size matters. The Compact70 packs a 70-pint rating into a body about 12 by 12 by 21 inches, and it's one of the most efficient units in its class.",
+      "performance": "Santa Fe rates it for up to about 2,200 square feet, and its ENERGY STAR Most Efficient status helps on a unit that may run for thousands of hours a year. It's well suited to sealed crawl spaces where it can be ducted to reach far corners. See more in our [best Santa Fe dehumidifier](/best/best-santa-fe-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "70 pints/day",
+        "Coverage": "Up to about 2,200 sq ft",
+        "Size": "About 12 × 12 × 21 in.",
+        "Efficiency": "ENERGY STAR Most Efficient (2024)",
+        "Warranty": "6 years"
+      }
+    },
+    {
+      "id": "alorair-sentinel-hd55",
+      "catalogId": "alorair-sentinel-hd55",
+      "name": "AlorAir Sentinel HD55 Crawl Space Dehumidifier",
+      "shortName": "AlorAir Sentinel HD55",
+      "award": "Best value",
+      "pros": [
+        "Lower cost than premium crawl-space brands",
+        "Low profile",
+        "Rated to run in cool temperatures"
+      ],
+      "cons": [
+        "Smaller capacity than 70-pint units",
+        "Needs a separate pump without a gravity route"
+      ],
+      "whyWeLoveIt": "For smaller crawl spaces or tighter budgets, the HD55 delivers dedicated crawl-space features — a low-profile body and cool-temperature operation — without the premium price.",
+      "performance": "AlorAir rates it at 55 pints a day under AHAM conditions and lists operation down to about 36°F. It drains through a hose, so you'll need either a downhill route or a condensate pump. It's a popular DIY choice for smaller crawl spaces. More options are in our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "55 pints/day (AHAM)",
+        "Type": "Low-profile compressor",
+        "Drainage": "Continuous drain hose",
+        "Low-temp operation": "Down to about 36°F",
+        "Best for": "Smaller crawl spaces"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "by-the-numbers",
+      "heading": "Crawl space dehumidifier installation, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            { "value": "50–55%", "label": "Common humidity setting for a sealed crawl space" },
+            { "value": "70 pints", "label": "Per 1,000 sq ft — the sizing in recent residential codes for unvented crawl spaces" },
+            { "value": "1/4 in.", "label": "Downward slope per foot typically used for gravity drain lines" }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Recent editions of the International Residential Code allow a dehumidifier as the method of conditioning an unvented crawl space, sized at about 70 pints per day per 1,000 square feet of floor area. Your local code may differ, so check what your jurisdiction has adopted."
+        }
+      ]
+    },
+    {
+      "id": "before-you-install",
+      "heading": "Before you install: prep the crawl space",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A dehumidifier in a vented crawl space with bare dirt is fighting both the ground and the outdoors. For it to work well, the space should be sealed or close to it."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Fix bulk water first.** Clean gutters, extend downspouts and correct grading that slopes toward the house. Standing water may need a sump pump.",
+            "**Install a vapor barrier.** Cover the ground with a heavy polyethylene barrier, overlapped and taped at seams, and run it up the walls.",
+            "**Seal vents and openings.** In an encapsulated crawl space, foundation vents are typically closed and air-sealed. Do this as part of a code-compliant plan, not on its own.",
+            "**Check for mold and damaged wood.** Address existing growth before drying the space."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Vented crawl space?",
+          "text": "A dehumidifier in a fully vented crawl space will run constantly trying to dry outdoor air. If you can't seal the space, talk to a contractor about encapsulation before buying a unit."
+        }
+      ]
+    },
+    {
+      "id": "how-to-install",
+      "heading": "How to install a dehumidifier in a crawl space",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Choose a central spot.** Place it where air can circulate across the whole space, with clearance around the intake and outlet and room to open the filter panel.",
+            "**Get it off the ground.** Set it on concrete blocks, a platform or a hanging kit approved by the manufacturer, so it never sits in water and doesn't puncture the vapor barrier.",
+            "**Level the unit.** A level unit drains properly; a tilted one can leak inside.",
+            "**Connect the drain.** Run a gravity line or install a condensate pump (see options below).",
+            "**Provide power.** Plug into a dedicated GFCI-protected outlet near the unit — not an extension cord.",
+            "**Add ducting if needed.** For long or L-shaped crawl spaces, duct the dry air toward far corners.",
+            "**Set the humidistat.** Start at 50–55%. Many units also accept a remote sensor or Wi-Fi control.",
+            "**Check it after a week.** Confirm water is draining, the humidity is falling and nothing is leaking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drainage",
+      "heading": "Drain and condensate options",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Option", "How it works", "Best when"],
+          "rows": [
+            ["Gravity drain to outside", "Line slopes down through the rim joist to daylight", "Unit sits higher than the exit point"],
+            ["Gravity drain to sump pit", "Line slopes down into an existing sump", "Crawl space already has a sump pump"],
+            ["Condensate pump", "Small pump lifts water out through a vinyl line", "No downhill route is available"],
+            ["Built-in pump", "Pump inside the dehumidifier", "Unit model includes one"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Discharge water well away from the foundation, never onto the vapor barrier. If you route the line outdoors in a cold climate, protect it from freezing. A condensate pump with a safety switch that shuts the dehumidifier off if the pump fails is worth the small extra cost."
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "heading": "Electrical requirements",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most crawl-space dehumidifiers run on a standard 115-volt outlet. Install a dedicated circuit if possible, since the unit can run for long stretches. The National Electrical Code requires GFCI protection for receptacles in crawl spaces, and the outlet should be mounted off the ground on a joist or wall. If you need a new circuit, hire a licensed electrician."
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "heading": "How much does crawl space dehumidifier installation cost?",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Item", "Typical estimate"],
+          "rows": [
+            ["Crawl-space dehumidifier (55–90 pints)", "$1,000–$2,000+"],
+            ["DIY supplies (pump, line, blocks)", "$50–$300"],
+            ["Professional install, unit only", "$1,500–$3,000 total"],
+            ["New dedicated circuit (electrician)", "Often a few hundred dollars"],
+            ["Full encapsulation with dehumidifier", "Often $5,000–$15,000+"]
+          ],
+          "caption": "Typical estimates only. Prices vary widely by region, crawl-space size, access and the condition of the space."
+        }
+      ]
+    },
+    {
+      "id": "diy-vs-pro",
+      "heading": "DIY vs. professional installation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If the crawl space is already encapsulated, has a GFCI outlet and offers a drain route, installing a dehumidifier is a manageable DIY job for most handy homeowners. Hire a pro when the space needs encapsulation, new wiring, sump work or mold remediation, or when access is very tight."
+        },
+        {
+          "type": "p",
+          "text": "Crawl-space and waterproofing contractors, many HVAC companies and some pest-control firms install these units. Ask what's included, whether they install a condensate pump, and whether the work affects your warranty. Not sure you need one? See [when to use a dehumidifier](/guides/when-to-use-a-dehumidifier/) and our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) guide if the space is a basement instead."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A successful crawl space dehumidifier installation starts with a sealed space, a reliable drain and a safe outlet. Set the unit up off the ground, level it, connect a gravity line or pump, and start at 50–55%. The **Aprilaire E070** is our all-around pick, the **Santa Fe Compact70** suits tight spaces, and the **AlorAir Sentinel HD55** is a solid value. Plan for a few hundred dollars in supplies if you DIY, or roughly $1,500–$3,000 installed."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you install a dehumidifier in a crawl space?",
+      "a": "Prep the space with a vapor barrier and fix water problems, place the unit centrally on blocks or an approved hanger, level it, connect a gravity drain or condensate pump, plug it into a GFCI outlet, set it to 50–55% and check it after a week."
+    },
+    {
+      "q": "How much does a crawl space dehumidifier cost to install?",
+      "a": "As a typical estimate, the unit costs roughly $1,000–$2,000 and professional installation usually brings the total to about $1,500–$3,000. Full encapsulation with a dehumidifier often runs $5,000–$15,000 or more."
+    },
+    {
+      "q": "Where should a dehumidifier be placed in a crawl space?",
+      "a": "Near the center of the space, raised off the ground, level, with clearance around the intake and outlet and easy access to the filter."
+    },
+    {
+      "q": "Who installs crawl space dehumidifiers?",
+      "a": "Crawl-space and waterproofing contractors, many HVAC companies and some pest-control firms. Get two or three quotes and confirm whether the drain, pump and electrical work are included."
+    },
+    {
+      "q": "Do I need a vapor barrier before installing a crawl space dehumidifier?",
+      "a": "Effectively, yes. Without a vapor barrier and sealed vents, the dehumidifier is fighting moisture from the soil and outdoor air and will run far more than it should."
+    },
+    {
+      "q": "Can I drain a crawl space dehumidifier into a sump pit?",
+      "a": "Yes, if the unit sits higher than the pit and the line slopes downward. It's one of the simplest drain options when a sump already exists."
+    }
+  ],
+  "related": [
+    "/best/best-crawl-space-dehumidifier/",
+    "/best/best-aprilaire-dehumidifier/",
+    "/best/best-santa-fe-dehumidifier/",
+    "/best/best-alorair-dehumidifier/",
+    "/guides/whole-house-dehumidifier-installation/",
+    "/best/best-dehumidifier-for-centipedes/"
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "slug": "how-much-electricity-does-a-dehumidifier-use",
+  "section": "guides",
+  "category": "Buying Advice",
+  "navLabel": "Electricity Use",
+  "title": "How Much Electricity Does a Dehumidifier Use? Watts & Cost",
+  "h1": "How Much Electricity Does a Dehumidifier Use?",
+  "dek": "Forget the amps on the label — here's what a dehumidifier really draws, what it costs per day and per month, and how to compare models fairly.",
+  "description": "How much electricity does a dehumidifier use? Typical watts by size, cost per day and per month at 2026 rates, and ENERGY STAR kWh ratings for popular models.",
+  "published": "2026-10-29",
+  "updated": "2026-11-05",
+  "intro": [
+    "So, how much electricity does a dehumidifier use? Most portable models draw roughly **230 to 560 watts** while the compressor is running — about 230–260 W for a 20- to 22-pint room unit and 400–560 W for a 50-pint basement model. Whole-house ducted systems can pull 800–1,400 W.",
+    "In dollars, ENERGY STAR rates a typical 50-pint unit at about 515–521 kWh a year, which works out to roughly $95 at the U.S. average residential rate of 18.44 cents per kWh (EIA, August 2026). Run a 500-watt unit for eight hours and you'll spend about 74 cents that day.",
+    "The pint number on the box and the amps on the nameplate don't tell you any of that. Below, we explain which numbers do, show real ratings for popular models, and walk through how to estimate your own bill."
+  ],
+  "topPicksLead": "If running cost is your top priority, AEOCKY's 50-class chassis is the most efficient unit we track, though Midea's Cube 50 removes more water per day.",
+  "products": [
+    {
+      "id": "aeocky-leo-lite3",
+      "name": "AEOCKY Leo-Lite3 Dehumidifier (sold as 140-pint)",
+      "shortName": "AEOCKY Leo-Lite3",
+      "award": "Most efficient 50-class pick",
+      "pros": [
+        "ENERGY STAR Most Efficient chassis at 2.21 L/kWh",
+        "Rated 438 kWh a year",
+        "Three-year warranty"
+      ],
+      "cons": [
+        "Real DOE capacity is about 45 pints, not 140",
+        "Listing wattage claims don't match ENERGY STAR data"
+      ],
+      "whyWeLoveIt": "AEOCKY's large chassis removes about 10% more water per kWh than the ENERGY STAR minimum for its class, which is why it earns the Most Efficient designation.",
+      "performance": "ENERGY STAR lists this chassis at 44.94 pints a day under the DOE test, 2.21 L/kWh and 438 kWh a year. Size it as a 45-pint unit; the headline capacity is measured at 95°F and 95% humidity. Compared with a typical 50-pint model, that's about 77 fewer kWh a year — a real but modest saving. More detail is in our [best AEOCKY dehumidifier](/best/best-aeocky-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "44.94 pints/day (DOE)",
+        "Efficiency": "2.21 L/kWh, Most Efficient",
+        "Annual energy": "438 kWh (ENERGY STAR)",
+        "Best for": "Basement, lowest running cost"
+      }
+    },
+    {
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Dehumidifier (MAD50S1QWT)",
+      "shortName": "Midea Cube 50",
+      "award": "Best capacity for the energy",
+      "pros": [
+        "ENERGY STAR rated at 49.67 pints/day",
+        "Rated 515 kWh a year",
+        "Compact cube design"
+      ],
+      "cons": [
+        "Uses more kWh than the AEOCKY",
+        "One-year warranty"
+      ],
+      "whyWeLoveIt": "The Cube 50 sits right at the ENERGY STAR efficiency floor for its class, but it removes more water per day than nearly any 50-class rival, so you get more drying for each hour it runs.",
+      "performance": "ENERGY STAR lists it at 49.67 pints a day, 2.01 L/kWh and 515 kWh a year. That's effectively tied with Frigidaire's FHDD5034Y1. See the whole Cube family in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "49.67 pints/day (DOE)",
+        "Efficiency": "2.01 L/kWh, ENERGY STAR",
+        "Annual energy": "515 kWh (ENERGY STAR)",
+        "Best for": "Basement, large room"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "by-the-numbers",
+      "heading": "Dehumidifier electricity use, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "230–560 W",
+              "label": "Typical running draw of a portable dehumidifier"
+            },
+            {
+              "value": "18.44¢",
+              "label": "U.S. average residential rate per kWh (EIA, Aug. 2026)"
+            },
+            {
+              "value": "~$95/yr",
+              "label": "ENERGY STAR-rated annual cost of a typical 50-pint unit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "per-day-per-month",
+      "heading": "How much electricity does a dehumidifier use per day and per month?",
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "Size",
+            "Running watts",
+            "kWh per day (8 hrs)",
+            "Cost per day",
+            "Cost per month"
+          ],
+          "rows": [
+            [
+              "20–30 pint",
+              "230–360 W",
+              "1.8–2.9 kWh",
+              "$0.34–$0.53",
+              "$10–$16"
+            ],
+            [
+              "50 pint",
+              "400–560 W",
+              "3.2–4.5 kWh",
+              "$0.59–$0.83",
+              "$18–$25"
+            ],
+            [
+              "Whole-house ducted",
+              "800–1,400 W",
+              "6.4–11.2 kWh",
+              "$1.18–$2.07",
+              "$35–$62"
+            ]
+          ],
+          "caption": "At 18.44¢/kWh with 8 hours of actual compressor run time a day; a month is 30 days."
+        },
+        {
+          "type": "p",
+          "text": "Your local rate changes the picture a lot. Residential electricity runs from about 12 cents per kWh in Idaho to more than 50 cents in Hawaii, so the same unit can cost four times as much to run in one state as another."
+        },
+        {
+          "type": "h3",
+          "text": "Do the math for your own unit"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Find the running watts, or divide ENERGY STAR's annual kWh by its assumed hours.",
+            "Multiply watts by hours of compressor run time, then divide by 1,000 for kWh per day.",
+            "Multiply by your rate from your electric bill (in dollars per kWh).",
+            "Multiply by 30 for a monthly estimate."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Example",
+          "text": "A 500-watt unit running 8 hours: 500 × 8 ÷ 1,000 = 4 kWh. At 18.44¢, that's about $0.74 a day, or about $22 a month."
+        }
+      ]
+    },
+    {
+      "id": "energy-star-ratings",
+      "heading": "ENERGY STAR ratings for popular models",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ENERGY STAR publishes the DOE capacity, efficiency (the Integrated Energy Factor, or IEF, in liters per kWh) and estimated annual energy use for every certified dehumidifier. That's the fairest way to compare running costs across brands."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Model",
+            "DOE capacity",
+            "IEF (L/kWh)",
+            "kWh/yr",
+            "Annual cost"
+          ],
+          "rows": [
+            [
+              "Midea Cube 20 (MAD20S1QWT)",
+              "20.16 pints",
+              "1.70",
+              "249",
+              "$45.92"
+            ],
+            [
+              "Pelonis 22-pint (PAD22C1DWT)",
+              "22.27 pints",
+              "1.70",
+              "276",
+              "$50.89"
+            ],
+            [
+              "Pelonis 35-pint (PAD35C1DWTS)",
+              "36.39 pints",
+              "2.01",
+              "383",
+              "$70.63"
+            ],
+            [
+              "AEOCKY Rhea Pro (50-class)",
+              "44.34 pints",
+              "2.21",
+              "432",
+              "$79.66"
+            ],
+            [
+              "Midea Cube 50 (MAD50S1QWT)",
+              "49.67 pints",
+              "2.01",
+              "515",
+              "$94.97"
+            ],
+            [
+              "Frigidaire FHDD5034Y1",
+              "49.71 pints",
+              "2.01",
+              "521",
+              "$96.07"
+            ],
+            [
+              "Pelonis 50-pint pump (PAD50P1ABLS)",
+              "49.74 pints",
+              "2.01",
+              "525",
+              "$96.81"
+            ]
+          ],
+          "caption": "ENERGY STAR certified-product data; annual cost at 18.44¢/kWh."
+        },
+        {
+          "type": "p",
+          "text": "Two takeaways. The mainstream 50-pint models are effectively tied — all rated 2.01 L/kWh and within $2 a year of each other. And even the most efficient 50-class unit saves only about $15 a year at rated hours. Sizing and settings matter more than brand. Our [energy-efficient dehumidifier](/best/best-energy-efficient-dehumidifier/) ranking lists the current leaders."
+        }
+      ]
+    },
+    {
+      "id": "nameplate-amps",
+      "heading": "Why the amps on the label overstate the draw",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The nameplate on a 50-pint dehumidifier often lists 8 to 9 amps. That's a maximum used for wiring and circuit sizing, measured under harsher conditions than a typical basement. Multiply it by 115 volts and you get a figure near 1,000 watts, which looks like running draw but isn't. Frigidaire's older FHDD5034W1, for instance, was widely quoted at 978 watts from its nameplate, while its current successor carries the same ENERGY STAR rating as Midea's Cube 50."
+        }
+      ]
+    },
+    {
+      "id": "real-bill-lower",
+      "heading": "Why your real bill is usually lower",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The math above assumes the compressor runs the whole time, but a humidistat switches it off once the room reaches its target and back on as moisture returns. The first few days in a damp basement cost the most; after that, the unit is mostly topping off."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Set a sensible target.** 45–50% is plenty for most rooms; see our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/).",
+            "**Size correctly.** An undersized unit runs nonstop; our [size guide](/guides/dehumidifier-size-guide/) helps you match capacity to space.",
+            "**Seal the space.** Close windows and vents so you're not drying the outdoors.",
+            "**Keep it clean.** A clogged filter or iced coil wastes power; see our [maintenance guide](/guides/dehumidifier-maintenance/)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A portable dehumidifier typically uses 230–560 watts while running, which for a 50-pint model works out to about $95 a year at ENERGY STAR's rated hours. Compare models on IEF and annual kWh, not pints or amps, and remember that right-sizing and a properly cycling humidistat save more than any brand switch. Wondering how it stacks up against cooling? Our [dehumidifier vs. air conditioner](/guides/dehumidifier-vs-air-conditioner/) guide covers the trade-offs."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many watts does a dehumidifier use?",
+      "a": "About 230–260 watts for a 20- to 22-pint room unit and roughly 400–560 watts for a 50-pint model while the compressor runs. Whole-house ducted units can draw 800–1,400 watts."
+    },
+    {
+      "q": "How much electricity does a dehumidifier use per day?",
+      "a": "A 500-watt unit running eight hours uses about 4 kWh, roughly $0.74 at the national average rate. A 250-watt small-room unit over the same hours uses about 2 kWh, or $0.37."
+    },
+    {
+      "q": "How much electricity does a dehumidifier use per month?",
+      "a": "At eight hours a day, a compact unit typically costs $10–$16 a month and a 50-pint unit $18–$25, at 18.44¢ per kWh. Your local rate and how often the humidistat cycles will move that number."
+    },
+    {
+      "q": "Does a dehumidifier run all the time?",
+      "a": "No. A humidistat shuts the compressor off once the room reaches its set humidity and restarts it as moisture returns, so real use is usually well below a 24-hour estimate."
+    },
+    {
+      "q": "Is it cheaper to run a dehumidifier or an air conditioner?",
+      "a": "A dehumidifier is usually much cheaper; central AC compressors often draw 3,000–5,000 watts. They do different jobs, though: AC cools, while a dehumidifier removes moisture without much cooling."
+    }
+  ],
+  "related": [
+    "/best/best-energy-efficient-dehumidifier/",
+    "/guides/dehumidifier-size-guide/",
+    "/guides/dehumidifier-vs-air-conditioner/",
+    "/guides/dehumidifier-humidistat-settings-guide/",
+    "/guides/does-a-dehumidifier-cool-a-room/",
+    "/best/best-aeocky-dehumidifier/"
+  ]
+}

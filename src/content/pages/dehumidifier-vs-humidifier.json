@@ -1,0 +1,232 @@
+{
+  "slug": "dehumidifier-vs-humidifier",
+  "section": "guides",
+  "category": "Buying Advice",
+  "navLabel": "vs. Humidifier",
+  "title": "Humidifier vs. Dehumidifier: Which Does Your Home Need?",
+  "h1": "Dehumidifier vs. Humidifier: Which One Does Your Home Actually Need?",
+  "dek": "One takes water out of the air, the other puts it back. Here's how to tell which problem you have — before you buy the wrong box.",
+  "description": "Humidifier vs. dehumidifier: what each one does, how to tell which your home needs, the right humidity range, and which helps with mold, allergies or a cough.",
+  "published": "2026-09-26",
+  "updated": "2026-11-05",
+  "intro": [
+    "The **humidifier vs. dehumidifier** question trips up a lot of shoppers, and it's easy to see why: the names differ by two letters, and both are plastic boxes that manage moisture. But they do exactly opposite jobs. A dehumidifier pulls water vapor *out* of the air to fix dampness, condensation and mold risk. A humidifier puts water vapor *into* the air to ease cracked skin, static shocks and a scratchy winter throat.",
+    "Buy the wrong one and you won't just miss the fix — you can make the problem worse. The good news is that the answer is usually a matter of reading one number. The EPA recommends keeping indoor relative humidity between **30% and 50%**. Above that, you need a dehumidifier; below it, a humidifier. Here's how to tell, what each machine does, and when a home ends up needing both."
+  ],
+  "topPicksLead": "If your home runs damp, the **Midea Cube 50-Pint** is our favorite room dehumidifier; if it runs dry, the **Levoit Classic 300S** is a well-regarded humidifier that holds a set humidity.",
+  "products": [
+    {
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Smart Dehumidifier (MAD50S1QWT)",
+      "shortName": "Midea Cube 50",
+      "award": "Best dehumidifier for damp rooms",
+      "pros": [
+        "50 pints a day under the 2019 DOE test",
+        "Set a target humidity and it cycles to hold it",
+        "App and voice control",
+        "Hose connection for continuous draining"
+      ],
+      "cons": [
+        "More capacity than a small bedroom needs",
+        "One-year warranty"
+      ],
+      "whyWeLoveIt": "For a damp basement, a musty bedroom or a living space that fogs the windows, the Cube 50 has the capacity to bring humidity down and the humidistat to stop once it reaches your target — so it doesn't overshoot into dry-air territory.",
+      "performance": "It's rated at 50 pints a day and lets you set an exact humidity percentage. The tank forms the base and holds more than a typical bucket, and you can attach a hose to drain continuously. See our [best dehumidifier](/best/best-dehumidifier/) guide for the full ranking and smaller options.",
+      "specs": {
+        "Type": "Compressor dehumidifier",
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Humidistat": "Digital, set % target",
+        "Smart control": "Wi-Fi app, voice",
+        "Best for": "Damp basements and living spaces"
+      }
+    },
+    {
+      "id": "levoit-classic-300s",
+      "name": "Levoit Classic 300S Smart Ultrasonic Humidifier",
+      "shortName": "Levoit Classic 300S",
+      "award": "Best humidifier for dry rooms",
+      "pros": [
+        "Auto mode holds a target humidity",
+        "Quiet on its lowest setting",
+        "Rated for rooms up to about 505 sq ft",
+        "App control"
+      ],
+      "cons": [
+        "Ultrasonic models can leave white dust with hard tap water",
+        "Needs regular cleaning"
+      ],
+      "whyWeLoveIt": "The biggest mistake with humidifiers is running one nonstop until the room turns damp. The Classic 300S has a built-in humidity sensor and an auto mode that holds a set target, so it adds moisture only until the room is comfortable.",
+      "performance": "Levoit rates it for spaces up to about 505 square feet, and it's quiet enough on low for a bedroom. Owners commonly set it in the 40–50% range in winter. Use distilled or demineralized water if your tap water is hard, and clean the tank regularly to keep it hygienic.",
+      "specs": {
+        "Type": "Ultrasonic cool-mist humidifier",
+        "Coverage": "Up to about 505 sq ft (manufacturer)",
+        "Humidistat": "Built-in sensor, auto mode",
+        "Smart control": "Wi-Fi app",
+        "Best for": "Dry bedrooms and living rooms"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "by-the-numbers",
+      "heading": "Humidity, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends year-round" },
+            { "value": "30–40%", "label": "Lower winter target many HVAC guides suggest to avoid window condensation" },
+            { "value": "Above 50%", "label": "Where dust mites and mold start to thrive" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-each-does",
+      "heading": "What each machine actually does",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["", "Dehumidifier", "Humidifier"],
+          "rows": [
+            ["Moves moisture", "Out of the air, into a tank or drain", "Out of a tank, into the air"],
+            ["How", "Condenses vapor on a cold coil, or captures it on a desiccant wheel", "Releases cool mist, evaporative vapor or warm steam"],
+            ["Fixes", "Musty smells, foggy windows, damp basements, mold risk", "Dry skin, cracked lips, static, nosebleeds, dry winter air"],
+            ["Makes worse if misused", "Already-dry winter air", "Already-damp rooms"],
+            ["Typical cost", "Usually $150–$300 for a room unit", "Usually under $100 for a room unit"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The hardware isn't interchangeable, either. Our explainer on [how a dehumidifier works](/guides/how-does-a-dehumidifier-work/) shows why a dehumidifier's coil can't be run in reverse to add moisture."
+        }
+      ]
+    },
+    {
+      "id": "when-to-use-which",
+      "heading": "When to use a humidifier vs. a dehumidifier",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Signs you need a dehumidifier"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Windows fog up or bead with water, especially in the morning — see our [window condensation guide](/guides/dehumidifier-for-condensation-on-windows/)",
+            "A musty or mildewy smell that comes back after cleaning",
+            "Visible mold on walls, ceilings or in closets",
+            "A basement, crawl space or bathroom that never seems to dry out"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Signs you need a humidifier"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cracked skin, lips or knuckles once the heat comes on",
+            "Frequent static shocks from doorknobs and blankets",
+            "Nosebleeds or a scratchy throat that eases in more humid rooms",
+            "Wood furniture, floors or instruments developing gaps or cracks"
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Settle it with a hygrometer",
+          "text": "A digital hygrometer costs less than a takeout lunch and ends the guesswork. Above 50%, you want a dehumidifier. Below 30%, you want a humidifier. In between, you may not need either. Our [guide to when to use a dehumidifier](/guides/when-to-use-a-dehumidifier/) covers the seasonal patterns."
+        }
+      ]
+    },
+    {
+      "id": "mold-allergies-cough",
+      "heading": "Dehumidifier vs. humidifier for mold, allergies and a cough",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "For mold"
+        },
+        {
+          "type": "p",
+          "text": "A dehumidifier. Mold needs moisture, and keeping humidity below about 50% makes it much harder for spores to take hold. A humidifier run too high does the opposite. A dehumidifier won't remove existing mold, though — see [does a dehumidifier help with mold](/guides/does-a-dehumidifier-help-with-mold/) for what it can and can't do."
+        },
+        {
+          "type": "h3",
+          "text": "For allergies"
+        },
+        {
+          "type": "p",
+          "text": "Usually a dehumidifier, if your triggers are dust mites or mold, both of which thrive in damp air. Just don't push the room too dry, which can irritate airways. Our [allergy picks](/best/best-dehumidifier-for-allergies/) explain the target range."
+        },
+        {
+          "type": "h3",
+          "text": "For a cough"
+        },
+        {
+          "type": "p",
+          "text": "It depends on the air. A dry, scratchy cough that's worse in a heated winter house often eases with a humidifier. A cough linked to a damp, musty home may improve with a dehumidifier. If a cough lingers, check your humidity reading — and talk to your doctor."
+        }
+      ]
+    },
+    {
+      "id": "when-you-need-both",
+      "heading": "When a home needs both",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Running both in the same room at the same time is almost never the answer — they'd simply fight each other. What's common is needing each one in a different place or season. A finished basement might run a dehumidifier year-round, while an upstairs bedroom in the same house runs a humidifier only in winter, once forced-air heat drops it below 30%."
+        },
+        {
+          "type": "p",
+          "text": "Some belongings need a narrow band in both directions. Guitars, pianos and wood floors can all suffer from air that's too wet *or* too dry; see our [wood floor](/best/best-dehumidifier-for-wood-floors/) and [guitar](/best/best-dehumidifier-for-guitar/) guides for how to manage that."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A dehumidifier and a humidifier aren't two versions of one appliance — they move water in opposite directions. If your home feels damp, smells musty or fogs the windows, get a dehumidifier. If it feels dry enough to crack your skin and shock you at every doorknob, get a humidifier. Check a hygrometer first, aim for 30–50%, and let the number make the decision."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a humidifier or a dehumidifier?",
+      "a": "Measure first. If indoor humidity is above 50% or you see condensation, musty smells or mold, you need a dehumidifier. If it's below 30% and you're dealing with dry skin, static or nosebleeds, you need a humidifier."
+    },
+    {
+      "q": "When should I use a humidifier vs. a dehumidifier?",
+      "a": "Dehumidifiers are typically needed in humid summers, damp basements and bathrooms. Humidifiers are typically needed in winter, when heating dries indoor air. Many homes use one in summer and the other in winter."
+    },
+    {
+      "q": "Is a dehumidifier or humidifier better for mold?",
+      "a": "A dehumidifier. Keeping humidity below about 50% discourages mold growth. A humidifier can make mold worse if it pushes humidity too high."
+    },
+    {
+      "q": "Is a humidifier or dehumidifier better for allergies?",
+      "a": "If dust mites or mold trigger your allergies, a dehumidifier usually helps, since both thrive in damp air. Avoid drying the air below about 30%, which can irritate your nose and throat."
+    },
+    {
+      "q": "Can I use a dehumidifier and a humidifier in the same room?",
+      "a": "Not at the same time — they'd work against each other. It's common to use them in different rooms or different seasons."
+    },
+    {
+      "q": "Can a humidifier cause mold?",
+      "a": "Yes, if it pushes humidity above roughly 50–60%. Use a model with a built-in humidistat or auto mode, or check a separate hygrometer, so it stops at a sensible target."
+    }
+  ],
+  "related": [
+    "/guides/when-to-use-a-dehumidifier/",
+    "/guides/dehumidifier-humidistat-settings-guide/",
+    "/guides/dehumidifier-vs-air-purifier/",
+    "/guides/dehumidifier-vs-air-conditioner/",
+    "/guides/does-a-dehumidifier-help-with-mold/",
+    "/best/best-dehumidifier-for-allergies/"
+  ]
+}

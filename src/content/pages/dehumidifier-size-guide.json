@@ -1,0 +1,260 @@
+{
+  "slug": "dehumidifier-size-guide",
+  "section": "guides",
+  "category": "Buying Advice",
+  "navLabel": "Size Guide",
+  "title": "What Size Dehumidifier Do I Need? Sizing Chart & Calculator",
+  "h1": "What Size Dehumidifier Do You Need?",
+  "dek": "Square footage is only half the answer. Here’s how to match pints to your space — and how dampness changes everything.",
+  "description": "What size dehumidifier do I need? Use our dehumidifier size chart by square footage and dampness, a quick calculator, and the 2019 DOE rating change explained.",
+  "published": "2026-09-16",
+  "updated": "2026-11-05",
+  "intro": [
+    "**What size dehumidifier do I need?** It’s the first question nearly every shopper asks, and the honest answer depends on two things: how big the space is and how damp it really is. A 1,000-square-foot basement that just smells a little musty needs far less capacity than the same basement with water seeping through the walls after every storm.",
+    "There’s a second trap, too. In 2019 the Department of Energy changed how dehumidifiers are rated, and every number on the box dropped — even though the machines didn’t get any weaker. Compare an old “70-pint” unit to a new “50-pint” and you may be looking at nearly the same capacity.",
+    "Below you’ll find a sizing chart that combines square footage and dampness, a simple calculator you can do in your head and the adjustments that charts usually leave out."
+  ],
+  "topPicksLead": "For most damp basements and large main floors, the **Midea Cube 50** is our go-to: 50 pints a day under the current DOE test, with an oversized bucket.",
+  "products": [
+    {
+      "id": "midea-cube-35",
+      "catalogId": "midea-cube-35",
+      "name": "Midea Cube 35-Pint Dehumidifier",
+      "shortName": "Midea Cube 35",
+      "award": "Best mid-size pick",
+      "pros": [
+        "Right-sized for a large room or small apartment",
+        "Folding bucket empties less often than a standard tank",
+        "App and voice control hold a set humidity"
+      ],
+      "cons": [
+        "Too small for a wet basement",
+        "Pricier than basic 35-pint boxes"
+      ],
+      "whyWeLoveIt": "It fills the gap between bedroom-sized and basement-sized machines, which is exactly where many living rooms, family rooms and small apartments land.",
+      "performance": "Rated at 35 pints a day under the 2019 DOE test, it suits roughly 500 to 1,500 square feet in moderately to very damp conditions. Its humidistat holds a set percentage, so it cycles off once the room reaches your target.",
+      "specs": {
+        "Capacity": "35 pints/day (DOE 2019)",
+        "Humidistat": "Digital, set % target",
+        "Smart control": "App and voice",
+        "Best for": "500–1,500 sq ft, damp"
+      }
+    },
+    {
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Dehumidifier",
+      "shortName": "Midea Cube 50",
+      "award": "Best for basements",
+      "pros": [
+        "50 pints a day under the current DOE test",
+        "Oversized 4.35-gallon bucket",
+        "Compact for its capacity"
+      ],
+      "cons": [
+        "No pump on the standard version",
+        "More than a single bedroom needs"
+      ],
+      "whyWeLoveIt": "Fifty DOE pints is the right capacity for most damp basements and large main floors, and the big bucket means fewer trips to empty it.",
+      "performance": "It handles about 1,500 to 3,000 square feet that run very damp to wet. If your drain is above the unit, choose a pump model instead. Our [best 50-pint dehumidifier](/best/best-50-pint-dehumidifier/) guide compares alternatives.",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Bucket": "4.35 gallons",
+        "Drainage": "Bucket or gravity hose",
+        "Best for": "1,500–3,000 sq ft, very damp"
+      }
+    },
+    {
+      "id": "alorair-sentinel-hdi65",
+      "name": "AlorAir Sentinel HDi65 Dehumidifier",
+      "shortName": "AlorAir HDi65",
+      "award": "Best for crawl spaces",
+      "pros": [
+        "Built to run continuously in cold, tight spaces",
+        "Built-in pump and duct options",
+        "55 pints a day (AHAM)"
+      ],
+      "cons": [
+        "Commercial pricing",
+        "Overkill for living spaces"
+      ],
+      "whyWeLoveIt": "For a crawl space or a whole wet basement, a standard portable pushed past its limits won’t last. This unit is designed for exactly that job.",
+      "performance": "AlorAir rates it at 55 pints a day under AHAM conditions and 120 at saturation, with a pump and ducting options for spaces you can’t walk into. The Wi-Fi HDi65S variant is worth comparing. See our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "55 pints/day (AHAM)",
+        "Type": "Commercial compressor",
+        "Drainage": "Built-in pump",
+        "Best for": "Crawl spaces, wet basements"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "size-chart",
+      "heading": "Dehumidifier size chart: square footage × dampness",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Find your square footage across the top and your dampness down the side. Capacities are current DOE 2019 pint ratings."
+        },
+        {
+          "type": "table",
+          "head": ["Condition", "Up to 1,000 sq ft", "1,000–2,000 sq ft", "Over 2,000 sq ft"],
+          "rows": [
+            ["Moderately damp (musty smell, no visible moisture)", "20–25 pints", "25–30 pints", "30+ pints"],
+            ["Very damp (condensation on walls, pipes or windows)", "25–30 pints", "30–40 pints", "40+ pints"],
+            ["Wet (seepage or standing water)", "30–40 pints", "40–50 pints", "50+ pints"]
+          ],
+          "caption": "Based on widely used AHAM and ENERGY STAR sizing guidance, converted to DOE 2019 ratings."
+        },
+        {
+          "type": "callout",
+          "title": "Past what a portable can handle",
+          "text": "Flood cleanup, standing water on a slab or a crawl space that seeps after every rain calls for an industrial-size LGR dehumidifier. See our [best commercial dehumidifier](/best/best-commercial-dehumidifier/) picks."
+        }
+      ]
+    },
+    {
+      "id": "calculator",
+      "heading": "A quick dehumidifier size calculator",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Measure the space.** Multiply length by width. Add connected rooms if there’s no door between them.",
+            "**Rate the dampness.** Musty only = moderately damp. Beading on walls or windows = very damp. Seepage or puddles = wet.",
+            "**Read the chart.** Find your row and column above.",
+            "**Adjust for ceilings.** If ceilings are higher than 8 feet, move up one tier.",
+            "**Adjust for moisture sources.** A laundry room, hot tub or shower nearby? Move up one tier.",
+            "**Between sizes?** Choose the larger one, as long as it has a humidistat that switches off at your target."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Example: a 1,200-square-foot basement with condensation on the foundation walls lands at 30–40 pints. With a dryer venting into the space, move up to a 50-pint unit."
+        }
+      ]
+    },
+    {
+      "id": "room-size",
+      "heading": "Dehumidifier sizes by room",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Space", "Typical size", "What to buy"],
+          "rows": [
+            ["Closet, safe, small bathroom", "Under 100 sq ft", "Mini thermoelectric or renewable desiccant"],
+            ["Bedroom or office", "100–500 sq ft", "20–22 pints"],
+            ["Living room, small apartment", "500–1,500 sq ft", "30–35 pints"],
+            ["Basement or large main floor", "1,500–3,000 sq ft", "50 pints, pump if needed"],
+            ["Crawl space or whole wet basement", "Any size", "Commercial unit (55+ pints AHAM)"],
+            ["Whole house", "Any size", "Ducted whole-home unit"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mid-size electric minis such as the Eva-Dry EDV-2400 add a built-in humidistat but remove only a small amount of water — fine for a closet or bathroom, not a bedroom. For whole-home systems, size by square footage and duct capacity instead; see our [best whole-house dehumidifier](/best/best-whole-house-dehumidifier/) guide."
+        }
+      ]
+    },
+    {
+      "id": "doe-2019",
+      "heading": "Why dehumidifier sizes changed in 2019",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Starting in June 2019, the DOE moved its official test from an 80°F room to a 65°F room to better reflect real basements. Cooler air holds less water, so every model’s rated capacity dropped — the hardware didn’t change, only the label."
+        },
+        {
+          "type": "table",
+          "head": ["Old rating (pre-2019)", "Roughly equivalent DOE 2019 rating"],
+          "rows": [
+            ["30 pints", "About 20–22 pints"],
+            ["50 pints", "About 35 pints"],
+            ["70 pints", "About 50 pints"]
+          ],
+          "caption": "Approximate; check each model’s current DOE rating."
+        },
+        {
+          "type": "p",
+          "text": "Some brands still headline capacity under hot, saturated conditions (often 95°F and 90% humidity or more), which inflates the number further. Always compare DOE to DOE. For the mechanics behind those ratings, see [how does a dehumidifier work](/guides/how-does-a-dehumidifier-work/)."
+        }
+      ]
+    },
+    {
+      "id": "how-to-size",
+      "heading": "How to size a dehumidifier: the adjustments charts miss",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Ceiling height",
+              "text": "Charts assume 8-foot ceilings. Vaulted rooms hold more air per square foot, so size up a tier."
+            },
+            {
+              "label": "Open floor plans",
+              "text": "Treat connected spaces as one area. A unit can’t dry only the room it sits in when there’s no door."
+            },
+            {
+              "label": "Temperature",
+              "text": "Below about 60°F, compressor units remove less water; below about 41°F they start icing. Cold spaces need extra capacity or a desiccant."
+            },
+            {
+              "label": "Placement",
+              "text": "A correctly sized unit jammed into a corner underperforms. Follow our [where to place a dehumidifier](/guides/where-to-place-a-dehumidifier/) rules."
+            },
+            {
+              "label": "Grow tents",
+              "text": "Plant count and growth stage matter more than floor area. See our [best dehumidifier for grow tent](/best/best-dehumidifier-for-grow-tent/) guide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Decide how damp the space is before you look at square footage — the same 1,000-square-foot room can need anywhere from 20 to 40 pints. Compare current DOE ratings, adjust for ceilings and moisture sources and, if you’re between sizes, choose the larger unit with a good humidistat. Then set that humidistat to around 45–50%; our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/) explains why."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What size dehumidifier do I need for a 1,000 sq ft basement?",
+      "a": "About 20–25 pints (DOE 2019) if it’s moderately damp, 25–30 pints if you see condensation and 30–40 pints if there’s seepage or standing water. See our [best dehumidifier for 1,000 sq ft](/best/best-dehumidifier-for-1000-sq-ft/) picks."
+    },
+    {
+      "q": "What size dehumidifier do I need for 2,000 square feet?",
+      "a": "Usually 30–50 pints depending on dampness, or a ducted whole-home unit if the space is spread across multiple rooms. Our [best dehumidifier for 2,000 sq ft](/best/best-dehumidifier-for-2000-sq-ft/) guide has specific picks."
+    },
+    {
+      "q": "Is it better to size up or down on a dehumidifier?",
+      "a": "Size up one step if you’re between two sizes. A slightly larger unit with a humidistat reaches the target and cycles off. Avoid jumping several sizes, which adds cost without benefit."
+    },
+    {
+      "q": "Why is a new dehumidifier’s pint rating lower than my old one?",
+      "a": "The DOE changed its test in 2019 from 80°F to 65°F. The same machine now earns a lower number — an old 70-pint unit is roughly a 50-pint unit today."
+    },
+    {
+      "q": "How do I know if my space is damp, very damp or wet?",
+      "a": "Damp: a musty smell but no visible moisture. Very damp: beading on windows, pipes or walls. Wet: visible seepage or standing water. A hygrometer reading above 60% confirms a problem."
+    },
+    {
+      "q": "When do I need an industrial-size dehumidifier?",
+      "a": "For flood cleanup, standing water, large warehouses or crawl spaces with constant seepage. Commercial LGR units are built to run continuously and pull moisture at lower humidity levels."
+    }
+  ],
+  "related": [
+    "/best/best-dehumidifier/",
+    "/best/best-dehumidifier-for-1000-sq-ft/",
+    "/best/best-dehumidifier-for-2000-sq-ft/",
+    "/guides/where-to-place-a-dehumidifier/",
+    "/best/best-50-pint-dehumidifier/",
+    "/guides/how-does-a-dehumidifier-work/"
+  ]
+}

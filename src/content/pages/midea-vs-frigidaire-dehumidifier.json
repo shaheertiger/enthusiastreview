@@ -1,0 +1,217 @@
+{
+  "slug": "midea-vs-frigidaire-dehumidifier",
+  "section": "compare",
+  "category": "Comparisons",
+  "navLabel": "Midea vs. Frigidaire",
+  "title": "Midea vs. Frigidaire Dehumidifier (2026): Cube 50 vs. FHDD5034Y1",
+  "h1": "Midea vs. Frigidaire Dehumidifiers",
+  "dek": "Two best-selling 50-pint machines, nearly tied on efficiency — so the real decision comes down to warranty, tank size and what you'll pay.",
+  "description": "Midea vs. Frigidaire dehumidifier, head to head: the Cube 50 and FHDD5034Y1 compared on real power use, warranty, tank size and features to help you choose.",
+  "published": "2026-10-26",
+  "updated": "2026-11-05",
+  "intro": [
+    "If you're shopping for a 50-pint dehumidifier, the Midea vs. Frigidaire question comes up fast. Midea's **Cube 50 (MAD50S1QWT)** and Frigidaire's **FHDD5034Y1** sit side by side on most store shelves and spec sheets: both rated at 50 pints a day under the DOE test, both ENERGY STAR certified, both offering Wi-Fi and voice-assistant control, and both rated for spaces up to roughly 4,500 square feet.",
+    "For years, the standard advice was that Midea ran far more efficiently. That gap turns out to be much smaller than it looked, because many comparisons set a measured Midea figure against Frigidaire's nameplate maximum. On ENERGY STAR's standardized ratings, they're nearly identical.",
+    "So the real differences are elsewhere: Midea's bigger tank and compact design versus Frigidaire's much longer sealed-system warranty and typically lower price. Here's how they stack up."
+  ],
+  "topPicksLead": "Choose the **Midea Cube 50** for less-frequent emptying and a tidier footprint, or the **Frigidaire FHDD5034Y1** for five years of sealed-system coverage at a lower typical price.",
+  "products": [
+    {
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Dehumidifier (MAD50S1QWT)",
+      "shortName": "Midea Cube 50",
+      "award": "Best for convenience",
+      "pros": [
+        "Base tank holds about 34 pints",
+        "Compact cube shape",
+        "Slight efficiency edge in independent bench testing",
+        "Wi-Fi with Alexa and Google"
+      ],
+      "cons": [
+        "Standard warranty is just one year",
+        "Usually costs more than the Frigidaire"
+      ],
+      "whyWeLoveIt": "The Cube's lift-off base holds roughly a third more water than Frigidaire's bucket and lifts out as one piece, so you'll make fewer, easier trips to empty it. Its compact shape is also easier to fit into a finished space.",
+      "performance": "ENERGY STAR rates it at 49.67 pints a day, 2.01 L/kWh and 515 kWh a year. In one independent bench test at 50% humidity, it drew about 512 watts and pulled a test room from 90% to 40% humidity in under eight minutes. Owners consistently praise the tank design; the most common complaint is the short warranty. See the full Cube range in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Efficiency": "2.01 L/kWh, ENERGY STAR",
+        "Drainage": "~34-pint base tank or hose",
+        "Smart control": "Wi-Fi, Alexa, Google",
+        "Warranty": "1 year standard"
+      }
+    },
+    {
+      "id": "frigidaire-fhdd5034y1",
+      "name": "Frigidaire 50-Pint Dehumidifier with Wi-Fi (FHDD5034Y1)",
+      "shortName": "Frigidaire FHDD5034Y1",
+      "award": "Best for long-term value",
+      "pros": [
+        "Five-year sealed-system warranty",
+        "Typically priced below the Cube 50",
+        "Auto-defrost down to 41°F",
+        "Sturdy cabinet with casters"
+      ],
+      "cons": [
+        "Smaller 2.7-gallon bucket",
+        "Taller, bulkier box"
+      ],
+      "whyWeLoveIt": "Frigidaire covers the compressor, evaporator and condenser for five years. On an appliance that runs hard every humid season, that's meaningful protection — and you usually pay less up front.",
+      "performance": "ENERGY STAR rates it at 49.71 pints a day, 2.01 L/kWh and 521 kWh a year — effectively tied with the Cube. Frigidaire's spec sheet lists 8.8 amps (about 470 watts); the same independent bench test that measured the Midea recorded about 560 watts at 50% humidity. Either way, the gap is modest. The Y1 replaced the FHDD5034W1 and uses R-32 refrigerant. More models are in our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Efficiency": "2.01 L/kWh, ENERGY STAR",
+        "Drainage": "2.7-gal bucket or hose",
+        "Low-temp operation": "Auto-defrost to 41°F",
+        "Warranty": "5 years sealed system"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "head-to-head",
+      "heading": "Midea vs. Frigidaire, head to head",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["", "Midea Cube 50 (MAD50S1QWT)", "Frigidaire FHDD5034Y1"],
+          "rows": [
+            ["DOE capacity (ENERGY STAR)", "49.67 pints/day", "49.71 pints/day"],
+            ["Efficiency (IEF)", "2.01 L/kWh", "2.01 L/kWh"],
+            ["Rated annual energy", "515 kWh", "521 kWh"],
+            ["Bench-measured draw at 50% RH", "About 512 W", "About 560 W"],
+            ["Water tank", "About 34 pints", "2.7 gallons (~21.6 pints)"],
+            ["Smart control", "Wi-Fi, Alexa, Google", "Wi-Fi, Alexa, Google"],
+            ["Coverage", "Up to ~4,500 sq ft", "Up to ~4,500 sq ft"],
+            ["Warranty", "1 year (2 on select models)", "5 years sealed system"],
+            ["Typical price", "Higher", "Lower"]
+          ],
+          "caption": "Capacity, IEF and annual energy from ENERGY STAR's certified-product data; draw from one independent bench test."
+        }
+      ]
+    },
+    {
+      "id": "how-we-compared",
+      "heading": "How we compared them",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don't lab-test. We pulled both models' ENERGY STAR listings, which use the same DOE procedure for every brand, then compared manufacturer spec sheets, warranty documents and published independent bench measurements. We also read owner reviews for recurring complaints and checked the CPSC recall database."
+        }
+      ]
+    },
+    {
+      "id": "power-draw",
+      "heading": "Power use: closer than you've heard",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The claim that Frigidaire uses nearly twice the power came from comparing Midea's measured running draw with Frigidaire's nameplate rating. Nameplate amps are a maximum for wiring purposes, not what the machine pulls in a basement at 50% humidity. Our [electricity use guide](/guides/how-much-electricity-does-a-dehumidifier-use/) explains why."
+        },
+        {
+          "type": "p",
+          "text": "Compared fairly, the two are close. ENERGY STAR puts them 6 kWh apart over a year. Even using the independent bench numbers, the roughly 48-watt gap amounts to about 0.6 kWh a day at 12 hours of running — around $3 a month at typical U.S. electricity rates."
+        },
+        {
+          "type": "callout",
+          "title": "The takeaway",
+          "text": "Midea has a modest efficiency edge in bench testing, but it's too small to be the reason you choose one over the other."
+        }
+      ]
+    },
+    {
+      "id": "warranty-tank-price",
+      "heading": "Warranty, tank size and price",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Warranty: Frigidaire wins clearly"
+        },
+        {
+          "type": "p",
+          "text": "Frigidaire's five-year sealed-system warranty covers the parts that are most expensive to fix. Midea's standard coverage is one year, extended to two on some models sold through specific retailers. If a compressor fails in year three, that's the difference between a free repair and a new purchase."
+        },
+        {
+          "type": "h3",
+          "text": "Tank: Midea wins"
+        },
+        {
+          "type": "p",
+          "text": "The Cube's base holds about 34 pints versus Frigidaire's 2.7-gallon bucket, so you'll empty it less often in humid weather. If you plan to use a drain hose, this advantage disappears; see our [dehumidifier with drain hose](/best/best-dehumidifier-with-drain-hose/) picks."
+        },
+        {
+          "type": "h3",
+          "text": "Price: Frigidaire usually wins"
+        },
+        {
+          "type": "p",
+          "text": "The FHDD5034Y1 typically sells for less than the Cube 50, and its price varies widely across retailers, so it's worth comparing a few before buying."
+        }
+      ]
+    },
+    {
+      "id": "which-should-you-buy",
+      "heading": "Which should you buy?",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Buy the Midea Cube 50 if…",
+              "text": "you'll empty the tank by hand, want a compact unit for a finished space, or value fast drying and a slight efficiency edge."
+            },
+            {
+              "label": "Buy the Frigidaire FHDD5034Y1 if…",
+              "text": "you want long-term protection, plan to run a drain hose anyway, or want to spend less up front."
+            },
+            {
+              "label": "Consider a pump model if…",
+              "text": "the unit will sit below your nearest drain. Both brands sell pump versions; see our [dehumidifiers with a pump](/best/best-dehumidifier-with-pump/) guide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In the Midea vs. Frigidaire matchup, efficiency is essentially a tie. The **Midea Cube 50** wins on tank size, compact design and drying speed; the **Frigidaire FHDD5034Y1** wins on warranty and usually on price. If you'll run a hose and want peace of mind, take the Frigidaire. If you'll empty a tank and want the easier daily experience, take the Midea. For other matchups, see [Frigidaire vs. Honeywell](/compare/frigidaire-vs-honeywell-dehumidifier/) or browse our [best dehumidifier](/best/best-dehumidifier/) picks."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Midea or Frigidaire better for a dehumidifier?",
+      "a": "It depends on what you value. Midea's Cube 50 has a larger tank, compact design and a slight efficiency edge in bench testing; Frigidaire's FHDD5034Y1 has a five-year sealed-system warranty and is usually cheaper."
+    },
+    {
+      "q": "Does Frigidaire use more electricity than Midea?",
+      "a": "Only slightly. ENERGY STAR rates the Midea Cube 50 at 515 kWh a year and the Frigidaire FHDD5034Y1 at 521. Claims of a near-double gap compared a measured Midea figure with Frigidaire's nameplate maximum."
+    },
+    {
+      "q": "Which has the longer warranty?",
+      "a": "Frigidaire, by four years. It covers the sealed system for five years, while Midea's Cube line carries a one-year standard warranty, two on some retailer-specific models."
+    },
+    {
+      "q": "Which holds more water?",
+      "a": "The Midea Cube 50, with a base tank of about 34 pints versus Frigidaire's 2.7-gallon (about 21.6-pint) bucket."
+    },
+    {
+      "q": "Is the Frigidaire FHDD5034Y1 the same as the FHDD5034W1?",
+      "a": "Essentially. The Y1 replaced the W1 and uses R-32 refrigerant, with minor spec changes. Reviews of the W1 largely apply to the Y1."
+    }
+  ],
+  "related": [
+    "/best/best-midea-dehumidifier/",
+    "/best/best-frigidaire-dehumidifier/",
+    "/compare/frigidaire-vs-honeywell-dehumidifier/",
+    "/compare/haier-vs-ge-dehumidifier/",
+    "/best/best-50-pint-dehumidifier/",
+    "/guides/how-much-electricity-does-a-dehumidifier-use/"
+  ]
+}

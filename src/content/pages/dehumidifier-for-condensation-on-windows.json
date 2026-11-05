@@ -1,0 +1,242 @@
+{
+  "slug": "dehumidifier-for-condensation-on-windows",
+  "section": "guides",
+  "category": "Buying Advice",
+  "navLabel": "Window Condensation",
+  "title": "Dehumidifier for Window Condensation: Stop Foggy Windows (2026)",
+  "h1": "Condensation on Your Windows? How a Dehumidifier Stops It",
+  "dek": "Fogged glass isn't a window problem. It's humid indoor air meeting the coldest surface in the room, and the fix starts with the air.",
+  "description": "Does a dehumidifier stop window condensation? Why windows fog, the humidity levels that trigger it by window type, and the dehumidifier setup that fixes it.",
+  "published": "2026-09-08",
+  "updated": "2026-11-05",
+  "intro": [
+    "Wake up to streaming glass every winter morning and it's tempting to blame the windows. In most cases, though, **window condensation** is a sign that the air inside holds more moisture than the cold glass can tolerate. The right **dehumidifier** fixes it by lowering the room's humidity until its dew point drops below the temperature of the glass, so the water stays in the air rather than beading on the pane.",
+    "The tricky part is that there's no single magic number. The humidity level that triggers condensation depends on how cold it is outside and whether your windows are single-, double- or triple-pane. That's why the same room can stay clear in October and fog solid by January.",
+    "Below, we explain what's happening, show the thresholds by window type, and walk through the setup — and the few dehumidifiers and tools — that solve it for good."
+  ],
+  "topPicksLead": "For a room with fogging windows, the **Midea Cube 35** is a strong all-around choice because its digital humidistat holds the exact number winter demands.",
+  "products": [
+    {
+      "id": "midea-cube-35",
+      "catalogId": "midea-cube-35",
+      "name": "Midea Cube 35-Pint Smart Dehumidifier",
+      "shortName": "Midea Cube 35",
+      "award": "Best all-around fix",
+      "pros": [
+        "Digital humidistat holds an exact target",
+        "Right-sized for a bedroom or living room",
+        "Large lift-out reservoir",
+        "App shows room humidity"
+      ],
+      "cons": [
+        "Larger than you need for a small bedroom",
+        "Compressor units slow down in very cold rooms"
+      ],
+      "whyWeLoveIt": "Beating window condensation means holding a specific humidity, and that number shifts as the weather turns colder. A set-percentage humidistat lets you lower the target by a few points before a cold snap instead of guessing between Low and High.",
+      "performance": "It's rated at 35 pints a day under the DOE 2019 test, enough for a typical living room or primary bedroom. Set it to the threshold your windows need, close the door and let it cycle. In a heated room it works well; in a cold, unheated space, a desiccant unit may be a better fit.",
+      "specs": {
+        "Capacity": "35 pints/day (DOE 2019)",
+        "Humidistat": "Digital, set % target",
+        "Smart control": "Wi-Fi app",
+        "Drainage": "Reservoir or gravity hose",
+        "Best for": "Bedroom, living room"
+      }
+    },
+    {
+      "id": "homelabs-hme1003",
+      "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (HME1003)",
+      "shortName": "hOmeLabs HME1003",
+      "award": "Best for whole-floor condensation",
+      "pros": [
+        "App shows live humidity remotely",
+        "Built-in pump for hands-off draining",
+        "Enough capacity for an open floor"
+      ],
+      "cons": [
+        "Overkill for a single window",
+        "Louder than room-size units"
+      ],
+      "whyWeLoveIt": "When several windows across a floor are fogging, one bigger unit placed centrally beats chasing individual rooms. The app lets you watch humidity as the outdoor temperature drops overnight.",
+      "performance": "It's a 50-pint-class compressor unit with a built-in pump, so it can run all winter without bucket duty. Use the app to confirm the floor stays under your threshold on the coldest nights. If the whole house fogs, consider our [best whole-house dehumidifier](/best/best-whole-house-dehumidifier/) picks.",
+      "specs": {
+        "Capacity": "50-pint class (DOE)",
+        "Drainage": "Built-in pump",
+        "Smart control": "Wi-Fi app",
+        "Type": "Compressor",
+        "Best for": "Open floor plans"
+      }
+    },
+    {
+      "id": "govee-h5075",
+      "catalogId": "govee-h5075-hygrometer",
+      "name": "Govee H5075 Bluetooth Hygrometer",
+      "shortName": "Govee H5075",
+      "award": "Best way to find your number",
+      "pros": [
+        "Shows humidity and temperature at a glance",
+        "Phone app logs history",
+        "Inexpensive"
+      ],
+      "cons": [
+        "Bluetooth range is limited",
+        "Monitors only"
+      ],
+      "whyWeLoveIt": "The only way to know where your windows start fogging is to watch the humidity when they do. A logging hygrometer tells you the exact reading, so you can set your dehumidifier a few points below it.",
+      "performance": "Place it on a shelf in the room, away from the window and the dehumidifier, so you're reading the room's typical air. Check its log on the morning you see condensation and note the humidity. That's your ceiling for similar weather.",
+      "specs": {
+        "Type": "Digital hygrometer",
+        "Connectivity": "Bluetooth app",
+        "Data": "Humidity and temperature log",
+        "Power": "Battery",
+        "Best for": "Finding your threshold"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-it-happens",
+      "heading": "Why windows get condensation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Warm air holds more water vapor than cold air. In winter, the inside surface of a window is usually the coldest thing in the room. When room air touches it, that air cools right at the glass. If it cools below its dew point, the excess moisture comes out as liquid. The colder it is outside, the colder the glass, and the lower your indoor humidity has to be to keep it clear."
+        },
+        {
+          "type": "table",
+          "head": ["Outdoor temperature", "Window type", "Condensation starts above"],
+          "rows": [
+            ["30°F", "Single-pane", "About 32% RH"],
+            ["30°F", "Double-glazed", "About 58% RH"],
+            ["10°F", "Single-pane", "About 17% RH"],
+            ["10°F", "Triple-glazed", "About 62% RH"]
+          ],
+          "caption": "Approximate thresholds from building-science calculations; real-world values vary with frames, drapes and airflow."
+        },
+        {
+          "type": "callout",
+          "title": "The single-pane catch",
+          "text": "On a 10°F night, a single-pane window can fog at just 17% humidity — well inside the EPA's normal 30–50% range. In that case, a dehumidifier helps, but storm windows or upgraded glazing may be the real fix."
+        }
+      ]
+    },
+    {
+      "id": "how-we-researched",
+      "heading": "How we researched this",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don't run a test house. We drew on published building-science calculations for condensation thresholds by glazing type, EPA humidity guidance, manufacturer specs for humidistat precision and capacity, and owner reports about winter performance."
+        }
+      ]
+    },
+    {
+      "id": "does-a-dehumidifier-help",
+      "heading": "Does a dehumidifier stop window condensation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, in most homes — as long as the moisture is indoors and on the room side of the glass. Lowering the room's humidity lowers its dew point, and once that's below the glass temperature, the fog stops forming. It won't help in three situations:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Condensation between the panes.** Moisture trapped inside a double- or triple-glazed unit means the seal has failed. That's a window repair, not a humidity problem.",
+            "**Dew on the outside of the glass.** Exterior condensation on summer mornings is common with efficient windows and is harmless.",
+            "**A single-pane window in deep cold.** If the threshold is below 20%, holding the room that dry is impractical and uncomfortable. Add storm windows or interior insulating panels."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-stop-it",
+      "heading": "How to stop condensation on windows",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Cut moisture at the source.** Run bathroom and kitchen exhaust fans vented outdoors, cover pots, and dry laundry in a vented dryer.",
+            "**Find your threshold.** Use a hygrometer to note the room's humidity on a morning the windows fog.",
+            "**Set the dehumidifier a few points lower.** Put the unit in the room, not aimed at the glass, and close the door so it isn't drying the whole house.",
+            "**Keep air moving at the glass.** Open blinds and pull heavy drapes back a few inches; trapped, still air against the pane gets colder and fogs sooner.",
+            "**Adjust as the season changes.** Lower the setpoint before a cold snap and raise it again in spring."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Turning up the heat can briefly clear the glass, but it doesn't remove any moisture; the water will reappear elsewhere once the room cools. Our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/) has seasonal targets, and our guide on [how to dehumidify a room](/guides/how-to-dehumidify-a-room/) covers the non-appliance fixes in detail."
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "What to look for in a dehumidifier for window condensation",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "A set-percentage humidistat",
+              "text": "You'll need to hold a specific number that changes with the weather."
+            },
+            {
+              "label": "Room-appropriate size",
+              "text": "A typical bedroom or living room needs 20–35 pints. Several fogging rooms point to a larger or whole-house unit. See our [dehumidifier size guide](/guides/dehumidifier-size-guide/)."
+            },
+            {
+              "label": "Cold-room performance",
+              "text": "In an unheated sunroom or garage, a desiccant model keeps working where compressor units slow down. Our [best desiccant dehumidifier](/best/best-desiccant-dehumidifier/) guide covers those."
+            },
+            {
+              "label": "Quiet operation",
+              "text": "Fogged bedroom windows mean overnight running, so a sleep mode is worth having."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Foggy windows are a symptom of indoor humidity meeting cold glass. Cut moisture where it starts, find your fogging threshold with a hygrometer, and set a dehumidifier like the **Midea Cube 35** a few points below it. If the condensation is between the panes, call a window pro instead. And if it's showing up all over the house, it's time to think whole-home."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a dehumidifier stop condensation on windows?",
+      "a": "Usually, yes. Lowering indoor humidity brings the room's dew point below the glass temperature, so moisture stops forming. It won't fix condensation between the panes of a sealed window or dew on the outside of the glass."
+    },
+    {
+      "q": "What humidity level stops window condensation?",
+      "a": "It depends on the outdoor temperature and the glass. At 30°F outside, single-pane windows can fog above about 32% humidity, while double-glazed windows tolerate up to about 58%. The colder it gets, the lower the indoor humidity needs to be."
+    },
+    {
+      "q": "Is there such a thing as a window dehumidifier?",
+      "a": "Not as a separate appliance that mounts in a window. Window air conditioners remove some moisture as they cool, but in winter you need a portable dehumidifier placed in the room. Small absorbent strips or trays for sills catch drips but don't lower humidity."
+    },
+    {
+      "q": "Where should I put a dehumidifier for window condensation?",
+      "a": "In the room with the fogging windows, a few feet from walls and furniture, with the door closed. It doesn't need to point at the glass; lowering the whole room's humidity is what stops the fog."
+    },
+    {
+      "q": "Is window condensation harmful?",
+      "a": "It can be. Water running onto sills and frames keeps them damp, which can lead to peeling paint, rot and mold, especially when it happens every night. It's also a sign the room's humidity may be affecting other cold surfaces."
+    },
+    {
+      "q": "Why do I get condensation on double-pane windows?",
+      "a": "Double glazing raises the threshold but doesn't eliminate it. A very cold night, a humid room such as a bathroom or kitchen, or a degraded seal can still push the glass below the room's dew point."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-humidistat-settings-guide/",
+    "/guides/how-to-dehumidify-a-room/",
+    "/guides/when-to-use-a-dehumidifier/",
+    "/best/best-whole-house-dehumidifier/",
+    "/best/best-desiccant-dehumidifier/",
+    "/best/best-car-dehumidifier/"
+  ]
+}

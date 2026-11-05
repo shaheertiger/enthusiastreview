@@ -1,0 +1,202 @@
+{
+  "slug": "dehumidifier-freezing-up",
+  "section": "guides",
+  "category": "How-To & Fixes",
+  "navLabel": "Freezing Up",
+  "title": "Dehumidifier Freezing Up? Why It Ices Over & How to Fix It",
+  "h1": "Dehumidifier Freezing Up? Here’s Why — and How to Fix It",
+  "dek": "Frost on the coil is rarely a dead machine. Usually it’s a cold room, a dirty filter or both — and both are fixable.",
+  "description": "Dehumidifier freezing up or icing over? Learn why coils frost in cold basements, how to tell normal defrost from a real problem, and step-by-step fixes.",
+  "published": "2026-08-27",
+  "updated": "2026-11-05",
+  "intro": [
+    "A **dehumidifier freezing up** is one of the most common complaints from basement and garage owners, especially when fall temperatures start to drop. You open the front panel expecting water in the bucket and find a sheet of frost — or solid ice — across the coils instead.",
+    "The good news: icing is rarely a sign the unit is broken. A compressor dehumidifier works by chilling a coil below the air’s dew point. If the coil gets colder than 32°F, the moisture freezes onto it instead of dripping off. Two things usually push it there — a room that’s too cool for the machine, or air that can’t move across the coil fast enough.",
+    "Below you’ll learn how to tell a normal defrost cycle from a real problem, how to thaw and fix an iced coil safely and what to do if your space is simply too cold for a standard unit."
+  ],
+  "topPicksLead": "If your basement or garage stays cool most of the year, the **Ivation 13-Pint Desiccant** sidesteps icing entirely because it has no cold coil to freeze.",
+  "products": [
+    {
+      "id": "ivation-13-pint-desiccant",
+      "catalogId": "ivation-13-pint-desiccant",
+      "name": "Ivation 13-Pint Desiccant Dehumidifier",
+      "shortName": "Ivation 13-Pint",
+      "award": "Best for cold rooms",
+      "pros": [
+        "No refrigerant coil, so nothing to freeze",
+        "Rated to operate from 33°F to 104°F",
+        "Light and portable",
+        "Drain-hose option"
+      ],
+      "cons": [
+        "Lower capacity than a 50-pint compressor unit",
+        "Costs more to run in warm rooms"
+      ],
+      "whyWeLoveIt": "When a space stays cold through fall and winter, a desiccant isn’t a workaround — it’s the right tool. It keeps drying in conditions that would ice a compressor unit every cycle.",
+      "performance": "Ivation rates it at 13 pints a day at 68°F and 60% humidity, and for use from 33°F to 104°F. Because it uses a moisture-absorbing wheel instead of a chilled coil, its output holds up as temperatures drop. For larger cold spaces, compare options in our [best desiccant dehumidifier](/best/best-desiccant-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "13 pints/day (68°F, 60% RH)",
+        "Type": "Desiccant",
+        "Low-temp operation": "33–104°F rated range",
+        "Drainage": "Tank or continuous hose",
+        "Best for": "Cold basements, garages"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-it-freezes",
+      "heading": "Why does my dehumidifier keep freezing up?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Almost every case comes back to two causes, often working together:"
+        },
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "The room is too cold",
+              "text": "The DOE rates dehumidifiers at 65°F, and below about 60–65°F the coil starts frosting even in a healthy unit. Auto-defrost can usually keep up into the 40s, but around 41°F and below, ice builds faster than it melts. This is the classic dehumidifier freezing up in a basement problem."
+            },
+            {
+              "label": "Airflow is restricted",
+              "text": "A clogged filter, blocked grille or a unit jammed against a wall slows air over the coil. Slower air gets colder, and the coil frosts even in a warm room."
+            },
+            {
+              "label": "Less common: a fault",
+              "text": "A failing fan motor, a bad defrost sensor or low refrigerant can all cause icing in a warm room with a clean filter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "normal-vs-problem",
+      "heading": "Icing up vs. frosting up: normal or a problem?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many compressor dehumidifiers have an automatic defrost cycle. When the coil gets too cold, the compressor shuts off while the fan keeps running, and room air melts the frost — usually within 20 to 30 minutes."
+        },
+        {
+          "type": "table",
+          "head": ["What you see", "What it means", "What to do"],
+          "rows": [
+            ["Thin, even frost that clears in 20–30 minutes", "Normal defrost cycle", "Nothing — let it finish"],
+            ["Thick ice that returns every cycle", "Defrost can’t keep up", "Unplug, thaw, clean the filter"],
+            ["Ice spreading beyond the coils", "Room too cold, airflow blocked or both", "Check temperature and filter together"],
+            ["Space stays below ~60°F most of the year", "Wrong type of unit for the climate", "Switch to a desiccant or low-temp unit"],
+            ["Icing in a warm room with a clean filter", "Possible fan, sensor or refrigerant fault", "Contact the maker or weigh repair vs. replace"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-fix",
+      "heading": "Dehumidifier freezing up fix: step by step",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Unplug the unit.** Running it over a solid sheet of ice strains the compressor.",
+            "**Let it thaw completely.** Light frost clears in 30–60 minutes; solid ice can take 2–4 hours. Put a towel underneath for meltwater.",
+            "**Don’t chip, scrape or blast it with a hair dryer.** Bent fins permanently cut airflow, and a punctured coil ends the unit’s life.",
+            "**Clean the filter.** Rinse a washable filter in lukewarm water and let it dry fully before reinstalling.",
+            "**Check clearance.** Leave at least 12 inches around the intake and outlet, and vacuum dust from the grilles.",
+            "**Check the room temperature.** Use a thermometer at the unit’s height — basement floors run colder than you’d think.",
+            "**Raise the set point or fan speed.** A higher humidity target and high fan move more air over the coil and reduce frosting.",
+            "**Restart and watch it.** If thick ice returns within a day in a room above 65°F with a clean filter, suspect a fault."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Don’t leave the room damp too long",
+          "text": "According to the EPA, mold can start growing on wet materials within 24–48 hours. A few hours of thawing is fine; days without moisture control isn’t."
+        }
+      ]
+    },
+    {
+      "id": "cold-basements",
+      "heading": "Stopping a dehumidifier from freezing up in a basement",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "**Raise it off the floor.** A sturdy stand or shelf puts the intake in warmer air.",
+            "**Warm the space slightly.** Even a few degrees from a heat register or space heater can stop chronic icing.",
+            "**Choose a low-temperature model.** Commercial crawl space units with hot-gas defrost run well into the 30s — see our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) picks.",
+            "**Go desiccant for the coldest spaces.** No coil means no ice.",
+            "**Seal leaks.** Cold outside air sneaking in through rim joists and windows makes everything worse."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Frigidaire dehumidifier freezing up?"
+        },
+        {
+          "type": "p",
+          "text": "The same causes and fixes apply to Frigidaire and every other compressor brand. Check your manual for the model’s minimum operating temperature and filter-cleaning instructions, and look at our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide if you’re weighing a replacement."
+        }
+      ]
+    },
+    {
+      "id": "repair-or-replace",
+      "heading": "When icing means repair or replace",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If your coils keep freezing up in a room above 65°F with a clean filter and plenty of clearance, the cause is likely internal: a fan that spins too slowly, a defrost sensor that never triggers or a slow refrigerant leak. Check the warranty first — many brands cover the sealed refrigeration system for several years. Out of warranty, a refrigerant repair often costs more than a new portable unit."
+        },
+        {
+          "type": "p",
+          "text": "If it won’t power on at all after thawing, that’s a different problem; see [dehumidifier not working](/guides/dehumidifier-not-working/). If it runs without icing but the bucket stays empty, try [dehumidifier not collecting water](/guides/dehumidifier-not-collecting-water/)."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A frozen dehumidifier almost always comes down to a cold room, a dirty filter or both. Light frost that clears on its own is normal; thick ice that keeps returning means unplug, thaw, clean and reassess. If the space stays cool most of the year, switch to a desiccant or low-temperature unit rather than fighting ice every season, and keep up with routine [dehumidifier maintenance](/guides/dehumidifier-maintenance/) so airflow never becomes the problem."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why does my dehumidifier keep freezing up?",
+      "a": "Usually because the room is too cold — below about 60–65°F the coil starts frosting — or because a dirty filter or blocked grille restricts airflow. Less often, a fan, sensor or refrigerant problem is to blame."
+    },
+    {
+      "q": "Is it normal for a dehumidifier to frost up?",
+      "a": "A thin layer that clears within 20–30 minutes is a normal defrost cycle. Thick ice that builds up cycle after cycle is not, and means the unit needs attention."
+    },
+    {
+      "q": "How do I stop my dehumidifier from icing up in the basement?",
+      "a": "Clean the filter, raise the unit off the cold floor, give it 12 inches of clearance, warm the space slightly or switch to a desiccant or low-temperature model if the basement stays cold."
+    },
+    {
+      "q": "Can a frozen coil damage my dehumidifier?",
+      "a": "One icing event caught and thawed properly won’t hurt a healthy unit. Running it repeatedly through solid ice strains the compressor and can shorten its life."
+    },
+    {
+      "q": "How long does it take a frozen dehumidifier to thaw?",
+      "a": "Unplugged at room temperature, light frost clears in 30–60 minutes and solid ice in 2–4 hours. Never chip or scrape the ice off."
+    },
+    {
+      "q": "What temperature is too cold for a dehumidifier?",
+      "a": "Standard compressor units lose efficiency below about 65°F and struggle with ice around 41°F. Desiccant units and low-temperature commercial models keep working into the 30s. See [how a dehumidifier works](/guides/how-does-a-dehumidifier-work/) for why."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-not-working/",
+    "/guides/dehumidifier-not-collecting-water/",
+    "/guides/dehumidifier-maintenance/",
+    "/best/best-desiccant-dehumidifier/",
+    "/best/best-dehumidifier-for-garage/",
+    "/guides/how-does-a-dehumidifier-work/"
+  ]
+}

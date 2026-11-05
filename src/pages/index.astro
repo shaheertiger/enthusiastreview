@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { PAGES, pageByPath, pagesIn, byCategory, pathOf, type Page } from '../lib/content';
+import { SITE } from '../data/site';
+const pick = (paths: string[]) => paths.map((p) => pageByPath(p)).filter(Boolean) as Page[];
+const featured = pick(['/best/best-dehumidifier/'])[0] ?? PAGES[0];
+const side = pick(['/best/best-dehumidifier-for-basement/', '/best/best-crawl-space-dehumidifier/', '/best/best-whole-house-dehumidifier/', '/best/best-small-dehumidifier/']);
+const rooms = pick(['/best/best-dehumidifier-for-bedroom/', '/best/best-dehumidifier-for-bathroom/', '/best/best-dehumidifier-for-garage/', '/best/best-dehumidifier-for-laundry-room/', '/best/best-dehumidifier-for-apartment/', '/best/best-dehumidifier-for-finished-basement/', '/best/best-dehumidifier-for-wood-floors/', '/best/best-rv-dehumidifier/']);
+const latest = [...PAGES].sort((a, b) => b.updated.localeCompare(a.updated) || b.published.localeCompare(a.published)).filter((p) => p !== featured && !side.includes(p)).slice(0, 8);
+const groups = byCategory(PAGES);
+const brands = PAGES.filter((p) => p.category === 'Brands');
+const guides = pagesIn('guides');
+const compare = pagesIn('compare');
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebSite', name: SITE.name, url: `${SITE.url}/` },
+    { '@type': 'Organization', name: SITE.name, url: `${SITE.url}/`, logo: `${SITE.url}/favicon.svg`, email: SITE.email },
+  ],
+};
+---
+<Base title={`${SITE.name}: Dehumidifier Reviews, Buying Guides & Fixes`} description="Independent dehumidifier reviews and buying guides: the best picks for basements, crawl spaces, bedrooms and every major brand, plus sizing, settings and fixes." jsonLd={jsonLd}>
+  <div class="wrap">
+    <section class="home-hero" aria-label="Featured">
+      <div class="lead"><Card page={featured} dek kicker="Editors' pick" /></div>
+      <div class="side">{side.map((p) => <Card page={p} />)}</div>
+    </section>
+
+    <h2 class="section-title">Pick by room</h2>
+    <div class="grid grid-4">{rooms.map((p) => <Card page={p} />)}</div>
+  </div>
+
+  <section class="band">
+    <div class="wrap">
+      <h2>Not sure what size you need?</h2>
+      <p style="max-width:44rem">Most people buy too small. Start with our sizing chart, then dial in the right humidity setting so the machine cycles off instead of running all day.</p>
+      <div class="chips">
+        <a class="chip" href="/guides/dehumidifier-size-guide/">Size guide</a>
+        <a class="chip" href="/guides/dehumidifier-humidistat-settings-guide/">Humidity settings</a>
+        <a class="chip" href="/guides/where-to-place-a-dehumidifier/">Where to place it</a>
+        <a class="chip" href="/guides/how-much-electricity-does-a-dehumidifier-use/">Running costs</a>
+        <a class="chip" href="/guides/dehumidifier-not-working/">Troubleshooting</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <h2 class="section-title">Latest updates</h2>
+    <div class="grid grid-4">{latest.map((p) => <Card page={p} />)}</div>
+
+    <h2 class="section-title">Brands, ranked</h2>
+    <ul class="list-links">{brands.map((p) => <li><a href={pathOf(p)}>{p.navLabel ?? p.h1}</a></li>)}</ul>
+
+    <h2 class="section-title">Buying guides &amp; fixes</h2>
+    <div class="grid grid-4">{guides.slice(0, 8).map((p) => <Card page={p} />)}</div>
+    <p style="margin-top:1rem"><a class="btn-ghost" href="/guides/">All buying guides</a></p>
+
+    <h2 class="section-title">Head-to-head</h2>
+    <div class="grid grid-4">{compare.map((p) => <Card page={p} />)}</div>
+
+    <h2 class="section-title">Browse everything</h2>
+    {groups.map((g) => (
+      <>
+        <h3 style="font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;margin:1.5rem 0 .5rem">{g.category}</h3>
+        <ul class="list-links">{g.pages.map((p) => <li><a href={pathOf(p)}>{p.navLabel ?? p.h1}</a></li>)}</ul>
+      </>
+    ))}
+  </div>
+</Base>

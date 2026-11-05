@@ -1,0 +1,15 @@
+---
+import Prose from '../components/Prose.astro';
+import { SITE } from '../data/site';
+---
+<Prose title="Affiliate Disclosure" h1="Affiliate Disclosure" description="How Enthusiast Review earns money through affiliate links, including the Amazon Associates Program, and why it never affects our picks.">
+  <p>{SITE.name} is reader-supported. When you click a link to a retailer on our site and make a purchase, we may earn a commission. This costs you nothing extra.</p>
+  <p><strong>{SITE.name} is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases.</strong></p>
+  <h2>Our editorial rules</h2>
+  <ul>
+    <li>Products are chosen and ranked before we look at commission rates, and many pages recommend products we earn nothing on.</li>
+    <li>No manufacturer or retailer pays for placement or reviews our content before it's published.</li>
+    <li>Prices shown on retailer sites change often; always check the current price before you buy.</li>
+  </ul>
+  <p>Questions? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+</Prose>

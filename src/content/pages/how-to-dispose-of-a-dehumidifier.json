@@ -1,0 +1,207 @@
+{
+  "slug": "how-to-dispose-of-a-dehumidifier",
+  "section": "guides",
+  "category": "How-To & Fixes",
+  "navLabel": "Disposal & Recycling",
+  "title": "How to Dispose of a Dehumidifier: What to Do With an Old One",
+  "h1": "What to Do With an Old Dehumidifier (and How to Dispose of It Safely)",
+  "dek": "It has refrigerant inside, so it can't just go to the curb. Here are the easy, legal ways to recycle, donate or get rid of an old dehumidifier.",
+  "description": "What to do with an old dehumidifier: why it can't go in the trash, how to recycle it, retailer and utility take-back, and disposing of desiccant units.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "When a dehumidifier finally quits — or you upgrade to something better — it's tempting to set it out with the trash. Don't. Wondering **what to do with an old dehumidifier**? Most models contain a refrigerant, the same kind of gas found in air conditioners and refrigerators, and federal rules require it to be recovered before the appliance is scrapped. Many trash haulers and landfills won't take one for that reason.",
+    "The good news is that disposing of a dehumidifier is usually easy and often free. Between municipal appliance pickup, retailer haul-away, utility recycling programs and scrap recyclers, most people have several options within a few miles.",
+    "Here's how to get rid of a dehumidifier the right way, what to do first, and how disposal differs for desiccant units and disposable moisture absorbers."
+  ],
+  "products": [],
+  "sections": [
+    {
+      "id": "can-you-trash-it",
+      "heading": "Can you throw a dehumidifier in the trash?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Short answer: no",
+          "text": "Compressor dehumidifiers contain refrigerant that must be recovered by a certified technician before the unit is scrapped. Put it out for regular trash and it may be refused — or the refrigerant may end up vented into the atmosphere."
+        },
+        {
+          "type": "p",
+          "text": "Under the federal Clean Air Act, it's illegal to knowingly vent refrigerants from appliances, and EPA rules make the final person in the disposal chain — usually a scrap recycler or landfill — responsible for making sure the refrigerant has been recovered. Older dehumidifiers commonly use R-410A, and many newer ones use refrigerants such as R-32. Either way, they need proper handling. Some states and cities also ban appliances or electronics from household trash."
+        }
+      ]
+    },
+    {
+      "id": "before-you-dispose",
+      "heading": "Before you get rid of it",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Make sure it's really dead.** Many problems — a full-bucket sensor, a dirty filter, a frozen coil — are easy fixes. Check our [dehumidifier not working](/guides/dehumidifier-not-working/) and [not collecting water](/guides/dehumidifier-not-collecting-water/) guides.",
+            "**Check for a recall.** Search the model number at CPSC.gov. Some recalls, such as the large 2016 recall of Gree-made dehumidifiers sold under several brands, offered refunds — money you'd lose by tossing it.",
+            "**Drain and dry it.** Empty the bucket, wipe it out and let the unit dry for a day so it doesn't leak in transit.",
+            "**Clean it if you'll donate or sell it.** Wash the bucket and filter so it's ready for the next owner.",
+            "**Keep it upright.** Don't cut or puncture refrigerant lines or try to remove parts yourself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "options",
+      "heading": "How to dispose of a dehumidifier: your options",
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "Option",
+            "How it works",
+            "Typical cost"
+          ],
+          "rows": [
+            [
+              "Sell or donate",
+              "Working units can go to friends, online marketplaces or charities that accept small appliances",
+              "Free, or you get paid"
+            ],
+            [
+              "Retailer haul-away",
+              "Many appliance retailers take the old unit when they deliver a new one, or accept drop-offs",
+              "Free to a modest fee"
+            ],
+            [
+              "Municipal appliance pickup",
+              "Many towns collect appliances with refrigerant on bulk-item days, sometimes with a sticker or tag",
+              "Free to a modest fee"
+            ],
+            [
+              "Household hazardous waste or e-waste events",
+              "County collection days accept appliances and electronics",
+              "Often free for residents"
+            ],
+            [
+              "Scrap metal recycler",
+              "Accepts appliances; may require refrigerant to be recovered or charge to do it",
+              "Free to a small fee"
+            ],
+            [
+              "Utility recycling program",
+              "Some electric utilities pick up old dehumidifiers and may pay a small rebate",
+              "Free, sometimes with a rebate"
+            ]
+          ],
+          "caption": "Availability and fees vary by location; call ahead or check your city or utility website."
+        },
+        {
+          "type": "h3",
+          "text": "Where can I recycle a dehumidifier near me?"
+        },
+        {
+          "type": "p",
+          "text": "Start with your city or county's solid-waste website and search for \"appliance recycling\" or \"bulk pickup.\" Then check your electric utility's site for appliance recycling programs. Some utilities partner with the EPA's Responsible Appliance Disposal (RAD) program, which ensures refrigerants and foam are handled properly."
+        }
+      ]
+    },
+    {
+      "id": "refrigerant",
+      "heading": "What happens to the refrigerant",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "At a responsible recycler, an EPA-certified technician connects recovery equipment to the sealed system and draws the refrigerant into a cylinder for reclaiming or destruction. The copper, aluminum and steel are then recycled, and the plastic housing is separated. That's why an appliance recycler may ask whether the refrigerant has been removed: if it hasn't, they'll recover it, sometimes for a small fee."
+        },
+        {
+          "type": "p",
+          "text": "Never try to remove the refrigerant yourself. Cutting a line releases the gas, can spray oil and is illegal if done knowingly. Handing the whole unit to a recycler is safer, simpler and usually cheaper than any shortcut."
+        }
+      ]
+    },
+    {
+      "id": "other-types",
+      "heading": "Desiccant, mini and disposable dehumidifiers",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Desiccant and thermoelectric units"
+        },
+        {
+          "type": "p",
+          "text": "Rotary desiccant dehumidifiers and small thermoelectric (Peltier) units don't use refrigerant, so they're treated like other small electronics. Take them to an e-waste drop-off or recycling event rather than the trash."
+        },
+        {
+          "type": "h3",
+          "text": "Disposable dehumidifiers and moisture absorbers"
+        },
+        {
+          "type": "p",
+          "text": "Disposable dehumidifiers — tubs and hanging bags filled with calcium chloride — collect a salty liquid. Follow the label: many direct you to pour the liquid down a toilet or drain and flush with water, then throw away the container. Keep the liquid off metal, plants and pets. Silica gel packs can generally go in household trash."
+        },
+        {
+          "type": "h3",
+          "text": "Renewable mini dehumidifiers"
+        },
+        {
+          "type": "p",
+          "text": "Silica units like the Eva-Dry E-333 are designed to be recharged, not thrown out. When one stops recharging, recycle it as small electronics. See our [best moisture absorber](/best/best-moisture-absorber/) and [best Eva-Dry dehumidifier](/best/best-eva-dry-dehumidifier/) guides."
+        }
+      ]
+    },
+    {
+      "id": "replacing",
+      "heading": "Replacing your old dehumidifier",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If your old unit is gone, you'll still want something to keep indoor humidity in the 30–50% range the EPA recommends for limiting mold. Modern ENERGY STAR models are more efficient than many units from a decade ago. Start with our [best dehumidifier](/best/best-dehumidifier/) and [best energy-efficient dehumidifier](/best/best-energy-efficient-dehumidifier/) picks, and see [how long dehumidifiers last](/guides/how-long-do-dehumidifiers-last/) to set expectations."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Don't put an old dehumidifier in the trash. Make sure it's beyond repair and not part of a recall, drain it, then sell or donate it if it works, or recycle it through retailer haul-away, municipal appliance pickup, a utility program or a scrap recycler that recovers refrigerant. Desiccant and thermoelectric units go to e-waste, and disposable moisture absorbers follow their label."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I dispose of a dehumidifier?",
+      "a": "Recycle it through your city's appliance pickup, a retailer haul-away program, a utility recycling program or a scrap recycler that recovers refrigerant. If it still works, sell or donate it."
+    },
+    {
+      "q": "Can I put a dehumidifier in the trash?",
+      "a": "No. Compressor dehumidifiers contain refrigerant that must be recovered before scrapping, and many haulers and landfills won't accept them as regular trash."
+    },
+    {
+      "q": "Does Home Depot or Lowe's take old dehumidifiers?",
+      "a": "Policies vary by store and change over time. Many big-box and appliance retailers offer haul-away when they deliver a new appliance, and some accept drop-offs. Call your local store to confirm."
+    },
+    {
+      "q": "Is there money in scrapping a dehumidifier?",
+      "a": "Not much. A dehumidifier contains some copper and aluminum, but the scrap value is small, and some recyclers charge to recover the refrigerant."
+    },
+    {
+      "q": "What parts of a dehumidifier can be recycled?",
+      "a": "Most of it. Recyclers recover the refrigerant, then separate the copper tubing, aluminum fins, steel compressor and motor, wiring and plastic housing. The bucket and filter can usually go in with the plastic or in the trash."
+    },
+    {
+      "q": "How do you dispose of a disposable dehumidifier?",
+      "a": "Follow the product label. For calcium chloride tubs and bags, many labels direct you to pour the liquid down a toilet or drain with plenty of water and throw away the container."
+    },
+    {
+      "q": "What should I do with an old dehumidifier that still works?",
+      "a": "Clean it and sell or donate it, or keep it as a backup for a garage, laundry room or crawl space. Check CPSC.gov first to make sure the model hasn't been recalled."
+    }
+  ],
+  "related": [
+    "/guides/how-long-do-dehumidifiers-last/",
+    "/guides/dehumidifier-not-working/",
+    "/best/best-energy-efficient-dehumidifier/",
+    "/best/best-dehumidifier/",
+    "/best/best-moisture-absorber/"
+  ]
+}

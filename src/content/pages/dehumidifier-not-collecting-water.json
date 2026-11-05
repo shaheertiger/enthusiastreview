@@ -1,0 +1,190 @@
+{
+  "slug": "dehumidifier-not-collecting-water",
+  "section": "guides",
+  "category": "How-To & Fixes",
+  "navLabel": "Not Collecting Water",
+  "title": "Dehumidifier Not Collecting Water? 6 Causes and Easy Fixes",
+  "h1": "Dehumidifier Not Collecting Water? Here's Why — and How to Fix It",
+  "dek": "The fan is spinning, the compressor is humming and the bucket is bone-dry. Nine times out of ten, the fix takes five minutes and no tools.",
+  "description": "Dehumidifier not collecting water but still running? Work through the six real causes, from humidistat settings to float switches and drain hoses, in order.",
+  "published": "2026-08-28",
+  "updated": "2026-11-05",
+  "intro": [
+    "A dehumidifier not collecting water while it's clearly running is one of the most common — and most fixable — complaints owners have. The fan blows, the compressor hums, the display looks normal, yet the bucket stays empty and the drain hose never drips. Before you assume the compressor has died, know that the cause is usually a setting or a small mechanical part.",
+    "In most cases it comes down to one of six things: a humidistat set below the room's current humidity, a stuck float switch, a bucket that isn't fully seated, a drain hose that kinks or runs uphill, a unit sitting off-level, or a room that's simply too cold or already dry. Work through them in order and you'll likely have water in the tank within the hour.",
+    "It's worth acting quickly. The EPA notes that mold can begin growing on a damp surface within **24 to 48 hours**, and a dehumidifier that sounds busy but isn't removing moisture gives you a false sense of security."
+  ],
+  "products": [],
+  "sections": [
+    {
+      "id": "quick-fix-order",
+      "heading": "Dehumidifier running but not collecting water? Try this first",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Check the humidistat.** Set it to its lowest number or Continuous mode and wait 30–60 minutes. If water starts dripping into the bucket, the setting was the whole problem.",
+            "**Pull and reseat the bucket.** Wipe the float, make sure it moves freely, and push the bucket in until it clicks.",
+            "**Trace the drain hose.** Follow it end to end, looking for kinks, coils or any section that rises before it falls.",
+            "**Level the unit.** Check it against a wall corner or with a small level; shim it if the floor slopes.",
+            "**Check the room.** If it's below about 65°F, or a hygrometer already reads under 45%, the unit may simply have little to do.",
+            "**Clean the filter.** A clogged filter starves the coils of air and slashes the water they can pull."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Unit won't turn on at all?",
+          "text": "That's a different problem. See our [dehumidifier not working](/guides/dehumidifier-not-working/) guide for power, reset and error-code checks."
+        }
+      ]
+    },
+    {
+      "id": "six-causes",
+      "heading": "Why is my dehumidifier not collecting water? The 6 real causes",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "1. The humidistat is set below the room's humidity"
+        },
+        {
+          "type": "p",
+          "text": "Your dehumidifier only runs its compressor when the room is *wetter* than your target. If you've set 40% and the room is already at 38%, the unit sees nothing to do and may just run the fan. This is the single most common cause. The EPA recommends 30–50% indoors, so for most rooms a 45–50% setting is right; our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/) has targets by room and season."
+        },
+        {
+          "type": "h3",
+          "text": "2. A stuck float switch"
+        },
+        {
+          "type": "p",
+          "text": "Almost every unit has a small plastic float that tells the control board when the bucket is full. If it gets wedged, coated with mineral residue or knocked out of position, the board thinks the tank is full and shuts the compressor down — even when it's empty. A cleaning and reseat fixes most cases; a cracked float needs a replacement part."
+        },
+        {
+          "type": "h3",
+          "text": "3. The bucket isn't fully seated"
+        },
+        {
+          "type": "p",
+          "text": "Many units won't run the compressor unless the bucket trips a presence sensor. A bucket that looks in place but sits a few millimeters out can quietly block operation. Push it in squarely until it clicks."
+        },
+        {
+          "type": "h3",
+          "text": "4. The drain hose is kinked or runs uphill"
+        },
+        {
+          "type": "p",
+          "text": "Most units without a built-in pump drain purely by gravity. The hose must run downhill the whole way from the port to the drain. A kink, a coil of slack or a section that dips and rises will stop the flow and can even back water into the unit. If your drain is higher than the port, you need a [dehumidifier with a pump](/best/best-dehumidifier-with-pump/)."
+        },
+        {
+          "type": "h3",
+          "text": "5. The unit isn't level"
+        },
+        {
+          "type": "p",
+          "text": "On a sloping basement slab or a thick rug, condensate can pool inside the unit away from the bucket opening or drain port. Move it to a flat, hard surface."
+        },
+        {
+          "type": "h3",
+          "text": "6. The room is too cold or already dry"
+        },
+        {
+          "type": "p",
+          "text": "Compressor dehumidifiers lose much of their capacity below about 65°F, and in cooler rooms the coils may frost over and spend more time defrosting than drying. Likewise, a room that's already near your setpoint yields only a trickle. A hygrometer will tell you which you're dealing with. If ice is the issue, see our [dehumidifier freezing up](/guides/dehumidifier-freezing-up/) guide; for a space that stays cold, a [desiccant dehumidifier](/best/best-desiccant-dehumidifier/) works far better."
+        }
+      ]
+    },
+    {
+      "id": "diagnostic-table",
+      "heading": "No-water diagnostic table",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["What you notice", "Likely cause", "What to do"],
+          "rows": [
+            ["Fan runs, compressor rarely kicks on", "Humidistat set below room humidity", "Switch to Continuous or lowest setting for an hour"],
+            ["Shuts off soon after starting, bucket empty", "Stuck or dirty float switch", "Remove bucket, clean float, reseat firmly"],
+            ["Fan and compressor run, nothing in bucket", "Bucket not fully seated", "Push the bucket in until it clicks"],
+            ["Hose attached, never drips", "Kink or uphill section in hose", "Straighten and keep it sloping downward"],
+            ["Water pools under or inside the unit", "Unit tilted", "Move to a level, hard surface"],
+            ["Runs for hours, only a trickle", "Cold room, frost or already-dry air", "Check temperature and humidity; clean filter"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brand-specific",
+      "heading": "Midea, GE, Frigidaire and other brands: what to check",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The six causes above apply to every brand, but a few brand habits are worth knowing. Always confirm against the error table in your own manual."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Midea dehumidifier not collecting water:** Midea and many Midea-built units, including some sold as Pelonis and Toshiba, show a bucket code (P2 on many Midea models) when the float or bucket sensor trips. On the Cube, make sure the top section is fully twisted up and locked. Our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide covers more codes.",
+            "**GE dehumidifier not collecting water:** on pump models, check that the pump hose is connected and unkinked; a P1 indicator often means the unit is defrosting, not broken.",
+            "**Frigidaire dehumidifier not collecting water:** check whether continuous drain is selected with no hose attached, and reseat the bucket so its sensor engages.",
+            "**Hisense, Haier, Danby, Soleus Air and other brands:** start with the humidistat and float, then check the filter. Low-temperature performance varies widely between models, so check the manual's minimum operating temperature."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-to-call",
+      "heading": "When it's time for repair or replacement",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If you've worked through every step, the room is warm and humid, and the compressor never starts — or starts and the coils stay at room temperature — the problem may be a failed compressor, start capacitor or refrigerant leak. These aren't DIY repairs. Check your warranty first; many brands cover the sealed system for longer than the rest of the unit."
+        },
+        {
+          "type": "p",
+          "text": "Out of warranty, a sealed-system repair often costs as much as a new unit. If yours is several years old, read our guide to [how long dehumidifiers last](/guides/how-long-do-dehumidifiers-last/) before deciding, and keep up with [regular maintenance](/guides/dehumidifier-maintenance/) on its replacement."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A dehumidifier that runs but stays dry is rarely dead. Check the humidistat first, then the float and bucket, then the drain hose, level and room conditions — roughly in order of how often each turns out to be the culprit. Most fixes take minutes. If the unit still won't pull water from a warm, humid room, it's time to check the warranty. And if everything checks out, make sure it isn't wedged in a corner recirculating its own air; our [placement guide](/guides/where-to-place-a-dehumidifier/) explains where it works best."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why is my dehumidifier running but not collecting water?",
+      "a": "Most often the humidistat is set below the room's actual humidity, so the compressor barely runs. Other common causes are a stuck float switch, a bucket that isn't fully seated, a kinked or uphill drain hose, an unlevel unit or a room that's too cold."
+    },
+    {
+      "q": "Why is my dehumidifier bucket empty after running all day?",
+      "a": "Check the humidistat setting first, then pull the bucket, clean the float and reseat it firmly. If you use a drain hose, make sure it's running downhill the whole way. A hygrometer will tell you whether the room is simply already dry."
+    },
+    {
+      "q": "Can a dehumidifier be set too low to collect water?",
+      "a": "In effect, yes: if the target number is below the room's current humidity, the unit thinks the air is already dry enough. Switching to Continuous or the lowest setting is a quick test; if water appears, the setting was the issue."
+    },
+    {
+      "q": "Why isn't my Midea dehumidifier collecting water?",
+      "a": "Start with the humidistat, then check the bucket and float. Many Midea units show a P2 code when the bucket is full or not seated. On a Cube, make sure the top is fully raised and locked."
+    },
+    {
+      "q": "Why isn't my GE dehumidifier collecting water?",
+      "a": "Check the humidistat, bucket and filter first. On pump models, make sure the pump hose is attached and free of kinks. A P1 indicator usually means the unit is defrosting in a cool room."
+    },
+    {
+      "q": "Can I fix a stuck float switch myself?",
+      "a": "Usually. Remove the bucket, find the small plastic float, clean off any residue and make sure it moves freely. Reseat the bucket squarely. If the float is cracked or broken, order a replacement part from the manufacturer."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-not-working/",
+    "/guides/dehumidifier-freezing-up/",
+    "/guides/dehumidifier-maintenance/",
+    "/guides/dehumidifier-humidistat-settings-guide/",
+    "/guides/where-to-place-a-dehumidifier/"
+  ]
+}

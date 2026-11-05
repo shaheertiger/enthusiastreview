@@ -1,0 +1,282 @@
+{
+  "slug": "best-dehumidifier-for-greenhouse",
+  "section": "best",
+  "category": "Rooms & Spaces",
+  "navLabel": "Greenhouses",
+  "title": "Best Greenhouse Dehumidifier (2026): Cold-Tolerant Picks",
+  "h1": "The Best Greenhouse Dehumidifiers",
+  "dek": "Plants breathe out water all day, and cold nights turn it into dew on every leaf. These units keep running when it matters most.",
+  "description": "The best greenhouse dehumidifier for hobby and commercial growers: cold-tolerant, disease-fighting units that keep humidity below the gray-mold zone.",
+  "published": "2026-10-07",
+  "updated": "2026-11-05",
+  "intro": [
+    "A greenhouse dehumidifier works against two forces at once. All day, your plants transpire, pumping water vapor into the air. Then the sun goes down, temperatures fall and that moisture condenses on leaves, stems and glazing — exactly the conditions fungal diseases need. University of Florida IFAS extension guidance notes that disease risk climbs sharply once relative humidity passes 80%, and gray mold (*Botrytis cinerea*) thrives above roughly 90%.",
+    "That makes cold-weather performance the most important spec. An ordinary compressor dehumidifier ices over around 41°F and quietly stops working on the very nights a greenhouse needs it. The best picks here use auto-defrost or desiccant technology to keep removing moisture when it's cold.",
+    "We compared models using manufacturer specs for capacity and low-temperature operation, extension-service humidity guidance, manuals and owner reports from growers. We don't lab-test; figures below are published ratings."
+  ],
+  "topPicksLead": "For most greenhouses, the **AlorAir Sentinel HDi65** is the one to buy: big continuous capacity, a built-in pump and auto-defrost that keeps it working on cold nights.",
+  "products": [
+    {
+      "id": "alorair-sentinel-hdi65",
+      "name": "AlorAir Sentinel HDi65 Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65",
+      "award": "Best overall",
+      "pros": [
+        "Up to 120 pints/day at saturation",
+        "Auto-defrost keeps it running to about 36°F",
+        "Built-in pump with a 19.6-ft lift",
+        "Rugged build for damp, dirty spaces"
+      ],
+      "cons": [
+        "Costs far more than a household unit",
+        "Bulky on a greenhouse floor"
+      ],
+      "whyWeLoveIt": "It has the capacity to keep up with a full day of plant transpiration, and it doesn't give up when overnight temperatures drop. In a greenhouse, that cold-weather reliability is what actually prevents disease.",
+      "performance": "AlorAir rates it at up to 120 pints a day under saturation conditions, with auto-defrost that keeps the coil clear down to about 36°F. The pump sends water up to 19.6 feet, which matters in a greenhouse with no floor drain — or you can route the water to a rain barrel or irrigation tank. The same family serves crawl spaces; see our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "Up to 120 pints/day (saturation)",
+        "Low-temp operation": "Auto-defrost to about 36°F",
+        "Drainage": "Built-in pump, 19.6-ft lift",
+        "Type": "Commercial compressor",
+        "Best for": "Most backyard and mid-size greenhouses"
+      }
+    },
+    {
+      "id": "quest-dual-105-overhead",
+      "name": "Quest Dual 105 Overhead Dehumidifier",
+      "shortName": "Quest Dual 105",
+      "award": "Best for commercial greenhouses",
+      "pros": [
+        "105 pints/day at AHAM conditions",
+        "Draws just 4.9 amps",
+        "Mounts overhead to free bench space",
+        "MERV-11 filtration and auto-restart"
+      ],
+      "cons": [
+        "Expensive, commercial-grade investment",
+        "Needs a sturdy overhead mounting point"
+      ],
+      "whyWeLoveIt": "In a production bay, every square foot of bench space earns money. The Quest Dual 105 hangs from the structure, so you get commercial capacity without giving up growing room.",
+      "performance": "Quest rates it at 105 pints a day at AHAM conditions on a modest 4.9-amp draw, so it won't monopolize a greenhouse circuit. It's designed for continuous operation, with auto-restart after power interruptions and MERV-11 filtration to keep dust and debris off the coils. For ducted options serving connected structures, see our [best whole-house dehumidifier](/best/best-whole-house-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "105 pints/day (AHAM)",
+        "Power": "4.9 A",
+        "Mounting": "Overhead",
+        "Filtration": "MERV-11",
+        "Best for": "Commercial greenhouse bays"
+      }
+    },
+    {
+      "id": "ivation-13-pint-desiccant",
+      "catalogId": "ivation-13-pint-desiccant",
+      "name": "Ivation 13-Pint Desiccant Dehumidifier (IVADDH06)",
+      "shortName": "Ivation 13-Pint Desiccant",
+      "award": "Best for small hobby greenhouses",
+      "pros": [
+        "Desiccant rotor works down to about 33°F",
+        "No compressor to ice over",
+        "Rated for up to 270 sq ft",
+        "Quieter and lighter than a compressor unit"
+      ],
+      "cons": [
+        "Low capacity for a packed greenhouse",
+        "Desiccant units draw more power per pint"
+      ],
+      "whyWeLoveIt": "A backyard greenhouse doesn't need a commercial machine. This compact desiccant unit keeps pulling moisture on chilly spring and fall nights, without the weight, noise or cost of a crawl-space-grade compressor.",
+      "performance": "Instead of cold coils, it uses a rotating desiccant wheel that's regenerated with heat, so it keeps working down to about 33°F. That makes it a strong fit for small, unheated structures where a regular dehumidifier would freeze up. Learn more about the technology in our [best desiccant dehumidifier](/best/best-desiccant-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "13 pints/day",
+        "Type": "Desiccant",
+        "Low-temp operation": "Down to about 33°F",
+        "Coverage": "Up to 270 sq ft",
+        "Best for": "Small hobby greenhouse"
+      }
+    },
+    {
+      "id": "frigidaire-fhdd5034w1",
+      "name": "Frigidaire 50-Pint ENERGY STAR Dehumidifier (FHDD5034W1)",
+      "shortName": "Frigidaire FHDD5034W1",
+      "award": "Best budget for warm seasons",
+      "pros": [
+        "50-pint DOE 2019 capacity",
+        "Wi-Fi and Alexa control",
+        "Far less expensive than cold-rated units"
+      ],
+      "cons": [
+        "Coil ices up below roughly 41°F",
+        "Not built for humid, dusty greenhouse duty year-round"
+      ],
+      "whyWeLoveIt": "If your greenhouse only needs help from late spring through early fall, a standard household dehumidifier can do the job at a fraction of the cost of a commercial unit.",
+      "performance": "Its 50-pint DOE rating handles a mid-size greenhouse in warm weather, and app control lets you check conditions from the house. But it has no low-temperature defrost, so it will ice up and stop removing moisture on cold nights. Use it as a warm-season unit or a supplement to a cold-tolerant model. More in our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Low-temp operation": "Ices below about 41°F",
+        "Smart control": "Wi-Fi, Alexa",
+        "Efficiency": "ENERGY STAR",
+        "Best for": "Warm-season use only"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "greenhouse-humidity-numbers",
+      "heading": "Greenhouse humidity, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            { "value": "50–60%", "label": "Target humidity for most mature greenhouse plants" },
+            { "value": "80%", "label": "Point where fungal disease risk starts rising sharply, per UF IFAS" },
+            { "value": "~41°F", "label": "Where a standard compressor dehumidifier ices over" }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Growth stage matters, too. Vegetative growth tolerates a looser 60–70% band, while flowering and fruit set do best in a tighter 50–60% range that protects pollination and limits disease."
+        }
+      ]
+    },
+    {
+      "id": "how-we-pick",
+      "heading": "How we pick greenhouse dehumidifiers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We put low-temperature operation first, because a dehumidifier that stops at night fails exactly when condensation and disease risk peak. Next we weighed capacity against realistic plant loads, drainage in structures without plumbing, and whether a unit eats into growing space."
+        },
+        {
+          "type": "p",
+          "text": "Our sources were manufacturer spec sheets and manuals, extension-service guidance on greenhouse humidity and disease, the CPSC recall database and owner reports from growers. We don't run our own tests."
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "What to look for in a greenhouse dehumidifier",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "A low operating temperature",
+              "text": "Check the bottom of the operating range, not just the pint rating. Auto-defrost or desiccant technology keeps working in the cold."
+            },
+            {
+              "label": "Capacity for your plant load",
+              "text": "A packed greenhouse in full growth transpires far more than an empty structure of the same size. Size up for dense plantings."
+            },
+            {
+              "label": "Pump drainage",
+              "text": "Most greenhouses lack floor drains. A pump lets you send water outside or into a collection barrel."
+            },
+            {
+              "label": "Durable construction",
+              "text": "Greenhouses are humid, dusty and sometimes sprayed down. Commercial-grade housings and filters hold up better."
+            },
+            {
+              "label": "Airflow alongside it",
+              "text": "Circulation fans keep leaf surfaces dry from dusk to dawn. A dehumidifier controls the air; fans move it across the canopy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greenhouse-picks-at-a-glance",
+      "heading": "Greenhouse dehumidifiers at a glance",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Model", "Best for", "Capacity", "Cold-weather operation"],
+          "rows": [
+            ["AlorAir Sentinel HDi65", "Most greenhouses", "120 pints (saturation)", "Auto-defrost to ~36°F"],
+            ["Quest Dual 105 Overhead", "Commercial bays", "105 pints (AHAM)", "Commercial, overhead-mounted"],
+            ["Ivation 13-Pint Desiccant", "Small hobby greenhouse", "13 pints, up to 270 sq ft", "Desiccant, to ~33°F"],
+            ["Frigidaire FHDD5034W1", "Warm-season budget use", "50 pints (DOE)", "Ices below ~41°F"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industrial-greenhouse-dehumidifiers",
+      "heading": "Do you need an industrial dehumidifier for a greenhouse?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It depends on size, plant density and climate. A small backyard structure can get by with a compact desiccant unit. Once you're running a larger hobby house year-round, or a commercial operation with benches packed wall to wall, an industrial or commercial-grade unit is worth it for its capacity, durability and ability to run unattended for days."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Under ~300 sq ft, light planting:** a small desiccant unit like the Ivation.",
+            "**Backyard to mid-size, year-round growing:** a crawl-space-grade unit like the AlorAir Sentinel HDi65.",
+            "**Commercial bays:** overhead units like the Quest Dual 105, often several in a large house. See our [best commercial dehumidifier](/best/best-commercial-dehumidifier/) roundup."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Fighting gray mold at night"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Water early in the day** so foliage dries before temperatures fall.",
+            "**Run the dehumidifier hardest from dusk to dawn,** when condensation forms.",
+            "**Keep horizontal airflow fans running** to move air through the canopy.",
+            "**Space plants for circulation** and remove dead leaves and spent blooms, which harbor Botrytis.",
+            "**Monitor with a hygrometer** at plant height, not just near the unit."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Growing indoors instead?",
+          "text": "The same humidity rules apply in smaller sealed spaces. See our guides to [grow tent dehumidifiers](/best/best-dehumidifier-for-grow-tent/) and [dehumidifiers for plants](/best/best-dehumidifier-for-plants/)."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The **AlorAir Sentinel HDi65** is the best greenhouse dehumidifier for most growers: real capacity plus auto-defrost that keeps it working through cold nights. Choose the **Quest Dual 105 Overhead** for commercial bays where floor space matters, the **Ivation 13-Pint Desiccant** for a small hobby greenhouse, and a standard unit like the **Frigidaire FHDD5034W1** only if you need help in warm weather alone. Keep the air at 50–60% and below 80% at night, and you'll take away the conditions fungal diseases depend on."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best greenhouse dehumidifier?",
+      "a": "For most greenhouses, the AlorAir Sentinel HDi65. It removes up to 120 pints a day at saturation, keeps running to about 36°F thanks to auto-defrost and has a built-in pump. Large commercial bays suit the overhead Quest Dual 105; small hobby greenhouses can use the Ivation 13-Pint Desiccant."
+    },
+    {
+      "q": "What humidity should a greenhouse be?",
+      "a": "Most mature plants do best around 50–60% relative humidity. Vegetative growth tolerates 60–70%, while flowering and fruit set need the tighter 50–60% range. Fungal disease risk rises sharply above 80%, according to UF IFAS extension guidance."
+    },
+    {
+      "q": "Can I use a regular dehumidifier in a greenhouse?",
+      "a": "Only in warm weather. Standard household compressor units ice over below roughly 41°F and stop removing moisture on cold nights, when condensation and disease risk are highest. For year-round use, choose a unit with auto-defrost or a desiccant design."
+    },
+    {
+      "q": "Do I need an industrial dehumidifier for my greenhouse?",
+      "a": "Not for a small hobby greenhouse — a compact desiccant unit is often enough. Larger or densely planted greenhouses, especially those used year-round or commercially, benefit from industrial-grade units with higher capacity, pump drainage and the durability to run unattended."
+    },
+    {
+      "q": "Can a dehumidifier prevent gray mold (Botrytis) in a greenhouse?",
+      "a": "It's one of the most effective tools. Botrytis needs humidity above roughly 90% and spreads fastest on wet leaves overnight. Holding the greenhouse well below that from dusk to dawn, along with good airflow and plant spacing, removes the conditions it needs."
+    },
+    {
+      "q": "Where should I put a dehumidifier in a greenhouse?",
+      "a": "Near the center of the space, off the floor if possible and away from direct spray from irrigation. Route the pump or drain hose outside or into a collection barrel, and pair the unit with circulation fans so dry air reaches the whole canopy."
+    }
+  ],
+  "related": [
+    "/best/best-dehumidifier-for-grow-tent/",
+    "/best/best-dehumidifier-for-plants/",
+    "/best/best-commercial-dehumidifier/",
+    "/best/best-desiccant-dehumidifier/",
+    "/best/best-dehumidifier-for-terrarium/",
+    "/best/best-alorair-dehumidifier/"
+  ]
+}

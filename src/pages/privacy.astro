@@ -1,0 +1,14 @@
+---
+import Prose from '../components/Prose.astro';
+import { SITE } from '../data/site';
+---
+<Prose title="Privacy Policy" h1="Privacy Policy" description="What data Enthusiast Review collects, how analytics and affiliate links work, and how to contact us about privacy." dek={`Last updated ${new Date(SITE.updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`}>
+  <h2>What we collect</h2>
+  <p>We don't ask you to create an account or share personal information to read this site. We use Vercel Web Analytics, which counts page views without cookies and without identifying individual visitors.</p>
+  <h2>Affiliate links</h2>
+  <p>When you click a link to Amazon or another retailer, that retailer may set cookies to attribute a purchase to us. Their handling of your data is governed by their own privacy policies.</p>
+  <h2>Email</h2>
+  <p>If you email us, we use your address only to reply. We never sell or share it.</p>
+  <h2>Contact</h2>
+  <p>Privacy questions: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+</Prose>

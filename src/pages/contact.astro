@@ -1,0 +1,12 @@
+---
+import Prose from '../components/Prose.astro';
+import { SITE } from '../data/site';
+---
+<Prose title="Contact Us" h1="Contact Us" description="Get in touch with the Enthusiast Review editors with corrections, product questions or partnership inquiries.">
+  <p>The fastest way to reach our editors is email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+  <ul>
+    <li><strong>Corrections:</strong> include the page URL and what's wrong — we fix errors quickly and update the date.</li>
+    <li><strong>Product questions:</strong> tell us the space (size, temperature, how damp) and we'll point you to the right guide.</li>
+    <li><strong>Brands and PR:</strong> we're happy to receive spec sheets and recall notices, but we don't accept paid placement.</li>
+  </ul>
+</Prose>

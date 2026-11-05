@@ -1,0 +1,204 @@
+{
+  "slug": "dehumidifier-not-working",
+  "section": "guides",
+  "category": "How-To & Fixes",
+  "navLabel": "Not Working",
+  "title": "Dehumidifier Not Working? Power, Shut-Off and Pump Fixes",
+  "h1": "Dehumidifier Not Working? Here's How to Get It Running Again",
+  "dek": "Before you haul it to the curb, work through the outlet, the bucket and a three-minute wait. That's what fixes most \"dead\" units.",
+  "description": "Dehumidifier not working? Step-by-step fixes for a unit that won't turn on, shuts off right away or whose pump won't drain — for GE, Midea, Frigidaire and more.",
+  "published": "2026-10-04",
+  "updated": "2026-11-05",
+  "intro": [
+    "A **dehumidifier not working** is one of the most common appliance complaints in a humid summer — and one of the most fixable. In most cases nothing is broken at all. A tripped outlet, a bucket that isn't seated quite right or a built-in compressor delay can all make a perfectly healthy machine look dead.",
+    "This guide covers power and startup problems: a unit that won't turn on, turns on and immediately shuts off, or has a built-in pump that won't drain. If yours runs normally but the bucket stays empty, that's a different issue — see our [dehumidifier not collecting water](/guides/dehumidifier-not-collecting-water/) guide. And if you see frost on the coils, jump to [dehumidifier freezing up](/guides/dehumidifier-freezing-up/)."
+  ],
+  "products": [],
+  "sections": [
+    {
+      "id": "quick-diagnosis",
+      "heading": "Quick diagnosis: match your symptom",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["What you see", "Most likely cause", "First fix"],
+          "rows": [
+            ["No lights, no sound, nothing", "Tripped GFCI outlet", "Press RESET on the outlet, not the unit"],
+            ["Still dead after a GFCI reset", "Tripped or loose breaker", "Check the panel; try another outlet"],
+            ["Turns on, shuts off within seconds", "Bucket float switch", "Empty, clean and firmly reseat the bucket"],
+            ["Lights on, but no compressor hum for a few minutes", "Anti-short-cycle delay", "Wait at least 3–5 minutes"],
+            ["Display on, nothing running", "Timer or delay-start set", "Check the display for an active timer"],
+            ["Pump mode on, water not draining", "Kinked hose or clogged pump", "See the pump steps below"],
+            ["Dead after all of the above", "Control board or compressor failure", "Check the warranty; weigh repair vs. replace"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wont-turn-on",
+      "heading": "Dehumidifier won't turn on at all",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The most common culprit is the outlet, not the machine. Under National Electrical Code section 210.8, bathroom, garage and — since the 2020 code cycle — all basement receptacles need GFCI protection. Those are exactly the places dehumidifiers live, and a GFCI can trip and cut power without any sign on the unit itself."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Reset the GFCI.** Look for TEST and RESET buttons on the outlet faceplate, or on another outlet on the same circuit, and press RESET firmly.",
+            "**Check the breaker panel.** A tripped or loose breaker can cut power to just one circuit.",
+            "**Try a different outlet** you know works, to rule out the circuit entirely.",
+            "**Inspect the cord and plug.** Many dehumidifier plugs have a built-in safety device (often with its own test and reset buttons). Press reset there too, and stop using the unit if the cord is damaged or scorched.",
+            "**Skip extension cords.** Plug directly into the wall; many manuals advise against extension cords for dehumidifiers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turns-on-then-off",
+      "heading": "Turns on, then shuts right back off",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This is rarely a dying compressor. Usually, one of two safety features is doing its job."
+        },
+        {
+          "type": "h3",
+          "text": "The bucket-full float switch"
+        },
+        {
+          "type": "p",
+          "text": "Inside the bucket cavity is a small float or tab that shuts down the compressor and fan when the tank is full. It can also trigger if the bucket isn't pushed in all the way — even when it's empty."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Pull the bucket out completely and empty it.",
+            "Check that the float moves freely; wipe away any mineral buildup or grime.",
+            "Push the bucket back in firmly until it seats — on many models you'll feel or hear a click.",
+            "If a bucket-full light stays on with an empty tank, the float may be stuck or broken. Replacement float assemblies are usually inexpensive, but they're model-specific, so order by your exact model number."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "The compressor's anti-short-cycle delay"
+        },
+        {
+          "type": "p",
+          "text": "Frigidaire's and GE's use-and-care manuals both describe a 3-minute delay before the compressor restarts after any power interruption. It protects the compressor from rapid on-off cycling. If the fan runs but the unit seems to do nothing for a few minutes after you plug it in, it's often just waiting out this delay."
+        }
+      ]
+    },
+    {
+      "id": "pump-not-working",
+      "heading": "Dehumidifier pump not working",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pump models from GE, Midea, Hisense, Pelonis and others add a small condensate pump that pushes water up and out through a hose. When the pump stops draining, the unit usually fills its bucket and shuts off, or displays an error code. Try these steps in order:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Confirm pump mode is on.** Most units have a pump button or setting; without it, water simply collects in the bucket.",
+            "**Check the hose.** Make sure it's the pump hose (not the gravity-drain hose), firmly attached, free of kinks and not running higher or farther than the manual allows.",
+            "**Clear the outlet end.** Algae, ice in a cold garage or debris at the end of the hose can block flow.",
+            "**Clean the pump inlet and any filter screen.** Slime and mineral buildup are the most common causes of pump failure. Your manual shows where the inlet sits, usually inside the bucket cavity.",
+            "**Reseat the bucket.** Many pump models still need the bucket in place to sense water levels correctly.",
+            "**Look up the error code.** Pump-related codes vary by brand, and the manual explains what each one means and how to clear it."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Brand-specific help",
+          "text": "If you own a GE, Midea or Frigidaire unit, the steps above apply, but download the manual for your exact model number to confirm the hose limits and error codes. Our brand guides for [GE](/best/best-ge-dehumidifier/), [Midea](/best/best-midea-dehumidifier/) and [Frigidaire](/best/best-frigidaire-dehumidifier/) list current models."
+        }
+      ]
+    },
+    {
+      "id": "before-you-call",
+      "heading": "Before you call for repair",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Do a full power cycle",
+              "text": "Unplug the unit for at least five minutes, then plug it back in. This clears many control-board glitches and lets the compressor delay run out."
+            },
+            {
+              "label": "Check for a timer",
+              "text": "An accidentally set delay-start timer can make a working unit look dead."
+            },
+            {
+              "label": "Check the room temperature",
+              "text": "Many compressor units stop or defrost when the room is too cool, usually somewhere in the low 40s or below."
+            },
+            {
+              "label": "Clean the filter",
+              "text": "A clogged filter won't keep a unit from powering on, but it can trigger shutoffs and icing. Our [maintenance guide](/guides/dehumidifier-maintenance/) covers the routine."
+            },
+            {
+              "label": "Look up recalls and warranty",
+              "text": "Check your model number at CPSC.gov, and contact the manufacturer if the unit is still under warranty before opening it up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repair-or-replace",
+      "heading": "Repair or replace?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If the outlet, power cycle, bucket and pump checks don't bring it back, the likely problem is a failed control board or compressor. Parts and labor for either can approach the cost of a new mid-range unit. If your dehumidifier is more than a few years old, replacing it usually makes more sense — most last somewhere around 5 to 10 years, as our [lifespan guide](/guides/how-long-do-dehumidifiers-last/) explains. When it's time, see [how to dispose of a dehumidifier](/guides/how-to-dispose-of-a-dehumidifier/) properly; it contains refrigerant."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "When a dehumidifier won't turn on, reset the GFCI outlet first. When it turns on and shuts right off, reseat the bucket and give the compressor a few minutes to restart. When a pump model won't drain, check the pump setting, the hose and the pump inlet. Those simple steps fix most \"broken\" dehumidifiers — and if they don't, compare repair costs with a new unit before spending money on parts."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why is my dehumidifier not working?",
+      "a": "If there's no power at all, the most common cause is a tripped GFCI outlet. If it turns on and then shuts off, it's usually the bucket float switch or the compressor's built-in restart delay. Work through those before assuming the unit has failed."
+    },
+    {
+      "q": "Why does my dehumidifier turn on and then shut off right away?",
+      "a": "Check that the bucket is empty and pushed in all the way, since the float switch cuts power when it senses a full or misaligned tank. If the bucket is fine, wait a few minutes — many compressors hold off for about 3 minutes after a restart."
+    },
+    {
+      "q": "Why is my dehumidifier pump not working?",
+      "a": "Make sure pump mode is turned on, the pump hose is attached and free of kinks, and the hose doesn't exceed the height or length limit in your manual. Then clean the pump inlet and any filter screen, which commonly clog with slime or minerals."
+    },
+    {
+      "q": "Why is my GE or Midea dehumidifier not working?",
+      "a": "The same causes apply to every major brand: tripped outlets, bucket switches, the compressor delay and clogged pumps. Use your model number to find the manual, which lists brand-specific error codes and pump limits."
+    },
+    {
+      "q": "How long should I wait before deciding my dehumidifier is broken?",
+      "a": "Unplug it for at least five minutes, then plug it back in and give it a few more minutes to start the compressor. Frigidaire's and GE's manuals describe a 3-minute restart delay."
+    },
+    {
+      "q": "Is it worth repairing a dehumidifier that won't turn on?",
+      "a": "If basic checks don't work, the problem is likely the control board or compressor, which can cost nearly as much as a new unit to fix. For a unit more than a few years old, replacement usually makes more sense; for one under warranty, contact the manufacturer first."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-not-collecting-water/",
+    "/guides/dehumidifier-freezing-up/",
+    "/guides/dehumidifier-maintenance/",
+    "/guides/how-long-do-dehumidifiers-last/",
+    "/guides/how-to-dispose-of-a-dehumidifier/",
+    "/guides/dehumidifier-replacement-filter/"
+  ]
+}

@@ -1,0 +1,13 @@
+---
+import ProductImage from './ProductImage.astro';
+import { cardImage, pathOf, type Page } from '../lib/content';
+interface Props { page: Page; dek?: boolean; kicker?: string }
+const { page, dek = false, kicker } = Astro.props;
+const lead = page.products[0];
+---
+<a class="card" href={pathOf(page)}>
+  <div class="c-img"><ProductImage src={cardImage(page)} alt="" label={lead?.name ?? page.navLabel ?? ''} /></div>
+  <div class="c-kicker">{kicker ?? page.category}</div>
+  <div class="c-title">{page.h1}</div>
+  {dek && <div class="c-dek">{page.dek}</div>}
+</a>
