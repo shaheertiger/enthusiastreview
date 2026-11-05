@@ -243,3 +243,11 @@ p { margin: 0 0 1.15em; }
   .sticky-buy .buy { padding: .7rem 1rem; flex: none; }
   body:has(.sticky-buy) .site-footer { padding-bottom: 5rem; }
 }
+
+/* Interlinking */
+.p-cta { display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; }
+.p-brand { color: var(--ink) !important; }
+.more-box { border: 1px solid var(--rule); border-top: 3px solid var(--teal); padding: 1rem 1.25rem; margin: 2rem 0; }
+.more-box .mb-k { font: 800 .82rem/1 var(--head); letter-spacing: .1em; text-transform: uppercase; color: var(--teal-ink); margin-bottom: .6rem; }
+.more-box ul { margin: 0; padding-left: 1.1rem; font: 600 1rem/1.5 var(--sans); }
+.crumbs a + span + a { color: var(--muted-2); }

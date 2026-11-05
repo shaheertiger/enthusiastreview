@@ -16,7 +16,7 @@
     "astro": "^5.17.2"
   },
   "devDependencies": {
-    "amazon-creators-api": "^1.2.2",
+    "@amzn/creatorsapi-nodejs-sdk": "file:vendor/creatorsapi-nodejs-sdk",
     "typescript": "^5.9.3"
   }
 }

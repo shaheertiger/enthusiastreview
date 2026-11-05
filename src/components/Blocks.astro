@@ -1,21 +1,24 @@
 ---
-import { md, type Block } from '../lib/content';
-interface Props { blocks: Block[] }
-const { blocks } = Astro.props;
+import { md as mdDefault, type Block } from '../lib/content';
+// `text` formats running copy (may add affiliate and contextual links);
+// `md` formats headings and table cells (no contextual links).
+interface Props { blocks: Block[]; text?: (s: string) => string; md?: (s: string) => string }
+const { blocks, md = mdDefault } = Astro.props;
+const text = Astro.props.text ?? md;
 ---
 {blocks.map((b) => {
   switch (b.type) {
-    case 'p': return <p set:html={md(b.text)} />;
+    case 'p': return <p set:html={text(b.text)} />;
     case 'h3': return <h3 set:html={md(b.text)} />;
-    case 'ul': return <ul>{b.items.map((i) => <li set:html={md(i)} />)}</ul>;
-    case 'ol': return <ol>{b.items.map((i) => <li set:html={md(i)} />)}</ol>;
+    case 'ul': return <ul>{b.items.map((i) => <li set:html={text(i)} />)}</ul>;
+    case 'ol': return <ol>{b.items.map((i) => <li set:html={text(i)} />)}</ol>;
     case 'checklist':
       return (
         <ul class="checklist">
           {b.items.map((i) => (
             <li>
-              <span class="tick" aria-hidden="true">✔</span> <strong>{i.label}:</strong> <span set:html={md(i.text)} />
-              {i.sub && <ul>{i.sub.map((s) => <li set:html={md(s)} />)}</ul>}
+              <span class="tick" aria-hidden="true">✔</span> <strong>{i.label}:</strong> <span set:html={text(i.text)} />
+              {i.sub && <ul>{i.sub.map((s) => <li set:html={text(s)} />)}</ul>}
             </li>
           ))}
         </ul>
@@ -34,7 +37,7 @@ const { blocks } = Astro.props;
       return (
         <aside class="callout">
           {b.title && <div class="ct">{b.title}</div>}
-          <p set:html={md(b.text)} />
+          <p set:html={text(b.text)} />
         </aside>
       );
     case 'stats':
