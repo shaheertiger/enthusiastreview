@@ -31,7 +31,7 @@
         "Too much machine for a single grow tent"
       ],
       "whyWeLoveIt": "The Dual 155 hits the sweet spot of the lineup. It has enough capacity for a typical small commercial flower room or a large hobby room, yet it plugs into the same kind of circuit as a window air conditioner, so you don’t need an electrician to run 230 volts.",
-      "performance": "Quest rates it at 155 pints a day at 80°F and 60% relative humidity on roughly 8 amps at 115 volts. Its spec sheet puts it near the top of Quest’s range for water removed per kilowatt-hour, which matters when a unit runs most of the day through a long flower cycle. Growers commonly hang it above the canopy line so it pulls moist air from the top of the room, where it collects after lights-off.",
+      "performance": "Quest rates it at 155 pints a day at 80°F and 60% relative humidity on roughly 8 amps at 115 volts. Its spec sheet puts it near the top of Quest’s range for water removed per kilowatt-hour, which matters when a unit runs most of the day through a long flower cycle.",
       "notes": "Quest sells an optional hanging kit for its 5-Series overhead models; confirm the kit matches your exact model before ordering.",
       "specs": {
         "Capacity": "155 pints/day at 80°F/60% (Quest)",
@@ -57,7 +57,7 @@
         "Some retailers list it at 200 pints, which causes confusion"
       ],
       "whyWeLoveIt": "If your room has outgrown a Dual 155 but your electrical panel stops at 115 volts, the Dual 205 is the most capacity you can get from Quest on a standard outlet. It’s the model many growers step up to when they add lights or plants.",
-      "performance": "Quest’s documentation rates it at 205 pints a day at 80°F and 60% humidity on about 13.2 amps at 115 volts; you’ll see some listings round that down to 200. Because that current is above what a shared 15-amp circuit should carry continuously, plan on a dedicated 20-amp circuit. Owners consistently describe it as a reliable, run-all-night machine once the drain line is set up properly.",
+      "performance": "Quest’s documentation rates it at 205 pints a day at 80°F and 60% humidity on about 13.2 amps at 115 volts; you’ll see some listings round that down to 200. Because that current is above what a shared 15-amp circuit should carry continuously, plan on a dedicated 20-amp circuit.",
       "specs": {
         "Capacity": "205 pints/day at 80°F/60% (Quest)",
         "Power": "115 V, about 13 A (Quest)",
@@ -108,7 +108,7 @@
         "Heavy — plan the mounting before delivery"
       ],
       "whyWeLoveIt": "Once a room needs more than about 250 pints a day, one big unit is usually simpler to drain, wire and service than a row of small ones. The 335 is Quest’s mid-size commercial answer for licensed grows, greenhouses and production spaces.",
-      "performance": "As the name suggests, it sits in the 335-pint-a-day class at Quest’s standard 80°F and 60% rating condition. The 277-volt version is aimed at commercial buildings wired for that service. Like the rest of the lineup, it drains continuously, so you’ll want a floor drain or a condensate pump sized for its output.",
+      "performance": "As the name suggests, it sits in the 335-pint-a-day class at Quest’s standard 80°F and 60% rating condition. Like the rest of the lineup, it drains continuously, so you’ll want a floor drain or a condensate pump sized for its output.",
       "specs": {
         "Capacity": "335-pint class at 80°F/60%",
         "Power": "208/230 V or 277 V versions",
@@ -133,7 +133,7 @@
         "Original and current versions carry different ratings"
       ],
       "whyWeLoveIt": "The 506 is the biggest name in the lineup and the one to choose when the space is measured in thousands of square feet: large flower rooms, warehouse grows, indoor pools and production floors where moisture never lets up.",
-      "performance": "The original 506 was rated at 506 pints a day at 80°F and 60% humidity; the current version is rated at about 500 pints with better efficiency, and Quest positions it as more efficient per pint than the 335. Its listed operating range runs from 56°F to 95°F, which covers almost any conditioned commercial space. Most installs hang it or duct it so the floor stays clear for carts and benches.",
+      "performance": "The original 506 was rated at 506 pints a day at 80°F and 60% humidity; the current version is rated at about 500 pints with better efficiency, and Quest positions it as more efficient per pint than the 335. Its listed operating range runs from 56°F to 95°F, which covers almost any conditioned commercial space.",
       "notes": "If you see a 506 listed far below other dealers, check which version it is — older stock and open-box units are common.",
       "specs": {
         "Capacity": "About 500 pints/day at 80°F/60% (current)",
@@ -173,7 +173,7 @@
         },
         {
           "type": "p",
-          "text": "We ranked models by how many buyers each one fits. The Dual 155 tops the list because it delivers commercial capacity without 230-volt wiring; the bigger units earn their spots for rooms where one machine replaces several."
+          "text": "The Dual 155 tops the list because it delivers commercial capacity without 230-volt wiring; bigger units earn their spots where one machine replaces several."
         }
       ]
     },
@@ -253,8 +253,7 @@
           "items": [
             "**Choose Quest** for grow rooms, [greenhouses](/best/best-dehumidifier-for-greenhouse/), indoor pools and production spaces that need 150+ pints a day, every day.",
             "**Choose a whole-house unit** if the goal is a comfortable home; see our [whole-house dehumidifier](/best/best-whole-house-dehumidifier/) picks.",
-            "**Choose an LGR or rental** for a short-term flood cleanup; our [commercial dehumidifier](/best/best-commercial-dehumidifier/) guide covers job-site units.",
-            "**Choose a 50-pint portable** for an ordinary damp basement — a Quest would be wasted there."
+            "**Choose an LGR or rental** for a short-term flood cleanup; our [commercial dehumidifier](/best/best-commercial-dehumidifier/) guide covers job-site units."
           ]
         }
       ]
@@ -277,7 +276,7 @@
         },
         {
           "type": "p",
-          "text": "Overhead installs use Quest’s optional hanging kit rather than improvised straps. Anchor into structure, not drywall, keep the drain side slightly lower so water leaves the pan, and leave clearance for filter changes."
+          "text": "Overhead installs use Quest’s optional hanging kit. Anchor into structure, not drywall, and leave clearance for filter changes."
         },
         {
           "type": "h3",

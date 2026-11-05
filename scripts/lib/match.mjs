@@ -22,7 +22,12 @@ export function isMatch(name, title) {
   const brandOk = brandOf(name).some((b) => t.includes(b) || tq.includes(squash(b)));
   if (!brandOk) return false;
   const models = modelTokens(name);
-  if (models.length) return models.some((m) => tq.includes(m));
+  if (models.length) {
+    // Whole-token match: "HDi65" must not match "HDi65S", "FFAD5033W1" not "FFAD5033W1A".
+    const tokens = title.split(/[\s,()/|:;+\[\]]+/).map(squash).filter(Boolean);
+    const joined = new Set(tokens.flatMap((t, i) => [t, t + (tokens[i + 1] ?? '')])); // "EDV 2400" → "edv2400"
+    return models.some((m) => joined.has(m));
+  }
   const pints = pintsOf(name);
   if (pints) return pintsOf(title) === pints;
   // No model number or pint size: every distinctive word of the name must appear.
