@@ -4,18 +4,7 @@
 // paths overlap the dehumidifier site, whose pages all live under /best/, /guides/ and /compare/.
 export const config = {
   matcher: [
-    '/best-gpu-for-:slug*',
-    '/best-graphics-card-:slug*',
-    '/gpu-bottleneck-calculator/:rest*',
-    '/bottleneck-calculator/:rest*',
-    '/how-to-overclock-a-gpu/:rest*',
-    '/best-cpu-cooler-:slug*',
-    '/best-psu-:slug*',
-    '/best-power-supply-:slug*',
-    '/best-pc-cases-:slug*',
-    '/best-ram-:slug*',
-    '/best-motherboard-:slug*',
-    '/methodology/:rest*',
+    '/:old(best-gpu-for-.+|best-graphics-card-.+|gpu-bottleneck-calculator|bottleneck-calculator|how-to-overclock-a-gpu|best-cpu-cooler-.+|best-psu-.+|best-power-supply-.+|best-pc-cases-.+|best-ram-.+|best-motherboard-.+|methodology)/:rest*',
     '/og/:path*',
   ],
 };
