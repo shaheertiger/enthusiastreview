@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from './Card.astro';
+import { byCategory, pagesIn, pathOf } from '../lib/content';
+import { SECTIONS, SITE, type SectionKey } from '../data/site';
+interface Props { section: SectionKey; title: string; description: string; intro: string }
+const { section, title, description, intro } = Astro.props;
+const pages = pagesIn(section);
+const groups = byCategory(pages);
+const anchor = (c: string) => c.toLowerCase().replace(/&/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: title,
+  description,
+  url: `${SITE.url}${SECTIONS[section].path}`,
+  hasPart: pages.map((p) => ({ '@type': 'Article', headline: p.h1, url: `${SITE.url}${pathOf(p)}` })),
+};
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <div class="wrap">
+    <header class="hub-head">
+      <h1>{SECTIONS[section].label}</h1>
+      <p>{intro}</p>
+      {groups.length > 1 && <div class="chips" style="margin-bottom:1rem">{groups.map((g) => <a class="chip" href={`#${anchor(g.category)}`}>{g.category} ({g.pages.length})</a>)}</div>}
+    </header>
+    {groups.map((g) => (
+      <section id={anchor(g.category)} style="scroll-margin-top:6rem">
+        <h2 class="section-title">{g.category}</h2>
+        <div class="grid grid-4">{g.pages.map((p) => <Card page={p} dek />)}</div>
+      </section>
+    ))}
+  </div>
+</Base>

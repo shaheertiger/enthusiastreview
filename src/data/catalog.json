@@ -1,0 +1,217 @@
+{
+  "midea-cube-20": {
+    "name": "Midea Cube 20-Pint Smart Dehumidifier (MAD20S1QWT)",
+    "asin": "B08ZMY8BC8",
+    "image": "https://m.media-amazon.com/images/I/31X4HslPrAL._SL500_.jpg"
+  },
+  "midea-cube-35": {
+    "name": "Midea Cube 35-Pint Dehumidifier",
+    "asin": "B0GL7QLD49",
+    "image": "https://m.media-amazon.com/images/I/31ho4yftX6L._SL500_.jpg"
+  },
+  "midea-cube-50": {
+    "name": "Midea Cube 50-Pint Dehumidifier",
+    "asin": "B0GL7B1FC8",
+    "image": "https://m.media-amazon.com/images/I/31m6sBV6kuL._SL500_.jpg"
+  },
+  "midea-mad22c1aws": {
+    "name": "Midea 22-Pint ENERGY STAR Dehumidifier (MAD22C1AWS)",
+    "asin": "B07NRDBBH5",
+    "image": "https://m.media-amazon.com/images/I/31Z47hoRk4L._SL500_.jpg"
+  },
+  "frigidaire-ffad5033w1": {
+    "name": "Frigidaire 50-Pint Dehumidifier (FFAD5033W1)",
+    "asin": "B0FP1L6W89",
+    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
+  },
+  "frigidaire-ffad3533w1": {
+    "name": "Frigidaire 35-Pint Dehumidifier (FFAD3533W1)",
+    "asin": "",
+    "image": "",
+    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
+  },
+  "homelabs-50-pint": {
+    "name": "hOmeLabs 50-Pint Energy Star Dehumidifier",
+    "asin": "B073VBWKJZ",
+    "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
+  },
+  "homelabs-pump-4500": {
+    "name": "hOmeLabs 4,500 Sq Ft Dehumidifier with Pump",
+    "asin": "B073V9MG3Y",
+    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
+  },
+  "homelabs-basement": {
+    "name": "hOmeLabs 3,000 Sq Ft Dehumidifier",
+    "asin": "B06X9MFTZZ",
+    "image": "https://m.media-amazon.com/images/I/41MNK1ecLyL._SL500_.jpg"
+  },
+  "honeywell-tp30awkn": {
+    "name": "Honeywell TP30AWKN 30-Pint Dehumidifier",
+    "asin": "B085NYKWTQ",
+    "image": "https://m.media-amazon.com/images/I/31bDIIQZAkL._SL500_.jpg"
+  },
+  "honeywell-tp50awkn": {
+    "name": "Honeywell TP50AWKN 50-Pint Dehumidifier",
+    "asin": "B0CFQTLVSC",
+    "image": "https://m.media-amazon.com/images/I/31EoFt7MXgL._SL500_.jpg"
+  },
+  "honeywell-dr90a3000": {
+    "name": "Honeywell DR90A3000 Whole-House Dehumidifier",
+    "asin": "",
+    "image": "",
+    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
+  },
+  "ge-aper50lz": {
+    "name": "GE 50-Pint Dehumidifier with Built-In Pump (APER50LZ)",
+    "asin": "",
+    "image": "",
+    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
+  },
+  "aprilaire-e070": {
+    "name": "Aprilaire E070 Crawl Space Dehumidifier",
+    "asin": "B094PR3HQ1",
+    "image": "https://m.media-amazon.com/images/I/41MF8eAiomL._SL500_.jpg"
+  },
+  "aprilaire-e080": {
+    "name": "Aprilaire E080 Pro Dehumidifier",
+    "asin": "B0CQRYS6N1",
+    "image": "https://m.media-amazon.com/images/I/31ktjs2ckkL._SL500_.jpg"
+  },
+  "aprilaire-e100": {
+    "name": "Aprilaire E100 Whole-House Dehumidifier",
+    "asin": "B0DG3RJ1W5",
+    "image": "https://m.media-amazon.com/images/I/417e2RVPUBL._SL500_.jpg"
+  },
+  "alorair-sentinel-hd35": {
+    "name": "AlorAir Sentinel HD35 Dehumidifier",
+    "asin": "B0GWQDR1PK",
+    "image": "https://m.media-amazon.com/images/I/41s-BhKbrBL._SL500_.jpg"
+  },
+  "alorair-sentinel-hd55": {
+    "name": "AlorAir Sentinel HD55 Crawl Space Dehumidifier",
+    "asin": "B08N6C4GPP",
+    "image": "https://m.media-amazon.com/images/I/413AnYHbnhL._SL500_.jpg"
+  },
+  "alorair-sentinel-hd90": {
+    "name": "AlorAir Sentinel HD90 Dehumidifier",
+    "asin": "B01LW3SOPE",
+    "image": "https://m.media-amazon.com/images/I/418-RMQTzQL._SL500_.jpg"
+  },
+  "alorair-sentinel-hdi65s": {
+    "name": "AlorAir Sentinel HDi65S Dehumidifier",
+    "asin": "B0B3WXNDRZ",
+    "image": "https://m.media-amazon.com/images/I/41KrYRzm9qL._SL500_.jpg"
+  },
+  "alorair-sentinel-hdi90": {
+    "name": "AlorAir Sentinel HDi90 Dehumidifier",
+    "asin": "B0DYSWHNGL",
+    "image": "https://m.media-amazon.com/images/I/41rFmdE9WXL._SL500_.jpg"
+  },
+  "alorair-storm-lgr-extreme": {
+    "name": "AlorAir Storm LGR Extreme Dehumidifier",
+    "asin": "B071HP9PDR",
+    "image": "https://m.media-amazon.com/images/I/51OwHPzjGcL._SL500_.jpg"
+  },
+  "dri-eaz-revolution": {
+    "name": "Dri-Eaz Revolution LGR Dehumidifier",
+    "asin": "B00H3DIT14",
+    "image": "https://m.media-amazon.com/images/I/41UlMYHiqCL._SL500_.jpg"
+  },
+  "santa-fe-compact70": {
+    "name": "Santa Fe Compact70 Dehumidifier",
+    "asin": "B07HCLL7FY",
+    "image": "https://m.media-amazon.com/images/I/31gTrjiY-bL._SL500_.jpg"
+  },
+  "santa-fe-ultra-v100": {
+    "name": "Santa Fe Ultra V100 Ventilating Dehumidifier",
+    "asin": "B0GV4N7HQL",
+    "image": "https://m.media-amazon.com/images/I/413jPXPMe9L._SL500_.jpg"
+  },
+  "santa-fe-ultra70": {
+    "name": "Santa Fe Ultra70 Dehumidifier",
+    "asin": "B0DRWFC4BN",
+    "image": "https://m.media-amazon.com/images/I/3143biKmzqL._SL500_.jpg"
+  },
+  "ivation-13-pint-desiccant": {
+    "name": "Ivation 13-Pint Desiccant Dehumidifier",
+    "asin": "B07B8SCPZ4",
+    "image": "https://m.media-amazon.com/images/I/31E7h2R3DSL._SL500_.jpg"
+  },
+  "ecoseb-desiccant": {
+    "name": "EcoSeb DD122EA Desiccant Dehumidifier",
+    "asin": "",
+    "image": "",
+    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
+  },
+  "eva-dry-e-333": {
+    "name": "Eva-Dry E-333 Renewable Mini Dehumidifier",
+    "asin": "B000H0XFCS",
+    "image": "https://m.media-amazon.com/images/I/31Mbr9Br-uL._SL500_.jpg"
+  },
+  "eva-dry-edv-1100": {
+    "name": "Eva-Dry EDV-1100 Petite Dehumidifier",
+    "asin": "B000H0ZDD2",
+    "image": "https://m.media-amazon.com/images/I/41RjA8oZPeL._SL500_.jpg"
+  },
+  "eva-dry-edv-2400": {
+    "name": "Eva-Dry EDV-2400 Dehumidifier with Humidistat",
+    "asin": "B082B2PCN6",
+    "image": "https://m.media-amazon.com/images/I/41KMrtFzwXL._SL500_.jpg"
+  },
+  "pro-breeze-pb-02": {
+    "name": "Pro Breeze PB-02 Mini Dehumidifier",
+    "asin": "",
+    "image": "",
+    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
+  },
+  "pro-breeze-pb-03": {
+    "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
+    "asin": "B01HXVUT7C",
+    "image": "https://m.media-amazon.com/images/I/41qq9hL4YpL._SL500_.jpg"
+  },
+  "pro-breeze-mini": {
+    "name": "Pro Breeze Mini Dehumidifier (1,200 cu ft)",
+    "asin": "B01DC5PPWM",
+    "image": "https://m.media-amazon.com/images/I/41VPIA+M0RL._SL500_.jpg"
+  },
+  "govee-h5075-hygrometer": {
+    "name": "Govee H5075 Bluetooth Hygrometer",
+    "asin": "B07Y36FWTT",
+    "image": "https://m.media-amazon.com/images/I/516COKKwOXL._SL500_.jpg"
+  },
+  "govee-h5179-wifi-hygrometer": {
+    "name": "Govee H5179 Wi-Fi Hygrometer",
+    "asin": "B0C39TSV2W",
+    "image": "https://m.media-amazon.com/images/I/41kbOdew5lL._SL500_.jpg"
+  },
+  "thermopro-tp50": {
+    "name": "ThermoPro TP50 Hygrometer",
+    "asin": "B01H1R0K68",
+    "image": "https://m.media-amazon.com/images/I/41coCq9Ty6L._SL500_.jpg"
+  },
+  "inkbird-ibs-th2": {
+    "name": "Inkbird IBS-TH2 Hygrometer",
+    "asin": "B095W39L4M",
+    "image": "https://m.media-amazon.com/images/I/31q1yyoOK-L._SL500_.jpg"
+  },
+  "acurite-01083": {
+    "name": "AcuRite 01083 Pro Accuracy Hygrometer",
+    "asin": "B01HDW58GS",
+    "image": "https://m.media-amazon.com/images/I/41wncu75bdL._SL500_.jpg"
+  },
+  "sensorpush-ht1": {
+    "name": "SensorPush HT1 Wireless Hygrometer",
+    "asin": "B08PKWPKM2",
+    "image": "https://m.media-amazon.com/images/I/3107+dGlg+L._SL500_.jpg"
+  },
+  "frigidaire-ffap5033w1": {
+    "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FFAP5033W1)",
+    "asin": "B0FP2VXZ2B",
+    "image": "https://m.media-amazon.com/images/I/31RgYq1H+7L._SL500_.jpg"
+  },
+  "waykar-34-pint": {
+    "name": "Waykar 34-Pint ENERGY STAR Dehumidifier",
+    "asin": "B0GT9WCDWK",
+    "image": ""
+  }
+}

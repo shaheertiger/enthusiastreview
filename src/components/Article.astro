@@ -1,0 +1,240 @@
+---
+// One template for every review, guide and comparison. Order follows the
+// magazine buyer's-guide pattern: title → byline → disclosure → hero → intro →
+// "Our top picks" → numbered product cards → body sections → FAQ →
+// why trust us → readers also read.
+import Base from '../layouts/Base.astro';
+import Blocks from './Blocks.astro';
+import Card from './Card.astro';
+import ProductImage from './ProductImage.astro';
+import { md as mdBase, plain, fmtDate, pathOf, relatedPages, productLinkMap, type Page } from '../lib/content';
+import { amazonLink, productImage } from '../data/affiliate';
+import { getAuthor, authorSchema } from '../data/authors';
+import { SITE, SECTIONS } from '../data/site';
+
+interface Props { page: Page }
+const { page } = Astro.props;
+const url = `${SITE.url}${pathOf(page)}`;
+const author = getAuthor(page.author);
+const section = SECTIONS[page.section];
+const products = page.products ?? [];
+const isList = page.section === 'best' && products.length > 0;
+const isCompare = page.section === 'compare';
+const images = products.map((p) => productImage(p)).filter(Boolean) as string[];
+const heroImgs = images.slice(0, 3);
+const related = relatedPages(page, 8);
+const shortName = (p: (typeof products)[number]) => p.shortName ?? p.name;
+// Bolded product names anywhere in the copy become affiliate links.
+const linkMap = productLinkMap(products, amazonLink);
+const md = (s: string) => mdBase(s, linkMap);
+const SPONSORED = 'sponsored nofollow noopener';
+const glanceKeys = [...new Set(products.flatMap((p) => Object.keys(p.specs ?? {})))].filter((k) => products.filter((p) => p.specs?.[k]).length >= Math.ceil(products.length / 2)).slice(0, 3);
+const picksHeading = isList ? 'Our top picks:' : isCompare ? 'The two models compared:' : 'Products in this guide:';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.url}/` },
+        { '@type': 'ListItem', position: 2, name: section.label, item: `${SITE.url}${section.path}` },
+        { '@type': 'ListItem', position: 3, name: page.h1, item: url },
+      ],
+    },
+    {
+      '@type': 'Article',
+      headline: page.h1,
+      description: page.description,
+      datePublished: page.published,
+      dateModified: page.updated,
+      mainEntityOfPage: url,
+      author: authorSchema(page.author),
+      publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: { '@type': 'ImageObject', url: `${SITE.url}/favicon.svg` } },
+      ...(images[0] ? { image: images[0] } : {}),
+    },
+    ...(products.length
+      ? [{
+          '@type': 'ItemList',
+          name: page.h1,
+          itemListElement: products.map((p, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            url: `${url}#${p.id}`,
+            name: p.name,
+          })),
+        }]
+      : []),
+    ...(page.faqs?.length
+      ? [{
+          '@type': 'FAQPage',
+          mainEntity: page.faqs.map((f) => ({ '@type': 'Question', name: plain(f.q), acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })),
+        }]
+      : []),
+  ],
+};
+---
+<Base
+  title={page.title}
+  description={page.description}
+  ogType="article"
+  ogImage={images[0]}
+  article={{ published: page.published, modified: page.updated, section: page.category }}
+  jsonLd={jsonLd}
+>
+  <article class="col">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href={section.path}>{section.label}</a><span>›</span><span>{page.category}</span>
+    </nav>
+    <h1 class="a-title">{page.h1}</h1>
+    <p class="a-dek">{page.dek}</p>
+
+    <div class="byline">
+      <div class="avatar" aria-hidden="true">{author.initials}</div>
+      <div class="byline-text">
+        By <a href={`/authors/${author.slug}/`}>{author.name}</a>
+        <span class="role">Updated <time datetime={page.updated}>{fmtDate(page.updated)}</time> · Researched against DOE &amp; ENERGY STAR data</span>
+      </div>
+      {products.length > 0 && <div class="byline-actions"><a class="btn-ghost" href="#top-picks">View Products</a></div>}
+    </div>
+    <p class="disclosure">
+      We research every product on this page independently. If you buy through our links, we may earn a commission at no cost to you.
+      <a href="/how-we-review/">Learn more about how we review.</a>
+    </p>
+
+    {heroImgs.length > 0 && (
+      <figure class="hero-figure">
+        <div class="hero-collage" style={`--n:${heroImgs.length}`}>
+          {heroImgs.map((src, i) => <a class="hc-item" href={amazonLink(products[i])} rel={SPONSORED} target="_blank" aria-label={`${shortName(products[i])} on Amazon`}><img src={src} alt={shortName(products[i])} loading="eager" referrerpolicy="no-referrer" width="500" height="500" /></a>)}
+        </div>
+        <figcaption>{products.slice(0, heroImgs.length).map(shortName).join(' · ')}</figcaption>
+      </figure>
+    )}
+
+    <div class="body">
+      {page.intro.map((p) => <p set:html={md(p)} />)}
+
+      {products.length > 0 && (
+        <section class="toppicks" id="top-picks">
+          <h2>{picksHeading}</h2>
+          <ul>
+            {products.map((p) => (
+              <li><span><b>{p.award}:</b> <a href={`#${p.id}`}>{shortName(p)}</a></span><a class="tp-shop" href={amazonLink(p)} rel={SPONSORED} target="_blank">Amazon →</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {page.topPicksLead && <p set:html={md(page.topPicksLead)} />}
+
+      {products.map((p, i) => {
+        const href = amazonLink(p);
+        const img = productImage(p);
+        const specs = Object.entries(p.specs ?? {});
+        return (
+          <section class="product" id={p.id}>
+            <div class="p-head">
+              <div class="p-num" aria-hidden="true">{i + 1}</div>
+              <div>
+                <div class="p-award">{p.award}</div>
+                <h2 class="p-name" style="margin:0"><a href={href} rel="sponsored nofollow noopener" target="_blank">{p.name}</a></h2>
+              </div>
+            </div>
+            <div class="p-media">
+              <a class="p-img" href={href} rel={SPONSORED} target="_blank" aria-label={`${p.name} on Amazon`}><ProductImage src={img} alt={p.name} label={p.name} eager={i === 0} /></a>
+              <div class="p-buy">
+                <a class="buy" href={href} rel="sponsored nofollow noopener" target="_blank">
+                  <span class="shop">Check price</span><span>Amazon →</span>
+                </a>
+                <span class="buy-note">Prices and availability change often — Amazon shows today's price.</span>
+              </div>
+            </div>
+            <div class="proscons">
+              <div class="pros"><h3>Pros</h3><ul>{p.pros.map((x) => <li set:html={md(x)} />)}</ul></div>
+              <div class="cons"><h3>Cons</h3><ul>{p.cons.map((x) => <li set:html={md(x)} />)}</ul></div>
+            </div>
+            <p><span class="lbl">Why we picked it:</span> <span set:html={md(p.whyWeLoveIt)} /></p>
+            <p><span class="lbl">Performance:</span> <span set:html={md(p.performance)} /></p>
+            {p.notes && <p><span class="lbl">Worth knowing:</span> <span set:html={md(p.notes)} /></p>}
+            {specs.length > 0 && (
+              <div class="specs">
+                <h3>Features at a glance</h3>
+                <dl>{specs.map(([k, v]) => <div><dt>{k}</dt><dd>{v}</dd></div>)}</dl>
+              </div>
+            )}
+            <p class="p-cta"><a href={href} rel={SPONSORED} target="_blank">See the {shortName(p)} on Amazon →</a></p>
+          </section>
+        );
+      })}
+
+      {products.length >= 2 && (
+        <section id="compare-picks">
+          <h2>{isCompare ? 'Side by side' : 'Compare our picks'}</h2>
+          <div class="tbl-wrap">
+            <table class="tbl">
+              <thead><tr><th scope="col">Model</th><th scope="col">Best for</th>{glanceKeys.map((k) => <th scope="col">{k}</th>)}<th scope="col">Price</th></tr></thead>
+              <tbody>
+                {products.map((p) => (
+                  <tr>
+                    <td><a href={`#${p.id}`}>{shortName(p)}</a></td>
+                    <td>{p.award}</td>
+                    {glanceKeys.map((k) => <td>{p.specs?.[k] ?? '—'}</td>)}
+                    <td><a class="tbl-buy" href={amazonLink(p)} rel={SPONSORED} target="_blank">Check price</a></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      {page.sections.map((s) => (
+        <section id={s.id}>
+          <h2>{s.heading}</h2>
+          <Blocks blocks={s.blocks} />
+        </section>
+      ))}
+
+      {page.faqs?.length > 0 && (
+        <section class="faq" id="faq">
+          <h2>Frequently asked questions</h2>
+          {page.faqs.map((f, i) => (
+            <details open={i === 0}>
+              <summary>{f.q}</summary>
+              <p set:html={md(f.a)} />
+            </details>
+          ))}
+        </section>
+      )}
+
+      <section class="trust" id="why-trust-us">
+        <h2>Why trust {SITE.name}?</h2>
+        <p>
+          Every recommendation on this page is checked against the numbers that matter for dehumidifiers: pints per day under the
+          2019 DOE test standard (not the older, inflated 2012 ratings), ENERGY STAR efficiency listings, manufacturer manuals, the
+          CPSC recall database and patterns across thousands of owner reviews. We update guides when models are discontinued,
+          recalled or replaced, and we never accept payment for a placement. <a href="/how-we-review/">Read our review process.</a>
+        </p>
+        <div class="author-card">
+          <div class="avatar" aria-hidden="true">{author.initials}</div>
+          <div>
+            <div class="ac-k">Written by</div>
+            <div class="ac-n"><a href={`/authors/${author.slug}/`} style="color:inherit;text-decoration:none">{author.name}</a></div>
+            <p>{author.short}</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </article>
+
+  {products[0] && (
+    <div class="sticky-buy" role="complementary" aria-label="Top pick">
+      <div class="sb-text"><span>{products[0].award}</span><b>{shortName(products[0])}</b></div>
+      <a class="buy" href={amazonLink(products[0])} rel={SPONSORED} target="_blank">Check price</a>
+    </div>
+  )}
+
+  <div class="wrap">
+    <h2 class="section-title">Readers also read</h2>
+    <div class="grid grid-4">{related.map((r) => <Card page={r} />)}</div>
+  </div>
+</Base>

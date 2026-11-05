@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+interface Props { title: string; description: string; h1: string; dek?: string; noindex?: boolean }
+const { title, description, h1, dek, noindex } = Astro.props;
+---
+<Base title={title} description={description} noindex={noindex}>
+  <article class="col prose-page">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><span>{h1}</span></nav>
+    <h1 class="a-title">{h1}</h1>
+    {dek && <p class="a-dek">{dek}</p>}
+    <div class="body"><slot /></div>
+  </article>
+</Base>

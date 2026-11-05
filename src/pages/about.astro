@@ -1,0 +1,18 @@
+---
+import Prose from '../components/Prose.astro';
+import { SITE } from '../data/site';
+import { PAGES } from '../lib/content';
+---
+<Prose title="About Us" h1="About Enthusiast Review" description="Who we are, how we choose the dehumidifiers we recommend, and how this site makes money." dek="One subject, covered properly: keeping the air in your home at the right humidity.">
+  <p>{SITE.name} is an independent buying-guide site focused on dehumidifiers and moisture control. We publish {PAGES.length} guides covering every common room and job — basements, crawl spaces, bedrooms, garages, boats, gun safes — plus every major brand, sizing and settings advice, and step-by-step fixes.</p>
+  <h2>What we do differently</h2>
+  <ul>
+    <li><strong>We use the current rating standard.</strong> Since 2019 the DOE has tested dehumidifiers at 65°F instead of 80°F, which cut most units' pint ratings by a third. Plenty of listings still quote the old number. We tell you which is which.</li>
+    <li><strong>We check recalls.</strong> Several big dehumidifier recalls involved fire risk. Before we recommend a model, we check it against the U.S. Consumer Product Safety Commission database.</li>
+    <li><strong>We say what we don't know.</strong> We don't run a test lab. Our picks are based on published ratings, ENERGY STAR data, manuals and owner-review patterns, and every guide says so.</li>
+  </ul>
+  <h2>How we make money</h2>
+  <p>When you buy through links on our pages we may earn an affiliate commission, mostly from Amazon. That never changes which product we pick or how we rank it. Read our full <a href="/disclosure/">affiliate disclosure</a> and our <a href="/how-we-review/">review process</a>.</p>
+  <h2>Get in touch</h2>
+  <p>Spotted an error, a discontinued model or a recall we missed? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> — corrections are our favorite kind of mail.</p>
+</Prose>
