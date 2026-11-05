@@ -17,6 +17,9 @@ interface Props {
 const { title, description, ogType = 'website', ogImage, article, jsonLd, noindex } = Astro.props;
 const canonical = new URL(Astro.url.pathname, SITE.url).toString();
 const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
+// Markdown twin of this page (Dualmark), written by scripts/build-markdown.mjs.
+const mdPath = Astro.url.pathname.replace(/\/+$/, '');
+const markdownHref = noindex ? undefined : `${SITE.url}${mdPath || '/index'}.md`;
 const gsc = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 const bing = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
 ---
@@ -31,6 +34,8 @@ const bing = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
     {noindex && <meta name="robots" content="noindex, follow" />}
     {!noindex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    {markdownHref && <link rel="alternate" type="text/markdown" href={markdownHref} />}
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />

@@ -68,6 +68,23 @@ Handled by the template, so new pages are linked automatically:
 - **More from [brand]** under each product card, **Head-to-head** comparisons on brand pages,
   **More in [category]** and **Readers also read** at the bottom, linked breadcrumbs, hubs and the home page.
 
+## AI agents (Dualmark / AEO)
+
+The site follows the [Dualmark](https://dualmark.dev) AEO spec 1.0. After `astro build`,
+`scripts/build-markdown.mjs` writes a Markdown twin of every page from the same JSON
+(`/best/x/` → `/best/x.md`, `/` → `/index.md`), plus `llms.txt`, `llms-full.txt`, `ai.txt`,
+`sitemap.md` and `md-catalog.json`. `middleware.js` (Vercel Routing Middleware, using
+`@dualmark/core`) then:
+
+- serves `.md` URLs with `Content-Type: text/markdown`, `X-Markdown-Tokens`, `X-Robots-Tag: noindex`,
+  `Vary: Accept`, `X-AEO-Version` and `X-Content-Type-Options: nosniff`;
+- returns Markdown for `Accept: text/markdown` and for known AI bots (GPTBot, ClaudeBot, PerplexityBot…)
+  unless they explicitly prefer HTML, and 406 when neither format is acceptable;
+- adds `Link: <…md>; rel="alternate"; type="text/markdown"` and `Vary` to every HTML page;
+- answers 410 Gone for the old PC-gaming URLs.
+
+Check it after a deploy: `npx @dualmark/cli verify https://www.enthusiastreview.com/best/best-dehumidifier/`
+
 ## URLs
 
 Pages live at `/best/<slug>/`, `/guides/<slug>/` and `/compare/<slug>/`, with hubs at `/best/`,
@@ -77,6 +94,7 @@ Pages live at `/best/<slug>/`, `/guides/<slug>/` and `/compare/<slug>/`, with hu
 ## SEO
 
 - Pre-rendered HTML with title, description, canonical and Open Graph tags on every page.
+- `sitemap.xml` lists every URL with lastmod and the product photos on each guide (image sitemap); `sitemap.md` lists the Markdown twins.
 - JSON-LD: `BreadcrumbList`, `Article`, `ItemList` and `FAQPage` on content pages; `CollectionPage` on hubs.
 - Affiliate links use `rel="sponsored nofollow noopener"`; disclosure near the top of every page and in the footer.
 - Search console verification: set `PUBLIC_GOOGLE_SITE_VERIFICATION` and `PUBLIC_BING_SITE_VERIFICATION` in Vercel.

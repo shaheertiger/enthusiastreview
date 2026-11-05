@@ -22,5 +22,24 @@
       "destination": "https://www.enthusiastreview.com/:path*",
       "permanent": true
     }
+  ],
+  "headers": [
+    {
+      "source": "/(llms|llms-full|ai)\\.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=86400, stale-while-revalidate=604800"
+        }
+      ]
+    }
   ]
 }
