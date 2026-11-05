@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Apartment (2026): Quiet, No-Drain Picks",
   "h1": "The Best Dehumidifiers for Apartments",
   "dek": "No floor drain, thin walls, a landlord's carpet and an outlet you share with the AC. These dehumidifiers are built for renting.",
-  "description": "The best dehumidifier for an apartment or studio: quiet enough for shared walls, big-tank or app-alert models that need no drain, plus how to dehumidify a rental.",
+  "description": "The best dehumidifier for an apartment or studio: quiet units for shared walls, big-tank or app-alert models that need no drain, and how to dehumidify a rental.",
   "published": "2026-09-12",
   "updated": "2026-11-05",
   "intro": [
@@ -152,9 +152,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "34.7%", "label": "Share of US households that rent, per the 2024 American Community Survey" },
-            { "value": "472 sq ft", "label": "Size of the average US studio apartment" },
-            { "value": "24–48 hrs", "label": "How fast mold can start on a damp surface, per the EPA" }
+            {
+              "value": "34.7%",
+              "label": "Share of US households that rent, per the 2024 American Community Survey"
+            },
+            {
+              "value": "472 sq ft",
+              "label": "Size of the average US studio apartment"
+            },
+            {
+              "value": "24–48 hrs",
+              "label": "How fast mold can start on a damp surface, per the EPA"
+            }
           ]
         },
         {
@@ -214,12 +223,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Apartment", "Typical size", "What to buy"],
+          "head": [
+            "Apartment",
+            "Typical size",
+            "What to buy"
+          ],
           "rows": [
-            ["Studio", "~472 sq ft", "20-pint compressor unit, or a thermoelectric mini if humidity is mild"],
-            ["One-bedroom", "~714 sq ft", "20- to 30-pint unit in the main living area"],
-            ["Two-bedroom or damp ground floor", "1,000+ sq ft", "30- to 35-pint unit, plus a mini for the dampest bedroom"],
-            ["Just a musty closet", "Closet", "Renewable silica canister"]
+            [
+              "Studio",
+              "~472 sq ft",
+              "20-pint compressor unit, or a thermoelectric mini if humidity is mild"
+            ],
+            [
+              "One-bedroom",
+              "~714 sq ft",
+              "20- to 30-pint unit in the main living area"
+            ],
+            [
+              "Two-bedroom or damp ground floor",
+              "1,000+ sq ft",
+              "30- to 35-pint unit, plus a mini for the dampest bedroom"
+            ],
+            [
+              "Just a musty closet",
+              "Closet",
+              "Renewable silica canister"
+            ]
           ]
         },
         {

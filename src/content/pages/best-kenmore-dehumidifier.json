@@ -169,7 +169,7 @@
           "head": ["Recall", "Manufacturer", "What happened"],
           "rows": [
             ["2012", "Whirlpool", "About 980,000 dehumidifiers sold as Whirlpool, Kenmore and ComfortAire recalled for fire risk in specific model and date-code ranges"],
-            ["2013, reannounced 2023", "Gree", "Kenmore was one of 13 brands built on a Gree platform recalled for fire risk; the CPSC reannounced it after continued incidents with unregistered units"]
+            ["2013, later reannounced", "Gree", "Kenmore was one of 13 brands built on a Gree platform recalled for fire risk; the CPSC reannounced it after continued incidents with unregistered units"]
           ]
         },
         {
@@ -246,7 +246,7 @@
     },
     {
       "q": "Has a Kenmore dehumidifier been recalled?",
-      "a": "Yes, twice. A 2012 recall covered about 980,000 Whirlpool-built units sold under Whirlpool, Kenmore and ComfortAire names, and Kenmore was one of 13 brands in the Gree recall announced in 2013 and reannounced in 2023. Neither covers the current KM50 or KM70."
+      "a": "Yes, twice. A 2012 recall covered about 980,000 Whirlpool-built units sold under Whirlpool, Kenmore and ComfortAire names, and Kenmore was one of 13 brands in the Gree recall announced in 2013 and reannounced in later years. Neither covers the current KM50 or KM70."
     },
     {
       "q": "Is there a Kenmore Elite or Kenmore 35-pint dehumidifier?",

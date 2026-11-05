@@ -101,9 +101,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "~200 sq ft", "label": "Practical upper room size for most combo units" },
-            { "value": "70% → 62%", "label": "Humidity drop a combo managed in a 600 sq ft basement test" },
-            { "value": "30–50%", "label": "Humidity range the EPA recommends to curb mold and dust mites" }
+            {
+              "value": "~200 sq ft",
+              "label": "Practical upper room size for most combo units"
+            },
+            {
+              "value": "70% → 62%",
+              "label": "Humidity drop a combo managed in a 600 sq ft basement test"
+            },
+            {
+              "value": "30–50%",
+              "label": "Humidity range the EPA recommends to curb mold and dust mites"
+            }
           ]
         },
         {
@@ -158,16 +167,50 @@
       ]
     },
     {
+      "id": "how-combos-work",
+      "heading": "How a dehumidifier air purifier combo works",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Inside most combos, one fan pulls room air through a filter stack — often a prefilter, a True HEPA layer and sometimes activated carbon for odors — and then across a small thermoelectric cooling plate. Moisture condenses on the cold side of the plate and drips into a tank, while the filtered, slightly drier air flows back into the room."
+        },
+        {
+          "type": "p",
+          "text": "The design is compact and quiet, which is why it suits bedrooms. Its limits come from the same place: a thermoelectric plate removes only a fraction of what a compressor coil does, and a single small fan can't move as much air through the filter as a dedicated purifier. That's why combos stay in the small-room category. For a primer on the moisture side, see [how a dehumidifier works](/guides/how-does-a-dehumidifier-work/)."
+        }
+      ]
+    },
+    {
       "id": "combo-vs-two-machines",
       "heading": "Combo vs. two dedicated machines",
       "blocks": [
         {
           "type": "table",
-          "head": ["Option", "Best for", "Room size", "Trade-off"],
+          "head": [
+            "Option",
+            "Best for",
+            "Room size",
+            "Trade-off"
+          ],
           "rows": [
-            ["Tenergy Sorbi", "One compact unit", "Up to ~200 sq ft", "Modest drying power"],
-            ["Afloia Q10", "Budget, bigger tank", "~160–215 sq ft", "Weaker filtration"],
-            ["Dehumidifier + Levoit Core 300", "Most rooms", "Scales to the space", "Two units to place"]
+            [
+              "Tenergy Sorbi",
+              "One compact unit",
+              "Up to ~200 sq ft",
+              "Modest drying power"
+            ],
+            [
+              "Afloia Q10",
+              "Budget, bigger tank",
+              "~160–215 sq ft",
+              "Weaker filtration"
+            ],
+            [
+              "Dehumidifier + Levoit Core 300",
+              "Most rooms",
+              "Scales to the space",
+              "Two units to place"
+            ]
           ]
         },
         {

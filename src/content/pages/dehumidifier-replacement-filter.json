@@ -1,0 +1,222 @@
+{
+  "slug": "dehumidifier-replacement-filter",
+  "section": "guides",
+  "category": "How-To & Fixes",
+  "navLabel": "Filters",
+  "title": "Dehumidifier Filter Replacement: Wash It or Buy a New One?",
+  "h1": "Dehumidifier Filter Replacement: When to Wash, When to Replace",
+  "dek": "Most dehumidifier filters are meant to be rinsed, not replaced. Here's how to tell which kind you have — and how to order the right part when you do need one.",
+  "description": "Dehumidifier filter replacement made simple: washable vs. replaceable filters, how to clean them and how to find the right GE, Frigidaire or Aprilaire part.",
+  "published": "2026-10-15",
+  "updated": "2026-11-05",
+  "intro": [
+    "If your dehumidifier filter looks gray and fuzzy, your first instinct might be to order a **dehumidifier filter replacement**, the way you'd swap a furnace filter. For most portable dehumidifiers, though, that's money you don't need to spend. The vast majority use a washable mesh or foam air filter that's designed to be rinsed and reused for the life of the machine.",
+    "There are exceptions. Some brands sell model-specific replacement filters, and ducted whole-house and crawl-space units typically use pleated filters that really do get replaced on a schedule. This guide shows you how to tell which kind you have, how to clean or change it properly, and how to find the right part number when a new one is genuinely needed."
+  ],
+  "products": [],
+  "sections": [
+    {
+      "id": "filter-numbers",
+      "heading": "Dehumidifier filters, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "2–4 wks",
+              "label": "How often to rinse a washable filter during regular use"
+            },
+            {
+              "value": "$0",
+              "label": "Cost of cleaning a washable filter instead of replacing it"
+            },
+            {
+              "value": "1 sticker",
+              "label": "Your model number — the only reliable way to order the right part"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "washable-or-replaceable",
+      "heading": "Washable or replaceable? Check this first",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Slide the filter out and take a look. If it's a thin plastic mesh or a foam pad that you can see light through once it's clean, it's washable. If it's a stiff, pleated panel with a cardboard frame — like a furnace filter — it's meant to be replaced. When in doubt, the owner's manual says which one you have."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Filter type",
+            "Where you'll find it",
+            "What to do"
+          ],
+          "rows": [
+            [
+              "Washable mesh or foam",
+              "Most portable 20- to 50-pint units, including popular GE, Midea, hOmeLabs, Honeywell, Hisense and Pelonis models",
+              "Rinse every 2–4 weeks, dry fully, reinstall. Replace only if torn."
+            ],
+            [
+              "Model-specific OEM filter",
+              "Some portable lines, such as certain Frigidaire models",
+              "Follow the manual; order by exact part number when it needs replacing."
+            ],
+            [
+              "Pleated, MERV-rated filter",
+              "Ducted whole-house and many crawl-space units, such as Aprilaire and Santa Fe",
+              "Replace on the schedule in the manual; don't wash pleated media."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-clean",
+      "heading": "How to clean a washable dehumidifier filter",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Unplug the dehumidifier.** Always disconnect power before removing panels or filters.",
+            "**Remove the filter.** It usually slides out from the front, back or the bucket area; your manual shows where.",
+            "**Vacuum off loose dust** with a soft brush attachment. This makes washing quicker but doesn't replace it.",
+            "**Rinse under warm water**, running water through from the clean side to push dirt out. Use a drop of mild dish soap if it's greasy.",
+            "**Let it dry completely** at room temperature. A damp filter can encourage the very mildew you're trying to prevent.",
+            "**Reinstall and restart.** Some units have a filter-reminder light; reset it per the manual."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Don't skip the drying step",
+          "text": "Never put a filter back wet, and never dry it with a hair dryer or in the sun, which can warp the frame. Air-drying usually takes an hour or two."
+        }
+      ]
+    },
+    {
+      "id": "when-to-replace",
+      "heading": "When to replace a dehumidifier filter",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "It's torn or has holes",
+              "text": "Dust will bypass the filter and coat the coils. Replace it."
+            },
+            {
+              "label": "The mesh or foam is crumbling",
+              "text": "Aging foam can disintegrate. Replace it rather than reinstalling a filter that sheds."
+            },
+            {
+              "label": "It won't come clean or smells musty after washing",
+              "text": "Persistent odor can mean mildew has set in. A fresh filter is cheap insurance."
+            },
+            {
+              "label": "Your manual calls it disposable",
+              "text": "Pleated and model-specific filters should be replaced on the schedule listed, not washed."
+            },
+            {
+              "label": "The frame is warped or won't seat",
+              "text": "A filter that doesn't fit snugly lets unfiltered air reach the coils."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brand-filters",
+      "heading": "Finding the right replacement filter by brand",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Always order by the model number on your unit's rating label — usually inside the bucket cavity, on the back or under a front panel — not by capacity. Two dehumidifiers with the same pint rating can take completely different filters."
+        },
+        {
+          "type": "h3",
+          "text": "Frigidaire dehumidifier filter replacement"
+        },
+        {
+          "type": "p",
+          "text": "Frigidaire sells OEM dehumidifier filters under specific part numbers, matched to particular models. Part numbers listed in Frigidaire's parts catalog and at major parts retailers include 5304525613, 5304525651 and 5304525680, and older numbers can be superseded — 5304487154, for example, was replaced by 5304525651. Look up your model's parts diagram to confirm the current number before ordering. See our [Frigidaire guide](/best/best-frigidaire-dehumidifier/) for current models."
+        },
+        {
+          "type": "h3",
+          "text": "GE, Midea, Hisense and Pelonis filter replacement"
+        },
+        {
+          "type": "p",
+          "text": "Portables from these brands generally use washable mesh filters, so cleaning is usually all you need. If one tears, order the OEM replacement from the brand's parts site or an appliance-parts retailer using your exact model number. Universal washable filters exist, but measure your filter slot carefully before trusting a \"fits most\" listing."
+        },
+        {
+          "type": "h3",
+          "text": "Aprilaire and other whole-house filters"
+        },
+        {
+          "type": "p",
+          "text": "Ducted whole-house units, including Aprilaire's, and many crawl-space dehumidifiers use pleated MERV-rated filters that are replaced rather than washed. Follow the interval in your manual and check them more often during heavy use or after construction dust. Our [Aprilaire guide](/best/best-aprilaire-dehumidifier/) and [whole-house installation guide](/guides/whole-house-dehumidifier-installation/) cover these systems."
+        }
+      ]
+    },
+    {
+      "id": "why-it-matters",
+      "heading": "Why a dirty filter matters more than you think",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A clogged filter is one of the most common reasons a dehumidifier quietly starts collecting less water. Less air flows over the cold coil, so the coil runs even colder — which cuts moisture removal and nudges the unit toward icing, even in a room that isn't especially cool. Meanwhile the fan and compressor work harder, using more electricity and adding wear."
+        },
+        {
+          "type": "p",
+          "text": "If your unit is struggling, clean the filter before anything else. Then check our guides to [dehumidifier freezing up](/guides/dehumidifier-freezing-up/) and [not collecting water](/guides/dehumidifier-not-collecting-water/), and fold filter care into a regular [maintenance routine](/guides/dehumidifier-maintenance/)."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before buying a replacement, check what you have. A washable mesh or foam filter just needs a rinse every two to four weeks and a full air-dry. Replace it only if it's torn, crumbling or won't come clean — or if your manual says it's disposable, as with pleated whole-house filters and some model-specific OEM parts. Either way, order by your exact model number, not by pint size."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do dehumidifiers need replacement filters?",
+      "a": "Most portable dehumidifiers don't. They use washable mesh or foam filters that last the life of the unit with regular rinsing. Whole-house and many crawl-space units use pleated filters that do need replacing on a schedule."
+    },
+    {
+      "q": "How often should I change or clean a dehumidifier filter?",
+      "a": "Rinse a washable filter every two to four weeks during regular use, more often in dusty spaces. Replace pleated filters at the interval listed in your manual."
+    },
+    {
+      "q": "How do I find the right Frigidaire dehumidifier filter?",
+      "a": "Use the model number on your unit's rating label and look up its parts diagram. Frigidaire sells model-specific filters, and older part numbers are sometimes superseded by new ones, so confirm the current part before ordering."
+    },
+    {
+      "q": "Where can I get a GE dehumidifier filter replacement?",
+      "a": "Most GE portables use a washable filter, so clean it first. If it's damaged, order the OEM part by your exact model number from GE's parts site or an appliance-parts retailer."
+    },
+    {
+      "q": "Can I just vacuum my dehumidifier filter?",
+      "a": "Vacuuming removes loose dust, but it won't clear the fine particles trapped in the mesh. Follow it with a warm-water rinse and a full air-dry."
+    },
+    {
+      "q": "What happens if I run a dehumidifier with a dirty filter?",
+      "a": "Airflow drops, the coil runs colder, water collection falls and the unit becomes more likely to ice up. It also uses more electricity and puts extra strain on the compressor."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-maintenance/",
+    "/guides/dehumidifier-not-collecting-water/",
+    "/guides/dehumidifier-freezing-up/",
+    "/guides/dehumidifier-not-working/",
+    "/best/best-frigidaire-dehumidifier/",
+    "/guides/how-long-do-dehumidifiers-last/"
+  ]
+}
