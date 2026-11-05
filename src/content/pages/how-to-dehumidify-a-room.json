@@ -1,0 +1,198 @@
+{
+  "slug": "how-to-dehumidify-a-room",
+  "section": "guides",
+  "category": "How-To & Fixes",
+  "navLabel": "Dehumidify a Room",
+  "title": "How to Dehumidify a Room (With or Without a Dehumidifier)",
+  "h1": "How to Dehumidify a Room — With or Without a Dehumidifier",
+  "dek": "Clammy air, foggy windows, a musty smell? Here's how to dry out a room fast, plus the free fixes that keep it dry.",
+  "description": "How to dehumidify a room: set up a dehumidifier the right way, or reduce humidity without one using fans, AC, ventilation, absorbers and leak fixes.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "Humid rooms feel sticky, smell musty and invite mold, dust mites and pests. Learning **how to dehumidify a room** comes down to two jobs: removing the moisture already in the air, and stopping new moisture from building up. A dehumidifier is the fastest way to do the first. Ventilation, air conditioning and a few habit changes handle the second — and can often make a real difference even if you don't own a dehumidifier.",
+    "The target is simple: keep indoor relative humidity between 30% and 50%, as the EPA recommends, and never let it sit above 60%. A $15 hygrometer tells you where you stand.",
+    "Below, we cover how to dehumidify a room with a dehumidifier, ten ways to reduce humidity without one, what homemade dehumidifiers can and can't do, and quick tips for bathrooms, basements, garages and cars."
+  ],
+  "topPicksLead": "If you're buying one machine to dehumidify a bedroom, office or bathroom, the **Midea Cube 20** is our pick: compact, quiet and able to hold an exact humidity target.",
+  "products": [
+    {
+      "id": "midea-cube-20",
+      "catalogId": "midea-cube-20",
+      "name": "Midea Cube 20-Pint Smart Dehumidifier (MAD20S1QWT)",
+      "shortName": "Midea Cube 20",
+      "award": "Best for a single room",
+      "pros": [
+        "Right-sized for bedrooms, offices and bathrooms",
+        "Holds an exact humidity percentage",
+        "Lift-out base tank",
+        "Wi-Fi app shows the room's humidity"
+      ],
+      "cons": [
+        "Not enough for a large basement",
+        "Tank needs emptying without a hose"
+      ],
+      "whyWeLoveIt": "For a single room, you want a unit that dries the space quickly and then stops, rather than running nonstop. The Cube 20 lets you set a target like 45% and cycles to hold it.",
+      "performance": "It's rated at 20 pints a day under the 2019 DOE test, which suits most bedrooms, offices and bathrooms with the door closed. Its base tank lifts out in one piece, and a gravity-hose outlet lets it drain continuously. For larger spaces, see our [dehumidifier size guide](/guides/dehumidifier-size-guide/).",
+      "specs": {
+        "Capacity": "20 pints/day (DOE 2019)",
+        "Type": "Compressor",
+        "Drainage": "Tank or gravity hose",
+        "Humidistat": "Digital, set % target",
+        "Best for": "Bedrooms, offices, bathrooms"
+      }
+    },
+    {
+      "id": "thermopro-tp50",
+      "catalogId": "thermopro-tp50",
+      "name": "ThermoPro TP50 Digital Hygrometer",
+      "shortName": "ThermoPro TP50",
+      "award": "Best first step",
+      "pros": [
+        "Shows whether a room is actually humid",
+        "Inexpensive and battery powered",
+        "Displays temperature and humidity"
+      ],
+      "cons": [
+        "No app or history",
+        "Budget sensors can read a few points off"
+      ],
+      "whyWeLoveIt": "Before you buy anything, measure. A hygrometer tells you whether the room is truly above 50–60% and shows whether each fix you try is working.",
+      "performance": "Set it in the middle of the room, away from windows and vents, and check it at different times of day. If the reading drops after you start using the bath fan or AC, you may not need a dehumidifier at all. Our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/) explains what numbers to aim for.",
+      "specs": {
+        "Measures": "Humidity and temperature",
+        "Display": "Digital",
+        "Power": "Battery",
+        "Best for": "Measuring before you buy"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "with-a-dehumidifier",
+      "heading": "How to dehumidify a room with a dehumidifier",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Size it right.** A bedroom or office usually needs about 20 pints; a large or very damp room 35–50.",
+            "**Close the room.** Shut windows and doors so you're drying that room, not the outdoors or the rest of the house.",
+            "**Place it well.** Put it near the center of the room, several inches from walls and furniture. See [where to place a dehumidifier](/guides/where-to-place-a-dehumidifier/).",
+            "**Set a target.** Choose 45–50% rather than continuous mode.",
+            "**Drain continuously if possible.** A hose to a floor drain or a pump model keeps it running.",
+            "**Keep it clean.** Wash the filter every couple of weeks in heavy use."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In a closed, humid room, most dehumidifiers bring humidity down noticeably within a few hours. If yours runs constantly without reaching the target, it may be undersized or moisture may be entering faster than it can remove it."
+        }
+      ]
+    },
+    {
+      "id": "without-a-dehumidifier",
+      "heading": "How to dehumidify a room without a dehumidifier",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            { "label": "Run exhaust fans", "text": "Use the bathroom fan during showers and for about 20 minutes afterward, and a range hood vented outdoors when cooking." },
+            { "label": "Use the air conditioner", "text": "AC removes moisture as it cools. Our [dehumidifier vs. air conditioner](/guides/dehumidifier-vs-air-conditioner/) guide explains when that's enough." },
+            { "label": "Ventilate when it's drier outside", "text": "Opening windows helps only when outdoor air is drier. Compare dew points, not just humidity percentages; a cool, dry day is ideal." },
+            { "label": "Fix leaks and drainage", "text": "Repair dripping pipes, insulate sweating cold-water lines, clean gutters and direct downspouts away from the house." },
+            { "label": "Dry laundry outside or in a vented dryer", "text": "A rack of wet clothes releases a lot of moisture indoors. Make sure the dryer vents outdoors." },
+            { "label": "Take shorter, cooler showers", "text": "Less steam means less moisture to remove." },
+            { "label": "Move houseplants and cover water", "text": "Plants, aquariums and simmering pots all add moisture. Group plants elsewhere and cover tanks." },
+            { "label": "Keep air moving", "text": "Ceiling and box fans help surfaces dry and stop damp pockets in corners and closets." },
+            { "label": "Use moisture absorbers in small spaces", "text": "Calcium chloride tubs or silica packs work in closets and cabinets. See our [best moisture absorber](/best/best-moisture-absorber/) picks." },
+            { "label": "Warm cold rooms", "text": "In cool weather, gentle heat lowers relative humidity and reduces condensation, though it doesn't remove moisture." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homemade",
+      "heading": "Do homemade dehumidifiers work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A popular DIY dehumidifier is a bucket of calcium chloride or rock salt that pulls moisture from the air. These can help in a small, closed space like a closet, but they absorb far less than an electric dehumidifier and need regular refilling."
+        },
+        {
+          "type": "table",
+          "head": ["Method", "Does it work?", "Best for"],
+          "rows": [
+            ["Calcium chloride (DIY or commercial)", "Yes, slowly", "Closets, cabinets, small storage spaces"],
+            ["Rock salt", "Somewhat, less effective", "Very small enclosed spaces"],
+            ["Silica gel packs", "Yes, small capacity", "Drawers, safes, bins"],
+            ["Charcoal or baking soda", "Mostly for odors", "Musty smells, not humidity"],
+            ["Bowl of rice", "Barely", "Not recommended"]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Reality check",
+          "text": "A damp room can hold far more water than a homemade absorber can capture. If the room stays above 60%, it needs a real dehumidifier or a moisture source fix."
+        }
+      ]
+    },
+    {
+      "id": "by-space",
+      "heading": "How to dehumidify specific spaces",
+      "blocks": [
+        { "type": "h3", "text": "How to dehumidify a bathroom" },
+        { "type": "p", "text": "Run a properly vented exhaust fan, wipe down wet surfaces and leave the door open after showers. Windowless bathrooms may need a compact unit; see our [best dehumidifier for bathroom](/best/best-dehumidifier-for-bathroom/) guide." },
+        { "type": "h3", "text": "How to dehumidify a basement" },
+        { "type": "p", "text": "Fix gutters and grading, insulate cold-water pipes, and run a 35–50 pint unit with continuous drainage. Our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) picks cover the options." },
+        { "type": "h3", "text": "How to dehumidify a garage or crawl space" },
+        { "type": "p", "text": "Seal gaps and keep wet vehicles and gear from dripping inside. Crawl spaces usually need a vapor barrier plus a dedicated unit; see our [crawl space dehumidifier installation](/guides/crawl-space-dehumidifier-installation/) guide." },
+        { "type": "h3", "text": "How to dehumidify a car" },
+        { "type": "p", "text": "Run the AC with fresh air, dry wet mats and use a renewable silica pack. See our [best car dehumidifier](/best/best-car-dehumidifier/) guide." }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "To dehumidify a room, measure first, then remove moisture and stop it at the source. A right-sized dehumidifier set to 45–50% is the fastest fix, while exhaust fans, AC, smart ventilation and leak repairs can lower humidity without one. Homemade absorbers help only in small, closed spaces. Not sure whether you need a machine? See [when to use a dehumidifier](/guides/when-to-use-a-dehumidifier/)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How can I dehumidify a room fast?",
+      "a": "Close the doors and windows, run a right-sized dehumidifier on its highest setting until the room reaches about 50%, and use a fan to keep air moving. Running the AC also helps."
+    },
+    {
+      "q": "How do I reduce humidity in my house without a dehumidifier?",
+      "a": "Use exhaust fans in bathrooms and the kitchen, run the air conditioner, fix leaks, dry laundry outdoors or in a vented dryer, and open windows only when outdoor air is drier than indoor air."
+    },
+    {
+      "q": "Does opening windows reduce humidity?",
+      "a": "Only when the outdoor air is drier. On a humid summer day, opening windows can make a room more humid. Compare indoor and outdoor dew points before you ventilate."
+    },
+    {
+      "q": "Do bowls of salt or rice dehumidify a room?",
+      "a": "Not meaningfully. Salt and rice absorb only small amounts of moisture. Calcium chloride works better but is best suited to closets and cabinets."
+    },
+    {
+      "q": "What humidity should a room be?",
+      "a": "The EPA recommends keeping indoor humidity between 30% and 50%, and below 60% to limit mold. Many people find 40–50% most comfortable."
+    },
+    {
+      "q": "How do I dehumidify a room for sleeping?",
+      "a": "Run a quiet dehumidifier or the AC in the evening to bring the room to about 45–50%, then let the humidistat cycle overnight. See our [best dehumidifier for bedroom](/best/best-dehumidifier-for-bedroom/) picks."
+    }
+  ],
+  "related": [
+    "/guides/where-to-place-a-dehumidifier/",
+    "/guides/when-to-use-a-dehumidifier/",
+    "/best/best-moisture-absorber/",
+    "/best/best-dehumidifier-for-bedroom/",
+    "/best/best-dehumidifier-for-bathroom/",
+    "/guides/dehumidifier-size-guide/"
+  ]
+}
