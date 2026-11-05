@@ -1,6 +1,21 @@
 {
   "trailingSlash": true,
   "redirects": [
-    { "source": "/:path*", "has": [{ "type": "host", "value": "enthusiastreview.com" }], "destination": "https://www.enthusiastreview.com/:path*", "permanent": true }
+    {
+      "source": "/affiliate-disclosure/",
+      "destination": "/disclosure/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "enthusiastreview.com"
+        }
+      ],
+      "destination": "https://www.enthusiastreview.com/:path*",
+      "permanent": true
+    }
   ]
 }
