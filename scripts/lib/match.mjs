@@ -16,7 +16,7 @@ function brandOf(name) {
 const pintsOf = (s) => s.match(/(\d{2,3})[\s-]*(?:pint|pt\b)/i)?.[1];
 
 // Listings for accessories, parts or used units are never the product itself.
-const NOT_THE_PRODUCT = /\b(compatible with|replacement|cover|adapt(?:er|or)|refurbished|restored|renewed|pre-?owned|used)\b/i;
+const NOT_THE_PRODUCT = /\b(compatible with|replacement|cover|adapt(?:er|or)|bracket|mount(?:ing)? kit|install(?:ation)? kit|parts?|accessor(?:y|ies)|refurbished|restored|renewed|pre-?owned|used)\b/i;
 
 export function isMatch(name, title) {
   if (!title) return false;
@@ -36,6 +36,12 @@ export function isMatch(name, title) {
   const titleNums = new Set(title.match(/\d+/g) ?? []);
   const nameNums = (name.replace(/\([^)]*\)/g, ' ').match(/\b\d+\b/g) ?? []).filter((n) => !/^(19|20)\d\d$/.test(n));
   if (nameNums.some((n) => !titleNums.has(n))) return false;
+  // "HYDRONE 3", "Dual 155": the word before a bare number must sit right next to it in the title.
+  const tt = title.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+  const titlePairs = new Set(tt.map((w, i) => w + ' ' + (tt[i + 1] ?? '')));
+  const nt = name.toLowerCase().replace(/\([^)]*\)/g, ' ').split(/[^a-z0-9]+/).filter(Boolean);
+  for (let i = 1; i < nt.length; i++)
+    if (/^\d+$/.test(nt[i]) && /^[a-z]+$/.test(nt[i - 1]) && !/^(pint|pints|sq|ft|oz|lb|cu|gallon|l)$/.test(nt[i + 1] ?? '') && !titlePairs.has(`${nt[i - 1]} ${nt[i]}`)) return false;
   const pints = pintsOf(name);
   if (pints) return pintsOf(title) === pints;
   // No model number or pint size: every distinctive word of the name must appear.

@@ -9,6 +9,7 @@ export interface CatalogEntry {
   asin: string;
   image: string;
   note?: string;
+  skip?: boolean;
 }
 const CAT = CATALOG as Record<string, CatalogEntry>;
 

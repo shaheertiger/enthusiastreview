@@ -162,7 +162,8 @@
     "name": "Pro Breeze PB-02 Mini Dehumidifier",
     "asin": "",
     "image": "",
-    "note": "Matched an accessory/wrong listing; cleared."
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
   },
   "pro-breeze-pb-03": {
     "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
@@ -553,5 +554,89 @@
     "name": "Midea 22-Pint Smart Dehumidifier (Wi-Fi/Alexa)",
     "asin": "B07NRDBBH5",
     "image": "https://m.media-amazon.com/images/I/31Z47hoRk4L._SL500_.jpg"
+  },
+  "ac-infinity-hydrone-3": {
+    "name": "AC Infinity HYDRONE 3 Plant Dehumidifier",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "quest-dual-105-overhead": {
+    "name": "Quest Dual 105 Overhead Dehumidifier",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "hornady-rechargeable-dehumidifier": {
+    "name": "Hornady Rechargeable Gun Safe Dehumidifier",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "quest-dual-205": {
+    "name": "Quest Dual 205 Overhead Dehumidifier",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "quest-dual-155": {
+    "name": "quest-dual-155",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "black-decker-bdt30wtb": {
+    "name": "black-decker-bdt30wtb",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "afloia-q10": {
+    "name": "afloia-q10",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "hisense-50-pint-3-speed": {
+    "name": "hisense-50-pint-3-speed",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "sanidry-sedona": {
+    "name": "sanidry-sedona",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "shinco-sdl-30p": {
+    "name": "shinco-sdl-30p",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "toshiba-tddp3513es2": {
+    "name": "toshiba-tddp3513es2",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+  },
+  "toshiba-tddp5013es2": {
+    "name": "toshiba-tddp5013es2",
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
   }
 }

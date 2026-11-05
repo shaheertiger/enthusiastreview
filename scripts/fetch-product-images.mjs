@@ -93,7 +93,8 @@ for (const f of fs.readdirSync(PAGES).filter((f) => f.endsWith('.json'))) {
 }
 
 const report = [];
-const todo = [...wanted].filter(([k]) => !catalog[k]?.asin || !catalog[k]?.image).slice(0, LIMIT);
+// Entries marked "skip" were reviewed by hand and have no correct Amazon listing; don't retry them.
+const todo = [...wanted].filter(([k]) => !catalog[k]?.skip && (!catalog[k]?.asin || !catalog[k]?.image)).slice(0, LIMIT);
 console.log(`${wanted.size} distinct products on the site; looking up ${todo.length} without an ASIN + photo.`);
 
 /* ---------- 1. verify existing ASINs (optional) ---------- */
