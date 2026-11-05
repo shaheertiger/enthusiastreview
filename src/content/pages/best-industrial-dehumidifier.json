@@ -1,0 +1,402 @@
+{
+  "slug": "best-industrial-dehumidifier",
+  "section": "best",
+  "category": "Size & Features",
+  "navLabel": "Industrial",
+  "amazonOnly": true,
+  "title": "Best Industrial Dehumidifier (2026): Heavy-Duty Picks",
+  "h1": "The Best Industrial and Heavy-Duty Dehumidifiers",
+  "dek": "When a household unit can't keep up — a flooded basement, a warehouse bay, a gutted renovation — these are the machines that can.",
+  "description": "The best industrial dehumidifier for floods, warehouses and big basements: heavy-duty LGR and commercial picks, plus when renting beats buying.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "An **industrial dehumidifier** is built for the jobs that defeat a store-bought 50-pint box: a flooded basement, a renovation with wet framing, a warehouse bay, a crawl space that never seems to dry. These heavy-duty machines move a lot of air, pump their own water away and run for days on end without anyone emptying a bucket.",
+    "They're also a big step up in price, weight and power draw, so it pays to match the machine to the job. We compared models on rated capacity at standard AHAM conditions (80°F and 60% humidity) rather than the bigger saturation numbers on the box, plus drainage, coverage, amp draw, cold-weather operation and warranty — and we explain when renting beats buying."
+  ],
+  "topPicksLead": "For most people who need true heavy-duty drying, the **AlorAir Storm LGR Extreme** is the one to buy: restoration-grade LGR performance and a built-in pump for a fraction of what legacy pro units cost.",
+  "products": [
+    {
+      "id": "alorair-storm-lgr-extreme",
+      "catalogId": "alorair-storm-lgr-extreme",
+      "name": "AlorAir Storm LGR Extreme Dehumidifier",
+      "shortName": "AlorAir Storm LGR Extreme",
+      "award": "Best overall",
+      "pros": [
+        "LGR design keeps pulling water as the air gets drier",
+        "Built-in pump lifts water up to 14.7 feet",
+        "Auto-defrost for cold basements and crawl spaces",
+        "Five-year warranty"
+      ],
+      "cons": [
+        "Overkill for routine humidity control",
+        "Heavier and louder than a household unit"
+      ],
+      "whyWeLoveIt": "This is the machine that made AlorAir a familiar name with crawl-space contractors and water-damage crews. It delivers low-grain refrigerant (LGR) drying close to the big legacy brands for far less money, and its pump lets it run for days without attention.",
+      "performance": "AlorAir rates it at 85 pints a day at AHAM conditions and 180 at saturation, with coverage up to about 2,300 square feet. It draws roughly 5.4 amps, uses a MERV-8 filter and keeps working down to 36°F thanks to auto-defrost. Owners most often praise how quickly it pulls a soaked basement back to normal; the usual complaint is simply its size.",
+      "specs": {
+        "Capacity": "85 pints/day AHAM; 180 at saturation",
+        "Type": "LGR compressor",
+        "Drainage": "Built-in pump, 14.7 ft lift",
+        "Coverage": "Up to about 2,300 sq ft",
+        "Low-temp operation": "Down to 36°F (auto-defrost)",
+        "Best for": "Flood dry-outs, crawl spaces, garages"
+      }
+    },
+    {
+      "id": "dri-eaz-lgr-7000xli",
+      "catalogId": "dri-eaz-lgr-7000xli",
+      "name": "Dri-Eaz LGR 7000XLi Dehumidifier",
+      "shortName": "Dri-Eaz LGR 7000XLi",
+      "award": "Best professional-grade",
+      "pros": [
+        "130 pints a day at AHAM conditions",
+        "Automatic pump-out with a sealed basin",
+        "Rotomolded housing built for job-site abuse",
+        "Parts and filters widely available"
+      ],
+      "cons": [
+        "Several times the cost of the AlorAir units",
+        "Over 100 pounds"
+      ],
+      "whyWeLoveIt": "The 7000XLi has been a restoration-industry workhorse for years. If you dry buildings for a living, or downtime on a rental property costs real money, its serviceability and track record are worth paying for.",
+      "performance": "Dri-Eaz rates it at 130 pints a day at AHAM conditions and 235 at saturation, with 280 CFM of airflow on 8.8 amps, so it runs on a standard 115-volt circuit. The sealed pump basin holds water if a power cut triggers a defrost. Our [Dri-Eaz dehumidifier guide](/best/best-dri-eaz-dehumidifier/) compares it with the newer models.",
+      "specs": {
+        "Capacity": "130 pints/day AHAM; 235 at saturation",
+        "Type": "LGR compressor",
+        "Airflow": "280 CFM",
+        "Power": "115V, 8.8 amps",
+        "Drainage": "Automatic pump-out",
+        "Best for": "Restoration pros, large losses"
+      }
+    },
+    {
+      "id": "alorair-storm-elite",
+      "catalogId": "alorair-storm-elite",
+      "name": "AlorAir Storm Elite LGR Dehumidifier",
+      "shortName": "AlorAir Storm Elite",
+      "award": "Best for very large spaces",
+      "pros": [
+        "125 pints a day at AHAM, 270 at saturation",
+        "Rated for open areas up to 3,000 sq ft",
+        "Built-in pump and protective roll-cage housing",
+        "Often replaces two smaller machines"
+      ],
+      "cons": [
+        "Bulky to move between jobs",
+        "Far more than a single room needs"
+      ],
+      "whyWeLoveIt": "When one 85-pint machine can't keep up — a whole flooded floor, a commercial basement, a new build drying before drywall — the Storm Elite moves nearly half again as much water as the Extreme, often replacing two machines.",
+      "performance": "AlorAir rates it at 125 pints a day at AHAM conditions and 270 at saturation, with coverage up to about 3,000 square feet. It shares the smaller Storms' auto-defrost and filtered intake, so it's comfortable in unheated buildings.",
+      "specs": {
+        "Capacity": "125 pints/day AHAM; 270 at saturation",
+        "Type": "LGR compressor",
+        "Drainage": "Built-in pump",
+        "Coverage": "Up to about 3,000 sq ft",
+        "Best for": "Whole floors, warehouses, new builds"
+      }
+    },
+    {
+      "id": "xpower-xd-85l2",
+      "catalogId": "xpower-xd-85l2",
+      "name": "XPOWER XD-85L2 Commercial LGR Dehumidifier",
+      "shortName": "XPOWER XD-85L2",
+      "award": "Best for moving between rooms",
+      "pros": [
+        "Wheels and handle for rolling between rooms",
+        "Purge pump with a long 40-foot hose",
+        "Stackable, job-site-friendly design",
+        "Same AHAM class as the Storm LGR Extreme"
+      ],
+      "cons": [
+        "Lower saturation rating than the AlorAir",
+        "Costs more than our top pick"
+      ],
+      "whyWeLoveIt": "Renovation drying rarely happens in one spot. If the machine will move from a soaked basement to a damp garage to a patched bathroom over a week, the XD-85L2's wheels, handle and long hose make it the easiest unit here to live with.",
+      "performance": "XPOWER rates it at 85 pints a day at AHAM conditions and 145 at saturation, with 180 CFM of airflow. The 40-foot hose reaches a floor drain or sink from most rooms, and the purge pump empties automatically — pro-style drying without Dri-Eaz pricing.",
+      "specs": {
+        "Capacity": "85 pints/day AHAM; 145 at saturation",
+        "Type": "LGR compressor",
+        "Airflow": "180 CFM",
+        "Drainage": "Purge pump, 40-ft hose",
+        "Best for": "Multi-room renovation drying"
+      }
+    },
+    {
+      "id": "alorair-sentinel-hd90",
+      "catalogId": "alorair-sentinel-hd90",
+      "name": "AlorAir Sentinel HD90 Dehumidifier",
+      "shortName": "AlorAir Sentinel HD90",
+      "award": "Best heavy-duty basement dehumidifier",
+      "pros": [
+        "90 pints a day at AHAM conditions",
+        "Rated for basements and crawl spaces up to 2,600 sq ft",
+        "ENERGY STAR listed for year-round running",
+        "Auto-defrost for cool, unfinished spaces"
+      ],
+      "cons": [
+        "Gravity drain — pump version sold separately (HDi90)",
+        "Not built for hauling between job sites"
+      ],
+      "whyWeLoveIt": "Many people shopping for an industrial dehumidifier for a basement don't need a restoration machine — they need something that holds a big, damp basement at 50% for years. The HD90 is built for that, and it's far cheaper to run than a job-site LGR.",
+      "performance": "AlorAir rates it at 90 pints a day at AHAM conditions for spaces up to about 2,600 square feet, in a compact cabinet that fits a crawl space or basement corner. It drains by gravity, so plan a route to a floor drain or sump, or choose the HDi90 version with a pump. More options are in our [basement dehumidifier guide](/best/best-dehumidifier-for-basement/).",
+      "specs": {
+        "Capacity": "90 pints/day AHAM",
+        "Type": "Low-temp compressor",
+        "Coverage": "Up to about 2,600 sq ft",
+        "Drainage": "Gravity hose",
+        "Efficiency": "ENERGY STAR",
+        "Best for": "Large basements, crawl spaces"
+      }
+    },
+    {
+      "id": "kesnos-216-pint-commercial",
+      "catalogId": "kesnos-216-pint-commercial",
+      "name": "Kesnos 216-Pint Commercial Dehumidifier",
+      "shortName": "Kesnos 216-Pint",
+      "award": "Best budget high-capacity",
+      "pros": [
+        "Built-in pump with a 16.4-foot hose",
+        "Brand rating covers up to 8,500 sq ft",
+        "Lower cost of entry than LGR brands"
+      ],
+      "cons": [
+        "216 pints is a saturation figure, not AHAM",
+        "Shorter track record than AlorAir or Dri-Eaz"
+      ],
+      "whyWeLoveIt": "If you need a big, self-draining machine for a garage, workshop or storage building and the LGR brands are out of budget, the Kesnos is a reasonable way in. It has the pump and continuous operation that matter most on large, open jobs.",
+      "performance": "Kesnos rates it at 216 pints a day at 95°F and 90% humidity — a saturation condition, so expect much less in a cool basement. Coverage is listed at up to 8,500 square feet, with a built-in pump and 16.4-foot hose. Treat it as a value machine for open buildings rather than a restoration tool.",
+      "specs": {
+        "Capacity": "216 pints/day (95°F/90% RH)",
+        "Type": "Commercial compressor",
+        "Coverage": "Up to 8,500 sq ft (brand rating)",
+        "Drainage": "Built-in pump, 16.4-ft hose",
+        "Best for": "Garages, shops, storage buildings"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "by-the-numbers",
+      "heading": "Heavy-duty drying, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "85 vs. 180",
+              "label": "Pints a day the Storm LGR Extreme is rated for at AHAM vs. saturation conditions"
+            },
+            {
+              "value": "24–48 hrs",
+              "label": "How quickly the EPA says wet materials should be dried to prevent mold"
+            },
+            {
+              "value": "12 amps",
+              "label": "Practical continuous-load limit on a standard 15-amp household circuit"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The first number trips up most shoppers. Industrial listings love to quote saturation capacity because it can be double the AHAM figure. Compare machines on AHAM pints, and treat a saturation-only rating as a ceiling, not a promise."
+        }
+      ]
+    },
+    {
+      "id": "how-we-pick",
+      "heading": "How we pick industrial dehumidifiers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don't run a test lab. Instead we compare what's published and comparable: AHAM and saturation ratings from manufacturer spec sheets, airflow, amp draw, rated coverage, drainage method, minimum operating temperature and warranty terms. ENERGY STAR listings help for units meant to run permanently, and we check the CPSC recall database for every brand."
+        },
+        {
+          "type": "p",
+          "text": "Then we read owner and contractor reviews for the failures that matter on long jobs — dying pumps, sticking float switches, units that ice up in the cold, support that vanishes — and dropped machines with a pattern of them."
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "What to look for in an industrial dehumidifier",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "An AHAM rating, not just a saturation number",
+              "text": "AHAM pints (80°F, 60% RH) let you compare brands fairly. A machine sold only on saturation pints will remove far less in a cool, moderately damp space."
+            },
+            {
+              "label": "LGR for water damage, conventional for everyday control",
+              "text": "Low-grain refrigerant units keep condensing water as the air dries, which is what you need to pull moisture out of studs and subfloors. Our [LGR dehumidifier guide](/best/best-lgr-dehumidifier/) explains the difference."
+            },
+            {
+              "label": "A built-in pump",
+              "text": "On a multi-day job, a pump discharges up and out to a sink, window or drain so nobody empties a tank."
+            },
+            {
+              "label": "Amp draw that fits your circuits",
+              "text": "Check the label before putting two machines and an air mover on one breaker; a single 8–10 amp unit can use most of a 15-amp circuit."
+            },
+            {
+              "label": "Cold-weather operation",
+              "text": "Unheated garages, crawl spaces and spring basements often sit in the 40s and 50s. Look for auto-defrost and a published minimum temperature; for near-freezing spaces, a [desiccant dehumidifier](/best/best-desiccant-dehumidifier/) works better."
+            },
+            {
+              "label": "Portability and service",
+              "text": "Wheels, a folding handle and stackable housings matter if the unit travels; filter and parts availability matter the longer you own it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industrial-vs-household",
+      "heading": "Industrial vs. household dehumidifiers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "\"Industrial\" isn't a regulated term, so it helps to think in three tiers, separated by how much water you need to remove, how dry you need to get and how long the machine runs unattended."
+        },
+        {
+          "type": "table",
+          "head": [
+            "",
+            "Household portable",
+            "Heavy-duty basement unit",
+            "Commercial LGR"
+          ],
+          "rows": [
+            [
+              "Typical capacity",
+              "20–50 pints/day (DOE)",
+              "55–130 pints/day (AHAM)",
+              "85–170 pints/day (AHAM)"
+            ],
+            [
+              "Drainage",
+              "Bucket, hose, some pumps",
+              "Gravity hose or pump",
+              "Built-in pump"
+            ],
+            [
+              "Built for",
+              "One room or a small basement",
+              "Big basements, crawl spaces, year-round",
+              "Floods, renovations, job sites"
+            ],
+            [
+              "Running cost",
+              "Lowest",
+              "Moderate; many are ENERGY STAR",
+              "Highest; meant for short jobs"
+            ],
+            [
+              "Example",
+              "50-pint portables",
+              "AlorAir Sentinel HD90",
+              "Storm LGR Extreme, Dri-Eaz 7000XLi"
+            ]
+          ],
+          "caption": "Capacities are typical ranges for each tier, not limits."
+        },
+        {
+          "type": "p",
+          "text": "If your goal is a permanently dry basement rather than a rescue, the middle tier is usually the right buy; our [crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) picks cover more of it. For open commercial floors, see our [warehouse dehumidifier guide](/best/best-dehumidifier-for-warehouse/) and the wider [commercial dehumidifier](/best/best-commercial-dehumidifier/) roundup. In near-freezing industrial spaces, desiccant machines such as Ebac's DD-series are often the better tool."
+        }
+      ]
+    },
+    {
+      "id": "rent-vs-buy",
+      "heading": "Should you rent an industrial dehumidifier instead?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rental fits a single, short emergency: a burst pipe, a leaking water heater, a one-time basement flood. Equipment rental yards, big-box tool-rental counters and restoration suppliers rent LGR units by the day or week, and an insurance claim may cover the cost."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Rent** when the job will be done in a week or two, you won't need the machine again soon, and you can pick it up the same day.",
+            "**Buy** when you'll use it several times a year, you own rental property or a cabin, you're drying a long renovation, or you need a unit running in a crawl space indefinitely.",
+            "**Do the math:** a few weeks of rental fees can approach the price of a value LGR like the Storm LGR Extreme, and you keep the machine afterward."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Our [dehumidifier rental guide](/guides/dehumidifier-rental/) walks through where to rent, what to ask, and how long typical dry-outs take. For flood-specific picks, see the [best dehumidifier for water damage](/best/best-dehumidifier-for-water-damage/)."
+        }
+      ]
+    },
+    {
+      "id": "power-and-cords",
+      "heading": "Power, circuits and extension cords",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Heavy-duty dehumidifiers draw serious current for hours, and the most common job-site problem is the wiring, not the machine. Plug straight into a wall outlet when you can, and spread machines and air movers across separate circuits."
+        },
+        {
+          "type": "h3",
+          "text": "If you must use an extension cord"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Check the manual first; many makers advise against extension cords entirely.",
+            "Use the shortest cord that reaches, and choose a heavy-gauge (12 AWG) cord rated for at least the unit's amp draw.",
+            "Keep the connection off wet floors and never daisy-chain cords or power strips.",
+            "A cord that feels warm is a warning sign — unplug and rethink the setup."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Running costs add up",
+          "text": "An LGR running around the clock can use well over 10 kWh a day — fine for a week-long dry-out, expensive for year-round use. Our [electricity guide](/guides/how-much-electricity-does-a-dehumidifier-use/) shows how to estimate it."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For most heavy-duty jobs, the **AlorAir Storm LGR Extreme** is the industrial dehumidifier to buy: real LGR drying, a built-in pump and cold-weather operation at a sensible price. Pros should consider the **Dri-Eaz LGR 7000XLi**, big open spaces call for the **Storm Elite**, and room-to-room renovators will like the **XPOWER XD-85L2**. If you just need a big basement to stay dry for years, get the efficient **AlorAir Sentinel HD90** instead."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best industrial dehumidifier?",
+      "a": "For most buyers, the AlorAir Storm LGR Extreme: it's rated at 85 pints a day at AHAM conditions, has a built-in pump and keeps working down to 36°F. Restoration professionals often prefer the Dri-Eaz LGR 7000XLi for its serviceability and 130-pint AHAM rating."
+    },
+    {
+      "q": "Can I rent an industrial dehumidifier?",
+      "a": "Yes. Equipment rental yards, many big-box tool-rental counters and restoration suppliers rent LGR dehumidifiers by the day or week. Renting makes sense for a one-time emergency; buying pays off if you'll need the machine several times or for a long project."
+    },
+    {
+      "q": "Do I need a heavy-duty dehumidifier for my basement?",
+      "a": "Only if the basement is large, very damp or cold. A big or wet basement is better served by a heavy-duty unit like the AlorAir Sentinel HD90 than by a household 50-pint portable running nonstop. A job-site LGR machine is usually overkill for everyday basement control."
+    },
+    {
+      "q": "Can you use an extension cord with a heavy-duty dehumidifier?",
+      "a": "Plugging directly into a wall outlet is always best, and some manuals forbid extension cords. If you must use one, choose the shortest heavy-gauge (12 AWG) cord rated for the unit's amp draw, keep the connection dry and never daisy-chain cords."
+    },
+    {
+      "q": "Why do industrial dehumidifiers list two pint ratings?",
+      "a": "The AHAM rating is measured at 80°F and 60% humidity; the saturation rating at hot, near-soaking conditions, often 90°F and 90%. Saturation numbers can be about double the AHAM figure, so compare machines on AHAM pints."
+    }
+  ],
+  "related": [
+    "/best/best-commercial-dehumidifier/",
+    "/best/best-lgr-dehumidifier/",
+    "/best/best-dehumidifier-for-water-damage/",
+    "/guides/dehumidifier-rental/",
+    "/best/best-dehumidifier-for-warehouse/",
+    "/best/best-crawl-space-dehumidifier/"
+  ]
+}

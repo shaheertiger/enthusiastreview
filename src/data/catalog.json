@@ -40,11 +40,6 @@
     "asin": "B073V9MG3Y",
     "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
   },
-  "homelabs-basement": {
-    "name": "hOmeLabs 3,000 Sq Ft Dehumidifier",
-    "asin": "B06X9MFTZZ",
-    "image": "https://m.media-amazon.com/images/I/41MNK1ecLyL._SL500_.jpg"
-  },
   "honeywell-tp30awkn": {
     "name": "Honeywell TP30AWKN 30-Pint Dehumidifier",
     "asin": "B085NYKWTQ",
@@ -552,8 +547,10 @@
   },
   "midea-22-pint-wifi": {
     "name": "Midea 22-Pint Smart Dehumidifier (Wi-Fi/Alexa)",
-    "asin": "B07NRDBBH5",
-    "image": "https://m.media-amazon.com/images/I/31Z47hoRk4L._SL500_.jpg"
+    "asin": "",
+    "image": "",
+    "skip": true,
+    "note": "Search matched the non-Wi-Fi MAD22C1AWS listing (B07NRDBBH5); cleared."
   },
   "ac-infinity-hydrone-3": {
     "name": "AC Infinity HYDRONE 3 Plant Dehumidifier",

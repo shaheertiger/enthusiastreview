@@ -1,0 +1,366 @@
+{
+  "slug": "best-hygrometer",
+  "section": "best",
+  "category": "Buying Advice",
+  "navLabel": "Hygrometers",
+  "amazonOnly": true,
+  "title": "Best Hygrometer for Dehumidifiers (2026): Humidity Sensors",
+  "h1": "The Best Hygrometers and Humidity Sensors for Dehumidifier Owners",
+  "dek": "Your dehumidifier's built-in sensor only knows the air passing through it. A good hygrometer tells you what the whole room is doing.",
+  "description": "The best hygrometer to double-check your dehumidifier's humidity sensor: accurate, app-connected monitors, plus calibration, placement and sensor fixes.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "Every dehumidifier has a **humidity sensor**, but it measures the air right at the machine's intake — and many read several points off. That's why the single most useful accessory for any dehumidifier is a separate hygrometer. It tells you whether the far corner of the basement is really at 50%, whether your target is set too low or too high, and whether a unit that never shuts off has a sensor problem.",
+    "We looked for hygrometers that make that job easy: published accuracy specs, a readable display or a solid app, alerts when humidity leaves your range, history so you can spot patterns, and a temperature range that suits cold basements and crawl spaces. Then we read owner reviews for drift, dead batteries and flaky connections."
+  ],
+  "topPicksLead": "For most dehumidifier owners, the **Govee H5179 Wi-Fi Hygrometer** is the one to buy: it alerts your phone when humidity drifts out of range and keeps a history you can check from anywhere.",
+  "products": [
+    {
+      "id": "govee-h5179-wifi-hygrometer",
+      "catalogId": "govee-h5179-wifi-hygrometer",
+      "name": "Govee H5179 Wi-Fi Hygrometer",
+      "shortName": "Govee H5179",
+      "award": "Best overall",
+      "pros": [
+        "Wi-Fi alerts reach your phone anywhere",
+        "App history shows daily and seasonal patterns",
+        "Govee lists ±3% RH accuracy",
+        "Inexpensive enough to put one in each zone"
+      ],
+      "cons": [
+        "Works only on 2.4 GHz Wi-Fi",
+        "Setup can take a couple of tries, owners say"
+      ],
+      "whyWeLoveIt": "A dehumidifier in a basement is out of sight and out of mind. The H5179 sits across the room and pings your phone if humidity climbs above the level you set, so you know about a full bucket, a tripped breaker or a rainy-week spike without walking downstairs.",
+      "performance": "Govee specifies humidity accuracy of ±3% RH and temperature accuracy of about ±0.5°F, and the sensor refreshes every few seconds. It runs on AA batteries and stores history in the Govee Home app, which makes it easy to compare readings before and after you change your dehumidifier's setting. It only connects to 2.4 GHz networks, so check your router if setup fails.",
+      "specs": {
+        "Measures": "Humidity and temperature",
+        "Accuracy": "±3% RH (Govee)",
+        "Connectivity": "2.4 GHz Wi-Fi",
+        "Alerts": "Yes, via app",
+        "Power": "AA batteries",
+        "Best for": "Basements, remote monitoring"
+      }
+    },
+    {
+      "id": "govee-h5075-hygrometer",
+      "catalogId": "govee-h5075-hygrometer",
+      "name": "Govee H5075 Bluetooth Hygrometer",
+      "shortName": "Govee H5075",
+      "award": "Best budget app hygrometer",
+      "pros": [
+        "Clear LCD readout plus app history",
+        "Small enough for a shelf, safe or closet",
+        "Low cost for an app-connected sensor"
+      ],
+      "cons": [
+        "Bluetooth only — sync when you're nearby",
+        "No remote alerts without a separate gateway"
+      ],
+      "whyWeLoveIt": "If you live with your dehumidifier rather than leaving it in a basement, Bluetooth is all you need. The H5075 shows the reading at a glance and syncs its stored history to your phone whenever you walk by.",
+      "performance": "It logs readings on the device and uploads them to Govee's app when in range, so you can see whether humidity spikes overnight or after showers. Owners commonly use it to check a dehumidifier's built-in reading and to confirm that a closet, safe or bedroom stays in range. Metal enclosures block the signal, so sync with the door open.",
+      "specs": {
+        "Measures": "Humidity and temperature",
+        "Connectivity": "Bluetooth",
+        "Display": "LCD",
+        "Power": "Batteries",
+        "Best for": "Bedrooms, closets, safes"
+      }
+    },
+    {
+      "id": "acurite-01080m",
+      "catalogId": "acurite-01080m",
+      "name": "AcuRite 01080M Pro Digital Hygrometer",
+      "shortName": "AcuRite 01080M",
+      "award": "Best with built-in alarms",
+      "pros": [
+        "AcuRite lists ±2% RH from 10% to 90%",
+        "High and low humidity alarms on the unit",
+        "No app or Wi-Fi to set up",
+        "Large, easy-to-read display"
+      ],
+      "cons": [
+        "Alarms only sound in the room",
+        "No history beyond highs and lows"
+      ],
+      "whyWeLoveIt": "Not everyone wants another app. The 01080M is a straightforward digital hygrometer with a tighter published accuracy spec than most and audible alarms you can set for high or low humidity — handy in a living space where you'll hear it.",
+      "performance": "AcuRite specifies ±2% RH between 10% and 90% humidity and ±0.5°F for temperature, and it updates every few seconds. Set the high alarm at 55% in a basement or bedroom and you'll know when your dehumidifier needs attention. Owners frequently use it as the reference when checking cheaper sensors.",
+      "specs": {
+        "Measures": "Humidity and temperature",
+        "Accuracy": "±2% RH, 10–90% (AcuRite)",
+        "Alarms": "High and low humidity",
+        "Connectivity": "None",
+        "Best for": "Living spaces, reference checks"
+      }
+    },
+    {
+      "id": "thermopro-tp50",
+      "catalogId": "thermopro-tp50",
+      "name": "ThermoPro TP50 Hygrometer",
+      "shortName": "ThermoPro TP50",
+      "award": "Best basic hygrometer",
+      "pros": [
+        "Inexpensive second opinion on humidity",
+        "Comfort indicator for quick reads",
+        "Small enough for any shelf or ledge"
+      ],
+      "cons": [
+        "No app, alerts or history",
+        "Like any cheap sensor, can read a few points off"
+      ],
+      "whyWeLoveIt": "Sometimes you just need a number. The TP50 is the cheap, no-setup hygrometer to drop in a room and glance at each day. Buy two and you can compare the air near your dehumidifier with the air across the room.",
+      "performance": "It shows humidity and temperature on a simple display with a dry/comfort/wet indicator, and runs for months on a single battery. Owners like it for exactly that simplicity. Because budget sensors vary, run a quick salt test when it arrives so you know its offset. We use it as a basic check in our [silverfish dehumidifier](/best/best-dehumidifier-for-silverfish/) guide.",
+      "specs": {
+        "Measures": "Humidity and temperature",
+        "Display": "Digital with comfort indicator",
+        "Connectivity": "None",
+        "Power": "Battery",
+        "Best for": "Quick daily checks"
+      }
+    },
+    {
+      "id": "inkbird-ibs-th2",
+      "catalogId": "inkbird-ibs-th2",
+      "name": "Inkbird IBS-TH2 Hygrometer",
+      "shortName": "Inkbird IBS-TH2",
+      "award": "Best data logger",
+      "pros": [
+        "Stores readings on the device between syncs",
+        "Adjustable logging interval",
+        "Exports history from the app",
+        "Optional Wi-Fi gateway for remote access"
+      ],
+      "cons": [
+        "App reloads data slowly, some owners say",
+        "Wi-Fi requires the extra gateway"
+      ],
+      "whyWeLoveIt": "If you want to prove whether a dehumidifier is working — say, before and after encapsulating a crawl space — you need a long, exportable record. The IBS-TH2 logs on its own and lets you pull the data off later.",
+      "performance": "Inkbird lists typical accuracy of ±3% RH between 20% and 80% humidity, with Bluetooth range of up to about 98 feet in open air. Logging intervals run from seconds to half an hour, and Inkbird sells a gateway if you want Wi-Fi access. Check the listing, since Inkbird also sells a temperature-only version under a similar name.",
+      "specs": {
+        "Measures": "Humidity and temperature",
+        "Accuracy": "±3% RH typical, 20–80% (Inkbird)",
+        "Connectivity": "Bluetooth; Wi-Fi via gateway",
+        "Logging": "On-device, exportable",
+        "Best for": "Tracking long-term trends"
+      }
+    },
+    {
+      "id": "sensorpush-ht1",
+      "catalogId": "sensorpush-ht1",
+      "name": "SensorPush HT1 Wireless Hygrometer",
+      "shortName": "SensorPush HT1",
+      "award": "Best for cold spaces",
+      "pros": [
+        "Rated down to about −40°F",
+        "Tiny sensor fits almost anywhere",
+        "Detailed history and alerts in the app",
+        "Wi-Fi via SensorPush's gateway"
+      ],
+      "cons": [
+        "Remote alerts need the separate gateway",
+        "Pricier than the Govee sensors"
+      ],
+      "whyWeLoveIt": "Crawl spaces, unheated garages and cold cellars push many budget sensors beyond their comfort zone. The HT1 is rated for freezer temperatures, so it keeps reporting reliably in the spaces where dehumidifiers struggle most.",
+      "performance": "SensorPush rates it for roughly −40°F to 140°F, with typical humidity accuracy of ±3% between 20% and 80%. The app keeps a detailed history, and pairing it with the SensorPush gateway adds Wi-Fi alerts. Owners often use it to catch a dehumidifier icing up or shutting off in a cold crawl space; our [crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide covers units built for those conditions.",
+      "specs": {
+        "Measures": "Humidity and temperature",
+        "Accuracy": "±3% RH typical, 20–80%",
+        "Temperature range": "About −40°F to 140°F",
+        "Connectivity": "Bluetooth; Wi-Fi via gateway",
+        "Best for": "Crawl spaces, garages, cellars"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "by-the-numbers",
+      "heading": "Humidity monitoring, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends for most homes" },
+            { "value": "±2–3%", "label": "Published accuracy of good consumer hygrometers in the mid range" },
+            { "value": "75%", "label": "Humidity a saturated salt solution produces — the basis of the salt test" }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A dehumidifier's own sensor is often less precise than any of these monitors, and it reads the air right next to the machine, which is usually drier than the rest of the room. Two readings a few points apart are normal; ten points apart means something needs attention."
+        }
+      ]
+    },
+    {
+      "id": "how-we-pick",
+      "heading": "How we pick hygrometers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don't run a calibration lab. We compare manufacturers' published accuracy specs and operating ranges, connectivity and alert features, and battery requirements, then read owner reviews for the problems that matter: sensors that drift over months, apps that lose history, and Wi-Fi connections that drop. We favored monitors that state their accuracy plainly and hold up across seasons."
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "What to look for in a hygrometer",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "A published accuracy spec",
+              "text": "Look for ±2–3% RH in the middle of the range. Sensors are least accurate at very high and very low humidity."
+            },
+            {
+              "label": "Wi-Fi or Bluetooth?",
+              "text": "Wi-Fi sends alerts anywhere — best for basements, crawl spaces and second homes. Bluetooth is cheaper and fine for rooms you walk through daily."
+            },
+            {
+              "label": "Alerts",
+              "text": "A high-humidity alert at 55–60% tells you when a dehumidifier has stopped, filled up or fallen behind."
+            },
+            {
+              "label": "History",
+              "text": "A week of data reveals patterns a single reading never will, like nightly spikes or post-shower surges."
+            },
+            {
+              "label": "Temperature range",
+              "text": "For crawl spaces and garages, check that the sensor is rated well below freezing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built-in-sensor",
+      "heading": "Your dehumidifier's humidity sensor: why it reads differently",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The humidity sensor inside a dehumidifier sits in the airstream near the intake, usually behind the front or rear grille close to the filter. It samples air as it enters the machine, and that air is influenced by the unit's own dry exhaust. The result: the display often reads lower than the room really is, so a target of 50% on the dial might mean 55% across the room."
+        },
+        {
+          "type": "h3",
+          "text": "Matching your dehumidifier to your hygrometer"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Place the hygrometer in the middle of the room, away from the dehumidifier's exhaust.",
+            "Let both run for a day, then compare the readings.",
+            "If the room reads higher than the dehumidifier's display, lower the dehumidifier's target by the difference.",
+            "Recheck after a week of normal weather."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/) has seasonal targets once you know the offset."
+        }
+      ]
+    },
+    {
+      "id": "sensor-replacement",
+      "heading": "When the sensor itself fails",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If a dehumidifier runs nonstop in a room your hygrometer says is dry, displays a reading that never changes, or shows an error code, the built-in sensor may have failed or come loose. Replacement humidity sensors are sold by model for many brands, including GE and Hisense, and the exact location is shown on the parts diagram in your manual."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Unplug first.** Sensor wiring connects to the control board, so never work on a plugged-in unit.",
+            "**Check the easy things.** A clogged filter or dusty sensor can mimic a failure; clean both before ordering parts.",
+            "**Order by model number.** Sensors and control boards vary between models, even within one brand.",
+            "**Weigh the cost.** On an older or inexpensive unit, a replacement may make more sense than a repair."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For other symptoms, see our [dehumidifier not working](/guides/dehumidifier-not-working/) troubleshooting guide, and if you're replacing the whole unit, our [GE dehumidifier](/best/best-ge-dehumidifier/) and [Hisense dehumidifier](/best/best-hisense-dehumidifier/) guides cover current models."
+        }
+      ]
+    },
+    {
+      "id": "calibrate-and-place",
+      "heading": "How to calibrate and place a hygrometer",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "The salt test"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Mix a spoonful of table salt with a few drops of water to make a damp paste, and put it in a bottle cap.",
+            "Seal the cap and the hygrometer together in a zip-top bag, without letting them touch.",
+            "Wait 8–12 hours at a steady room temperature.",
+            "The air in the bag should be about 75%. Note the difference and adjust future readings by that offset."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Where to put it"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mid-room, about chest height, at least a few feet from the dehumidifier.",
+            "Away from windows, sunlight, exterior doors, bathrooms and HVAC vents.",
+            "In a basement, in the dampest corner rather than beside the stairs.",
+            "In a closet or safe, on a middle shelf."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Our [dehumidifier placement guide](/guides/where-to-place-a-dehumidifier/) covers the other half of the setup."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If you run a dehumidifier, buy a hygrometer. The **Govee H5179** is the best choice for most people thanks to Wi-Fi alerts and history. The **Govee H5075** is the budget Bluetooth pick, the **AcuRite 01080M** offers a tight accuracy spec and on-board alarms, the **ThermoPro TP50** is the simplest second opinion, the **Inkbird IBS-TH2** suits long-term logging, and the **SensorPush HT1** handles cold crawl spaces and garages."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best hygrometer for a dehumidifier?",
+      "a": "The Govee H5179 Wi-Fi Hygrometer for most people, because it alerts your phone when humidity leaves your range and keeps a history. If you prefer no app, the AcuRite 01080M has a ±2% accuracy spec and built-in alarms."
+    },
+    {
+      "q": "Where is the humidity sensor on a dehumidifier?",
+      "a": "Usually in the airstream near the intake, behind the front or rear grille close to the filter. Check the parts diagram in your manual for the exact location on your model, including GE and Hisense units."
+    },
+    {
+      "q": "Can I replace a GE dehumidifier humidity sensor?",
+      "a": "On many models, yes. Order the sensor by your exact model number, unplug the unit, and follow the parts diagram. If the dehumidifier is old or inexpensive, replacing it may be the better value."
+    },
+    {
+      "q": "Why does my dehumidifier show a different humidity than my hygrometer?",
+      "a": "The dehumidifier's sensor reads air at its intake, which is affected by its own dry exhaust, and built-in sensors are often less accurate. A difference of a few points is normal; adjust your target to match the room reading."
+    },
+    {
+      "q": "How accurate are cheap hygrometers?",
+      "a": "Many are within a few percent in the middle of the range, but individual units vary. Run a salt test when you buy one to learn its offset."
+    },
+    {
+      "q": "Do I need a hygrometer if my dehumidifier has a humidistat?",
+      "a": "It's strongly recommended. The humidistat only knows the air passing through the dehumidifier, while a hygrometer shows what the rest of the room is doing and warns you if the unit stops working."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-humidistat-settings-guide/",
+    "/guides/where-to-place-a-dehumidifier/",
+    "/guides/dehumidifier-not-working/",
+    "/best/best-wifi-dehumidifier/",
+    "/guides/when-to-use-a-dehumidifier/",
+    "/best/best-crawl-space-dehumidifier/"
+  ]
+}
