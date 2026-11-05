@@ -16,7 +16,7 @@ function brandOf(name) {
 const pintsOf = (s) => s.match(/(\d{2,3})[\s-]*(?:pint|pt\b)/i)?.[1];
 
 // Listings for accessories, parts or used units are never the product itself.
-const NOT_THE_PRODUCT = /\b(compatible with|replacement|cover|adapt(?:er|or)|bracket|mount(?:ing)? kit|install(?:ation)? kit|parts?|accessor(?:y|ies)|refurbished|restored|renewed|pre-?owned|used)\b/i;
+const NOT_THE_PRODUCT = /\b(compatible with|replacement|cover|adapt(?:er|or)|bracket|mount(?:ing)? kit|install(?:ation)? kit|parts?|accessor(?:y|ies)|refurbished|restored|renewed|pre-?owned|used|hanging kit|duct collar|charger|water tank for|for model)\b/i;
 
 export function isMatch(name, title) {
   if (!title) return false;
