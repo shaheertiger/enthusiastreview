@@ -121,9 +121,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "45–55%", "label": "Recommended humidity inside a wood gun cabinet" },
-            { "value": "Below 40%", "label": "Where wood stocks and cabinet panels risk cracking" },
-            { "value": "65%", "label": "Level at which blued steel can show oxidation within weeks to months" }
+            {
+              "value": "45–55%",
+              "label": "Recommended humidity inside a wood gun cabinet"
+            },
+            {
+              "value": "Below 40%",
+              "label": "Where wood stocks and cabinet panels risk cracking"
+            },
+            {
+              "value": "65%",
+              "label": "Level at which blued steel can show oxidation within weeks to months"
+            }
           ]
         },
         {
@@ -183,12 +192,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Gun cabinet", "Gun safe"],
+          "head": [
+            "",
+            "Gun cabinet",
+            "Gun safe"
+          ],
           "rows": [
-            ["Door seal", "Usually none", "Gasketed, near airtight"],
-            ["Interior humidity", "Tracks the room", "Fairly stable once closed"],
-            ["Over-drying risk", "Real — wood cracks below 40%", "Low for the steel box itself"],
-            ["Best primary tool", "Heating rod or room control", "Rod or renewable desiccant"]
+            [
+              "Door seal",
+              "Usually none",
+              "Gasketed, near airtight"
+            ],
+            [
+              "Interior humidity",
+              "Tracks the room",
+              "Fairly stable once closed"
+            ],
+            [
+              "Over-drying risk",
+              "Real — wood cracks below 40%",
+              "Low for the steel box itself"
+            ],
+            [
+              "Best primary tool",
+              "Heating rod or room control",
+              "Rod or renewable desiccant"
+            ]
           ]
         },
         {
@@ -203,6 +232,26 @@
           "type": "callout",
           "title": "In an air-conditioned room?",
           "text": "Central air often keeps living spaces under 55% humidity, which may be all a cabinet needs. Basements, garages and seasonally humid rooms are a different story — check with a hygrometer before buying."
+        }
+      ]
+    },
+    {
+      "id": "setup-tips",
+      "heading": "How to set up a gun cabinet dehumidifier",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "Put a digital hygrometer inside the cabinet and log readings for a week to get a baseline.",
+            "Mount a rod horizontally near the floor of the cabinet, clear of stocks, cases and fabric.",
+            "Route the cord through an existing gap or a small grommeted hole at the back rather than pinching it in the door.",
+            "Recheck the hygrometer after a week. If it reads below 45%, switch to a shorter rod or run it on a plug-in timer.",
+            "Wipe firearms with a light coat of protectant before long-term storage — dehumidification is a second line of defense, not a substitute."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If you also store ammunition, optics or cleaning supplies in the same room, the same 45–55% band suits them well. Collectors with instruments or records nearby can use the same approach; our [guitar](/best/best-dehumidifier-for-guitar/) guide covers another wood-and-metal storage problem."
         }
       ]
     },

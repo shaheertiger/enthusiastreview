@@ -1,0 +1,213 @@
+{
+  "slug": "can-you-drink-dehumidifier-water",
+  "section": "guides",
+  "category": "Buying Advice",
+  "navLabel": "Drinking the Water",
+  "title": "Can You Drink Water From a Dehumidifier? (No — Here's Why)",
+  "h1": "Can You Drink Water From a Dehumidifier?",
+  "dek": "It looks crystal clear and it came out of the air, so it must be pure — right? Not quite. Here's what's really in that bucket and what it's actually good for.",
+  "description": "Can you drink water from a dehumidifier? No. It isn't distilled and can carry bacteria, mold and metals. Here's why, plus safe ways to reuse it.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "Empty a dehumidifier bucket on a muggy August day and you might find a gallon or more of clear, odorless water. It's natural to wonder: **can you drink water from a dehumidifier?** The short answer is no. Dehumidifier water is not safe to drink, for people or pets, and it isn't the same as distilled water — even though it's often described that way.",
+    "The water itself started as vapor in the air, but on its way into your bucket it touches metal coils, picks up whatever dust and spores were floating in the room, and then sits at room temperature, sometimes for days. That's a recipe for bacteria and mold, plus trace metals you can't see or taste.",
+    "The good news: that water isn't useless. Below, we explain exactly why you shouldn't drink it, how it differs from distilled water, and the practical ways you can put it to work around the house and garden."
+  ],
+  "products": [],
+  "sections": [
+    {
+      "id": "short-answer",
+      "heading": "Is dehumidifier water safe to drink?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "The short answer",
+          "text": "No. Don't drink dehumidifier water, don't give it to pets, and don't use it for cooking, ice, coffee, baby formula or CPAP and humidifier tanks. It is not purified, not distilled and not made with food-safe parts."
+        },
+        {
+          "type": "p",
+          "text": "Manufacturers are clear about this, too: dehumidifier manuals routinely warn against drinking the collected water. Nothing in a household dehumidifier is designed to make water potable — not the coils, not the plastic bucket and not the way water sits in it."
+        }
+      ]
+    },
+    {
+      "id": "whats-in-it",
+      "heading": "What's actually in dehumidifier water",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Bacteria and mold"
+        },
+        {
+          "type": "p",
+          "text": "A dark, damp bucket at room temperature is an ideal place for microbes to grow. Many owners notice slimy film or musty odors in buckets that aren't cleaned often. Even a freshly emptied bucket can carry growth from the coils and drip tray above it."
+        },
+        {
+          "type": "h3",
+          "text": "Metals from the coils"
+        },
+        {
+          "type": "p",
+          "text": "Water condenses on metal evaporator coils, typically copper tubing and aluminum fins joined with solder, and runs over them on its way down. Trace amounts of those metals can end up in the water. Coil coatings and cleaning residues can add to it."
+        },
+        {
+          "type": "h3",
+          "text": "Whatever was in the air"
+        },
+        {
+          "type": "p",
+          "text": "A dehumidifier pulls in household air: dust, pet dander, mold spores, pollen, cooking residue and volatile chemicals from cleaners or paint. Some of that ends up dissolved or suspended in the condensate. The filter on a dehumidifier is a coarse dust screen, not a water purifier."
+        }
+      ]
+    },
+    {
+      "id": "is-it-distilled",
+      "heading": "Is water from a dehumidifier distilled?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No — though it's an understandable mix-up. Distillation means boiling water and condensing the steam in clean equipment, which leaves minerals and most contaminants behind. A dehumidifier also condenses water vapor, so its water is low in dissolved minerals. But it collects that water on open coils in a dusty room and stores it in an open bucket, so it's not clean the way distilled water is."
+        },
+        {
+          "type": "table",
+          "head": ["Water type", "Low in minerals?", "Free of microbes?", "Safe to drink?"],
+          "rows": [
+            ["Store-bought distilled", "Yes", "Yes, when sealed", "Yes"],
+            ["Tap water (municipal)", "No", "Treated and tested", "Yes"],
+            ["Dehumidifier water", "Mostly", "No", "No"],
+            ["Atmospheric water generator", "Yes, before remineralizing", "Filtered and treated", "Yes, if certified"]
+          ],
+          "caption": "Atmospheric water generators also pull water from the air, but they're built with food-grade parts plus filtration and disinfection."
+        },
+        {
+          "type": "p",
+          "text": "That last row is the key distinction. Machines that make drinking water from air exist, but they're designed for it. A household dehumidifier is not."
+        }
+      ]
+    },
+    {
+      "id": "boil-or-filter",
+      "heading": "Can you boil or filter it to make it safe?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Boiling kills most bacteria, but it doesn't remove metals or chemicals — it can even concentrate them as water evaporates. A pitcher filter may reduce some contaminants, but it isn't designed or certified for untreated condensate. In a true emergency, safe stored water or water treated by public-health guidance is the better choice. As a habit, it isn't worth the risk."
+        }
+      ]
+    },
+    {
+      "id": "safe-uses",
+      "heading": "What you can use dehumidifier water for",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Treat it like rainwater from a barrel: fine for jobs where nobody drinks it and it doesn't touch food."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Flushing toilets** — pour it into the bowl or tank.",
+            "**Watering ornamental plants** — flowers, shrubs and houseplants (see the plant notes below).",
+            "**Rinsing outdoor gear** — boots, tools, garbage cans and patio furniture.",
+            "**Pre-soaking a dirty floor** — for mopping concrete or garage floors."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Uses to avoid"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Drinking, cooking, ice or making coffee or tea.",
+            "Pet bowls, aquariums and livestock water.",
+            "CPAP machines, humidifiers and baby equipment.",
+            "Car batteries and lab work, which need true distilled water."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "What about steam irons?",
+          "text": "Some people use dehumidifier water in irons because it's low in minerals. It can work, but it may carry particles or residue that leave spots on fabric. If you try it, pour it through a coffee filter first and check your iron's manual — many recommend tap or distilled water only."
+        }
+      ]
+    },
+    {
+      "id": "plants",
+      "heading": "Is dehumidifier water good for plants?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For ornamental plants, generally yes. Houseplants and flower beds tolerate it well, and its low mineral content means no crusty buildup on pots. Use it within a day or two so it doesn't sit and grow slime, and let it reach room temperature."
+        },
+        {
+          "type": "p",
+          "text": "Be more cautious with **edible plants** like herbs, lettuces and tomatoes. The risk is small, but since the water can carry microbes and trace metals, it's sensible to use it on soil rather than on leaves you'll eat, or to save it for non-edible plants. For a damp grow area, see our [best dehumidifier for plants](/best/best-dehumidifier-for-plants/) guide."
+        }
+      ]
+    },
+    {
+      "id": "clean-bucket",
+      "heading": "Keep the bucket clean (or skip it entirely)",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "Empty the bucket daily in humid weather, even if it isn't full.",
+            "Every week or two, wash it with warm, soapy water and rinse well.",
+            "If you notice slime or odor, follow the manual's cleaning instructions; many suggest a mild vinegar or diluted bleach rinse.",
+            "Clean the filter as the manual directs, typically every couple of weeks in heavy use."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The easiest fix is not storing water at all. A unit with a drain hose or built-in pump sends water straight to a drain. See our picks for the [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) and our [dehumidifier maintenance guide](/guides/dehumidifier-maintenance/)."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "You can't safely drink water from a dehumidifier. It isn't distilled, it's collected on metal coils from household air, and it sits in a bucket where bacteria and mold can grow. Use it to flush toilets, water ornamental plants or rinse outdoor gear, and empty and clean the bucket often — or set up a drain hose so you never have to think about it. Curious how that water forms in the first place? Read [how a dehumidifier works](/guides/how-does-a-dehumidifier-work/)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you drink dehumidifier water if you boil it?",
+      "a": "It's still not recommended. Boiling kills most microbes, but it doesn't remove metals or chemical residues from the coils and the air, and it can concentrate them."
+    },
+    {
+      "q": "Is the water from a dehumidifier distilled water?",
+      "a": "No. It's condensed from water vapor, so it's low in minerals, but it isn't produced in clean equipment and it's stored in an open bucket. That makes it very different from bottled distilled water."
+    },
+    {
+      "q": "Can you use dehumidifier water for plants?",
+      "a": "Yes, for ornamental plants and houseplants. Use it fresh and at room temperature. Be more cautious with edible plants; water the soil rather than the leaves, or save it for non-edibles."
+    },
+    {
+      "q": "Can pets drink dehumidifier water?",
+      "a": "No. The same bacteria, mold and trace metals that make it unsafe for people make it unsafe for pets, fish and livestock. Keep the bucket out of reach of curious dogs and cats."
+    },
+    {
+      "q": "Why does my dehumidifier water smell?",
+      "a": "Usually because bacteria or mold are growing in the bucket, drip tray or on the coils. Empty and wash the bucket, clean the filter, and if the smell persists, follow your manual's coil-cleaning steps."
+    },
+    {
+      "q": "How much water does a dehumidifier collect?",
+      "a": "It depends on size and conditions. A 50-pint unit is rated to remove up to 50 pints — about 6 gallons — a day under DOE test conditions; real-world totals vary with the room's humidity and temperature."
+    }
+  ],
+  "related": [
+    "/guides/how-does-a-dehumidifier-work/",
+    "/guides/dehumidifier-maintenance/",
+    "/best/best-dehumidifier-with-pump/",
+    "/best/best-dehumidifier-with-drain-hose/",
+    "/best/best-dehumidifier-for-plants/"
+  ]
+}

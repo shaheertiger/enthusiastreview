@@ -1,0 +1,207 @@
+{
+  "slug": "haier-vs-ge-dehumidifier",
+  "section": "compare",
+  "category": "Comparisons",
+  "navLabel": "Haier vs. GE",
+  "title": "Haier vs. GE Dehumidifier (2026): Same Owner, Different Machines",
+  "h1": "Haier vs. GE Dehumidifiers",
+  "dek": "Haier owns GE Appliances, but their dehumidifiers aren't twins — and the differences in coverage and track record point one way.",
+  "description": "Haier vs. GE dehumidifier, head to head: the 50-pint pump models compared on who builds them, coverage, independent testing, warranty and recall history.",
+  "published": "2026-10-24",
+  "updated": "2026-11-05",
+  "intro": [
+    "Shoppers compare Haier vs. GE dehumidifiers for an understandable reason: Haier has owned GE Appliances since 2016, so it's natural to assume the machines are the same underneath. They aren't, at least not in any way the companies have documented.",
+    "GE's current dehumidifiers — including the **APYR50LC**, ADHR50LZ, ADEL35LZ and ADEL20LY — are built under license by Midea, a relationship visible in ENERGY STAR's certification records. Haier's own-badged Smart Dry models (QDHR20LZ, QDHR35LZ, QDHR50LZ and the pump-equipped **QPHR50LZ**) share some branding and similar specs, but Haier doesn't disclose who builds them.",
+    "Below we compare each brand's closest model — a 50-pint unit with a built-in pump — on coverage, independent testing, warranty and recall history."
+  ],
+  "topPicksLead": "For most buyers, the **GE APYR50LC** is the stronger choice, with a much larger rated coverage area and a recent best-overall nod from independent testing.",
+  "products": [
+    {
+      "id": "ge-apyr50lc",
+      "name": "GE 50-Pint Dehumidifier with Built-In Pump (APYR50LC)",
+      "shortName": "GE APYR50LC",
+      "award": "Best overall",
+      "pros": [
+        "Rated for spaces up to about 4,500 sq ft",
+        "Built-in pump lifts water up to 16 feet",
+        "1.7-gallon backup tank if the hose disconnects",
+        "Named best overall in independent 2026 testing"
+      ],
+      "cons": [
+        "One-year limited warranty",
+        "No app on this variant (the ADHR50LZ adds SmartHQ)"
+      ],
+      "whyWeLoveIt": "The APYR50LC pairs 50-pint capacity with a pump that pushes water up and out of a basement, and it has independent test results behind it — a best-overall pick from a major review lab in March 2026.",
+      "performance": "GE rates it at 50 pints a day for basements, garages and wet rooms up to roughly 4,500 square feet. The pump lifts condensate up to 16 feet, and a 1.7-gallon tank catches water if the hose comes loose. It's built by Midea under license, so it benefits from that platform's track record. See the rest of the lineup in our [best GE dehumidifier](/best/best-ge-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day",
+        "Coverage": "Up to ~4,500 sq ft",
+        "Drainage": "Built-in pump, 16 ft lift",
+        "Backup tank": "1.7 gallons",
+        "Warranty": "1-year limited"
+      }
+    },
+    {
+      "id": "haier-qphr50lz",
+      "name": "Haier Smart Dry 50-Pint Dehumidifier with Pump (QPHR50LZ)",
+      "shortName": "Haier QPHR50LZ",
+      "award": "Best for smaller wet spaces",
+      "pros": [
+        "Built-in pump for spaces without a floor drain",
+        "Smart Dry adaptive fan speeds",
+        "Often competitively priced"
+      ],
+      "cons": [
+        "Rated for only about 1,500 sq ft",
+        "No current independent test results"
+      ],
+      "whyWeLoveIt": "If you're drying a smaller damp space and the Haier happens to be the better deal that week, the QPHR50LZ delivers the same 50-pint, pump-equipped format with Smart Dry fan control.",
+      "performance": "Haier rates it at 50 pints a day for wet spaces up to roughly 1,500 square feet — a far more conservative claim than GE's at the same capacity. We found no independent test of this generation. The only published bench data on a Haier dehumidifier covers an older 65-pint model that scored poorly on durability, which shouldn't be read as a verdict on today's units. More in our [best Haier dehumidifier](/best/best-haier-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day",
+        "Coverage": "Up to ~1,500 sq ft",
+        "Drainage": "Built-in pump",
+        "Fan": "Smart Dry adaptive",
+        "Warranty": "1-year limited"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "head-to-head",
+      "heading": "Haier vs. GE, head to head",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["", "Haier QPHR50LZ", "GE APYR50LC"],
+          "rows": [
+            ["Who builds it", "Not disclosed (Haier-badged)", "Midea, under license"],
+            ["Capacity", "50 pints/day", "50 pints/day"],
+            ["Rated coverage", "Up to ~1,500 sq ft", "Up to ~4,500 sq ft"],
+            ["Pump", "Built-in", "Built-in, 16 ft lift"],
+            ["Independent testing", "None on current generation", "Best overall pick, March 2026"],
+            ["Warranty", "1-year limited", "1-year limited"],
+            ["Parent company", "Haier Group", "Haier Group (since 2016)"],
+            ["Recall history", "Older models in 2021 recall", "No flag on current lineup"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-we-compared",
+      "heading": "How we compared them",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don't lab-test. We compared each brand's published spec sheets and warranty terms, checked ENERGY STAR's certification records for manufacturer details, looked for independent test results on the current generation, and searched the CPSC recall database for both names. We also read owner reviews for recurring complaints."
+        }
+      ]
+    },
+    {
+      "id": "who-builds-them",
+      "heading": "Who actually builds Haier and GE dehumidifiers?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "GE's answer is on the record: Midea builds GE's current dehumidifiers under license. Haier's isn't published. What stands out is the overlap — both brands use the same Smart Dry fan-speed name, and the pump models' bucket sizes, fan speeds and wattage are close enough to suggest a shared engineering platform. That's an inference, not a confirmed fact, so don't assume parts are interchangeable."
+        },
+        {
+          "type": "callout",
+          "title": "Ownership vs. manufacturing",
+          "text": "Haier owns the GE Appliances business and licenses the GE name, but owning a brand doesn't mean building its products. For more on who makes what, see our [best dehumidifier brands](/best/best-dehumidifier-brands/) roundup."
+        }
+      ]
+    },
+    {
+      "id": "coverage-and-testing",
+      "heading": "Coverage and testing: where GE pulls ahead",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The biggest spec gap is easy to miss. At the same 50 pints a day, Haier rates its unit for about 1,500 square feet while GE claims about 4,500 — roughly three times as much. Both figures come from each company's own spec sheets, so Haier is simply far more conservative. For a large basement, that matters; our [size guide](/guides/dehumidifier-size-guide/) explains how to match capacity to space."
+        },
+        {
+          "type": "p",
+          "text": "GE also has recent independent backing: the APYR50LC was named best overall in a major review lab's March 2026 testing. The Haier has no equivalent on its current generation."
+        }
+      ]
+    },
+    {
+      "id": "recalls",
+      "heading": "Recall history",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In 2021, the CPSC announced a recall of about 2 million dehumidifiers built by New Widetech and sold under 20 brand names, after 107 reported fire incidents and roughly $17 million in property damage. Older Haier models — HEN70ETFP, HEN70ETFP-E, HM50EP and HM70EP, made before September 1, 2017 — were included. Haier's current Smart Dry units aren't part of it, and GE's current Midea-built lineup isn't named."
+        },
+        {
+          "type": "p",
+          "text": "If you're buying either brand secondhand, check the model number and manufacture date against the CPSC's recall list first. When an old unit reaches the end of its life, our [how to dispose of a dehumidifier](/guides/how-to-dispose-of-a-dehumidifier/) guide explains safe recycling."
+        }
+      ]
+    },
+    {
+      "id": "which-should-you-buy",
+      "heading": "Which should you buy?",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Buy the GE APYR50LC if…",
+              "text": "you're drying a large basement or garage, want independent test results behind your purchase, or prefer a documented manufacturer."
+            },
+            {
+              "label": "Buy the Haier QPHR50LZ if…",
+              "text": "your space is smaller and the Haier is clearly cheaper when you're shopping."
+            },
+            {
+              "label": "Look elsewhere if…",
+              "text": "warranty matters most. Both offer only one year; Frigidaire's five-year sealed-system coverage is worth a look in our [Midea vs. Frigidaire](/compare/midea-vs-frigidaire-dehumidifier/) comparison."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Haier owning GE Appliances doesn't make their dehumidifiers the same. The **GE APYR50LC** is Midea-built, rated for about three times the coverage, and backed by recent independent testing. The **Haier QPHR50LZ** is a reasonable buy for a smaller space at the right price, but the spec sheet and track record both favor GE. Both carry one-year warranties, so neither wins there. Compare other pump-equipped options in our [dehumidifiers with a pump](/best/best-dehumidifier-with-pump/) guide."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Haier own GE?",
+      "a": "Haier bought GE Appliances in 2016 and licenses the GE brand name. But GE's current dehumidifiers are built by Midea under license, not by Haier's own factories."
+    },
+    {
+      "q": "Which is better, a Haier or GE dehumidifier?",
+      "a": "For most buyers, GE. Its APYR50LC is rated for about 4,500 square feet versus Haier's 1,500 at the same 50-pint capacity, and it earned a best-overall pick in independent 2026 testing."
+    },
+    {
+      "q": "Are Haier and GE dehumidifiers the same?",
+      "a": "Not officially. They share Smart Dry branding and similar specs, which hints at a common platform, but Haier doesn't disclose its manufacturer and no shared factory has been confirmed."
+    },
+    {
+      "q": "Which has the better warranty?",
+      "a": "Neither. Both offer a one-year limited warranty on their current dehumidifiers."
+    },
+    {
+      "q": "Have Haier or GE dehumidifiers been recalled?",
+      "a": "Several older Haier models made before September 1, 2017, were part of the 2021 New Widetech recall. Haier's current Smart Dry units and GE's current lineup aren't included."
+    }
+  ],
+  "related": [
+    "/best/best-ge-dehumidifier/",
+    "/best/best-haier-dehumidifier/",
+    "/compare/midea-vs-frigidaire-dehumidifier/",
+    "/best/best-midea-dehumidifier/",
+    "/best/best-dehumidifier-with-pump/",
+    "/best/best-dehumidifier-brands/"
+  ]
+}

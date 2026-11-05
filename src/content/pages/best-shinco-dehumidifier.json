@@ -122,9 +122,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "2×+", "label": "How much one Shinco model’s listed price can vary between storefronts" },
-            { "value": "0", "label": "Major U.S. dehumidifier recalls that list Shinco, per CPSC.gov" },
-            { "value": "6,000 sq ft", "label": "Maximum rated coverage of Shinco’s 120-pint model" }
+            {
+              "value": "2×+",
+              "label": "How much one Shinco model’s listed price can vary between storefronts"
+            },
+            {
+              "value": "0",
+              "label": "Major U.S. dehumidifier recalls that list Shinco, per CPSC.gov"
+            },
+            {
+              "value": "6,000 sq ft",
+              "label": "Maximum rated coverage of Shinco’s 120-pint model"
+            }
           ]
         }
       ]
@@ -180,12 +189,42 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Capacity", "Coverage", "Drainage", "Best for"],
+          "head": [
+            "Model",
+            "Capacity",
+            "Coverage",
+            "Drainage",
+            "Best for"
+          ],
           "rows": [
-            ["120-Pint ENERGY STAR Wi-Fi", "120 pints (max)", "Up to 6,000 sq ft", "Bucket, optional hose", "Whole basements"],
-            ["50-Pint (YDP-50P)", "50 pints", "Up to ~2,500 sq ft", "Bucket", "Mid-size basements"],
-            ["30-Pint (SDL-30P)", "30 pints", "Up to 1,500 sq ft", "Bucket, optional hose", "Bedrooms, apartments"],
-            ["200-Pint Industrial", "200 pints (max)", "Commercial spaces", "Built-in drain hose", "Job sites"]
+            [
+              "120-Pint ENERGY STAR Wi-Fi",
+              "120 pints (max)",
+              "Up to 6,000 sq ft",
+              "Bucket, optional hose",
+              "Whole basements"
+            ],
+            [
+              "50-Pint (YDP-50P)",
+              "50 pints",
+              "Up to ~2,500 sq ft",
+              "Bucket",
+              "Mid-size basements"
+            ],
+            [
+              "30-Pint (SDL-30P)",
+              "30 pints",
+              "Up to 1,500 sq ft",
+              "Bucket, optional hose",
+              "Bedrooms, apartments"
+            ],
+            [
+              "200-Pint Industrial",
+              "200 pints (max)",
+              "Commercial spaces",
+              "Built-in drain hose",
+              "Job sites"
+            ]
           ]
         }
       ]
@@ -231,6 +270,50 @@
         {
           "type": "p",
           "text": "Start with the product listing where you bought it — many marketplace pages link a PDF manual — and keep the printed manual that ships in the box. If you’ve lost it, search the full model number from the label on the back of the unit. If your Shinco has stopped pulling water, our [dehumidifier not collecting water](/guides/dehumidifier-not-collecting-water/) guide covers the usual fixes."
+        }
+      ]
+    },
+    {
+      "id": "shinco-vs-big-brands",
+      "heading": "Shinco vs. bigger-name dehumidifiers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Shinco’s appeal is price. Its 50-pint YDP-50P often lists for less than a Frigidaire or Midea of similar size, and its 120-pint model offers app control at a price many mainstream Wi-Fi units can’t match. What you give up is predictability: fewer independent reliability data points, scattered reviews and warranty support that depends on which marketplace seller you bought from."
+        },
+        {
+          "type": "table",
+          "head": [
+            "",
+            "Shinco",
+            "Mainstream brands (Midea, Frigidaire)"
+          ],
+          "rows": [
+            [
+              "Where it’s sold",
+              "Online marketplaces",
+              "Big-box stores and online"
+            ],
+            [
+              "Capacity ratings",
+              "Often maximum ratings",
+              "DOE 2019 ratings"
+            ],
+            [
+              "Reliability data",
+              "Limited",
+              "Consumer Reports survey data"
+            ],
+            [
+              "Recall record",
+              "None on major lists",
+              "Varies by brand"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If the lowest price matters most and you’re comfortable sizing conservatively, Shinco is a reasonable buy. If you want the most proven option, compare it with the picks in our [best dehumidifier](/best/best-dehumidifier/) roundup first."
         }
       ]
     },

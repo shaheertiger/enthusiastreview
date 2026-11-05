@@ -1,0 +1,251 @@
+{
+  "slug": "dehumidifier-maintenance",
+  "section": "guides",
+  "category": "How-To & Fixes",
+  "navLabel": "Maintenance",
+  "title": "Dehumidifier Maintenance: How to Clean a Dehumidifier (2026)",
+  "h1": "Dehumidifier Maintenance: How to Clean Yours and Keep It Pulling Water",
+  "dek": "Ten minutes every few weeks is the difference between a dehumidifier that lasts a decade and one that quietly stops working.",
+  "description": "Dehumidifier maintenance made simple: how to clean a dehumidifier's filter, coils and bucket, a schedule to follow, and winter storage without mold.",
+  "published": "2026-08-20",
+  "updated": "2026-11-05",
+  "intro": [
+    "Good **dehumidifier maintenance** comes down to a handful of habits: rinse the filter every two to four weeks, clean the coil once or twice a year, keep the bucket fresh, and dry the whole unit before it goes into storage. GE Appliances, for one, tells owners to check the filter at least every 250 hours of operation. Skip those steps and a dehumidifier rarely fails dramatically. Instead, it keeps humming along while collecting less and less water, or it emerges from the closet in spring smelling like a damp basement.",
+    "The good news is that none of this requires tools or much time. Below, you'll find a schedule you can stick on the fridge, step-by-step instructions for how to clean a dehumidifier from filter to bucket, and the storage routine that keeps mold from moving into the tank over the off-season."
+  ],
+  "products": [],
+  "sections": [
+    {
+      "id": "schedule",
+      "heading": "Dehumidifier maintenance schedule",
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "Task",
+            "How often",
+            "If you skip it"
+          ],
+          "rows": [
+            [
+              "Empty and rinse the bucket",
+              "Every time you empty it; wash weekly",
+              "Slime, odors and mold spots in the tank"
+            ],
+            [
+              "Rinse a washable filter",
+              "Every 2–4 weeks of regular use (or ~250 hours)",
+              "Less airflow, colder coil, less water collected"
+            ],
+            [
+              "Replace a disposable filter",
+              "About every 3 months",
+              "Same airflow and icing problems"
+            ],
+            [
+              "Clean the coils",
+              "Once or twice a year; more in dusty spaces",
+              "Dust insulates the coil and cuts extraction"
+            ],
+            [
+              "Check the drain hose",
+              "Monthly if you use one",
+              "Kinks or clogs cause leaks or shutoffs"
+            ],
+            [
+              "Dry and store",
+              "Once, before the off-season",
+              "Mildew in a sealed, damp tank"
+            ]
+          ]
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "2–4 wks",
+              "label": "How often to rinse a washable filter during regular use"
+            },
+            {
+              "value": "250 hrs",
+              "label": "GE Appliances' published filter-check interval"
+            },
+            {
+              "value": "~65°F",
+              "label": "Rough room temperature below which standard compressor coils can ice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-clean-filter",
+      "heading": "How to clean a dehumidifier filter",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A dirty filter is the most common reason a dehumidifier's performance slips. As dust and lint build up, airflow over the coil drops, the coil runs colder than designed and the unit collects less water, edging closer to icing even in a room that isn't especially cool."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Unplug the unit.** Never pull panels off while it's running.",
+            "**Slide out the filter.** It's usually behind the front or rear intake grille; your manual shows where.",
+            "**Do the light test.** Hold it up to a window. If light doesn't pass through clearly, it needs cleaning.",
+            "**Rinse with warm water** from the clean side out, using a drop of mild dish soap for greasy kitchen or basement grime.",
+            "**Let it air-dry completely** before reinstalling. A damp filter just grows what you were trying to remove.",
+            "**Reset the filter reminder** if your unit has one."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Disposable filters and carbon filters can't be rinsed; replace them roughly every three months. Our [dehumidifier replacement filter guide](/guides/dehumidifier-replacement-filter/) lists which brands use them and how to find the right part."
+        }
+      ]
+    },
+    {
+      "id": "how-to-clean-coils",
+      "heading": "How to clean dehumidifier coils",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The evaporator coil is where moisture actually condenses, and over months it collects a fine film of dust the filter doesn't catch. Cleaning it once or twice a year keeps extraction strong."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Unplug the unit** and remove the filter.",
+            "**Look through the intake** at the coil fins. A thin gray fuzz means it's time.",
+            "**Brush gently** with a soft paintbrush or a vacuum's soft brush attachment, moving in the same direction as the fins.",
+            "**Avoid stiff brushes and fingers.** Bent fins permanently restrict airflow.",
+            "**For stubborn grime,** a no-rinse coil cleaner made for AC evaporators can help; follow the label and let it dry before running the unit."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Frost isn't dust",
+          "text": "If the coil is covered in ice rather than dust, don't scrape it. Unplug the unit and let it thaw completely. Icing usually means the room is too cold or the filter is blocked. Our [dehumidifier freezing up](/guides/dehumidifier-freezing-up/) guide walks through the fix."
+        }
+      ]
+    },
+    {
+      "id": "how-to-clean-bucket",
+      "heading": "How to clean a dehumidifier bucket",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Standing water plus warmth plus darkness is an invitation for slime and mold. Rinse the bucket every time you empty it, and give it a proper wash once a week during heavy use."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Wash with warm water and a little dish soap, using a soft sponge to avoid scratching the plastic.",
+            "For mineral film or musty smells, soak with a mix of equal parts white vinegar and water for 15–20 minutes, then rinse well.",
+            "Wipe the float and the bucket cavity inside the unit, where splashes collect.",
+            "Dry the bucket before sliding it back in so it seats properly and triggers the float switch.",
+            "Don't drink the collected water or use it on edible plants; our guide on [whether you can drink dehumidifier water](/guides/can-you-drink-dehumidifier-water/) explains why."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "winter-storage",
+      "heading": "How to store a dehumidifier for winter",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A unit put away with a wet tank or damp internal hose path becomes a sealed, dark, humid box for months — close to perfect mold conditions. This routine prevents that."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Empty and wash the bucket** with soapy water or a vinegar rinse.",
+            "**Dry it completely** before reattaching.",
+            "**Run the fan only** (or the unit on high with the bucket empty) for a few hours to dry the coil and internal channels.",
+            "**Clean the filter and coils** so the unit is ready next season.",
+            "**Unplug and wait a day or two,** then store it upright in a dry room, not a damp garage or shed. A silica packet in the bucket area helps in a humid closet.",
+            "**Coil the cord loosely** and keep any drain hose with the unit."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not sure whether to run it in winter at all? Our guide on [when to use a dehumidifier](/guides/when-to-use-a-dehumidifier/) covers the seasonal signals."
+        }
+      ]
+    },
+    {
+      "id": "warning-signs",
+      "heading": "Signs your dehumidifier needs attention",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "It runs but collects little or no water",
+              "text": "Check the filter, coil frost and room temperature first. If those are fine, see our [dehumidifier not collecting water](/guides/dehumidifier-not-collecting-water/) guide."
+            },
+            {
+              "label": "It smells musty",
+              "text": "Wash the bucket and filter. A lingering smell usually means growth inside the bucket cavity or on the coil."
+            },
+            {
+              "label": "It can't reach your setpoint anymore",
+              "text": "A clean unit that can't hold 30–50% may be undersized for the space, or nearing the end of its life."
+            },
+            {
+              "label": "It's louder than it used to be",
+              "text": "A clogged filter makes the fan work harder. If cleaning doesn't help, a failing fan motor or compressor may be the cause."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A dirty dehumidifier also costs more to run, because the compressor and fan work harder to move the same air. Our [electricity use guide](/guides/how-much-electricity-does-a-dehumidifier-use/) shows what that adds up to."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rinse the filter every two to four weeks, wash the bucket weekly in humid months, brush the coils once or twice a year and dry the unit fully before storing it. Those few habits keep a dehumidifier pulling water efficiently and smelling fresh. If a clean, well-kept unit still can't hold humidity, check [how long dehumidifiers last](/guides/how-long-do-dehumidifiers-last/) to see whether it's simply reached the end of the road."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often should I clean my dehumidifier?",
+      "a": "Rinse the bucket every time you empty it and wash it weekly in humid months. Clean a washable filter every 2–4 weeks of regular use, and brush the coils once or twice a year, more often in a dusty basement or workshop."
+    },
+    {
+      "q": "How do you clean a dehumidifier?",
+      "a": "Unplug it, remove and rinse the filter in warm water, wash the bucket with soapy water or a vinegar solution, and gently brush dust from the coil fins with a soft brush. Let everything dry completely before reassembling."
+    },
+    {
+      "q": "Can I clean a dehumidifier with vinegar?",
+      "a": "Yes, for the bucket. A 50/50 mix of white vinegar and water loosens mineral film and helps with musty odors. Rinse thoroughly afterward. Don't spray vinegar onto the coils or electronics."
+    },
+    {
+      "q": "Why is my dehumidifier running but not collecting water?",
+      "a": "The usual maintenance causes are a clogged filter starving the coil of airflow, or an iced coil from running in a room below about 65°F. Clean the filter, thaw any frost, and if it still won't collect water, check the humidistat setting and float switch."
+    },
+    {
+      "q": "How do I store a dehumidifier over winter?",
+      "a": "Empty, wash and fully dry the bucket, run the fan for a few hours to dry the internal parts, clean the filter, then store the unit upright in a dry room. Never box it up while it's still damp."
+    },
+    {
+      "q": "Does a dirty dehumidifier use more electricity?",
+      "a": "Yes. A clogged filter or dusty coil makes the fan and compressor work harder to remove the same amount of water, which raises energy use and wear."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-replacement-filter/",
+    "/guides/dehumidifier-freezing-up/",
+    "/guides/dehumidifier-not-collecting-water/",
+    "/guides/how-long-do-dehumidifiers-last/",
+    "/guides/dehumidifier-not-working/"
+  ]
+}

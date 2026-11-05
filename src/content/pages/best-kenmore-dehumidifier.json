@@ -1,0 +1,276 @@
+{
+  "slug": "best-kenmore-dehumidifier",
+  "section": "best",
+  "category": "Brands",
+  "navLabel": "Kenmore",
+  "title": "Best Kenmore Dehumidifier (2026): KM50, KM70 & Older Models",
+  "h1": "The Best Kenmore Dehumidifiers",
+  "dek": "A household name that has never built its own appliances — and just changed hands again. Here's what to buy and what to check.",
+  "description": "The best Kenmore dehumidifier today: KM50 vs. KM70, the recalls behind older Kenmore and Kenmore Elite units, and tips on parts, manuals and repair.",
+  "published": "2026-10-06",
+  "updated": "2026-11-05",
+  "intro": [
+    "A Kenmore dehumidifier carries one of the most familiar names in American appliances, but the badge has never been attached to a Kenmore factory. Sears spent generations licensing the name to outside manufacturers, and that arrangement is shifting again: in September 2026, Curtis International announced an exclusive North American license to make and market Kenmore appliances, with its first products due in the fourth quarter.",
+    "Today's lineup is simple — two models, the **KM50** and **KM70**, in one shared cabinet with a 15-pint tank and no pump. The more complicated story is the older units still running in basements across the country, which have been caught up in two separate recalls under two different manufacturers.",
+    "We compiled this guide from manufacturer specs, the CPSC recall database, published independent ratings and owner-review patterns. We don't lab-test dehumidifiers; ratings and scores below come from the sources named."
+  ],
+  "topPicksLead": "The **Kenmore KM50** is the straightforward pick for most rooms, while the **KM70** steps up to basement duty and carries a Consumer Reports \"Recommended\" rating.",
+  "products": [
+    {
+      "id": "kenmore-km50",
+      "name": "Kenmore KM50 50-Pint Dehumidifier",
+      "shortName": "Kenmore KM50",
+      "award": "Best overall",
+      "pros": [
+        "50 pints a day for mid-size rooms",
+        "15-pint removable tank",
+        "Frost control for cooler spaces",
+        "Digital display and built-in timer"
+      ],
+      "cons": [
+        "No built-in pump",
+        "No independent bench score of its own"
+      ],
+      "whyWeLoveIt": "It's an uncomplicated, full-size dehumidifier with the essentials covered: a roomy 15-pint tank, frost control that keeps it working when a basement cools down, and a timer. For a bedroom, office or mid-size living area, it's plenty of machine.",
+      "performance": "The KM50 shares its 23 x 15 x 12-inch cabinet with the KM70, just tuned to a lower daily rating. Unlike its sibling, it doesn't have a published independent score, so think of it as the lighter-duty version of the same physical design. Drain it with the gravity hose if you have a floor drain nearby. For other options in this price range, see our [best budget dehumidifier](/best/best-budget-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day",
+        "Drainage": "15-pint tank or gravity hose",
+        "Low-temp operation": "Frost control",
+        "Controls": "Digital display, timer",
+        "Best for": "Bedroom, office, mid-size room"
+      }
+    },
+    {
+      "id": "kenmore-km70",
+      "name": "Kenmore KM70 70-Pint Dehumidifier",
+      "shortName": "Kenmore KM70",
+      "award": "Best for basements",
+      "pros": [
+        "Consumer Reports overall score of 78, rated \"Recommended\"",
+        "Higher daily capacity for larger, damper spaces",
+        "Same compact cabinet as the KM50",
+        "Frost control and timer"
+      ],
+      "cons": [
+        "Same 15-pint tank fills faster at full output",
+        "No pump or pump option"
+      ],
+      "whyWeLoveIt": "If you want a Kenmore with an independent track record, this is it. Consumer Reports' bench testing gave the KM70 a 78 overall and a \"Recommended\" label — the only current Kenmore dehumidifier with a published lab score.",
+      "performance": "It pulls more water each day out of the same cabinet and tank as the KM50, so at full load in a damp basement you'll be emptying it more often — a strong argument for running the gravity hose. If there's no drain nearby, a pump-equipped model from another brand will be less work; see our [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) guide.",
+      "specs": {
+        "Capacity": "70 pints/day",
+        "Drainage": "15-pint tank or gravity hose",
+        "Independent rating": "Consumer Reports 78, Recommended",
+        "Size": "23 x 15 x 12 in.",
+        "Best for": "Basements, large rooms"
+      }
+    },
+    {
+      "id": "frigidaire-ffap5033w1",
+      "catalogId": "frigidaire-ffap5033w1",
+      "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FFAP5033W1)",
+      "shortName": "Frigidaire FFAP5033W1",
+      "award": "Best alternative with a pump",
+      "pros": [
+        "Built-in pump — neither Kenmore offers one",
+        "True 50-pint DOE 2019 rating",
+        "Can also drain by gravity hose",
+        "Widely available parts and service"
+      ],
+      "cons": [
+        "Not a Kenmore, if brand loyalty matters",
+        "Pump hose needs occasional checks"
+      ],
+      "whyWeLoveIt": "Many shoppers land on a Kenmore because it's a name they trust, then realize they'd rather not haul a bucket upstairs. This Frigidaire fills that gap with a built-in pump that sends water to a sink or out a window.",
+      "performance": "It's rated at 50 pints a day under the current DOE procedure, and the pump makes it a better match than either Kenmore for a below-grade basement with no floor drain. If you do have a drain, you can skip the pump and use a gravity hose instead. The rest of the brand's lineup is in our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Type": "Compressor",
+        "Drainage": "Built-in pump or gravity hose",
+        "Best for": "Basements without a floor drain"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "kenmore-by-the-numbers",
+      "heading": "Kenmore dehumidifiers, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            { "value": "2", "label": "Separate CPSC recalls touching Kenmore dehumidifiers, under two manufacturers" },
+            { "value": "78", "label": "Consumer Reports' overall score for the KM70" },
+            { "value": "Q4 2026", "label": "When the first Curtis-made Kenmore products are due" }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Those numbers sum up the brand: solid current hardware, a complicated past and an uncertain future as the name moves to a new licensee."
+        }
+      ]
+    },
+    {
+      "id": "how-we-pick",
+      "heading": "How we pick Kenmore dehumidifiers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We started with Kenmore's current specifications for capacity, tank size, drainage and features, then looked for independent ratings — Consumer Reports' published score for the KM70 is the only one on record. We checked every relevant CPSC recall to map which older Kenmore units are affected, and read the September 2026 licensing announcement for what it does and doesn't say about dehumidifiers."
+        },
+        {
+          "type": "p",
+          "text": "Because Kenmore's lineup is small and neither model has a pump, we added a pump-equipped alternative for shoppers who need one. We don't lab-test units ourselves."
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "What to look for in a Kenmore dehumidifier",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Capacity, not cabinet size",
+              "text": "The KM50 and KM70 look identical. Only the pints-per-day rating tells you which room each suits. Our [size guide](/guides/dehumidifier-size-guide/) helps you match them."
+            },
+            {
+              "label": "A drainage plan",
+              "text": "Neither model has a pump. Plan on a floor drain for the gravity hose, or on emptying a 15-pint tank by hand."
+            },
+            {
+              "label": "ENERGY STAR status",
+              "text": "Check the ENERGY STAR database for the exact model number before assuming any Kenmore is certified."
+            },
+            {
+              "label": "Recall checks on older units",
+              "text": "If you inherit or buy a used Kenmore, check the model and date code against both recalls at CPSC.gov."
+            },
+            {
+              "label": "Future support",
+              "text": "With the license moving to a new manufacturer, parts and service arrangements for today's models could change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenmore-recalls",
+      "heading": "Two recalls, two manufacturers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kenmore's recall history is unusually tangled because it spans two unrelated manufacturing arrangements. Neither recall covers the current KM50 or KM70, but both matter for older units."
+        },
+        {
+          "type": "table",
+          "head": ["Recall", "Manufacturer", "What happened"],
+          "rows": [
+            ["2012", "Whirlpool", "About 980,000 dehumidifiers sold as Whirlpool, Kenmore and ComfortAire recalled for fire risk in specific model and date-code ranges"],
+            ["2013, reannounced 2023", "Gree", "Kenmore was one of 13 brands built on a Gree platform recalled for fire risk; the CPSC reannounced it after continued incidents with unregistered units"]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Check both, not one",
+          "text": "Clearing an old Kenmore against one recall doesn't rule out the other. Look up the full model number and date code on CPSC.gov, and stop using any affected unit right away."
+        }
+      ]
+    },
+    {
+      "id": "older-kenmore-dehumidifiers",
+      "heading": "Older Kenmore and Kenmore Elite dehumidifiers: parts, manuals and repair",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Plenty of households still run an older Kenmore, a Kenmore Elite or a Kenmore 35-pint dehumidifier from a previous generation. Those units came from different manufacturers depending on the year, which affects everything from recalls to replacement parts."
+        },
+        {
+          "type": "h3",
+          "text": "Identify who built it"
+        },
+        {
+          "type": "p",
+          "text": "The digits before the period in a Kenmore model number identify the original manufacturer — for example, 106 indicates Whirlpool and 253 indicates Frigidaire (Electrolux). That prefix is the key to finding the right manual, parts and recall information."
+        },
+        {
+          "type": "h3",
+          "text": "Parts, manuals and repair"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Manuals:** search by the full model number, including the prefix. Appliance-parts retailers often host manuals for older Kenmore models.",
+            "**Parts:** filters, buckets, float switches and drain fittings are usually still available; sealed-system parts like compressors rarely are.",
+            "**Repair or replace:** if an older unit has stopped collecting water or keeps freezing, run through our [not collecting water](/guides/dehumidifier-not-collecting-water/) and [freezing up](/guides/dehumidifier-freezing-up/) guides first. A failed compressor on an older unit usually means replacement is the smarter spend.",
+            "**Disposal:** dehumidifiers contain refrigerant, so don't put one at the curb. See [how to dispose of a dehumidifier](/guides/how-to-dispose-of-a-dehumidifier/)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenmore-ownership",
+      "heading": "Kenmore just changed manufacturers again",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "After Sears Holdings filed for bankruptcy in 2018, Transformco acquired the Kenmore name and intellectual property — but no factories. It licenses the badge to manufacturers. The newest licensee, Curtis International, announced on September 10, 2026 that it will make, distribute and market Kenmore appliances across refrigeration, small kitchen, commercial and other major categories."
+        },
+        {
+          "type": "p",
+          "text": "The announcement doesn't name dehumidifiers or say what happens to the KM series. In practice, a Kenmore dehumidifier bought next year may be a different product under the same logo — a pattern we've also seen with brands like [Danby](/best/best-danby-dehumidifier/) and [Keystone](/best/best-keystone-dehumidifier/)."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The **Kenmore KM50** is a sensible pick for a bedroom or mid-size room, and the **KM70** is the better buy for a basement, backed by a Consumer Reports \"Recommended\" score. Neither has a pump, so if you lack a floor drain, the **Frigidaire FFAP5033W1** is the easier option. If you own an older Kenmore, check it against both recalls before you run it another season."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best Kenmore dehumidifier?",
+      "a": "The KM50 suits most bedrooms, offices and mid-size rooms with 50 pints a day and a 15-pint tank. For a basement or larger space, the KM70 offers 70 pints a day in the same cabinet and holds a Consumer Reports \"Recommended\" rating. Neither has a built-in pump."
+    },
+    {
+      "q": "Who makes Kenmore dehumidifiers?",
+      "a": "It depends on when the unit was built. Kenmore has always been a licensed name, and older dehumidifiers came from manufacturers including Whirlpool and Gree. In September 2026, Curtis International took an exclusive North American license for future Kenmore appliances."
+    },
+    {
+      "q": "Has a Kenmore dehumidifier been recalled?",
+      "a": "Yes, twice. A 2012 recall covered about 980,000 Whirlpool-built units sold under Whirlpool, Kenmore and ComfortAire names, and Kenmore was one of 13 brands in the Gree recall announced in 2013 and reannounced in 2023. Neither covers the current KM50 or KM70."
+    },
+    {
+      "q": "Is there a Kenmore Elite or Kenmore 35-pint dehumidifier?",
+      "a": "Both existed in earlier lineups, but the current Kenmore range is the KM50 and KM70. If you own an older Elite or 35-pint model, use the full model number to check it against both recalls and to find a manual or parts."
+    },
+    {
+      "q": "Where can I find a Kenmore dehumidifier manual or parts?",
+      "a": "Search by the complete model number, including the prefix before the period, which identifies the original manufacturer. Appliance-parts retailers often carry manuals and common parts like filters, buckets and float switches for older Kenmore units."
+    },
+    {
+      "q": "Is a Kenmore dehumidifier worth repairing?",
+      "a": "Simple fixes like a clogged filter, an iced coil or a stuck float switch are worth trying. If an older unit's compressor or sealed system has failed, replacement usually costs less than repair and gets you a more efficient machine."
+    },
+    {
+      "q": "Is Kenmore still owned by Sears?",
+      "a": "No. After Sears Holdings' 2018 bankruptcy, Transformco acquired the Kenmore brand. Transformco doesn't build appliances; it licenses the name, most recently to Curtis International in September 2026."
+    }
+  ],
+  "related": [
+    "/best/best-frigidaire-dehumidifier/",
+    "/best/best-danby-dehumidifier/",
+    "/best/best-70-pint-dehumidifier/",
+    "/best/best-dehumidifier-brands/",
+    "/guides/dehumidifier-not-working/",
+    "/guides/how-long-do-dehumidifiers-last/"
+  ]
+}

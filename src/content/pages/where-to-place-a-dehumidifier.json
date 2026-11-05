@@ -1,0 +1,236 @@
+{
+  "slug": "where-to-place-a-dehumidifier",
+  "section": "guides",
+  "category": "Buying Advice",
+  "navLabel": "Placement",
+  "title": "Where to Place a Dehumidifier in Your House or Basement",
+  "h1": "Where to Place a Dehumidifier (and Where Not To)",
+  "dek": "The right spot can make a modest machine work like a bigger one. The wrong spot can make any dehumidifier struggle.",
+  "description": "Where to place a dehumidifier for the best results: how much clearance it needs, floor vs. shelf, and the best spots in a basement, bedroom or crawl space.",
+  "published": "2026-08-29",
+  "updated": "2026-11-05",
+  "intro": [
+    "Wondering **where to place a dehumidifier**? It matters more than most people think. Two identical machines in the same room can deliver very different results depending on nothing but where they sit. Get the spot right and a properly sized unit reaches its target humidity quickly; get it wrong and even an oversized one runs for hours without getting there.",
+    "The short version: put it in an open, central part of the room with at least 12 inches of clear space on every side, keep it on the floor, steer clear of heat vents and sunny windows, and close the doors so it's drying one space rather than the whole house. Below, we explain why each rule matters and where the best place to put a dehumidifier is in a basement, bedroom, closet and crawl space."
+  ],
+  "topPicksLead": "If you're still choosing a machine, the **Midea Cube 50-Pint** is our favorite all-rounder, and its top-and-side venting makes it a little more forgiving of tight spots than many boxy units.",
+  "products": [
+    {
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Smart Dehumidifier (MAD50S1QWT)",
+      "shortName": "Midea Cube 50",
+      "award": "Best overall",
+      "pros": [
+        "Top and side vents are easier to place than rear-vented boxes",
+        "Large base tank means fewer trips to empty",
+        "App shows room humidity remotely"
+      ],
+      "cons": [
+        "Still needs about a foot of clearance to perform its best",
+        "No built-in pump"
+      ],
+      "whyWeLoveIt": "It's our overall favorite for basements and large rooms, and its venting layout means a less-than-perfect spot costs it less performance than a unit that exhales straight out the back into a wall.",
+      "performance": "It's rated at 50 pints a day under the 2019 DOE test. Give it about 12 inches on each side and it will reach its rated performance; push it against a wall and, like any unit, it will start drying the same air twice. See the full ranking in our [best dehumidifier guide](/best/best-dehumidifier/).",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Venting": "Top and sides",
+        "Drainage": "Base tank or hose",
+        "Best for": "Basements, large rooms"
+      }
+    },
+    {
+      "id": "homelabs-hme1003-wifi",
+      "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (HME1003)",
+      "shortName": "hOmeLabs HME1003",
+      "award": "Best for flexible placement",
+      "pros": [
+        "Built-in pump frees you from the nearest drain",
+        "Can send water up to a sink or out a window",
+        "App control"
+      ],
+      "cons": [
+        "Bigger than the Cube",
+        "Pump hose needs an occasional check"
+      ],
+      "whyWeLoveIt": "In many basements, the best spot for airflow isn't anywhere near a floor drain. A built-in pump removes that conflict, letting you put the machine where it works best rather than where gravity allows.",
+      "performance": "It's a 50-pint-class unit with a condensate pump that pushes water up and out through a hose. That makes it our pick for large or wet basements in the [basement guide](/best/best-dehumidifier-for-basement/), and it's a natural fit when the drain is uphill or across the room.",
+      "specs": {
+        "Capacity": "50-pint class",
+        "Drainage": "Built-in pump",
+        "Smart control": "Wi-Fi app",
+        "Best for": "Basements far from a drain"
+      }
+    },
+    {
+      "id": "pro-breeze-pb-03",
+      "catalogId": "pro-breeze-pb-03",
+      "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
+      "shortName": "Pro Breeze PB-03",
+      "award": "Best for tight spaces",
+      "pros": [
+        "Fits on a closet shelf or in a small bathroom",
+        "Quiet thermoelectric design",
+        "Auto shut-off when full"
+      ],
+      "cons": [
+        "Low capacity — for small, enclosed spaces only",
+        "Bucket only"
+      ],
+      "whyWeLoveIt": "A closet or small bathroom simply doesn't have room for a full-size unit and a foot of clearance on every side. A compact mini is the right answer there, rather than a big machine wedged into a corner.",
+      "performance": "Pro Breeze rates it for spaces up to about 2,200 cubic feet. Like other Peltier minis, it removes far less water than a compressor model, so it's suited to small, closed spaces with mild dampness. Our [small dehumidifier guide](/best/best-small-dehumidifier/) has more compact options.",
+      "specs": {
+        "Type": "Thermoelectric (Peltier)",
+        "Coverage": "Up to about 2,200 cu ft",
+        "Drainage": "Tank, auto shut-off",
+        "Best for": "Closets, small bathrooms"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "placement-numbers",
+      "heading": "Dehumidifier placement, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            { "value": "12 in.", "label": "Minimum clearance most manuals call for around a portable dehumidifier (18 is better)" },
+            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends to discourage mold and dust mites" },
+            { "value": "1 room", "label": "What a portable unit is rated to dry — with the doors closed" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "best-place-to-put-a-dehumidifier",
+      "heading": "Where is the best place to put a dehumidifier?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A dehumidifier draws room air in through one vent, removes moisture, and pushes drier air out of another. If it's crammed into a corner, that dry exhaust has nowhere to go but straight back into the intake. The machine then spends its time re-drying the same air while the damp air across the room stays put. It also runs longer, using more electricity and putting more wear on the compressor. Our explainer on [how a dehumidifier works](/guides/how-does-a-dehumidifier-work/) goes deeper."
+        },
+        {
+          "type": "table",
+          "head": ["Placement", "How it performs"],
+          "rows": [
+            ["Open area near the middle of the room", "Best — reaches humid air from all directions"],
+            ["12–18 inches from one wall", "Good — the most common practical compromise"],
+            ["Wedged into a corner", "Poor — recirculates its own dry exhaust"],
+            ["Hemmed in by furniture or boxes", "Poor — starved intake and misleading humidity readings"],
+            ["In direct sun or beside a heat vent", "Poor — warm air near the sensor can cause early shutoff"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "floor-or-shelf",
+      "heading": "On the floor or up on a shelf?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep a portable dehumidifier on the floor in almost every case. Units are designed to stand on the floor, the bucket is easier to manage there, and in basements the biggest moisture sources — the slab and the lower walls — are right at ground level. Cooler air near the floor also tends to carry a higher relative humidity than warmer air higher up."
+        },
+        {
+          "type": "p",
+          "text": "The exception is a basement floor that's damp or occasionally wet. There, set the unit on a sturdy stand or low table so water can't reach the base or the electronics. On finished hardwood, a tray or mat beneath it protects against drips — see our [wood floor picks](/best/best-dehumidifier-for-wood-floors/) for spill-proof options."
+        }
+      ]
+    },
+    {
+      "id": "in-the-basement",
+      "heading": "Where to place a dehumidifier in a basement",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Pick the largest open area**, roughly equidistant from the walls, rather than a utility corner.",
+            "**In a split-level basement, start at the lowest, coolest level.** That's where moisture tends to collect first.",
+            "**Plan the drain path.** A gravity hose needs a steady downhill run to a floor drain or sump. If the drain is uphill or far away, a unit with a built-in pump lets you place the machine for airflow instead.",
+            "**Keep it clear of the furnace and water heater**, which add warmth that can fool the humidity sensor.",
+            "**Close basement windows and the door at the top of the stairs** so the unit is drying the basement, not the whole house."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Running but no water?",
+          "text": "If the bucket stays empty even in a good spot, check the filter, room temperature and humidistat setting. Our [not collecting water guide](/guides/dehumidifier-not-collecting-water/) walks through the causes."
+        }
+      ]
+    },
+    {
+      "id": "in-the-house",
+      "heading": "Where to place a dehumidifier in the rest of the house",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Bedrooms and living areas"
+        },
+        {
+          "type": "p",
+          "text": "Choose an open spot away from the bed or couch, so noise and airflow aren't aimed at you, and away from curtains that can be pulled into the intake. Close the door while it runs. For quieter models, see our [bedroom picks](/best/best-dehumidifier-for-bedroom/)."
+        },
+        {
+          "type": "h3",
+          "text": "Closets, bathrooms and other tight spaces"
+        },
+        {
+          "type": "p",
+          "text": "Small spaces can't offer a foot of clearance on every side, and that's fine — use a compact unit designed for them rather than squeezing in a full-size machine. Keep the door mostly closed and check the tank regularly."
+        },
+        {
+          "type": "h3",
+          "text": "Crawl spaces"
+        },
+        {
+          "type": "p",
+          "text": "Place a crawl space unit away from the access hatch, so cold outside air doesn't blast it every time the hatch opens, and near the lowest point of the space, where ground moisture concentrates. Purpose-built crawl space units can hang from joists above a wet floor and connect to ducting and a drain line. Our [crawl space installation guide](/guides/crawl-space-dehumidifier-installation/) covers the details."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The best place for a dehumidifier is an open, central spot on the floor with at least 12 inches of clearance, away from heat sources, in a room with the doors closed. In a basement, start at the lowest level and plan around the drain — or choose a pump model so the drain doesn't dictate the spot. Then make sure it's [sized correctly](/guides/dehumidifier-size-guide/) and [set to the right humidity](/guides/dehumidifier-humidistat-settings-guide/), and it will do its job."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far from the wall should a dehumidifier be?",
+      "a": "At least 12 inches on all sides, and 18 inches if you have the room. Closer than that and the unit starts pulling its own dry exhaust back into the intake instead of fresh, humid air."
+    },
+    {
+      "q": "Where should I place a dehumidifier in my house?",
+      "a": "In the room with the moisture problem — usually the basement, laundry room or a damp bedroom — in an open spot with the door closed. One portable unit is designed to dry one enclosed space, not a whole house."
+    },
+    {
+      "q": "Where should I place a dehumidifier in a basement?",
+      "a": "In the largest open area, roughly central, and on the lowest level if the basement is split. Plan the drain path first, or use a model with a built-in pump so you can put it where airflow is best."
+    },
+    {
+      "q": "Should a dehumidifier be on the floor or on a table?",
+      "a": "On the floor in most cases. Only raise it onto a sturdy stand if the floor gets damp or wet, so water can't reach the base."
+    },
+    {
+      "q": "Can I put a dehumidifier near my HVAC return to dry the whole house?",
+      "a": "It won't make much difference. The return pulls air from the whole house too quickly for one portable unit to keep up. For whole-home drying, a ducted [whole-house dehumidifier](/best/best-whole-house-dehumidifier/) is designed for the job."
+    },
+    {
+      "q": "Does it matter if a dehumidifier is in direct sunlight or near a heater?",
+      "a": "Yes. Warm air around the humidity sensor can make the unit think the room is drier than it is and shut off early. Keep it away from sunny windows, radiators and heat registers."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-size-guide/",
+    "/guides/dehumidifier-humidistat-settings-guide/",
+    "/guides/how-to-dehumidify-a-room/",
+    "/best/best-dehumidifier-for-basement/",
+    "/guides/crawl-space-dehumidifier-installation/",
+    "/guides/dehumidifier-not-collecting-water/"
+  ]
+}

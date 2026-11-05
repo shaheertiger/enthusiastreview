@@ -129,12 +129,12 @@
         "Must be plugged in to recharge"
       ],
       "whyWeLoveIt": "A musty smell trapped in a closet, under-sink cabinet or a car closed up in humid weather doesn't need a room unit. It needs something small that works in a sealed space without a cord or bucket.",
-      "performance": "Eva-Dry says it absorbs moisture for six to eight weeks per charge, then needs a 10- to 12-hour plug-in to dry the silica gel out. A window indicator changes color when it's saturated. It's the same technology we recommend in our [closet dehumidifier guide](/best/best-dehumidifier-for-closet/).",
+      "performance": "Eva-Dry says its silica gel absorbs up to about 6 ounces of moisture and typically lasts several weeks between charges (it cites roughly 20–30 days, depending on humidity). When the indicator window changes color, you plug it in for most of a day to dry the gel and start again. It's the same technology we recommend in our [closet dehumidifier guide](/best/best-dehumidifier-for-closet/).",
       "specs": {
         "Type": "Renewable silica gel",
         "Power": "None while absorbing; plug in to recharge",
         "Coverage": "Up to 333 cu ft",
-        "Recharge": "Every 6–8 weeks",
+        "Recharge": "Every few weeks, depending on humidity",
         "Best for": "Closets, cabinets, cars"
       }
     }
@@ -147,9 +147,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends to keep mold in check" },
-            { "value": "60%+", "label": "Sustained humidity at which odor-causing growth becomes likely" },
-            { "value": "1–2 wks", "label": "Typical time for a musty room to clear once humidity holds steady" }
+            {
+              "value": "30–50%",
+              "label": "Indoor humidity range the EPA recommends to keep mold in check"
+            },
+            {
+              "value": "60%+",
+              "label": "Sustained humidity at which odor-causing growth becomes likely"
+            },
+            {
+              "value": "1–2 wks",
+              "label": "Typical time for a musty room to clear once humidity holds steady"
+            }
           ]
         },
         {

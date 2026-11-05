@@ -1,0 +1,216 @@
+{
+  "slug": "dehumidifier-vs-air-conditioner",
+  "section": "guides",
+  "category": "Buying Advice",
+  "navLabel": "vs. Air Conditioner",
+  "title": "Dehumidifier vs. Air Conditioner: Which Fixes Humidity?",
+  "h1": "Dehumidifier vs. Air Conditioner: Which One Do You Actually Need?",
+  "dek": "Your AC dries the air only while it’s busy cooling. On mild, muggy days, that’s not enough — here’s how to tell which machine solves your problem.",
+  "description": "Dehumidifier vs. air conditioner: how much moisture each removes, why AC short-cycling leaves rooms clammy, running costs, and when you need both.",
+  "published": "2026-09-22",
+  "updated": "2026-11-05",
+  "intro": [
+    "The **dehumidifier vs. air conditioner** question comes up every humid summer, and it’s easy to see why: both are boxy appliances that make a room feel better. But they’re built for different jobs. An air conditioner lowers temperature and removes moisture only as a side effect of cooling. A dehumidifier exists to pull water from the air and does it whatever the temperature.",
+    "That difference matters most on the days that feel worst — mild, rainy stretches in spring and fall when it’s not hot enough for the AC to run long, but the air is heavy and damp. The house ends up cool *and* clammy at the same time.",
+    "Here’s how much each machine really does for humidity, when your AC quietly falls short, and how to decide which to buy first."
+  ],
+  "topPicksLead": "If humidity is your main complaint, start with a dedicated room dehumidifier like the **Midea Cube 50**; if heat is the problem, a dual-hose portable AC such as the **Whynter ARC-14S** is the better tool.",
+  "products": [
+    {
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Smart Dehumidifier",
+      "shortName": "Midea Cube 50",
+      "award": "Best for humidity",
+      "pros": [
+        "Rated at 50 pints a day (DOE 2019)",
+        "Works regardless of room temperature",
+        "Holds an exact humidity setting",
+        "Large reservoir or continuous hose drain"
+      ],
+      "cons": [
+        "Doesn’t cool — adds a little heat",
+        "One-year warranty"
+      ],
+      "whyWeLoveIt": "It fills exactly the gap an air conditioner leaves. On a mild, muggy day when the AC barely switches on, the Cube keeps working until the room hits your target humidity.",
+      "performance": "Rated at 50 pints a day under the DOE 2019 test, it’s enough for a damp basement or a large living area. Set it to 45–50% and it cycles on and off on its own. The reservoir in the base holds far more than a typical bucket, and a hose connection lets you drain continuously.",
+      "notes": "Compare more options in our [best dehumidifier](/best/best-dehumidifier/) roundup.",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Type": "Compressor dehumidifier",
+        "Humidistat": "Digital, set % target",
+        "Drainage": "Reservoir or gravity hose",
+        "Best for": "Damp rooms that are already cool"
+      }
+    },
+    {
+      "id": "whynter-arc-14s",
+      "name": "Whynter ARC-14S 14,000 BTU Dual-Hose Portable Air Conditioner",
+      "shortName": "Whynter ARC-14S",
+      "award": "Best for heat",
+      "pros": [
+        "Dual-hose design cools more efficiently than single-hose",
+        "14,000 BTU rating handles most single rooms",
+        "Dehumidify-only mode for shoulder seasons"
+      ],
+      "cons": [
+        "Dehumidify mode removes less than a dedicated unit",
+        "Bulky, with two window hoses"
+      ],
+      "whyWeLoveIt": "When a room without central air is genuinely hot, you need cooling first. The dual-hose layout pulls outside air for its condenser instead of exhausting your already-cooled room air.",
+      "performance": "A 14,000 BTU rating suits most bedrooms and living rooms. During peak heat its compressor runs long enough to remove meaningful moisture too. On mild, damp days, though, it can short-cycle like any AC; its dehumidify-only mode helps, but a dedicated dehumidifier still pulls more water per hour.",
+      "specs": {
+        "Cooling": "14,000 BTU",
+        "Type": "Dual-hose portable AC",
+        "Modes": "Cool, fan, dehumidify",
+        "Best for": "Hot rooms without central air"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "by-the-numbers",
+      "heading": "Dehumidifier vs. air conditioner, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            { "value": "5–20 gal", "label": "Water a central AC removes per day in typical summer conditions" },
+            { "value": "20–35%", "label": "Share of an AC’s capacity that goes to moisture rather than temperature" },
+            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends to limit mold and dust mites" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "What each machine actually does",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["", "Dehumidifier", "Air conditioner"],
+          "rows": [
+            ["Main job", "Remove water vapor", "Lower air temperature"],
+            ["Humidity removal", "Its only function", "A byproduct of cooling"],
+            ["Runs when it’s not hot", "Yes", "No — stops once the thermostat is satisfied"],
+            ["Effect on temperature", "Adds a little heat", "Cools the room"],
+            ["Weak spot", "Doesn’t cool", "Short-cycles on mild, humid days"],
+            ["Typical cost", "Under $300 for a room unit", "$300–700 portable; more for central"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Both machines use the same basic trick: air passes over a cold coil, water condenses and drips away. The difference is what controls the compressor. An AC follows the thermostat; a dehumidifier follows the humidistat. Our [how a dehumidifier works](/guides/how-does-a-dehumidifier-work/) guide explains the cycle in more detail."
+        }
+      ]
+    },
+    {
+      "id": "short-cycling",
+      "heading": "Why your house feels damp with the AC running",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An AC only dehumidifies once its coil gets cold enough and stays cold for a while. On a hot afternoon, it runs long cycles and wrings out plenty of water. On a 72°F rainy day, it reaches the thermostat setting in minutes and shuts off — often before much moisture has been removed, and some of what condensed can re-evaporate back into the air. HVAC technicians call this **short-cycling**."
+        },
+        {
+          "type": "p",
+          "text": "Oversized central systems make it worse, because they cool the house so quickly that they rarely run long enough to dry it. The result is the classic cold-and-clammy feeling."
+        },
+        {
+          "type": "callout",
+          "title": "Does a dehumidifier cool a room?",
+          "text": "No — it slightly warms it, because the compressor and fan give off heat. But dry air *feels* cooler, so many people find they can set the thermostat a degree or two higher. More in [does a dehumidifier cool a room?](/guides/does-a-dehumidifier-cool-a-room/)"
+        }
+      ]
+    },
+    {
+      "id": "which-do-you-need",
+      "heading": "Which one do you need?",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Choose a dehumidifier if…",
+              "text": "The room is a comfortable temperature but feels sticky, windows fog, or a basement, crawl space or bathroom stays damp year-round.",
+              "sub": ["Musty smells despite the AC running", "Mild, rainy weather is when it feels worst", "Humidity readings stay above 50–55%"]
+            },
+            {
+              "label": "Choose an air conditioner if…",
+              "text": "Heat is the main complaint and the room is genuinely hot, not just humid.",
+              "sub": ["No central air in that room", "Peak summer temperatures are the problem", "You need a self-contained unit for one space"]
+            },
+            {
+              "label": "Choose both if…",
+              "text": "The space is hot in summer and damp in the shoulder seasons — common in humid climates and finished basements."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not sure? Put a hygrometer in the room for a week. If humidity stays high even when the temperature is fine, it’s a dehumidifier problem. Our [when to use a dehumidifier](/guides/when-to-use-a-dehumidifier/) guide lists the warning signs."
+        }
+      ]
+    },
+    {
+      "id": "using-both",
+      "heading": "How to run an AC and a dehumidifier together",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "Let the AC handle temperature during hot weather, when its long cycles also dry the air.",
+            "Run the dehumidifier at 45–50% through mild, damp stretches when the AC barely runs.",
+            "Keep the dehumidifier in the dampest area — usually the basement — rather than next to an AC vent.",
+            "Once humidity is under control, try raising the thermostat a degree or two; drier air feels cooler.",
+            "Close windows while either machine runs, or you’ll be conditioning the outdoors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An air conditioner and a dehumidifier aren’t rivals — they do different jobs. If a room is damp but already comfortable, buy a dehumidifier. If it’s hot, buy an AC, but don’t count on it to keep humidity in check on mild, rainy days. For basements that stay damp no matter the season, start with our [basement dehumidifier](/best/best-dehumidifier-for-basement/) picks."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will my air conditioner remove humidity on its own?",
+      "a": "Some. A central AC can remove roughly 5–20 gallons a day in typical summer conditions, but only while it’s running long cooling cycles. On mild, humid days it short-cycles and removes much less."
+    },
+    {
+      "q": "Why does my house feel damp even with the AC on?",
+      "a": "Usually short-cycling. When it’s mild but humid, the AC hits its temperature target quickly and shuts off before it has dried the air, leaving the house cool and clammy."
+    },
+    {
+      "q": "Is it cheaper to run a dehumidifier or an air conditioner for humidity?",
+      "a": "A dehumidifier, if humidity is the only problem. It runs only until the target humidity is reached, while an AC has to run full cooling cycles to dry the air as a side effect. See [how much electricity a dehumidifier uses](/guides/how-much-electricity-does-a-dehumidifier-use/) for estimates."
+    },
+    {
+      "q": "Can I use a dehumidifier instead of an air conditioner?",
+      "a": "Only if temperature isn’t the issue. A dehumidifier doesn’t cool and adds a little heat. It’s the right tool for a damp room that’s already comfortable."
+    },
+    {
+      "q": "Do I need both a dehumidifier and an air conditioner?",
+      "a": "Many humid-climate homes and basements benefit from both: the AC for hot weather and a dehumidifier for damp shoulder seasons and below-grade spaces."
+    },
+    {
+      "q": "Does an AC’s dry mode replace a dehumidifier?",
+      "a": "Not fully. Dry or dehumidify modes run the compressor at low fan speed to favor moisture removal, which helps, but a dedicated dehumidifier removes more water per hour and holds a precise humidity setting."
+    }
+  ],
+  "related": [
+    "/guides/does-a-dehumidifier-cool-a-room/",
+    "/guides/when-to-use-a-dehumidifier/",
+    "/guides/how-does-a-dehumidifier-work/",
+    "/guides/dehumidifier-vs-air-purifier/",
+    "/guides/how-much-electricity-does-a-dehumidifier-use/",
+    "/best/best-dehumidifier/"
+  ]
+}

@@ -124,9 +124,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "35–55%", "label": "Target humidity for most goods stored in a container" },
-            { "value": "1,170 cu ft", "label": "Approximate air volume of a standard 20-foot container (a 40-footer is about 2,390)" },
-            { "value": "30°F+", "label": "Day-to-night temperature swings that bare steel passes straight through in many climates" }
+            {
+              "value": "35–55%",
+              "label": "Target humidity for most goods stored in a container"
+            },
+            {
+              "value": "1,170 cu ft",
+              "label": "Approximate air volume of a standard 20-foot container (a 40-footer is about 2,390)"
+            },
+            {
+              "value": "30°F+",
+              "label": "Day-to-night temperature swings that bare steel passes straight through in many climates"
+            }
           ]
         },
         {
@@ -211,12 +220,42 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Pick", "Type", "Power", "How many?", "Best for"],
+          "head": [
+            "Pick",
+            "Type",
+            "Power",
+            "How many?",
+            "Best for"
+          ],
           "rows": [
-            ["Eva-Dry E-500", "Renewable silica", "None", "2–3 per 20-ft container", "Most unpowered containers"],
-            ["DampRid FG50T", "Disposable crystal", "None", "3–4 per 40-ft container", "Rarely visited containers"],
-            ["Ivation 13-Pint", "Desiccant", "Yes", "1", "Cold, wired containers"],
-            ["hOmeLabs HME1003", "Compressor, Wi-Fi", "Yes", "1", "Mild climates, remote sites"]
+            [
+              "Eva-Dry E-500",
+              "Renewable silica",
+              "None",
+              "2–3 per 20-ft container",
+              "Most unpowered containers"
+            ],
+            [
+              "DampRid FG50T",
+              "Disposable crystal",
+              "None",
+              "3–4 per 40-ft container",
+              "Rarely visited containers"
+            ],
+            [
+              "Ivation 13-Pint",
+              "Desiccant",
+              "Yes",
+              "1",
+              "Cold, wired containers"
+            ],
+            [
+              "hOmeLabs HME1003",
+              "Compressor, Wi-Fi",
+              "Yes",
+              "1",
+              "Mild climates, remote sites"
+            ]
           ]
         }
       ]
@@ -256,6 +295,10 @@
     {
       "q": "How many dehumidifiers do I need for a 40-foot container?",
       "a": "With passive absorbers rated around 500 cubic feet each, plan on four or five to cover about 2,390 cubic feet. With power, a single plug-in unit sized for the floor area is usually enough."
+    },
+    {
+      "q": "Should I vent a shipping container to reduce condensation?",
+      "a": "Passive vents help by letting humid air escape, especially in containers used daily. In a sealed storage container, pair any venting with absorbers or a dehumidifier so outside humidity doesn’t simply replace what you remove."
     }
   ],
   "related": [

@@ -122,9 +122,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "2", "label": "Separate CPSC recalls naming De'Longhi dehumidifiers (2013 and 2021)" },
-            { "value": "Sept. 1, 2017", "label": "Manufacture-date cutoff for the 2021 recall" },
-            { "value": "1", "label": "Dehumidifier line with the asthma & allergy friendly certification" }
+            {
+              "value": "2",
+              "label": "Separate CPSC recalls naming De'Longhi dehumidifiers (2013 and 2021)"
+            },
+            {
+              "value": "Sept. 1, 2017",
+              "label": "Manufacture-date cutoff for the 2021 recall"
+            },
+            {
+              "value": "1",
+              "label": "Dehumidifier line with the asthma & allergy friendly certification"
+            }
           ]
         },
         {
@@ -220,6 +229,10 @@
             "**Icing on the coils?** The room may be too cold; our [freezing up](/guides/dehumidifier-freezing-up/) guide explains why.",
             "**Unsure of the setting?** Start at 45–50% and adjust; our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/) has seasonal targets."
           ]
+        },
+        {
+          "type": "p",
+          "text": "If a De'Longhi has reached the end of its life — or turns out to be a recalled unit — don't just leave it at the curb. Our [how to dispose of a dehumidifier](/guides/how-to-dispose-of-a-dehumidifier/) guide explains refrigerant-safe recycling options."
         }
       ]
     },
@@ -258,6 +271,10 @@
     {
       "q": "What does the asthma & allergy friendly certification mean?",
       "a": "It means the DDX45E and DDX45PE passed independent testing showing they hold a target humidity range and limit allergen exposure during routine filter and tank maintenance."
+    },
+    {
+      "q": "How do I clean a De'Longhi dehumidifier filter?",
+      "a": "Unplug the unit, slide out the filter from behind the front or rear grille, rinse it under lukewarm water, let it dry completely and reinstall it. Every two to three weeks in heavy use is a good rhythm; check your manual for the exact location."
     }
   ],
   "related": [

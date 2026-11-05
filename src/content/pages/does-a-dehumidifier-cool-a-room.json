@@ -1,0 +1,195 @@
+{
+  "slug": "does-a-dehumidifier-cool-a-room",
+  "section": "guides",
+  "category": "Buying Advice",
+  "navLabel": "Cooling a Room",
+  "title": "Does a Dehumidifier Cool a Room? Why It Feels Cooler (But Isn't)",
+  "h1": "Does a Dehumidifier Cool a Room?",
+  "dek": "The air coming out is warm, yet the room feels better. Here's the physics behind that contradiction — and when you need an air conditioner instead.",
+  "description": "Does a dehumidifier cool a room? No — it adds a little heat. But drier air feels cooler. Here's why, how much warmer it gets, and dehumidifier vs. AC.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "Run a dehumidifier in a sticky summer bedroom and within an hour the room usually feels fresher and more comfortable. So it's reasonable to ask: **does a dehumidifier cool a room?** Technically, no. A standard dehumidifier actually makes a room slightly *warmer*. What it does is make the room feel cooler by removing the humidity that keeps your body from cooling itself.",
+    "That distinction matters when you're deciding what to buy. If your room is 78°F and muggy, a dehumidifier can make it feel much more comfortable. If your room is 88°F, a dehumidifier will make it drier and a bit hotter — and you need an air conditioner.",
+    "Here's how it works, how much heat to expect, and how to get the best comfort from the equipment you have."
+  ],
+  "products": [],
+  "sections": [
+    {
+      "id": "short-answer",
+      "heading": "Can a dehumidifier make a room cooler?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "The short answer",
+          "text": "A dehumidifier doesn't lower the temperature — it raises it slightly. But by lowering humidity, it can make a warm room feel several degrees cooler to your body."
+        },
+        {
+          "type": "p",
+          "text": "Your thermostat reads the temperature of the air. Your body responds to temperature *and* humidity, because you cool down when sweat evaporates off your skin. In humid air, sweat evaporates slowly, so you feel hot and clammy. Dry the air and evaporation speeds up, and you feel cooler even if the thermometer hasn't moved — or has crept up a degree or two."
+        }
+      ]
+    },
+    {
+      "id": "why-warmer",
+      "heading": "Why a dehumidifier makes a room warmer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A compressor dehumidifier is basically a small air conditioner with both coils in the same box. Air passes over a cold coil, where moisture condenses into water. Then the same air passes over a hot coil, where the heat pulled from the air — plus the heat of the motor and compressor — gets added back. An air conditioner puts that hot coil outdoors; a dehumidifier keeps it inside your room."
+        },
+        {
+          "type": "h3",
+          "text": "Where the extra heat comes from"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Electricity.** Every watt a dehumidifier uses ends up as heat in the room — about 3.4 BTU per hour per watt.",
+            "**Condensation.** Turning water vapor into liquid releases heat. Removing one pint of water releases roughly 1,000 BTU into the room.",
+            "**No exhaust.** Unlike a portable AC, a dehumidifier has no hose sending heat outdoors."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In practice, the air blowing out of a dehumidifier is a few degrees warmer than the air going in. In a small, closed room on a humid day, owners commonly notice the room temperature rise a degree or a few. In a large basement, the effect is often barely noticeable — and in a cool basement it can even be welcome."
+        }
+      ]
+    },
+    {
+      "id": "why-cooler",
+      "heading": "Why a room feels cooler at lower humidity",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The National Weather Service's heat index shows how much humidity changes the way heat feels. Here's what the same 86°F room feels like at different humidity levels:"
+        },
+        {
+          "type": "table",
+          "head": ["Relative humidity at 86°F", "Feels like (heat index)"],
+          "rows": [
+            ["80%", "About 100°F"],
+            ["70%", "About 95°F"],
+            ["60%", "About 91°F"],
+            ["50%", "About 88°F"],
+            ["40%", "About 85°F"]
+          ],
+          "caption": "Values from the National Weather Service heat index chart, rounded."
+        },
+        {
+          "type": "p",
+          "text": "Dropping that room from 70% to 50% humidity cuts the feels-like temperature by about 7 degrees — far more than the degree or two of heat a dehumidifier adds. That's why a dehumidifier can make a muggy room much more comfortable even though it technically warms it."
+        }
+      ]
+    },
+    {
+      "id": "vs-ac",
+      "heading": "Dehumidifier vs. air conditioner: which do you need?",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["", "Dehumidifier", "Air conditioner"],
+          "rows": [
+            ["Lowers temperature", "No — adds slight heat", "Yes"],
+            ["Lowers humidity", "Yes, to a set target", "Yes, as a side effect of cooling"],
+            ["Where the heat goes", "Stays in the room", "Vented outdoors"],
+            ["Best when", "Room is mild but muggy (under ~80°F)", "Room is hot, humid or both"],
+            ["Typical uses", "Basements, bedrooms, shoulder seasons", "Summer living spaces"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In many homes the best setup is both: central or window AC for cooling, and a dehumidifier in the basement or in rooms where AC alone leaves the air clammy. That's common with oversized AC systems, which cool quickly but shut off before removing much moisture. Our [dehumidifier vs. air conditioner](/guides/dehumidifier-vs-air-conditioner/) guide goes deeper, and [how a dehumidifier works](/guides/how-does-a-dehumidifier-work/) explains the refrigeration cycle."
+        }
+      ]
+    },
+    {
+      "id": "minimize-heat",
+      "heading": "How to get comfort without the extra heat",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Set a target, not continuous mode.** 45–50% is comfortable for most people; going lower adds heat and cost for little benefit. See our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/).",
+            "**Run it before bed, not during.** Dry the bedroom in the evening, then let the humidistat cycle overnight.",
+            "**Use a ceiling or box fan.** Moving air helps sweat evaporate and spreads the dehumidifier's warmth instead of letting it pool.",
+            "**Pair it with AC.** If you have air conditioning, the dehumidifier helps the AC feel effective at a higher thermostat setting.",
+            "**Put it where heat matters least.** Basements, hallways and laundry rooms can absorb a little extra warmth without anyone noticing."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "What about \"dehumidifier coolers\"?",
+          "text": "Portable air conditioners have a dehumidify mode and vent heat outside through a hose, so they really can cool and dry. Evaporative or swamp coolers are the opposite: they cool by *adding* moisture, which works in dry climates but makes humid rooms worse."
+        }
+      ]
+    },
+    {
+      "id": "related-questions",
+      "heading": "Related questions: freezing up and feeling sick",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Why does my dehumidifier keep freezing up?"
+        },
+        {
+          "type": "p",
+          "text": "Frost usually forms when the room is too cool — often below about 65°F — or when airflow is blocked by a dirty filter. Most units have auto-defrost, but a unit that freezes constantly may be in the wrong space or need maintenance. Our [dehumidifier freezing up](/guides/dehumidifier-freezing-up/) guide walks through the fixes."
+        },
+        {
+          "type": "h3",
+          "text": "Can a dehumidifier make you sick?"
+        },
+        {
+          "type": "p",
+          "text": "Not directly. Problems come from a dirty bucket or filter growing mold, or from over-drying a room below about 30%, which can irritate skin, eyes and sinuses. Keep humidity between 30% and 50% and clean the unit regularly."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A dehumidifier won't cool a room — it adds a little heat. But in a mild, muggy room it can make you feel several degrees cooler by letting your body shed heat more easily. If the room is genuinely hot, you need an air conditioner, ideally paired with a dehumidifier where humidity stays high. Not sure you need one at all? Read [when to use a dehumidifier](/guides/when-to-use-a-dehumidifier/)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a dehumidifier cool a room?",
+      "a": "No. A standard dehumidifier raises the room temperature slightly, because it releases its compressor heat and the heat from condensing water back into the room. It can make the room feel cooler by lowering humidity."
+    },
+    {
+      "q": "Does a dehumidifier make a room warmer?",
+      "a": "Yes, a little. In a small, closed room the temperature may rise by a degree or a few; in a large space the change is often barely noticeable. Desiccant dehumidifiers warm the air more because they use a heater."
+    },
+    {
+      "q": "Does a dehumidifier cool the air?",
+      "a": "It cools the air briefly inside the unit to condense moisture, then reheats it. The air that comes out is drier and slightly warmer than the air that went in."
+    },
+    {
+      "q": "Does a dehumidifier help cool a room with an air conditioner?",
+      "a": "It can help the room feel cooler. By removing moisture the AC leaves behind, a dehumidifier may let you set the thermostat a bit higher and stay comfortable."
+    },
+    {
+      "q": "Is it better to run a dehumidifier or an AC in summer?",
+      "a": "If the room is hot, run the AC. If it's mild but muggy, such as a basement or a cool, rainy day, a dehumidifier is the more efficient choice."
+    },
+    {
+      "q": "Should I run a dehumidifier in my bedroom at night?",
+      "a": "You can, especially with a quiet model and a humidistat set to 45–50%. To keep the room from warming up, dry it in the evening and let the unit cycle overnight. See our [best dehumidifier for bedroom](/best/best-dehumidifier-for-bedroom/) picks."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-vs-air-conditioner/",
+    "/guides/how-does-a-dehumidifier-work/",
+    "/guides/dehumidifier-freezing-up/",
+    "/guides/when-to-use-a-dehumidifier/",
+    "/best/best-dehumidifier-for-bedroom/",
+    "/guides/dehumidifier-humidistat-settings-guide/"
+  ]
+}
