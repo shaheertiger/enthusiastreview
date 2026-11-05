@@ -1,0 +1,335 @@
+{
+  "slug": "best-mini-dehumidifier",
+  "section": "best",
+  "category": "Size & Features",
+  "navLabel": "Mini",
+  "title": "Best Mini Dehumidifier (2026): Tiny, Quiet & Cordless Picks",
+  "h1": "The Best Mini Dehumidifiers for Bathrooms, Closets and Tiny Spaces",
+  "dek": "Not every damp spot needs a 40-pound machine. These small dehumidifiers fit on a shelf, run almost silently and keep musty air out of the rooms big units can’t reach.",
+  "description": "The best mini dehumidifiers for bathrooms, closets, RVs and tiny houses, including the Eva-Dry E-333 and Pro Breeze minis, with honest sizing advice.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "amazonOnly": true,
+  "intro": [
+    "A **mini dehumidifier** is the right tool for a surprisingly long list of spaces: a windowless bathroom, a musty closet, a gun safe, an RV bedroom, a tiny house loft. These compact units come in two flavors — small plug-in thermoelectric models that collect water in a tank, and cordless renewable canisters filled with silica gel that you recharge by plugging them in.",
+    "What they aren’t is a substitute for a full-size dehumidifier. The best minis remove ounces of water a day, not pints, so matching one to the right-sized space is everything. We picked the models that deliver on their ratings and explain exactly where each one makes sense, including the much-searched Eva-Dry E-333."
+  ],
+  "topPicksLead": "For most small bathrooms and bedrooms, the **Pro Breeze PB-03** is the mini dehumidifier to get: it covers about 2,200 cubic feet, runs quietly and holds a generous 52 ounces before shutting itself off.",
+  "products": [
+    {
+      "id": "pro-breeze-pb-03",
+      "catalogId": "pro-breeze-pb-03",
+      "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
+      "shortName": "Pro Breeze PB-03",
+      "award": "Best overall",
+      "pros": [
+        "Rated for about 2,200 cubic feet",
+        "52-ounce tank with auto shut-off",
+        "Quiet thermoelectric operation, about 35 dB per Pro Breeze",
+        "Draws a fraction of a compressor unit’s power"
+      ],
+      "cons": [
+        "Far less extraction than a compressor dehumidifier",
+        "Not for basements or large rooms"
+      ],
+      "whyWeLoveIt": "It’s the biggest of the true minis and the one most likely to make a noticeable difference in a small room. The large tank means fewer trips to empty it, and the steady, compressor-free hum is easy to ignore in a bedroom or office.",
+      "performance": "Retail listings rate it to remove about 18 ounces of water a day into a 52-ounce tank, covering up to roughly 2,200 cubic feet, or about 250 square feet with a standard ceiling. That’s enough to keep a closed bathroom or small bedroom from feeling clammy, and nowhere near enough for a wet basement. It’s also the top pick in our [best small dehumidifier](/best/best-small-dehumidifier/) guide.",
+      "specs": {
+        "Type": "Thermoelectric (Peltier)",
+        "Capacity": "About 18 oz/day (retail listing)",
+        "Tank": "52 oz with auto shut-off",
+        "Coverage": "Up to ~2,200 cu ft",
+        "Best for": "Bathrooms, small bedrooms"
+      }
+    },
+    {
+      "id": "eva-dry-edv-2400",
+      "catalogId": "eva-dry-edv-2400",
+      "name": "Eva-Dry EDV-2400 Dehumidifier with Humidistat",
+      "shortName": "Eva-Dry EDV-2400",
+      "award": "Best with a humidistat",
+      "pros": [
+        "Adjustable humidistat instead of always-on",
+        "Larger tank than Eva-Dry’s petite model",
+        "Quiet thermoelectric design",
+        "Auto shut-off when full"
+      ],
+      "cons": [
+        "Bigger footprint than the EDV-1100",
+        "Still not a basement dehumidifier"
+      ],
+      "whyWeLoveIt": "Most minis run nonstop until the tank fills. The EDV-2400 lets you set a target and cycle off once the room gets there, which keeps a walk-in closet or small office from swinging too dry and saves a little power.",
+      "performance": "It’s Eva-Dry’s step-up electric model, built on the same quiet thermoelectric principle as the EDV-1100 but with more airflow and a bigger collection tank. Like every Peltier unit, it pulls water best in warm, humid air and slows down in cool rooms. If a room still feels damp with it running, you’ve outgrown thermoelectric and need a 20-pint compressor unit.",
+      "specs": {
+        "Type": "Thermoelectric (Peltier)",
+        "Humidistat": "Adjustable",
+        "Drainage": "Tank with auto shut-off",
+        "Noise": "Quiet fan only",
+        "Best for": "Small bedrooms, offices, large closets"
+      }
+    },
+    {
+      "id": "eva-dry-edv-1100",
+      "catalogId": "eva-dry-edv-1100",
+      "name": "Eva-Dry EDV-1100 Petite Dehumidifier",
+      "shortName": "Eva-Dry EDV-1100",
+      "award": "Best for tiny rooms",
+      "pros": [
+        "Rated for about 1,100 cubic feet",
+        "About 22 watts and 33 dB, per Eva-Dry",
+        "Restarts on its own after a power cut",
+        "Optional 12V cord for vehicles and RVs"
+      ],
+      "cons": [
+        "16-ounce tank needs frequent emptying in muggy weather",
+        "Slows down in rooms below the mid-60s"
+      ],
+      "whyWeLoveIt": "It’s about as small and quiet as a plug-in dehumidifier gets, which makes it a natural fit for a half bath, a laundry closet or the bedroom of a camper. At roughly 22 watts, it costs pennies a day to run.",
+      "performance": "Eva-Dry rates it for about 1,100 cubic feet — roughly an 11-by-12-foot room with an 8-foot ceiling — and lists it at about 22 watts and around 33 dB. It uses a thermoelectric module instead of a compressor, so the only moving part is a small fan. Owners like it most in bathrooms and closets that smell musty.",
+      "specs": {
+        "Type": "Thermoelectric (Peltier)",
+        "Coverage": "About 1,100 cu ft, per Eva-Dry",
+        "Power": "About 22 W, per Eva-Dry",
+        "Noise": "About 33 dB, per Eva-Dry",
+        "Tank": "16 oz with auto shut-off",
+        "Best for": "Bathrooms, closets, RV bedrooms"
+      }
+    },
+    {
+      "id": "pro-breeze-mini",
+      "catalogId": "pro-breeze-mini",
+      "name": "Pro Breeze Mini Dehumidifier (1,200 cu ft)",
+      "shortName": "Pro Breeze Mini",
+      "award": "Best budget plug-in",
+      "pros": [
+        "Active moisture removal for a small room",
+        "Quiet thermoelectric operation",
+        "Auto shut-off when the tank fills",
+        "Light enough to move between rooms"
+      ],
+      "cons": [
+        "Modest capacity",
+        "Small tank to empty"
+      ],
+      "whyWeLoveIt": "If you just need a plug-in unit to take the edge off a small, mildly damp room — a practice room, a home office nook, a guest bath — this smaller Pro Breeze does the job at an entry-level price.",
+      "performance": "Pro Breeze rates it for about 1,200 cubic feet, roughly a 150-square-foot room with an 8-foot ceiling. Thermoelectric units remove far less water than compressors, so keep the door closed and treat it as a maintenance tool rather than a fix for a wet room. Compare the rest of the line in our [Pro Breeze dehumidifier](/best/best-pro-breeze-dehumidifier/) guide.",
+      "specs": {
+        "Type": "Thermoelectric",
+        "Coverage": "About 1,200 cu ft",
+        "Drainage": "Small tank, auto shut-off",
+        "Noise": "Quiet, no compressor",
+        "Best for": "Small office, music room, guest bath"
+      }
+    },
+    {
+      "id": "eva-dry-e-333",
+      "catalogId": "eva-dry-e-333",
+      "name": "Eva-Dry E-333 Renewable Mini Dehumidifier",
+      "shortName": "Eva-Dry E-333",
+      "award": "Best cordless",
+      "pros": [
+        "No cord, no power use while it works",
+        "Color-change beads show when it’s full",
+        "Built-in plug for recharging — no oven needed",
+        "Sealed canister can’t drip or spill"
+      ],
+      "cons": [
+        "Enclosed spaces only, up to about 333 cu ft",
+        "Needs an overnight recharge every few weeks"
+      ],
+      "whyWeLoveIt": "The E-333 is the mini dehumidifier people search for most, and for good reason: it’s silent, spill-proof and lasts for years. It’s ideal anywhere without an outlet, like a gun safe, a closet shelf or a cabinet under the sink.",
+      "performance": "Eva-Dry rates it for spaces up to about 333 cubic feet, roughly a walk-in closet. When the indicator beads change color, you plug the canister into a wall outlet and a built-in heater drives the moisture out; Eva-Dry quotes 10 to 12 hours for a full recharge. Owners commonly go several weeks between recharges in a closed closet, less in a space that’s opened often. See more cordless options in our [best rechargeable dehumidifier](/best/best-rechargeable-dehumidifier/) guide.",
+      "specs": {
+        "Type": "Renewable silica gel",
+        "Coverage": "About 333 cu ft",
+        "Power": "None in use; plug in to recharge",
+        "Recharge time": "About 10–12 hours, per Eva-Dry",
+        "Best for": "Closets, safes, cabinets"
+      }
+    },
+    {
+      "id": "eva-dry-e-500",
+      "catalogId": "eva-dry-e-500",
+      "name": "Eva-Dry E-500 Renewable Dehumidifier",
+      "shortName": "Eva-Dry E-500",
+      "award": "Best cordless for larger spaces",
+      "pros": [
+        "More silica than the E-333 in the same no-cord format",
+        "Rated for about 500 cubic feet",
+        "Completely silent",
+        "Reusable for years"
+      ],
+      "cons": [
+        "Bulkier than the E-333",
+        "Still only for enclosed spaces"
+      ],
+      "whyWeLoveIt": "If you like the E-333 idea but have a larger closet, a big gun safe, a boat cabin or a stored car, the E-500 gives you more drying capacity before it needs a recharge.",
+      "performance": "Eva-Dry rates it for about 500 cubic feet. It recharges the same way as the E-333 — plug it in until the indicator returns to its dry color. The extra capacity mostly buys you more time between recharges rather than faster drying, which suits spaces you don’t visit often, like a storage closet or a vehicle in winter storage.",
+      "specs": {
+        "Type": "Renewable silica gel",
+        "Coverage": "About 500 cu ft",
+        "Power": "None in use; plug in to recharge",
+        "Noise": "Silent",
+        "Best for": "Large closets, boats, stored cars"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "mini-numbers",
+      "heading": "Mini dehumidifiers, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            { "value": "~18 oz", "label": "Daily water removal listed for the Pro Breeze PB-03, our top pick" },
+            { "value": "1,100 cu ft", "label": "About an 11 × 12 ft room — the EDV-1100’s rated space" },
+            { "value": "20 pints", "label": "Smallest common compressor size, for when a mini isn’t enough" }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Put those together and the role of a mini becomes clear: it’s a maintenance tool for small, closed spaces. Twenty pints a day is nearly 18 times what the PB-03 removes, which is why a damp basement needs a full-size unit."
+        }
+      ]
+    },
+    {
+      "id": "how-we-pick",
+      "heading": "How we pick mini dehumidifiers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don’t lab-test. We compare manufacturer ratings for coverage (in cubic feet), water removal, tank size, power draw and noise, then read owner reviews for the patterns that matter at this size: units that stop collecting water after a few months, tanks that leak, and recharge cycles that take longer than claimed."
+        },
+        {
+          "type": "p",
+          "text": "We favored models from established brands with consistent ratings across listings, and we sorted picks by the kind of space they suit, because a closet canister and a bathroom plug-in solve different problems."
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "What to look for in a mini dehumidifier",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Rated space in cubic feet",
+              "text": "Multiply length × width × ceiling height and buy a unit rated for at least that volume. Square-foot claims on minis are often generous."
+            },
+            {
+              "label": "Plug-in or cordless",
+              "text": "Thermoelectric plug-ins actively pull moisture from a small room. Renewable silica canisters suit enclosed spaces with no outlet, like safes and cabinets."
+            },
+            {
+              "label": "Tank size and auto shut-off",
+              "text": "A bigger tank means fewer trips to the sink. Auto shut-off prevents overflow when you’re away."
+            },
+            {
+              "label": "Drain hose option",
+              "text": "Most minis don’t have one. If you need continuous draining, you’re usually shopping in the 20-pint compressor class instead."
+            },
+            {
+              "label": "Room temperature",
+              "text": "Thermoelectric units work best in warm air and slow down in cool rooms. For a cold space, look at a [desiccant dehumidifier](/best/best-desiccant-dehumidifier/)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mini-types",
+      "heading": "Thermoelectric vs. renewable vs. compressor",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Type", "How it works", "Best for", "Watch out for"],
+          "rows": [
+            ["Thermoelectric plug-in", "A Peltier chip chills a small plate; water drips into a tank", "Bathrooms, small bedrooms, RVs", "Ounces a day, not pints"],
+            ["Renewable silica canister", "Silica beads absorb moisture; plug in to dry them out", "Closets, safes, cabinets, cars", "Enclosed spaces only"],
+            ["Compact compressor (20–22 pints)", "Refrigerant coil condenses water, like a fridge in reverse", "Damp bedrooms, apartments, small basements", "Larger, heavier and louder"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If you’re choosing between the first and last rows, our [best compressor dehumidifier](/best/best-compressor-dehumidifier/) guide explains when the step up is worth it."
+        }
+      ]
+    },
+    {
+      "id": "where-minis-work",
+      "heading": "Where a mini dehumidifier makes sense",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Mini dehumidifier for the bathroom"
+        },
+        {
+          "type": "p",
+          "text": "A plug-in mini helps a small bathroom dry out between showers, especially one without an exhaust fan. Keep it away from splashes and run the fan, too; in a larger or heavily used bathroom, see our [bathroom dehumidifier](/best/best-dehumidifier-for-bathroom/) picks."
+        },
+        {
+          "type": "h3",
+          "text": "Dehumidifier for a tiny house or RV"
+        },
+        {
+          "type": "p",
+          "text": "Small volumes and low power budgets make thermoelectric units a natural fit, and the EDV-1100 can run from a 12V socket with an optional cord. Just don’t leave it running for days off a starting battery."
+        },
+        {
+          "type": "h3",
+          "text": "Closets, safes and cabinets"
+        },
+        {
+          "type": "p",
+          "text": "This is renewable-canister territory. An E-333 or E-500 sits silently on a shelf, and when it’s full you recharge it overnight. Our [closet dehumidifier](/best/best-dehumidifier-for-closet/) guide has more ideas."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For a small bathroom or bedroom, the **Pro Breeze PB-03** is the best mini dehumidifier: the most coverage and the biggest tank of the plug-ins. Choose the **Eva-Dry EDV-2400** if you want a humidistat, the **EDV-1100** for the tiniest rooms and RVs, and the cordless **Eva-Dry E-333** or **E-500** for closets and safes. If the space is bigger than a few hundred square feet or visibly damp, skip the minis and use our [dehumidifier size guide](/guides/dehumidifier-size-guide/) to pick a compressor unit."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do mini dehumidifiers actually work?",
+      "a": "Yes, in the right space. A thermoelectric mini removes ounces of water a day, which is enough to keep a small, closed bathroom, closet or bedroom from feeling musty. It won’t dry a basement or a large room."
+    },
+    {
+      "q": "Is the Eva-Dry E-333 mini dehumidifier worth it?",
+      "a": "For enclosed spaces without an outlet, like a closet, gun safe or cabinet, yes. It’s silent, can’t spill and recharges by plugging into a wall. It’s rated for about 333 cubic feet, so it isn’t meant for open rooms."
+    },
+    {
+      "q": "How do you recharge the Eva-Dry E-333?",
+      "a": "When the beads change color, plug the canister into a wall outlet. A built-in heater drives the moisture out, and Eva-Dry quotes about 10 to 12 hours for a full recharge. Do it in a well-ventilated spot and let it cool before putting it back."
+    },
+    {
+      "q": "What size room can a mini dehumidifier handle?",
+      "a": "Most are rated by volume: about 333–500 cubic feet for renewable canisters and roughly 1,100–2,200 cubic feet for plug-in thermoelectric models. That’s a closet up to a room of about 250 square feet."
+    },
+    {
+      "q": "Is there a mini dehumidifier with a drain hose?",
+      "a": "It’s rare among true minis, which collect water in a small tank. If you need continuous draining, look at a compact 20- or 22-pint compressor model, most of which have a gravity-hose outlet."
+    },
+    {
+      "q": "What about the Eva-Dry EDV-1200 and other similar models?",
+      "a": "Eva-Dry and other brands sell several small electric models with similar names. Whatever the model number, check the rated cubic feet, tank size and power draw against the space; the EDV-1100 and EDV-2400 we feature cover the most common sizes."
+    }
+  ],
+  "related": [
+    "/best/best-small-dehumidifier/",
+    "/best/best-eva-dry-dehumidifier/",
+    "/best/best-rechargeable-dehumidifier/",
+    "/best/best-dehumidifier-for-closet/",
+    "/best/best-dehumidifier-for-bathroom/",
+    "/best/best-pro-breeze-dehumidifier/"
+  ]
+}

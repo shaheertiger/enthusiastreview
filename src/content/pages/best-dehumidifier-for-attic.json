@@ -76,7 +76,7 @@
       "pros": [
         "Same 33.8–104°F range as the HDi90",
         "Compact body fits through tighter hatches",
-        "Built-in pump plus gravity drain",
+        "Continuous gravity drain hose",
         "Sized for attics under about 1,300 sq ft"
       ],
       "cons": [
@@ -84,11 +84,11 @@
         "Commercial pricing"
       ],
       "whyWeLoveIt": "A small attic over a single-story addition doesn’t need a 90-pint machine, and a smaller body is far easier to maneuver through a scuttle hole or up a pull-down ladder — without giving up heat tolerance.",
-      "performance": "It’s rated at 55 pints a day (AHAM) with the same published operating range as its bigger sibling. A built-in pump and a gravity spigot let you drain it wherever it ends up sitting. For more of the lineup, see our [best AlorAir dehumidifier](/best/best-alorair-dehumidifier/) guide.",
+      "performance": "It’s rated at 55 pints a day (AHAM) with the same published operating range as its bigger sibling. It drains continuously through a gravity hose, so plan a downhill route or add a separate condensate pump. For more of the lineup, see our [best AlorAir dehumidifier](/best/best-alorair-dehumidifier/) guide.",
       "specs": {
         "Capacity": "55 pints/day (AHAM)",
         "Coverage": "Up to ~1,300 sq ft",
-        "Drainage": "Built-in pump or gravity",
+        "Drainage": "Gravity hose",
         "Low-temp operation": "33.8–104°F rated range",
         "Best for": "Small or hard-to-access attics"
       }
@@ -127,9 +127,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "33.8–104°F", "label": "Published operating range of AlorAir’s Sentinel HD55 and HDi90" },
-            { "value": "~80%", "label": "Share of ice dams that mitigation specialists trace to insulation and ventilation problems" },
-            { "value": "24–48 hrs", "label": "How quickly mold can begin on damp materials, per the EPA" }
+            {
+              "value": "33.8–104°F",
+              "label": "Published operating range of AlorAir’s Sentinel HD55 and HDi90"
+            },
+            {
+              "value": "~80%",
+              "label": "Share of ice dams that mitigation specialists trace to insulation and ventilation problems"
+            },
+            {
+              "value": "24–48 hrs",
+              "label": "How quickly mold can begin on damp materials, per the EPA"
+            }
           ]
         },
         {
@@ -234,12 +243,42 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Capacity", "Operating range", "Drainage", "Best for"],
+          "head": [
+            "Model",
+            "Capacity",
+            "Operating range",
+            "Drainage",
+            "Best for"
+          ],
           "rows": [
-            ["AlorAir Sentinel HDi90", "90 pints (AHAM)", "33.8–104°F", "Gravity, ductable", "Most attics"],
-            ["Waykar 158-Pint Dual Duct", "158 pints (maker)", "Auto-defrost", "Gravity", "Large, divided attics"],
-            ["AlorAir Sentinel HD55", "55 pints (AHAM)", "33.8–104°F", "Pump or gravity", "Small attics"],
-            ["Honeywell TP70PWKNR", "50 pints (DOE 2019)", "Auto-defrost", "Built-in pump", "Finished attic rooms"]
+            [
+              "AlorAir Sentinel HDi90",
+              "90 pints (AHAM)",
+              "33.8–104°F",
+              "Gravity, ductable",
+              "Most attics"
+            ],
+            [
+              "Waykar 158-Pint Dual Duct",
+              "158 pints (maker)",
+              "Auto-defrost",
+              "Gravity",
+              "Large, divided attics"
+            ],
+            [
+              "AlorAir Sentinel HD55",
+              "55 pints (AHAM)",
+              "33.8–104°F",
+              "Pump or gravity",
+              "Small attics"
+            ],
+            [
+              "Honeywell TP70PWKNR",
+              "50 pints (DOE 2019)",
+              "Auto-defrost",
+              "Built-in pump",
+              "Finished attic rooms"
+            ]
           ]
         }
       ]
