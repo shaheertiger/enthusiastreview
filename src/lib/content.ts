@@ -67,6 +67,8 @@ export interface Page {
   sections: Section[];
   faqs: { q: string; a: string }[];
   related?: string[];
+  /** Every product must be a verified Amazon listing (checked by scripts/validate-content.mjs). */
+  amazonOnly?: boolean;
 }
 
 const modules = import.meta.glob<{ default: Page }>('../content/pages/*.json', { eager: true });
@@ -196,12 +198,20 @@ const TOPIC_TERMS: [RegExp, string][] = [
   [/\b(?:built-in|condensate) pumps?\b/i, '/best/best-dehumidifier-with-pump/'],
   [/\b(?:drain hose|gravity drain(?:age)?)\b/i, '/best/best-dehumidifier-with-drain-hose/'],
   [/\bhumidistat\b/i, '/guides/dehumidifier-humidistat-settings-guide/'],
-  [/\bhygrometers?\b/i, '/guides/when-to-use-a-dehumidifier/'],
+  [/\bhygrometers?\b|\bhumidity monitors?\b/i, '/best/best-hygrometer/'],
   [/\b(?:auto-defrost|ices? (?:up|over)|freez(?:es|ing) up)\b/i, '/guides/dehumidifier-freezing-up/'],
   [/\b(?:running costs?|kilowatt-hours?|kWh)\b/, '/guides/how-much-electricity-does-a-dehumidifier-use/'],
   [/\bENERGY STAR\b/, '/best/best-energy-efficient-dehumidifier/'],
   [/\b(?:2019 DOE|DOE 2019|pints? (?:a|per) day)\b/i, '/guides/dehumidifier-size-guide/'],
-  [/\bLGR\b/, '/best/best-commercial-dehumidifier/'],
+  [/\bLGR\b|\blow[- ]grain refrigerant\b/i, '/best/best-lgr-dehumidifier/'],
+  [/\b(?:industrial|heavy-duty) dehumidifiers?\b/i, '/best/best-industrial-dehumidifier/'],
+  [/\blow[- ]temperature (?:dehumidifiers?|operation|models?)\b/i, '/best/best-low-temperature-dehumidifier/'],
+  [/\bmini dehumidifiers?\b/i, '/best/best-mini-dehumidifier/'],
+  [/\b(?:20|22|25)[- ]pints?\b/i, '/best/best-22-pint-dehumidifier/'],
+  [/\b(?:35|40)[- ]pints?\b/i, '/best/best-35-pint-dehumidifier/'],
+  [/\bhanging (?:dehumidifiers?|bags?|moisture absorbers?)\b/i, '/best/best-hanging-dehumidifier/'],
+  [/\bdrying (?:rooms?|racks?)\b|\bcuring\b/i, '/best/best-dehumidifier-for-drying-room/'],
+  [/\b(?:sleep(?:ing)?|overnight)\b/i, '/best/best-dehumidifier-for-sleeping/'],
   [/\bmusty\b/i, '/best/best-dehumidifier-for-musty-smell/'],
   [/\bblack mold\b/i, '/best/best-dehumidifier-for-black-mold/'],
   [/\bmold\b/i, '/guides/does-a-dehumidifier-help-with-mold/'],

@@ -68,6 +68,11 @@ for (const { f, d } of targets) {
     if (!Array.isArray(p.cons) || p.cons.length < 1) err(`${at} needs ≥ 1 con`);
     if (!p.specs || typeof p.specs !== 'object' || Object.keys(p.specs).length < 3) err(`${at} needs ≥ 3 specs`);
     if (p.catalogId && !CATALOG[p.catalogId]) err(`${at}.catalogId "${p.catalogId}" not in catalog.json`);
+    // "amazonOnly" pages may only feature products with a verified Amazon listing (ASIN + photo).
+    if (d.amazonOnly) {
+      const c = CATALOG[p.catalogId];
+      if (!c || !c.asin || !c.image || c.skip) err(`${at} "${p.name}" is not a verified Amazon product (amazonOnly page needs a catalogId with ASIN + image)`);
+    }
     if (p.asin && !/^[A-Z0-9]{10}$/.test(p.asin)) err(`${at}.asin "${p.asin}" is not a valid ASIN`);
   }
   const secIds = new Set();
