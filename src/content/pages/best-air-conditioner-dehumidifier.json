@@ -1,0 +1,382 @@
+{
+  "slug": "best-air-conditioner-dehumidifier",
+  "section": "best",
+  "category": "Size & Features",
+  "navLabel": "AC Combos",
+  "title": "Best Dehumidifier Air Conditioner Combos (2026): AC + Dry Mode",
+  "h1": "The Best Dehumidifier Air Conditioners and AC Combos",
+  "dek": "Every air conditioner wrings some water out of the air. These are the units — and the add-ons — that do it best.",
+  "description": "The best dehumidifier air conditioner combos for 2026, plus whether ACs really dehumidify, how dry mode works and when an AC and dehumidifier belong together.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "Shopping for a **dehumidifier air conditioner** usually starts with a simple question: do air conditioners dehumidify at all? They do. Every AC cools by pulling warm room air across a cold coil, and when that coil is below the air's dew point, water condenses and drains away. The catch is that the moisture removal is a side effect. The thermostat, not the humidity, decides when the compressor runs, so on mild, sticky days your AC can switch off long before the room actually feels dry.",
+    "That's why the best combination for most homes is either an AC with a genuinely useful **dry mode** — ideally one with an inverter compressor that can run long, gentle cycles — or a good air conditioner paired with a dedicated dehumidifier for the shoulder seasons. Homes with central air have a third option: a whole-house dehumidifier that rides on the same ductwork.",
+    "Below are our picks across all three approaches, from window and portable ACs with dehumidify modes to the standalone and ducted dehumidifiers that make an air conditioner work better."
+  ],
+  "topPicksLead": "For a single room, the **Midea Duo** is our top AC-and-dehumidifier combo, because its inverter compressor keeps drying the air instead of cycling off the moment the room hits temperature.",
+  "products": [
+    {
+      "id": "midea-duo-portable-ac",
+      "name": "Midea Duo Smart Inverter Portable Air Conditioner",
+      "shortName": "Midea Duo",
+      "award": "Best portable AC with dry mode",
+      "pros": [
+        "Inverter compressor runs long, steady cycles that dry the air",
+        "Hose-in-hose design is easier to fit than two separate hoses",
+        "Cool, dry and fan modes in one unit",
+        "Wi-Fi app and voice-assistant control"
+      ],
+      "cons": [
+        "Heavy and bulky to move between rooms",
+        "Window kit takes some fiddling to seal well",
+        "Dry mode has no exact humidity setpoint"
+      ],
+      "whyWeLoveIt": "Most portable ACs are blunt instruments: compressor on, compressor off. The Duo's inverter can throttle down and keep running at low speed, which keeps the coil cold for longer and pulls more water out on humid days that aren't especially hot.",
+      "performance": "Owners consistently say it's noticeably quieter than the single-hose portables it replaced, and the hose-in-hose design draws outdoor air for the condenser without pulling conditioned air out of the room. Its dry mode makes it a reasonable one-machine answer for a humid bedroom or office, though a standalone dehumidifier still holds a set number more precisely.",
+      "specs": {
+        "Type": "Portable AC, hose-in-hose",
+        "Compressor": "Inverter",
+        "Modes": "Cool, dry, fan",
+        "Smart control": "Wi-Fi app, voice assistants",
+        "Best for": "Bedrooms and offices without central air"
+      }
+    },
+    {
+      "id": "midea-u-window-ac",
+      "name": "Midea U-Shaped Inverter Window Air Conditioner",
+      "shortName": "Midea U",
+      "award": "Best window air conditioner with dehumidifier mode",
+      "pros": [
+        "U-shaped body lets the window close through the middle",
+        "Inverter compressor favors long, quiet cycles",
+        "Dedicated dry mode for muggy, mild days",
+        "Sold in 8,000, 10,000 and 12,000 BTU sizes"
+      ],
+      "cons": [
+        "Installation needs care and the included bracket",
+        "Blocks part of the window view",
+        "No humidity readout on the unit"
+      ],
+      "whyWeLoveIt": "If you're looking for a window air conditioner with a dehumidifier built in, this is the one we'd point most people to. The inverter lets it run longer at low speed instead of short-cycling, which is exactly what you want for moisture removal.",
+      "performance": "Its split U shape lets the sash close down between the indoor and outdoor halves, so more compressor noise stays outside and the window seals better than with a box unit. Pick the smallest size that cools the room: an oversized AC is the most common reason a room feels cold and clammy at once.",
+      "specs": {
+        "Type": "Window AC, inverter",
+        "Sizes": "8,000 / 10,000 / 12,000 BTU",
+        "Modes": "Cool, dry, fan, auto",
+        "Smart control": "Wi-Fi app",
+        "Best for": "Bedrooms and living rooms"
+      }
+    },
+    {
+      "id": "whynter-arc-14s",
+      "name": "Whynter ARC-14S 14,000 BTU Dual-Hose Portable Air Conditioner",
+      "shortName": "Whynter ARC-14S",
+      "award": "Best dual-hose portable",
+      "pros": [
+        "Dual-hose design avoids pulling warm air into the room",
+        "Marketed as a 3-in-1 AC, dehumidifier and fan",
+        "Strong cooling for larger rooms",
+        "Long track record and a large base of owner reviews"
+      ],
+      "cons": [
+        "Louder than inverter models",
+        "Two hoses take up more window space",
+        "Standard on/off compressor"
+      ],
+      "whyWeLoveIt": "A single-hose portable exhausts room air outside, which pulls hot, humid air in through every gap in the house. The ARC-14S uses one hose to draw outdoor air in and another to send it back out, so it isn't fighting its own humidity problem.",
+      "performance": "It's been one of the best-known dual-hose portables for years, so there's a deep pool of owner feedback to draw on. Its dehumidify mode is useful on damp days, though like most portables it needs a drain hose or periodic emptying when it's pulling serious water. Owners' most common complaint is noise, so it's better in a living room than next to a bed.",
+      "specs": {
+        "Cooling": "14,000 BTU (ASHRAE)",
+        "Type": "Dual-hose portable AC",
+        "Modes": "Cool, dehumidify, fan",
+        "Drainage": "Drain port for continuous use",
+        "Best for": "Large rooms without central air"
+      }
+    },
+    {
+      "id": "aprilaire-e100",
+      "catalogId": "aprilaire-e100",
+      "name": "Aprilaire E100 Whole-House Dehumidifier",
+      "shortName": "Aprilaire E100",
+      "award": "Best for central air conditioning",
+      "pros": [
+        "Controls humidity independently of the thermostat",
+        "Ties into existing central air ductwork",
+        "ENERGY STAR Most Efficient recognition",
+        "Five-year warranty"
+      ],
+      "cons": [
+        "Needs professional installation",
+        "Far more expensive than a portable unit"
+      ],
+      "whyWeLoveIt": "If you have central air and the house still feels damp, this is the fix that addresses the root problem. The E100 dries the air through your ductwork on its own humidity control, so it keeps working on mild days when the AC barely runs.",
+      "performance": "Aprilaire rates it at up to 100 pints a day with coverage up to about 5,500 square feet, enough for most homes in a single unit. It can be ducted into the return side of an existing system or run with its own ducts. Owners say the best thing about it is that they stop thinking about humidity. Our [whole-house dehumidifier installation guide](/guides/whole-house-dehumidifier-installation/) explains what the job involves.",
+      "specs": {
+        "Capacity": "Up to 100 pints/day",
+        "Coverage": "Up to about 5,500 sq ft",
+        "Install": "Ducted or freestanding",
+        "Efficiency": "ENERGY STAR Most Efficient",
+        "Warranty": "5 years"
+      }
+    },
+    {
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Dehumidifier (MAD50S1QWT)",
+      "shortName": "Midea Cube 50",
+      "award": "Best standalone partner for any AC",
+      "pros": [
+        "Holds an exact humidity target",
+        "ENERGY STAR certified",
+        "Base tank or gravity hose drainage",
+        "Wi-Fi app shows room humidity"
+      ],
+      "cons": [
+        "Adds a little heat to the room",
+        "Takes up floor space"
+      ],
+      "whyWeLoveIt": "The simplest way to fix an AC that cools but doesn't dry is to give it a partner that only cares about humidity. Set the Cube to 45–50% and it runs on mild, damp days when your air conditioner sits idle.",
+      "performance": "ENERGY STAR lists it at about 50 pints a day and 515 kWh a year, which makes it one of the most efficient 50-pint units sold. Its tank sits in the base and holds about 4.35 gallons, or you can attach a hose and forget about emptying it. Compare it with other sizes in our [best 50-pint dehumidifier](/best/best-50-pint-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day class (DOE 2019)",
+        "Humidistat": "Digital, set % target",
+        "Drainage": "Base tank or gravity hose",
+        "Efficiency": "ENERGY STAR",
+        "Best for": "Basements, large damp rooms"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "by-the-numbers",
+      "heading": "Air conditioning and humidity, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "20–30%",
+              "label": "Typical share of a home AC's capacity that goes to removing moisture rather than heat"
+            },
+            {
+              "value": "Under 60%",
+              "label": "Indoor humidity the EPA recommends to keep mold in check"
+            },
+            {
+              "value": "45–50%",
+              "label": "A comfortable summer target for most homes"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "That first number is the heart of the matter. An air conditioner spends most of its effort lowering temperature. On hot days that's plenty of drying; on a 72°F rainy day, the AC hardly runs at all."
+        }
+      ]
+    },
+    {
+      "id": "how-we-pick",
+      "heading": "How we pick dehumidifier air conditioners",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don't run a test lab. For this guide we compared manufacturer specs and manuals for compressor type, dry or dehumidify modes and drainage, ENERGY STAR listings for efficiency, and the CPSC recall database. Then we read owner reviews for recurring complaints: rooms that stay clammy, leaking drain ports, noisy compressors."
+        },
+        {
+          "type": "p",
+          "text": "We gave the most weight to inverter compressors, which can run long, low-speed cycles that dry the air instead of short-cycling, and to options that control humidity on their own setting. We left out single-hose portables, which pull humid outdoor air into the house while they run."
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "What to look for in an AC and dehumidifier combo",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "An inverter compressor",
+              "text": "It slows down instead of switching off, so the coil stays cold and keeps condensing water. This matters more for humidity than raw BTUs."
+            },
+            {
+              "label": "A real dry mode",
+              "text": "Look for a dedicated dry or dehumidify setting — the water-drop icon on the remote — not just a low fan speed."
+            },
+            {
+              "label": "The right size, not the biggest",
+              "text": "An oversized AC cools the room in minutes and shuts off before it dries the air. Size by the room, not by the hottest day of the year."
+            },
+            {
+              "label": "Drainage you can live with",
+              "text": "In dehumidify mode, a portable can collect real water. A drain port and hose save you from emptying a tray.",
+              "sub": [
+                "Window units drip outside, which is one reason they're simpler.",
+                "Dedicated dehumidifiers can drain by gravity or a built-in pump."
+              ]
+            },
+            {
+              "label": "A way to measure humidity",
+              "text": "Most ACs don't display humidity. A cheap hygrometer tells you whether dry mode is actually working or whether you need a dedicated dehumidifier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "do-air-conditioners-dehumidify",
+      "heading": "Do air conditioners dehumidify?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, but only while the compressor is running and the coil is cold. When warm air passes over an evaporator coil below its dew point, water vapor condenses on the fins, drips into a pan and leaves through a condensate line — or, in a window unit, out the back."
+        },
+        {
+          "type": "p",
+          "text": "The amount depends on how long the system runs. On a 95°F afternoon, long cycles wring out a lot of water. On a mild, humid day, the thermostat is satisfied within minutes, and the compressor stops long before the coil has done much drying. Our [dehumidifier vs. air conditioner](/guides/dehumidifier-vs-air-conditioner/) guide walks through which machine fixes which problem."
+        },
+        {
+          "type": "h3",
+          "text": "How an oversized AC unit fails to dehumidify"
+        },
+        {
+          "type": "p",
+          "text": "An AC that's too big for the space hits the thermostat setting too quickly. Short cycles mean the coil spends much of each run just getting cold, and the water it does collect may still be clinging to the fins when the compressor stops. If the blower keeps running, that water re-evaporates straight back into the house. The result is the classic cold-but-clammy room."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Set the thermostat fan to Auto, not On**, so the blower doesn't blow moisture off a wet coil between cycles.",
+            "**Use a thermostat's dehumidify feature** if it has one; some slow the blower or let the AC cool slightly below setpoint to dry the air.",
+            "**Ask about variable-speed or two-stage equipment** when it's time to replace a system. They run longer at lower output, which is better for humidity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dry-mode-vs-dehumidifier",
+      "heading": "AC dry mode vs. dehumidifier vs. whole-house unit",
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "",
+            "AC dry mode",
+            "Portable dehumidifier",
+            "Whole-house dehumidifier"
+          ],
+          "rows": [
+            [
+              "What controls it",
+              "Temperature and preset fan logic",
+              "A humidity setpoint",
+              "A humidity setpoint"
+            ],
+            [
+              "Effect on temperature",
+              "Cools somewhat",
+              "Adds a little heat",
+              "Adds slight heat; often ducted to the return"
+            ],
+            [
+              "Works on cool, damp days",
+              "Partly",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Coverage",
+              "One room",
+              "One room or open area",
+              "Whole house"
+            ],
+            [
+              "Typical cost",
+              "Included with the AC",
+              "Usually under $300",
+              "$1,500+ installed"
+            ]
+          ],
+          "caption": "Dry mode is a useful extra. It isn't a substitute for humidity control in a basement or a whole house."
+        },
+        {
+          "type": "p",
+          "text": "If you have central air, look at our [best whole-house dehumidifier](/best/best-whole-house-dehumidifier/) and [best ducted dehumidifier](/best/best-ducted-dehumidifier/) guides. If your home uses ductless heat pumps, our [dehumidifier for mini split](/best/best-dehumidifier-for-mini-split/) guide covers how their dry modes compare."
+        }
+      ]
+    },
+    {
+      "id": "will-a-dehumidifier-help-my-ac",
+      "heading": "Will a dehumidifier help my AC?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Usually, yes. Drier air feels cooler, so many households can raise the thermostat a degree or two once humidity is under control, and the AC spends less effort on moisture. A dehumidifier does give off a little warmth, though, so it won't cool a room on its own — more on that in [does a dehumidifier cool a room?](/guides/does-a-dehumidifier-cool-a-room/)"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Let the air conditioner handle hot afternoons, when its long cycles dry the air too.",
+            "Set a dehumidifier to 45–50% for mild, rainy stretches when the AC barely runs.",
+            "Put the dehumidifier in the dampest area — often the basement — not next to an AC vent.",
+            "Once humidity is steady, nudge the thermostat up a degree and see if you notice the difference."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Running cost check",
+          "text": "A 50-pint ENERGY STAR dehumidifier uses far less power than running central air just to dry the house. Our [electricity guide](/guides/how-much-electricity-does-a-dehumidifier-use/) has the math."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For a single room, the **Midea Duo** is the best AC and dehumidifier combo, and the **Midea U** is the window unit to get if your window allows it. With central air, add the **Aprilaire E100** to dry the whole house on its own schedule. And if your AC is fine but the house still feels damp, don't replace it — pair it with a dedicated dehumidifier like the **Midea Cube 50** and let each machine do the job it was built for."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do air conditioners dehumidify?",
+      "a": "Yes. Water condenses on the cold coil and drains away whenever the compressor runs. But removal depends on run time, so on mild, humid days when the AC cycles off quickly, it removes much less moisture than people expect."
+    },
+    {
+      "q": "Is there a window air conditioner with a dehumidifier built in?",
+      "a": "Many window ACs include a dry or dehumidify mode, including the Midea U. It helps on muggy days, but it doesn't hold an exact humidity setting the way a standalone dehumidifier does."
+    },
+    {
+      "q": "What does dehum or dry mode on my AC do?",
+      "a": "It runs the compressor with a slow fan so the coil stays colder and condenses more water, while cooling less aggressively. It's useful when the room is comfortable but sticky."
+    },
+    {
+      "q": "Dehumidifier vs. AC: which should I buy?",
+      "a": "If the room is hot, buy an air conditioner. If it's comfortable but damp, especially a basement, buy a dehumidifier. Many humid-climate homes end up with both."
+    },
+    {
+      "q": "Will a dehumidifier help my AC?",
+      "a": "Usually. Removing moisture takes load off the air conditioner and lets you set the thermostat a little higher. Just keep the dehumidifier away from the AC's return or vents so they don't work against each other."
+    },
+    {
+      "q": "Can you add a dehumidifier to a central air conditioner?",
+      "a": "Yes. Whole-house dehumidifiers such as the Aprilaire E100 tie into existing ductwork and run on their own humidity control. Installation is usually a job for an HVAC contractor."
+    },
+    {
+      "q": "Does a portable AC unit dehumidify?",
+      "a": "Yes, all portable ACs remove some moisture, and most have a dehumidify mode. Dual-hose and hose-in-hose designs handle humid weather better than single-hose units, which pull outside air into the house."
+    }
+  ],
+  "related": [
+    "/guides/dehumidifier-vs-air-conditioner/",
+    "/guides/does-a-dehumidifier-cool-a-room/",
+    "/best/best-dehumidifier-for-mini-split/",
+    "/best/best-whole-house-dehumidifier/",
+    "/best/best-ducted-dehumidifier/",
+    "/best/best-50-pint-dehumidifier/"
+  ]
+}
