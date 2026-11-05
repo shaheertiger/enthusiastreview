@@ -213,5 +213,55 @@
     "name": "Waykar 34-Pint ENERGY STAR Dehumidifier",
     "asin": "B0GT9WCDWK",
     "image": ""
+  },
+  "levoit-core-300s": {
+    "name": "Levoit Core 300S Smart Air Purifier",
+    "asin": "B07VVK39F7",
+    "image": "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg"
+  },
+  "levoit-core-400s": {
+    "name": "Levoit Core 400S Smart Air Purifier",
+    "asin": "B08R794ZMX",
+    "image": "https://m.media-amazon.com/images/I/414Wkl-jqYL._SL500_.jpg"
+  },
+  "levoit-core-600s": {
+    "name": "Levoit Core 600S Smart Air Purifier",
+    "asin": "B09BJMY8HL",
+    "image": "https://m.media-amazon.com/images/I/41SJAZr8c6L._SL500_.jpg"
+  },
+  "aprilaire-600": {
+    "name": "Aprilaire 600 Bypass Whole-House Humidifier",
+    "asin": "B000PY1IQ6",
+    "image": "https://m.media-amazon.com/images/I/31ft+7ztM3L._SL500_.jpg"
+  },
+  "aprilaire-700": {
+    "name": "Aprilaire 700 Fan-Powered Whole-House Humidifier",
+    "asin": "B00DJVISBK",
+    "image": "https://m.media-amazon.com/images/I/31p+qHjkElL._SL500_.jpg"
+  },
+  "aprilaire-800": {
+    "name": "Aprilaire 800 Steam Whole-House Humidifier",
+    "asin": "B0CM85KV9F",
+    "image": "https://m.media-amazon.com/images/I/31o2+B86FtL._SL500_.jpg"
+  },
+  "honeywell-he280": {
+    "name": "Honeywell HE280 Bypass Whole-House Humidifier",
+    "asin": "B00GPJ46N2",
+    "image": "https://m.media-amazon.com/images/I/31nDiCHheIL._SL500_.jpg"
+  },
+  "levoit-oasismist-450s": {
+    "name": "Levoit OasisMist 450S Smart Humidifier",
+    "asin": "B0B1DQ8KV3",
+    "image": "https://m.media-amazon.com/images/I/41eLomba1WL._SL500_.jpg"
+  },
+  "levoit-classic-300s": {
+    "name": "Levoit Classic 300S Smart Humidifier",
+    "asin": "B09C24TYGQ",
+    "image": "https://m.media-amazon.com/images/I/41+f3SMhFYL._SL500_.jpg"
+  },
+  "levoit-lv600hh": {
+    "name": "Levoit LV600HH Warm and Cool Mist Humidifier",
+    "asin": "B08FHZTYJB",
+    "image": "https://m.media-amazon.com/images/I/41elLoQYNfL._SL500_.jpg"
   }
 }
