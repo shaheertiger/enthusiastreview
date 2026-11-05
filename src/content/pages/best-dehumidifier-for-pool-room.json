@@ -76,7 +76,7 @@
       "pros": [
         "Compact body for tighter enclosures",
         "Same epoxy-coated coil as the HDi90",
-        "Built-in pump plus a gravity drain option",
+        "Continuous gravity drain hose",
         "Right-sized for a smaller evaporation load"
       ],
       "cons": [
@@ -84,11 +84,11 @@
         "Utilitarian looks in a living space"
       ],
       "whyWeLoveIt": "A hot tub or plunge-pool sunroom carries a smaller, but still nonstop, moisture load. The HD55 brings the same corrosion protection as its bigger sibling in a body that actually fits a compact enclosure, without paying for capacity you won't use.",
-      "performance": "AlorAir rates the HD55 at 55 pints a day under AHAM conditions. It includes a built-in condensate pump and a gravity drain spigot, so you can choose how to remove water depending on where the unit sits relative to a drain. The epoxy-coated coil is the same protective treatment found on the HDi90.",
+      "performance": "AlorAir rates the HD55 at 55 pints a day under AHAM conditions. It drains through a gravity hose, so site it above a floor drain or pair it with a separate condensate pump. The epoxy-coated coil is the same protective treatment found on the HDi90.",
       "specs": {
         "Capacity": "55 pints/day (AHAM)",
         "Coil": "Epoxy-coated",
-        "Drainage": "Built-in pump or gravity",
+        "Drainage": "Gravity hose",
         "Type": "Commercial compressor",
         "Best for": "Hot-tub and spa enclosures"
       }
@@ -126,9 +126,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "50–60%", "label": "ASHRAE's recommended humidity range for an indoor pool, with 55% as the sweet spot" },
-            { "value": "~6 gal/hr", "label": "Evaporation from a 75×25-ft pool with the room at 50% humidity" },
-            { "value": "~10 gal/hr", "label": "The same pool's evaporation if the room drops below 30%" }
+            {
+              "value": "50–60%",
+              "label": "ASHRAE's recommended humidity range for an indoor pool, with 55% as the sweet spot"
+            },
+            {
+              "value": "~6 gal/hr",
+              "label": "Evaporation from a 75×25-ft pool with the room at 50% humidity"
+            },
+            {
+              "value": "~10 gal/hr",
+              "label": "The same pool's evaporation if the room drops below 30%"
+            }
           ]
         },
         {
@@ -188,12 +197,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Space", "Typical capacity", "Example pick"],
+          "head": [
+            "Space",
+            "Typical capacity",
+            "Example pick"
+          ],
           "rows": [
-            ["Hot tub or spa sunroom, occasional use", "50 pints (DOE)", "Frigidaire FHDD5034Y1"],
-            ["Hot tub or plunge-pool enclosure, daily use", "About 55 pints (AHAM)", "AlorAir Sentinel HD55"],
-            ["Small-to-medium home pool room", "About 90 pints (AHAM)", "AlorAir Sentinel HDi90"],
-            ["Large lap-pool room", "130 pints or more", "Aprilaire E130"]
+            [
+              "Hot tub or spa sunroom, occasional use",
+              "50 pints (DOE)",
+              "Frigidaire FHDD5034Y1"
+            ],
+            [
+              "Hot tub or plunge-pool enclosure, daily use",
+              "About 55 pints (AHAM)",
+              "AlorAir Sentinel HD55"
+            ],
+            [
+              "Small-to-medium home pool room",
+              "About 90 pints (AHAM)",
+              "AlorAir Sentinel HDi90"
+            ],
+            [
+              "Large lap-pool room",
+              "130 pints or more",
+              "Aprilaire E130"
+            ]
           ],
           "caption": "Rough guidance only. Pool cover use, water temperature and air temperature all change the load."
         },
