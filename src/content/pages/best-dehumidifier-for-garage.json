@@ -32,9 +32,9 @@
         "Bulky in a tight garage"
       ],
       "whyWeLoveIt": "It checks every box a typical attached garage needs: enough capacity to dry a two-car space without running flat-out, defrost for cool shoulder seasons, and a filter you can rinse when it clogs with sawdust and grit.",
-      "performance": "Waykar rates it at 80 pints a day, which gives it real headroom in a damp garage. Its automatic defrost cycle keeps the coils clear into the low 40s, so it stays useful in spring and fall. Owners report it brings a muggy garage down quickly and then cycles quietly to hold the setpoint. Hook a hose to its drain port and run it to a floor drain or out the door, and it becomes a set-and-forget machine.",
+      "performance": "Waykar sells it as an 80-pint unit, but that figure comes from a hot, saturated test condition; under the DOE 2019 test it's closer to 25 pints a day, which still suits a damp one- or two-car garage (see our [Waykar guide](/best/best-waykar-dehumidifier/) for the details). Its automatic defrost cycle keeps the coils clear into the low 40s, so it stays useful in spring and fall. Owners report it brings a muggy garage down quickly and then cycles quietly to hold the setpoint. Hook a hose to its drain port and run it to a floor drain or out the door, and it becomes a set-and-forget machine.",
       "specs": {
-        "Capacity": "80 pints/day (Waykar)",
+        "Capacity": "Sold as 80 pints; about 25 pints/day (DOE 2019)",
         "Type": "Compressor",
         "Low-temp operation": "Auto-defrost to about 41°F",
         "Drainage": "Bucket or continuous hose",
@@ -152,9 +152,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "40–50%", "label": "Target humidity to protect tools, drywall and stored gear" },
-            { "value": "~65°F", "label": "Below this, compressor units lose efficiency and can ice up" },
-            { "value": "~33°F", "label": "How low a desiccant dehumidifier can keep working" }
+            {
+              "value": "40–50%",
+              "label": "Target humidity to protect tools, drywall and stored gear"
+            },
+            {
+              "value": "~65°F",
+              "label": "Below this, compressor units lose efficiency and can ice up"
+            },
+            {
+              "value": "~33°F",
+              "label": "How low a desiccant dehumidifier can keep working"
+            }
           ]
         },
         {
