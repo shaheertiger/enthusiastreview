@@ -22,9 +22,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "$139/yr", "label": "Standard Prime price, or $14.99 billed monthly" },
-            { "value": "30 days", "label": "Length of Amazon's free Prime trial for new members" },
-            { "value": "24–48 hrs", "label": "How fast mold can take hold on a damp surface, per the EPA" }
+            {
+              "value": "$139/yr",
+              "label": "Standard Prime price, or $14.99 billed monthly"
+            },
+            {
+              "value": "30 days",
+              "label": "Length of Amazon's free Prime trial for new members"
+            },
+            {
+              "value": "24–48 hrs",
+              "label": "How fast mold can take hold on a damp surface, per the EPA"
+            }
           ]
         },
         {
@@ -39,13 +48,31 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Prime perk", "Why it matters for a dehumidifier"],
+          "head": [
+            "Prime perk",
+            "Why it matters for a dehumidifier"
+          ],
           "rows": [
-            ["Fast, free delivery", "A 50-pint unit can arrive in a day or two while the basement is still wet, without a freight charge."],
-            ["30-day free trial", "Sign up, order the unit and cancel before the first charge if you don't want to stay."],
-            ["Easier returns", "Wrong size or too loud? Returning a 40-pound appliance is far less painful."],
-            ["Fast reorders", "Replacement filters, drain hoses and hygrometers arrive quickly all season."],
-            ["Member deals", "Prime-exclusive prices and Prime Day sales on appliances can offset the fee."]
+            [
+              "Fast, free delivery",
+              "A 50-pint unit can arrive in a day or two while the basement is still wet, without a freight charge."
+            ],
+            [
+              "30-day free trial",
+              "Sign up, order the unit and cancel before the first charge if you don't want to stay."
+            ],
+            [
+              "Easier returns",
+              "Wrong size or too loud? Returning a 40-pound appliance is far less painful."
+            ],
+            [
+              "Fast reorders",
+              "Replacement filters, drain hoses and hygrometers arrive quickly all season."
+            ],
+            [
+              "Member deals",
+              "Prime-exclusive prices and Prime Day sales on appliances can offset the fee."
+            ]
           ]
         },
         {
@@ -153,6 +180,10 @@
     {
       "q": "Does Prime include free shipping on large dehumidifiers?",
       "a": "Generally, yes, on eligible listings that show the Prime badge, including heavier 50-pint units. Check the listing for the Prime label and the estimated delivery date."
+    },
+    {
+      "q": "Should I wait for Prime Day to buy a dehumidifier?",
+      "a": "Only if your space isn't actively damp. Prime Day and other member sales can bring real discounts on appliances, but if a basement is wet or a room already smells musty, the cost of waiting — mold, damaged drywall or flooring — can easily outweigh any savings."
     },
     {
       "q": "Can I return a dehumidifier I bought with Prime?",

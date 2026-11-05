@@ -1,0 +1,244 @@
+{
+  "slug": "whole-house-dehumidifier-installation",
+  "section": "guides",
+  "category": "How-To & Fixes",
+  "navLabel": "Whole-House Install",
+  "title": "Whole House Dehumidifier Installation: Steps, Options & Cost",
+  "h1": "Whole-House Dehumidifier Installation: What to Expect",
+  "dek": "Ducting layouts, drains, wiring, controls and what it really costs — a clear walkthrough before you call an HVAC contractor.",
+  "description": "Whole house dehumidifier installation explained: ducting layouts, condensate drains, electrical and controls, typical installed costs, and DIY vs. pro.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "A whole-house dehumidifier is a bigger commitment than a portable unit, but it's the most hands-off way to control humidity: no buckets, no machines in your living space, just steady, dry air delivered through your ductwork. A good **whole house dehumidifier installation** depends on choosing the right ducting layout, planning a reliable condensate drain, and wiring and controlling it correctly.",
+    "Most homeowners hire an HVAC contractor for this, and for good reason — the work touches ductwork, electrical and drainage. But knowing how it's done helps you compare quotes, ask the right questions and avoid an install that underperforms.",
+    "Here's how whole-home dehumidifiers connect, what the installation involves, what it typically costs and when a DIY install is realistic."
+  ],
+  "products": [
+    {
+      "id": "aprilaire-e100",
+      "catalogId": "aprilaire-e100",
+      "name": "Aprilaire E100 Whole-House Dehumidifier",
+      "shortName": "Aprilaire E100",
+      "award": "Best overall",
+      "pros": [
+        "Up to 100 pints/day",
+        "Ducted or freestanding",
+        "ENERGY STAR Most Efficient",
+        "Five-year warranty"
+      ],
+      "cons": [
+        "Professional install recommended",
+        "Large unit needs a mechanical space"
+      ],
+      "whyWeLoveIt": "The E100 is one of the most widely installed whole-home dehumidifiers, flexible enough to tie into existing HVAC ducts or run with its own, and efficient enough to justify running all season.",
+      "performance": "Aprilaire rates it at up to 100 pints a day and coverage up to about 5,500 square feet. Contractors are familiar with it, which makes quotes and service easier to find. See more in our [best whole-house dehumidifier](/best/best-whole-house-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "Up to 100 pints/day",
+        "Coverage": "Up to about 5,500 sq ft",
+        "Install": "Ducted or freestanding",
+        "Efficiency": "ENERGY STAR Most Efficient",
+        "Warranty": "5 years"
+      }
+    },
+    {
+      "id": "honeywell-dr90a3000",
+      "catalogId": "honeywell-dr90a3000",
+      "name": "Honeywell DR90A3000 Whole-House Dehumidifier",
+      "shortName": "Honeywell DR90A3000",
+      "award": "Best for forced-air systems",
+      "pros": [
+        "Designed to integrate with HVAC ductwork",
+        "90 pints per day",
+        "Familiar brand for HVAC contractors"
+      ],
+      "cons": [
+        "Needs an experienced installer",
+        "Less suited to homes without ducts"
+      ],
+      "whyWeLoveIt": "If your home already has forced-air heating and cooling, the DR90A3000 is built to slot into that system, delivering dry air to every room through the vents you already have.",
+      "performance": "It's rated at 90 pints per day and is typically installed beside the furnace or air handler with its own dehumidistat control. Like any ducted unit, it needs a properly trapped condensate drain. Compare it with others in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "90 pints/day",
+        "Type": "Ducted whole-house",
+        "Install": "Connects to HVAC ductwork",
+        "Drainage": "Condensate line",
+        "Best for": "Homes with forced-air HVAC"
+      }
+    },
+    {
+      "id": "santa-fe-ultra-v100",
+      "catalogId": "santa-fe-ultra-v100",
+      "name": "Santa Fe Ultra V100 Ventilating Dehumidifier",
+      "shortName": "Santa Fe Ultra V100",
+      "award": "Best with fresh-air ventilation",
+      "pros": [
+        "Brings in filtered fresh air while drying",
+        "MERV-13 filtration",
+        "Six-year warranty"
+      ],
+      "cons": [
+        "Extra fresh-air duct adds install complexity",
+        "Premium price"
+      ],
+      "whyWeLoveIt": "Tight, energy-efficient homes often need fresh air as well as dry air. The Ultra V100 handles both, pulling in outdoor air through a dedicated duct, filtering it and drying it before it's distributed.",
+      "performance": "Santa Fe rates it at 100 pints a day for homes up to about 2,300 square feet, with MERV-13 filtration and an 8-inch fresh-air duct connection. It's a strong choice for newer homes that run stuffy and humid. More in our [best Santa Fe dehumidifier](/best/best-santa-fe-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "100 pints/day",
+        "Coverage": "Up to about 2,300 sq ft",
+        "Filtration": "MERV-13",
+        "Ventilation": "8-inch fresh-air duct",
+        "Warranty": "6 years"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "layouts",
+      "heading": "How whole-house dehumidifiers connect to your home",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Layout", "How air flows", "Pros", "Watch out for"],
+          "rows": [
+            ["Return-to-supply", "Pulls from the return duct, sends dry air into the supply side", "Common, uses existing ducts", "Needs a backdraft damper; often runs with the HVAC fan"],
+            ["Return-to-return", "Pulls from and discharges into the return duct", "Simple ducting", "Dry air must pass through the air handler to reach rooms"],
+            ["Stand-alone ducted", "Own intake and supply ducts, independent of HVAC", "Works without central air", "More duct runs to install"],
+            ["Ventilating", "Adds an outdoor fresh-air duct to one of the above", "Dries and ventilates", "Extra duct and outdoor penetration"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Your contractor will choose a layout based on your duct system, where the unit can go and whether your home also needs ventilation. Ask them to explain why they chose the layout they recommend."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "How to install a whole house dehumidifier: the steps",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Size the unit.** The contractor estimates the moisture load from square footage, climate, airtightness and occupancy.",
+            "**Choose the location.** Usually a basement, utility room, crawl space or attic near the air handler, with access for filter changes.",
+            "**Mount the unit.** Set it on a platform or suspend it as the manual allows. Attic installs typically need a secondary drain pan.",
+            "**Connect the ducts.** Cut in the intake and supply connections, add a backdraft damper where needed and seal all joints.",
+            "**Run the condensate drain.** Install a trapped drain line to a floor drain, sump or condensate pump.",
+            "**Wire power and controls.** Connect to a dedicated outlet or circuit, and install the dehumidistat or wall control.",
+            "**Commission and test.** Verify airflow, drainage and that humidity falls to the set point, usually around 45–50%."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drainage",
+      "heading": "Condensate drain options",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "**Gravity drain** to a floor drain or sump pit — simplest and most reliable.",
+            "**Condensate pump** when no downhill route exists — choose one with a safety switch.",
+            "**Shared HVAC drain** — possible in some setups, but confirm it can handle the volume."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A whole-house unit can produce gallons of water a day in humid weather, so the drain must be reliable. In attics or above finished spaces, overflow protection is essential."
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "heading": "Electrical and controls",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most residential whole-house dehumidifiers use a standard 115-volt supply, ideally on a dedicated circuit. Controls vary: some units come with a wall-mounted dehumidistat, while others integrate with compatible smart thermostats. If the unit should run with the HVAC blower, the installer will wire the control so the fan comes on when the dehumidifier calls."
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "heading": "How much does whole house dehumidifier installation cost?",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Item", "Typical estimate"],
+          "rows": [
+            ["Whole-house unit (70–130 pints)", "$1,200–$3,000"],
+            ["Installation labor and materials", "$800–$2,000"],
+            ["Typical total, installed", "$2,000–$4,500"],
+            ["Complex installs (attic, new ducts, ventilation)", "$5,000+"],
+            ["New dedicated circuit", "Often a few hundred dollars"]
+          ],
+          "caption": "Typical estimates only. Costs vary by region, home size, duct layout and access."
+        },
+        {
+          "type": "p",
+          "text": "Running costs matter too. A whole-home unit can run for hundreds of hours each summer, so ENERGY STAR Most Efficient models pay back over time. See our [dehumidifier electricity guide](/guides/how-much-electricity-does-a-dehumidifier-use/)."
+        }
+      ]
+    },
+    {
+      "id": "diy-vs-pro",
+      "heading": "DIY vs. professional installation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A freestanding whole-house unit with simple ducting is within reach for an experienced DIYer. But tying into HVAC ducts, wiring controls to the air handler and planning drainage are jobs most homeowners leave to a licensed HVAC contractor. Some manufacturers require professional installation for full warranty coverage, so read the terms first, and check whether your area requires a permit."
+        },
+        {
+          "type": "callout",
+          "title": "Questions to ask your installer",
+          "text": "Which layout will you use and why? Where will the condensate drain? Is a backdraft damper included? Who handles electrical work and permits? What does the labor warranty cover?"
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A well-planned whole house dehumidifier installation gives you invisible, automatic humidity control. Choose a layout that fits your ducts, insist on a reliable condensate drain and plan for dedicated power and a good control. Expect roughly $2,000–$4,500 installed for most homes. The **Aprilaire E100** is our all-around pick, the **Honeywell DR90A3000** suits forced-air systems and the **Santa Fe Ultra V100** adds fresh-air ventilation. If you only need to dry a crawl space, see our [crawl space dehumidifier installation](/guides/crawl-space-dehumidifier-installation/) guide, or compare installed and freestanding options in [best wall-mounted dehumidifiers](/best/best-wall-mounted-dehumidifier/)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does a whole house dehumidifier cost installed?",
+      "a": "As a typical estimate, most homeowners pay about $2,000–$4,500 for a whole-house dehumidifier installed. Complex jobs involving attic installs, new ductwork or ventilation can exceed $5,000."
+    },
+    {
+      "q": "How is a whole house dehumidifier installed?",
+      "a": "The unit is sized, placed near the air handler or in a utility space, connected to ductwork, given a trapped condensate drain, wired to power and a control, then commissioned to confirm airflow and drainage."
+    },
+    {
+      "q": "Can I install a whole house dehumidifier myself?",
+      "a": "Experienced DIYers can install a freestanding unit with simple ducting. HVAC integration, electrical work and drainage are usually best left to a licensed contractor, and some warranties require professional installation."
+    },
+    {
+      "q": "Where should a whole house dehumidifier be installed?",
+      "a": "Typically in a basement, utility room, crawl space or attic near the HVAC air handler, with access for maintenance and a nearby drain."
+    },
+    {
+      "q": "Is a whole home dehumidifier worth the cost?",
+      "a": "In humid climates, tightly built homes or houses where AC leaves the air clammy, often yes. It delivers consistent humidity control throughout the home without buckets or portable units."
+    },
+    {
+      "q": "Does a whole house dehumidifier need its own circuit?",
+      "a": "A dedicated circuit is recommended because the unit can run for long periods. Your installer or electrician will confirm what your unit requires."
+    }
+  ],
+  "related": [
+    "/best/best-whole-house-dehumidifier/",
+    "/best/best-aprilaire-dehumidifier/",
+    "/best/best-santa-fe-dehumidifier/",
+    "/compare/aprilaire-vs-santa-fe-dehumidifier/",
+    "/guides/crawl-space-dehumidifier-installation/",
+    "/best/best-wall-mounted-dehumidifier/"
+  ]
+}
