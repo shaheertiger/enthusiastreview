@@ -14,12 +14,13 @@
     "That makes cold-weather performance the most important spec. An ordinary compressor dehumidifier ices over around 41°F and quietly stops working on the very nights a greenhouse needs it. The best picks here use auto-defrost or desiccant technology to keep removing moisture when it's cold.",
     "We compared models using manufacturer specs for capacity and low-temperature operation, extension-service humidity guidance, manuals and owner reports from growers. We don't lab-test; figures below are published ratings."
   ],
-  "topPicksLead": "For most greenhouses, the **AlorAir Sentinel HDi65** is the one to buy: big continuous capacity, a built-in pump and auto-defrost that keeps it working on cold nights.",
+  "topPicksLead": "For most greenhouses, the **AlorAir Sentinel HDi65S** is the one to buy: big continuous capacity, a built-in pump and auto-defrost that keeps it working on cold nights.",
   "products": [
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best overall",
       "pros": [
         "Up to 120 pints/day at saturation",
@@ -38,31 +39,34 @@
         "Low-temp operation": "Auto-defrost to about 36°F",
         "Drainage": "Built-in pump, 19.6-ft lift",
         "Type": "Commercial compressor",
-        "Best for": "Most backyard and mid-size greenhouses"
+        "Best for": "Most backyard and mid-size greenhouses",
+        "Smart control": "Wi-Fi app with alerts"
       }
     },
     {
-      "id": "quest-dual-105-overhead",
-      "name": "Quest Dual 105 Overhead Dehumidifier",
-      "shortName": "Quest Dual 105",
+      "id": "alorair-storm-elite",
+      "catalogId": "alorair-storm-elite",
+      "name": "AlorAir Storm Elite LGR Dehumidifier",
+      "shortName": "AlorAir Storm Elite",
       "award": "Best for commercial greenhouses",
       "pros": [
-        "105 pints/day at AHAM conditions",
-        "Draws just 4.9 amps",
-        "Mounts overhead to free bench space",
-        "MERV-11 filtration and auto-restart"
+        "125 pints/day at AHAM, 270 at saturation",
+        "Auto-defrost and filtered intake for unheated structures",
+        "Built-in pump and roll-cage housing",
+        "Often replaces two smaller units"
       ],
       "cons": [
-        "Expensive, commercial-grade investment",
-        "Needs a sturdy overhead mounting point"
+        "Costs far more than a household unit",
+        "Takes up floor space, unlike overhead-mounted grow units",
+        "Far beyond what a hobby greenhouse needs"
       ],
-      "whyWeLoveIt": "In a production bay, every square foot of bench space earns money. The Quest Dual 105 hangs from the structure, so you get commercial capacity without giving up growing room.",
-      "performance": "Quest rates it at 105 pints a day at AHAM conditions on a modest 4.9-amp draw, so it won't monopolize a greenhouse circuit. It's designed for continuous operation, with auto-restart after power interruptions and MERV-11 filtration to keep dust and debris off the coils. For ducted options serving connected structures, see our [best whole-house dehumidifier](/best/best-whole-house-dehumidifier/) guide.",
+      "whyWeLoveIt": "In a production bay, one machine that can keep up with a full house of transpiring plants beats a row of small ones. The Storm Elite moves enough water to often replace two smaller units, and it keeps working when the house cools off at night.",
+      "performance": "AlorAir rates it at 125 pints a day under AHAM conditions and 270 at saturation, with coverage up to about 3,000 square feet of open area. It shares the smaller Storm models’ auto-defrost and filtered intake, so it’s comfortable in unheated structures, and the built-in pump sends water to a drain, rain barrel or irrigation tank. Large houses often need several. For more heavy-duty options, see our [best commercial dehumidifier](/best/best-commercial-dehumidifier/) roundup.",
       "specs": {
-        "Capacity": "105 pints/day (AHAM)",
-        "Power": "4.9 A",
-        "Mounting": "Overhead",
-        "Filtration": "MERV-11",
+        "Capacity": "125 pints/day (AHAM); 270 at saturation",
+        "Type": "LGR compressor",
+        "Drainage": "Built-in pump",
+        "Coverage": "Up to about 3,000 sq ft",
         "Best for": "Commercial greenhouse bays"
       }
     },
@@ -189,8 +193,8 @@
           "type": "table",
           "head": ["Model", "Best for", "Capacity", "Cold-weather operation"],
           "rows": [
-            ["AlorAir Sentinel HDi65", "Most greenhouses", "120 pints (saturation)", "Auto-defrost to ~36°F"],
-            ["Quest Dual 105 Overhead", "Commercial bays", "105 pints (AHAM)", "Commercial, overhead-mounted"],
+            ["AlorAir Sentinel HDi65S", "Most greenhouses", "120 pints (saturation)", "Auto-defrost to ~36°F"],
+            ["AlorAir Storm Elite", "Commercial bays", "125 pints (AHAM)", "LGR with auto-defrost"],
             ["Ivation 13-Pint Desiccant", "Small hobby greenhouse", "13 pints, up to 270 sq ft", "Desiccant, to ~33°F"],
             ["Frigidaire FHDD5034W1", "Warm-season budget use", "50 pints (DOE)", "Ices below ~41°F"]
           ]
@@ -209,8 +213,8 @@
           "type": "ul",
           "items": [
             "**Under ~300 sq ft, light planting:** a small desiccant unit like the Ivation.",
-            "**Backyard to mid-size, year-round growing:** a crawl-space-grade unit like the AlorAir Sentinel HDi65.",
-            "**Commercial bays:** overhead units like the Quest Dual 105, often several in a large house. See our [best commercial dehumidifier](/best/best-commercial-dehumidifier/) roundup."
+            "**Backyard to mid-size, year-round growing:** a crawl-space-grade unit like the AlorAir Sentinel HDi65S.",
+            "**Commercial bays:** high-capacity LGR units like the AlorAir Storm Elite, often several in a large house; overhead-mounted grow-room units are an option where bench space is tight. See our [best commercial dehumidifier](/best/best-commercial-dehumidifier/) roundup."
           ]
         },
         {
@@ -240,7 +244,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **AlorAir Sentinel HDi65** is the best greenhouse dehumidifier for most growers: real capacity plus auto-defrost that keeps it working through cold nights. Choose the **Quest Dual 105 Overhead** for commercial bays where floor space matters, the **Ivation 13-Pint Desiccant** for a small hobby greenhouse, and a standard unit like the **Frigidaire FHDD5034W1** only if you need help in warm weather alone. Keep the air at 50–60% and below 80% at night, and you'll take away the conditions fungal diseases depend on."
+          "text": "The **AlorAir Sentinel HDi65S** is the best greenhouse dehumidifier for most growers: real capacity plus auto-defrost that keeps it working through cold nights. Choose the **AlorAir Storm Elite** for commercial bays that need the most capacity, the **Ivation 13-Pint Desiccant** for a small hobby greenhouse, and a standard unit like the **Frigidaire FHDD5034W1** only if you need help in warm weather alone. Keep the air at 50–60% and below 80% at night, and you'll take away the conditions fungal diseases depend on."
         }
       ]
     }
@@ -248,7 +252,7 @@
   "faqs": [
     {
       "q": "What is the best greenhouse dehumidifier?",
-      "a": "For most greenhouses, the AlorAir Sentinel HDi65. It removes up to 120 pints a day at saturation, keeps running to about 36°F thanks to auto-defrost and has a built-in pump. Large commercial bays suit the overhead Quest Dual 105; small hobby greenhouses can use the Ivation 13-Pint Desiccant."
+      "a": "For most greenhouses, the AlorAir Sentinel HDi65S. It removes up to 120 pints a day at saturation, keeps running to about 36°F thanks to auto-defrost and has a built-in pump. Large commercial bays suit the AlorAir Storm Elite LGR; small hobby greenhouses can use the Ivation 13-Pint Desiccant."
     },
     {
       "q": "What humidity should a greenhouse be?",

@@ -6,12 +6,12 @@
   "title": "Best Anden Dehumidifier (2026): A70, A130 & A320 Compared",
   "h1": "The Best Anden Dehumidifiers for Grow Rooms",
   "dek": "Every gallon you water comes back out of the leaves. Anden builds industrial dehumidifiers sized for exactly that job.",
-  "description": "The best Anden dehumidifier for your grow: the A70, A130 and 320-pint A320 compared, plus grow-room sizing, 240V wiring and alternatives from Quest and AlorAir.",
+  "description": "The best Anden dehumidifier for your grow: the A70, A130 and 320-pint A320 compared, plus grow-room sizing, 240V wiring and LGR and budget alternatives from AlorAir.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
     "An **Anden dehumidifier** is built for one of the toughest moisture loads indoors: a room full of thirsty plants. Anden is the indoor-agriculture brand of Research Products Corporation, the Madison, Wisconsin, company behind Aprilaire, and its grow-optimized industrial dehumidifiers are a common sight in licensed cultivation rooms and serious home grows.",
-    "The lineup is straightforward. The **A70**, **A130** and **A320** are named for the pints of water each removes per day at standard 80°F, 60% humidity conditions, so the model number tells you the size. The trick is picking the right one — and deciding whether a single big unit or several smaller ones suits your space better. Below we compare the main Anden models, show how to size one from your watering schedule, and point to alternatives from Quest and AlorAir."
+    "The lineup is straightforward. The **A70**, **A130** and **A320** are named for the pints of water each removes per day at standard 80°F, 60% humidity conditions, so the model number tells you the size. The trick is picking the right one — and deciding whether a single big unit or several smaller ones suits your space better. Below we compare the main Anden models, show how to size one from your watering schedule, see how Anden stacks up against Quest, and point to alternatives from AlorAir."
   ],
   "topPicksLead": "For most single grow rooms, the **Anden A130** is the best Anden dehumidifier: it runs on a standard 120-volt circuit while handling the moisture from a substantial canopy.",
   "products": [
@@ -92,26 +92,28 @@
       }
     },
     {
-      "id": "quest-dual-155",
-      "name": "Quest Dual 155 Dehumidifier",
-      "shortName": "Quest Dual 155",
+      "id": "alorair-storm-elite",
+      "catalogId": "alorair-storm-elite",
+      "name": "AlorAir Storm Elite LGR Dehumidifier",
+      "shortName": "AlorAir Storm Elite",
       "award": "Best alternative",
       "pros": [
-        "Long-standing grow-room favorite",
-        "High efficiency for its class",
-        "Ductable for flexible placement"
+        "125 pints/day at AHAM, 270 at saturation",
+        "Built-in pump, so no drain-routing headaches",
+        "Auto-defrost for cooler lights-off periods",
+        "Filtered intake and roll-cage housing"
       ],
       "cons": [
-        "Often priced above a comparable Anden",
-        "Needs a drain or pump"
+        "Built for restoration, not tuned for grows",
+        "Bulky to place in a tight room"
       ],
-      "whyWeLoveIt": "Quest, from Therma-Stor, is Anden's most direct rival in indoor agriculture, and the Dual 155 sits just above the A130 in capacity. If you want a little more headroom than the A130 or already run Quest equipment, it's the one to compare.",
-      "performance": "Quest built its reputation on efficiency — more water removed per kilowatt-hour — which matters when a dehumidifier runs around the clock. Check the current spec sheet for capacity, voltage and amp draw before you plan your circuits. Our [best Quest dehumidifier](/best/best-quest-dehumidifier/) guide covers the full lineup.",
+      "whyWeLoveIt": "If you want capacity in the same range as the A130 but with a pump built in, the Storm Elite is the one to compare. It's a low-grain refrigerant (LGR) machine from the restoration world, so it's designed to keep pulling water around the clock and to keep going as the air gets drier.",
+      "performance": "AlorAir rates it at 125 pints a day at AHAM conditions and 270 at saturation, with coverage up to 3,000 square feet. Auto-defrost and a filtered intake make it comfortable when a room cools down after lights-off, and the built-in pump lets you send water to a sink or drain without planning a gravity run. Check the spec sheet for amp draw before you plan your circuits. Our [best LGR dehumidifier](/best/best-lgr-dehumidifier/) guide compares it with other LGR units.",
       "specs": {
-        "Capacity": "155-pint class (80°F/60% RH)",
-        "Type": "Industrial compressor",
-        "Drainage": "Gravity drain or pump",
-        "Install": "Freestanding or ducted",
+        "Capacity": "125 pints/day AHAM; 270 at saturation",
+        "Type": "LGR compressor",
+        "Drainage": "Built-in pump",
+        "Coverage": "Up to 3,000 sq ft",
         "Best for": "Mid-size to large grow rooms"
       }
     },
@@ -276,7 +278,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most single grow rooms, the **Anden A130** is the Anden to buy: 130 pints a day on a regular 120V circuit. Choose the **Anden A70** for small rooms and multi-tent setups, and the **Anden A320** for large or commercial rooms with 240V service. If you'd like to compare, the **Quest Dual 155** is the efficiency-focused rival and the **AlorAir Sentinel HDi90** is the budget route. Size from your watering, add headroom and plan your drain before the unit arrives."
+          "text": "For most single grow rooms, the **Anden A130** is the Anden to buy: 130 pints a day on a regular 120V circuit. Choose the **Anden A70** for small rooms and multi-tent setups, and the **Anden A320** for large or commercial rooms with 240V service. If you'd like to compare, the **AlorAir Storm Elite** brings similar capacity with a built-in pump, and the **AlorAir Sentinel HDi90** is the budget route. Size from your watering, add headroom and plan your drain before the unit arrives."
         }
       ]
     }

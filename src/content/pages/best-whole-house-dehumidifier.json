@@ -128,9 +128,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir HDi65S",
       "award": "Best budget whole-basement",
       "pros": [
         "Built-in pump lifts water up to about 19.6 ft",
@@ -142,7 +143,7 @@
         "55 pints AHAM is basement-scale, not whole-home ducted scale",
         "Won't fully dry upper floors in a very humid climate"
       ],
-      "whyWeLoveIt": "A lot of whole-house dampness starts below grade and gets pulled upward by the stack effect. Drying the basement or crawl space at the source often fixes the floors above, and the HDi65 is the most affordable way here to do that with a real pump and crawl-space-grade build.",
+      "whyWeLoveIt": "A lot of whole-house dampness starts below grade and gets pulled upward by the stack effect. Drying the basement or crawl space at the source often fixes the floors above, and the HDi65S is the most affordable way here to do that with a real pump and crawl-space-grade build.",
       "performance": "AlorAir lists 55 pints a day at AHAM conditions and 120 at saturation, which is right-sized for a whole basement or encapsulated crawl space. The pump and low-temperature defrost let it run unattended in cold, drain-less spaces. It's also a favorite in our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) roundup.",
       "specs": {
         "Capacity": "55 pints/day (AHAM)",
@@ -274,7 +275,7 @@
             [
               "Under ~1,500 sq ft, moderate climate",
               "65–80",
-              "Aprilaire E080, AlorAir HDi65 (basement)"
+              "Aprilaire E080, AlorAir HDi65S (basement)"
             ],
             [
               "1,500–2,500 sq ft, or a humid region",
@@ -351,7 +352,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **Aprilaire E100** is the whole-house dehumidifier to buy: big capacity, top efficiency and a choice of ducted or freestanding installation. The **AlorAir Sentinel HDi90** brings ducted drying and a built-in pump for less, the **Santa Fe Ultra V100** adds MERV-13 filtration and fresh-air ventilation, and the **Aprilaire E080** right-sizes the formula for mid-size homes. If your dampness starts in the basement, the **AlorAir HDi65** fixes it at the source, and if you can't install anything, the **hOmeLabs HME1003** is an honest stopgap for one floor."
+          "text": "For most homes, the **Aprilaire E100** is the whole-house dehumidifier to buy: big capacity, top efficiency and a choice of ducted or freestanding installation. The **AlorAir Sentinel HDi90** brings ducted drying and a built-in pump for less, the **Santa Fe Ultra V100** adds MERV-13 filtration and fresh-air ventilation, and the **Aprilaire E080** right-sizes the formula for mid-size homes. If your dampness starts in the basement, the **AlorAir HDi65S** fixes it at the source, and if you can't install anything, the **hOmeLabs HME1003** is an honest stopgap for one floor."
         }
       ]
     }

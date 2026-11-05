@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for a Sneaker Collection (2026)",
   "h1": "The Best Dehumidifiers for a Sneaker Collection (and What Actually Stops Yellowing)",
   "dek": "Humidity causes moldy suede and cracked leather — but yellow soles are a light problem. Here’s how to protect a collection from both.",
-  "description": "The best dehumidifier setup for a sneaker collection: UV-blocking boxes, silica packs, a renewable closet unit and a hygrometer, plus the 40–50% target.",
+  "description": "The best dehumidifier setup for a sneaker collection: silica packs for each box, a renewable closet unit and a hygrometer, plus the 40–50% target.",
   "published": "2026-09-22",
   "updated": "2026-11-05",
   "intro": [
@@ -14,37 +14,13 @@
     "Humidity *is* the culprit behind the other collector nightmares: mold and mildew spots on suede and canvas once the air climbs past about 60%, a musty smell from the shoe closet, and stiff, cracking leather when it drops below roughly 40%. Those are worth fixing, and the fix is usually small and cheap.",
     "Most collections live in boxes on a shelf rather than in open room air, so our picks work from the box outward: block light, control moisture inside each box, keep the closet steady, and measure before you spend more."
   ],
-  "topPicksLead": "Start with **UV-protected stackable sneaker boxes** — they’re the only product here that tackles yellowing directly, and they give your moisture control a stable space to work in.",
+  "topPicksLead": "Start with **Silica Gel Packets** — one in each box controls moisture right where your pairs sit; for yellowing, dark or UV-blocking storage matters more than any product here.",
   "products": [
-    {
-      "id": "uv-protected-sneaker-boxes",
-      "name": "Clear Stackable UV-Protected Sneaker Storage Boxes",
-      "shortName": "UV-Protected Sneaker Boxes",
-      "award": "Best overall",
-      "pros": [
-        "Blocks the UV light that drives yellowing",
-        "Clear fronts let you see every pair",
-        "Stackable, dust-resistant design",
-        "Steadies humidity inside each box"
-      ],
-      "cons": [
-        "Controls light, not moisture, on its own",
-        "Takes up more space than original boxes"
-      ],
-      "whyWeLoveIt": "They solve the problem most collectors are actually worried about — yellowing — while also creating small, stable micro-environments that make moisture control far easier.",
-      "performance": "Look for boxes specifically labeled as UV-resistant or UV-blocking, with drop-front or magnetic doors that close snugly. The enclosed design reduces dust and airflow swings, so whatever humidity you set inside stays put. Add a silica pack to each box for the moisture side of the job.",
-      "specs": {
-        "Type": "Sealed storage box",
-        "Protects against": "UV light, dust",
-        "Format": "Stackable, clear front",
-        "Best for": "Displayed or deadstock pairs"
-      }
-    },
     {
       "id": "silica-gel-packets",
       "name": "Rechargeable Silica Gel Packets (Shoe or Box Size)",
       "shortName": "Silica Gel Packets",
-      "award": "Best budget",
+      "award": "Best overall",
       "pros": [
         "Absorbs moisture right where suede and leather sit",
         "Cheap enough for one per box",
@@ -153,7 +129,7 @@
         },
         {
           "type": "p",
-          "text": "We ranked products by how directly they address the real causes of damage, which is why a storage box tops a list about dehumidifiers."
+          "text": "We ranked products by how directly they address the real causes of damage, which is why a humble silica pack tops a list about dehumidifiers."
         },
         {
           "type": "p",
@@ -257,7 +233,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "No dehumidifier will stop yellowing — **UV-protected boxes** and darkness do that. For the real humidity risks, put **silica gel packets** in each box, keep an **Eva-Dry E-333** on the shelf, and confirm with an **AcuRite 01080M** hygrometer before buying anything bigger. Collect vinyl too? Our [record collection guide](/best/best-dehumidifier-for-vinyl-record-collection/) applies the same thinking to sleeves and jackets."
+          "text": "No dehumidifier will stop yellowing — dark, UV-blocking storage does that. For the real humidity risks, put **silica gel packets** in each box, keep an **Eva-Dry E-333** on the shelf, and confirm with an **AcuRite 01080M** hygrometer before buying anything bigger. Collect vinyl too? Our [record collection guide](/best/best-dehumidifier-for-vinyl-record-collection/) applies the same thinking to sleeves and jackets."
         }
       ]
     }

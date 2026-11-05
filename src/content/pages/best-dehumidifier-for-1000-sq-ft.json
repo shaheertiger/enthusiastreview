@@ -66,25 +66,26 @@
       }
     },
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
-      "award": "Best value for damp spaces",
+      "id": "honeywell-tp30awkn",
+      "catalogId": "honeywell-tp30awkn",
+      "name": "Honeywell TP30AWKN 30-Pint Dehumidifier",
+      "shortName": "Honeywell TP30AWKN",
+      "award": "Best for damp spaces",
       "pros": [
         "Covers the very-damp tier",
-        "Rated for up to about 1,500 sq ft",
-        "Costs less than the Cube 35"
+        "Digital controls with a humidity setting",
+        "Bucket or hose drainage"
       ],
       "cons": [
-        "Simpler controls",
-        "Bucket emptying in wet conditions"
+        "No smart-home features",
+        "Bigger and heavier than a 22-pint unit"
       ],
-      "whyWeLoveIt": "Once a 1,000-square-foot space shows condensation on windows or pipes, you need the 30-pint tier. This Pro Breeze gets you there for less, without stretching to a 50-pint machine built for a bigger footprint.",
-      "performance": "It's a 30-pint compressor unit the maker rates for about 1,500 square feet, so there's some headroom if the damp area is larger than you thought. Add a hose to its drain outlet if the space is far from a sink. See the whole lineup in our [Pro Breeze guide](/best/best-pro-breeze-dehumidifier/).",
+      "whyWeLoveIt": "Once a 1,000-square-foot space shows condensation on windows or pipes, you need the 30-pint tier. This Honeywell gets you there from a major brand, without stretching to a 50-pint machine built for a bigger footprint.",
+      "performance": "At 30 pints a day, it handles damp rooms where a 22-pint unit would run almost nonstop. It uses a conventional compressor design with digital controls and a humidity setting, and you can connect a hose for continuous draining if the space is far from a sink. See the rest of the lineup in our [Honeywell guide](/best/best-honeywell-dehumidifier/).",
       "specs": {
         "Capacity": "30 pints/day",
         "Type": "Compressor",
-        "Coverage": "Up to ~1,500 sq ft (maker)",
+        "Controls": "Digital, with humidity setting",
         "Drainage": "Bucket or hose",
         "Best for": "Very damp rooms and basements"
       }
@@ -137,7 +138,7 @@
               "Very damp",
               "Condensation on walls, windows or pipes",
               "25–30",
-              "Midea Cube 35 or Pro Breeze 30-Pint"
+              "Midea Cube 35 or Honeywell TP30AWKN"
             ],
             [
               "Wet",
@@ -241,7 +242,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most 1,000-square-foot spaces, the **Midea Cube 35** is the right-sized default. Go quieter with the **Frigidaire FFAD2233W1** if the space is only musty and lived-in, step to the **Pro Breeze 30-Pint** when you see condensation, and choose the **hOmeLabs HME1003** for a wet space where a pump saves you from emptying a tank. Covering twice the area? See our [2,000 sq ft guide](/best/best-dehumidifier-for-2000-sq-ft/)."
+          "text": "For most 1,000-square-foot spaces, the **Midea Cube 35** is the right-sized default. Go quieter with the **Frigidaire FFAD2233W1** if the space is only musty and lived-in, step to the **Honeywell TP30AWKN** when you see condensation, and choose the **hOmeLabs HME1003** for a wet space where a pump saves you from emptying a tank. Covering twice the area? See our [2,000 sq ft guide](/best/best-dehumidifier-for-2000-sq-ft/)."
         }
       ]
     }

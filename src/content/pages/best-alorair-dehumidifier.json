@@ -6,63 +6,42 @@
   "title": "Best AlorAir Dehumidifier (2026): Sentinel vs. Storm Models",
   "h1": "The Best AlorAir Dehumidifiers",
   "dek": "Two families under one name — one for quietly guarding a crawl space, one for drying out a flood. Here's how to pick the right AlorAir.",
-  "description": "The best AlorAir dehumidifier for 2026: Sentinel HDi65, HDi65S and HD55 for crawl spaces, plus Storm LGR models for flood dry-outs, with reviews and buying tips.",
+  "description": "The best AlorAir dehumidifier for 2026: Sentinel HDi65S and HD55 for crawl spaces, plus Storm LGR models for flood dry-outs, with reviews and buying tips.",
   "published": "2026-09-02",
   "updated": "2026-11-05",
   "intro": [
     "If you've looked into crawl-space encapsulation or water-damage cleanup, you've probably run into an AlorAir dehumidifier. The brand has become a favorite of encapsulation contractors and restoration crews, largely because it delivers near-commercial performance for a fraction of what legacy pro brands charge.",
     "The catch is that AlorAir sells two very different product families. The **Sentinel** line is built to sit in a crawl space or basement and hold steady humidity for months. The **Storm** line uses Low Grain Refrigerant (LGR) technology to dry out a soaked building fast. Buy the wrong family and you'll either overspend on restoration gear or under-buy for a real flood.",
-    "Below we break down the five AlorAir models most homeowners should consider, what owners say about them, and how to read AlorAir's two pint ratings."
+    "Below we break down the AlorAir models most homeowners should consider, what owners say about them, and how to read AlorAir's two pint ratings."
   ],
-  "topPicksLead": "For most crawl spaces and basements, the **AlorAir Sentinel HDi65** is the AlorAir to buy: compact, self-draining and built to run unattended down to about 36°F.",
+  "topPicksLead": "For most crawl spaces and basements, the **AlorAir Sentinel HDi65S** is the AlorAir to buy: compact, self-draining, Wi-Fi connected and built to run unattended down to about 36°F.",
   "products": [
-    {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
-      "award": "Best overall",
-      "pros": [
-        "Compact body fits low-clearance crawl spaces",
-        "Built-in pump with a 19.6-foot lift",
-        "Auto-defrost to about 36°F",
-        "ENERGY STAR, cETL listed, six-year limited warranty"
-      ],
-      "cons": [
-        "No Wi-Fi alerts",
-        "Saturation rating on the box can mislead"
-      ],
-      "whyWeLoveIt": "The HDi65 is the right default across most of AlorAir's use cases. It's small enough for a crawl space, strong enough for a damp basement, and self-draining enough to leave alone for months.",
-      "performance": "AlorAir rates it at 55 pints a day under AHAM conditions and 120 at saturation. The pump lifts water 19.6 feet, enough to reach daylight from most basements and crawls without a floor drain. Owner reviews most often praise how long it runs without attention. See how it compares with a pricier contractor favorite in our [AlorAir vs. Aprilaire](/compare/alorair-vs-aprilaire-dehumidifier/) comparison.",
-      "specs": {
-        "Capacity": "55 pints/day (AHAM); 120 at saturation",
-        "Drainage": "Built-in pump, 19.6 ft lift",
-        "Low-temp operation": "Auto-defrost to ~36°F",
-        "Warranty": "6-year limited",
-        "Best for": "Crawl space, basement"
-      }
-    },
     {
       "id": "alorair-sentinel-hdi65s",
       "catalogId": "alorair-sentinel-hdi65s",
       "name": "AlorAir Sentinel HDi65S Wi-Fi Dehumidifier",
       "shortName": "AlorAir Sentinel HDi65S",
-      "award": "Best with Wi-Fi",
+      "award": "Best overall",
       "pros": [
-        "Same hardware as the HDi65",
+        "Compact body fits low-clearance crawl spaces",
+        "Built-in pump with a 19.6-foot lift",
+        "Auto-defrost to about 36°F",
         "App alerts for faults and humidity swings",
-        "Remote setpoint control"
+        "ENERGY STAR, six-year limited warranty"
       ],
       "cons": [
-        "Needs a Wi-Fi signal at the crawl hatch",
-        "Costs a bit more than the HDi65"
+        "Needs a Wi-Fi signal at the crawl hatch for alerts",
+        "Saturation rating on the box can mislead"
       ],
-      "whyWeLoveIt": "In a space you rarely visit — a rental crawl space, a vacation home, a server closet — an alert on your phone means a stuck defrost cycle or clogged drain line gets caught in hours, not weeks.",
-      "performance": "It shares the HDi65's 55-pint AHAM rating, pump and 36°F defrost, adding app control and notifications. The pump still does the draining; Wi-Fi just tells you when something's wrong. Compare connected models across brands in our [Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) roundup.",
+      "whyWeLoveIt": "The HDi65S is the right default across most of AlorAir's use cases. It's small enough for a crawl space, strong enough for a damp basement and self-draining enough to leave alone for months — and in a space you rarely visit, an alert on your phone means a stuck defrost cycle or clogged drain line gets caught in hours, not weeks.",
+      "performance": "AlorAir rates it at 55 pints a day under AHAM conditions and 120 at saturation, for spaces up to about 1,300 square feet. The pump lifts water 19.6 feet, enough to reach daylight from most basements and crawls without a floor drain, and Wi-Fi adds app control and notifications. It's the current version of the HDi65, with the same pump and defrost hardware. Owner reviews most often praise how long it runs without attention. See how it compares with a pricier contractor favorite in our [AlorAir vs. Aprilaire](/compare/alorair-vs-aprilaire-dehumidifier/) comparison.",
       "specs": {
-        "Capacity": "55 pints/day (AHAM)",
-        "Drainage": "Built-in pump",
+        "Capacity": "55 pints/day (AHAM); 120 at saturation",
+        "Coverage": "Up to about 1,300 sq ft (AlorAir)",
+        "Drainage": "Built-in pump, 19.6 ft lift",
+        "Low-temp operation": "Auto-defrost to ~36°F",
         "Smart control": "Wi-Fi app with alerts",
-        "Best for": "Rentals, vacation homes"
+        "Warranty": "6-year limited"
       }
     },
     {
@@ -72,7 +51,7 @@
       "shortName": "AlorAir Sentinel HD55",
       "award": "Best value",
       "pros": [
-        "Nearly the HDi65's capacity for less",
+        "Nearly the HDi65S's capacity for less",
         "Same compact footprint and 36°F defrost",
         "Six-year limited warranty"
       ],
@@ -149,7 +128,7 @@
           "items": [
             {
               "value": "55 vs. 120",
-              "label": "AHAM vs. saturation pints for the same HDi65"
+              "label": "AHAM vs. saturation pints for the same HDi65S"
             },
             {
               "value": "36°F",
@@ -227,7 +206,7 @@
         },
         {
           "type": "p",
-          "text": "For most homes, these are step-ups rather than starting points. Begin with the HDi65 and size up only if the space is unusually large or wet. If you're installing in a crawl space, our [crawl space dehumidifier installation](/guides/crawl-space-dehumidifier-installation/) guide covers placement, drainage and vapor barriers."
+          "text": "For most homes, these are step-ups rather than starting points. Begin with the HDi65S and size up only if the space is unusually large or wet. If you're installing in a crawl space, our [crawl space dehumidifier installation](/guides/crawl-space-dehumidifier-installation/) guide covers placement, drainage and vapor barriers."
         }
       ]
     },
@@ -252,7 +231,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **AlorAir Sentinel HDi65** is the best AlorAir dehumidifier for most crawl spaces and basements. Choose the **HDi65S** for remote alerts, the **HD55** if you can gravity-drain, and the **Storm LGR Extreme** or lighter **Storm LGR 850** if you're drying out a flood. For how AlorAir ranks against other names, see our [best dehumidifier brands](/best/best-dehumidifier-brands/) roundup."
+          "text": "The **AlorAir Sentinel HDi65S** is the best AlorAir dehumidifier for most crawl spaces and basements, with remote alerts built in. Choose the **HD55** if you can gravity-drain, and the **Storm LGR Extreme** or lighter **Storm LGR 850** if you're drying out a flood. For how AlorAir ranks against other names, see our [best dehumidifier brands](/best/best-dehumidifier-brands/) roundup."
         }
       ]
     }
@@ -260,7 +239,7 @@
   "faqs": [
     {
       "q": "What is the best AlorAir dehumidifier?",
-      "a": "For most homes, the Sentinel HDi65: a compact 55-pint (AHAM) unit with a built-in pump and auto-defrost to about 36°F. For flood restoration, the Storm LGR Extreme is AlorAir's top pick."
+      "a": "For most homes, the Sentinel HDi65S: a compact 55-pint (AHAM) unit with a built-in pump, Wi-Fi alerts and auto-defrost to about 36°F. For flood restoration, the Storm LGR Extreme is AlorAir's top pick."
     },
     {
       "q": "What's the difference between the AlorAir Sentinel HD55 and HD55S?",

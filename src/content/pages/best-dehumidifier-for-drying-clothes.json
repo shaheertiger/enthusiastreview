@@ -68,27 +68,29 @@
       }
     },
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
+      "id": "shinco-sdl-30p",
+      "catalogId": "shinco-sdl-30p",
+      "name": "Shinco 30-Pint Dehumidifier (SDL-30P)",
+      "shortName": "Shinco SDL-30P",
       "award": "Best budget",
       "pros": [
         "Real compressor capacity at a low price",
+        "24-hour programmable timer for a set drying session",
         "Rated for rooms up to about 1,500 sq ft",
-        "Easy-to-dump removable bucket",
         "No app or subscription to fuss with"
       ],
       "cons": [
-        "Less airflow, so slower drying without a fan",
+        "Listed price varies a lot between sellers",
         "No smart features"
       ],
-      "whyWeLoveIt": "For occasional indoor drying — a rainy week, a skipped laundromat trip — this Pro Breeze does the job without charging for daily-use features you won't need.",
-      "performance": "Thirty pints a day is enough to pull a bedroom or small living room down to drying-friendly humidity. Because it moves less air than the hOmeLabs, a fan aimed at the rack makes a bigger difference here. More inexpensive options are in our [best budget dehumidifier](/best/best-budget-dehumidifier/) roundup.",
+      "whyWeLoveIt": "For occasional indoor drying — a rainy week, a skipped laundromat trip — this Shinco does the job without charging for daily-use features you won't need. Its timer is handy for laundry: set it for the length of a drying session and it shuts itself off.",
+      "performance": "Thirty pints a day is enough to pull a bedroom or small living room down to drying-friendly humidity. Shinco's 1,500-square-foot rating is generous, so treat it as a one- or two-room machine, and expect it to move less air than the hOmeLabs; a fan aimed at the rack makes a bigger difference here. Shop carefully, because its listed price can vary dramatically. More inexpensive options are in our [best budget dehumidifier](/best/best-budget-dehumidifier/) roundup.",
       "specs": {
         "Capacity": "30 pints/day",
         "Type": "Compressor",
-        "Drainage": "Bucket or hose",
-        "Coverage": "Up to about 1,500 sq ft",
+        "Drainage": "Bucket, optional hose",
+        "Timer": "24-hour",
+        "Coverage": "Up to about 1,500 sq ft (manufacturer)",
         "Best for": "Occasional drying"
       }
     },
@@ -232,7 +234,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A dehumidifier really can replace a dryer for many households, as long as you close the door, use Continuous or Turbo mode and add a fan. The **hOmeLabs HME1003 Wi-Fi** is the best all-around choice for its high airflow and pump drainage, the **Midea Cube 20** is the easiest fit for a single apartment room, the **Pro Breeze 30-Pint** is the budget pick for occasional use, and the **Midea Cube 50** handles open basements and garages."
+          "text": "A dehumidifier really can replace a dryer for many households, as long as you close the door, use Continuous or Turbo mode and add a fan. The **hOmeLabs HME1003 Wi-Fi** is the best all-around choice for its high airflow and pump drainage, the **Midea Cube 20** is the easiest fit for a single apartment room, the **Shinco SDL-30P** is the budget pick for occasional use, and the **Midea Cube 50** handles open basements and garages."
         }
       ]
     }

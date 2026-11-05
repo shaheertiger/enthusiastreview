@@ -68,9 +68,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Crawl Space Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Crawl Space Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for crawl spaces",
       "pros": [
         "Built-in pump with 19.6 ft of vertical lift",
@@ -83,14 +84,15 @@
         "Works best once the vapor barrier is sealed"
       ],
       "whyWeLoveIt": "When springtails, millipedes or house centipedes keep appearing on the first floor with no obvious entry point, a damp crawl space below is often the source. Treating the room where you see them won't help; drying the space they come from will.",
-      "performance": "It's rated at 55 pints a day under AHAM conditions, with auto-defrost that keeps it working down to 36°F, where a standard portable would ice over. The pump lifts water nearly 20 feet so it can leave the crawl space without a floor drain. Penn State Extension notes springtails migrate from mulch beds toward humidity during dry weather, and a muggy crawl space is the closest target. Our [crawl space dehumidifier guide](/best/best-crawl-space-dehumidifier/) covers larger and Wi-Fi models.",
+      "performance": "It's rated at 55 pints a day under AHAM conditions, with auto-defrost that keeps it working down to 36°F, where a standard portable would ice over. The pump lifts water nearly 20 feet so it can leave the crawl space without a floor drain. Penn State Extension notes springtails migrate from mulch beds toward humidity during dry weather, and a muggy crawl space is the closest target. Our [crawl space dehumidifier guide](/best/best-crawl-space-dehumidifier/) covers larger models and other Wi-Fi options.",
       "notes": "Fix or seal the vapor barrier first, then set the unit to hold about 50%.",
       "specs": {
         "Capacity": "55 pints/day (AHAM)",
         "Drainage": "Built-in pump, 19.6 ft lift",
         "Low-temp operation": "Down to 36°F",
         "Type": "Low-profile compressor",
-        "Best for": "Crawl spaces"
+        "Best for": "Crawl spaces",
+        "Smart control": "Wi-Fi app with alerts"
       }
     },
     {
@@ -338,7 +340,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **Midea Cube 50 with Pump** is the best dehumidifier for silverfish: real basement capacity and a pump that lets it hold 50% humidity for as long as the job takes. Choose the **Frigidaire FHDD5034Y1** if a floor drain makes a pump unnecessary and you value its five-year sealed-system warranty, the **AlorAir Sentinel HDi65** when pests are rising from a crawl space, the **Midea Cube 20** for a bathroom or laundry room, and an **Eva-Dry E-333** for a bookcase or closet. Whatever you choose, add a hygrometer so you know the space is truly dry. For related pests, see our [dust mite dehumidifier guide](/best/best-dehumidifier-for-dust-mites/)."
+          "text": "For most homes, the **Midea Cube 50 with Pump** is the best dehumidifier for silverfish: real basement capacity and a pump that lets it hold 50% humidity for as long as the job takes. Choose the **Frigidaire FHDD5034Y1** if a floor drain makes a pump unnecessary and you value its five-year sealed-system warranty, the **AlorAir Sentinel HDi65S** when pests are rising from a crawl space, the **Midea Cube 20** for a bathroom or laundry room, and an **Eva-Dry E-333** for a bookcase or closet. Whatever you choose, add a hygrometer so you know the space is truly dry. For related pests, see our [dust mite dehumidifier guide](/best/best-dehumidifier-for-dust-mites/)."
         }
       ]
     }
@@ -362,7 +364,7 @@
     },
     {
       "q": "What is the best dehumidifier for springtails?",
-      "a": "For a basement, a 50-pint unit with continuous drainage, such as the Midea Cube 50 with Pump. If springtails keep appearing upstairs, check the crawl space; a dedicated unit like the AlorAir Sentinel HDi65 dries the source. Penn State Extension calls lowering humidity the best indoor control."
+      "a": "For a basement, a 50-pint unit with continuous drainage, such as the Midea Cube 50 with Pump. If springtails keep appearing upstairs, check the crawl space; a dedicated unit like the AlorAir Sentinel HDi65S dries the source. Penn State Extension calls lowering humidity the best indoor control."
     },
     {
       "q": "Does a dehumidifier help with mites?",

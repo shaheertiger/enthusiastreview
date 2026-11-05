@@ -5,22 +5,23 @@
   "navLabel": "Frigidaire vs. Honeywell",
   "title": "Frigidaire vs. Honeywell Dehumidifier (2026): Which to Buy?",
   "h1": "Frigidaire vs. Honeywell Dehumidifiers",
-  "dek": "Both say \"50\" on the box. Only one of them removes 50 pints a day — but the other has the better lab score.",
-  "description": "Frigidaire vs. Honeywell dehumidifier: the FHDD5034Y1 and TPFIT50AWK compared on real DOE capacity, test scores, warranty, makers and recall history.",
+  "dek": "Both remove a genuine 50 pints a day — as long as you buy the right Honeywell. Here's how they compare, and which Honeywell \"50\" to skip.",
+  "description": "Frigidaire vs. Honeywell dehumidifier: the FHDD5034Y1 and TP70AWKNR compared on real DOE capacity, coverage, warranty, makers and recall history.",
   "published": "2026-10-26",
   "updated": "2026-11-05",
   "intro": [
-    "The Frigidaire vs. Honeywell dehumidifier matchup looks even at first glance. Each brand's popular Wi-Fi model carries a \"50\" in its name, both connect to Alexa, and both back their compressors with five years of sealed-system coverage. Look closer and they turn out to be very different machines from very different supply chains.",
-    "The biggest surprise is capacity. Frigidaire's **FHDD5034Y1** is rated at a genuine 50 pints a day under the current 2019 DOE test. Honeywell's **TPFIT50AWK** keeps a model name from the pre-2019 rating scale and is rated at roughly 32 pints a day under today's test — about a third less water, usually at a higher price. Honeywell's counterpunch is a strong independent score: Consumer Reports gave it an 88 and ranked it first among the large-capacity models it rated.",
+    "The Frigidaire vs. Honeywell dehumidifier matchup is mostly a naming puzzle. Both brands sell a Wi-Fi model that removes 50 pints a day under today's test, both connect to Alexa, and both back their compressors with five years of sealed-system coverage. But only Frigidaire's says \"50\" on the box, and the two come from very different supply chains.",
+    "The biggest trap is Honeywell's naming. Frigidaire's **FHDD5034Y1** is rated at a genuine 50 pints a day under the current 2019 DOE test. Honeywell's true equivalent is the **TP70AWKNR**: its \"70\" comes from the pre-2019 scale, and it's rated at 50 pints under today's test. Meanwhile, the Honeywell that does say \"50\" — the TPFIT50AWK, which Consumer Reports scored an 88 — is rated at only about 32 pints a day, so it isn't a like-for-like rival, and we couldn't find it as a current Amazon listing.",
     "We compared the two using DOE ratings, manufacturer specs and warranty terms, published independent scores and the CPSC recall database. We don't run our own lab tests."
   ],
-  "topPicksLead": "For most shoppers, the **Frigidaire FHDD5034Y1** is the better buy because it removes more water for less money; the **Honeywell TPFIT50AWK** makes sense if a top independent score matters more than raw capacity.",
+  "topPicksLead": "For most shoppers, the **Frigidaire FHDD5034Y1** is the better buy for its larger rated coverage, Google Assistant support and low-temperature defrost; the **Honeywell TP70AWKNR** matches its 50-pint capacity and makes sense if you prefer Honeywell's app and alerts.",
   "products": [
     {
       "id": "frigidaire-fhdd5034y1",
+      "catalogId": null,
       "name": "Frigidaire 50-Pint Wi-Fi Dehumidifier (FHDD5034Y1)",
       "shortName": "Frigidaire FHDD5034Y1",
-      "award": "Best for capacity per dollar",
+      "award": "Best overall",
       "pros": [
         "Genuine 50 pints/day under the DOE 2019 test",
         "Rated for up to about 4,500 sq ft",
@@ -32,7 +33,7 @@
         "No standout independent score of its own",
         "Bucket and gravity hose only — no pump"
       ],
-      "whyWeLoveIt": "It does what the box says. The \"50\" in the model number is a real 50-pint rating under today's test, and it typically costs less than the Honeywell, which makes it the clear winner on how much water you get for your money.",
+      "whyWeLoveIt": "It does what the box says. The \"50\" in the model number is a real 50-pint rating under today's test, and it pairs that capacity with the larger rated coverage of the two, Google Assistant support alongside Alexa and a published low-temperature rating — which makes it the more flexible all-rounder.",
       "performance": "The 2.7-gallon bucket handles moderate dampness, and a gravity hose connection lets it run continuously into a floor drain. Auto-defrost keeps it working as a basement cools toward 41°F. A sibling model in Frigidaire's Gallery line collected 22.3 pints in four hours in one magazine's evaluation, a good sign for the platform. See more models in our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide.",
       "specs": {
         "Capacity": "50 pints/day (DOE 2019)",
@@ -44,28 +45,31 @@
       }
     },
     {
-      "id": "honeywell-tpfit50awk",
-      "name": "Honeywell Smart Wi-Fi Dehumidifier (TPFIT50AWK)",
-      "shortName": "Honeywell TPFIT50AWK",
-      "award": "Best independent test score",
+      "id": "honeywell-tp70awknr",
+      "catalogId": "honeywell-tp70awknr",
+      "name": "Honeywell 50-Pint Smart Wi-Fi Dehumidifier (TP70AWKNR)",
+      "shortName": "Honeywell TP70AWKNR",
+      "award": "Best for Honeywell fans",
       "pros": [
-        "Consumer Reports score of 88, #1 among large-capacity models it rated",
-        "Wi-Fi with Alexa control and smart alerts",
-        "5-year sealed-system warranty"
+        "50 pints a day under the DOE 2019 test",
+        "Wi-Fi app and Alexa with empty-tank alerts",
+        "Rated for about 4,000 sq ft",
+        "No pump to maintain"
       ],
       "cons": [
-        "About 32 pints/day under the DOE 2019 test, despite its name",
-        "Usually costs more than the Frigidaire",
+        "\"70\" in the name is a pre-2019 label, which makes shopping confusing",
+        "Gravity drain only — no pump on this version",
         "Reviewers flag slow, costly out-of-warranty repairs"
       ],
-      "whyWeLoveIt": "Honeywell's case rests on independent results. A Consumer Reports score of 88 and a first-place ranking among large-capacity models is the strongest third-party endorsement either brand has in this matchup.",
-      "performance": "The catch is that its model name overstates its size. Under the current DOE test it's rated at roughly 32 pints a day, so it's really competing with 30- and 35-pint units. Honeywell doesn't publish a separate coverage figure; its app alerts stand in for that. If you want a Honeywell that truly matches the Frigidaire's capacity, look at the TP70 series, covered in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
+      "whyWeLoveIt": "This is the Honeywell that genuinely matches the Frigidaire. Despite the \"70\" in its name, it removes 50 pints a day under today's test, and it adds app alerts and remote control for a big basement that already has a floor drain — Honeywell's largest current capacity with its smart features on top.",
+      "performance": "It shares the same 50-pint hardware as Honeywell's pump model, the TP70PWKNR, and is rated for roughly 4,000 sq ft, the largest coverage in Honeywell's current range. The app lets you schedule runs and get a notification before the tank fills. If you won't use the app, the non-smart TP70WKN removes the same amount of water for less. The rest of the lineup is decoded in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "About 32 pints/day (DOE 2019)",
-        "Model name": "Uses pre-2019 \"50\" label",
-        "Smart control": "Wi-Fi, Alexa",
-        "Independent rating": "Consumer Reports 88",
-        "Warranty": "1 yr parts/labor, 5 yr sealed system"
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Model name": "Uses pre-2019 \"70\" label",
+        "Coverage": "About 4,000 sq ft (Honeywell)",
+        "Drainage": "Bucket or gravity hose",
+        "Smart control": "Wi-Fi app, Alexa",
+        "Warranty": "5-yr limited sealed system"
       }
     }
   ],
@@ -76,16 +80,16 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Frigidaire FHDD5034Y1", "Honeywell TPFIT50AWK"],
+          "head": ["", "Frigidaire FHDD5034Y1", "Honeywell TP70AWKNR"],
           "rows": [
-            ["Name on the box", "50-pint", "50 (legacy label)"],
-            ["DOE 2019 capacity", "50 pints/day", "About 32 pints/day"],
-            ["Coverage", "Up to ~4,500 sq ft", "Not separately published"],
-            ["Smart control", "Wi-Fi, Alexa, Google", "Wi-Fi, Alexa"],
+            ["Name on the box", "50-pint", "70 (legacy label)"],
+            ["DOE 2019 capacity", "50 pints/day", "50 pints/day"],
+            ["Coverage", "Up to ~4,500 sq ft", "About 4,000 sq ft"],
+            ["Smart control", "Wi-Fi, Alexa, Google", "Wi-Fi app, Alexa"],
             ["Built by", "Licensed manufacturer (Midea)", "JMATEK, as Honeywell Air Comfort"],
-            ["Independent score", "No direct score; Gallery sibling evaluated well", "Consumer Reports 88, #1 large-capacity"],
-            ["Warranty", "1 yr + 5 yr sealed system", "1 yr + 5 yr sealed system"],
-            ["Typical price", "Usually the lower of the two", "Usually higher"]
+            ["Drainage", "2.7-gal bucket or gravity hose", "Bucket or gravity hose"],
+            ["Warranty", "1 yr + 5 yr sealed system", "5-yr limited sealed system"],
+            ["Pump version", "None in this comparison", "TP70PWKNR (same capacity)"]
           ],
           "caption": "Ratings and warranty terms from manufacturer specs; independent score as published."
         }
@@ -112,8 +116,8 @@
         {
           "type": "ul",
           "items": [
-            "**Honeywell TPFIT50AWK:** \"50\" in the name, about 32 pints under today's test.",
-            "**Honeywell TP70 series:** \"70\" in the name, about 50 pints under today's test — the true match for the Frigidaire.",
+            "**Honeywell TPFIT50AWK:** \"50\" in the name, about 32 pints under today's test — not a true match.",
+            "**Honeywell TP70AWKNR:** \"70\" in the name, 50 pints under today's test — the true match for the Frigidaire.",
             "**Frigidaire FHDD5034Y1:** \"50\" in the name, 50 pints under today's test."
           ]
         },
@@ -149,26 +153,26 @@
         {
           "type": "ul",
           "items": [
-            "You need true 50-pint capacity for a basement or large room.",
-            "Getting the most water removal for your money is the priority.",
+            "You want the larger rated coverage — up to about 4,500 sq ft.",
+            "The unit will sit in a cool basement, where auto-defrost down to 41°F helps.",
             "You want Google Assistant support as well as Alexa."
           ]
         },
         {
           "type": "h3",
-          "text": "Choose the Honeywell TPFIT50AWK if…"
+          "text": "Choose the Honeywell TP70AWKNR if…"
         },
         {
           "type": "ul",
           "items": [
-            "Your space only needs about 30–35 pints a day, such as a bedroom or mid-size room.",
-            "A top independent score is worth paying extra for.",
+            "Your basement has a floor drain, so gravity drainage is all you need.",
+            "Rated coverage of about 4,000 sq ft is enough for your space.",
             "You prefer Honeywell's app and smart alerts."
           ]
         },
         {
           "type": "p",
-          "text": "Want a Honeywell with Frigidaire-level capacity? Step up to the TP70 series. Want to see how Frigidaire stacks up against another major brand? Read our [Midea vs. Frigidaire](/compare/midea-vs-frigidaire-dehumidifier/) comparison, or browse our [best 50-pint dehumidifier](/best/best-50-pint-dehumidifier/) picks."
+          "text": "Need a pump? Honeywell's TP70PWKNR puts the same 50-pint hardware in a pump-equipped body, and our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide covers it. Want to see how Frigidaire stacks up against another major brand? Read our [Midea vs. Frigidaire](/compare/midea-vs-frigidaire-dehumidifier/) comparison, or browse our [best 50-pint dehumidifier](/best/best-50-pint-dehumidifier/) picks."
         }
       ]
     },
@@ -178,7 +182,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **Frigidaire FHDD5034Y1** is the smarter purchase: it's a genuine 50-pint dehumidifier that usually costs less than the Honeywell. The **Honeywell TPFIT50AWK** earns its place with a Consumer Reports score of 88, but it removes about a third less water under the current test. Whichever brand you lean toward, compare dehumidifiers on their DOE 2019 rating, never on the number in the model name."
+          "text": "For most homes, the **Frigidaire FHDD5034Y1** is the smarter purchase: a genuine 50-pint dehumidifier with the larger rated coverage, Google Assistant support and auto-defrost to 41°F. The **Honeywell TP70AWKNR** removes the same 50 pints a day and is the one to pick if you prefer Honeywell's app — just skip the TPFIT50AWK, whose \"50\" label hides a 32-pint rating. Whichever brand you lean toward, compare dehumidifiers on their DOE 2019 rating, never on the number in the model name."
         }
       ]
     }
@@ -186,11 +190,11 @@
   "faqs": [
     {
       "q": "Is Frigidaire or Honeywell the better dehumidifier brand?",
-      "a": "For capacity per dollar, Frigidaire. Its FHDD5034Y1 removes a genuine 50 pints a day and usually costs less. Honeywell's TPFIT50AWK has the stronger independent score (Consumer Reports 88), but it's rated at only about 32 pints a day under the current DOE test."
+      "a": "For most homes, Frigidaire, by a narrow margin. Its FHDD5034Y1 and Honeywell's TP70AWKNR both remove 50 pints a day under the current DOE test, but the Frigidaire has the larger rated coverage, Google Assistant support and a published low-temperature rating. Just don't confuse the Honeywell with its TPFIT50AWK, which has a strong Consumer Reports score (88) but is rated at only about 32 pints a day."
     },
     {
       "q": "Is the Honeywell TPFIT50AWK really a 50-pint dehumidifier?",
-      "a": "No. Its name references the pre-2019 rating scale. Under the current DOE test it's rated at roughly 32 pints a day. Honeywell's true 50-pint models are in the TP70 series."
+      "a": "No. Its name references the pre-2019 rating scale. Under the current DOE test it's rated at roughly 32 pints a day. Honeywell's true 50-pint Wi-Fi model is the TP70AWKNR compared here, and the TP70PWKNR adds a pump."
     },
     {
       "q": "Are Frigidaire and Honeywell dehumidifiers made by the same company?",
@@ -198,7 +202,7 @@
     },
     {
       "q": "Which has the better warranty?",
-      "a": "They're essentially tied: one year on parts and labor plus five years on the sealed refrigeration system. Some reviewers report that Honeywell's out-of-warranty repairs can be slow and costly."
+      "a": "They're close: Frigidaire offers one year on parts and labor plus five years on the sealed refrigeration system, and Honeywell's dehumidifiers carry a five-year limited sealed-system warranty. Some reviewers report that Honeywell's out-of-warranty repairs can be slow and costly."
     },
     {
       "q": "Have Frigidaire or Honeywell dehumidifiers been recalled?",

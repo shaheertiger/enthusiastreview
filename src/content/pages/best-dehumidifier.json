@@ -97,27 +97,28 @@
       }
     },
     {
-      "id": "frigidaire-gallery-fgac5045w1",
-      "name": "Frigidaire Gallery 50-Pint Dehumidifier with Pump (FGAC5045W1)",
-      "shortName": "Frigidaire Gallery FGAC5045W1",
-      "award": "Best premium",
+      "id": "frigidaire-fhdp5033w1",
+      "catalogId": "frigidaire-fhdp5033w1",
+      "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FHDP5033W1 / FHDP5033Y1)",
+      "shortName": "Frigidaire FHDP5033W1",
+      "award": "Best for finished spaces",
       "pros": [
-        "Topped third-party water-collection results in 2026",
-        "Built-in pump, gravity hose or sump-drain options",
-        "One of the more polished companion apps",
-        "Lift-up handle and cleaner styling for finished spaces"
+        "Built-in pump lifts water up to 16.4 feet",
+        "Wi-Fi scheduling and custom humidity targets",
+        "Specced at 49 dBA, restrained for a 50-pint unit",
+        "Operates from 41°F to 89°F"
       ],
       "cons": [
-        "Costs noticeably more than standard 50-pint units",
-        "Large footprint"
+        "Smaller 1.9-gallon backup bucket",
+        "Pump adds to the power draw (about 545 watts)"
       ],
-      "whyWeLoveIt": "The Gallery is for people who want the most extraction and the nicest experience in a portable. It gives you three ways to drain, a genuinely useful app and a design that doesn't look out of place in a finished basement or family room.",
-      "performance": "In a widely cited 2026 magazine comparison it collected more water over a four-hour run than any other unit in the group, which squares with owner reports of fast results in very damp spaces. Its pump can push water overhead, so it isn't limited to draining downhill. If you're choosing among Frigidaire's range, our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide lays out the differences.",
+      "whyWeLoveIt": "This Frigidaire is for a finished basement, rec room or family room where you want full 50-pint capacity without a hose snaking across the floor or a loud machine in the corner. Its pump keeps water off finished flooring entirely, the app handles scheduling, and its noise spec suits living space.",
+      "performance": "Frigidaire rates the pump for 16.4 feet of vertical lift, enough to clear a basement window or reach a laundry sink rather than relying on a floor drain. The spec sheet lists 49 dBA and 545 watts, with an operating range of 41–89°F, and the app lets you schedule heavy running for when the room is empty. Newer stock ships as the FHDP5033Y1, the same machine on R-32 refrigerant. If you're choosing among Frigidaire's range, our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide lays out the differences.",
       "specs": {
-        "Capacity": "50-pint class (DOE)",
-        "Drainage": "Pump, gravity hose or sump",
-        "Smart control": "Wi-Fi app",
-        "Type": "Compressor",
+        "Capacity": "50 pints/day (DOE)",
+        "Drainage": "Pump, 16.4-ft lift; 1.9-gal bucket",
+        "Noise": "49 dBA (manufacturer spec)",
+        "Smart control": "Wi-Fi app and voice",
         "Best for": "Finished basement, large rooms"
       }
     },
@@ -148,9 +149,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Crawl Space Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Crawl Space Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for crawl spaces",
       "pros": [
         "Low-profile body fits tight crawl-space clearances",
@@ -162,7 +164,7 @@
         "Costs several times more than a portable",
         "Overkill for a finished, heated room"
       ],
-      "whyWeLoveIt": "A sealed crawl space or raw basement needs a machine designed to sit in the cold and run all season. The HDi65 is exactly that: commercial-grade construction, a real pump and defrost that keeps it pulling water when temperatures drop.",
+      "whyWeLoveIt": "A sealed crawl space or raw basement needs a machine designed to sit in the cold and run all season. The HDi65S is exactly that: commercial-grade construction, a real pump and defrost that keeps it pulling water when temperatures drop.",
       "performance": "AlorAir rates it at 55 pints a day under AHAM conditions and up to 120 pints at saturation, the kind of headroom that matters in a cool, damp space where household units slow down or ice up. The pump's 19.6-foot lift handles long or uphill drain runs. It's the pick we'd point you to for permanent moisture control; our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide compares it with the rest of the field.",
       "specs": {
         "Capacity": "55 pints/day (AHAM); 120 at saturation",
@@ -233,10 +235,10 @@
               "Bucket or hose"
             ],
             [
-              "Frigidaire Gallery FGAC5045W1",
-              "Premium features",
+              "Frigidaire FHDP5033W1",
+              "Finished spaces",
               "50-pint (DOE)",
-              "Pump, hose or sump"
+              "Built-in pump"
             ],
             [
               "Pro Breeze PB-03",
@@ -245,7 +247,7 @@
               "Small tank"
             ],
             [
-              "AlorAir Sentinel HDi65",
+              "AlorAir Sentinel HDi65S",
               "Crawl spaces",
               "55-pint (AHAM)",
               "Built-in pump"
@@ -352,7 +354,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **Midea Cube 50 (MAD50S1QWT)** is the dehumidifier to buy: fast, capacious and easy to live with. Pick the **hOmeLabs HME1003** if your basement is large and wet and you want a pump, the **Frigidaire FHDD5034Y1** to save money, the **Frigidaire Gallery** for premium features, the **Pro Breeze PB-03** for a closet or small room, and the **AlorAir Sentinel HDi65** for a crawl space. Whichever you choose, aim for 30–50% humidity and keep up with the simple filter and coil habits in our [dehumidifier maintenance](/guides/dehumidifier-maintenance/) guide."
+          "text": "For most homes, the **Midea Cube 50 (MAD50S1QWT)** is the dehumidifier to buy: fast, capacious and easy to live with. Pick the **hOmeLabs HME1003** if your basement is large and wet and you want a pump, the **Frigidaire FHDD5034Y1** to save money, the **Frigidaire FHDP5033W1** for a finished basement or living space, the **Pro Breeze PB-03** for a closet or small room, and the **AlorAir Sentinel HDi65S** for a crawl space. Whichever you choose, aim for 30–50% humidity and keep up with the simple filter and coil habits in our [dehumidifier maintenance](/guides/dehumidifier-maintenance/) guide."
         }
       ]
     }

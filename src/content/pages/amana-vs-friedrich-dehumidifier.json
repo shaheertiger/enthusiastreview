@@ -3,65 +3,72 @@
   "section": "compare",
   "category": "Comparisons",
   "navLabel": "Amana vs. Friedrich",
-  "title": "Amana vs. Friedrich Dehumidifier (2026): Which 50-Pint Wins?",
+  "title": "Amana vs. Friedrich Dehumidifier (2026): Capacity or Pump?",
   "h1": "Amana vs. Friedrich Dehumidifiers",
-  "dek": "Same capacity, same built-in pump, nearly double the price. Here's what the extra money for a Friedrich really buys you.",
-  "description": "Amana vs. Friedrich dehumidifier, compared: the 50-pint AMND501PAW and D50B1B on capacity, pump, warranty, independent data, recall history and value.",
+  "dek": "Amana gives you 50 pints for a big basement; Friedrich gives you a pump and a five-year sealed-system warranty at 35. Here's which trade-off fits your space.",
+  "description": "Amana vs. Friedrich dehumidifier, compared: the 50-pint AMND501AW and pump-equipped 35-pint D35B1B on capacity, drainage, warranty, recall history and value.",
   "published": "2026-10-25",
   "updated": "2026-11-05",
   "intro": [
-    "On paper, the **Amana vs. Friedrich dehumidifier** matchup looks like a tie. Amana's AMND501PAW and Friedrich's D50B1B are both 50-pint, ENERGY STAR-certified units with built-in pumps. Yet the Friedrich typically costs close to twice as much — a big-box price for the Amana, versus well into the $400s and beyond for the Friedrich.",
-    "The two brands share no owner or factory, but they do share one piece of history: both names appear in the same 2021 CPSC recall of dehumidifiers made by New Widetech. Neither current model is affected. What's left to separate them is warranty length, the depth of independent data, and how much you value a specialist HVAC brand. Here's how they compare, point by point."
+    "On paper, the **Amana vs. Friedrich dehumidifier** matchup is a trade-off rather than a tie. Amana's AMND501AW is a 50-pint, ENERGY STAR-certified unit that drains to a big bucket or a gravity hose. Friedrich's D35B1B is a smaller 35-pint, ENERGY STAR-certified unit with a built-in pump — and, like the rest of the Friedrich range, it carries a premium over mainstream dehumidifiers.",
+    "The two brands share no owner or factory, but they do share one piece of history: both names appear in the same 2021 CPSC recall of dehumidifiers made by New Widetech. Neither current model is affected. What's left to separate them is capacity versus drainage convenience, warranty length, the depth of independent data, and how much you value a specialist HVAC brand. Here's how they compare, point by point."
   ],
-  "topPicksLead": "For most shoppers, the **Amana AMND501PAW** is the better value; choose the **Friedrich D50B1B** if a five-year compressor warranty is worth the premium to you.",
+  "topPicksLead": "For a large, damp basement with a drain nearby, the **Amana AMND501AW** is the better fit; choose the **Friedrich D35B1B** if you need a built-in pump and a five-year compressor warranty for a mid-size space.",
   "products": [
     {
-      "id": "amana-amnd501paw",
-      "name": "Amana 50-Pint Dehumidifier with Built-In Pump (AMND501PAW)",
-      "shortName": "Amana AMND501PAW",
-      "award": "Best for tight budgets",
+      "id": "amana-amnd501aw",
+      "catalogId": "amana-amnd501aw",
+      "name": "Amana 50-Pint Portable Dehumidifier (AMND501AW)",
+      "shortName": "Amana AMND501AW",
+      "award": "Best for big, damp basements",
       "pros": [
-        "Much lower price for the same 50-pint rating",
-        "Built-in pump plus three fan speeds",
-        "ENERGY STAR certified",
-        "Widely sold at home-improvement retailers"
+        "50 pints a day for large, damp spaces",
+        "Three fan speeds and an adjustable humidistat",
+        "Auto-restart after a power interruption",
+        "Large 16.2-pint bucket with auto shut-off",
+        "ENERGY STAR certified"
       ],
       "cons": [
+        "No built-in pump on this version",
         "Standard one-year warranty only",
         "No independent test data we could find",
         "Coverage claims vary between retailers"
       ],
-      "whyWeLoveIt": "It delivers the same headline spec as the Friedrich — 50 pints a day with a pump — for far less money. If you want a capable basement unit and don't need extended coverage, it's the practical choice.",
-      "performance": "Amana rates it at 50 pints a day with three fan speeds, a built-in condensate pump and ENERGY STAR certification. Coverage figures are inconsistent across retailers, from about 4,500 square feet on one listing to a far smaller number on another, so size it as you would any 50-pint unit. We didn't find any independent bench test of a current Amana dehumidifier, so performance is unconfirmed either way. More in our [Amana guide](/best/best-amana-dehumidifier/).",
+      "whyWeLoveIt": "It’s the bigger machine of the two: a true 50-pint unit with simple electronic controls, a 24-hour timer and auto-restart that keeps a basement unit working after a storm knocks the power out. If there’s a floor drain nearby, it removes more water a day than the Friedrich.",
+      "performance": "Amana lists 50 pints a day with three fan speeds (232, 196 and 160 CFM), ENERGY STAR certification and auto-defrost for cooler basements. Coverage figures are inconsistent across retailers — about 4,500 square feet on one listing, 150 on another — so size it as you would any 50-pint unit. It drains to the bucket or a gravity hose, so hands-off running needs a drain lower than the unit. We didn’t find any independent bench test of a current Amana dehumidifier, so performance is unconfirmed either way. More in our [Amana guide](/best/best-amana-dehumidifier/).",
       "specs": {
         "Capacity": "50 pints/day",
-        "Drainage": "Built-in pump, bucket or hose",
+        "Drainage": "16.2-pint bucket or gravity hose",
         "Efficiency": "ENERGY STAR",
         "Fan speeds": "3",
         "Warranty": "1-year limited"
       }
     },
     {
-      "id": "friedrich-d50b1b",
-      "name": "Friedrich 50-Pint Dehumidifier with Built-In Pump (D50B1B)",
-      "shortName": "Friedrich D50B1B",
+      "id": "friedrich-d35b1b",
+      "catalogId": "friedrich-d35b1b",
+      "name": "Friedrich 35-Pint Dehumidifier with Pump (D35B1B)",
+      "shortName": "Friedrich D35B1B",
       "award": "Best for long-term coverage",
       "pros": [
+        "Built-in pump with up to 15 feet of combined lift",
         "Five-year sealed-system warranty",
-        "Pump lifts water up to 15 feet combined",
-        "Strong hygrometer accuracy in independent results for its predecessor",
+        "Digital humidity control from 30% to 90%",
+        "Runs down to 41°F with auto defrost",
         "R-32 refrigerant"
       ],
       "cons": [
-        "Costs nearly double the Amana",
-        "Predecessor scored lower on durability"
+        "35 pints a day, well short of the Amana",
+        "Costs a premium over mainstream units",
+        "Its prior-generation sibling scored lower on durability"
       ],
-      "whyWeLoveIt": "Friedrich is a dedicated HVAC brand, and it backs this unit with a five-year warranty on the compressor and sealed system — the part that's most expensive to fix. It's also the only one of the two with independent performance data behind it.",
-      "performance": "Friedrich rates it at 50 pints a day, with a digital control range of 30–90% humidity and a pump with up to 15 feet of combined lift. It replaces the D50B1A and switches to R-32 refrigerant. Its closest tested sibling, the prior-generation D50BP, scored well overall in one independent review, with near-perfect hygrometer accuracy and quiet operation, but only middling marks for durability, with a notable share of owner complaints about reliability. See our [Friedrich guide](/best/best-friedrich-dehumidifier/) for the full lineup.",
+      "whyWeLoveIt": "Friedrich is a dedicated HVAC brand, and it backs this unit with a five-year warranty on the compressor and sealed system — the part that’s most expensive to fix. The pump is the other draw: it lets you put the unit where the moisture is rather than where the drain is.",
+      "performance": "Friedrich rates it at 35 pints a day, with retailers typically listing coverage around 800–1,000 square feet, a digital control range of 30–90% humidity and a pump that can push water up to 15 feet vertically, horizontally or a combination of both. There’s a 16.2-pint bucket if you’d rather not use the pump. This generation switched to R-32 refrigerant, replacing the D35B1A. The brand’s prior-generation 50-pint D50BP scored well in one independent review for hygrometer accuracy and quiet running, but only middling marks for durability. See our [Friedrich guide](/best/best-friedrich-dehumidifier/) for the full lineup.",
       "specs": {
-        "Capacity": "50 pints/day",
+        "Capacity": "35 pints/day",
         "Drainage": "Built-in pump, up to 15-ft lift",
         "Humidistat": "Digital, 30–90%",
+        "Low-temp operation": "Down to 41°F",
         "Refrigerant": "R-32",
         "Warranty": "1-year parts and labor; 5-year sealed system"
       }
@@ -74,16 +81,16 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Amana AMND501PAW", "Friedrich D50B1B"],
+          "head": ["", "Amana AMND501AW", "Friedrich D35B1B"],
           "rows": [
-            ["Capacity", "50 pints/day", "50 pints/day"],
-            ["Built-in pump", "Yes", "Yes, up to 15-ft combined lift"],
+            ["Capacity", "50 pints/day", "35 pints/day"],
+            ["Built-in pump", "No (bucket or gravity hose)", "Yes, up to 15-ft combined lift"],
             ["ENERGY STAR", "Yes", "Yes"],
             ["Refrigerant", "Not published", "R-32"],
-            ["Independent test data", "None found", "Predecessor: strong accuracy, weaker durability"],
+            ["Independent test data", "None found", "Prior-gen 50-pint D50BP: strong accuracy, weaker durability"],
             ["Warranty", "1-year limited", "1-year parts/labor + 5-year sealed system"],
             ["2021 recall", "Brand named; current model not covered", "Brand named; current model not covered"],
-            ["Price tier", "Big-box budget", "Nearly double"]
+            ["Price tier", "Mainstream", "Premium"]
           ]
         }
       ]
@@ -94,17 +101,17 @@
       "blocks": [
         {
           "type": "p",
-          "text": "We don't run a test lab. We compared each brand's closest matching current model using manufacturer specs, retailer listings, published warranty terms, independent reviews where they exist and the CPSC recall database. Where the numbers disagree between sources — as Amana's coverage claims do — we say so."
+          "text": "We don't run a test lab. We compared a current model from each brand using manufacturer specs, retailer listings, published warranty terms, independent reviews where they exist and the CPSC recall database. Where the numbers disagree between sources — as Amana's coverage claims do — we say so."
         }
       ]
     },
     {
       "id": "price-and-warranty",
-      "heading": "Price and warranty: what the premium buys",
+      "heading": "Capacity, pump and warranty: what each one buys",
       "blocks": [
         {
           "type": "p",
-          "text": "The price gap is the headline. For the same 50-pints-a-day rating and the same pump feature, the Friedrich generally costs roughly $200 more. Neither spec sheet explains that with a bigger tank or a faster compressor; the difference is brand positioning and, above all, warranty."
+          "text": "The spec sheets point in opposite directions. The Amana removes more water — 50 pints a day versus 35 — while the Friedrich adds a pump and charges a premium over mainstream units of either size. Beyond the pump, what that premium buys is brand positioning and, above all, warranty."
         },
         {
           "type": "p",
@@ -113,7 +120,7 @@
         {
           "type": "callout",
           "title": "Do the math for your situation",
-          "text": "If you'd replace rather than repair a failed unit, the Amana's lower price may cover a replacement on its own. If you'd rather have one machine for many seasons and the backing to fix it, the Friedrich's warranty tips the scales."
+          "text": "If you'd replace rather than repair a failed unit, the Amana's mainstream pricing makes that an easier call. If you'd rather have one machine for many seasons and the backing to fix it, the Friedrich's warranty tips the scales."
         }
       ]
     },
@@ -127,7 +134,7 @@
         },
         {
           "type": "p",
-          "text": "We found no comparable independent test of any current Amana dehumidifier. That doesn't mean the Amana performs poorly — just that there's no third-party confirmation either way. Friedrich's data is more detailed but genuinely mixed."
+          "text": "The current D35B1B is a newer generation and a smaller model, so treat that as brand history rather than a verdict on this unit. We found no comparable independent test of any current Amana dehumidifier. That doesn't mean the Amana performs poorly — just that there's no third-party confirmation either way. Friedrich's data is more detailed but genuinely mixed."
         }
       ]
     },
@@ -157,16 +164,16 @@
           "type": "checklist",
           "items": [
             {
-              "label": "Buy the Amana AMND501PAW if…",
-              "text": "you want a 50-pint pump unit for a basement at the lowest price, and a one-year warranty is acceptable to you."
+              "label": "Buy the Amana AMND501AW if…",
+              "text": "you need 50 pints for a large or very damp basement, have a floor drain or don't mind emptying a 16.2-pint bucket, and a one-year warranty is acceptable to you."
             },
             {
-              "label": "Buy the Friedrich D50B1B if…",
-              "text": "you want five years of compressor coverage, value a specialist HVAC brand and don't mind paying close to double."
+              "label": "Buy the Friedrich D35B1B if…",
+              "text": "your space is a mid-size room or small basement, there's no floor drain where the moisture is, and you want five years of compressor coverage from a specialist HVAC brand."
             },
             {
               "label": "Consider neither if…",
-              "text": "your space doesn't need a pump. A non-pump 50-pint unit with a gravity hose costs less still — compare options in our [50-pint guide](/best/best-50-pint-dehumidifier/) and [pump guide](/best/best-dehumidifier-with-pump/)."
+              "text": "you need 50 pints and a pump in one box. Compare self-draining options in our [pump guide](/best/best-dehumidifier-with-pump/) and larger units in our [50-pint guide](/best/best-50-pint-dehumidifier/)."
             }
           ]
         }
@@ -178,7 +185,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Amana AMND501PAW** is the smarter buy for most people: the same 50-pint, pump-equipped spec for far less money. The **Friedrich D50B1B** earns its premium only if a five-year sealed-system warranty matters to you — and its predecessor's mixed durability marks are worth weighing against that. Whichever you choose, verify the model number and manufacture date before buying a used or clearance unit."
+          "text": "The **Amana AMND501AW** is the better buy for a big, damp basement with a drain nearby: 50 pints a day, three fan speeds, auto-restart and a large bucket. The **Friedrich D35B1B** earns its premium in a mid-size space with no floor drain, thanks to its built-in pump and five-year sealed-system warranty — though the brand's mixed durability marks on an earlier model are worth weighing against that. Whichever you choose, verify the model number and manufacture date before buying a used or clearance unit."
         }
       ]
     }
@@ -186,7 +193,7 @@
   "faqs": [
     {
       "q": "Which is better, Amana or Friedrich?",
-      "a": "For value, Amana: its AMND501PAW matches the Friedrich D50B1B's 50-pint capacity and pump for far less. For warranty, Friedrich wins with five years of sealed-system coverage. Friedrich also has independent test data, though its predecessor scored weaker on durability."
+      "a": "For capacity, Amana: its AMND501AW removes 50 pints a day versus 35 for the Friedrich D35B1B. For drainage and warranty, Friedrich wins with a built-in pump and five years of sealed-system coverage. Friedrich also has independent test data for an earlier model, though it scored weaker on durability."
     },
     {
       "q": "Are Amana and Friedrich dehumidifiers made by the same company?",
@@ -194,7 +201,7 @@
     },
     {
       "q": "Why does the Friedrich cost so much more?",
-      "a": "Mostly brand positioning and warranty. Friedrich is a dedicated HVAC manufacturer and includes a five-year sealed-system warranty, while Amana competes on price with a one-year term."
+      "a": "Mostly brand positioning and warranty, plus the pump on the D35B1B. Friedrich is a dedicated HVAC manufacturer and includes a five-year sealed-system warranty, while Amana competes on price with a one-year term."
     },
     {
       "q": "Are current Amana or Friedrich dehumidifiers recalled?",
@@ -202,7 +209,7 @@
     },
     {
       "q": "Do both have a built-in pump?",
-      "a": "Yes. Both the Amana AMND501PAW and Friedrich D50B1B include a built-in condensate pump; Friedrich specifies up to 15 feet of combined lift."
+      "a": "No. The Friedrich D35B1B has a built-in condensate pump with up to 15 feet of combined lift. The Amana AMND501AW drains to its 16.2-pint bucket or a gravity hose; Amana's pump-equipped version is a separate model, the AMND501PAW."
     }
   ],
   "related": [

@@ -43,28 +43,29 @@
       }
     },
     {
-      "id": "homelabs-1500-sq-ft",
-      "name": "hOmeLabs 1,500 Sq Ft Dehumidifier",
-      "shortName": "hOmeLabs 1,500 Sq Ft",
+      "id": "costway-32-pint",
+      "catalogId": "costway-32-pint",
+      "name": "Costway 32-Pint Dehumidifier (2,000 Sq. Ft.)",
+      "shortName": "Costway 32-Pint",
       "award": "Best value",
       "pros": [
-        "Covers a large or damp primary bedroom",
-        "Simple humidistat and 24-hour timer",
-        "Auto-restart after a power blip",
-        "Continuous-drain port"
+        "Real capacity for a large or damp primary bedroom",
+        "24-hour timer and child lock",
+        "Three modes and two fan speeds",
+        "Owners often mention quiet running for its size"
       ],
       "cons": [
-        "No dedicated sleep mode",
-        "A bit louder than the Midea"
+        "Generous coverage claim for its size",
+        "One-year warranty"
       ],
-      "whyWeLoveIt": "If you want dependable extraction without paying for smart features, this is the no-nonsense pick. On its low fan setting, most owners find it easy to sleep through.",
-      "performance": "hOmeLabs rates it for up to about 1,500 square feet, making it a roughly 30-pint-class unit. Auto-restart means it picks up where it left off after an outage, and the drain port lets you run a hose if there's a convenient spot. It's slightly louder than the Midea in sleep mode, so place it across the room from the bed. More budget picks are in our [best budget dehumidifier](/best/best-budget-dehumidifier/) guide.",
+      "whyWeLoveIt": "If you want dependable extraction without paying for smart features, this is the no-nonsense pick. It lands squarely in the 30-pint class and still includes a timer and child lock that some budget models skip.",
+      "performance": "Costway rates it at 32 pints a day for up to 2,000 square feet. That coverage claim is generous for a unit this size, so treat it as a strong machine for one large or damp primary bedroom rather than a whole-floor solution. Owners often mention quiet running for its size, but it's still a compressor unit, so place it across the room from the bed and use the lower fan speed overnight. More budget picks are in our [best budget dehumidifier](/best/best-budget-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "About 30 pints/day",
-        "Coverage": "Up to ~1,500 sq ft",
-        "Timer": "24-hour",
-        "Auto-restart": "Yes",
-        "Drainage": "Bucket or continuous drain"
+        "Capacity": "32 pints/day, per Costway",
+        "Coverage": "Up to 2,000 sq ft, per Costway",
+        "Modes": "3 modes, 2 fan speeds",
+        "Extras": "24-hour timer, child lock",
+        "Warranty": "1 year"
       }
     },
     {
@@ -93,28 +94,28 @@
       }
     },
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
+      "id": "airplus-max-30-pint",
+      "catalogId": "airplus-max-30-pint",
+      "name": "AirPlus Max 30 Pint Tall Dehumidifier",
+      "shortName": "AirPlus Max 30",
       "award": "Best sleep mode",
       "pros": [
-        "Sleep mode lowers the fan and silences beeps",
-        "Auto-restart",
-        "Readable digital display",
-        "Continuous-drain option"
+        "Quiet sleep mode for overnight running",
+        "Drain hose for continuous use",
+        "Sized for bedrooms and mid-size rooms"
       ],
       "cons": [
-        "Simpler humidistat than the Midea",
-        "Not a smart unit"
+        "Marketed capacity, not a DOE 2019 figure",
+        "AirPlus doesn't publish decibel figures"
       ],
-      "whyWeLoveIt": "It's designed with bedrooms in mind. The sleep mode is one of the quietest you'll find at this price, and 30 pints is enough for most rooms without tipping into over-drying.",
-      "performance": "Pro Breeze rates it for small-to-medium rooms up to around 1,500 square feet. Sleep mode drops fan speed and mutes the beeps, which is exactly what you want at night. If quiet is your top priority, compare it with the picks in our [best quiet dehumidifier](/best/best-quiet-dehumidifier/) guide.",
+      "whyWeLoveIt": "It's designed with bedrooms in mind. When the dehumidifier runs in the room where you sleep, a dedicated sleep mode matters more than a few extra pints, and the drain hose means it won't stop in the middle of the night with a full tank.",
+      "performance": "AirPlus sizes it for up to 1,500 square feet and pitches it for bedrooms, large rooms and campers, with a quiet sleep mode and a drain hose. In practice, it's a comfortable fit for a single damp bedroom of a few hundred square feet. Because AirPlus doesn't publish decibel figures, compare it with the picks in our [best quiet dehumidifier](/best/best-quiet-dehumidifier/) guide if quiet is your top priority.",
       "specs": {
-        "Capacity": "30 pints/day",
-        "Coverage": "Up to ~1,500 sq ft",
-        "Noise": "Sleep mode",
-        "Auto-restart": "Yes",
-        "Drainage": "Bucket or continuous drain"
+        "Capacity": "30 pints/day (marketed)",
+        "Coverage": "Up to 1,500 sq ft (maker's claim)",
+        "Noise": "Quiet sleep mode",
+        "Drainage": "Tank or drain hose",
+        "Best for": "Bedrooms, guest rooms"
       }
     },
     {
@@ -258,7 +259,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 35-Pint** is the best bedroom dehumidifier for most people: quiet, smart and roomy enough to last the night. The **hOmeLabs 1,500 sq ft** unit is the value pick for a large room, the **Frigidaire FFAD2233W1** fits a small bedroom, the **Pro Breeze 30-Pint** has an excellent sleep mode, and the near-silent **Pro Breeze PB-03** is the choice for light sleepers and nurseries. Whatever you pick, hold the room around 45–50%."
+          "text": "The **Midea Cube 35-Pint** is the best bedroom dehumidifier for most people: quiet, smart and roomy enough to last the night. The **Costway 32-Pint** is the value pick for a large room, the **Frigidaire FFAD2233W1** fits a small bedroom, the **AirPlus Max 30** is built around a quiet sleep mode, and the near-silent **Pro Breeze PB-03** is the choice for light sleepers and nurseries. Whatever you pick, hold the room around 45–50%."
         }
       ]
     }

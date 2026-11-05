@@ -13,54 +13,56 @@
     "Choosing a **dehumidifier for a grow tent** isn't like choosing one for a bedroom. A tent is a sealed box built to hold in light and air, so it also holds in all the water your plants transpire. In late flower, a packed tent can push humidity well past safe levels in a matter of hours, and dense buds that stay damp for a few days invite **bud rot** — often hidden inside the cola until harvest.",
     "Sizing works differently, too. Forget square footage; what matters is tent footprint, plant count, growth stage and how hard your lights are driving transpiration. A 2x2 propagation tent and a crowded 5x5 in week six of flower are completely different loads. We picked the units below by those measures, using published specs, grower guidance on humidity targets and owner reports."
   ],
-  "topPicksLead": "For most 3x3 to 5x5 tents, the **Spider Farmer 32-Pint** is the one to buy: real compressor capacity, a drain hose for hands-off running and a compact body that fits in a corner.",
+  "topPicksLead": "For most 3x3 to 5x5 tents, the **AC Infinity HYDRONE 5** is the one to buy: sized for the most popular tents, a drain hose for hands-off running, duct ports for heat and a compact body that fits in a corner.",
   "products": [
     {
-      "id": "spider-farmer-32-pint",
-      "name": "Spider Farmer 32-Pint Dehumidifier",
-      "shortName": "Spider Farmer 32-Pint",
+      "id": "ac-infinity-hydrone-5",
+      "catalogId": "ac-infinity-hydrone-5",
+      "name": "AC Infinity HYDRONE 5 Plant Dehumidifier",
+      "shortName": "AC Infinity HYDRONE 5",
       "award": "Best overall",
       "pros": [
-        "Compressor capacity for a packed 4x4 or 5x5 tent",
+        "Sized by AC Infinity for 4x4 and 5x5 tents",
         "Drain hose for continuous operation",
-        "Includes a temperature and humidity sensor",
-        "Remembers settings after a power cut"
+        "Dual 6-inch ports to duct heat out of the tent",
+        "UIS port connects to AC Infinity smart controllers"
       ],
       "cons": [
-        "Small 0.55-gallon tank if you can't use the hose",
-        "Takes up a corner of floor space"
+        "Small half-gallon tank if you can't use the hose",
+        "Rated by real-world draw rate, so it's hard to compare with standard pints"
       ],
-      "whyWeLoveIt": "It's the size most home growers actually need: strong enough to hold flowering-stage humidity in a full tent, yet compact enough not to steal canopy room. With the drain hose attached, you can leave it running for days instead of checking a tank every morning — just when humidity swings hardest.",
-      "performance": "Spider Farmer rates it to remove 32 pints of moisture a day in tents up to 5x5 feet. It drains through a hose or into a built-in 0.55-gallon tank, and ships with a temperature and humidity sensor plus a 24-hour timer. Because it restarts with its previous settings after an outage, a brief power blip won't leave your tent unprotected overnight.",
+      "whyWeLoveIt": "It's the size most home growers actually need: built for the 4x4 and 5x5 tents most people run, yet small enough to sit in a corner without stealing canopy room. With the drain hose attached, you can leave it running for days instead of checking a tank every morning — just when humidity swings hardest — and paired with an AC Infinity controller it follows your humidity or VPD target on its own.",
+      "performance": "AC Infinity lists a real-world draw rate of about 4 liters — roughly 8.5 pints — a day and notes that it isn't directly comparable to standard compressor ratings. It runs on 120 volts, draws about 209 to 350 watts depending on its level and is listed for 45°F to 95°F. The internal tank holds about half a gallon, so most growers attach the drain hose and forget about emptying it. Compare the rest of the line in our [AC Infinity dehumidifier guide](/best/best-ac-infinity-dehumidifier/).",
       "specs": {
-        "Capacity": "32 pints/day (maker)",
-        "Type": "Compressor",
+        "Draw rate": "About 4 L (8.5 pints)/day (maker)",
         "Tent size": "Up to 5x5 ft",
-        "Drainage": "Hose or 0.55-gal tank",
-        "Extras": "Sensor, 24-hour timer, auto restart"
+        "Power": "120 V, about 209–350 W",
+        "Drainage": "Hose or 0.5-gal tank",
+        "Smart control": "UIS controller port"
       }
     },
     {
-      "id": "vivosun-mini",
-      "name": "VIVOSUN 0.85-Pint Mini Dehumidifier",
-      "shortName": "VIVOSUN Mini",
+      "id": "pro-breeze-pb-03",
+      "catalogId": "pro-breeze-pb-03",
+      "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
+      "shortName": "Pro Breeze PB-03",
       "award": "Best for small tents",
       "pros": [
-        "Thermo-electric, so nearly silent",
-        "Very low power draw",
-        "Fits inside a 2x2 tent",
-        "Auto shut-off with a full-tank light"
+        "Thermoelectric, so nearly silent",
+        "Low power draw",
+        "Small enough for a 2x2 tent",
+        "52-oz tank with auto shut-off"
       ],
       "cons": [
         "Far less capacity than a compressor unit",
-        "No drain hose"
+        "Small tank needs regular emptying"
       ],
       "whyWeLoveIt": "A 2x2 tent with a plant or two doesn't need a compressor, and a bulky one would swallow the little floor space you have. This mini is a quiet, inexpensive backstop that keeps a small tent from creeping above target in the final weeks.",
-      "performance": "VIVOSUN rates it for spaces up to about 269 square feet, with a 1.3-liter tank that switches the unit off and lights an indicator when full. Its Peltier design runs with just a small fan, so it adds almost no noise or heat. Think of it as a supplement for propagation, veg or small flowering tents rather than a primary unit for a crowded 4x4. Our [small dehumidifier guide](/best/best-small-dehumidifier/) has similar compact picks.",
+      "performance": "Pro Breeze rates it for spaces up to about 2,200 cubic feet, and its retail listing puts extraction at about 18 ounces a day. The 52-ounce tank switches the unit off when full. Its Peltier design runs with just a small fan, so it adds almost no noise or heat. Think of it as a supplement for propagation, veg or small flowering tents rather than a primary unit for a crowded 4x4. Our [small dehumidifier guide](/best/best-small-dehumidifier/) has similar compact picks.",
       "specs": {
-        "Capacity": "0.85 pints/day (maker)",
-        "Type": "Thermo-electric",
-        "Tank": "1.3 L",
+        "Capacity": "About 18 oz/day (retail listing)",
+        "Type": "Thermoelectric (Peltier)",
+        "Tank": "52 oz, auto shut-off",
         "Tent size": "2x2 ft or small veg tent",
         "Best for": "Propagation and small tents"
       }
@@ -77,7 +79,6 @@
         "Casters for moving between tents"
       ],
       "cons": [
-        "Costs more than the Spider Farmer for similar capacity",
         "App adds setup steps"
       ],
       "whyWeLoveIt": "If you dial in your tent by vapor-pressure deficit rather than raw humidity, this is the unit for you. Its probe measures temperature and humidity together at the canopy and the app shows VPD directly, so you're not doing the math by hand.",
@@ -91,9 +92,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Commercial Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Commercial Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for multi-tent grow rooms",
       "pros": [
         "Commercial capacity for a whole grow room",
@@ -106,7 +108,7 @@
         "Significant upfront cost"
       ],
       "whyWeLoveIt": "Once you're running two or more tents, separate small units get expensive and hard to keep in sync. One commercial machine drying the whole room from a central spot is simpler, and its pump means it drains itself wherever the tents happen to sit.",
-      "performance": "AlorAir rates the HDi65 at 55 pints a day under AHAM conditions and up to 120 pints at saturation. A built-in pump lifts water nearly 20 feet, and auto defrost keeps it working in a cold garage or basement grow room through winter. It's the same unit we recommend in our [crawl space guide](/best/best-crawl-space-dehumidifier/).",
+      "performance": "AlorAir rates the HDi65S at 55 pints a day under AHAM conditions and up to 120 pints at saturation. A built-in pump lifts water nearly 20 feet, and auto defrost keeps it working in a cold garage or basement grow room through winter. It's the same unit we recommend in our [crawl space guide](/best/best-crawl-space-dehumidifier/).",
       "specs": {
         "Capacity": "55 pints/day (AHAM); 120 at saturation",
         "Type": "Commercial compressor",
@@ -188,13 +190,13 @@
           "type": "table",
           "head": ["Tent size", "Veg", "Flower", "Example pick"],
           "rows": [
-            ["2x2 ft", "Often ventilation alone", "Thermo-electric mini", "VIVOSUN Mini"],
+            ["2x2 ft", "Often ventilation alone", "Thermo-electric mini", "Pro Breeze PB-03"],
             ["3x3 ft", "Mini or small compressor", "About 25 pints", "VIVOSUN AeroDrain D12"],
-            ["4x4 ft", "About 25 pints", "30–50 pints", "Spider Farmer 32-Pint"],
-            ["5x5 ft", "About 30 pints", "30–50 pints", "Spider Farmer 32-Pint"],
-            ["Several tents in one room", "Room-sized unit", "Commercial unit", "AlorAir Sentinel HDi65"]
+            ["4x4 ft", "About 25 pints", "30–50 pints", "AC Infinity HYDRONE 5"],
+            ["5x5 ft", "About 30 pints", "30–50 pints", "AC Infinity HYDRONE 5"],
+            ["Several tents in one room", "Room-sized unit", "Commercial unit", "AlorAir Sentinel HDi65S"]
           ],
-          "caption": "Rough guidance. More plants or stronger lights push you toward the top of each range."
+          "caption": "Rough guidance using standard pint ratings; AC Infinity's real-world draw rates aren't directly comparable. More plants or stronger lights push you toward the top of each range."
         }
       ]
     },
@@ -245,7 +247,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Spider Farmer 32-Pint** is the best dehumidifier for most grow tents from 3x3 to 5x5 feet, with enough capacity to hold flowering humidity and a hose so you don't babysit a tank. Size down to the **VIVOSUN Mini** for a 2x2, step up to the **VIVOSUN AeroDrain D12** for app control and VPD tracking, and move to the **AlorAir Sentinel HDi65** once you're running a whole grow room. Growing in a greenhouse instead? See our [greenhouse picks](/best/best-dehumidifier-for-greenhouse/)."
+          "text": "The **AC Infinity HYDRONE 5** is the best dehumidifier for most grow tents from 3x3 to 5x5 feet, sized to hold flowering humidity and fitted with a hose so you don't babysit a tank. Size down to the **Pro Breeze PB-03** for a 2x2, step up to the **VIVOSUN AeroDrain D12** for app control and VPD tracking, and move to the **AlorAir Sentinel HDi65S** once you're running a whole grow room. Growing in a greenhouse instead? See our [greenhouse picks](/best/best-dehumidifier-for-greenhouse/)."
         }
       ]
     }
@@ -253,7 +255,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for a grow tent?",
-      "a": "For most 3x3 to 5x5 tents, the Spider Farmer 32-Pint. It's a compressor unit rated for 32 pints a day with a drain hose for hands-off running. For a 2x2 tent, the VIVOSUN Mini is a better fit; for app control and VPD readings, choose the VIVOSUN AeroDrain D12."
+      "a": "For most 3x3 to 5x5 tents, the AC Infinity HYDRONE 5. AC Infinity sizes it for tents up to 5x5 and lists a real-world draw rate of about 8.5 pints a day, and its drain hose allows hands-off running. For a 2x2 tent, the Pro Breeze PB-03 is a better fit; for app control and VPD readings, choose the VIVOSUN AeroDrain D12."
     },
     {
       "q": "Should the dehumidifier go inside the grow tent?",
@@ -261,7 +263,7 @@
     },
     {
       "q": "What size dehumidifier do I need for a 4x4 grow tent?",
-      "a": "Usually 30 to 50 pints a day in flower, toward the top of that range with four or more plants under strong LEDs. The Spider Farmer 32-Pint or VIVOSUN AeroDrain D12 suits most 4x4 tents."
+      "a": "Usually 30 to 50 pints a day in flower, toward the top of that range with four or more plants under strong LEDs. The AC Infinity HYDRONE 5 or VIVOSUN AeroDrain D12 suits most 4x4 tents; note that AC Infinity lists its HYDRONE units by real-world draw rate, which runs lower than standard pint ratings."
     },
     {
       "q": "What humidity should a grow tent be during flowering?",
@@ -269,7 +271,7 @@
     },
     {
       "q": "What is the best small dehumidifier for a grow tent?",
-      "a": "The VIVOSUN 0.85-Pint Mini. Its thermo-electric design is nearly silent, uses little power and fits inside a 2x2 tent, though it's best as a supplement rather than the main unit in a full flowering tent."
+      "a": "The Pro Breeze PB-03. Its thermoelectric design is nearly silent, uses little power and fits inside a 2x2 tent, though it's best as a supplement rather than the main unit in a full flowering tent."
     },
     {
       "q": "Can I use a regular room dehumidifier in a grow tent?",

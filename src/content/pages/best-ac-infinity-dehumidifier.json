@@ -93,25 +93,28 @@
       }
     },
     {
-      "id": "quest-dual-155",
-      "name": "Quest Dual 155 Overhead Dehumidifier",
-      "shortName": "Quest Dual 155",
+      "id": "alorair-storm-elite",
+      "catalogId": "alorair-storm-elite",
+      "name": "AlorAir Storm Elite LGR Dehumidifier",
+      "shortName": "AlorAir Storm Elite",
       "award": "Best for grow rooms beyond a tent",
       "pros": [
-        "155 pints a day at 80°F and 60% humidity",
-        "Runs on a standard 115-volt circuit",
-        "Hangs overhead to save floor space"
+        "125 pints a day at AHAM conditions (80°F, 60% RH)",
+        "Built-in pump, so no floor drain needed",
+        "Auto-defrost and filtered intake"
       ],
       "cons": [
-        "Needs a drain or condensate pump",
-        "Overkill for a single tent"
+        "Sits on the floor rather than hanging overhead",
+        "Overkill for a single tent",
+        "Bulky to move"
       ],
-      "whyWeLoveIt": "Once you’re running several tents in one room or converting a spare room into a grow, a single commercial unit outperforms a row of tent dehumidifiers. The Dual 155 is the usual first step up.",
-      "performance": "Quest rates it at 155 pints a day at 80°F and 60% humidity on about 8 amps at 115 volts. It drains continuously and can hang from the ceiling. See the full lineup in our [Quest dehumidifier](/best/best-quest-dehumidifier/) guide.",
+      "whyWeLoveIt": "Once you’re running several tents in one room or converting a spare room into a grow, a single commercial unit outperforms a row of tent dehumidifiers. The Storm Elite moves enough water to replace two smaller machines, and its pump means the grow room doesn’t need a floor drain.",
+      "performance": "AlorAir rates it at 125 pints a day under AHAM conditions (80°F, 60% humidity) and 270 at saturation, with coverage up to about 3,000 square feet. The built-in pump sends water to a sink or drain, and the filtered intake helps in a dusty room. It runs on its own humidistat rather than an AC Infinity controller. More heavy-duty options are in our [commercial dehumidifier](/best/best-commercial-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "155 pints/day at 80°F/60% (Quest)",
-        "Power": "115 V, about 8 A",
-        "Mounting": "Floor or overhead",
+        "Capacity": "125 pints/day (AHAM); 270 at saturation",
+        "Type": "LGR compressor",
+        "Drainage": "Built-in pump",
+        "Coverage": "Up to about 3,000 sq ft",
         "Best for": "Multi-tent grow rooms"
       }
     }
@@ -225,7 +228,7 @@
           "type": "ul",
           "items": [
             "**You want the most pints for the money.** A conventional compressor dehumidifier placed outside the tent and ducted in can remove more water per dollar; our [grow tent dehumidifier](/best/best-dehumidifier-for-grow-tent/) guide covers those options.",
-            "**You’re drying a whole room or several tents.** Step up to a commercial unit like the Quest Dual 155.",
+            "**You’re drying a whole room or several tents.** Step up to a commercial unit like the AlorAir Storm Elite.",
             "**You’re growing houseplants, not a tent.** A small home unit is simpler; see our [dehumidifier for plants](/best/best-dehumidifier-for-plants/) picks.",
             "**Your tent is too dry, not too wet.** That’s a humidifier job — AC Infinity makes those too, and our [dehumidifier vs. humidifier](/guides/dehumidifier-vs-humidifier/) guide explains the difference."
           ]
@@ -238,7 +241,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most growers, the **AC Infinity HYDRONE 5** is the one to buy: it suits 4×4 and 5×5 tents, ducts cleanly and automates beautifully with an AC Infinity controller. Choose the **AC Infinity HYDRONE 7** for 8×8 and 10×10 tents, the **AC Infinity HYDRONE 3** for a 2×2 or cabinet, and a **Quest Dual 155** once your grow outgrows tents altogether."
+          "text": "For most growers, the **AC Infinity HYDRONE 5** is the one to buy: it suits 4×4 and 5×5 tents, ducts cleanly and automates beautifully with an AC Infinity controller. Choose the **AC Infinity HYDRONE 7** for 8×8 and 10×10 tents, the **AC Infinity HYDRONE 3** for a 2×2 or cabinet, and an **AlorAir Storm Elite** once your grow outgrows tents altogether."
         }
       ]
     }

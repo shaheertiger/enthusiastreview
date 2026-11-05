@@ -6,7 +6,7 @@
   "title": "Best Budget Dehumidifier (2026): Cheap Picks That Really Work",
   "h1": "The Best Budget Dehumidifiers",
   "dek": "You don't need a flagship to dry a room. These affordable picks keep the compressor and skip the extras.",
-  "description": "The best budget dehumidifier picks for 2026: real compressor units under $200, a low-cost pump model, a small-room mini and a cheap no-power option.",
+  "description": "The best budget dehumidifier picks for 2026: affordable compressor units, a low-cost pump model, a small-room mini and a cheap no-power option.",
   "published": "2026-09-02",
   "updated": "2026-11-05",
   "intro": [
@@ -14,30 +14,32 @@
     "The trick to buying cheap without regret is matching the machine to the space. A modest 30-pint compressor in a bedroom or office will outperform a bargain thermoelectric mini every time, and an inexpensive no-power canister is perfect for a closet but useless for an open room.",
     "We compared affordable models on DOE capacity ratings, drainage options, manufacturer specs and owner-review patterns for durability and noise. We don't lab-test; every capacity below is a published rating."
   ],
-  "topPicksLead": "For most budget shoppers, the **Pro Breeze 30-Pint** is the one to buy: a genuine compressor dehumidifier that comfortably handles a bedroom, office or small living space for far less than a 50-pint flagship.",
+  "topPicksLead": "For most budget shoppers, the **AirPlus Max 30** is the one to buy: a genuine compressor dehumidifier that comfortably handles a bedroom, office or small living space for far less than a 50-pint flagship.",
   "products": [
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
+      "id": "airplus-max-30-pint",
+      "catalogId": "airplus-max-30-pint",
+      "name": "AirPlus Max 30 Pint Tall Dehumidifier",
+      "shortName": "AirPlus Max 30",
       "award": "Best overall budget pick",
       "pros": [
         "Real compressor, not a thermoelectric mini",
-        "Rated for spaces up to roughly 1,500 sq ft",
-        "Sleep mode and auto-restart after power cuts",
-        "Continuous-drain option"
+        "Rated for spaces up to about 1,500 sq ft (maker’s claim)",
+        "Quiet sleep mode for overnight running",
+        "Drain hose for continuous use"
       ],
       "cons": [
-        "No Wi-Fi or app control",
-        "Smaller tank than premium models"
+        "Marketed capacity, not a DOE 2019 figure",
+        "AirPlus doesn’t publish decibel figures",
+        "Not enough for a wet basement"
       ],
-      "whyWeLoveIt": "This is the sweet spot of value. You get true compressor extraction — the kind that actually pulls a room down to 50% — at close to half the price of a 50-pint Wi-Fi flagship. For a bedroom, home office or small living area, 30 pints a day is plenty.",
-      "performance": "Pro Breeze lists coverage up to about 1,500 square feet, and auto-restart means it resumes after an outage instead of sitting idle while humidity climbs. Owners mostly mention the smaller bucket as the trade-off; connect a hose if you'd rather not empty it daily. See the brand's full lineup in our [best Pro Breeze dehumidifier](/best/best-pro-breeze-dehumidifier/) guide.",
+      "whyWeLoveIt": "This is the sweet spot of value. You get compressor extraction — the kind that actually pulls a room down to 50% — from a brand that’s often priced below the big appliance names. For a bedroom, home office or small living area, a 30-pint unit is plenty.",
+      "performance": "AirPlus sizes it for up to 1,500 square feet and pitches it for bedrooms, large rooms and campers; in practice it’s a comfortable fit for a single damp room of a few hundred square feet. The quiet sleep mode lets it run overnight, and the drain hose means you don’t have to empty the tank daily. See the brand’s full lineup in our [best AirPlus dehumidifier](/best/best-airplus-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "30 pints/day",
+        "Capacity": "30 pints/day (marketed)",
         "Type": "Compressor",
-        "Drainage": "Bucket or continuous hose",
-        "Coverage": "Up to about 1,500 sq ft",
+        "Drainage": "Tank or drain hose",
+        "Coverage": "Up to 1,500 sq ft (maker’s claim)",
         "Best for": "Bedroom, office, small living room"
       }
     },
@@ -53,7 +55,7 @@
         "Compact footprint"
       ],
       "cons": [
-        "Lower capacity than the Pro Breeze",
+        "Lower capacity than the AirPlus Max 30",
         "Drain must run downhill"
       ],
       "whyWeLoveIt": "If you hate emptying buckets, this Frigidaire is worth the small step up. Thread on a garden hose, run it to a floor drain, and gravity takes care of the rest — a genuine convenience upgrade that still lands well below flagship pricing.",
@@ -215,7 +217,7 @@
           "type": "table",
           "head": ["Model", "Best for", "Type", "Drainage"],
           "rows": [
-            ["Pro Breeze 30-Pint", "Most rooms", "Compressor, 30 pints", "Bucket or hose"],
+            ["AirPlus Max 30", "Most rooms", "Compressor, 30 pints", "Tank or hose"],
             ["Frigidaire FFAD2233W1", "Continuous drain", "Compressor, 22 pints", "Bucket or hose"],
             ["hOmeLabs HME1003 Wi-Fi", "Large spaces, no drain", "Compressor, 50 pints", "Built-in pump"],
             ["Pro Breeze PB-03", "One small room", "Thermoelectric", "Tank"],
@@ -262,7 +264,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Pro Breeze 30-Pint** is the best budget dehumidifier for most people: real compressor performance without paying for features you won't use. Choose the **Frigidaire FFAD2233W1** if continuous drainage matters most, step up to the **hOmeLabs HME1003** for a big space with no downhill drain, and drop to the **Pro Breeze PB-03** or **Eva-Dry E-333** for a single small room or a closet. For the full field at every price, see our [best dehumidifier](/best/best-dehumidifier/) guide."
+          "text": "The **AirPlus Max 30** is the best budget dehumidifier for most people: real compressor performance without paying for features you won't use. Choose the **Frigidaire FFAD2233W1** if continuous drainage matters most, step up to the **hOmeLabs HME1003** for a big space with no downhill drain, and drop to the **Pro Breeze PB-03** or **Eva-Dry E-333** for a single small room or a closet. For the full field at every price, see our [best dehumidifier](/best/best-dehumidifier/) guide."
         }
       ]
     }
@@ -270,7 +272,7 @@
   "faqs": [
     {
       "q": "What is the best budget dehumidifier?",
-      "a": "The Pro Breeze 30-Pint. It's a genuine compressor dehumidifier rated for spaces up to about 1,500 square feet, with sleep mode, auto-restart and a drain port, and it typically costs well under the price of a 50-pint flagship."
+      "a": "The AirPlus Max 30. It's a 30-pint compressor dehumidifier sized for spaces up to about 1,500 square feet, with a quiet sleep mode and a drain hose, from a brand that's often priced below the big appliance names."
     },
     {
       "q": "Are cheap dehumidifiers worth it?",
@@ -278,7 +280,7 @@
     },
     {
       "q": "What's the cheapest dehumidifier that actually works?",
-      "a": "For an open room, an entry-level compressor unit like the Pro Breeze 30-Pint. For an enclosed space like a closet or gun safe, a renewable silica canister such as the Eva-Dry E-333 costs very little and uses no power while working."
+      "a": "For an open room, an entry-level compressor unit like the AirPlus Max 30. For an enclosed space like a closet or gun safe, a renewable silica canister such as the Eva-Dry E-333 costs very little and uses no power while working."
     },
     {
       "q": "Can I get a budget dehumidifier with a pump?",

@@ -119,26 +119,27 @@
       }
     },
     {
-      "id": "homelabs-30-pint-wifi",
-      "name": "hOmeLabs 30-Pint Wi-Fi Dehumidifier",
-      "shortName": "hOmeLabs 30-Pint Wi-Fi",
+      "id": "homelabs-32-pint-wifi",
+      "catalogId": "homelabs-32-pint-wifi",
+      "name": "hOmeLabs 32-Pint Wi-Fi Dehumidifier",
+      "shortName": "hOmeLabs 32-Pint Wi-Fi",
       "award": "Best for basement canning rooms",
       "pros": [
-        "Room-scale compressor drying",
-        "Covers roughly 1,500 sq ft",
+        "Room-scale compressor drying, 32 pints/day under the DOE test",
         "Wi-Fi app shows humidity remotely",
-        "Set-a-number humidistat"
+        "Auto shut-off and washable filter",
+        "Lower power draw than a 50-pint"
       ],
       "cons": [
         "Far too big for a cabinet pantry",
-        "Bucket needs emptying unless you add a hose"
+        "Gravity drain only — no pump"
       ],
-      "whyWeLoveIt": "Some pantries aren't cabinets at all — they're basement rooms lined with canning jars, bulk flour and stockpiled dry goods. That's a room-sized moisture problem, and it needs a compressor dehumidifier.",
-      "performance": "A 30-pint compressor unit can hold a basement storage room in the 40s and low 50s that dry goods like. The app lets you confirm conditions without going downstairs, which is handy for a space you visit weekly rather than daily. If there's a drain nearby, hook up a hose for continuous operation; if not, consider a model from our [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) guide.",
+      "whyWeLoveIt": "Some pantries aren't cabinets at all — they're basement rooms lined with canning jars, bulk flour and stockpiled dry goods. That's a room-sized moisture problem, and it needs a compressor dehumidifier; this one has the capacity for a below-grade room without jumping to a full 50-pint machine.",
+      "performance": "It's rated at 32 pints a day under the DOE test, enough to hold a basement storage room in the 40s and low 50s that dry goods like; ignore the much larger \"max\" figure on the listing, which uses saturated-air math, and hOmeLabs' optimistic 4,500-square-foot coverage claim. The app lets you confirm conditions without going downstairs, which is handy for a space you visit weekly rather than daily. If there's a drain nearby, hook up a hose for continuous operation; if not, consider a model from our [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) guide.",
       "specs": {
-        "Capacity": "30 pints/day",
+        "Capacity": "32 pints/day (DOE 2019)",
         "Type": "Compressor",
-        "Coverage": "About 1,500 sq ft",
+        "Drainage": "Bucket or gravity hose",
         "Smart control": "Wi-Fi app",
         "Best for": "Basement food-storage room"
       }
@@ -241,7 +242,7 @@
             ["Walk-in pantry", "Eva-Dry E-500", "More capacity, hangs out of the way"],
             ["Not sure if there's a problem", "DampRid hanging bag", "Cheap way to test"],
             ["Shares a wall with dishwasher or laundry", "Pro Breeze electric mini", "Active drying keeps up"],
-            ["Basement canning or bulk-storage room", "hOmeLabs 30-pint", "Room-scale compressor"]
+            ["Basement canning or bulk-storage room", "hOmeLabs 32-Pint Wi-Fi", "Room-scale compressor"]
           ]
         }
       ]
@@ -252,7 +253,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **Eva-Dry E-333** is the best dehumidifier for a pantry: cordless, silent, fume-free and right-sized. Choose the **Eva-Dry E-500** for a walk-in, a **DampRid** bag to test the waters, the **Pro Breeze** electric mini for a pantry that stays humid, and a **30-pint compressor unit** for a basement food-storage room. Pair any of them with airtight containers and a hygrometer, and your dry goods will stay that way. Not sure what size you need for a larger space? Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) can help."
+          "text": "For most homes, the **Eva-Dry E-333** is the best dehumidifier for a pantry: cordless, silent, fume-free and right-sized. Choose the **Eva-Dry E-500** for a walk-in, a **DampRid** bag to test the waters, the **Pro Breeze** electric mini for a pantry that stays humid, and the **hOmeLabs 32-Pint Wi-Fi** for a basement food-storage room. Pair any of them with airtight containers and a hygrometer, and your dry goods will stay that way. Not sure what size you need for a larger space? Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) can help."
         }
       ]
     }

@@ -92,27 +92,28 @@
       }
     },
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
+      "id": "honeywell-tp30awkn",
+      "catalogId": "honeywell-tp30awkn",
+      "name": "Honeywell TP30AWKN 30-Pint Dehumidifier",
+      "shortName": "Honeywell TP30AWKN",
       "award": "Best for small rooms",
       "pros": [
-        "Right-sized for an office or small bedroom",
-        "Sleep mode for quieter overnight running",
-        "Slim footprint tucks against a wall"
+        "Right-sized for an office or large bedroom",
+        "Digital controls with an adjustable humidity setting",
+        "Bucket or hose drainage"
       ],
       "cons": [
-        "Simpler controls than the Midea or Frigidaire",
-        "Bucket only in most setups"
+        "No smart-home features",
+        "Bigger and heavier than a 22-pint unit"
       ],
-      "whyWeLoveIt": "A single small room with wood floors doesn't need a basement-grade machine. A 30-pint compressor unit is enough, and a smaller box is easier to keep out of foot traffic where it could be bumped.",
-      "performance": "Good fit for home offices and kids' rooms where the unit runs in short cycles rather than all day. Not sure about capacity? Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) walks through 20 vs. 30 vs. 50 pints by room.",
+      "whyWeLoveIt": "A single room with wood floors doesn't need a basement-grade machine. A 30-pint compressor unit is enough, and this Honeywell's digital humidity setting lets it hold a target inside the 30–50% range instead of simply running on high.",
+      "performance": "Good fit for home offices and kids' rooms where the unit runs in short cycles rather than all day. At 30 pints a day it has some headroom for a damp den or a larger bedroom, and a hose connection lets it drain continuously if you'd rather not carry a bucket across the floor. Not sure about capacity? Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) walks through 20 vs. 30 vs. 50 pints by room.",
       "specs": {
         "Capacity": "30 pints/day",
         "Type": "Compressor",
-        "Drainage": "Bucket",
-        "Noise": "Sleep mode",
-        "Best for": "Office, small bedroom"
+        "Controls": "Digital, with humidity setting",
+        "Drainage": "Bucket or hose",
+        "Best for": "Office, bedroom"
       }
     }
   ],

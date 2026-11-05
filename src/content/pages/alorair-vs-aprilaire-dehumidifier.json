@@ -6,20 +6,21 @@
   "title": "AlorAir vs. Aprilaire Dehumidifier (2026): Crawl Space Showdown",
   "h1": "AlorAir vs. Aprilaire Dehumidifiers: Which Crawl-Space Unit Is Worth It?",
   "dek": "One costs less than half as much and includes a pump. The other has a cleaner coverage rating and steadier warranty. Here's how to choose.",
-  "description": "AlorAir vs. Aprilaire for crawl spaces: the Sentinel HDi65 and E070 compared on AHAM capacity, coverage, drainage, warranty and total installed cost.",
+  "description": "AlorAir vs. Aprilaire for crawl spaces: the Sentinel HDi65S and E070 compared on AHAM capacity, coverage, drainage, warranty and total installed cost.",
   "published": "2026-09-15",
   "updated": "2026-11-05",
   "intro": [
     "In the **AlorAir vs. Aprilaire** matchup, both brands are trying to solve the same problem: a sealed crawl space with no floor drain and a moisture load that lasts most of the year. They just come at it from opposite ends of the market. AlorAir sells direct to consumers at aggressive prices; Aprilaire sells through HVAC distributors and home centers as professional-grade equipment.",
-    "To keep the comparison fair, we put each brand's dedicated crawl-space model side by side: the **AlorAir Sentinel HDi65** and the **Aprilaire E070**. The sticker prices are far apart — the Aprilaire typically costs more than twice as much — but the differences in what you actually get are smaller than that gap suggests, and in one area AlorAir comes out ahead.",
+    "To keep the comparison fair, we put each brand's dedicated crawl-space model side by side: the **AlorAir Sentinel HDi65S** and the **Aprilaire E070**. The sticker prices are far apart — the Aprilaire typically costs more than twice as much — but the differences in what you actually get are smaller than that gap suggests, and in one area AlorAir comes out ahead.",
     "We compared both on AHAM-rated capacity, published coverage, drainage, low-temperature operation, warranty terms and total installed cost, using manufacturer specs, installation manuals and owner reports."
   ],
-  "topPicksLead": "For most typical residential crawl spaces, the **AlorAir Sentinel HDi65** is the better value, while the **Aprilaire E070** is the safer pick for large crawls.",
+  "topPicksLead": "For most typical residential crawl spaces, the **AlorAir Sentinel HDi65S** is the better value, while the **Aprilaire E070** is the safer pick for large crawls.",
   "products": [
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Crawl Space Dehumidifier",
-      "shortName": "AlorAir HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Crawl Space Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best value",
       "pros": [
         "Built-in pump with about 19.6 ft of lift",
@@ -30,7 +31,7 @@
       ],
       "cons": [
         "Lower AHAM rating (55 pints vs. 70)",
-        "No clean, published coverage figure",
+        "Smaller coverage figure (about 1,300 sq ft on its listing)",
         "Warranty drops to limited coverage after year 2"
       ],
       "whyWeLoveIt": "It does most of what the Aprilaire does for far less money, and it includes the one accessory most crawl spaces need: a condensate pump. Out of the box, it can drain uphill to daylight without a separate purchase.",
@@ -56,7 +57,7 @@
         "Fits through a standard crawl-space hatch"
       ],
       "cons": [
-        "More than twice the price of the HDi65",
+        "More than twice the price of the HDi65S",
         "Condensate pump sold separately",
         "Warranty excludes labor"
       ],
@@ -78,11 +79,11 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "AlorAir Sentinel HDi65", "Aprilaire E070"],
+          "head": ["", "AlorAir Sentinel HDi65S", "Aprilaire E070"],
           "rows": [
             ["Capacity (AHAM)", "55 pints/day", "70 pints/day"],
             ["Saturation rating", "120 pints/day", "Not the headline figure"],
-            ["Published coverage", "Not officially rated", "Up to 2,200 sq ft"],
+            ["Published coverage", "About 1,300 sq ft (Amazon listing)", "Up to 2,200 sq ft"],
             ["Drainage", "Built-in pump, ~19.6 ft lift", "Bucketless; pump sold separately"],
             ["Low-temp operation", "Auto-defrost to ~36°F", "No published low-temp rating"],
             ["Warranty", "6 years limited (2 years full)", "5 years full parts, no labor"],
@@ -94,7 +95,7 @@
         {
           "type": "stats",
           "items": [
-            { "value": "55 vs. 70", "label": "AHAM pints per day, HDi65 vs. E070" },
+            { "value": "55 vs. 70", "label": "AHAM pints per day, HDi65S vs. E070" },
             { "value": "19.6 ft", "label": "Pump lift built into the AlorAir" },
             { "value": "2,200 sq ft", "label": "Aprilaire's published E070 coverage" }
           ]
@@ -136,7 +137,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Most crawl spaces don't have a floor drain, so the water has to be pumped up and out. The HDi65 ships with that pump built in. The E070 is bucketless too, but the pump is a separate accessory. Add one to the Aprilaire's bill and the gap narrows — though the Aprilaire remains meaningfully more expensive for its capacity."
+          "text": "Most crawl spaces don't have a floor drain, so the water has to be pumped up and out. The HDi65S ships with that pump built in. The E070 is bucketless too, but the pump is a separate accessory. Add one to the Aprilaire's bill and the gap narrows — though the Aprilaire remains meaningfully more expensive for its capacity."
         },
         {
           "type": "p",
@@ -150,7 +151,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "This was once Aprilaire's clearest advantage. AlorAir now offers a 6-year limited warranty on the HDi65, with full replacement coverage for the first two years and limited coverage in years three through six. Aprilaire's 5-year term is full parts coverage throughout, though neither covers labor."
+          "text": "This was once Aprilaire's clearest advantage. AlorAir now offers a 6-year limited warranty on the HDi65S, with full replacement coverage for the first two years and limited coverage in years three through six. Aprilaire's 5-year term is full parts coverage throughout, though neither covers labor."
         },
         {
           "type": "p",
@@ -166,7 +167,7 @@
           "type": "checklist",
           "items": [
             {
-              "label": "Buy the AlorAir HDi65 if…",
+              "label": "Buy the AlorAir HDi65S if…",
               "text": "your crawl is a typical residential size, there's no floor drain, and you'd rather spend the savings on encapsulation or a backup hygrometer.",
               "sub": [
                 "You want a pump included",
@@ -178,7 +179,7 @@
               "label": "Buy the Aprilaire E070 if…",
               "text": "your crawl is large or humid enough to push toward 2,200 square feet, or you value full-strength warranty coverage and an HVAC-dealer support network.",
               "sub": [
-                "You want a published coverage rating",
+                "You need coverage beyond about 1,300 sq ft",
                 "An installer is handling the job",
                 "You already have a drain or plan to add a pump"
               ]
@@ -197,7 +198,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **AlorAir Sentinel HDi65** is the smarter buy: it handles a typical sealed crawl space, includes the pump, runs in cold conditions and costs less than half as much. The **Aprilaire E070** earns its premium in large or very humid crawls, with more extraction, a clearly published 2,200-square-foot rating and full parts coverage for five years. For more options, see our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) roundup."
+          "text": "For most homes, the **AlorAir Sentinel HDi65S** is the smarter buy: it handles a typical sealed crawl space, includes the pump, runs in cold conditions and costs less than half as much. The **Aprilaire E070** earns its premium in large or very humid crawls, with more extraction, a clearly published 2,200-square-foot rating and full parts coverage for five years. For more options, see our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) roundup."
         }
       ]
     }
@@ -205,7 +206,7 @@
   "faqs": [
     {
       "q": "Is AlorAir or Aprilaire better for a crawl space?",
-      "a": "For most typical residential crawl spaces, the AlorAir Sentinel HDi65 offers better value: 55 AHAM pints, a built-in pump and less than half the price. The Aprilaire E070 is the better pick for large crawls approaching 2,200 sq ft or for buyers who want full-strength warranty coverage."
+      "a": "For most typical residential crawl spaces, the AlorAir Sentinel HDi65S offers better value: 55 AHAM pints, a built-in pump and less than half the price. The Aprilaire E070 is the better pick for large crawls approaching 2,200 sq ft or for buyers who want full-strength warranty coverage."
     },
     {
       "q": "Why is the Aprilaire E070 so much more expensive?",
@@ -213,15 +214,15 @@
     },
     {
       "q": "Does the Aprilaire E070 come with a pump?",
-      "a": "No. It's bucketless, but if your crawl space has no floor drain you'll need to add a condensate pump, such as Aprilaire's 4856. The AlorAir HDi65 has a pump built in."
+      "a": "No. It's bucketless, but if your crawl space has no floor drain you'll need to add a condensate pump, such as Aprilaire's 4856. The AlorAir HDi65S has a pump built in."
     },
     {
       "q": "Which has the better warranty, AlorAir or Aprilaire?",
-      "a": "AlorAir's HDi65 warranty is longer at six years, but only the first two are full coverage. Aprilaire's E070 has five years of full parts coverage. Neither covers labor."
+      "a": "AlorAir's HDi65S warranty is longer at six years, but only the first two are full coverage. Aprilaire's E070 has five years of full parts coverage. Neither covers labor."
     },
     {
-      "q": "Can the AlorAir HDi65 handle a large crawl space?",
-      "a": "Up to a point. AlorAir doesn't publish a clean coverage figure, and its 55-pint AHAM rating is sized for a typical residential crawl. For a large or very humid space, the Aprilaire E070 is the safer, better-documented choice."
+      "q": "Can the AlorAir HDi65S handle a large crawl space?",
+      "a": "Up to a point. AlorAir's listing puts coverage at about 1,300 sq ft, and its 55-pint AHAM rating is sized for a typical residential crawl. For a large or very humid space, the Aprilaire E070 is the safer, better-documented choice."
     },
     {
       "q": "What about AlorAir vs. Aprilaire for a whole house?",

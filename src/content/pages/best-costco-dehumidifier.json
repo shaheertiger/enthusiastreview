@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Retailers",
   "navLabel": "Costco",
-  "title": "Best Costco Dehumidifier (2026): Hisense, Midea and Danby",
+  "title": "Best Costco Dehumidifier (2026): Hisense and Midea Picks",
   "h1": "The Best Costco Dehumidifiers — and How to Shop the Rotating Aisle",
   "dek": "Costco's dehumidifier selection comes and goes like everything else in the warehouse. Here's what's worth grabbing when you see it, and what to check before you do.",
-  "description": "The best Costco dehumidifiers right now — the Hisense 35-pint plus rotating Midea and Danby 50-pint pump models — and how to judge a Costco deal before you buy.",
+  "description": "The best Costco dehumidifiers right now — the Hisense 35-pint plus rotating Midea and Hisense 50-pint pump models — and how to judge a Costco deal before you buy.",
   "published": "2026-10-20",
   "updated": "2026-11-05",
   "intro": [
@@ -67,26 +67,29 @@
       }
     },
     {
-      "id": "danby-ddr050bjpwdb",
-      "name": "Danby 50-Pint Dehumidifier with Built-In Pump (DDR050BJPWDB)",
-      "shortName": "Danby 50-Pint Pump",
-      "award": "Best if you catch it in stock",
+      "id": "hisense-50-pint-pump",
+      "catalogId": "hisense-50-pint-pump",
+      "name": "Hisense 50-Pint Dehumidifier with Pump",
+      "shortName": "Hisense 50-Pint with Pump",
+      "award": "Best backup pump pick",
       "pros": [
         "50-pint capacity with a built-in pump",
-        "Has appeared at steep clearance prices",
-        "Established appliance brand"
+        "Rated for up to 4,500 sq ft",
+        "Same brand as Costco's standing HD3526 listing"
       ],
       "cons": [
-        "Frequently out of stock",
-        "Danby has recall history on older models"
+        "More owner reports of E9 sensor errors",
+        "Lower average rating than Hisense's non-pump 50-pint",
+        "Not a standing Costco.com listing"
       ],
-      "whyWeLoveIt": "When it's on the shelf, it's another capable 50-pint pump unit at a club price. It's a solid alternative to the Midea if that one isn't in your warehouse.",
-      "performance": "This is a 50-pint compressor unit with a built-in pump for continuous drainage. Member reports showed it at a deep discount in spring 2026 before it went out of stock, so treat any price you see quoted online as stale until you check. Danby has been part of more than one CPSC recall on older models; read our [Danby guide](/best/best-danby-dehumidifier/) before buying, especially if you're considering a used or open-box unit.",
+      "whyWeLoveIt": "If the Midea isn't in your warehouse, this is the pump-equipped 50-pint to look for next. It comes from the same brand as Costco's one standing listing, Hisense pump models have turned up in some warehouses, and it's easy to order elsewhere if the aisle comes up empty.",
+      "performance": "Hisense rates it at 50 pints a day for spaces up to 4,500 square feet, with a built-in pump that lifts water to a sink or window. Owner reviews report E9 sensor-fault codes more often on this model than on Hisense's plain 50-pint, which pulls its average rating down; the fix is in our [best Hisense dehumidifier](/best/best-hisense-dehumidifier/) guide. Hisense pump units that surface at Costco can carry a different model number, such as the HD5026TLP (TopLift), so check the box before comparing prices.",
       "specs": {
         "Capacity": "50 pints/day",
+        "Coverage": "Up to 4,500 sq ft (maker)",
         "Drainage": "Built-in pump",
         "Type": "Compressor",
-        "Best for": "Basements, large rooms"
+        "Best for": "Basements without a floor drain"
       }
     }
   ],
@@ -265,8 +268,8 @@
             ],
             [
               "Basement, Midea not in stock",
-              "Danby 50-Pint with pump",
-              "Same class and drainage; check recall history first"
+              "Hisense 50-Pint with Pump",
+              "Same class and drainage; watch for E9 sensor reports"
             ],
             [
               "Wet basement with a floor drain",
@@ -287,7 +290,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Hisense HD3526** is the best Costco dehumidifier you can reliably buy: efficient, right-sized for most rooms and always on Costco.com. If your warehouse has the **Midea 50-Pint with pump** or the **Danby 50-Pint with pump** at a good price, either is a smart grab for a basement — just check the model suffix and, for Danby, the recall history first."
+          "text": "The **Hisense HD3526** is the best Costco dehumidifier you can reliably buy: efficient, right-sized for most rooms and always on Costco.com. If your warehouse has the **Midea 50-Pint with pump** at a good price, it's a smart grab for a basement — just check the model suffix. If it isn't there, the **Hisense 50-Pint with Pump** is the next pump model to look for."
         }
       ]
     }
@@ -303,7 +306,7 @@
     },
     {
       "q": "Does Costco sell Danby dehumidifiers?",
-      "a": "Sometimes. The Danby 50-pint with built-in pump (DDR050BJPWDB) has appeared at Costco during 2026, including at clearance prices, but it's frequently out of stock. Check Danby's recall history before buying, especially used or open-box."
+      "a": "Sometimes. The Danby 50-pint with built-in pump (DDR050BJPWDB) has appeared at Costco during 2026, including at clearance prices, but it's frequently out of stock. Check Danby's recall history before buying, especially used or open-box; if it's not there, the Hisense 50-Pint with Pump is the closest alternative."
     },
     {
       "q": "Why do Costco dehumidifier prices vary so much?",

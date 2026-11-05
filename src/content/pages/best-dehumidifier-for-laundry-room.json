@@ -93,27 +93,28 @@
       }
     },
     {
-      "id": "ge-apyr50lc",
-      "name": "GE 50-Pint Dehumidifier (APYR50LC)",
-      "shortName": "GE APYR50LC",
+      "id": "ge-aper50lz",
+      "catalogId": "ge-aper50lz",
+      "name": "GE 50-Pint Dehumidifier with Built-In Pump (APER50LZ)",
+      "shortName": "GE APER50LZ",
       "award": "Best for laundry-mudroom combos",
       "pros": [
         "50-pint capacity for big, open utility areas",
-        "Pump and continuous-drain options, per GE's listing",
+        "Built-in pump drains to a sink or standpipe",
         "ENERGY STAR certified",
         "Digital humidistat"
       ],
       "cons": [
         "Overkill for a closed closet",
-        "Louder on high than the compact picks"
+        "Pump hose needs to stay kink-free"
       ],
-      "whyWeLoveIt": "Plenty of homes don't have a dedicated laundry room — the machines sit in a corner of a basement, mudroom or utility space with several times the air volume of a closet. This GE is sized for that bigger job.",
-      "performance": "It's a 50-pint ENERGY STAR unit, so it can keep up with a laundry area that shares air with a basement stairwell or entryway while keeping running costs reasonable. A pump means you don't need a drain directly below it. For more on the brand, see our [best GE dehumidifier](/best/best-ge-dehumidifier/) guide.",
+      "whyWeLoveIt": "Plenty of homes don't have a dedicated laundry room — the machines sit in a corner of a basement, mudroom or utility space with several times the air volume of a closet. This GE is sized for that bigger job, and its pump can send water to the laundry sink or standpipe even when it isn't sitting right next to it.",
+      "performance": "It's a 50-pint ENERGY STAR compressor unit, so it can keep up with a laundry area that shares air with a basement stairwell or entryway while keeping running costs reasonable. The integrated pump means you don't need a drain directly below it; owners most often praise that convenience and flag the usual upkeep of keeping the hose kink-free and the outlet clean. For more on the brand, see our [best GE dehumidifier](/best/best-ge-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
-        "Drainage": "Pump or gravity hose (per listing)",
+        "Capacity": "50 pints/day",
+        "Drainage": "Built-in pump",
         "Efficiency": "ENERGY STAR",
-        "Humidistat": "Digital",
+        "Humidistat": "Digital, set % target",
         "Best for": "Laundry in basements or mudrooms"
       }
     },
@@ -239,7 +240,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **Frigidaire FFAD2233W1** is the best laundry room dehumidifier: right-sized, quiet, easy to clean and ready to drain into the standpipe you already have. If the drain isn't below the unit, get the **hOmeLabs HME1003** with its pump. Choose the collapsible **Midea Cube 20** for a stacked-washer closet, the **GE APYR50LC** for a laundry corner that opens onto a basement or mudroom, and the **Pro Breeze PB-03** for a small closet that just needs to stop smelling musty."
+          "text": "For most homes, the **Frigidaire FFAD2233W1** is the best laundry room dehumidifier: right-sized, quiet, easy to clean and ready to drain into the standpipe you already have. If the drain isn't below the unit, get the **hOmeLabs HME1003** with its pump. Choose the collapsible **Midea Cube 20** for a stacked-washer closet, the **GE APER50LZ** for a laundry corner that opens onto a basement or mudroom, and the **Pro Breeze PB-03** for a small closet that just needs to stop smelling musty."
         }
       ]
     }

@@ -14,32 +14,35 @@
     "A portable bucket dehumidifier isn't built for that job. It stalls in cold air, needs someone to empty it, and usually won't fit under a 24-inch clearance. What you want instead is a low-profile commercial unit with a built-in pump, automatic defrost and a humidistat you can set once and forget.",
     "Below are five crawl space dehumidifiers worth considering, from a compact all-rounder to a pro-grade unit for large encapsulated crawls, plus advice on sizing, pumps, cost and installation."
   ],
-  "topPicksLead": "The **AlorAir Sentinel HDi65** is our top pick for most homes: it's compact enough for tight crawls, pumps its own water out and keeps working down to about 36°F.",
+  "topPicksLead": "The **AlorAir Sentinel HDi65S** is our top pick for most homes: it's compact enough for tight crawls, pumps its own water out, keeps working down to about 36°F and reports in over Wi-Fi.",
   "products": [
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Crawl Space Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Crawl Space Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best overall",
       "pros": [
         "Low-profile body slides into tight crawls",
         "Built-in pump with a 19.6-foot lift",
         "Auto-defrost to about 36°F",
+        "Wi-Fi app with alerts, so you never have to crawl down to check it",
         "ENERGY STAR and cETL listed"
       ],
       "cons": [
         "Box headline (120 pints) is a saturation figure",
-        "No Wi-Fi on this version"
+        "Wi-Fi range under the floor can be spotty"
       ],
-      "whyWeLoveIt": "This is the default right answer for a typical residential crawl. It fits where portables can't, drains itself through a hose, and defrosts automatically when the space turns cold, so once it's installed and set to about 50%, there's nothing left to babysit.",
-      "performance": "AlorAir rates it at 55 pints a day under AHAM conditions (80°F, 60% RH) and 120 pints at saturation. The pump's 19.6-foot lift is enough to reach daylight in most homes without a floor drain. Owners of crawl-space installs typically report it holds a steady setpoint with very little attention. It's ENERGY STAR certified, which matters for a machine that may run most of the year.",
+      "whyWeLoveIt": "This is the default right answer for a typical residential crawl. It fits where portables can't, drains itself through a hose, and defrosts automatically when the space turns cold, so once it's installed and set to about 50%, there's nothing left to babysit. The app goes one better: you can check humidity and adjust the target from your phone, and you'll hear about a fault long before musty air reaches the living room.",
+      "performance": "AlorAir rates it at 55 pints a day under AHAM conditions (80°F, 60% RH) and 120 pints at saturation, for crawl spaces up to about 1,300 square feet. The pump's 19.6-foot lift is enough to reach daylight in most homes without a floor drain. Owners of crawl-space installs typically report it holds a steady setpoint with very little attention. It's ENERGY STAR certified, which matters for a machine that may run most of the year. If your router is far from the crawl hatch, plan on a mesh node or extender.",
       "notes": "Size on the 55-pint AHAM number, not the 120-pint headline.",
       "specs": {
         "Capacity": "55 pints/day (AHAM); 120 at saturation",
+        "Coverage": "Up to about 1,300 sq ft",
         "Drainage": "Built-in pump, 19.6 ft lift",
         "Low-temp operation": "Auto-defrost to ~36°F",
-        "Efficiency": "ENERGY STAR",
-        "Best for": "Most residential crawl spaces"
+        "Smart control": "Wi-Fi app with alerts",
+        "Efficiency": "ENERGY STAR"
       }
     },
     {
@@ -69,52 +72,30 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65s",
-      "catalogId": "alorair-sentinel-hdi65s",
-      "name": "AlorAir Sentinel HDi65S Wi-Fi Crawl Space Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65S",
-      "award": "Best with Wi-Fi",
-      "pros": [
-        "Remote humidity readings and setpoint control",
-        "Same compact body and built-in pump as the HDi65",
-        "Low-temperature auto-defrost"
-      ],
-      "cons": [
-        "Small premium over the standard HDi65",
-        "Wi-Fi range under the floor can be spotty"
-      ],
-      "whyWeLoveIt": "The whole point of a crawl-space dehumidifier is never having to crawl down there. The HDi65S makes that literal: you can check humidity and adjust the target from your phone.",
-      "performance": "It's mechanically the same as the HDi65 — 55 pints AHAM, a built-in pump and defrost into the mid-30s °F — with Wi-Fi monitoring added. That early warning is valuable: if the unit stops, you'll know long before musty air reaches the living room. If your router is far from the crawl hatch, plan on a mesh node or extender.",
-      "specs": {
-        "Capacity": "55 pints/day (AHAM)",
-        "Drainage": "Built-in pump",
-        "Smart control": "Wi-Fi app",
-        "Low-temp operation": "Auto-defrost",
-        "Best for": "Crawls you never want to enter"
-      }
-    },
-    {
-      "id": "santa-fe-advance2",
-      "name": "Santa Fe Advance2 Crawl Space Dehumidifier",
-      "shortName": "Santa Fe Advance2",
+      "id": "santa-fe-compact70",
+      "catalogId": "santa-fe-compact70",
+      "name": "Santa Fe Compact70 Dehumidifier",
+      "shortName": "Santa Fe Compact70",
       "award": "Best premium",
       "pros": [
-        "Among the quietest crawl units at about 51 dB",
-        "Highly efficient design",
-        "Heavy-duty build favored by encapsulators"
+        "70 pints a day in a body about 12 inches square",
+        "ENERGY STAR Most Efficient recognition (2024)",
+        "Rated for sealed spaces up to about 2,200 sq ft",
+        "Six-year warranty"
       ],
       "cons": [
         "Premium price",
-        "Pump sold separately"
+        "No built-in pump"
       ],
-      "whyWeLoveIt": "Santa Fe is the name many professional encapsulation crews trust, and the Advance2 shows why: it's quiet, efficient and built to last a decade or more. If budget isn't the deciding factor, it's the long-term pick.",
-      "performance": "Santa Fe rates it at 70 pints a day under AHAM conditions and about 51 dB, with efficiency near the top of the category. It's designed to run continuously in a sealed space. Compare it with the larger Ultra-series models in our [best Santa Fe dehumidifier](/best/best-santa-fe-dehumidifier/) guide.",
+      "whyWeLoveIt": "Santa Fe is the name many professional encapsulation crews trust, and the Compact70 shows why: a sealed crawl runs its dehumidifier for thousands of hours a year, and this one pairs 70 pints a day with one of the best efficiency ratings in its class, in a slim tower that fits through tight hatches. If budget isn't the deciding factor, it's the long-term pick.",
+      "performance": "Santa Fe rates it at 70 pints a day for sealed spaces up to about 2,200 square feet, which covers most single-story homes. Its footprint — about 12 × 12 × 21 inches — is why installers like it for low crawls with awkward access. It drains by gravity hose, so add a condensate pump if there's no downhill route. Compare it with the larger Ultra-series models in our [best Santa Fe dehumidifier](/best/best-santa-fe-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "70 pints/day (AHAM)",
-        "Noise": "About 51 dB",
-        "Drainage": "Gravity; optional pump",
-        "Type": "Commercial compressor",
-        "Best for": "Long-term encapsulation"
+        "Capacity": "70 pints/day",
+        "Coverage": "Up to about 2,200 sq ft (sealed)",
+        "Size": "About 12 × 12 × 21 in.",
+        "Efficiency": "ENERGY STAR Most Efficient (2024)",
+        "Drainage": "Gravity hose; optional pump",
+        "Warranty": "6 years"
       }
     },
     {
@@ -124,7 +105,7 @@
       "shortName": "AlorAir Sentinel HD55",
       "award": "Best value",
       "pros": [
-        "Same 55-pint AHAM capacity as the HDi65",
+        "Same 55-pint AHAM capacity as the HDi65S",
         "Compact low-profile cabinet",
         "Auto-defrost for cold crawls"
       ],
@@ -132,8 +113,8 @@
         "No built-in pump",
         "Needs a sump or low point for the hose"
       ],
-      "whyWeLoveIt": "If your crawl already has a sump or a downhill route for a hose, you don't need to pay for a pump. The HD55 gives you the HDi65's drying power and footprint for less.",
-      "performance": "It's rated at 55 pints a day AHAM with automatic defrost and the same compact body. Gravity drainage works well when the hose can run to a sump pit or exterior low point. Map that drain route before you buy; if you can't find one, step up to the HDi65.",
+      "whyWeLoveIt": "If your crawl already has a sump or a downhill route for a hose, you don't need to pay for a pump. The HD55 gives you the HDi65S's drying power and footprint for less.",
+      "performance": "It's rated at 55 pints a day AHAM with automatic defrost and the same compact body. Gravity drainage works well when the hose can run to a sump pit or exterior low point. Map that drain route before you buy; if you can't find one, step up to the HDi65S.",
       "specs": {
         "Capacity": "55 pints/day (AHAM)",
         "Drainage": "Gravity hose",
@@ -152,7 +133,7 @@
           "items": [
             { "value": "30–50%", "label": "EPA-recommended relative humidity range for indoor spaces" },
             { "value": "24–48 hrs", "label": "How quickly mold can start on damp materials, per the EPA" },
-            { "value": "~36°F", "label": "How low the HDi65's auto-defrost keeps it running" }
+            { "value": "~36°F", "label": "How low the HDi65S's auto-defrost keeps it running" }
           ]
         },
         {
@@ -215,8 +196,8 @@
           "head": ["Crawl space", "Suggested capacity (AHAM)", "Example"],
           "rows": [
             ["Small, well sealed", "35 pints", "AlorAir Sentinel HD35 / HD35P"],
-            ["Typical residential", "55 pints", "AlorAir HDi65, HDi65S, HD55"],
-            ["Large or leaky, up to ~2,200 sq ft", "70 pints", "Aprilaire E070, Santa Fe Advance2"]
+            ["Typical residential", "55 pints", "AlorAir HDi65S, HD55"],
+            ["Large or leaky, up to ~2,200 sq ft", "70 pints", "Aprilaire E070, Santa Fe Compact70"]
           ],
           "caption": "Starting points only; vented or poorly sealed crawls need more capacity."
         },
@@ -257,7 +238,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **AlorAir Sentinel HDi65** is the best crawl space dehumidifier for most homes: compact, self-draining and built to run down to 36°F. Choose the **Aprilaire E070** or **Santa Fe Advance2** for large sealed crawls, the **HDi65S** if you want Wi-Fi, or save with the pump-free **HD55** if you can gravity-drain. Seal the crawl, set the unit to about 50%, and you'll protect the house above it. For a manufactured home's skirted underbelly, see our [mobile home dehumidifier](/best/best-dehumidifier-for-mobile-home/) guide."
+          "text": "The **AlorAir Sentinel HDi65S** is the best crawl space dehumidifier for most homes: compact, self-draining, built to run down to 36°F and easy to keep an eye on from your phone. Choose the **Aprilaire E070** or **Santa Fe Compact70** for large sealed crawls, or save with the pump-free **AlorAir Sentinel HD55** if you can gravity-drain. Seal the crawl, set the unit to about 50%, and you'll protect the house above it. For a manufactured home's skirted underbelly, see our [mobile home dehumidifier](/best/best-dehumidifier-for-mobile-home/) guide."
         }
       ]
     }
@@ -265,7 +246,7 @@
   "faqs": [
     {
       "q": "What is the best crawl space dehumidifier?",
-      "a": "For most homes, the AlorAir Sentinel HDi65. It fits low clearances, is rated at 55 pints a day (AHAM), and runs unattended with a built-in pump and auto-defrost down to about 36°F."
+      "a": "For most homes, the AlorAir Sentinel HDi65S. It fits low clearances, is rated at 55 pints a day (AHAM), and runs unattended with a built-in pump, auto-defrost down to about 36°F and Wi-Fi alerts."
     },
     {
       "q": "Do I need a crawl space dehumidifier with a pump?",

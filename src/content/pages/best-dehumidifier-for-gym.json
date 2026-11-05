@@ -44,9 +44,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for cold garage gyms",
       "pros": [
         "Up to 120 pints/day at saturation",
@@ -59,9 +60,9 @@
         "Industrial look and size"
       ],
       "whyWeLoveIt": "A serious garage gym — rack, platform, cardio machines — often lives in a space that's already damp and unheated. This crawl-space-grade unit has the extraction, cold-weather defrost and pump drainage to keep pace with back-to-back sessions without anyone touching it.",
-      "performance": "AlorAir rates it at up to 120 pints a day under saturation conditions, and the internal pump sends condensate up and out through a hose so it can run unattended all season. Auto-defrost keeps the coils from icing when a winter garage drops into the 40s, a common failure point for household units. More units like it are in our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
+      "performance": "AlorAir rates the HDi65S at 55 pints a day under AHAM conditions and up to 120 pints under saturation conditions, and the internal pump sends condensate up and out through a hose so it can run unattended all season. Auto-defrost keeps the coils from icing when a winter garage drops into the 40s, a common failure point for household units. More units like it are in our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "Up to 120 pints/day (saturation)",
+        "Capacity": "55 pints/day (AHAM); up to 120 at saturation",
         "Type": "Commercial compressor",
         "Drainage": "Built-in pump, ~19.6-ft lift",
         "Low-temp operation": "Auto-defrost",
@@ -94,27 +95,27 @@
       }
     },
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
+      "id": "airplus-max-30-pint",
+      "catalogId": "airplus-max-30-pint",
+      "name": "AirPlus Max 30 Pint Tall Dehumidifier",
+      "shortName": "AirPlus Max 30",
       "award": "Best for small gyms",
       "pros": [
-        "Real compressor extraction in a small body",
-        "Sleep mode keeps noise down during workouts",
-        "Continuous-drain option",
-        "Costs much less than a 50-pint flagship"
+        "Compressor extraction sized for a single room",
+        "Quiet sleep mode keeps noise down",
+        "Drain hose for continuous use"
       ],
       "cons": [
         "Undersized for a garage gym",
-        "Basic controls"
+        "Marketed capacity, not a DOE 2019 figure"
       ],
-      "whyWeLoveIt": "Not every home gym is a converted garage. In a spare bedroom or a corner of a home office, a 50-pinter is overkill. This 30-pint compressor unit is sized for small rooms, and its sleep mode won't compete with your playlist.",
-      "performance": "It's a genuine compressor dehumidifier, not a thermoelectric mini, so it can actually keep up with the moisture a workout adds to a small room of roughly 300 square feet. Hook up a hose if you'd rather not empty the bucket after each session. More low-cost options are in our [best budget dehumidifier](/best/best-budget-dehumidifier/) roundup.",
+      "whyWeLoveIt": "Not every home gym is a converted garage. In a spare bedroom or a corner of a home office, a 50-pinter is overkill. The Max 30 is sized for exactly that kind of room, and its quiet sleep mode won't compete with your playlist.",
+      "performance": "AirPlus sizes it for up to 1,500 square feet, but in practice it's a comfortable fit for a single room of a few hundred square feet — about right for a spare-room gym of roughly 300 square feet, where a workout adds moisture fast. Hook up the drain hose if you'd rather not empty the tank after each session. More low-cost options are in our [best budget dehumidifier](/best/best-budget-dehumidifier/) roundup.",
       "specs": {
-        "Capacity": "30 pints/day",
-        "Type": "Compressor",
-        "Drainage": "Bucket or continuous hose",
-        "Noise": "Sleep mode",
+        "Capacity": "30 pints/day (marketed)",
+        "Coverage": "Up to 1,500 sq ft (maker's claim)",
+        "Drainage": "Tank or drain hose",
+        "Noise": "Quiet sleep mode",
         "Best for": "Spare-room gym"
       }
     },
@@ -133,7 +134,7 @@
         "Needs a drain or downhill hose route"
       ],
       "whyWeLoveIt": "If your small gym has a floor drain or a spot where a hose can run downhill, this Frigidaire makes drainage a non-issue. It's the low-fuss choice for a compact room where convenience matters more than raw extraction.",
-      "performance": "At 22 pints a day, it's a step below the Pro Breeze in capacity, so keep it to a small, enclosed room. With the gravity hose connected, it runs continuously without a bucket to check. For bigger Frigidaire options, including pump models, see our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide.",
+      "performance": "At 22 pints a day, it's a step below the AirPlus Max 30 in capacity, so keep it to a small, enclosed room. With the gravity hose connected, it runs continuously without a bucket to check. For bigger Frigidaire options, including pump models, see our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide.",
       "specs": {
         "Capacity": "22 pints/day",
         "Type": "Compressor",
@@ -215,9 +216,9 @@
           "head": ["Model", "Best for", "Capacity", "Drainage"],
           "rows": [
             ["Midea Cube 50", "Most garage and basement gyms", "50 pints (DOE)", "Reservoir or hose"],
-            ["AlorAir Sentinel HDi65", "Large or cold garage gym", "120 pints (saturation)", "Built-in pump"],
+            ["AlorAir Sentinel HDi65S", "Large or cold garage gym", "120 pints (saturation)", "Built-in pump"],
             ["Honeywell TP70PWKN", "Gyms without a drain", "50 pints (DOE)", "Built-in pump"],
-            ["Pro Breeze 30-Pint", "Spare-room gym", "30 pints", "Bucket or hose"],
+            ["AirPlus Max 30", "Spare-room gym", "30 pints (marketed)", "Tank or hose"],
             ["Frigidaire FFAD2233W1", "Small gym with a drain", "22 pints", "Bucket or hose"]
           ]
         },
@@ -266,7 +267,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 50** is the best dehumidifier for most home gyms: it has the capacity for a garage or basement setup, a modest power draw and remote humidity checks. Step up to the **AlorAir Sentinel HDi65** for a large or cold garage, choose the **Honeywell TP70PWKN** for pump drainage at a lower cost, and go with the **Pro Breeze 30-Pint** or **Frigidaire FFAD2233W1** for a small spare-room gym. Whatever you pick, hold the room at 45–55% and wipe your gear down after training. For basement-specific advice, see our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) guide."
+          "text": "The **Midea Cube 50** is the best dehumidifier for most home gyms: it has the capacity for a garage or basement setup, a modest power draw and remote humidity checks. Step up to the **AlorAir Sentinel HDi65S** for a large or cold garage, choose the **Honeywell TP70PWKN** for pump drainage at a lower cost, and go with the **AirPlus Max 30** or **Frigidaire FFAD2233W1** for a small spare-room gym. Whatever you pick, hold the room at 45–55% and wipe your gear down after training. For basement-specific advice, see our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) guide."
         }
       ]
     }
@@ -274,7 +275,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for a home gym?",
-      "a": "For most people, the Midea Cube 50 (MAD50S1QWT). It's rated at 50 pints a day, covers up to about 4,500 square feet, draws relatively little power and lets you check humidity from your phone. For a large or unheated garage gym, the AlorAir Sentinel HDi65 is the tougher pick."
+      "a": "For most people, the Midea Cube 50 (MAD50S1QWT). It's rated at 50 pints a day, covers up to about 4,500 square feet, draws relatively little power and lets you check humidity from your phone. For a large or unheated garage gym, the AlorAir Sentinel HDi65S is the tougher pick."
     },
     {
       "q": "What humidity should a home gym be?",

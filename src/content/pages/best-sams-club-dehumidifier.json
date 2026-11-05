@@ -5,39 +5,41 @@
   "navLabel": "Sam's Club",
   "title": "Best Sam's Club Dehumidifier (2026): Amana, Keystone & More",
   "h1": "The Best Dehumidifiers at Sam's Club",
-  "dek": "Sam's Club keeps a short dehumidifier list. One standout is easy to recommend, one is solid, and one deserves a hard look before you spend four figures.",
-  "description": "The best dehumidifier at Sam's Club: the Amana 50-pint with pump, the Keystone 35-pint and MaxxAir commercial units, plus what to check before you buy.",
+  "dek": "Sam's Club keeps a short dehumidifier list. Here's what's on it, what to check before you spend four figures, and the picks we'd actually buy.",
+  "description": "The best dehumidifier for Sam's Club shoppers: the club's Amana, Keystone and MaxxAir lineup decoded, plus the pump and commercial picks we'd buy instead.",
   "published": "2026-10-22",
   "updated": "2026-11-05",
   "intro": [
     "If you're looking for a **dehumidifier at Sam's Club**, the choice is refreshingly short. The club's own dehumidifier page lists three brands: **Amana**, with a 50-pint unit that has a built-in pump; **Keystone**, with a 35-pint model; and **MaxxAir**, with two commercial-grade machines priced well into four figures.",
-    "Some buying guides also name Frigidaire and Whynter as Sam's Club brands, but we couldn't find either live on the club's site — and Whynter's own site lists its standalone dehumidifiers as discontinued. Below, we break down the three that are actually there, which one to buy for your space, and why the club price isn't always the best price on the same model."
+    "Some buying guides also name Frigidaire and Whynter as Sam's Club brands, but we couldn't find either live on the club's site — and Whynter's own site lists its standalone dehumidifiers as discontinued. Below, we break down what's actually there, the picks we'd buy for each kind of space — including Keystone's pump-equipped 50-pint, a like-for-like alternative to the club's Amana — and why the club price isn't always the best price."
   ],
-  "topPicksLead": "The **Amana 50-Pint with Pump (AMND501PAW)** is the best dehumidifier at Sam's Club: full basement capacity and a pump that drains it for you.",
+  "topPicksLead": "The **Keystone 50-Pint Pump** is our top pick for Sam's Club shoppers: it matches the club's Amana on capacity, coverage and pump, from the same brand as the club's 35-pint.",
   "products": [
     {
-      "id": "amana-amnd501paw",
-      "name": "Amana 50-Pint Dehumidifier with Built-In Pump (AMND501PAW)",
-      "shortName": "Amana AMND501PAW",
+      "id": "keystone-kstad506pg",
+      "catalogId": "keystone-kstad506pg",
+      "name": "Keystone 50-Pint Dehumidifier with Built-In Pump (KSTAD506PG)",
+      "shortName": "Keystone 50-Pint Pump",
       "award": "Best overall",
       "pros": [
         "Built-in pump drains up to a sink or window",
         "50 pints a day for spaces up to about 4,500 sq ft",
-        "Three fan speeds",
-        "Well-documented across several major retailers"
+        "ENERGY STAR certified",
+        "Auto-defrost for cool basements",
+        "Same brand as the club’s 35-pint Keystone"
       ],
       "cons": [
-        "Often cheaper at home-improvement stores",
-        "Larger unit for a single small room"
+        "Costs noticeably more than Keystone’s non-pump 50-pint",
+        "Pump hose needs periodic checks for kinks"
       ],
-      "whyWeLoveIt": "It's the most useful dehumidifier on Sam's Club's list for the place most people need one: a basement without a convenient floor drain. The pump means you can set a target and forget about the bucket.",
-      "performance": "Amana rates it at 50 pints a day for up to roughly 4,500 square feet, with three fan speeds and a pump for continuous drainage. It's the pump-equipped sibling of the AMND501AW and is slightly heavier to house the pump. Amana's name appears in a 2021 CPSC recall of units made by New Widetech, but the recalled models used different, older model-number prefixes than this one. More on the brand in our [Amana guide](/best/best-amana-dehumidifier/).",
-      "notes": "Compare the club price with home-improvement retailers before buying; the same model number has often been listed for less elsewhere.",
+      "whyWeLoveIt": "It’s the most useful kind of dehumidifier for the place most people need one: a basement without a convenient floor drain. It matches the club’s Amana AMND501PAW on the specs that matter — 50 pints, about 4,500 sq ft and a built-in pump — and comes from Keystone, the brand behind the club’s 35-pint model.",
+      "performance": "Keystone rates it at 50 pints a day for up to about 4,500 square feet, with a condensate pump that lifts water to a utility sink or out a basement window, plus ENERGY STAR certification and auto-defrost for cool basement air. Keystone units are built by Midea, and Keystone sits in the top predicted-reliability tier of Consumer Reports’ latest brand survey. Midea’s 2016 recall covered units sold from 2003 through 2013, not today’s KSTAD models. More in our [Keystone guide](/best/best-keystone-dehumidifier/).",
+      "notes": "Keystone sells through several major retailers, so compare prices before you buy.",
       "specs": {
         "Capacity": "50 pints/day",
         "Coverage": "Up to about 4,500 sq ft (maker)",
-        "Drainage": "Built-in pump, bucket or hose",
-        "Fan speeds": "3",
+        "Drainage": "Built-in pump",
+        "Efficiency": "ENERGY STAR",
         "Best for": "Basements without a floor drain"
       }
     },
@@ -67,25 +69,28 @@
       }
     },
     {
-      "id": "maxxair-commercial",
-      "name": "MaxxAir Commercial Dehumidifier",
-      "shortName": "MaxxAir Commercial",
-      "award": "For restoration jobs only",
+      "id": "alorair-storm-lgr-extreme",
+      "catalogId": "alorair-storm-lgr-extreme",
+      "name": "AlorAir Storm LGR Extreme Dehumidifier",
+      "shortName": "AlorAir Storm LGR Extreme",
+      "award": "Best for restoration jobs",
       "pros": [
-        "Commercial-grade construction",
-        "Metal and rotationally molded versions",
-        "Aimed at large spaces and cleanup jobs"
+        "Published ratings: 85 pints/day AHAM, 180 at saturation",
+        "Built-in pump lifts water 14.7 feet",
+        "Auto-defrost keeps it working down to 36°F",
+        "Five-year warranty"
       ],
       "cons": [
-        "No independent spec sheet or capacity rating we could find",
-        "Costs several times more than the residential picks"
+        "Overkill for an ordinary damp basement",
+        "Heavier and louder than a household unit"
       ],
-      "whyWeLoveIt": "We include it because it's on the shelf, not because we can wholeheartedly recommend it. If you're drying a flooded space or a very large crawl space, a commercial unit makes sense — but you should see real numbers first.",
-      "performance": "MaxxAir, a Ventamatic brand, is best known for RV roof vents and exhaust fans rather than dehumidifiers. We couldn't verify a pints-per-day rating, coverage figure or manufacturer spec sheet for either model beyond Sam's Club's own listing. Ask for the spec sheet before buying, and compare against established options in our [commercial dehumidifier guide](/best/best-commercial-dehumidifier/).",
+      "whyWeLoveIt": "If you’re drying a flooded space or a very large crawl space, a commercial unit makes sense — but you should see real numbers first. This is the kind of verified commercial machine we’d choose over the club’s MaxxAir units: AlorAir publishes the ratings, the spec sheet and the warranty terms.",
+      "performance": "AlorAir rates it at 85 pints a day under AHAM conditions (80°F, 60% RH) and up to 180 pints at saturation, with coverage up to roughly 2,300 square feet. Its low-grain-refrigerant (LGR) design keeps pulling water as the space dries, and the condensate pump lifts water 14.7 feet through a 19.6-foot hose, so it can run unattended. Compare it against other options in our [commercial dehumidifier guide](/best/best-commercial-dehumidifier/).",
       "specs": {
-        "Type": "Commercial",
-        "Capacity": "Not independently confirmed",
-        "Versions": "Metal or rotationally molded body",
+        "Type": "LGR compressor",
+        "Capacity": "85 pints/day (AHAM); 180 at saturation",
+        "Coverage": "Up to about 2,300 sq ft",
+        "Drainage": "Built-in pump, 14.7-ft lift",
         "Best for": "Restoration and large-space jobs"
       }
     }
@@ -104,7 +109,7 @@
             },
             {
               "value": "4–6×",
-              "label": "Price premium of the MaxxAir commercial units over the residential picks"
+              "label": "Price premium of the club's MaxxAir commercial units over its residential models"
             },
             {
               "value": "10 of 10",
@@ -128,7 +133,7 @@
         },
         {
           "type": "p",
-          "text": "We ranked on capacity, drainage and the strength of the supporting data, and we note where the identical model is commonly sold for less elsewhere."
+          "text": "We ranked on capacity, drainage and the strength of the supporting data, and we note where the identical model is commonly sold for less elsewhere — or where a better-documented alternative is the smarter buy."
         }
       ]
     },
@@ -201,7 +206,7 @@
         {
           "type": "callout",
           "title": "Club price isn't always the low price",
-          "text": "The Amana AMND501PAW has regularly been listed for less at home-improvement retailers than on Sam's Club's own page — before you even count the membership fee. Check before you buy."
+          "text": "The Amana AMND501PAW has regularly been listed for less at home-improvement retailers than on Sam's Club's own page — before you even count the membership fee. Check before you buy, and compare it with the Keystone 50-Pint Pump, which offers the same capacity, coverage and pump."
         }
       ]
     },
@@ -219,13 +224,13 @@
           "rows": [
             [
               "Damp basement, no floor drain",
-              "Amana AMND501PAW",
+              "Keystone 50-Pint Pump",
               "The pump sends water to a sink or out a window"
             ],
             [
               "Basement with a floor drain",
-              "Amana or Keystone",
-              "A gravity hose works with either; size by dampness"
+              "Keystone 35-Pint",
+              "A gravity hose works in a mildly damp space; size up for a wetter one"
             ],
             [
               "Large bedroom or family room",
@@ -234,18 +239,18 @@
             ],
             [
               "Flood cleanup or very large space",
-              "A verified commercial unit",
-              "Don't buy blind; demand a spec sheet first"
+              "AlorAir Storm LGR Extreme",
+              "A commercial unit with published specs"
             ]
           ]
         },
         {
           "type": "p",
-          "text": "For most members, the decision really comes down to one question: is there a floor drain within hose reach of where the unit will sit? If not, the Amana's pump is worth having. If there is, the Keystone does the job in a mid-size space and the Amana handles a bigger, damper one."
+          "text": "For most members, the decision really comes down to one question: is there a floor drain within hose reach of where the unit will sit? If not, the Keystone 50-Pint Pump is worth having. If there is, the Keystone 35-Pint does the job in a mid-size space."
         },
         {
           "type": "p",
-          "text": "Wondering whether to pay more for a premium 50-pint pump unit instead? Our [Amana vs. Friedrich comparison](/compare/amana-vs-friedrich-dehumidifier/) weighs the Amana against a pricier rival with a longer compressor warranty."
+          "text": "Weighing Amana against a pricier specialist brand? Our [Amana vs. Friedrich comparison](/compare/amana-vs-friedrich-dehumidifier/) covers what Friedrich's longer compressor warranty buys."
         }
       ]
     },
@@ -283,7 +288,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Amana AMND501PAW** is the best dehumidifier at Sam's Club for a basement, thanks to its 50-pint capacity and built-in pump — just compare its price at other retailers first. The **Keystone 35-Pint** is a sensible choice for a large room or a basement with a floor drain. Reserve the **MaxxAir** units for genuine restoration or very large spaces, and only after seeing a real spec sheet. For more options, see our [Costco guide](/best/best-costco-dehumidifier/)."
+          "text": "The **Keystone 50-Pint Pump** is our pick for a Sam's Club shopper with a basement: it matches the club's Amana AMND501PAW on capacity, coverage and pump, from the brand behind the club's 35-pint. The **Keystone 35-Pint** is a sensible choice for a large room or a basement with a floor drain. Skip the MaxxAir units unless you can see a real spec sheet; for genuine restoration or very large spaces, the **AlorAir Storm LGR Extreme** publishes its numbers. For more options, see our [Costco guide](/best/best-costco-dehumidifier/)."
         }
       ]
     }
@@ -291,7 +296,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier at Sam's Club?",
-      "a": "The Amana 50-Pint with Pump (AMND501PAW). It covers up to about 4,500 square feet, has three fan speeds and drains continuously through its built-in pump."
+      "a": "The club's own list is short: Amana's 50-pint pump model, Keystone's 35-pint and two MaxxAir commercial units. Our top pick for a basement is the Keystone 50-Pint Pump (KSTAD506PG), which matches the Amana's 50-pint capacity, 4,500 sq ft coverage and built-in pump, and comes from the brand behind the club's 35-pint."
     },
     {
       "q": "What dehumidifier brands does Sam's Club sell?",
@@ -299,7 +304,7 @@
     },
     {
       "q": "Does Sam's Club sell a dehumidifier with a pump?",
-      "a": "Yes. The Amana AMND501PAW is a 50-pint dehumidifier with a built-in condensate pump, which lets you drain water up to a sink or out a window instead of emptying a bucket. The Keystone 35-pint model does not have a pump."
+      "a": "Yes. The Amana AMND501PAW is a 50-pint dehumidifier with a built-in condensate pump, which lets you drain water up to a sink or out a window instead of emptying a bucket. The Keystone 35-pint model does not have a pump; Keystone's pump-equipped option is the 50-pint KSTAD506PG, our top pick."
     },
     {
       "q": "Is MaxxAir a good dehumidifier brand?",
@@ -307,7 +312,7 @@
     },
     {
       "q": "Is the Sam's Club price on the Amana dehumidifier a good deal?",
-      "a": "Not always. The same Amana AMND501PAW has often been listed for less at home-improvement retailers, so compare before you buy."
+      "a": "Not always. The same Amana AMND501PAW has often been listed for less at home-improvement retailers, so compare before you buy — and check the Keystone 50-Pint Pump, which has the same capacity, coverage and pump."
     },
     {
       "q": "Have any Sam's Club dehumidifiers been recalled?",
