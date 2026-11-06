@@ -143,6 +143,59 @@
         "Efficiency": "ENERGY STAR",
         "Best for": "Large open basements"
       }
+    },
+    {
+      "id": "ge-aper50lz",
+      "catalogId": "ge-aper50lz",
+      "name": "GE 50-Pint Dehumidifier with Built-In Pump",
+      "shortName": "GE 50-Pint with Pump",
+      "award": "Best with a hose in the box",
+      "pros": [
+        "Pumps water up to 15 feet vertically",
+        "16-foot drain hose included",
+        "Rated for up to 5,000 sq ft",
+        "Smart Dry adjusts fan speed to the room's humidity"
+      ],
+      "cons": [
+        "No Wi-Fi or app control",
+        "15-pint bucket is small if you skip the pump"
+      ],
+      "whyWeLoveIt": "Plenty of pump models leave you shopping for the right hose. GE ships this one with a 16-foot line and states the lift plainly — 15 vertical feet — so you know before you buy whether it will reach your laundry sink or basement window.",
+      "performance": "GE rates it at 50 pints a day for spaces up to 5,000 square feet. The humidistat runs from 30% to 70%, a 24-hour timer handles scheduling, and Smart Dry trims the fan speed as the room dries. If you use the 15-pint bucket instead of the pump, a 10-second alarm sounds when it's full or missing, and the washable filter needs no replacements. More GE options are in our [best GE dehumidifier](/best/best-ge-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day (GE)",
+        "Drainage": "Built-in pump, 15-ft lift, 16-ft hose",
+        "Coverage": "Up to 5,000 sq ft (GE)",
+        "Humidistat": "30–70%",
+        "Best for": "Below-grade basements"
+      }
+    },
+    {
+      "id": "honeywell-tp70pwknr",
+      "catalogId": "honeywell-tp70pwknr",
+      "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
+      "shortName": "Honeywell TPFIT50PWK",
+      "award": "Best for basement laundry areas",
+      "pros": [
+        "Laundry mode speeds drying for clothes on a rack",
+        "50 pints a day, ENERGY STAR certified",
+        "Rated for up to 4,000 sq ft",
+        "Auto-comfort mode and thermal overload protection"
+      ],
+      "cons": [
+        "No Wi-Fi or app control listed",
+        "Pump lift isn't stated on the listing — check the manual"
+      ],
+      "whyWeLoveIt": "If your basement doubles as the laundry room, this Honeywell's laundry mode is a genuine extra: it pushes harder while clothes dry on a rack, then the built-in pump sends the water to the same utility sink. It's from Honeywell's newer TP-Fit series, and its \"50\" is the real rating.",
+      "performance": "Honeywell rates it at 50 pints a day for up to 4,000 square feet, with ENERGY STAR certification. Auto-comfort mode picks a humidity target if you'd rather not set one, and thermal overload protection guards the compressor through long summer runs. Watch the model letters: the similarly named TPFIT50AWK has no pump and is rated at about 32 pints. More in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day",
+        "Drainage": "Built-in pump",
+        "Coverage": "Up to 4,000 sq ft (Honeywell)",
+        "Efficiency": "ENERGY STAR",
+        "Modes": "Laundry, auto-comfort",
+        "Best for": "Basement laundry areas"
+      }
     }
   ],
   "sections": [
@@ -247,15 +300,15 @@
             ],
             [
               "Honeywell",
-              "TP50PWKN",
-              "TP50AWKN",
-              "“P” in the fourth spot means pump"
+              "TPFIT50PWK",
+              "TPFIT50AWK (about 32 pints)",
+              "“P” before “WK” means pump — and check the pint rating"
             ],
             [
               "GE",
-              "APYR50LC (discontinued)",
-              "Standard 50-pint models",
-              "“Built-in pump” in the product name"
+              "50-pint with pump (16-ft hose listing)",
+              "50-pint standard and Wi-Fi models",
+              "“with Pump” in the listing title"
             ],
             [
               "Midea",
@@ -286,7 +339,7 @@
         },
         {
           "type": "p",
-          "text": "All four have sold 50-pint pump models, and GE’s APYR50LC still turns up on clearance. We couldn’t verify current Amazon listings for them, so they aren’t cards here — but the same buying rules apply."
+          "text": "Honeywell and GE both have current 50-pint pump models on Amazon — the TPFIT50PWK and GE’s 50-pint with pump, both picks above. Whirlpool and Pelonis have sold 50-pint pump models too, and GE’s older APYR50LC still turns up on clearance; we couldn’t verify current Amazon listings for those, so they aren’t cards here — but the same buying rules apply."
         }
       ]
     },
@@ -328,7 +381,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "If your basement has no drain below the unit, a 50-pint dehumidifier with a pump is the most practical upgrade you can make. The **Frigidaire FFAP5033W1** is the safest all-round choice, the **hOmeLabs** pump-and-Wi-Fi model is the budget route, and the **GoveeLife** is the pick if you want your phone to tell you when something goes wrong. Whatever you choose, read the model number carefully — one letter decides whether you get the pump — and set the humidistat to about 45–50% using our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/)."
+          "text": "If your basement has no drain below the unit, a 50-pint dehumidifier with a pump is the most practical upgrade you can make. The **Frigidaire FFAP5033W1** is the safest all-round choice, the **hOmeLabs** pump-and-Wi-Fi model is the budget route, the **GoveeLife** is the pick if you want your phone to tell you when something goes wrong, the **GE 50-Pint with Pump** comes with its hose and a stated 15-foot lift, and the **Honeywell TPFIT50PWK** suits a basement laundry area. Whatever you choose, read the model number carefully — one letter decides whether you get the pump — and set the humidistat to about 45–50% using our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/)."
         }
       ]
     }
@@ -340,7 +393,7 @@
     },
     {
       "q": "Does the Midea Cube 50 pint dehumidifier have a pump?",
-      "a": "Midea sells the Cube 50 both with and without a pump. The standard version drains into its base reservoir or a gravity hose; the pump version says “with pump” in its name. Check the exact model before ordering."
+      "a": "The Cube 50 drains into its base reservoir or a gravity hose. Midea’s 50-pint pump model is a separate, conventional upright unit rather than a Cube, and its listing title says “with pump.” Check the exact listing before ordering."
     },
     {
       "q": "Is the hOmeLabs 50 pint dehumidifier with pump any good?",
@@ -352,7 +405,7 @@
     },
     {
       "q": "Is the GE 50-pint dehumidifier with built-in pump still sold?",
-      "a": "GE’s APYR50LC is discontinued and mostly turns up on clearance. It’s a reasonable buy at a good price, but the Frigidaire, hOmeLabs and Hisense pump models are easier to find with current warranties."
+      "a": "Yes. GE’s current 50-pint with pump is on Amazon with a 16-foot hose and a rated 15-foot vertical lift, and it’s one of our picks above. The older APYR50LC is discontinued and mostly turns up on clearance."
     },
     {
       "q": "How high can a 50-pint dehumidifier pump water?",

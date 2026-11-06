@@ -14,7 +14,7 @@
     "A **smart dehumidifier** earns its keep in places you don't visit every day: a basement, a lake house, the far end of a finished lower level. The best ones let you change the humidity target by voice, ping your phone before the tank fills or the coil freezes, and slot into a bedtime or away-from-home routine. Our top pick, the **Midea 50-Pint Smart with Pump**, pairs app control with a built-in pump that sends its own water away, so the app becomes the only thing you need to check.",
     "If you're shopping for one, three things matter more than the spec sheet. First, **which ecosystem** you live in: Alexa, Google Assistant or just the brand's app. Second, **drainage**, because a smart unit that stops every day with a full bucket isn't saving you any trips. Third, **useful alerts**: full-tank, filter and fault notifications are worth more than a pretty humidity graph. Everything below is judged on those three, plus DOE-rated capacity and efficiency."
   ],
-  "topPicksLead": "The **Midea 50-Pint Smart with Pump** is our top smart dehumidifier because it pairs app control with a built-in pump, an ENERGY STAR rating and coverage up to 4,500 square feet, so it can run all season without you. If voice control matters most, the **GE 50-Pint Wi-Fi** works with Alexa and Google Assistant.",
+  "topPicksLead": "The **Midea 50-Pint Smart with Pump** is our top smart dehumidifier because it pairs app, Alexa and Google Assistant control with a built-in pump, an ENERGY STAR rating and coverage up to 4,500 square feet, so it can run all season without you.",
   "products": [
     {
       "id": "midea-cube-50-pump",
@@ -23,24 +23,23 @@
       "shortName": "Midea 50-Pint Smart with Pump",
       "award": "Best overall",
       "pros": [
-        "Wi-Fi control through the Midea app",
+        "Wi-Fi app plus Alexa and Google Assistant voice control",
         "Built-in pump means no bucket stops the routine",
         "ENERGY STAR certified at 50 pints a day",
         "Midea rates it for up to 4,500 square feet"
       ],
       "cons": [
         "Costs more than Midea's gravity-drain 50-pint models",
-        "The listing doesn't spell out Alexa or Google support, so check before you count on voice control",
         "A standard upright tower, not the collapsible Cube"
       ],
-      "whyWeLoveIt": "Smart features only pay off when the machine can actually run unattended, and this Midea can. The app lets you change the target and check on it from anywhere, and the built-in pump lifts water to a utility sink or out a window instead of waiting for you to empty a bucket.",
+      "whyWeLoveIt": "Smart features only pay off when the machine can actually run unattended, and this Midea can. It works with the Midea app, Alexa and Google Assistant, so it fits whichever speaker you already own, and the built-in pump lifts water to a utility sink or out a window instead of waiting for you to empty a bucket.",
       "performance": "Midea rates it at 50 pints a day with ENERGY STAR certification and coverage up to 4,500 square feet, which puts it in the same capacity class as every other basement pick here. It's a conventional upright 50-pint tower rather than the collapsible Cube, so plan for a fixed footprint. The bucket still works as a backup if the hose is ever disconnected. The rest of the lineup is in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
-      "notes": "Set a target (45–50% suits most basements) rather than Continuous mode, so app changes and schedules adjust a setpoint.",
+      "notes": "Set a target (45–50% suits most basements) rather than Continuous mode, so voice commands and routines adjust a setpoint.",
       "specs": {
         "Capacity": "50 pints/day (Midea)",
         "Drainage": "Built-in pump, bucket backup",
         "Efficiency": "ENERGY STAR",
-        "Smart control": "Wi-Fi app",
+        "Smart control": "Wi-Fi app, Alexa, Google",
         "Coverage": "Up to 4,500 sq ft (Midea)",
         "Best for": "Basements below the nearest drain"
       }
@@ -50,7 +49,7 @@
       "catalogId": "ge-50-pint-wifi",
       "name": "GE 50-Pint Wi-Fi Smart Dehumidifier",
       "shortName": "GE 50-Pint Wi-Fi",
-      "award": "Best for Alexa and Google voice control",
+      "award": "Best smart pick for basements with a floor drain",
       "pros": [
         "Alexa and Google Assistant voice control",
         "SmartHQ app with 24-hour schedules",
@@ -244,8 +243,8 @@
               "Midea 50-Pint Smart with Pump",
               "50 pt (Midea)",
               "Pump",
-              "Midea app",
-              "App control plus pump",
+              "Alexa, Google",
+              "Voice control plus pump",
               "Most basements"
             ],
             [
@@ -388,7 +387,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea 50-Pint Smart with Pump** is the smart dehumidifier most people should buy: app control, a pump that keeps it running, and an ENERGY STAR rating at a full 50 pints. Choose the **GE 50-Pint Wi-Fi** for Alexa and Google voice control where a floor drain is handy, the **Honeywell TP50AWKNR** for the most efficient smart option, the **GoveeLife with Pump** if you live in Govee's app, and the **Midea 22-Pint Smart** for one room. Whatever you choose, set a humidity target and let the alerts do the watching."
+          "text": "The **Midea 50-Pint Smart with Pump** is the smart dehumidifier most people should buy: both major voice assistants, a pump that keeps it running, and an ENERGY STAR rating at a full 50 pints. Choose the **GE 50-Pint Wi-Fi** for voice control without a pump where a floor drain is handy, the **Honeywell TP50AWKNR** for the most efficient smart option, the **GoveeLife with Pump** if you live in Govee's app, and the **Midea 22-Pint Smart** for one room. Whatever you choose, set a humidity target and let the alerts do the watching."
         }
       ]
     }
@@ -400,7 +399,7 @@
     },
     {
       "q": "Which smart dehumidifiers work with Alexa and Google Assistant?",
-      "a": "Among our picks, the GE 50-Pint Wi-Fi and the Honeywell TP50AWKNR list both. The Midea 22-Pint Smart lists Alexa, the GoveeLife lists voice control through its app, and the Midea 50-Pint with Pump and the Dreo 75 don't spell out voice-assistant support on their listings, so check before you buy if that matters."
+      "a": "Among our picks, the Midea 50-Pint Smart with Pump, the GE 50-Pint Wi-Fi and the Honeywell TP50AWKNR list both. The Midea 22-Pint Smart lists Alexa, the GoveeLife lists voice control through its app, and Dreo doesn't list voice-assistant support for the 75-pint model."
     },
     {
       "q": "Is the Midea 50-pint smart dehumidifier with pump worth the extra money?",

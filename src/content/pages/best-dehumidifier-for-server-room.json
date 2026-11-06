@@ -12,7 +12,7 @@
   "intro": [
     "Picking a **dehumidifier for a server room** turns ordinary dehumidifier logic on its head. Racks run warm and dry the air right around them, yet the room as a whole can still turn damp through an exterior wall, a short-cycling air conditioner or a muggy week. And unlike a basement, nobody walks through an equipment room to check a water tank.",
     "ASHRAE's Technical Committee 9.9, the standard reference for data center environments, recommends keeping IT spaces between **40% and 60%** relative humidity. Too damp, and condensation and corrosion threaten boards and connectors; too dry, and static discharge becomes the danger. The right unit holds a steady setpoint, drains itself and tells you when something goes wrong.",
-    "Our top pick pairs a built-in pump with Wi-Fi alerts. We've also chosen a commercial-grade unit for dedicated, always-on rooms, a compact model for a single-rack closet and a Honeywell with a built-in pump and a precise digital humidistat."
+    "Our top pick pairs a built-in pump with Wi-Fi alerts. We've also chosen a commercial-grade unit for dedicated, always-on rooms, a compact model for a single-rack closet and a Honeywell with a built-in pump and thermal overload protection for long runs."
   ],
   "topPicksLead": "The **hOmeLabs HME1003 Wi-Fi** is our top pick for most server rooms because its pump eliminates bucket overflows and its app flags humidity drift from anywhere.",
   "products": [
@@ -94,27 +94,30 @@
     },
     {
       "id": "honeywell-tp70pwkn",
-      "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKN)",
-      "shortName": "Honeywell TP70PWKN",
-      "award": "Best for precise setpoint control",
+      "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
+      "shortName": "Honeywell TPFIT50PWK",
+      "award": "Best for larger rooms without a drain",
       "pros": [
-        "Digital humidistat holds a steady target",
-        "Built-in pump with about 15 ft of lift",
-        "True 50-pint DOE 2019 rating"
+        "Built-in pump, so there's no bucket near equipment",
+        "Thermal overload protection for always-on duty",
+        "50 pints a day, ENERGY STAR certified",
+        "Rated for up to 4,000 sq ft"
       ],
       "cons": [
         "No Wi-Fi alerts",
         "Larger cabinet"
       ],
-      "whyWeLoveIt": "Most home dehumidifiers are built to dry a room as fast as possible. A server room needs the opposite instinct: hold the middle of the band from both directions. This Honeywell's digital humidistat is better suited to that than a basic dial.",
-      "performance": "It's rated at 50 pints a day under the 2019 DOE test, despite the \"70\" in its model number, which reflects the older rating. The built-in pump lifts water about 15 feet, so there's no bucket to watch. Set it around 50% and let it cycle. Our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide covers the rest of the lineup.",
+      "whyWeLoveIt": "A server room needs a dehumidifier that holds the middle of the band without anyone checking on it. This Honeywell's built-in pump means there's no bucket to overflow near equipment, and thermal overload protection is a sensible safeguard on a machine that may run around the clock.",
+      "performance": "Honeywell rates it at 50 pints a day for up to 4,000 square feet, with ENERGY STAR certification — more than enough for a typical equipment room. Auto-comfort mode will pick a target for you, but in a server room it's better to set one around 50% yourself and let it cycle. With no Wi-Fi, pair it with a networked humidity sensor. Our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide covers the rest of the lineup.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
-        "Drainage": "Built-in pump, ~15 ft lift",
-        "Humidistat": "Digital, set % target",
-        "Coverage": "Up to ~4,500 sq ft (maker's claim)",
-        "Best for": "Rooms needing a steady setpoint"
-      }
+        "Capacity": "50 pints/day",
+        "Drainage": "Built-in pump",
+        "Efficiency": "ENERGY STAR",
+        "Coverage": "Up to 4,000 sq ft (Honeywell)",
+        "Protection": "Thermal overload",
+        "Best for": "Larger equipment rooms without a drain"
+      },
+      "catalogId": "honeywell-tp70pwkn"
     }
   ],
   "sections": [
@@ -233,7 +236,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **hOmeLabs HME1003 Wi-Fi** is the best dehumidifier for most server rooms: its pump removes any risk of a bucket overflowing near equipment, and its app alerts you to drift. Step up to the **AlorAir Sentinel HDi65S** for a dedicated room that runs around the clock, use the **Frigidaire FFAD2233W1** for a single-rack closet with a drain nearby, and pick the **Honeywell TP70PWKN** when a steady setpoint matters most. Whatever you choose, aim for the middle of the 40–60% band. For larger facilities, see our [warehouse dehumidifier](/best/best-dehumidifier-for-warehouse/) guide."
+          "text": "The **hOmeLabs HME1003 Wi-Fi** is the best dehumidifier for most server rooms: its pump removes any risk of a bucket overflowing near equipment, and its app alerts you to drift. Step up to the **AlorAir Sentinel HDi65S** for a dedicated room that runs around the clock, use the **Frigidaire FFAD2233W1** for a single-rack closet with a drain nearby, and pick the **Honeywell TPFIT50PWK** for a larger room with no drain nearby. Whatever you choose, aim for the middle of the 40–60% band. For larger facilities, see our [warehouse dehumidifier](/best/best-dehumidifier-for-warehouse/) guide."
         }
       ]
     }
