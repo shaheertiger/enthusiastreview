@@ -99,27 +99,28 @@
     {
       "id": "honeywell-tp50awkn",
       "catalogId": "honeywell-tp50awkn",
-      "name": "Honeywell TP50AWKN 50-Pint Dehumidifier",
-      "shortName": "Honeywell TP50AWKN",
-      "award": "Best budget 50-pint",
+      "name": "Honeywell TP50AWKNR Smart Wi-Fi Dehumidifier (32-Pint, 3,000 sq ft)",
+      "shortName": "Honeywell TP50AWKNR",
+      "award": "Best smart value pick",
       "pros": [
-        "50-pint class for less money",
-        "Simple digital controls",
-        "Auto-restart after a power cut",
-        "Washable filter"
+        "Wi-Fi app with Alexa and Google voice control",
+        "2023 ENERGY STAR Most Efficient certified",
+        "Rated for up to 3,000 sq ft — double this space",
+        "Auto-restart after a power cut"
       ],
       "cons": [
-        "No pump or app",
-        "Plain bucket design"
+        "32 pints a day under the DOE 2019 test, less than the 50-pint picks",
+        "No pump"
       ],
-      "whyWeLoveIt": "If your 1,500-square-foot basement has a floor drain and you just want a dependable box that holds a humidity level, this Honeywell covers the essentials without paying extra for smart features.",
-      "performance": "It's a straightforward 50-pint-class compressor unit with a digital humidistat, a washable filter and automatic restart after an outage, which matters for a basement unit you may not check for days. Owners like the sturdy bucket handle and easy controls. Raise it on a block so the drain hose runs downhill and it can run all season without emptying.",
+      "whyWeLoveIt": "If your 1,500-square-foot basement is damp rather than wet and has a floor drain, this Honeywell holds a humidity level efficiently and lets you check on it from your phone or by voice. Its ENERGY STAR Most Efficient label keeps running costs down over a long season.",
+      "performance": "Honeywell rates it at 32 pints a day under the current DOE 2019 test (it was previously labeled 50 pints on the old scale) for spaces up to 3,000 square feet, so a 1,500-square-foot area is comfortably inside its range unless the space is truly wet. It has a digital humidistat, a 24-hour timer, low-temperature operation and automatic restart after an outage, which matters for a basement unit you may not check for days. Raise it on a block so the included drain tube runs downhill and it can run all season without emptying.",
       "specs": {
-        "Capacity": "50-pint class",
+        "Capacity": "32 pints/day (DOE 2019)",
         "Type": "Compressor",
-        "Humidistat": "Digital",
-        "Drainage": "Bucket or gravity hose",
-        "Best for": "Basements with a floor drain"
+        "Smart control": "Wi-Fi app, Alexa, Google",
+        "Drainage": "Tank or included drain tube",
+        "Coverage": "Up to 3,000 sq ft (Honeywell)",
+        "Best for": "Damp (not wet) basements with a floor drain"
       }
     },
     {
@@ -318,7 +319,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Decide how damp your 1,500 square feet is before you decide how big a dehumidifier to buy. For most basements and lower levels, the **Midea Cube 50** is the right call. If the space is only musty, the **Midea Cube 35** is enough. Choose the **Frigidaire FFAP5033W1** when there's no floor drain, the **Honeywell TP50AWKN** to save money, and the **Aprilaire E080** when the whole house needs drying. Smaller or larger space? See our [1,000 sq ft](/best/best-dehumidifier-for-1000-sq-ft/) and [2,000 sq ft](/best/best-dehumidifier-for-2000-sq-ft/) guides."
+          "text": "Decide how damp your 1,500 square feet is before you decide how big a dehumidifier to buy. For most basements and lower levels, the **Midea Cube 50** is the right call. If the space is only musty, the **Midea Cube 35** is enough. Choose the **Frigidaire FFAP5033W1** when there's no floor drain, the **Honeywell TP50AWKNR** for efficient smart control in a damp basement, and the **Aprilaire E080** when the whole house needs drying. Smaller or larger space? See our [1,000 sq ft](/best/best-dehumidifier-for-1000-sq-ft/) and [2,000 sq ft](/best/best-dehumidifier-for-2000-sq-ft/) guides."
         }
       ]
     }

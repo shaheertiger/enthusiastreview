@@ -68,11 +68,11 @@
     {
       "id": "sensorpush-ht1",
       "catalogId": "sensorpush-ht1",
-      "name": "SensorPush HT1 Wireless Hygrometer",
-      "shortName": "SensorPush HT1",
+      "name": "SensorPush HT.w Temperature & Humidity Sensor",
+      "shortName": "SensorPush HT.w",
       "award": "Best for monitoring humidity",
       "pros": [
-        "Rated for freezer-level temperatures",
+        "Water-resistant, so fridge condensation won’t faze it",
         "Logs temperature and humidity history to your phone",
         "Small enough to sit on a door shelf",
         "Alerts if the fridge warms up"
@@ -82,12 +82,12 @@
         "Wi-Fi alerts need the separate gateway"
       ],
       "whyWeLoveIt": "You can’t fix what you can’t see. This tiny sensor tells you whether your wine cooler is actually in the 50–70% range, whether the fridge is holding 40°F or below, and whether humidity spikes every time someone props the door.",
-      "performance": "SensorPush rates the HT1 for temperatures down to −40°F, so it works in a freezer as well as a fridge. The app keeps a history, which is how owners often discover that a door isn’t sealing or a defrost cycle is failing. Signal strength through steel walls varies, so check readings near the door or pair it with SensorPush’s Wi-Fi gateway.",
+      "performance": "The HT.w is a water-resistant Bluetooth sensor that logs temperature and humidity and calculates dew point, which is exactly what you need in a box that sweats. Before you put it in a freezer, check the operating range on SensorPush’s listing. The app keeps a history, which is how owners often discover that a door isn’t sealing or a defrost cycle is failing. Signal strength through steel walls varies, so check readings near the door or pair it with SensorPush’s Wi-Fi gateway.",
       "specs": {
         "Type": "Wireless hygrometer/thermometer",
-        "Temperature range": "About −40°F to 140°F (SensorPush)",
+        "Build": "Water-resistant, indoor/outdoor",
         "Connectivity": "Bluetooth; Wi-Fi via gateway",
-        "Best for": "Fridges, freezers, wine coolers"
+        "Best for": "Fridges, wine coolers, beverage fridges"
       }
     },
     {
@@ -254,7 +254,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Start with the causes: a leaky gasket, a clogged defrost drain, uncovered food or a door that doesn’t shut. Then add the **Eva-Dry E-333** to mop up what’s left, or the **Eva-Dry E-500** for a large fridge or wine cooler. Keep a **SensorPush HT1** inside to confirm temperature and humidity, and if the fridge sits in a humid garage or kitchen, dry the room with a small compressor unit like the **Midea Cube 20**."
+          "text": "Start with the causes: a leaky gasket, a clogged defrost drain, uncovered food or a door that doesn’t shut. Then add the **Eva-Dry E-333** to mop up what’s left, or the **Eva-Dry E-500** for a large fridge or wine cooler. Keep a **SensorPush HT.w** inside to confirm temperature and humidity, and if the fridge sits in a humid garage or kitchen, dry the room with a small compressor unit like the **Midea Cube 20**."
         }
       ]
     }

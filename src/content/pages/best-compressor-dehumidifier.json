@@ -96,27 +96,28 @@
     {
       "id": "honeywell-tp50awkn",
       "catalogId": "honeywell-tp50awkn",
-      "name": "Honeywell TP50AWKN 50-Pint Dehumidifier",
-      "shortName": "Honeywell TP50AWKN",
-      "award": "Best budget 50-pint",
+      "name": "Honeywell TP50AWKNR Smart Wi-Fi Dehumidifier (32-Pint, 3,000 sq ft)",
+      "shortName": "Honeywell TP50AWKNR",
+      "award": "Best smart value pick",
       "pros": [
-        "Simple digital controls",
-        "Washable filter",
+        "2023 ENERGY STAR Most Efficient certified",
+        "Wi-Fi app with Alexa and Google voice control",
         "Auto-restart after a power cut",
-        "Gravity-drain option"
+        "Low-temperature operation and an included drain tube"
       ],
       "cons": [
-        "No pump or app",
-        "Plain bucket design"
+        "32 pints a day under the DOE 2019 test, not a true 50-pinter",
+        "No pump"
       ],
-      "whyWeLoveIt": "Not everyone needs Wi-Fi or a clever reservoir. This Honeywell is a straightforward 50-pint compressor box that holds a humidity level and restarts on its own after an outage — the essentials for a basement unit.",
-      "performance": "It’s a 50-pint-class compressor unit with a digital humidistat and a washable filter. Owners like the sturdy bucket handle and easy controls. Raise it on a block so the hose runs downhill to a floor drain, and it can run all summer without emptying.",
+      "whyWeLoveIt": "Efficiency is where a compressor unit earns its keep, and this Honeywell carries ENERGY STAR's Most Efficient label. It holds a humidity level, restarts on its own after an outage and adds Wi-Fi with Alexa and Google voice control — useful for a basement you don't walk past every day.",
+      "performance": "Honeywell rates it at 32 pints a day under the current DOE 2019 test (it was previously labeled 50 pints on the old scale) for spaces up to 3,000 square feet. The digital humidistat cycles the compressor, and a 24-hour timer, sleep mode and anti-spill tank guards round it out. Raise it on a block so the included drain tube runs downhill to a floor drain, and it can run all summer without emptying.",
       "specs": {
-        "Capacity": "50-pint class",
+        "Capacity": "32 pints/day (DOE 2019)",
         "Type": "Compressor",
-        "Humidistat": "Digital",
-        "Drainage": "Bucket or gravity hose",
-        "Best for": "Basements with a floor drain"
+        "Efficiency": "ENERGY STAR Most Efficient 2023",
+        "Smart control": "Wi-Fi app, Alexa, Google",
+        "Drainage": "Tank or included drain tube",
+        "Best for": "Medium basements with a floor drain"
       }
     },
     {
@@ -153,9 +154,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "20–50", "label": "Pints a day from typical home compressor units (DOE 2019)" },
-            { "value": "~1 pint", "label": "Roughly what a mini Peltier unit removes on a good day" },
-            { "value": "65°F", "label": "DOE test temperature — compressors lose output in colder rooms" }
+            {
+              "value": "20–50",
+              "label": "Pints a day from typical home compressor units (DOE 2019)"
+            },
+            {
+              "value": "~1 pint",
+              "label": "Roughly what a mini Peltier unit removes on a good day"
+            },
+            {
+              "value": "65°F",
+              "label": "DOE test temperature — compressors lose output in colder rooms"
+            }
           ]
         },
         {
@@ -219,14 +229,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Compressor", "Peltier (thermoelectric)", "Desiccant"],
+          "head": [
+            "",
+            "Compressor",
+            "Peltier (thermoelectric)",
+            "Desiccant"
+          ],
           "rows": [
-            ["How it works", "Refrigerant-cooled coil condenses water", "Electrified chip chills a small heat sink", "Absorbent wheel captures water; heater releases it"],
-            ["Water removed", "20–50+ pints a day", "Ounces to about a pint a day", "Roughly 10–20 pints a day for home units"],
-            ["Efficiency", "Best in warm, humid rooms", "Low watts, but little water per kWh", "Uses more power in warm rooms"],
-            ["Cold rooms", "Struggles below the 60s without defrost", "Weak in cold air", "Keeps working near freezing"],
-            ["Noise", "Fan plus compressor hum", "Near-silent fan", "Fan only, no compressor"],
-            ["Best for", "Basements, living spaces, large rooms", "Closets, small bathrooms, cabinets", "Garages, cabins, boats, cold basements"]
+            [
+              "How it works",
+              "Refrigerant-cooled coil condenses water",
+              "Electrified chip chills a small heat sink",
+              "Absorbent wheel captures water; heater releases it"
+            ],
+            [
+              "Water removed",
+              "20–50+ pints a day",
+              "Ounces to about a pint a day",
+              "Roughly 10–20 pints a day for home units"
+            ],
+            [
+              "Efficiency",
+              "Best in warm, humid rooms",
+              "Low watts, but little water per kWh",
+              "Uses more power in warm rooms"
+            ],
+            [
+              "Cold rooms",
+              "Struggles below the 60s without defrost",
+              "Weak in cold air",
+              "Keeps working near freezing"
+            ],
+            [
+              "Noise",
+              "Fan plus compressor hum",
+              "Near-silent fan",
+              "Fan only, no compressor"
+            ],
+            [
+              "Best for",
+              "Basements, living spaces, large rooms",
+              "Closets, small bathrooms, cabinets",
+              "Garages, cabins, boats, cold basements"
+            ]
           ],
           "caption": "Typical figures for consumer units; individual models vary."
         },
@@ -287,7 +332,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **Midea Cube 50** is the compressor dehumidifier to buy. Choose the **Frigidaire FFAP5033W1** if you need a pump, the **Midea Cube 20** for a single small room, the **Honeywell TP50AWKN** for a no-frills basement unit, and the **AlorAir Sentinel HD55** for a cold crawl space or basement. Save Peltier minis for closets and cabinets, and turn to a desiccant when the space drops toward freezing."
+          "text": "For most homes, the **Midea Cube 50** is the compressor dehumidifier to buy. Choose the **Frigidaire FFAP5033W1** if you need a pump, the **Midea Cube 20** for a single small room, the **Honeywell TP50AWKNR** for an efficient smart unit in a medium basement, and the **AlorAir Sentinel HD55** for a cold crawl space or basement. Save Peltier minis for closets and cabinets, and turn to a desiccant when the space drops toward freezing."
         }
       ]
     }

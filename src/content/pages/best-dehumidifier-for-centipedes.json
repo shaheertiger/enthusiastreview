@@ -98,27 +98,28 @@
     {
       "id": "honeywell-tp50awkn",
       "catalogId": "honeywell-tp50awkn",
-      "name": "Honeywell TP50AWKN 50-Pint Dehumidifier",
-      "shortName": "Honeywell TP50AWKN",
-      "award": "Best value",
+      "name": "Honeywell TP50AWKNR Smart Wi-Fi Dehumidifier (32-Pint, 3,000 sq ft)",
+      "shortName": "Honeywell TP50AWKNR",
+      "award": "Best smart value pick",
       "pros": [
-        "Basement-class capacity for less",
-        "Handled bucket with a drain-hose connection",
-        "Simple, reliable controls",
-        "Washable filter"
+        "Continuous drain tube included for a floor drain",
+        "Wi-Fi app with Alexa and Google voice control",
+        "2023 ENERGY STAR Most Efficient certified",
+        "Auto-restart after a power cut"
       ],
       "cons": [
         "No built-in pump",
-        "Bucket fills fast in a very wet basement"
+        "32 pints a day under the DOE 2019 test — a very wet basement may need a 50-pinter"
       ],
-      "whyWeLoveIt": "If you have a floor drain within reach, you don't need to pay for a pump. This Honeywell gives you the same 50-pint class capacity and a gravity-hose connection, so it can still run continuously with no bucket to empty.",
-      "performance": "It's a straightforward compressor unit with a digital humidistat, a washable filter and auto-restart after a power cut, which matters for a machine you want running all summer. Owners like the sturdy bucket handle and simple controls. Set it on a block or shelf so the hose has a downhill run to the drain. For more value picks, see our [best budget dehumidifier](/best/best-budget-dehumidifier/) guide.",
+      "whyWeLoveIt": "If you have a floor drain within reach, you don't need to pay for a pump. This Honeywell drains by gravity through its included tube, so it can run continuously with no bucket to empty, and the app lets you confirm the basement is staying below 50% without going downstairs.",
+      "performance": "Honeywell rates it at 32 pints a day under the current DOE 2019 test (it was previously labeled 50 pints on the old scale) for spaces up to 3,000 square feet. It has a digital humidistat, a 24-hour timer, low-temperature operation and auto-restart after a power cut, which matters for a machine you want running all summer. Set it on a block or shelf so the tube has a downhill run to the drain. For more value picks, see our [best budget dehumidifier](/best/best-budget-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50-pint class",
+        "Capacity": "32 pints/day (DOE 2019)",
         "Type": "Compressor",
-        "Drainage": "Bucket or gravity hose",
-        "Humidistat": "Digital",
-        "Best for": "Basements with a floor drain"
+        "Drainage": "Tank or included drain tube",
+        "Smart control": "Wi-Fi app, Alexa, Google",
+        "Coverage": "Up to 3,000 sq ft (Honeywell)",
+        "Best for": "Damp basements with a floor drain"
       }
     },
     {
@@ -154,9 +155,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "15 pairs", "label": "Legs on an adult house centipede, the species most often found indoors" },
-            { "value": "Below 60%", "label": "Indoor humidity the EPA recommends to limit mold, ideally 30–50%" },
-            { "value": "45–50%", "label": "A practical humidistat setting for basements with pest problems" }
+            {
+              "value": "15 pairs",
+              "label": "Legs on an adult house centipede, the species most often found indoors"
+            },
+            {
+              "value": "Below 60%",
+              "label": "Indoor humidity the EPA recommends to limit mold, ideally 30–50%"
+            },
+            {
+              "value": "45–50%",
+              "label": "A practical humidistat setting for basements with pest problems"
+            }
           ]
         },
         {
@@ -253,13 +263,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Spot", "Why centipedes like it", "Best tool"],
+          "head": [
+            "Spot",
+            "Why centipedes like it",
+            "Best tool"
+          ],
           "rows": [
-            ["Unfinished basement", "Cool, damp, full of insects", "50-pint unit with pump or floor-drain hose"],
-            ["Crawl space", "Bare soil, high humidity, dark", "Low-profile crawl-space dehumidifier plus vapor barrier"],
-            ["Bathroom", "Shower moisture, damp drains", "Exhaust fan plus a 20-pint unit if it stays humid"],
-            ["Laundry room", "Washer leaks, drying laundry", "20–35 pint unit with a hose to the floor drain"],
-            ["Under sinks", "Slow leaks, condensation on pipes", "Fix the leak; a renewable silica pack for the cabinet"]
+            [
+              "Unfinished basement",
+              "Cool, damp, full of insects",
+              "50-pint unit with pump or floor-drain hose"
+            ],
+            [
+              "Crawl space",
+              "Bare soil, high humidity, dark",
+              "Low-profile crawl-space dehumidifier plus vapor barrier"
+            ],
+            [
+              "Bathroom",
+              "Shower moisture, damp drains",
+              "Exhaust fan plus a 20-pint unit if it stays humid"
+            ],
+            [
+              "Laundry room",
+              "Washer leaks, drying laundry",
+              "20–35 pint unit with a hose to the floor drain"
+            ],
+            [
+              "Under sinks",
+              "Slow leaks, condensation on pipes",
+              "Fix the leak; a renewable silica pack for the cabinet"
+            ]
           ]
         },
         {
@@ -274,7 +308,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The best dehumidifier for centipedes is one that keeps their favorite hideout below 50% humidity, month after month. For most basements that's the **Frigidaire FFAP5033W1** with its built-in pump. Choose the **AlorAir Sentinel HD55** if the problem starts in a crawl space, the **Midea Cube 20** for a bathroom or laundry room, and the **Honeywell TP50AWKN** if a floor drain makes a pump unnecessary. Add a hygrometer, seal the gaps, clear the clutter — and give it a season to work."
+          "text": "The best dehumidifier for centipedes is one that keeps their favorite hideout below 50% humidity, month after month. For most basements that's the **Frigidaire FFAP5033W1** with its built-in pump. Choose the **AlorAir Sentinel HD55** if the problem starts in a crawl space, the **Midea Cube 20** for a bathroom or laundry room, and the **Honeywell TP50AWKNR** if a floor drain makes a pump unnecessary and you want app control. Add a hygrometer, seal the gaps, clear the clutter — and give it a season to work."
         }
       ]
     }

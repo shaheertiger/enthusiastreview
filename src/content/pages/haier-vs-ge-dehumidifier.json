@@ -6,40 +6,40 @@
   "title": "Haier vs. GE Dehumidifier (2026): Same Owner, Different Machines",
   "h1": "Haier vs. GE Dehumidifiers",
   "dek": "Haier owns GE Appliances, but their dehumidifiers aren't twins — and the differences in coverage and track record point one way.",
-  "description": "Haier vs. GE dehumidifier, head to head: the 50-pint pump models compared on who builds them, coverage, independent testing, warranty and recall history.",
+  "description": "Haier vs. GE dehumidifier, head to head: the 50-pint pump models compared on who builds them, rated coverage, pump lift, warranty and recall history.",
   "published": "2026-10-24",
   "updated": "2026-11-05",
   "intro": [
     "Shoppers compare Haier vs. GE dehumidifiers for an understandable reason: Haier has owned GE Appliances since 2016, so it's natural to assume the machines are the same underneath. They aren't, at least not in any way the companies have documented.",
-    "GE's current dehumidifiers — including the APYR50LC, its app-equipped twin the ADHR50LZ, the ADEL35LZ and the ADEL20LY — are built under license by Midea, a relationship visible in ENERGY STAR's certification records. Haier's own-badged Smart Dry models (QDHR20LZ, QDHR35LZ, QDHR50LZ and the pump-equipped QPHR50LZ) share some branding and similar specs, but Haier doesn't disclose who builds them.",
+    "GE's current dehumidifiers are built under license by Midea, a relationship visible in ENERGY STAR's certification records. Haier's own-badged Smart Dry models (QDHR20LZ, QDHR35LZ, QDHR50LZ and the pump-equipped QPHR50LZ) share some branding and similar specs, but Haier doesn't disclose who builds them.",
     "Below we compare each brand's closest model — a 50-pint unit with a built-in pump — on coverage, independent testing, warranty and recall history. Because the spec sheet and track record both point away from the Haier, our second pick is the closest pump model from outside the Haier family: Frigidaire's FHDP5033W1."
   ],
-  "topPicksLead": "For most buyers, the **GE ADHR50LZ** is the stronger choice, with a much larger rated coverage area than the Haier and the same hardware as the APYR50LC, which earned a recent best-overall nod from independent testing.",
+  "topPicksLead": "For most buyers, the **GE 50-Pint with Pump** is the stronger choice: at the same 50 pints a day, GE rates it for up to 5,000 square feet — more than three times the Haier's figure — and its pump lifts water 15 feet through an included 16-foot hose.",
   "products": [
     {
-      "id": "ge-adhr50lz",
-      "catalogId": "ge-adhr50lz",
-      "name": "GE 50-Pint Smart Dehumidifier with Pump (ADHR50LZ)",
-      "shortName": "GE ADHR50LZ",
+      "id": "ge-aper50lz",
+      "catalogId": "ge-aper50lz",
+      "name": "GE 50-Pint Dehumidifier with Built-In Pump",
+      "shortName": "GE 50-Pint with Pump",
       "award": "Best overall",
       "pros": [
-        "Rated for spaces up to about 4,500 sq ft",
-        "Same built-in pump and capacity as the APYR50LC",
-        "SmartHQ app with full-tank and filter alerts",
+        "Rated for spaces up to 5,000 sq ft",
+        "Built-in pump lifts water 15 feet vertically",
+        "16-foot drain hose included",
         "Smart Dry mode adjusts fan speed automatically"
       ],
       "cons": [
-        "One-year limited warranty",
-        "Costs more than the app-free APYR50LC for the same drying hardware"
+        "No Wi-Fi or app control",
+        "One-year limited warranty"
       ],
-      "whyWeLoveIt": "The ADHR50LZ pairs 50-pint capacity with a pump that pushes water up and out of a basement. Underneath, it's the same machine as the APYR50LC — a best-overall pick from a major review lab in March 2026 — with SmartHQ alerts layered on top.",
-      "performance": "GE rates it at 50 pints a day for basements, garages and wet rooms up to roughly 4,500 square feet, draining through the built-in pump or by gravity. SmartHQ tracks energy use, sends empty-bucket and filter-cleaning reminders and lets you change the setpoint by voice, while Smart Dry mode nudges the fan speed up or down based on the humidity reading. It's built by Midea under license, so it benefits from that platform's track record. See the rest of the lineup in our [best GE dehumidifier](/best/best-ge-dehumidifier/) guide.",
+      "whyWeLoveIt": "This GE pairs 50-pint capacity with a pump that pushes water up and out of a basement, and it ships with the 16-foot hose to do it. GE rates it for far more floor space than the Haier, and the controls cover what a basement unit needs: a humidistat, a 24-hour timer and Smart Dry fan control.",
+      "performance": "GE rates it at 50 pints a day for basements, garages and large open spaces up to 5,000 square feet. The pump moves water up to 15 vertical feet to a sink or drain; if you'd rather not use it, the 15-pint bucket sounds a 10-second alarm when it's full or missing. The humidistat runs from 30% to 70%, Smart Dry nudges the fan speed up or down based on the humidity reading, and the washable filter needs no replacements. There's no app; GE's Wi-Fi 50-pint model adds Alexa and Google control but drops the pump. See the rest of the lineup in our [best GE dehumidifier](/best/best-ge-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50 pints/day",
-        "Coverage": "Up to ~4,500 sq ft",
-        "Drainage": "Built-in pump or gravity",
-        "Smart control": "SmartHQ app, Alexa, Google",
-        "Warranty": "1-year limited"
+        "Capacity": "50 pints/day (GE)",
+        "Coverage": "Up to 5,000 sq ft (GE)",
+        "Drainage": "Built-in pump, 15-ft lift, 16-ft hose",
+        "Bucket": "15 pints, full/missing alarm",
+        "Humidistat": "30–70%"
       }
     },
     {
@@ -76,16 +76,52 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Haier QPHR50LZ", "GE ADHR50LZ"],
+          "head": [
+            "",
+            "Haier QPHR50LZ",
+            "GE 50-Pint with Pump"
+          ],
           "rows": [
-            ["Who builds it", "Not disclosed (Haier-badged)", "Midea, under license"],
-            ["Capacity", "50 pints/day", "50 pints/day"],
-            ["Rated coverage", "Up to ~1,500 sq ft", "Up to ~4,500 sq ft"],
-            ["Pump", "Built-in", "Built-in, 16 ft lift"],
-            ["Independent testing", "None on current generation", "Same hardware as the APYR50LC, best overall pick in March 2026"],
-            ["Warranty", "1-year limited", "1-year limited"],
-            ["Parent company", "Haier Group", "Haier Group (since 2016)"],
-            ["Recall history", "Older models in 2021 recall", "No flag on current lineup"]
+            [
+              "Who builds it",
+              "Not disclosed (Haier-badged)",
+              "Midea, under license (GE lineup)"
+            ],
+            [
+              "Capacity",
+              "50 pints/day",
+              "50 pints/day"
+            ],
+            [
+              "Rated coverage",
+              "Up to ~1,500 sq ft",
+              "Up to 5,000 sq ft"
+            ],
+            [
+              "Pump",
+              "Built-in",
+              "Built-in, 15 ft lift, 16 ft hose"
+            ],
+            [
+              "Independent testing",
+              "None on current generation",
+              "None we can tie to this exact listing"
+            ],
+            [
+              "Warranty",
+              "1-year limited",
+              "1-year limited"
+            ],
+            [
+              "Parent company",
+              "Haier Group",
+              "Haier Group (since 2016)"
+            ],
+            [
+              "Recall history",
+              "Older models in 2021 recall",
+              "No flag on current lineup"
+            ]
           ]
         }
       ]
@@ -117,15 +153,15 @@
     },
     {
       "id": "coverage-and-testing",
-      "heading": "Coverage and testing: where GE pulls ahead",
+      "heading": "Coverage and controls: where GE pulls ahead",
       "blocks": [
         {
           "type": "p",
-          "text": "The biggest spec gap is easy to miss. At the same 50 pints a day, Haier rates its unit for about 1,500 square feet while GE claims about 4,500 — roughly three times as much. Both figures come from each company's own spec sheets, so Haier is simply far more conservative. For a large basement, that matters; our [size guide](/guides/dehumidifier-size-guide/) explains how to match capacity to space."
+          "text": "The biggest spec gap is easy to miss. At the same 50 pints a day, Haier rates its unit for about 1,500 square feet while GE claims up to 5,000 — more than three times as much. Both figures come from each company's own spec sheets, so Haier is simply far more conservative. For a large basement, that matters; our [size guide](/guides/dehumidifier-size-guide/) explains how to match capacity to space."
         },
         {
           "type": "p",
-          "text": "GE also has recent independent backing: the APYR50LC — the same pump-equipped machine as the ADHR50LZ, minus the app — was named best overall in a major review lab's March 2026 testing. The Haier has no equivalent on its current generation."
+          "text": "On the pump itself, GE spells out the details: water lifts up to 15 vertical feet through a 16-foot hose that comes in the box, so you can reach a laundry sink or a basement window without buying extra parts. Neither brand's current pump model has an independent lab result we can tie to the exact unit sold, so the coverage rating, the documented manufacturer and the included hardware carry the comparison."
         }
       ]
     },
@@ -151,12 +187,12 @@
           "type": "checklist",
           "items": [
             {
-              "label": "Buy the GE ADHR50LZ if…",
-              "text": "you're drying a large basement or garage, want independent test results behind the hardware, prefer a documented manufacturer, or want app alerts from a basement you rarely visit."
+              "label": "Buy the GE 50-Pint with Pump if…",
+              "text": "you're drying a large basement or garage, need water pumped up to a sink or window, and prefer a documented manufacturer. If you want app alerts instead and have a floor drain, GE's Wi-Fi 50-pint model trades the pump for Alexa and Google control."
             },
             {
               "label": "Why we don't pick the Haier QPHR50LZ",
-              "text": "Haier rates it for only about 1,500 sq ft at the same 50 pints, and there's no independent test of the current generation, so at a similar price the GE is the better buy."
+              "text": "Haier rates it for only about 1,500 sq ft at the same 50 pints, and there's no independent test of the current generation, so the GE is the better buy."
             },
             {
               "label": "Buy the Frigidaire FHDP5033W1 if…",
@@ -172,7 +208,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Haier owning GE Appliances doesn't make their dehumidifiers the same. The **GE ADHR50LZ** is Midea-built, rated for about three times the Haier's coverage, and shares its hardware with the independently tested APYR50LC. The Haier QPHR50LZ is sometimes cheaper, but the spec sheet and track record both favor GE. Both carry one-year warranties, so if that's the sticking point, the **Frigidaire FHDP5033W1** offers a pump, Wi-Fi and five-year sealed-system coverage. Compare other pump-equipped options in our [dehumidifiers with a pump](/best/best-dehumidifier-with-pump/) guide."
+          "text": "Haier owning GE Appliances doesn't make their dehumidifiers the same. The **GE 50-Pint with Pump** comes from GE's Midea-built lineup, is rated for more than three times the Haier's coverage, and includes a 16-foot hose with a 15-foot pump lift. The Haier QPHR50LZ is the more conservative machine on paper, and the spec sheet favors GE. Both carry one-year warranties, so if that's the sticking point, the **Frigidaire FHDP5033W1** offers a pump, Wi-Fi and five-year sealed-system coverage. Compare other pump-equipped options in our [dehumidifiers with a pump](/best/best-dehumidifier-with-pump/) guide."
         }
       ]
     }
@@ -184,7 +220,7 @@
     },
     {
       "q": "Which is better, a Haier or GE dehumidifier?",
-      "a": "For most buyers, GE. Its pump-equipped ADHR50LZ and APYR50LC are rated for about 4,500 square feet versus Haier's 1,500 at the same 50-pint capacity, and the APYR50LC earned a best-overall pick in independent 2026 testing."
+      "a": "For most buyers, GE. Its 50-pint pump model is rated for up to 5,000 square feet versus Haier's 1,500 at the same capacity, and it ships with a 16-foot hose and a 15-foot pump lift. GE also documents that Midea builds its dehumidifiers; Haier doesn't say who builds its own."
     },
     {
       "q": "Are Haier and GE dehumidifiers the same?",

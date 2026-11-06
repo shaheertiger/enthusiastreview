@@ -13,32 +13,33 @@
     "Shopping for a **Costco dehumidifier** is a little different from shopping on Amazon. Costco doesn't keep a fixed, searchable lineup; it runs a rotating assortment where models appear, sell through and sometimes return months later at a very different price. The only model we could confirm as a standing listing on Costco.com is the **Hisense 35-Pint (HD3526)**.",
     "Beyond that, Midea and Danby 50-pint units with built-in pumps have shown up repeatedly in member deal reports during 2026, often in specific warehouses and sometimes for only a few weeks. That's great if you catch one at a clearance price — but it means you need to know what a good unit looks like before you're standing in the aisle. Here's what we found, which models are worth buying and what to check on the box."
   ],
-  "topPicksLead": "The **Hisense 35-Pint HD3526** is the best Costco dehumidifier you can reliably find: ENERGY STAR certified, sized for most rooms and consistently listed on Costco.com.",
+  "topPicksLead": "A **Hisense 35-pint** is the best Costco dehumidifier you can reliably find: Costco.com carries it as the HD3526, and our card links the **Hisense 35-Pint HD3524** on Amazon — the same 35-pint, 3,000-square-foot class, sized for most rooms.",
   "products": [
     {
       "id": "hisense-hd3526",
-      "name": "Hisense 35-Pint Dehumidifier (HD3526)",
-      "shortName": "Hisense HD3526",
-      "award": "Best overall (standing listing)",
+      "name": "Hisense 35-Pint 3,000 Sq Ft Dehumidifier (HD3524)",
+      "shortName": "Hisense HD3524",
+      "award": "Best overall (35-pint Hisense)",
       "pros": [
-        "ENERGY STAR certified",
-        "Consistently available on Costco.com",
-        "Three fan speeds and 162 CFM airflow",
-        "Auto shut-off, washable filter, slide-out bucket"
+        "35 pints a day for up to 3,000 sq ft (listing)",
+        "Low-noise airflow system and three fan speeds",
+        "Removable, washable filter",
+        "Easy-carry handle for moving room to room"
       ],
       "cons": [
         "No built-in pump",
-        "Room-sized rather than whole-basement capacity"
+        "Room-sized rather than whole-basement capacity",
+        "Costco's own listing is a different model number (HD3526)"
       ],
-      "whyWeLoveIt": "It's the one Costco dehumidifier you can count on finding, and it's a sensible, efficient machine for a large room or a mildly damp lower level. No treasure hunt required.",
-      "performance": "Costco's item page lists it at 35 pints a day for up to 3,000 square feet, with ENERGY STAR certification, 162 CFM of airflow, three fan speeds and an 8.9-pint bucket that shuts the unit off when full. It has a washable filter and a slide-out tank, but no pump, so you'll be emptying the bucket unless you can set up gravity drainage. For a wet basement, our [basement picks](/best/best-dehumidifier-for-basement/) have more capacity.",
+      "whyWeLoveIt": "Hisense's 35-pint is the one dehumidifier you can count on finding at Costco, and the HD3524 we link on Amazon is the same size class: a sensible machine for a large room or a mildly damp lower level, no treasure hunt required.",
+      "performance": "Amazon lists the HD3524 at 35 pints a day for up to 3,000 square feet, with a low-noise airflow system, three fan speeds, a removable washable filter and a carry handle. It drains to a bucket or a gravity hose rather than a pump, so you'll be emptying it unless you can set up a downhill drain. Costco.com sells its own 35-pint Hisense under the HD3526 number; if you're buying there, check that listing's specs, since tank size and efficiency labels can differ between model numbers. For a wet basement, our [basement picks](/best/best-dehumidifier-for-basement/) have more capacity.",
       "specs": {
+        "Model": "HD3524 (Amazon listing)",
         "Capacity": "35 pints/day",
-        "Coverage": "Up to 3,000 sq ft (maker)",
-        "Tank": "8.9 pints",
-        "Airflow": "162 CFM",
-        "Efficiency": "ENERGY STAR",
-        "Drainage": "Bucket"
+        "Coverage": "Up to 3,000 sq ft (listing)",
+        "Fan": "3 speeds, low-noise airflow",
+        "Filter": "Removable, washable",
+        "Drainage": "Bucket or gravity hose"
       }
     },
     {
@@ -192,7 +193,7 @@
           ],
           "rows": [
             [
-              "Hisense HD3526",
+              "Hisense HD3526 (Costco listing)",
               "35 pints",
               "No",
               "Standing Costco.com listing"
@@ -258,7 +259,7 @@
           "rows": [
             [
               "Large bedroom, family room or mildly damp lower level",
-              "Hisense HD3526",
+              "Hisense 35-pint (HD3526 at Costco, HD3524 on Amazon)",
               "Efficient, right-sized and easy to order online"
             ],
             [
@@ -273,7 +274,7 @@
             ],
             [
               "Wet basement with a floor drain",
-              "Hisense HD3526 or either 50-pint",
+              "Hisense 35-pint or either 50-pint",
               "A gravity hose makes the pump optional"
             ]
           ]
@@ -290,7 +291,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Hisense HD3526** is the best Costco dehumidifier you can reliably buy: efficient, right-sized for most rooms and always on Costco.com. If your warehouse has the **Midea 50-Pint with pump** at a good price, it's a smart grab for a basement — just check the model suffix. If it isn't there, the **Hisense 50-Pint with Pump** is the next pump model to look for."
+          "text": "A **Hisense 35-pint** is the best Costco dehumidifier you can reliably buy: efficient, right-sized for most rooms and a standing Costco.com listing (as the HD3526). If you'd rather order it on Amazon, the card above links the closely matched **Hisense HD3524**. If your warehouse has the **Midea 50-Pint with pump** at a good price, it's a smart grab for a basement — just check the model suffix. If it isn't there, the **Hisense 50-Pint with Pump** is the next pump model to look for."
         }
       ]
     }
@@ -302,7 +303,7 @@
     },
     {
       "q": "What is the best dehumidifier at Costco?",
-      "a": "For reliable availability, the Hisense HD3526: ENERGY STAR certified and rated for up to 3,000 square feet. For a basement, the Midea 50-Pint with built-in pump is the better find when it's in stock."
+      "a": "For reliable availability, Hisense's 35-pint: Costco.com lists it as the HD3526, and Amazon sells the HD3524, rated for 35 pints a day and up to 3,000 square feet. For a basement, the Midea 50-Pint with built-in pump is the better find when it's in stock."
     },
     {
       "q": "Does Costco sell Danby dehumidifiers?",

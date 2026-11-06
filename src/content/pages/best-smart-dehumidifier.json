@@ -1,0 +1,426 @@
+{
+  "slug": "best-smart-dehumidifier",
+  "section": "best",
+  "category": "Size & Features",
+  "navLabel": "Smart Picks",
+  "amazonOnly": true,
+  "title": "Best Smart Dehumidifier (2026): Alexa, Google & App Picks",
+  "h1": "The Best Smart Dehumidifiers for Voice Control, Alerts and Automations",
+  "dek": "A smart dehumidifier should do more than show a number on your phone. These pick up voice commands, warn you before trouble starts and fit into the routines you already run.",
+  "description": "The best smart dehumidifier for Alexa, Google Assistant and app alerts, from Midea, GE, Honeywell, GoveeLife and Dreo, compared on pumps, automations and real use.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "A **smart dehumidifier** earns its keep in places you don't visit every day: a basement, a lake house, the far end of a finished lower level. The best ones let you change the humidity target by voice, ping your phone before the tank fills or the coil freezes, and slot into a bedtime or away-from-home routine. Our top pick, the **Midea 50-Pint Smart with Pump**, pairs app control with a built-in pump that sends its own water away, so the app becomes the only thing you need to check.",
+    "If you're shopping for one, three things matter more than the spec sheet. First, **which ecosystem** you live in: Alexa, Google Assistant or just the brand's app. Second, **drainage**, because a smart unit that stops every day with a full bucket isn't saving you any trips. Third, **useful alerts**: full-tank, filter and fault notifications are worth more than a pretty humidity graph. Everything below is judged on those three, plus DOE-rated capacity and efficiency."
+  ],
+  "topPicksLead": "The **Midea 50-Pint Smart with Pump** is our top smart dehumidifier because it pairs app control with a built-in pump, an ENERGY STAR rating and coverage up to 4,500 square feet, so it can run all season without you. If voice control matters most, the **GE 50-Pint Wi-Fi** works with Alexa and Google Assistant.",
+  "products": [
+    {
+      "id": "midea-cube-50-pump",
+      "catalogId": "midea-cube-50-pump",
+      "name": "Midea 50-Pint Smart Dehumidifier with Built-In Pump",
+      "shortName": "Midea 50-Pint Smart with Pump",
+      "award": "Best overall",
+      "pros": [
+        "Wi-Fi control through the Midea app",
+        "Built-in pump means no bucket stops the routine",
+        "ENERGY STAR certified at 50 pints a day",
+        "Midea rates it for up to 4,500 square feet"
+      ],
+      "cons": [
+        "Costs more than Midea's gravity-drain 50-pint models",
+        "The listing doesn't spell out Alexa or Google support, so check before you count on voice control",
+        "A standard upright tower, not the collapsible Cube"
+      ],
+      "whyWeLoveIt": "Smart features only pay off when the machine can actually run unattended, and this Midea can. The app lets you change the target and check on it from anywhere, and the built-in pump lifts water to a utility sink or out a window instead of waiting for you to empty a bucket.",
+      "performance": "Midea rates it at 50 pints a day with ENERGY STAR certification and coverage up to 4,500 square feet, which puts it in the same capacity class as every other basement pick here. It's a conventional upright 50-pint tower rather than the collapsible Cube, so plan for a fixed footprint. The bucket still works as a backup if the hose is ever disconnected. The rest of the lineup is in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
+      "notes": "Set a target (45–50% suits most basements) rather than Continuous mode, so app changes and schedules adjust a setpoint.",
+      "specs": {
+        "Capacity": "50 pints/day (Midea)",
+        "Drainage": "Built-in pump, bucket backup",
+        "Efficiency": "ENERGY STAR",
+        "Smart control": "Wi-Fi app",
+        "Coverage": "Up to 4,500 sq ft (Midea)",
+        "Best for": "Basements below the nearest drain"
+      }
+    },
+    {
+      "id": "ge-50-pint-wifi",
+      "catalogId": "ge-50-pint-wifi",
+      "name": "GE 50-Pint Wi-Fi Smart Dehumidifier",
+      "shortName": "GE 50-Pint Wi-Fi",
+      "award": "Best for Alexa and Google voice control",
+      "pros": [
+        "Alexa and Google Assistant voice control",
+        "SmartHQ app with 24-hour schedules",
+        "Smart Dry adjusts fan speed to the room's humidity",
+        "Auto restart with saved settings after a power outage"
+      ],
+      "cons": [
+        "No pump: drains to a 15-pint bucket or a gravity hose",
+        "Drain hose sold separately",
+        "Filter-clean and full-bucket alerts come from the unit itself"
+      ],
+      "whyWeLoveIt": "If voice control is the point, this GE covers both major assistants and pairs them with GE's SmartHQ app for 24-hour schedules. Smart Dry trims the fan speed as the room dries, and auto restart means a power blip doesn't leave it sitting idle while you're away.",
+      "performance": "GE rates it at 50 pints a day for spaces up to 5,000 square feet, with an adjustable humidistat from 30% to 70% and a digital display. There's no pump: water collects in a 15-pint bucket that shuts the unit off with a 10-second alarm when full, or drains through a gravity hose you supply. Auto defrost keeps it working in cool basements. More GE options are in our [best GE dehumidifier](/best/best-ge-dehumidifier/) guide.",
+      "notes": "Buy a standard garden-style drain hose and put the unit above a floor drain if you want it to run unattended.",
+      "specs": {
+        "Capacity": "50 pints/day (GE)",
+        "Drainage": "15-pint bucket or gravity hose (not included)",
+        "Smart control": "SmartHQ app, Alexa, Google",
+        "Coverage": "Up to 5,000 sq ft (GE)",
+        "Humidistat": "30–70%",
+        "Best for": "Voice control in a basement with a drain"
+      }
+    },
+    {
+      "id": "goveelife-dehumidifier-pump",
+      "catalogId": "goveelife-dehumidifier-pump",
+      "name": "GoveeLife Smart Dehumidifier with Pump (H7152)",
+      "shortName": "GoveeLife with Pump",
+      "award": "Best for Govee smart homes",
+      "pros": [
+        "Fits into the Govee Home app alongside Govee sensors and lights",
+        "App and voice-assistant control",
+        "Built-in pump with a 16-foot hose",
+        "Drains itself and dries its coil after shutting off"
+      ],
+      "cons": [
+        "Headline 137-pint figure is a hot, saturated maximum",
+        "Listing doesn't spell out auto-restart, so test it",
+        "Needs about 8 inches of clearance behind the intake"
+      ],
+      "whyWeLoveIt": "If your house already runs on Govee thermometers, hygrometers or lights, this dehumidifier joins the same app instead of adding another one — the natural pick for people who build their own automations.",
+      "performance": "Govee lists 50 pints a day at 65°F and 60% humidity — the DOE test conditions — and coverage up to 4,500 square feet, so it compares directly with the Midea and GE. Auto-defrost, a full-tank reminder and five operating modes round it out, and the 1.8-gallon tank serves as a backup to the pump. See the rest of the lineup in our [best Govee dehumidifier](/best/best-govee-dehumidifier/) guide.",
+      "notes": "Check in the Govee app which of your sensors can trigger the dehumidifier before you count on a cross-room routine.",
+      "specs": {
+        "Capacity": "50 pints/day at 65°F, 60% RH (Govee)",
+        "Drainage": "Built-in pump, 16-ft hose",
+        "Tank": "1.8 gallons",
+        "Smart control": "Govee Home app, voice",
+        "Best for": "DIY smart-home automations"
+      }
+    },
+    {
+      "id": "honeywell-tp50awkn",
+      "catalogId": "honeywell-tp50awkn",
+      "name": "Honeywell TP50AWKNR Smart Wi-Fi Dehumidifier (32-Pint, 3,000 sq ft)",
+      "shortName": "Honeywell TP50AWKNR",
+      "award": "Most energy-efficient smart pick",
+      "pros": [
+        "2023 ENERGY STAR Most Efficient certified",
+        "Wi-Fi app plus Alexa and Google voice control",
+        "Continuous drain tube included",
+        "Anti-spill tank guards, 24-hour timer and sleep mode"
+      ],
+      "cons": [
+        "32 pints a day under the DOE 2019 test (it was sold as a 50-pint)",
+        "Coverage tops out around 3,000 sq ft",
+        "No pump"
+      ],
+      "whyWeLoveIt": "This Honeywell earns its place on efficiency: it carries ENERGY STAR's Most Efficient label, which only the top performers in a category get, and it still answers to both Alexa and Google. For a medium basement or large room where running cost matters, that combination is hard to beat.",
+      "performance": "Honeywell rates it at 32 pints a day under the current DOE 2019 test (it was previously labeled 50 pints on the old scale) for spaces up to 3,000 square feet. The digital humidistat cycles it to your setpoint, it restarts on its own after an outage and it's built for low-temperature operation. Drainage is by the detachable tank or the included continuous drain tube. More options are in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "32 pints/day (DOE 2019)",
+        "Drainage": "Tank or included drain tube",
+        "Efficiency": "ENERGY STAR Most Efficient 2023",
+        "Smart control": "Wi-Fi app, Alexa, Google",
+        "Coverage": "Up to 3,000 sq ft (Honeywell)",
+        "Best for": "Medium basements, efficiency-minded owners"
+      }
+    },
+    {
+      "id": "dreo-75-pint",
+      "catalogId": "dreo-75-pint",
+      "name": "Dreo 75-Pint ENERGY STAR Smart Dehumidifier (DR-HDH003S)",
+      "shortName": "Dreo 75",
+      "award": "Best for tracking energy use",
+      "pros": [
+        "App energy monitor shows what it's costing you",
+        "Dreo lists 41 dB operation",
+        "Timer and child lock in the app",
+        "ENERGY STAR certified, per Dreo"
+      ],
+      "cons": [
+        "No voice-assistant support listed",
+        "75-pint figure is measured at 95°F and 95% humidity",
+        "No pump"
+      ],
+      "whyWeLoveIt": "Most smart dehumidifiers tell you the humidity; the Dreo also tells you the watts. That live readout shows whether a higher setpoint or an off-peak timer is actually saving money.",
+      "performance": "Dreo rates it at 75 pints a day at 95°F and 95% humidity — far hotter and wetter than the DOE's 65°F test — so don't compare it pint-for-pint with the 50-pint units above. Full-tank alerts, auto shut-off and auto-defrost are included, and Dreo says the 1.85-gallon tank lasts up to about 15 hours; for unattended running, use the hose.",
+      "specs": {
+        "Capacity": "75 pints/day at 95°F, 95% RH (Dreo)",
+        "Drainage": "1.85-gal tank or hose",
+        "Smart control": "Dreo app with energy monitor",
+        "Noise": "41 dB (Dreo)",
+        "Best for": "Living areas, cost-conscious owners"
+      }
+    },
+    {
+      "id": "midea-22-pint-wifi",
+      "catalogId": "midea-22-pint-wifi",
+      "name": "Midea 22-Pint Smart Dehumidifier (Wi-Fi/Alexa)",
+      "shortName": "Midea 22-Pint Smart",
+      "award": "Best small smart dehumidifier",
+      "pros": [
+        "Wi-Fi app and Alexa in a bedroom-size unit",
+        "Set a target and check the bucket remotely",
+        "Bucket or gravity-hose drainage"
+      ],
+      "cons": [
+        "Too small for a basement",
+        "Bucket needs frequent emptying in humid weather"
+      ],
+      "whyWeLoveIt": "Not every smart dehumidifier needs to be a basement machine. For a bedroom, home office or closet-heavy guest room, this Midea brings app control and Alexa to a 22-pint unit, which is plenty for one damp room.",
+      "performance": "It's rated at 22 pints a day for spaces up to about 1,500 square feet by the maker's estimate; in practice, think one room or a small suite. The app lets you set a target and check the bucket remotely, so you'll know before it fills and shuts off.",
+      "specs": {
+        "Capacity": "22 pints/day",
+        "Drainage": "Bucket or gravity hose",
+        "Smart control": "Wi-Fi app, Alexa",
+        "Coverage": "Up to 1,500 sq ft (maker's claim)",
+        "Best for": "Bedrooms, offices"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "smart-vs-wifi",
+      "heading": "Smart vs. Wi-Fi dehumidifier: what's the difference?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every model here connects to Wi-Fi, but \"smart\" should mean more than remote on/off. Our [best Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) guide covers app control in general. This one is narrower: whether a dehumidifier answers to a voice assistant, sends alerts you'd act on, runs on a schedule and plays well with other devices."
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "2",
+              "label": "Voice assistants most smart dehumidifiers support: Alexa and Google Assistant"
+            },
+            {
+              "value": "2.4 GHz",
+              "label": "The Wi-Fi band most appliance-grade dehumidifiers require"
+            },
+            {
+              "value": "45–50%",
+              "label": "A sensible setpoint for most basements and living spaces"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-we-pick",
+      "heading": "How we pick smart dehumidifiers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don't run a lab. We compare capacity under the 2019 DOE test procedure, ENERGY STAR listings and manufacturer manuals, then read each brand's app and voice-assistant documentation to see what you can actually control. Owner reviews tell us which apps drop their connection and which units forget their settings after a power blip."
+        },
+        {
+          "type": "p",
+          "text": "For this guide we weighted voice-assistant support and useful notifications highest, followed by drainage that lets the unit run unattended, rated capacity and efficiency. Every pick is a verified Amazon listing."
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "heading": "Smart dehumidifiers compared",
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "Model",
+            "Capacity",
+            "Drainage",
+            "Voice / ecosystem",
+            "Standout smart feature",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "Midea 50-Pint Smart with Pump",
+              "50 pt (Midea)",
+              "Pump",
+              "Midea app",
+              "App control plus pump",
+              "Most basements"
+            ],
+            [
+              "GE 50-Pint Wi-Fi",
+              "50 pt",
+              "Bucket or gravity",
+              "Alexa, Google",
+              "Voice control, schedules, Smart Dry",
+              "Basements with a floor drain"
+            ],
+            [
+              "GoveeLife with Pump",
+              "50 pt (Govee, DOE-style)",
+              "Pump",
+              "Govee app, voice",
+              "Joins the Govee device ecosystem",
+              "DIY automations"
+            ],
+            [
+              "Honeywell TP50AWKNR",
+              "32 pt (DOE)",
+              "Tank or gravity",
+              "Alexa, Google",
+              "ENERGY STAR Most Efficient",
+              "Medium basements, large rooms"
+            ],
+            [
+              "Dreo 75",
+              "75 pt (95°F/95%)",
+              "Tank or hose",
+              "Dreo app only",
+              "Live energy monitor",
+              "Living areas"
+            ],
+            [
+              "Midea 22-Pint Smart",
+              "22 pt",
+              "Bucket or gravity",
+              "Alexa",
+              "Remote bucket check",
+              "Bedrooms, offices"
+            ]
+          ],
+          "caption": "Capacities are the makers' ratings; only DOE-test figures compare directly."
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "How to choose a smart dehumidifier",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Match your voice assistant",
+              "text": "Check the listing for Alexa, Google Assistant or both. Apple HomeKit and Matter support are still rare on dehumidifiers, so don't assume them."
+            },
+            {
+              "label": "Size it first, connect it second",
+              "text": "No app fixes an undersized unit. A bedroom needs about 20–22 pints; a damp basement 35–50. Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) has the full chart."
+            },
+            {
+              "label": "Plan the drainage",
+              "text": "A pump or gravity hose is what turns remote control into hands-off control. Compare self-draining units in our [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) guide."
+            },
+            {
+              "label": "Look for alerts you'd act on",
+              "text": "Full-tank, filter, defrost and fault notifications are the useful ones.",
+              "sub": [
+                "Full-tank or pump-fault alerts prevent days of downtime",
+                "Filter reminders keep airflow and efficiency up",
+                "Energy tracking shows what each setpoint costs"
+              ]
+            },
+            {
+              "label": "Confirm auto-restart",
+              "text": "A smart unit that powers back up in standby after an outage is no help when you're away. Check the manual for auto-restart with saved settings."
+            },
+            {
+              "label": "Use a setpoint, not Continuous",
+              "text": "Let the humidistat cycle the compressor. Our [humidistat settings guide](/guides/dehumidifier-humidistat-settings-guide/) has seasonal targets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automations",
+      "heading": "What you can automate (and what you can't)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Voice assistants handle the basics well: turn it on, change the target, switch modes. The bigger win is routines. A few that owners find genuinely useful:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Bedtime routine:** drop the fan speed or turn off a living-room unit when you say good night, then raise it again in the morning.",
+            "**Off-peak schedule:** run harder overnight when electricity is cheaper. Our guide to [how much electricity a dehumidifier uses](/guides/how-much-electricity-does-a-dehumidifier-use/) shows why this matters on a 500-plus kWh-a-year machine.",
+            "**Away mode:** raise the setpoint a few points while you travel, then lower it before you return."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Trust, but verify the reading"
+        },
+        {
+          "type": "p",
+          "text": "Every dehumidifier measures humidity at its own intake, which is often the driest air in the room. A separate Wi-Fi hygrometer at the far end of the space gives you an independent alert if conditions drift. See our [best hygrometer](/best/best-hygrometer/) picks."
+        },
+        {
+          "type": "callout",
+          "title": "What smart features can't do",
+          "text": "No app makes a 22-pint unit dry a wet basement, and no alert empties a bucket. Smart features save trips and catch problems early; capacity and drainage still do the actual work."
+        }
+      ]
+    },
+    {
+      "id": "which-to-buy",
+      "heading": "Which smart dehumidifier should you buy?",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "**You want one machine for a basement below the nearest drain:** the **Midea 50-Pint Smart with Pump**.",
+            "**You want Alexa or Google voice control and have a floor drain:** the **GE 50-Pint Wi-Fi**.",
+            "**Your home already runs on Govee sensors or lights:** the **GoveeLife with Pump**.",
+            "**You want the lowest running cost in a medium basement:** the **Honeywell TP50AWKNR**, an ENERGY STAR Most Efficient model with Alexa and Google.",
+            "**You care most about running costs in a living space:** the **Dreo 75** and its energy monitor.",
+            "**It's a single bedroom or office:** the **Midea 22-Pint Smart**.",
+            "**It's a second home:** read our [vacation home dehumidifier](/best/best-dehumidifier-for-vacation-home/) guide for auto-restart and remote-monitoring advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The **Midea 50-Pint Smart with Pump** is the smart dehumidifier most people should buy: app control, a pump that keeps it running, and an ENERGY STAR rating at a full 50 pints. Choose the **GE 50-Pint Wi-Fi** for Alexa and Google voice control where a floor drain is handy, the **Honeywell TP50AWKNR** for the most efficient smart option, the **GoveeLife with Pump** if you live in Govee's app, and the **Midea 22-Pint Smart** for one room. Whatever you choose, set a humidity target and let the alerts do the watching."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a smart dehumidifier worth it?",
+      "a": "Yes, if the unit lives somewhere you don't see every day, like a basement or second home. Alerts and remote control save trips and catch full tanks or faults early. For a bedroom you walk past daily, a basic model with a good humidistat does the same drying for less."
+    },
+    {
+      "q": "Which smart dehumidifiers work with Alexa and Google Assistant?",
+      "a": "Among our picks, the GE 50-Pint Wi-Fi and the Honeywell TP50AWKNR list both. The Midea 22-Pint Smart lists Alexa, the GoveeLife lists voice control through its app, and the Midea 50-Pint with Pump and the Dreo 75 don't spell out voice-assistant support on their listings, so check before you buy if that matters."
+    },
+    {
+      "q": "Is the Midea 50-pint smart dehumidifier with pump worth the extra money?",
+      "a": "If there's no floor drain lower than the unit, yes. It's rated at the same 50 pints a day as Midea's gravity-drain models, so the premium buys mainly the pump — but that pump is what lets it run all season without anyone emptying it. Note that it's a standard upright tower, not the collapsible Cube."
+    },
+    {
+      "q": "Is the GE 50-pint smart dehumidifier any good?",
+      "a": "Yes, if you want voice control. The GE 50-Pint Wi-Fi works with Alexa, Google Assistant and the SmartHQ app, adds Smart Dry and auto restart, and covers up to 5,000 square feet. It has no pump, though, so pair it with a floor drain and a hose, or choose GE's pump model, which skips Wi-Fi."
+    },
+    {
+      "q": "What happens to a smart dehumidifier when the Wi-Fi goes down?",
+      "a": "It keeps running on its last settings using its own humidistat; you just lose remote control and alerts until the connection returns. A power outage is the bigger risk, so confirm the model auto-restarts with saved settings."
+    }
+  ],
+  "related": [
+    "/best/best-wifi-dehumidifier/",
+    "/best/best-dehumidifier-with-pump/",
+    "/best/best-midea-dehumidifier/",
+    "/best/best-dehumidifier-for-vacation-home/",
+    "/best/best-hygrometer/",
+    "/guides/dehumidifier-humidistat-settings-guide/"
+  ]
+}

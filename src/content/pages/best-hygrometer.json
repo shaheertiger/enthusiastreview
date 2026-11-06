@@ -148,25 +148,25 @@
     {
       "id": "sensorpush-ht1",
       "catalogId": "sensorpush-ht1",
-      "name": "SensorPush HT1 Wireless Hygrometer",
-      "shortName": "SensorPush HT1",
-      "award": "Best for cold spaces",
+      "name": "SensorPush HT.w Temperature & Humidity Sensor",
+      "shortName": "SensorPush HT.w",
+      "award": "Best for damp and outdoor spaces",
       "pros": [
-        "Rated down to about −40°F",
+        "Water-resistant, indoor/outdoor sensor",
         "Tiny sensor fits almost anywhere",
         "Detailed history and alerts in the app",
-        "Wi-Fi via SensorPush's gateway"
+        "Shows dew point, VPD and heat index"
       ],
       "cons": [
         "Remote alerts need the separate gateway",
         "Pricier than the Govee sensors"
       ],
-      "whyWeLoveIt": "Crawl spaces, unheated garages and cold cellars push many budget sensors beyond their comfort zone. The HT1 is rated for freezer temperatures, so it keeps reporting reliably in the spaces where dehumidifiers struggle most.",
-      "performance": "SensorPush rates it for roughly −40°F to 140°F, with typical humidity accuracy of ±3% between 20% and 80%. The app keeps a detailed history, and pairing it with the SensorPush gateway adds Wi-Fi alerts. Owners often use it to catch a dehumidifier icing up or shutting off in a cold crawl space; our [crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide covers units built for those conditions.",
+      "whyWeLoveIt": "Crawl spaces, unheated garages and damp cellars are hard on budget sensors. The HT.w is a water-resistant model sold for indoor and outdoor use, so it's the one here built to sit in the wet, unconditioned spaces where dehumidifiers struggle most.",
+      "performance": "It's a Bluetooth sensor that reports temperature and humidity and calculates dew point, vapor pressure deficit (VPD) and heat index; dew point is the number that tells you whether pipes and ductwork will sweat. The app keeps a detailed history, and SensorPush sells a separate gateway for Wi-Fi alerts. Check SensorPush's listing for the published accuracy and temperature range before relying on it in an unheated space. Owners often use it to catch a dehumidifier icing up or shutting off in a cold crawl space; our [crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide covers units built for those conditions.",
       "specs": {
         "Measures": "Humidity and temperature",
-        "Accuracy": "±3% RH typical, 20–80%",
-        "Temperature range": "About −40°F to 140°F",
+        "Extras": "Dew point, VPD, heat index",
+        "Build": "Water-resistant, indoor/outdoor",
         "Connectivity": "Bluetooth; Wi-Fi via gateway",
         "Best for": "Crawl spaces, garages, cellars"
       }
@@ -324,7 +324,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "If you run a dehumidifier, buy a hygrometer. The **Govee H5179** is the best choice for most people thanks to Wi-Fi alerts and history. The **Govee H5075** is the budget Bluetooth pick, the **AcuRite 01080M** offers a tight accuracy spec and on-board alarms, the **ThermoPro TP50** is the simplest second opinion, the **Inkbird IBS-TH2** suits long-term logging, and the **SensorPush HT1** handles cold crawl spaces and garages."
+          "text": "If you run a dehumidifier, buy a hygrometer. The **Govee H5179** is the best choice for most people thanks to Wi-Fi alerts and history. The **Govee H5075** is the budget Bluetooth pick, the **AcuRite 01080M** offers a tight accuracy spec and on-board alarms, the **ThermoPro TP50** is the simplest second opinion, the **Inkbird IBS-TH2** suits long-term logging, and the water-resistant **SensorPush HT.w** handles damp crawl spaces and garages."
         }
       ]
     }

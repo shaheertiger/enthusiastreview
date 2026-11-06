@@ -5,39 +5,40 @@
   "navLabel": "Black+Decker",
   "title": "Best Black and Decker Dehumidifier (2026): 20, 30 & 50-Pint",
   "h1": "The Best Black+Decker Dehumidifiers",
-  "dek": "The power-tool brand sells four ENERGY STAR dehumidifiers, a clean recall record and some of the widest price swings we've seen on one model.",
-  "description": "The best Black and Decker dehumidifier for each space, from the 20-pint BDT20WTB to the 50-pint pump model, plus button, manual and recall answers.",
+  "dek": "The power-tool brand sells straightforward 20- to 50-pint dehumidifiers with a clean recall record — and some of the widest price swings we've seen on one model.",
+  "description": "The best Black and Decker dehumidifier for each space, from the 20-pint to the 50-pint BDM50WCDA with pump, plus button, manual and recall answers.",
   "published": "2026-10-12",
   "updated": "2026-11-05",
   "intro": [
-    "A **Black and Decker dehumidifier** might not be the first thing you think of from a brand known for drills and leaf blowers, but Black+Decker's current U.S. lineup covers the essentials: four models in 20-, 30- and 50-pint sizes, all ENERGY STAR certified according to the brand's own product pages. For most basements, our pick is the **50-Pint with Pump (BDT50PWTB)**, which drains itself instead of filling a bucket.",
+    "A **Black and Decker dehumidifier** might not be the first thing you think of from a brand known for drills and leaf blowers, but Black+Decker's U.S. lineup covers the essentials in 20-, 30- and 50-pint sizes. For most basements, our pick is the **BLACK+DECKER 50-Pint Dehumidifier with Pump**, sold on Amazon under the BDM50WCDA model family, which drains itself instead of filling a bucket.",
+    "A note on model numbers: store stock and older units often carry BDT-series numbers (BDT20WTB, BDT30WTB, BDT50WTB, BDT50PWTB), while the 50-pint units currently sold on Amazon are listed as BDM50WCDA, with and without a pump. Amazon also lists a 22-pint BD22MWSA (rated for 1,500 square feet) and a 36.39-pint BDM36WCDA (3,000 square feet). Our 50-pint cards link to the exact Amazon listings named on them, so match the model number on the listing to the one on the card before you buy.",
     "Two things are worth knowing before you shop. First, Black+Decker doesn't appear on either of the two largest dehumidifier recalls in U.S. history, which together covered dozens of other brand names. Second, pricing on the same model can vary wildly between retailers — we've seen the 30-pint list for nearly twice as much at one store as at another — so comparison shopping pays off here more than usual."
   ],
-  "topPicksLead": "The **Black+Decker 50-Pint with Pump (BDT50PWTB)** is the best choice for most basements because its built-in pump lets it run for weeks without a bucket to empty.",
+  "topPicksLead": "The **BLACK+DECKER 50-Pint Dehumidifier with Pump** (BDM50WCDA family) is the best choice for most basements because its built-in pump lets it run for weeks without a bucket to empty.",
   "products": [
     {
       "id": "black-decker-bdt50pwtb",
-      "name": "BLACK+DECKER 50-Pint Dehumidifier with Pump (BDT50PWTB)",
-      "shortName": "Black+Decker 50-Pint Pump",
+      "name": "BLACK+DECKER 50-Pint Dehumidifier with Pump",
+      "shortName": "Black+Decker 50-Pint with Pump",
       "award": "Best overall",
       "pros": [
         "Built-in pump for unattended draining",
-        "Rated for up to 4,500 sq ft",
-        "Adjustable humidistat from 35% to 80%",
-        "ENERGY STAR certified"
+        "Listed for up to 4,500 sq ft",
+        "50 pints per 24 hours on the listing",
+        "Bucket backup if you skip the hose"
       ],
       "cons": [
         "Costs noticeably more than the non-pump 50-pint",
-        "No Wi-Fi"
+        "No Wi-Fi",
+        "Bucket is small for a full day in a wet basement"
       ],
-      "whyWeLoveIt": "In a basement where the nearest drain sits higher than the unit, a pump is what turns a dehumidifier from a chore into an appliance you can forget about. This is the only Black+Decker model that has one.",
-      "performance": "It's rated at 50 pints a day with coverage up to 4,500 square feet, Black+Decker's largest. The pump pushes water out through a hose rather than relying on the 14.3-pint internal bucket, and a top-mounted panel with an LED readout lets you set a target anywhere from 35% to 80%. For more pump-equipped choices across brands, see our [dehumidifier with pump](/best/best-dehumidifier-with-pump/) guide.",
+      "whyWeLoveIt": "In a basement where the nearest drain sits higher than the unit, a pump is what turns a dehumidifier from a chore into an appliance you can forget about. This is the Black+Decker 50-pint to pick if you can't run a gravity hose downhill.",
+      "performance": "Amazon lists this BDM50WCDA pump model at 50 pints per 24 hours with coverage up to 4,500 square feet, Black+Decker's largest rating, and a 12.68-pint bucket. The pump pushes water out through a hose to a sink, window or standpipe, so the bucket becomes a backup rather than a daily chore. Confirm the humidity range, efficiency certification and hose length on the listing itself, since those details vary between Black+Decker generations. For more pump-equipped choices across brands, see our [dehumidifier with pump](/best/best-dehumidifier-with-pump/) guide.",
       "specs": {
-        "Capacity": "50 pints/day",
-        "Coverage": "Up to 4,500 sq ft (maker's claim)",
-        "Drainage": "Built-in pump or 14.3-pint bucket",
-        "Humidistat": "Adjustable, 35–80%",
-        "Efficiency": "ENERGY STAR",
+        "Model": "BDM50WCDA (pump version)",
+        "Capacity": "50 pints/24 hours (listing)",
+        "Coverage": "Up to 4,500 sq ft (listing claim)",
+        "Drainage": "Built-in pump or 12.68-pint bucket",
         "Best for": "Basements without a low drain"
       }
     },
@@ -92,25 +93,25 @@
     },
     {
       "id": "black-decker-bdt50wtb",
-      "name": "BLACK+DECKER 50-Pint Dehumidifier (BDT50WTB)",
-      "shortName": "Black+Decker 50-Pint",
+      "name": "BLACK+DECKER 50-Pint Dehumidifier (BDM50WCDA)",
+      "shortName": "Black+Decker 50-Pint (BDM50WCDA)",
       "award": "Best without a pump",
       "pros": [
-        "Same 4,500 sq ft coverage for less",
-        "Two fan speeds",
-        "Same 35–80% humidistat range"
+        "Same 50-pint class as the pump model for less",
+        "Simple bucket-or-hose setup",
+        "White cabinet blends into finished spaces"
       ],
       "cons": [
-        "14.3-pint bucket fills quickly in humid weather",
-        "Needs a floor drain lower than the unit for hose use"
+        "No pump: the hose has to run downhill",
+        "Bucket fills quickly in humid weather"
       ],
-      "whyWeLoveIt": "If your basement has a floor drain nearby, you don't need to pay extra for a pump. This model delivers the same coverage and controls through a gravity hose.",
-      "performance": "It's rated at 50 pints a day for spaces up to 4,500 square feet. Its 14.3-pint bucket will fill well before a full day's extraction in a muggy basement, so plan on running a hose to a floor drain. See how it compares across brands in our [best 50-pint dehumidifier](/best/best-50-pint-dehumidifier/) guide.",
+      "whyWeLoveIt": "If your basement has a floor drain nearby, you don't need to pay extra for a pump. This BDM50WCDA delivers the same 50-pint class through a gravity hose.",
+      "performance": "Amazon lists it as a 50-pint portable BDM50WCDA in white, without the pump. Expect its bucket to fill well before a full day's extraction in a muggy basement, so plan on running a hose to a floor drain. Check the listing for its coverage rating and controls; the pump version is listed for up to 4,500 square feet. See how it compares across brands in our [best 50-pint dehumidifier](/best/best-50-pint-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50 pints/day",
-        "Coverage": "Up to 4,500 sq ft (maker's claim)",
-        "Drainage": "14.3-pint bucket or gravity hose",
-        "Humidistat": "Adjustable, 35–80%",
+        "Model": "BDM50WCDA",
+        "Capacity": "50 pints/day (listing)",
+        "Drainage": "Bucket or gravity hose",
+        "Pump": "None",
         "Best for": "Basements with a floor drain"
       }
     }
@@ -124,12 +125,12 @@
           "type": "stats",
           "items": [
             {
-              "value": "4",
-              "label": "Current U.S. models, all ENERGY STAR certified per Black+Decker"
+              "value": "3",
+              "label": "Size classes in the U.S. lineup: about 20, 30 and 50 pints"
             },
             {
               "value": "4,500 sq ft",
-              "label": "Top coverage rating, shared by both 50-pint models"
+              "label": "Top coverage claim, on the 50-pint BDM50WCDA with pump"
             },
             {
               "value": "0",
@@ -162,19 +163,19 @@
           "items": [
             {
               "label": "Coverage, not just pints",
-              "text": "Both 50-pint models top out at 4,500 square feet. Beyond that, you need a second unit or a [whole-house system](/best/best-whole-house-dehumidifier/)."
+              "text": "The 50-pint pump model is listed for up to 4,500 square feet. Beyond that, you need a second unit or a [whole-house system](/best/best-whole-house-dehumidifier/)."
             },
             {
               "label": "Pump or no pump",
-              "text": "The pump model costs more but lets you skip emptying a 14.3-pint bucket. Worth it if the nearest drain is higher than the unit."
+              "text": "The pump model costs more but lets you skip emptying the bucket (12.68 pints on the pump listing). Worth it if the nearest drain is higher than the unit."
             },
             {
               "label": "Price across retailers",
               "text": "Check at least three sellers. The same Black+Decker model can vary by close to double."
             },
             {
-              "label": "ENERGY STAR on the listing",
-              "text": "All current models are certified per the brand; confirm the exact model number on the retailer's page."
+              "label": "Model number on the listing",
+              "text": "Black+Decker numbers vary by retailer and generation (BDT-series in some stores, BDM50WCDA on Amazon's 50-pint listings). Confirm the exact model and its ENERGY STAR status on the page you buy from."
             },
             {
               "label": "Rival budget brands",
@@ -231,7 +232,7 @@
         },
         {
           "type": "p",
-          "text": "The model number (BDT20WTB, BDT30WTB, BDT50WTB or BDT50PWTB) is on the label on the back of the unit. Search that number on Black+Decker's appliance support pages or the retailer's listing to download the owner's manual."
+          "text": "The model number is on the label on the back of the unit: older and store units use BDT-series numbers such as BDT20WTB, BDT30WTB, BDT50WTB or BDT50PWTB, while current Amazon 50-pint units are BDM50WCDA. Search that number on Black+Decker's appliance support pages or the retailer's listing to download the owner's manual."
         },
         {
           "type": "h3",
@@ -265,7 +266,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "They're solid, conventional compressor units with ENERGY STAR certification and a clean recall record. What they don't offer is anything you can't get elsewhere: no Wi-Fi, no collapsible design, no extended warranty. That makes the buying decision mostly about price on the day you shop."
+          "text": "They're solid, conventional compressor units with a clean recall record. What they don't offer is anything you can't get elsewhere: no Wi-Fi, no collapsible design, no extended warranty. That makes the buying decision mostly about price on the day you shop."
         },
         {
           "type": "table",
@@ -277,7 +278,7 @@
           "rows": [
             [
               "Basement with no low drain",
-              "BDT50PWTB (pump)",
+              "50-Pint with Pump (BDM50WCDA)",
               "Frigidaire or GE pump models"
             ],
             [
@@ -292,7 +293,7 @@
             ],
             [
               "Lowest running cost",
-              "Any (all ENERGY STAR)",
+              "Check the listing for ENERGY STAR",
               "ENERGY STAR Most Efficient models"
             ]
           ]
@@ -309,7 +310,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most basements, the **Black+Decker 50-Pint with Pump (BDT50PWTB)** is the one to buy: full 4,500-square-foot coverage and a pump that drains it for you. The **20-Pint (BDT20WTB)** is the right size for a bedroom or apartment, the **30-Pint (BDT30WTB)** fits mid-size rooms if you find it at a fair price, and the **50-Pint (BDT50WTB)** saves money if a floor drain is nearby. Whichever you choose, shop several retailers — the price differences are real."
+          "text": "For most basements, the **BLACK+DECKER 50-Pint Dehumidifier with Pump** (BDM50WCDA) is the one to buy: 4,500-square-foot coverage on its listing and a pump that drains it for you. The **20-Pint (BDT20WTB)** is the right size for a bedroom or apartment, the **30-Pint (BDT30WTB)** fits mid-size rooms if you find it at a fair price, and the non-pump **50-Pint BDM50WCDA** saves money if a floor drain is nearby. Whichever you choose, shop several retailers — the price differences are real."
         }
       ]
     }
@@ -317,11 +318,11 @@
   "faqs": [
     {
       "q": "What is the best Black and Decker dehumidifier?",
-      "a": "For basements, the 50-Pint with Pump (BDT50PWTB), which covers up to 4,500 square feet and drains itself. For a bedroom or small apartment, the 20-Pint (BDT20WTB)."
+      "a": "For basements, the BLACK+DECKER 50-Pint Dehumidifier with Pump (BDM50WCDA), which is listed for up to 4,500 square feet and drains itself. For a bedroom or small apartment, the 20-pint model."
     },
     {
       "q": "Is the Black and Decker 4,500 sq ft dehumidifier worth it?",
-      "a": "Both 50-pint models are rated for 4,500 square feet. The pump version (BDT50PWTB) is worth the extra cost if your drain is higher than the unit; otherwise the BDT50WTB with a gravity hose offers the same coverage for less."
+      "a": "The 4,500-square-foot rating belongs to the 50-pint BDM50WCDA with pump. The pump is worth the extra cost if your drain is higher than the unit; otherwise the non-pump 50-pint BDM50WCDA with a gravity hose is the cheaper route. Older store units with the same ratings carry BDT50PWTB and BDT50WTB numbers."
     },
     {
       "q": "Where can I find a Black and Decker dehumidifier manual?",
@@ -333,7 +334,7 @@
     },
     {
       "q": "Are Black and Decker dehumidifiers any good?",
-      "a": "Yes, as straightforward ENERGY STAR compressor units with a clean recall history. They lack smart features and extended warranties, so they're best bought when the price is competitive with Midea, Frigidaire and hOmeLabs."
+      "a": "Yes, as straightforward compressor units with a clean recall history. They lack smart features and extended warranties, so they're best bought when the price is competitive with Midea, Frigidaire and hOmeLabs."
     },
     {
       "q": "Has Black and Decker had a dehumidifier recall?",

@@ -70,27 +70,29 @@
     {
       "id": "honeywell-tp50awkn",
       "catalogId": "honeywell-tp50awkn",
-      "name": "Honeywell TP50AWKN 50-Pint Dehumidifier",
-      "shortName": "Honeywell TP50AWKN",
-      "award": "Best value 50-pint",
+      "name": "Honeywell TP50AWKNR Smart Wi-Fi Dehumidifier (32-Pint, 3,000 sq ft)",
+      "shortName": "Honeywell TP50AWKNR",
+      "award": "Best smart value pick",
       "pros": [
-        "Simple, sturdy controls",
-        "Washable filter",
+        "Wi-Fi app with Alexa and Google voice control",
+        "2023 ENERGY STAR Most Efficient certified",
         "Auto-restart after a power outage",
-        "Drain-hose option"
+        "Continuous drain tube included"
       ],
       "cons": [
-        "Bucket model with no pump",
-        "Fewer features than the Frigidaire"
+        "32 pints a day under the DOE 2019 test — smaller than the 50-pint Frigidaires",
+        "Covers up to about 3,000 sq ft",
+        "No pump"
       ],
-      "whyWeLoveIt": "Honeywell is a familiar name on hardware-store shelves, and this 50-pint model covers the basics well for a little less. If you have a floor drain and just want a reliable box that holds a humidity level, it does the job.",
-      "performance": "It’s a straightforward 50-pint-class compressor unit with a digital humidistat. Owners like the solid bucket handle and easy-to-read controls. Set it on a block or shelf so the drain hose runs downhill to the floor drain, and it can run all summer without emptying.",
+      "whyWeLoveIt": "Honeywell is a familiar name on hardware-store shelves, and this model adds things the basic boxes don't: Wi-Fi, Alexa and Google voice control, and an ENERGY STAR Most Efficient rating. If you have a floor drain and a medium-size basement, it holds a humidity level efficiently and lets you check on it from your phone.",
+      "performance": "Honeywell rates it at 32 pints a day under the current DOE 2019 test (it was previously labeled 50 pints on the old scale) for spaces up to 3,000 square feet. A digital humidistat cycles the compressor, and it adds a 24-hour timer, sleep mode, low-temperature operation and anti-spill tank guards. Set it on a block or shelf so the included drain tube runs downhill to the floor drain, and it can run all summer without emptying.",
       "specs": {
-        "Capacity": "50-pint class",
+        "Capacity": "32 pints/day (DOE 2019)",
         "Type": "Compressor",
-        "Humidistat": "Digital",
-        "Drainage": "Bucket or gravity hose",
-        "Best for": "Basements with a floor drain"
+        "Smart control": "Wi-Fi app, Alexa, Google",
+        "Drainage": "Tank or included drain tube",
+        "Coverage": "Up to 3,000 sq ft (Honeywell)",
+        "Best for": "Medium basements with a floor drain"
       }
     },
     {
@@ -223,11 +225,27 @@
         },
         {
           "type": "table",
-          "head": ["Retailer", "What to expect", "Worth knowing"],
+          "head": [
+            "Retailer",
+            "What to expect",
+            "Worth knowing"
+          ],
           "rows": [
-            ["Ace Hardware", "Mainstream brands; selection varies by store, wider choice online", "Free store pickup on many online orders; helpful local staff"],
-            ["Menards", "Seasonal basement and room dehumidifiers in Midwest stores", "Frequent 11% mail-in rebates come back as store credit"],
-            ["Tractor Supply", "A smaller selection, much of it online", "Handy for rural buyers already shopping there for barn and garage gear"]
+            [
+              "Ace Hardware",
+              "Mainstream brands; selection varies by store, wider choice online",
+              "Free store pickup on many online orders; helpful local staff"
+            ],
+            [
+              "Menards",
+              "Seasonal basement and room dehumidifiers in Midwest stores",
+              "Frequent 11% mail-in rebates come back as store credit"
+            ],
+            [
+              "Tractor Supply",
+              "A smaller selection, much of it online",
+              "Handy for rural buyers already shopping there for barn and garage gear"
+            ]
           ],
           "caption": "Selection changes by season and location — check the model number against our picks either way."
         },
@@ -281,7 +299,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most basements, ask your hardware store for the **Frigidaire FFAD5033W1**, or the **Frigidaire FFAP5033W1** if there’s no floor drain and you need a pump. The **Honeywell TP50AWKN** is a no-frills value alternative, the **Midea MAD22C1AWS** suits a single small room, and the **AlorAir Sentinel HD55** is worth ordering online if your space runs cold. Whatever you buy, check the DOE pint rating, choose a real humidistat and keep the receipt."
+          "text": "For most basements, ask your hardware store for the **Frigidaire FFAD5033W1**, or the **Frigidaire FFAP5033W1** if there’s no floor drain and you need a pump. The **Honeywell TP50AWKNR** is the efficient smart pick for a medium basement, the **Midea MAD22C1AWS** suits a single small room, and the **AlorAir Sentinel HD55** is worth ordering online if your space runs cold. Whatever you buy, check the DOE pint rating, choose a real humidistat and keep the receipt."
         }
       ]
     }
