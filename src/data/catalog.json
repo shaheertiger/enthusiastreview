@@ -46,7 +46,7 @@
     "image": "https://m.media-amazon.com/images/I/31bDIIQZAkL._SL500_.jpg"
   },
   "honeywell-tp50awkn": {
-    "name": "Honeywell TP50AWKN 50-Pint Dehumidifier",
+    "name": "Honeywell TP50AWKNR Smart Wi-Fi Dehumidifier (32-Pint, 3,000 sq ft)",
     "asin": "B0CFQTLVSC",
     "image": "https://m.media-amazon.com/images/I/31EoFt7MXgL._SL500_.jpg"
   },
@@ -737,17 +737,17 @@
     "image": "https://m.media-amazon.com/images/I/21YELvWnjhL._SL500_.jpg"
   },
   "honeywell-tp70pwknr": {
-    "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKNR)",
+    "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
     "asin": "B0DCNTTY8S",
     "image": "https://m.media-amazon.com/images/I/21AiBeSLoXL._SL500_.jpg"
   },
   "honeywell-tp70pwkn": {
-    "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKN)",
+    "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
     "asin": "B0DCNTTY8S",
     "image": "https://m.media-amazon.com/images/I/21AiBeSLoXL._SL500_.jpg"
   },
   "honeywell": {
-    "name": "Honeywell \u2014 TP-Series Portable Dehumidifiers",
+    "name": "Honeywell — TP-Fit Series Portable Dehumidifiers (TPFIT50PWK)",
     "asin": "B0DCNTTY8S",
     "image": "https://m.media-amazon.com/images/I/21AiBeSLoXL._SL500_.jpg"
   },
@@ -787,7 +787,7 @@
     "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
   },
   "homelabs": {
-    "name": "hOmeLabs \u2014 50-Pint Wi-Fi Dehumidifier (HME031003N)",
+    "name": "hOmeLabs — 50-Pint Wi-Fi Dehumidifier (HME031003N)",
     "asin": "B073VBWKJZ",
     "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
   },
@@ -837,7 +837,7 @@
     "image": "https://m.media-amazon.com/images/I/51XfEb4WXLL._SL500_.jpg"
   },
   "frigidaire": {
-    "name": "Frigidaire \u2014 50-Pint Wi-Fi Dehumidifier (FHDD5034W1)",
+    "name": "Frigidaire — 50-Pint Wi-Fi Dehumidifier (FHDD5034W1)",
     "asin": "B0FP1L6W89",
     "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
   },
@@ -947,14 +947,21 @@
     "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
   },
   "ge": {
-    "name": "GE \u2014 50-Pint Dehumidifier with Built-In Pump (APYR50LC)",
+    "name": "GE — 50-Pint Dehumidifier with Built-In Pump (APYR50LC)",
     "asin": "B0FNQJ2LJS",
     "image": "https://m.media-amazon.com/images/I/21gadGAP2sL._SL500_.jpg"
   },
   "ge-adhr50lz": {
     "name": "GE 50-Pint Smart Dehumidifier with Pump (ADHR50LZ)",
     "asin": "B0FNQJ2LJS",
-    "image": "https://m.media-amazon.com/images/I/21gadGAP2sL._SL500_.jpg"
+    "image": "https://m.media-amazon.com/images/I/21gadGAP2sL._SL500_.jpg",
+    "skip": true,
+    "note": "no Amazon listing for this model"
+  },
+  "ge-50-pint-wifi": {
+    "name": "GE 50-Pint Wi-Fi Smart Dehumidifier",
+    "asin": "B0FNPXC4X1",
+    "image": "https://m.media-amazon.com/images/I/21yFPizNdsL._SL500_.jpg"
   },
   "homelabs-hme031004n": {
     "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (HME031004N / HME1004)",
@@ -967,7 +974,7 @@
     "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
   },
   "midea-cube-50-pump": {
-    "name": "Midea Cube 50-Pint Dehumidifier with Built-In Pump (MAD50PS1QWT)",
+    "name": "Midea 50-Pint Smart Dehumidifier with Built-In Pump",
     "asin": "B0GL7R3RJV",
     "image": "https://m.media-amazon.com/images/I/31wDgVZfXXL._SL500_.jpg"
   },
@@ -1019,11 +1026,118 @@
   "honeywell-tp70awknr": {
     "name": "Honeywell 50-Pint Smart Wi-Fi Dehumidifier (TP70AWKNR)",
     "asin": "B0CFQTLVSC",
-    "image": "https://m.media-amazon.com/images/I/31EoFt7MXgL._SL500_.jpg"
+    "image": "https://m.media-amazon.com/images/I/31EoFt7MXgL._SL500_.jpg",
+    "skip": true,
+    "note": "no Amazon listing for this model"
   },
   "shinco-120-pint-wifi": {
     "name": "Shinco 120-Pint ENERGY STAR Wi-Fi Dehumidifier",
     "asin": "B07RPDKQZM",
     "image": "https://m.media-amazon.com/images/I/31sA5qQcHzL._SL500_.jpg"
+  },
+  "whirlpool-50-pint-pump": {
+    "name": "Whirlpool 50-Pint ENERGY STAR Dehumidifier with Pump",
+    "asin": "B0GWS2D4QB",
+    "image": "https://m.media-amazon.com/images/I/21JMoVcJAgL._SL500_.jpg"
+  },
+  "whirlpool-25-pint": {
+    "name": "Whirlpool 25-Pint ENERGY STAR Dehumidifier",
+    "asin": "B0GWS6V7WR",
+    "image": "https://m.media-amazon.com/images/I/21xr3MHg8ML._SL500_.jpg"
+  },
+  "whirlpool-32-pint": {
+    "name": "Whirlpool 32-Pint ENERGY STAR Dehumidifier",
+    "asin": "B0GWS9V1R7",
+    "image": "https://m.media-amazon.com/images/I/21+MWRvOVbL._SL500_.jpg"
+  },
+  "whirlpool-20-pint": {
+    "name": "Whirlpool 20-Pint Portable Dehumidifier",
+    "asin": "B08GLB3NG2",
+    "image": "https://m.media-amazon.com/images/I/31gCzdlnKFL._SL500_.jpg"
+  },
+  "midea-60-pint-pump": {
+    "name": "Midea 60-Pint Dehumidifier with Pump",
+    "asin": "B0DZ2PXG1R",
+    "image": "https://m.media-amazon.com/images/I/31vK226ZxpL._SL500_.jpg"
+  },
+  "frigidaire-60-pint": {
+    "name": "Frigidaire 60-Pint Dehumidifier",
+    "asin": "B0BHBR3NZ3",
+    "image": "https://m.media-amazon.com/images/I/31qp2dlzDDL._SL500_.jpg"
+  },
+  "ruggard-dry-cabinet-50l": {
+    "name": "Ruggard Electronic Dry Cabinet (50L)",
+    "asin": "B0784V6V1W",
+    "image": "https://m.media-amazon.com/images/I/41hnFf4BidL._SL500_.jpg"
+  },
+  "ruggard-dry-cabinet-80l": {
+    "name": "Ruggard Electronic Dry Cabinet (80L)",
+    "asin": "B077SSWTZC",
+    "image": "https://m.media-amazon.com/images/I/41KriiZTrhL._SL500_.jpg"
+  },
+  "forspark-dry-cabinet-80l": {
+    "name": "Forspark 80L Electronic Dry Cabinet",
+    "asin": "B06XWW67JW",
+    "image": "https://m.media-amazon.com/images/I/41m5IZpft+L._SL500_.jpg"
+  },
+  "slinger-dry-cabinet-125l": {
+    "name": "Slinger 125L Dehumidifying Dry Cabinet",
+    "asin": "B0CQJNBGTH",
+    "image": "https://m.media-amazon.com/images/I/31gLblm4LtL._SL500_.jpg"
+  },
+  "autens-dry-cabinet-100l": {
+    "name": "AUTENS 100L Dehumidifying Dry Cabinet",
+    "asin": "B0BL733WVK",
+    "image": "https://m.media-amazon.com/images/I/417Hw6z8liL._SL500_.jpg"
+  },
+  "alorair-170-ppd-lgr": {
+    "name": "AlorAir 170 PPD LGR Commercial Dehumidifier with Pump",
+    "asin": "B0DH3G92CX",
+    "image": "https://m.media-amazon.com/images/I/41a26rOXz-L._SL500_.jpg"
+  },
+  "airzentti-155-pint": {
+    "name": "Airzentti 155-Pint Commercial Dehumidifier with Pump",
+    "asin": "B0FGYBZN35",
+    "image": "https://m.media-amazon.com/images/I/41x-XTtc9KL._SL500_.jpg"
+  },
+  "moiswell-240-pint": {
+    "name": "Moiswell 240-Pint Commercial Dehumidifier with Pump",
+    "asin": "B0BRSMSH4K",
+    "image": "https://m.media-amazon.com/images/I/41nEv46eSKL._SL500_.jpg"
+  },
+  "waykar-155-pint-commercial": {
+    "name": "Waykar 155-Pint Commercial Dehumidifier",
+    "asin": "B0BWJHQTGP",
+    "image": "https://m.media-amazon.com/images/I/41mSeOPwZgL._SL500_.jpg"
+  },
+  "trazico-21-pint": {
+    "name": "Trazico 21-Pint Dehumidifier (1,500 sq ft)",
+    "asin": "B0H7WDQ5TY",
+    "image": "https://m.media-amazon.com/images/I/31HgFubarOL._SL500_.jpg"
+  },
+  "trazico-30-pint": {
+    "name": "Trazico 30-Pint Dehumidifier (2,000 sq ft)",
+    "asin": "B0HCVC27J1",
+    "image": "https://m.media-amazon.com/images/I/31MLFf6ZHXL._SL500_.jpg"
+  },
+  "trazico-45-pint": {
+    "name": "Trazico 45-Pint Dehumidifier (4,000 sq ft)",
+    "asin": "B0DSLDCJ7L",
+    "image": "https://m.media-amazon.com/images/I/31c+oe01nwL._SL500_.jpg"
+  },
+  "tabyik-38oz": {
+    "name": "TABYIK 38 oz Small Dehumidifier",
+    "asin": "B0F18LM7R5",
+    "image": "https://m.media-amazon.com/images/I/31J3bxrMRDL._SL500_.jpg"
+  },
+  "rca-20-pint": {
+    "name": "RCA 20-Pint Portable Dehumidifier",
+    "asin": "B0BCCFD52K",
+    "image": "https://m.media-amazon.com/images/I/311tJJZbWBL._SL500_.jpg"
+  },
+  "dravonic-21-pint": {
+    "name": "Dravonic 21-Pint Dehumidifier (1,500 sq ft)",
+    "asin": "B0H6B9VVPG",
+    "image": "https://m.media-amazon.com/images/I/31DjQNGwt4L._SL500_.jpg"
   }
 }
