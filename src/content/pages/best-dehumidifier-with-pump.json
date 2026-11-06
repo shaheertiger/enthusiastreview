@@ -67,27 +67,28 @@
       }
     },
     {
-      "id": "frigidaire-fgac5044w1",
-      "name": "Frigidaire Gallery 50-Pint Dehumidifier with Pump (FGAC5044W1)",
-      "shortName": "Frigidaire FGAC5044W1",
+      "id": "frigidaire-fhdp5033w1",
+      "catalogId": "frigidaire-fhdp5033w1",
+      "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FHDP5033W1 / FHDP5033Y1)",
+      "shortName": "Frigidaire FHDP5033W1",
       "award": "Best app control",
       "pros": [
-        "Built-in pump",
-        "One of the better dehumidifier apps",
-        "Polished styling for finished spaces",
-        "Comfortable lift-up handle"
+        "Built-in pump lifts water up to 16.4 feet",
+        "Wi-Fi scheduling and custom humidity targets",
+        "Specced at 49 dBA, restrained for a 50-pint unit",
+        "Runs from 41°F to 89°F"
       ],
       "cons": [
         "Easy to confuse with Frigidaire's other pump models",
-        "Pricier than the hOmeLabs"
+        "Smaller 1.9-gallon backup bucket"
       ],
-      "whyWeLoveIt": "For a dehumidifier that lives in a finished basement or family room, the Frigidaire Gallery model brings name-brand polish, a genuinely useful app and a pump in one package.",
-      "performance": "It's a 50-pint unit under the 2019 DOE test with good extraction and a built-in pump. Frigidaire sells several pump variants — FGAC, FHDP and FFAP models all have pumps — so check the exact model number. Our [Frigidaire dehumidifier guide](/best/best-frigidaire-dehumidifier/) decodes the lineup.",
+      "whyWeLoveIt": "For a dehumidifier that lives in a finished basement or family room, this Frigidaire brings name-brand polish, Wi-Fi scheduling and a pump in one package, with a noise spec that suits living space.",
+      "performance": "It's a 50-pint unit with a pump Frigidaire rates for 16.4 feet of vertical lift, enough to clear a basement window or reach a laundry sink. The spec sheet lists 49 dBA and about 545 watts, and the app lets you set a custom humidity target or schedule heavy running for when the room is empty. Newer stock ships as the FHDP5033Y1, the same machine on R-32 refrigerant. Frigidaire sells several pump variants — FHDP and FFAP models among them — so check the exact model number. Our [Frigidaire dehumidifier guide](/best/best-frigidaire-dehumidifier/) decodes the lineup.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
-        "Drainage": "Built-in pump",
-        "Smart control": "Wi-Fi app",
-        "Humidistat": "Digital, set % target",
+        "Capacity": "50 pints/day",
+        "Drainage": "Built-in pump, 16.4-ft lift",
+        "Smart control": "Wi-Fi app and voice",
+        "Noise": "49 dBA (manufacturer spec)",
         "Best for": "Finished basements"
       }
     },
@@ -115,9 +116,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for crawl spaces",
       "pros": [
         "Strongest pump here: 19.6 ft of lift",
@@ -128,7 +130,7 @@
         "Much more expensive than portables",
         "Utilitarian commercial housing"
       ],
-      "whyWeLoveIt": "When the unit sits in a crawl space and the water has a long way to climb, pump lift is everything. The HDi65's 19.6-foot pump reaches daylight from just about any crawl space or deep basement.",
+      "whyWeLoveIt": "When the unit sits in a crawl space and the water has a long way to climb, pump lift is everything. The HDi65S's 19.6-foot pump reaches daylight from just about any crawl space or deep basement.",
       "performance": "AlorAir rates it at 55 pints a day under AHAM conditions in a compact commercial body that keeps working down to roughly 36°F thanks to auto-defrost. For permanent setups, see our [crawl space dehumidifier guide](/best/best-crawl-space-dehumidifier/) and the [installation guide](/guides/crawl-space-dehumidifier-installation/).",
       "specs": {
         "Capacity": "55 pints/day (AHAM)",
@@ -158,9 +160,9 @@
           "rows": [
             ["hOmeLabs HME1003 Wi-Fi", "50 pints (DOE)", "See manual", "Most basements"],
             ["Waykar ENERGY STAR with Pump", "50 pints (DOE)", "16.4 ft", "Big open spaces"],
-            ["Frigidaire FGAC5044W1", "50 pints (DOE)", "See manual", "Finished spaces"],
+            ["Frigidaire FHDP5033W1", "50 pints", "16.4 ft", "Finished spaces"],
             ["Honeywell TP70PWKN", "50 pints (DOE)", "See manual", "Great rooms"],
-            ["AlorAir Sentinel HDi65", "55 pints (AHAM)", "19.6 ft", "Crawl spaces"]
+            ["AlorAir Sentinel HDi65S", "55 pints (AHAM)", "19.6 ft", "Crawl spaces"]
           ]
         }
       ]
@@ -263,7 +265,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **hOmeLabs HME1003 Wi-Fi** is the best dehumidifier with a pump for most homes. Choose the **Waykar** for the widest coverage, the **Frigidaire FGAC5044W1** for the best app and finish, the **Honeywell TP70PWKN** for big open rooms, and the **AlorAir Sentinel HDi65** when water has to climb out of a crawl space. Route the hose to a drain, set the humidistat around 50% and you'll never carry a bucket again."
+          "text": "The **hOmeLabs HME1003 Wi-Fi** is the best dehumidifier with a pump for most homes. Choose the **Waykar** for the widest coverage, the **Frigidaire FHDP5033W1** for Wi-Fi scheduling and a living-space noise level, the **Honeywell TP70PWKN** for big open rooms, and the **AlorAir Sentinel HDi65S** when water has to climb out of a crawl space. Route the hose to a drain, set the humidistat around 50% and you'll never carry a bucket again."
         }
       ]
     }
@@ -271,7 +273,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier with a pump?",
-      "a": "The hOmeLabs HME1003 Wi-Fi for most homes. It's a 50-pint unit with high airflow and a built-in pump that pushes water to a sink or window, suitable for large basements. For crawl spaces, the AlorAir Sentinel HDi65's 19.6-ft pump lift is the stronger choice."
+      "a": "The hOmeLabs HME1003 Wi-Fi for most homes. It's a 50-pint unit with high airflow and a built-in pump that pushes water to a sink or window, suitable for large basements. For crawl spaces, the AlorAir Sentinel HDi65S's 19.6-ft pump lift is the stronger choice."
     },
     {
       "q": "Why buy a dehumidifier with a pump instead of a drain hose?",
@@ -279,7 +281,7 @@
     },
     {
       "q": "How high can a dehumidifier pump lift water?",
-      "a": "Portable units typically lift roughly 12–16 feet, while commercial crawl-space units like the AlorAir HDi65 reach about 19.6 feet. Check the rated lift against your actual route before buying."
+      "a": "Portable units typically lift roughly 12–16 feet, while commercial crawl-space units like the AlorAir HDi65S reach about 19.6 feet. Check the rated lift against your actual route before buying."
     },
     {
       "q": "Can I add a condensate pump to a dehumidifier?",
@@ -287,7 +289,7 @@
     },
     {
       "q": "Does GE or Frigidaire make a dehumidifier with a pump?",
-      "a": "Both do. Frigidaire's pump models include the FGAC5044W1 and the FFAP5033W1, and GE sells pump versions such as the APER50LZ. Compare them in our [GE dehumidifier guide](/best/best-ge-dehumidifier/) and Frigidaire guide."
+      "a": "Both do. Frigidaire's pump models include the FHDP5033W1 and the FFAP5033W1, and GE sells pump versions such as the APER50LZ. Compare them in our [GE dehumidifier guide](/best/best-ge-dehumidifier/) and Frigidaire guide."
     },
     {
       "q": "Is a heat pump dehumidifier the same as a dehumidifier with a pump?",

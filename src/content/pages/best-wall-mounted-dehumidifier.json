@@ -71,29 +71,29 @@
       }
     },
     {
-      "id": "honeywell-dr90a3000",
-      "catalogId": "honeywell-dr90a3000",
-      "name": "Honeywell DR90A3000 Whole-House Dehumidifier",
-      "shortName": "Honeywell DR90A3000",
+      "id": "aprilaire-e080",
+      "catalogId": "aprilaire-e080",
+      "name": "Aprilaire E080 Pro Dehumidifier",
+      "shortName": "Aprilaire E080",
       "award": "Best HVAC-integrated",
       "pros": [
-        "Designed to connect to central HVAC ductwork",
-        "90-pint capacity for larger homes",
-        "Drains continuously",
-        "Out of sight in a mechanical space"
+        "Ties into central HVAC ductwork",
+        "80 pints a day (AHAM)",
+        "ENERGY STAR Most Efficient",
+        "Drains continuously, no tank"
       ],
       "cons": [
         "Needs a contractor familiar with your HVAC system",
-        "Less flexible as a standalone than some rivals"
+        "Smaller capacity than the E100 for very humid homes"
       ],
-      "whyWeLoveIt": "For homes with forced-air HVAC, this Honeywell is built to become part of the system, so the dry air reaches every room through the vents you already have. Nothing sits on a floor or hangs on a wall in your living space.",
-      "performance": "It's rated at 90 pints per day and is typically installed beside the furnace or air handler, with its own dehumidistat control. HVAC contractors are generally familiar with Honeywell's residential equipment, which can make finding an installer easier. Like any ducted unit, it needs a proper condensate drain with a trap. Compare it with other brand picks in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
+      "whyWeLoveIt": "For homes with forced-air heating and cooling, the E080 becomes part of the system: it sits beside the air handler and sends dry air to every room through the vents you already have, so nothing sits on a floor or hangs on a wall in your living space.",
+      "performance": "Aprilaire rates it at 80 pints a day under AHAM conditions for up to about 4,400 square feet, and it carries ENERGY STAR Most Efficient recognition and a five-year warranty. Like any ducted unit it needs a properly trapped condensate drain. Compare sizes in our [best Aprilaire dehumidifier](/best/best-aprilaire-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "90 pints/day",
+        "Capacity": "80 pints/day (AHAM)",
+        "Coverage": "Up to about 4,400 sq ft",
         "Type": "Ducted whole-house",
-        "Install": "Connects to HVAC ductwork",
         "Drainage": "Continuous condensate line",
-        "Best for": "Homes with forced-air HVAC"
+        "Efficiency": "ENERGY STAR Most Efficient"
       }
     },
     {
@@ -130,13 +130,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Type", "How it mounts", "Best for", "Typical install"],
+          "head": [
+            "Type",
+            "How it mounts",
+            "Best for",
+            "Typical install"
+          ],
           "rows": [
-            ["In-wall dehumidifier", "Recessed into a wall cavity, grille on the face", "Condos, apartments, small homes", "Contractor"],
-            ["Ducted whole-house", "Hidden in basement, attic or closet; dry air through wall or ceiling grilles", "Whole homes", "HVAC contractor"],
-            ["Suspended or platform-mounted", "Hung from joists or set on a raised platform", "Crawl spaces, basements, commercial spaces", "DIY-capable or contractor"],
-            ["Commercial wall-mount", "Bolted to a wall in pool rooms, greenhouses and similar spaces", "Indoor pools, commercial rooms", "Engineer-specified"],
-            ["Ductless mini-split (dry mode)", "Indoor head on the wall", "Rooms that also need cooling", "HVAC contractor"]
+            [
+              "In-wall dehumidifier",
+              "Recessed into a wall cavity, grille on the face",
+              "Condos, apartments, small homes",
+              "Contractor"
+            ],
+            [
+              "Ducted whole-house",
+              "Hidden in basement, attic or closet; dry air through wall or ceiling grilles",
+              "Whole homes",
+              "HVAC contractor"
+            ],
+            [
+              "Suspended or platform-mounted",
+              "Hung from joists or set on a raised platform",
+              "Crawl spaces, basements, commercial spaces",
+              "DIY-capable or contractor"
+            ],
+            [
+              "Commercial wall-mount",
+              "Bolted to a wall in pool rooms, greenhouses and similar spaces",
+              "Indoor pools, commercial rooms",
+              "Engineer-specified"
+            ],
+            [
+              "Ductless mini-split (dry mode)",
+              "Indoor head on the wall",
+              "Rooms that also need cooling",
+              "HVAC contractor"
+            ]
           ]
         },
         {
@@ -234,7 +264,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For a true in-wall dehumidifier, the **Santa Fe UltraMD33** is the standout. If you'd rather dry the whole house with nothing visible, choose a ducted unit: the **Aprilaire E100** for the most flexibility and efficiency, or the **Honeywell DR90A3000** for a system built around your existing HVAC. For a crawl space or tight mechanical space, the compact **Santa Fe Compact70** is the most practical permanent install. Whichever you choose, plan the drain line and power before you buy."
+          "text": "For a true in-wall dehumidifier, the **Santa Fe UltraMD33** is the standout. If you'd rather dry the whole house with nothing visible, choose a ducted unit: the **Aprilaire E100** for the most flexibility and efficiency, or the smaller **Aprilaire E080** for a system built around your existing HVAC. For a crawl space or tight mechanical space, the compact **Santa Fe Compact70** is the most practical permanent install. Whichever you choose, plan the drain line and power before you buy."
         }
       ]
     }

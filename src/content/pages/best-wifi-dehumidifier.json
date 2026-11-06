@@ -67,25 +67,29 @@
       }
     },
     {
-      "id": "frigidaire-fgac7044u1",
-      "name": "Frigidaire 70-Pint Smart Dehumidifier (FGAC7044U1)",
-      "shortName": "Frigidaire FGAC7044U1",
+      "id": "dreo-110-pint",
+      "catalogId": "dreo-110-pint",
+      "name": "Dreo 110-Pint Smart Dehumidifier (DR-HDH001S)",
+      "shortName": "Dreo 110-Pint",
       "award": "Best for large spaces",
       "pros": [
-        "70-pint DOE 2019 capacity",
-        "Frigidaire app and Alexa support",
-        "Familiar app if you own other Frigidaire appliances"
+        "Dreo app plus Alexa and Google Home",
+        "Largest tank in Dreo’s lineup at 2 gallons",
+        "Auto, Comfort and Continuous modes",
+        "Rated for up to 4,500 sq ft"
       ],
       "cons": [
-        "Bucket or gravity hose only",
-        "Large footprint"
+        "110-pint figure is measured at 86°F and 90% humidity",
+        "Tank or gravity hose only — no pump",
+        "Auto-defrost kicks in at 41°F, so it’s not for cold crawl spaces"
       ],
-      "whyWeLoveIt": "When 50 pints won’t cut it — a big basement or an open floor plan — this Frigidaire adds real capacity while keeping app and voice control.",
-      "performance": "It’s rated at 70 pints a day under the current DOE 2019 test, which is a genuine large-space rating. Drainage is by bucket or gravity hose, so if you rely on the app, make sure tank-full alerts are switched on. For other high-capacity options, see our [best 70-pint dehumidifier](/best/best-70-pint-dehumidifier/) guide.",
+      "whyWeLoveIt": "When a mid-size unit won’t cut it — a big basement or an open floor plan — this Dreo adds capacity while keeping app and voice control. In Auto mode you set a target and it varies fan speed to hold humidity within about 5 points.",
+      "performance": "Dreo lists its capacity as 50 to 110 pints a day, with the top figure measured at 86°F and 90% humidity; the lower number is the one to compare with other brands’ DOE ratings. It’s rated for up to 4,500 square feet, and Dreo says the 2-gallon tank lasts more than 8 hours before it shuts off and lights a full-tank warning. If you rely on the app, connect the hose for unattended running. More in our [best Dreo dehumidifier](/best/best-dreo-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "70 pints/day (DOE 2019)",
-        "Smart control": "Frigidaire app, Alexa",
-        "Drainage": "Bucket or gravity hose",
+        "Capacity": "50–110 pints/day (110 at 86°F, 90% RH)",
+        "Smart control": "Dreo app, Alexa, Google Home",
+        "Drainage": "2-gal tank or hose",
+        "Coverage": "Up to 4,500 sq ft (Dreo)",
         "Best for": "Large basements, open plans"
       }
     },
@@ -196,7 +200,7 @@
             },
             {
               "label": "Voice support if you want it",
-              "text": "Midea and Frigidaire work with Alexa; Aprilaire’s app doesn’t."
+              "text": "Midea and Dreo work with Alexa and Google Assistant; Aprilaire’s app doesn’t."
             },
             {
               "label": "2.4 GHz compatibility",
@@ -244,7 +248,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 50** is the best Wi-Fi dehumidifier for most people, with excellent efficiency, a big reservoir and Alexa and Google support. Choose the **hOmeLabs HME1003** for a pump at a lower price, the **Frigidaire FGAC7044U1** for 70-pint capacity, the **AlorAir HDi65S** for a crawl space or server room, and the **Aprilaire E070W** for a ducted install. Remember: the app tells you about a problem; a pump or drain is what prevents it."
+          "text": "The **Midea Cube 50** is the best Wi-Fi dehumidifier for most people, with excellent efficiency, a big reservoir and Alexa and Google support. Choose the **hOmeLabs HME1003** for a pump at a lower price, the **Dreo 110-Pint** for big open spaces, the **AlorAir HDi65S** for a crawl space or server room, and the **Aprilaire E070W** for a ducted install. Remember: the app tells you about a problem; a pump or drain is what prevents it."
         }
       ]
     }
@@ -264,7 +268,7 @@
     },
     {
       "q": "Do Wi-Fi dehumidifiers work with Alexa or Google Home?",
-      "a": "Some do. The Midea Cube line supports Alexa and Google Assistant, and the Frigidaire FGAC7044U1 works with Alexa. Aprilaire’s Healthy Air app supports alerts and setpoints but not voice assistants."
+      "a": "Some do. The Midea Cube line supports Alexa and Google Assistant, and the Dreo 110-Pint works with Alexa and Google Home. Aprilaire’s Healthy Air app supports alerts and setpoints but not voice assistants."
     },
     {
       "q": "Will a Wi-Fi dehumidifier’s app empty the tank for me?",

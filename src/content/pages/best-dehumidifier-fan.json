@@ -13,32 +13,33 @@
     "Search for a **dehumidifier fan** and you'll find three very different things: portable air conditioners that also dehumidify and blow air, ordinary dehumidifiers paired with a separate fan, and bathroom exhaust fans that switch on when humidity spikes. All three can make a muggy room more comfortable, but only some of them actually remove water from the air — and that difference decides which one you need.",
     "A fan on its own just moves air. It cools *you* by speeding evaporation from your skin, but it does nothing to the room's moisture level. A dehumidifier pulls water out, yet it adds a little heat and can leave dead air in corners. Put the right two together, or choose a combo that does both, and you get a room that feels cooler *and* stays drier. We compared the most practical options on how much moisture they really remove, how they handle heat, noise, drainage and what owners report after a full summer of use."
   ],
-  "topPicksLead": "For a hot, sticky room, the **Honeywell 3-in-1 Portable Air Conditioner, Dehumidifier & Fan** is the most complete fan-with-dehumidifier combo, because it can cool, dry and circulate from one box.",
+  "topPicksLead": "For a hot, sticky room, the **Whynter ARC-14S** is the most complete fan-with-dehumidifier combo, because it can cool, dry and circulate from one box.",
   "products": [
     {
-      "id": "honeywell-3-in-1-portable-ac",
-      "name": "Honeywell 3-in-1 Portable Air Conditioner, Dehumidifier & Fan",
-      "shortName": "Honeywell 3-in-1",
+      "id": "whynter-arc-14s",
+      "catalogId": "whynter-arc-14s",
+      "name": "Whynter ARC-14S 14,000 BTU Dual-Hose Portable Air Conditioner",
+      "shortName": "Whynter ARC-14S",
       "award": "Best 3-in-1 combo",
       "pros": [
         "Cool, dehumidify and fan modes in one unit",
-        "Easy window-kit installation",
-        "Several sizes for different rooms",
-        "Widely available with a familiar brand behind it"
+        "Dual-hose design avoids pulling hot air into the room",
+        "Auto-drain evaporates condensate out the exhaust in cooling mode",
+        "Three-year compressor warranty, per Whynter"
       ],
       "cons": [
-        "Needs a window for the exhaust hose",
-        "Louder than a standalone dehumidifier or fan"
+        "Needs window space for two hoses",
+        "Louder than inverter models, owners say"
       ],
-      "whyWeLoveIt": "This is the closest thing to a true dehumidifier-and-fan combo for a room that's both hot and humid. Use fan mode on pleasant evenings, dehumidify mode on cool, damp days, and full cooling when summer peaks — without owning three appliances.",
-      "performance": "Honeywell sells this design in several BTU sizes, so match it to the room rather than buying the biggest. Like any portable AC, it removes a lot of moisture while cooling, and its dedicated dry mode targets humidity without chilling the room. Owners generally like the flexibility and the straightforward controls; the common complaints are noise at high fan speed and the bulk of the exhaust hose.",
-      "notes": "Check the manual for your specific model's drainage method — some versions evaporate most condensate through the exhaust, while others need occasional draining or a hose in dehumidify mode.",
+      "whyWeLoveIt": "This is the closest thing to a true dehumidifier-and-fan combo for a room that's both hot and humid. Use fan mode on pleasant evenings, dehumidify mode on cool, damp days, and full cooling when summer peaks — without owning three appliances. Its dual-hose setup also means it isn't fighting hot, humid outdoor air pulled in through doors and gaps.",
+      "performance": "Whynter rates the 14,000-BTU unit for rooms up to 500 square feet, so match it to a large living area rather than a small bedroom. In cooling mode, its auto-drain recycles collected water into the exhaust, so on most days there's no bucket to empty; on very humid days or in dehumidify mode, use the drain port. Its long track record means a deep pool of owner feedback, and the most common complaint is noise, so it suits a living space better than a nightstand.",
       "specs": {
-        "Type": "Portable air conditioner",
+        "Type": "Dual-hose portable air conditioner",
+        "Cooling": "14,000 BTU",
         "Modes": "Cool, dehumidify, fan",
-        "Venting": "Window kit with exhaust hose",
-        "Drainage": "Varies by model",
-        "Best for": "Hot, humid single rooms"
+        "Venting": "Window kit, two hoses",
+        "Drainage": "Auto-evaporative, drain port",
+        "Best for": "Large hot, humid rooms"
       }
     },
     {
@@ -56,7 +57,7 @@
         "Larger and heavier than typical portables",
         "Costs more than basic 3-in-1 models"
       ],
-      "whyWeLoveIt": "If the Honeywell sounds right but you'll run it in a bedroom or home office, the Midea Duo is the refined version of the same idea. Its inverter compressor ramps up and down instead of slamming on and off, which owners describe as noticeably calmer than conventional portables.",
+      "whyWeLoveIt": "If the Whynter sounds right but you'll run it in a bedroom or home office, the Midea Duo is the refined version of the same idea. Its inverter compressor ramps up and down instead of slamming on and off, which owners describe as noticeably calmer than conventional portables.",
       "performance": "The hose-in-hose design pulls outside air in through one channel and exhausts through the other, which avoids the negative pressure that makes single-hose units drag warm, humid air in from the rest of the house. That's a meaningful advantage for anyone trying to keep humidity down, not just temperature. App control lets you switch between dry and fan modes remotely.",
       "specs": {
         "Type": "Inverter portable air conditioner",
@@ -274,7 +275,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "If your room is hot and humid, the **Honeywell 3-in-1** gives you cooling, drying and a fan in a single box, and the **Midea Duo** does it more quietly. If the space is damp but not hot, skip the AC: pair a strong dehumidifier like the **Frigidaire FFAD5033W1** with an air circulator such as the **Vornado 660**. And in a bathroom, a quiet, humidity-sensing exhaust fan like the **Panasonic WhisperGreen Select** usually solves the problem at the source."
+          "text": "If your room is hot and humid, the **Whynter ARC-14S** gives you cooling, drying and a fan in a single box, and the **Midea Duo** does it more quietly. If the space is damp but not hot, skip the AC: pair a strong dehumidifier like the **Frigidaire FFAD5033W1** with an air circulator such as the **Vornado 660**. And in a bathroom, a quiet, humidity-sensing exhaust fan like the **Panasonic WhisperGreen Select** usually solves the problem at the source."
         }
       ]
     }
@@ -282,7 +283,7 @@
   "faqs": [
     {
       "q": "Is there a fan that is also a dehumidifier?",
-      "a": "Not in the true sense. Fans move air but don't remove moisture. The closest thing is a 3-in-1 portable air conditioner with cool, dehumidify and fan modes, such as Honeywell's 3-in-1 line. Products sold as dehumidifying fans with no compressor or desiccant don't remove meaningful water."
+      "a": "Not in the true sense. Fans move air but don't remove moisture. The closest thing is a 3-in-1 portable air conditioner with cool, dehumidify and fan modes, such as the Whynter ARC-14S. Products sold as dehumidifying fans with no compressor or desiccant don't remove meaningful water."
     },
     {
       "q": "Fan or dehumidifier: which is better for a humid room?",
@@ -293,7 +294,7 @@
       "a": "Yes, in most cases. A fan helps humid air reach the dehumidifier and speeds drying of damp corners, carpets and laundry. Aim it across the room toward the unit rather than directly at it."
     },
     {
-      "q": "Is the Honeywell 3-in-1 portable air conditioner a good dehumidifier?",
+      "q": "Is a 3-in-1 portable air conditioner like the Whynter ARC-14S a good dehumidifier?",
       "a": "It's a good choice for a room that's both hot and humid, because it removes moisture while cooling and has a dedicated dehumidify mode. For a cool, damp basement, a standalone dehumidifier is more efficient and doesn't need a window vent."
     },
     {

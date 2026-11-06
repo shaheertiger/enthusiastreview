@@ -43,27 +43,28 @@
       }
     },
     {
-      "id": "homelabs-hme010091n",
-      "name": "hOmeLabs 8-Pint Wi-Fi Dehumidifier (HME010091N)",
-      "shortName": "hOmeLabs 8-Pint Wi-Fi",
+      "id": "hisense-25-pint",
+      "catalogId": "hisense-25-pint",
+      "name": "Hisense 25-Pint ENERGY STAR Dehumidifier",
+      "shortName": "Hisense 25-Pint",
       "award": "Best for shared offices",
       "pros": [
-        "Rated about 38 dB on low",
-        "Wi-Fi controls",
-        "Drain-hose port for continuous running",
-        "Marketed specifically for home offices"
+        "25 pints a day — headroom for a larger shared room",
+        "ENERGY STAR certified for all-day running",
+        "Hose connection for continuous drainage",
+        "Sized for a single room or small office suite"
       ],
       "cons": [
-        "Low DOE capacity for damp spaces",
-        "Large coverage claim is optimistic"
+        "Coverage claim is optimistic for one machine",
+        "No decibel rating we could confirm"
       ],
-      "whyWeLoveIt": "In a shared space, the best dehumidifier is the one nobody notices — and nobody has to empty. Quiet operation plus a drain hose checks both boxes.",
-      "performance": "hOmeLabs rates it at around 38 dB on its low setting, about the level of a soft conversation, and lists coverage up to 1,800 square feet. Its DOE capacity is modest, so it’s best for offices that are stuffy rather than truly damp. Run the hose to a sink or drain so it can work through the whole day unattended. More from the brand in our [best hOmeLabs dehumidifier](/best/best-homelabs-dehumidifier/) guide.",
+      "whyWeLoveIt": "In a shared space, the best dehumidifier is the one nobody has to empty. This Hisense has more headroom than a bedroom-sized unit for a bigger room full of people, and with a hose run to a drain it works through the whole day unattended.",
+      "performance": "Hisense rates it at 25 pints a day for spaces up to 1,500 square feet, though in practice it's best in a single room or small suite — which describes most shared offices. ENERGY STAR certification keeps running costs in check over long workdays, and a hose connection lets it drain continuously beside a sink or floor drain. We couldn't confirm a published noise rating, so if the room hosts frequent calls, place it away from desks. More from the brand in our [best Hisense dehumidifier](/best/best-hisense-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "8 pints/day (DOE)",
-        "Noise": "About 38 dB on low (manufacturer)",
-        "Smart control": "Wi-Fi app",
-        "Drainage": "Bucket or hose",
+        "Capacity": "25 pints/day",
+        "Coverage": "Up to 1,500 sq ft (maker's claim)",
+        "Efficiency": "ENERGY STAR",
+        "Drainage": "Bucket or gravity hose",
         "Best for": "Shared or open-plan offices"
       }
     },
@@ -234,9 +235,9 @@
               "Private offices"
             ],
             [
-              "hOmeLabs 8-Pint Wi-Fi",
+              "Hisense 25-Pint",
               "Compressor",
-              "~38 dB (low)",
+              "Not confirmed",
               "Shared offices"
             ],
             [
@@ -308,7 +309,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 20** is the best office dehumidifier for most people — quiet enough for calls and easy to check from your phone. Choose the **hOmeLabs 8-Pint Wi-Fi** for a shared space, the **Frigidaire FHDD5034W1** for a damp basement or garage office, and the near-silent **Pro Breeze PB-03** or **TABYIK DH-CS01** for a single desk or small room."
+          "text": "The **Midea Cube 20** is the best office dehumidifier for most people — quiet enough for calls and easy to check from your phone. Choose the **Hisense 25-Pint** for a shared space, the **Frigidaire FHDD5034W1** for a damp basement or garage office, and the near-silent **Pro Breeze PB-03** or **TABYIK DH-CS01** for a single desk or small room."
         }
       ]
     }

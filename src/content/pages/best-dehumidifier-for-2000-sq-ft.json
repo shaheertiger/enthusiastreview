@@ -44,25 +44,28 @@
       }
     },
     {
-      "id": "ge-apeh70lw",
-      "name": "GE 70-Pint Dehumidifier with Built-In Pump (APEH70LW)",
-      "shortName": "GE APEH70LW",
+      "id": "yaufey-70-pint-ayd15dpm",
+      "catalogId": "yaufey-70-pint-ayd15dpm",
+      "name": "Yaufey 70-Pint Dehumidifier with Pump (AYD1.5DPM)",
+      "shortName": "Yaufey 70-Pint",
       "award": "Best for wet spaces",
       "pros": [
-        "70 pints a day for faster moisture removal",
-        "Built-in pump lifts water up to 16 feet",
+        "70 pints a day (manufacturer rating) for faster moisture removal",
+        "Built-in pump with a 16.4-ft hose",
         "No floor drain required",
-        "Modest step up from 50-pint pricing"
+        "ENERGY STAR certified, with a five-year warranty"
       ],
       "cons": [
-        "Larger and louder than a 50-pint",
+        "Single fan speed",
+        "No Wi-Fi, app or sleep mode",
         "More capacity than a moderately damp space needs"
       ],
       "whyWeLoveIt": "If your 2,000 sq ft already shows condensation on walls or seepage at the slab, the extra daily capacity makes a real difference. The pump means it can sit anywhere and still get water out.",
-      "performance": "GE rates it at 70 pints a day with a pump that lifts condensate up to 16 feet, enough to reach a laundry sink or basement window. In a genuinely wet space, that extra capacity brings humidity down faster and lets the unit cycle off sooner. Owners of wet basements cite it as a step change over smaller units. Compare it with other high-capacity units in our [best 70-pint dehumidifier](/best/best-70-pint-dehumidifier/) guide.",
+      "performance": "Yaufey rates it at 70 pints a day for spaces up to about 5,000 sq ft, with a pump whose 16.4-foot hose can run up to a laundry sink or basement window. In a genuinely wet space, that extra capacity brings humidity down faster and lets the unit cycle off sooner. It’s ENERGY STAR certified at a listed 265 W; what it lacks is smart features, a second fan speed and a quiet mode. Compare it with other high-capacity units in our [best 70-pint dehumidifier](/best/best-70-pint-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "70 pints/day (GE)",
-        "Drainage": "Built-in pump, 16-ft lift",
+        "Capacity": "70 pints/day (Yaufey)",
+        "Drainage": "Built-in pump, 16.4-ft hose",
+        "Efficiency": "ENERGY STAR, 265 W",
         "Type": "Compressor",
         "Best for": "Wet basement, no floor drain"
       }
@@ -228,7 +231,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most open 2,000 sq ft spaces, the **Midea Cube 50 (MAD50S1QWT)** is the right default: plenty of rated headroom and a reservoir that cuts down on emptying. Choose the **GE APEH70LW** for a wet space or no floor drain, the **hOmeLabs HME031004N** for an irregular layout, and the **Frigidaire FHDD5034W1** to save money. If your 2,000 sq ft is really two zones, two well-placed units will beat one bigger one."
+          "text": "For most open 2,000 sq ft spaces, the **Midea Cube 50 (MAD50S1QWT)** is the right default: plenty of rated headroom and a reservoir that cuts down on emptying. Choose the **Yaufey 70-Pint** for a wet space or no floor drain, the **hOmeLabs HME031004N** for an irregular layout, and the **Frigidaire FHDD5034W1** to save money. If your 2,000 sq ft is really two zones, two well-placed units will beat one bigger one."
         }
       ]
     }
@@ -248,7 +251,7 @@
     },
     {
       "q": "What is the best dehumidifier for a 2,000 sq ft basement?",
-      "a": "The Midea Cube 50 (MAD50S1QWT) for a moderately to very damp basement with a drain nearby. For a wet basement without a floor drain, the GE APEH70LW's pump and higher capacity give more headroom."
+      "a": "The Midea Cube 50 (MAD50S1QWT) for a moderately to very damp basement with a drain nearby. For a wet basement without a floor drain, the Yaufey 70-Pint's pump and higher capacity give more headroom."
     },
     {
       "q": "Is a 30-pint dehumidifier enough for 2,000 sq ft?",

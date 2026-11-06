@@ -43,9 +43,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for large or cold garages",
       "pros": [
         "Up to 120 pints a day at saturation",
@@ -57,14 +58,15 @@
         "Costs several times more than a portable",
         "Heavy and industrial-looking"
       ],
-      "whyWeLoveIt": "A big, unheated, genuinely wet garage will overwhelm a household unit. The HDi65 is crawl-space-grade equipment that keeps drying in the cold, pumps its own water out and is built to run for years.",
+      "whyWeLoveIt": "A big, unheated, genuinely wet garage will overwhelm a household unit. The HDi65S is crawl-space-grade equipment that keeps drying in the cold, pumps its own water out and is built to run for years.",
       "performance": "AlorAir rates it at 55 pints a day under standard AHAM conditions and up to 120 pints in saturated air, with hot-gas defrost that keeps it working down to about 36°F. Its pump pushes condensate up and out a wall or to a distant drain, and it can be ducted to target a workshop corner. Owners in cold climates say it's the first machine that actually kept their garage dry. Compare it with similar units in our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
       "specs": {
         "Capacity": "55 pints/day (AHAM); 120 at saturation",
         "Low-temp operation": "Defrost to about 36°F",
         "Drainage": "Built-in pump, about 19.6-ft lift",
         "Type": "Commercial compressor, ductable",
-        "Best for": "Large, cold or detached garage"
+        "Best for": "Large, cold or detached garage",
+        "Smart control": "Wi-Fi app with alerts"
       }
     },
     {
@@ -235,7 +237,7 @@
         },
         {
           "type": "p",
-          "text": "Detached garages tend to be colder and leakier, and you visit them less. Prioritize a pump or gravity drain, auto-restart and cold-weather capability. In a northern climate, the AlorAir HDi65 or the Ivation desiccant are the safest bets."
+          "text": "Detached garages tend to be colder and leakier, and you visit them less. Prioritize a pump or gravity drain, auto-restart and cold-weather capability. In a northern climate, the AlorAir HDi65S or the Ivation desiccant are the safest bets."
         },
         {
           "type": "h3",
@@ -281,7 +283,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Waykar 80-Pint** is the best dehumidifier for most garages: high capacity, cold-season defrost and a dust-ready filter. Choose the **AlorAir Sentinel HDi65** for a large, cold or detached garage, the **Honeywell TP70PWKN** when you need to pump water away, the **Frigidaire FHDD5034W1** for value, and the **Ivation 13-Pint Desiccant** if your garage regularly dips below 40°F. Hold the space at 40–50% and your tools, drywall and stored gear will stay dry."
+          "text": "The **Waykar 80-Pint** is the best dehumidifier for most garages: high capacity, cold-season defrost and a dust-ready filter. Choose the **AlorAir Sentinel HDi65S** for a large, cold or detached garage, the **Honeywell TP70PWKN** when you need to pump water away, the **Frigidaire FHDD5034W1** for value, and the **Ivation 13-Pint Desiccant** if your garage regularly dips below 40°F. Hold the space at 40–50% and your tools, drywall and stored gear will stay dry."
         }
       ]
     }
@@ -289,7 +291,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for a garage?",
-      "a": "For most garages, the Waykar 80-Pint, which pairs high capacity with auto-defrost down to about 41°F and a washable filter. For a large, cold garage, the AlorAir Sentinel HDi65 is tougher; for a garage that sits below 40°F, the Ivation 13-pint desiccant keeps working to about 33°F."
+      "a": "For most garages, the Waykar 80-Pint, which pairs high capacity with auto-defrost down to about 41°F and a washable filter. For a large, cold garage, the AlorAir Sentinel HDi65S is tougher; for a garage that sits below 40°F, the Ivation 13-pint desiccant keeps working to about 33°F."
     },
     {
       "q": "What size dehumidifier do I need for a garage?",

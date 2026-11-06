@@ -92,52 +92,57 @@
       }
     },
     {
-      "id": "waykar-50-pint-pump",
-      "name": "Waykar 50-Pint Dehumidifier with Pump (2,500 sq ft)",
-      "shortName": "Waykar 50-Pint Pump",
-      "award": "Best mid-price with a pump",
+      "id": "ivation-ivadh50pwp2",
+      "catalogId": "ivation-ivadh50pwp2",
+      "name": "Ivation 50-Pint Dehumidifier with Pump (IVADH50PWP2)",
+      "shortName": "Ivation IVADH50PWP2",
+      "award": "Best alternative with a pump",
       "pros": [
-        "Built-in pump for less than most pump-equipped rivals",
-        "24-hour timer and auto restart after a power outage",
-        "Clear tank if you'd rather use the bucket"
+        "Built-in condensate pump with hose connector",
+        "ENERGY STAR certified",
+        "Programmable humidistat",
+        "Gravity-drain option if you have a floor drain"
       ],
       "cons": [
-        "Simpler controls than the hOmeLabs",
-        "Check the DOE rating — Waykar's marketing names run high"
+        "No Wi-Fi, unlike the hOmeLabs",
+        "Compressor unit, so not for near-freezing spaces",
+        "Model number is easy to confuse with older units"
       ],
-      "whyWeLoveIt": "You get pump drainage — the feature that matters most in a drainless basement — without paying top dollar. It's a sensible middle ground for a mid-size basement that needs continuous drainage but not commercial coverage.",
-      "performance": "Waykar sizes this unit for about 2,500 square feet and includes a 24-hour timer and auto restart, so a brief power cut won't leave the basement unprotected. Waykar's model names often overstate capacity compared with the DOE figure, so confirm the DOE pint rating on ENERGY STAR before you buy.",
+      "whyWeLoveIt": "You get pump drainage — the feature that matters most in a drainless basement — alongside ENERGY STAR efficiency. It’s a sensible middle ground for a mid-size basement that needs continuous drainage but not commercial coverage or an app.",
+      "performance": "Ivation rates it at 50 pints a day and pairs a programmable humidistat with both pump and gravity drainage. Owners highlight the pump as the main reason they chose it, especially in basements where the floor drain is in the wrong place. The “P2” suffix marks it as a current product line distinct from the recalled IVADH30PW and IVADH70PW, so check the full model number before you buy. More in our [best Ivation dehumidifier](/best/best-ivation-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50-pint class",
-        "Drainage": "Built-in pump or tank",
-        "Coverage": "About 2,500 sq ft (maker)",
-        "Extras": "24-hour timer, auto restart",
+        "Capacity": "50 pints/day",
+        "Drainage": "Built-in pump or gravity hose",
+        "Efficiency": "ENERGY STAR",
+        "Humidistat": "Programmable",
         "Best for": "Mid-size basements without a drain"
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Commercial Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Commercial Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for cold, unfinished basements",
       "pros": [
         "Runs down to about 36°F with auto defrost",
         "Built-in pump with a 19.6-ft lift",
         "Low-profile body built for years of continuous use",
-        "Can be installed and left alone"
+        "App alerts if humidity climbs or the unit faults"
       ],
       "cons": [
         "Costs several times more than a portable",
         "Industrial looks suit utility spaces, not living areas"
       ],
       "whyWeLoveIt": "When a basement is large, cold and damp all year, portables struggle. This commercial-grade unit is built to be installed once and forgotten, keeps working at temperatures that frost up ordinary dehumidifiers, and pumps its water wherever you need it.",
-      "performance": "AlorAir rates it at 55 pints a day under the older AHAM standard (saturation conditions differ from the DOE home test), with operation down to about 36°F and a pump that lifts water nearly 20 feet. It's the same design we recommend for crawl spaces — see our [crawl space dehumidifier guide](/best/best-crawl-space-dehumidifier/). For true flood cleanup, though, a restoration-grade LGR machine is the right tool.",
+      "performance": "AlorAir rates it at 55 pints a day under the older AHAM standard (saturation conditions differ from the DOE home test), with operation down to about 36°F and a pump that lifts water nearly 20 feet. AlorAir lists coverage up to about 1,300 square feet, and the app tells you if something goes wrong while you’re upstairs. It's the same design we recommend for crawl spaces — see our [crawl space dehumidifier guide](/best/best-crawl-space-dehumidifier/). For true flood cleanup, though, a restoration-grade LGR machine is the right tool.",
       "specs": {
         "Capacity": "55 pints/day (AHAM)",
         "Low-temp operation": "Down to about 36°F",
         "Drainage": "Built-in pump, 19.6-ft lift",
         "Type": "Commercial compressor",
-        "Best for": "Cold, unfinished basements"
+        "Best for": "Cold, unfinished basements",
+        "Smart control": "Wi-Fi app with alerts"
       }
     }
   ],
@@ -289,7 +294,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 50-Pint** is the best basement dehumidifier for most homes, pairing full capacity with a tank you rarely need to empty. Choose the **hOmeLabs HME1003** when there's no floor drain and you need a pump, save with the **Frigidaire FHDD5034Y1**, and go commercial with the **AlorAir Sentinel HDi65** for a cold, unfinished basement you want dry for good. Set any of them to 45–50%, and the musty smell should fade within a couple of weeks."
+          "text": "The **Midea Cube 50-Pint** is the best basement dehumidifier for most homes, pairing full capacity with a tank you rarely need to empty. Choose the **hOmeLabs HME1003** when there's no floor drain and you need a pump, save with the **Frigidaire FHDD5034Y1**, and go commercial with the **AlorAir Sentinel HDi65S** for a cold, unfinished basement you want dry for good. Set any of them to 45–50%, and the musty smell should fade within a couple of weeks."
         }
       ]
     }
@@ -301,7 +306,7 @@
     },
     {
       "q": "What is the best dehumidifier with a pump for a basement?",
-      "a": "The hOmeLabs HME1003 is our top pump pick for large or wet basements. The Waykar 50-pint pump model is a cheaper middle-ground option, and the AlorAir Sentinel HDi65 is the commercial choice for cold basements."
+      "a": "The hOmeLabs HME1003 is our top pump pick for large or wet basements. The Ivation IVADH50PWP2 is another ENERGY STAR pump option, and the AlorAir Sentinel HDi65S is the commercial choice for cold basements."
     },
     {
       "q": "What size dehumidifier do I need for a basement?",
@@ -313,7 +318,7 @@
     },
     {
       "q": "Will a dehumidifier work in a cold basement?",
-      "a": "Only if it's designed for it. Below about 65°F, standard units can frost over, so look for auto-defrost. Commercial units like the AlorAir Sentinel HDi65 keep working down to about 36°F."
+      "a": "Only if it's designed for it. Below about 65°F, standard units can frost over, so look for auto-defrost. Commercial units like the AlorAir Sentinel HDi65S keep working down to about 36°F."
     },
     {
       "q": "Will a dehumidifier get rid of a musty basement smell?",

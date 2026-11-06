@@ -42,28 +42,29 @@
       }
     },
     {
-      "id": "honeywell-dr90a3000",
-      "catalogId": "honeywell-dr90a3000",
-      "name": "Honeywell DR90A3000 Whole-House Dehumidifier",
-      "shortName": "Honeywell DR90A3000",
-      "award": "Best for forced-air systems",
+      "id": "alorair-sentinel-hdi90",
+      "catalogId": "alorair-sentinel-hdi90",
+      "name": "AlorAir Sentinel HDi90 Dehumidifier",
+      "shortName": "AlorAir HDi90",
+      "award": "Best value ducted",
       "pros": [
-        "Designed to integrate with HVAC ductwork",
-        "90 pints per day",
-        "Familiar brand for HVAC contractors"
+        "90 pints a day (AHAM)",
+        "Built-in pump for flexible drain routing",
+        "Runs freestanding or ducted",
+        "Defrost down to about 33.8°F"
       ],
       "cons": [
-        "Needs an experienced installer",
-        "Less suited to homes without ducts"
+        "Industrial look and sound for a mechanical room",
+        "Ducting is a separate install step"
       ],
-      "whyWeLoveIt": "If your home already has forced-air heating and cooling, the DR90A3000 is built to slot into that system, delivering dry air to every room through the vents you already have.",
-      "performance": "It's rated at 90 pints per day and is typically installed beside the furnace or air handler with its own dehumidistat control. Like any ducted unit, it needs a properly trapped condensate drain. Compare it with others in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
+      "whyWeLoveIt": "If you want whole-home dry air for less than a premium HVAC-branded unit, the HDi90 can be ducted into a return or supply line and still works on its own in a basement or crawl space.",
+      "performance": "AlorAir rates it at 90 pints a day under AHAM conditions for about 2,600 square feet, with a built-in pump that sends condensate to a sink or exterior drain. It defrosts down to roughly 33.8°F, so it keeps working in a cool basement mechanical room. Compare it with the other ducted options in our [best ducted dehumidifier](/best/best-ducted-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "90 pints/day",
-        "Type": "Ducted whole-house",
-        "Install": "Connects to HVAC ductwork",
-        "Drainage": "Condensate line",
-        "Best for": "Homes with forced-air HVAC"
+        "Capacity": "90 pints/day (AHAM)",
+        "Coverage": "About 2,600 sq ft",
+        "Install": "Ducted or freestanding",
+        "Drainage": "Built-in pump",
+        "Low-temp operation": "Down to about 33.8°F"
       }
     },
     {
@@ -99,12 +100,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Layout", "How air flows", "Pros", "Watch out for"],
+          "head": [
+            "Layout",
+            "How air flows",
+            "Pros",
+            "Watch out for"
+          ],
           "rows": [
-            ["Return-to-supply", "Pulls from the return duct, sends dry air into the supply side", "Common, uses existing ducts", "Needs a backdraft damper; often runs with the HVAC fan"],
-            ["Return-to-return", "Pulls from and discharges into the return duct", "Simple ducting", "Dry air must pass through the air handler to reach rooms"],
-            ["Stand-alone ducted", "Own intake and supply ducts, independent of HVAC", "Works without central air", "More duct runs to install"],
-            ["Ventilating", "Adds an outdoor fresh-air duct to one of the above", "Dries and ventilates", "Extra duct and outdoor penetration"]
+            [
+              "Return-to-supply",
+              "Pulls from the return duct, sends dry air into the supply side",
+              "Common, uses existing ducts",
+              "Needs a backdraft damper; often runs with the HVAC fan"
+            ],
+            [
+              "Return-to-return",
+              "Pulls from and discharges into the return duct",
+              "Simple ducting",
+              "Dry air must pass through the air handler to reach rooms"
+            ],
+            [
+              "Stand-alone ducted",
+              "Own intake and supply ducts, independent of HVAC",
+              "Works without central air",
+              "More duct runs to install"
+            ],
+            [
+              "Ventilating",
+              "Adds an outdoor fresh-air duct to one of the above",
+              "Dries and ventilates",
+              "Extra duct and outdoor penetration"
+            ]
           ]
         },
         {
@@ -165,13 +191,31 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Item", "Typical estimate"],
+          "head": [
+            "Item",
+            "Typical estimate"
+          ],
           "rows": [
-            ["Whole-house unit (70–130 pints)", "$1,200–$3,000"],
-            ["Installation labor and materials", "$800–$2,000"],
-            ["Typical total, installed", "$2,000–$4,500"],
-            ["Complex installs (attic, new ducts, ventilation)", "$5,000+"],
-            ["New dedicated circuit", "Often a few hundred dollars"]
+            [
+              "Whole-house unit (70–130 pints)",
+              "$1,200–$3,000"
+            ],
+            [
+              "Installation labor and materials",
+              "$800–$2,000"
+            ],
+            [
+              "Typical total, installed",
+              "$2,000–$4,500"
+            ],
+            [
+              "Complex installs (attic, new ducts, ventilation)",
+              "$5,000+"
+            ],
+            [
+              "New dedicated circuit",
+              "Often a few hundred dollars"
+            ]
           ],
           "caption": "Typical estimates only. Costs vary by region, home size, duct layout and access."
         },
@@ -202,7 +246,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A well-planned whole house dehumidifier installation gives you invisible, automatic humidity control. Choose a layout that fits your ducts, insist on a reliable condensate drain and plan for dedicated power and a good control. Expect roughly $2,000–$4,500 installed for most homes. The **Aprilaire E100** is our all-around pick, the **Honeywell DR90A3000** suits forced-air systems and the **Santa Fe Ultra V100** adds fresh-air ventilation. If you only need to dry a crawl space, see our [crawl space dehumidifier installation](/guides/crawl-space-dehumidifier-installation/) guide, or compare installed and freestanding options in [best wall-mounted dehumidifiers](/best/best-wall-mounted-dehumidifier/)."
+          "text": "A well-planned whole house dehumidifier installation gives you invisible, automatic humidity control. Choose a layout that fits your ducts, insist on a reliable condensate drain and plan for dedicated power and a good control. Expect roughly $2,000–$4,500 installed for most homes. The **Aprilaire E100** is our all-around pick, the **AlorAir HDi90** is the value ducted option and the **Santa Fe Ultra V100** adds fresh-air ventilation. If you only need to dry a crawl space, see our [crawl space dehumidifier installation](/guides/crawl-space-dehumidifier-installation/) guide, or compare installed and freestanding options in [best wall-mounted dehumidifiers](/best/best-wall-mounted-dehumidifier/)."
         }
       ]
     }

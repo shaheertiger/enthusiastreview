@@ -43,28 +43,29 @@
       }
     },
     {
-      "id": "afloia-q10",
-      "name": "Afloia Q10 Dehumidifier and Air Purifier",
-      "shortName": "Afloia Q10",
-      "award": "Best budget combo",
+      "id": "aircyan-32-pint",
+      "catalogId": "aircyan-32-pint",
+      "name": "AirCyan 32 Pint Dehumidifier with HEPA Filter",
+      "shortName": "AirCyan 32 Pint with HEPA",
+      "award": "Best full-size combo",
       "pros": [
-        "Larger 2-liter tank than the Sorbi",
-        "Low 25 W power draw",
-        "Around 45 dB in operation",
-        "Owner reports show solid humidity drops in small bedrooms"
+        "Full-size compressor dehumidifier with a HEPA filter stage",
+        "Removes far more water than small thermoelectric combos",
+        "Tank or drain-hose option",
+        "Auto defrost"
       ],
       "cons": [
-        "Coverage specs vary by retailer listing",
-        "Filtration is the weaker half, per reviewers"
+        "Pint rating is a maximum, not a DOE figure",
+        "HEPA stage lacks a dedicated purifier's airflow"
       ],
-      "whyWeLoveIt": "If emptying the tank is your biggest annoyance, the Q10's 2-liter reservoir halves your trips compared with the Sorbi, and its 25-watt draw costs very little to run all day.",
-      "performance": "One independent month-long review in a 150-square-foot bedroom recorded humidity falling from 68% to 52% within four hours of continuous running — a useful result for a small room. The same reviewer rated its purifier stage as less convincing, so buy it mainly as a small dehumidifier with a filtration bonus. Coverage figures range from about 160 to 215 square feet depending on the listing, so check the current spec sheet.",
+      "whyWeLoveIt": "If the room is too damp or too big for a thermoelectric combo but you still want one box, this is the step up. It's a proper compressor dehumidifier first, with a HEPA filter catching particles on the air passing through — a tidy solution for a damp basement den or a closed-up apartment.",
+      "performance": "AirCyan markets it at a maximum of 32 pints a day for spaces up to 1,500 square feet, with a HEPA filter, a drain-hose outlet and auto defrost. Treat the 32-pint figure as a hot, humid best case. The HEPA stage only cleans the air the dehumidifier pulls through, so it won't match a dedicated purifier's air changes; if allergies or odor are the main complaint, pair a dehumidifier with a real purifier instead.",
       "specs": {
-        "Type": "Thermoelectric + filter",
-        "Power": "25 W",
-        "Drainage": "2-liter tank",
-        "Coverage": "About 160–215 sq ft (varies by listing)",
-        "Best for": "Small bedroom on a budget"
+        "Type": "Compressor dehumidifier + HEPA filter",
+        "Capacity": "32 pints max (AirCyan)",
+        "Coverage": "Up to 1,500 sq ft (AirCyan)",
+        "Drainage": "Tank or drain hose",
+        "Best for": "Damp rooms too big for a mini combo"
       }
     },
     {
@@ -176,7 +177,7 @@
         },
         {
           "type": "p",
-          "text": "The design is compact and quiet, which is why it suits bedrooms. Its limits come from the same place: a thermoelectric plate removes only a fraction of what a compressor coil does, and a single small fan can't move as much air through the filter as a dedicated purifier. That's why combos stay in the small-room category. For a primer on the moisture side, see [how a dehumidifier works](/guides/how-does-a-dehumidifier-work/)."
+          "text": "The design is compact and quiet, which is why it suits bedrooms. Its limits come from the same place: a thermoelectric plate removes only a fraction of what a compressor coil does, and a single small fan can't move as much air through the filter as a dedicated purifier. That's why most combos stay in the small-room category. A few, like the AirCyan 32 Pint with HEPA, flip the formula: a full-size compressor dehumidifier with a HEPA stage added, which removes far more water but still filters less air than a dedicated purifier. For a primer on the moisture side, see [how a dehumidifier works](/guides/how-does-a-dehumidifier-work/)."
         }
       ]
     },
@@ -200,10 +201,10 @@
               "Modest drying power"
             ],
             [
-              "Afloia Q10",
-              "Budget, bigger tank",
-              "~160–215 sq ft",
-              "Weaker filtration"
+              "AirCyan 32 Pint with HEPA",
+              "Damper, bigger rooms",
+              "Up to ~1,500 sq ft (maker's claim)",
+              "HEPA stage, not a full purifier"
             ],
             [
               "Dehumidifier + Levoit Core 300",
@@ -239,7 +240,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A dehumidifier and air purifier combo is a legitimate space-saver, not a gimmick — just keep it in a small room. The **Tenergy Sorbi** is the best combo for a bedroom or home office, and the **Afloia Q10** is a budget alternative with a bigger tank. For anything larger, pair a dedicated dehumidifier with a **Levoit Core 300** or similar True HEPA purifier and you'll get full performance on both fronts."
+          "text": "A dehumidifier and air purifier combo is a legitimate space-saver, not a gimmick — just keep it in a small room. The **Tenergy Sorbi** is the best combo for a bedroom or home office, and the **AirCyan 32 Pint with HEPA** is the one-box option for a damper, bigger room. For anything larger, pair a dedicated dehumidifier with a **Levoit Core 300** or similar True HEPA purifier and you'll get full performance on both fronts."
         }
       ]
     }
@@ -247,7 +248,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier and air purifier combo?",
-      "a": "The Tenergy Sorbi. It pairs a quiet thermoelectric dehumidifier rated at about 750 ml a day with a True HEPA filter, sized for rooms up to about 200 square feet. The Afloia Q10 is a budget alternative with a larger tank."
+      "a": "The Tenergy Sorbi. It pairs a quiet thermoelectric dehumidifier rated at about 750 ml a day with a True HEPA filter, sized for rooms up to about 200 square feet. For a damper or bigger room, the AirCyan 32 Pint with HEPA pairs a full-size compressor dehumidifier with a HEPA filter stage."
     },
     {
       "q": "Are air purifier and dehumidifier combos worth it?",

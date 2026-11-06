@@ -12,7 +12,7 @@
   "intro": [
     "A **camera dry cabinet** is a sealed, glass-fronted box with its own electronic dehumidifying element, designed to hold your lenses and bodies inside a narrow humidity band for months at a time. That matters because lens fungus starts becoming a real risk above roughly **60% relative humidity**, while the comfortable storage range for gear sits at about 40–50%. A pleasant room temperature offers no protection on its own; fungus is perfectly happy anywhere from the 50s to the 90s Fahrenheit.",
     "Most photographers start with loose silica gel packets tossed in a bag. Those work only as well as the bag's seal and your memory for replacing them. A cabinet does the same job automatically: plug it in, set a target, and check the display now and then.",
-    "We compared the electronic cabinets photographers most often buy on capacity, humidity range, rated tolerance, shelving and noise, plus one rechargeable desiccant for gear that lives in a bag rather than on a shelf."
+    "We compared electronic cabinets on capacity, humidity range, rated tolerance, shelving and noise, then added two cordless desiccant options: one for a closed cabinet or closet shelf, and one for gear that lives in a bag rather than on a shelf."
   ],
   "topPicksLead": "The **Ruggard Electronic Dry Cabinet (30L)** is the best choice for most photographers, holding a tight humidity band in a size that fits a typical enthusiast kit.",
   "products": [
@@ -43,75 +43,53 @@
       }
     },
     {
-      "id": "stateriver-55l",
-      "name": "StateRiver Electronic Dry Cabinet (55L)",
-      "shortName": "StateRiver 55L",
-      "award": "Best for a growing collection",
+      "id": "eva-dry-e-333",
+      "catalogId": "eva-dry-e-333",
+      "name": "Eva-Dry E-333 Renewable Mini Dehumidifier",
+      "shortName": "Eva-Dry E-333",
+      "award": "Best no-power alternative",
       "pros": [
-        "Nearly twice the space of a 30-liter cabinet",
-        "Adjustable shelves for bodies and upright lenses",
-        "Wide 25–60% range"
+        "No cord, no water and no noise while it works",
+        "Color-change beads show when it needs recharging",
+        "Rated for about 333 cubic feet",
+        "Recharges and reuses for years"
       ],
       "cons": [
-        "Looser ±5-point tolerance",
-        "Larger footprint on a desk or shelf"
+        "No set humidity or built-in readout",
+        "Can pull a small, tight cabinet below 40%"
       ],
-      "whyWeLoveIt": "Once a second body or a couple more lenses won't fit, one bigger cabinet is almost always simpler than running two small ones. The StateRiver gives you that room without a big jump in cost.",
-      "performance": "StateRiver rates its sensor at 25–60% with a tolerance of about 5 points, so it's worth adding a standalone hygrometer inside to confirm the real number. Adjustable shelves let you put bodies up top and stand lenses upright below, which makes the space far more usable than a single deep shelf.",
-      "notes": "A small digital hygrometer on the middle shelf is cheap insurance against a sensor that reads a few points off.",
+      "whyWeLoveIt": "If budget or space rules out an electronic cabinet, the E-333 turns a closed bookcase, gear cabinet or closet shelf into a drier spot for your kit, with nothing to spill and nothing to plug in while it works.",
+      "performance": "Eva-Dry rates it for about 333 cubic feet, far more than a typical gear cabinet holds. When the crystals change color, plug it in for about 10–12 hours to dry it out, then put it back. Because a desiccant has no set point, put a hygrometer next to your lenses and remove the unit if the reading drops below about 35–40%. More cordless options are in our [best Eva-Dry dehumidifier](/best/best-eva-dry-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "55 liters",
-        "Humidity range": "25–60% RH",
-        "Tolerance": "About ±5%, per StateRiver",
-        "Shelving": "Adjustable",
-        "Best for": "Two bodies, several lenses"
+        "Type": "Renewable silica gel",
+        "Rated space": "About 333 cu ft",
+        "Power": "None in use; plug in to recharge",
+        "Recharge time": "About 10–12 hours, per Eva-Dry",
+        "Best for": "Gear cabinets, closet shelves"
       }
     },
     {
-      "id": "eirmai-20l",
-      "name": "Eirmai Dehumidifying Dry Cabinet (20L)",
-      "shortName": "Eirmai 20L",
-      "award": "Best compact",
-      "pros": [
-        "Silent operation with no compressor",
-        "Low power draw for continuous running",
-        "25–60% range with about ±3-point tolerance",
-        "Small enough for a closet shelf"
-      ],
-      "cons": [
-        "Tight fit for a large DSLR kit",
-        "Little room to grow"
-      ],
-      "whyWeLoveIt": "If budget or space rules out a 30-liter cabinet, the Eirmai still gives you set-and-forget control instead of a desiccant pack you have to remember to check.",
-      "performance": "Twenty liters holds a large DSLR with two lenses or a mirrorless body with a prime and a telephoto. Its low power draw makes it practical to run around the clock in places without heavy-duty wiring, such as a dorm room, camper or boat. Eirmai rates the tolerance at about 3 points, on par with the Ruggard.",
-      "specs": {
-        "Capacity": "20 liters",
-        "Humidity range": "25–60% RH",
-        "Tolerance": "About ±3%, per Eirmai",
-        "Noise": "Silent (no compressor)",
-        "Best for": "Small kits, tight spaces"
-      }
-    },
-    {
-      "id": "jjc-usb-c-desiccant",
-      "name": "JJC USB-C Reusable Desiccant Dehumidifier (70g)",
-      "shortName": "JJC USB-C Desiccant",
+      "id": "wisesorb-100g-packs",
+      "catalogId": "wisesorb-100g-packs",
+      "name": "Wisesorb 100g Rechargeable Silica Gel Desiccant Packs",
+      "shortName": "Wisesorb 100g Packs",
       "award": "Best for a camera bag",
       "pros": [
         "Rechargeable instead of disposable",
-        "Fits in a camera bag, lens pouch or case",
-        "Inexpensive"
+        "Color-indicating beads show when they’re saturated",
+        "Small enough for a camera bag, lens pouch or case"
       ],
       "cons": [
         "No set humidity or built-in hygrometer",
-        "Only as good as the bag's seal"
+        "Only as good as the bag’s seal",
+        "Recharges in an oven, not a wall outlet"
       ],
-      "whyWeLoveIt": "If your gear spends more time in a rolling case or backpack than on a shelf, a cabinet sitting empty at home doesn't help. A rechargeable desiccant goes wherever the gear goes.",
-      "performance": "It holds 70 grams of silica gel and recharges over USB-C rather than going in the trash like the packets that ship with new lenses. Without a set point or readout, it's a supplement to good case habits rather than a replacement for a cabinet if your kit is mostly at home. For bigger desiccant options, see our [best desiccant dehumidifier](/best/best-desiccant-dehumidifier/) guide.",
+      "whyWeLoveIt": "If your gear spends more time in a rolling case or backpack than on a shelf, a cabinet sitting empty at home doesn’t help. A rechargeable desiccant pack goes wherever the gear goes.",
+      "performance": "Each pack holds 100 grams of indicating silica gel. When the beads change color, dry them in an oven at roughly 200–250°F for one to two hours and reuse them, rather than throwing them out like the packets that ship with new lenses. Without a set point or readout, it’s a supplement to good case habits rather than a replacement for a cabinet if your kit is mostly at home. For bigger desiccant options, see our [best desiccant dehumidifier](/best/best-desiccant-dehumidifier/) guide.",
       "specs": {
-        "Type": "Rechargeable silica gel",
-        "Desiccant": "70 g",
-        "Recharge": "USB-C",
+        "Type": "Indicating silica gel",
+        "Size": "100 g packs",
+        "Recharge": "Oven, ~200–250°F for 1–2 hrs",
         "Humidity control": "Passive (no set point)",
         "Best for": "Bags, cases, travel"
       }
@@ -218,7 +196,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Ruggard Electronic Dry Cabinet (30L)** is the best camera dry cabinet for most photographers: it holds a tight band around 40–50% in a size that fits a real enthusiast kit. Move up to the **StateRiver 55L** when your collection outgrows it, choose the **Eirmai 20L** for a smaller, silent footprint, and keep a **JJC USB-C desiccant** in the bag for gear that travels. Whatever you pick, check your lenses for fungus before they go in."
+          "text": "The **Ruggard Electronic Dry Cabinet (30L)** is the best camera dry cabinet for most photographers: it holds a tight band around 40–50% in a size that fits a real enthusiast kit. Ruggard sells the same design in larger sizes when your collection outgrows it. If a cabinet isn’t in the budget, put an **Eva-Dry E-333** in a closed gear cabinet with a hygrometer, and keep **Wisesorb 100g Packs** in the bag for gear that travels. Whatever you pick, check your lenses for fungus before they go in."
         }
       ]
     }
@@ -226,7 +204,7 @@
   "faqs": [
     {
       "q": "What is the best camera dry cabinet?",
-      "a": "The Ruggard Electronic Dry Cabinet (30L) for most photographers. It holds 35–60% RH to about ±3 points and fits a mirrorless body with three or four lenses. For a bigger kit, the StateRiver 55L offers nearly twice the space."
+      "a": "The Ruggard Electronic Dry Cabinet (30L) for most photographers. It holds 35–60% RH to about ±3 points and fits a mirrorless body with three or four lenses. For a bigger kit, Ruggard sells the same design in larger sizes."
     },
     {
       "q": "What humidity should a camera dry cabinet be set to?",

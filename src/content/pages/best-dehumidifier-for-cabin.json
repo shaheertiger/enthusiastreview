@@ -93,9 +93,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for large or full-time cabins",
       "pros": [
         "Commercial-grade capacity for a whole cabin",
@@ -107,14 +108,15 @@
         "A big step up in cost",
         "Overkill for a small weekend cabin"
       ],
-      "whyWeLoveIt": "A cabin someone lives in year-round, or a large multi-room place over a damp crawl space, outgrows any single-room unit. The HDi65 is built to dry a whole structure, and its pump means you don't need a floor drain nearby.",
+      "whyWeLoveIt": "A cabin someone lives in year-round, or a large multi-room place over a damp crawl space, outgrows any single-room unit. The HDi65S is built to dry a whole structure, and its pump means you don't need a floor drain nearby.",
       "performance": "AlorAir rates it at up to 120 pints a day at saturation conditions — a lab extreme, so expect less in everyday use, but still far beyond a household box. Auto-defrost lets it keep working down to about 36°F, deeper into the cold than a standard compressor. It's the same type of machine we recommend in our [crawl space dehumidifier guide](/best/best-crawl-space-dehumidifier/).",
       "specs": {
         "Capacity": "Up to 120 pints/day at saturation",
         "Type": "Commercial compressor",
         "Low-temp operation": "About 36°F with auto-defrost",
         "Drainage": "Built-in pump",
-        "Best for": "Full-time or multi-room cabins"
+        "Best for": "Full-time or multi-room cabins",
+        "Smart control": "Wi-Fi app with alerts"
       }
     },
     {
@@ -216,7 +218,7 @@
             ["Grid power, visited every week or two", "Compressor with auto-restart and a drain hose", "Frigidaire FHDD5034W1"],
             ["No utility power", "Renewable silica gel", "Eva-Dry E-500"],
             ["Power, but unheated all winter", "Desiccant rated to 33°F", "Ivation 13-Pint Desiccant"],
-            ["Large or lived in full-time", "Commercial unit with a pump", "AlorAir Sentinel HDi65"],
+            ["Large or lived in full-time", "Commercial unit with a pump", "AlorAir Sentinel HDi65S"],
             ["One room or a loft", "Disposable absorbers", "DampRid Hanging"]
           ]
         },
@@ -257,7 +259,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For a grid-power cabin you visit every week or two, the **Frigidaire FHDD5034W1** is the best dehumidifier for the job, thanks to auto-restart and continuous drainage. Without utility power, rely on the **Eva-Dry E-500**. If the cabin sits unheated all winter, the **Ivation 13-Pint Desiccant** keeps working where a compressor quits; a big or full-time cabin calls for the **AlorAir Sentinel HDi65**, and a tiny camp can get by with **DampRid** bags. For the same logic on wheels, see our [RV dehumidifier picks](/best/best-rv-dehumidifier/)."
+          "text": "For a grid-power cabin you visit every week or two, the **Frigidaire FHDD5034W1** is the best dehumidifier for the job, thanks to auto-restart and continuous drainage. Without utility power, rely on the **Eva-Dry E-500**. If the cabin sits unheated all winter, the **Ivation 13-Pint Desiccant** keeps working where a compressor quits; a big or full-time cabin calls for the **AlorAir Sentinel HDi65S**, and a tiny camp can get by with **DampRid** bags. For the same logic on wheels, see our [RV dehumidifier picks](/best/best-rv-dehumidifier/)."
         }
       ]
     }

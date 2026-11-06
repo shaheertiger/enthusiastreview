@@ -41,9 +41,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for cold barns",
       "pros": [
         "Auto-defrost keeps it working to about 36°F",
@@ -55,7 +56,7 @@
         "Significantly more expensive than a home unit",
         "Still needs a reasonably enclosed space"
       ],
-      "whyWeLoveIt": "A bigger or colder pole barn needs something tougher than a household appliance. The HDi65 is built for crawl spaces and basements that run cold and damp year-round, and its pump means you don't have to place it near the one drain in a large building.",
+      "whyWeLoveIt": "A bigger or colder pole barn needs something tougher than a household appliance. The HDi65S is built for crawl spaces and basements that run cold and damp year-round, and its pump means you don't have to place it near the one drain in a large building.",
       "performance": "AlorAir lists defrost operation down to about 36°F, well below where standard compressor units stall. The pump pushes water up and out through a hose, so you can send it out a wall or to a distant drain. It's built to run for years in tough conditions rather than a few summers in a finished basement. If your barn is closer to an open commercial floor, see our [warehouse dehumidifier guide](/best/best-dehumidifier-for-warehouse/).",
       "specs": {
         "Type": "Commercial compressor",
@@ -66,27 +67,30 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi100",
-      "name": "AlorAir Sentinel HDi100 Dehumidifier",
-      "shortName": "AlorAir HDi100",
+      "id": "alorair-sentinel-hdi90",
+      "catalogId": "alorair-sentinel-hdi90",
+      "name": "AlorAir Sentinel HDi90 Dehumidifier",
+      "shortName": "AlorAir HDi90",
       "award": "Best for large enclosed barns",
       "pros": [
-        "Covers up to about 2,900 square feet",
-        "Built-in pump for hands-off drainage",
-        "Made for round-the-clock operation",
-        "A step below true industrial equipment in cost"
+        "90 pints a day (AHAM) for spaces up to about 2,600 sq ft",
+        "Defrosts down to about 33.8°F",
+        "Ductable or freestanding",
+        "Commercial build for round-the-clock running"
       ],
       "cons": [
         "Wasted on a barn with open sides or vents",
-        "Large and heavy to move"
+        "Gravity drain unless you add AlorAir’s optional pump",
+        "Louder than Aprilaire and Santa Fe, per owners"
       ],
-      "whyWeLoveIt": "When a big pole barn is genuinely built out — insulated walls, a sealed door, no open venting — the HDi100 gives you more coverage than the HDi65 without jumping to industrial equipment. It's a good match for a large equipment bay or a full-size workshop.",
-      "performance": "AlorAir rates it for up to roughly 2,900 square feet, with a built-in pump and a design meant for continuous running. That's the same class of machine used in large storage rooms. It only delivers that coverage in a space that actually holds its air, so seal the structure first.",
+      "whyWeLoveIt": "When a big pole barn is genuinely built out — insulated walls, a sealed door, no open venting — the HDi90 gives you more capacity than the HDi65S without jumping to industrial equipment. It’s a good match for a large equipment bay or a full-size workshop, and its duct collar lets one unit reach a partitioned space.",
+      "performance": "AlorAir rates it at 90 pints a day under AHAM conditions (198 at saturation) for roughly 2,600 square feet, with defrost operation down to about 33.8°F. It only delivers that coverage in a space that actually holds its air, so seal the structure first. It drains by gravity hose, so plan a route to a floor drain or add the optional pump. More of the range is in our [best AlorAir dehumidifier](/best/best-alorair-dehumidifier/) guide.",
       "specs": {
-        "Type": "Commercial compressor",
-        "Coverage": "Up to about 2,900 sq ft",
-        "Drainage": "Built-in pump",
-        "Duty": "Continuous",
+        "Type": "Commercial compressor, ductable",
+        "Capacity": "90 pints/day (AHAM)",
+        "Coverage": "About 2,600 sq ft",
+        "Low-temp operation": "Defrost to about 33.8°F",
+        "Drainage": "Gravity hose or optional pump",
         "Best for": "Large, fully enclosed barns"
       }
     },
@@ -237,8 +241,8 @@
           "head": ["Your pole barn", "Our pick"],
           "rows": [
             ["Insulated, slab floor, powered", "Waykar 80-Pint"],
-            ["Large or cold, partly heated", "AlorAir Sentinel HDi65"],
-            ["Large and fully enclosed", "AlorAir Sentinel HDi100"],
+            ["Large or cold, partly heated", "AlorAir Sentinel HDi65S"],
+            ["Large and fully enclosed", "AlorAir Sentinel HDi90"],
             ["One closed room or bay", "Frigidaire FHDD5034W1"],
             ["No electricity", "DampRid Hanging bags"]
           ]
@@ -251,7 +255,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For an insulated, powered bay, the **Waykar 80-Pint** is the best dehumidifier for a pole barn. Step up to the **AlorAir Sentinel HDi65** for a cold barn or the **HDi100** for a big, fully enclosed one, choose the **Frigidaire FHDD5034W1** for a single room, and use **DampRid** bags if there's no power. Above all, seal the obvious gaps first — a dehumidifier controls humidity, not an open building. For smaller outbuildings, see our [shed picks](/best/best-dehumidifier-for-shed/)."
+          "text": "For an insulated, powered bay, the **Waykar 80-Pint** is the best dehumidifier for a pole barn. Step up to the **AlorAir Sentinel HDi65S** for a cold barn or the **AlorAir HDi90** for a big, fully enclosed one, choose the **Frigidaire FHDD5034W1** for a single room, and use **DampRid** bags if there's no power. Above all, seal the obvious gaps first — a dehumidifier controls humidity, not an open building. For smaller outbuildings, see our [shed picks](/best/best-dehumidifier-for-shed/)."
         }
       ]
     }
@@ -259,7 +263,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for a pole barn?",
-      "a": "For an insulated, powered bay, the Waykar 80-Pint. For a large or cold barn, the AlorAir Sentinel HDi65, which defrosts down to about 36°F and has a built-in pump. If the barn has no outlet, DampRid hanging bags are the realistic option."
+      "a": "For an insulated, powered bay, the Waykar 80-Pint. For a large or cold barn, the AlorAir Sentinel HDi65S, which defrosts down to about 36°F and has a built-in pump. If the barn has no outlet, DampRid hanging bags are the realistic option."
     },
     {
       "q": "Will a dehumidifier actually work in a pole barn?",
@@ -271,7 +275,7 @@
     },
     {
       "q": "What size dehumidifier do I need for a pole barn?",
-      "a": "It depends on how enclosed the space is. An insulated bay is well served by an 80-pint unit, while a large sealed barn benefits from a commercial model like the AlorAir HDi100, rated for about 2,900 square feet."
+      "a": "It depends on how enclosed the space is. An insulated bay is well served by an 80-pint unit, while a large sealed barn benefits from a commercial model like the AlorAir HDi90, rated for about 2,600 square feet."
     },
     {
       "q": "How do I stop condensation on a pole barn's metal roof?",
@@ -279,7 +283,7 @@
     },
     {
       "q": "Will a pole barn dehumidifier work in winter?",
-      "a": "Standard compressor units ice up below about 41°F. The AlorAir Sentinel HDi65 defrosts down to about 36°F, and no-power absorbers like DampRid work at any temperature."
+      "a": "Standard compressor units ice up below about 41°F. The AlorAir Sentinel HDi65S defrosts down to about 36°F, and no-power absorbers like DampRid work at any temperature."
     }
   ],
   "related": [

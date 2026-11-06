@@ -44,9 +44,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for active mold in basements and crawl spaces",
       "pros": [
         "Built for continuous, unattended operation",
@@ -58,7 +59,7 @@
         "Much pricier than portable units",
         "Utilitarian design for unfinished spaces"
       ],
-      "whyWeLoveIt": "Once mold has taken hold below grade, you want a machine that never stops. The HDi65's pump drains it continuously, so it can run around the clock with nobody checking on it — exactly the uninterrupted dryness that starves Stachybotrys.",
+      "whyWeLoveIt": "Once mold has taken hold below grade, you want a machine that never stops. The HDi65S's pump drains it continuously, so it can run around the clock with nobody checking on it — exactly the uninterrupted dryness that starves Stachybotrys.",
       "performance": "AlorAir lists 55 pints a day at AHAM conditions and 120 at saturation, sized for a genuinely wet basement or encapsulated crawl space. The defrost system keeps it working in cold, unheated spaces through the shoulder seasons. For more options built for sealed spaces, see our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
       "specs": {
         "Capacity": "55 pints/day AHAM (120 saturation)",
@@ -118,26 +119,28 @@
       }
     },
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
+      "id": "airplus-max-30-pint",
+      "catalogId": "airplus-max-30-pint",
+      "name": "AirPlus Max 30 Pint Tall Dehumidifier",
+      "shortName": "AirPlus Max 30",
       "award": "Best for bathrooms and closets",
       "pros": [
-        "Compact enough for a bathroom corner",
-        "Full-tank auto shutoff",
-        "Easy-to-empty removable tank"
+        "Sized for single rooms rather than basements",
+        "Drain hose for continuous use",
+        "Quiet sleep mode",
+        "Small enough for an RV or camper"
       ],
       "cons": [
-        "Bucket drainage in most setups",
-        "Simpler controls than larger units"
+        "Marketed capacity, not a DOE 2019 figure",
+        "Not enough for a wet basement"
       ],
-      "whyWeLoveIt": "Small, poorly ventilated rooms are where black mold often gets its start, because they can sit above 60% for weeks without anyone noticing. A 30-pint compressor unit is plenty for that job and won't block the door.",
-      "performance": "Use it in a windowless bathroom after showers or in a closet on an exterior wall, and empty the tank daily during humid months. In a bathroom, pair it with a running exhaust fan; the dehumidifier handles lingering dampness while the fan clears steam. See more small-space picks in our [best dehumidifier for bathroom](/best/best-dehumidifier-for-bathroom/) guide.",
+      "whyWeLoveIt": "Small, poorly ventilated rooms are where black mold often gets its start, because they can sit above 60% for weeks without anyone noticing. A 30-pint compressor unit is plenty for that job, and this one's compact footprint and drain hose let it run continuously in a utility closet or next to a tub without anyone emptying a tank.",
+      "performance": "AirPlus sizes it for up to 1,500 square feet, but it's best treated as a one-room machine. Use it in a windowless bathroom after showers or in a closet on an exterior wall; if there's no drain within reach, empty the tank daily during humid months. In a bathroom, pair it with a running exhaust fan: the dehumidifier handles lingering dampness while the fan clears steam. See more small-space picks in our [best dehumidifier for bathroom](/best/best-dehumidifier-for-bathroom/) guide.",
       "specs": {
-        "Capacity": "30 pints/day",
+        "Capacity": "30 pints/day (marketed)",
         "Type": "Compressor",
-        "Drainage": "Removable tank",
-        "Auto shutoff": "Yes, when full",
+        "Drainage": "Tank or drain hose",
+        "Noise": "Quiet sleep mode",
         "Best for": "Bathroom, closet"
       }
     }
@@ -259,7 +262,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 50** is the best dehumidifier for black mold in most homes, thanks to its big tank and precise humidistat. For an established problem in a basement or crawl space, the **AlorAir Sentinel HDi65** runs nonstop with its own pump, and the **hOmeLabs HME1003** brings pump drainage and app monitoring to a wet basement. The **Frigidaire FHDD5034Y1** is the value pick for a single room, and the **Pro Breeze 30-Pint** suits bathrooms and closets. Whichever you choose, clean up the existing mold first, then let the humidity number do the preventing."
+          "text": "The **Midea Cube 50** is the best dehumidifier for black mold in most homes, thanks to its big tank and precise humidistat. For an established problem in a basement or crawl space, the **AlorAir Sentinel HDi65S** runs nonstop with its own pump, and the **hOmeLabs HME1003** brings pump drainage and app monitoring to a wet basement. The **Frigidaire FHDD5034Y1** is the value pick for a single room, and the **AirPlus Max 30** suits bathrooms and closets. Whichever you choose, clean up the existing mold first, then let the humidity number do the preventing."
         }
       ]
     }
@@ -271,7 +274,7 @@
     },
     {
       "q": "What is the best dehumidifier for black mold?",
-      "a": "The Midea Cube 50 for most rooms, because its 34-pint reservoir keeps it running. For an active problem in a basement or crawl space, the AlorAir Sentinel HDi65 with its built-in pump. For a bathroom or closet, the compact Pro Breeze 30-Pint."
+      "a": "The Midea Cube 50 for most rooms, because its 34-pint reservoir keeps it running. For an active problem in a basement or crawl space, the AlorAir Sentinel HDi65S with its built-in pump. For a bathroom or closet, the AirPlus Max 30, which can drain to a hose."
     },
     {
       "q": "What humidity level stops black mold?",

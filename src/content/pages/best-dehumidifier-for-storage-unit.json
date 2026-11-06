@@ -119,24 +119,26 @@
       }
     },
     {
-      "id": "homelabs-1500-wifi",
-      "name": "hOmeLabs Wi-Fi Dehumidifier (1,500 Sq Ft)",
-      "shortName": "hOmeLabs 1,500 Sq Ft Wi-Fi",
+      "id": "homelabs-32-pint-wifi",
+      "catalogId": "homelabs-32-pint-wifi",
+      "name": "hOmeLabs 32-Pint Wi-Fi Dehumidifier",
+      "shortName": "hOmeLabs 32-Pint Wi-Fi",
       "award": "Best for remote monitoring",
       "pros": [
-        "Check humidity and tank status from home",
-        "Continuous-drain option",
-        "More capacity than most single units need"
+        "Wi-Fi app for checking a space you rarely visit",
+        "32 DOE pints — more capacity than most single units need",
+        "Auto shut-off and washable filter",
+        "Gravity-drain option"
       ],
       "cons": [
         "Needs a nearby outlet",
         "Compressor loses efficiency in a cold unit"
       ],
       "whyWeLoveIt": "The biggest weakness of any storage dehumidifier is not knowing whether it's still working until you show up. If your facility offers power, this hOmeLabs answers that question from your couch.",
-      "performance": "It's a compact compressor unit rated for up to 1,500 square feet, with an app that shows the current humidity and whether the tank is nearly full. Run a drain hose if there's anywhere for water to go, and you'll know about a problem long before your next visit. Like all compressor units, it's best in a unit that stays above roughly 41°F. See the rest of the lineup in our [best hOmeLabs dehumidifier](/best/best-homelabs-dehumidifier/) guide.",
+      "performance": "It's a compressor unit rated at 32 pints a day under the DOE test, with an app so you can check on it remotely; ignore the \"max\" pint figure and the 4,500-square-foot coverage claim on the listing, both of which are optimistic. Run a gravity drain hose if there's anywhere for water to go — otherwise the bucket shuts the unit off when full — and you'll know about a problem long before your next visit. Like all compressor units, it's best in a unit that stays above roughly 41°F. See the rest of the lineup in our [best hOmeLabs dehumidifier](/best/best-homelabs-dehumidifier/) guide.",
       "specs": {
         "Type": "Compressor",
-        "Coverage": "Up to 1,500 sq ft (maker's claim)",
+        "Capacity": "32 pints/day (DOE 2019)",
         "Smart control": "Wi-Fi app",
         "Drainage": "Bucket or gravity hose",
         "Best for": "Climate-controlled units with power"
@@ -252,7 +254,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most renters, the **Eva-Dry E-500** is the best dehumidifier for a storage unit: cordless, renewable and sized for a standard space with no outlet. If you won't be back for months, use the **DampRid Hi-Capacity FG50T** so nothing depends on a recharge trip, and size down to the **Eva-Dry E-333** for a 5x5. If your facility provides power, the **Ivation 13-pint desiccant** or an app-connected **hOmeLabs** unit will do far more work than any passive absorber. For similar spaces, see our [shed](/best/best-dehumidifier-for-shed/) and [shipping container](/best/best-dehumidifier-for-shipping-container/) guides."
+          "text": "For most renters, the **Eva-Dry E-500** is the best dehumidifier for a storage unit: cordless, renewable and sized for a standard space with no outlet. If you won't be back for months, use the **DampRid Hi-Capacity FG50T** so nothing depends on a recharge trip, and size down to the **Eva-Dry E-333** for a 5x5. If your facility provides power, the **Ivation 13-pint desiccant** or the app-connected **hOmeLabs 32-Pint Wi-Fi** will do far more work than any passive absorber. For similar spaces, see our [shed](/best/best-dehumidifier-for-shed/) and [shipping container](/best/best-dehumidifier-for-shipping-container/) guides."
         }
       ]
     }

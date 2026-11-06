@@ -58,9 +58,8 @@
   },
   "ge-aper50lz": {
     "name": "GE 50-Pint Dehumidifier with Built-In Pump (APER50LZ)",
-    "asin": "",
-    "image": "",
-    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
+    "asin": "B0FNQJ2LJS",
+    "image": "https://m.media-amazon.com/images/I/21gadGAP2sL._SL500_.jpg"
   },
   "aprilaire-e070": {
     "name": "Aprilaire E070 Crawl Space Dehumidifier",
@@ -549,10 +548,8 @@
   },
   "midea-22-pint-wifi": {
     "name": "Midea 22-Pint Smart Dehumidifier (Wi-Fi/Alexa)",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Search matched the non-Wi-Fi MAD22C1AWS listing (B07NRDBBH5); cleared."
+    "asin": "B0FVGKPV97",
+    "image": "https://m.media-amazon.com/images/I/21mWXWENCPL._SL500_.jpg"
   },
   "ac-infinity-hydrone-3": {
     "name": "AC Infinity HYDRONE 3 Plant Dehumidifier",
@@ -604,11 +601,9 @@
     "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
   },
   "hisense-50-pint-3-speed": {
-    "name": "hisense-50-pint-3-speed",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+    "name": "Hisense 50-Pint 3-Speed Dehumidifier",
+    "asin": "B0GWFN8LQR",
+    "image": "https://m.media-amazon.com/images/I/21OmDR-HGTL._SL500_.jpg"
   },
   "sanidry-sedona": {
     "name": "sanidry-sedona",
@@ -618,11 +613,9 @@
     "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
   },
   "shinco-sdl-30p": {
-    "name": "shinco-sdl-30p",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
+    "name": "Shinco 30-Pint Dehumidifier (SDL-30P)",
+    "asin": "B08P2VVX9X",
+    "image": "https://m.media-amazon.com/images/I/41KmNogO4BL._SL500_.jpg"
   },
   "toshiba-tddp3513es2": {
     "name": "toshiba-tddp3513es2",
@@ -707,5 +700,330 @@
     "name": "AirCyan 32 Pint Dehumidifier with HEPA Filter",
     "asin": "B0F4QBNW1Z",
     "image": "https://m.media-amazon.com/images/I/31lfOOrSXqL._SL500_.jpg"
+  },
+  "frigidaire-fhdd5034w1": {
+    "name": "Frigidaire 50-Pint ENERGY STAR Dehumidifier (FHDD5034W1)",
+    "asin": "B0FP1L6W89",
+    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
+  },
+  "frigidaire-ffad2233w1": {
+    "name": "Frigidaire 22-Pint Dehumidifier (FFAD2233W1)",
+    "asin": "B0DFZHBSZX",
+    "image": "https://m.media-amazon.com/images/I/31KlaJk653L._SL500_.jpg"
+  },
+  "frigidaire-fhdd5034y1": {
+    "name": "Frigidaire 50-Pint High Humidity Wi-Fi Dehumidifier (FHDD5034Y1)",
+    "asin": "B0FP1L6W89",
+    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
+  },
+  "homelabs-hme1003": {
+    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (HME1003)",
+    "asin": "B073V9MG3Y",
+    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
+  },
+  "homelabs-hme1003-wifi": {
+    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (HME1003)",
+    "asin": "B073V9MG3Y",
+    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
+  },
+  "friedrich-d35b1b": {
+    "name": "Friedrich 35-Pint Dehumidifier with Pump (D35B1B)",
+    "asin": "B0F95HQTW6",
+    "image": "https://m.media-amazon.com/images/I/21p82hhlm6L._SL500_.jpg"
+  },
+  "lockdown-goldenrod-18": {
+    "name": "LOCKDOWN GoldenRod 18\" Dehumidifier Rod",
+    "asin": "B00CYBDFWI",
+    "image": "https://m.media-amazon.com/images/I/21YELvWnjhL._SL500_.jpg"
+  },
+  "honeywell-tp70pwknr": {
+    "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKNR)",
+    "asin": "B0DCNTTY8S",
+    "image": "https://m.media-amazon.com/images/I/21AiBeSLoXL._SL500_.jpg"
+  },
+  "honeywell-tp70pwkn": {
+    "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKN)",
+    "asin": "B0DCNTTY8S",
+    "image": "https://m.media-amazon.com/images/I/21AiBeSLoXL._SL500_.jpg"
+  },
+  "honeywell": {
+    "name": "Honeywell \u2014 TP-Series Portable Dehumidifiers",
+    "asin": "B0DCNTTY8S",
+    "image": "https://m.media-amazon.com/images/I/21AiBeSLoXL._SL500_.jpg"
+  },
+  "ge-adel35lz": {
+    "name": "GE 35-Pint ENERGY STAR Dehumidifier (ADEL35LZ)",
+    "asin": "B0FNPM17YY",
+    "image": "https://m.media-amazon.com/images/I/21JbkL2OzJL._SL500_.jpg"
+  },
+  "santa-fe-classic": {
+    "name": "Santa Fe Classic Dehumidifier",
+    "asin": "B0DRWDJXZL",
+    "image": "https://m.media-amazon.com/images/I/31S8dcF4LTL._SL500_.jpg"
+  },
+  "santa-fe-classic-100-pint": {
+    "name": "Santa Fe Classic Dehumidifier",
+    "asin": "B0DRWDJXZL",
+    "image": "https://m.media-amazon.com/images/I/31S8dcF4LTL._SL500_.jpg"
+  },
+  "bluedri-bd-76": {
+    "name": "BlueDri BD-76 LGR Dehumidifier",
+    "asin": "B09PPQCBF9",
+    "image": "https://m.media-amazon.com/images/I/41Tf4EjORPL._SL500_.jpg"
+  },
+  "pro-breeze-1500ml-mini": {
+    "name": "Pro Breeze 1500ml Premium Mini Dehumidifier",
+    "asin": "B01HXVUT7C",
+    "image": "https://m.media-amazon.com/images/I/41qq9hL4YpL._SL500_.jpg"
+  },
+  "pro-breeze-1500ml": {
+    "name": "Pro Breeze 1500ml Premium Mini Dehumidifier",
+    "asin": "B01HXVUT7C",
+    "image": "https://m.media-amazon.com/images/I/41qq9hL4YpL._SL500_.jpg"
+  },
+  "homelabs-wifi": {
+    "name": "hOmeLabs Wi-Fi Compressor Dehumidifier",
+    "asin": "B073VBWKJZ",
+    "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
+  },
+  "homelabs": {
+    "name": "hOmeLabs \u2014 50-Pint Wi-Fi Dehumidifier (HME031003N)",
+    "asin": "B073VBWKJZ",
+    "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
+  },
+  "homelabs-hme031003n": {
+    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier (HME031003N)",
+    "asin": "B073VBWKJZ",
+    "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
+  },
+  "keystone-kstad504": {
+    "name": "Keystone 50-Pint Dehumidifier with Electronic Controls (KSTAD504F/KSTAD504G)",
+    "asin": "B0C62CWF4C",
+    "image": "https://m.media-amazon.com/images/I/31NgebUspQL._SL500_.jpg"
+  },
+  "keystone-kstad506pg": {
+    "name": "Keystone 50-Pint Dehumidifier with Built-In Pump (KSTAD506PG)",
+    "asin": "B0GVLCQS4S",
+    "image": "https://m.media-amazon.com/images/I/21gqfRq3fgL._SL500_.jpg"
+  },
+  "keystone-kstad224": {
+    "name": "Keystone 22-Pint Dehumidifier (KSTAD224F/KSTAD224E)",
+    "asin": "B0D2DVWLHC",
+    "image": "https://m.media-amazon.com/images/I/21gqfRq3fgL._SL500_.jpg"
+  },
+  "keystone-kstad354": {
+    "name": "Keystone 35-Pint Dehumidifier (KSTAD354F/KSTAD354G)",
+    "asin": "B0GVLCB765",
+    "image": "https://m.media-amazon.com/images/I/21gqfRq3fgL._SL500_.jpg"
+  },
+  "yaufey-70-pint-ayd15dpm": {
+    "name": "Yaufey 70-Pint Dehumidifier with Pump (AYD1.5DPM)",
+    "asin": "B0FCS31FRW",
+    "image": "https://m.media-amazon.com/images/I/41tRqKabM3L._SL500_.jpg"
+  },
+  "dampp-chaser-pads": {
+    "name": "Dampp-Chaser Humidifier Pad Treatment and Replacement Pads",
+    "asin": "B00945YS4G",
+    "image": "https://m.media-amazon.com/images/I/41RHBB6r46L._SL500_.jpg"
+  },
+  "ivation-ivadh50pwp2": {
+    "name": "Ivation 50-Pint Dehumidifier with Pump (IVADH50PWP2)",
+    "asin": "B078HVJG8Y",
+    "image": "https://m.media-amazon.com/images/I/31BuAavmLAL._SL500_.jpg"
+  },
+  "zarpax-lv-a300": {
+    "name": "Zarpax LV-A300 Car Dehumidifier Bag (300 g)",
+    "asin": "B01N3507KW",
+    "image": "https://m.media-amazon.com/images/I/51XfEb4WXLL._SL500_.jpg"
+  },
+  "frigidaire": {
+    "name": "Frigidaire \u2014 50-Pint Wi-Fi Dehumidifier (FHDD5034W1)",
+    "asin": "B0FP1L6W89",
+    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
+  },
+  "amana-amnd501aw": {
+    "name": "Amana 50-Pint Portable Dehumidifier (AMND501AW)",
+    "asin": "B0D2DV4G9P",
+    "image": "https://m.media-amazon.com/images/I/2148j+Qej1L._SL500_.jpg"
+  },
+  "waykar-chwa80a": {
+    "name": "Waykar CHWA80A 80-Pint Dehumidifier",
+    "asin": "B0B5V2YZPZ",
+    "image": "https://m.media-amazon.com/images/I/21VmSDJgC7L._SL500_.jpg"
+  },
+  "waykar-pd160b-pro": {
+    "name": "Waykar PD160B-PRO 34-Pint Dehumidifier",
+    "asin": "B0GT9WCDWK",
+    "image": "https://m.media-amazon.com/images/I/31sHaE6wi0L._SL500_.jpg"
+  },
+  "waykar-cth150pd": {
+    "name": "Waykar CTH150PD 150-Pint Dehumidifier with Pump",
+    "asin": "B0DBLPC8LC",
+    "image": "https://m.media-amazon.com/images/I/31bUk-p3WaL._SL500_.jpg"
+  },
+  "waykar-cpg130a": {
+    "name": "Waykar CPG130A 130-Pint Commercial Dehumidifier",
+    "asin": "B0HCC85VQF",
+    "image": "https://m.media-amazon.com/images/I/417xLJBm6dL._SL500_.jpg"
+  },
+  "dri-eaz-phd-200": {
+    "name": "Dri-Eaz PHD 200 Dehumidifier",
+    "asin": "B00IJ27MB6",
+    "image": "https://m.media-amazon.com/images/I/41CwJ-sd7HL._SL500_.jpg"
+  },
+  "levoit-core-300-pairing": {
+    "name": "Levoit Core 300 True HEPA Air Purifier (paired with a dedicated dehumidifier)",
+    "asin": "B08GLVHN39",
+    "image": "https://m.media-amazon.com/images/I/51AKBv0BCJL._SL500_.jpg"
+  },
+  "phoenix-drymax-xl": {
+    "name": "Phoenix DryMAX XL LGR Dehumidifier",
+    "asin": "B095KXXZLP",
+    "image": "https://m.media-amazon.com/images/I/51YDF2HgqgS._SL500_.jpg"
+  },
+  "black-decker-bdt50pwtb": {
+    "name": "BLACK+DECKER 50-Pint Dehumidifier with Pump (BDT50PWTB)",
+    "asin": "B0G5YCVZH3",
+    "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
+  },
+  "black-decker-bdt50wtb": {
+    "name": "BLACK+DECKER 50-Pint Dehumidifier (BDT50WTB)",
+    "asin": "B0G1R5GPMZ",
+    "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
+  },
+  "costway-60-pint": {
+    "name": "Costway 60-Pint Dehumidifier (COST00686 / F1W-10N-10N5U1-IT)",
+    "asin": "B0BC87S5XJ",
+    "image": "https://m.media-amazon.com/images/I/315FLLeDk+L._SL500_.jpg"
+  },
+  "costway-100-pint": {
+    "name": "Costway 100-Pint Smart Dehumidifier (COST00687 / F1W-10N-10N6U1-IT)",
+    "asin": "B0BG89TTMN",
+    "image": "https://m.media-amazon.com/images/I/31LHAVKbAxL._SL500_.jpg"
+  },
+  "hisense-hd3526": {
+    "name": "Hisense 35-Pint Dehumidifier (HD3526)",
+    "asin": "B0DBVZW7P7",
+    "image": "https://m.media-amazon.com/images/I/2137YvPm2uL._SL500_.jpg"
+  },
+  "panasonic-whispergreen-select": {
+    "name": "Panasonic WhisperGreen Select Bathroom Exhaust Fan",
+    "asin": "B0D7QRKS2W",
+    "image": "https://m.media-amazon.com/images/I/31BPw7FpYgL._SL500_.jpg"
+  },
+  "tcl-w50d9p3-b": {
+    "name": "TCL 50-Pint Dehumidifier (W50D9P3-B)",
+    "asin": "B0CRJZXP1V",
+    "image": "https://m.media-amazon.com/images/I/31cHA6hrJCL._SL500_.jpg"
+  },
+  "hornady-dehumidifier-rod": {
+    "name": "Hornady Dehumidifier Rod",
+    "asin": "B07KCRK4H8",
+    "image": "https://m.media-amazon.com/images/I/31ExvtVCPdL._SL500_.jpg"
+  },
+  "tabyik-dh-cs01": {
+    "name": "TABYIK DH-CS01 Mini Dehumidifier",
+    "asin": "B09TSZTMZ2",
+    "image": "https://m.media-amazon.com/images/I/41Lz3PLVm+L._SL500_.jpg"
+  },
+  "dry-and-store-global-ii": {
+    "name": "Dry & Store Global II Hearing Aid Dryer",
+    "asin": "B000LUWATS",
+    "image": "https://m.media-amazon.com/images/I/31LAnm0HF4S._SL500_.jpg"
+  },
+  "daddario-humidipak": {
+    "name": "D'Addario Humidipak Two-Way Humidification System",
+    "asin": "B00UKBLGZC",
+    "image": "https://m.media-amazon.com/images/I/41AK0TN6PGL._SL500_.jpg"
+  },
+  "lg-ud501kog5": {
+    "name": "LG PuriCare 50-Pint Dehumidifier (UD501KOG5)",
+    "asin": "B0H42G5D34",
+    "image": "https://m.media-amazon.com/images/I/31-3Khuti1L._SL500_.jpg"
+  },
+  "frigidaire-ffad5034w1": {
+    "name": "Frigidaire 50-Pint ENERGY STAR Dehumidifier (FFAD5034W1)",
+    "asin": "B0FP1L6W89",
+    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
+  },
+  "ge": {
+    "name": "GE \u2014 50-Pint Dehumidifier with Built-In Pump (APYR50LC)",
+    "asin": "B0FNQJ2LJS",
+    "image": "https://m.media-amazon.com/images/I/21gadGAP2sL._SL500_.jpg"
+  },
+  "ge-adhr50lz": {
+    "name": "GE 50-Pint Smart Dehumidifier with Pump (ADHR50LZ)",
+    "asin": "B0FNQJ2LJS",
+    "image": "https://m.media-amazon.com/images/I/21gadGAP2sL._SL500_.jpg"
+  },
+  "homelabs-hme031004n": {
+    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (HME031004N / HME1004)",
+    "asin": "B073V9MG3Y",
+    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
+  },
+  "homelabs-hme1004": {
+    "name": "hOmeLabs 50-Pint Dehumidifier with Pump and Wi-Fi (HME031004N)",
+    "asin": "B073V9MG3Y",
+    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
+  },
+  "midea-cube-50-pump": {
+    "name": "Midea Cube 50-Pint Dehumidifier with Built-In Pump (MAD50PS1QWT)",
+    "asin": "B0GL7R3RJV",
+    "image": "https://m.media-amazon.com/images/I/31wDgVZfXXL._SL500_.jpg"
+  },
+  "midea-mad50ps1bwt-c": {
+    "name": "Midea 50-Pint Dehumidifier with Built-In Pump (MAD50PS1BWT-C)",
+    "asin": "B0GL7R3RJV",
+    "image": "https://m.media-amazon.com/images/I/31wDgVZfXXL._SL500_.jpg"
+  },
+  "midea-mad50ps1awbl": {
+    "name": "Midea 50-Pint Smart Dehumidifier (MAD50PS1AWBL)",
+    "asin": "B0GL7R3RJV",
+    "image": "https://m.media-amazon.com/images/I/31wDgVZfXXL._SL500_.jpg"
+  },
+  "aeocky-leo-003": {
+    "name": "AEOCKY Leo-003 Dehumidifier with Pump (sold as 140-pint)",
+    "asin": "B0G1TP95GL",
+    "image": "https://m.media-amazon.com/images/I/3113X0ANTBL._SL500_.jpg"
+  },
+  "hal-hen-mini-dri-aid": {
+    "name": "Hal-Hen Mini Dri-Aid Hearing Aid Drying Jar",
+    "asin": "B0085F8S6U",
+    "image": "https://m.media-amazon.com/images/I/41bQ3K9LlxL._SL500_.jpg"
+  },
+  "goldenrod-24-inch": {
+    "name": "GoldenRod 24-Inch Dehumidifier Rod",
+    "asin": "B00CYBDFWI",
+    "image": "https://m.media-amazon.com/images/I/21YELvWnjhL._SL500_.jpg"
+  },
+  "amsec-dri-rod": {
+    "name": "American Security (AMSEC) Dri-Rod Dehumidifier",
+    "asin": "B005KW4N4M",
+    "image": "https://m.media-amazon.com/images/I/21Yfq1LBWLL._SL500_.jpg"
+  },
+  "ivation-19-pint-desiccant": {
+    "name": "Ivation 19-Pint Small-Area Desiccant Dehumidifier (IVADDH09)",
+    "asin": "B07X43RGML",
+    "image": "https://m.media-amazon.com/images/I/31z+dMFkIeL._SL500_.jpg"
+  },
+  "boveda-49-instrument-kit": {
+    "name": "Boveda 49% RH Large Instrument Starter Kit",
+    "asin": "B0CX7C3NQ5",
+    "image": "https://m.media-amazon.com/images/I/51ALWVNJ1nL._SL500_.jpg"
+  },
+  "frigidaire-fhdp5033w1": {
+    "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FHDP5033W1 / FHDP5033Y1)",
+    "asin": "B0FP2VXZ2B",
+    "image": "https://m.media-amazon.com/images/I/31niBfzVsZL._SL500_.jpg"
+  },
+  "honeywell-tp70awknr": {
+    "name": "Honeywell 50-Pint Smart Wi-Fi Dehumidifier (TP70AWKNR)",
+    "asin": "B0CFQTLVSC",
+    "image": "https://m.media-amazon.com/images/I/31EoFt7MXgL._SL500_.jpg"
+  },
+  "shinco-120-pint-wifi": {
+    "name": "Shinco 120-Pint ENERGY STAR Wi-Fi Dehumidifier",
+    "asin": "B07RPDKQZM",
+    "image": "https://m.media-amazon.com/images/I/31sA5qQcHzL._SL500_.jpg"
   }
 }

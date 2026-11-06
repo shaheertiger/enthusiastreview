@@ -45,29 +45,30 @@
       }
     },
     {
-      "id": "alorair-storm-lgr-850",
-      "name": "AlorAir Storm LGR 850 Dehumidifier",
-      "shortName": "Storm LGR 850",
+      "id": "dri-eaz-revolution",
+      "catalogId": "dri-eaz-revolution",
+      "name": "Dri-Eaz Revolution LGR Dehumidifier",
+      "shortName": "Dri-Eaz Revolution",
       "award": "Best compact",
       "pros": [
-        "Same 85/180-pint rating as the Extreme",
-        "Retractable handle and wheels for hauling",
-        "Pump with 19.6 ft of lifting distance",
-        "Lower cost than the Extreme"
+        "Professional LGR drying in a compact body",
+        "Built-in condensate pump",
+        "About 63 lb, so one person can carry it up stairs",
+        "Widely used by restoration contractors"
       ],
       "cons": [
-        "Skips the Extreme's Wi-Fi option",
-        "Still too much machine for comfort drying"
+        "Lower capacity than the full-size LGRs here",
+        "Largely replaced by the LGR 5000Li at dealers"
       ],
-      "whyWeLoveIt": "The LGR 850 packs the Extreme's drying capacity into a smaller, lighter body meant to go up basement stairs and into a truck bed. If you run one job at a time, or you want restoration-grade capacity for your own property without the top price, it's the smart pick.",
-      "performance": "It carries the same 85-pint AHAM and 180-pint saturation ratings as its bigger sibling, plus auto-defrost to 36°F and a MERV-8 filter for cold crawl spaces and dusty construction sites. AlorAir quotes a full 19.6 feet of pump lift. You give up some refinement and app control, not water removal.",
+      "whyWeLoveIt": "The Revolution packs restoration-grade LGR drying into a body one person can carry up basement stairs and into a truck bed. If you run one job at a time, or you want pro-style drying for your own property without full-size bulk, it's the smart pick.",
+      "performance": "Legend rates the Revolution at 80 pints a day under AHAM conditions and 144 at saturation, at about 63 pounds and 61 dB. Its built-in pump sends water to a sink or drain so it can run unattended. Dri-Eaz's newer LGR 5000Li matches that AHAM rating with more airflow, so if you see both listed, compare current prices. You give up some capacity next to the Storm LGR Extreme, not the low-grain drying itself.",
       "specs": {
-        "Capacity": "85 pints/day AHAM; 180 at saturation",
+        "Capacity": "80 pints/day AHAM; 144 at saturation",
         "Type": "LGR compressor",
-        "Drainage": "Built-in pump, 19.6 ft lift",
-        "Coverage": "Up to 2,300 sq ft",
-        "Low-temp operation": "Down to 36°F",
-        "Best for": "Mobile contractors, cold basements"
+        "Drainage": "Built-in pump",
+        "Weight": "About 63 lb",
+        "Noise": "61 dB (rated)",
+        "Best for": "Mobile contractors, single rooms"
       }
     },
     {
@@ -122,28 +123,30 @@
       }
     },
     {
-      "id": "alorair-storm-slgr-1400x",
-      "name": "AlorAir Storm SLGR 1400X Dehumidifier",
-      "shortName": "Storm SLGR 1400X",
-      "award": "Best for tough structural drying",
+      "id": "dri-eaz-lgr-6000li",
+      "catalogId": "dri-eaz-lgr-6000li",
+      "name": "Dri-Eaz LGR 6000Li Low-Grain Refrigerant Dehumidifier",
+      "shortName": "Dri-Eaz LGR 6000Li",
+      "award": "Best for occupied homes",
       "pros": [
-        "SLGR design pulls water from already-dry air",
-        "Highest capacity here: 140 pints/day AHAM",
-        "Coverage up to 3,800 sq ft",
-        "Smart controls for multi-day runs"
+        "Rated 100 pints AHAM, 219 at saturation",
+        "320 CFM airflow",
+        "Rated at 53 dB, quiet for its class",
+        "Published 748-watt draw makes running costs easy to estimate"
       ],
       "cons": [
-        "Specialist tool; wasted on a damp basement",
-        "Large and heavy"
+        "Two won't fit on one 15-amp circuit",
+        "Less capacity than the Storm Elite or 7000XLi"
       ],
-      "whyWeLoveIt": "Late in a structural dry-out, the room air already feels dry but the studs and subfloor are still wet. That's exactly where the SLGR 1400X earns its place: its Smart Low Grain Refrigerant system keeps condensing water at low humidity levels where ordinary units stall.",
-      "performance": "It's rated at 140 pints a day at AHAM and 275 at saturation, with coverage up to 3,800 square feet — the biggest numbers on this list. A built-in pump and heavy roll cage round it out. It's the machine for restoration businesses that need to close out difficult jobs quickly, not for homeowners.",
+      "whyWeLoveIt": "Plenty of water-damage jobs happen in houses where the family is still living and sleeping. The 6000Li brings true low-grain refrigerant drying — the kind that keeps condensing water after the room air feels dry but the framing is still wet — at a rated 53 dB, noticeably quieter than most machines in its class.",
+      "performance": "Legend rates it at 100 pints a day AHAM and 219 at saturation, with 320 CFM of airflow on a 748-watt draw. Run around the clock, that's roughly 18 kWh a day. At 6.5 amps, a pair of them exceeds the continuous-load limit of a single 15-amp household circuit, so spread units across circuits. The spill-proof pump basin holds water after the final purge. More of the range is in our [best Dri-Eaz dehumidifier](/best/best-dri-eaz-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "140 pints/day AHAM; 275 at saturation",
-        "Type": "SLGR compressor",
-        "Drainage": "Built-in pump",
-        "Coverage": "Up to 3,800 sq ft",
-        "Best for": "Professional structural drying"
+        "Capacity": "100 pints AHAM / 219 saturation",
+        "Type": "LGR",
+        "Airflow": "320 CFM",
+        "Power": "6.5 A / 748 W",
+        "Noise": "53 dB (rated)",
+        "Best for": "Water damage in occupied homes"
       }
     },
     {
@@ -214,9 +217,9 @@
               "Most jobs"
             ],
             [
-              "AlorAir Storm LGR 850",
-              "85 / 180",
-              "Up to 2,300 sq ft",
+              "Dri-Eaz Revolution",
+              "80 / 144",
+              "Single rooms, small leaks",
               "Portability"
             ],
             [
@@ -232,10 +235,10 @@
               "Large open areas"
             ],
             [
-              "AlorAir Storm SLGR 1400X",
-              "140 / 275",
-              "Up to 3,800 sq ft",
-              "Hard structural drying"
+              "Dri-Eaz LGR 6000Li",
+              "100 / 219",
+              "Everyday water-damage jobs",
+              "Occupied homes"
             ],
             [
               "Dri-Eaz LGR 7000XLi",
@@ -340,7 +343,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **AlorAir Storm LGR Extreme** is the best commercial dehumidifier for most buyers: real LGR drying, a self-draining pump, cold-weather defrost and a five-year warranty. Choose the **Storm LGR 850** if you'll haul it between jobs, the **BlueDri BD-76** for rough sites where durability matters most, and the **Storm Elite** or **SLGR 1400X** when the wet area is a whole floor or warehouse. The **Dri-Eaz LGR 7000XLi** remains the premium pick for restoration businesses that need a service network behind every machine."
+          "text": "The **AlorAir Storm LGR Extreme** is the best commercial dehumidifier for most buyers: real LGR drying, a self-draining pump, cold-weather defrost and a five-year warranty. Choose the **Dri-Eaz Revolution** if you'll haul it between jobs, the **BlueDri BD-76** for rough sites where durability matters most, the **Storm Elite** when the wet area is a whole floor or warehouse, and the **Dri-Eaz LGR 6000Li** when the drying happens next to rooms people are still living in. The **Dri-Eaz LGR 7000XLi** remains the premium pick for restoration businesses that need a service network behind every machine."
         }
       ]
     }

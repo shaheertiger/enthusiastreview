@@ -10,38 +10,12 @@
   "published": "2026-09-20",
   "updated": "2026-11-05",
   "intro": [
-    "Most people searching for a **piano dehumidifier** need something slightly different from what they expect. The industry-standard answer is the **Dampp-Chaser Piano Life Saver System**, a two-way humidity controller a technician installs inside the piano. It both adds and removes moisture to hold the instrument at a steady 42% relative humidity — squarely inside Yamaha’s recommended 40–45% range.",
+    "Most people searching for a **piano dehumidifier** need something slightly different from what they expect. The industry-standard answer is the Dampp-Chaser Piano Life Saver System, a two-way humidity controller that a piano technician installs inside the instrument — it isn’t sold as a complete self-install kit. It both adds and removes moisture to hold the instrument at a steady 42% relative humidity — squarely inside Yamaha’s recommended 40–45% range.",
     "That matters because pianos fail in both directions. Dry air cracks soundboards and loosens tuning pins; damp air swells action parts, throws regulation off and rusts strings. A room dehumidifier can only push one way, and it can’t reach the soundboard and pinblock the way an in-piano system can.",
     "Below we cover the best options for three common situations: a piano with no humidity control yet, a piano with a Dampp-Chaser that needs maintenance, and a piano sitting in a genuinely damp room."
   ],
-  "topPicksLead": "For long-term protection, the professionally installed **Dampp-Chaser Piano Life Saver System** is the best humidity solution for most pianos.",
+  "topPicksLead": "Long-term protection starts with a technician-installed Dampp-Chaser system; if your piano already has one, **Dampp-Chaser Pads** and Pad Treatment are the upkeep that keeps it working.",
   "products": [
-    {
-      "id": "dampp-chaser-piano-life-saver",
-      "name": "Dampp-Chaser Piano Life Saver System",
-      "shortName": "Piano Life Saver System",
-      "award": "Best overall",
-      "pros": [
-        "Adds and removes moisture as needed",
-        "Holds the piano at a steady 42%",
-        "Works near the soundboard and pinblock",
-        "Protects against both dry and damp damage"
-      ],
-      "cons": [
-        "Requires a piano technician to install",
-        "Needs pad changes and water refills"
-      ],
-      "whyWeLoveIt": "It’s the only option here that protects the piano itself, regardless of what the room does. Instead of drying the whole space, it keeps the instrument’s wood at a stable moisture level year-round.",
-      "performance": "The system mounts inside the case and combines a dehumidifying heater, a humidifier with wicking pads and a humidistat set to 42%. Installation cost depends on whether you have an upright or a grand and on the system size — see the FAQ below. It isn’t sold as a complete self-install kit; listings that suggest otherwise are usually selling parts.",
-      "notes": "Ask a Registered Piano Technician whether your piano is a good candidate — especially if it lives where humidity swings with the seasons.",
-      "specs": {
-        "Type": "Two-way, in-piano",
-        "Set point": "42% RH",
-        "Installation": "Piano technician",
-        "Maintenance": "Pads about twice a year",
-        "Best for": "Any piano in a variable climate"
-      }
-    },
     {
       "id": "dampp-chaser-pads",
       "name": "Dampp-Chaser Humidifier Pad Treatment and Replacement Pads",
@@ -253,7 +227,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The best piano dehumidifier is really a two-way system: the **Dampp-Chaser Piano Life Saver**, installed by a technician, holds the instrument at 42% no matter the season. If you already have one, **fresh pads and Pad Treatment** fix most problems. Start with a reliable hygrometer like the **AcuRite 01080M**, and add a room unit such as the **Midea Cube 20** only if the room itself runs damp. Protecting other instruments too? See our [guitar dehumidifier](/best/best-dehumidifier-for-guitar/) guide."
+          "text": "The best piano dehumidifier is really a two-way system: a Dampp-Chaser Piano Life Saver System, installed by a piano technician, holds the instrument at 42% no matter the season — ask a Registered Piano Technician whether your piano is a good candidate. If you already have one, fresh **Dampp-Chaser Pads** and Pad Treatment fix most problems. Start with a reliable hygrometer like the **AcuRite 01080M**, and add a room unit such as the **Midea Cube 20** only if the room itself runs damp. Protecting other instruments too? See our [guitar dehumidifier](/best/best-dehumidifier-for-guitar/) guide."
         }
       ]
     }
@@ -261,7 +235,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for a piano?",
-      "a": "For the piano itself, the Dampp-Chaser Piano Life Saver System — a two-way unit installed inside the instrument that holds it at 42% humidity. A room dehumidifier like the Midea Cube 20 helps only when a hygrometer shows the room runs consistently above about 55–60%."
+      "a": "For the piano itself, the Dampp-Chaser Piano Life Saver System — a two-way unit a piano technician installs inside the instrument that holds it at 42% humidity. If you already have one, keep it running with fresh Dampp-Chaser pads and Pad Treatment. A room dehumidifier like the Midea Cube 20 helps only when a hygrometer shows the room runs consistently above about 55–60%."
     },
     {
       "q": "What humidity level is best for a piano?",

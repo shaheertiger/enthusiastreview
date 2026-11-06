@@ -14,12 +14,13 @@
     "That's why we think of a mobile home as two zones. Upstairs, bathrooms, cooking and laundry raise humidity the same way they do in any house. Downstairs, ground moisture works on the belly board and insulation around the clock. A bigger portable in the living room can't fix the second problem, and a crawl-space unit under the home won't make your bedroom more comfortable.",
     "Below, we've chosen one dedicated pick for the underbelly, sized interior picks for single-wides and double-wides, a pump option for homes without a nearby drain, and a no-power absorber for small hatches and closets."
   ],
-  "topPicksLead": "Start under the floor: the **AlorAir Sentinel HDi65** is our top pick because it's built to run unattended in the kind of low, enclosed space a skirted underbelly really is.",
+  "topPicksLead": "Start under the floor: the **AlorAir Sentinel HDi65S** is our top pick because it's built to run unattended in the kind of low, enclosed space a skirted underbelly really is.",
   "products": [
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Crawl Space Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Crawl Space Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for the underbelly",
       "pros": [
         "Low-profile commercial body fits tight clearances",
@@ -31,7 +32,7 @@
         "A significant investment compared with a portable",
         "Needs an outlet and a hose route out of the skirting"
       ],
-      "whyWeLoveIt": "The underbelly is the space owners almost never check, which is exactly why it causes trouble. The HDi65 is designed to sit in a crawl space, hold a humidity target, and pump its own water out — the same job it needs to do under a manufactured home.",
+      "whyWeLoveIt": "The underbelly is the space owners almost never check, which is exactly why it causes trouble. The HDi65S is designed to sit in a crawl space, hold a humidity target, and pump its own water out — the same job it needs to do under a manufactured home.",
       "performance": "AlorAir rates it at 55 pints a day under AHAM conditions and 120 pints at saturation, with a pump that lifts condensate up to 19.6 feet. Because there's rarely a floor drain beneath a mobile home, that pump is the feature that makes it practical. Auto-defrost lets it keep running down to about 36°F, important in an unheated underbelly. Owners of crawl-space installs generally praise how little attention it needs once set up.",
       "notes": "Pair it with a ground vapor barrier for the best results. If your underbelly is unusually large, see the step-up options in our [crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
       "specs": {
@@ -39,7 +40,8 @@
         "Drainage": "Built-in pump, 19.6 ft lift",
         "Low-temp operation": "Auto-defrost to ~36°F",
         "Type": "Commercial compressor",
-        "Best for": "Skirted underbelly, crawl space"
+        "Best for": "Skirted underbelly, crawl space",
+        "Smart control": "Wi-Fi app with alerts"
       }
     },
     {
@@ -287,7 +289,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A mobile home needs two dehumidifiers doing two jobs, not one oversized portable. Put the **AlorAir Sentinel HDi65** under the floor to protect the belly board, then add a **Midea Cube 35** for a single-wide or a **Midea Cube 50** for a double-wide. Choose the **hOmeLabs HME1003** if there's no drain nearby, and tuck an **Eva-Dry E-333** into any hatch or closet without power. For whole-home sizing beyond a typical double-wide, see our [whole-house dehumidifier](/best/best-whole-house-dehumidifier/) picks."
+          "text": "A mobile home needs two dehumidifiers doing two jobs, not one oversized portable. Put the **AlorAir Sentinel HDi65S** under the floor to protect the belly board, then add a **Midea Cube 35** for a single-wide or a **Midea Cube 50** for a double-wide. Choose the **hOmeLabs HME1003** if there's no drain nearby, and tuck an **Eva-Dry E-333** into any hatch or closet without power. For whole-home sizing beyond a typical double-wide, see our [whole-house dehumidifier](/best/best-whole-house-dehumidifier/) picks."
         }
       ]
     }
@@ -295,7 +297,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for a mobile home?",
-      "a": "For the skirted underbelly, the AlorAir Sentinel HDi65, a compact crawl-space unit with a built-in pump and auto-defrost. For the living space, a Midea Cube 35 suits a single-wide and a Midea Cube 50 suits a double-wide."
+      "a": "For the skirted underbelly, the AlorAir Sentinel HDi65S, a compact crawl-space unit with a built-in pump and auto-defrost. For the living space, a Midea Cube 35 suits a single-wide and a Midea Cube 50 suits a double-wide."
     },
     {
       "q": "What size dehumidifier does a single-wide or double-wide need?",

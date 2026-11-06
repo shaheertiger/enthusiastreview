@@ -45,30 +45,31 @@
       }
     },
     {
-      "id": "honeywell-dr90a3000-ducted",
-      "catalogId": "honeywell-dr90a3000",
-      "name": "Honeywell Home DR90A3000 Whole-House Dehumidifier",
-      "shortName": "Honeywell DR90A3000",
-      "award": "Best for Honeywell thermostat homes",
+      "id": "aprilaire-e130-ducted",
+      "catalogId": "aprilaire-e130",
+      "name": "Aprilaire E130 Whole-House Dehumidifier (130 Pints)",
+      "shortName": "Aprilaire E130",
+      "award": "Best for large homes",
       "pros": [
-        "90-pint whole-house capacity",
-        "Designed to integrate with forced-air ductwork",
-        "Pairs naturally with Honeywell Home thermostats and controls",
-        "Sold and serviced through a broad dealer network"
+        "130 pints a day — Aprilaire’s largest residential unit",
+        "Rated for up to about 7,400 square feet",
+        "Ducts into the HVAC system or serves a dedicated zone",
+        "ENERGY STAR Most Efficient"
       ],
       "cons": [
-        "Typically bought through contractors, not off the shelf",
-        "Less consumer-facing info than Aprilaire"
+        "Overkill for most houses",
+        "Larger cabinet needs more mechanical-room space"
       ],
-      "whyWeLoveIt": "If your home already runs on a Honeywell Home thermostat or zoning system, this unit keeps the whole setup in one family. It's a dedicated ducted machine, sized for most single-family homes, and it's the kind of equipment a local HVAC dealer can install and support for years.",
-      "performance": "At 90 pints a day it sits just below the E100 in capacity, which is plenty for most homes under about 3,000 square feet in humid regions. Because it's meant to live in the mechanical room and feed the ductwork, it does its best work when the installer sets up a proper return-side connection and a dedicated drain. Owner feedback is generally positive on humidity control, with the usual caveat that results depend heavily on installation.",
+      "whyWeLoveIt": "If your home is unusually large, leaky or in a very humid climate, the E130 gives you headroom the E100 can’t. It’s the same proven Aprilaire design scaled up, and the kind of dedicated ducted machine a local HVAC contractor can install and support for years.",
+      "performance": "Rated at 130 pints a day under AHAM conditions with coverage up to about 7,400 square feet, the E130 suits large custom homes, homes with big finished basements and properties near the coast. Flexible control placement — on top or on the inlet side — helps in cramped mechanical rooms, and Aprilaire sells a Wi-Fi version, the E130W, if you want app control. Because dehumidifiers are sized on moisture load rather than floor area, have a contractor check your actual load before choosing it over the E100.",
       "notes": "Ask the installer which control strategy they plan to use — a dedicated dehumidistat, or a thermostat with humidity control — before you sign the quote.",
       "specs": {
-        "Capacity": "90 pints/day",
-        "Type": "Ducted whole-house",
-        "Install": "Connects to HVAC ductwork",
-        "Drainage": "Condensate line",
-        "Best for": "Forced-air homes with Honeywell controls"
+        "Capacity": "130 pints/day (AHAM)",
+        "Coverage": "Up to about 7,400 sq ft",
+        "Install": "Ducted or stand-alone",
+        "Drainage": "Gravity hose or pump (bucketless)",
+        "Efficiency": "ENERGY STAR Most Efficient",
+        "Warranty": "5 years"
       }
     },
     {
@@ -290,7 +291,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "If your home feels sticky even with the AC running, a ducted dehumidifier is the permanent fix. The **Aprilaire E100** is the best all-around choice for most forced-air homes, the **Honeywell DR90A3000** makes sense when your system already runs on Honeywell Home controls, and the **Santa Fe Ultra V100** is the pick for tight new construction that also needs fresh air. On a budget, the **AlorAir HDi90** delivers serious capacity for less. Whatever you choose, the quality of the installation matters as much as the box."
+          "text": "If your home feels sticky even with the AC running, a ducted dehumidifier is the permanent fix. The **Aprilaire E100** is the best all-around choice for most forced-air homes, the **Aprilaire E130** gives big or very humid homes extra headroom, and the **Santa Fe Ultra V100** is the pick for tight new construction that also needs fresh air. On a budget, the **AlorAir HDi90** delivers serious capacity for less. Whatever you choose, the quality of the installation matters as much as the box."
         }
       ]
     }

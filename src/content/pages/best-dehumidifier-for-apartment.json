@@ -44,27 +44,28 @@
       }
     },
     {
-      "id": "ninesky-ct2",
-      "name": "NineSky CT2 Thermoelectric Dehumidifier",
-      "shortName": "NineSky CT2",
+      "id": "eva-dry-edv-2400",
+      "catalogId": "eva-dry-edv-2400",
+      "name": "Eva-Dry EDV-2400 Dehumidifier with Humidistat",
+      "shortName": "Eva-Dry EDV-2400",
       "award": "Best for shared walls",
       "pros": [
-        "Rated at 40 dB or lower",
-        "Fits on a nightstand or closet shelf",
-        "LED full indicator and auto shutoff",
-        "Low power draw"
+        "No compressor hum — only a quiet fan",
+        "Adjustable humidistat holds a set target",
+        "Compact enough for a dresser, shelf or corner",
+        "Full-tank auto shut-off"
       ],
       "cons": [
         "Far less extraction than a compressor unit",
-        "Small tank needs frequent emptying in humid weather"
+        "Pulls less water once the room cools down"
       ],
-      "whyWeLoveIt": "If your neighbor has ever knocked on the wall, quiet beats capacity. The CT2's compressor-free design keeps it to a low hum that won't carry through drywall.",
-      "performance": "As a thermoelectric unit, it removes far less water than a compressor model, so it's best for a single small bedroom or closet rather than a whole apartment. Its tank holds roughly 95 ounces, and it shuts off when full so it can run overnight safely. Pair it with good ventilation habits for best results. More overnight-friendly options are in our [best dehumidifier for bedroom](/best/best-dehumidifier-for-bedroom/) guide.",
+      "whyWeLoveIt": "If your neighbor has ever knocked on the wall, quiet beats capacity. The EDV-2400's compressor-free thermoelectric design keeps it to a fan's hum that won't carry through drywall, and unlike most minis it has a humidistat, so it backs off once the room reaches your target instead of running all night.",
+      "performance": "As a thermoelectric (Peltier) unit, it removes far less water than a compressor model, so it's best for a single small bedroom or closet rather than a whole apartment. It's Eva-Dry's mid-size model, with more airflow and a bigger tank than the brand's petite EDV-1100, and it shuts off when the tank is full so it can run overnight safely. Like every Peltier design, it works best in warm, humid air. More overnight-friendly options are in our [best dehumidifier for bedroom](/best/best-dehumidifier-for-bedroom/) guide.",
       "specs": {
-        "Type": "Thermoelectric",
-        "Noise": "40 dB or lower, per NineSky",
-        "Tank": "About 95 oz",
-        "Auto shutoff": "Yes",
+        "Type": "Thermoelectric (Peltier)",
+        "Noise": "Quiet fan only",
+        "Humidistat": "Adjustable",
+        "Drainage": "Tank with auto shut-off",
         "Best for": "Small bedroom, closet"
       }
     },
@@ -284,7 +285,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 20** is the best dehumidifier for most apartments, with a quiet rating, a tank big enough to skip daily emptying and enough coverage for a studio or one-bedroom. Choose the **NineSky CT2** when a shared wall makes quiet the top priority, the **hOmeLabs 32-Pint Wi-Fi** if you want tank alerts on your phone, the **Eva-Dry E-333** for a musty closet, and the **Pro Breeze PB-03** if older wiring can't handle a compressor. Own your unit instead? Our [best dehumidifier for condo](/best/best-dehumidifier-for-condo/) guide covers what changes."
+          "text": "The **Midea Cube 20** is the best dehumidifier for most apartments, with a quiet rating, a tank big enough to skip daily emptying and enough coverage for a studio or one-bedroom. Choose the **Eva-Dry EDV-2400** when a shared wall makes quiet the top priority, the **hOmeLabs 32-Pint Wi-Fi** if you want tank alerts on your phone, the **Eva-Dry E-333** for a musty closet, and the **Pro Breeze PB-03** if older wiring can't handle a compressor. Own your unit instead? Our [best dehumidifier for condo](/best/best-dehumidifier-for-condo/) guide covers what changes."
         }
       ]
     }
@@ -292,7 +293,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for an apartment?",
-      "a": "The Midea Cube 20 for most renters. It's rated for up to 1,500 sq ft, holds 3.2 gallons so you empty it less often, and is rated at 42 dB. For a bedroom on a shared wall, the NineSky CT2's 40-dB-or-lower rating is the quieter choice."
+      "a": "The Midea Cube 20 for most renters. It's rated for up to 1,500 sq ft, holds 3.2 gallons so you empty it less often, and is rated at 42 dB. For a bedroom on a shared wall, the compressor-free Eva-Dry EDV-2400 is the quieter choice, since only a small fan runs."
     },
     {
       "q": "What size dehumidifier do I need for a studio apartment?",

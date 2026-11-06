@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Allergies and Asthma (2026): 5 Top Picks",
   "h1": "The Best Dehumidifiers for Allergies and Asthma",
   "dek": "Dust mites and mold both need damp air. Hold your home under 50% humidity and two of the biggest indoor allergy triggers lose their footing.",
-  "description": "The best dehumidifier for allergies and asthma, led by an AAFA-certified pick, plus the humidity range that curbs dust mites and mold spores at home.",
+  "description": "The best dehumidifier for allergies and asthma, led by a precise-humidistat pick, plus the humidity range that curbs dust mites and mold spores at home.",
   "published": "2026-09-09",
   "updated": "2026-11-05",
   "intro": [
@@ -14,31 +14,33 @@
     "That's a different job from air filtration. A purifier catches particles that are already floating around; a dehumidifier changes the conditions that let mites and mold multiply in the first place. Our top pick is the only dehumidifier line we know of that holds the AAFA's *asthma & allergy friendly* certification, and we've added options for whole-house monitoring, quiet bedroom use, tighter budgets and nurseries.",
     "A dehumidifier won't touch pollen or pet dander, and it isn't a substitute for medical advice. If you have asthma, talk with your allergist about your triggers before you shop."
   ],
-  "topPicksLead": "The **De'Longhi DDX45E** is our top pick because it's independently certified for both humidity control and low allergen exposure during cleaning.",
+  "topPicksLead": "The **Midea Cube 35** is our top pick because it holds an exact humidity target — set in 5% steps — with the capacity for a living room or finished basement.",
   "products": [
     {
-      "id": "delonghi-ddx45e",
-      "name": "De'Longhi 45-Pint Dehumidifier (DDX45E)",
-      "shortName": "De'Longhi DDX45E",
+      "id": "midea-cube-35",
+      "catalogId": "midea-cube-35",
+      "name": "Midea Cube 35-Pint Smart Dehumidifier (MAD35S1QWT)",
+      "shortName": "Midea Cube 35",
       "award": "Best overall",
       "pros": [
-        "AAFA asthma & allergy friendly certified",
-        "Antimicrobial-treated filter",
-        "Sized for a bedroom, living room or finished basement",
-        "Set-a-number humidistat"
+        "Humidistat sets 35–85% in 5% steps, so 45% is an exact target",
+        "35 pints a day under the DOE 2019 test",
+        "ENERGY STAR certified",
+        "App and voice control to check and set humidity"
       ],
       "cons": [
-        "Fewer smart features than app-connected rivals",
-        "Certification adds to the price"
+        "No built-in pump",
+        "More capacity than a small bedroom needs"
       ],
-      "whyWeLoveIt": "Plenty of dehumidifiers claim to help allergy sufferers; this one has been evaluated against an allergy-specific standard. The certification means an independent lab confirmed it holds a target humidity and keeps allergen exposure low when you empty the tank and clean the filter.",
-      "performance": "It's a 45-pint compressor unit with De'Longhi's BioSilver-treated filter, designed to capture dust while resisting mold and bacteria growth on the filter itself. The AAFA program, tested by Allergy Standards Ltd., looks at maintenance exposure as well as drying, which spec sheets rarely address. Set it to 45% and let it cycle. See the rest of the brand's lineup in our [best De'Longhi dehumidifier](/best/best-delonghi-dehumidifier/) guide.",
+      "whyWeLoveIt": "For allergy relief, what matters most is holding a precise number — about 45% — and this Cube is built for it: you set the target in 5% steps rather than choosing High or Low, and the app shows whether the room is actually there. It has the capacity for a living room, a large bedroom or a finished basement, where mites and mold have the most room to take hold.",
+      "performance": "It's rated at 35 pints a day under the DOE 2019 test and is ENERGY STAR certified, enough for a living room, a large primary bedroom or a moderately damp basement; Midea sizes it for up to about 3,000 square feet. The tank sits in the base and holds far more than a typical bucket, so it runs longer between empties, and a gravity-hose outlet lets it drain continuously. Sleep mode slows the fan and dims the display for bedroom use. Set it to 45% and let it cycle. Compare the rest of the family in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "45 pints/day",
-        "Certification": "AAFA asthma & allergy friendly",
-        "Filter": "BioSilver-treated",
-        "Humidistat": "Digital, set % target",
-        "Best for": "Bedrooms, living rooms, finished basements"
+        "Capacity": "35 pints/day (DOE 2019)",
+        "Humidistat": "35–85% in 5% steps",
+        "Efficiency": "ENERGY STAR",
+        "Drainage": "Base tank or gravity hose",
+        "Smart control": "Wi-Fi app, voice assistants",
+        "Best for": "Living rooms, large bedrooms, finished basements"
       }
     },
     {
@@ -260,7 +262,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **De'Longhi DDX45E** is the best dehumidifier for allergies because it's independently certified for both humidity control and low-allergen maintenance. Choose the **hOmeLabs HME1003** to monitor a whole floor from your phone, the **Midea Cube 20** for quiet, accurate bedroom control, the **Frigidaire FHDD5034Y1** for value and the **Pro Breeze PB-03** for a nursery. Set any of them to about 45%, confirm with a hygrometer, and pair with a HEPA purifier if pollen or pets are part of the problem. For a deeper dive on one trigger, see our [dust mite](/best/best-dehumidifier-for-dust-mites/) guide."
+          "text": "The **Midea Cube 35** is the best dehumidifier for allergies in most homes because it holds a precise humidity target with room-sized capacity. Choose the **hOmeLabs HME1003** to monitor a whole floor from your phone, the **Midea Cube 20** for quiet, accurate bedroom control, the **Frigidaire FHDD5034Y1** for value and the **Pro Breeze PB-03** for a nursery. Set any of them to about 45%, confirm with a hygrometer, and pair with a HEPA purifier if pollen or pets are part of the problem. For a deeper dive on one trigger, see our [dust mite](/best/best-dehumidifier-for-dust-mites/) guide."
         }
       ]
     }

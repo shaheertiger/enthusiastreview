@@ -69,9 +69,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for large, glass-heavy sunrooms",
       "pros": [
         "55 pints a day (AHAM) for heavy condensation",
@@ -89,7 +90,8 @@
         "Type": "Commercial compressor",
         "Drainage": "Built-in pump",
         "Low-temp operation": "Auto-defrost to ~36°F",
-        "Best for": "Large, glass-heavy sunrooms"
+        "Best for": "Large, glass-heavy sunrooms",
+        "Smart control": "Wi-Fi app with alerts"
       }
     },
     {
@@ -219,7 +221,7 @@
               "Large, lots of glass",
               "Swings widely",
               "Commercial with defrost",
-              "AlorAir HDi65"
+              "AlorAir HDi65S"
             ],
             [
               "Small, summer use",
@@ -285,7 +287,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For a heated, four-season sunroom, the **Midea Cube 50** is the best all-around choice. For an unheated three-season room, skip compressor models and go with the **Ivation 13-Pint Desiccant**, which keeps working down to 33°F. Choose the **AlorAir Sentinel HDi65** for a large, glass-heavy space and the **Frigidaire FFAD2233W1** only for a small or warm-season room. If your sunroom doubles as a plant room, read our [best dehumidifier for plants](/best/best-dehumidifier-for-plants/) guide first — most houseplants want more humidity than you might think."
+          "text": "For a heated, four-season sunroom, the **Midea Cube 50** is the best all-around choice. For an unheated three-season room, skip compressor models and go with the **Ivation 13-Pint Desiccant**, which keeps working down to 33°F. Choose the **AlorAir Sentinel HDi65S** for a large, glass-heavy space and the **Frigidaire FFAD2233W1** only for a small or warm-season room. If your sunroom doubles as a plant room, read our [best dehumidifier for plants](/best/best-dehumidifier-for-plants/) guide first — most houseplants want more humidity than you might think."
         }
       ]
     }

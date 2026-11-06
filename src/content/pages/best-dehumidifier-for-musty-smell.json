@@ -43,9 +43,10 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for a smell that keeps coming back",
       "pros": [
         "Built-in pump for nonstop drainage",
@@ -56,7 +57,7 @@
         "Utilitarian look for living spaces",
         "Costs much more than a portable unit"
       ],
-      "whyWeLoveIt": "If the odor fades for a week or two and then creeps back, humidity is almost certainly climbing again whenever a smaller unit's tank fills. The HDi65's pump removes that gap entirely, so the space never drifts back into mold-friendly territory.",
+      "whyWeLoveIt": "If the odor fades for a week or two and then creeps back, humidity is almost certainly climbing again whenever a smaller unit's tank fills. The HDi65S's pump removes that gap entirely, so the space never drifts back into mold-friendly territory.",
       "performance": "AlorAir rates it at 120 pints a day at saturation conditions, with a built-in condensate pump designed for continuous, unattended operation. It's the right tool for a basement or crawl space with a slow, ongoing moisture source such as poor drainage. If you already see growth, read our [black mold dehumidifier guide](/best/best-dehumidifier-for-black-mold/) too.",
       "specs": {
         "Capacity": "120 pints/day (saturation)",
@@ -91,25 +92,27 @@
       }
     },
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
+      "id": "shinco-sdl-30p",
+      "catalogId": "shinco-sdl-30p",
+      "name": "Shinco 30-Pint Dehumidifier (SDL-30P)",
+      "shortName": "Shinco SDL-30P",
       "award": "Best budget",
       "pros": [
         "True compressor for a single room",
-        "Light enough to move between rooms",
+        "24-hour programmable timer",
         "Less expensive than the 50-pint picks"
       ],
       "cons": [
-        "Bucket only",
+        "Listed price can vary a lot between sellers",
         "Too small for a whole damp basement"
       ],
-      "whyWeLoveIt": "Not every musty room needs a big machine. A single closed-off bedroom, den or office is well within a 30-pint unit's reach, and the lower price makes it an easy first step before you know whether the problem is house-wide.",
-      "performance": "The maker rates it for spaces up to about 1,500 square feet. Expect to empty the bucket regularly at first, when the room and its furnishings are still giving up stored moisture. See how it compares on price in our [budget dehumidifier guide](/best/best-budget-dehumidifier/).",
+      "whyWeLoveIt": "Not every musty room needs a big machine. A single closed-off bedroom, den or office is well within a 30-pint unit's reach, and the lower price makes it an easy first step before you know whether the problem is house-wide. Just shop carefully, because this model's listed price can swing widely.",
+      "performance": "Shinco rates it for spaces up to about 1,500 square feet, though that claim is generous for a 30-pint unit; treat it as a one- or two-room machine. Expect to empty the bucket regularly at first, when the room and its furnishings are still giving up stored moisture, or use a drain hose if your listing includes the port. See how it compares on price in our [budget dehumidifier guide](/best/best-budget-dehumidifier/).",
       "specs": {
         "Capacity": "30 pints/day",
         "Type": "Compressor",
-        "Drainage": "Bucket",
+        "Drainage": "Bucket, optional hose",
+        "Timer": "24-hour",
         "Best for": "Single bedroom, office, den"
       }
     },
@@ -267,7 +270,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 50** is the best dehumidifier for a musty or mildew smell in most rooms, because its big tank keeps it drying long enough for the odor to fade. If the smell keeps returning, the **AlorAir Sentinel HDi65** drains itself nonstop; the **hOmeLabs HME1003** lets you confirm progress with real numbers; the **Pro Breeze 30-Pint** handles a single room for less; and the **Eva-Dry E-333** is the answer for closets, cabinets and cars. Whatever you choose, hold the space below 50% and give it a couple of weeks."
+          "text": "The **Midea Cube 50** is the best dehumidifier for a musty or mildew smell in most rooms, because its big tank keeps it drying long enough for the odor to fade. If the smell keeps returning, the **AlorAir Sentinel HDi65S** drains itself nonstop; the **hOmeLabs HME1003** lets you confirm progress with real numbers; the **Shinco SDL-30P** handles a single room for less; and the **Eva-Dry E-333** is the answer for closets, cabinets and cars. Whatever you choose, hold the space below 50% and give it a couple of weeks."
         }
       ]
     }
@@ -275,7 +278,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for mildew smell?",
-      "a": "For most rooms, the Midea Cube 50 (MAD50S1QWT). It's a 50-pint-class unit with an oversized tank, so it keeps running instead of shutting off before the odor clears. For a smell that keeps coming back, the pump-equipped AlorAir Sentinel HDi65 runs continuously; for closets and cars, the cordless Eva-Dry E-333 is the better fit."
+      "a": "For most rooms, the Midea Cube 50 (MAD50S1QWT). It's a 50-pint-class unit with an oversized tank, so it keeps running instead of shutting off before the odor clears. For a smell that keeps coming back, the pump-equipped AlorAir Sentinel HDi65S runs continuously; for closets and cars, the cordless Eva-Dry E-333 is the better fit."
     },
     {
       "q": "Does a dehumidifier help with musty smell?",

@@ -44,49 +44,52 @@
       }
     },
     {
-      "id": "frigidaire-gallery-fgac5045w1",
-      "name": "Frigidaire Gallery 50-Pint Wi-Fi Dehumidifier with Pump (FGAC5045W1)",
-      "shortName": "Frigidaire Gallery FGAC5045W1",
+      "id": "frigidaire-fhdp5033w1",
+      "catalogId": "frigidaire-fhdp5033w1",
+      "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FHDP5033W1 / FHDP5033Y1)",
+      "shortName": "Frigidaire FHDP5033W1",
       "award": "Best for large spaces",
       "pros": [
-        "Strong water removal in third-party testing",
-        "Built-in pump sends water out a window or to a sink",
-        "Wi-Fi app and washable filter"
+        "Built-in pump lifts water up to 16.4 feet",
+        "Wi-Fi scheduling and custom humidity targets",
+        "Specced at 49 dBA, restrained for a 50-pint unit"
       ],
       "cons": [
-        "Louder than the Cube 35 on standard settings",
-        "Heavy to move"
+        "Smaller 1.9-gallon backup bucket",
+        "Pump adds to the power draw (about 545 watts)"
       ],
-      "whyWeLoveIt": "A big open rec room or home theater can overwhelm a 35-pint unit. The Gallery brings 50-pint capacity and a pump that keeps water off finished flooring entirely.",
-      "performance": "In one widely cited 2026 magazine roundup it pulled 22.3 pints of water in four hours, the most of any model in that test. Its pump lifts condensate up and out rather than relying on a floor drain. The trade-off is noise: as a 50-pint compressor unit, it's noticeably louder than the Cube 35 on its standard setting. See the rest of the lineup in our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide.",
+      "whyWeLoveIt": "A big open rec room or home theater can overwhelm a 35-pint unit. This Frigidaire brings 50-pint capacity and a pump that keeps water off finished flooring entirely, with a noise spec that suits living space.",
+      "performance": "Frigidaire rates the pump for 16.4 feet of vertical lift, enough to clear a basement window or reach a laundry sink rather than relying on a floor drain. The spec sheet lists 49 dBA and 545 watts, with an operating range of 41–89°F, and the app lets you schedule heavy running for when the room is empty. Newer stock ships as the FHDP5033Y1, the same machine on R-32 refrigerant. See the rest of the lineup in our [best Frigidaire dehumidifier](/best/best-frigidaire-dehumidifier/) guide.",
       "specs": {
         "Capacity": "50 pints/day",
-        "Drainage": "Built-in pump or gravity hose",
-        "Smart control": "Wi-Fi app",
+        "Drainage": "Pump, 16.4-ft lift; 1.9-gal bucket",
+        "Noise": "49 dBA (manufacturer spec)",
+        "Smart control": "Wi-Fi app and voice",
         "Best for": "Large rec room, home theater"
       }
     },
     {
-      "id": "tosot-gdn30az",
-      "name": "TOSOT 30-Pint Dehumidifier (GDN30AZ-A3EBA2C)",
-      "shortName": "TOSOT GDN30AZ",
-      "award": "Best value",
+      "id": "honeywell-tp30awkn",
+      "catalogId": "honeywell-tp30awkn",
+      "name": "Honeywell TP30AWKN 30-Pint Dehumidifier",
+      "shortName": "Honeywell TP30AWKN",
+      "award": "Best for a single damp room",
       "pros": [
-        "TOSOT lists 48 dB on high fan",
-        "Low draw of about 360 watts",
-        "Real compressor extraction for less"
+        "A true 30-pint-class compressor unit from a major brand",
+        "Digital controls with an adjustable humidity setting",
+        "Bucket or hose drainage for continuous running"
       ],
       "cons": [
-        "Capacity is on the older pre-2019 scale",
-        "No dedicated sleep mode"
+        "No dedicated sleep mode or smart features",
+        "Not enough for an open-plan basement"
       ],
-      "whyWeLoveIt": "Not every finished basement needs a premium unit. The TOSOT brings compressor extraction and a reasonable noise spec for less than the Cube, which makes sense for a playroom or storage-plus-living space where quiet isn't the top priority.",
-      "performance": "TOSOT rates it at 30 pints on the pre-2019 scale with coverage up to about 1,500 square feet, a spec-sheet 48 dB on high, and a draw of roughly 360 watts. That low wattage keeps daily running costs modest. Remember that an older-scale 30-pint removes less water than a current-scale 30-pint. More options are in our [best 30-pint dehumidifier](/best/best-30-pint-dehumidifier/) guide.",
+      "whyWeLoveIt": "Not every finished basement needs a premium unit. The Honeywell brings conventional compressor extraction to a playroom, den or storage-plus-living space where quiet isn’t the top priority.",
+      "performance": "Honeywell rates it at 30 pints a day, so it handles a large bedroom, damp den or small finished basement room comfortably without jumping to a full 50-pint machine. Set the humidity target on the digital controls and connect a hose for continuous draining so water never stands on the floor. As with any unit in this class, check the listing for the current DOE rating. More options are in our [best 30-pint dehumidifier](/best/best-30-pint-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "30 pints (pre-2019 scale)",
-        "Coverage": "Up to ~1,500 sq ft",
-        "Noise": "48 dB on high (manufacturer spec)",
-        "Power": "About 360 W",
+        "Capacity": "30 pints/day",
+        "Type": "Compressor",
+        "Controls": "Digital, with humidity setting",
+        "Drainage": "Bucket or hose",
         "Best for": "Playroom, smaller finished space"
       }
     },
@@ -114,25 +117,27 @@
       }
     },
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
+      "id": "airplus-max-30-pint",
+      "catalogId": "airplus-max-30-pint",
+      "name": "AirPlus Max 30 Pint Tall Dehumidifier",
+      "shortName": "AirPlus Max 30",
       "award": "Best for a guest room",
       "pros": [
         "Right-sized for a single finished room",
-        "Sleep mode for overnight use",
-        "Compact footprint beside a dresser"
+        "Quiet sleep mode for overnight use",
+        "Drain hose for continuous running"
       ],
       "cons": [
         "Not enough for an open-plan basement",
-        "Bucket drainage in most setups"
+        "Marketed capacity, not a DOE 2019 figure"
       ],
-      "whyWeLoveIt": "If the finished part of your basement is one bedroom or office, you don't need whole-basement capacity. This compact unit is sized for one room, and sleep mode keeps it tolerable when someone's sleeping nearby.",
-      "performance": "It's a 30-pint compressor model built for single rooms, with a sleep setting that quiets the fan for overnight running. It's easy to tuck beside furniture without dominating the space. If most of your finished space is bedrooms, see our [bedroom dehumidifier](/best/best-dehumidifier-for-bedroom/) picks.",
+      "whyWeLoveIt": "If the finished part of your basement is one bedroom or office, you don’t need whole-basement capacity. This AirPlus is sized for one room, and its sleep mode keeps it tolerable when someone’s sleeping nearby.",
+      "performance": "AirPlus sizes it for up to 1,500 square feet and pitches it for bedrooms and guest rooms, with a quiet sleep mode and a drain hose; in practice it’s a comfortable fit for a single damp room of a few hundred square feet. AirPlus doesn’t publish decibel figures, so if noise decides it, compare it with our [quiet dehumidifier](/best/best-quiet-dehumidifier/) picks. If most of your finished space is bedrooms, see our [bedroom dehumidifier](/best/best-dehumidifier-for-bedroom/) picks.",
       "specs": {
-        "Capacity": "30 pints/day",
-        "Type": "Compressor",
-        "Noise": "Sleep mode",
+        "Capacity": "30 pints/day (marketed)",
+        "Coverage": "Up to 1,500 sq ft (maker’s claim)",
+        "Noise": "Quiet sleep mode",
+        "Drainage": "Tank or drain hose",
         "Best for": "Basement guest room or office"
       }
     }
@@ -251,7 +256,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 35** is the best dehumidifier for most finished basements: right-sized, with a genuine sleep mode and an easy-carry tank. Step up to the **Frigidaire Gallery FGAC5045W1** for a large rec room or home theater, save with the **TOSOT GDN30AZ** if a few extra decibels don't bother you, choose the **hOmeLabs HME1003** to keep water off the carpet entirely, and pick the **Pro Breeze 30-Pint** for a single guest room. Hold the space at 45–55% and your carpet, drywall and furniture will thank you. For the unfinished side of things, see our [basement dehumidifier](/best/best-dehumidifier-for-basement/) picks."
+          "text": "The **Midea Cube 35** is the best dehumidifier for most finished basements: right-sized, with a genuine sleep mode and an easy-carry tank. Step up to the **Frigidaire FHDP5033W1** for a large rec room or home theater, choose the **Honeywell TP30AWKN** for a single den or playroom if a few extra decibels don't bother you, choose the **hOmeLabs HME1003** to keep water off the carpet entirely, and pick the **AirPlus Max 30** for a single guest room. Hold the space at 45–55% and your carpet, drywall and furniture will thank you. For the unfinished side of things, see our [basement dehumidifier](/best/best-dehumidifier-for-basement/) picks."
         }
       ]
     }

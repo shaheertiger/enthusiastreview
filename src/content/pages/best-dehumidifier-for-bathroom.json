@@ -14,28 +14,30 @@
     "Even a working exhaust fan often leaves the job half-done. Many fans are undersized, clogged or switched off the moment the shower ends, and plenty of older bathrooms don't have one at all. A dehumidifier keeps working after the fan stops, which is exactly when mirrors stay fogged and window sills stay wet.",
     "We compared compact and full-size units on extraction speed, noise, footprint and safety near water. Here's what to buy for everything from a busy family bathroom to a powder room."
   ],
-  "topPicksLead": "The **GE APYR50LC** is our top bathroom pick when you want to clear shower steam fast; for small bathrooms, the compact **Pro Breeze PB-03** fits on a shelf.",
+  "topPicksLead": "The **GE APER50LZ** is our top bathroom pick when you want to clear shower steam fast; for small bathrooms, the compact **Pro Breeze PB-03** fits on a shelf.",
   "products": [
     {
-      "id": "ge-apyr50lc",
-      "name": "GE 50-Pint Dehumidifier with Built-In Pump (APYR50LC)",
-      "shortName": "GE APYR50LC",
+      "id": "ge-aper50lz",
+      "catalogId": "ge-aper50lz",
+      "name": "GE 50-Pint Dehumidifier with Built-In Pump (APER50LZ)",
+      "shortName": "GE APER50LZ",
       "award": "Best overall",
       "pros": [
         "50-pint capacity knocks down a shower spike fast",
-        "Built-in pump and continuous-drain options",
+        "Built-in pump drains to a sink or tub",
         "Set-a-number humidistat",
         "ENERGY STAR certified"
       ],
       "cons": [
         "Too big for a small or half bath",
-        "Needs floor space outside the splash zone"
+        "Needs floor space outside the splash zone",
+        "Pump hose needs to stay kink-free"
       ],
-      "whyWeLoveIt": "A bathroom's problem is speed: you want the humidity down before the next shower, not eventually. The APYR50LC has the capacity to do that, and its pump means you can run it to the tub or sink drain instead of emptying a bucket.",
-      "performance": "GE rates it at 50 pints a day, which is plenty for a large primary bath or a bathroom that opens onto a bedroom or laundry area. Set it to around 50% and it works alongside your exhaust fan, shutting off once the room recovers. Owners in busy households say it clears fogged mirrors far faster than a fan alone. See our [best GE dehumidifier](/best/best-ge-dehumidifier/) guide for the rest of the lineup.",
+      "whyWeLoveIt": "A bathroom's problem is speed: you want the humidity down before the next shower, not eventually. The APER50LZ has the capacity to do that, and its pump means you can run it to the tub or sink drain instead of emptying a bucket.",
+      "performance": "It's a 50-pint compressor unit with an integrated pump, which is plenty for a large primary bath or a bathroom that opens onto a bedroom or laundry area. Set the digital humidistat to around 50% and it works alongside your exhaust fan, shutting off once the room recovers. Owners most often praise the convenience of the pump and flag the usual upkeep: keeping the hose kink-free and the outlet clean. See our [best GE dehumidifier](/best/best-ge-dehumidifier/) guide for the rest of the lineup.",
       "specs": {
         "Capacity": "50 pints/day",
-        "Drainage": "Built-in pump or gravity",
+        "Drainage": "Built-in pump",
         "Efficiency": "ENERGY STAR",
         "Humidistat": "Digital, set % target",
         "Best for": "Large or busy bathroom"
@@ -67,50 +69,55 @@
       }
     },
     {
-      "id": "pure-enrichment-puredry-deluxe",
-      "name": "Pure Enrichment PureDry Deluxe Dehumidifier",
-      "shortName": "PureDry Deluxe",
+      "id": "eva-dry-edv-2400",
+      "catalogId": "eva-dry-edv-2400",
+      "name": "Eva-Dry EDV-2400 Dehumidifier with Humidistat",
+      "shortName": "Eva-Dry EDV-2400",
       "award": "Best mid-size",
       "pros": [
-        "Automatic humidistat holds a set target",
+        "Adjustable humidistat holds a set target",
         "Compact enough for a counter or corner",
-        "Full-tank auto shut-off with indicator",
-        "Less imposing than a full-size unit"
+        "Full-tank auto shut-off",
+        "No compressor hum"
       ],
       "cons": [
-        "Less capacity than the GE or Frigidaire",
-        "Tank needs regular emptying"
+        "Far less capacity than the GE or Frigidaire",
+        "Pulls less water once the room cools down"
       ],
-      "whyWeLoveIt": "It splits the difference between full-size units and minis: enough drying for a mid-size bathroom without dominating the room. The automatic humidistat is the key feature, bringing the room down after a shower and then backing off.",
-      "performance": "Rather than running on a timer, it reads the room and holds your chosen humidity, which avoids both over-drying and quitting too soon. Its small footprint fits a vanity corner or floor space beside the toilet. Owners like that it's quieter than full-size compressor units. For more compact choices, browse our [best small dehumidifier](/best/best-small-dehumidifier/) picks.",
+      "whyWeLoveIt": "It splits the difference between full-size units and the tiniest minis: Eva-Dry's step-up electric model, with more airflow and a bigger tank than its petite sibling, but small enough not to dominate the room. The adjustable humidistat is the key feature, bringing the room down after a shower and then backing off.",
+      "performance": "Rather than running nonstop, it stops at your chosen humidity, which avoids both over-drying and quitting too soon. It's a thermoelectric (Peltier) unit, so there's only a quiet fan running, and like every Peltier design it pulls water most effectively in warm, humid air — which is exactly what a bathroom gives it after a shower. If the room still feels damp with it running, step up to a compressor unit. For more compact choices, browse our [best small dehumidifier](/best/best-small-dehumidifier/) picks.",
       "specs": {
-        "Type": "Compact",
-        "Humidistat": "Automatic, set target",
+        "Type": "Thermoelectric (Peltier)",
+        "Humidistat": "Adjustable",
         "Drainage": "Tank with auto shut-off",
+        "Noise": "Quiet fan only",
         "Best for": "Mid-size bathroom"
       }
     },
     {
-      "id": "ninesky-ct2",
-      "name": "NineSky CT2 Mini Dehumidifier",
-      "shortName": "NineSky CT2",
+      "id": "eva-dry-edv-1100",
+      "catalogId": "eva-dry-edv-1100",
+      "name": "Eva-Dry EDV-1100 Petite Dehumidifier",
+      "shortName": "Eva-Dry EDV-1100",
       "award": "Best quiet compact",
       "pros": [
-        "Rated at 40 dB or lower",
-        "Roughly 95-ounce tank",
+        "About 33 dB, per Eva-Dry",
         "Small enough for a vanity shelf",
-        "LED full indicator and auto shut-off"
+        "Auto shut-off when the tank fills",
+        "Draws only about 22 watts"
       ],
       "cons": [
         "Removes ounces, not pints, per day",
+        "Small 16-oz tank needs frequent emptying",
         "Can't keep up with long, hot showers on its own"
       ],
-      "whyWeLoveIt": "When a bathroom backs onto a bedroom or nursery, noise matters. The CT2 is quiet enough to fade into the background while it handles everyday humidity between showers.",
-      "performance": "It's a thermoelectric (Peltier) mini, so it's near-silent and runs cool, with a tank of roughly 95 ounces that doesn't need emptying daily in typical use. Like all minis, it's best at maintaining a small room rather than rescuing it, so pair it with your exhaust fan during showers. Owners use it in en-suites and small guest baths. Need quiet elsewhere? See our [best quiet dehumidifier](/best/best-quiet-dehumidifier/) roundup.",
+      "whyWeLoveIt": "When a bathroom backs onto a bedroom or nursery, noise matters. The EDV-1100 is quiet enough to fade into the background while it handles everyday humidity between showers.",
+      "performance": "It's a thermoelectric (Peltier) mini rated for about 1,100 cubic feet, so it's near-silent and runs cool on roughly 22 watts. It shuts off when the 16-ounce tank fills and restarts once you empty it. Like all minis, it's best at maintaining a small room rather than rescuing it, so pair it with your exhaust fan during showers. Need quiet elsewhere? See our [best quiet dehumidifier](/best/best-quiet-dehumidifier/) roundup.",
       "specs": {
         "Type": "Thermoelectric (Peltier)",
-        "Tank": "About 95 oz",
-        "Noise": "Rated ≤40 dB",
+        "Coverage": "About 1,100 cu ft (maker)",
+        "Tank": "16 oz, auto shut-off",
+        "Noise": "About 33 dB (maker)",
         "Best for": "En-suite near a bedroom"
       }
     },
@@ -211,7 +218,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A bathroom with no exhaust fan has nowhere to send shower steam, so a dehumidifier does all the work. Size up: choose a compressor unit such as the Frigidaire FFAD2233W1 for a small bath or the GE APYR50LC for a larger one, rather than a mini. Run it during and for 30–60 minutes after each shower, and crack the door to let air circulate."
+          "text": "A bathroom with no exhaust fan has nowhere to send shower steam, so a dehumidifier does all the work. Size up: choose a compressor unit such as the Frigidaire FFAD2233W1 for a small bath or the GE APER50LZ for a larger one, rather than a mini. Run it during and for 30–60 minutes after each shower, and crack the door to let air circulate."
         },
         {
           "type": "h3",
@@ -258,7 +265,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For a busy or large bathroom, the **GE APYR50LC** clears shower steam fastest. Choose the **Frigidaire FFAD2233W1** for a full small bathroom on a budget, the **PureDry Deluxe** for a mid-size room with automatic control, the **NineSky CT2** when quiet matters, and the **Pro Breeze PB-03** for a powder room or small bath. Pair any of them with your exhaust fan and a GFCI outlet, and your grout will thank you."
+          "text": "For a busy or large bathroom, the **GE APER50LZ** clears shower steam fastest. Choose the **Frigidaire FFAD2233W1** for a full small bathroom on a budget, the **Eva-Dry EDV-2400** for a mid-size room with automatic control, the **Eva-Dry EDV-1100** when quiet matters, and the **Pro Breeze PB-03** for a powder room or small bath. Pair any of them with your exhaust fan and a GFCI outlet, and your grout will thank you."
         }
       ]
     }
@@ -266,7 +273,7 @@
   "faqs": [
     {
       "q": "What is the best portable dehumidifier for a bathroom?",
-      "a": "For a large or busy bathroom, the GE APYR50LC clears post-shower humidity fastest. For a small bathroom or powder room, the compact Pro Breeze PB-03 fits on a shelf, and the NineSky CT2 is the quietest pick for a bathroom next to a bedroom."
+      "a": "For a large or busy bathroom, the GE APER50LZ clears post-shower humidity fastest. For a small bathroom or powder room, the compact Pro Breeze PB-03 fits on a shelf, and the Eva-Dry EDV-1100 is the quietest pick for a bathroom next to a bedroom."
     },
     {
       "q": "What is the best dehumidifier for a small bathroom?",

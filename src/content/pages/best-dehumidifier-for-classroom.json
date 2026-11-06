@@ -68,25 +68,28 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir Sentinel HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "catalogId": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir Sentinel HDi65S",
       "award": "Best for portable classrooms",
       "pros": [
         "Much higher capacity than room units",
         "Built-in pump for unattended running",
-        "Auto-defrost down to about 36°F"
+        "Auto-defrost down to about 36°F",
+        "Wi-Fi app alerts over long breaks"
       ],
       "cons": [
         "Commercial look and noise level",
         "Won't fix a structural leak"
       ],
-      "whyWeLoveIt": "Portable classrooms often carry heavier moisture loads and weaker insulation than permanent buildings. The HDi65's extra capacity and self-draining pump give real margin in a damp trailer classroom.",
+      "whyWeLoveIt": "Portable classrooms often carry heavier moisture loads and weaker insulation than permanent buildings. The HDi65S's extra capacity and self-draining pump give real margin in a damp trailer classroom, and its app alerts flag a problem during a long break when nobody is there to notice.",
       "performance": "AlorAir rates it at 55 pints a day under AHAM conditions and 120 at saturation, with a built-in pump and auto-defrost to around 36°F. Be honest about its limits: if a portable classroom stays wet no matter what you run, the problem is a leak that needs sealing, not a bigger machine.",
       "specs": {
         "Capacity": "55 pints/day AHAM; 120 at saturation",
         "Drainage": "Built-in pump",
         "Low-temp operation": "Down to ~36°F",
+        "Smart control": "Wi-Fi app with alerts",
         "Type": "Commercial compressor",
         "Best for": "Portable or relocatable classrooms"
       }
@@ -232,7 +235,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 20** is the best dehumidifier for most classrooms: quiet, compact, comfortably sized and easy to monitor remotely. Choose the **Frigidaire FHDD5034W1** (or its Y1 successor) for rooms left alone over weekends and breaks, the **AlorAir Sentinel HDi65** for damp portable classrooms, and the **Frigidaire FFAD2233W1** for small rooms on a budget. Similar logic applies to an [office](/best/best-dehumidifier-for-office/) or any room that sits empty for long stretches."
+          "text": "The **Midea Cube 20** is the best dehumidifier for most classrooms: quiet, compact, comfortably sized and easy to monitor remotely. Choose the **Frigidaire FHDD5034W1** (or its Y1 successor) for rooms left alone over weekends and breaks, the **AlorAir Sentinel HDi65S** for damp portable classrooms, and the **Frigidaire FFAD2233W1** for small rooms on a budget. Similar logic applies to an [office](/best/best-dehumidifier-for-office/) or any room that sits empty for long stretches."
         }
       ]
     }

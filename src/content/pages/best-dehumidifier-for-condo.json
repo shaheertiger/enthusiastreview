@@ -13,104 +13,109 @@
     "Picking the **best dehumidifier for a condo** comes with a few twists that renters and house owners don't face. You own the unit, so a water leak that seeps into the home below can land on your insurance. Your HOA has a say in anything permanent. And you share walls — sometimes concrete, sometimes thin drywall — with neighbors who'd rather not hear a compressor cycling at midnight.",
     "Condo construction plays a role too. Concrete-slab and high-rise buildings hold damp air against interior surfaces longer than wood-frame houses, especially on lower floors near an underground garage. So our picks lean on three things: overflow protection (auto-shutoff or continuous drainage), noise that won't carry through a party wall, and honest capacity for typical condo square footage."
   ],
-  "topPicksLead": "For most one- and two-bedroom condos, the **hOmeLabs HME020030N** is the one to buy: honestly rated, ENERGY STAR certified and equipped with the auto-shutoff that matters most when there's a neighbor below.",
+  "topPicksLead": "For most one- and two-bedroom condos, the **Midea MAD22C1AWS** is the one to buy: honestly rated, ENERGY STAR certified and equipped with the auto-shutoff that matters most when there's a neighbor below.",
   "products": [
     {
-      "id": "homelabs-hme020030n",
-      "name": "hOmeLabs 22-Pint Energy Star Dehumidifier (HME020030N)",
-      "shortName": "hOmeLabs HME020030N",
+      "id": "midea-mad22c1aws",
+      "catalogId": "midea-mad22c1aws",
+      "name": "Midea 22-Pint ENERGY STAR Dehumidifier (MAD22C1AWS)",
+      "shortName": "Midea MAD22C1AWS",
       "award": "Best overall",
       "pros": [
         "22 pints a day under the current DOE test",
         "ENERGY STAR certified for lower bills",
-        "Auto-shutoff when the tank is full",
-        "Right-sized for typical condo living areas"
+        "Shuts off when the bucket is full",
+        "Gravity-hose outlet for continuous draining"
       ],
       "cons": [
         "Not enough for a large open-plan unit",
-        "Bucket needs regular emptying without a hose"
+        "Bucket fills quickly in muggy weather without a hose"
       ],
-      "whyWeLoveIt": "Most condos don't need a 50-pint machine, and this unit doesn't pretend otherwise. It's honestly rated, efficient, and — crucially — shuts itself off before the tank can overflow, so a forgotten bucket doesn't turn into a claim from the unit below.",
-      "performance": "hOmeLabs rates it at 22 pints a day under the DOE 2019 procedure for spaces up to about 1,500 square feet, which covers the living area of a typical one- or two-bedroom condo. ENERGY STAR certification keeps running costs in check, which matters when you pay your own electric bill. Attach a hose to a nearby drain and it can run continuously.",
+      "whyWeLoveIt": "Most condos don't need a 50-pint machine, and this Midea doesn't pretend otherwise. It's honestly rated, efficient and — crucially — shuts itself off when the bucket is full, so a forgotten tank doesn't turn into a claim from the unit below.",
+      "performance": "It's rated at 22 pints a day under the 2019 DOE procedure — roughly a 35-pint unit on older labels — which suits a bedroom, home office or the living area of a smaller condo that feels clammy rather than wet. ENERGY STAR certification keeps running costs in check, which matters when you pay your own electric bill. The most common owner complaint is the bucket filling fast during muggy stretches; attach a hose to a nearby drain and it can run continuously.",
       "specs": {
         "Capacity": "22 pints/day (DOE 2019)",
+        "Type": "Compressor",
         "Efficiency": "ENERGY STAR",
-        "Coverage": "Up to about 1,500 sq ft (maker)",
-        "Overflow protection": "Auto-shutoff",
+        "Drainage": "Bucket or gravity hose",
         "Best for": "1–2 bedroom condos"
       }
     },
     {
-      "id": "frigidaire-fad301nwd",
-      "name": "Frigidaire 30-Pint Dehumidifier (FAD301NWD)",
-      "shortName": "Frigidaire FAD301NWD",
+      "id": "honeywell-tp30awkn",
+      "catalogId": "honeywell-tp30awkn",
+      "name": "Honeywell TP30AWKN 30-Pint Dehumidifier",
+      "shortName": "Honeywell TP30AWKN",
       "award": "Best for continuous drainage",
       "pros": [
-        "Continuous gravity drain eliminates tank risk",
-        "Simple controls, no app required",
-        "Well-suited to a laundry room or bathroom with a drain"
+        "Hose outlet for continuous drainage — no tank to forget",
+        "30 pints a day for a damp laundry room or bathroom",
+        "Digital controls with a humidity setting"
       ],
       "cons": [
-        "Rated on the older, pre-2019 scale",
+        "Bigger and heavier than a 22-pint unit",
         "A permanent drain line may need HOA approval"
       ],
-      "whyWeLoveIt": "Owning your condo means you can do something renters rarely can: route a drain line during a bathroom or laundry remodel. Once this Frigidaire is hooked to a drain, there's no tank to forget, and the overflow worry largely disappears.",
-      "performance": "The FAD301NWD is rated at about 30 pints a day on the pre-2019 scale, which is a smaller real-world capacity under today's DOE test. That's still fine for a single damp room. Its straightforward humidistat suits a unit meant to run unattended for weeks. Check your association's rules before any work that ties into shared plumbing.",
+      "whyWeLoveIt": "Owning your condo means you can do something renters rarely can: route a drain line during a bathroom or laundry remodel. Once this Honeywell is hooked to a drain, there's no tank to forget, and the overflow worry largely disappears.",
+      "performance": "At 30 pints a day, the TP30AWKN handles a damp laundry room or bathroom where a 22-pint unit would run almost nonstop. It's a conventional compressor design with digital controls, so you can set a humidity target and leave it alone for weeks once the hose is connected. Check your association's rules before any work that ties into shared plumbing. More units in this class are in our [best 30-pint dehumidifier](/best/best-30-pint-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "About 30 pints/day (pre-2019 rating)",
-        "Drainage": "Bucket or continuous gravity hose",
-        "Humidistat": "Adjustable",
+        "Capacity": "30 pints/day",
+        "Drainage": "Bucket or continuous hose",
+        "Controls": "Digital, humidity setting",
         "Type": "Compressor",
         "Best for": "Laundry room, bathroom near a drain"
       }
     },
     {
-      "id": "frigidaire-gallery-fgac5045w1",
-      "name": "Frigidaire Gallery 50-Pint Dehumidifier with Pump (FGAC5045W1)",
-      "shortName": "Frigidaire Gallery FGAC5045W1",
+      "id": "frigidaire-fhdp5033w1",
+      "catalogId": "frigidaire-fhdp5033w1",
+      "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FHDP5033W1 / FHDP5033Y1)",
+      "shortName": "Frigidaire FHDP5033W1",
       "award": "Best for concrete high-rises",
       "pros": [
         "50 pints a day for large open-concept layouts",
         "Built-in pump with a 16.4-ft lift",
         "Can sit anywhere — no floor drain needed",
-        "Strong water removal in independent reviews"
+        "Specced at 49 dBA, restrained for a 50-pint unit"
       ],
       "cons": [
         "Overkill for a small condo",
-        "Bigger and louder than the hOmeLabs"
+        "Bigger and louder than the Midea"
       ],
       "whyWeLoveIt": "Lower-floor condos in concrete buildings — especially those above an underground garage — can stay stubbornly damp. This Frigidaire has the capacity to keep up and a pump that sends water to a sink wherever it happens to be.",
-      "performance": "Frigidaire rates it at 50 pints a day for spaces up to about 4,500 square feet, enough for an open living, dining and kitchen area. Its condensate pump lifts water up to 16.4 feet, so it can push water up and out to a sink or window. In one 2026 magazine review, it pulled more water than any other unit in the group. For other self-draining units, see our [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) guide.",
+      "performance": "Frigidaire rates it at 50 pints a day, enough for an open living, dining and kitchen area, and rates its condensate pump for 16.4 feet of vertical lift, so it can push water up and out to a sink or window. The spec sheet lists 49 dBA — restrained for a 50-pint unit, though still louder than a small machine — and Wi-Fi scheduling lets you save heavy running for when you're out. Newer stock ships as the FHDP5033Y1, the same machine on R-32 refrigerant. For other self-draining units, see our [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) guide.",
       "specs": {
         "Capacity": "50 pints/day",
         "Drainage": "Built-in pump, 16.4-ft lift",
-        "Coverage": "Up to about 4,500 sq ft (maker)",
-        "Type": "Compressor",
+        "Noise": "49 dBA (manufacturer spec)",
+        "Smart control": "Wi-Fi app and voice",
         "Best for": "Large or lower-floor condos"
       }
     },
     {
-      "id": "ninesky-ct2",
-      "name": "NineSky CT2 Mini Dehumidifier",
-      "shortName": "NineSky CT2",
+      "id": "pro-breeze-pb-03",
+      "catalogId": "pro-breeze-pb-03",
+      "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
+      "shortName": "Pro Breeze PB-03",
       "award": "Best for shared walls",
       "pros": [
-        "Rated at 40 dB or lower",
+        "About 35 dB, per Pro Breeze",
         "No compressor to cycle on and off",
         "Small enough for a nightstand or closet shelf",
-        "Roughly 95-oz tank with auto shut-off"
+        "52-oz tank with auto shut-off"
       ],
       "cons": [
         "Removes far less water than a compressor unit",
         "Best for one small, closed room"
       ],
-      "whyWeLoveIt": "Plenty of HOAs enforce quiet hours, and a compressor's on-off hum is exactly the kind of sound that travels through a party wall. This thermo-electric mini trades raw extraction for a noise level low enough to fade into the background overnight.",
-      "performance": "NineSky rates the CT2 at 40 decibels or less, about the level of a quiet refrigerator. Its thermo-electric design means there's only a small fan running, and the roughly 95-ounce tank shuts the unit off when full. It's a maintenance tool for a bedroom or walk-in closet, not a fix for a damp, open living area. Our [quiet dehumidifier guide](/best/best-quiet-dehumidifier/) has more low-noise options.",
+      "whyWeLoveIt": "Plenty of HOAs enforce quiet hours, and a compressor's on-off hum is exactly the kind of sound that travels through a party wall. This thermoelectric mini trades raw extraction for a noise level low enough to fade into the background overnight.",
+      "performance": "Pro Breeze rates the PB-03 at about 35 decibels and for spaces up to roughly 2,200 cubic feet. Its Peltier design means there's only a small fan running, and the 52-ounce tank shuts the unit off when full. At about 18 ounces a day on its retail listing, it's a maintenance tool for a bedroom or walk-in closet, not a fix for a damp, open living area. Our [quiet dehumidifier guide](/best/best-quiet-dehumidifier/) has more low-noise options.",
       "specs": {
-        "Type": "Thermo-electric",
-        "Noise": "40 dB or lower (maker)",
-        "Tank": "About 95 oz",
+        "Type": "Thermoelectric (Peltier)",
+        "Noise": "About 35 dB (maker)",
+        "Tank": "52 oz",
         "Overflow protection": "Auto shut-off",
+        "Coverage": "Up to ~2,200 cu ft",
         "Best for": "Bedroom on a shared wall"
       }
     },
@@ -258,7 +263,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **hOmeLabs HME020030N** is the best dehumidifier for most condos: honestly rated, efficient and protected against overflow. Choose the **Frigidaire FAD301NWD** for a drain-connected laundry room, the **Frigidaire Gallery FGAC5045W1** for a large or lower-floor unit in a concrete building, the **NineSky CT2** when a shared wall makes quiet the top priority, and an **Eva-Dry E-333** for a closet where you want zero spill risk. Renting instead? Our [apartment picks](/best/best-dehumidifier-for-apartment/) cover no-install options."
+          "text": "The **Midea MAD22C1AWS** is the best dehumidifier for most condos: honestly rated, efficient and protected against overflow. Choose the **Honeywell TP30AWKN** for a drain-connected laundry room, the **Frigidaire FHDP5033W1** for a large or lower-floor unit in a concrete building, the **Pro Breeze PB-03** when a shared wall makes quiet the top priority, and an **Eva-Dry E-333** for a closet where you want zero spill risk. Renting instead? Our [apartment picks](/best/best-dehumidifier-for-apartment/) cover no-install options."
         }
       ]
     }
@@ -266,7 +271,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for a condo?",
-      "a": "For most condos, the hOmeLabs HME020030N. It's rated at 22 pints a day under the DOE 2019 test, ENERGY STAR certified and shuts off automatically when the tank is full. Larger or lower-floor condos may need the 50-pint Frigidaire Gallery FGAC5045W1 with a built-in pump."
+      "a": "For most condos, the Midea MAD22C1AWS. It's rated at 22 pints a day under the DOE 2019 test, ENERGY STAR certified and shuts off automatically when the tank is full. Larger or lower-floor condos may need the 50-pint Frigidaire FHDP5033W1 with a built-in pump."
     },
     {
       "q": "Do I need HOA approval to use a dehumidifier in a condo?",
