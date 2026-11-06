@@ -72,26 +72,27 @@
     {
       "id": "homelabs-50-pint",
       "catalogId": "homelabs-50-pint",
-      "name": "hOmeLabs 50-Pint ENERGY STAR Dehumidifier (HME020031N)",
+      "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier (7,000 Sq Ft)",
       "shortName": "hOmeLabs 50-Pint",
       "award": "Best budget kiln dehumidifier",
       "pros": [
-        "50 pints a day under the DOE 2019 test",
+        "Rated at 50 pints a day",
         "Gravity-hose connection for continuous drainage",
-        "ENERGY STAR certified",
+        "Wi-Fi app lets you check the chamber without opening it",
         "A fraction of the cost of an LGR"
       ],
       "cons": [
         "Built for room temperatures, not a hot kiln",
-        "Slows down as the chamber gets dry"
+        "Slows down as the chamber gets dry",
+        "No pump, so the hose must run downhill"
       ],
       "whyWeLoveIt": "Plenty of hobby kilns run on an ordinary household dehumidifier. For a small batch of air-dried lumber, a 50-pint unit with a hose out of the box gets you started for little money — as long as you respect its limits.",
-      "performance": "It’s rated at 50 pints a day under the 2019 DOE procedure and has auto-defrost down to about 41°F. Its 12.8-pint bucket would fill fast in a kiln, so connect the gravity hose and run it through the wall to the outside. Keep the chamber within the manual’s operating range; household compressors aren’t designed for sustained kiln heat. See the rest of the brand in our [best hOmeLabs dehumidifier](/best/best-homelabs-dehumidifier/) guide.",
+      "performance": "Amazon lists it as a 50-pint Wi-Fi model with a 7,000-square-foot coverage claim; the listing’s “MAX 120 pint” figure is measured at 95°F and 90% humidity, so size it by the 50. It has no pump, and any bucket would fill fast in a kiln, so connect a gravity hose and run it downhill through the wall to the outside. The app is handy here, since you can check humidity and the unit’s status without opening the chamber door. Keep the chamber within the manual’s operating range; household compressors aren’t designed for sustained kiln heat. See the rest of the brand in our [best hOmeLabs dehumidifier](/best/best-homelabs-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
-        "Tank": "12.8 pints",
-        "Drainage": "Bucket or gravity hose",
-        "Efficiency": "ENERGY STAR",
+        "Capacity": "50 pints/day (120 at 95°F/90% RH, listing)",
+        "Coverage": "Up to 7,000 sq ft (listing claim)",
+        "Drainage": "Bucket or gravity hose; no pump",
+        "Smart features": "Wi-Fi app control",
         "Best for": "Small batches of air-dried lumber"
       }
     },
@@ -122,11 +123,11 @@
     {
       "id": "sensorpush-ht1",
       "catalogId": "sensorpush-ht1",
-      "name": "SensorPush HT1 Wireless Hygrometer",
-      "shortName": "SensorPush HT1",
+      "name": "SensorPush HT.w Temperature & Humidity Sensor",
+      "shortName": "SensorPush HT.w",
       "award": "Best kiln monitor",
       "pros": [
-        "Rated from about −40°F to 140°F",
+        "Water-resistant body suits a chamber full of wet lumber",
         "Logs temperature and humidity history",
         "Wi-Fi alerts with the optional gateway"
       ],
@@ -134,12 +135,12 @@
         "Measures air, not wood moisture",
         "Gateway is an extra purchase"
       ],
-      "whyWeLoveIt": "You need to know what’s happening inside a sealed kiln without opening the door. The HT1’s temperature range covers kiln conditions, and its history shows whether the dehumidifier is keeping up or the chamber is overheating.",
-      "performance": "SensorPush rates it for roughly −40°F to 140°F, with typical humidity accuracy of ±3% between 20% and 80%. The app keeps a detailed log, and the SensorPush gateway adds remote alerts. Pair it with a pin-type moisture meter for the wood itself. Other monitors are in our [best hygrometer](/best/best-hygrometer/) guide.",
+      "whyWeLoveIt": "You need to know what’s happening inside a sealed kiln without opening the door. The HT.w is a water-resistant, indoor/outdoor sensor, and its history shows whether the dehumidifier is keeping up or the chamber is overheating.",
+      "performance": "It reports temperature and humidity over Bluetooth and calculates dew point, VPD and heat index; the app keeps a detailed log, and SensorPush’s separate gateway adds remote alerts. Confirm the published operating temperature on SensorPush’s listing against your kiln’s peak temperature before you leave it inside. Pair it with a pin-type moisture meter for the wood itself. Other monitors are in our [best hygrometer](/best/best-hygrometer/) guide.",
       "specs": {
         "Measures": "Humidity and temperature",
-        "Temperature range": "About −40°F to 140°F",
-        "Accuracy": "±3% RH typical, 20–80%",
+        "Extras": "Dew point, VPD, heat index",
+        "Build": "Water-resistant, indoor/outdoor",
         "Connectivity": "Bluetooth; Wi-Fi via gateway",
         "Best for": "Watching kiln conditions remotely"
       }
@@ -260,7 +261,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A small dehumidification kiln is one of the most satisfying projects a woodworker can build. Choose the **AlorAir Storm LGR Extreme** or the **Dri-Eaz Revolution** if you want a unit that keeps pulling water to the end of the schedule, or start with the **hOmeLabs 50-Pint** for small, air-dried batches. Add a **Vornado 660** for airflow and a **SensorPush HT1** to watch conditions, and dry to 6–8% before the boards come inside. If the kiln is part of a bigger shop, our [best dehumidifier for workshop](/best/best-dehumidifier-for-workshop/) guide covers keeping finished stock dry."
+          "text": "A small dehumidification kiln is one of the most satisfying projects a woodworker can build. Choose the **AlorAir Storm LGR Extreme** or the **Dri-Eaz Revolution** if you want a unit that keeps pulling water to the end of the schedule, or start with the **hOmeLabs 50-Pint** for small, air-dried batches. Add a **Vornado 660** for airflow and a **SensorPush HT.w** to watch conditions, and dry to 6–8% before the boards come inside. If the kiln is part of a bigger shop, our [best dehumidifier for workshop](/best/best-dehumidifier-for-workshop/) guide covers keeping finished stock dry."
         }
       ]
     }

@@ -43,28 +43,30 @@
       }
     },
     {
-      "id": "ge-adhr50lz",
-      "name": "GE 50-Pint Smart Dehumidifier with Pump (ADHR50LZ)",
-      "shortName": "GE ADHR50LZ",
+      "id": "ge-50-pint-wifi",
+      "catalogId": "ge-50-pint-wifi",
+      "name": "GE 50-Pint Wi-Fi Smart Dehumidifier",
+      "shortName": "GE 50-Pint Wi-Fi",
       "award": "Best smart",
       "pros": [
-        "SmartHQ app with full-tank and filter alerts",
+        "SmartHQ app with 24-hour schedules",
         "Alexa and Google Assistant voice control",
         "Smart Dry mode adjusts fan speed automatically",
-        "Same pump and capacity as the APYR50LC"
+        "Auto restart and auto defrost"
       ],
       "cons": [
-        "Costs more for the same drying hardware",
+        "No pump: 15-pint bucket or a gravity hose",
+        "Drain hose not included",
         "App features are only useful if you'll use them"
       ],
-      "whyWeLoveIt": "If the dehumidifier lives in a finished basement you rarely visit, a phone alert before something goes wrong is genuinely valuable. The ADHR50LZ adds that SmartHQ layer to the same pump-equipped 50-pint machine.",
-      "performance": "Underneath, it matches the APYR50LC: 50 pints a day, about 4,500 sq ft of coverage and a built-in pump. On top, SmartHQ tracks energy use, sends empty-bucket and filter-cleaning reminders, and lets you change the setpoint by voice. Smart Dry mode nudges the fan speed up or down based on the humidity reading. Browse other connected options in our [best Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) roundup.",
+      "whyWeLoveIt": "If the dehumidifier lives in a finished basement you rarely visit, being able to check and change it from your phone or by voice is genuinely valuable. This GE adds Wi-Fi, SmartHQ and Alexa and Google control to a 50-pint machine — just plan on a floor drain, because it has no pump.",
+      "performance": "GE rates it at 50 pints a day for spaces up to 5,000 square feet. Water collects in a 15-pint bucket that shuts the unit off with a 10-second alarm when full, or drains continuously through a hose you supply. The humidistat runs from 30% to 70%, Smart Dry nudges the fan speed up or down based on the humidity reading, and the unit tells you when the washable filter needs cleaning. Browse other connected options in our [best Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) roundup.",
       "specs": {
-        "Capacity": "50 pints/day",
-        "Coverage": "Up to about 4,500 sq ft (GE)",
-        "Drainage": "Built-in pump or gravity",
+        "Capacity": "50 pints/day (GE)",
+        "Coverage": "Up to 5,000 sq ft (GE)",
+        "Drainage": "15-pint bucket or gravity hose (not included)",
         "Smart control": "SmartHQ app, Alexa, Google",
-        "Best for": "Finished basement"
+        "Best for": "Finished basement with a floor drain"
       }
     },
     {
@@ -150,19 +152,58 @@
         {
           "type": "stats",
           "items": [
-            { "value": "16 ft", "label": "Vertical pump lift on the APYR50LC and ADHR50LZ, per GE" },
-            { "value": "4,500 sq ft", "label": "GE's rated coverage for both 50-pint models" },
-            { "value": "1 year", "label": "GE's standard limited warranty across the lineup" }
+            {
+              "value": "16 ft",
+              "label": "Vertical pump lift on the APYR50LC, per GE"
+            },
+            {
+              "value": "5,000 sq ft",
+              "label": "GE's rated coverage for its 50-pint Wi-Fi model"
+            },
+            {
+              "value": "1 year",
+              "label": "GE's standard limited warranty across the lineup"
+            }
           ]
         },
         {
           "type": "table",
-          "head": ["Model", "Capacity", "Pump", "Smart control", "Best for"],
+          "head": [
+            "Model",
+            "Capacity",
+            "Pump",
+            "Smart control",
+            "Best for"
+          ],
           "rows": [
-            ["APYR50LC", "50 pints/day", "Yes, 16-ft lift", "No", "Basement or garage"],
-            ["ADHR50LZ", "50 pints/day", "Yes", "SmartHQ app", "Finished basement"],
-            ["ADEL35LZ", "35 pints/day", "No (gravity)", "No", "Bedroom, small basement"],
-            ["ADEL20LY", "20 pints/day", "No (gravity)", "No", "Single room"]
+            [
+              "APYR50LC",
+              "50 pints/day",
+              "Yes, 16-ft lift",
+              "No",
+              "Basement or garage"
+            ],
+            [
+              "50-pint Wi-Fi",
+              "50 pints/day",
+              "No (bucket or gravity)",
+              "SmartHQ app, Alexa, Google",
+              "Finished basement with a drain"
+            ],
+            [
+              "ADEL35LZ",
+              "35 pints/day",
+              "No (gravity)",
+              "No",
+              "Bedroom, small basement"
+            ],
+            [
+              "ADEL20LY",
+              "20 pints/day",
+              "No (gravity)",
+              "No",
+              "Single room"
+            ]
           ]
         }
       ]
@@ -186,7 +227,7 @@
           "items": [
             {
               "label": "Read the model prefix",
-              "text": "APYR and ADHR mean pump-equipped 50-pint models; ADEL is the gravity-drain line in 20 and 35 pints. You'll also see related ADEW20LY and ADEW35LZ listings at the same sizes — check the spec sheet to confirm features before buying."
+              "text": "APYR marks the pump-equipped 50-pint model; ADEL is the gravity-drain line in 20 and 35 pints. GE's 50-pint Wi-Fi model is sold without a pump. You'll also see related ADEW20LY and ADEW35LZ listings at the same sizes — check the spec sheet to confirm features before buying."
             },
             {
               "label": "A pump if there's no low drain",
@@ -194,7 +235,7 @@
             },
             {
               "label": "SmartHQ only if you'll use it",
-              "text": "The ADHR50LZ costs more than the APYR50LC for the same drying hardware plus app alerts and voice control."
+              "text": "The 50-pint Wi-Fi model adds SmartHQ, Alexa and Google control but has no pump, so it only makes sense if you'll use the app and can drain it by gravity."
             },
             {
               "label": "The right size",
@@ -257,7 +298,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **GE APYR50LC** is the best GE dehumidifier for most basements and utility rooms: 50 pints a day and a 16-foot pump lift. Step up to the **ADHR50LZ** if SmartHQ alerts and voice control are worth the premium, or down to the **ADEL35LZ** or **ADEL20LY** for smaller spaces that don't need a pump. Because GE's lineup shares a manufacturer with rivals, compare current pricing with Frigidaire before buying, and see our [Haier vs. GE](/compare/haier-vs-ge-dehumidifier/) comparison for another angle."
+          "text": "The **GE APYR50LC** is the best GE dehumidifier for most basements and utility rooms: 50 pints a day and a 16-foot pump lift. Choose the **GE 50-Pint Wi-Fi** if SmartHQ and voice control matter more than a pump, or down to the **ADEL35LZ** or **ADEL20LY** for smaller spaces that don't need a pump. Because GE's lineup shares a manufacturer with rivals, compare current pricing with Frigidaire before buying, and see our [Haier vs. GE](/compare/haier-vs-ge-dehumidifier/) comparison for another angle."
         }
       ]
     }
@@ -281,7 +322,7 @@
     },
     {
       "q": "What size GE dehumidifier do I need?",
-      "a": "The 20-pint ADEL20LY suits a single room up to about 800 sq ft, the 35-pint ADEL35LZ handles a bedroom, office or small basement, and the 50-pint APYR50LC or ADHR50LZ covers a full basement or garage up to roughly 4,500 sq ft."
+      "a": "The 20-pint ADEL20LY suits a single room up to about 800 sq ft, the 35-pint ADEL35LZ handles a bedroom, office or small basement, and the 50-pint APYR50LC or the 50-pint Wi-Fi model covers a full basement or garage; GE rates them at roughly 4,500 and 5,000 sq ft."
     },
     {
       "q": "How long is the GE dehumidifier warranty?",

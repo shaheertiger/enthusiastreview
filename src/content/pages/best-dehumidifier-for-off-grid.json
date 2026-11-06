@@ -1,0 +1,462 @@
+{
+  "slug": "best-dehumidifier-for-off-grid",
+  "section": "best",
+  "category": "Size & Features",
+  "navLabel": "Off-Grid & Solar",
+  "title": "Best Solar Powered & Off-Grid Dehumidifier (2026)",
+  "h1": "The Best Off-Grid and Solar-Powered Dehumidifiers",
+  "dek": "On solar and batteries, every watt has a job. These dehumidifiers pull the most water from the power you actually have — or need none at all.",
+  "description": "The best solar powered and off-grid dehumidifiers, from efficient compressor units to 12V and zero-power picks, with watt-hour, inverter and battery math.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "amazonOnly": true,
+  "intro": [
+    "There's no special category of **solar-powered dehumidifier** worth buying. What you need is an ordinary dehumidifier that turns the fewest watt-hours into the most water, matched to the inverter and battery bank you already own. For most off-grid homes, tiny cabins and solar-backed rooms, our top pick is the **Midea Cube 20**, an ENERGY STAR Most Efficient 20-pint compressor unit that removes far more water per kilowatt-hour than the low-wattage minis marketed for solar.",
+    "Three things matter most when you're making your own power. First, efficiency measured in water per watt-hour, not the wattage on the box. Second, whether your inverter can handle a compressor's start-up surge. Third, how the unit behaves when power drops out — after a low-battery cutoff or a generator refuel, it needs to come back on by itself. If your system is small or you only have 12-volt power, the **Eva-Dry EDV-1100** and the zero-power **Eva-Dry E-500** fill the gaps.",
+    "Below are six picks for systems of every size, with the math to size your solar, battery and inverter around them."
+  ],
+  "topPicksLead": "The **Midea Cube 20** is the best off-grid dehumidifier for most solar setups: a compact, ENERGY STAR Most Efficient compressor unit that makes every watt-hour count.",
+  "products": [
+    {
+      "id": "midea-cube-20",
+      "catalogId": "midea-cube-20",
+      "name": "Midea Cube 20-Pint Smart Dehumidifier (MAD20S1QWT)",
+      "shortName": "Midea Cube 20",
+      "award": "Best overall for solar setups",
+      "pros": [
+        "ENERGY STAR Most Efficient — top of the efficiency list",
+        "Compressor moves real water, not ounces",
+        "Digital humidistat lets it rest once the room is dry"
+      ],
+      "cons": [
+        "Still needs a true inverter, not a 12-volt socket",
+        "Sized for one room or a small cabin, not a whole house"
+      ],
+      "whyWeLoveIt": "Off-grid, the best dehumidifier is the one that finishes the job and shuts off. The Cube 20 carries ENERGY STAR Most Efficient status, and its humidistat stops the compressor as soon as the room reaches your target, so it isn't burning battery capacity on air that's already dry.",
+      "performance": "It's rated at 20 pints a day under the DOE 2019 test — enough for a tiny home, a one-room cabin or a bedroom in a larger off-grid house. Any small compressor unit draws a few hundred watts while it runs, so plan on a pure sine wave inverter with surge headroom, then let solar hours do the heavy lifting by running it mostly in the afternoon. It drains into its base reservoir or through a gravity hose. Check the rating plate for running watts before you size your inverter.",
+      "specs": {
+        "Capacity": "20 pints/day (DOE 2019)",
+        "Type": "Compressor",
+        "Efficiency": "ENERGY STAR Most Efficient",
+        "Drainage": "Base reservoir or gravity hose",
+        "Best for": "Tiny homes, one-room cabins, solar-backed rooms"
+      }
+    },
+    {
+      "id": "midea-mad22c1aws",
+      "catalogId": "midea-mad22c1aws",
+      "name": "Midea 22-Pint ENERGY STAR Dehumidifier (MAD22C1AWS)",
+      "shortName": "Midea MAD22C1AWS",
+      "award": "Best budget compressor",
+      "pros": [
+        "ENERGY STAR certified at a lower price",
+        "Simple, no-frills controls",
+        "Gravity-hose port for unattended draining"
+      ],
+      "cons": [
+        "Smaller bucket fills quickly in humid weeks",
+        "No app control"
+      ],
+      "whyWeLoveIt": "If the budget is going into panels and batteries, this is the economical way to get compressor-class efficiency. It's ENERGY STAR certified, does one job well and skips the connectivity many off-grid owners don't need.",
+      "performance": "It's rated at 22 pints a day under the DOE 2019 test, which puts it in the same class as the Cube 20 for a single room or small cabin. Like any compressor unit, it needs an inverter that can handle the start-up surge. Run a hose to a floor drain or outside so a full bucket doesn't stop it halfway through a sunny afternoon.",
+      "specs": {
+        "Capacity": "22 pints/day (DOE 2019)",
+        "Type": "Compressor",
+        "Efficiency": "ENERGY STAR",
+        "Drainage": "Bucket or gravity hose",
+        "Best for": "Budget solar builds, small cabins"
+      }
+    },
+    {
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Dehumidifier (MAD50S1QWT)",
+      "shortName": "Midea Cube 50",
+      "award": "Best for full-time off-grid homes",
+      "pros": [
+        "Published 2.01 liters per kWh efficiency",
+        "ENERGY STAR lists about 515 kWh a year",
+        "34-pint reservoir or gravity hose"
+      ],
+      "cons": [
+        "Draws roughly 500 watts while running",
+        "Needs a substantial battery bank or generator support"
+      ],
+      "whyWeLoveIt": "In a full-size off-grid house with a damp basement or a humid climate, a small unit would run all day and never catch up. The Cube 50 publishes the efficiency numbers you need to plan around, and its capacity lets it dry the space during peak sun and then sit idle overnight.",
+      "performance": "It's rated at 50 pints a day under the DOE 2019 test, and independent measurements put its running draw near 512 watts. At its ENERGY STAR efficiency of 2.01 liters per kWh, every kilowatt-hour you feed it removes about two liters of water — roughly four times what a thermoelectric mini manages from the same energy. Size your inverter well above its running watts for the compressor's start-up surge.",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Efficiency": "2.01 L/kWh, ENERGY STAR",
+        "Power": "About 512 W running (independent measurement)",
+        "Drainage": "34-pint reservoir or gravity hose",
+        "Best for": "Full-time off-grid homes, basements"
+      }
+    },
+    {
+      "id": "pro-breeze-pb-03",
+      "catalogId": "pro-breeze-pb-03",
+      "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
+      "shortName": "Pro Breeze PB-03",
+      "award": "Best low-wattage dehumidifier",
+      "pros": [
+        "About 40 watts, per Pro Breeze",
+        "Runs on a small inverter or portable power station",
+        "No compressor, so no start-up surge"
+      ],
+      "cons": [
+        "Removes about 18 oz a day, not pints",
+        "Less water per watt-hour than a compressor unit",
+        "Only for small, mildly damp spaces"
+      ],
+      "whyWeLoveIt": "When your whole system is a couple of panels and a modest battery, a compressor unit is out of reach. This thermoelectric mini sips power steadily with no surge, so it runs happily on a small inverter or a portable power station in a sleeping loft, a bathroom or a small bunkhouse.",
+      "performance": "Pro Breeze rates it for about 2,200 cubic feet — roughly a 250 sq ft room — and lists its draw at around 40 watts. It collects about 18 ounces a day in a 52-ounce tank and shuts off when full. Running around the clock, it uses close to a kilowatt-hour a day, so it's the right tool for a small space on a small system, not the most efficient way to dry a big one. More compact options are in our [mini dehumidifier guide](/best/best-mini-dehumidifier/).",
+      "specs": {
+        "Type": "Thermoelectric (Peltier)",
+        "Power": "About 40 W (Pro Breeze)",
+        "Capacity": "About 18 oz/day",
+        "Tank": "52 oz with auto shut-off",
+        "Coverage": "About 2,200 cu ft"
+      }
+    },
+    {
+      "id": "eva-dry-edv-1100",
+      "catalogId": "eva-dry-edv-1100",
+      "name": "Eva-Dry EDV-1100 Petite Dehumidifier",
+      "shortName": "Eva-Dry EDV-1100",
+      "award": "Best 12-volt dehumidifier",
+      "pros": [
+        "Runs on 12V DC with the optional EDV-12V cord",
+        "About 22 watts — no inverter losses on 12V",
+        "About 33 dB, per Eva-Dry"
+      ],
+      "cons": [
+        "Will drain a vehicle starting battery if left running",
+        "24-volt systems need a step-down converter",
+        "Removes ounces, not pints, per day"
+      ],
+      "whyWeLoveIt": "Most products sold as a 12-volt dehumidifier are tiny thermoelectric units, and this is one of the few from an established brand that runs on 120V or straight off a 12V system with an optional cord. Skipping the inverter means none of the conversion losses that eat into a small battery bank.",
+      "performance": "Eva-Dry rates it for about 1,100 cubic feet — roughly an 11-by-12-foot room with an 8-foot ceiling — at around 22 watts. On 12V that works out to a little under 2 amps, or roughly 44 amp-hours over a full day, so put it on a house battery rather than a starting battery. It suits a van, an RV bedroom or a small cabin loft; our [RV dehumidifier guide](/best/best-rv-dehumidifier/) covers rig-specific setups.",
+      "specs": {
+        "Type": "Thermoelectric (Peltier)",
+        "Power": "About 22 W (Eva-Dry)",
+        "Power source": "110V, or 12V with optional cord",
+        "Rated space": "About 1,100 cu ft",
+        "Drainage": "16-oz tank, auto shut-off"
+      }
+    },
+    {
+      "id": "eva-dry-e-500",
+      "catalogId": "eva-dry-e-500",
+      "name": "Eva-Dry E-500 Renewable Dehumidifier",
+      "shortName": "Eva-Dry E-500",
+      "award": "Best zero-power option",
+      "pros": [
+        "Uses no power at all while it works",
+        "Recharge whenever you have surplus solar",
+        "Can't spill, overflow or trip a breaker"
+      ],
+      "cons": [
+        "Holds only 6–8 oz of moisture per charge",
+        "Recharging takes the better part of a day at an outlet"
+      ],
+      "whyWeLoveIt": "The smartest off-grid dehumidifier may be the one that shifts its power use to whenever you have energy to spare. This silica-gel canister soaks up moisture silently in a closet, pantry or tool chest, then recharges on a sunny afternoon when your batteries are already full.",
+      "performance": "Eva-Dry rates it for about 500 cubic feet and lists 6 to 8 ounces of moisture per charge. When the indicator changes color, plug it in until it dries out, and it's ready to go again. It won't keep up with a damp room, but in enclosed spaces it does its job with zero draw. See the rest of the lineup in our [Eva-Dry guide](/best/best-eva-dry-dehumidifier/).",
+      "specs": {
+        "Type": "Renewable silica gel",
+        "Rated space": "About 500 cu ft",
+        "Capacity": "6–8 oz per charge (Eva-Dry)",
+        "Power": "Only while recharging",
+        "Best for": "Closets, pantries, tool chests"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "off-grid-numbers",
+      "heading": "Off-grid dehumidifying, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "~2 L/kWh",
+              "label": "Water removed per kilowatt-hour by an efficient compressor unit like the Midea Cube 50"
+            },
+            {
+              "value": "~0.5 L/kWh",
+              "label": "Roughly what a 40-watt thermoelectric mini manages from the same energy"
+            },
+            {
+              "value": "22 W",
+              "label": "Draw of the Eva-Dry EDV-1100, one of the few units that runs on 12V"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "That middle number surprises people. A 40-watt mini running all day uses close to 1 kWh to remove about half a liter of water. A compressor unit draws far more watts, but for the same kilowatt-hour it pulls out around four times as much. Low wattage and low energy use are not the same thing — the right choice depends on whether your system can deliver the higher wattage at all."
+        }
+      ]
+    },
+    {
+      "id": "how-we-pick",
+      "heading": "How we pick off-grid dehumidifiers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don't lab-test. We compare DOE 2019 capacity ratings, ENERGY STAR efficiency data in liters per kilowatt-hour, manufacturer power specs and manuals, CPSC recall notices and owner reports — particularly from people running units on inverters, power stations and generators."
+        },
+        {
+          "type": "p",
+          "text": "We ranked by water removed per watt-hour first, then by fit for a limited system: start-up surge, 12V capability and bucket-free draining. One zero-power option made the list because shifting load to sunny hours is often the cheapest off-grid upgrade."
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "heading": "Our off-grid picks compared",
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "Pick",
+            "Type",
+            "Power",
+            "Water removed",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "Midea Cube 20",
+              "Compressor",
+              "A few hundred W; check the plate",
+              "20 pints/day (DOE)",
+              "Most solar setups"
+            ],
+            [
+              "Midea MAD22C1AWS",
+              "Compressor",
+              "A few hundred W; check the plate",
+              "22 pints/day (DOE)",
+              "Budget builds"
+            ],
+            [
+              "Midea Cube 50",
+              "Compressor",
+              "About 512 W",
+              "50 pints/day (DOE)",
+              "Full-time off-grid homes"
+            ],
+            [
+              "Pro Breeze PB-03",
+              "Thermoelectric",
+              "About 40 W",
+              "About 18 oz/day",
+              "Small systems, lofts"
+            ],
+            [
+              "Eva-Dry EDV-1100",
+              "Thermoelectric",
+              "About 22 W, 12V or 110V",
+              "Ounces per day",
+              "Vans, RVs, 12V cabins"
+            ],
+            [
+              "Eva-Dry E-500",
+              "Silica gel",
+              "None in use",
+              "6–8 oz per charge",
+              "Closets, pantries"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-choose",
+      "heading": "How to choose a dehumidifier for off-grid power",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Size for the space first.",
+              "text": "Use our [dehumidifier size guide](/guides/dehumidifier-size-guide/): a single room or tiny home usually needs 20–22 pints a day, a damp basement 50. An undersized unit runs nonstop and wastes more energy than a right-sized one that cycles off."
+            },
+            {
+              "label": "Compare water per watt-hour, not watts.",
+              "text": "ENERGY STAR lists efficiency in liters per kilowatt-hour. A higher number means more water from every bit of stored energy."
+            },
+            {
+              "label": "Check your inverter's surge rating.",
+              "text": "Compressors pull a brief spike at start-up, several times their running draw. Pick a pure sine wave inverter rated comfortably above the unit's running watts, and keep other big loads off while it starts."
+            },
+            {
+              "label": "Confirm auto-restart.",
+              "text": "Low-battery cutoffs and generator refuels are routine off-grid. Unplug the unit briefly after setup and make sure it resumes at your settings."
+            },
+            {
+              "label": "Drain without a bucket.",
+              "text": "A full bucket stops the unit in the middle of your best solar hours. Use a [gravity drain hose](/best/best-dehumidifier-with-drain-hose/) wherever you can; built-in pumps work too but add a little draw."
+            },
+            {
+              "label": "Time it to the sun.",
+              "text": "Set the humidistat a few points higher overnight, or use a timer, and let the unit catch up in the afternoon when panels are producing."
+            },
+            {
+              "label": "Mind the temperature.",
+              "text": "Compressor units lose capacity in cool rooms and can ice up near 41°F. An unheated off-grid cabin in shoulder season may need a different approach — see our [low-temperature picks](/best/best-low-temperature-dehumidifier/)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solar-sizing",
+      "heading": "Solar, battery and generator math for a dehumidifier",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every sizing question starts with daily watt-hours: running watts multiplied by the hours the compressor actually runs. A humidistat-controlled unit rarely runs 24 hours, so a week of logging with a plug-in power meter beats any estimate. Our [electricity use guide](/guides/how-much-electricity-does-a-dehumidifier-use/) walks through typical numbers."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Example load",
+            "Daily energy",
+            "Rough panel need (4 sun hours)",
+            "Battery for one cloudy day"
+          ],
+          "rows": [
+            [
+              "Eva-Dry EDV-1100, 24 hrs at 22 W",
+              "About 530 Wh",
+              "About 175 W of panels",
+              "About 530 Wh usable"
+            ],
+            [
+              "Pro Breeze PB-03, 24 hrs at 40 W",
+              "About 960 Wh",
+              "About 320 W of panels",
+              "About 960 Wh usable"
+            ],
+            [
+              "Midea Cube 50, 8 hrs at 512 W",
+              "About 4.1 kWh",
+              "About 1,365 W of panels",
+              "About 4.1 kWh usable"
+            ]
+          ],
+          "caption": "Panel estimates divide daily energy by 4 peak sun hours, then by 0.75 to cover roughly 25% inverter, wiring and charging losses. Your location and season change the sun-hour figure."
+        },
+        {
+          "type": "h3",
+          "text": "Running a dehumidifier on a generator"
+        },
+        {
+          "type": "p",
+          "text": "A small inverter generator handles a 20- to 50-pint unit easily, and it's a common way to catch up after a run of cloudy days. Follow the standard safety rules every time: run the generator outdoors only, well away from doors, windows and vents, never in a garage or crawl space, and keep battery-powered carbon monoxide alarms working inside. If you're preparing for storm outages rather than living off the grid, our [hurricane season guide](/best/best-dehumidifier-for-hurricane-season/) covers backup power in more detail."
+        },
+        {
+          "type": "callout",
+          "title": "What about a true 12V compressor dehumidifier?",
+          "text": "Products sold as a **12V dehumidifier** for cars and RVs are almost always small thermoelectric units like the EDV-1100. For more water on DC power, an efficient compressor unit on a quality inverter is usually the better use of your battery. For vehicles that sit parked, passive bags are simpler still — see our [car dehumidifier guide](/best/best-car-dehumidifier/)."
+        }
+      ]
+    },
+    {
+      "id": "which-to-buy",
+      "heading": "Which one should you buy?",
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            "Your setup",
+            "Best pick",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Tiny home or one-room cabin with a 2,000 W+ inverter",
+              "Midea Cube 20",
+              "Most water per watt-hour in a small package"
+            ],
+            [
+              "Same, but on a tight budget",
+              "Midea MAD22C1AWS",
+              "ENERGY STAR compressor without the extras"
+            ],
+            [
+              "Full-time off-grid house with a damp basement",
+              "Midea Cube 50",
+              "Published efficiency; dries fast, then idles"
+            ],
+            [
+              "Small system or portable power station",
+              "Pro Breeze PB-03",
+              "About 40 W with no start-up surge"
+            ],
+            [
+              "12V-only van, RV or bunkhouse",
+              "Eva-Dry EDV-1100",
+              "Runs straight off DC with the optional cord"
+            ],
+            [
+              "Closets, pantries or no spare power at all",
+              "Eva-Dry E-500",
+              "Zero draw; recharge on surplus solar"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Visiting a seasonal getaway rather than living off-grid full-time? Our [cabin dehumidifier guide](/best/best-dehumidifier-for-cabin/) covers closing up for winter."
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Off-grid, efficiency beats low wattage. If your inverter can handle a compressor, the **Midea Cube 20** gets the most water out of each watt-hour for a small home, and the **Midea Cube 50** does the same for a full-size house. When your system is small or 12-volt only, the **Pro Breeze PB-03** and **Eva-Dry EDV-1100** are the realistic choices, and the **Eva-Dry E-500** lets you bank surplus sunshine as dry closets. Size the unit to the space, run it when the sun is up, and confirm it restarts on its own."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you run a dehumidifier on solar power?",
+      "a": "Yes. Any standard dehumidifier runs on solar through an inverter and battery bank, as long as the inverter can handle the compressor's start-up surge. Efficient ENERGY STAR compressor units remove the most water per kilowatt-hour."
+    },
+    {
+      "q": "What is the best solar powered dehumidifier?",
+      "a": "There's no special solar model worth seeking out. For most solar setups, the Midea Cube 20 is the best choice because it's ENERGY STAR Most Efficient. On a very small system, the roughly 40-watt Pro Breeze PB-03 is easier to power."
+    },
+    {
+      "q": "Is there a 12V dehumidifier that actually works?",
+      "a": "The Eva-Dry EDV-1100 runs on 12V with its optional EDV-12V cord at about 22 watts. It's a thermoelectric unit, so it removes ounces rather than pints a day — fine for a van, RV bedroom or small loft, not a damp room."
+    },
+    {
+      "q": "What is the lowest wattage dehumidifier?",
+      "a": "Silica-gel units like the Eva-Dry E-500 use no power while working, only while recharging. Among plug-in units, thermoelectric minis such as the EDV-1100 (about 22 watts) and Pro Breeze PB-03 (about 40 watts) draw the least."
+    },
+    {
+      "q": "How many solar panels do I need to run a dehumidifier?",
+      "a": "Work out daily watt-hours, divide by your peak sun hours, then divide by about 0.75 to cover losses. A 40-watt mini running all day needs roughly 320 watts of panels at 4 sun hours; a 50-pint compressor unit running 8 hours needs well over 1,000."
+    },
+    {
+      "q": "Can I run a dehumidifier off a portable power station?",
+      "a": "Small thermoelectric units run well on most power stations. A compressor unit needs a station whose continuous and surge ratings clear the dehumidifier's running and start-up draw, and a large enough battery to last the hours you need."
+    }
+  ],
+  "related": [
+    "/best/best-dehumidifier-for-cabin/",
+    "/best/best-rv-dehumidifier/",
+    "/guides/how-much-electricity-does-a-dehumidifier-use/",
+    "/best/best-energy-efficient-dehumidifier/",
+    "/best/best-rechargeable-dehumidifier/",
+    "/best/best-dehumidifier-for-hurricane-season/"
+  ]
+}

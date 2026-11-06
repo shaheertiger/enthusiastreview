@@ -106,7 +106,8 @@ for (const { f, d } of targets) {
 let direct = 0, search = 0, photo = 0;
 for (const { d } of targets)
   for (const p of d.products ?? []) {
-    const c = CATALOG[p.catalogId] ?? CATALOG[p.id];
+    const pick = (k) => (CATALOG[k] && !CATALOG[k].skip ? CATALOG[k] : undefined);
+    const c = pick(p.catalogId) ?? pick(p.id);
     if (p.url || p.asin || c?.asin) direct++; else search++;
     if (p.image || c?.image) photo++;
   }

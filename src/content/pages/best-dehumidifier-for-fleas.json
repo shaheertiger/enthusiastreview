@@ -45,25 +45,27 @@
     {
       "id": "honeywell-tp50awkn",
       "catalogId": "honeywell-tp50awkn",
-      "name": "Honeywell TP50AWKN 50-Pint Dehumidifier",
-      "shortName": "Honeywell TP50AWKN",
-      "award": "Best value for basements",
+      "name": "Honeywell TP50AWKNR Smart Wi-Fi Dehumidifier (32-Pint, 3,000 sq ft)",
+      "shortName": "Honeywell TP50AWKNR",
+      "award": "Best smart pick for basements",
       "pros": [
-        "50-pint capacity at a modest price",
-        "Digital humidistat",
-        "Gravity-hose drainage to a floor drain"
+        "Wi-Fi app with Alexa and Google voice control",
+        "Digital humidistat with a 24-hour timer",
+        "Continuous drain tube included for a floor drain",
+        "2023 ENERGY STAR Most Efficient certified"
       ],
       "cons": [
-        "No app",
-        "No pump"
+        "No pump",
+        "32 pints a day under the DOE 2019 test, so very wet basements need more"
       ],
-      "whyWeLoveIt": "Basements are where flea problems often hang on: carpeted dens, a dog bed by the furnace, humidity that rarely drops on its own. The TP50AWKN brings serious capacity to that space without the price of a smart or pump model.",
-      "performance": "It's a 50-pint-class compressor unit with a digital humidistat and a hose connection, so with a nearby floor drain it can run continuously through the weeks a flea plan takes. For damp lower levels in general, see our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) guide.",
+      "whyWeLoveIt": "Basements are where flea problems often hang on: carpeted dens, a dog bed by the furnace, humidity that rarely drops on its own. The TP50AWKNR lets you watch and adjust that space from your phone or by voice, so you know it's holding below 50% through the weeks a flea plan takes.",
+      "performance": "Honeywell rates it at 32 pints a day under the current DOE 2019 test (it was previously labeled 50 pints on the old scale) for spaces up to 3,000 square feet. It has a digital humidistat and an included continuous drain tube, so with a nearby floor drain it can run without emptying, and it restarts on its own after an outage. For damp lower levels in general, see our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) guide.",
       "specs": {
-        "Capacity": "50-pint class",
+        "Capacity": "32 pints/day (DOE 2019)",
         "Type": "Compressor",
-        "Humidistat": "Digital",
-        "Drainage": "Bucket or gravity hose",
+        "Smart control": "Wi-Fi app, Alexa, Google",
+        "Drainage": "Tank or included drain tube",
+        "Coverage": "Up to 3,000 sq ft (Honeywell)",
         "Best for": "Basements with a floor drain"
       }
     },
@@ -151,9 +153,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "~50%", "label": "Relative humidity below which flea larvae struggle to survive" },
-            { "value": "95%", "label": "Commonly cited share of a flea population living off the pet as eggs, larvae and pupae" },
-            { "value": "Weeks–months", "label": "How long pupae can wait in their cocoons before hatching" }
+            {
+              "value": "~50%",
+              "label": "Relative humidity below which flea larvae struggle to survive"
+            },
+            {
+              "value": "95%",
+              "label": "Commonly cited share of a flea population living off the pet as eggs, larvae and pupae"
+            },
+            {
+              "value": "Weeks–months",
+              "label": "How long pupae can wait in their cocoons before hatching"
+            }
           ]
         },
         {
@@ -217,12 +228,32 @@
         },
         {
           "type": "table",
-          "head": ["Life stage", "Where it lives", "Does dry air help?"],
+          "head": [
+            "Life stage",
+            "Where it lives",
+            "Does dry air help?"
+          ],
           "rows": [
-            ["Eggs", "Fall off the pet into carpet and bedding", "Yes — eggs fare poorly in dry air"],
-            ["Larvae", "Deep in carpet, cracks, under furniture", "Yes — the stage most vulnerable to low humidity"],
-            ["Pupae", "Sticky cocoons in carpet fibers", "Little — the cocoon protects them until they hatch"],
-            ["Adults", "On your pet", "No — treat the pet"]
+            [
+              "Eggs",
+              "Fall off the pet into carpet and bedding",
+              "Yes — eggs fare poorly in dry air"
+            ],
+            [
+              "Larvae",
+              "Deep in carpet, cracks, under furniture",
+              "Yes — the stage most vulnerable to low humidity"
+            ],
+            [
+              "Pupae",
+              "Sticky cocoons in carpet fibers",
+              "Little — the cocoon protects them until they hatch"
+            ],
+            [
+              "Adults",
+              "On your pet",
+              "No — treat the pet"
+            ]
           ]
         },
         {
@@ -259,7 +290,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A dehumidifier won't kill the fleas on your pet, but holding your home below 50% goes straight after the eggs and larvae that make up most of an infestation. The **Midea Cube 35** is our pick for carpeted living areas, the **Honeywell TP50AWKN** for basements with a drain, the **Frigidaire FFAP5033W1** where you need a pump and the **Midea Cube 20** for bedrooms. Add a **Govee H5075** at floor level, treat your pets and keep it all going for several weeks."
+          "text": "A dehumidifier won't kill the fleas on your pet, but holding your home below 50% goes straight after the eggs and larvae that make up most of an infestation. The **Midea Cube 35** is our pick for carpeted living areas, the **Honeywell TP50AWKNR** for basements with a drain, the **Frigidaire FFAP5033W1** where you need a pump and the **Midea Cube 20** for bedrooms. Add a **Govee H5075** at floor level, treat your pets and keep it all going for several weeks."
         }
       ]
     }

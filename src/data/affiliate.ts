@@ -13,7 +13,8 @@ export interface CatalogEntry {
 }
 const CAT = CATALOG as Record<string, CatalogEntry>;
 
-export const catalogEntry = (id?: string): CatalogEntry | undefined => (id ? CAT[id] : undefined);
+// Entries marked `skip` are known mismatches: never use their link or photo.
+export const catalogEntry = (id?: string): CatalogEntry | undefined => (id && CAT[id] && !CAT[id].skip ? CAT[id] : undefined);
 
 /**
  * Outbound Amazon link for a product, best option first:

@@ -14,33 +14,35 @@
     "It's also one of the most misunderstood. A dehumidifier doesn't kill anything on contact. It slowly makes a room unlivable by holding humidity at or below **50%**, and it has to keep doing that for weeks. NC State Extension notes that adult silverfish can live two to eight years, so you're settling in for a long campaign, not a weekend fix.",
     "That changes what you should buy. For pest control, continuous drainage and a solid warranty matter more than almost anywhere else, because the machine will be running around the clock. We picked units with built-in pumps or reliable hose drainage, a crawl-space specialist, a compact model for bathrooms, and the small tools that reach bookshelves and closets."
   ],
-  "topPicksLead": "The **Midea Cube 50 with Pump (MAD50PS1QWT)** is our top pick because its built-in pump lets it hold a basement below 50% for weeks without a bucket to empty.",
+  "topPicksLead": "The **Midea 50-Pint Smart with Pump** is our top pick because its built-in pump lets it hold a basement below 50% for weeks without a bucket to empty.",
   "products": [
     {
       "id": "midea-cube-50-pump",
-      "name": "Midea Cube 50-Pint Dehumidifier with Built-In Pump (MAD50PS1QWT)",
-      "shortName": "Midea Cube 50 Pump",
+      "name": "Midea 50-Pint Smart Dehumidifier with Built-In Pump",
+      "shortName": "Midea 50-Pint Smart with Pump",
       "award": "Best overall",
       "pros": [
         "Built-in pump means no full-bucket shutoffs",
-        "50-pint DOE capacity for a damp basement",
+        "50-pint capacity for a damp basement",
         "App shows humidity without a trip downstairs",
-        "Efficient compressor for months of runtime"
+        "ENERGY STAR certified for months of runtime"
       ],
       "cons": [
-        "One-year standard warranty",
+        "A standard upright tower, not the collapsible Cube",
         "Pump hose needs an outlet such as a sink or window"
       ],
-      "whyWeLoveIt": "Most silverfish and centipede problems are basement problems, and drying out a basement is a marathon. A bucket-only unit fills up, shuts itself off and lets the humidity creep back the first night you forget it. The Cube's pump removes that weak link.",
-      "performance": "It's rated at 50 pints a day under the 2019 DOE test, and Midea rates it for spaces up to roughly 4,500 square feet — enough to bring a typical damp basement to 50%. Extension advice for springtails is to run fans and a dehumidifier around the clock until the space dries out, which is exactly the duty cycle a pump is built for. Retail pricing on the pump version varies a lot between sellers, so compare a couple before you buy.",
+      "whyWeLoveIt": "Most silverfish and centipede problems are basement problems, and drying out a basement is a marathon. A bucket-only unit fills up, shuts itself off and lets the humidity creep back the first night you forget it. This Midea's built-in pump removes that weak link.",
+      "performance": "Midea rates it at 50 pints a day with ENERGY STAR certification and coverage up to roughly 4,500 square feet — enough to bring a typical damp basement to 50%. Extension advice for springtails is to run fans and a dehumidifier around the clock until the space dries out, which is exactly the duty cycle a pump is built for. Retail pricing on pump models varies a lot between sellers, so compare a couple before you buy.",
       "notes": "Set the humidistat to 45–50% and confirm the reading with a separate hygrometer placed where you've seen the bugs.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
+        "Capacity": "50 pints/day (Midea)",
         "Drainage": "Built-in pump",
+        "Efficiency": "ENERGY STAR",
         "Coverage": "Up to ~4,500 sq ft (maker's claim)",
         "Smart control": "Wi-Fi app",
         "Best for": "Basements, 24/7 runs"
-      }
+      },
+      "catalogId": "midea-cube-50-pump"
     },
     {
       "id": "frigidaire-fhdd5034y1",
@@ -340,7 +342,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **Midea Cube 50 with Pump** is the best dehumidifier for silverfish: real basement capacity and a pump that lets it hold 50% humidity for as long as the job takes. Choose the **Frigidaire FHDD5034Y1** if a floor drain makes a pump unnecessary and you value its five-year sealed-system warranty, the **AlorAir Sentinel HDi65S** when pests are rising from a crawl space, the **Midea Cube 20** for a bathroom or laundry room, and an **Eva-Dry E-333** for a bookcase or closet. Whatever you choose, add a hygrometer so you know the space is truly dry. For related pests, see our [dust mite dehumidifier guide](/best/best-dehumidifier-for-dust-mites/)."
+          "text": "For most homes, the **Midea 50-Pint Smart with Pump** is the best dehumidifier for silverfish: real basement capacity and a pump that lets it hold 50% humidity for as long as the job takes. Choose the **Frigidaire FHDD5034Y1** if a floor drain makes a pump unnecessary and you value its five-year sealed-system warranty, the **AlorAir Sentinel HDi65S** when pests are rising from a crawl space, the **Midea Cube 20** for a bathroom or laundry room, and an **Eva-Dry E-333** for a bookcase or closet. Whatever you choose, add a hygrometer so you know the space is truly dry. For related pests, see our [dust mite dehumidifier guide](/best/best-dehumidifier-for-dust-mites/)."
         }
       ]
     }
@@ -364,7 +366,7 @@
     },
     {
       "q": "What is the best dehumidifier for springtails?",
-      "a": "For a basement, a 50-pint unit with continuous drainage, such as the Midea Cube 50 with Pump. If springtails keep appearing upstairs, check the crawl space; a dedicated unit like the AlorAir Sentinel HDi65S dries the source. Penn State Extension calls lowering humidity the best indoor control."
+      "a": "For a basement, a 50-pint unit with continuous drainage, such as the Midea 50-Pint Smart with Pump. If springtails keep appearing upstairs, check the crawl space; a dedicated unit like the AlorAir Sentinel HDi65S dries the source. Penn State Extension calls lowering humidity the best indoor control."
     },
     {
       "q": "Does a dehumidifier help with mites?",

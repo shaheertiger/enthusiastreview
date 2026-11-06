@@ -1,0 +1,355 @@
+{
+  "slug": "best-60-pint-dehumidifier",
+  "section": "best",
+  "category": "Size & Features",
+  "navLabel": "60-Pint",
+  "amazonOnly": true,
+  "title": "Best 60-Pint Dehumidifier (2026): Pump, Hose & Real Ratings",
+  "h1": "The Best 60-Pint Dehumidifiers for Big, Wet Basements",
+  "dek": "Sixty pints is a lot of water to pull from the air — so make sure the number on the box means what you think it does.",
+  "description": "The best 60-pint dehumidifier for 2026: Midea, Frigidaire and Costway picks, what the 2019 DOE re-rating means for the label, and pump vs. hose drainage.",
+  "published": "2026-11-05",
+  "updated": "2026-11-05",
+  "intro": [
+    "A **60-pint dehumidifier** is for the spaces a 50-pint can't quite tame: a large basement that smells musty all summer, a lower level with sweating pipes, or an open floor plan in a humid climate. Our top pick is the **Midea 60-Pint Dehumidifier with Pump**, because it pairs that capacity with a built-in pump, so the biggest chore at this size, hauling a full bucket, simply disappears.",
+    "Three things matter most at this size: where the 60 comes from (older and marketing ratings often run higher than today's DOE figures), how the water will drain, and what it costs to run for months on end. Below are three 60-pint picks plus two true 50-pint alternatives that can match an old-scale \"60\"."
+  ],
+  "topPicksLead": "The **Midea 60-Pint Dehumidifier with Pump** is the best 60-pint dehumidifier for most wet basements, combining big listed capacity with a pump and an included drain hose.",
+  "products": [
+    {
+      "id": "midea-60-pint-pump",
+      "catalogId": "midea-60-pint-pump",
+      "name": "Midea 60-Pint Dehumidifier with Pump",
+      "shortName": "Midea 60-Pint with Pump",
+      "award": "Best overall",
+      "pros": [
+        "Built-in pump, so no daily bucket runs",
+        "Drain hose included in the box",
+        "Listed for spaces up to 5,500 sq ft",
+        "From the company that builds many other brands' dehumidifiers"
+      ],
+      "cons": [
+        "Listing doesn't state the test conditions behind its 60 pints",
+        "Overkill for a single room or a mildly damp basement"
+      ],
+      "whyWeLoveIt": "At 60 pints, drainage is the whole game, and this Midea solves it out of the box. The pump sends water up to a sink or out a window, so you can put the unit mid-basement for better airflow instead of beside the floor drain.",
+      "performance": "Midea lists it at 60 pints a day with coverage up to 5,500 square feet, the largest claim among our picks. Treat that square footage as a best case for a moderately damp space; a basement with seepage will need the full capacity just to hold 50%. Check the rating label for the DOE figure before you compare it with other 60s.",
+      "notes": "Run the pump line without kinks or dips and make sure the outlet stays above water in the sink.",
+      "specs": {
+        "Capacity": "60 pints/day (as listed)",
+        "Coverage": "Up to 5,500 sq ft (Midea listing)",
+        "Drainage": "Built-in pump; drain hose included",
+        "Type": "Compressor",
+        "Best for": "Large basements with no low drain"
+      }
+    },
+    {
+      "id": "frigidaire-60-pint",
+      "catalogId": "frigidaire-60-pint",
+      "name": "Frigidaire 60-Pint Dehumidifier",
+      "shortName": "Frigidaire 60-Pint",
+      "award": "Best for a basement with a floor drain",
+      "pros": [
+        "Familiar appliance brand with wide parts and service support",
+        "Capacity for large, damp lower levels",
+        "Gravity-hose connection for nonstop running",
+        "Simple to set up next to a drain"
+      ],
+      "cons": [
+        "No pump, so the drain must sit lower than the unit",
+        "Listing title doesn't print the model number"
+      ],
+      "whyWeLoveIt": "If your basement has a floor drain or a sump pit nearby, you don't need to pay for a pump. A gravity hose from a big Frigidaire is about as low-maintenance as portable dehumidifying gets: no bucket, no pump to clog, and a brand most repair shops know.",
+      "performance": "It's sold as a 60-pint unit, sized for big basements and open lower levels. Frigidaire's 60-pint models have appeared under several model numbers over the years, including the FFAD6022W1 and FFAD6023W1, so confirm the exact model in the listing details before you match a manual or look up its DOE rating.",
+      "specs": {
+        "Capacity": "60 pints/day (as listed)",
+        "Type": "Compressor",
+        "Drainage": "Bucket or gravity hose",
+        "Model number": "Check listing details",
+        "Best for": "Basements with a floor drain"
+      }
+    },
+    {
+      "id": "costway-60-pint",
+      "catalogId": "costway-60-pint",
+      "name": "Costway 60-Pint Dehumidifier (COST00686 / F1W-10N-10N5U1-IT)",
+      "shortName": "Costway 60-Pint",
+      "award": "Best value",
+      "pros": [
+        "Drain hose included for continuous operation",
+        "Auto-defrost for cool basements",
+        "24-hour timer and three operating modes",
+        "1.7-gallon tank, large for a bucket unit"
+      ],
+      "cons": [
+        "Owner reviews are mixed, with a middling average",
+        "No pump; hose drainage needs a lower drain"
+      ],
+      "whyWeLoveIt": "The Costway gets you the 60-pint label, a hose connection and auto-defrost for less than the big names usually cost, which covers most of what a basement with a floor drain needs.",
+      "performance": "Costway rates it for up to 4,000 square feet, and the three-color digital display makes the room's humidity easy to read from across the basement. At full output it can fill its 1.7-gallon tank in well under a day, so plan on the hose. Owner feedback is mixed but mostly positive; more in our [best Costway dehumidifier](/best/best-costway-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "60 pints/day, per Costway",
+        "Coverage": "Up to 4,000 sq ft, per Costway",
+        "Drainage": "1.7-gal tank or drain hose",
+        "Low-temp operation": "Auto-defrost",
+        "Extras": "24-hour timer, 3 modes"
+      }
+    },
+    {
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Dehumidifier",
+      "shortName": "Midea Cube 50",
+      "award": "Best efficient alternative",
+      "pros": [
+        "Genuine 50 pints a day under the DOE 2019 test",
+        "ENERGY STAR certified, about 515 kWh a year",
+        "Base reservoir holds about 34 pints",
+        "Wi-Fi app for remote monitoring"
+      ],
+      "cons": [
+        "No pump on this version",
+        "Lower headline number than the 60-pint picks"
+      ],
+      "whyWeLoveIt": "A true DOE 50-pint unit is roughly what was sold as a 70-pinter before 2019, so it can match or beat a 60 whose rating comes from the old test. The Cube 50 adds top-tier efficiency and a reservoir big enough that you won't empty it every evening.",
+      "performance": "ENERGY STAR lists it at about 50 pints a day and roughly 515 kWh a year, and Midea rates it for up to about 4,500 square feet. The tank sits in the base and lifts out in one piece, or you can attach a gravity hose. Compare more true 50s in our [best 50-pint dehumidifier](/best/best-50-pint-dehumidifier/) guide.",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Efficiency": "ENERGY STAR",
+        "Drainage": "About 34-pint reservoir or gravity hose",
+        "Coverage": "Up to about 4,500 sq ft (Midea)",
+        "Smart control": "Wi-Fi app"
+      }
+    },
+    {
+      "id": "frigidaire-ffap5033w1",
+      "catalogId": "frigidaire-ffap5033w1",
+      "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FFAP5033W1)",
+      "shortName": "Frigidaire FFAP5033W1",
+      "award": "Best 50-pint alternative with a pump",
+      "pros": [
+        "Full 50 pints under the current DOE test",
+        "Drains by pump, gravity hose or bucket",
+        "Digital humidistat holds a set percentage",
+        "Pump version of a widely sold, well-reviewed model"
+      ],
+      "cons": [
+        "Smaller label number than a 60",
+        "Pump line needs an occasional check for kinks"
+      ],
+      "whyWeLoveIt": "If you wanted a 60-pint mainly for a pump, this is the proven route: a current-test 50-pinter whose owners say the pump makes dehumidifying something they forget about.",
+      "performance": "It's rated at 50 pints a day under the 2019 DOE procedure, the size most makers recommend for a damp basement. You can pump water up to a sink, drain by gravity, or use the bucket while you work out the hose route. More self-draining options are in our [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) roundup.",
+      "specs": {
+        "Capacity": "50 pints/day (DOE 2019)",
+        "Type": "Compressor",
+        "Drainage": "Built-in pump, gravity hose or bucket",
+        "Humidistat": "Digital, set % target",
+        "Best for": "Basements with no floor drain"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "sixty-pint-numbers",
+      "heading": "60-pint dehumidifiers, by the numbers",
+      "blocks": [
+        {
+          "type": "stats",
+          "items": [
+            { "value": "65°F", "label": "Test temperature since the DOE's 2019 change, down from 80°F" },
+            { "value": "70 → 50", "label": "An old-scale 70-pint unit is roughly a 50-pint under today's test" },
+            { "value": "2.80 L/kWh", "label": "Federal efficiency minimum for portable units above 50 pints a day" }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Colder test air yields less water, so every rating dropped when the DOE switched procedures. A **true** DOE 60 is a big machine; a \"60\" from an older or saturated-air test may be a mid-40s unit by today's yardstick."
+        }
+      ]
+    },
+    {
+      "id": "how-we-pick",
+      "heading": "How we pick 60-pint dehumidifiers",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We don't run a test lab. We compare each model's listed and DOE capacity, ENERGY STAR data, manuals and coverage claims, check CPSC recall records, and read owner reviews for patterns such as pump failures, defrost problems and units that shut off early. Every pick here is a verified Amazon listing."
+        },
+        {
+          "type": "p",
+          "text": "Because 60-pint labels are inconsistent, we also included two genuine DOE 50-pint units, and we flag where a listing doesn't say which test its number came from."
+        }
+      ]
+    },
+    {
+      "id": "what-to-look-for",
+      "heading": "How to choose a 60-pint dehumidifier",
+      "blocks": [
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "label": "Find out which test the 60 comes from",
+              "text": "Look for \"DOE\" or the ENERGY STAR listing. A 60 measured in hot, saturated air, or on the pre-2019 test, isn't comparable to a current DOE 60."
+            },
+            {
+              "label": "Size for wetness, not just square feet",
+              "text": "Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) puts wet spaces over 2,000 square feet at 50+ DOE pints. A 60 makes sense for seepage, sweating walls or a big open lower level; a musty 1,200-square-foot basement doesn't need one."
+            },
+            {
+              "label": "Decide on drainage first",
+              "text": "At this size a bucket is a backup, not a plan.",
+              "sub": [
+                "Floor drain or sump below the outlet: a gravity hose",
+                "Drain is higher, or across the room: a built-in pump",
+                "No drain at all: pump to a laundry sink or out a window"
+              ]
+            },
+            {
+              "label": "Auto-defrost for cool basements",
+              "text": "Below about 65°F, coils can frost. Auto-defrost keeps the unit working through spring and fall instead of icing up."
+            },
+            {
+              "label": "Running cost",
+              "text": "A basement unit may run thousands of hours a year. ENERGY STAR certification, or a published L/kWh figure, tells you what each pint costs. See our [electricity guide](/guides/how-much-electricity-does-a-dehumidifier-use/) for the math."
+            },
+            {
+              "label": "Controls you can see",
+              "text": "A digital humidistat with an exact percentage and a clear humidity readout lets you hold 45–50% instead of running flat out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "heading": "Our 60-pint picks compared",
+      "blocks": [
+        {
+          "type": "table",
+          "head": ["Pick", "Capacity", "Drainage", "Key feature", "Best for"],
+          "rows": [
+            ["Midea 60-Pint with Pump", "60 pints (listed)", "Pump or hose", "Up to 5,500 sq ft claim", "Big basements, no low drain"],
+            ["Frigidaire 60-Pint", "60 pints (listed)", "Bucket or gravity hose", "Major-brand support", "Basements with a floor drain"],
+            ["Costway 60-Pint", "60 pints (Costway)", "1.7-gal tank or hose", "Auto-defrost, 24-hour timer", "Value buyers"],
+            ["Midea Cube 50", "50 pints (DOE)", "Reservoir or hose", "ENERGY STAR, Wi-Fi", "Damp, not flooded, basements"],
+            ["Frigidaire FFAP5033W1", "50 pints (DOE)", "Pump, hose or bucket", "Proven pump model", "Pump buyers who want a true rating"]
+          ],
+          "caption": "\"Listed\" figures come from the product listing; DOE figures use the 2019 test at 65°F."
+        }
+      ]
+    },
+    {
+      "id": "doe-rerating",
+      "heading": "What \"60 pints\" means after the 2019 DOE re-rating",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before 2019, dehumidifiers were rated in 80°F air at 60% humidity. The DOE now tests at 65°F, closer to a real basement, and ratings fell by roughly 30%: yesterday's 70-pinter is today's 50-pinter. Our [70-pint guide](/best/best-70-pint-dehumidifier/) shows how brands handled the switch."
+        },
+        {
+          "type": "table",
+          "head": ["What the label says", "What it likely means today"],
+          "rows": [
+            ["70 pints, older model", "About 50 DOE pints"],
+            ["60 pints, older model or older test", "Roughly the low-to-mid 40s in DOE pints"],
+            ["60 pints, DOE 2019", "A genuinely large unit, bigger than any 50"],
+            ["60+ pints at 86–95°F or saturated air", "Not comparable; look up the DOE figure"]
+          ],
+          "caption": "Approximate conversions; check each model's rating label or ENERGY STAR listing."
+        },
+        {
+          "type": "h3",
+          "text": "Why true 60-pint DOE ratings are rare"
+        },
+        {
+          "type": "p",
+          "text": "Most mainstream portable lines top out at 50 DOE pints; going bigger means a larger compressor and the strictest federal efficiency class. A few genuine DOE 60s do exist, such as Danby's 60-pint with pump and Wi-Fi, covered in our [Danby guide](/best/best-danby-dehumidifier/), and the Pelonis 60-pint with pump. Beyond that, the next real step up is a crawl-space or commercial unit; see our [100-pint guide](/best/best-100-pint-dehumidifier/)."
+        }
+      ]
+    },
+    {
+      "id": "pump-vs-hose",
+      "heading": "Pump vs. hose: draining a 60-pint dehumidifier",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sixty pints is 7.5 gallons a day at full output, so even a generous 1.7-gallon tank would fill in under six hours, then the unit shuts off until you empty it. Real output drops as the room nears your setpoint, but a wet basement in July still means more than one trip a day."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Gravity hose:** a garden hose runs downhill from the drain port to a floor drain or sump. Nothing to fail; raise the unit on a sturdy platform if needed.",
+            "**Built-in pump:** pushes water up to a laundry sink or out a window when your only drain sits higher than the outlet.",
+            "**Bucket only:** fine for a few days, not a plan at this size."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Pump tip",
+          "text": "Clip the end of the pump line so it can't slip out of the sink, and check it each spring for algae or kinks. A blocked line is the most common reason owners find a pump model stopped."
+        }
+      ]
+    },
+    {
+      "id": "which-to-buy",
+      "heading": "Which one should you buy?",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "**Your basement is big and wet, with no drain below the unit:** the Midea 60-Pint with Pump.",
+            "**There's a floor drain or sump nearby and you want a familiar brand:** the Frigidaire 60-Pint on a gravity hose.",
+            "**You want the 60-pint label for less and have a drain:** the Costway 60-Pint, which adds auto-defrost for chilly floors.",
+            "**Your basement is damp rather than flooded and running cost matters:** the Midea Cube 50, ENERGY STAR certified with a big reservoir.",
+            "**You mainly want a pump and a rating you can trust:** the Frigidaire FFAP5033W1."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottom-line",
+      "heading": "The bottom line",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A 60-pint dehumidifier earns its size in big, genuinely wet basements, and the Midea 60-Pint with Pump is the easiest to live with because it drains itself. The Frigidaire and Costway 60s suit spaces with a floor drain. If you can't confirm a 60's DOE rating, a true 50-pinter is a safe, often equally capable bet. For more placement ideas, see our [basement dehumidifier guide](/best/best-dehumidifier-for-basement/)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best 60-pint dehumidifier?",
+      "a": "For most large, wet basements, the Midea 60-Pint Dehumidifier with Pump, because it drains itself to a sink or window. If you have a floor drain, the Frigidaire 60-Pint on a gravity hose is a simpler choice, and the Costway 60-Pint is the value pick."
+    },
+    {
+      "q": "Is the Frigidaire 60-pint dehumidifier worth it?",
+      "a": "It's a good fit for a big basement with a floor drain, backed by a widely serviced brand. Frigidaire has sold 60-pint units under model numbers such as FFAD6022W1 (marketed as a High Humidity 60-pint) and FFAD6023W1, so check the model number and rating label of the unit you're buying."
+    },
+    {
+      "q": "What size area does a 60-pint dehumidifier cover?",
+      "a": "Our picks' listings claim 4,000 to 5,500 square feet, but those are best cases. In practice, a 60-pint suits a wet basement or open lower level of roughly 2,000 square feet or more; dampness matters more than floor area."
+    },
+    {
+      "q": "Is a 60-pint dehumidifier better than a 50-pint?",
+      "a": "Only if both are rated on the same test. A DOE 2019 60-pinter removes more water than a DOE 50, but a 60 from the old or saturated-air test can be smaller than a modern 50. Compare DOE figures, not box labels."
+    },
+    {
+      "q": "Are the Pelonis and Danby 60-pint dehumidifiers with pump any good?",
+      "a": "Both are genuine 60-pint pump models. The Danby adds Wi-Fi and a two-year parts-and-labor warranty; the Pelonis is efficient for its class but not ENERGY STAR certified."
+    },
+    {
+      "q": "Should I buy an older 60-pint model like the Comfort-Aire BHDP-60A?",
+      "a": "Be cautious with older or secondhand 60-pint units. Older models were often rated on the pre-2019 test, and several brands, Comfort-Aire among them, have been part of large dehumidifier recalls. Look up any model number on the CPSC recall site before you plug it in."
+    }
+  ],
+  "related": [
+    "/best/best-50-pint-dehumidifier/",
+    "/best/best-70-pint-dehumidifier/",
+    "/best/best-dehumidifier-with-pump/",
+    "/best/best-dehumidifier-for-basement/",
+    "/guides/dehumidifier-size-guide/",
+    "/best/best-100-pint-dehumidifier/"
+  ]
+}

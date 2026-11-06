@@ -32,7 +32,7 @@
         "Pump lift not listed on the product page",
         "Efficiency sits exactly on the ENERGY STAR floor"
       ],
-      "whyWeLoveIt": "This is the cheapest way we found to get a Midea-built, ENERGY STAR-certified 50-pint dehumidifier with a built-in pump. ENERGY STAR rates the S-suffix version within about 2% of Midea's Cube 50 with Pump on both capacity and annual energy use.",
+      "whyWeLoveIt": "This is the cheapest way we found to get a Midea-built, ENERGY STAR-certified 50-pint dehumidifier with a built-in pump. ENERGY STAR rates the S-suffix version within about 2% of Midea's own Cube 50 on both capacity and annual energy use.",
       "performance": "ENERGY STAR lists the PAD50P1ABLS at 49.74 pints a day, 2.01 L/kWh and 525 kWh a year. Pelonis specs a 35–85% humidistat, a 24-hour timer, auto-restart, auto-defrost and a 41°F minimum operating temperature. The weak point is the 12.66-pint bucket — about a quarter of a day's rated output — so in a damp basement treat the pump as mandatory and route the hose to a sink, sump or window.",
       "notes": "Pelonis's product page doesn't print the maximum pump lift. If your drain point sits well above the unit, check the manual before you buy.",
       "specs": {
@@ -118,27 +118,28 @@
       }
     },
     {
-      "id": "midea-cube-50-pump",
-      "name": "Midea Cube 50-Pint Dehumidifier with Pump (MAD50PS1QWT)",
-      "shortName": "Midea Cube 50 with Pump",
+      "id": "midea-cube-50",
+      "catalogId": "midea-cube-50",
+      "name": "Midea Cube 50-Pint Dehumidifier",
+      "shortName": "Midea Cube 50",
       "award": "Best bucket alternative",
       "pros": [
         "Same maker, near-identical running cost",
-        "Large stacked bucket — about 4.35 gallons",
-        "Built-in pump when you want it"
+        "Large stacked reservoir — about 4.35 gallons",
+        "Gravity hose when you have a floor drain"
       ],
       "cons": [
-        "Costs more than the Pelonis 50",
+        "No pump, so the hose only drains downhill",
         "One-year warranty"
       ],
       "whyWeLoveIt": "If you can't run a hose, the Pelonis's small bucket becomes a daily chore. The Cube 50 comes from the same factory with nearly three times the tank capacity, so you can empty it far less often.",
-      "performance": "ENERGY STAR rates it at 49.67 pints a day, 2.01 L/kWh and 515 kWh a year, essentially the same as the Pelonis 50. The extra money buys the Cube's stacked bucket design and Midea's own support. More Midea options are in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
+      "performance": "ENERGY STAR rates it at 49.67 pints a day, 2.01 L/kWh and 515 kWh a year, essentially the same as the Pelonis 50. What you get for choosing it is the Cube's stacked reservoir design and Midea's own support; what you give up is the Pelonis's pump. More Midea options are in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
       "specs": {
         "Capacity": "49.67 pints/day (DOE 2019)",
-        "Drainage": "Built-in pump or ~4.35-gal bucket",
+        "Drainage": "~4.35-gal reservoir or gravity hose",
         "Efficiency": "ENERGY STAR, 2.01 L/kWh",
         "Annual energy": "515 kWh (ENERGY STAR estimate)",
-        "Best for": "Basements without a hose route"
+        "Best for": "Bucket users without a hose route"
       }
     }
   ],
@@ -370,7 +371,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Pelonis 50-Pint with Pump** is the Pelonis to buy for a basement: Midea hardware and ENERGY STAR certification at a lower price than Midea's own badge — just plan on using the pump. The **35-pint PAD35C1DWTS** is the right size for bedrooms and living rooms, and the **60-pint** only makes sense in a very wet space. If you'd rather empty a bucket than run a hose, spend a bit more on the **Midea Cube 50 with Pump**, built by the same company with a far bigger tank."
+          "text": "The **Pelonis 50-Pint with Pump** is the Pelonis to buy for a basement: Midea hardware and ENERGY STAR certification at a lower price than Midea's own badge — just plan on using the pump. The **35-pint PAD35C1DWTS** is the right size for bedrooms and living rooms, and the **60-pint** only makes sense in a very wet space. If you'd rather empty a bucket than run a hose, choose the **Midea Cube 50**, built by the same company with a far bigger tank."
         }
       ]
     }

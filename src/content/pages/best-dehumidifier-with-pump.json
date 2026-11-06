@@ -94,26 +94,30 @@
     },
     {
       "id": "honeywell-tp70pwkn",
-      "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKN)",
-      "shortName": "Honeywell TP70PWKN",
+      "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
+      "shortName": "Honeywell TPFIT50PWK",
       "award": "Best for large open rooms",
       "pros": [
-        "Built-in pump plus strong airflow",
-        "Anti-spill bucket design",
-        "Washable filter and clear controls"
+        "Rated for up to 4,000 sq ft",
+        "50 pints a day, ENERGY STAR certified",
+        "Laundry and auto-comfort modes",
+        "Thermal overload protection"
       ],
       "cons": [
         "No app control",
-        "Bulky in a small room"
+        "Bulky in a small room",
+        "Pump lift isn't stated on the listing — check the manual"
       ],
-      "whyWeLoveIt": "For a great room or open-plan lower level, airflow and reach matter as much as raw extraction. The TP70PWKN moves plenty of air and drains itself.",
-      "performance": "It's rated at 50 pints a day under the 2019 DOE test, despite the \"70\" in the name, which reflects older ratings. The washable filter and straightforward controls keep upkeep simple. See the rest of the TP line in our [Honeywell dehumidifier guide](/best/best-honeywell-dehumidifier/).",
+      "whyWeLoveIt": "For a great room or open-plan lower level, coverage matters as much as raw extraction. Honeywell rates this TP-Fit model for up to 4,000 square feet, and its built-in pump drains it without a gravity run.",
+      "performance": "Honeywell rates it at 50 pints a day for up to 4,000 square feet, with ENERGY STAR certification. Auto-comfort mode picks a humidity target for you, laundry mode speeds drying for clothes on a rack, and thermal overload protection guards the compressor on long runs. Unlike some older Honeywell names, the \"50\" here is the capacity you get. See the rest of the line in our [Honeywell dehumidifier guide](/best/best-honeywell-dehumidifier/).",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
+        "Capacity": "50 pints/day",
         "Drainage": "Built-in pump",
-        "Filter": "Washable",
+        "Coverage": "Up to 4,000 sq ft (Honeywell)",
+        "Efficiency": "ENERGY STAR",
         "Best for": "Great rooms, open basements"
-      }
+      },
+      "catalogId": "honeywell-tp70pwkn"
     },
     {
       "id": "alorair-sentinel-hdi65s",
@@ -149,20 +153,59 @@
         {
           "type": "stats",
           "items": [
-            { "value": "15–20 ft", "label": "Typical vertical pump lift — enough to reach a window well or a sink one floor up" },
-            { "value": "0", "label": "Buckets to empty once the hose is routed to a drain" },
-            { "value": "30–50%", "label": "EPA-recommended indoor humidity, easiest to hold with nonstop drainage" }
+            {
+              "value": "15–20 ft",
+              "label": "Typical vertical pump lift — enough to reach a window well or a sink one floor up"
+            },
+            {
+              "value": "0",
+              "label": "Buckets to empty once the hose is routed to a drain"
+            },
+            {
+              "value": "30–50%",
+              "label": "EPA-recommended indoor humidity, easiest to hold with nonstop drainage"
+            }
           ]
         },
         {
           "type": "table",
-          "head": ["Model", "Capacity", "Rated pump lift", "Best for"],
+          "head": [
+            "Model",
+            "Capacity",
+            "Rated pump lift",
+            "Best for"
+          ],
           "rows": [
-            ["hOmeLabs HME1003 Wi-Fi", "50 pints (DOE)", "See manual", "Most basements"],
-            ["Waykar ENERGY STAR with Pump", "50 pints (DOE)", "16.4 ft", "Big open spaces"],
-            ["Frigidaire FHDP5033W1", "50 pints", "16.4 ft", "Finished spaces"],
-            ["Honeywell TP70PWKN", "50 pints (DOE)", "See manual", "Great rooms"],
-            ["AlorAir Sentinel HDi65S", "55 pints (AHAM)", "19.6 ft", "Crawl spaces"]
+            [
+              "hOmeLabs HME1003 Wi-Fi",
+              "50 pints (DOE)",
+              "See manual",
+              "Most basements"
+            ],
+            [
+              "Waykar ENERGY STAR with Pump",
+              "50 pints (DOE)",
+              "16.4 ft",
+              "Big open spaces"
+            ],
+            [
+              "Frigidaire FHDP5033W1",
+              "50 pints",
+              "16.4 ft",
+              "Finished spaces"
+            ],
+            [
+              "Honeywell TPFIT50PWK",
+              "50 pints",
+              "See manual",
+              "Great rooms"
+            ],
+            [
+              "AlorAir Sentinel HDi65S",
+              "55 pints (AHAM)",
+              "19.6 ft",
+              "Crawl spaces"
+            ]
           ]
         }
       ]
@@ -245,11 +288,27 @@
         },
         {
           "type": "table",
-          "head": ["Run time per day", "Approx. monthly kWh", "Approx. monthly cost"],
+          "head": [
+            "Run time per day",
+            "Approx. monthly kWh",
+            "Approx. monthly cost"
+          ],
           "rows": [
-            ["4 hours (cycling)", "~60 kWh", "~$10"],
-            ["8 hours", "~120 kWh", "~$20"],
-            ["12 hours (very damp)", "~180 kWh", "~$30"]
+            [
+              "4 hours (cycling)",
+              "~60 kWh",
+              "~$10"
+            ],
+            [
+              "8 hours",
+              "~120 kWh",
+              "~$20"
+            ],
+            [
+              "12 hours (very damp)",
+              "~180 kWh",
+              "~$30"
+            ]
           ],
           "caption": "Estimates for a ~500 W unit; your rate and dampness will vary."
         },
@@ -265,7 +324,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **hOmeLabs HME1003 Wi-Fi** is the best dehumidifier with a pump for most homes. Choose the **Waykar** for the widest coverage, the **Frigidaire FHDP5033W1** for Wi-Fi scheduling and a living-space noise level, the **Honeywell TP70PWKN** for big open rooms, and the **AlorAir Sentinel HDi65S** when water has to climb out of a crawl space. Route the hose to a drain, set the humidistat around 50% and you'll never carry a bucket again."
+          "text": "The **hOmeLabs HME1003 Wi-Fi** is the best dehumidifier with a pump for most homes. Choose the **Waykar** for the widest coverage, the **Frigidaire FHDP5033W1** for Wi-Fi scheduling and a living-space noise level, the **Honeywell TPFIT50PWK** for big open rooms, and the **AlorAir Sentinel HDi65S** when water has to climb out of a crawl space. Route the hose to a drain, set the humidistat around 50% and you'll never carry a bucket again."
         }
       ]
     }

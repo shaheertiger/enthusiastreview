@@ -43,28 +43,30 @@
     },
     {
       "id": "honeywell-tp70pwknr",
-      "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKNR)",
-      "shortName": "Honeywell TP70PWKNR",
+      "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
+      "shortName": "Honeywell TPFIT50PWK",
       "award": "Best for extra-large spaces",
       "pros": [
         "Rated for up to 4,000 square feet",
-        "Built-in pump drains up to 15 feet away",
+        "Built-in pump sends water away without a gravity run",
         "ENERGY STAR certified",
-        "Uses a lower-impact refrigerant than its predecessor"
+        "Laundry and auto-comfort modes"
       ],
       "cons": [
-        "Costs more than the Midea Cube",
+        "Midea rates its Cube 50 for slightly more coverage",
         "Taller, more traditional box shape"
       ],
       "whyWeLoveIt": "When the room is truly oversized — a finished attic, a vaulted great room, a converted loft — and nowhere near a drain, this Honeywell's coverage rating and pump make sure it isn't undersized or tethered to a bucket.",
-      "performance": "It's sold as a 70-pint unit under the old test standard, which equals a 50-pint rating under the current 2019 DOE procedure. Honeywell rates it for up to 4,000 square feet, and the pump can push water vertically or horizontally up to about 15 feet. The TP70PWKNR is the newer eco-refrigerant version of the long-running TP70PWKN, and both are ENERGY STAR certified. See the rest of the lineup in our [Honeywell dehumidifier guide](/best/best-honeywell-dehumidifier/).",
+      "performance": "Honeywell rates it at 50 pints a day for up to 4,000 square feet, with ENERGY STAR certification, and the built-in pump handles drainage when there's no drain nearby. It's part of Honeywell's newer TP-Fit series: auto-comfort mode picks a humidity target for you, laundry mode speeds drying for clothes on a rack, and thermal overload protection guards the compressor through long runs. See the rest of the lineup in our [Honeywell dehumidifier guide](/best/best-honeywell-dehumidifier/).",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019); 70 under old standard",
-        "Coverage": "Up to 4,000 sq ft (manufacturer)",
-        "Drainage": "Built-in pump, up to about 15 ft",
+        "Capacity": "50 pints/day",
+        "Coverage": "Up to 4,000 sq ft (Honeywell)",
+        "Drainage": "Built-in pump",
         "Efficiency": "ENERGY STAR",
+        "Modes": "Laundry, auto-comfort",
         "Best for": "Attics, lofts, vaulted rooms"
-      }
+      },
+      "catalogId": "honeywell-tp70pwknr"
     },
     {
       "id": "homelabs-hme1003-wifi",
@@ -125,9 +127,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "50 pints", "label": "DOE 2019 capacity recommended for a very damp room over about 2,000 sq ft" },
-            { "value": "218 CFM", "label": "Midea's listed Turbo airflow for the Cube 50" },
-            { "value": "4,000 sq ft", "label": "Honeywell's coverage rating for the TP70PWKNR" }
+            {
+              "value": "50 pints",
+              "label": "DOE 2019 capacity recommended for a very damp room over about 2,000 sq ft"
+            },
+            {
+              "value": "218 CFM",
+              "label": "Midea's listed Turbo airflow for the Cube 50"
+            },
+            {
+              "value": "4,000 sq ft",
+              "label": "Honeywell's coverage rating for the TPFIT50PWK"
+            }
           ]
         },
         {
@@ -187,11 +198,27 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Room condition", "About 1,000–1,500 sq ft", "About 2,000+ sq ft"],
+          "head": [
+            "Room condition",
+            "About 1,000–1,500 sq ft",
+            "About 2,000+ sq ft"
+          ],
           "rows": [
-            ["Moderately damp (musty in humid weather)", "35 pints", "50 pints"],
-            ["Very damp (wet spots, condensation)", "50 pints", "50 pints, or two units"],
-            ["Wet (standing water, active leaks)", "50 pints with a pump", "Fix the source; consider a whole-house system"]
+            [
+              "Moderately damp (musty in humid weather)",
+              "35 pints",
+              "50 pints"
+            ],
+            [
+              "Very damp (wet spots, condensation)",
+              "50 pints",
+              "50 pints, or two units"
+            ],
+            [
+              "Wet (standing water, active leaks)",
+              "50 pints with a pump",
+              "Fix the source; consider a whole-house system"
+            ]
           ],
           "caption": "Capacities under the 2019 DOE test. Use as a starting point, not a rule."
         },
@@ -231,7 +258,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 50-Pint** is the best large dehumidifier for most big rooms: strong airflow and a tank you won't be emptying constantly. Step up to the **Honeywell TP70PWKNR** for an oversized space far from a drain, choose the **hOmeLabs HME1003** for pump convenience at a lower price, and pick the **Frigidaire FFAD2233W1** when the room is a living space that's only moderately damp and quiet matters most."
+          "text": "The **Midea Cube 50-Pint** is the best large dehumidifier for most big rooms: strong airflow and a tank you won't be emptying constantly. Step up to the **Honeywell TPFIT50PWK** for an oversized space far from a drain, choose the **hOmeLabs HME1003** for pump convenience at a lower price, and pick the **Frigidaire FFAD2233W1** when the room is a living space that's only moderately damp and quiet matters most."
         }
       ]
     }
@@ -239,7 +266,7 @@
   "faqs": [
     {
       "q": "What is the best dehumidifier for a large room?",
-      "a": "The Midea Cube 50-Pint (MAD50S1QWT). Midea rates it for up to 4,500 square feet with 218 CFM of Turbo airflow, and its large base tank means fewer trips to the sink. For an oversized space far from a drain, the Honeywell TP70PWKNR adds a built-in pump."
+      "a": "The Midea Cube 50-Pint (MAD50S1QWT). Midea rates it for up to 4,500 square feet with 218 CFM of Turbo airflow, and its large base tank means fewer trips to the sink. For an oversized space far from a drain, the Honeywell TPFIT50PWK adds a built-in pump."
     },
     {
       "q": "What size dehumidifier do I need for a large room?",
