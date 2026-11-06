@@ -100,28 +100,28 @@
     {
       "id": "homelabs-50-pint",
       "catalogId": "homelabs-50-pint",
-      "name": "hOmeLabs 50-Pint ENERGY STAR Dehumidifier (HME020031N)",
+      "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier (7,000 Sq Ft)",
       "shortName": "hOmeLabs 50-Pint",
       "award": "Best budget pick for small jobs",
       "pros": [
         "Costs a fraction of an LGR",
-        "ENERGY STAR certified",
+        "Wi-Fi app shows room humidity remotely",
         "Gravity-hose connection",
         "Useful long after the project ends"
       ],
       "cons": [
         "Slows down as the room gets drier",
-        "12.8-pint bucket fills fast without a hose",
+        "Bucket fills fast without a hose",
         "No pump"
       ],
       "whyWeLoveIt": "Not every drywall job needs a restoration machine. For a patched ceiling, a finished closet or a small bathroom remodel, a good household 50-pint unit takes the extra moisture out of the room while the mud dries — and then goes back to the basement where it belongs.",
-      "performance": "It's rated at 50 pints a day under the 2019 DOE procedure, with auto-defrost down to about 41°F. Household units lose steam as humidity drops into the 40s, which is where LGRs pull ahead, so keep its job small. Use the hose connection if there's a floor drain nearby; the 12.8-pint bucket fills quickly in a fresh-mudded room.",
+      "performance": "Amazon lists it as a 50-pint Wi-Fi model with a 7,000-square-foot coverage claim; its “MAX 120 pint” figure is measured at 95°F and 90% humidity, so the 50 is the number to compare. Household units lose steam as humidity drops into the 40s, which is where LGRs pull ahead, so keep its job small. Use the hose connection if there's a floor drain nearby, since there's no pump and the bucket fills quickly in a fresh-mudded room. The app lets you watch the room's humidity from elsewhere in the house.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
+        "Capacity": "50 pints/day (120 at 95°F/90% RH, listing)",
         "Type": "Standard compressor",
-        "Tank": "12.8 pints",
-        "Drainage": "Bucket or gravity hose",
-        "Low-temp operation": "Down to about 41°F",
+        "Coverage": "Up to 7,000 sq ft (listing claim)",
+        "Drainage": "Bucket or gravity hose; no pump",
+        "Smart features": "Wi-Fi app control",
         "Best for": "Patches, one small room"
       }
     },
@@ -195,7 +195,7 @@
             ["AlorAir Storm LGR Extreme", "85 pints AHAM", "Pump, 14.7 ft lift", "About 5.4 A", "A floor of drywall"],
             ["Dri-Eaz Revolution", "80 pints AHAM", "Pump", "Compact LGR", "One room or a leak"],
             ["Dri-Eaz LGR 7000XLi", "130 pints AHAM", "Automatic pump-out", "About 8.8 A", "New construction"],
-            ["hOmeLabs 50-Pint", "50 pints DOE 2019", "Bucket or hose", "Household unit", "Patches, small rooms"],
+            ["hOmeLabs 50-Pint Wi-Fi", "50 pints (listing)", "Bucket or hose", "Household unit", "Patches, small rooms"],
             ["Vornado 660", "No moisture removal", "None", "Fan", "Pairing with any pick"]
           ],
           "caption": "AHAM ratings (80°F, 60% RH) and DOE 2019 ratings (65°F, 60% RH) use different conditions, so the numbers aren't directly comparable."

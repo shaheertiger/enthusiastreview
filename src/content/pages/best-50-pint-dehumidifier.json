@@ -124,27 +124,30 @@
     },
     {
       "id": "honeywell-tp70pwkn",
-      "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKN)",
-      "shortName": "Honeywell TP70PWKN",
+      "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
+      "shortName": "Honeywell TPFIT50PWK",
       "award": "Best Honeywell",
       "pros": [
-        "Honeywell's genuine 50-pint DOE 2019 unit",
-        "Built-in pump lifts water about 15 feet",
-        "Wi-Fi sibling (TP70AWKNR) also available"
+        "Honeywell's genuine 50-pint unit, ENERGY STAR certified",
+        "Built-in pump for basements with no low drain",
+        "Laundry mode, auto-comfort mode and thermal overload protection"
       ],
       "cons": [
-        "Confusing model name references the old rating scale",
-        "Usually priced above the Midea and Frigidaire"
+        "Honeywell's similar TP-Fit names hide very different ratings",
+        "Slightly smaller rated coverage than the Midea",
+        "No Wi-Fi listed"
       ],
-      "whyWeLoveIt": "Honeywell's naming is the trap here. Despite the \"70\" in its name, the TP70PWKN is the brand's true 50-pinter under today's test — while the TPFIT50AWK, with \"50\" in its name, is rated at only 32 pints. If you're loyal to Honeywell, this is the model you want.",
-      "performance": "The built-in pump handles the same no-floor-drain basements as the GE, with roughly 15 feet of lift. Coverage is in the usual 50-pint range of about 4,500 square feet. Our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide decodes the rest of the lineup's model numbers.",
+      "whyWeLoveIt": "Honeywell's naming is the trap here. The TPFIT50PWK with a pump is the brand's true 50-pinter, while the TPFIT50AWK — nearly the same name — is rated at only 32 pints under today's test. If you're loyal to Honeywell, this is the model you want.",
+      "performance": "Honeywell rates it at 50 pints a day for spaces up to 4,000 square feet, and the built-in pump handles the same no-floor-drain basements as the GE. Laundry mode speeds drying for clothes hung indoors, and auto-comfort mode picks a setpoint for you. Our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide decodes the rest of the lineup's model numbers.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
-        "Drainage": "Built-in pump, about 15-ft lift",
-        "Coverage": "Up to about 4,500 sq ft",
+        "Capacity": "50 pints/day",
+        "Drainage": "Built-in pump",
+        "Coverage": "Up to 4,000 sq ft (Honeywell)",
+        "Efficiency": "ENERGY STAR",
         "Type": "Compressor",
         "Best for": "Honeywell shoppers"
-      }
+      },
+      "catalogId": "honeywell-tp70pwkn"
     }
   ],
   "sections": [
@@ -258,10 +261,10 @@
               "Not published"
             ],
             [
-              "Honeywell TP70PWKN",
+              "Honeywell TPFIT50PWK",
               "Honeywell fans",
-              "Pump, ~15-ft lift",
-              "Up to ~4,500 sq ft"
+              "Built-in pump",
+              "Up to 4,000 sq ft"
             ]
           ]
         }
@@ -330,7 +333,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 50** is the best 50-pint dehumidifier for most homes, thanks to its true DOE 2019 capacity, modest power draw and oversized reservoir. Choose the **hOmeLabs HME031004N** if you have no floor drain and want a pump, the **Frigidaire FHDD5034Y1** if price leads the decision, the **GE APER50LZ** for a pump model from GE, and the **Honeywell TP70PWKN** if you prefer Honeywell — just not the confusingly named TPFIT50AWK. For basement-specific picks, see our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) guide."
+          "text": "The **Midea Cube 50** is the best 50-pint dehumidifier for most homes, thanks to its true DOE 2019 capacity, modest power draw and oversized reservoir. Choose the **hOmeLabs HME031004N** if you have no floor drain and want a pump, the **Frigidaire FHDD5034Y1** if price leads the decision, the **GE APER50LZ** for a pump model from GE, and the **Honeywell TPFIT50PWK** if you prefer Honeywell — just not the confusingly similar TPFIT50AWK. For basement-specific picks, see our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) guide."
         }
       ]
     }
@@ -354,7 +357,7 @@
     },
     {
       "q": "Is the Honeywell 50-pint dehumidifier really 50 pints?",
-      "a": "It depends on the model. Honeywell's TPFIT50AWK has \"50\" in its name but is rated at just 32 pints under the current DOE standard. Its genuine 50-pinters are the TP70PWKN and the Wi-Fi TP70AWKNR, whose names still reference the old pre-2019 scale. Always read the DOE 2019 rating on the spec sheet."
+      "a": "It depends on the model. Honeywell's TPFIT50AWK has \"50\" in its name but is rated at just 32 pints under the current DOE standard, and the Wi-Fi TP50AWKNR, once labeled 50 pints, is now rated at 32. Its genuine 50-pinter is the TPFIT50PWK with a built-in pump. Always read the DOE 2019 rating on the spec sheet."
     },
     {
       "q": "Is a 50-pint dehumidifier enough for a whole basement?",

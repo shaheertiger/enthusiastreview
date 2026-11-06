@@ -99,25 +99,25 @@
     {
       "id": "xpower-xd-85l2",
       "catalogId": "xpower-xd-85l2",
-      "name": "XPOWER XD-85L2 Commercial LGR Dehumidifier",
-      "shortName": "XPOWER XD-85L2",
+      "name": "XPOWER Flood Restoration PRO Pack II (XD-85L2 LGR + 4 air movers)",
+      "shortName": "XPOWER PRO Pack II",
       "award": "Best for moving between rooms",
       "pros": [
         "Wheels and handle for rolling between rooms",
         "Purge pump with a long 40-foot hose",
         "Stackable, job-site-friendly design",
-        "Same AHAM class as the Storm LGR Extreme"
+        "Bundled with four P-430AT centrifugal air movers"
       ],
       "cons": [
         "Lower saturation rating than the AlorAir",
-        "Costs more than our top pick"
+        "Amazon link is a bundle with four air movers, so it costs more than the dehumidifier alone"
       ],
-      "whyWeLoveIt": "Renovation drying rarely happens in one spot. If the machine will move from a soaked basement to a damp garage to a patched bathroom over a week, the XD-85L2's wheels, handle and long hose make it the easiest unit here to live with.",
-      "performance": "XPOWER rates it at 85 pints a day at AHAM conditions and 145 at saturation, with 180 CFM of airflow. The 40-foot hose reaches a floor drain or sink from most rooms, and the purge pump empties automatically — pro-style drying without Dri-Eaz pricing.",
+      "whyWeLoveIt": "Renovation drying rarely happens in one spot. If the machine will move from a soaked basement to a damp garage to a patched bathroom over a week, the XD-85L2's wheels, handle and long hose make it the easiest unit here to live with. The Amazon listing we link is XPOWER's PRO Pack II bundle, which adds four air movers — useful if you don't own any yet.",
+      "performance": "XPOWER rates the XD-85L2 at 85 pints a day at AHAM conditions and 145 at saturation, with 180 CFM of airflow. The 40-foot hose reaches a floor drain or sink from most rooms, and the purge pump empties automatically. Keep in mind that the link is the Flood Restoration Express PRO Pack II, which pairs the dehumidifier with four P-430AT air movers: a strong fit for water-damage jobs, but more than you need if you only want a dehumidifier for a damp space. Spread the air movers across separate circuits from the dehumidifier.",
       "specs": {
         "Capacity": "85 pints/day AHAM; 145 at saturation",
-        "Type": "LGR compressor",
-        "Airflow": "180 CFM",
+        "Type": "LGR compressor + 4 P-430AT air movers",
+        "Airflow": "180 CFM (dehumidifier)",
         "Drainage": "Purge pump, 40-ft hose",
         "Best for": "Multi-room renovation drying"
       }
@@ -364,7 +364,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most heavy-duty jobs, the **AlorAir Storm LGR Extreme** is the industrial dehumidifier to buy: real LGR drying, a built-in pump and cold-weather operation at a sensible price. Pros should consider the **Dri-Eaz LGR 7000XLi**, big open spaces call for the **Storm Elite**, and room-to-room renovators will like the **XPOWER XD-85L2**. If you just need a big basement to stay dry for years, get the efficient **AlorAir Sentinel HD90** instead."
+          "text": "For most heavy-duty jobs, the **AlorAir Storm LGR Extreme** is the industrial dehumidifier to buy: real LGR drying, a built-in pump and cold-weather operation at a sensible price. Pros should consider the **Dri-Eaz LGR 7000XLi**, big open spaces call for the **Storm Elite**, and room-to-room renovators who also need air movers will like the **XPOWER Flood Restoration PRO Pack II**, which bundles the XD-85L2 with four of them. If you just need a big basement to stay dry for years, get the efficient **AlorAir Sentinel HD90** instead."
         }
       ]
     }

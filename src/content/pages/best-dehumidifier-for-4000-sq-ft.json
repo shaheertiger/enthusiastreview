@@ -124,25 +124,25 @@
     {
       "id": "homelabs-pump-4500",
       "catalogId": "homelabs-pump-4500",
-      "name": "hOmeLabs 4,500 Sq Ft Dehumidifier with Pump",
-      "shortName": "hOmeLabs 4,500 Sq Ft Pump",
-      "award": "Best budget “4,500 sq ft” pick",
+      "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (7,500 Sq Ft)",
+      "shortName": "hOmeLabs 50-Pint Pump + Wi-Fi",
+      "award": "Best budget pump pick",
       "pros": [
         "Built-in pump at a budget price",
-        "ENERGY STAR certified",
-        "Simple controls, easy to live with"
+        "Wi-Fi app for checking each zone remotely",
+        "50 pints a day, the same tier as our other portables"
       ],
       "cons": [
-        "No app for checking humidity remotely",
+        "7,500 sq ft listing claim is far more than one unit really covers",
         "Stock comes and goes"
       ],
-      "whyWeLoveIt": "If you're buying two portables, cost adds up fast. This earlier-generation hOmeLabs gives you a pump and ENERGY STAR efficiency for less, making a two-unit setup more affordable.",
-      "performance": "hOmeLabs rates it for up to about 4,500 square feet, and it's a 50-pint-class compressor unit — the same tier as our other portable picks. The pump allows hands-off drainage without a downhill hose run. The missing app is a fair trade in a basement you walk through every day.",
+      "whyWeLoveIt": "If you're buying two portables, cost adds up fast. This hOmeLabs gives you a pump and Wi-Fi for less, making a two-unit setup more affordable — and the app lets you check both zones from one phone.",
+      "performance": "Amazon lists it as a 50-pint unit with a pump and Wi-Fi and a coverage claim of up to 7,500 square feet — a textbook example of the inflated labels explained below, since its 120-pint figure is measured at 95°F and 90% humidity. Judge it as what it is: a 50-pint-class compressor unit, the same tier as our other portable picks. The pump allows hands-off drainage without a downhill hose run.",
       "specs": {
-        "Capacity": "50-pint class",
-        "Coverage": "Up to ~4,500 sq ft (maker's claim)",
+        "Capacity": "50 pints/day (120 at 95°F/90% RH, listing)",
+        "Coverage": "Up to 7,500 sq ft (listing claim)",
         "Drainage": "Built-in pump",
-        "Efficiency": "ENERGY STAR",
+        "Smart control": "Wi-Fi app",
         "Best for": "Two-unit setups on a budget"
       }
     }
@@ -245,7 +245,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Search for a 4,500 sq ft dehumidifier and nearly every result is a 50-pint-class portable. Midea, hOmeLabs, Hisense and others all print 4,500 square feet on their 50-pint models. Those figures assume one open, moderately damp area with good airflow — not a house divided into rooms and floors, and not a basement with condensation on the walls."
+          "text": "Search for a 4,500 sq ft dehumidifier and nearly every result is a 50-pint-class portable. Midea, Hisense and others print 4,500 square feet on their 50-pint models, and some hOmeLabs listings go as high as 7,000 or 7,500. Those figures assume one open, moderately damp area with good airflow — not a house divided into rooms and floors, and not a basement with condensation on the walls."
         },
         {
           "type": "ul",
@@ -263,7 +263,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "No single portable truly dries 4,000 square feet. For a whole house, the **Aprilaire E130** is the best fit, with the **Aprilaire E100** for tighter homes and large basements. If you're covering zones instead, buy two **Midea Cube 50s**, swap in the **Frigidaire FFAP5033W1** wherever you need a pump, and choose the **hOmeLabs 4,500 Sq Ft** pump model to keep a two-unit setup on budget. Then set every unit to 45–50% and check each zone with a hygrometer."
+          "text": "No single portable truly dries 4,000 square feet. For a whole house, the **Aprilaire E130** is the best fit, with the **Aprilaire E100** for tighter homes and large basements. If you're covering zones instead, buy two **Midea Cube 50s**, swap in the **Frigidaire FFAP5033W1** wherever you need a pump, and choose the **hOmeLabs 50-Pint with Pump and Wi-Fi** to keep a two-unit setup on budget. Then set every unit to 45–50% and check each zone with a hygrometer."
         }
       ]
     }
@@ -279,7 +279,7 @@
     },
     {
       "q": "What is the best 4,500 sq ft dehumidifier?",
-      "a": "Among portables marketed for 4,500 square feet, the Midea Cube 50 is our pick for efficiency and app control, and the hOmeLabs 4,500 Sq Ft model adds a pump for less. Just remember those claims assume one open, moderately damp space."
+      "a": "Among portables marketed for 4,500 square feet, the Midea Cube 50 is our pick for efficiency and app control, and the hOmeLabs 50-pint with pump and Wi-Fi (marketed for up to 7,500 square feet) adds a pump for less. Just remember those claims assume one open, moderately damp space."
     },
     {
       "q": "Is the Hisense 4,500 sq ft dehumidifier any good?",

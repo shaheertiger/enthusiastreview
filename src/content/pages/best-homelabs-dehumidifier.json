@@ -93,76 +93,23 @@
       }
     },
     {
-      "id": "homelabs-hme020031n",
-      "catalogId": "homelabs-50-pint",
-      "name": "hOmeLabs 50-Pint ENERGY STAR Dehumidifier (HME020031N)",
-      "shortName": "hOmeLabs HME020031N",
-      "award": "Best value",
-      "pros": [
-        "Usually the least expensive way into the brand",
-        "Fast moisture removal in independent measurements",
-        "Works down to 41°F with a defrost mode",
-        "35–85% humidistat range and filter reminder"
-      ],
-      "cons": [
-        "12.8-pint tank fills quickly on bucket duty",
-        "Barely quieter on low fan than on high",
-        "No Wi-Fi or pump"
-      ],
-      "whyWeLoveIt": "The previous-generation 4,500-square-foot 50-pint is still widely stocked and often the cheapest hOmeLabs you can buy. It's also the one with the most independent data behind it, so you know exactly what you're getting.",
-      "performance": "An independent review site measured it at about 610 watts at 50% humidity and roughly 59 dB on both fan speeds, and recorded it drying a test chamber from 90% to 40% humidity in just over 10 minutes. Above-average draw, above-average speed: it nets out as reasonably efficient. Buy it if the newer Wi-Fi board isn't worth the price difference.",
-      "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
-        "Tank": "12.8 pints",
-        "Low-temp operation": "Down to 41°F, auto defrost",
-        "Drainage": "Bucket or gravity hose",
-        "Efficiency": "ENERGY STAR",
-        "Best for": "Budget basement setups"
-      }
-    },
-    {
-      "id": "homelabs-energy-star-pump",
-      "catalogId": "homelabs-pump-4500",
-      "name": "hOmeLabs ENERGY STAR 50-Pint Dehumidifier with Pump (4,500 Sq Ft)",
-      "shortName": "hOmeLabs 50-Pint Pump (legacy)",
-      "award": "Best budget pump",
-      "pros": [
-        "Built-in pump at a clearance-style price",
-        "ENERGY STAR certified",
-        "Simple controls with nothing to pair"
-      ],
-      "cons": [
-        "Stock comes and goes",
-        "No app, which matters in a crawl space"
-      ],
-      "whyWeLoveIt": "Pump models carry a premium across every brand, so an outgoing-generation pump unit at a discount is a genuine bargain. If you find it in stock, it's the best value per pump in this guide.",
-      "performance": "This is the earlier-generation pump model, rated for 4,500 square feet and certified by ENERGY STAR. The pump allows hands-off drainage without a downhill hose run. The lack of Wi-Fi is no problem in a basement you walk through daily, but it's a drawback somewhere you rarely visit. If it's sold out, the HME031004N is the dependable alternative.",
-      "specs": {
-        "Capacity": "50-pint class",
-        "Coverage": "Up to ~4,500 sq ft (maker's claim)",
-        "Drainage": "Built-in pump",
-        "Efficiency": "ENERGY STAR",
-        "Best for": "Basements on a budget"
-      }
-    },
-    {
       "id": "midea-cube-50",
       "catalogId": "midea-cube-50",
       "name": "Midea Cube 50-Pint Dehumidifier (MAD50S1QWT)",
       "shortName": "Midea Cube 50",
       "award": "Best non-hOmeLabs alternative",
       "pros": [
-        "Lower power draw than the hOmeLabs 50-pint",
+        "Lower measured power draw than the previous-generation hOmeLabs 50-pint",
         "Roughly 34-pint reservoir makes bucket use realistic",
         "Collapses for off-season storage",
-        "Pump version (MAD50PS1QWT) available"
+        "Midea also sells a 50-pint model with a built-in pump"
       ],
       "cons": [
         "One-year warranty with no registration bonus",
         "Usually costs more than the hOmeLabs equivalent"
       ],
       "whyWeLoveIt": "A brand guide that claims the brand always wins isn't much use. If you plan to empty a bucket rather than run a hose, the Cube's much larger reservoir is a daily quality-of-life difference, and its efficiency adds up over a long humid season.",
-      "performance": "Independent measurements put the Cube 50 at around 510 watts at 50% humidity, which makes it one of the most frugal 50-pint machines around. Its reservoir holds about three times as much as the legacy hOmeLabs tank. Choose hOmeLabs when the price gap is real and you'll drain continuously; choose the Cube when you won't. See the full lineup in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
+      "performance": "Independent measurements put the Cube 50 at around 510 watts at 50% humidity, which makes it one of the most frugal 50-pint machines around. Its reservoir holds about three times as much as the previous-generation hOmeLabs bucket. Choose hOmeLabs when the price gap is real and you'll drain continuously; choose the Cube when you won't. See the full lineup in our [best Midea dehumidifier](/best/best-midea-dehumidifier/) guide.",
       "specs": {
         "Capacity": "50 pints/day (DOE 2019)",
         "Tank": "About 34 pints, expandable",
@@ -186,7 +133,7 @@
             },
             {
               "value": "12.8 pints",
-              "label": "Bucket capacity of the legacy HME020031N, about a third of a Midea Cube 50"
+              "label": "Bucket capacity of the previous-generation hOmeLabs 50-pint, about a third of a Midea Cube 50"
             },
             {
               "value": "41°F",
@@ -262,6 +209,28 @@
       ]
     },
     {
+      "id": "older-models",
+      "heading": "Older hOmeLabs models you'll still see",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "On Amazon, hOmeLabs' 50-pint listings now describe the Wi-Fi versions, not the earlier no-app units that built the brand's reputation. You'll still find that previous-generation 50-pint (and an earlier 4,500-square-foot pump model without Wi-Fi) on clearance shelves and in secondhand ads."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**The previous-generation 50-pint** had no Wi-Fi or pump, a 12.8-pint bucket and a 35–85% humidistat. An independent review site measured it at about 610 watts at 50% humidity and recorded fast moisture removal, so a used one in good condition is still a reasonable basement machine.",
+            "**The earlier pump model** was rated for about 4,500 square feet and had simple push-button controls with nothing to pair. If you find one at a genuine clearance price, it does the same core job as today's pump-and-Wi-Fi model, minus the app.",
+            "**Before buying either secondhand,** read the model number on the rating label, download the matching manual, and check it against CPSC recall listings."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The product cards in this guide link only to current Amazon listings, so the 50-pint and the pump model above are the Wi-Fi versions those listings describe."
+        }
+      ]
+    },
+    {
       "id": "homelabs-vs-midea",
       "heading": "hOmeLabs vs. Midea: where each one wins",
       "blocks": [
@@ -275,12 +244,12 @@
           "rows": [
             [
               "Power at 50% RH (independent measurement)",
-              "About 610 W",
+              "About 610 W (previous-generation 50-pint)",
               "About 510 W"
             ],
             [
               "Bucket size",
-              "12.8 pints (legacy model)",
+              "12.8 pints (previous-generation 50-pint)",
               "About 34 pints"
             ],
             [
@@ -291,7 +260,7 @@
             [
               "Pump option",
               "Yes (HME031004N)",
-              "Yes (MAD50PS1QWT)"
+              "Yes (separate upright 50-pint model)"
             ],
             [
               "Typical price position",
@@ -382,7 +351,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "For most homes, the **hOmeLabs HME031003N** is the one to buy: a true 50-pint machine with app control and a gravity-drain port. In a basement without a convenient floor drain, get the **HME031004N** with its built-in pump, and check prices on both, since the pump model isn't always the pricier one. The **32-pint Wi-Fi** suits spaces that are damp rather than wet, and the legacy **HME020031N** remains the cheapest well-documented entry point. Whatever you choose, register it for the second warranty year — and if you know you'll be emptying a bucket, the Midea Cube 50 is the honest alternative."
+          "text": "For most homes, the **hOmeLabs HME031003N** is the one to buy: a true 50-pint machine with app control and a gravity-drain port. In a basement without a convenient floor drain, get the **HME031004N** with its built-in pump, and check prices on both, since the pump model isn't always the pricier one. The **32-pint Wi-Fi** suits spaces that are damp rather than wet, and an older no-app hOmeLabs is only worth it at a true clearance price. Whatever you choose, register it for the second warranty year — and if you know you'll be emptying a bucket, the Midea Cube 50 is the honest alternative."
         }
       ]
     }
@@ -398,7 +367,7 @@
     },
     {
       "q": "Which hOmeLabs dehumidifiers have a pump?",
-      "a": "Two: the current HME031004N (also sold as the HME1004) and an earlier ENERGY STAR 50-pint pump model rated for 4,500 square feet. Every other hOmeLabs unit drains by gravity, so the hose has to run downhill to a drain."
+      "a": "In the current Amazon lineup, one: the 50-pint with pump and Wi-Fi (HME031004N, also sold as the HME1004), listed for up to 7,500 square feet. An earlier 50-pint pump model rated for 4,500 square feet still turns up on clearance. Every other hOmeLabs unit drains by gravity, so the hose has to run downhill to a drain."
     },
     {
       "q": "How long is the hOmeLabs warranty?",

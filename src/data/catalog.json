@@ -31,12 +31,12 @@
     "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
   },
   "homelabs-50-pint": {
-    "name": "hOmeLabs 50-Pint Energy Star Dehumidifier",
+    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier (7,000 Sq Ft)",
     "asin": "B073VBWKJZ",
     "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
   },
   "homelabs-pump-4500": {
-    "name": "hOmeLabs 4,500 Sq Ft Dehumidifier with Pump",
+    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (7,500 Sq Ft)",
     "asin": "B073V9MG3Y",
     "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
   },
@@ -195,7 +195,7 @@
     "image": "https://m.media-amazon.com/images/I/41wncu75bdL._SL500_.jpg"
   },
   "sensorpush-ht1": {
-    "name": "SensorPush HT1 Wireless Hygrometer",
+    "name": "SensorPush HT.w Temperature & Humidity Sensor",
     "asin": "B08PKWPKM2",
     "image": "https://m.media-amazon.com/images/I/3107+dGlg+L._SL500_.jpg"
   },
@@ -435,7 +435,7 @@
     "image": "https://m.media-amazon.com/images/I/41RXAro1ulL._SL500_.jpg"
   },
   "xpower-xd-85l2": {
-    "name": "XPOWER XD-85L2 Commercial LGR Dehumidifier",
+    "name": "XPOWER Flood Restoration PRO Pack II (XD-85L2 LGR + 4 air movers)",
     "asin": "B07FKPFYGS",
     "image": "https://m.media-amazon.com/images/I/411fFtnWC3L._SL500_.jpg"
   },
@@ -884,12 +884,12 @@
     "image": "https://m.media-amazon.com/images/I/51YDF2HgqgS._SL500_.jpg"
   },
   "black-decker-bdt50pwtb": {
-    "name": "BLACK+DECKER 50-Pint Dehumidifier with Pump (BDT50PWTB)",
+    "name": "BLACK+DECKER 50-Pint Dehumidifier with Pump",
     "asin": "B0G5YCVZH3",
     "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
   },
   "black-decker-bdt50wtb": {
-    "name": "BLACK+DECKER 50-Pint Dehumidifier (BDT50WTB)",
+    "name": "BLACK+DECKER 50-Pint Dehumidifier (BDM50WCDA)",
     "asin": "B0G1R5GPMZ",
     "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
   },
@@ -904,7 +904,7 @@
     "image": "https://m.media-amazon.com/images/I/31LHAVKbAxL._SL500_.jpg"
   },
   "hisense-hd3526": {
-    "name": "Hisense 35-Pint Dehumidifier (HD3526)",
+    "name": "Hisense 35-Pint 3,000 Sq Ft Dehumidifier (HD3524)",
     "asin": "B0DBVZW7P7",
     "image": "https://m.media-amazon.com/images/I/2137YvPm2uL._SL500_.jpg"
   },
@@ -1146,5 +1146,15 @@
     "name": "Kesnos 155-Pint Commercial Dehumidifier with Pump",
     "asin": "B0H5B4G5K4",
     "image": "https://m.media-amazon.com/images/I/41w2zvILbWL._SL500_.jpg"
+  },
+  "black-decker-bd22mwsa": {
+    "name": "BLACK+DECKER 22-Pint Dehumidifier (BD22MWSA)",
+    "asin": "B08WHN4B2B",
+    "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
+  },
+  "black-decker-bdm36wcda": {
+    "name": "BLACK+DECKER 36.39-Pint Dehumidifier (BDM36WCDA)",
+    "asin": "B08WHJJQN6",
+    "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
   }
 }

@@ -68,24 +68,25 @@
     },
     {
       "id": "xpower-xd-85l2",
-      "name": "XPOWER XD-85L2 Commercial LGR Dehumidifier",
-      "shortName": "XPOWER XD-85L2",
-      "award": "Best value pro-grade",
+      "name": "XPOWER Flood Restoration PRO Pack II (XD-85L2 LGR + 4 air movers)",
+      "shortName": "XPOWER PRO Pack II",
+      "award": "Best dry-out kit",
       "pros": [
-        "Same AHAM rating class as the Storm LGR Extreme",
+        "LGR dehumidifier plus four centrifugal air movers in one order",
         "Automatic purge pump with a long 40-foot hose",
         "Wheels and handle for moving between rooms",
         "Built for stacking or job-site use"
       ],
       "cons": [
-        "Costs more than our top pick",
-        "Lower saturation rating than the AlorAir"
+        "Costs more than our top pick, since you're also buying four fans",
+        "Lower saturation rating than the AlorAir",
+        "Overkill if you already own air movers"
       ],
-      "whyWeLoveIt": "If you're drying out a multi-room renovation and need to move the machine from a soaked basement to a damp garage over several days, the XD-85L2's wheels and handle make that easy — without stepping all the way up to Dri-Eaz pricing.",
-      "performance": "XPOWER rates it at 85 pints a day at AHAM conditions and up to 145 pints at saturation, with 180 CFM of airflow. The 40-foot drain hose reaches a floor drain or sink from most rooms without an extension. It's more machine than a single small leak needs, but a practical middle ground for larger projects.",
+      "whyWeLoveIt": "Water damage dries fastest with an LGR dehumidifier and air movers working together, and this Amazon listing is exactly that: XPOWER's Flood Restoration Express PRO Pack II bundles the XD-85L2 LGR with four P-430AT centrifugal air movers. If you're starting from nothing after a leak or flood, it's a complete dry-out kit in one box, and the XD-85L2's wheels and handle let you move it from a soaked basement to a damp garage.",
+      "performance": "XPOWER rates the included XD-85L2 at 85 pints a day at AHAM conditions and up to 145 pints at saturation, with 180 CFM of airflow. The 40-foot drain hose reaches a floor drain or sink from most rooms without an extension, and the four air movers push air across wet floors and walls so the dehumidifier has moisture to pull. Note that the link is the bundle, not the dehumidifier alone. It's more kit than a single small leak needs, but a practical setup for larger projects.",
       "specs": {
         "Capacity": "85 pints/day AHAM; 145 at saturation",
-        "Type": "LGR commercial",
+        "Type": "LGR commercial + 4 P-430AT air movers",
         "Drainage": "Purge pump, 40-ft hose",
         "Airflow": "180 CFM",
         "Best for": "Multi-room renovation drying"
@@ -236,7 +237,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **AlorAir Storm LGR Extreme** is the best dehumidifier for water damage in most homes: genuine LGR performance, a built-in pump and a size that fits through a doorway. Step up to the **Dri-Eaz LGR 7000XLi** for a whole-basement flood, choose the **XPOWER XD-85L2** for wheeled pro-grade drying, and use the **hOmeLabs HME031004N** only for a small leak caught early. Once you're dry, our guide on [whether a dehumidifier helps with mold](/guides/does-a-dehumidifier-help-with-mold/) explains how to keep it that way."
+          "text": "The **AlorAir Storm LGR Extreme** is the best dehumidifier for water damage in most homes: genuine LGR performance, a built-in pump and a size that fits through a doorway. Step up to the **Dri-Eaz LGR 7000XLi** for a whole-basement flood, choose the **XPOWER Flood Restoration PRO Pack II** (XD-85L2 plus four air movers) if you need a complete dry-out kit, and use the **hOmeLabs HME031004N** only for a small leak caught early. Once you're dry, our guide on [whether a dehumidifier helps with mold](/guides/does-a-dehumidifier-help-with-mold/) explains how to keep it that way."
         }
       ]
     }

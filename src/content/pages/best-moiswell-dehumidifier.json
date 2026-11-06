@@ -67,25 +67,25 @@
     {
       "id": "homelabs-pump-4500",
       "catalogId": "homelabs-pump-4500",
-      "name": "hOmeLabs ENERGY STAR 50-Pint Dehumidifier with Pump (4,500 Sq Ft)",
-      "shortName": "hOmeLabs 4,500 Sq Ft",
+      "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (7,500 Sq Ft)",
+      "shortName": "hOmeLabs 50-Pint Pump + Wi-Fi",
       "award": "Best basement alternative",
       "pros": [
-        "ENERGY STAR certified",
         "Built-in pump drains up and out",
+        "Wi-Fi app for remote monitoring",
         "Long track record and a large base of owner reviews"
       ],
       "cons": [
-        "No Wi-Fi monitoring",
+        "7,500 sq ft and 120-pint listing figures overstate everyday output",
         "Tall cabinet takes floor space"
       ],
       "whyWeLoveIt": "If you're weighing the Moiswell 70 for a basement, this is the like-for-like alternative from a brand with years of owner feedback behind it. It adds a built-in pump, so it doesn't need a floor drain.",
-      "performance": "hOmeLabs rates it for up to about 4,500 square feet, and it carries ENERGY STAR certification, which matters for a unit that runs most of the summer. The pump pushes water to a laundry sink or out a window. More options from the brand are in our [best hOmeLabs dehumidifier](/best/best-homelabs-dehumidifier/) guide.",
+      "performance": "Amazon lists it as a 50-pint unit with a pump and Wi-Fi, with a coverage claim of up to 7,500 square feet; its 120-pint figure is measured at 95°F and 90% humidity, so make sure you compare it with the Moiswell on a like-for-like rating. The pump pushes water to a laundry sink or out a window, and the app lets you check the basement from upstairs. More options from the brand are in our [best hOmeLabs dehumidifier](/best/best-homelabs-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50-pint class",
-        "Coverage": "Up to ~4,500 sq ft (maker's claim)",
+        "Capacity": "50 pints/day (120 at 95°F/90% RH, listing)",
+        "Coverage": "Up to 7,500 sq ft (listing claim)",
         "Drainage": "Built-in pump",
-        "Efficiency": "ENERGY STAR",
+        "Smart control": "Wi-Fi app",
         "Best for": "Basements without a floor drain"
       }
     },
@@ -275,7 +275,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Moiswell 70 Pint** is a reasonable basement dehumidifier if the price is right and you compare its rating fairly, and the **Moiswell 145 Pint** is a budget route to commercial-scale drying for garages, crawl spaces and leak recovery. If you want a longer track record, the **hOmeLabs 4,500 Sq Ft** is the safer basement pick, the **AlorAir Sentinel HD55** is the better tool for a sealed crawl space, and the **AlorAir Storm LGR Extreme** is the commercial benchmark."
+          "text": "The **Moiswell 70 Pint** is a reasonable basement dehumidifier if the price is right and you compare its rating fairly, and the **Moiswell 145 Pint** is a budget route to commercial-scale drying for garages, crawl spaces and leak recovery. If you want a longer track record, the **hOmeLabs 50-Pint with Pump and Wi-Fi** is the safer basement pick, the **AlorAir Sentinel HD55** is the better tool for a sealed crawl space, and the **AlorAir Storm LGR Extreme** is the commercial benchmark."
         }
       ]
     }
