@@ -479,7 +479,9 @@
   "kesnos-150-pint-pump": {
     "name": "Kesnos 150-Pint Dehumidifier with Pump",
     "asin": "B0GX1SLRD5",
-    "image": "https://m.media-amazon.com/images/I/31cYABv2YzL._SL500_.jpg"
+    "image": "https://m.media-amazon.com/images/I/31cYABv2YzL._SL500_.jpg",
+    "skip": true,
+    "note": "listing B0GX1SLRD5 has no pump; use kesnos-155-pint-pump"
   },
   "kesnos-216-pint-commercial": {
     "name": "Kesnos 216-Pint Commercial Dehumidifier",
@@ -1139,5 +1141,10 @@
     "name": "Dravonic 21-Pint Dehumidifier (1,500 sq ft)",
     "asin": "B0H6B9VVPG",
     "image": "https://m.media-amazon.com/images/I/31DjQNGwt4L._SL500_.jpg"
+  },
+  "kesnos-155-pint-pump": {
+    "name": "Kesnos 155-Pint Commercial Dehumidifier with Pump",
+    "asin": "B0H5B4G5K4",
+    "image": "https://m.media-amazon.com/images/I/41w2zvILbWL._SL500_.jpg"
   }
 }

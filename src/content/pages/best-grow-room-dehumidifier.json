@@ -97,30 +97,31 @@
       }
     },
     {
-      "id": "kesnos-150-pint-pump",
-      "catalogId": "kesnos-150-pint-pump",
-      "name": "Kesnos 150-Pint Dehumidifier with Pump",
-      "shortName": "Kesnos 150-Pint",
+      "id": "kesnos-155-pint-pump",
+      "catalogId": "kesnos-155-pint-pump",
+      "name": "Kesnos 155-Pint Commercial Dehumidifier with Pump",
+      "shortName": "Kesnos 155-Pint",
       "award": "Best budget high-capacity pick",
       "pros": [
         "High rated capacity for the money",
-        "Built-in pump with 9.84-ft hose",
-        "ENERGY STAR certified",
-        "Handles big veg-stage moisture loads"
+        "Built-in pump lifts water up to 16.4 ft",
+        "Gravity hose included as a second option",
+        "Auto-restart and auto-defrost"
       ],
       "cons": [
-        "150-pint rating is at 95°F and 90% RH",
+        "155-pint rating is at 95°F and 90% RH",
         "Not an LGR, so output fades at flowering humidity"
       ],
-      "whyWeLoveIt": "For a large veg room or a hydroponic setup with open reservoirs, where humidity runs high and the load is big, the Kesnos removes a lot of water for the price and pumps its own drainage.",
-      "performance": "Kesnos rates it at 150 pints a day at 95°F and 90% humidity, far wetter than a well-run grow room, so plan on meaningfully less; treat the 7,000–7,500 sq ft coverage claim as generous too. The pump pushes water through a 9.84-foot hose. See our [best Kesnos dehumidifier](/best/best-kesnos-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "150 pints/day (95°F/90% RH)",
-        "Type": "Compressor",
-        "Drainage": "Built-in pump, 9.84-ft hose",
-        "Efficiency": "ENERGY STAR",
+        "Capacity": "155 pints/day (95°F/90% RH)",
+        "Coverage": "Up to 7,500 sq ft (brand rating)",
+        "Drainage": "Built-in pump (16.4-ft lift) or gravity hose",
+        "Controls": "10–90% RH humidistat, 24-hour timer",
+        "Restart": "Auto-restart after outages",
         "Best for": "Large veg rooms, hydroponic setups"
-      }
+      },
+      "whyWeLoveIt": "For a large veg room or a hydroponic setup with open reservoirs, where humidity runs high and the load is big, the Kesnos removes a lot of water for the price and pumps its own drainage up and out of the room.",
+      "performance": "Kesnos rates it at 155 pints a day at 95°F and 90% humidity, far wetter than a well-run grow room, so plan on meaningfully less; treat the 7,500 sq ft coverage claim as generous too. The built-in pump comes with a 16.4-foot hose and lifts water up to 16.4 feet, and a separate gravity hose is included. See our [best Kesnos dehumidifier](/best/best-kesnos-dehumidifier/) guide."
     },
     {
       "id": "ac-infinity-hydrone-7",
@@ -222,9 +223,9 @@
               "Sealed rooms"
             ],
             [
-              "Kesnos 150-Pint",
-              "150 pints (95°F/90% RH)",
-              "Pump, 9.84-ft hose",
+              "Kesnos 155-Pint",
+              "155 pints (95°F/90% RH)",
+              "Pump, 16.4-ft lift",
               "ENERGY STAR",
               "Big veg and hydro rooms"
             ],
@@ -456,7 +457,7 @@
             "**A mid-size room with a full canopy in flower:** the AlorAir Storm Elite.",
             "**A spare bedroom or basement corner with a few plants:** the AlorAir Sentinel HDi65S, with Wi-Fi alerts.",
             "**A sealed room with AC where heat is the problem:** the Waykar 158-Pint Dual Duct, installed outside the room.",
-            "**A large veg room or hydroponic setup on a budget:** the Kesnos 150-Pint, remembering its rating is optimistic.",
+            "**A large veg room or hydroponic setup on a budget:** the Kesnos 155-Pint, remembering its rating is optimistic.",
             "**A closet grow or a separate drying space:** the AC Infinity HYDRONE 7.",
             "**Still growing in tents?** Start with our [grow tent dehumidifier](/best/best-dehumidifier-for-grow-tent/) picks, and step up to a room unit when you outgrow them."
           ]
@@ -469,7 +470,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Size a grow room dehumidifier by the water you pour in, not the square footage, and favor a design that keeps working at flowering humidity. For most rooms, buy the **AlorAir Storm Elite**. Go smaller with the **Sentinel HDi65S**, ducted with the **Waykar 158-Pint Dual Duct**, cheaper with the **Kesnos 150-Pint** and compact with the **AC Infinity HYDRONE 7**, and confirm the room with a hygrometer at canopy height."
+          "text": "Size a grow room dehumidifier by the water you pour in, not the square footage, and favor a design that keeps working at flowering humidity. For most rooms, buy the **AlorAir Storm Elite**. Go smaller with the **Sentinel HDi65S**, ducted with the **Waykar 158-Pint Dual Duct**, cheaper with the **Kesnos 155-Pint** and compact with the **AC Infinity HYDRONE 7**, and confirm the room with a hygrometer at canopy height."
         }
       ]
     }

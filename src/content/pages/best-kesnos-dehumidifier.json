@@ -6,7 +6,7 @@
   "title": "Best Kesnos Dehumidifier (2026): 30 to 216 Pints, Reviewed",
   "h1": "The Best Kesnos Dehumidifiers — and How to Read Their Pint Ratings",
   "dek": "Kesnos sells big-number dehumidifiers at friendly prices. Here’s which one fits your space, and why its pint ratings aren’t apples to apples.",
-  "description": "The best Kesnos dehumidifier for your space in 2026 — 30-pint, 70-pint PD253D, 150-pint and 216-pint commercial — plus what its saturation pint ratings mean.",
+  "description": "The best Kesnos dehumidifier for your space in 2026 — 30-pint, 70-pint PD253D, 155-pint and 216-pint commercial — plus what its saturation pint ratings mean.",
   "published": "2026-10-08",
   "updated": "2026-11-05",
   "intro": [
@@ -66,29 +66,31 @@
       }
     },
     {
-      "id": "kesnos-150-pint-pump",
-      "name": "Kesnos 150-Pint Dehumidifier with Pump",
-      "shortName": "Kesnos 150-Pint",
+      "id": "kesnos-155-pint-pump",
+      "catalogId": "kesnos-155-pint-pump",
+      "name": "Kesnos 155-Pint Commercial Dehumidifier with Pump",
+      "shortName": "Kesnos 155-Pint",
       "award": "Best for large basements",
       "pros": [
-        "Built-in pump with a 9.84-foot hose",
-        "ENERGY STAR certified",
-        "1.85-gallon tank as a backup",
-        "Rated for 7,000–7,500 sq ft"
+        "Built-in pump lifts water up to 16.4 ft",
+        "Gravity drain hose also included",
+        "Auto-restart after power outages",
+        "Rated for up to 7,500 sq ft"
       ],
       "cons": [
-        "Real-world capacity well below the label",
-        "Brand energy-savings claims aren’t independently verified"
+        "Real-world capacity well below the saturation label",
+        "Big, heavy commercial cabinet"
       ],
-      "whyWeLoveIt": "When your drain isn’t downhill from where the unit needs to sit, a pump makes life far easier. This is the Kesnos for big or genuinely wet basements.",
-      "performance": "The 150-pint rating is again measured at saturation, so expect meaningfully less in an ordinary basement — but it’s still a high-capacity machine. The integrated pump pushes water through a 9.84-foot hose to a sink, window or standpipe. Kesnos says it uses up to 45% less energy than non-certified models; treat that as a marketing figure rather than a measured one. More options are in our [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) roundup.",
       "specs": {
-        "Capacity": "150 pints/day (95°F/90% RH)",
-        "Coverage": "7,000–7,500 sq ft (brand rating)",
-        "Drainage": "Built-in pump, 9.84-ft hose",
-        "Efficiency": "ENERGY STAR",
+        "Capacity": "155 pints/day (95°F/90% RH)",
+        "Coverage": "Up to 7,500 sq ft (brand rating)",
+        "Drainage": "Built-in pump (16.4-ft lift) or gravity hose",
+        "Controls": "10–90% RH humidistat, 24-hour timer",
+        "Restart": "Auto-restart after outages",
         "Best for": "Large or wet basements"
-      }
+      },
+      "whyWeLoveIt": "When your drain isn’t downhill from where the unit needs to sit, a pump makes life far easier. This is the Kesnos for big or genuinely wet basements, with a commercial-style cabinet and wheels for moving it around.",
+      "performance": "The 155-pint rating is measured at saturation (95°F, 90% RH), so expect meaningfully less in an ordinary basement — but it’s still a high-capacity machine. The built-in pump uses a 16.4-foot hose and lifts water up to 16.4 feet to a sink, window or standpipe, and a 6.56-foot gravity hose is included if you have a floor drain. It holds a setpoint from 10% to 90% RH and restarts with your settings after an outage. More options are in our [best dehumidifier with pump](/best/best-dehumidifier-with-pump/) roundup."
     },
     {
       "id": "kesnos-216-pint-commercial",
@@ -159,10 +161,10 @@
               "No"
             ],
             [
-              "150-Pint",
-              "150 pints/day (saturation)",
-              "7,000–7,500 sq ft",
-              "Yes, 9.84-ft hose"
+              "155-Pint",
+              "155 pints/day (saturation)",
+              "Up to 7,500 sq ft",
+              "Yes, 16.4-ft lift"
             ],
             [
               "216-Pint Commercial",
@@ -198,15 +200,15 @@
           "items": [
             {
               "label": "Size by space and dampness",
-              "text": "Don’t assume a 150-pint Kesnos removes three times what a DOE-rated 50-pint does. Our [size guide](/guides/dehumidifier-size-guide/) helps you estimate real load."
+              "text": "Don’t assume a 155-pint Kesnos removes three times what a DOE-rated 50-pint does. Our [size guide](/guides/dehumidifier-size-guide/) helps you estimate real load."
             },
             {
               "label": "Pump or no pump",
-              "text": "Only the 150- and 216-pint models have pumps. The smaller two need a floor drain or regular bucket emptying."
+              "text": "Only the 155- and 216-pint commercial models have pumps. The smaller two need a floor drain or regular bucket emptying."
             },
             {
               "label": "The right tier",
-              "text": "30-pint for one room, PD253D for a typical basement, 150-pint for a big or wet basement, 216-pint for commercial jobs."
+              "text": "30-pint for one room, PD253D for a typical basement, 155-pint with pump for a big or wet basement, 216-pint for commercial jobs."
             },
             {
               "label": "Marketing vs. measured",
@@ -270,7 +272,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Kesnos PD253D** is the best all-round Kesnos for a typical damp basement, and the **30-Pint** is a low-cost single-room option. Step up to the **150-Pint with Pump** for large or wet basements without a convenient drain, and reserve the **216-Pint Commercial** for job sites and big commercial spaces. Whichever you choose, remember the label is a saturation figure and size accordingly — or compare more brands in our [best dehumidifier](/best/best-dehumidifier/) roundup."
+          "text": "The **Kesnos PD253D** is the best all-round Kesnos for a typical damp basement, and the **30-Pint** is a low-cost single-room option. Step up to the **155-Pint with Pump** for large or wet basements without a convenient drain, and reserve the **216-Pint Commercial** for job sites and big commercial spaces. Whichever you choose, remember the label is a saturation figure and size accordingly — or compare more brands in our [best dehumidifier](/best/best-dehumidifier/) roundup."
         }
       ]
     }
@@ -278,19 +280,19 @@
   "faqs": [
     {
       "q": "What is the best Kesnos dehumidifier?",
-      "a": "For most basements, the 70-pint PD253D, which Kesnos rates for up to 5,000 sq ft. The 30-pint suits a single room, the 150-pint with pump handles large or wet basements, and the 216-pint commercial model is built for job sites and industrial spaces."
+      "a": "For most basements, the 70-pint PD253D, which Kesnos rates for up to 5,000 sq ft. The 30-pint suits a single room, the 155-pint with pump handles large or wet basements, and the 216-pint commercial model is built for job sites and industrial spaces."
     },
     {
       "q": "Are Kesnos dehumidifier reviews good?",
       "a": "Generally, yes. Kesnos models typically average around 4.4 stars across thousands of verified reviews, with quiet running and portability praised most. Keep in mind that owner reviews rarely account for the brand’s saturation-based pint ratings."
     },
     {
-      "q": "Why doesn’t a 150-pint Kesnos remove three times as much as a 50-pint from another brand?",
+      "q": "Why doesn’t a 155-pint Kesnos remove three times as much as a 50-pint from another brand?",
       "a": "Because the ratings aren’t measured the same way. Kesnos rates at 95°F and 90% humidity; many brands use the AHAM test at 80°F/60% or the DOE 2019 test at 65°F, which produce much smaller numbers for the same machine."
     },
     {
       "q": "Do all Kesnos dehumidifiers have a pump?",
-      "a": "No. The 30-pint and the 70-pint PD253D drain by bucket or gravity hose. The 150-pint has a pump with a 9.84-foot hose, and the 216-pint commercial model has one with a 16.4-foot hose."
+      "a": "No. The 30-pint and the 70-pint PD253D drain by bucket or gravity hose. The 155-pint commercial model has a pump with a 16.4-foot lift, and the 216-pint commercial model has one with a 16.4-foot hose."
     },
     {
       "q": "Where can I find a Kesnos dehumidifier manual?",
