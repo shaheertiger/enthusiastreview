@@ -71,28 +71,29 @@
     },
     {
       "id": "honeywell-tp70pwkn",
-      "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKN)",
-      "shortName": "Honeywell TP70PWKN",
+      "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
+      "shortName": "Honeywell TPFIT50PWK",
       "award": "Best with a pump",
       "pros": [
-        "Built-in pump drains up to about 15 feet",
-        "Rated for up to about 4,000 sq ft",
+        "Built-in pump moves water to a sink or out a window",
+        "Rated for up to 4,000 sq ft",
         "ENERGY STAR certified",
-        "Washable filter and auto shutoff"
+        "Thermal overload protection"
       ],
       "cons": [
-        "Model name implies 70 pints; it's a 50-pint under the current DOE test",
-        "Standard compressor, so not for near-freezing garages"
+        "Standard compressor, so not for near-freezing garages",
+        "Similar TP-Fit model names hide very different capacities — check for the \"P\""
       ],
-      "whyWeLoveIt": "Garages rarely have a floor drain right where the dehumidifier needs to sit. The TP70PWKN's pump moves water across the floor to a utility sink or up and out a window, so you aren't relying on gravity.",
-      "performance": "Under the 2019 DOE test it's a 50-pint unit — the \"70\" in the name dates from the older, more generous test. It's rated to cover a two- or three-car garage, carries ENERGY STAR certification and shuts itself off if the tank fills while the pump is disconnected. Owners like that it's a proven design from a long-running brand. See the rest of the range in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
+      "whyWeLoveIt": "Garages rarely have a floor drain right where the dehumidifier needs to sit. The TPFIT50PWK's built-in pump moves water across the floor to a utility sink or up and out a window, so you aren't relying on gravity.",
+      "performance": "Honeywell rates it at 50 pints a day for up to 4,000 square feet — enough for a two- or three-car garage — with ENERGY STAR certification. Auto-comfort mode picks a setpoint for you, laundry mode helps if you hang wet gear or clothes out there, and thermal overload protection guards the compressor through long summer runs. See the rest of the range in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
-        "Coverage": "Up to about 4,000 sq ft",
-        "Drainage": "Built-in pump, about 15 ft",
+        "Capacity": "50 pints/day",
+        "Coverage": "Up to 4,000 sq ft (Honeywell)",
+        "Drainage": "Built-in pump",
         "Efficiency": "ENERGY STAR",
         "Best for": "Garage without a floor drain"
-      }
+      },
+      "catalogId": "honeywell-tp70pwkn"
     },
     {
       "id": "frigidaire-fhdd5034w1",
@@ -229,7 +230,7 @@
         },
         {
           "type": "p",
-          "text": "In hot, humid climates like Florida, cold isn't the issue — sheer moisture load is. Choose a high-capacity compressor unit such as the Waykar 80-Pint or the Honeywell TP70PWKN with its pump, and run it continuously to a drain. Weatherstrip the garage door so you aren't drying the whole neighborhood."
+          "text": "In hot, humid climates like Florida, cold isn't the issue — sheer moisture load is. Choose a high-capacity compressor unit such as the Waykar 80-Pint or the Honeywell TPFIT50PWK with its pump, and run it continuously to a drain. Weatherstrip the garage door so you aren't drying the whole neighborhood."
         },
         {
           "type": "h3",
@@ -283,7 +284,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Waykar 80-Pint** is the best dehumidifier for most garages: high capacity, cold-season defrost and a dust-ready filter. Choose the **AlorAir Sentinel HDi65S** for a large, cold or detached garage, the **Honeywell TP70PWKN** when you need to pump water away, the **Frigidaire FHDD5034W1** for value, and the **Ivation 13-Pint Desiccant** if your garage regularly dips below 40°F. Hold the space at 40–50% and your tools, drywall and stored gear will stay dry."
+          "text": "The **Waykar 80-Pint** is the best dehumidifier for most garages: high capacity, cold-season defrost and a dust-ready filter. Choose the **AlorAir Sentinel HDi65S** for a large, cold or detached garage, the **Honeywell TPFIT50PWK** when you need to pump water away, the **Frigidaire FHDD5034W1** for value, and the **Ivation 13-Pint Desiccant** if your garage regularly dips below 40°F. Hold the space at 40–50% and your tools, drywall and stored gear will stay dry."
         }
       ]
     }

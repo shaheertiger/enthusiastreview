@@ -95,28 +95,31 @@
     },
     {
       "id": "honeywell-tp70pwknr",
-      "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKNR)",
-      "shortName": "Honeywell TP70PWKNR",
+      "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
+      "shortName": "Honeywell TPFIT50PWK",
       "award": "Best for finished attics",
       "pros": [
-        "Built-in pump pushes water up to about 15 feet",
-        "Far less expensive than commercial units",
-        "Replaces the TP70PWKN with a lower-impact refrigerant",
-        "Honeywell’s five-year sealed-system coverage"
+        "Built-in pump sends water to a drain without a gravity run",
+        "50 pints a day, ENERGY STAR certified",
+        "Rated for up to 4,000 sq ft",
+        "Thermal overload protection for long runs"
       ],
       "cons": [
         "Not rated for unconditioned attic extremes",
-        "Covers one finished space, not a whole attic"
+        "Covers one finished space, not a whole attic",
+        "No ducting option"
       ],
-      "whyWeLoveIt": "If your “attic” is really a finished bonus room or a walk-up storage loft that stays near indoor temperatures, a commercial unit is unnecessary. This portable has the pump that attic installs need at a fraction of the cost.",
-      "performance": "It’s a 50-pint unit under the 2019 DOE test (sold as 70 pints under the older standard), and its pump can drain vertically or horizontally. The original TP70PWKN has been discontinued; this R-suffix version is the current model. Don’t use it in an unfinished attic that swings outside room-temperature range. See our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
+      "whyWeLoveIt": "If your “attic” is really a finished bonus room or a walk-up storage loft that stays near indoor temperatures, a commercial ducted unit is unnecessary. This portable from Honeywell's TP-Fit series has the built-in pump that attic installs need, in an ordinary room-dehumidifier format.",
+      "performance": "Honeywell rates it at 50 pints a day for up to 4,000 square feet, with ENERGY STAR certification. The pump handles drainage where there's no floor drain, auto-comfort mode picks a humidity target for you, laundry mode speeds drying for anything hung up there, and thermal overload protection guards the compressor. Don't use it in an unfinished attic that swings outside room-temperature range. See our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
+        "Capacity": "50 pints/day",
         "Drainage": "Built-in pump",
+        "Coverage": "Up to 4,000 sq ft (Honeywell)",
         "Type": "Portable compressor",
-        "Low-temp operation": "Auto-defrost",
+        "Efficiency": "ENERGY STAR",
         "Best for": "Finished attic rooms"
-      }
+      },
+      "catalogId": "honeywell-tp70pwknr"
     }
   ],
   "sections": [
@@ -273,7 +276,7 @@
               "Small attics"
             ],
             [
-              "Honeywell TP70PWKNR",
+              "Honeywell TPFIT50PWK",
               "50 pints (DOE 2019)",
               "Auto-defrost",
               "Built-in pump",
@@ -289,7 +292,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **AlorAir Sentinel HDi90** is the best attic dehumidifier for most homes, combining full-attic capacity, ducting and a wide operating range. Choose the **Waykar 158-Pint Dual Duct** for large, divided attics, the **AlorAir HD55** for a small or hard-to-reach space, and the **Honeywell TP70PWKNR** only for a finished attic room. Whatever you buy, fix venting and insulation problems first — a dehumidifier manages attic moisture, but it can’t stop the source. If mold is already present, read [does a dehumidifier help with mold](/guides/does-a-dehumidifier-help-with-mold/) before you start."
+          "text": "The **AlorAir Sentinel HDi90** is the best attic dehumidifier for most homes, combining full-attic capacity, ducting and a wide operating range. Choose the **Waykar 158-Pint Dual Duct** for large, divided attics, the **AlorAir HD55** for a small or hard-to-reach space, and the **Honeywell TPFIT50PWK** only for a finished attic room. Whatever you buy, fix venting and insulation problems first — a dehumidifier manages attic moisture, but it can’t stop the source. If mold is already present, read [does a dehumidifier help with mold](/guides/does-a-dehumidifier-help-with-mold/) before you start."
         }
       ]
     }

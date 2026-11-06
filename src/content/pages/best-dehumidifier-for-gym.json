@@ -71,28 +71,29 @@
     },
     {
       "id": "honeywell-tp70pwkn",
-      "name": "Honeywell 50-Pint Dehumidifier with Pump (TP70PWKN)",
-      "shortName": "Honeywell TP70PWKN",
+      "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
+      "shortName": "Honeywell TPFIT50PWK",
       "award": "Best with a pump",
       "pros": [
-        "Built-in pump drains up to about 15 ft",
+        "Built-in pump drains the room on its own",
         "ENERGY STAR certified",
-        "Washable filter handles mat and floor dust",
-        "Rated for spaces up to about 4,000 sq ft"
+        "Auto-comfort mode picks a setpoint for you",
+        "Rated for spaces up to 4,000 sq ft"
       ],
       "cons": [
-        "Model name references the old rating scale",
-        "Usually costs more than a bucket-only 50-pinter"
+        "Similar TP-Fit model names hide very different capacities — check for the \"P\"",
+        "Standard compressor, so not for unheated winter garages"
       ],
-      "whyWeLoveIt": "A gym you use daily is a gym you don't want to babysit. The TP70PWKN's pump pushes water to a sink, window or drain on its own, so you're never one forgotten bucket away from a musty room.",
-      "performance": "Despite the \"70\" in its name, this is Honeywell's true 50-pint unit under the 2019 DOE test. It suits basement and bonus-room gyms where there's no floor drain nearby, and its washable filter is a plus in a space where rubber flooring and chalk add dust to the air. The rest of the lineup is decoded in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
+      "whyWeLoveIt": "A gym you use daily is a gym you don't want to babysit. The TPFIT50PWK's built-in pump pushes water to a sink, window or drain on its own, so you're never one forgotten bucket away from a musty room.",
+      "performance": "Honeywell rates it at 50 pints a day for up to 4,000 square feet, with ENERGY STAR certification. It suits basement and bonus-room gyms where there's no floor drain nearby; laundry mode helps dry towels and workout gear hung in the room, and thermal overload protection guards the compressor during long post-workout runs. The rest of the lineup is decoded in our [best Honeywell dehumidifier](/best/best-honeywell-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "50 pints/day (DOE 2019)",
-        "Drainage": "Built-in pump, about 15 ft",
+        "Capacity": "50 pints/day",
+        "Drainage": "Built-in pump",
         "Efficiency": "ENERGY STAR",
-        "Coverage": "Up to about 4,000 sq ft",
+        "Coverage": "Up to 4,000 sq ft (Honeywell)",
         "Best for": "Basement gym without a drain"
-      }
+      },
+      "catalogId": "honeywell-tp70pwkn"
     },
     {
       "id": "airplus-max-30-pint",
@@ -151,9 +152,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "45–55%", "label": "Target humidity range for a home gym" },
-            { "value": "~55%", "label": "Point above which bare steel starts rusting noticeably faster" },
-            { "value": "24–48 hrs", "label": "How quickly mold can start on damp surfaces, per the EPA" }
+            {
+              "value": "45–55%",
+              "label": "Target humidity range for a home gym"
+            },
+            {
+              "value": "~55%",
+              "label": "Point above which bare steel starts rusting noticeably faster"
+            },
+            {
+              "value": "24–48 hrs",
+              "label": "How quickly mold can start on damp surfaces, per the EPA"
+            }
           ]
         },
         {
@@ -213,13 +223,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Best for", "Capacity", "Drainage"],
+          "head": [
+            "Model",
+            "Best for",
+            "Capacity",
+            "Drainage"
+          ],
           "rows": [
-            ["Midea Cube 50", "Most garage and basement gyms", "50 pints (DOE)", "Reservoir or hose"],
-            ["AlorAir Sentinel HDi65S", "Large or cold garage gym", "120 pints (saturation)", "Built-in pump"],
-            ["Honeywell TP70PWKN", "Gyms without a drain", "50 pints (DOE)", "Built-in pump"],
-            ["AirPlus Max 30", "Spare-room gym", "30 pints (marketed)", "Tank or hose"],
-            ["Frigidaire FFAD2233W1", "Small gym with a drain", "22 pints", "Bucket or hose"]
+            [
+              "Midea Cube 50",
+              "Most garage and basement gyms",
+              "50 pints (DOE)",
+              "Reservoir or hose"
+            ],
+            [
+              "AlorAir Sentinel HDi65S",
+              "Large or cold garage gym",
+              "120 pints (saturation)",
+              "Built-in pump"
+            ],
+            [
+              "Honeywell TPFIT50PWK",
+              "Gyms without a drain",
+              "50 pints",
+              "Built-in pump"
+            ],
+            [
+              "AirPlus Max 30",
+              "Spare-room gym",
+              "30 pints (marketed)",
+              "Tank or hose"
+            ],
+            [
+              "Frigidaire FFAD2233W1",
+              "Small gym with a drain",
+              "22 pints",
+              "Bucket or hose"
+            ]
           ]
         },
         {
@@ -267,7 +307,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 50** is the best dehumidifier for most home gyms: it has the capacity for a garage or basement setup, a modest power draw and remote humidity checks. Step up to the **AlorAir Sentinel HDi65S** for a large or cold garage, choose the **Honeywell TP70PWKN** for pump drainage at a lower cost, and go with the **AirPlus Max 30** or **Frigidaire FFAD2233W1** for a small spare-room gym. Whatever you pick, hold the room at 45–55% and wipe your gear down after training. For basement-specific advice, see our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) guide."
+          "text": "The **Midea Cube 50** is the best dehumidifier for most home gyms: it has the capacity for a garage or basement setup, a modest power draw and remote humidity checks. Step up to the **AlorAir Sentinel HDi65S** for a large or cold garage, choose the **Honeywell TPFIT50PWK** for pump drainage, and go with the **AirPlus Max 30** or **Frigidaire FFAD2233W1** for a small spare-room gym. Whatever you pick, hold the room at 45–55% and wipe your gear down after training. For basement-specific advice, see our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) guide."
         }
       ]
     }
