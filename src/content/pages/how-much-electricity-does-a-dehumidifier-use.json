@@ -17,25 +17,28 @@
   "topPicksLead": "If running cost is your top priority, AEOCKY's 50-class chassis is the most efficient unit we track, though Midea's Cube 50 removes more water per day.",
   "products": [
     {
-      "id": "aeocky-leo-lite3",
-      "name": "AEOCKY Leo-Lite3 Dehumidifier (sold as 140-pint)",
-      "shortName": "AEOCKY Leo-Lite3",
+      "id": "aeocky-leo-003",
+      "catalogId": "aeocky-leo-003",
+      "name": "AEOCKY Leo-003 Dehumidifier with Pump (sold as 140-pint)",
+      "shortName": "AEOCKY Leo-003",
       "award": "Most efficient 50-class pick",
       "pros": [
         "ENERGY STAR Most Efficient chassis at 2.21 L/kWh",
         "Rated 438 kWh a year",
+        "Built-in pump with a 16.4-foot hose included",
         "Three-year warranty"
       ],
       "cons": [
         "Real DOE capacity is about 45 pints, not 140",
-        "Listing wattage claims don't match ENERGY STAR data"
+        "Rated watts and amps aren’t published"
       ],
-      "whyWeLoveIt": "AEOCKY's large chassis removes about 10% more water per kWh than the ENERGY STAR minimum for its class, which is why it earns the Most Efficient designation.",
-      "performance": "ENERGY STAR lists this chassis at 44.94 pints a day under the DOE test, 2.21 L/kWh and 438 kWh a year. Size it as a 45-pint unit; the headline capacity is measured at 95°F and 95% humidity. Compared with a typical 50-pint model, that's about 77 fewer kWh a year — a real but modest saving. More detail is in our [best AEOCKY dehumidifier](/best/best-aeocky-dehumidifier/) guide.",
+      "whyWeLoveIt": "AEOCKY’s large chassis removes about 10% more water per kWh than the ENERGY STAR minimum for its class, which is why it earns the Most Efficient designation. This version adds a pump, so it can drain itself without a floor drain.",
+      "performance": "ENERGY STAR lists this chassis at 44.94 pints a day under the DOE test, 2.21 L/kWh and 438 kWh a year — the same listing as AEOCKY’s pump-free Leo-Lite3. Size it as a 45-pint unit; the headline capacity is measured at 95°F and 95% humidity. Compared with a typical 50-pint model, that’s about 77 fewer kWh a year — a real but modest saving. AEOCKY doesn’t publish wattage, so use ENERGY STAR’s annual estimate to gauge running cost. More detail is in our [best AEOCKY dehumidifier](/best/best-aeocky-dehumidifier/) guide.",
       "specs": {
         "Capacity": "44.94 pints/day (DOE)",
         "Efficiency": "2.21 L/kWh, Most Efficient",
         "Annual energy": "438 kWh (ENERGY STAR)",
+        "Drainage": "Built-in pump, 16.4-ft hose",
         "Best for": "Basement, lowest running cost"
       }
     },

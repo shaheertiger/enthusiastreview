@@ -67,26 +67,28 @@
       }
     },
     {
-      "id": "pro-breeze-30-pint",
-      "name": "Pro Breeze 30-Pint Compressor Dehumidifier",
-      "shortName": "Pro Breeze 30-Pint",
+      "id": "airplus-max-30-pint",
+      "catalogId": "airplus-max-30-pint",
+      "name": "AirPlus Max 30 Pint Tall Dehumidifier",
+      "shortName": "AirPlus Max 30",
       "award": "Best compact compressor",
       "pros": [
         "More extraction than a 22-pint",
-        "Sleep mode and auto-restart",
-        "Continuous-drain option"
+        "Quiet sleep mode for overnight running",
+        "Drain hose for continuous use",
+        "Small enough for an RV or camper"
       ],
       "cons": [
         "Larger than the minis",
-        "Simpler controls than name-brand units"
+        "Marketed capacity, not a DOE 2019 figure"
       ],
       "whyWeLoveIt": "It steps up the drying power while staying small and quiet enough for living spaces — a good fit for a small apartment, laundry room or a bedroom that needs more than a thermoelectric unit.",
-      "performance": "The maker rates it for small-to-medium rooms up to about 1,500 square feet. Sleep mode keeps it calmer overnight, and auto-restart brings it back after a power blip. See the full lineup in our [Pro Breeze dehumidifier guide](/best/best-pro-breeze-dehumidifier/).",
+      "performance": "AirPlus sizes it for up to 1,500 square feet and pitches it for bedrooms, large rooms and campers; in practice it’s a comfortable fit for a single damp room, a small apartment or a laundry room. Sleep mode keeps it calmer overnight, and the drain hose saves you from emptying the tank. See the full lineup in our [best AirPlus dehumidifier](/best/best-airplus-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "30 pints/day",
+        "Capacity": "30 pints/day (marketed)",
         "Type": "Compressor",
-        "Drainage": "Bucket or hose",
-        "Noise": "Sleep mode",
+        "Drainage": "Tank or drain hose",
+        "Noise": "Quiet sleep mode",
         "Best for": "Apartments, laundry rooms"
       }
     },
@@ -188,7 +190,7 @@
             [
               "Small apartment or laundry room",
               "30-pint compressor",
-              "Pro Breeze 30-Pint"
+              "AirPlus Max 30"
             ]
           ]
         }
@@ -297,7 +299,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The **Pro Breeze PB-03** is the best small dehumidifier for most single, mildly damp rooms. Step up to the **Frigidaire FFAD2233W1** or **Pro Breeze 30-Pint** to dry a whole small room, and use the **WiseDry** or **Eva-Dry E-333** for closets, safes and cabinets. Whatever the size, aim for 30–50% humidity and the musty smell goes with it."
+          "text": "The **Pro Breeze PB-03** is the best small dehumidifier for most single, mildly damp rooms. Step up to the **Frigidaire FFAD2233W1** or **AirPlus Max 30** to dry a whole small room, and use the **WiseDry** or **Eva-Dry E-333** for closets, safes and cabinets. Whatever the size, aim for 30–50% humidity and the musty smell goes with it."
         }
       ]
     }

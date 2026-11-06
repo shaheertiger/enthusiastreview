@@ -65,27 +65,30 @@
       }
     },
     {
-      "id": "alorair-sentinel-hdi65",
-      "name": "AlorAir Sentinel HDi65 Dehumidifier",
-      "shortName": "AlorAir HDi65",
+      "id": "alorair-sentinel-hdi65s",
+      "name": "AlorAir Sentinel HDi65S Dehumidifier",
+      "shortName": "AlorAir HDi65S",
       "award": "Best for crawl spaces",
       "pros": [
         "Built to run continuously in cold, tight spaces",
-        "Built-in pump and duct options",
-        "55 pints a day (AHAM)"
+        "Built-in pump with a 19.6-ft lift",
+        "55 pints a day (AHAM)",
+        "Wi-Fi app with alerts"
       ],
       "cons": [
         "Commercial pricing",
         "Overkill for living spaces"
       ],
       "whyWeLoveIt": "For a crawl space or a whole wet basement, a standard portable pushed past its limits won’t last. This unit is designed for exactly that job.",
-      "performance": "AlorAir rates it at 55 pints a day under AHAM conditions and 120 at saturation, with a pump and ducting options for spaces you can’t walk into. The Wi-Fi HDi65S variant is worth comparing. See our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
+      "performance": "AlorAir rates it at 55 pints a day under AHAM conditions and 120 at saturation, for spaces up to about 1,300 square feet. Its pump lifts water 19.6 feet, so it can drain a crawl space or wet basement you can't walk into. See our [best crawl space dehumidifier](/best/best-crawl-space-dehumidifier/) guide.",
       "specs": {
-        "Capacity": "55 pints/day (AHAM)",
+        "Capacity": "55 pints/day (AHAM); 120 at saturation",
         "Type": "Commercial compressor",
-        "Drainage": "Built-in pump",
+        "Drainage": "Built-in pump, 19.6-ft lift",
+        "Smart control": "Wi-Fi app with alerts",
         "Best for": "Crawl spaces, wet basements"
-      }
+      },
+      "catalogId": "alorair-sentinel-hdi65s"
     }
   ],
   "sections": [
@@ -99,11 +102,31 @@
         },
         {
           "type": "table",
-          "head": ["Condition", "Up to 1,000 sq ft", "1,000–2,000 sq ft", "Over 2,000 sq ft"],
+          "head": [
+            "Condition",
+            "Up to 1,000 sq ft",
+            "1,000–2,000 sq ft",
+            "Over 2,000 sq ft"
+          ],
           "rows": [
-            ["Moderately damp (musty smell, no visible moisture)", "20–25 pints", "25–30 pints", "30+ pints"],
-            ["Very damp (condensation on walls, pipes or windows)", "25–30 pints", "30–40 pints", "40+ pints"],
-            ["Wet (seepage or standing water)", "30–40 pints", "40–50 pints", "50+ pints"]
+            [
+              "Moderately damp (musty smell, no visible moisture)",
+              "20–25 pints",
+              "25–30 pints",
+              "30+ pints"
+            ],
+            [
+              "Very damp (condensation on walls, pipes or windows)",
+              "25–30 pints",
+              "30–40 pints",
+              "40+ pints"
+            ],
+            [
+              "Wet (seepage or standing water)",
+              "30–40 pints",
+              "40–50 pints",
+              "50+ pints"
+            ]
           ],
           "caption": "Based on widely used AHAM and ENERGY STAR sizing guidance, converted to DOE 2019 ratings."
         },
@@ -141,14 +164,42 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Space", "Typical size", "What to buy"],
+          "head": [
+            "Space",
+            "Typical size",
+            "What to buy"
+          ],
           "rows": [
-            ["Closet, safe, small bathroom", "Under 100 sq ft", "Mini thermoelectric or renewable desiccant"],
-            ["Bedroom or office", "100–500 sq ft", "20–22 pints"],
-            ["Living room, small apartment", "500–1,500 sq ft", "30–35 pints"],
-            ["Basement or large main floor", "1,500–3,000 sq ft", "50 pints, pump if needed"],
-            ["Crawl space or whole wet basement", "Any size", "Commercial unit (55+ pints AHAM)"],
-            ["Whole house", "Any size", "Ducted whole-home unit"]
+            [
+              "Closet, safe, small bathroom",
+              "Under 100 sq ft",
+              "Mini thermoelectric or renewable desiccant"
+            ],
+            [
+              "Bedroom or office",
+              "100–500 sq ft",
+              "20–22 pints"
+            ],
+            [
+              "Living room, small apartment",
+              "500–1,500 sq ft",
+              "30–35 pints"
+            ],
+            [
+              "Basement or large main floor",
+              "1,500–3,000 sq ft",
+              "50 pints, pump if needed"
+            ],
+            [
+              "Crawl space or whole wet basement",
+              "Any size",
+              "Commercial unit (55+ pints AHAM)"
+            ],
+            [
+              "Whole house",
+              "Any size",
+              "Ducted whole-home unit"
+            ]
           ]
         },
         {
@@ -167,11 +218,23 @@
         },
         {
           "type": "table",
-          "head": ["Old rating (pre-2019)", "Roughly equivalent DOE 2019 rating"],
+          "head": [
+            "Old rating (pre-2019)",
+            "Roughly equivalent DOE 2019 rating"
+          ],
           "rows": [
-            ["30 pints", "About 20–22 pints"],
-            ["50 pints", "About 35 pints"],
-            ["70 pints", "About 50 pints"]
+            [
+              "30 pints",
+              "About 20–22 pints"
+            ],
+            [
+              "50 pints",
+              "About 35 pints"
+            ],
+            [
+              "70 pints",
+              "About 50 pints"
+            ]
           ],
           "caption": "Approximate; check each model’s current DOE rating."
         },
