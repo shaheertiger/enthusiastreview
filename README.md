@@ -98,4 +98,17 @@ Pages live at `/best/<slug>/`, `/guides/<slug>/` and `/compare/<slug>/`, with hu
 - JSON-LD: `BreadcrumbList`, `Article`, `ItemList` and `FAQPage` on content pages; `CollectionPage` on hubs.
 - Affiliate links use `rel="sponsored nofollow noopener"`; disclosure near the top of every page and in the footer.
 - Search console verification: set `PUBLIC_GOOGLE_SITE_VERIFICATION` and `PUBLIC_BING_SITE_VERIFICATION` in Vercel.
-- After each deploy, ping Bing/IndexNow with every sitemap URL: `npm run indexnow` (key file in `public/`).
+- IndexNow: every Vercel **production** build ends by submitting every sitemap URL to IndexNow (Bing picks changes up within hours). Previews and local builds skip it, and a failed ping never fails the deploy. `npm run indexnow` submits the live sitemap by hand. Key file in `public/`.
+
+### Bing first
+
+Nearly all search traffic to sites like this comes from Bing-powered engines (Bing, DuckDuckGo, Yahoo, Ecosia, Copilot), so the on-page rules follow what Bing rewards:
+
+- **Titles lead with the query**, 50–65 characters. The ` | Enthusiast Review` suffix is added only when it still fits in 65 (`src/layouts/Base.astro`). A year goes in the title only where the answer changes by year: buying guides and brand comparisons carry `(2026)`; how-tos and explainers do not.
+- **Meta descriptions are 110–160 characters** and answer the query; Bing shows them more often than Google rewrites them.
+- **Real dates.** A page's `updated` date is the last git commit that changed its JSON (`scripts/page-dates.mjs`, the first build step, writes the gitignored `src/data/git-dates.json`). Vercel builds from a shallow clone, so the script fetches full history first and ignores the shallow boundary commit if it cannot. The `updated` field in each JSON is only the fallback. Never bump a date without a real change.
+- **No testing claims.** We don't run a lab; pages attribute every figure ("rated for", "the manual specifies", "owners commonly report").
+
+`npm run build && npm run audit:seo` (add `--list` for the URLs) reports titles, descriptions, H1s, dates, FAQ schema, testing claims and weakly linked pages against those rules. Run it monthly, and after any big batch.
+
+Bing Webmaster Tools: the home page has no `msvalidate.01` tag unless `PUBLIC_BING_SITE_VERIFICATION` is set in Vercel. Confirm the site is verified (by that tag or by DNS), and submit `/sitemap.xml`.

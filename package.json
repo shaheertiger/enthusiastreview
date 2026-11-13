@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/validate-content.mjs && astro build && node scripts/build-markdown.mjs",
+    "build": "node scripts/page-dates.mjs && node scripts/validate-content.mjs && astro build && node scripts/build-markdown.mjs && node scripts/indexnow-submit.mjs --postbuild",
     "preview": "astro preview",
     "validate": "node scripts/validate-content.mjs",
     "indexnow": "node scripts/indexnow-submit.mjs",
     "images:fetch": "node --env-file-if-exists=.env scripts/fetch-product-images.mjs",
-    "markdown": "node scripts/build-markdown.mjs"
+    "markdown": "node scripts/build-markdown.mjs",
+    "audit:seo": "node scripts/seo-audit.mjs"
   },
   "dependencies": {
     "@dualmark/core": "^0.11.0",

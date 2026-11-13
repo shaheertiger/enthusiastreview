@@ -16,7 +16,10 @@ interface Props {
 }
 const { title, description, ogType = 'website', ogImage, article, jsonLd, noindex } = Astro.props;
 const canonical = new URL(Astro.url.pathname, SITE.url).toString();
-const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
+// Bing truncates titles at roughly 60-70 characters and matches the query words it reads
+// first. Append the site name only when it still fits in 65, so the page's own words show.
+const withName = `${title} | ${SITE.name}`;
+const fullTitle = title.includes(SITE.name) || withName.length > 65 ? title : withName;
 // Markdown twin of this page (Dualmark), written by scripts/build-markdown.mjs.
 const mdPath = Astro.url.pathname.replace(/\/+$/, '');
 const markdownHref = noindex ? undefined : `${SITE.url}${mdPath || '/index'}.md`;

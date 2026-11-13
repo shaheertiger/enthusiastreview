@@ -31,8 +31,17 @@ const pages = fs
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/content/pages', f), 'utf8')))
   .sort((a, b) => a.h1.localeCompare(b.h1));
+// Same real dates as src/lib/content.ts: the git date from scripts/page-dates.mjs, never
+// earlier than the page was published.
+const gitDatesFile = path.join(ROOT, 'src/data/git-dates.json');
+const gitDates = fs.existsSync(gitDatesFile) ? JSON.parse(fs.readFileSync(gitDatesFile, 'utf8')) : {};
+for (const p of pages) {
+  const d = gitDates[p.slug] ?? p.updated;
+  p.updated = d < p.published ? p.published : d;
+}
 const urlOf = (p) => `${SITE_URL}/${p.section}/${p.slug}/`;
-const today = new Date().toISOString().slice(0, 10);
+// Hubs and site-wide files are as new as the newest guide, not as new as the build.
+const today = pages.reduce((m, p) => (p.updated > m ? p.updated : m), '0000-00-00');
 
 /* ---------- helpers mirroring src/data/affiliate.ts ---------- */
 function searchQuery(name) {

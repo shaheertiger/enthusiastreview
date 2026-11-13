@@ -73,8 +73,19 @@ export interface Page {
 
 const modules = import.meta.glob<{ default: Page }>('../content/pages/*.json', { eager: true });
 
+// Real last-changed dates from git, written by scripts/page-dates.mjs at the start of every
+// build. A page's `updated` is the date its JSON last changed, never earlier than it was
+// published; the hand-typed `updated` is only the fallback when git history is unavailable.
+const gitDates: Record<string, string> =
+  (Object.values(import.meta.glob<Record<string, string>>('../data/git-dates.json', { eager: true, import: 'default' }))[0] ?? {});
+
+export const realUpdated = (p: Pick<Page, 'slug' | 'published' | 'updated'>) => {
+  const d = gitDates[p.slug] ?? p.updated;
+  return d < p.published ? p.published : d;
+};
+
 export const PAGES: Page[] = Object.values(modules)
-  .map((m) => m.default)
+  .map((m) => ({ ...m.default, updated: realUpdated(m.default) }))
   .sort((a, b) => a.h1.localeCompare(b.h1));
 
 export const pathOf = (p: Pick<Page, 'section' | 'slug'>) => `/${p.section}/${p.slug}/`;
