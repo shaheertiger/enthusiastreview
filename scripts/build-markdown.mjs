@@ -84,6 +84,7 @@ function blockMd(b) {
 function pageMd(p) {
   const out = [];
   out.push(`# ${p.h1}`, '', `> ${p.dek}`, '');
+  if (p.topPicksLead) out.push(`**Short answer:** ${abs(p.topPicksLead)}`, '');
   out.push([`Canonical: ${urlOf(p)}`, `Last updated: ${p.updated}`, `Published: ${p.published}`, `Category: ${p.category}`, `Publisher: ${SITE_NAME}`].join('\n'), '');
   out.push(...p.intro.map(abs).flatMap((x) => [x, '']));
   const products = p.products ?? [];
@@ -91,7 +92,6 @@ function pageMd(p) {
     out.push(`## ${p.section === 'best' ? 'Our top picks' : p.section === 'compare' ? 'The models compared' : 'Products in this guide'}`, '');
     for (const pr of products) out.push(`- **${pr.award}:** ${pr.shortName ?? pr.name} — [check price on Amazon](${amazonLink(pr)})`);
     out.push('');
-    if (p.topPicksLead) out.push(abs(p.topPicksLead), '');
     products.forEach((pr, i) => {
       out.push(`## ${i + 1}. ${pr.name} — ${pr.award}`, '');
       out.push(`[Check price on Amazon](${amazonLink(pr)})`, '');

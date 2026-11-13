@@ -67,6 +67,7 @@ p { margin: 0 0 1.15em; }
 .crumbs a { color: var(--teal-ink); text-decoration: none; }
 .crumbs span { color: var(--muted-2); }
 .a-title { font-size: clamp(2.1rem, 5.5vw, 3.1rem); font-weight: 700; letter-spacing: -.01em; margin-bottom: .75rem; }
+.a-answer { font-size: 1.08rem; line-height: 1.55; border-left: 4px solid var(--ink); padding: .2rem 0 .2rem .9rem; margin: 0 0 1.4rem; }
 .a-dek { font: italic 400 1.25rem/1.5 var(--body); color: var(--ink-2); margin-bottom: 1.4rem; }
 .byline { display: flex; align-items: center; gap: .85rem; padding: 1rem 0; border-top: 1px solid var(--rule-2); border-bottom: 1px solid var(--rule-2); }
 .avatar { width: 2.75rem; height: 2.75rem; border-radius: 50%; background: var(--teal-wash); color: var(--teal-ink); display: grid; place-items: center; font: 800 .95rem/1 var(--head); flex: none; }
