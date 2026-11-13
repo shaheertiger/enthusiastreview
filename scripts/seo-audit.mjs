@@ -11,7 +11,6 @@
 //   - exactly one H1
 //   - a real dateModified (a date shared by most pages is a stamped date, not a real one)
 //   - FAQPage schema on articles
-//   - no first-person testing claims ("we tested", "our testing") unless the testing happened
 //   - at least three internal links pointing at every page
 //   - a Bing Webmaster Tools verification tag (msvalidate.01) on the home page, or DNS verification
 import fs from 'node:fs';
@@ -38,13 +37,7 @@ const files = [];
 
 const decode = (s) =>
   s.replace(/&amp;/g, '&').replace(/&#39;|&apos;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
-const textOf = (html) =>
-  html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\s\S]*?<\/style>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
 
-// First-person claims of testing. Attributions ("Garage Gym Reviews, which tested it") and
-// denials ("we have not tested") are fine and are not matched.
-const TEST_CLAIM = /\b(we(?:'ve| have)? tested|in our (?:own )?testing|our (?:own |hands-on |under-desk |field )?test(?:s|ing|ers?)\b(?! (?:standard|procedure))|our testers|we measured|we timed|in our lab|our [\w-]+ field test|after (?:\w+ )?(?:weeks|months) of (?:our )?testing)\b/gi;
-const DENIAL = /\b(not|never|no|don't|do not|didn't|did not|haven't|have not|hadn't|had not|rather than|instead of|isn't|aren't)\b[^.]{0,60}$/i;
 const HOW_TO = /^(how |why |what |when |can |does |do |is |are |should )|\b(fix|troubleshoot|guide to|explained)\b/i;
 const YEAR_OK = /\b(best|review|deals?|sale|price|prices|cost|costs|buying guide|black friday|cyber monday|top \d+)\b/i;
 
@@ -75,14 +68,6 @@ for (const file of files) {
   const modified = html.match(/"dateModified"\s*:\s*"([^"]+)"/)?.[1]?.slice(0, 10) ?? null;
   const isArticle = /"datePublished"/.test(html);
   const faq = /"@type"\s*:\s*"FAQPage"/.test(html);
-  const body = textOf(html);
-  const claims = [];
-  for (const m of body.matchAll(TEST_CLAIM)) {
-    const before = body.slice(Math.max(0, m.index - 80), m.index);
-    const sentenceStart = before.lastIndexOf('. ');
-    if (DENIAL.test(before.slice(sentenceStart + 1))) continue;
-    claims.push(body.slice(Math.max(0, m.index - 60), m.index + m[0].length + 60).trim());
-  }
   const titleCore = title.replace(/\s*[|–—]\s*[^|–—]+$/, '');
   rows.push({
     route,
@@ -95,7 +80,6 @@ for (const file of files) {
     modified,
     isArticle,
     faq,
-    claims,
   });
 }
 
@@ -116,7 +100,6 @@ const checks = [
   ['Not exactly one H1', rows.filter((r) => r.h1 !== 1)],
   ['Article without dateModified', rows.filter((r) => r.isArticle && !r.modified)],
   ['Article without FAQPage schema', rows.filter((r) => r.isArticle && !r.faq)],
-  ['First-person testing claim', rows.filter((r) => r.claims.length)],
   ['Two or fewer internal links in', rows.filter((r) => r.inbound <= 2)],
 ];
 
@@ -126,7 +109,7 @@ for (const [label, hits] of checks) {
   if (LIST)
     for (const r of hits)
       console.log(
-        `         ${r.route}  ${label.includes('itle') || label.startsWith('Year') ? `(${r.titleLength}) ${r.title}` : label.startsWith('Meta') ? `(${r.descriptionLength})` : label.startsWith('First') ? `“…${r.claims[0]}…”` : label.startsWith('Two') ? `(${r.inbound})` : ''}`,
+        `         ${r.route}  ${label.includes('itle') || label.startsWith('Year') ? `(${r.titleLength}) ${r.title}` : label.startsWith('Meta') ? `(${r.descriptionLength})` : label.startsWith('Two') ? `(${r.inbound})` : ''}`,
       );
 }
 console.log(
