@@ -24,7 +24,7 @@ export const config = {
   matcher: ['/((?!_astro/|_vercel/|.*\\.(?:css|js|mjs|png|jpe?g|gif|webp|avif|svg|ico|woff2?|txt|xml|json|map)$).*)'],
 };
 
-const GONE = /^\/(?:best-gpu-for-.+|best-graphics-card-.+|gpu-bottleneck-calculator|bottleneck-calculator|how-to-overclock-a-gpu|best-cpu-cooler-.+|best-psu-.+|best-power-supply-.+|best-pc-cases-.+|best-ram-.+|best-motherboard-.+|methodology|og)(?:\/.*)?$/;
+const GONE = /^\/(?:best-gpu-for-.+|best-graphics-card-.+|gpu-bottleneck-calculator|bottleneck-calculator|how-to-overclock-a-gpu|best-cpu-cooler-.+|best-psu-.+|best-power-supply-.+|best-pc-cases-.+|best-ram-.+|best-motherboard-.+|how-to-benchmark-.+|how-to-get-windows-.+|how-to-choose-best-drone-.+|methodology|og)(?:\/.*)?$/;
 const GONE_HTML =
   '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page removed | Enthusiast Review</title></head>' +
   '<body style="font-family:system-ui,sans-serif;max-width:640px;margin:auto;padding:32px 16px;color:#1f1f1f">' +
