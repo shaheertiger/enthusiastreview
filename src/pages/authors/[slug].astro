@@ -9,7 +9,7 @@ export function getStaticPaths() {
 const { a } = Astro.props as { a: Author };
 const pages = PAGES.filter((p) => (p.author ?? DEFAULT_AUTHOR) === a.slug).sort((x, y) => y.updated.localeCompare(x.updated));
 ---
-<Base title={`${a.name} — ${a.role}`} description={a.short} jsonLd={{ '@context': 'https://schema.org', ...authorSchema(a.slug) }}>
+<Base title={`${a.name} — ${a.role}`} description={a.short.length > 160 ? a.short.slice(0, a.short.lastIndexOf(' ', 157)).replace(/[,;:]$/, '') + '…' : a.short} jsonLd={{ '@context': 'https://schema.org', ...authorSchema(a.slug) }}>
   <div class="col">
     <nav class="crumbs"><a href="/">Home</a><span>›</span><span>Authors</span></nav>
     <div class="author-card" style="border:0;padding:0">

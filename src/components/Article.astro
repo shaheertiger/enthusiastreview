@@ -97,6 +97,8 @@ const jsonLd = {
     </nav>
     <h1 class="a-title">{page.h1}</h1>
     <p class="a-dek">{page.dek}</p>
+    {/* Answer first: Bing and Copilot lift short, self-contained statements that name the pick. */}
+    {page.topPicksLead && <p class="a-answer"><strong>Short answer:</strong> <span set:html={text(page.topPicksLead)} /></p>}
 
     <div class="byline">
       <div class="avatar" aria-hidden="true">{author.initials}</div>
@@ -133,7 +135,6 @@ const jsonLd = {
           </ul>
         </section>
       )}
-      {page.topPicksLead && <p set:html={text(page.topPicksLead)} />}
 
       {products.map((p, i) => {
         const href = amazonLink(p);

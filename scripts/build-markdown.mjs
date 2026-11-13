@@ -31,8 +31,17 @@ const pages = fs
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/content/pages', f), 'utf8')))
   .sort((a, b) => a.h1.localeCompare(b.h1));
+// Same real dates as src/lib/content.ts: the git date from scripts/page-dates.mjs, never
+// earlier than the page was published.
+const gitDatesFile = path.join(ROOT, 'src/data/git-dates.json');
+const gitDates = fs.existsSync(gitDatesFile) ? JSON.parse(fs.readFileSync(gitDatesFile, 'utf8')) : {};
+for (const p of pages) {
+  const d = gitDates[p.slug] ?? p.updated;
+  p.updated = d < p.published ? p.published : d;
+}
 const urlOf = (p) => `${SITE_URL}/${p.section}/${p.slug}/`;
-const today = new Date().toISOString().slice(0, 10);
+// Hubs and site-wide files are as new as the newest guide, not as new as the build.
+const today = pages.reduce((m, p) => (p.updated > m ? p.updated : m), '0000-00-00');
 
 /* ---------- helpers mirroring src/data/affiliate.ts ---------- */
 function searchQuery(name) {
@@ -75,6 +84,7 @@ function blockMd(b) {
 function pageMd(p) {
   const out = [];
   out.push(`# ${p.h1}`, '', `> ${p.dek}`, '');
+  if (p.topPicksLead) out.push(`**Short answer:** ${abs(p.topPicksLead)}`, '');
   out.push([`Canonical: ${urlOf(p)}`, `Last updated: ${p.updated}`, `Published: ${p.published}`, `Category: ${p.category}`, `Publisher: ${SITE_NAME}`].join('\n'), '');
   out.push(...p.intro.map(abs).flatMap((x) => [x, '']));
   const products = p.products ?? [];
@@ -82,7 +92,6 @@ function pageMd(p) {
     out.push(`## ${p.section === 'best' ? 'Our top picks' : p.section === 'compare' ? 'The models compared' : 'Products in this guide'}`, '');
     for (const pr of products) out.push(`- **${pr.award}:** ${pr.shortName ?? pr.name} — [check price on Amazon](${amazonLink(pr)})`);
     out.push('');
-    if (p.topPicksLead) out.push(abs(p.topPicksLead), '');
     products.forEach((pr, i) => {
       out.push(`## ${i + 1}. ${pr.name} — ${pr.award}`, '');
       out.push(`[Check price on Amazon](${amazonLink(pr)})`, '');
