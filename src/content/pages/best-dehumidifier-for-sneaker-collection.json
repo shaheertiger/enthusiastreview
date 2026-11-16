@@ -93,35 +93,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Sneaker storage, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "40–50%",
-              "label": "Humidity range most sneaker-storage guides recommend"
-            },
-            {
-              "value": "60%+",
-              "label": "Where mold and mildew risk on suede, leather and canvas climbs sharply"
-            },
-            {
-              "value": "Below 40%",
-              "label": "Where leather and suede uppers start to dry out and crack"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Notice that the risk runs in both directions. Like a guitar or a hardwood floor, a leather sneaker wants a steady middle band, not the driest air you can manage."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick sneaker storage products",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -139,7 +112,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in sneaker humidity control",
+      "heading": "What should you look for in sneaker humidity control?",
       "blocks": [
         {
           "type": "checklist",
@@ -274,5 +247,28 @@
     "/best/best-moisture-absorber/",
     "/best/best-dehumidifier-for-vinyl-record-collection/",
     "/best/best-small-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–50%",
+          "label": "Humidity range most sneaker-storage guides recommend"
+        },
+        {
+          "value": "60%+",
+          "label": "Where mold and mildew risk on suede, leather and canvas climbs sharply"
+        },
+        {
+          "value": "Below 40%",
+          "label": "Where leather and suede uppers start to dry out and crack"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Notice that the risk runs in both directions. Like a guitar or a hardwood floor, a leather sneaker wants a steady middle band, not the driest air you can manage."
+    }
   ]
 }

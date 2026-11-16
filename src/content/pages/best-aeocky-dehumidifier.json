@@ -144,35 +144,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "AEOCKY dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~3.2x",
-              "label": "How much higher AEOCKY's box pint numbers run than the DOE rating of the same unit"
-            },
-            {
-              "value": "5 of 8",
-              "label": "AEOCKY ENERGY STAR listings flagged Most Efficient"
-            },
-            {
-              "value": "3 years",
-              "label": "Limited warranty on AEOCKY's compressor models"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The first number is the one to memorize. Divide any AEOCKY headline capacity by about 3.2 and you get a figure you can compare directly with other brands. An 80-pint AEOCKY competes with 22- to 25-pint Midea and Frigidaire units, not their 50-pint models."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick AEOCKY dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -186,7 +159,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an AEOCKY dehumidifier",
+      "heading": "What matters most in an AEOCKY dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -389,5 +362,28 @@
     "/best/best-energy-efficient-dehumidifier/",
     "/best/best-dehumidifier-with-pump/",
     "/guides/how-much-electricity-does-a-dehumidifier-use/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~3.2x",
+          "label": "How much higher AEOCKY's box pint numbers run than the DOE rating of the same unit"
+        },
+        {
+          "value": "5 of 8",
+          "label": "AEOCKY ENERGY STAR listings flagged Most Efficient"
+        },
+        {
+          "value": "3 years",
+          "label": "Limited warranty on AEOCKY's compressor models"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The first number is the one to memorize. Divide any AEOCKY headline capacity by about 3.2 and you get a figure you can compare directly with other brands. An 80-pint AEOCKY competes with 22- to 25-pint Midea and Frigidaire units, not their 50-pint models."
+    }
   ]
 }

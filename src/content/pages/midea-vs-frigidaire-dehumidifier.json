@@ -75,17 +75,57 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Midea Cube 50 (MAD50S1QWT)", "Frigidaire FHDD5034Y1"],
+          "head": [
+            "",
+            "Midea Cube 50 (MAD50S1QWT)",
+            "Frigidaire FHDD5034Y1"
+          ],
           "rows": [
-            ["DOE capacity (ENERGY STAR)", "49.67 pints/day", "49.71 pints/day"],
-            ["Efficiency (IEF)", "2.01 L/kWh", "2.01 L/kWh"],
-            ["Rated annual energy", "515 kWh", "521 kWh"],
-            ["Bench-measured draw at 50% RH", "About 512 W", "About 560 W"],
-            ["Water tank", "About 34 pints", "2.7 gallons (~21.6 pints)"],
-            ["Smart control", "Wi-Fi, Alexa, Google", "Wi-Fi, Alexa, Google"],
-            ["Coverage", "Up to ~4,500 sq ft", "Up to ~4,500 sq ft"],
-            ["Warranty", "1 year (2 on select models)", "5 years sealed system"],
-            ["Typical price", "Higher", "Lower"]
+            [
+              "DOE capacity (ENERGY STAR)",
+              "49.67 pints/day",
+              "49.71 pints/day"
+            ],
+            [
+              "Efficiency (IEF)",
+              "2.01 L/kWh",
+              "2.01 L/kWh"
+            ],
+            [
+              "Rated annual energy",
+              "515 kWh",
+              "521 kWh"
+            ],
+            [
+              "Bench-measured draw at 50% RH",
+              "About 512 W",
+              "About 560 W"
+            ],
+            [
+              "Water tank",
+              "About 34 pints",
+              "2.7 gallons (~21.6 pints)"
+            ],
+            [
+              "Smart control",
+              "Wi-Fi, Alexa, Google",
+              "Wi-Fi, Alexa, Google"
+            ],
+            [
+              "Coverage",
+              "Up to ~4,500 sq ft",
+              "Up to ~4,500 sq ft"
+            ],
+            [
+              "Warranty",
+              "1 year (2 on select models)",
+              "5 years sealed system"
+            ],
+            [
+              "Typical price",
+              "Higher",
+              "Lower"
+            ]
           ],
           "caption": "Capacity, IEF and annual energy from ENERGY STAR's certified-product data; draw from one independent bench test."
         }

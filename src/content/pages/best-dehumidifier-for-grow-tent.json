@@ -120,26 +120,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Grow tent humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "50–70%", "label": "Humidity range vegetative plants tolerate" },
-            { "value": "40–50%", "label": "Common flowering target, dropping to 30–40% in late flower" },
-            { "value": "24–48 hrs", "label": "How quickly mold can start on a damp surface, per the EPA" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The jump from veg to flower is the moment most growers discover they need a dehumidifier. Plants are bigger, they're transpiring more, and the acceptable humidity ceiling is falling at the same time."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick grow tent dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -153,7 +135,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a grow tent dehumidifier",
+      "heading": "Which features matter in a grow tent dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -188,13 +170,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Tent size", "Veg", "Flower", "Example pick"],
+          "head": [
+            "Tent size",
+            "Veg",
+            "Flower",
+            "Example pick"
+          ],
           "rows": [
-            ["2x2 ft", "Often ventilation alone", "Thermo-electric mini", "Pro Breeze PB-03"],
-            ["3x3 ft", "Mini or small compressor", "About 25 pints", "VIVOSUN AeroDrain D12"],
-            ["4x4 ft", "About 25 pints", "30–50 pints", "AC Infinity HYDRONE 5"],
-            ["5x5 ft", "About 30 pints", "30–50 pints", "AC Infinity HYDRONE 5"],
-            ["Several tents in one room", "Room-sized unit", "Commercial unit", "AlorAir Sentinel HDi65S"]
+            [
+              "2x2 ft",
+              "Often ventilation alone",
+              "Thermo-electric mini",
+              "Pro Breeze PB-03"
+            ],
+            [
+              "3x3 ft",
+              "Mini or small compressor",
+              "About 25 pints",
+              "VIVOSUN AeroDrain D12"
+            ],
+            [
+              "4x4 ft",
+              "About 25 pints",
+              "30–50 pints",
+              "AC Infinity HYDRONE 5"
+            ],
+            [
+              "5x5 ft",
+              "About 30 pints",
+              "30–50 pints",
+              "AC Infinity HYDRONE 5"
+            ],
+            [
+              "Several tents in one room",
+              "Room-sized unit",
+              "Commercial unit",
+              "AlorAir Sentinel HDi65S"
+            ]
           ],
           "caption": "Rough guidance using standard pint ratings; AC Infinity's real-world draw rates aren't directly comparable. More plants or stronger lights push you toward the top of each range."
         }
@@ -285,5 +297,28 @@
     "/best/best-crawl-space-dehumidifier/",
     "/guides/how-to-dehumidify-a-room/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "50–70%",
+          "label": "Humidity range vegetative plants tolerate"
+        },
+        {
+          "value": "40–50%",
+          "label": "Common flowering target, dropping to 30–40% in late flower"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can start on a damp surface, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The jump from veg to flower is the moment most growers discover they need a dehumidifier. Plants are bigger, they're transpiring more, and the acceptable humidity ceiling is falling at the same time."
+    }
   ]
 }

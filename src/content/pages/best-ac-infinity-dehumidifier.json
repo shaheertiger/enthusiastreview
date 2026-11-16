@@ -121,26 +121,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "The HYDRONE line, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~4 L/day", "label": "HYDRONE 5 real-world draw rate (about 8.5 pints)" },
-            { "value": "~8 L/day", "label": "HYDRONE 7 real-world draw rate (about 17 pints)" },
-            { "value": "10", "label": "Drying levels on each HYDRONE" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those draw rates look small next to a “50-pint” basement dehumidifier, but the numbers aren’t measured the same way. Home units are rated under a standardized DOE test at 65°F; AC Infinity quotes what it says the HYDRONE pulls in typical tent conditions. The practical takeaway: pick a HYDRONE by tent size and plant count rather than by comparing pints, and use our [dehumidifier size guide](/guides/dehumidifier-size-guide/) if you’re weighing a conventional unit instead."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick AC Infinity dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -154,7 +136,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an AC Infinity dehumidifier",
+      "heading": "What should you look for in an AC Infinity dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -189,11 +171,35 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Tent size", "Draw rate (AC Infinity)", "Control", "Best for"],
+          "head": [
+            "Model",
+            "Tent size",
+            "Draw rate (AC Infinity)",
+            "Control",
+            "Best for"
+          ],
           "rows": [
-            ["HYDRONE 3", "Up to 2×2", "Not published", "10 levels, VPD controls", "Small tents, clones"],
-            ["HYDRONE 5", "Up to 5×5", "About 4 L/day", "10 levels, UIS controller port", "Most 4×4 and 5×5 tents"],
-            ["HYDRONE 7", "Up to 8×8–10×10", "About 8 L/day", "Built-in humidity/VPD controller", "Large tents, small rooms"]
+            [
+              "HYDRONE 3",
+              "Up to 2×2",
+              "Not published",
+              "10 levels, VPD controls",
+              "Small tents, clones"
+            ],
+            [
+              "HYDRONE 5",
+              "Up to 5×5",
+              "About 4 L/day",
+              "10 levels, UIS controller port",
+              "Most 4×4 and 5×5 tents"
+            ],
+            [
+              "HYDRONE 7",
+              "Up to 8×8–10×10",
+              "About 8 L/day",
+              "Built-in humidity/VPD controller",
+              "Large tents, small rooms"
+            ]
           ],
           "caption": "Coverage figures are AC Infinity’s and have varied between listings; size up for heavy flowering loads."
         }
@@ -279,5 +285,28 @@
     "/best/best-dehumidifier-for-plants/",
     "/best/best-small-dehumidifier/",
     "/guides/dehumidifier-humidistat-settings-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~4 L/day",
+          "label": "HYDRONE 5 real-world draw rate (about 8.5 pints)"
+        },
+        {
+          "value": "~8 L/day",
+          "label": "HYDRONE 7 real-world draw rate (about 17 pints)"
+        },
+        {
+          "value": "10",
+          "label": "Drying levels on each HYDRONE"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those draw rates look small next to a “50-pint” basement dehumidifier, but the numbers aren’t measured the same way. Home units are rated under a standardized DOE test at 65°F; AC Infinity quotes what it says the HYDRONE pulls in typical tent conditions. The practical takeaway: pick a HYDRONE by tent size and plant count rather than by comparing pints, and use our [dehumidifier size guide](/guides/dehumidifier-size-guide/) if you’re weighing a conventional unit instead."
+    }
   ]
 }

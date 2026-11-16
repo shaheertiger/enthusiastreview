@@ -229,12 +229,42 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "SaniDry", "Santa Fe", "Aprilaire", "AlorAir"],
+          "head": [
+            "",
+            "SaniDry",
+            "Santa Fe",
+            "Aprilaire",
+            "AlorAir"
+          ],
           "rows": [
-            ["Where to buy", "Authorized dealers only", "Online and HVAC suppliers", "Online and HVAC suppliers", "Online"],
-            ["Published pricing", "No", "Yes", "Yes", "Yes"],
-            ["Who installs", "The dealer", "You or any contractor", "You or any contractor", "Often DIY"],
-            ["Strength", "One-stop service", "Contractor favorite, filtration options", "Efficiency, ducting options", "Lowest cost per pint"]
+            [
+              "Where to buy",
+              "Authorized dealers only",
+              "Online and HVAC suppliers",
+              "Online and HVAC suppliers",
+              "Online"
+            ],
+            [
+              "Published pricing",
+              "No",
+              "Yes",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Who installs",
+              "The dealer",
+              "You or any contractor",
+              "You or any contractor",
+              "Often DIY"
+            ],
+            [
+              "Strength",
+              "One-stop service",
+              "Contractor favorite, filtration options",
+              "Efficiency, ducting options",
+              "Lowest cost per pint"
+            ]
           ],
           "caption": "All four make capable bucketless basement and crawl space units; the difference is mostly how you buy and service them."
         },

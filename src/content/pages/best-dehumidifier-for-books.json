@@ -172,26 +172,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Book humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "Relative humidity range commonly recommended for storing books and paper" },
-            { "value": "65%+", "label": "Sustained humidity where mold on paper and bindings becomes a real risk" },
-            { "value": "16 days", "label": "At 50% humidity to kill all life stages of four booklouse species (2021 study)" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Stability matters as much as the number. A collection that sits at a steady 45% fares better than one that bounces between 35% and 60% every week, because each swing makes pages, boards and glue expand and contract at different rates."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for books",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -205,7 +187,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for books",
+      "heading": "How do you pick a dehumidifier for books?",
       "blocks": [
         {
           "type": "checklist",
@@ -240,13 +222,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Where the books are", "Best tool", "Why"],
+          "head": [
+            "Where the books are",
+            "Best tool",
+            "Why"
+          ],
           "rows": [
-            ["Open shelves in a study or living room", "Room dehumidifier (20 pints)", "Controls the air the whole collection breathes"],
-            ["Basement library or rec room", "50-pint compressor with a hose", "Below-grade rooms run damp all summer"],
-            ["Glass-front or closed bookcase", "Renewable silica canister", "Silent and spill-free inside a small, closed volume"],
-            ["Book closet or reading nook", "Thermoelectric mini with humidistat", "Real control without compressor noise"],
-            ["Boxes and storage totes", "Silica gel packets", "Absorbs moisture trapped with the books"]
+            [
+              "Open shelves in a study or living room",
+              "Room dehumidifier (20 pints)",
+              "Controls the air the whole collection breathes"
+            ],
+            [
+              "Basement library or rec room",
+              "50-pint compressor with a hose",
+              "Below-grade rooms run damp all summer"
+            ],
+            [
+              "Glass-front or closed bookcase",
+              "Renewable silica canister",
+              "Silent and spill-free inside a small, closed volume"
+            ],
+            [
+              "Book closet or reading nook",
+              "Thermoelectric mini with humidistat",
+              "Real control without compressor noise"
+            ],
+            [
+              "Boxes and storage totes",
+              "Silica gel packets",
+              "Absorbs moisture trapped with the books"
+            ]
           ]
         },
         {
@@ -331,5 +337,28 @@
     "/best/best-hygrometer/",
     "/best/best-dehumidifier-for-closet/",
     "/best/best-eva-dry-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Relative humidity range commonly recommended for storing books and paper"
+        },
+        {
+          "value": "65%+",
+          "label": "Sustained humidity where mold on paper and bindings becomes a real risk"
+        },
+        {
+          "value": "16 days",
+          "label": "At 50% humidity to kill all life stages of four booklouse species (2021 study)"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Stability matters as much as the number. A collection that sits at a steady 45% fares better than one that bounces between 35% and 60% every week, because each swing makes pages, boards and glue expand and contract at different rates."
+    }
   ]
 }

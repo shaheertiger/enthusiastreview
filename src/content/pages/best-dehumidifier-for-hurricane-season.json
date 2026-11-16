@@ -151,35 +151,8 @@
   ],
   "sections": [
     {
-      "id": "storm-numbers",
-      "heading": "Hurricane season humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "24–48 hrs",
-              "label": "How quickly the EPA says wet materials should be dried to limit mold"
-            },
-            {
-              "value": "230–560 W",
-              "label": "Typical running draw of a portable dehumidifier, room to basement size"
-            },
-            {
-              "value": "20 ft",
-              "label": "Minimum distance the CDC advises between a generator and your home's openings"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those numbers shape every pick here: how fast you must dry things, how much power that takes, and how to run that power safely."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for hurricane season",
+      "heading": "How we chose these dehumidifiers for hurricane season",
       "blocks": [
         {
           "type": "p",
@@ -189,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a dehumidifier for storm season",
+      "heading": "How do you choose a dehumidifier for storm season?",
       "blocks": [
         {
           "type": "checklist",
@@ -414,5 +387,28 @@
     "/guides/how-much-electricity-does-a-dehumidifier-use/",
     "/best/best-dehumidifier-for-off-grid/",
     "/guides/dehumidifier-rental/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly the EPA says wet materials should be dried to limit mold"
+        },
+        {
+          "value": "230–560 W",
+          "label": "Typical running draw of a portable dehumidifier, room to basement size"
+        },
+        {
+          "value": "20 ft",
+          "label": "Minimum distance the CDC advises between a generator and your home's openings"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those numbers shape every pick here: how fast you must dry things, how much power that takes, and how to run that power safely."
+    }
   ]
 }

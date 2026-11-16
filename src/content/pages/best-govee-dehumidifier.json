@@ -157,11 +157,31 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Drainage", "Smart features", "Best for"],
+          "head": [
+            "Model",
+            "Drainage",
+            "Smart features",
+            "Best for"
+          ],
           "rows": [
-            ["GoveeLife Smart Dehumidifier", "2-gal bucket or drain hose", "App, Wi-Fi, auto humidity control", "Basements with a floor drain"],
-            ["GoveeLife Smart Dehumidifier with Pump", "Built-in pump or drain hose", "App, voice, auto defrost, 5 modes", "Basements with no floor drain"],
-            ["Midea Cube 50 (alternative)", "Base reservoir or gravity hose", "App, Alexa, Google", "Shoppers who want a stated DOE rating"]
+            [
+              "GoveeLife Smart Dehumidifier",
+              "2-gal bucket or drain hose",
+              "App, Wi-Fi, auto humidity control",
+              "Basements with a floor drain"
+            ],
+            [
+              "GoveeLife Smart Dehumidifier with Pump",
+              "Built-in pump or drain hose",
+              "App, voice, auto defrost, 5 modes",
+              "Basements with no floor drain"
+            ],
+            [
+              "Midea Cube 50 (alternative)",
+              "Base reservoir or gravity hose",
+              "App, Alexa, Google",
+              "Shoppers who want a stated DOE rating"
+            ]
           ],
           "caption": "Coverage claims for both GoveeLife models are up to 4,500 sq ft, per Govee."
         },
@@ -173,7 +193,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick Govee dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -187,7 +207,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Govee smart dehumidifier",
+      "heading": "Which features matter in a Govee smart dehumidifier?",
       "blocks": [
         {
           "type": "checklist",

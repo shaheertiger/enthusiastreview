@@ -61,8 +61,10 @@ export interface Page {
   /** Short label for cards and menus, e.g. "Basements". */
   navLabel?: string;
   intro: string[];
-  /** One sentence introducing the #1 pick, shown under "Our top picks". */
+  /** The answer in one or two sentences, naming the pick. Opens "<query>: The Short Answer". */
   topPicksLead?: string;
+  /** The scannable block under the short answer (usually a stats row and one paragraph). */
+  shortAnswer?: Block[];
   products: Product[];
   sections: Section[];
   faqs: { q: string; a: string }[];
@@ -112,9 +114,7 @@ export const pagesIn = (section: SectionKey) => PAGES.filter((p) => p.section ==
 /** Pages to build in a section, noindexed ones included. */
 export const routesIn = (section: SectionKey) => ALL_PAGES.filter((p) => p.section === section);
 
-/** The search a page targets: `query`, else the title before "(2026)", ":" or "?". */
-export const queryOf = (p: Pick<Page, 'title' | 'query'>) =>
-  p.query ?? p.title.split(/\s+\(\d{4}\)|[:?]|\s+[|–—]\s+/)[0].trim();
+export { queryOf } from '../data/page-copy.mjs';
 
 export function byCategory(pages: Page[] = PAGES) {
   return CATEGORIES.map((c) => ({ category: c, pages: pages.filter((p) => p.category === c) })).filter((g) => g.pages.length);

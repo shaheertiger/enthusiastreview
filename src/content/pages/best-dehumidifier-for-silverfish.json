@@ -176,35 +176,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Moisture pests, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "75–95%",
-              "label": "Relative humidity silverfish thrive in, per University of Minnesota Extension"
-            },
-            {
-              "value": "16 days",
-              "label": "At 50% humidity to kill every life stage of four booklouse species (2021 study)"
-            },
-            {
-              "value": "2–8 years",
-              "label": "Possible lifespan of an adult silverfish, per NC State Extension"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "A basement that hovers between 65% and 80% all summer sits squarely in silverfish territory. The EPA's mold guidance — keep indoor humidity below 60%, ideally 30–50% — doubles as the pest target, because the mold and damp debris that springtails and booklice eat stop forming in the same range."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for silverfish",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -218,7 +191,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for silverfish",
+      "heading": "How do you pick a dehumidifier for silverfish?",
       "blocks": [
         {
           "type": "checklist",
@@ -384,5 +357,28 @@
     "/best/best-dehumidifier-for-basement/",
     "/best/best-crawl-space-dehumidifier/",
     "/best/best-dehumidifier-for-closet/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "75–95%",
+          "label": "Relative humidity silverfish thrive in, per University of Minnesota Extension"
+        },
+        {
+          "value": "16 days",
+          "label": "At 50% humidity to kill every life stage of four booklouse species (2021 study)"
+        },
+        {
+          "value": "2–8 years",
+          "label": "Possible lifespan of an adult silverfish, per NC State Extension"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A basement that hovers between 65% and 80% all summer sits squarely in silverfish territory. The EPA's mold guidance — keep indoor humidity below 60%, ideally 30–50% — doubles as the pest target, because the mold and damp debris that springtails and booklice eat stop forming in the same range."
+    }
   ]
 }

@@ -154,9 +154,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "65°F", "label": "Test temperature under the 2019 DOE procedure, down from 80°F" },
-            { "value": "30–35", "label": "Old-label pints a modern 22-pint unit roughly matches" },
-            { "value": "2.75 gal", "label": "Water a 22-pint unit removes per day at rated conditions" }
+            {
+              "value": "65°F",
+              "label": "Test temperature under the 2019 DOE procedure, down from 80°F"
+            },
+            {
+              "value": "30–35",
+              "label": "Old-label pints a modern 22-pint unit roughly matches"
+            },
+            {
+              "value": "2.75 gal",
+              "label": "Water a 22-pint unit removes per day at rated conditions"
+            }
           ]
         },
         {
@@ -167,7 +176,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick 22-pint dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -181,7 +190,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a 22- or 25-pint dehumidifier",
+      "heading": "Which features matter in a 22- or 25-pint dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -220,12 +229,32 @@
         },
         {
           "type": "table",
-          "head": ["Space", "Moderately damp", "Very damp or wet"],
+          "head": [
+            "Space",
+            "Moderately damp",
+            "Very damp or wet"
+          ],
           "rows": [
-            ["Bedroom or office (under 300 sq ft)", "20–22 pints", "22–25 pints"],
-            ["Large bedroom or den (300–500 sq ft)", "22–25 pints", "30–35 pints"],
-            ["Small apartment or open living area", "25–35 pints", "35–50 pints"],
-            ["Basement", "35 pints and up", "50 pints and up"]
+            [
+              "Bedroom or office (under 300 sq ft)",
+              "20–22 pints",
+              "22–25 pints"
+            ],
+            [
+              "Large bedroom or den (300–500 sq ft)",
+              "22–25 pints",
+              "30–35 pints"
+            ],
+            [
+              "Small apartment or open living area",
+              "25–35 pints",
+              "35–50 pints"
+            ],
+            [
+              "Basement",
+              "35 pints and up",
+              "50 pints and up"
+            ]
           ],
           "caption": "Rough guidance for DOE 2019 ratings; musty smells, condensation or standing water mean size up."
         },

@@ -144,26 +144,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Finished basement humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "45–55%", "label": "Target humidity for a lived-in finished basement" },
-            { "value": "24–48 hrs", "label": "How fast mold can start on a damp surface, per the EPA" },
-            { "value": "~3,000 sq ft", "label": "Coverage Midea lists for the Cube 35" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That 45–55% target is a balance: low enough to protect carpet padding, drywall and wood furniture, high enough that the air doesn't feel parched on movie night."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for finished basements",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -177,7 +159,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a finished basement",
+      "heading": "What separates a good dehumidifier for a finished basement from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -216,12 +198,32 @@
         },
         {
           "type": "table",
-          "head": ["", "Unfinished basement", "Finished basement"],
+          "head": [
+            "",
+            "Unfinished basement",
+            "Finished basement"
+          ],
           "rows": [
-            ["Main goal", "Pull moisture from the air", "Protect materials and comfort"],
-            ["Noise tolerance", "High", "Low — it's living space"],
-            ["Drainage", "Bucket or floor drain is fine", "Pump or hose preferred"],
-            ["Typical capacity", "50 pints", "30–50 pints, depending on size"]
+            [
+              "Main goal",
+              "Pull moisture from the air",
+              "Protect materials and comfort"
+            ],
+            [
+              "Noise tolerance",
+              "High",
+              "Low — it's living space"
+            ],
+            [
+              "Drainage",
+              "Bucket or floor drain is fine",
+              "Pump or hose preferred"
+            ],
+            [
+              "Typical capacity",
+              "50 pints",
+              "30–50 pints, depending on size"
+            ]
           ]
         },
         {
@@ -290,5 +292,28 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-for-musty-smell/",
     "/guides/where-to-place-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "45–55%",
+          "label": "Target humidity for a lived-in finished basement"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can start on a damp surface, per the EPA"
+        },
+        {
+          "value": "~3,000 sq ft",
+          "label": "Coverage Midea lists for the Cube 35"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That 45–55% target is a balance: low enough to protect carpet padding, drywall and wood furniture, high enough that the air doesn't feel parched on movie night."
+    }
   ]
 }

@@ -174,35 +174,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "100-pint dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "80°F / 60%",
-              "label": "AHAM conditions used to rate whole-house and commercial units"
-            },
-            {
-              "value": "~50 pints",
-              "label": "Top DOE 2019 rating for most mainstream portables"
-            },
-            {
-              "value": "24.5 pints",
-              "label": "DOE rating of one budget portable sold as an 80-pint unit"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those figures sum up the market. Mainstream portables top out around 50 pints under the current DOE test, which is run at a cool 65°F. Machines rated 80 pints and up are almost all installed or commercial units measured under warmer AHAM conditions — and a portable listed at 80 or 100 pints is usually quoting a saturation number. Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) explains both standards."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick 100-pint dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -216,7 +189,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a 100-pint dehumidifier",
+      "heading": "What matters most in a 100-pint dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -370,5 +343,28 @@
     "/best/best-70-pint-dehumidifier/",
     "/best/best-commercial-dehumidifier/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "80°F / 60%",
+          "label": "AHAM conditions used to rate whole-house and commercial units"
+        },
+        {
+          "value": "~50 pints",
+          "label": "Top DOE 2019 rating for most mainstream portables"
+        },
+        {
+          "value": "24.5 pints",
+          "label": "DOE rating of one budget portable sold as an 80-pint unit"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those figures sum up the market. Mainstream portables top out around 50 pints under the current DOE test, which is run at a cool 65°F. Machines rated 80 pints and up are almost all installed or commercial units measured under warmer AHAM conditions — and a portable listed at 80 or 100 pints is usually quoting a saturation number. Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) explains both standards."
+    }
   ]
 }

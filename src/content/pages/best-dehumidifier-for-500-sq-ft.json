@@ -148,26 +148,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "500 square feet, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "4,000 cu ft", "label": "Air volume of a 500 sq ft room with 8-foot ceilings" },
-            { "value": "20–22 pints", "label": "DOE capacity most moderately damp 500 sq ft rooms need" },
-            { "value": "45–50%", "label": "Humidity target to set once the unit is running" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That first figure explains why minis disappoint here. Popular thermoelectric models are rated for roughly 1,200 to 2,200 cubic feet — about a quarter to a half of a 500-square-foot room. They’re great in a closet or bathroom, but in a room this size they barely move the needle."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for 500 sq ft",
+      "heading": "How we chose these dehumidifiers for 500 sq ft",
       "blocks": [
         {
           "type": "p",
@@ -181,17 +163,35 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a 500 sq ft dehumidifier",
+      "heading": "How do you pick a 500 sq ft dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
           "items": [
-            { "label": "A DOE 2019 pint rating", "text": "Compare DOE figures only. Listings that headline 50, 60 or 80 pints for a compact unit are usually quoting older or saturated-air tests." },
-            { "label": "A compressor, not a Peltier", "text": "Thermoelectric minis remove ounces a day. At 500 square feet you need a compressor unit that removes pints." },
-            { "label": "A set-a-number humidistat", "text": "Choose a unit that lets you dial in 45% or 50% and cycles off once it gets there." },
-            { "label": "ENERGY STAR", "text": "A small unit can run hundreds of hours a season. Certified models use noticeably less power for the same water." },
-            { "label": "Drainage that fits the room", "text": "In a bedroom, a large tank is fine. In a basement or garage, look for a gravity-hose connection near a floor drain." },
-            { "label": "Low-temperature operation", "text": "For a garage or basement that drops below about 60°F, look for auto-defrost so the coil doesn’t ice up." }
+            {
+              "label": "A DOE 2019 pint rating",
+              "text": "Compare DOE figures only. Listings that headline 50, 60 or 80 pints for a compact unit are usually quoting older or saturated-air tests."
+            },
+            {
+              "label": "A compressor, not a Peltier",
+              "text": "Thermoelectric minis remove ounces a day. At 500 square feet you need a compressor unit that removes pints."
+            },
+            {
+              "label": "A set-a-number humidistat",
+              "text": "Choose a unit that lets you dial in 45% or 50% and cycles off once it gets there."
+            },
+            {
+              "label": "ENERGY STAR",
+              "text": "A small unit can run hundreds of hours a season. Certified models use noticeably less power for the same water."
+            },
+            {
+              "label": "Drainage that fits the room",
+              "text": "In a bedroom, a large tank is fine. In a basement or garage, look for a gravity-hose connection near a floor drain."
+            },
+            {
+              "label": "Low-temperature operation",
+              "text": "For a garage or basement that drops below about 60°F, look for auto-defrost so the coil doesn’t ice up."
+            }
           ]
         }
       ]
@@ -206,11 +206,27 @@
         },
         {
           "type": "table",
-          "head": ["Condition of the 500 sq ft space", "DOE capacity", "Our pick"],
+          "head": [
+            "Condition of the 500 sq ft space",
+            "DOE capacity",
+            "Our pick"
+          ],
           "rows": [
-            ["Musty smell, no visible moisture", "20–22 pints", "Midea Cube 20 or Midea 22-Pint"],
-            ["Condensation on windows, walls or pipes", "25 pints", "Hisense 25-Pint"],
-            ["Seepage, damp floor or standing water", "30–35 pints", "hOmeLabs 32-Pint Wi-Fi"]
+            [
+              "Musty smell, no visible moisture",
+              "20–22 pints",
+              "Midea Cube 20 or Midea 22-Pint"
+            ],
+            [
+              "Condensation on windows, walls or pipes",
+              "25 pints",
+              "Hisense 25-Pint"
+            ],
+            [
+              "Seepage, damp floor or standing water",
+              "30–35 pints",
+              "hOmeLabs 32-Pint Wi-Fi"
+            ]
           ]
         },
         {
@@ -234,12 +250,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Space", "Typical size", "What usually works"],
+          "head": [
+            "Space",
+            "Typical size",
+            "What usually works"
+          ],
           "rows": [
-            ["Studio apartment", "About 400–550 sq ft", "20–22 pints; see our [apartment guide](/best/best-dehumidifier-for-apartment/)"],
-            ["Primary suite with bath", "About 350–500 sq ft", "20–25 pints, quiet mode at night"],
-            ["Two-car garage", "About 400–575 sq ft", "25–32 pints with auto-defrost"],
-            ["Small basement or rec room", "About 400–600 sq ft", "25–32 pints with a hose"]
+            [
+              "Studio apartment",
+              "About 400–550 sq ft",
+              "20–22 pints; see our [apartment guide](/best/best-dehumidifier-for-apartment/)"
+            ],
+            [
+              "Primary suite with bath",
+              "About 350–500 sq ft",
+              "20–25 pints, quiet mode at night"
+            ],
+            [
+              "Two-car garage",
+              "About 400–575 sq ft",
+              "25–32 pints with auto-defrost"
+            ],
+            [
+              "Small basement or rec room",
+              "About 400–600 sq ft",
+              "25–32 pints with a hose"
+            ]
           ]
         },
         {
@@ -311,5 +347,28 @@
     "/best/best-small-dehumidifier/",
     "/best/best-dehumidifier-for-bedroom/",
     "/best/best-dehumidifier-for-apartment/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "4,000 cu ft",
+          "label": "Air volume of a 500 sq ft room with 8-foot ceilings"
+        },
+        {
+          "value": "20–22 pints",
+          "label": "DOE capacity most moderately damp 500 sq ft rooms need"
+        },
+        {
+          "value": "45–50%",
+          "label": "Humidity target to set once the unit is running"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That first figure explains why minis disappoint here. Popular thermoelectric models are rated for roughly 1,200 to 2,200 cubic feet — about a quarter to a half of a 500-square-foot room. They’re great in a closet or bathroom, but in a room this size they barely move the needle."
+    }
   ]
 }

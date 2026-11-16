@@ -119,26 +119,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Fridge and freezer moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "40°F", "label": "Maximum safe fridge temperature, per the FDA" },
-            { "value": "0°F", "label": "Recommended freezer temperature" },
-            { "value": "50–70%", "label": "Humidity range most wine-storage guidance targets" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Cold air holds very little water, so any warm, humid air that sneaks in condenses on the coldest surface it finds — the back wall of the fridge or the walls of the freezer, where it turns to frost. That’s why the fix is usually about keeping humid air out, with a desiccant mopping up what remains."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick refrigerator dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -152,7 +134,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a refrigerator dehumidifier",
+      "heading": "How do you pick a refrigerator dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -296,5 +278,28 @@
     "/best/best-dehumidifier-for-kitchen/",
     "/best/best-dehumidifier-for-cellar/",
     "/best/best-dehumidifier-for-garage/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40°F",
+          "label": "Maximum safe fridge temperature, per the FDA"
+        },
+        {
+          "value": "0°F",
+          "label": "Recommended freezer temperature"
+        },
+        {
+          "value": "50–70%",
+          "label": "Humidity range most wine-storage guidance targets"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Cold air holds very little water, so any warm, humid air that sneaks in condenses on the coldest surface it finds — the back wall of the fridge or the walls of the freezer, where it turns to frost. That’s why the fix is usually about keeping humid air out, with a desiccant mopping up what remains."
+    }
   ]
 }

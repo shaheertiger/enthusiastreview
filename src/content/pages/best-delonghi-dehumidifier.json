@@ -116,35 +116,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "De'Longhi dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "2",
-              "label": "Separate CPSC recalls naming De'Longhi dehumidifiers (2013 and 2021)"
-            },
-            {
-              "value": "Sept. 1, 2017",
-              "label": "Manufacture-date cutoff for the 2021 recall"
-            },
-            {
-              "value": "1",
-              "label": "Dehumidifier line with the asthma & allergy friendly certification"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Since 2005, De'Longhi has also co-owned a joint-venture factory with TCL in Zhongshan, China, that builds dehumidifiers and portable air conditioners for both brands — more on that in our [best TCL dehumidifier](/best/best-tcl-dehumidifier/) guide."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick De'Longhi dehumidifiers",
+      "heading": "How we chose these De'Longhi dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -158,7 +131,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a De'Longhi dehumidifier",
+      "heading": "What separates a good De'Longhi dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -284,5 +257,28 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-ivation-dehumidifier/",
     "/guides/dehumidifier-maintenance/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2",
+          "label": "Separate CPSC recalls naming De'Longhi dehumidifiers (2013 and 2021)"
+        },
+        {
+          "value": "Sept. 1, 2017",
+          "label": "Manufacture-date cutoff for the 2021 recall"
+        },
+        {
+          "value": "1",
+          "label": "Dehumidifier line with the asthma & allergy friendly certification"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Since 2005, De'Longhi has also co-owned a joint-venture factory with TCL in Zhongshan, China, that builds dehumidifiers and portable air conditioners for both brands — more on that in our [best TCL dehumidifier](/best/best-tcl-dehumidifier/) guide."
+    }
   ]
 }

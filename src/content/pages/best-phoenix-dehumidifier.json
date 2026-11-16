@@ -161,35 +161,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Phoenix ratings, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "80°F / 60%",
-              "label": "AHAM test conditions — the fairest number for comparing restoration units"
-            },
-            {
-              "value": "90°F / 90%",
-              "label": "Saturation conditions, which produce the biggest number on the box"
-            },
-            {
-              "value": "15 A",
-              "label": "Typical household circuit, which limits how many LGRs you can run at once"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Restoration brands list two capacities because pros use both: AHAM for comparing machines, saturation for estimating a freshly flooded space. Home dehumidifiers are rated under a cooler DOE test, so a Phoenix number and a household number aren't measured the same way."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Phoenix dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -203,7 +176,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Phoenix dehumidifier",
+      "heading": "Which features matter in a Phoenix dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -391,5 +364,28 @@
     "/best/best-santa-fe-dehumidifier/",
     "/best/best-alorair-dehumidifier/",
     "/guides/dehumidifier-rental/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "80°F / 60%",
+          "label": "AHAM test conditions — the fairest number for comparing restoration units"
+        },
+        {
+          "value": "90°F / 90%",
+          "label": "Saturation conditions, which produce the biggest number on the box"
+        },
+        {
+          "value": "15 A",
+          "label": "Typical household circuit, which limits how many LGRs you can run at once"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Restoration brands list two capacities because pros use both: AHAM for comparing machines, saturation for estimating a freshly flooded space. Home dehumidifiers are rated under a cooler DOE test, so a Phoenix number and a household number aren't measured the same way."
+    }
   ]
 }

@@ -81,16 +81,52 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Amana AMND501AW", "Friedrich D35B1B"],
+          "head": [
+            "",
+            "Amana AMND501AW",
+            "Friedrich D35B1B"
+          ],
           "rows": [
-            ["Capacity", "50 pints/day", "35 pints/day"],
-            ["Built-in pump", "No (bucket or gravity hose)", "Yes, up to 15-ft combined lift"],
-            ["ENERGY STAR", "Yes", "Yes"],
-            ["Refrigerant", "Not published", "R-32"],
-            ["Independent test data", "None found", "Prior-gen 50-pint D50BP: strong accuracy, weaker durability"],
-            ["Warranty", "1-year limited", "1-year parts/labor + 5-year sealed system"],
-            ["2021 recall", "Brand named; current model not covered", "Brand named; current model not covered"],
-            ["Price tier", "Mainstream", "Premium"]
+            [
+              "Capacity",
+              "50 pints/day",
+              "35 pints/day"
+            ],
+            [
+              "Built-in pump",
+              "No (bucket or gravity hose)",
+              "Yes, up to 15-ft combined lift"
+            ],
+            [
+              "ENERGY STAR",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Refrigerant",
+              "Not published",
+              "R-32"
+            ],
+            [
+              "Independent test data",
+              "None found",
+              "Prior-gen 50-pint D50BP: strong accuracy, weaker durability"
+            ],
+            [
+              "Warranty",
+              "1-year limited",
+              "1-year parts/labor + 5-year sealed system"
+            ],
+            [
+              "2021 recall",
+              "Brand named; current model not covered",
+              "Brand named; current model not covered"
+            ],
+            [
+              "Price tier",
+              "Mainstream",
+              "Premium"
+            ]
           ]
         }
       ]

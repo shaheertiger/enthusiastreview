@@ -168,7 +168,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for mini-split homes",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -182,7 +182,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a mini split home",
+      "heading": "What should you look for in a dehumidifier for a mini split home?",
       "blocks": [
         {
           "type": "checklist",
@@ -255,13 +255,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Mini-split dry mode", "Portable dehumidifier", "Whole-home dehumidifier"],
+          "head": [
+            "",
+            "Mini-split dry mode",
+            "Portable dehumidifier",
+            "Whole-home dehumidifier"
+          ],
           "rows": [
-            ["Holds a humidity %", "No", "Yes", "Yes"],
-            ["Effect on temperature", "Cools somewhat", "Adds slight heat", "Adds slight heat"],
-            ["Works on cool, damp days", "Poorly", "Yes", "Yes"],
-            ["Rooms without a head", "No", "Yes, where placed", "Yes, if ducted there"],
-            ["Extra cost", "None", "Usually under $300", "$1,500+ installed"]
+            [
+              "Holds a humidity %",
+              "No",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Effect on temperature",
+              "Cools somewhat",
+              "Adds slight heat",
+              "Adds slight heat"
+            ],
+            [
+              "Works on cool, damp days",
+              "Poorly",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Rooms without a head",
+              "No",
+              "Yes, where placed",
+              "Yes, if ducted there"
+            ],
+            [
+              "Extra cost",
+              "None",
+              "Usually under $300",
+              "$1,500+ installed"
+            ]
           ]
         },
         {

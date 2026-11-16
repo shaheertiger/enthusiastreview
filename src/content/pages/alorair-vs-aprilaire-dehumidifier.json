@@ -79,25 +79,70 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "AlorAir Sentinel HDi65S", "Aprilaire E070"],
+          "head": [
+            "",
+            "AlorAir Sentinel HDi65S",
+            "Aprilaire E070"
+          ],
           "rows": [
-            ["Capacity (AHAM)", "55 pints/day", "70 pints/day"],
-            ["Saturation rating", "120 pints/day", "Not the headline figure"],
-            ["Published coverage", "About 1,300 sq ft (Amazon listing)", "Up to 2,200 sq ft"],
-            ["Drainage", "Built-in pump, ~19.6 ft lift", "Bucketless; pump sold separately"],
-            ["Low-temp operation", "Auto-defrost to ~36°F", "No published low-temp rating"],
-            ["Warranty", "6 years limited (2 years full)", "5 years full parts, no labor"],
-            ["Sales channel", "Direct to consumer, online", "HVAC distributors, home centers"],
-            ["Typical price tier", "Well under $1,000", "Well over $1,500 before a pump"]
+            [
+              "Capacity (AHAM)",
+              "55 pints/day",
+              "70 pints/day"
+            ],
+            [
+              "Saturation rating",
+              "120 pints/day",
+              "Not the headline figure"
+            ],
+            [
+              "Published coverage",
+              "About 1,300 sq ft (Amazon listing)",
+              "Up to 2,200 sq ft"
+            ],
+            [
+              "Drainage",
+              "Built-in pump, ~19.6 ft lift",
+              "Bucketless; pump sold separately"
+            ],
+            [
+              "Low-temp operation",
+              "Auto-defrost to ~36°F",
+              "No published low-temp rating"
+            ],
+            [
+              "Warranty",
+              "6 years limited (2 years full)",
+              "5 years full parts, no labor"
+            ],
+            [
+              "Sales channel",
+              "Direct to consumer, online",
+              "HVAC distributors, home centers"
+            ],
+            [
+              "Typical price tier",
+              "Well under $1,000",
+              "Well over $1,500 before a pump"
+            ]
           ],
           "caption": "Specs from AlorAir and Aprilaire. Prices change often; check current listings."
         },
         {
           "type": "stats",
           "items": [
-            { "value": "55 vs. 70", "label": "AHAM pints per day, HDi65S vs. E070" },
-            { "value": "19.6 ft", "label": "Pump lift built into the AlorAir" },
-            { "value": "2,200 sq ft", "label": "Aprilaire's published E070 coverage" }
+            {
+              "value": "55 vs. 70",
+              "label": "AHAM pints per day, HDi65S vs. E070"
+            },
+            {
+              "value": "19.6 ft",
+              "label": "Pump lift built into the AlorAir"
+            },
+            {
+              "value": "2,200 sq ft",
+              "label": "Aprilaire's published E070 coverage"
+            }
           ]
         }
       ]

@@ -148,26 +148,8 @@
   ],
   "sections": [
     {
-      "id": "thirty-pint-numbers",
-      "heading": "30-pint dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~22 pints", "label": "Typical DOE 2019 rating for a unit sold as \"30-pint\"" },
-            { "value": "65°F", "label": "Test temperature under the 2019 DOE standard (up from 80°F)" },
-            { "value": "1,500 sq ft", "label": "Typical coverage rating for this capacity class" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The test change lowered published capacities across the board by roughly 30%. When you compare models, make sure you're comparing old-scale numbers with old-scale numbers, or current with current."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick 30-pint dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -181,7 +163,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a 30-pint dehumidifier",
+      "heading": "What matters most in a 30-pint dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -216,12 +198,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "30-pint class", "50-pint class"],
+          "head": [
+            "",
+            "30-pint class",
+            "50-pint class"
+          ],
           "rows": [
-            ["Current DOE rating", "About 20–22 pints/day", "About 50 pints/day"],
-            ["Best for", "Bedrooms, offices, small apartments", "Basements, large or very damp rooms"],
-            ["Typical tank", "A few pints", "Much larger, often with a pump option"],
-            ["Footprint and noise", "Smaller and quieter", "Bigger and louder"]
+            [
+              "Current DOE rating",
+              "About 20–22 pints/day",
+              "About 50 pints/day"
+            ],
+            [
+              "Best for",
+              "Bedrooms, offices, small apartments",
+              "Basements, large or very damp rooms"
+            ],
+            [
+              "Typical tank",
+              "A few pints",
+              "Much larger, often with a pump option"
+            ],
+            [
+              "Footprint and noise",
+              "Smaller and quieter",
+              "Bigger and louder"
+            ]
           ]
         },
         {
@@ -308,5 +310,28 @@
     "/best/best-quiet-dehumidifier/",
     "/best/best-honeywell-dehumidifier/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~22 pints",
+          "label": "Typical DOE 2019 rating for a unit sold as \"30-pint\""
+        },
+        {
+          "value": "65°F",
+          "label": "Test temperature under the 2019 DOE standard (up from 80°F)"
+        },
+        {
+          "value": "1,500 sq ft",
+          "label": "Typical coverage rating for this capacity class"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The test change lowered published capacities across the board by roughly 30%. When you compare models, make sure you're comparing old-scale numbers with old-scale numbers, or current with current."
+    }
   ]
 }

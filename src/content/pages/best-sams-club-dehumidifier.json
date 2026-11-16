@@ -97,35 +97,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Sam's Club dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "3",
-              "label": "Dehumidifier brands live on Sam's Club's own page"
-            },
-            {
-              "value": "4–6×",
-              "label": "Price premium of the club's MaxxAir commercial units over its residential models"
-            },
-            {
-              "value": "10 of 10",
-              "label": "Standalone Whynter dehumidifier models we found marked discontinued"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The last figure is why we don't send you looking for a Whynter at Sam's Club. A guide that lists it is almost certainly working from an old snapshot of the club's selection."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Sam's Club dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -139,7 +112,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Sam's Club dehumidifier",
+      "heading": "Which features matter in a Sam's Club dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -326,5 +299,28 @@
     "/best/best-keystone-dehumidifier/",
     "/best/best-50-pint-dehumidifier/",
     "/compare/amana-vs-friedrich-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "3",
+          "label": "Dehumidifier brands live on Sam's Club's own page"
+        },
+        {
+          "value": "4–6×",
+          "label": "Price premium of the club's MaxxAir commercial units over its residential models"
+        },
+        {
+          "value": "10 of 10",
+          "label": "Standalone Whynter dehumidifier models we found marked discontinued"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The last figure is why we don't send you looking for a Whynter at Sam's Club. A guide that lists it is almost certainly working from an old snapshot of the club's selection."
+    }
   ]
 }

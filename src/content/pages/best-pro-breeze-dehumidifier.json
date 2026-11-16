@@ -121,26 +121,8 @@
   ],
   "sections": [
     {
-      "id": "pro-breeze-numbers",
-      "heading": "Pro Breeze, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "2013", "label": "Year Pro Breeze launched, in London" },
-            { "value": "1 million+", "label": "Dehumidifiers the brand says it has sold worldwide" },
-            { "value": "1 year", "label": "Standard U.S. warranty on Pro Breeze dehumidifiers" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That one-year warranty is on the short side. Several competitors offer longer sealed-system coverage, so if long-term protection matters to you, factor it in alongside price."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we picked the best Pro Breeze dehumidifiers",
+      "heading": "How we chose these Pro Breeze dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -154,7 +136,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Pro Breeze dehumidifier",
+      "heading": "How do you pick a Pro Breeze dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -189,13 +171,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Minis (PB-02, PB-03)", "Compressor (30- and 50-pint)"],
+          "head": [
+            "",
+            "Minis (PB-02, PB-03)",
+            "Compressor (30- and 50-pint)"
+          ],
           "rows": [
-            ["Technology", "Thermoelectric (Peltier)", "Compressor"],
-            ["Daily water removal", "Under a pint", "Many pints"],
-            ["Noise", "Near-silent", "Typical appliance hum"],
-            ["Typical space", "Closet, bathroom, bedroom", "Medium room, basement"],
-            ["Power draw", "Very low", "Hundreds of watts"]
+            [
+              "Technology",
+              "Thermoelectric (Peltier)",
+              "Compressor"
+            ],
+            [
+              "Daily water removal",
+              "Under a pint",
+              "Many pints"
+            ],
+            [
+              "Noise",
+              "Near-silent",
+              "Typical appliance hum"
+            ],
+            [
+              "Typical space",
+              "Closet, bathroom, bedroom",
+              "Medium room, basement"
+            ],
+            [
+              "Power draw",
+              "Very low",
+              "Hundreds of watts"
+            ]
           ]
         },
         {
@@ -278,5 +284,28 @@
     "/best/best-dehumidifier-brands/",
     "/best/best-dehumidifier-for-bathroom/",
     "/best/best-eva-dry-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2013",
+          "label": "Year Pro Breeze launched, in London"
+        },
+        {
+          "value": "1 million+",
+          "label": "Dehumidifiers the brand says it has sold worldwide"
+        },
+        {
+          "value": "1 year",
+          "label": "Standard U.S. warranty on Pro Breeze dehumidifiers"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That one-year warranty is on the short side. Several competitors offer longer sealed-system coverage, so if long-term protection matters to you, factor it in alongside price."
+    }
   ]
 }

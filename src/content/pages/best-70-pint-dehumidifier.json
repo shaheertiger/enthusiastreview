@@ -123,35 +123,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "70-pint dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "65°F",
-              "label": "Test temperature under the DOE 2019 standard, down from 80°F"
-            },
-            {
-              "value": "~4,500 sq ft",
-              "label": "Typical coverage listed for a 70-pint unit — similar to many 50-pint models"
-            },
-            {
-              "value": "16.4 ft",
-              "label": "Hose length on the Yaufey 70-Pint’s built-in pump"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That middle number surprises people. A 70-pint unit doesn’t necessarily cover a bigger room than a 50-pint one; it pulls water out faster in a space that’s actively damp. Some retailers even list former 70-pint models as “50 pint (previously 70 pint).”"
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick 70-pint dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -165,7 +138,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a 70-pint dehumidifier",
+      "heading": "What separates a good 70-pint dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -306,5 +279,28 @@
     "/best/best-ge-dehumidifier/",
     "/best/best-honeywell-dehumidifier/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "65°F",
+          "label": "Test temperature under the DOE 2019 standard, down from 80°F"
+        },
+        {
+          "value": "~4,500 sq ft",
+          "label": "Typical coverage listed for a 70-pint unit — similar to many 50-pint models"
+        },
+        {
+          "value": "16.4 ft",
+          "label": "Hose length on the Yaufey 70-Pint’s built-in pump"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That middle number surprises people. A 70-pint unit doesn’t necessarily cover a bigger room than a 50-pint one; it pulls water out faster in a space that’s actively damp. Some retailers even list former 70-pint models as “50 pint (previously 70 pint).”"
+    }
   ]
 }

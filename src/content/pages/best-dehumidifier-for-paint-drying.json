@@ -147,26 +147,8 @@
   ],
   "sections": [
     {
-      "id": "paint-numbers",
-      "heading": "Paint drying, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "40–50%", "label": "Relative humidity range where latex paint dries predictably" },
-            { "value": "5°F", "label": "How far surface temperature should stay above the dew point while paint dries" },
-            { "value": "Up to 30 days", "label": "How long many latex paints take to fully cure, even when dry to the touch" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "*Dry* and *cured* aren't the same thing. Paint can be dry to the touch in an hour and recoatable in a few, but the film keeps hardening for weeks. Keeping humidity in check through that window helps the finish resist scuffs, sticking and streaks."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for drying paint",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -180,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for painting",
+      "heading": "Which features matter in a dehumidifier for painting?",
       "blocks": [
         {
           "type": "checklist",
@@ -219,12 +201,37 @@
         },
         {
           "type": "table",
-          "head": ["Finish", "How it dries", "What high humidity does", "Dehumidifier helps?"],
+          "head": [
+            "Finish",
+            "How it dries",
+            "What high humidity does",
+            "Dehumidifier helps?"
+          ],
           "rows": [
-            ["Latex / acrylic paint", "Water evaporates", "Slows drying; can cause sticky streaks (surfactant leaching)", "Yes, a lot"],
-            ["Water-based polyurethane", "Water evaporates", "Slower dry, cloudy or soft film", "Yes"],
-            ["Oil-based / alkyd paint", "Oxidizes and cures", "Slows drying, especially when also cold", "Somewhat; warmth matters more"],
-            ["Spray lacquer", "Solvent evaporates", "Milky haze called blushing", "Yes, but never run it during spraying"]
+            [
+              "Latex / acrylic paint",
+              "Water evaporates",
+              "Slows drying; can cause sticky streaks (surfactant leaching)",
+              "Yes, a lot"
+            ],
+            [
+              "Water-based polyurethane",
+              "Water evaporates",
+              "Slower dry, cloudy or soft film",
+              "Yes"
+            ],
+            [
+              "Oil-based / alkyd paint",
+              "Oxidizes and cures",
+              "Slows drying, especially when also cold",
+              "Somewhat; warmth matters more"
+            ],
+            [
+              "Spray lacquer",
+              "Solvent evaporates",
+              "Milky haze called blushing",
+              "Yes, but never run it during spraying"
+            ]
           ],
           "caption": "Patterns, not product specs — the label on your can is the final word."
         },
@@ -331,5 +338,28 @@
     "/best/best-commercial-dehumidifier/",
     "/guides/how-to-dehumidify-a-room/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–50%",
+          "label": "Relative humidity range where latex paint dries predictably"
+        },
+        {
+          "value": "5°F",
+          "label": "How far surface temperature should stay above the dew point while paint dries"
+        },
+        {
+          "value": "Up to 30 days",
+          "label": "How long many latex paints take to fully cure, even when dry to the touch"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "*Dry* and *cured* aren't the same thing. Paint can be dry to the touch in an hour and recoatable in a few, but the film keeps hardening for weeks. Keeping humidity in check through that window helps the finish resist scuffs, sticking and streaks."
+    }
   ]
 }

@@ -154,35 +154,8 @@
   ],
   "sections": [
     {
-      "id": "pets-and-humidity",
-      "heading": "Pets and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Indoor humidity range the EPA recommends"
-            },
-            {
-              "value": "~50%",
-              "label": "Humidity below which flea larvae struggle to survive"
-            },
-            {
-              "value": "<45%",
-              "label": "Humidity at which few house dust mites survive at typical room temperatures"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Pets add moisture to a home in ways that are easy to miss: water bowls, wet coats after walks, damp bedding, aquariums. Keeping the air near 45% makes life hard for the mites in pet beds and the flea larvae in carpets, as our [dehumidifier for fleas](/best/best-dehumidifier-for-fleas/) guide explains, and it helps a musty, damp-dog smell fade."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for pet owners",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -250,7 +223,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a dehumidifier for a home with pets",
+      "heading": "How do you choose a dehumidifier for a home with pets?",
       "blocks": [
         {
           "type": "checklist",
@@ -368,5 +341,28 @@
     "/best/best-dehumidifier-air-purifier-combo/",
     "/best/best-dehumidifier-with-pump/",
     "/guides/can-you-drink-dehumidifier-water/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends"
+        },
+        {
+          "value": "~50%",
+          "label": "Humidity below which flea larvae struggle to survive"
+        },
+        {
+          "value": "<45%",
+          "label": "Humidity at which few house dust mites survive at typical room temperatures"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Pets add moisture to a home in ways that are easy to miss: water bowls, wet coats after walks, damp bedding, aquariums. Keeping the air near 45% makes life hard for the mites in pet beds and the flea larvae in carpets, as our [dehumidifier for fleas](/best/best-dehumidifier-for-fleas/) guide explains, and it helps a musty, damp-dog smell fade."
+    }
   ]
 }

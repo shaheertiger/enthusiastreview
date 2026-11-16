@@ -129,73 +129,8 @@
   ],
   "sections": [
     {
-      "id": "midea-by-the-numbers",
-      "heading": "Midea's Cube lineup, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "515 kWh",
-              "label": "ENERGY STAR's rated annual energy use for the Cube 50"
-            },
-            {
-              "value": "0",
-              "label": "Cube models that meet ENERGY STAR's Most Efficient criteria"
-            },
-            {
-              "value": "30–50%",
-              "label": "Indoor humidity range the EPA recommends to limit mold and dust mites"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That middle number surprises people. Every Cube is ENERGY STAR certified, but each sits right on the certification line for its size class rather than above it. You can see some retailer listings claim a \"Most Efficient\" badge; the federal dataset doesn't support it. In practice, the Cube 50's rated energy use is within a few kWh a year of comparable 50-pint units from Frigidaire, so efficiency shouldn't be the deciding factor either way."
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "DOE pints/day",
-            "L/kWh",
-            "kWh/year",
-            "Coverage (Midea)",
-            "Drainage"
-          ],
-          "rows": [
-            [
-              "Cube 50 (MAD50S1QWT)",
-              "49.67",
-              "2.01",
-              "515",
-              "Up to 4,500 sq ft",
-              "Gravity hose"
-            ],
-            [
-              "Cube 35 (MAD35S1QWT)",
-              "35.82",
-              "2.01",
-              "378",
-              "Up to 3,000 sq ft",
-              "Gravity hose"
-            ],
-            [
-              "Cube 20 (MAD20S1QWT)",
-              "20.16",
-              "1.70",
-              "249",
-              "About 1,500 sq ft",
-              "Gravity hose"
-            ]
-          ],
-          "caption": "Ratings from ENERGY STAR's certified-dehumidifier data. Variants ending in W1QWT are rated the same as their S1QWT siblings."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best Midea dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -209,7 +144,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Midea dehumidifier",
+      "heading": "What separates a good Midea dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -406,5 +341,66 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-smart-dehumidifier/",
     "/best/best-dehumidifier-brands/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "515 kWh",
+          "label": "ENERGY STAR's rated annual energy use for the Cube 50"
+        },
+        {
+          "value": "0",
+          "label": "Cube models that meet ENERGY STAR's Most Efficient criteria"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends to limit mold and dust mites"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That middle number surprises people. Every Cube is ENERGY STAR certified, but each sits right on the certification line for its size class rather than above it. You can see some retailer listings claim a \"Most Efficient\" badge; the federal dataset doesn't support it. In practice, the Cube 50's rated energy use is within a few kWh a year of comparable 50-pint units from Frigidaire, so efficiency shouldn't be the deciding factor either way."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "DOE pints/day",
+        "L/kWh",
+        "kWh/year",
+        "Coverage (Midea)",
+        "Drainage"
+      ],
+      "rows": [
+        [
+          "Cube 50 (MAD50S1QWT)",
+          "49.67",
+          "2.01",
+          "515",
+          "Up to 4,500 sq ft",
+          "Gravity hose"
+        ],
+        [
+          "Cube 35 (MAD35S1QWT)",
+          "35.82",
+          "2.01",
+          "378",
+          "Up to 3,000 sq ft",
+          "Gravity hose"
+        ],
+        [
+          "Cube 20 (MAD20S1QWT)",
+          "20.16",
+          "1.70",
+          "249",
+          "About 1,500 sq ft",
+          "Gravity hose"
+        ]
+      ],
+      "caption": "Ratings from ENERGY STAR's certified-dehumidifier data. Variants ending in W1QWT are rated the same as their S1QWT siblings."
+    }
   ]
 }

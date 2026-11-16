@@ -115,35 +115,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Cellar humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "85–95%",
-              "label": "Target RH for most root vegetables (University of Missouri Extension)"
-            },
-            {
-              "value": "60–70%",
-              "label": "Target for drier-storing crops like squash and onions"
-            },
-            {
-              "value": "50–70%",
-              "label": "Typical target for a wine cellar"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Temperature matters too. Most cellars run between 32°F and 50°F, and a standard compressor dehumidifier starts icing up below about 41°F — so the type of unit matters as much as the setting."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick cellar dehumidifiers",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -157,7 +130,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a cellar dehumidifier",
+      "heading": "Which features matter in a cellar dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -320,5 +293,28 @@
     "/guides/dehumidifier-humidistat-settings-guide/",
     "/guides/dehumidifier-vs-humidifier/",
     "/best/best-eva-dry-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "85–95%",
+          "label": "Target RH for most root vegetables (University of Missouri Extension)"
+        },
+        {
+          "value": "60–70%",
+          "label": "Target for drier-storing crops like squash and onions"
+        },
+        {
+          "value": "50–70%",
+          "label": "Typical target for a wine cellar"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Temperature matters too. Most cellars run between 32°F and 50°F, and a standard compressor dehumidifier starts icing up below about 41°F — so the type of unit matters as much as the setting."
+    }
   ]
 }

@@ -150,13 +150,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Fan", "Dehumidifier", "3-in-1 portable AC"],
+          "head": [
+            "",
+            "Fan",
+            "Dehumidifier",
+            "3-in-1 portable AC"
+          ],
           "rows": [
-            ["Removes moisture", "No", "Yes", "Yes"],
-            ["Lowers room temperature", "No (cools skin only)", "No (adds slight heat)", "Yes"],
-            ["Needs a window", "No", "No", "Yes"],
-            ["Typical running cost", "Very low", "Moderate", "Higher"],
-            ["Best for", "Comfort in dry heat", "Damp, cool rooms", "Hot, humid rooms"]
+            [
+              "Removes moisture",
+              "No",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Lowers room temperature",
+              "No (cools skin only)",
+              "No (adds slight heat)",
+              "Yes"
+            ],
+            [
+              "Needs a window",
+              "No",
+              "No",
+              "Yes"
+            ],
+            [
+              "Typical running cost",
+              "Very low",
+              "Moderate",
+              "Higher"
+            ],
+            [
+              "Best for",
+              "Comfort in dry heat",
+              "Damp, cool rooms",
+              "Hot, humid rooms"
+            ]
           ]
         },
         {
@@ -167,7 +197,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifier fans and combos",
+      "heading": "How we chose these dehumidifier fans and combos",
       "blocks": [
         {
           "type": "p",
@@ -181,7 +211,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a fan with a dehumidifier",
+      "heading": "What should you look for in a fan with a dehumidifier?",
       "blocks": [
         {
           "type": "checklist",

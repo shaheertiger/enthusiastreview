@@ -93,35 +93,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Piano humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "40–45%",
-              "label": "Yamaha’s recommended humidity for pianos, at about 70°F"
-            },
-            {
-              "value": "42%",
-              "label": "The fixed set point of the Dampp-Chaser system"
-            },
-            {
-              "value": "5–10 pts",
-              "label": "How far off some cheap hygrometers read against a calibrated reference"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Most technicians treat 40–50% as an acceptable working range, with real risk starting once a piano spends long stretches outside it in either direction."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick piano humidity solutions",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -143,7 +116,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a piano dehumidifier setup",
+      "heading": "What separates a good piano dehumidifier setup from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -269,5 +242,28 @@
     "/best/best-dehumidifier-for-basement/",
     "/best/best-dehumidifier-for-wood-floors/",
     "/best/best-quiet-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–45%",
+          "label": "Yamaha’s recommended humidity for pianos, at about 70°F"
+        },
+        {
+          "value": "42%",
+          "label": "The fixed set point of the Dampp-Chaser system"
+        },
+        {
+          "value": "5–10 pts",
+          "label": "How far off some cheap hygrometers read against a calibrated reference"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Most technicians treat 40–50% as an acceptable working range, with real risk starting once a piano spends long stretches outside it in either direction."
+    }
   ]
 }

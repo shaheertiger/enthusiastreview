@@ -121,26 +121,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Portable dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "35–45 lb", "label": "Typical weight of a full-size 50-pint compressor unit" },
-            { "value": "2.7 gal", "label": "Frigidaire FHDD5034Y1 bucket capacity" },
-            { "value": "~34 pints", "label": "Midea Cube 50 reservoir — nearly triple a standard bucket" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That weight is why wheels matter. Rolling 40 pounds is easy; lifting it is what owners complain about. And because a portable unit won't always sit next to a drain, bucket size matters more than it would for a dehumidifier that never moves."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick portable dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -154,7 +136,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a portable dehumidifier",
+      "heading": "What matters most in a portable dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -194,13 +176,37 @@
         },
         {
           "type": "table",
-          "head": ["", "Portable dehumidifier", "Portable air conditioner"],
+          "head": [
+            "",
+            "Portable dehumidifier",
+            "Portable air conditioner"
+          ],
           "rows": [
-            ["Main job", "Remove water from the air", "Lower the temperature"],
-            ["Heat", "Releases slightly warm air into the room", "Vents heat outdoors through a window hose"],
-            ["Installation", "None — plug in and go", "Needs a window kit for the exhaust hose"],
-            ["Best season", "Damp spring, summer and fall", "Hot summer days"],
-            ["Best room", "Basement, laundry room, garage", "Bedroom or living room without central AC"]
+            [
+              "Main job",
+              "Remove water from the air",
+              "Lower the temperature"
+            ],
+            [
+              "Heat",
+              "Releases slightly warm air into the room",
+              "Vents heat outdoors through a window hose"
+            ],
+            [
+              "Installation",
+              "None — plug in and go",
+              "Needs a window kit for the exhaust hose"
+            ],
+            [
+              "Best season",
+              "Damp spring, summer and fall",
+              "Hot summer days"
+            ],
+            [
+              "Best room",
+              "Basement, laundry room, garage",
+              "Bedroom or living room without central AC"
+            ]
           ]
         },
         {
@@ -253,5 +259,28 @@
     "/best/best-frigidaire-dehumidifier/",
     "/guides/dehumidifier-vs-air-conditioner/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "35–45 lb",
+          "label": "Typical weight of a full-size 50-pint compressor unit"
+        },
+        {
+          "value": "2.7 gal",
+          "label": "Frigidaire FHDD5034Y1 bucket capacity"
+        },
+        {
+          "value": "~34 pints",
+          "label": "Midea Cube 50 reservoir — nearly triple a standard bucket"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That weight is why wheels matter. Rolling 40 pounds is easy; lifting it is what owners complain about. And because a portable unit won't always sit next to a drain, bucket size matters more than it would for a dehumidifier that never moves."
+    }
   ]
 }

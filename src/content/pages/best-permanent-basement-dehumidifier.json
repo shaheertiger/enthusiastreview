@@ -153,35 +153,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Permanent basement dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "55–130",
-              "label": "Pints a day (AHAM) across typical installed basement and whole-home units"
-            },
-            {
-              "value": "5–6 yrs",
-              "label": "Typical warranty on installed units, vs. 1–2 years for most portables"
-            },
-            {
-              "value": "45–50%",
-              "label": "The humidity setpoint most basements should hold through the summer"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "One caution: installed units are rated under AHAM conditions (80°F, 60% humidity), while portables use the cooler 2019 DOE test. An 80-pint installed unit is not 30 pints ahead of a 50-pint portable — its lead is real, but smaller than the labels suggest."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick permanent basement dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -195,7 +168,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a permanent basement dehumidifier",
+      "heading": "How do you pick a permanent basement dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -368,5 +341,28 @@
     "/guides/whole-house-dehumidifier-installation/",
     "/best/best-dehumidifier-for-finished-basement/",
     "/best/best-crawl-space-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "55–130",
+          "label": "Pints a day (AHAM) across typical installed basement and whole-home units"
+        },
+        {
+          "value": "5–6 yrs",
+          "label": "Typical warranty on installed units, vs. 1–2 years for most portables"
+        },
+        {
+          "value": "45–50%",
+          "label": "The humidity setpoint most basements should hold through the summer"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "One caution: installed units are rated under AHAM conditions (80°F, 60% humidity), while portables use the cooler 2019 DOE test. An 80-pint installed unit is not 30 pints ahead of a 50-pint portable — its lead is real, but smaller than the labels suggest."
+    }
   ]
 }

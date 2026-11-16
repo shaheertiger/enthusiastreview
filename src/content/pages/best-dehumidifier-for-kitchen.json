@@ -140,35 +140,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Kitchen humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "Up to 19%",
-              "label": "Share of household indoor moisture from cooking and dishwashing (BRANZ)"
-            },
-            {
-              "value": "30–50%",
-              "label": "Healthy indoor humidity range recommended by the EPA"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How fast mold can start on a damp surface, per the EPA"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Before buying anything, check your range hood. A hood that vents outdoors removes steam at the source; a recirculating hood only filters grease and sends the moist air back into the room."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick kitchen dehumidifiers",
+      "heading": "How we chose these kitchen dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -182,7 +155,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a kitchen dehumidifier",
+      "heading": "How do you pick a kitchen dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -308,5 +281,28 @@
     "/best/best-moisture-absorber/",
     "/best/best-dehumidifier-for-laundry-room/",
     "/guides/dehumidifier-for-condensation-on-windows/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "Up to 19%",
+          "label": "Share of household indoor moisture from cooking and dishwashing (BRANZ)"
+        },
+        {
+          "value": "30–50%",
+          "label": "Healthy indoor humidity range recommended by the EPA"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can start on a damp surface, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Before buying anything, check your range hood. A hood that vents outdoors removes steam at the source; a recirculating hood only filters grease and sends the moist air back into the room."
+    }
   ]
 }

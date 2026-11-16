@@ -116,31 +116,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Shinco, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "2×+",
-              "label": "How much one Shinco model’s listed price can vary between storefronts"
-            },
-            {
-              "value": "0",
-              "label": "Major U.S. dehumidifier recalls that list Shinco, per CPSC.gov"
-            },
-            {
-              "value": "6,000 sq ft",
-              "label": "Maximum rated coverage of Shinco’s 120-pint model"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best Shinco dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -154,7 +131,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Shinco dehumidifier",
+      "heading": "What should you look for in a Shinco dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -361,5 +338,24 @@
     "/best/best-walmart-dehumidifier/",
     "/guides/dehumidifier-size-guide/",
     "/best/best-commercial-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2×+",
+          "label": "How much one Shinco model’s listed price can vary between storefronts"
+        },
+        {
+          "value": "0",
+          "label": "Major U.S. dehumidifier recalls that list Shinco, per CPSC.gov"
+        },
+        {
+          "value": "6,000 sq ft",
+          "label": "Maximum rated coverage of Shinco’s 120-pint model"
+        }
+      ]
+    }
   ]
 }

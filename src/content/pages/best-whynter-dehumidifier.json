@@ -92,29 +92,6 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Whynter dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "10",
-              "label": "Standalone Whynter dehumidifier models we found — all marked discontinued"
-            },
-            {
-              "value": "3",
-              "label": "Whynter models named in the 2021 New Widetech recall"
-            },
-            {
-              "value": "~2 million",
-              "label": "Units covered by that recall across about 20 brands"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "discontinued-models",
       "heading": "Every standalone Whynter dehumidifier, and its replacement",
       "blocks": [
@@ -198,7 +175,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we picked Whynter replacements",
+      "heading": "How we chose these Whynter replacements",
       "blocks": [
         {
           "type": "p",
@@ -212,7 +189,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Whynter replacement",
+      "heading": "How do you pick a Whynter replacement?",
       "blocks": [
         {
           "type": "checklist",
@@ -332,5 +309,24 @@
     "/best/best-midea-dehumidifier/",
     "/best/best-homelabs-dehumidifier/",
     "/guides/how-to-dispose-of-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "10",
+          "label": "Standalone Whynter dehumidifier models we found — all marked discontinued"
+        },
+        {
+          "value": "3",
+          "label": "Whynter models named in the 2021 New Widetech recall"
+        },
+        {
+          "value": "~2 million",
+          "label": "Units covered by that recall across about 20 brands"
+        }
+      ]
+    }
   ]
 }

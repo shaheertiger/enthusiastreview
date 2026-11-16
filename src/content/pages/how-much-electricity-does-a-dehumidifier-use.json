@@ -69,29 +69,6 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Dehumidifier electricity use, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "230–560 W",
-              "label": "Typical running draw of a portable dehumidifier"
-            },
-            {
-              "value": "18.44¢",
-              "label": "U.S. average residential rate per kWh (EIA, Aug. 2026)"
-            },
-            {
-              "value": "~$95/yr",
-              "label": "ENERGY STAR-rated annual cost of a typical 50-pint unit"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "per-day-per-month",
       "heading": "How much electricity does a dehumidifier use per day and per month?",
       "blocks": [
@@ -298,5 +275,24 @@
     "/guides/dehumidifier-humidistat-settings-guide/",
     "/guides/does-a-dehumidifier-cool-a-room/",
     "/best/best-aeocky-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "230–560 W",
+          "label": "Typical running draw of a portable dehumidifier"
+        },
+        {
+          "value": "18.44¢",
+          "label": "U.S. average residential rate per kWh (EIA, Aug. 2026)"
+        },
+        {
+          "value": "~$95/yr",
+          "label": "ENERGY STAR-rated annual cost of a typical 50-pint unit"
+        }
+      ]
+    }
   ]
 }

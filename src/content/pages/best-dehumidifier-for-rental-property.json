@@ -174,26 +174,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Rental humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "Below 60%", "label": "EPA's upper limit for indoor humidity to help prevent mold" },
-            { "value": "30–50%", "label": "EPA's ideal indoor humidity range" },
-            { "value": "24–48 hrs", "label": "How quickly mold can start on a damp surface, per the EPA" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last figure is why rentals need dehumidifiers that run without supervision. A unit that sits full and switched off for a long weekend in August can let a damp basement cross the line long before anyone notices."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for rental properties",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -207,7 +189,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a rental",
+      "heading": "Which features matter in a dehumidifier for a rental?",
       "blocks": [
         {
           "type": "checklist",
@@ -324,5 +306,28 @@
     "/best/best-smart-dehumidifier/",
     "/best/best-crawl-space-dehumidifier/",
     "/guides/does-a-dehumidifier-help-with-mold/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "Below 60%",
+          "label": "EPA's upper limit for indoor humidity to help prevent mold"
+        },
+        {
+          "value": "30–50%",
+          "label": "EPA's ideal indoor humidity range"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can start on a damp surface, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last figure is why rentals need dehumidifiers that run without supervision. A unit that sits full and switched off for a long weekend in August can let a damp basement cross the line long before anyone notices."
+    }
   ]
 }

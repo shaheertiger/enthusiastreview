@@ -156,35 +156,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Vacation home humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "Under 60%",
-              "label": "Indoor humidity the EPA recommends to limit mold growth"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How soon mold can start on damp materials, per the EPA"
-            },
-            {
-              "value": "45–50%",
-              "label": "A sensible dehumidifier setting while you're away"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put the first two together and the risk is obvious: a house that drifts above 60% for even a couple of weeks gives mold plenty of time. A dehumidifier set to 45–50% leaves a comfortable margin if it falls behind during a rainy stretch."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for vacation homes",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -198,7 +171,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a vacation home dehumidifier",
+      "heading": "How do you pick a vacation home dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -328,5 +301,28 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-for-humid-climates/",
     "/best/best-hygrometer/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "Under 60%",
+          "label": "Indoor humidity the EPA recommends to limit mold growth"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How soon mold can start on damp materials, per the EPA"
+        },
+        {
+          "value": "45–50%",
+          "label": "A sensible dehumidifier setting while you're away"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put the first two together and the risk is obvious: a house that drifts above 60% for even a couple of weeks gives mold plenty of time. A dehumidifier set to 45–50% leaves a comfortable margin if it falls behind during a rainy stretch."
+    }
   ]
 }

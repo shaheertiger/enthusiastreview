@@ -147,26 +147,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Black mold, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "24–48 hrs", "label": "How quickly mold in general can start growing on a damp surface, per the EPA" },
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends, never above 60%" },
-            { "value": "34 pints", "label": "Reservoir on the Midea Cube 50, about three times a typical bucket" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Stachybotrys is slower to start than common molds — it needs material that has stayed wet, not just air that's a bit humid. That's good news: a dehumidifier that keeps a room inside the EPA band, day and night, takes away the condition it relies on."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for black mold",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -180,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for black mold",
+      "heading": "What should you look for in a dehumidifier for black mold?",
       "blocks": [
         {
           "type": "checklist",
@@ -300,5 +282,28 @@
     "/best/best-dehumidifier-for-bathroom/",
     "/best/best-crawl-space-dehumidifier/",
     "/guides/dehumidifier-vs-air-purifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold in general can start growing on a damp surface, per the EPA"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends, never above 60%"
+        },
+        {
+          "value": "34 pints",
+          "label": "Reservoir on the Midea Cube 50, about three times a typical bucket"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Stachybotrys is slower to start than common molds — it needs material that has stayed wet, not just air that's a bit humid. That's good news: a dehumidifier that keeps a room inside the EPA band, day and night, takes away the condition it relies on."
+    }
   ]
 }

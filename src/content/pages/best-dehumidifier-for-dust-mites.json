@@ -143,26 +143,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Dust mites and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "6–11 days", "label": "How long live mites survive once humidity is held at 50% or lower" },
-            { "value": "<45%", "label": "Humidity at which almost no house dust mites survive at 68–72°F" },
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The same 30–50% range that discourages mold also starves out mites, so one well-set dehumidifier tackles both of the most common indoor allergy triggers tied to dampness."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for dust mites",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -176,7 +158,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for dust mite allergy",
+      "heading": "What separates a good dehumidifier for dust mite allergy from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -282,5 +264,28 @@
     "/best/best-dehumidifier-for-nursery/",
     "/best/best-dehumidifier-for-silverfish/",
     "/guides/dehumidifier-vs-air-purifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "6–11 days",
+          "label": "How long live mites survive once humidity is held at 50% or lower"
+        },
+        {
+          "value": "<45%",
+          "label": "Humidity at which almost no house dust mites survive at 68–72°F"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The same 30–50% range that discourages mold also starves out mites, so one well-set dehumidifier tackles both of the most common indoor allergy triggers tied to dampness."
+    }
   ]
 }

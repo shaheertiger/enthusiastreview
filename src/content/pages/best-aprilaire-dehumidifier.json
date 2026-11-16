@@ -182,76 +182,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Aprilaire, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "0 pints",
-              "label": "Tank capacity on every E-Series model — they’re all bucketless"
-            },
-            {
-              "value": "5 years",
-              "label": "Warranty on all four core models, versus one year on most portables"
-            },
-            {
-              "value": "~23%",
-              "label": "Annual energy savings ENERGY STAR credits to Most Efficient units"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Capacity",
-            "Coverage",
-            "Most Efficient",
-            "Best for"
-          ],
-          "rows": [
-            [
-              "E070",
-              "70 pints/day",
-              "Up to 2,200 sq ft",
-              "No",
-              "Sealed crawl spaces"
-            ],
-            [
-              "E080",
-              "80 pints/day",
-              "Up to 4,400 sq ft",
-              "Yes",
-              "Mid-sized homes"
-            ],
-            [
-              "E100",
-              "100 pints/day",
-              "Up to 5,500 sq ft",
-              "Yes",
-              "Most whole-home jobs"
-            ],
-            [
-              "E130",
-              "130 pints/day",
-              "Up to 7,400 sq ft",
-              "Yes",
-              "Large or very wet homes"
-            ]
-          ],
-          "caption": "Coverage figures are Aprilaire’s own ratings."
-        },
-        {
-          "type": "p",
-          "text": "Aprilaire’s whole-home units target 40–60% relative humidity. The EPA’s mold guidance is a little tighter at 30–50%, and mold can take hold on damp materials within 24 to 48 hours — a strong argument for a permanently drained machine over a bucket someone has to remember."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Aprilaire dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -265,7 +197,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an Aprilaire dehumidifier",
+      "heading": "Which features matter in an Aprilaire dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -370,5 +302,69 @@
     "/best/best-crawl-space-dehumidifier/",
     "/best/best-santa-fe-dehumidifier/",
     "/best/best-alorair-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "0 pints",
+          "label": "Tank capacity on every E-Series model — they’re all bucketless"
+        },
+        {
+          "value": "5 years",
+          "label": "Warranty on all four core models, versus one year on most portables"
+        },
+        {
+          "value": "~23%",
+          "label": "Annual energy savings ENERGY STAR credits to Most Efficient units"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Coverage",
+        "Most Efficient",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "E070",
+          "70 pints/day",
+          "Up to 2,200 sq ft",
+          "No",
+          "Sealed crawl spaces"
+        ],
+        [
+          "E080",
+          "80 pints/day",
+          "Up to 4,400 sq ft",
+          "Yes",
+          "Mid-sized homes"
+        ],
+        [
+          "E100",
+          "100 pints/day",
+          "Up to 5,500 sq ft",
+          "Yes",
+          "Most whole-home jobs"
+        ],
+        [
+          "E130",
+          "130 pints/day",
+          "Up to 7,400 sq ft",
+          "Yes",
+          "Large or very wet homes"
+        ]
+      ],
+      "caption": "Coverage figures are Aprilaire’s own ratings."
+    },
+    {
+      "type": "p",
+      "text": "Aprilaire’s whole-home units target 40–60% relative humidity. The EPA’s mold guidance is a little tighter at 30–50%, and mold can take hold on damp materials within 24 to 48 hours — a strong argument for a permanently drained machine over a bucket someone has to remember."
+    }
   ]
 }

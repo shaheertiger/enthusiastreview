@@ -158,12 +158,32 @@
         },
         {
           "type": "table",
-          "head": ["Feature", "What triggers it", "Why it matters"],
+          "head": [
+            "Feature",
+            "What triggers it",
+            "Why it matters"
+          ],
           "rows": [
-            ["Bucket-full shut-off", "A float switch rises with the water", "Prevents overflow; standard on compressor units"],
-            ["Humidity shut-off", "The room reaches your humidistat setting", "Saves power and prevents over-drying"],
-            ["Timer shut-off", "A countdown you set, often up to 24 hours", "Runs the unit only while you're out or awake"],
-            ["Auto-restart (related)", "Power returns after an outage", "Resumes at your settings instead of staying off"]
+            [
+              "Bucket-full shut-off",
+              "A float switch rises with the water",
+              "Prevents overflow; standard on compressor units"
+            ],
+            [
+              "Humidity shut-off",
+              "The room reaches your humidistat setting",
+              "Saves power and prevents over-drying"
+            ],
+            [
+              "Timer shut-off",
+              "A countdown you set, often up to 24 hours",
+              "Runs the unit only while you're out or awake"
+            ],
+            [
+              "Auto-restart (related)",
+              "Power returns after an outage",
+              "Resumes at your settings instead of staying off"
+            ]
           ]
         },
         {
@@ -174,7 +194,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers with auto shut-off",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -188,7 +208,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a dehumidifier with automatic shut-off",
+      "heading": "How do you choose a dehumidifier with automatic shut-off?",
       "blocks": [
         {
           "type": "checklist",
@@ -232,13 +252,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Pick", "Capacity", "Drainage", "Shut-off & restart features", "Best for"],
+          "head": [
+            "Pick",
+            "Capacity",
+            "Drainage",
+            "Shut-off & restart features",
+            "Best for"
+          ],
           "rows": [
-            ["Midea Cube 50", "50 pints (DOE)", "34-pint reservoir or hose", "Bucket-full stop, app monitoring", "Basements, big rooms"],
-            ["GE APER50LZ", "50 pints", "Built-in pump", "Pump avoids bucket stops", "Basements without a low drain"],
-            ["Frigidaire FHDD5034W1", "50 pints (DOE)", "Bucket or gravity hose", "Auto-restart at your settings", "Outage-prone homes"],
-            ["Keystone 22-Pint", "22 pints", "Bucket", "Bucket-full stop, 24-hour timer", "Bedrooms, offices"],
-            ["Pro Breeze PB-03", "Mini (thermoelectric)", "Small tank", "Full-tank stop and light", "Closets, bathrooms"]
+            [
+              "Midea Cube 50",
+              "50 pints (DOE)",
+              "34-pint reservoir or hose",
+              "Bucket-full stop, app monitoring",
+              "Basements, big rooms"
+            ],
+            [
+              "GE APER50LZ",
+              "50 pints",
+              "Built-in pump",
+              "Pump avoids bucket stops",
+              "Basements without a low drain"
+            ],
+            [
+              "Frigidaire FHDD5034W1",
+              "50 pints (DOE)",
+              "Bucket or gravity hose",
+              "Auto-restart at your settings",
+              "Outage-prone homes"
+            ],
+            [
+              "Keystone 22-Pint",
+              "22 pints",
+              "Bucket",
+              "Bucket-full stop, 24-hour timer",
+              "Bedrooms, offices"
+            ],
+            [
+              "Pro Breeze PB-03",
+              "Mini (thermoelectric)",
+              "Small tank",
+              "Full-tank stop and light",
+              "Closets, bathrooms"
+            ]
           ],
           "caption": "Capacities are DOE 2019 ratings where marked, otherwise manufacturer figures."
         }
@@ -254,11 +310,31 @@
         },
         {
           "type": "table",
-          "head": ["Bucket size", "20-pint unit", "35-pint unit", "50-pint unit"],
+          "head": [
+            "Bucket size",
+            "20-pint unit",
+            "35-pint unit",
+            "50-pint unit"
+          ],
           "rows": [
-            ["8 pints (1 gallon)", "About 10 hours", "About 5.5 hours", "About 4 hours"],
-            ["16 pints (2 gallons)", "About 19 hours", "About 11 hours", "About 8 hours"],
-            ["34 pints (Cube 50 reservoir)", "About 41 hours", "About 23 hours", "About 16 hours"]
+            [
+              "8 pints (1 gallon)",
+              "About 10 hours",
+              "About 5.5 hours",
+              "About 4 hours"
+            ],
+            [
+              "16 pints (2 gallons)",
+              "About 19 hours",
+              "About 11 hours",
+              "About 8 hours"
+            ],
+            [
+              "34 pints (Cube 50 reservoir)",
+              "About 41 hours",
+              "About 23 hours",
+              "About 16 hours"
+            ]
           ],
           "caption": "At full rated output. Real fill times are longer once the room nears your setpoint, and shorter in a hot, soaked space."
         },

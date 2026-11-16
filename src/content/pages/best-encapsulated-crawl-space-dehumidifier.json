@@ -151,35 +151,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Encapsulated crawl spaces, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "70 pints",
-              "label": "Daily removal per 1,000 sq ft that recent residential codes require when a dehumidifier conditions an unvented crawl"
-            },
-            {
-              "value": "6 in.",
-              "label": "How far vapor retarder seams should overlap — and how far the liner should run up the wall"
-            },
-            {
-              "value": "1 cfm / 50 sq ft",
-              "label": "The airflow codes accept as the alternative to a dehumidifier (exhaust fan or supply air)"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Recent editions of the International Residential Code allow several ways to condition an unvented crawl: a dehumidifier, a small continuous exhaust fan or a supply duct from the HVAC system. In humid climates most homeowners choose the dehumidifier because it controls humidity directly. Your jurisdiction may use an older code, so confirm what your inspector expects."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for encapsulated crawl spaces",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -193,7 +166,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an encapsulated crawl space dehumidifier",
+      "heading": "What matters most in an encapsulated crawl space dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -368,5 +341,28 @@
     "/best/best-aprilaire-dehumidifier/",
     "/best/best-low-temperature-dehumidifier/",
     "/best/best-whole-house-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "70 pints",
+          "label": "Daily removal per 1,000 sq ft that recent residential codes require when a dehumidifier conditions an unvented crawl"
+        },
+        {
+          "value": "6 in.",
+          "label": "How far vapor retarder seams should overlap — and how far the liner should run up the wall"
+        },
+        {
+          "value": "1 cfm / 50 sq ft",
+          "label": "The airflow codes accept as the alternative to a dehumidifier (exhaust fan or supply air)"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Recent editions of the International Residential Code allow several ways to condition an unvented crawl: a dehumidifier, a small continuous exhaust fan or a supply duct from the HVAC system. In humid climates most homeowners choose the dehumidifier because it controls humidity directly. Your jurisdiction may use an older code, so confirm what your inspector expects."
+    }
   ]
 }

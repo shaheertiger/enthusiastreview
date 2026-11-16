@@ -145,26 +145,8 @@
   ],
   "sections": [
     {
-      "id": "cabin-numbers",
-      "heading": "Cabin moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~6 hrs", "label": "Average total power interruption per U.S. electric customer in 2018, per the EIA" },
-            { "value": "~41°F", "label": "Where compressor dehumidifiers typically start to ice over" },
-            { "value": "24–48 hrs", "label": "How soon mold can begin growing on damp materials, per the EPA" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Rural cooperatives that serve much of cabin country tend to report longer outages than city utilities. Without auto-restart, even a short blackout can leave your dehumidifier off until your next visit — long enough for that mold clock to run several times over."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for cabins",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -178,7 +160,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a cabin",
+      "heading": "What should you look for in a dehumidifier for a cabin?",
       "blocks": [
         {
           "type": "checklist",
@@ -213,13 +195,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Your cabin", "Best approach", "Our pick"],
+          "head": [
+            "Your cabin",
+            "Best approach",
+            "Our pick"
+          ],
           "rows": [
-            ["Grid power, visited every week or two", "Compressor with auto-restart and a drain hose", "Frigidaire FHDD5034W1"],
-            ["No utility power", "Renewable silica gel", "Eva-Dry E-500"],
-            ["Power, but unheated all winter", "Desiccant rated to 33°F", "Ivation 13-Pint Desiccant"],
-            ["Large or lived in full-time", "Commercial unit with a pump", "AlorAir Sentinel HDi65S"],
-            ["One room or a loft", "Disposable absorbers", "DampRid Hanging"]
+            [
+              "Grid power, visited every week or two",
+              "Compressor with auto-restart and a drain hose",
+              "Frigidaire FHDD5034W1"
+            ],
+            [
+              "No utility power",
+              "Renewable silica gel",
+              "Eva-Dry E-500"
+            ],
+            [
+              "Power, but unheated all winter",
+              "Desiccant rated to 33°F",
+              "Ivation 13-Pint Desiccant"
+            ],
+            [
+              "Large or lived in full-time",
+              "Commercial unit with a pump",
+              "AlorAir Sentinel HDi65S"
+            ],
+            [
+              "One room or a loft",
+              "Disposable absorbers",
+              "DampRid Hanging"
+            ]
           ]
         },
         {
@@ -297,5 +303,28 @@
     "/best/best-crawl-space-dehumidifier/",
     "/best/best-dehumidifier-with-drain-hose/",
     "/best/best-moisture-absorber/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~6 hrs",
+          "label": "Average total power interruption per U.S. electric customer in 2018, per the EIA"
+        },
+        {
+          "value": "~41°F",
+          "label": "Where compressor dehumidifiers typically start to ice over"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How soon mold can begin growing on damp materials, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Rural cooperatives that serve much of cabin country tend to report longer outages than city utilities. Without auto-restart, even a short blackout can leave your dehumidifier off until your next visit — long enough for that mold clock to run several times over."
+    }
   ]
 }

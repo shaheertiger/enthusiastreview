@@ -164,35 +164,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Gun safe moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Relative humidity the NRA recommends inside a gun safe"
-            },
-            {
-              "value": "450 g",
-              "label": "Silica gel in Hornady's big dehumidifier bag — about a pound"
-            },
-            {
-              "value": "70%+",
-              "label": "Humidity at which bare carbon steel can rust within weeks"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Silica gel can hold a meaningful share of its own weight in water, which is why a heavy bag outlasts a handful of packets. But it only works until it's full, so the real skill is noticing when to recharge."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Hornady dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -206,7 +179,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Hornady gun safe dehumidifier",
+      "heading": "Which features matter in a Hornady gun safe dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -365,5 +338,28 @@
     "/best/best-rechargeable-dehumidifier/",
     "/best/best-eva-dry-dehumidifier/",
     "/best/best-moisture-absorber/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Relative humidity the NRA recommends inside a gun safe"
+        },
+        {
+          "value": "450 g",
+          "label": "Silica gel in Hornady's big dehumidifier bag — about a pound"
+        },
+        {
+          "value": "70%+",
+          "label": "Humidity at which bare carbon steel can rust within weeks"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Silica gel can hold a meaningful share of its own weight in water, which is why a heavy bag outlasts a handful of packets. But it only works until it's full, so the real skill is noticing when to recharge."
+    }
   ]
 }

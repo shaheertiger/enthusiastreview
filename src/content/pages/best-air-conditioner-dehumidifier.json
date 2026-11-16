@@ -149,35 +149,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Air conditioning and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "20–30%",
-              "label": "Typical share of a home AC's capacity that goes to removing moisture rather than heat"
-            },
-            {
-              "value": "Under 60%",
-              "label": "Indoor humidity the EPA recommends to keep mold in check"
-            },
-            {
-              "value": "45–50%",
-              "label": "A comfortable summer target for most homes"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That first number is the heart of the matter. An air conditioner spends most of its effort lowering temperature. On hot days that's plenty of drying; on a 72°F rainy day, the AC hardly runs at all."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifier air conditioners",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -191,7 +164,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an AC and dehumidifier combo",
+      "heading": "What separates a good AC and dehumidifier combo from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -377,5 +350,28 @@
     "/best/best-dehumidifier-for-mini-split/",
     "/best/best-whole-house-dehumidifier/",
     "/best/best-50-pint-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "20–30%",
+          "label": "Typical share of a home AC's capacity that goes to removing moisture rather than heat"
+        },
+        {
+          "value": "Under 60%",
+          "label": "Indoor humidity the EPA recommends to keep mold in check"
+        },
+        {
+          "value": "45–50%",
+          "label": "A comfortable summer target for most homes"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That first number is the heart of the matter. An air conditioner spends most of its effort lowering temperature. On hot days that's plenty of drying; on a 72°F rainy day, the AC hardly runs at all."
+    }
   ]
 }

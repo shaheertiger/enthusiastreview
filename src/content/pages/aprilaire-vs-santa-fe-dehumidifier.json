@@ -81,16 +81,52 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Feature", "Aprilaire E100", "Santa Fe Ultra V100"],
+          "head": [
+            "Feature",
+            "Aprilaire E100",
+            "Santa Fe Ultra V100"
+          ],
           "rows": [
-            ["Capacity", "100 pints/day", "100 pints/day"],
-            ["Rated coverage", "Up to 5,500 sq ft", "About 2,300 sq ft"],
-            ["Ventilation", "No — recirculates only", "Yes — meters in outdoor air"],
-            ["Filtration", "Standard filter", "MERV-13"],
-            ["ENERGY STAR", "Most Efficient", "Not listed as Most Efficient"],
-            ["Drainage", "Bucketless; pump optional", "Bucketless; pump optional"],
-            ["Warranty", "5 years, parts only", "6 years; full replacement years 1–5"],
-            ["Price tier", "$2,000+ installed unit", "Roughly $500 more than the E100"]
+            [
+              "Capacity",
+              "100 pints/day",
+              "100 pints/day"
+            ],
+            [
+              "Rated coverage",
+              "Up to 5,500 sq ft",
+              "About 2,300 sq ft"
+            ],
+            [
+              "Ventilation",
+              "No — recirculates only",
+              "Yes — meters in outdoor air"
+            ],
+            [
+              "Filtration",
+              "Standard filter",
+              "MERV-13"
+            ],
+            [
+              "ENERGY STAR",
+              "Most Efficient",
+              "Not listed as Most Efficient"
+            ],
+            [
+              "Drainage",
+              "Bucketless; pump optional",
+              "Bucketless; pump optional"
+            ],
+            [
+              "Warranty",
+              "5 years, parts only",
+              "6 years; full replacement years 1–5"
+            ],
+            [
+              "Price tier",
+              "$2,000+ installed unit",
+              "Roughly $500 more than the E100"
+            ]
           ]
         }
       ]

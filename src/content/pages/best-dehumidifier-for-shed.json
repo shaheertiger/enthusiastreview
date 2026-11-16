@@ -142,26 +142,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Shed moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "24–48 hrs", "label": "How fast mold can start on damp materials, per the EPA" },
-            { "value": "50–60%", "label": "Relative humidity above which rust on bare steel speeds up" },
-            { "value": "~41°F", "label": "Where standard compressor dehumidifiers start to ice up" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those numbers explain the strategy: keep humidity under about 50%, and pick a type that still works at the temperatures your shed actually sees."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick shed dehumidifiers",
+      "heading": "How we chose these shed dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -175,7 +157,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a shed dehumidifier",
+      "heading": "What should you look for in a shed dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -210,13 +192,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Pick", "Type", "Power needed", "Best for"],
+          "head": [
+            "Pick",
+            "Type",
+            "Power needed",
+            "Best for"
+          ],
           "rows": [
-            ["Eva-Dry E-333", "Renewable silica", "None (recharge indoors)", "Small storage shed"],
-            ["DampRid Hanging", "Disposable crystal", "None", "Larger shed on a budget"],
-            ["WiseDry Rechargeable", "Renewable desiccant", "None (recharge indoors)", "Tool cabinet or chest"],
-            ["Ivation 13-Pint", "Desiccant", "Yes", "Cold, powered shed"],
-            ["Frigidaire FHDD5034W1", "Compressor, 50 pints", "Yes", "Large workshop"]
+            [
+              "Eva-Dry E-333",
+              "Renewable silica",
+              "None (recharge indoors)",
+              "Small storage shed"
+            ],
+            [
+              "DampRid Hanging",
+              "Disposable crystal",
+              "None",
+              "Larger shed on a budget"
+            ],
+            [
+              "WiseDry Rechargeable",
+              "Renewable desiccant",
+              "None (recharge indoors)",
+              "Tool cabinet or chest"
+            ],
+            [
+              "Ivation 13-Pint",
+              "Desiccant",
+              "Yes",
+              "Cold, powered shed"
+            ],
+            [
+              "Frigidaire FHDD5034W1",
+              "Compressor, 50 pints",
+              "Yes",
+              "Large workshop"
+            ]
           ]
         }
       ]
@@ -312,5 +324,28 @@
     "/best/best-dehumidifier-for-storage-unit/",
     "/best/best-desiccant-dehumidifier/",
     "/best/best-dehumidifier-for-pole-barn/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can start on damp materials, per the EPA"
+        },
+        {
+          "value": "50–60%",
+          "label": "Relative humidity above which rust on bare steel speeds up"
+        },
+        {
+          "value": "~41°F",
+          "label": "Where standard compressor dehumidifiers start to ice up"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those numbers explain the strategy: keep humidity under about 50%, and pick a type that still works at the temperatures your shed actually sees."
+    }
   ]
 }

@@ -97,35 +97,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Camera storage humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "60% RH",
-              "label": "Level above which lens fungus becomes a real risk"
-            },
-            {
-              "value": "40–50%",
-              "label": "Sweet spot for long-term storage of lenses and bodies"
-            },
-            {
-              "value": "50–95°F",
-              "label": "Temperature range in which fungus grows comfortably"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Fungus growth speeds up sharply as humidity climbs toward the 80s and 90s, which is why gear stored in a summer closet, a basement studio or a coastal apartment is most at risk. Drier isn't always better, though: going far below 40% for years can dry out rubber grips, seals and internal lubricants."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick camera dry cabinets",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -139,7 +112,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a camera dry cabinet",
+      "heading": "What separates a good camera dry cabinet from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -242,5 +215,28 @@
     "/best/best-dehumidifier-for-gun-safe/",
     "/best/best-dehumidifier-for-guitar/",
     "/best/best-moisture-absorber/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "60% RH",
+          "label": "Level above which lens fungus becomes a real risk"
+        },
+        {
+          "value": "40–50%",
+          "label": "Sweet spot for long-term storage of lenses and bodies"
+        },
+        {
+          "value": "50–95°F",
+          "label": "Temperature range in which fungus grows comfortably"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Fungus growth speeds up sharply as humidity climbs toward the 80s and 90s, which is why gear stored in a summer closet, a basement studio or a coastal apartment is most at risk. Drier isn't always better, though: going far below 40% for years can dry out rubber grips, seals and internal lubricants."
+    }
   ]
 }

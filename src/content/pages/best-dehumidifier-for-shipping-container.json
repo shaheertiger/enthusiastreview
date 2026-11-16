@@ -118,35 +118,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Container moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "35–55%",
-              "label": "Target humidity for most goods stored in a container"
-            },
-            {
-              "value": "1,170 cu ft",
-              "label": "Approximate air volume of a standard 20-foot container (a 40-footer is about 2,390)"
-            },
-            {
-              "value": "30°F+",
-              "label": "Day-to-night temperature swings that bare steel passes straight through in many climates"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Container storage providers such as Mobile Modular recommend keeping humidity in the 35–55% band. Above about 60%, the risk of mold, mildew and rust climbs quickly — especially for wood, cardboard, fabric, electronics and bare metal."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick shipping container dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -160,7 +133,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a shipping container dehumidifier",
+      "heading": "Which features matter in a shipping container dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -308,5 +281,28 @@
     "/best/best-eva-dry-dehumidifier/",
     "/guides/dehumidifier-freezing-up/",
     "/best/best-dehumidifier-for-pole-barn/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "35–55%",
+          "label": "Target humidity for most goods stored in a container"
+        },
+        {
+          "value": "1,170 cu ft",
+          "label": "Approximate air volume of a standard 20-foot container (a 40-footer is about 2,390)"
+        },
+        {
+          "value": "30°F+",
+          "label": "Day-to-night temperature swings that bare steel passes straight through in many climates"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Container storage providers such as Mobile Modular recommend keeping humidity in the 35–55% band. Above about 60%, the risk of mold, mildew and rust climbs quickly — especially for wood, cardboard, fabric, electronics and bare metal."
+    }
   ]
 }

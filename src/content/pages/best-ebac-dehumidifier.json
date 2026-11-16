@@ -117,71 +117,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Ebac dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "1973",
-              "label": "Year Ebac was founded in Newton Aycliffe, England"
-            },
-            {
-              "value": "33°F",
-              "label": "Minimum rated operating temperature of the Neptune and CD30-S"
-            },
-            {
-              "value": "95 pints",
-              "label": "Daily capacity of the AD850E, Ebac's largest U.S. model"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Capacity",
-            "Airflow",
-            "Format",
-            "Best for"
-          ],
-          "rows": [
-            [
-              "Neptune",
-              "52 pints/day (AHAM)",
-              "282 CFM",
-              "Portable",
-              "Restoration"
-            ],
-            [
-              "CD30-S",
-              "24 pints/day",
-              "170 CFM",
-              "Compact, bracket-mount",
-              "Crawl spaces, boats"
-            ],
-            [
-              "WM80-D",
-              "~56–62 pints/day",
-              "—",
-              "Wall-mount, pump",
-              "Basements"
-            ],
-            [
-              "AD850E",
-              "95 pints/day",
-              "294 CFM",
-              "Wall-mount, pump",
-              "Large spaces"
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Ebac dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -195,7 +132,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an Ebac dehumidifier",
+      "heading": "What separates a good Ebac dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -315,5 +252,64 @@
     "/best/best-alorair-dehumidifier/",
     "/best/best-dehumidifier-for-warehouse/",
     "/best/best-dehumidifier-brands/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "1973",
+          "label": "Year Ebac was founded in Newton Aycliffe, England"
+        },
+        {
+          "value": "33°F",
+          "label": "Minimum rated operating temperature of the Neptune and CD30-S"
+        },
+        {
+          "value": "95 pints",
+          "label": "Daily capacity of the AD850E, Ebac's largest U.S. model"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Airflow",
+        "Format",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "Neptune",
+          "52 pints/day (AHAM)",
+          "282 CFM",
+          "Portable",
+          "Restoration"
+        ],
+        [
+          "CD30-S",
+          "24 pints/day",
+          "170 CFM",
+          "Compact, bracket-mount",
+          "Crawl spaces, boats"
+        ],
+        [
+          "WM80-D",
+          "~56–62 pints/day",
+          "—",
+          "Wall-mount, pump",
+          "Basements"
+        ],
+        [
+          "AD850E",
+          "95 pints/day",
+          "294 CFM",
+          "Wall-mount, pump",
+          "Large spaces"
+        ]
+      ]
+    }
   ]
 }

@@ -123,26 +123,8 @@
   ],
   "sections": [
     {
-      "id": "drying-numbers",
-      "heading": "Drying clothes indoors, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~4¾ hrs", "label": "Drying time for a load with a dehumidifier alone in one published magazine test" },
-            { "value": "~2 hrs", "label": "Same load, same test, with a fan aimed at the rack" },
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The lesson from that test: airflow across the fabric matters about as much as how much water the dehumidifier removes. The two together beat either one alone."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for drying clothes",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -156,7 +138,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for clothes",
+      "heading": "What matters most in a dehumidifier for clothes?",
       "blocks": [
         {
           "type": "checklist",
@@ -214,12 +196,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Dehumidifier + rack", "Tumble dryer"],
+          "head": [
+            "",
+            "Dehumidifier + rack",
+            "Tumble dryer"
+          ],
           "rows": [
-            ["Drying time", "About 2–5 hours, depending on setup", "Usually under an hour"],
-            ["Heat on fabric", "None", "High, can shrink or fade"],
-            ["Installation", "Plug in anywhere", "Venting or hookups needed"],
-            ["Bonus", "Keeps the room dry all year", "Laundry only"]
+            [
+              "Drying time",
+              "About 2–5 hours, depending on setup",
+              "Usually under an hour"
+            ],
+            [
+              "Heat on fabric",
+              "None",
+              "High, can shrink or fade"
+            ],
+            [
+              "Installation",
+              "Plug in anywhere",
+              "Venting or hookups needed"
+            ],
+            [
+              "Bonus",
+              "Keeps the room dry all year",
+              "Laundry only"
+            ]
           ]
         },
         {
@@ -272,5 +274,28 @@
     "/guides/where-to-place-a-dehumidifier/",
     "/guides/how-to-dehumidify-a-room/",
     "/best/best-small-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~4¾ hrs",
+          "label": "Drying time for a load with a dehumidifier alone in one published magazine test"
+        },
+        {
+          "value": "~2 hrs",
+          "label": "Same load, same test, with a fan aimed at the rack"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The lesson from that test: airflow across the fabric matters about as much as how much water the dehumidifier removes. The two together beat either one alone."
+    }
   ]
 }

@@ -147,26 +147,8 @@
   ],
   "sections": [
     {
-      "id": "budget-numbers",
-      "heading": "Budget dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "$100+", "label": "Typical gap between a budget 30-pint compressor and a 50-pint Wi-Fi flagship" },
-            { "value": "30–50%", "label": "Humidity range the EPA recommends for homes" },
-            { "value": "0 W", "label": "What a renewable silica unit draws while working" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Most of that price gap pays for tank size, pump convenience and app control. If you don't need those, a budget compressor holds the EPA's range just as well in a correctly sized room."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick budget dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -180,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a budget dehumidifier",
+      "heading": "What separates a good budget dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -215,13 +197,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Best for", "Type", "Drainage"],
+          "head": [
+            "Model",
+            "Best for",
+            "Type",
+            "Drainage"
+          ],
           "rows": [
-            ["AirPlus Max 30", "Most rooms", "Compressor, 30 pints", "Tank or hose"],
-            ["Frigidaire FFAD2233W1", "Continuous drain", "Compressor, 22 pints", "Bucket or hose"],
-            ["hOmeLabs HME1003 Wi-Fi", "Large spaces, no drain", "Compressor, 50 pints", "Built-in pump"],
-            ["Pro Breeze PB-03", "One small room", "Thermoelectric", "Tank"],
-            ["Eva-Dry E-333", "Closets and safes", "Renewable silica", "None (recharge)"]
+            [
+              "AirPlus Max 30",
+              "Most rooms",
+              "Compressor, 30 pints",
+              "Tank or hose"
+            ],
+            [
+              "Frigidaire FFAD2233W1",
+              "Continuous drain",
+              "Compressor, 22 pints",
+              "Bucket or hose"
+            ],
+            [
+              "hOmeLabs HME1003 Wi-Fi",
+              "Large spaces, no drain",
+              "Compressor, 50 pints",
+              "Built-in pump"
+            ],
+            [
+              "Pro Breeze PB-03",
+              "One small room",
+              "Thermoelectric",
+              "Tank"
+            ],
+            [
+              "Eva-Dry E-333",
+              "Closets and safes",
+              "Renewable silica",
+              "None (recharge)"
+            ]
           ]
         },
         {
@@ -298,5 +310,28 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-energy-efficient-dehumidifier/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "$100+",
+          "label": "Typical gap between a budget 30-pint compressor and a 50-pint Wi-Fi flagship"
+        },
+        {
+          "value": "30–50%",
+          "label": "Humidity range the EPA recommends for homes"
+        },
+        {
+          "value": "0 W",
+          "label": "What a renewable silica unit draws while working"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Most of that price gap pays for tank size, pump convenience and app control. If you don't need those, a budget compressor holds the EPA's range just as well in a correctly sized room."
+    }
   ]
 }

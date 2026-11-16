@@ -158,11 +158,31 @@
         },
         {
           "type": "table",
-          "head": ["How damp is it?", "Per 2,000 sq ft zone (DOE pints)", "Two portables", "One whole-home unit (AHAM pints)"],
+          "head": [
+            "How damp is it?",
+            "Per 2,000 sq ft zone (DOE pints)",
+            "Two portables",
+            "One whole-home unit (AHAM pints)"
+          ],
           "rows": [
-            ["Moderately damp (musty, no visible moisture)", "30+", "Two 30–35-pint units", "100 in a tight home"],
-            ["Very damp (condensation on walls, pipes, windows)", "40+", "Two 50-pint units", "100–130"],
-            ["Wet (seepage, standing water)", "50+", "Two 50-pint pump units, after fixing the water", "130, plus drainage repairs"]
+            [
+              "Moderately damp (musty, no visible moisture)",
+              "30+",
+              "Two 30–35-pint units",
+              "100 in a tight home"
+            ],
+            [
+              "Very damp (condensation on walls, pipes, windows)",
+              "40+",
+              "Two 50-pint units",
+              "100–130"
+            ],
+            [
+              "Wet (seepage, standing water)",
+              "50+",
+              "Two 50-pint pump units, after fixing the water",
+              "130, plus drainage repairs"
+            ]
           ],
           "caption": "Portables use DOE 2019 ratings; installed whole-home units use AHAM ratings. Don't compare the two numbers directly."
         },
@@ -175,7 +195,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for 4,000 sq ft",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -189,7 +209,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a 4,000 sq ft dehumidifier",
+      "heading": "What should you look for in a 4,000 sq ft dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -224,13 +244,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Whole-house unit", "Two portables"],
+          "head": [
+            "",
+            "Whole-house unit",
+            "Two portables"
+          ],
           "rows": [
-            ["Upfront cost", "Four figures, plus installation", "A few hundred dollars each"],
-            ["Coverage", "Every ducted room evenly", "The two zones they sit in"],
-            ["Drainage", "One permanent drain line", "Two hoses, pumps or buckets"],
-            ["Noise in living areas", "Unit sits in a basement or utility room", "Each unit runs in the room it serves"],
-            ["Lifespan and warranty", "A decade or more; 5-year warranty", "Several summers; 1-year warranty typical"]
+            [
+              "Upfront cost",
+              "Four figures, plus installation",
+              "A few hundred dollars each"
+            ],
+            [
+              "Coverage",
+              "Every ducted room evenly",
+              "The two zones they sit in"
+            ],
+            [
+              "Drainage",
+              "One permanent drain line",
+              "Two hoses, pumps or buckets"
+            ],
+            [
+              "Noise in living areas",
+              "Unit sits in a basement or utility room",
+              "Each unit runs in the room it serves"
+            ],
+            [
+              "Lifespan and warranty",
+              "A decade or more; 5-year warranty",
+              "Several summers; 1-year warranty typical"
+            ]
           ]
         },
         {

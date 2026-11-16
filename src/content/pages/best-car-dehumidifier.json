@@ -150,35 +150,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Car moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~2 oz",
-              "label": "Water vapor in a midsize car's air at 77°F and 80% humidity"
-            },
-            {
-              "value": "13 oz",
-              "label": "Maximum water an Eva-Dry E-333 holds, per Eva-Dry"
-            },
-            {
-              "value": "60 days",
-              "label": "How long a DampRid hanging bag lasts, per DampRid"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The first number explains why wiping the glass never solves anything. A single soggy floor mat holds far more water than the cabin air, so the vapor keeps coming back as it evaporates. A dehumidifier's job is to soak up that steady trickle faster than it fogs the windows."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick car dehumidifiers",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -192,7 +165,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a car dehumidifier",
+      "heading": "Which features matter in a car dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -330,5 +303,28 @@
     "/best/best-dehumidifier-for-boat/",
     "/best/best-dehumidifier-for-garage/",
     "/guides/dehumidifier-for-condensation-on-windows/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~2 oz",
+          "label": "Water vapor in a midsize car's air at 77°F and 80% humidity"
+        },
+        {
+          "value": "13 oz",
+          "label": "Maximum water an Eva-Dry E-333 holds, per Eva-Dry"
+        },
+        {
+          "value": "60 days",
+          "label": "How long a DampRid hanging bag lasts, per DampRid"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The first number explains why wiping the glass never solves anything. A single soggy floor mat holds far more water than the cabin air, so the vapor keeps coming back as it evaporates. A dehumidifier's job is to soak up that steady trickle faster than it fogs the windows."
+    }
   ]
 }

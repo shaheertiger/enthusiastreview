@@ -94,26 +94,8 @@
   ],
   "sections": [
     {
-      "id": "amana-numbers",
-      "heading": "Amana dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "3", "label": "Current Amana dehumidifier models sold in the U.S." },
-            { "value": "~20", "label": "Brand names covered by the 2021 New Widetech recall, Amana among them" },
-            { "value": "30x", "label": "Gap between two retailers' coverage claims for the same AMND501AW" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Amana's home appliances, including its dehumidifiers, are sold under Whirlpool Corporation, while Amana-branded furnaces and central air come from a separate HVAC business. Amana doesn't publicly say which factory builds its current dehumidifiers, so you're buying a well-known appliance name rather than a humidity-control specialist."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we picked the best Amana dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -127,7 +109,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an Amana dehumidifier",
+      "heading": "What matters most in an Amana dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -189,13 +171,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "AMND501AW", "AMND501PAW", "AMAD481BW"],
+          "head": [
+            "",
+            "AMND501AW",
+            "AMND501PAW",
+            "AMAD481BW"
+          ],
           "rows": [
-            ["Capacity", "50 pints/day", "50 pints/day", "48 pints/day"],
-            ["Fan speeds", "3", "3", "2"],
-            ["Built-in pump", "No", "Yes", "No"],
-            ["Bucket", "16.2 pints", "Not consistently listed", "6.3 quarts"],
-            ["Listed coverage", "Disputed (150–4,500 sq ft)", "Up to 4,500 sq ft", "Up to 1,200 sq ft"]
+            [
+              "Capacity",
+              "50 pints/day",
+              "50 pints/day",
+              "48 pints/day"
+            ],
+            [
+              "Fan speeds",
+              "3",
+              "3",
+              "2"
+            ],
+            [
+              "Built-in pump",
+              "No",
+              "Yes",
+              "No"
+            ],
+            [
+              "Bucket",
+              "16.2 pints",
+              "Not consistently listed",
+              "6.3 quarts"
+            ],
+            [
+              "Listed coverage",
+              "Disputed (150–4,500 sq ft)",
+              "Up to 4,500 sq ft",
+              "Up to 1,200 sq ft"
+            ]
           ],
           "caption": "Figures from manufacturer and retailer listings; where they conflict, we show the range."
         },
@@ -257,5 +269,28 @@
     "/best/best-friedrich-dehumidifier/",
     "/best/best-dehumidifier-brands/",
     "/best/best-budget-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "3",
+          "label": "Current Amana dehumidifier models sold in the U.S."
+        },
+        {
+          "value": "~20",
+          "label": "Brand names covered by the 2021 New Widetech recall, Amana among them"
+        },
+        {
+          "value": "30x",
+          "label": "Gap between two retailers' coverage claims for the same AMND501AW"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Amana's home appliances, including its dehumidifiers, are sold under Whirlpool Corporation, while Amana-branded furnaces and central air come from a separate HVAC business. Amana doesn't publicly say which factory builds its current dehumidifiers, so you're buying a well-known appliance name rather than a humidity-control specialist."
+    }
   ]
 }

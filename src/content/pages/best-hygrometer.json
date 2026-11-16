@@ -174,26 +174,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Humidity monitoring, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends for most homes" },
-            { "value": "±2–3%", "label": "Published accuracy of good consumer hygrometers in the mid range" },
-            { "value": "75%", "label": "Humidity a saturated salt solution produces — the basis of the salt test" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "A dehumidifier's own sensor is often less precise than any of these monitors, and it reads the air right next to the machine, which is usually drier than the rest of the room. Two readings a few points apart are normal; ten points apart means something needs attention."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick hygrometers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -203,7 +185,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a hygrometer",
+      "heading": "What separates a good hygrometer from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -362,5 +344,28 @@
     "/best/best-smart-dehumidifier/",
     "/guides/when-to-use-a-dehumidifier/",
     "/best/best-crawl-space-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends for most homes"
+        },
+        {
+          "value": "±2–3%",
+          "label": "Published accuracy of good consumer hygrometers in the mid range"
+        },
+        {
+          "value": "75%",
+          "label": "Humidity a saturated salt solution produces — the basis of the salt test"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A dehumidifier's own sensor is often less precise than any of these monitors, and it reads the air right next to the machine, which is usually drier than the rest of the room. Two readings a few points apart are normal; ten points apart means something needs attention."
+    }
   ]
 }

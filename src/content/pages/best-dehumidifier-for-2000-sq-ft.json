@@ -131,11 +131,27 @@
         },
         {
           "type": "table",
-          "head": ["Condition", "What it looks like", "Suggested capacity (DOE 2019)"],
+          "head": [
+            "Condition",
+            "What it looks like",
+            "Suggested capacity (DOE 2019)"
+          ],
           "rows": [
-            ["Moderately damp", "Musty smell in humid weather", "25–30 pints"],
-            ["Very damp", "Damp feel, occasional condensation", "30–40 pints"],
-            ["Wet", "Seepage, sweating walls, standing water", "40–50+ pints"]
+            [
+              "Moderately damp",
+              "Musty smell in humid weather",
+              "25–30 pints"
+            ],
+            [
+              "Very damp",
+              "Damp feel, occasional condensation",
+              "30–40 pints"
+            ],
+            [
+              "Wet",
+              "Seepage, sweating walls, standing water",
+              "40–50+ pints"
+            ]
           ],
           "caption": "We recommend 50 pints for most 2,000 sq ft spaces so the unit cycles rather than running constantly."
         },
@@ -147,7 +163,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for 2,000 sq ft",
+      "heading": "How we chose these dehumidifiers for 2,000 sq ft",
       "blocks": [
         {
           "type": "p",
@@ -161,7 +177,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a 2,000 sq ft dehumidifier",
+      "heading": "How do you pick a 2,000 sq ft dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -200,12 +216,27 @@
         },
         {
           "type": "table",
-          "head": ["Your layout", "Best approach"],
+          "head": [
+            "Your layout",
+            "Best approach"
+          ],
           "rows": [
-            ["One open rectangle", "A single 50-pint unit, or 70-pint if wet"],
-            ["Open but L-shaped", "One high-coverage unit placed at the corner of the L"],
-            ["Finished side plus mechanical room", "Two units, one per zone"],
-            ["Separate rooms off a hallway", "Two units, or consider a ducted system"]
+            [
+              "One open rectangle",
+              "A single 50-pint unit, or 70-pint if wet"
+            ],
+            [
+              "Open but L-shaped",
+              "One high-coverage unit placed at the corner of the L"
+            ],
+            [
+              "Finished side plus mechanical room",
+              "Two units, one per zone"
+            ],
+            [
+              "Separate rooms off a hallway",
+              "Two units, or consider a ducted system"
+            ]
           ]
         },
         {

@@ -162,7 +162,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick rechargeable dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -176,7 +176,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a rechargeable dehumidifier",
+      "heading": "What should you look for in a rechargeable dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -211,13 +211,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Rechargeable silica gel", "Electric rod", "Calcium chloride absorber"],
+          "head": [
+            "",
+            "Rechargeable silica gel",
+            "Electric rod",
+            "Calcium chloride absorber"
+          ],
           "rows": [
-            ["Needs power", "Only to recharge", "Always", "Never"],
-            ["Removes water", "Yes, modest amounts", "No — warms air to prevent condensation", "Yes, more per pound"],
-            ["Maintenance", "Recharge every few weeks", "None", "Replace or refill"],
-            ["Spill risk", "None", "None", "Brine can leak"],
-            ["Best for", "Safes, closets, cars", "Safes near an outlet", "Closets, storage units"]
+            [
+              "Needs power",
+              "Only to recharge",
+              "Always",
+              "Never"
+            ],
+            [
+              "Removes water",
+              "Yes, modest amounts",
+              "No — warms air to prevent condensation",
+              "Yes, more per pound"
+            ],
+            [
+              "Maintenance",
+              "Recharge every few weeks",
+              "None",
+              "Replace or refill"
+            ],
+            [
+              "Spill risk",
+              "None",
+              "None",
+              "Brine can leak"
+            ],
+            [
+              "Best for",
+              "Safes, closets, cars",
+              "Safes near an outlet",
+              "Closets, storage units"
+            ]
           ]
         },
         {

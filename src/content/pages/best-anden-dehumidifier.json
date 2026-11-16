@@ -146,26 +146,8 @@
   ],
   "sections": [
     {
-      "id": "grow-numbers",
-      "heading": "Grow-room moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~97%", "label": "Share of the water plants take up that they release back into the air" },
-            { "value": "8 pints", "label": "Moisture load from every gallon of water you give your plants" },
-            { "value": "80°F / 60%", "label": "Conditions behind Anden's pints-per-day model numbers" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That first number is why grow rooms need so much dehumidification. Plants keep only a tiny fraction of the water they drink; nearly all of it leaves through the leaves. If you water 10 gallons a day, roughly 80 pints of moisture will end up in the room's air."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Anden dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -179,7 +161,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an Anden dehumidifier",
+      "heading": "How do you pick an Anden dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -203,7 +185,10 @@
             {
               "label": "Room for the heat",
               "text": "Every dehumidifier adds heat. In a sealed room, factor that into your air-conditioning load.",
-              "sub": ["Lights-on: heat from lights plus the dehumidifier", "Lights-off: humidity spikes as temperatures drop"]
+              "sub": [
+                "Lights-on: heat from lights plus the dehumidifier",
+                "Lights-off: humidity spikes as temperatures drop"
+              ]
             }
           ]
         }
@@ -219,12 +204,32 @@
         },
         {
           "type": "table",
-          "head": ["Daily watering", "Moisture to remove", "Anden fit"],
+          "head": [
+            "Daily watering",
+            "Moisture to remove",
+            "Anden fit"
+          ],
           "rows": [
-            ["Up to ~5 gallons", "Up to ~40 pints", "A70"],
-            ["~6–12 gallons", "~50–100 pints", "A130, or two A70s"],
-            ["~13–25 gallons", "~100–200 pints", "A320, or two A130s"],
-            ["30+ gallons", "240+ pints", "Multiple A320s or a mix of sizes"]
+            [
+              "Up to ~5 gallons",
+              "Up to ~40 pints",
+              "A70"
+            ],
+            [
+              "~6–12 gallons",
+              "~50–100 pints",
+              "A130, or two A70s"
+            ],
+            [
+              "~13–25 gallons",
+              "~100–200 pints",
+              "A320, or two A130s"
+            ],
+            [
+              "30+ gallons",
+              "240+ pints",
+              "Multiple A320s or a mix of sizes"
+            ]
           ],
           "caption": "Ratings are at 80°F and 60% humidity. In cooler, drier late-flower rooms, real capacity drops — build in headroom."
         },
@@ -258,12 +263,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Anden", "Quest", "AlorAir"],
+          "head": [
+            "",
+            "Anden",
+            "Quest",
+            "AlorAir"
+          ],
           "rows": [
-            ["Parent company", "Research Products Corp. (Aprilaire)", "Therma-Stor (Santa Fe)", "AlorAir"],
-            ["Focus", "Grow rooms, indoor ag", "Grow rooms, commercial", "Crawl spaces, restoration, grows"],
-            ["Strength", "Value among grow-specific brands", "Efficiency", "Lowest upfront cost"],
-            ["Typical buyer", "Home and commercial growers", "Commercial growers", "Budget-conscious growers"]
+            [
+              "Parent company",
+              "Research Products Corp. (Aprilaire)",
+              "Therma-Stor (Santa Fe)",
+              "AlorAir"
+            ],
+            [
+              "Focus",
+              "Grow rooms, indoor ag",
+              "Grow rooms, commercial",
+              "Crawl spaces, restoration, grows"
+            ],
+            [
+              "Strength",
+              "Value among grow-specific brands",
+              "Efficiency",
+              "Lowest upfront cost"
+            ],
+            [
+              "Typical buyer",
+              "Home and commercial growers",
+              "Commercial growers",
+              "Budget-conscious growers"
+            ]
           ]
         },
         {
@@ -316,5 +346,28 @@
     "/best/best-commercial-dehumidifier/",
     "/best/best-dehumidifier-for-greenhouse/",
     "/best/best-ac-infinity-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~97%",
+          "label": "Share of the water plants take up that they release back into the air"
+        },
+        {
+          "value": "8 pints",
+          "label": "Moisture load from every gallon of water you give your plants"
+        },
+        {
+          "value": "80°F / 60%",
+          "label": "Conditions behind Anden's pints-per-day model numbers"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That first number is why grow rooms need so much dehumidification. Plants keep only a tiny fraction of the water they drink; nearly all of it leaves through the leaves. If you water 10 gallons a day, roughly 80 pints of moisture will end up in the room's air."
+    }
   ]
 }

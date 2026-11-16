@@ -146,71 +146,8 @@
   ],
   "sections": [
     {
-      "id": "ge-by-the-numbers",
-      "heading": "GE dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "16 ft",
-              "label": "Vertical pump lift on the APYR50LC, per GE"
-            },
-            {
-              "value": "5,000 sq ft",
-              "label": "GE's rated coverage for its 50-pint Wi-Fi model"
-            },
-            {
-              "value": "1 year",
-              "label": "GE's standard limited warranty across the lineup"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Capacity",
-            "Pump",
-            "Smart control",
-            "Best for"
-          ],
-          "rows": [
-            [
-              "APYR50LC",
-              "50 pints/day",
-              "Yes, 16-ft lift",
-              "No",
-              "Basement or garage"
-            ],
-            [
-              "50-pint Wi-Fi",
-              "50 pints/day",
-              "No (bucket or gravity)",
-              "SmartHQ app, Alexa, Google",
-              "Finished basement with a drain"
-            ],
-            [
-              "ADEL35LZ",
-              "35 pints/day",
-              "No (gravity)",
-              "No",
-              "Bedroom, small basement"
-            ],
-            [
-              "ADEL20LY",
-              "20 pints/day",
-              "No (gravity)",
-              "No",
-              "Single room"
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best GE dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -220,7 +157,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a GE dehumidifier",
+      "heading": "Which features matter in a GE dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -336,5 +273,64 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-for-basement/",
     "/guides/dehumidifier-maintenance/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "16 ft",
+          "label": "Vertical pump lift on the APYR50LC, per GE"
+        },
+        {
+          "value": "5,000 sq ft",
+          "label": "GE's rated coverage for its 50-pint Wi-Fi model"
+        },
+        {
+          "value": "1 year",
+          "label": "GE's standard limited warranty across the lineup"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Pump",
+        "Smart control",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "APYR50LC",
+          "50 pints/day",
+          "Yes, 16-ft lift",
+          "No",
+          "Basement or garage"
+        ],
+        [
+          "50-pint Wi-Fi",
+          "50 pints/day",
+          "No (bucket or gravity)",
+          "SmartHQ app, Alexa, Google",
+          "Finished basement with a drain"
+        ],
+        [
+          "ADEL35LZ",
+          "35 pints/day",
+          "No (gravity)",
+          "No",
+          "Bedroom, small basement"
+        ],
+        [
+          "ADEL20LY",
+          "20 pints/day",
+          "No (gravity)",
+          "No",
+          "Single room"
+        ]
+      ]
+    }
   ]
 }

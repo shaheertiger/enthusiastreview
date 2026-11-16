@@ -117,22 +117,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Danby dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "24 months", "label": "Danby’s standard parts-and-labor warranty on current models" },
-            { "value": "2", "label": "Separate CPSC recalls covering older Danby-branded units" },
-            { "value": "2009–2017", "label": "Sales window covered by both recalls" }
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best Danby dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -146,7 +132,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Danby dehumidifier",
+      "heading": "What matters most in a Danby dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -185,16 +171,43 @@
         },
         {
           "type": "table",
-          "head": ["Button or icon", "What it usually does"],
+          "head": [
+            "Button or icon",
+            "What it usually does"
+          ],
           "rows": [
-            ["Power", "Turns the unit on and off; most current models remember settings after an outage"],
-            ["Humidity up / down arrows", "Sets the target relative humidity; the display may switch between the target and the room reading"],
-            ["Fan speed", "Toggles between low and high airflow"],
-            ["Timer", "Sets an automatic on or off delay in hours"],
-            ["Mode / Continuous", "Switches between holding a set humidity and running nonstop"],
-            ["Bucket full light", "The tank is full or not seated; the compressor stops until it’s emptied and reinstalled"],
-            ["Filter light", "A reminder to clean the washable filter; press and hold the filter button to reset it"],
-            ["Defrost indicator", "The coil is icing in a cool room, so the unit pauses to melt it"]
+            [
+              "Power",
+              "Turns the unit on and off; most current models remember settings after an outage"
+            ],
+            [
+              "Humidity up / down arrows",
+              "Sets the target relative humidity; the display may switch between the target and the room reading"
+            ],
+            [
+              "Fan speed",
+              "Toggles between low and high airflow"
+            ],
+            [
+              "Timer",
+              "Sets an automatic on or off delay in hours"
+            ],
+            [
+              "Mode / Continuous",
+              "Switches between holding a set humidity and running nonstop"
+            ],
+            [
+              "Bucket full light",
+              "The tank is full or not seated; the compressor stops until it’s emptied and reinstalled"
+            ],
+            [
+              "Filter light",
+              "A reminder to clean the washable filter; press and hold the filter button to reset it"
+            ],
+            [
+              "Defrost indicator",
+              "The coil is icing in a cool room, so the unit pauses to melt it"
+            ]
           ]
         },
         {
@@ -291,5 +304,24 @@
     "/guides/dehumidifier-humidistat-settings-guide/",
     "/best/best-haier-dehumidifier/",
     "/best/best-costco-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24 months",
+          "label": "Danby’s standard parts-and-labor warranty on current models"
+        },
+        {
+          "value": "2",
+          "label": "Separate CPSC recalls covering older Danby-branded units"
+        },
+        {
+          "value": "2009–2017",
+          "label": "Sales window covered by both recalls"
+        }
+      ]
+    }
   ]
 }

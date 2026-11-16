@@ -147,26 +147,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Storage unit moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~45%", "label": "Share of U.S. self-storage space that's climate-controlled" },
-            { "value": "24–48 hrs", "label": "How quickly mold can start on damp materials, per the EPA" },
-            { "value": "30–50%", "label": "EPA-recommended indoor humidity — a good target inside a unit" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put those together and the risk is clear: most units have no humidity control, and mold doesn't need long to get started on cardboard or upholstery that nobody is checking."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for storage units",
+      "heading": "How we chose these dehumidifiers for storage units",
       "blocks": [
         {
           "type": "p",
@@ -180,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a storage unit dehumidifier",
+      "heading": "What should you look for in a storage unit dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -215,12 +197,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Unit size", "Approx. volume (8 ft ceiling)", "Visits monthly", "Visits rarely"],
+          "head": [
+            "Unit size",
+            "Approx. volume (8 ft ceiling)",
+            "Visits monthly",
+            "Visits rarely"
+          ],
           "rows": [
-            ["5x5", "200 cu ft", "Eva-Dry E-333", "DampRid FG50T"],
-            ["5x10", "400 cu ft", "Eva-Dry E-500", "DampRid FG50T"],
-            ["10x10", "800 cu ft", "Two E-500s or E-500 + E-333", "Two DampRid tubs"],
-            ["10x20 or larger", "1,600+ cu ft", "Plug-in unit if powered", "Several tubs spaced out"]
+            [
+              "5x5",
+              "200 cu ft",
+              "Eva-Dry E-333",
+              "DampRid FG50T"
+            ],
+            [
+              "5x10",
+              "400 cu ft",
+              "Eva-Dry E-500",
+              "DampRid FG50T"
+            ],
+            [
+              "10x10",
+              "800 cu ft",
+              "Two E-500s or E-500 + E-333",
+              "Two DampRid tubs"
+            ],
+            [
+              "10x20 or larger",
+              "1,600+ cu ft",
+              "Plug-in unit if powered",
+              "Several tubs spaced out"
+            ]
           ],
           "caption": "Ceiling heights vary; measure yours and multiply length × width × height."
         }
@@ -292,5 +299,28 @@
     "/best/best-dehumidifier-for-shipping-container/",
     "/best/best-dehumidifier-for-closet/",
     "/best/best-dehumidifier-for-garage/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~45%",
+          "label": "Share of U.S. self-storage space that's climate-controlled"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can start on damp materials, per the EPA"
+        },
+        {
+          "value": "30–50%",
+          "label": "EPA-recommended indoor humidity — a good target inside a unit"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put those together and the risk is clear: most units have no humidity control, and mold doesn't need long to get started on cardboard or upholstery that nobody is checking."
+    }
   ]
 }

@@ -150,26 +150,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Humid-climate living, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "70°F+", "label": "Typical summer dew point along the Gulf Coast and in Florida" },
-            { "value": "60%", "label": "Indoor humidity ceiling to stay under to discourage mold and dust mites" },
-            { "value": "45–50%", "label": "Practical humidistat target for a humid-climate home" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Dew point is the number to watch. Once outdoor air holds that much water, every door opening, bathroom fan and leaky duct brings moisture inside. Your AC removes some of it, but only while the compressor is running — and in spring and fall, it often isn’t."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for humid climates",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -183,17 +165,35 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a humid climate",
+      "heading": "What separates a good dehumidifier for a humid climate from a poor one?",
       "blocks": [
         {
           "type": "checklist",
           "items": [
-            { "label": "Continuous drainage", "text": "In Florida summers, a bucket is a daily chore. Choose a pump, a gravity hose to a drain, or a whole-house unit plumbed to the condensate line." },
-            { "label": "Efficiency for year-round running", "text": "A humid-climate dehumidifier may run nine months a year. ENERGY STAR and Most Efficient models pay back faster here than anywhere." },
-            { "label": "Auto-restart", "text": "Summer storms knock power out. Auto-restart resumes your settings without a trip home." },
-            { "label": "Wi-Fi alerts for second homes", "text": "Beach houses and seasonal homes need an app or a [Wi-Fi hygrometer](/best/best-hygrometer/) that warns you when humidity climbs." },
-            { "label": "Capacity with headroom", "text": "Size up a tier from northern charts. Humid air reloads the house faster than a basement’s slow seepage." },
-            { "label": "A plan for the whole house", "text": "If more than two rooms feel clammy, a ducted unit is usually cheaper to run than several portables." }
+            {
+              "label": "Continuous drainage",
+              "text": "In Florida summers, a bucket is a daily chore. Choose a pump, a gravity hose to a drain, or a whole-house unit plumbed to the condensate line."
+            },
+            {
+              "label": "Efficiency for year-round running",
+              "text": "A humid-climate dehumidifier may run nine months a year. ENERGY STAR and Most Efficient models pay back faster here than anywhere."
+            },
+            {
+              "label": "Auto-restart",
+              "text": "Summer storms knock power out. Auto-restart resumes your settings without a trip home."
+            },
+            {
+              "label": "Wi-Fi alerts for second homes",
+              "text": "Beach houses and seasonal homes need an app or a [Wi-Fi hygrometer](/best/best-hygrometer/) that warns you when humidity climbs."
+            },
+            {
+              "label": "Capacity with headroom",
+              "text": "Size up a tier from northern charts. Humid air reloads the house faster than a basement’s slow seepage."
+            },
+            {
+              "label": "A plan for the whole house",
+              "text": "If more than two rooms feel clammy, a ducted unit is usually cheaper to run than several portables."
+            }
           ]
         }
       ]
@@ -226,13 +226,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Home", "Typical problem", "Best fit"],
+          "head": [
+            "Home",
+            "Typical problem",
+            "Best fit"
+          ],
           "rows": [
-            ["Florida slab home", "Clammy living areas, no floor drain", "Whole-house unit, or a portable with a pump"],
-            ["High-rise condo", "Bedrooms stay damp, AC short-cycles", "35-pint portable per problem zone"],
-            ["Raised home (Louisiana, Carolinas)", "Humid crawl space under the floor", "Crawl space unit plus vapor barrier"],
-            ["Beach house or rental", "Empty for weeks; mold on return", "Wi-Fi unit with continuous drainage"],
-            ["Texas home", "Humid on the Gulf Coast, dry out west", "Size by local dew point, not state"]
+            [
+              "Florida slab home",
+              "Clammy living areas, no floor drain",
+              "Whole-house unit, or a portable with a pump"
+            ],
+            [
+              "High-rise condo",
+              "Bedrooms stay damp, AC short-cycles",
+              "35-pint portable per problem zone"
+            ],
+            [
+              "Raised home (Louisiana, Carolinas)",
+              "Humid crawl space under the floor",
+              "Crawl space unit plus vapor barrier"
+            ],
+            [
+              "Beach house or rental",
+              "Empty for weeks; mold on return",
+              "Wi-Fi unit with continuous drainage"
+            ],
+            [
+              "Texas home",
+              "Humid on the Gulf Coast, dry out west",
+              "Size by local dew point, not state"
+            ]
           ]
         },
         {
@@ -308,5 +332,28 @@
     "/best/best-crawl-space-dehumidifier/",
     "/best/best-dehumidifier-with-pump/",
     "/guides/whole-house-dehumidifier-installation/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "70°F+",
+          "label": "Typical summer dew point along the Gulf Coast and in Florida"
+        },
+        {
+          "value": "60%",
+          "label": "Indoor humidity ceiling to stay under to discourage mold and dust mites"
+        },
+        {
+          "value": "45–50%",
+          "label": "Practical humidistat target for a humid-climate home"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Dew point is the number to watch. Once outdoor air holds that much water, every door opening, bathroom fan and leaky duct brings moisture inside. Your AC removes some of it, but only while the compressor is running — and in spring and fall, it often isn’t."
+    }
   ]
 }

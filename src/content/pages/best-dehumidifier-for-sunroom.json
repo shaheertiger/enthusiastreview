@@ -121,35 +121,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Sunroom moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "R-1",
-              "label": "Approximate insulating value of single-pane glass, vs. R-13 to R-21 for an insulated wall"
-            },
-            {
-              "value": "~41°F",
-              "label": "Temperature below which compressor dehumidifiers start icing"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How quickly mold can begin on a damp surface, per the EPA"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last number matters for sunrooms because condensation often pools at the bottom of window frames overnight, where it can soak wood trim and caulk before anyone notices."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for sunrooms",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -163,7 +136,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a sunroom dehumidifier",
+      "heading": "Which features matter in a sunroom dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -325,5 +298,28 @@
     "/best/best-dehumidifier-for-greenhouse/",
     "/best/best-midea-dehumidifier/",
     "/guides/dehumidifier-freezing-up/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "R-1",
+          "label": "Approximate insulating value of single-pane glass, vs. R-13 to R-21 for an insulated wall"
+        },
+        {
+          "value": "~41°F",
+          "label": "Temperature below which compressor dehumidifiers start icing"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can begin on a damp surface, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last number matters for sunrooms because condensation often pools at the bottom of window frames overnight, where it can soak wood trim and caulk before anyone notices."
+    }
   ]
 }

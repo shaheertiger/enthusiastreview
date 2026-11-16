@@ -151,35 +151,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Whirlpool's dehumidifier lineup, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "4",
-              "label": "Whirlpool dehumidifiers on Amazon right now"
-            },
-            {
-              "value": "20–50",
-              "label": "Pints per day across the lineup"
-            },
-            {
-              "value": "1",
-              "label": "Model with a built-in pump (the 50-pint)"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Three of the four models — the 25-, 32- and 50-pint — carry the ENERGY STAR label on their listings. The 20-pint portable is the older, simpler design for when space and budget matter more than capacity."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Whirlpool dehumidifiers",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -193,7 +166,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a Whirlpool dehumidifier",
+      "heading": "How do you choose a Whirlpool dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -386,5 +359,28 @@
     "/best/best-amana-dehumidifier/",
     "/best/best-midea-dehumidifier/",
     "/best/best-dehumidifier-brands/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "4",
+          "label": "Whirlpool dehumidifiers on Amazon right now"
+        },
+        {
+          "value": "20–50",
+          "label": "Pints per day across the lineup"
+        },
+        {
+          "value": "1",
+          "label": "Model with a built-in pump (the 50-pint)"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Three of the four models — the 25-, 32- and 50-pint — carry the ENERGY STAR label on their listings. The 20-pint portable is the older, simpler design for when space and budget matter more than capacity."
+    }
   ]
 }

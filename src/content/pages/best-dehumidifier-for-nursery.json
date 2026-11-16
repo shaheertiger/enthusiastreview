@@ -145,26 +145,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Nursery humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "35–50%", "label": "Humidity range recommended for a baby's room by Boston Children's Pediatric Environmental Health Center" },
-            { "value": "50%+", "label": "Where dust mites and mold start to thrive, per EPA guidance" },
-            { "value": "32 dB", "label": "Eva-Dry's listed noise level for the EDV-4000 on low" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Air that's too dry or too damp can leave a baby coughing or breathing less comfortably, and humidity above 50% feeds dust mites and mold, two common respiratory irritants. The goal isn't the driest room possible; it's a steady reading in the middle of that band."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for a nursery",
+      "heading": "How we chose these dehumidifiers for a nursery",
       "blocks": [
         {
           "type": "p",
@@ -178,7 +160,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a nursery dehumidifier",
+      "heading": "Which features matter in a nursery dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -273,5 +255,28 @@
     "/best/best-dehumidifier-for-allergies/",
     "/guides/dehumidifier-vs-humidifier/",
     "/best/best-eva-dry-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "35–50%",
+          "label": "Humidity range recommended for a baby's room by Boston Children's Pediatric Environmental Health Center"
+        },
+        {
+          "value": "50%+",
+          "label": "Where dust mites and mold start to thrive, per EPA guidance"
+        },
+        {
+          "value": "32 dB",
+          "label": "Eva-Dry's listed noise level for the EDV-4000 on low"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Air that's too dry or too damp can leave a baby coughing or breathing less comfortably, and humidity above 50% feeds dust mites and mold, two common respiratory irritants. The goal isn't the driest room possible; it's a steady reading in the middle of that band."
+    }
   ]
 }

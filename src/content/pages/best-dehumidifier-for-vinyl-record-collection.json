@@ -145,35 +145,8 @@
   ],
   "sections": [
     {
-      "id": "vinyl-by-the-numbers",
-      "heading": "Vinyl record humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "45–55%",
-              "label": "Relative humidity most record-storage guides target"
-            },
-            {
-              "value": "140°F",
-              "label": "Roughly where vinyl softens and warps — a heat problem"
-            },
-            {
-              "value": "60%+",
-              "label": "Humidity at which paper sleeves turn tacky and invite mold"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Some guides accept humidity as low as about 35%, but below 30% paper gets brittle and static builds up. The aim is a steady middle, not the driest air you can get."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick humidity fixes for vinyl records",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -187,7 +160,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for vinyl records",
+      "heading": "What matters most in a dehumidifier for vinyl records?",
       "blocks": [
         {
           "type": "checklist",
@@ -325,5 +298,28 @@
     "/best/best-dehumidifier-for-basement/",
     "/best/best-moisture-absorber/",
     "/guides/dehumidifier-humidistat-settings-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "45–55%",
+          "label": "Relative humidity most record-storage guides target"
+        },
+        {
+          "value": "140°F",
+          "label": "Roughly where vinyl softens and warps — a heat problem"
+        },
+        {
+          "value": "60%+",
+          "label": "Humidity at which paper sleeves turn tacky and invite mold"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Some guides accept humidity as low as about 35%, but below 30% paper gets brittle and static builds up. The aim is a steady middle, not the driest air you can get."
+    }
   ]
 }

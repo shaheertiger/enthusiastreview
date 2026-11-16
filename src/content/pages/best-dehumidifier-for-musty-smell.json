@@ -144,35 +144,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Musty odors, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Indoor humidity range the EPA recommends to keep mold in check"
-            },
-            {
-              "value": "60%+",
-              "label": "Sustained humidity at which odor-causing growth becomes likely"
-            },
-            {
-              "value": "1–2 wks",
-              "label": "Typical time for a musty room to clear once humidity holds steady"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last number is the one people underestimate. Carpet, drywall, upholstery and stored boxes absorb moisture over months and release it slowly. The air dries in hours; the materials take longer."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for musty smells",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -186,7 +159,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for mold smell",
+      "heading": "What separates a good dehumidifier for mold smell from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -312,5 +285,28 @@
     "/guides/dehumidifier-vs-air-purifier/",
     "/best/best-dehumidifier-for-closet/",
     "/best/best-dehumidifier-for-allergies/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends to keep mold in check"
+        },
+        {
+          "value": "60%+",
+          "label": "Sustained humidity at which odor-causing growth becomes likely"
+        },
+        {
+          "value": "1–2 wks",
+          "label": "Typical time for a musty room to clear once humidity holds steady"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last number is the one people underestimate. Carpet, drywall, upholstery and stored boxes absorb moisture over months and release it slowly. The air dries in hours; the materials take longer."
+    }
   ]
 }

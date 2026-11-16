@@ -118,33 +118,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Costway dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "0", "label": "Costway dehumidifier recalls we found in CPSC records" },
-            { "value": "1 year", "label": "Warranty across Costway's current dehumidifier lineup" },
-            { "value": "4", "label": "Current sizes: 24, 32, 60 and 100 pints a day" }
-          ]
-        },
-        {
-          "type": "table",
-          "head": ["Model", "Capacity", "Rated coverage", "Smart features", "Best for"],
-          "rows": [
-            ["24-Pint", "24 pints/day", "1,500 sq ft", "No", "Small room on a budget"],
-            ["32-Pint", "32 pints/day", "2,000 sq ft", "No", "Bedroom or office"],
-            ["60-Pint", "60 pints/day", "4,000 sq ft", "No", "Full basement"],
-            ["100-Pint", "100 pints/day", "5,500 sq ft", "App + Alexa", "Large or unfinished basement"]
-          ],
-          "caption": "Capacity and coverage are Costway's own ratings."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Costway dehumidifiers",
+      "heading": "How we chose these Costway dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -158,7 +133,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Costway dehumidifier",
+      "heading": "How do you pick a Costway dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -272,5 +247,65 @@
     "/best/best-danby-dehumidifier/",
     "/best/best-30-pint-dehumidifier/",
     "/best/best-dehumidifier-for-basement/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "0",
+          "label": "Costway dehumidifier recalls we found in CPSC records"
+        },
+        {
+          "value": "1 year",
+          "label": "Warranty across Costway's current dehumidifier lineup"
+        },
+        {
+          "value": "4",
+          "label": "Current sizes: 24, 32, 60 and 100 pints a day"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Rated coverage",
+        "Smart features",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "24-Pint",
+          "24 pints/day",
+          "1,500 sq ft",
+          "No",
+          "Small room on a budget"
+        ],
+        [
+          "32-Pint",
+          "32 pints/day",
+          "2,000 sq ft",
+          "No",
+          "Bedroom or office"
+        ],
+        [
+          "60-Pint",
+          "60 pints/day",
+          "4,000 sq ft",
+          "No",
+          "Full basement"
+        ],
+        [
+          "100-Pint",
+          "100 pints/day",
+          "5,500 sq ft",
+          "App + Alexa",
+          "Large or unfinished basement"
+        ]
+      ],
+      "caption": "Capacity and coverage are Costway's own ratings."
+    }
   ]
 }

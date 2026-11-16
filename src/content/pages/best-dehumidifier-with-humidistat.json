@@ -151,35 +151,8 @@
   ],
   "sections": [
     {
-      "id": "humidistat-numbers",
-      "heading": "Humidity control, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Indoor humidity range the EPA suggests for most homes"
-            },
-            {
-              "value": "Under 60%",
-              "label": "Where the EPA says to keep humidity to limit mold growth"
-            },
-            {
-              "value": "5%",
-              "label": "The step size most portable humidistats adjust in"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That's why the humidistat matters more than raw capacity for most rooms. The goal isn't to remove the most water possible; it's to land inside a fairly narrow band and stay there."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers with a humidistat",
+      "heading": "How we chose these dehumidifiers with a humidistat",
       "blocks": [
         {
           "type": "p",
@@ -193,7 +166,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a dehumidifier with humidity control",
+      "heading": "How do you choose a dehumidifier with humidity control?",
       "blocks": [
         {
           "type": "checklist",
@@ -395,5 +368,28 @@
     "/best/best-50-pint-dehumidifier-with-pump/",
     "/guides/dehumidifier-size-guide/",
     "/best/best-mini-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA suggests for most homes"
+        },
+        {
+          "value": "Under 60%",
+          "label": "Where the EPA says to keep humidity to limit mold growth"
+        },
+        {
+          "value": "5%",
+          "label": "The step size most portable humidistats adjust in"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's why the humidistat matters more than raw capacity for most rooms. The goal isn't to remove the most water possible; it's to land inside a fairly narrow band and stay there."
+    }
   ]
 }

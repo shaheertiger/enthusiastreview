@@ -178,13 +178,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Marketed size", "Coverage claim", "Standout feature"],
+          "head": [
+            "Model",
+            "Marketed size",
+            "Coverage claim",
+            "Standout feature"
+          ],
           "rows": [
-            ["AirPlus Max 26 Pint Small", "26 pints", "1,500 sq ft", "Wheels, auto-defrost"],
-            ["AirPlus Max 30 Pint Tall", "30 pints", "1,500 sq ft", "Sleep mode"],
-            ["AirPlus Max 50 Pint Tall", "50 pints", "4,500 sq ft", "Retro design, humidistat"],
-            ["AirPlus 70 Pint", "70 pints", "4,500 sq ft", "Auto-defrost, 4 modes"],
-            ["AirPlus Max 70 Pint Quiet", "70 pints", "4,500 sq ft", "Sleep mode"]
+            [
+              "AirPlus Max 26 Pint Small",
+              "26 pints",
+              "1,500 sq ft",
+              "Wheels, auto-defrost"
+            ],
+            [
+              "AirPlus Max 30 Pint Tall",
+              "30 pints",
+              "1,500 sq ft",
+              "Sleep mode"
+            ],
+            [
+              "AirPlus Max 50 Pint Tall",
+              "50 pints",
+              "4,500 sq ft",
+              "Retro design, humidistat"
+            ],
+            [
+              "AirPlus 70 Pint",
+              "70 pints",
+              "4,500 sq ft",
+              "Auto-defrost, 4 modes"
+            ],
+            [
+              "AirPlus Max 70 Pint Quiet",
+              "70 pints",
+              "4,500 sq ft",
+              "Sleep mode"
+            ]
           ],
           "caption": "Figures as listed by AirPlus. Coverage claims are the manufacturer’s."
         },
@@ -196,7 +226,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick AirPlus dehumidifiers",
+      "heading": "How we chose these AirPlus dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -210,16 +240,31 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an AirPlus dehumidifier",
+      "heading": "What should you look for in an AirPlus dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
           "items": [
-            { "label": "Size by room, not coverage claim", "text": "Three AirPlus models claim 4,500 square feet. Use our [size guide](/guides/dehumidifier-size-guide/) and your dampness level instead." },
-            { "label": "Auto-defrost for basements", "text": "If the space drops below about 60°F, choose a model that lists auto-defrost, such as the 70 Pint or Max 26." },
-            { "label": "Sleep mode for living spaces", "text": "The Max 30 and Max 70 list a quiet sleep mode for overnight running." },
-            { "label": "A drain below the outlet", "text": "The AirPlus models here drain by gravity. Without a floor drain, sink or sump below the unit, you’ll be emptying the tank." },
-            { "label": "A separate hygrometer", "text": "Check the built-in reading against an independent [hygrometer](/best/best-hygrometer/) for the first few weeks." }
+            {
+              "label": "Size by room, not coverage claim",
+              "text": "Three AirPlus models claim 4,500 square feet. Use our [size guide](/guides/dehumidifier-size-guide/) and your dampness level instead."
+            },
+            {
+              "label": "Auto-defrost for basements",
+              "text": "If the space drops below about 60°F, choose a model that lists auto-defrost, such as the 70 Pint or Max 26."
+            },
+            {
+              "label": "Sleep mode for living spaces",
+              "text": "The Max 30 and Max 70 list a quiet sleep mode for overnight running."
+            },
+            {
+              "label": "A drain below the outlet",
+              "text": "The AirPlus models here drain by gravity. Without a floor drain, sink or sump below the unit, you’ll be emptying the tank."
+            },
+            {
+              "label": "A separate hygrometer",
+              "text": "Check the built-in reading against an independent [hygrometer](/best/best-hygrometer/) for the first few weeks."
+            }
           ]
         }
       ]

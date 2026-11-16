@@ -146,35 +146,8 @@
   ],
   "sections": [
     {
-      "id": "gym-humidity-numbers",
-      "heading": "Home gym humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "45–55%",
-              "label": "Target humidity range for a home gym"
-            },
-            {
-              "value": "~55%",
-              "label": "Point above which bare steel starts rusting noticeably faster"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How quickly mold can start on damp surfaces, per the EPA"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Sweat makes the rust problem worse than humidity alone. The salt it leaves on handles and bars is corrosive, so gear that gets both damp air and direct contact rusts fastest."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for home gyms",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -188,7 +161,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a gym",
+      "heading": "What matters most in a dehumidifier for a gym?",
       "blocks": [
         {
           "type": "checklist",
@@ -345,5 +318,28 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-for-musty-smell/",
     "/guides/where-to-place-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "45–55%",
+          "label": "Target humidity range for a home gym"
+        },
+        {
+          "value": "~55%",
+          "label": "Point above which bare steel starts rusting noticeably faster"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can start on damp surfaces, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Sweat makes the rust problem worse than humidity alone. The salt it leaves on handles and bars is corrosive, so gear that gets both damp air and direct contact rusts fastest."
+    }
   ]
 }

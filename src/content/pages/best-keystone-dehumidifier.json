@@ -118,36 +118,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Keystone dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "Top tier", "label": "Keystone's predicted-reliability score in Consumer Reports' latest brand survey" },
-            { "value": "3.4M", "label": "Midea-built dehumidifiers, Keystone among them, recalled in 2016" },
-            { "value": "2003–2013", "label": "Sales window covered by that recall" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Consumer Reports' survey drew on 11,944 members who bought 13,632 dehumidifiers between 2014 and 2025, and only four of 23 brands — Keystone, Midea, Toshiba and Perfect Aire — earned the top reliability score. Because that window starts after the recall cutoff, it reflects current-generation units."
-        },
-        {
-          "type": "table",
-          "head": ["Model", "Capacity", "Rated coverage", "Pump", "Best for"],
-          "rows": [
-            ["KSTAD224F/E", "22 pints/day", "1,500 sq ft", "No", "Bedroom, apartment"],
-            ["KSTAD354F/G", "35 pints/day", "3,000 sq ft", "No", "Large or damp room"],
-            ["KSTAD504F/G", "50 pints/day", "4,500 sq ft", "No", "Basement with a drain"],
-            ["KSTAD506PG", "50 pints/day", "4,500 sq ft", "Yes", "Basement without a drain"]
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Keystone dehumidifiers",
+      "heading": "How we chose these Keystone dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -161,7 +133,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Keystone dehumidifier",
+      "heading": "What separates a good Keystone dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -272,5 +244,68 @@
     "/best/best-toshiba-dehumidifier/",
     "/best/best-budget-dehumidifier/",
     "/best/best-dehumidifier-for-basement/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "Top tier",
+          "label": "Keystone's predicted-reliability score in Consumer Reports' latest brand survey"
+        },
+        {
+          "value": "3.4M",
+          "label": "Midea-built dehumidifiers, Keystone among them, recalled in 2016"
+        },
+        {
+          "value": "2003–2013",
+          "label": "Sales window covered by that recall"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Consumer Reports' survey drew on 11,944 members who bought 13,632 dehumidifiers between 2014 and 2025, and only four of 23 brands — Keystone, Midea, Toshiba and Perfect Aire — earned the top reliability score. Because that window starts after the recall cutoff, it reflects current-generation units."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Rated coverage",
+        "Pump",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "KSTAD224F/E",
+          "22 pints/day",
+          "1,500 sq ft",
+          "No",
+          "Bedroom, apartment"
+        ],
+        [
+          "KSTAD354F/G",
+          "35 pints/day",
+          "3,000 sq ft",
+          "No",
+          "Large or damp room"
+        ],
+        [
+          "KSTAD504F/G",
+          "50 pints/day",
+          "4,500 sq ft",
+          "No",
+          "Basement with a drain"
+        ],
+        [
+          "KSTAD506PG",
+          "50 pints/day",
+          "4,500 sq ft",
+          "Yes",
+          "Basement without a drain"
+        ]
+      ]
+    }
   ]
 }

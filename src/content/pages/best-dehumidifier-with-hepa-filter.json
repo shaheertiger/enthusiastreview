@@ -156,26 +156,8 @@
   ],
   "sections": [
     {
-      "id": "hepa-numbers",
-      "heading": "HEPA dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "99.97%", "label": "Share of 0.3-micron particles a True HEPA filter is rated to capture" },
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends to curb mold and dust mites" },
-            { "value": "~200–270 sq ft", "label": "Typical rated coverage of a compact HEPA combo" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The last figure is the one to remember. A filter is only as useful as the amount of air pushed through it, and the small fans in compact combos cap them at bedroom scale. Bigger rooms need either a full-size unit like the AirCyan or two dedicated machines."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers with HEPA filters",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -193,13 +175,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Dehumidifier type", "Moisture / tank", "Drainage", "Best for"],
+          "head": [
+            "Model",
+            "Dehumidifier type",
+            "Moisture / tank",
+            "Drainage",
+            "Best for"
+          ],
           "rows": [
-            ["AirCyan 32 Pint", "Compressor", "32 pints/day max", "Tank or hose", "Damp dens, basement rooms"],
-            ["Thecosky HEPA Combo", "Compact", "1,600 ml tank", "Tank or hose", "Bathrooms, laundry nooks"],
-            ["Tenergy Sorbi", "Thermoelectric", "~750 ml/day", "1 L tank", "Quiet bedrooms"],
-            ["Airthereal Zephyr AZH200", "Compact", "34 oz tank", "Tank", "RVs, closets"],
-            ["Levoit Core 300S + dehumidifier", "Your choice", "Sized to the room", "Your choice", "Allergy relief"]
+            [
+              "AirCyan 32 Pint",
+              "Compressor",
+              "32 pints/day max",
+              "Tank or hose",
+              "Damp dens, basement rooms"
+            ],
+            [
+              "Thecosky HEPA Combo",
+              "Compact",
+              "1,600 ml tank",
+              "Tank or hose",
+              "Bathrooms, laundry nooks"
+            ],
+            [
+              "Tenergy Sorbi",
+              "Thermoelectric",
+              "~750 ml/day",
+              "1 L tank",
+              "Quiet bedrooms"
+            ],
+            [
+              "Airthereal Zephyr AZH200",
+              "Compact",
+              "34 oz tank",
+              "Tank",
+              "RVs, closets"
+            ],
+            [
+              "Levoit Core 300S + dehumidifier",
+              "Your choice",
+              "Sized to the room",
+              "Your choice",
+              "Allergy relief"
+            ]
           ],
           "caption": "Moisture figures are maker ratings under their own test conditions, not DOE ratings."
         }
@@ -207,7 +225,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a dehumidifier with a HEPA filter",
+      "heading": "How do you choose a dehumidifier with a HEPA filter?",
       "blocks": [
         {
           "type": "checklist",
@@ -227,7 +245,10 @@
             {
               "label": "Plan the drainage",
               "text": "A 1-liter tank can fill in a day in muggy weather. If you won't empty it daily, choose a model with a drain-hose outlet.",
-              "sub": ["Hose outlets on small units drain by gravity only", "Keep the hose run short and sloped downward"]
+              "sub": [
+                "Hose outlets on small units drain by gravity only",
+                "Keep the hose run short and sloped downward"
+              ]
             },
             {
               "label": "Mind the noise",
@@ -333,5 +354,28 @@
     "/best/best-dehumidifier-for-dust-mites/",
     "/best/best-dehumidifier-for-smoke-smell/",
     "/guides/dehumidifier-replacement-filter/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "99.97%",
+          "label": "Share of 0.3-micron particles a True HEPA filter is rated to capture"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends to curb mold and dust mites"
+        },
+        {
+          "value": "~200–270 sq ft",
+          "label": "Typical rated coverage of a compact HEPA combo"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The last figure is the one to remember. A filter is only as useful as the amount of air pushed through it, and the small fans in compact combos cap them at bedroom scale. Bigger rooms need either a full-size unit like the AirCyan or two dedicated machines."
+    }
   ]
 }

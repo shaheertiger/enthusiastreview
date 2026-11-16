@@ -177,26 +177,8 @@
   ],
   "sections": [
     {
-      "id": "asthma-humidity-numbers",
-      "heading": "Asthma and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends for most homes" },
-            { "value": "Above 50%", "label": "Where dust mites hold on to enough moisture to thrive" },
-            { "value": "Above 60%", "label": "Where mold growth on indoor surfaces becomes likely" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Mites absorb water from the air rather than drinking it, and mold needs damp surfaces. Keep a bedroom near 45% and both have a much harder time, while the air still feels comfortable to breathe."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for asthmatics",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -214,14 +196,56 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Pick", "Capacity", "Noise / key feature", "Drainage", "Best for"],
+          "head": [
+            "Pick",
+            "Capacity",
+            "Noise / key feature",
+            "Drainage",
+            "Best for"
+          ],
           "rows": [
-            ["Midea Cube 20", "20 pints (DOE)", "Excellent noise rating", "Base tank or hose", "Bedrooms"],
-            ["Midea Cube 35", "35 pints (DOE)", "Sleep mode, 5% steps", "Base tank or hose", "Large bedrooms, family rooms"],
-            ["Frigidaire FHDD5034W1", "50 pints (DOE)", "Auto-restart", "Bucket or hose", "Musty basements"],
-            ["AirCyan 32-Pint HEPA", "32 pints max", "HEPA intake filter", "Tank or hose", "Offices, guest rooms"],
-            ["Levoit Core 300S", "Purifier only", "About 24 dB on low", "N/A", "Pair with any bedroom unit"],
-            ["Govee H5075", "Monitor only", "Overnight log", "N/A", "Checking you're not too dry"]
+            [
+              "Midea Cube 20",
+              "20 pints (DOE)",
+              "Excellent noise rating",
+              "Base tank or hose",
+              "Bedrooms"
+            ],
+            [
+              "Midea Cube 35",
+              "35 pints (DOE)",
+              "Sleep mode, 5% steps",
+              "Base tank or hose",
+              "Large bedrooms, family rooms"
+            ],
+            [
+              "Frigidaire FHDD5034W1",
+              "50 pints (DOE)",
+              "Auto-restart",
+              "Bucket or hose",
+              "Musty basements"
+            ],
+            [
+              "AirCyan 32-Pint HEPA",
+              "32 pints max",
+              "HEPA intake filter",
+              "Tank or hose",
+              "Offices, guest rooms"
+            ],
+            [
+              "Levoit Core 300S",
+              "Purifier only",
+              "About 24 dB on low",
+              "N/A",
+              "Pair with any bedroom unit"
+            ],
+            [
+              "Govee H5075",
+              "Monitor only",
+              "Overnight log",
+              "N/A",
+              "Checking you're not too dry"
+            ]
           ],
           "caption": "Capacities are DOE 2019 or manufacturer ratings; real output depends on room temperature and humidity."
         }
@@ -229,7 +253,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a dehumidifier for asthma",
+      "heading": "How do you choose a dehumidifier for asthma?",
       "blocks": [
         {
           "type": "checklist",
@@ -278,13 +302,37 @@
         },
         {
           "type": "table",
-          "head": ["Trigger", "Link to humidity", "What helps most"],
+          "head": [
+            "Trigger",
+            "Link to humidity",
+            "What helps most"
+          ],
           "rows": [
-            ["Dust mites", "Thrive above about 50%; struggle below it", "Dehumidifier plus hot-washed bedding and mite-proof covers"],
-            ["Mold", "Grows on surfaces when humidity stays above about 60%", "Fix leaks, dry the space, clean visible growth"],
-            ["Musty basement air", "Damp air and spores drift upstairs", "Full-size basement dehumidifier"],
-            ["Pet dander and pollen", "Not driven by humidity", "HEPA air purifier, cleaning"],
-            ["Very dry air", "Below about 30% can irritate airways", "Raise the setpoint; don't over-dry"]
+            [
+              "Dust mites",
+              "Thrive above about 50%; struggle below it",
+              "Dehumidifier plus hot-washed bedding and mite-proof covers"
+            ],
+            [
+              "Mold",
+              "Grows on surfaces when humidity stays above about 60%",
+              "Fix leaks, dry the space, clean visible growth"
+            ],
+            [
+              "Musty basement air",
+              "Damp air and spores drift upstairs",
+              "Full-size basement dehumidifier"
+            ],
+            [
+              "Pet dander and pollen",
+              "Not driven by humidity",
+              "HEPA air purifier, cleaning"
+            ],
+            [
+              "Very dry air",
+              "Below about 30% can irritate airways",
+              "Raise the setpoint; don't over-dry"
+            ]
           ]
         },
         {
@@ -376,5 +424,28 @@
     "/best/best-dehumidifier-with-hepa-filter/",
     "/guides/dehumidifier-vs-humidifier/",
     "/best/best-hygrometer/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends for most homes"
+        },
+        {
+          "value": "Above 50%",
+          "label": "Where dust mites hold on to enough moisture to thrive"
+        },
+        {
+          "value": "Above 60%",
+          "label": "Where mold growth on indoor surfaces becomes likely"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Mites absorb water from the air rather than drinking it, and mold needs damp surfaces. Keep a bedroom near 45% and both have a much harder time, while the air still feels comfortable to breathe."
+    }
   ]
 }

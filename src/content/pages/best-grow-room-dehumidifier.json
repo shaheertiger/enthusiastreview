@@ -151,35 +151,8 @@
   ],
   "sections": [
     {
-      "id": "grow-room-numbers",
-      "heading": "Grow room moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "90%+",
-              "label": "Share of the water plants take up that they release back into the air through transpiration"
-            },
-            {
-              "value": "8 pints",
-              "label": "Moisture in every gallon of water you feed, the basis of grow room sizing"
-            },
-            {
-              "value": "40–50%",
-              "label": "Common flowering humidity target, lower than most home units are built for"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put together, the math is simple: water in roughly equals moisture out. Pour 6 gallons a day and the room must shed close to 48 pints of vapor, plus evaporation from soil, trays and reservoirs."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick grow room dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -302,7 +275,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a grow room dehumidifier",
+      "heading": "How do you choose a grow room dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -508,5 +481,28 @@
     "/best/best-lgr-dehumidifier/",
     "/best/best-whole-house-dehumidifier/",
     "/best/best-commercial-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "90%+",
+          "label": "Share of the water plants take up that they release back into the air through transpiration"
+        },
+        {
+          "value": "8 pints",
+          "label": "Moisture in every gallon of water you feed, the basis of grow room sizing"
+        },
+        {
+          "value": "40–50%",
+          "label": "Common flowering humidity target, lower than most home units are built for"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put together, the math is simple: water in roughly equals moisture out. Pour 6 gallons a day and the room must shed close to 48 pints of vapor, plus evaporation from soil, trays and reservoirs."
+    }
   ]
 }

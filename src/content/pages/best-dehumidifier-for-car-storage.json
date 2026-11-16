@@ -154,26 +154,8 @@
   ],
   "sections": [
     {
-      "id": "storage-by-the-numbers",
-      "heading": "Car storage humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "40–50%", "label": "Target humidity for a stored car" },
-            { "value": "~50–60%", "label": "Where corrosion of bare steel starts to speed up" },
-            { "value": "~41°F", "label": "Where ordinary compressor dehumidifiers start to ice" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The middle number is the one to respect. Rotors, exhaust parts, suspension hardware and the underside of chrome trim all carry bare or thinly protected steel, and rust accelerates as humidity climbs through the 50s. Keep the garage in the 40s and most of that slows to a crawl."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for car storage",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -187,7 +169,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a car storage dehumidifier",
+      "heading": "How do you pick a car storage dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -312,5 +294,28 @@
     "/best/best-low-temperature-dehumidifier/",
     "/best/best-hygrometer/",
     "/best/best-dehumidifier-for-pole-barn/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–50%",
+          "label": "Target humidity for a stored car"
+        },
+        {
+          "value": "~50–60%",
+          "label": "Where corrosion of bare steel starts to speed up"
+        },
+        {
+          "value": "~41°F",
+          "label": "Where ordinary compressor dehumidifiers start to ice"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The middle number is the one to respect. Rotors, exhaust parts, suspension hardware and the underside of chrome trim all carry bare or thinly protected steel, and rust accelerates as humidity climbs through the 50s. Keep the garage in the 40s and most of that slows to a crawl."
+    }
   ]
 }

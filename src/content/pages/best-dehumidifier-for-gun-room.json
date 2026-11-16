@@ -174,35 +174,8 @@
   ],
   "sections": [
     {
-      "id": "gun-room-numbers",
-      "heading": "Gun room humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Relative humidity range the NRA recommends for stored firearms"
-            },
-            {
-              "value": "70%+",
-              "label": "Humidity at which bare carbon steel can show visible rust within weeks"
-            },
-            {
-              "value": "45%",
-              "label": "A practical room setpoint: dry for steel, kind to wood stocks"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Aim for the middle of the band rather than the bottom. Steel and brass are happy anywhere under 50%, but walnut stocks, leather slings and wooden cases can shrink and check if a room is pushed down toward 30% for months at a time. A setpoint around 45% protects both."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick gun room dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -276,7 +249,7 @@
     },
     {
       "id": "how-to-choose",
-      "heading": "How to choose a dehumidifier for a gun room",
+      "heading": "How do you choose a dehumidifier for a gun room?",
       "blocks": [
         {
           "type": "checklist",
@@ -426,5 +399,28 @@
     "/best/best-hygrometer/",
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-for-basement/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Relative humidity range the NRA recommends for stored firearms"
+        },
+        {
+          "value": "70%+",
+          "label": "Humidity at which bare carbon steel can show visible rust within weeks"
+        },
+        {
+          "value": "45%",
+          "label": "A practical room setpoint: dry for steel, kind to wood stocks"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Aim for the middle of the band rather than the bottom. Steel and brass are happy anywhere under 50%, but walnut stocks, leather slings and wooden cases can shrink and check if a room is pushed down toward 30% for months at a time. A setpoint around 45% protects both."
+    }
   ]
 }

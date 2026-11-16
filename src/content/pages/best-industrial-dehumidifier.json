@@ -177,35 +177,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Heavy-duty drying, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "85 vs. 180",
-              "label": "Pints a day the Storm LGR Extreme is rated for at AHAM vs. saturation conditions"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How quickly the EPA says wet materials should be dried to prevent mold"
-            },
-            {
-              "value": "12 amps",
-              "label": "Practical continuous-load limit on a standard 15-amp household circuit"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The first number trips up most shoppers. Industrial listings love to quote saturation capacity because it can be double the AHAM figure. Compare machines on AHAM pints, and treat a saturation-only rating as a ceiling, not a promise."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick industrial dehumidifiers",
+      "heading": "How we chose these industrial dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -219,7 +192,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an industrial dehumidifier",
+      "heading": "What should you look for in an industrial dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -398,5 +371,28 @@
     "/guides/dehumidifier-rental/",
     "/best/best-dehumidifier-for-warehouse/",
     "/best/best-crawl-space-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "85 vs. 180",
+          "label": "Pints a day the Storm LGR Extreme is rated for at AHAM vs. saturation conditions"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly the EPA says wet materials should be dried to prevent mold"
+        },
+        {
+          "value": "12 amps",
+          "label": "Practical continuous-load limit on a standard 15-amp household circuit"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The first number trips up most shoppers. Industrial listings love to quote saturation capacity because it can be double the AHAM figure. Compare machines on AHAM pints, and treat a saturation-only rating as a ceiling, not a promise."
+    }
   ]
 }

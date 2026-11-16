@@ -175,35 +175,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Smoke odor, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "99.97%",
-              "label": "Share of 0.3-micron particles a True HEPA filter is rated to capture"
-            },
-            {
-              "value": "⅔",
-              "label": "Rule of thumb: a purifier's smoke CADR should be at least two-thirds of the room's square footage"
-            },
-            {
-              "value": "40–50%",
-              "label": "Humidity range that keeps odors calmer without over-drying the room"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Notice what's missing: no number for how much smoke a dehumidifier removes. That's because it doesn't remove any. Its value is in the third figure."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers and purifiers for smoke smell",
+      "heading": "How we chose these dehumidifiers and purifiers for smoke smell",
       "blocks": [
         {
           "type": "p",
@@ -217,7 +190,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a smoke odor setup",
+      "heading": "Which features matter in a smoke odor setup?",
       "blocks": [
         {
           "type": "checklist",
@@ -388,5 +361,28 @@
     "/best/best-dehumidifier-for-allergies/",
     "/best/best-dehumidifier-for-apartment/",
     "/guides/dehumidifier-humidistat-settings-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "99.97%",
+          "label": "Share of 0.3-micron particles a True HEPA filter is rated to capture"
+        },
+        {
+          "value": "⅔",
+          "label": "Rule of thumb: a purifier's smoke CADR should be at least two-thirds of the room's square footage"
+        },
+        {
+          "value": "40–50%",
+          "label": "Humidity range that keeps odors calmer without over-drying the room"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Notice what's missing: no number for how much smoke a dehumidifier removes. That's because it doesn't remove any. Its value is in the third figure."
+    }
   ]
 }

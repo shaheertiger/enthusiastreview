@@ -150,35 +150,8 @@
   ],
   "sections": [
     {
-      "id": "wet-carpet-numbers",
-      "heading": "Wet carpet, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "24–48 hrs",
-              "label": "How long the EPA says you have to dry wet materials before mold risk climbs"
-            },
-            {
-              "value": "3",
-              "label": "Water categories (clean, gray, black) restorers use to decide if carpet can be saved"
-            },
-            {
-              "value": "1 per 50–70 sq ft",
-              "label": "A common restoration rule of thumb for air movers on a wet floor"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That clock is why a dehumidifier alone rarely does the job. Extract what you can, push air across what's left and let the dehumidifier carry the moisture away."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for wet carpet",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -242,7 +215,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a dehumidifier for drying carpet",
+      "heading": "How do you choose a dehumidifier for drying carpet?",
       "blocks": [
         {
           "type": "checklist",
@@ -429,5 +402,28 @@
     "/best/best-dehumidifier-for-musty-smell/",
     "/guides/dehumidifier-rental/",
     "/guides/does-a-dehumidifier-help-with-mold/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24–48 hrs",
+          "label": "How long the EPA says you have to dry wet materials before mold risk climbs"
+        },
+        {
+          "value": "3",
+          "label": "Water categories (clean, gray, black) restorers use to decide if carpet can be saved"
+        },
+        {
+          "value": "1 per 50–70 sq ft",
+          "label": "A common restoration rule of thumb for air movers on a wet floor"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That clock is why a dehumidifier alone rarely does the job. Extract what you can, push air across what's left and let the dehumidifier carry the moisture away."
+    }
   ]
 }

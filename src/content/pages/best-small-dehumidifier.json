@@ -144,61 +144,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Small-space dehumidifying, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "EPA-recommended humidity — the same target for a closet as a basement"
-            },
-            {
-              "value": "~25 cu ft",
-              "label": "Coverage of a cabinet-sized rechargeable desiccant unit"
-            },
-            {
-              "value": "0 W",
-              "label": "Power a renewable silica unit uses while it absorbs"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Space",
-            "Best type",
-            "Our pick"
-          ],
-          "rows": [
-            [
-              "Closet, safe, cabinet",
-              "Renewable desiccant",
-              "WiseDry or Eva-Dry E-333"
-            ],
-            [
-              "Bathroom or small bedroom (mild damp)",
-              "Thermoelectric mini",
-              "Pro Breeze PB-03"
-            ],
-            [
-              "Whole small room",
-              "20–22-pint compressor",
-              "Frigidaire FFAD2233W1"
-            ],
-            [
-              "Small apartment or laundry room",
-              "30-pint compressor",
-              "AirPlus Max 30"
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick small dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -212,7 +159,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for small rooms",
+      "heading": "What should you look for in a dehumidifier for small rooms?",
       "blocks": [
         {
           "type": "checklist",
@@ -341,5 +288,54 @@
     "/best/best-quiet-dehumidifier/",
     "/best/best-30-pint-dehumidifier/",
     "/best/best-rv-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "EPA-recommended humidity — the same target for a closet as a basement"
+        },
+        {
+          "value": "~25 cu ft",
+          "label": "Coverage of a cabinet-sized rechargeable desiccant unit"
+        },
+        {
+          "value": "0 W",
+          "label": "Power a renewable silica unit uses while it absorbs"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Space",
+        "Best type",
+        "Our pick"
+      ],
+      "rows": [
+        [
+          "Closet, safe, cabinet",
+          "Renewable desiccant",
+          "WiseDry or Eva-Dry E-333"
+        ],
+        [
+          "Bathroom or small bedroom (mild damp)",
+          "Thermoelectric mini",
+          "Pro Breeze PB-03"
+        ],
+        [
+          "Whole small room",
+          "20–22-pint compressor",
+          "Frigidaire FFAD2233W1"
+        ],
+        [
+          "Small apartment or laundry room",
+          "30-pint compressor",
+          "AirPlus Max 30"
+        ]
+      ]
+    }
   ]
 }

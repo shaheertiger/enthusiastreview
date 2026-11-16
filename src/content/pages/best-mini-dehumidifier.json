@@ -176,26 +176,8 @@
   ],
   "sections": [
     {
-      "id": "mini-numbers",
-      "heading": "Mini dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~18 oz", "label": "Daily water removal listed for the Pro Breeze PB-03, our top pick" },
-            { "value": "1,100 cu ft", "label": "About an 11 × 12 ft room — the EDV-1100’s rated space" },
-            { "value": "20 pints", "label": "Smallest common compressor size, for when a mini isn’t enough" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put those together and the role of a mini becomes clear: it’s a maintenance tool for small, closed spaces. Twenty pints a day is nearly 18 times what the PB-03 removes, which is why a damp basement needs a full-size unit."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick mini dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -209,7 +191,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a mini dehumidifier",
+      "heading": "What matters most in a mini dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -244,11 +226,31 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Type", "How it works", "Best for", "Watch out for"],
+          "head": [
+            "Type",
+            "How it works",
+            "Best for",
+            "Watch out for"
+          ],
           "rows": [
-            ["Thermoelectric plug-in", "A Peltier chip chills a small plate; water drips into a tank", "Bathrooms, small bedrooms, RVs", "Ounces a day, not pints"],
-            ["Renewable silica canister", "Silica beads absorb moisture; plug in to dry them out", "Closets, safes, cabinets, cars", "Enclosed spaces only"],
-            ["Compact compressor (20–22 pints)", "Refrigerant coil condenses water, like a fridge in reverse", "Damp bedrooms, apartments, small basements", "Larger, heavier and louder"]
+            [
+              "Thermoelectric plug-in",
+              "A Peltier chip chills a small plate; water drips into a tank",
+              "Bathrooms, small bedrooms, RVs",
+              "Ounces a day, not pints"
+            ],
+            [
+              "Renewable silica canister",
+              "Silica beads absorb moisture; plug in to dry them out",
+              "Closets, safes, cabinets, cars",
+              "Enclosed spaces only"
+            ],
+            [
+              "Compact compressor (20–22 pints)",
+              "Refrigerant coil condenses water, like a fridge in reverse",
+              "Damp bedrooms, apartments, small basements",
+              "Larger, heavier and louder"
+            ]
           ]
         },
         {
@@ -331,5 +333,28 @@
     "/best/best-dehumidifier-for-closet/",
     "/best/best-dehumidifier-for-bathroom/",
     "/best/best-pro-breeze-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~18 oz",
+          "label": "Daily water removal listed for the Pro Breeze PB-03, our top pick"
+        },
+        {
+          "value": "1,100 cu ft",
+          "label": "About an 11 × 12 ft room — the EDV-1100’s rated space"
+        },
+        {
+          "value": "20 pints",
+          "label": "Smallest common compressor size, for when a mini isn’t enough"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put those together and the role of a mini becomes clear: it’s a maintenance tool for small, closed spaces. Twenty pints a day is nearly 18 times what the PB-03 removes, which is why a damp basement needs a full-size unit."
+    }
   ]
 }

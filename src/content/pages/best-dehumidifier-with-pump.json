@@ -147,72 +147,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Pump dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "15–20 ft",
-              "label": "Typical vertical pump lift — enough to reach a window well or a sink one floor up"
-            },
-            {
-              "value": "0",
-              "label": "Buckets to empty once the hose is routed to a drain"
-            },
-            {
-              "value": "30–50%",
-              "label": "EPA-recommended indoor humidity, easiest to hold with nonstop drainage"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Capacity",
-            "Rated pump lift",
-            "Best for"
-          ],
-          "rows": [
-            [
-              "hOmeLabs HME1003 Wi-Fi",
-              "50 pints (DOE)",
-              "See manual",
-              "Most basements"
-            ],
-            [
-              "Waykar ENERGY STAR with Pump",
-              "50 pints (DOE)",
-              "16.4 ft",
-              "Big open spaces"
-            ],
-            [
-              "Frigidaire FHDP5033W1",
-              "50 pints",
-              "16.4 ft",
-              "Finished spaces"
-            ],
-            [
-              "Honeywell TPFIT50PWK",
-              "50 pints",
-              "See manual",
-              "Great rooms"
-            ],
-            [
-              "AlorAir Sentinel HDi65S",
-              "55 pints (AHAM)",
-              "19.6 ft",
-              "Crawl spaces"
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers with pumps",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -226,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier with a built-in pump",
+      "heading": "What should you look for in a dehumidifier with a built-in pump?",
       "blocks": [
         {
           "type": "checklist",
@@ -366,5 +302,65 @@
     "/best/best-homelabs-dehumidifier/",
     "/best/best-frigidaire-dehumidifier/",
     "/best/best-commercial-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "15–20 ft",
+          "label": "Typical vertical pump lift — enough to reach a window well or a sink one floor up"
+        },
+        {
+          "value": "0",
+          "label": "Buckets to empty once the hose is routed to a drain"
+        },
+        {
+          "value": "30–50%",
+          "label": "EPA-recommended indoor humidity, easiest to hold with nonstop drainage"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Rated pump lift",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "hOmeLabs HME1003 Wi-Fi",
+          "50 pints (DOE)",
+          "See manual",
+          "Most basements"
+        ],
+        [
+          "Waykar ENERGY STAR with Pump",
+          "50 pints (DOE)",
+          "16.4 ft",
+          "Big open spaces"
+        ],
+        [
+          "Frigidaire FHDP5033W1",
+          "50 pints",
+          "16.4 ft",
+          "Finished spaces"
+        ],
+        [
+          "Honeywell TPFIT50PWK",
+          "50 pints",
+          "See manual",
+          "Great rooms"
+        ],
+        [
+          "AlorAir Sentinel HDi65S",
+          "55 pints (AHAM)",
+          "19.6 ft",
+          "Crawl spaces"
+        ]
+      ]
+    }
   ]
 }

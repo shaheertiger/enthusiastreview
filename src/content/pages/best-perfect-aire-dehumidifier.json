@@ -142,26 +142,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Perfect Aire, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "4 of 23", "label": "Brands earning Consumer Reports’ top predicted-reliability score — Perfect Aire is one" },
-            { "value": "2 million", "label": "Dehumidifiers across several brands recalled by the CPSC in August 2021" },
-            { "value": "1 letter", "label": "The difference between the current 1PFD50 and the recalled 1PED50" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Perfect Aire was launched in 2012 by Bigwall Enterprises, a home-comfort company based in Countryside, Illinois, that designs and distributes its own air conditioners, dehumidifiers and ductless systems."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best Perfect Aire dehumidifiers",
+      "heading": "How we chose these Perfect Aire dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -175,7 +157,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Perfect Aire dehumidifier",
+      "heading": "Which features matter in a Perfect Aire dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -210,13 +192,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Capacity", "Coverage", "Pump", "Best for"],
+          "head": [
+            "Model",
+            "Capacity",
+            "Coverage",
+            "Pump",
+            "Best for"
+          ],
           "rows": [
-            ["22-Pint Flat Panel (3PFD22)", "22 pints/day", "Varies by retailer", "No", "Bedroom, office"],
-            ["35-Pint Flat Panel", "35 pints/day", "Up to 3,000 sq ft", "No", "Larger rooms"],
-            ["50-Pint Flat Panel (1PFD50)", "50 pints/day", "Up to 4,500 sq ft", "No", "Basements"],
-            ["50-Pint Flat Panel with Pump (3PFDP50)", "50 pints/day", "Up to 4,500 sq ft", "Yes", "Basements without a drain"],
-            ["150-Pint Industrial (1PACD150)", "150 pints/day", "Commercial spaces", "Continuous drain", "Job sites"]
+            [
+              "22-Pint Flat Panel (3PFD22)",
+              "22 pints/day",
+              "Varies by retailer",
+              "No",
+              "Bedroom, office"
+            ],
+            [
+              "35-Pint Flat Panel",
+              "35 pints/day",
+              "Up to 3,000 sq ft",
+              "No",
+              "Larger rooms"
+            ],
+            [
+              "50-Pint Flat Panel (1PFD50)",
+              "50 pints/day",
+              "Up to 4,500 sq ft",
+              "No",
+              "Basements"
+            ],
+            [
+              "50-Pint Flat Panel with Pump (3PFDP50)",
+              "50 pints/day",
+              "Up to 4,500 sq ft",
+              "Yes",
+              "Basements without a drain"
+            ],
+            [
+              "150-Pint Industrial (1PACD150)",
+              "150 pints/day",
+              "Commercial spaces",
+              "Continuous drain",
+              "Job sites"
+            ]
           ]
         }
       ]
@@ -306,5 +324,28 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-ivation-dehumidifier/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "4 of 23",
+          "label": "Brands earning Consumer Reports’ top predicted-reliability score — Perfect Aire is one"
+        },
+        {
+          "value": "2 million",
+          "label": "Dehumidifiers across several brands recalled by the CPSC in August 2021"
+        },
+        {
+          "value": "1 letter",
+          "label": "The difference between the current 1PFD50 and the recalled 1PED50"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Perfect Aire was launched in 2012 by Bigwall Enterprises, a home-comfort company based in Countryside, Illinois, that designs and distributes its own air conditioners, dehumidifiers and ductless systems."
+    }
   ]
 }

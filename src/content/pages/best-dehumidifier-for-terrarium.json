@@ -117,65 +117,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Terrarium moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~2.7 cu ft",
-              "label": "Air volume inside a standard 20-gallon long terrarium"
-            },
-            {
-              "value": "333 cu ft",
-              "label": "Rated coverage of Eva-Dry's smallest renewable unit — over 100 times one tank"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How quickly mold can start on damp materials, per the EPA"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Space",
-            "Typical air volume",
-            "Right tool"
-          ],
-          "rows": [
-            [
-              "One terrarium",
-              "A few cubic feet",
-              "Desiccant pack (dry-habitat only) or better ventilation"
-            ],
-            [
-              "Closed cabinet or rack",
-              "Tens of cubic feet",
-              "Cabinet-rated absorber like WiseDry"
-            ],
-            [
-              "Small reptile room",
-              "Hundreds of cubic feet",
-              "Eva-Dry E-333 or similar"
-            ],
-            [
-              "Dedicated terrarium room",
-              "~2,000+ cubic feet",
-              "Room unit like the Pro Breeze PB-03"
-            ]
-          ]
-        },
-        {
-          "type": "p",
-          "text": "In practice, this means a single enclosure almost never justifies a powered machine, while a room full of tanks often does. Measure the space you're actually trying to dry before you shop, and keep the habitat's own humidity needs in mind: a tropical vivarium may be supposed to sit far above anything a living room should."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick terrarium moisture control",
+      "heading": "How we chose these terrarium moisture control",
       "blocks": [
         {
           "type": "p",
@@ -189,7 +132,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a terrarium dehumidifier",
+      "heading": "What should you look for in a terrarium dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -291,5 +234,58 @@
     "/best/best-dehumidifier-for-plants/",
     "/best/best-dehumidifier-for-greenhouse/",
     "/guides/how-to-dehumidify-a-room/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~2.7 cu ft",
+          "label": "Air volume inside a standard 20-gallon long terrarium"
+        },
+        {
+          "value": "333 cu ft",
+          "label": "Rated coverage of Eva-Dry's smallest renewable unit — over 100 times one tank"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can start on damp materials, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Space",
+        "Typical air volume",
+        "Right tool"
+      ],
+      "rows": [
+        [
+          "One terrarium",
+          "A few cubic feet",
+          "Desiccant pack (dry-habitat only) or better ventilation"
+        ],
+        [
+          "Closed cabinet or rack",
+          "Tens of cubic feet",
+          "Cabinet-rated absorber like WiseDry"
+        ],
+        [
+          "Small reptile room",
+          "Hundreds of cubic feet",
+          "Eva-Dry E-333 or similar"
+        ],
+        [
+          "Dedicated terrarium room",
+          "~2,000+ cubic feet",
+          "Room unit like the Pro Breeze PB-03"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "In practice, this means a single enclosure almost never justifies a powered machine, while a room full of tanks often does. Measure the space you're actually trying to dry before you shop, and keep the habitat's own humidity needs in mind: a tropical vivarium may be supposed to sit far above anything a living room should."
+    }
   ]
 }

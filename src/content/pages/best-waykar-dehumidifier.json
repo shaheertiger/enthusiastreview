@@ -120,35 +120,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Waykar, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "3.0–3.7×",
-              "label": "How much Waykar's headline pint figures exceed the DOE ratings"
-            },
-            {
-              "value": "24.91",
-              "label": "Real DOE pints a day for the \"80-pint\" CHWA80A"
-            },
-            {
-              "value": "2.20 L/kWh",
-              "label": "Efficiency of the CTH150PD, the best in Waykar's certified range"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Every certified Waykar model has a public ENERGY STAR record listing its DOE capacity, efficiency and yearly energy use. Those records — not the name on the box — are what you should compare."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Waykar dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -162,7 +135,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Waykar dehumidifier",
+      "heading": "How do you pick a Waykar dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -405,5 +378,28 @@
     "/best/best-aeocky-dehumidifier/",
     "/best/best-crawl-space-dehumidifier/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "3.0–3.7×",
+          "label": "How much Waykar's headline pint figures exceed the DOE ratings"
+        },
+        {
+          "value": "24.91",
+          "label": "Real DOE pints a day for the \"80-pint\" CHWA80A"
+        },
+        {
+          "value": "2.20 L/kWh",
+          "label": "Efficiency of the CTH150PD, the best in Waykar's certified range"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Every certified Waykar model has a public ENERGY STAR record listing its DOE capacity, efficiency and yearly energy use. Those records — not the name on the box — are what you should compare."
+    }
   ]
 }

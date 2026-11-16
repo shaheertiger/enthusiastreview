@@ -217,35 +217,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Dehumidifier brands, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "19%",
-              "label": "Share of dehumidifiers likely to develop a problem in their first four years, per Consumer Reports members"
-            },
-            {
-              "value": "23",
-              "label": "Brands rated in Consumer Reports’ latest reliability survey"
-            },
-            {
-              "value": "6 yrs",
-              "label": "Santa Fe’s warranty — the longest of any brand here"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That reliability survey drew on 11,944 members who bought 13,632 dehumidifiers between 2014 and 2025. The most common failures were excessive noise and dead compressors or pumps — exactly the parts a longer sealed-system warranty covers."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best dehumidifier brands",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -259,7 +232,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier brand",
+      "heading": "Which features matter in a dehumidifier brand?",
       "blocks": [
         {
           "type": "checklist",
@@ -478,5 +451,28 @@
     "/compare/midea-vs-frigidaire-dehumidifier/",
     "/best/best-whole-house-dehumidifier/",
     "/best/best-santa-fe-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "19%",
+          "label": "Share of dehumidifiers likely to develop a problem in their first four years, per Consumer Reports members"
+        },
+        {
+          "value": "23",
+          "label": "Brands rated in Consumer Reports’ latest reliability survey"
+        },
+        {
+          "value": "6 yrs",
+          "label": "Santa Fe’s warranty — the longest of any brand here"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That reliability survey drew on 11,944 members who bought 13,632 dehumidifiers between 2014 and 2025. The most common failures were excessive noise and dead compressors or pumps — exactly the parts a longer sealed-system warranty covers."
+    }
   ]
 }

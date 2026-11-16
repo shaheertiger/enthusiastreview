@@ -121,35 +121,8 @@
   ],
   "sections": [
     {
-      "id": "desiccant-numbers",
-      "heading": "Desiccant vs. compressor, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~41°F",
-              "label": "Temperature where compressor coils typically start to frost"
-            },
-            {
-              "value": "33°F",
-              "label": "Lowest operating temperature Ivation lists for its desiccant units"
-            },
-            {
-              "value": "0",
-              "label": "Desiccant models in this guide with ENERGY STAR certification"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last figure isn't a knock on the technology. ENERGY STAR's dehumidifier program is built around refrigerant-based machines, so desiccant units simply aren't measured on the same scale. Don't read the missing label as a sign of poor quality — but do expect a desiccant to draw more power than a compressor of similar size when the room is warm."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick desiccant dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -163,7 +136,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a desiccant dehumidifier",
+      "heading": "How do you pick a desiccant dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -346,5 +319,28 @@
     "/best/best-dehumidifier-for-garage/",
     "/guides/dehumidifier-freezing-up/",
     "/guides/how-does-a-dehumidifier-work/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~41°F",
+          "label": "Temperature where compressor coils typically start to frost"
+        },
+        {
+          "value": "33°F",
+          "label": "Lowest operating temperature Ivation lists for its desiccant units"
+        },
+        {
+          "value": "0",
+          "label": "Desiccant models in this guide with ENERGY STAR certification"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last figure isn't a knock on the technology. ENERGY STAR's dehumidifier program is built around refrigerant-based machines, so desiccant units simply aren't measured on the same scale. Don't read the missing label as a sign of poor quality — but do expect a desiccant to draw more power than a compressor of similar size when the room is warm."
+    }
   ]
 }

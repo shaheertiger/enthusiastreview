@@ -147,35 +147,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Fleas and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~50%",
-              "label": "Relative humidity below which flea larvae struggle to survive"
-            },
-            {
-              "value": "95%",
-              "label": "Commonly cited share of a flea population living off the pet as eggs, larvae and pupae"
-            },
-            {
-              "value": "Weeks–months",
-              "label": "How long pupae can wait in their cocoons before hatching"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Flea larvae are tiny, blind and soft-bodied. They can't drink; they depend on the moisture in the air and in the debris they feed on. In a warm, humid summer carpet they thrive. Hold that same carpet below about 50%, and many dry out before they ever spin a cocoon."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for fleas",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -189,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for fleas",
+      "heading": "How do you pick a dehumidifier for fleas?",
       "blocks": [
         {
           "type": "checklist",
@@ -328,5 +301,28 @@
     "/best/best-dehumidifier-for-dust-mites/",
     "/best/best-hygrometer/",
     "/best/best-dehumidifier-for-allergies/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~50%",
+          "label": "Relative humidity below which flea larvae struggle to survive"
+        },
+        {
+          "value": "95%",
+          "label": "Commonly cited share of a flea population living off the pet as eggs, larvae and pupae"
+        },
+        {
+          "value": "Weeks–months",
+          "label": "How long pupae can wait in their cocoons before hatching"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Flea larvae are tiny, blind and soft-bodied. They can't drink; they depend on the moisture in the air and in the debris they feed on. In a warm, humid summer carpet they thrive. Hold that same carpet below about 50%, and many dry out before they ever spin a cocoon."
+    }
   ]
 }

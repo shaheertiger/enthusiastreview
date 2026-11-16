@@ -150,26 +150,8 @@
   ],
   "sections": [
     {
-      "id": "bathroom-by-the-numbers",
-      "heading": "Bathroom humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "90%+", "label": "Humidity a hot shower can create in a small bathroom within minutes" },
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends" },
-            { "value": "24–48 hrs", "label": "How fast mold can start on a damp surface, per the EPA" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That gap between 90% and 50% is why bathrooms are often the most mold-prone rooms in a house that's otherwise dry. Daily spikes, slow recovery and cool surfaces like tile and window glass give mold everything it needs."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best bathroom dehumidifiers",
+      "heading": "How we chose these bathroom dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -183,7 +165,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a bathroom dehumidifier",
+      "heading": "What separates a good bathroom dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -303,5 +285,28 @@
     "/best/best-quiet-dehumidifier/",
     "/best/best-dehumidifier-for-bedroom/",
     "/guides/how-to-dehumidify-a-room/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "90%+",
+          "label": "Humidity a hot shower can create in a small bathroom within minutes"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can start on a damp surface, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That gap between 90% and 50% is why bathrooms are often the most mold-prone rooms in a house that's otherwise dry. Daily spikes, slow recovery and cool surfaces like tile and window glass give mold everything it needs."
+    }
   ]
 }

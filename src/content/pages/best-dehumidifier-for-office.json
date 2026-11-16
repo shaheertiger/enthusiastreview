@@ -144,35 +144,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Office noise and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "40 dB",
-              "label": "Maximum background noise ANSI/ASA S12.2-2019 recommends for a private office"
-            },
-            {
-              "value": "45 dB",
-              "label": "Recommended maximum for an open-plan office"
-            },
-            {
-              "value": "30–50%",
-              "label": "Indoor humidity range the EPA recommends to prevent mold"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "A typical 50-pint compressor dehumidifier runs around 50–55 dB — above both office noise guidelines. That’s why we favored quiet-rated and thermoelectric models for workspaces where people talk."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick office dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -186,7 +159,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an office dehumidifier",
+      "heading": "How do you pick an office dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -347,5 +320,28 @@
     "/best/best-dehumidifier-for-finished-basement/",
     "/best/best-smart-dehumidifier/",
     "/best/best-pro-breeze-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40 dB",
+          "label": "Maximum background noise ANSI/ASA S12.2-2019 recommends for a private office"
+        },
+        {
+          "value": "45 dB",
+          "label": "Recommended maximum for an open-plan office"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends to prevent mold"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A typical 50-pint compressor dehumidifier runs around 50–55 dB — above both office noise guidelines. That’s why we favored quiet-rated and thermoelectric models for workspaces where people talk."
+    }
   ]
 }

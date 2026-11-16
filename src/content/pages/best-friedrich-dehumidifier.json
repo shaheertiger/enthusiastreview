@@ -99,55 +99,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Friedrich dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~2 million",
-              "label": "Dehumidifiers across 20 brands, Friedrich included, in the 2021 New Widetech recall"
-            },
-            {
-              "value": "2009–2017",
-              "label": "Manufacture window covered by that recall"
-            },
-            {
-              "value": "5 years",
-              "label": "Sealed refrigeration system warranty on the D35B1B and D50B1B"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Capacity",
-            "Typical coverage",
-            "Pump"
-          ],
-          "rows": [
-            [
-              "D35B1B",
-              "35 pints/day",
-              "About 800–1,000 sq ft",
-              "Built-in, 15 ft lift"
-            ],
-            [
-              "D50B1B",
-              "50 pints/day",
-              "About 1,000–2,000 sq ft",
-              "Built-in, 15 ft lift"
-            ]
-          ],
-          "caption": "Coverage varies between retailer listings; size conservatively for wet spaces."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Friedrich dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -161,7 +114,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Friedrich dehumidifier",
+      "heading": "What matters most in a Friedrich dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -294,5 +247,48 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-brands/",
     "/best/best-dehumidifier-for-basement/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~2 million",
+          "label": "Dehumidifiers across 20 brands, Friedrich included, in the 2021 New Widetech recall"
+        },
+        {
+          "value": "2009–2017",
+          "label": "Manufacture window covered by that recall"
+        },
+        {
+          "value": "5 years",
+          "label": "Sealed refrigeration system warranty on the D35B1B and D50B1B"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Typical coverage",
+        "Pump"
+      ],
+      "rows": [
+        [
+          "D35B1B",
+          "35 pints/day",
+          "About 800–1,000 sq ft",
+          "Built-in, 15 ft lift"
+        ],
+        [
+          "D50B1B",
+          "50 pints/day",
+          "About 1,000–2,000 sq ft",
+          "Built-in, 15 ft lift"
+        ]
+      ],
+      "caption": "Coverage varies between retailer listings; size conservatively for wet spaces."
+    }
   ]
 }

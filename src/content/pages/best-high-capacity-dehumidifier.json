@@ -151,26 +151,8 @@
   ],
   "sections": [
     {
-      "id": "capacity-numbers",
-      "heading": "High-capacity dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "8 pints", "label": "In one gallon, so a 240-pint unit is a \"30-gallon dehumidifier\"" },
-            { "value": "About half", "label": "Typical AHAM output compared with a unit's saturation rating" },
-            { "value": "12 amps", "label": "Continuous load limit on a standard 15-amp, 115-volt circuit" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Published LGR specs show the gap clearly: the AlorAir Storm Elite is rated at 125 pints AHAM and 270 at saturation, and the Dri-Eaz LGR 7000XLi at 130 AHAM and 235 at saturation. Always compare like with like."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick heavy-duty dehumidifiers",
+      "heading": "How we chose these heavy-duty dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -188,13 +170,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Pick", "Headline capacity", "Gallons/day", "Drainage", "Best for"],
+          "head": [
+            "Pick",
+            "Headline capacity",
+            "Gallons/day",
+            "Drainage",
+            "Best for"
+          ],
           "rows": [
-            ["AlorAir 170 PPD LGR", "170 pints", "About 21", "Built-in pump", "Large basements, dry-outs"],
-            ["Moiswell 240-Pint", "240 pints", "30", "Built-in pump", "Very large open spaces"],
-            ["Airzentti 155-Pint", "155 pints", "About 19", "Built-in pump", "Basements, crawl spaces"],
-            ["Waykar 155-Pint", "155 pints", "About 19", "Gravity hose or tank", "Spaces with a floor drain"],
-            ["Costway 100-Pint", "100 pints", "12.5", "Tank or hose", "Finished lower levels"]
+            [
+              "AlorAir 170 PPD LGR",
+              "170 pints",
+              "About 21",
+              "Built-in pump",
+              "Large basements, dry-outs"
+            ],
+            [
+              "Moiswell 240-Pint",
+              "240 pints",
+              "30",
+              "Built-in pump",
+              "Very large open spaces"
+            ],
+            [
+              "Airzentti 155-Pint",
+              "155 pints",
+              "About 19",
+              "Built-in pump",
+              "Basements, crawl spaces"
+            ],
+            [
+              "Waykar 155-Pint",
+              "155 pints",
+              "About 19",
+              "Gravity hose or tank",
+              "Spaces with a floor drain"
+            ],
+            [
+              "Costway 100-Pint",
+              "100 pints",
+              "12.5",
+              "Tank or hose",
+              "Finished lower levels"
+            ]
           ],
           "caption": "Headline capacities are manufacturer figures measured at warm, humid conditions; real output in a 65–70°F basement is lower."
         }
@@ -202,7 +220,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a heavy-duty dehumidifier",
+      "heading": "How do you choose a heavy-duty dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -343,5 +361,28 @@
     "/best/best-lgr-dehumidifier/",
     "/guides/dehumidifier-size-guide/",
     "/guides/dehumidifier-rental/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "8 pints",
+          "label": "In one gallon, so a 240-pint unit is a \"30-gallon dehumidifier\""
+        },
+        {
+          "value": "About half",
+          "label": "Typical AHAM output compared with a unit's saturation rating"
+        },
+        {
+          "value": "12 amps",
+          "label": "Continuous load limit on a standard 15-amp, 115-volt circuit"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Published LGR specs show the gap clearly: the AlorAir Storm Elite is rated at 125 pints AHAM and 270 at saturation, and the Dri-Eaz LGR 7000XLi at 130 AHAM and 235 at saturation. Always compare like with like."
+    }
   ]
 }

@@ -119,35 +119,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Dorm dehumidifier rules, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "Banned",
-              "label": "Dehumidifiers appear by name on Miami University's prohibited-items list"
-            },
-            {
-              "value": "750 W",
-              "label": "Appliance limit at Washington University in St. Louis, which doesn't name dehumidifiers"
-            },
-            {
-              "value": "0 W",
-              "label": "What a renewable absorber like the Eva-Dry E-333 draws while it works"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those two schools show how much policies vary. Handbooks change every year, so check the current version for your own building rather than relying on what a friend at another campus was allowed."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dorm room dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -161,7 +134,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dorm room dehumidifier",
+      "heading": "Which features matter in a dorm room dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -275,5 +248,28 @@
     "/best/best-moisture-absorber/",
     "/best/best-eva-dry-dehumidifier/",
     "/guides/how-to-dehumidify-a-room/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "Banned",
+          "label": "Dehumidifiers appear by name on Miami University's prohibited-items list"
+        },
+        {
+          "value": "750 W",
+          "label": "Appliance limit at Washington University in St. Louis, which doesn't name dehumidifiers"
+        },
+        {
+          "value": "0 W",
+          "label": "What a renewable absorber like the Eva-Dry E-333 draws while it works"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those two schools show how much policies vary. Handbooks change every year, so check the current version for your own building rather than relying on what a friend at another campus was allowed."
+    }
   ]
 }

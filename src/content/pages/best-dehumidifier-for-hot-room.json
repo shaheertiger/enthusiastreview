@@ -159,35 +159,8 @@
   ],
   "sections": [
     {
-      "id": "heat-by-the-numbers",
-      "heading": "A dehumidifier's heat, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~3.4 BTU",
-              "label": "Heat added to the room per hour for every watt a dehumidifier draws"
-            },
-            {
-              "value": "~1,000 BTU",
-              "label": "Heat released when one pint of water vapor condenses on the coil"
-            },
-            {
-              "value": "~3,200 BTU/hr",
-              "label": "Rough total from a 500-watt unit pulling 1.5 pints an hour"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That's roughly what a small space heater gives off on its low setting. A 6,000 BTU window air conditioner, by contrast, *removes* about twice that much heat every hour while it dries — the whole case for an AC in a genuinely hot room. For the physics, read [does a dehumidifier cool a room](/guides/does-a-dehumidifier-cool-a-room/)."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for hot rooms",
+      "heading": "How we chose these dehumidifiers for hot rooms",
       "blocks": [
         {
           "type": "p",
@@ -201,7 +174,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a hot room",
+      "heading": "How do you pick a dehumidifier for a hot room?",
       "blocks": [
         {
           "type": "checklist",
@@ -374,5 +347,28 @@
     "/best/best-dehumidifier-for-humid-climates/",
     "/best/best-dehumidifier-for-attic/",
     "/best/best-energy-efficient-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~3.4 BTU",
+          "label": "Heat added to the room per hour for every watt a dehumidifier draws"
+        },
+        {
+          "value": "~1,000 BTU",
+          "label": "Heat released when one pint of water vapor condenses on the coil"
+        },
+        {
+          "value": "~3,200 BTU/hr",
+          "label": "Rough total from a 500-watt unit pulling 1.5 pints an hour"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's roughly what a small space heater gives off on its low setting. A 6,000 BTU window air conditioner, by contrast, *removes* about twice that much heat every hour while it dries — the whole case for an AC in a genuinely hot room. For the physics, read [does a dehumidifier cool a room](/guides/does-a-dehumidifier-cool-a-room/)."
+    }
   ]
 }

@@ -116,35 +116,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Hearing aid moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~80%",
-              "label": "Share of manufacturer repairs linked to wax and moisture"
-            },
-            {
-              "value": "98%",
-              "label": "Share of examined hearing aids found with moisture inside"
-            },
-            {
-              "value": "113°F",
-              "label": "Maximum temperature the PerfectDry LUX regulates its cycle to"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those repair figures come from industry data reported in hearing-care trade publications. The takeaway is simple: nearly every hearing aid has some trapped moisture, and a nightly dryer keeps it from building up."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick hearing aid dryers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -158,7 +131,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a hearing aid dehumidifier",
+      "heading": "What should you look for in a hearing aid dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -307,5 +280,28 @@
     "/best/best-eva-dry-dehumidifier/",
     "/guides/how-does-a-dehumidifier-work/"
   ],
-  "noindex": true
+  "noindex": true,
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~80%",
+          "label": "Share of manufacturer repairs linked to wax and moisture"
+        },
+        {
+          "value": "98%",
+          "label": "Share of examined hearing aids found with moisture inside"
+        },
+        {
+          "value": "113°F",
+          "label": "Maximum temperature the PerfectDry LUX regulates its cycle to"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those repair figures come from industry data reported in hearing-care trade publications. The takeaway is simple: nearly every hearing aid has some trapped moisture, and a nightly dryer keeps it from building up."
+    }
+  ]
 }

@@ -122,35 +122,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Server room humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "40–60%",
-              "label": "ASHRAE TC9.9's recommended humidity range for IT equipment spaces"
-            },
-            {
-              "value": "20–80%",
-              "label": "ASHRAE's wider allowable range for short excursions"
-            },
-            {
-              "value": "~100 V",
-              "label": "An electrostatic discharge this small can harm sensitive components, per industry ESD guidance"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last figure is why server rooms are different. A home dehumidifier set to its lowest number can push a room too dry, and you'll never feel a 100-volt static discharge — but a circuit board can."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick server room dehumidifiers",
+      "heading": "How we chose these server room dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -164,7 +137,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a server room dehumidifier",
+      "heading": "What matters most in a server room dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -278,5 +251,28 @@
     "/best/best-dehumidifier-for-office/",
     "/best/best-dehumidifier-for-warehouse/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–60%",
+          "label": "ASHRAE TC9.9's recommended humidity range for IT equipment spaces"
+        },
+        {
+          "value": "20–80%",
+          "label": "ASHRAE's wider allowable range for short excursions"
+        },
+        {
+          "value": "~100 V",
+          "label": "An electrostatic discharge this small can harm sensitive components, per industry ESD guidance"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last figure is why server rooms are different. A home dehumidifier set to its lowest number can push a room too dry, and you'll never feel a 100-volt static discharge — but a circuit board can."
+    }
   ]
 }

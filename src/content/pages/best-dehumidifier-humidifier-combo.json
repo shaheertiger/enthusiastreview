@@ -148,24 +148,6 @@
   ],
   "sections": [
     {
-      "id": "humidity-numbers",
-      "heading": "Year-round humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "Indoor relative humidity range the EPA recommends" },
-            { "value": "60%", "label": "Level the EPA says to stay below to discourage mold growth" },
-            { "value": "2 seasons", "label": "Most four-season homes need moisture removed in summer and added in winter" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Summer humidity pushes most homes above that band; winter heating drags many below it. One machine can only push in one direction."
-        }
-      ]
-    },
-    {
       "id": "difference",
       "heading": "What's the difference between a dehumidifier and a humidifier?",
       "blocks": [
@@ -175,14 +157,42 @@
         },
         {
           "type": "table",
-          "head": ["", "Dehumidifier", "Humidifier"],
+          "head": [
+            "",
+            "Dehumidifier",
+            "Humidifier"
+          ],
           "rows": [
-            ["Job", "Removes water vapor", "Adds water vapor"],
-            ["Main season", "Spring through early fall", "Heating season"],
-            ["Signs you need it", "Musty smell, condensation, humidity over 60%", "Static shocks, dry skin, gapping wood, humidity under 30%"],
-            ["How it works", "Cold coil (or desiccant) pulls water out", "Wick, ultrasonic plate or steam puts water in"],
-            ["Water handling", "Collects water — empty or drain it", "Consumes water — fill it or plumb it"],
-            ["Main upkeep", "Wash the filter, empty or drain", "Clean the tank, replace pad or wick"]
+            [
+              "Job",
+              "Removes water vapor",
+              "Adds water vapor"
+            ],
+            [
+              "Main season",
+              "Spring through early fall",
+              "Heating season"
+            ],
+            [
+              "Signs you need it",
+              "Musty smell, condensation, humidity over 60%",
+              "Static shocks, dry skin, gapping wood, humidity under 30%"
+            ],
+            [
+              "How it works",
+              "Cold coil (or desiccant) pulls water out",
+              "Wick, ultrasonic plate or steam puts water in"
+            ],
+            [
+              "Water handling",
+              "Collects water — empty or drain it",
+              "Consumes water — fill it or plumb it"
+            ],
+            [
+              "Main upkeep",
+              "Wash the filter, empty or drain",
+              "Clean the tank, replace pad or wick"
+            ]
           ],
           "caption": "If you can't tell which side of the line you're on, a $15 hygrometer will answer it in a day."
         }
@@ -190,7 +200,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifier and humidifier combos",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -204,7 +214,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a humidifier and dehumidifier setup",
+      "heading": "What separates a good humidifier and dehumidifier setup from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -224,7 +234,10 @@
             {
               "label": "Right-sized capacity",
               "text": "Size the dehumidifier to your dampest space and the humidifier to your total heated square footage. A whole-house humidifier rated for a smaller home simply won't keep up.",
-              "sub": ["Whole home: a ducted dehumidifier plus a furnace-mounted humidifier", "Single room: a 20–35 pint portable plus a 4–6 liter tabletop humidifier"]
+              "sub": [
+                "Whole home: a ducted dehumidifier plus a furnace-mounted humidifier",
+                "Single room: a 20–35 pint portable plus a 4–6 liter tabletop humidifier"
+              ]
             },
             {
               "label": "Easy water handling",
@@ -345,5 +358,28 @@
     "/best/best-aprilaire-dehumidifier/",
     "/guides/dehumidifier-humidistat-settings-guide/",
     "/guides/whole-house-dehumidifier-installation/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor relative humidity range the EPA recommends"
+        },
+        {
+          "value": "60%",
+          "label": "Level the EPA says to stay below to discourage mold growth"
+        },
+        {
+          "value": "2 seasons",
+          "label": "Most four-season homes need moisture removed in summer and added in winter"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Summer humidity pushes most homes above that band; winter heating drags many below it. One machine can only push in one direction."
+    }
   ]
 }

@@ -121,31 +121,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "hOmeLabs dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "50 / 70 / 120",
-              "label": "Three pint figures printed on one hOmeLabs listing — only 50 is comparable"
-            },
-            {
-              "value": "12.8 pints",
-              "label": "Bucket capacity of the previous-generation hOmeLabs 50-pint, about a third of a Midea Cube 50"
-            },
-            {
-              "value": "41°F",
-              "label": "Lowest operating temperature before a compressor unit needs a specialist"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick hOmeLabs dehumidifiers",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -159,7 +136,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a hOmeLabs dehumidifier",
+      "heading": "Which features matter in a hOmeLabs dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -389,5 +366,24 @@
     "/best/best-frigidaire-dehumidifier/",
     "/best/best-dehumidifier-brands/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "50 / 70 / 120",
+          "label": "Three pint figures printed on one hOmeLabs listing — only 50 is comparable"
+        },
+        {
+          "value": "12.8 pints",
+          "label": "Bucket capacity of the previous-generation hOmeLabs 50-pint, about a third of a Midea Cube 50"
+        },
+        {
+          "value": "41°F",
+          "label": "Lowest operating temperature before a compressor unit needs a specialist"
+        }
+      ]
+    }
   ]
 }

@@ -119,35 +119,8 @@
   ],
   "sections": [
     {
-      "id": "humidity-numbers",
-      "heading": "Wood floor humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Relative humidity range the NWFA recommends for wood floors"
-            },
-            {
-              "value": "6–9%",
-              "label": "Typical moisture content wood flooring is milled and installed to"
-            },
-            {
-              "value": "2 pts",
-              "label": "Max moisture-content gap the NWFA allows between flooring and subfloor"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those last two numbers explain the first. The wood itself is what shrinks and swells; room humidity simply pushes its moisture content up or down. Keep the air inside the band and the boards stay close to the moisture content they were installed at."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for wood floors",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -161,7 +134,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for wood floors",
+      "heading": "Which features matter in a dehumidifier for wood floors?",
       "blocks": [
         {
           "type": "checklist",
@@ -245,5 +218,28 @@
     "/guides/dehumidifier-humidistat-settings-guide/",
     "/best/best-midea-dehumidifier/",
     "/guides/where-to-place-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Relative humidity range the NWFA recommends for wood floors"
+        },
+        {
+          "value": "6–9%",
+          "label": "Typical moisture content wood flooring is milled and installed to"
+        },
+        {
+          "value": "2 pts",
+          "label": "Max moisture-content gap the NWFA allows between flooring and subfloor"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those last two numbers explain the first. The wood itself is what shrinks and swells; room humidity simply pushes its moisture content up or down. Keep the air inside the band and the boards stay close to the moisture content they were installed at."
+    }
   ]
 }

@@ -120,35 +120,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Pool room moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "50–60%",
-              "label": "ASHRAE's recommended humidity range for an indoor pool, with 55% as the sweet spot"
-            },
-            {
-              "value": "~6 gal/hr",
-              "label": "Evaporation from a 75×25-ft pool with the room at 50% humidity"
-            },
-            {
-              "value": "~10 gal/hr",
-              "label": "The same pool's evaporation if the room drops below 30%"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Notice the last two numbers. Running a pool room too dry doesn't help — it makes the water evaporate faster, which raises your make-up water and chemical bills and makes swimmers shiver as they climb out. Design guidance for natatoriums also calls for four to six air changes an hour, far more than any ordinary room."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick pool room dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -162,7 +135,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a pool room dehumidifier",
+      "heading": "Which features matter in a pool room dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -296,5 +269,28 @@
     "/best/best-dehumidifier-for-sunroom/",
     "/best/best-whole-house-dehumidifier/",
     "/best/best-dehumidifier-for-sauna/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "50–60%",
+          "label": "ASHRAE's recommended humidity range for an indoor pool, with 55% as the sweet spot"
+        },
+        {
+          "value": "~6 gal/hr",
+          "label": "Evaporation from a 75×25-ft pool with the room at 50% humidity"
+        },
+        {
+          "value": "~10 gal/hr",
+          "label": "The same pool's evaporation if the room drops below 30%"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Notice the last two numbers. Running a pool room too dry doesn't help — it makes the water evaporate faster, which raises your make-up water and chemical bills and makes swimmers shiver as they climb out. Design guidance for natatoriums also calls for four to six air changes an hour, far more than any ordinary room."
+    }
   ]
 }
