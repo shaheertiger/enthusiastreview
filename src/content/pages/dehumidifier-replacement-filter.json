@@ -6,7 +6,7 @@
   "title": "Dehumidifier Filter Replacement: Wash It or Buy a New One?",
   "h1": "Dehumidifier Filter Replacement: When to Wash, When to Replace",
   "dek": "Most dehumidifier filters are meant to be rinsed, not replaced. Here's how to tell which kind you have — and how to order the right part when you do need one.",
-  "description": "Dehumidifier filter replacement made simple: washable vs. replaceable filters, how to clean them and how to find the right GE, Frigidaire or Aprilaire part.",
+  "description": "Rinse a portable dehumidifier's washable filter every 2–4 weeks for $0; whole-house units need pleated replacements. How to clean one and find the right part.",
   "published": "2026-10-15",
   "updated": "2026-11-05",
   "intro": [
@@ -15,29 +15,6 @@
   ],
   "products": [],
   "sections": [
-    {
-      "id": "filter-numbers",
-      "heading": "Dehumidifier filters, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "2–4 wks",
-              "label": "How often to rinse a washable filter during regular use"
-            },
-            {
-              "value": "$0",
-              "label": "Cost of cleaning a washable filter instead of replacing it"
-            },
-            {
-              "value": "1 sticker",
-              "label": "Your model number — the only reliable way to order the right part"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "washable-or-replaceable",
       "heading": "Washable or replaceable? Check this first",
@@ -218,5 +195,25 @@
     "/guides/dehumidifier-not-working/",
     "/best/best-frigidaire-dehumidifier/",
     "/guides/how-long-do-dehumidifiers-last/"
-  ]
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2–4 wks",
+          "label": "How often to rinse a washable filter during regular use"
+        },
+        {
+          "value": "$0",
+          "label": "Cost of cleaning a washable filter instead of replacing it"
+        },
+        {
+          "value": "1 sticker",
+          "label": "Your model number — the only reliable way to order the right part"
+        }
+      ]
+    }
+  ],
+  "topPicksLead": "Most portable dehumidifiers don't need a replacement filter: rinse the washable mesh every 2–4 weeks and reuse it. Buy a new one only if it's torn, or if your model (often whole-house and crawl-space units) uses a pleated filter. Order by the model number on the sticker."
 }

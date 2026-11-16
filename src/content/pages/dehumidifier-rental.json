@@ -3,10 +3,10 @@
   "section": "guides",
   "category": "Buying Advice",
   "navLabel": "Renting",
-  "title": "Dehumidifier Rental: When Renting Beats Buying (2026 Costs)",
+  "title": "Dehumidifier Rental (2026): Daily Costs and When Buying Wins",
   "h1": "Dehumidifier Rental: When Renting Beats Buying",
   "dek": "After a burst pipe, renting a restoration-grade unit can be the smart move. For a damp basement that comes back every summer, it almost never is.",
-  "description": "Dehumidifier rental explained: where to rent industrial LGR units, typical daily costs, and the breakeven point where buying your own makes more sense.",
+  "description": "Renting an LGR dehumidifier costs about $75–$125 a day, worth it for a one-time flood. For ongoing damp, buying a $150–$350 unit wins. Where to rent it.",
   "published": "2026-08-27",
   "updated": "2026-11-05",
   "intro": [
@@ -49,13 +49,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Your situation", "Our call", "Why"],
+          "head": [
+            "Your situation",
+            "Our call",
+            "Why"
+          ],
           "rows": [
-            ["One-time flood or burst pipe, 3–5 day dry-out", "Rent an LGR unit", "A short rental usually costs less than buying a restoration unit for a single use"],
-            ["Chronic damp basement or crawl space", "Buy", "A week of commercial rental costs more than owning; a home unit costs less than two rental days"],
-            ["Rental property or flood-prone home", "Buy an LGR unit", "Repeat incidents pay off the purchase within one or two uses"],
-            ["Musty bedroom, bathroom or closet", "Buy a residential unit", "There's no rental market for this size; buying is cheaper from day one"],
-            ["Large construction or job-site drying", "Rent industrial equipment", "Big desiccant systems are expensive to own; short-term rental is the norm for contractors"]
+            [
+              "One-time flood or burst pipe, 3–5 day dry-out",
+              "Rent an LGR unit",
+              "A short rental usually costs less than buying a restoration unit for a single use"
+            ],
+            [
+              "Chronic damp basement or crawl space",
+              "Buy",
+              "A week of commercial rental costs more than owning; a home unit costs less than two rental days"
+            ],
+            [
+              "Rental property or flood-prone home",
+              "Buy an LGR unit",
+              "Repeat incidents pay off the purchase within one or two uses"
+            ],
+            [
+              "Musty bedroom, bathroom or closet",
+              "Buy a residential unit",
+              "There's no rental market for this size; buying is cheaper from day one"
+            ],
+            [
+              "Large construction or job-site drying",
+              "Rent industrial equipment",
+              "Big desiccant systems are expensive to own; short-term rental is the norm for contractors"
+            ]
           ]
         }
       ]
@@ -121,9 +145,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "$75–125", "label": "Typical daily rate for a restoration-grade LGR unit" },
-            { "value": "$375–625", "label": "Rough cost of a 3–5 day dry-out after one flooded room" },
-            { "value": "1–2 uses", "label": "When owning an LGR unit usually beats renting" }
+            {
+              "value": "$75–125",
+              "label": "Typical daily rate for a restoration-grade LGR unit"
+            },
+            {
+              "value": "$375–625",
+              "label": "Rough cost of a 3–5 day dry-out after one flooded room"
+            },
+            {
+              "value": "1–2 uses",
+              "label": "When owning an LGR unit usually beats renting"
+            }
           ]
         },
         {
@@ -224,5 +257,6 @@
     "/best/best-alorair-dehumidifier/",
     "/guides/dehumidifier-size-guide/",
     "/guides/how-long-do-dehumidifiers-last/"
-  ]
+  ],
+  "topPicksLead": "Rent only for a one-time flood: a restoration LGR runs about $75–$125 a day. For a damp basement or room, buy, because a $150–$350 home unit costs less than a few days of rental."
 }

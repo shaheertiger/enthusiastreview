@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Rooms & Spaces",
   "navLabel": "Apartments",
-  "title": "Best Dehumidifier for Apartment (2026): Quiet, No-Drain Picks",
+  "title": "Best Dehumidifier for Apartment (2026): Quiet Condo-Safe Picks",
   "h1": "The Best Dehumidifiers for Apartments",
   "dek": "No floor drain, thin walls, a landlord's carpet and an outlet you share with the AC. These dehumidifiers are built for renting.",
-  "description": "The best dehumidifier for an apartment or studio: quiet units for shared walls, big-tank or app-alert models that need no drain, and how to dehumidify a rental.",
+  "description": "The 20-pint Midea Cube 20 is the best apartment dehumidifier: 42 dB and a 3.2-gallon tank. Quiet, no-drain picks for studios, rentals and condos.",
   "published": "2026-09-12",
   "updated": "2026-11-05",
   "intro": [
@@ -84,7 +84,7 @@
         "Coverage claim is generous for a 32-pint unit"
       ],
       "whyWeLoveIt": "An overflow on a landlord's carpet is a deposit problem, not just a mess. Being able to check the tank from your desk and empty it before it fills is worth a lot when the floor isn't yours.",
-      "performance": "hOmeLabs rates it for up to 4,500 square feet, but we'd treat it as a strong unit for a one- or two-bedroom apartment. It runs around 50 dB, so put it in the living area rather than right beside a bed. If app control is your priority, compare more options in our [best Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) roundup.",
+      "performance": "hOmeLabs rates it for up to 4,500 square feet, but we'd treat it as a strong unit for a one- or two-bedroom apartment. It runs around 50 dB, so put it in the living area rather than right beside a bed. If app control is your priority, compare more options in our [best Wi-Fi dehumidifier](/best/best-smart-dehumidifier/) roundup.",
       "specs": {
         "Capacity": "32 pints/day",
         "Smart control": "Wi-Fi app",
@@ -147,35 +147,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Apartment humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "34.7%",
-              "label": "Share of US households that rent, per the 2024 American Community Survey"
-            },
-            {
-              "value": "472 sq ft",
-              "label": "Size of the average US studio apartment"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How fast mold can start on a damp surface, per the EPA"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those first two numbers point the same way: most renters need a quiet, compact, single-room machine, not a basement workhorse. The third is a reminder that mold damage in a rental can come out of your deposit, so keeping humidity in check pays off twice."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for apartments",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -189,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an apartment dehumidifier",
+      "heading": "How do you pick an apartment dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -280,12 +253,39 @@
       ]
     },
     {
+      "id": "hoa-and-insurance",
+      "heading": "Living in a condo? HOA rules, insurance and drain lines",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Do you need HOA approval?"
+        },
+        {
+          "type": "p",
+          "text": "Not for a plug-in portable — you can run one the day it arrives. Approval usually comes into play only for permanent changes: drilling a wall for venting, or tying a drain hose into existing plumbing during a remodel. Check your Declaration or CC&Rs before touching shared walls or plumbing risers."
+        },
+        {
+          "type": "h3",
+          "text": "Check your HO-6 policy"
+        },
+        {
+          "type": "p",
+          "text": "An HO-6 condo policy typically covers your unit's interior and your liability for damage you cause to a neighbor. Confirm the details with your insurer so you know where you stand before an overflow happens, not after."
+        },
+        {
+          "type": "callout",
+          "title": "Lower floors run damper",
+          "text": "A ground-floor or garage-level condo often stays more humid than the units above it. Size up rather than copying your top-floor neighbor's choice, and consider a pump model so water can go to the nearest sink."
+        }
+      ]
+    },
+    {
       "id": "bottom-line",
       "heading": "The bottom line",
       "blocks": [
         {
           "type": "p",
-          "text": "The **Midea Cube 20** is the best dehumidifier for most apartments, with a quiet rating, a tank big enough to skip daily emptying and enough coverage for a studio or one-bedroom. Choose the **Eva-Dry EDV-2400** when a shared wall makes quiet the top priority, the **hOmeLabs 32-Pint Wi-Fi** if you want tank alerts on your phone, the **Eva-Dry E-333** for a musty closet, and the **Pro Breeze PB-03** if older wiring can't handle a compressor. Own your unit instead? Our [best dehumidifier for condo](/best/best-dehumidifier-for-condo/) guide covers what changes."
+          "text": "The **Midea Cube 20** is the best dehumidifier for most apartments, with a quiet rating, a tank big enough to skip daily emptying and enough coverage for a studio or one-bedroom. Choose the **Eva-Dry EDV-2400** when a shared wall makes quiet the top priority, the **hOmeLabs 32-Pint Wi-Fi** if you want tank alerts on your phone, the **Eva-Dry E-333** for a musty closet, and the **Pro Breeze PB-03** if older wiring can't handle a compressor. Own a condo instead? The [HOA, insurance and drain-line section](#hoa-and-insurance) below covers what changes."
         }
       ]
     }
@@ -314,14 +314,44 @@
     {
       "q": "How loud is too loud for an apartment dehumidifier?",
       "a": "Around 50 dB is noticeable in a quiet room and can carry through a shared wall. For overnight use in a bedroom, look for a rating of about 42 dB or lower."
+    },
+    {
+      "q": "Do I need HOA approval to use a dehumidifier in a condo?",
+      "a": "Not for a plug-in portable. Approval usually applies only to permanent changes, such as venting through a wall or connecting a drain line to shared plumbing. Check your association's governing documents before any of that work."
+    },
+    {
+      "q": "Who is liable if my dehumidifier leaks into the unit below?",
+      "a": "Generally the unit owner, not the HOA's master policy, particularly if negligence such as an unemptied tank is involved. That's why auto-shutoff or continuous drainage matters so much in a condo."
     }
   ],
   "related": [
     "/best/best-dehumidifier-for-bedroom/",
     "/best/best-small-dehumidifier/",
-    "/best/best-dehumidifier-for-condo/",
     "/best/best-dehumidifier-for-dorm-room/",
     "/best/best-quiet-dehumidifier/",
     "/guides/how-to-dehumidify-a-room/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "34.7%",
+          "label": "Share of US households that rent, per the 2024 American Community Survey"
+        },
+        {
+          "value": "472 sq ft",
+          "label": "Size of the average US studio apartment"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can start on a damp surface, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those first two numbers point the same way: most renters need a quiet, compact, single-room machine, not a basement workhorse. The third is a reminder that mold damage in a rental can come out of your deposit, so keeping humidity in check pays off twice."
+    }
   ]
 }

@@ -6,7 +6,7 @@
   "title": "How to Dehumidify a Room (With or Without a Dehumidifier)",
   "h1": "How to Dehumidify a Room — With or Without a Dehumidifier",
   "dek": "Clammy air, foggy windows, a musty smell? Here's how to dry out a room fast, plus the free fixes that keep it dry.",
-  "description": "How to dehumidify a room: set up a dehumidifier the right way, or reduce humidity without one using fans, AC, ventilation, absorbers and leak fixes.",
+  "description": "Close the room, run a dehumidifier until it reads about 50% and add a fan. No dehumidifier? AC, ventilation and calcium chloride absorbers help. Step by step.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -14,7 +14,7 @@
     "The target is simple: keep indoor relative humidity between 30% and 50%, as the EPA recommends, and never let it sit above 60%. A $15 hygrometer tells you where you stand.",
     "Below, we cover how to dehumidify a room with a dehumidifier, ten ways to reduce humidity without one, what homemade dehumidifiers can and can't do, and quick tips for bathrooms, basements, garages and cars."
   ],
-  "topPicksLead": "If you're buying one machine to dehumidify a bedroom, office or bathroom, the **Midea Cube 20** is our pick: compact, quiet and able to hold an exact humidity target.",
+  "topPicksLead": "Close the doors and windows, run a right-sized dehumidifier until the room reaches about 50%, and keep air moving with a fan. Without one, run the AC, vent bathrooms and kitchens, fix leaks, and use calcium chloride absorbers in small spaces.",
   "products": [
     {
       "id": "midea-cube-20",
@@ -96,16 +96,46 @@
         {
           "type": "checklist",
           "items": [
-            { "label": "Run exhaust fans", "text": "Use the bathroom fan during showers and for about 20 minutes afterward, and a range hood vented outdoors when cooking." },
-            { "label": "Use the air conditioner", "text": "AC removes moisture as it cools. Our [dehumidifier vs. air conditioner](/guides/dehumidifier-vs-air-conditioner/) guide explains when that's enough." },
-            { "label": "Ventilate when it's drier outside", "text": "Opening windows helps only when outdoor air is drier. Compare dew points, not just humidity percentages; a cool, dry day is ideal." },
-            { "label": "Fix leaks and drainage", "text": "Repair dripping pipes, insulate sweating cold-water lines, clean gutters and direct downspouts away from the house." },
-            { "label": "Dry laundry outside or in a vented dryer", "text": "A rack of wet clothes releases a lot of moisture indoors. Make sure the dryer vents outdoors." },
-            { "label": "Take shorter, cooler showers", "text": "Less steam means less moisture to remove." },
-            { "label": "Move houseplants and cover water", "text": "Plants, aquariums and simmering pots all add moisture. Group plants elsewhere and cover tanks." },
-            { "label": "Keep air moving", "text": "Ceiling and box fans help surfaces dry and stop damp pockets in corners and closets." },
-            { "label": "Use moisture absorbers in small spaces", "text": "Calcium chloride tubs or silica packs work in closets and cabinets. See our [best moisture absorber](/best/best-moisture-absorber/) picks." },
-            { "label": "Warm cold rooms", "text": "In cool weather, gentle heat lowers relative humidity and reduces condensation, though it doesn't remove moisture." }
+            {
+              "label": "Run exhaust fans",
+              "text": "Use the bathroom fan during showers and for about 20 minutes afterward, and a range hood vented outdoors when cooking."
+            },
+            {
+              "label": "Use the air conditioner",
+              "text": "AC removes moisture as it cools. Our [dehumidifier vs. air conditioner](/guides/dehumidifier-vs-air-conditioner/) guide explains when that's enough."
+            },
+            {
+              "label": "Ventilate when it's drier outside",
+              "text": "Opening windows helps only when outdoor air is drier. Compare dew points, not just humidity percentages; a cool, dry day is ideal."
+            },
+            {
+              "label": "Fix leaks and drainage",
+              "text": "Repair dripping pipes, insulate sweating cold-water lines, clean gutters and direct downspouts away from the house."
+            },
+            {
+              "label": "Dry laundry outside or in a vented dryer",
+              "text": "A rack of wet clothes releases a lot of moisture indoors. Make sure the dryer vents outdoors."
+            },
+            {
+              "label": "Take shorter, cooler showers",
+              "text": "Less steam means less moisture to remove."
+            },
+            {
+              "label": "Move houseplants and cover water",
+              "text": "Plants, aquariums and simmering pots all add moisture. Group plants elsewhere and cover tanks."
+            },
+            {
+              "label": "Keep air moving",
+              "text": "Ceiling and box fans help surfaces dry and stop damp pockets in corners and closets."
+            },
+            {
+              "label": "Use moisture absorbers in small spaces",
+              "text": "Calcium chloride tubs or silica packs work in closets and cabinets. See our [best moisture absorber](/best/best-moisture-absorber/) picks."
+            },
+            {
+              "label": "Warm cold rooms",
+              "text": "In cool weather, gentle heat lowers relative humidity and reduces condensation, though it doesn't remove moisture."
+            }
           ]
         }
       ]
@@ -120,13 +150,37 @@
         },
         {
           "type": "table",
-          "head": ["Method", "Does it work?", "Best for"],
+          "head": [
+            "Method",
+            "Does it work?",
+            "Best for"
+          ],
           "rows": [
-            ["Calcium chloride (DIY or commercial)", "Yes, slowly", "Closets, cabinets, small storage spaces"],
-            ["Rock salt", "Somewhat, less effective", "Very small enclosed spaces"],
-            ["Silica gel packs", "Yes, small capacity", "Drawers, safes, bins"],
-            ["Charcoal or baking soda", "Mostly for odors", "Musty smells, not humidity"],
-            ["Bowl of rice", "Barely", "Not recommended"]
+            [
+              "Calcium chloride (DIY or commercial)",
+              "Yes, slowly",
+              "Closets, cabinets, small storage spaces"
+            ],
+            [
+              "Rock salt",
+              "Somewhat, less effective",
+              "Very small enclosed spaces"
+            ],
+            [
+              "Silica gel packs",
+              "Yes, small capacity",
+              "Drawers, safes, bins"
+            ],
+            [
+              "Charcoal or baking soda",
+              "Mostly for odors",
+              "Musty smells, not humidity"
+            ],
+            [
+              "Bowl of rice",
+              "Barely",
+              "Not recommended"
+            ]
           ]
         },
         {
@@ -140,14 +194,38 @@
       "id": "by-space",
       "heading": "How to dehumidify specific spaces",
       "blocks": [
-        { "type": "h3", "text": "How to dehumidify a bathroom" },
-        { "type": "p", "text": "Run a properly vented exhaust fan, wipe down wet surfaces and leave the door open after showers. Windowless bathrooms may need a compact unit; see our [best dehumidifier for bathroom](/best/best-dehumidifier-for-bathroom/) guide." },
-        { "type": "h3", "text": "How to dehumidify a basement" },
-        { "type": "p", "text": "Fix gutters and grading, insulate cold-water pipes, and run a 35–50 pint unit with continuous drainage. Our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) picks cover the options." },
-        { "type": "h3", "text": "How to dehumidify a garage or crawl space" },
-        { "type": "p", "text": "Seal gaps and keep wet vehicles and gear from dripping inside. Crawl spaces usually need a vapor barrier plus a dedicated unit; see our [crawl space dehumidifier installation](/guides/crawl-space-dehumidifier-installation/) guide." },
-        { "type": "h3", "text": "How to dehumidify a car" },
-        { "type": "p", "text": "Run the AC with fresh air, dry wet mats and use a renewable silica pack. See our [best car dehumidifier](/best/best-car-dehumidifier/) guide." }
+        {
+          "type": "h3",
+          "text": "How to dehumidify a bathroom"
+        },
+        {
+          "type": "p",
+          "text": "Run a properly vented exhaust fan, wipe down wet surfaces and leave the door open after showers. Windowless bathrooms may need a compact unit; see our [best dehumidifier for bathroom](/best/best-dehumidifier-for-bathroom/) guide."
+        },
+        {
+          "type": "h3",
+          "text": "How to dehumidify a basement"
+        },
+        {
+          "type": "p",
+          "text": "Fix gutters and grading, insulate cold-water pipes, and run a 35–50 pint unit with continuous drainage. Our [best dehumidifier for basement](/best/best-dehumidifier-for-basement/) picks cover the options."
+        },
+        {
+          "type": "h3",
+          "text": "How to dehumidify a garage or crawl space"
+        },
+        {
+          "type": "p",
+          "text": "Seal gaps and keep wet vehicles and gear from dripping inside. Crawl spaces usually need a vapor barrier plus a dedicated unit; see our [crawl space dehumidifier installation](/guides/crawl-space-dehumidifier-installation/) guide."
+        },
+        {
+          "type": "h3",
+          "text": "How to dehumidify a car"
+        },
+        {
+          "type": "p",
+          "text": "Run the AC with fresh air, dry wet mats and use a renewable silica pack. See our [best car dehumidifier](/best/best-car-dehumidifier/) guide."
+        }
       ]
     },
     {

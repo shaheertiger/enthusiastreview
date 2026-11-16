@@ -3,10 +3,10 @@
   "section": "guides",
   "category": "Buying Advice",
   "navLabel": "When to Use One",
-  "title": "When to Use a Dehumidifier: Summer, Winter & Signs You Need One",
+  "title": "When to Use a Dehumidifier: Summer, Winter & Signs to Watch",
   "h1": "When to Use a Dehumidifier (and When Not To)",
   "dek": "The signs you need one, how to run it in summer and winter, the settings that matter, and the times it's better left off.",
-  "description": "When to use a dehumidifier: signs you need one, running a dehumidifier in summer vs. winter, ideal settings, running costs and when to switch it off.",
+  "description": "Run a dehumidifier when humidity stays above 50–60%: summer, and basements year-round in humid areas. Most heated rooms don't need one in winter.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -14,7 +14,7 @@
     "The quickest way to decide is to measure. The EPA recommends keeping indoor humidity between 30% and 50% and below 60%, and an inexpensive hygrometer tells you which side of that line you're on.",
     "Below, we cover the signs you need a dehumidifier, how to use one in summer and winter, the best settings, what it costs to run, and the situations where you should turn it off."
   ],
-  "topPicksLead": "Start with a hygrometer like the **Govee H5179** to confirm you need a dehumidifier; if you do, the **Midea Cube 35** is a versatile pick for most rooms and small basements.",
+  "topPicksLead": "Run one when indoor humidity stays above about 50–60%. For most homes that means summer, and basements year-round in humid climates. Heated rooms in winter usually sit below 40%, so switch it off there. A $15 hygrometer tells you which you have.",
   "products": [
     {
       "id": "govee-h5179-wifi-hygrometer",
@@ -75,12 +75,30 @@
         {
           "type": "checklist",
           "items": [
-            { "label": "Humidity above 60%", "text": "A hygrometer reading consistently over 60% is the clearest sign." },
-            { "label": "Musty smell", "text": "That damp, earthy odor usually means mold or mildew is growing somewhere. See our [best dehumidifier for musty smell](/best/best-dehumidifier-for-musty-smell/) guide." },
-            { "label": "Condensation", "text": "Water beading on windows, pipes or walls, especially in the morning. See our [window condensation guide](/guides/dehumidifier-for-condensation-on-windows/)." },
-            { "label": "Mold or mildew spots", "text": "On bathroom ceilings, basement walls, closets or stored items." },
-            { "label": "Damp or warped materials", "text": "Peeling paint or wallpaper, swelling doors, cupping wood floors, soft cardboard boxes." },
-            { "label": "Clammy air and pests", "text": "Sticky air, worse allergies indoors, or moisture-loving pests like silverfish and [centipedes](/best/best-dehumidifier-for-centipedes/)." }
+            {
+              "label": "Humidity above 60%",
+              "text": "A hygrometer reading consistently over 60% is the clearest sign."
+            },
+            {
+              "label": "Musty smell",
+              "text": "That damp, earthy odor usually means mold or mildew is growing somewhere. See our [best dehumidifier for musty smell](/best/best-dehumidifier-for-musty-smell/) guide."
+            },
+            {
+              "label": "Condensation",
+              "text": "Water beading on windows, pipes or walls, especially in the morning. See our [window condensation guide](/guides/dehumidifier-for-condensation-on-windows/)."
+            },
+            {
+              "label": "Mold or mildew spots",
+              "text": "On bathroom ceilings, basement walls, closets or stored items."
+            },
+            {
+              "label": "Damp or warped materials",
+              "text": "Peeling paint or wallpaper, swelling doors, cupping wood floors, soft cardboard boxes."
+            },
+            {
+              "label": "Clammy air and pests",
+              "text": "Sticky air, worse allergies indoors, or moisture-loving pests like silverfish and [centipedes](/best/best-dehumidifier-for-centipedes/)."
+            }
           ]
         }
       ]
@@ -91,12 +109,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Season", "Typical indoor humidity", "Run a dehumidifier?"],
+          "head": [
+            "Season",
+            "Typical indoor humidity",
+            "Run a dehumidifier?"
+          ],
           "rows": [
-            ["Summer", "Often 55–70%+ in humid climates", "Yes, especially in basements and closed rooms"],
-            ["Spring and fall", "Varies with rain and temperature", "As needed; watch the hygrometer"],
-            ["Winter (heated rooms)", "Often below 30–40%", "Usually not"],
-            ["Winter (basements, crawl spaces)", "Can stay damp", "Sometimes, if the space is warm enough"]
+            [
+              "Summer",
+              "Often 55–70%+ in humid climates",
+              "Yes, especially in basements and closed rooms"
+            ],
+            [
+              "Spring and fall",
+              "Varies with rain and temperature",
+              "As needed; watch the hygrometer"
+            ],
+            [
+              "Winter (heated rooms)",
+              "Often below 30–40%",
+              "Usually not"
+            ],
+            [
+              "Winter (basements, crawl spaces)",
+              "Can stay damp",
+              "Sometimes, if the space is warm enough"
+            ]
           ]
         },
         {

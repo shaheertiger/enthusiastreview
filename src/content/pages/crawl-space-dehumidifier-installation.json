@@ -6,7 +6,7 @@
   "title": "Crawl Space Dehumidifier Installation: Steps, Drains & Cost",
   "h1": "Crawl Space Dehumidifier Installation: A Step-by-Step Guide",
   "dek": "Where it sits, how it drains, how it's powered and what it costs — everything to plan before a dehumidifier goes under your house.",
-  "description": "Crawl space dehumidifier installation explained: prep, placement, drain and pump options, electrical, ducting, typical costs and when to DIY vs. hire a pro.",
+  "description": "A crawl space dehumidifier costs about $1,500–$3,000 installed, or a few hundred in supplies to DIY. Steps for prep, placement, drains, power and settings.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -95,24 +95,6 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Crawl space dehumidifier installation, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "50–55%", "label": "Common humidity setting for a sealed crawl space" },
-            { "value": "70 pints", "label": "Per 1,000 sq ft — the sizing in recent residential codes for unvented crawl spaces" },
-            { "value": "1/4 in.", "label": "Downward slope per foot typically used for gravity drain lines" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Recent editions of the International Residential Code allow a dehumidifier as the method of conditioning an unvented crawl space, sized at about 70 pints per day per 1,000 square feet of floor area. Your local code may differ, so check what your jurisdiction has adopted."
-        }
-      ]
-    },
-    {
       "id": "before-you-install",
       "heading": "Before you install: prep the crawl space",
       "blocks": [
@@ -161,12 +143,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Option", "How it works", "Best when"],
+          "head": [
+            "Option",
+            "How it works",
+            "Best when"
+          ],
           "rows": [
-            ["Gravity drain to outside", "Line slopes down through the rim joist to daylight", "Unit sits higher than the exit point"],
-            ["Gravity drain to sump pit", "Line slopes down into an existing sump", "Crawl space already has a sump pump"],
-            ["Condensate pump", "Small pump lifts water out through a vinyl line", "No downhill route is available"],
-            ["Built-in pump", "Pump inside the dehumidifier", "Unit model includes one"]
+            [
+              "Gravity drain to outside",
+              "Line slopes down through the rim joist to daylight",
+              "Unit sits higher than the exit point"
+            ],
+            [
+              "Gravity drain to sump pit",
+              "Line slopes down into an existing sump",
+              "Crawl space already has a sump pump"
+            ],
+            [
+              "Condensate pump",
+              "Small pump lifts water out through a vinyl line",
+              "No downhill route is available"
+            ],
+            [
+              "Built-in pump",
+              "Pump inside the dehumidifier",
+              "Unit model includes one"
+            ]
           ]
         },
         {
@@ -191,13 +193,31 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Item", "Typical estimate"],
+          "head": [
+            "Item",
+            "Typical estimate"
+          ],
           "rows": [
-            ["Crawl-space dehumidifier (55–90 pints)", "$1,000–$2,000+"],
-            ["DIY supplies (pump, line, blocks)", "$50–$300"],
-            ["Professional install, unit only", "$1,500–$3,000 total"],
-            ["New dedicated circuit (electrician)", "Often a few hundred dollars"],
-            ["Full encapsulation with dehumidifier", "Often $5,000–$15,000+"]
+            [
+              "Crawl-space dehumidifier (55–90 pints)",
+              "$1,000–$2,000+"
+            ],
+            [
+              "DIY supplies (pump, line, blocks)",
+              "$50–$300"
+            ],
+            [
+              "Professional install, unit only",
+              "$1,500–$3,000 total"
+            ],
+            [
+              "New dedicated circuit (electrician)",
+              "Often a few hundred dollars"
+            ],
+            [
+              "Full encapsulation with dehumidifier",
+              "Often $5,000–$15,000+"
+            ]
           ],
           "caption": "Typical estimates only. Prices vary widely by region, crawl-space size, access and the condition of the space."
         }
@@ -261,5 +281,29 @@
     "/best/best-alorair-dehumidifier/",
     "/guides/whole-house-dehumidifier-installation/",
     "/best/best-dehumidifier-for-centipedes/"
-  ]
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "50–55%",
+          "label": "Common humidity setting for a sealed crawl space"
+        },
+        {
+          "value": "70 pints",
+          "label": "Per 1,000 sq ft — the sizing in recent residential codes for unvented crawl spaces"
+        },
+        {
+          "value": "1/4 in.",
+          "label": "Downward slope per foot typically used for gravity drain lines"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Recent editions of the International Residential Code allow a dehumidifier as the method of conditioning an unvented crawl space, sized at about 70 pints per day per 1,000 square feet of floor area. Your local code may differ, so check what your jurisdiction has adopted."
+    }
+  ],
+  "topPicksLead": "Expect roughly $1,500–$3,000 installed, or a few hundred dollars in supplies if you DIY. Seal the vapor barrier first, set a 70-pint unit level on blocks, run a gravity drain or pump, plug into a GFCI outlet and set it to 50–55%."
 }

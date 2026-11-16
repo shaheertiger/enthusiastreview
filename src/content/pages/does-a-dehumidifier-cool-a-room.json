@@ -3,10 +3,10 @@
   "section": "guides",
   "category": "Buying Advice",
   "navLabel": "Cooling a Room",
-  "title": "Does a Dehumidifier Cool a Room? Why It Feels Cooler (But Isn't)",
+  "title": "Does a Dehumidifier Cool a Room? No, but It Feels Cooler",
   "h1": "Does a Dehumidifier Cool a Room?",
   "dek": "The air coming out is warm, yet the room feels better. Here's the physics behind that contradiction — and when you need an air conditioner instead.",
-  "description": "Does a dehumidifier cool a room? No — it adds a little heat. But drier air feels cooler. Here's why, how much warmer it gets, and dehumidifier vs. AC.",
+  "description": "No, a dehumidifier warms a room slightly. But at 86°F, cutting humidity from 70% to 50% drops the feels-like temperature from about 95°F to 88°F.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -67,13 +67,31 @@
         },
         {
           "type": "table",
-          "head": ["Relative humidity at 86°F", "Feels like (heat index)"],
+          "head": [
+            "Relative humidity at 86°F",
+            "Feels like (heat index)"
+          ],
           "rows": [
-            ["80%", "About 100°F"],
-            ["70%", "About 95°F"],
-            ["60%", "About 91°F"],
-            ["50%", "About 88°F"],
-            ["40%", "About 85°F"]
+            [
+              "80%",
+              "About 100°F"
+            ],
+            [
+              "70%",
+              "About 95°F"
+            ],
+            [
+              "60%",
+              "About 91°F"
+            ],
+            [
+              "50%",
+              "About 88°F"
+            ],
+            [
+              "40%",
+              "About 85°F"
+            ]
           ],
           "caption": "Values from the National Weather Service heat index chart, rounded."
         },
@@ -89,13 +107,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Dehumidifier", "Air conditioner"],
+          "head": [
+            "",
+            "Dehumidifier",
+            "Air conditioner"
+          ],
           "rows": [
-            ["Lowers temperature", "No — adds slight heat", "Yes"],
-            ["Lowers humidity", "Yes, to a set target", "Yes, as a side effect of cooling"],
-            ["Where the heat goes", "Stays in the room", "Vented outdoors"],
-            ["Best when", "Room is mild but muggy (under ~80°F)", "Room is hot, humid or both"],
-            ["Typical uses", "Basements, bedrooms, shoulder seasons", "Summer living spaces"]
+            [
+              "Lowers temperature",
+              "No — adds slight heat",
+              "Yes"
+            ],
+            [
+              "Lowers humidity",
+              "Yes, to a set target",
+              "Yes, as a side effect of cooling"
+            ],
+            [
+              "Where the heat goes",
+              "Stays in the room",
+              "Vented outdoors"
+            ],
+            [
+              "Best when",
+              "Room is mild but muggy (under ~80°F)",
+              "Room is hot, humid or both"
+            ],
+            [
+              "Typical uses",
+              "Basements, bedrooms, shoulder seasons",
+              "Summer living spaces"
+            ]
           ]
         },
         {
@@ -191,5 +233,6 @@
     "/guides/when-to-use-a-dehumidifier/",
     "/best/best-dehumidifier-for-bedroom/",
     "/guides/dehumidifier-humidistat-settings-guide/"
-  ]
+  ],
+  "topPicksLead": "No. A dehumidifier adds a little heat to a room. It feels cooler because drier air lets sweat evaporate: at 86°F, dropping from 70% to 50% humidity cuts the feels-like temperature from about 95°F to 88°F."
 }

@@ -6,7 +6,7 @@
   "title": "Dehumidifier Not Working? Power, Shut-Off and Pump Fixes",
   "h1": "Dehumidifier Not Working? Here's How to Get It Running Again",
   "dek": "Before you haul it to the curb, work through the outlet, the bucket and a three-minute wait. That's what fixes most \"dead\" units.",
-  "description": "Dehumidifier not working? Step-by-step fixes for a unit that won't turn on, shuts off right away or whose pump won't drain — for GE, Midea, Frigidaire and more.",
+  "description": "No power? Reset the GFCI outlet first. Shuts off in seconds? Reseat the bucket. Lights on, no hum? Wait 3–5 minutes. Fixes for GE, Midea, Frigidaire, pumps.",
   "published": "2026-10-04",
   "updated": "2026-11-05",
   "intro": [
@@ -21,15 +21,47 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["What you see", "Most likely cause", "First fix"],
+          "head": [
+            "What you see",
+            "Most likely cause",
+            "First fix"
+          ],
           "rows": [
-            ["No lights, no sound, nothing", "Tripped GFCI outlet", "Press RESET on the outlet, not the unit"],
-            ["Still dead after a GFCI reset", "Tripped or loose breaker", "Check the panel; try another outlet"],
-            ["Turns on, shuts off within seconds", "Bucket float switch", "Empty, clean and firmly reseat the bucket"],
-            ["Lights on, but no compressor hum for a few minutes", "Anti-short-cycle delay", "Wait at least 3–5 minutes"],
-            ["Display on, nothing running", "Timer or delay-start set", "Check the display for an active timer"],
-            ["Pump mode on, water not draining", "Kinked hose or clogged pump", "See the pump steps below"],
-            ["Dead after all of the above", "Control board or compressor failure", "Check the warranty; weigh repair vs. replace"]
+            [
+              "No lights, no sound, nothing",
+              "Tripped GFCI outlet",
+              "Press RESET on the outlet, not the unit"
+            ],
+            [
+              "Still dead after a GFCI reset",
+              "Tripped or loose breaker",
+              "Check the panel; try another outlet"
+            ],
+            [
+              "Turns on, shuts off within seconds",
+              "Bucket float switch",
+              "Empty, clean and firmly reseat the bucket"
+            ],
+            [
+              "Lights on, but no compressor hum for a few minutes",
+              "Anti-short-cycle delay",
+              "Wait at least 3–5 minutes"
+            ],
+            [
+              "Display on, nothing running",
+              "Timer or delay-start set",
+              "Check the display for an active timer"
+            ],
+            [
+              "Pump mode on, water not draining",
+              "Kinked hose or clogged pump",
+              "See the pump steps below"
+            ],
+            [
+              "Dead after all of the above",
+              "Control board or compressor failure",
+              "Check the warranty; weigh repair vs. replace"
+            ]
           ]
         }
       ]
@@ -200,5 +232,6 @@
     "/guides/how-long-do-dehumidifiers-last/",
     "/guides/how-to-dispose-of-a-dehumidifier/",
     "/guides/dehumidifier-replacement-filter/"
-  ]
+  ],
+  "topPicksLead": "If it's completely dead, press RESET on the GFCI outlet, then check the breaker. If it turns on and shuts off within seconds, reseat the bucket so the float switch clicks. If the lights are on but nothing runs, wait 3–5 minutes for the compressor delay."
 }

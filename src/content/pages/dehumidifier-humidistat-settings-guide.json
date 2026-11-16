@@ -6,14 +6,14 @@
   "title": "Dehumidifier Humidistat Settings by Room and Season",
   "h1": "What Should Your Dehumidifier Humidistat Be Set To?",
   "dek": "The EPA's 30–50% range is the fence, not the target. Here's the number to dial in for each room and season — and why the right number can still fail.",
-  "description": "How to set a dehumidifier with a humidistat: the ideal humidity for basements, bedrooms, nurseries and bathrooms, plus seasonal adjustments and accuracy tips.",
+  "description": "Set a dehumidifier to 45% for most rooms: 40–45% for basements, 45–50% for bedrooms and nurseries, a little higher in winter. Settings by room and season.",
   "published": "2026-09-05",
   "updated": "2026-11-05",
   "intro": [
     "A **dehumidifier with a humidistat** is only as good as the number you give it. For most rooms, set it between **40% and 50%** relative humidity, with **45%** as a dependable all-purpose default. Go a little lower in summer or in a room fighting mold or dust mites; nudge it a little higher in winter or in a bedroom where lower settings feel dry.",
     "Get it wrong and you pay either way. Set too high, mold and dust mites move in while the unit still adds to your power bill. Set too low, the compressor runs nonstop chasing a target the room can't reach, wearing out the machine for no real benefit. The EPA's 30–50% recommendation marks the outer boundary; the real value comes from choosing the right number inside it for each room and season."
   ],
-  "topPicksLead": "If you want a humidistat you can trust, the **Midea Cube 20** is the standout: Consumer Reports rates its humidistat accuracy Excellent.",
+  "topPicksLead": "Set it to 45% for most rooms. Use 40–45% in a basement or crawl space, 45–50% in bedrooms and nurseries, and ease up toward 50% in winter. Below about 35%, you pay for dry sinuses and a compressor that never rests.",
   "products": [
     {
       "id": "midea-cube-20",
@@ -65,37 +65,47 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Humidity settings, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "The EPA's recommended indoor humidity range" },
-            { "value": "50–60%+", "label": "Where dust mites and most molds begin to thrive" },
-            { "value": "6–11 days", "label": "How long dust mites take to die off once humidity stays at or below 50%" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That middle number explains why we treat 45–50% as the practical ceiling for living spaces. University of Kentucky entomology research found very few dust mites survive once humidity drops below 45%."
-        }
-      ]
-    },
-    {
       "id": "by-room",
       "heading": "The right humidistat setting for each room",
       "blocks": [
         {
           "type": "table",
-          "head": ["Room", "Target", "Why"],
+          "head": [
+            "Room",
+            "Target",
+            "Why"
+          ],
           "rows": [
-            ["Basement or crawl space", "40–45%", "Highest mold risk. Start at 40% if it smells musty, then ease up to 45% once stable."],
-            ["Bedroom", "45–50%", "Low enough to suppress dust mites in bedding, high enough to avoid dry skin and sinuses."],
-            ["Nursery", "45–50%", "Same as a bedroom, but use a digital humidistat to hold the narrow band."],
-            ["Bathroom", "About 50%, or auto mode", "Short spikes after showers are normal; a unit that reacts quickly matters more than the exact number."],
-            ["Living areas", "45–50%", "Lean to 45% in summer and 50% in winter."],
-            ["Wood-floored rooms", "40–50%", "Too dry is as harmful as too damp. See our [wood floor picks](/best/best-dehumidifier-for-wood-floors/)."]
+            [
+              "Basement or crawl space",
+              "40–45%",
+              "Highest mold risk. Start at 40% if it smells musty, then ease up to 45% once stable."
+            ],
+            [
+              "Bedroom",
+              "45–50%",
+              "Low enough to suppress dust mites in bedding, high enough to avoid dry skin and sinuses."
+            ],
+            [
+              "Nursery",
+              "45–50%",
+              "Same as a bedroom, but use a digital humidistat to hold the narrow band."
+            ],
+            [
+              "Bathroom",
+              "About 50%, or auto mode",
+              "Short spikes after showers are normal; a unit that reacts quickly matters more than the exact number."
+            ],
+            [
+              "Living areas",
+              "45–50%",
+              "Lean to 45% in summer and 50% in winter."
+            ],
+            [
+              "Wood-floored rooms",
+              "40–50%",
+              "Too dry is as harmful as too damp. See our [wood floor picks](/best/best-dehumidifier-for-wood-floors/)."
+            ]
           ]
         },
         {
@@ -225,5 +235,28 @@
     "/guides/when-to-use-a-dehumidifier/",
     "/best/best-dehumidifier-for-bedroom/",
     "/best/best-dehumidifier-for-basement/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "The EPA's recommended indoor humidity range"
+        },
+        {
+          "value": "50–60%+",
+          "label": "Where dust mites and most molds begin to thrive"
+        },
+        {
+          "value": "6–11 days",
+          "label": "How long dust mites take to die off once humidity stays at or below 50%"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That middle number explains why we treat 45–50% as the practical ceiling for living spaces. University of Kentucky entomology research found very few dust mites survive once humidity drops below 45%."
+    }
   ]
 }

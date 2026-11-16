@@ -6,7 +6,7 @@
   "title": "Dehumidifier Not Collecting Water? 6 Causes and Easy Fixes",
   "h1": "Dehumidifier Not Collecting Water? Here's Why — and How to Fix It",
   "dek": "The fan is spinning, the compressor is humming and the bucket is bone-dry. Nine times out of ten, the fix takes five minutes and no tools.",
-  "description": "Dehumidifier not collecting water but still running? Work through the six real causes, from humidistat settings to float switches and drain hoses, in order.",
+  "description": "Of 6 common causes, the usual one is a humidistat set below the room's humidity. Run it on Continuous for an hour, then check the float, bucket and hose.",
   "published": "2026-08-28",
   "updated": "2026-11-05",
   "intro": [
@@ -98,14 +98,42 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["What you notice", "Likely cause", "What to do"],
+          "head": [
+            "What you notice",
+            "Likely cause",
+            "What to do"
+          ],
           "rows": [
-            ["Fan runs, compressor rarely kicks on", "Humidistat set below room humidity", "Switch to Continuous or lowest setting for an hour"],
-            ["Shuts off soon after starting, bucket empty", "Stuck or dirty float switch", "Remove bucket, clean float, reseat firmly"],
-            ["Fan and compressor run, nothing in bucket", "Bucket not fully seated", "Push the bucket in until it clicks"],
-            ["Hose attached, never drips", "Kink or uphill section in hose", "Straighten and keep it sloping downward"],
-            ["Water pools under or inside the unit", "Unit tilted", "Move to a level, hard surface"],
-            ["Runs for hours, only a trickle", "Cold room, frost or already-dry air", "Check temperature and humidity; clean filter"]
+            [
+              "Fan runs, compressor rarely kicks on",
+              "Humidistat set below room humidity",
+              "Switch to Continuous or lowest setting for an hour"
+            ],
+            [
+              "Shuts off soon after starting, bucket empty",
+              "Stuck or dirty float switch",
+              "Remove bucket, clean float, reseat firmly"
+            ],
+            [
+              "Fan and compressor run, nothing in bucket",
+              "Bucket not fully seated",
+              "Push the bucket in until it clicks"
+            ],
+            [
+              "Hose attached, never drips",
+              "Kink or uphill section in hose",
+              "Straighten and keep it sloping downward"
+            ],
+            [
+              "Water pools under or inside the unit",
+              "Unit tilted",
+              "Move to a level, hard surface"
+            ],
+            [
+              "Runs for hours, only a trickle",
+              "Cold room, frost or already-dry air",
+              "Check temperature and humidity; clean filter"
+            ]
           ]
         }
       ]
@@ -186,5 +214,6 @@
     "/guides/dehumidifier-maintenance/",
     "/guides/dehumidifier-humidistat-settings-guide/",
     "/guides/where-to-place-a-dehumidifier/"
-  ]
+  ],
+  "topPicksLead": "Most often the humidistat is set below the room's actual humidity, so the compressor barely runs. Switch to Continuous for an hour. If that doesn't help, check the float switch, the bucket seating, the drain hose, whether the unit is level and whether the room is below about 65°F."
 }

@@ -6,7 +6,7 @@
   "title": "Dehumidifier vs. Air Conditioner: Which Fixes Humidity?",
   "h1": "Dehumidifier vs. Air Conditioner: Which One Do You Actually Need?",
   "dek": "Your AC dries the air only while it’s busy cooling. On mild, muggy days, that’s not enough — here’s how to tell which machine solves your problem.",
-  "description": "Dehumidifier vs. air conditioner: how much moisture each removes, why AC short-cycling leaves rooms clammy, running costs, and when you need both.",
+  "description": "A central AC removes 5–20 gallons of water a day but only while cooling, so mild, muggy days stay clammy. When a dehumidifier, an AC or both fixes humidity.",
   "published": "2026-09-22",
   "updated": "2026-11-05",
   "intro": [
@@ -14,7 +14,7 @@
     "That difference matters most on the days that feel worst — mild, rainy stretches in spring and fall when it’s not hot enough for the AC to run long, but the air is heavy and damp. The house ends up cool *and* clammy at the same time.",
     "Here’s how much each machine really does for humidity, when your AC quietly falls short, and how to decide which to buy first."
   ],
-  "topPicksLead": "If humidity is your main complaint, start with a dedicated room dehumidifier like the **Midea Cube 50**; if heat is the problem, a dual-hose portable AC such as the **Whynter ARC-14S** is the better tool.",
+  "topPicksLead": "If humidity is the complaint, use a dehumidifier: an AC only removes moisture while it's cooling, so mild, muggy days and short-cycling systems leave rooms clammy. If heat is the problem, use an AC. Many humid homes need both, with the dehumidifier holding 45–50%.",
   "products": [
     {
       "id": "midea-cube-50",
@@ -69,33 +69,47 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Dehumidifier vs. air conditioner, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "5–20 gal", "label": "Water a central AC removes per day in typical summer conditions" },
-            { "value": "20–35%", "label": "Share of an AC’s capacity that goes to moisture rather than temperature" },
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends to limit mold and dust mites" }
-          ]
-        }
-      ]
-    },
-    {
       "id": "side-by-side",
       "heading": "What each machine actually does",
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Dehumidifier", "Air conditioner"],
+          "head": [
+            "",
+            "Dehumidifier",
+            "Air conditioner"
+          ],
           "rows": [
-            ["Main job", "Remove water vapor", "Lower air temperature"],
-            ["Humidity removal", "Its only function", "A byproduct of cooling"],
-            ["Runs when it’s not hot", "Yes", "No — stops once the thermostat is satisfied"],
-            ["Effect on temperature", "Adds a little heat", "Cools the room"],
-            ["Weak spot", "Doesn’t cool", "Short-cycles on mild, humid days"],
-            ["Typical cost", "Under $300 for a room unit", "$300–700 portable; more for central"]
+            [
+              "Main job",
+              "Remove water vapor",
+              "Lower air temperature"
+            ],
+            [
+              "Humidity removal",
+              "Its only function",
+              "A byproduct of cooling"
+            ],
+            [
+              "Runs when it’s not hot",
+              "Yes",
+              "No — stops once the thermostat is satisfied"
+            ],
+            [
+              "Effect on temperature",
+              "Adds a little heat",
+              "Cools the room"
+            ],
+            [
+              "Weak spot",
+              "Doesn’t cool",
+              "Short-cycles on mild, humid days"
+            ],
+            [
+              "Typical cost",
+              "Under $300 for a room unit",
+              "$300–700 portable; more for central"
+            ]
           ]
         },
         {
@@ -133,12 +147,20 @@
             {
               "label": "Choose a dehumidifier if…",
               "text": "The room is a comfortable temperature but feels sticky, windows fog, or a basement, crawl space or bathroom stays damp year-round.",
-              "sub": ["Musty smells despite the AC running", "Mild, rainy weather is when it feels worst", "Humidity readings stay above 50–55%"]
+              "sub": [
+                "Musty smells despite the AC running",
+                "Mild, rainy weather is when it feels worst",
+                "Humidity readings stay above 50–55%"
+              ]
             },
             {
               "label": "Choose an air conditioner if…",
               "text": "Heat is the main complaint and the room is genuinely hot, not just humid.",
-              "sub": ["No central air in that room", "Peak summer temperatures are the problem", "You need a self-contained unit for one space"]
+              "sub": [
+                "No central air in that room",
+                "Peak summer temperatures are the problem",
+                "You need a self-contained unit for one space"
+              ]
             },
             {
               "label": "Choose both if…",
@@ -212,5 +234,24 @@
     "/guides/dehumidifier-vs-air-purifier/",
     "/guides/how-much-electricity-does-a-dehumidifier-use/",
     "/best/best-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "5–20 gal",
+          "label": "Water a central AC removes per day in typical summer conditions"
+        },
+        {
+          "value": "20–35%",
+          "label": "Share of an AC’s capacity that goes to moisture rather than temperature"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends to limit mold and dust mites"
+        }
+      ]
+    }
   ]
 }

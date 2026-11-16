@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Rooms & Spaces",
   "navLabel": "Bedrooms",
-  "title": "Best Dehumidifier for Bedroom (2026): Quiet & Small Picks",
+  "title": "Best Dehumidifier for Bedroom (2026): Quiet Picks for Sleep",
   "h1": "The Best Quiet Dehumidifiers for Bedrooms",
   "dek": "A dehumidifier three feet from your pillow has to dry the air without stealing your sleep. These are the quiet, right-sized ones.",
-  "description": "The best dehumidifier for a bedroom: quiet sleep-mode and near-silent mini units that hold 45–50% overnight, plus where to put one and how long to run it.",
+  "description": "Most bedrooms need 20–35 pints; the Midea Cube 35 is our top pick, with a quiet sleep mode and a tank that lasts the night. Plus where to put one.",
   "published": "2026-08-20",
   "updated": "2026-11-05",
   "intro": [
@@ -147,35 +147,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Bedroom humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "45–50%",
-              "label": "Smart overnight target, inside the EPA's 30–50% range"
-            },
-            {
-              "value": "~45 dBA",
-              "label": "A sensible noise ceiling for a unit on its sleep setting"
-            },
-            {
-              "value": "20–35 pints",
-              "label": "Capacity range that fits most bedrooms (DOE 2019 ratings)"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "If you're torn between sizes, go one step up. A slightly larger unit can run on a lower, quieter fan speed to hold the same humidity a smaller one would have to work hard for."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick bedroom dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -189,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a quiet dehumidifier for a bedroom",
+      "heading": "What matters most in a quiet dehumidifier for a bedroom?",
       "blocks": [
         {
           "type": "checklist",
@@ -254,6 +227,25 @@
       ]
     },
     {
+      "id": "is-it-good-to-sleep",
+      "heading": "Is it good to sleep with a dehumidifier on?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For most people in a humid climate or a damp room, yes. Drier air lets sweat evaporate, so you feel cooler at the same temperature, and keeping humidity below 50% discourages dust mites and mold — two common triggers for nighttime congestion. Our [allergy dehumidifier](/best/best-dehumidifier-for-allergies/) guide covers that side in depth."
+        },
+        {
+          "type": "p",
+          "text": "The downsides are manageable. Over-drying can leave you with a dry throat, irritated sinuses or nosebleeds, which is why a humidistat matters. A compressor unit also gives off a little heat; it won’t cool a room, though drier air often feels more comfortable. Our guide on [whether a dehumidifier cools a room](/guides/does-a-dehumidifier-cool-a-room/) explains why."
+        },
+        {
+          "type": "callout",
+          "title": "Safety basics",
+          "text": "Plug the dehumidifier directly into a wall outlet rather than an extension cord or power strip, leave several inches of clearance on all sides, and keep cords out of walkways where you might trip in the dark."
+        }
+      ]
+    },
+    {
       "id": "bottom-line",
       "heading": "The bottom line",
       "blocks": [
@@ -288,6 +280,14 @@
     {
       "q": "Does a bedroom dehumidifier help with allergies?",
       "a": "It can. Dust mites thrive above about 50% humidity, so holding the bedroom near 45% makes it much less hospitable. Pair it with regular hot washing of bedding for the best results."
+    },
+    {
+      "q": "Is it safe to sleep with a dehumidifier on?",
+      "a": "Yes. Household dehumidifiers are designed to run unattended. Plug it straight into a wall outlet, keep it clear of bedding and curtains, and use a model with automatic shutoff when the tank is full."
+    },
+    {
+      "q": "What humidity is best for sleeping?",
+      "a": "Aim for 40–50%. The EPA recommends keeping indoor humidity between 30% and 50%, and the middle of that range is comfortable for most people."
     }
   ],
   "related": [
@@ -297,5 +297,28 @@
     "/best/best-dehumidifier-for-apartment/",
     "/best/best-dehumidifier-for-dust-mites/",
     "/guides/where-to-place-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "45–50%",
+          "label": "Smart overnight target, inside the EPA's 30–50% range"
+        },
+        {
+          "value": "~45 dBA",
+          "label": "A sensible noise ceiling for a unit on its sleep setting"
+        },
+        {
+          "value": "20–35 pints",
+          "label": "Capacity range that fits most bedrooms (DOE 2019 ratings)"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you're torn between sizes, go one step up. A slightly larger unit can run on a lower, quieter fan speed to hold the same humidity a smaller one would have to work hard for."
+    }
   ]
 }
