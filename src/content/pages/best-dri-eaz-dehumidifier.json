@@ -6,7 +6,7 @@
   "title": "Best Dri-Eaz Dehumidifier (2026): Every Current LGR Compared",
   "h1": "The Best Dri-Eaz Dehumidifiers",
   "dek": "Dri-Eaz builds machines for flood crews, not living rooms. Here's which one earns its keep — and when renting beats buying.",
-  "description": "The best Dri-Eaz dehumidifier for restoration pros and crawl spaces: current LGRs compared on AHAM and saturation pints, airflow, amps and warranty.",
+  "description": "The Dri-Eaz LGR 6500XLi (125 pints AHAM) is the one to own for most restoration work. Every current LGR compared on pints, airflow, amps and warranty.",
   "published": "2026-11-04",
   "updated": "2026-11-05",
   "intro": [
@@ -172,35 +172,8 @@
   ],
   "sections": [
     {
-      "id": "dri-eaz-by-the-numbers",
-      "heading": "Dri-Eaz, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "1.6–2.2×",
-              "label": "How much higher each model's saturation rating runs than its AHAM rating"
-            },
-            {
-              "value": "12 A",
-              "label": "Continuous draw a 15-amp household circuit can safely carry"
-            },
-            {
-              "value": "0",
-              "label": "Dri-Eaz recalls in the CPSC database, and models in ENERGY STAR's list"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "So a Dri-Eaz listed at 245 pints isn't twice as strong as one listed at 125 — the bigger figure simply comes from a hotter, soggier test room."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Dri-Eaz dehumidifiers",
+      "heading": "How we chose these Dri-Eaz dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -214,7 +187,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Dri-Eaz dehumidifier",
+      "heading": "What should you look for in a Dri-Eaz dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -473,5 +446,28 @@
     "/best/best-alorair-dehumidifier/",
     "/guides/dehumidifier-rental/",
     "/best/best-dehumidifier-brands/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "1.6–2.2×",
+          "label": "How much higher each model's saturation rating runs than its AHAM rating"
+        },
+        {
+          "value": "12 A",
+          "label": "Continuous draw a 15-amp household circuit can safely carry"
+        },
+        {
+          "value": "0",
+          "label": "Dri-Eaz recalls in the CPSC database, and models in ENERGY STAR's list"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So a Dri-Eaz listed at 245 pints isn't twice as strong as one listed at 125 — the bigger figure simply comes from a hotter, soggier test room."
+    }
   ]
 }

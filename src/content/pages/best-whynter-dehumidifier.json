@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Brands",
   "navLabel": "Whynter",
-  "title": "Best Whynter Dehumidifier (2026): Discontinued — Buy This Instead",
+  "title": "Best Whynter Dehumidifier (2026): Discontinued, Buy This Now",
   "h1": "The Best Whynter Dehumidifier Replacements",
   "dek": "Whynter's standalone dehumidifiers are all marked discontinued. Here's what that means for owners and shoppers, plus the in-production units that fill the gap.",
-  "description": "Every standalone Whynter dehumidifier is now discontinued. See the full model list, the 2021 recall to check, and the best current replacements to buy.",
+  "description": "All 10 standalone Whynter dehumidifiers are discontinued. The 50-pint Midea Cube 50 is the best replacement; check the 2021 recall, plus other picks.",
   "published": "2026-10-19",
   "updated": "2026-11-05",
   "intro": [
@@ -92,29 +92,6 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Whynter dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "10",
-              "label": "Standalone Whynter dehumidifier models we found — all marked discontinued"
-            },
-            {
-              "value": "3",
-              "label": "Whynter models named in the 2021 New Widetech recall"
-            },
-            {
-              "value": "~2 million",
-              "label": "Units covered by that recall across about 20 brands"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "discontinued-models",
       "heading": "Every standalone Whynter dehumidifier, and its replacement",
       "blocks": [
@@ -198,7 +175,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we picked Whynter replacements",
+      "heading": "How we chose these Whynter replacements",
       "blocks": [
         {
           "type": "p",
@@ -212,7 +189,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Whynter replacement",
+      "heading": "How do you pick a Whynter replacement?",
       "blocks": [
         {
           "type": "checklist",
@@ -332,5 +309,24 @@
     "/best/best-midea-dehumidifier/",
     "/best/best-homelabs-dehumidifier/",
     "/guides/how-to-dispose-of-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "10",
+          "label": "Standalone Whynter dehumidifier models we found — all marked discontinued"
+        },
+        {
+          "value": "3",
+          "label": "Whynter models named in the 2021 New Widetech recall"
+        },
+        {
+          "value": "~2 million",
+          "label": "Units covered by that recall across about 20 brands"
+        }
+      ]
+    }
   ]
 }

@@ -120,35 +120,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "AlorAir dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "55 vs. 120",
-              "label": "AHAM vs. saturation pints for the same HDi65S"
-            },
-            {
-              "value": "36°F",
-              "label": "Low-temperature limit of Sentinel auto-defrost"
-            },
-            {
-              "value": "6 years",
-              "label": "Standard limited warranty on current Sentinel models"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The first number trips up many shoppers. Saturation ratings are measured at 90°F and 90% humidity — flood conditions — while AHAM ratings use 80°F and 60%. Size and compare on AHAM pints."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick AlorAir dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -162,7 +135,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an AlorAir dehumidifier",
+      "heading": "What matters most in an AlorAir dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -273,5 +246,28 @@
     "/best/best-dehumidifier-for-water-damage/",
     "/best/best-aprilaire-dehumidifier/",
     "/guides/crawl-space-dehumidifier-installation/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "55 vs. 120",
+          "label": "AHAM vs. saturation pints for the same HDi65S"
+        },
+        {
+          "value": "36°F",
+          "label": "Low-temperature limit of Sentinel auto-defrost"
+        },
+        {
+          "value": "6 years",
+          "label": "Standard limited warranty on current Sentinel models"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The first number trips up many shoppers. Saturation ratings are measured at 90°F and 90% humidity — flood conditions — while AHAM ratings use 80°F and 60%. Size and compare on AHAM pints."
+    }
   ]
 }

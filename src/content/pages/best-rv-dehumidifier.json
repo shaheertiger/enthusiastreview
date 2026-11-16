@@ -172,35 +172,8 @@
   ],
   "sections": [
     {
-      "id": "rv-numbers",
-      "heading": "RV humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "41°F",
-              "label": "Roughly where compressor dehumidifiers start to frost and stall"
-            },
-            {
-              "value": "~1.6 lb",
-              "label": "Water vapor produced per pound of propane burned"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How soon mold can start growing on damp materials, per the EPA"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those three figures drive every recommendation on this page. The first rules out compressors for storage and cold-weather camping. The second explains why a rig with a stovetop burner or an unvented catalytic heater fogs up so fast. And the third is why a damp, sealed RV left alone for a winter almost always smells musty by spring."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick RV dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -214,7 +187,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for an RV",
+      "heading": "How do you pick a dehumidifier for an RV?",
       "blocks": [
         {
           "type": "checklist",
@@ -362,5 +335,28 @@
     "/best/best-eva-dry-dehumidifier/",
     "/best/best-dehumidifier-for-mobile-home/",
     "/guides/dehumidifier-freezing-up/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "41°F",
+          "label": "Roughly where compressor dehumidifiers start to frost and stall"
+        },
+        {
+          "value": "~1.6 lb",
+          "label": "Water vapor produced per pound of propane burned"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How soon mold can start growing on damp materials, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those three figures drive every recommendation on this page. The first rules out compressors for storage and cold-weather camping. The second explains why a rig with a stovetop burner or an unvented catalytic heater fogs up so fast. And the third is why a damp, sealed RV left alone for a winter almost always smells musty by spring."
+    }
   ]
 }

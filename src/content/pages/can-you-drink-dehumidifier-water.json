@@ -3,10 +3,10 @@
   "section": "guides",
   "category": "Buying Advice",
   "navLabel": "Drinking the Water",
-  "title": "Can You Drink Water From a Dehumidifier? (No — Here's Why)",
+  "title": "Can You Drink Water From a Dehumidifier? No, and Here's Why",
   "h1": "Can You Drink Water From a Dehumidifier?",
   "dek": "It looks crystal clear and it came out of the air, so it must be pure — right? Not quite. Here's what's really in that bucket and what it's actually good for.",
-  "description": "Can you drink water from a dehumidifier? No. It isn't distilled and can carry bacteria, mold and metals. Here's why, plus safe ways to reuse it.",
+  "description": "No. Dehumidifier water isn't distilled and can carry bacteria, mold and metals, and boiling won't make it safe. Why, plus 5 safe ways to reuse it at home.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -71,12 +71,37 @@
         },
         {
           "type": "table",
-          "head": ["Water type", "Low in minerals?", "Free of microbes?", "Safe to drink?"],
+          "head": [
+            "Water type",
+            "Low in minerals?",
+            "Free of microbes?",
+            "Safe to drink?"
+          ],
           "rows": [
-            ["Store-bought distilled", "Yes", "Yes, when sealed", "Yes"],
-            ["Tap water (municipal)", "No", "Treated and tested", "Yes"],
-            ["Dehumidifier water", "Mostly", "No", "No"],
-            ["Atmospheric water generator", "Yes, before remineralizing", "Filtered and treated", "Yes, if certified"]
+            [
+              "Store-bought distilled",
+              "Yes",
+              "Yes, when sealed",
+              "Yes"
+            ],
+            [
+              "Tap water (municipal)",
+              "No",
+              "Treated and tested",
+              "Yes"
+            ],
+            [
+              "Dehumidifier water",
+              "Mostly",
+              "No",
+              "No"
+            ],
+            [
+              "Atmospheric water generator",
+              "Yes, before remineralizing",
+              "Filtered and treated",
+              "Yes, if certified"
+            ]
           ],
           "caption": "Atmospheric water generators also pull water from the air, but they're built with food-grade parts plus filtration and disinfection."
         },
@@ -209,5 +234,6 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-with-drain-hose/",
     "/best/best-dehumidifier-for-plants/"
-  ]
+  ],
+  "topPicksLead": "No. Dehumidifier water isn't distilled: it picks up bacteria, mold spores and metals from the coils and bucket, and boiling doesn't remove the metals. Use it for flushing toilets or cleaning instead."
 }

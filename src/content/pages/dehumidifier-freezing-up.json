@@ -6,7 +6,7 @@
   "title": "Dehumidifier Freezing Up? Why It Ices Over & How to Fix It",
   "h1": "Dehumidifier Freezing Up? Here’s Why — and How to Fix It",
   "dek": "Frost on the coil is rarely a dead machine. Usually it’s a cold room, a dirty filter or both — and both are fixable.",
-  "description": "Dehumidifier freezing up or icing over? Learn why coils frost in cold basements, how to tell normal defrost from a real problem, and step-by-step fixes.",
+  "description": "Most dehumidifiers ice up below about 60–65°F or with a dirty filter. Frost that clears in 20–30 minutes is normal. How to tell, and the fix for each cause.",
   "published": "2026-08-27",
   "updated": "2026-11-05",
   "intro": [
@@ -14,7 +14,7 @@
     "The good news: icing is rarely a sign the unit is broken. A compressor dehumidifier works by chilling a coil below the air’s dew point. If the coil gets colder than 32°F, the moisture freezes onto it instead of dripping off. Two things usually push it there — a room that’s too cool for the machine, or air that can’t move across the coil fast enough.",
     "Below you’ll learn how to tell a normal defrost cycle from a real problem, how to thaw and fix an iced coil safely and what to do if your space is simply too cold for a standard unit."
   ],
-  "topPicksLead": "If your basement or garage stays cool most of the year, the **Ivation 13-Pint Desiccant** sidesteps icing entirely because it has no cold coil to freeze.",
+  "topPicksLead": "Usually the room is too cold: below about 60–65°F the coil frosts faster than it defrosts. A dirty filter makes it worse. Thin frost that clears in 20–30 minutes is a normal defrost cycle; thick ice every cycle means move to a warmer spot, clean the filter, or switch to a desiccant unit.",
   "products": [
     {
       "id": "ivation-13-pint-desiccant",
@@ -81,13 +81,37 @@
         },
         {
           "type": "table",
-          "head": ["What you see", "What it means", "What to do"],
+          "head": [
+            "What you see",
+            "What it means",
+            "What to do"
+          ],
           "rows": [
-            ["Thin, even frost that clears in 20–30 minutes", "Normal defrost cycle", "Nothing — let it finish"],
-            ["Thick ice that returns every cycle", "Defrost can’t keep up", "Unplug, thaw, clean the filter"],
-            ["Ice spreading beyond the coils", "Room too cold, airflow blocked or both", "Check temperature and filter together"],
-            ["Space stays below ~60°F most of the year", "Wrong type of unit for the climate", "Switch to a desiccant or low-temp unit"],
-            ["Icing in a warm room with a clean filter", "Possible fan, sensor or refrigerant fault", "Contact the maker or weigh repair vs. replace"]
+            [
+              "Thin, even frost that clears in 20–30 minutes",
+              "Normal defrost cycle",
+              "Nothing — let it finish"
+            ],
+            [
+              "Thick ice that returns every cycle",
+              "Defrost can’t keep up",
+              "Unplug, thaw, clean the filter"
+            ],
+            [
+              "Ice spreading beyond the coils",
+              "Room too cold, airflow blocked or both",
+              "Check temperature and filter together"
+            ],
+            [
+              "Space stays below ~60°F most of the year",
+              "Wrong type of unit for the climate",
+              "Switch to a desiccant or low-temp unit"
+            ],
+            [
+              "Icing in a warm room with a clean filter",
+              "Possible fan, sensor or refrigerant fault",
+              "Contact the maker or weigh repair vs. replace"
+            ]
           ]
         }
       ]

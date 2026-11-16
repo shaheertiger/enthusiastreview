@@ -149,26 +149,8 @@
   ],
   "sections": [
     {
-      "id": "twenty-pint-numbers",
-      "heading": "20-pint dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "2.5 gal", "label": "Water a 20-pint unit can remove per day under DOE test conditions" },
-            { "value": "≈ 30 pints", "label": "What a DOE 20-pint would have been labeled before the 2019 test change" },
-            { "value": "1,500 sq ft", "label": "The best-case coverage most 20- and 21-pint listings claim" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The middle number is why a modern 20-pinter punches above its label. The DOE now tests in cooler 65°F air, so today's 20 is roughly yesterday's 30, which is plenty for a bedroom that feels sticky in July."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick 20-pint dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -182,7 +164,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a 20-pint dehumidifier",
+      "heading": "How do you choose a 20-pint dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -226,13 +208,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Pick", "Capacity", "Drainage", "Key feature", "Best for"],
+          "head": [
+            "Pick",
+            "Capacity",
+            "Drainage",
+            "Key feature",
+            "Best for"
+          ],
           "rows": [
-            ["Midea Cube 20", "20.16 pints (DOE)", "Base reservoir or hose", "ENERGY STAR, app control", "Bedrooms, offices"],
-            ["Dravonic 21-Pint", "21 pints (listed)", "Tank or included hose", "37 dB maker rating", "Light sleepers"],
-            ["Trazico 21-Pint", "21 pints (listed)", "Tank or included hose", "24-hour timer, auto-defrost", "Small basements, laundry rooms"],
-            ["Whirlpool 20-Pint", "20 pints (listed)", "Bucket", "Auto-shutoff, timer", "Simple single-room use"],
-            ["RCA 20-Pint", "20 pints (listed)", "Bucket", "Auto-shutoff, timer", "Tight budgets"]
+            [
+              "Midea Cube 20",
+              "20.16 pints (DOE)",
+              "Base reservoir or hose",
+              "ENERGY STAR, app control",
+              "Bedrooms, offices"
+            ],
+            [
+              "Dravonic 21-Pint",
+              "21 pints (listed)",
+              "Tank or included hose",
+              "37 dB maker rating",
+              "Light sleepers"
+            ],
+            [
+              "Trazico 21-Pint",
+              "21 pints (listed)",
+              "Tank or included hose",
+              "24-hour timer, auto-defrost",
+              "Small basements, laundry rooms"
+            ],
+            [
+              "Whirlpool 20-Pint",
+              "20 pints (listed)",
+              "Bucket",
+              "Auto-shutoff, timer",
+              "Simple single-room use"
+            ],
+            [
+              "RCA 20-Pint",
+              "20 pints (listed)",
+              "Bucket",
+              "Auto-shutoff, timer",
+              "Tight budgets"
+            ]
           ],
           "caption": "\"Listed\" figures come from product listings; only the Midea's rating is confirmed on ENERGY STAR's list."
         }
@@ -244,13 +262,31 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Space", "Is 20 pints enough?"],
+          "head": [
+            "Space",
+            "Is 20 pints enough?"
+          ],
           "rows": [
-            ["Bedroom or home office up to about 500 sq ft", "Yes, comfortably"],
-            ["Bathroom with a shower", "Yes, alongside the exhaust fan"],
-            ["Musty finished basement up to about 1,000 sq ft", "Usually, with a hose"],
-            ["Basement with condensation or seepage", "No: step up to 35–50 pints"],
-            ["Crawl space", "No: use a dedicated crawl-space unit"]
+            [
+              "Bedroom or home office up to about 500 sq ft",
+              "Yes, comfortably"
+            ],
+            [
+              "Bathroom with a shower",
+              "Yes, alongside the exhaust fan"
+            ],
+            [
+              "Musty finished basement up to about 1,000 sq ft",
+              "Usually, with a hose"
+            ],
+            [
+              "Basement with condensation or seepage",
+              "No: step up to 35–50 pints"
+            ],
+            [
+              "Crawl space",
+              "No: use a dedicated crawl-space unit"
+            ]
           ]
         },
         {
@@ -327,5 +363,28 @@
     "/best/best-dehumidifier-for-bedroom/",
     "/best/best-dehumidifier-for-bathroom/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2.5 gal",
+          "label": "Water a 20-pint unit can remove per day under DOE test conditions"
+        },
+        {
+          "value": "≈ 30 pints",
+          "label": "What a DOE 20-pint would have been labeled before the 2019 test change"
+        },
+        {
+          "value": "1,500 sq ft",
+          "label": "The best-case coverage most 20- and 21-pint listings claim"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The middle number is why a modern 20-pinter punches above its label. The DOE now tests in cooler 65°F air, so today's 20 is roughly yesterday's 30, which is plenty for a bedroom that feels sticky in July."
+    }
   ]
 }

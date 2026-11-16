@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Sauna Rooms (2026): Where It Really Goes",
   "h1": "The Best Dehumidifiers for a Sauna Room",
   "dek": "A dehumidifier can't survive inside a hot sauna, and it wouldn't help if it could. Here's where one actually earns its place.",
-  "description": "The best dehumidifier for a sauna setup goes in the room around the cabin, not inside it. Our picks for basements and anterooms, plus how to dry the cabin.",
+  "description": "A dry sauna runs at 5–10% humidity, so the dehumidifier goes in the room around it. The hOmeLabs HME1003 clears a basement sauna room after each session.",
   "published": "2026-09-21",
   "updated": "2026-11-05",
   "intro": [
@@ -121,26 +121,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Sauna humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "5–10% RH", "label": "Typical humidity in a traditional dry sauna, up to ~30% with water on the rocks" },
-            { "value": "95–100% RH", "label": "Operating humidity in a steam room" },
-            { "value": "~90°F", "label": "Upper operating limit for a typical compressor dehumidifier" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put those together and the conclusion is clear. Inside a dry sauna, there's no moisture to remove; inside a steam room, there's far too much; and either way, the heat would push a dehumidifier well past what it's designed to handle. The useful work happens in the surrounding room and in the minutes after each session."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for sauna rooms",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -154,7 +136,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a sauna room",
+      "heading": "What separates a good dehumidifier for a sauna room from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -266,5 +248,28 @@
     "/best/best-dehumidifier-for-pool-room/",
     "/guides/dehumidifier-humidistat-settings-guide/",
     "/guides/does-a-dehumidifier-help-with-mold/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "5–10% RH",
+          "label": "Typical humidity in a traditional dry sauna, up to ~30% with water on the rocks"
+        },
+        {
+          "value": "95–100% RH",
+          "label": "Operating humidity in a steam room"
+        },
+        {
+          "value": "~90°F",
+          "label": "Upper operating limit for a typical compressor dehumidifier"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put those together and the conclusion is clear. Inside a dry sauna, there's no moisture to remove; inside a steam room, there's far too much; and either way, the heat would push a dehumidifier well past what it's designed to handle. The useful work happens in the surrounding room and in the minutes after each session."
+    }
   ]
 }

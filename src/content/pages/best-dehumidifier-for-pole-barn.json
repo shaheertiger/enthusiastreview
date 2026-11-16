@@ -145,26 +145,8 @@
   ],
   "sections": [
     {
-      "id": "pole-barn-numbers",
-      "heading": "Pole barn moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "24–48 hrs", "label": "How soon mold can start on damp materials like hay, feed or wood, per the EPA" },
-            { "value": "50–60%", "label": "Humidity above which rust on bare steel tools and implements speeds up" },
-            { "value": "~41°F", "label": "Where standard compressor dehumidifiers start to ice over" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put together, those numbers explain why equipment stored in a damp pole barn rusts faster than the same tools in a garage — and why the type of dehumidifier matters as much as the size."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick pole barn dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -178,7 +160,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a pole barn",
+      "heading": "What matters most in a dehumidifier for a pole barn?",
       "blocks": [
         {
           "type": "checklist",
@@ -238,13 +220,31 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Your pole barn", "Our pick"],
+          "head": [
+            "Your pole barn",
+            "Our pick"
+          ],
           "rows": [
-            ["Insulated, slab floor, powered", "Waykar 80-Pint"],
-            ["Large or cold, partly heated", "AlorAir Sentinel HDi65S"],
-            ["Large and fully enclosed", "AlorAir Sentinel HDi90"],
-            ["One closed room or bay", "Frigidaire FHDD5034W1"],
-            ["No electricity", "DampRid Hanging bags"]
+            [
+              "Insulated, slab floor, powered",
+              "Waykar 80-Pint"
+            ],
+            [
+              "Large or cold, partly heated",
+              "AlorAir Sentinel HDi65S"
+            ],
+            [
+              "Large and fully enclosed",
+              "AlorAir Sentinel HDi90"
+            ],
+            [
+              "One closed room or bay",
+              "Frigidaire FHDD5034W1"
+            ],
+            [
+              "No electricity",
+              "DampRid Hanging bags"
+            ]
           ]
         }
       ]
@@ -293,5 +293,28 @@
     "/best/best-commercial-dehumidifier/",
     "/best/best-desiccant-dehumidifier/",
     "/best/best-alorair-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24–48 hrs",
+          "label": "How soon mold can start on damp materials like hay, feed or wood, per the EPA"
+        },
+        {
+          "value": "50–60%",
+          "label": "Humidity above which rust on bare steel tools and implements speeds up"
+        },
+        {
+          "value": "~41°F",
+          "label": "Where standard compressor dehumidifiers start to ice over"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put together, those numbers explain why equipment stored in a damp pole barn rusts faster than the same tools in a garage — and why the type of dehumidifier matters as much as the size."
+    }
   ]
 }

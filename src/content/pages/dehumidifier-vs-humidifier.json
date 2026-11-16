@@ -6,14 +6,14 @@
   "title": "Humidifier vs. Dehumidifier: Which Does Your Home Need?",
   "h1": "Dehumidifier vs. Humidifier: Which One Does Your Home Actually Need?",
   "dek": "One takes water out of the air, the other puts it back. Here's how to tell which problem you have — before you buy the wrong box.",
-  "description": "Humidifier vs. dehumidifier: what each one does, how to tell which your home needs, the right humidity range, and which helps with mold, allergies or a cough.",
+  "description": "Keep humidity at 30–50%: run a dehumidifier above 50% and a humidifier below 30%. How to tell which you need, and which helps mold, allergies or a cough.",
   "published": "2026-09-26",
   "updated": "2026-11-05",
   "intro": [
     "The **humidifier vs. dehumidifier** question trips up a lot of shoppers, and it's easy to see why: the names differ by two letters, and both are plastic boxes that manage moisture. But they do exactly opposite jobs. A dehumidifier pulls water vapor *out* of the air to fix dampness, condensation and mold risk. A humidifier puts water vapor *into* the air to ease cracked skin, static shocks and a scratchy winter throat.",
     "Buy the wrong one and you won't just miss the fix — you can make the problem worse. The good news is that the answer is usually a matter of reading one number. The EPA recommends keeping indoor relative humidity between **30% and 50%**. Above that, you need a dehumidifier; below it, a humidifier. Here's how to tell, what each machine does, and when a home ends up needing both."
   ],
-  "topPicksLead": "If your home runs damp, the **Midea Cube 50-Pint** is our favorite room dehumidifier; if it runs dry, the **Levoit Classic 300S** is a well-regarded humidifier that holds a set humidity.",
+  "topPicksLead": "Measure first: if indoor humidity sits above 50%, you need a dehumidifier; below 30%, a humidifier. Most homes need a dehumidifier in summer or in the basement and, in cold climates, a humidifier in heated rooms in winter.",
   "products": [
     {
       "id": "midea-cube-50",
@@ -69,32 +69,42 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends year-round" },
-            { "value": "30–40%", "label": "Lower winter target many HVAC guides suggest to avoid window condensation" },
-            { "value": "Above 50%", "label": "Where dust mites and mold start to thrive" }
-          ]
-        }
-      ]
-    },
-    {
       "id": "what-each-does",
       "heading": "What each machine actually does",
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Dehumidifier", "Humidifier"],
+          "head": [
+            "",
+            "Dehumidifier",
+            "Humidifier"
+          ],
           "rows": [
-            ["Moves moisture", "Out of the air, into a tank or drain", "Out of a tank, into the air"],
-            ["How", "Condenses vapor on a cold coil, or captures it on a desiccant wheel", "Releases cool mist, evaporative vapor or warm steam"],
-            ["Fixes", "Musty smells, foggy windows, damp basements, mold risk", "Dry skin, cracked lips, static, nosebleeds, dry winter air"],
-            ["Makes worse if misused", "Already-dry winter air", "Already-damp rooms"],
-            ["Typical cost", "Usually $150–$300 for a room unit", "Usually under $100 for a room unit"]
+            [
+              "Moves moisture",
+              "Out of the air, into a tank or drain",
+              "Out of a tank, into the air"
+            ],
+            [
+              "How",
+              "Condenses vapor on a cold coil, or captures it on a desiccant wheel",
+              "Releases cool mist, evaporative vapor or warm steam"
+            ],
+            [
+              "Fixes",
+              "Musty smells, foggy windows, damp basements, mold risk",
+              "Dry skin, cracked lips, static, nosebleeds, dry winter air"
+            ],
+            [
+              "Makes worse if misused",
+              "Already-dry winter air",
+              "Already-damp rooms"
+            ],
+            [
+              "Typical cost",
+              "Usually $150–$300 for a room unit",
+              "Usually under $100 for a room unit"
+            ]
           ]
         },
         {
@@ -228,5 +238,24 @@
     "/guides/dehumidifier-vs-air-conditioner/",
     "/guides/does-a-dehumidifier-help-with-mold/",
     "/best/best-dehumidifier-for-allergies/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends year-round"
+        },
+        {
+          "value": "30–40%",
+          "label": "Lower winter target many HVAC guides suggest to avoid window condensation"
+        },
+        {
+          "value": "Above 50%",
+          "label": "Where dust mites and mold start to thrive"
+        }
+      ]
+    }
   ]
 }

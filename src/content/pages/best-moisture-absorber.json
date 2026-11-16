@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Specialty & Storage",
   "navLabel": "Moisture Absorbers",
-  "title": "Best Moisture Absorber Dehumidifiers (2026): DampRid vs. Eva-Dry",
+  "title": "Best Moisture Absorber (2026): DampRid vs. Eva-Dry Compared",
   "h1": "The Best Moisture Absorber Dehumidifiers for Closets, Safes and Storage",
   "dek": "No plug, no noise, no fuss: the right tub, bag or canister keeps a small, closed space dry for pennies a week.",
-  "description": "The best moisture absorber dehumidifiers for closets, pantries, gun safes and storage units, from refillable DampRid tubs to rechargeable Eva-Dry silica.",
+  "description": "A refillable DampRid tub covers up to 250 sq ft and is the cheapest way to stay dry; rechargeable Eva-Dry silica suits safes. Picks for closets and pantries.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -149,35 +149,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Moisture absorbers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~2 ml/hr",
-              "label": "Water a DampRid tub removed from open air in CHOICE's 65%-humidity test"
-            },
-            {
-              "value": "80% → 43%",
-              "label": "Humidity drop in CHOICE's sealed, closet-sized chamber over three days"
-            },
-            {
-              "value": "30–50%",
-              "label": "The EPA's recommended indoor humidity range, with 60% as the ceiling"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those first two numbers tell the whole story. Australia's consumer group CHOICE found that in an open room, a DampRid tub pulls out only about 2 milliliters of water an hour — while the electric dehumidifiers in its review removed somewhere between 113 and 388. Yet in a sealed, closet-sized box, the same tub dragged humidity from 80% down to 43% in three days and collected almost half a cup of water. Small and closed is where absorbers shine."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick moisture absorbers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -191,7 +164,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a moisture absorber",
+      "heading": "Which features matter in a moisture absorber?",
       "blocks": [
         {
           "type": "checklist",
@@ -378,5 +351,28 @@
     "/best/best-car-dehumidifier/",
     "/best/best-dehumidifier-for-musty-smell/",
     "/best/best-small-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~2 ml/hr",
+          "label": "Water a DampRid tub removed from open air in CHOICE's 65%-humidity test"
+        },
+        {
+          "value": "80% → 43%",
+          "label": "Humidity drop in CHOICE's sealed, closet-sized chamber over three days"
+        },
+        {
+          "value": "30–50%",
+          "label": "The EPA's recommended indoor humidity range, with 60% as the ceiling"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those first two numbers tell the whole story. Australia's consumer group CHOICE found that in an open room, a DampRid tub pulls out only about 2 milliliters of water an hour — while the electric dehumidifiers in its review removed somewhere between 113 and 388. Yet in a sealed, closet-sized box, the same tub dragged humidity from 80% down to 43% in three days and collected almost half a cup of water. Small and closed is where absorbers shine."
+    }
   ]
 }

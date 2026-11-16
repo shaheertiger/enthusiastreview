@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Brands",
   "navLabel": "Hornady",
-  "title": "Best Hornady Dehumidifier (2026): 450g Bag, Rod & Rechargeable",
+  "title": "Best Hornady Dehumidifier (2026): 450g Bag, Rod or Canister",
   "h1": "The Best Hornady Dehumidifiers for Gun Safes",
   "dek": "Hornady's moisture-control gear is simple, inexpensive insurance for a safe full of steel. Here's which piece fits your safe — and when to look elsewhere.",
-  "description": "The best Hornady dehumidifier for your gun safe: the 450g dehumidifier bag, the rechargeable canister and the safe rod, compared with top alternatives.",
+  "description": "The 450 g Hornady bag is the best Hornady for most gun safes: no cord, no batteries, about a pound of silica gel. The canister and rod compared, plus rivals.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -164,35 +164,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Gun safe moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Relative humidity the NRA recommends inside a gun safe"
-            },
-            {
-              "value": "450 g",
-              "label": "Silica gel in Hornady's big dehumidifier bag — about a pound"
-            },
-            {
-              "value": "70%+",
-              "label": "Humidity at which bare carbon steel can rust within weeks"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Silica gel can hold a meaningful share of its own weight in water, which is why a heavy bag outlasts a handful of packets. But it only works until it's full, so the real skill is noticing when to recharge."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Hornady dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -206,7 +179,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Hornady gun safe dehumidifier",
+      "heading": "Which features matter in a Hornady gun safe dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -318,7 +291,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "If your hygrometer shows the room itself sitting above 60% most of the summer, a desiccant in the safe is fighting a losing battle every time you open the door. Fix the room first: a [basement dehumidifier](/best/best-dehumidifier-for-basement/) set to 50% makes every safe accessory work better. Our [when to use a dehumidifier](/guides/when-to-use-a-dehumidifier/) guide explains how to read the signs, and our [best moisture absorber](/best/best-moisture-absorber/) roundup covers other passive options for closets and cabinets. For open racks or a [gun cabinet](/best/best-dehumidifier-for-gun-cabinet/), which leak far more air than a sealed safe, plan on more desiccant or a small electric unit."
+          "text": "If your hygrometer shows the room itself sitting above 60% most of the summer, a desiccant in the safe is fighting a losing battle every time you open the door. Fix the room first: a [basement dehumidifier](/best/best-dehumidifier-for-basement/) set to 50% makes every safe accessory work better. Our [when to use a dehumidifier](/guides/when-to-use-a-dehumidifier/) guide explains how to read the signs, and our [best moisture absorber](/best/best-moisture-absorber/) roundup covers other passive options for closets and cabinets. For open racks or a [gun cabinet](/best/best-dehumidifier-for-gun-safe/), which leak far more air than a sealed safe, plan on more desiccant or a small electric unit."
         }
       ]
     },
@@ -361,10 +334,32 @@
   ],
   "related": [
     "/best/best-dehumidifier-for-gun-safe/",
-    "/best/best-dehumidifier-for-gun-cabinet/",
     "/best/best-dehumidifier-rod/",
     "/best/best-rechargeable-dehumidifier/",
     "/best/best-eva-dry-dehumidifier/",
     "/best/best-moisture-absorber/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Relative humidity the NRA recommends inside a gun safe"
+        },
+        {
+          "value": "450 g",
+          "label": "Silica gel in Hornady's big dehumidifier bag — about a pound"
+        },
+        {
+          "value": "70%+",
+          "label": "Humidity at which bare carbon steel can rust within weeks"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Silica gel can hold a meaningful share of its own weight in water, which is why a heavy bag outlasts a handful of packets. But it only works until it's full, so the real skill is noticing when to recharge."
+    }
   ]
 }

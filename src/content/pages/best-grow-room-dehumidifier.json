@@ -7,7 +7,7 @@
   "title": "Best Grow Room Dehumidifier (2026): Cannabis & Hydro Picks",
   "h1": "The Best Grow Room Dehumidifiers, Sized by Plants and Water",
   "dek": "Nearly every gallon you pour into a pot ends up in the air. A grow room dehumidifier is how you take it back out.",
-  "description": "The best grow room dehumidifier for your space: cannabis dehumidifiers sized by daily watering, LGR and ducted picks, humidity by stage and drying-room tips.",
+  "description": "Each gallon you water adds about 8 pints to the air. The 125-pint AlorAir Storm Elite LGR is our top grow room pick; sizing, stage targets and drying tips.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -151,35 +151,8 @@
   ],
   "sections": [
     {
-      "id": "grow-room-numbers",
-      "heading": "Grow room moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "90%+",
-              "label": "Share of the water plants take up that they release back into the air through transpiration"
-            },
-            {
-              "value": "8 pints",
-              "label": "Moisture in every gallon of water you feed, the basis of grow room sizing"
-            },
-            {
-              "value": "40–50%",
-              "label": "Common flowering humidity target, lower than most home units are built for"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put together, the math is simple: water in roughly equals moisture out. Pour 6 gallons a day and the room must shed close to 48 pints of vapor, plus evaporation from soil, trays and reservoirs."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick grow room dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -302,7 +275,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a grow room dehumidifier",
+      "heading": "How do you choose a grow room dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -427,7 +400,7 @@
         },
         {
           "type": "p",
-          "text": "Inside is simplest: set the unit low, a foot or more from walls and plants, where room fans move air past it. In sealed rooms with AC, outside is better, because the unit's heat stays out; duct humid air to it and dry air back, as with the Waykar or a [ducted dehumidifier](/best/best-ducted-dehumidifier/)."
+          "text": "Inside is simplest: set the unit low, a foot or more from walls and plants, where room fans move air past it. In sealed rooms with AC, outside is better, because the unit's heat stays out; duct humid air to it and dry air back, as with the Waykar or a [ducted dehumidifier](/best/best-whole-house-dehumidifier/)."
         },
         {
           "type": "h3",
@@ -506,7 +479,30 @@
     "/best/best-dehumidifier-for-drying-room/",
     "/best/best-ac-infinity-dehumidifier/",
     "/best/best-lgr-dehumidifier/",
-    "/best/best-ducted-dehumidifier/",
+    "/best/best-whole-house-dehumidifier/",
     "/best/best-commercial-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "90%+",
+          "label": "Share of the water plants take up that they release back into the air through transpiration"
+        },
+        {
+          "value": "8 pints",
+          "label": "Moisture in every gallon of water you feed, the basis of grow room sizing"
+        },
+        {
+          "value": "40–50%",
+          "label": "Common flowering humidity target, lower than most home units are built for"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put together, the math is simple: water in roughly equals moisture out. Pour 6 gallons a day and the room must shed close to 48 pints of vapor, plus evaporation from soil, trays and reservoirs."
+    }
   ]
 }

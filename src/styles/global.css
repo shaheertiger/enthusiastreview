@@ -100,6 +100,7 @@ p { margin: 0 0 1.15em; }
 .checklist .tick { color: var(--pro); font-weight: 700; margin-right: .2rem; }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 1.5rem 0; }
 .stat { background: #fff; padding: 1rem; }
+@media (max-width: 34rem) { .stat:last-child:nth-child(odd) { grid-column: 1 / -1; } }
 .stat b { display: block; font: 800 1.9rem/1 var(--head); color: var(--teal-dark); margin-bottom: .35rem; }
 .stat span { font: 400 .88rem/1.4 var(--sans); color: var(--muted); }
 .tbl-wrap { overflow-x: auto; margin: 1.5rem 0; border: 1px solid var(--rule); }
@@ -113,6 +114,10 @@ p { margin: 0 0 1.15em; }
 /* ---------- Top picks ---------- */
 .toppicks { margin: 2rem 0 1rem; }
 .toppicks h2 { font-size: 1.7rem; margin: 0 0 .6rem; }
+.short-answer { margin: 0 0 2rem; }
+.short-answer > h2 { margin: .5rem 0 .9rem; }
+.short-answer .toppicks { margin: 1.25rem 0 0; }
+.short-answer .toppicks h3 { font-size: 1.15rem; margin: 0 0 .5rem; text-transform: uppercase; letter-spacing: .06em; }
 .toppicks ul { list-style: none; padding: 0; margin: 0; border-top: 3px solid var(--ink); }
 .toppicks li { border-bottom: 1px solid var(--rule-2); padding: .65rem 0; margin: 0; font: 400 1.02rem/1.4 var(--body); display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
 .toppicks .tp-shop { flex: none; font: 800 .78rem/1 var(--head); letter-spacing: .08em; text-transform: uppercase; background: var(--teal); color: var(--ink); text-decoration: none; padding: .5rem .75rem; border-radius: 999px; }

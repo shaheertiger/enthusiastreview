@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Specialty & Storage",
   "navLabel": "Gun Room",
-  "title": "Best Dehumidifier for a Gun Room (2026): Vaults & Ammo",
+  "title": "Best Dehumidifier for Gun Room (2026): Vault & Ammo Storage",
   "h1": "The Best Dehumidifiers for Gun Rooms, Vault Rooms and Ammo Storage",
   "dek": "A gun room is a whole room full of steel and brass. Hold it near 45% with a dehumidifier that drains itself — and know the moment it stops.",
-  "description": "The best dehumidifier for a gun room or vault room, plus ammo storage advice: pump units, a cool-basement pick, safe rods and Wi-Fi humidity alerts.",
+  "description": "Hold a gun room near 45% humidity. The 50-pint Frigidaire FFAP5033W1 pumps itself empty, so a closed vault never waits on a bucket. Plus ammo advice.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "amazonOnly": true,
@@ -174,35 +174,8 @@
   ],
   "sections": [
     {
-      "id": "gun-room-numbers",
-      "heading": "Gun room humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Relative humidity range the NRA recommends for stored firearms"
-            },
-            {
-              "value": "70%+",
-              "label": "Humidity at which bare carbon steel can show visible rust within weeks"
-            },
-            {
-              "value": "45%",
-              "label": "A practical room setpoint: dry for steel, kind to wood stocks"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Aim for the middle of the band rather than the bottom. Steel and brass are happy anywhere under 50%, but walnut stocks, leather slings and wooden cases can shrink and check if a room is pushed down toward 30% for months at a time. A setpoint around 45% protects both."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick gun room dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -276,7 +249,7 @@
     },
     {
       "id": "how-to-choose",
-      "heading": "How to choose a dehumidifier for a gun room",
+      "heading": "How do you choose a dehumidifier for a gun room?",
       "blocks": [
         {
           "type": "checklist",
@@ -379,7 +352,7 @@
         },
         {
           "type": "p",
-          "text": "Most collectors end up with a layered setup: one room dehumidifier, a rod in each safe and desiccant in the ammo cans, all watched by a single Wi-Fi sensor. For guns stored in a glass-front or wooden cabinet rather than a safe, see our [gun cabinet guide](/best/best-dehumidifier-for-gun-cabinet/)."
+          "text": "Most collectors end up with a layered setup: one room dehumidifier, a rod in each safe and desiccant in the ammo cans, all watched by a single Wi-Fi sensor. For guns stored in a glass-front or wooden cabinet rather than a safe, see our [gun cabinet guide](/best/best-dehumidifier-for-gun-safe/)."
         }
       ]
     },
@@ -422,10 +395,32 @@
   ],
   "related": [
     "/best/best-dehumidifier-for-gun-safe/",
-    "/best/best-dehumidifier-for-gun-cabinet/",
     "/best/best-dehumidifier-rod/",
     "/best/best-hygrometer/",
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-for-basement/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Relative humidity range the NRA recommends for stored firearms"
+        },
+        {
+          "value": "70%+",
+          "label": "Humidity at which bare carbon steel can show visible rust within weeks"
+        },
+        {
+          "value": "45%",
+          "label": "A practical room setpoint: dry for steel, kind to wood stocks"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Aim for the middle of the band rather than the bottom. Steel and brass are happy anywhere under 50%, but walnut stocks, leather slings and wooden cases can shrink and check if a room is pushed down toward 30% for months at a time. A setpoint around 45% protects both."
+    }
   ]
 }

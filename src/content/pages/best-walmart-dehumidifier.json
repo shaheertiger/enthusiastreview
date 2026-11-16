@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Retailers",
   "navLabel": "Walmart",
-  "title": "Best Walmart Dehumidifier (2026): Brands Worth Buying",
+  "title": "Best Walmart Dehumidifier (2026): 5 Brands Worth Buying There",
   "h1": "The Best Dehumidifiers at Walmart",
   "dek": "Walmart's dehumidifier aisle mixes trusted national brands with marketplace-only imports on the same page. Here's how to tell them apart.",
-  "description": "The best Walmart dehumidifier picks from brands you can verify, including Pro Breeze, Midea and TCL, plus how to spot a marketplace-only import.",
+  "description": "The 50-pint Pro Breeze is our top Walmart pick: a verifiable brand sized for a full basement. Midea and TCL picks, and how to spot a marketplace-only import.",
   "published": "2026-10-30",
   "updated": "2026-11-05",
   "intro": [
@@ -117,35 +117,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Walmart's dehumidifier aisle, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~1,300",
-              "label": "Reviews on Walmart's \"Best Seller\" Midea 22-pint listing when we checked"
-            },
-            {
-              "value": "3",
-              "label": "National brands (Pro Breeze, TCL, Midea) clustered in one tight 50-pint price band"
-            },
-            {
-              "value": "2x+",
-              "label": "Price spread we saw across listings for one marketplace-only 50-pint model"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That contrast is the story. Known brands compete within a narrow range for near-identical specs, while marketplace listings for what's described as the same import can vary by more than double depending on the seller."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Walmart dehumidifiers",
+      "heading": "How we chose these Walmart dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -159,7 +132,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Walmart dehumidifier",
+      "heading": "What matters most in a Walmart dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -302,5 +275,28 @@
     "/best/best-pro-breeze-dehumidifier/",
     "/best/best-tcl-dehumidifier/",
     "/best/best-budget-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~1,300",
+          "label": "Reviews on Walmart's \"Best Seller\" Midea 22-pint listing when we checked"
+        },
+        {
+          "value": "3",
+          "label": "National brands (Pro Breeze, TCL, Midea) clustered in one tight 50-pint price band"
+        },
+        {
+          "value": "2x+",
+          "label": "Price spread we saw across listings for one marketplace-only 50-pint model"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That contrast is the story. Known brands compete within a narrow range for near-identical specs, while marketplace listings for what's described as the same import can vary by more than double depending on the seller."
+    }
   ]
 }

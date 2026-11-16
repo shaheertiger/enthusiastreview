@@ -6,7 +6,7 @@
   "title": "Dehumidifier for Window Condensation: Stop Foggy Windows",
   "h1": "Condensation on Your Windows? How a Dehumidifier Stops It",
   "dek": "Fogged glass isn't a window problem. It's humid indoor air meeting the coldest surface in the room, and the fix starts with the air.",
-  "description": "Does a dehumidifier stop window condensation? Why windows fog, the humidity levels that trigger it by window type, and the dehumidifier setup that fixes it.",
+  "description": "Double-glazed windows fog above about 58% humidity at 30°F outside, lower when colder. A dehumidifier set below that stops it. Targets by window type.",
   "published": "2026-09-08",
   "updated": "2026-11-05",
   "intro": [
@@ -14,7 +14,7 @@
     "The tricky part is that there's no single magic number. The humidity level that triggers condensation depends on how cold it is outside and whether your windows are single-, double- or triple-pane. That's why the same room can stay clear in October and fog solid by January.",
     "Below, we explain what's happening, show the thresholds by window type, and walk through the setup — and the few dehumidifiers and tools — that solve it for good."
   ],
-  "topPicksLead": "For a room with fogging windows, the **Midea Cube 35** is a strong all-around choice because its digital humidistat holds the exact number winter demands.",
+  "topPicksLead": "Yes, if the fog is on the inside of the glass. Bring the room below the humidity where your windows sweat: about 58% for double glazing at 30°F outside, lower in colder weather. A dehumidifier with a digital humidistat, like the Midea Cube 35, holds that number.",
   "products": [
     {
       "id": "midea-cube-35",
@@ -103,12 +103,32 @@
         },
         {
           "type": "table",
-          "head": ["Outdoor temperature", "Window type", "Condensation starts above"],
+          "head": [
+            "Outdoor temperature",
+            "Window type",
+            "Condensation starts above"
+          ],
           "rows": [
-            ["30°F", "Single-pane", "About 32% RH"],
-            ["30°F", "Double-glazed", "About 58% RH"],
-            ["10°F", "Single-pane", "About 17% RH"],
-            ["10°F", "Triple-glazed", "About 62% RH"]
+            [
+              "30°F",
+              "Single-pane",
+              "About 32% RH"
+            ],
+            [
+              "30°F",
+              "Double-glazed",
+              "About 58% RH"
+            ],
+            [
+              "10°F",
+              "Single-pane",
+              "About 17% RH"
+            ],
+            [
+              "10°F",
+              "Triple-glazed",
+              "About 62% RH"
+            ]
           ],
           "caption": "Approximate thresholds from building-science calculations; real-world values vary with frames, drapes and airflow."
         },
@@ -169,7 +189,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for window condensation",
+      "heading": "Which features matter in a dehumidifier for window condensation?",
       "blocks": [
         {
           "type": "checklist",

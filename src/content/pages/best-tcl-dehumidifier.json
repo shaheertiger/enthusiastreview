@@ -123,33 +123,8 @@
   ],
   "sections": [
     {
-      "id": "tcl-by-the-numbers",
-      "heading": "TCL dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "2005", "label": "Year TCL and De'Longhi formed their dehumidifier joint venture" },
-            { "value": "~1M", "label": "Units a year the Zhongshan factory produces, per the venture's profile" },
-            { "value": "4", "label": "Overlapping TCL model-number schemes on sale at once" }
-          ]
-        },
-        {
-          "type": "table",
-          "head": ["Model", "Capacity", "Coverage (TCL)", "Drainage", "Best for"],
-          "rows": [
-            ["TDW20E20", "20 pints/day", "About 1,500 sq ft", "7.4-pint bucket", "Bedroom, office"],
-            ["TDW40E20", "40 pints/day", "About 3,500 sq ft", "14-pint bucket", "Living room, basement"],
-            ["H50D26W", "50 pints/day", "Up to 4,500 sq ft", "Built-in pump", "Hands-free basement"],
-            ["DEA70E", "70 pints/day", "About 3,000 sq ft", "13.7-pint bucket", "Wet basement"]
-          ],
-          "caption": "Figures from TCL spec sheets and major-retailer listings."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best TCL dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -163,7 +138,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a TCL dehumidifier",
+      "heading": "What matters most in a TCL dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -270,5 +245,65 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-brands/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2005",
+          "label": "Year TCL and De'Longhi formed their dehumidifier joint venture"
+        },
+        {
+          "value": "~1M",
+          "label": "Units a year the Zhongshan factory produces, per the venture's profile"
+        },
+        {
+          "value": "4",
+          "label": "Overlapping TCL model-number schemes on sale at once"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Coverage (TCL)",
+        "Drainage",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "TDW20E20",
+          "20 pints/day",
+          "About 1,500 sq ft",
+          "7.4-pint bucket",
+          "Bedroom, office"
+        ],
+        [
+          "TDW40E20",
+          "40 pints/day",
+          "About 3,500 sq ft",
+          "14-pint bucket",
+          "Living room, basement"
+        ],
+        [
+          "H50D26W",
+          "50 pints/day",
+          "Up to 4,500 sq ft",
+          "Built-in pump",
+          "Hands-free basement"
+        ],
+        [
+          "DEA70E",
+          "70 pints/day",
+          "About 3,000 sq ft",
+          "13.7-pint bucket",
+          "Wet basement"
+        ]
+      ],
+      "caption": "Figures from TCL spec sheets and major-retailer listings."
+    }
   ]
 }

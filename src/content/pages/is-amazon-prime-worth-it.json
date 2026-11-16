@@ -16,33 +16,6 @@
   "products": [],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Prime for dehumidifier buyers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "$139/yr",
-              "label": "Standard Prime price, or $14.99 billed monthly"
-            },
-            {
-              "value": "30 days",
-              "label": "Length of Amazon's free Prime trial for new members"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How fast mold can take hold on a damp surface, per the EPA"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Industry estimates put US Prime membership well above 150 million people, so there's a fair chance someone in your household already has it. If so, check whether you can use their membership through an Amazon Household before paying for your own."
-        }
-      ]
-    },
-    {
       "id": "the-case-for-prime",
       "heading": "Why Prime makes sense for a dehumidifier purchase",
       "blocks": [
@@ -201,5 +174,29 @@
     "/best/best-walmart-dehumidifier/",
     "/best/best-costco-dehumidifier/",
     "/guides/where-to-place-a-dehumidifier/"
+  ],
+  "noindex": true,
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "$139/yr",
+          "label": "Standard Prime price, or $14.99 billed monthly"
+        },
+        {
+          "value": "30 days",
+          "label": "Length of Amazon's free Prime trial for new members"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can take hold on a damp surface, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Industry estimates put US Prime membership well above 150 million people, so there's a fair chance someone in your household already has it. If so, check whether you can use their membership through an Amazon Household before paying for your own."
+    }
   ]
 }

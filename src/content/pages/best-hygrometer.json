@@ -7,7 +7,7 @@
   "title": "Best Hygrometer for Dehumidifiers (2026): Humidity Sensors",
   "h1": "The Best Hygrometers and Humidity Sensors for Dehumidifier Owners",
   "dek": "Your dehumidifier's built-in sensor only knows the air passing through it. A good hygrometer tells you what the whole room is doing.",
-  "description": "The best hygrometer to double-check your dehumidifier's humidity sensor: accurate, app-connected monitors, plus calibration, placement and sensor fixes.",
+  "description": "Good hygrometers read within ±2–3%. The Govee H5179 Wi-Fi alerts your phone when humidity drifts and keeps a history; budget picks, calibration and placement.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -174,26 +174,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Humidity monitoring, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends for most homes" },
-            { "value": "±2–3%", "label": "Published accuracy of good consumer hygrometers in the mid range" },
-            { "value": "75%", "label": "Humidity a saturated salt solution produces — the basis of the salt test" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "A dehumidifier's own sensor is often less precise than any of these monitors, and it reads the air right next to the machine, which is usually drier than the rest of the room. Two readings a few points apart are normal; ten points apart means something needs attention."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick hygrometers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -203,7 +185,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a hygrometer",
+      "heading": "What separates a good hygrometer from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -359,8 +341,31 @@
     "/guides/dehumidifier-humidistat-settings-guide/",
     "/guides/where-to-place-a-dehumidifier/",
     "/guides/dehumidifier-not-working/",
-    "/best/best-wifi-dehumidifier/",
+    "/best/best-smart-dehumidifier/",
     "/guides/when-to-use-a-dehumidifier/",
     "/best/best-crawl-space-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends for most homes"
+        },
+        {
+          "value": "±2–3%",
+          "label": "Published accuracy of good consumer hygrometers in the mid range"
+        },
+        {
+          "value": "75%",
+          "label": "Humidity a saturated salt solution produces — the basis of the salt test"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A dehumidifier's own sensor is often less precise than any of these monitors, and it reads the air right next to the machine, which is usually drier than the rest of the room. Two readings a few points apart are normal; ten points apart means something needs attention."
+    }
   ]
 }

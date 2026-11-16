@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Size & Features",
   "navLabel": "Small",
-  "title": "Best Small Dehumidifier (2026): Picks for Small Rooms & Closets",
+  "title": "Best Small Dehumidifier (2026): Compact Picks for Small Rooms",
   "h1": "The Best Small Dehumidifiers for Small Rooms, Closets and Bathrooms",
   "dek": "A stuffy bedroom or musty closet doesn't need a basement workhorse. It needs something compact, quiet and sized to the space.",
-  "description": "The best small dehumidifiers for small rooms, closets and bathrooms: quiet minis, compact 20- and 22-pint compressor units and no-power renewable absorbers.",
+  "description": "For one mildly damp room, the compact Pro Breeze PB-03 is the best small dehumidifier; a 22-pint Frigidaire handles a whole small room. Plus no-power minis.",
   "published": "2026-09-03",
   "updated": "2026-11-05",
   "intro": [
@@ -144,61 +144,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Small-space dehumidifying, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "EPA-recommended humidity — the same target for a closet as a basement"
-            },
-            {
-              "value": "~25 cu ft",
-              "label": "Coverage of a cabinet-sized rechargeable desiccant unit"
-            },
-            {
-              "value": "0 W",
-              "label": "Power a renewable silica unit uses while it absorbs"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Space",
-            "Best type",
-            "Our pick"
-          ],
-          "rows": [
-            [
-              "Closet, safe, cabinet",
-              "Renewable desiccant",
-              "WiseDry or Eva-Dry E-333"
-            ],
-            [
-              "Bathroom or small bedroom (mild damp)",
-              "Thermoelectric mini",
-              "Pro Breeze PB-03"
-            ],
-            [
-              "Whole small room",
-              "20–22-pint compressor",
-              "Frigidaire FFAD2233W1"
-            ],
-            [
-              "Small apartment or laundry room",
-              "30-pint compressor",
-              "AirPlus Max 30"
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick small dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -212,7 +159,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for small rooms",
+      "heading": "What should you look for in a dehumidifier for small rooms?",
       "blocks": [
         {
           "type": "checklist",
@@ -341,5 +288,54 @@
     "/best/best-quiet-dehumidifier/",
     "/best/best-30-pint-dehumidifier/",
     "/best/best-rv-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "EPA-recommended humidity — the same target for a closet as a basement"
+        },
+        {
+          "value": "~25 cu ft",
+          "label": "Coverage of a cabinet-sized rechargeable desiccant unit"
+        },
+        {
+          "value": "0 W",
+          "label": "Power a renewable silica unit uses while it absorbs"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Space",
+        "Best type",
+        "Our pick"
+      ],
+      "rows": [
+        [
+          "Closet, safe, cabinet",
+          "Renewable desiccant",
+          "WiseDry or Eva-Dry E-333"
+        ],
+        [
+          "Bathroom or small bedroom (mild damp)",
+          "Thermoelectric mini",
+          "Pro Breeze PB-03"
+        ],
+        [
+          "Whole small room",
+          "20–22-pint compressor",
+          "Frigidaire FFAD2233W1"
+        ],
+        [
+          "Small apartment or laundry room",
+          "30-pint compressor",
+          "AirPlus Max 30"
+        ]
+      ]
+    }
   ]
 }

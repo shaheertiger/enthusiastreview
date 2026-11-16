@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Plants (2026) & Using Its Water on Them",
   "h1": "The Best Dehumidifiers for Plants (and Can You Use the Water on Them?)",
   "dek": "Most houseplants want more humidity, not less. Here's how to tell when a plant room really is too damp — and what to do with all that collected water.",
-  "description": "When plants really need a dehumidifier, the best picks for plant rooms and shelves, and whether dehumidifier water for plants is safe to use on houseplants.",
+  "description": "Most houseplants like 40–60% humidity, so check with a $15 hygrometer first. If a plant room runs wetter, the Midea Cube 20 is our pick. Plus watering safety.",
   "published": "2026-09-28",
   "updated": "2026-11-05",
   "intro": [
@@ -118,26 +118,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Plant humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "40–60%", "label": "Humidity most common houseplants prefer, per Penn State Extension" },
-            { "value": "30–40%", "label": "Typical winter humidity in a home with forced-air heat" },
-            { "value": "85%", "label": "Ceiling UC IPM recommends to discourage fungal disease in indoor plant spaces" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The gap between the first two numbers is why \"too dry\" is a far more common houseplant problem than \"too humid.\" Damp-air trouble tends to be local: tightly grouped foliage with little airflow can create a pocket far more humid than the wall-mounted reading suggests."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for plants",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -151,7 +133,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for plants",
+      "heading": "What separates a good dehumidifier for plants from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -270,5 +252,28 @@
     "/best/best-dehumidifier-for-terrarium/",
     "/guides/can-you-drink-dehumidifier-water/",
     "/guides/dehumidifier-vs-humidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–60%",
+          "label": "Humidity most common houseplants prefer, per Penn State Extension"
+        },
+        {
+          "value": "30–40%",
+          "label": "Typical winter humidity in a home with forced-air heat"
+        },
+        {
+          "value": "85%",
+          "label": "Ceiling UC IPM recommends to discourage fungal disease in indoor plant spaces"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The gap between the first two numbers is why \"too dry\" is a far more common houseplant problem than \"too humid.\" Damp-air trouble tends to be local: tightly grouped foliage with little airflow can create a pocket far more humid than the wall-mounted reading suggests."
+    }
   ]
 }

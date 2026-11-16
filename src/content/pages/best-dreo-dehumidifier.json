@@ -199,7 +199,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick the best Dreo dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -213,7 +213,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Dreo dehumidifier",
+      "heading": "What separates a good Dreo dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -266,7 +266,7 @@
         },
         {
           "type": "p",
-          "text": "Most app-pairing problems with smart appliances come down to the network: many only join 2.4 GHz Wi-Fi, so if your router combines bands under one name, temporarily separate them during setup. Stand near the unit, keep Bluetooth on and follow the app's steps. Our [Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) guide explains what an app can and can't do."
+          "text": "Most app-pairing problems with smart appliances come down to the network: many only join 2.4 GHz Wi-Fi, so if your router combines bands under one name, temporarily separate them during setup. Stand near the unit, keep Bluetooth on and follow the app's steps. Our [Wi-Fi dehumidifier](/best/best-smart-dehumidifier/) guide explains what an app can and can't do."
         },
         {
           "type": "h3",
@@ -334,7 +334,7 @@
   "related": [
     "/best/best-govee-dehumidifier/",
     "/best/best-midea-dehumidifier/",
-    "/best/best-wifi-dehumidifier/",
+    "/best/best-smart-dehumidifier/",
     "/best/best-dehumidifier-brands/",
     "/best/best-energy-efficient-dehumidifier/",
     "/guides/dehumidifier-size-guide/"

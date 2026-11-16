@@ -6,14 +6,14 @@
   "title": "Where to Place a Dehumidifier in Your House or Basement",
   "h1": "Where to Place a Dehumidifier (and Where Not To)",
   "dek": "The right spot can make a modest machine work like a bigger one. The wrong spot can make any dehumidifier struggle.",
-  "description": "Where to place a dehumidifier for the best results: how much clearance it needs, floor vs. shelf, and the best spots in a basement, bedroom or crawl space.",
+  "description": "Put a dehumidifier on the floor in an open, central spot with 12–18 inches of clearance. The best spots in a basement, bedroom and crawl space.",
   "published": "2026-08-29",
   "updated": "2026-11-05",
   "intro": [
     "Wondering **where to place a dehumidifier**? It matters more than most people think. Two identical machines in the same room can deliver very different results depending on nothing but where they sit. Get the spot right and a properly sized unit reaches its target humidity quickly; get it wrong and even an oversized one runs for hours without getting there.",
     "The short version: put it in an open, central part of the room with at least 12 inches of clear space on every side, keep it on the floor, steer clear of heat vents and sunny windows, and close the doors so it's drying one space rather than the whole house. Below, we explain why each rule matters and where the best place to put a dehumidifier is in a basement, bedroom, closet and crawl space."
   ],
-  "topPicksLead": "If you're still choosing a machine, the **Midea Cube 50-Pint** is our favorite all-rounder, and its top-and-side venting makes it a little more forgiving of tight spots than many boxy units.",
+  "topPicksLead": "Put it on the floor in an open, central spot with at least 12 inches of clearance on every side (18 is better), away from heat vents and direct sun, with the doors closed. In a basement, place it near the dampest wall but not against it.",
   "products": [
     {
       "id": "midea-cube-50",
@@ -89,20 +89,6 @@
   ],
   "sections": [
     {
-      "id": "placement-numbers",
-      "heading": "Dehumidifier placement, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "12 in.", "label": "Minimum clearance most manuals call for around a portable dehumidifier (18 is better)" },
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends to discourage mold and dust mites" },
-            { "value": "1 room", "label": "What a portable unit is rated to dry — with the doors closed" }
-          ]
-        }
-      ]
-    },
-    {
       "id": "best-place-to-put-a-dehumidifier",
       "heading": "Where is the best place to put a dehumidifier?",
       "blocks": [
@@ -112,13 +98,31 @@
         },
         {
           "type": "table",
-          "head": ["Placement", "How it performs"],
+          "head": [
+            "Placement",
+            "How it performs"
+          ],
           "rows": [
-            ["Open area near the middle of the room", "Best — reaches humid air from all directions"],
-            ["12–18 inches from one wall", "Good — the most common practical compromise"],
-            ["Wedged into a corner", "Poor — recirculates its own dry exhaust"],
-            ["Hemmed in by furniture or boxes", "Poor — starved intake and misleading humidity readings"],
-            ["In direct sun or beside a heat vent", "Poor — warm air near the sensor can cause early shutoff"]
+            [
+              "Open area near the middle of the room",
+              "Best — reaches humid air from all directions"
+            ],
+            [
+              "12–18 inches from one wall",
+              "Good — the most common practical compromise"
+            ],
+            [
+              "Wedged into a corner",
+              "Poor — recirculates its own dry exhaust"
+            ],
+            [
+              "Hemmed in by furniture or boxes",
+              "Poor — starved intake and misleading humidity readings"
+            ],
+            [
+              "In direct sun or beside a heat vent",
+              "Poor — warm air near the sensor can cause early shutoff"
+            ]
           ]
         }
       ]
@@ -232,5 +236,24 @@
     "/best/best-dehumidifier-for-basement/",
     "/guides/crawl-space-dehumidifier-installation/",
     "/guides/dehumidifier-not-collecting-water/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "12 in.",
+          "label": "Minimum clearance most manuals call for around a portable dehumidifier (18 is better)"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends to discourage mold and dust mites"
+        },
+        {
+          "value": "1 room",
+          "label": "What a portable unit is rated to dry — with the doors closed"
+        }
+      ]
+    }
   ]
 }

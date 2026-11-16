@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Specialty & Storage",
   "navLabel": "Sneakers",
-  "title": "Best Dehumidifier for a Sneaker Collection (2026)",
+  "title": "Best Dehumidifier for Sneaker Collection (2026): Box to Closet",
   "h1": "The Best Dehumidifiers for a Sneaker Collection (and What Actually Stops Yellowing)",
   "dek": "Humidity causes moldy suede and cracked leather — but yellow soles are a light problem. Here’s how to protect a collection from both.",
-  "description": "The best dehumidifier setup for a sneaker collection: silica packs for each box, a renewable closet unit and a hygrometer, plus the 40–50% target.",
+  "description": "Store sneakers at 40–50% humidity. A silica gel packet in each box does most of the work; an Eva-Dry E-333 covers a 300 cu ft closet. Plus yellowing tips.",
   "published": "2026-09-22",
   "updated": "2026-11-05",
   "intro": [
@@ -93,35 +93,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Sneaker storage, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "40–50%",
-              "label": "Humidity range most sneaker-storage guides recommend"
-            },
-            {
-              "value": "60%+",
-              "label": "Where mold and mildew risk on suede, leather and canvas climbs sharply"
-            },
-            {
-              "value": "Below 40%",
-              "label": "Where leather and suede uppers start to dry out and crack"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Notice that the risk runs in both directions. Like a guitar or a hardwood floor, a leather sneaker wants a steady middle band, not the driest air you can manage."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick sneaker storage products",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -139,7 +112,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in sneaker humidity control",
+      "heading": "What should you look for in sneaker humidity control?",
       "blocks": [
         {
           "type": "checklist",
@@ -274,5 +247,28 @@
     "/best/best-moisture-absorber/",
     "/best/best-dehumidifier-for-vinyl-record-collection/",
     "/best/best-small-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–50%",
+          "label": "Humidity range most sneaker-storage guides recommend"
+        },
+        {
+          "value": "60%+",
+          "label": "Where mold and mildew risk on suede, leather and canvas climbs sharply"
+        },
+        {
+          "value": "Below 40%",
+          "label": "Where leather and suede uppers start to dry out and crack"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Notice that the risk runs in both directions. Like a guitar or a hardwood floor, a leather sneaker wants a steady middle band, not the driest air you can manage."
+    }
   ]
 }

@@ -148,26 +148,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Dehumidifier noise, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "45 dB", "label": "Rough ceiling for a bedroom-friendly appliance — about a quiet library" },
-            { "value": "44.6 dB", "label": "Frigidaire FFAD2233W1 on low at 10 feet, independently measured" },
-            { "value": "58.6 dB", "label": "A 50-pint hOmeLabs unit on its low setting — barely quieter than high" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last figure is the cautionary tale. The same independent reviewer measured that 50-pint hOmeLabs at 59.3 dB on high and 58.6 dB on low — a half-decibel difference that makes the low setting nearly pointless in a bedroom. Capacity alone doesn't predict noise, but a big unit with a weak low setting rarely belongs where people sleep."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick quiet dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -181,7 +163,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a quiet dehumidifier",
+      "heading": "How do you pick a quiet dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -216,11 +198,31 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Type", "How it sounds", "Water removal", "Best for"],
+          "head": [
+            "Type",
+            "How it sounds",
+            "Water removal",
+            "Best for"
+          ],
           "rows": [
-            ["Compressor", "Fan plus a cycling compressor hum", "High", "Bedrooms, basements, most homes"],
-            ["Desiccant", "Steady, softer fan and rotor", "Moderate", "Cool rooms, light sleepers"],
-            ["Thermo-electric mini", "Small fan only", "Low", "Nurseries, closets, small rooms"]
+            [
+              "Compressor",
+              "Fan plus a cycling compressor hum",
+              "High",
+              "Bedrooms, basements, most homes"
+            ],
+            [
+              "Desiccant",
+              "Steady, softer fan and rotor",
+              "Moderate",
+              "Cool rooms, light sleepers"
+            ],
+            [
+              "Thermo-electric mini",
+              "Small fan only",
+              "Low",
+              "Nurseries, closets, small rooms"
+            ]
           ]
         },
         {
@@ -289,5 +291,28 @@
     "/best/best-desiccant-dehumidifier/",
     "/best/best-dehumidifier-for-office/",
     "/best/best-midea-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "45 dB",
+          "label": "Rough ceiling for a bedroom-friendly appliance — about a quiet library"
+        },
+        {
+          "value": "44.6 dB",
+          "label": "Frigidaire FFAD2233W1 on low at 10 feet, independently measured"
+        },
+        {
+          "value": "58.6 dB",
+          "label": "A 50-pint hOmeLabs unit on its low setting — barely quieter than high"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last figure is the cautionary tale. The same independent reviewer measured that 50-pint hOmeLabs at 59.3 dB on high and 58.6 dB on low — a half-decibel difference that makes the low setting nearly pointless in a bedroom. Capacity alone doesn't predict noise, but a big unit with a weak low setting rarely belongs where people sleep."
+    }
   ]
 }

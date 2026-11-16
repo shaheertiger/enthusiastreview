@@ -12,6 +12,7 @@
 // files to AI agents and to anyone asking for text/markdown (see https://dualmark.dev).
 import fs from 'node:fs';
 import path from 'node:path';
+import { shortAnswerHeading, methodNote, disclosure, trustBox } from '../src/data/page-copy.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DIST = path.join(ROOT, 'dist');
@@ -30,6 +31,8 @@ const pages = fs
   .readdirSync(path.join(ROOT, 'src/content/pages'))
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/content/pages', f), 'utf8')))
+  // Noindexed (off-topic) pages get no Markdown twin and stay out of llms.txt.
+  .filter((p) => !p.noindex)
   .sort((a, b) => a.h1.localeCompare(b.h1));
 // Same real dates as src/lib/content.ts: the git date from scripts/page-dates.mjs, never
 // earlier than the page was published.
@@ -84,21 +87,28 @@ function blockMd(b) {
 function pageMd(p) {
   const out = [];
   out.push(`# ${p.h1}`, '', `> ${p.dek}`, '');
-  if (p.topPicksLead) out.push(`**Short answer:** ${abs(p.topPicksLead)}`, '');
-  out.push([`Canonical: ${urlOf(p)}`, `Last updated: ${p.updated}`, `Published: ${p.published}`, `Category: ${p.category}`, `Publisher: ${SITE_NAME}`].join('\n'), '');
-  out.push(...p.intro.map(abs).flatMap((x) => [x, '']));
+  out.push([`Canonical: ${urlOf(p)}`, `Last updated: ${p.updated}`, `Published: ${p.published}`, `Category: ${p.category}`, `Publisher: ${SITE_NAME}`, `Method: ${methodNote(p)}`].join('\n'), '');
   const products = p.products ?? [];
+  // Same order as the HTML page: the short answer comes first.
+  if (p.topPicksLead || p.shortAnswer?.length || products.length) {
+    out.push(`## ${shortAnswerHeading(p)}`, '');
+    if (p.topPicksLead) out.push(abs(p.topPicksLead), '');
+    for (const b of p.shortAnswer ?? []) out.push(blockMd(b), '');
+    if (products.length) {
+      out.push(`**${p.section === 'best' ? 'Our top picks' : p.section === 'compare' ? 'The two models' : 'Products in this guide'}:**`, '');
+      for (const pr of products) out.push(`- **${pr.award}:** ${pr.shortName ?? pr.name} — [check price on Amazon](${amazonLink(pr)})`);
+      out.push('');
+    }
+  }
+  out.push(...p.intro.map(abs).flatMap((x) => [x, '']));
   if (products.length) {
-    out.push(`## ${p.section === 'best' ? 'Our top picks' : p.section === 'compare' ? 'The models compared' : 'Products in this guide'}`, '');
-    for (const pr of products) out.push(`- **${pr.award}:** ${pr.shortName ?? pr.name} — [check price on Amazon](${amazonLink(pr)})`);
-    out.push('');
     products.forEach((pr, i) => {
       out.push(`## ${i + 1}. ${pr.name} — ${pr.award}`, '');
       out.push(`[Check price on Amazon](${amazonLink(pr)})`, '');
       out.push('**Pros**', '', ...pr.pros.map((x) => `- ${abs(x)}`), '');
       out.push('**Cons**', '', ...pr.cons.map((x) => `- ${abs(x)}`), '');
       out.push(`**Why we picked it:** ${abs(pr.whyWeLoveIt)}`, '');
-      out.push(`**Performance:** ${abs(pr.performance)}`, '');
+      out.push(`**What the ratings show:** ${abs(pr.performance)}`, '');
       if (pr.notes) out.push(`**Worth knowing:** ${abs(pr.notes)}`, '');
       const specs = Object.entries(pr.specs ?? {});
       if (specs.length) out.push('| Spec | Value |', '| --- | --- |', ...specs.map(([k, v]) => `| ${esc(k)} | ${esc(v)} |`), '');
@@ -114,7 +124,9 @@ function pageMd(p) {
   }
   const rel = (p.related ?? []).map((r) => pages.find((x) => `/${x.section}/${x.slug}/` === r)).filter(Boolean);
   if (rel.length) out.push('## Related guides', '', ...rel.map((r) => `- [${r.h1}](${urlOf(r)})`), '');
-  out.push('---', '', `*${SITE_NAME} researches products against DOE ratings, ENERGY STAR data, manuals, CPSC recalls and owner reviews; it does not run a test lab. Amazon links are affiliate links (tag ${TAG}).*`, '');
+  const trust = trustBox(p, SITE_NAME);
+  out.push(`## ${trust.heading}`, '', trust.text, '');
+  out.push('---', '', `*${abs(disclosure(p))} Amazon links carry the affiliate tag ${TAG}.*`, '');
   return out.join('\n').replace(/\n{3,}/g, '\n\n');
 }
 

@@ -94,26 +94,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Toshiba dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "2 of 3", "label": "Current Toshiba sizes with ENERGY STAR Most Efficient certification (35 and 50 pints)" },
-            { "value": "Top tier", "label": "Toshiba's predicted-reliability score in Consumer Reports' latest brand survey" },
-            { "value": "0", "label": "Toshiba-branded dehumidifier recalls in CPSC records" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Consumer Reports' survey covered roughly 13,600 dehumidifiers bought by its members between 2014 and 2025, and Toshiba landed in the small group of brands earning the highest predicted-reliability rating, alongside Midea, Keystone and Perfect Aire."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Toshiba dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -127,7 +109,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Toshiba dehumidifier",
+      "heading": "How do you pick a Toshiba dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -166,14 +148,42 @@
         },
         {
           "type": "table",
-          "head": ["Model", "What it is", "Notes"],
+          "head": [
+            "Model",
+            "What it is",
+            "Notes"
+          ],
           "rows": [
-            ["TDDP2013ES2", "Current 20-pint", "Bedroom or office size"],
-            ["TDDP3513ES2", "Current 35-pint", "ENERGY STAR Most Efficient"],
-            ["TDDP5013ES2", "Current 50-pint", "Gravity drain, 15-pint tank"],
-            ["TDDP5014RES2", "50-pint with pump", "For basements without a low drain"],
-            ["TDDP5012ES2", "Previous 50-pint", "The model behind the independent bench test"],
-            ["TDDP7011ES2", "Older 70-pint (pre-2019 rating)", "Roughly a 50-pint under today's DOE test"]
+            [
+              "TDDP2013ES2",
+              "Current 20-pint",
+              "Bedroom or office size"
+            ],
+            [
+              "TDDP3513ES2",
+              "Current 35-pint",
+              "ENERGY STAR Most Efficient"
+            ],
+            [
+              "TDDP5013ES2",
+              "Current 50-pint",
+              "Gravity drain, 15-pint tank"
+            ],
+            [
+              "TDDP5014RES2",
+              "50-pint with pump",
+              "For basements without a low drain"
+            ],
+            [
+              "TDDP5012ES2",
+              "Previous 50-pint",
+              "The model behind the independent bench test"
+            ],
+            [
+              "TDDP7011ES2",
+              "Older 70-pint (pre-2019 rating)",
+              "Roughly a 50-pint under today's DOE test"
+            ]
           ]
         },
         {
@@ -266,5 +276,28 @@
     "/best/best-dehumidifier-brands/",
     "/best/best-dehumidifier-for-basement/",
     "/guides/dehumidifier-not-working/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2 of 3",
+          "label": "Current Toshiba sizes with ENERGY STAR Most Efficient certification (35 and 50 pints)"
+        },
+        {
+          "value": "Top tier",
+          "label": "Toshiba's predicted-reliability score in Consumer Reports' latest brand survey"
+        },
+        {
+          "value": "0",
+          "label": "Toshiba-branded dehumidifier recalls in CPSC records"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Consumer Reports' survey covered roughly 13,600 dehumidifiers bought by its members between 2014 and 2025, and Toshiba landed in the small group of brands earning the highest predicted-reliability rating, alongside Midea, Keystone and Perfect Aire."
+    }
   ]
 }

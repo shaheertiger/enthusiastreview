@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Mold & Allergies",
   "navLabel": "Water Damage",
-  "title": "Best Dehumidifier for Water Damage (2026): LGR Flood Picks",
+  "title": "Best Dehumidifier for Water Damage (2026): Flood Cleanup Picks",
   "h1": "The Best Dehumidifiers for Water Damage and Flood Cleanup",
   "dek": "Soaked drywall, a wet carpet and a 48-hour mold clock: this is a job for restoration-grade drying, not a bedroom box.",
-  "description": "The best dehumidifier for water damage in 2026: LGR units restorers rely on for floods and wet carpet, plus when renting or a 50-pint unit is enough.",
+  "description": "Mold can start on wet materials in 24–48 hours. The 85-pint AlorAir Storm LGR Extreme is our top flood pick and fits a standard door; when renting is enough.",
   "published": "2026-11-04",
   "updated": "2026-11-05",
   "intro": [
@@ -120,26 +120,8 @@
   ],
   "sections": [
     {
-      "id": "water-damage-numbers",
-      "heading": "Water damage, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "24–48 hrs", "label": "How soon mold can start on wet materials, per the EPA" },
-            { "value": "22.6%", "label": "Share of homeowners claims from water damage and freezing, per the Insurance Information Institute" },
-            { "value": "125–250", "label": "Pints per day of LGR capacity restorers typically plan for on structural drying jobs" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last range comes from how professionals apply the IICRC S500 water-damage standard. It's well beyond any single household dehumidifier, which is why a real flood usually calls for LGR equipment — often more than one unit — plus fans to move air across wet surfaces."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick water damage dehumidifiers",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -153,7 +135,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a water damage dehumidifier",
+      "heading": "How do you pick a water damage dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -217,12 +199,27 @@
         },
         {
           "type": "table",
-          "head": ["Situation", "Best move"],
+          "head": [
+            "Situation",
+            "Best move"
+          ],
           "rows": [
-            ["Small leak caught the same day", "Household 50-pint unit with a pump"],
-            ["One flooded room, one-time event", "Rent or buy one LGR unit"],
-            ["Whole basement or several rooms", "Multiple LGR units or a high-output model, plus fans"],
-            ["Sewage, flood water or wet wall cavities", "Professional restoration company"]
+            [
+              "Small leak caught the same day",
+              "Household 50-pint unit with a pump"
+            ],
+            [
+              "One flooded room, one-time event",
+              "Rent or buy one LGR unit"
+            ],
+            [
+              "Whole basement or several rooms",
+              "Multiple LGR units or a high-output model, plus fans"
+            ],
+            [
+              "Sewage, flood water or wet wall cavities",
+              "Professional restoration company"
+            ]
           ]
         },
         {
@@ -275,5 +272,28 @@
     "/guides/dehumidifier-rental/",
     "/guides/does-a-dehumidifier-help-with-mold/",
     "/best/best-dehumidifier-for-black-mold/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24–48 hrs",
+          "label": "How soon mold can start on wet materials, per the EPA"
+        },
+        {
+          "value": "22.6%",
+          "label": "Share of homeowners claims from water damage and freezing, per the Insurance Information Institute"
+        },
+        {
+          "value": "125–250",
+          "label": "Pints per day of LGR capacity restorers typically plan for on structural drying jobs"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last range comes from how professionals apply the IICRC S500 water-damage standard. It's well beyond any single household dehumidifier, which is why a real flood usually calls for LGR equipment — often more than one unit — plus fans to move air across wet surfaces."
+    }
   ]
 }

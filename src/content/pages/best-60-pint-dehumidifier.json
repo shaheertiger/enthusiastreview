@@ -150,26 +150,8 @@
   ],
   "sections": [
     {
-      "id": "sixty-pint-numbers",
-      "heading": "60-pint dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "65°F", "label": "Test temperature since the DOE's 2019 change, down from 80°F" },
-            { "value": "70 → 50", "label": "An old-scale 70-pint unit is roughly a 50-pint under today's test" },
-            { "value": "2.80 L/kWh", "label": "Federal efficiency minimum for portable units above 50 pints a day" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Colder test air yields less water, so every rating dropped when the DOE switched procedures. A **true** DOE 60 is a big machine; a \"60\" from an older or saturated-air test may be a mid-40s unit by today's yardstick."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick 60-pint dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -183,7 +165,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a 60-pint dehumidifier",
+      "heading": "How do you choose a 60-pint dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -227,13 +209,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Pick", "Capacity", "Drainage", "Key feature", "Best for"],
+          "head": [
+            "Pick",
+            "Capacity",
+            "Drainage",
+            "Key feature",
+            "Best for"
+          ],
           "rows": [
-            ["Midea 60-Pint with Pump", "60 pints (listed)", "Pump or hose", "Up to 5,500 sq ft claim", "Big basements, no low drain"],
-            ["Frigidaire 60-Pint", "60 pints (listed)", "Bucket or gravity hose", "Major-brand support", "Basements with a floor drain"],
-            ["Costway 60-Pint", "60 pints (Costway)", "1.7-gal tank or hose", "Auto-defrost, 24-hour timer", "Value buyers"],
-            ["Midea Cube 50", "50 pints (DOE)", "Reservoir or hose", "ENERGY STAR, Wi-Fi", "Damp, not flooded, basements"],
-            ["Frigidaire FFAP5033W1", "50 pints (DOE)", "Pump, hose or bucket", "Proven pump model", "Pump buyers who want a true rating"]
+            [
+              "Midea 60-Pint with Pump",
+              "60 pints (listed)",
+              "Pump or hose",
+              "Up to 5,500 sq ft claim",
+              "Big basements, no low drain"
+            ],
+            [
+              "Frigidaire 60-Pint",
+              "60 pints (listed)",
+              "Bucket or gravity hose",
+              "Major-brand support",
+              "Basements with a floor drain"
+            ],
+            [
+              "Costway 60-Pint",
+              "60 pints (Costway)",
+              "1.7-gal tank or hose",
+              "Auto-defrost, 24-hour timer",
+              "Value buyers"
+            ],
+            [
+              "Midea Cube 50",
+              "50 pints (DOE)",
+              "Reservoir or hose",
+              "ENERGY STAR, Wi-Fi",
+              "Damp, not flooded, basements"
+            ],
+            [
+              "Frigidaire FFAP5033W1",
+              "50 pints (DOE)",
+              "Pump, hose or bucket",
+              "Proven pump model",
+              "Pump buyers who want a true rating"
+            ]
           ],
           "caption": "\"Listed\" figures come from the product listing; DOE figures use the 2019 test at 65°F."
         }
@@ -249,12 +267,27 @@
         },
         {
           "type": "table",
-          "head": ["What the label says", "What it likely means today"],
+          "head": [
+            "What the label says",
+            "What it likely means today"
+          ],
           "rows": [
-            ["70 pints, older model", "About 50 DOE pints"],
-            ["60 pints, older model or older test", "Roughly the low-to-mid 40s in DOE pints"],
-            ["60 pints, DOE 2019", "A genuinely large unit, bigger than any 50"],
-            ["60+ pints at 86–95°F or saturated air", "Not comparable; look up the DOE figure"]
+            [
+              "70 pints, older model",
+              "About 50 DOE pints"
+            ],
+            [
+              "60 pints, older model or older test",
+              "Roughly the low-to-mid 40s in DOE pints"
+            ],
+            [
+              "60 pints, DOE 2019",
+              "A genuinely large unit, bigger than any 50"
+            ],
+            [
+              "60+ pints at 86–95°F or saturated air",
+              "Not comparable; look up the DOE figure"
+            ]
           ],
           "caption": "Approximate conversions; check each model's rating label or ENERGY STAR listing."
         },
@@ -351,5 +384,28 @@
     "/best/best-dehumidifier-for-basement/",
     "/guides/dehumidifier-size-guide/",
     "/best/best-100-pint-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "65°F",
+          "label": "Test temperature since the DOE's 2019 change, down from 80°F"
+        },
+        {
+          "value": "70 → 50",
+          "label": "An old-scale 70-pint unit is roughly a 50-pint under today's test"
+        },
+        {
+          "value": "2.80 L/kWh",
+          "label": "Federal efficiency minimum for portable units above 50 pints a day"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Colder test air yields less water, so every rating dropped when the DOE switched procedures. A **true** DOE 60 is a big machine; a \"60\" from an older or saturated-air test may be a mid-40s unit by today's yardstick."
+    }
   ]
 }

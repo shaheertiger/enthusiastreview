@@ -6,7 +6,7 @@
   "title": "Best Camera Dry Cabinet (2026): Stop Lens Fungus at 40–50%",
   "h1": "The Best Camera Dry Cabinets",
   "dek": "Lens fungus doesn't need a flood, just a few months on a damp shelf. A dry cabinet keeps your glass in the safe zone without you lifting a finger.",
-  "description": "The best camera dry cabinets for lenses and bodies, compared on capacity, humidity range and tolerance, plus when a rechargeable desiccant makes more sense.",
+  "description": "Keep lenses at 40–50% humidity: the Ruggard 30L dry cabinet holds about ±3% for a typical kit. Cabinets compared, plus when a $25 desiccant is enough.",
   "published": "2026-09-18",
   "updated": "2026-11-05",
   "intro": [
@@ -97,26 +97,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Camera storage humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "60% RH", "label": "Level above which lens fungus becomes a real risk" },
-            { "value": "40–50%", "label": "Sweet spot for long-term storage of lenses and bodies" },
-            { "value": "50–95°F", "label": "Temperature range in which fungus grows comfortably" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Fungus growth speeds up sharply as humidity climbs toward the 80s and 90s, which is why gear stored in a summer closet, a basement studio or a coastal apartment is most at risk. Drier isn't always better, though: going far below 40% for years can dry out rubber grips, seals and internal lubricants."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick camera dry cabinets",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -130,7 +112,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a camera dry cabinet",
+      "heading": "What separates a good camera dry cabinet from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -186,7 +168,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The sealed-box principle works for anything sensitive to moisture. Hearing aids get their own drying stations, covered in our [best dehumidifier for hearing aids](/best/best-dehumidifier-for-hearing-aids/) guide, and collectors protecting guitars, records and firearms face similar trade-offs between active and passive control. For firearms, see our [best dehumidifier for gun safe](/best/best-dehumidifier-for-gun-safe/) roundup."
+          "text": "The sealed-box principle works for anything sensitive to moisture. Collectors protecting guitars, records and firearms face similar trade-offs between active and passive control. For firearms, see our [best dehumidifier for gun safe](/best/best-dehumidifier-for-gun-safe/) roundup."
         }
       ]
     },
@@ -230,9 +212,31 @@
   "related": [
     "/best/best-dehumidifier-for-closet/",
     "/best/best-desiccant-dehumidifier/",
-    "/best/best-dehumidifier-for-hearing-aids/",
     "/best/best-dehumidifier-for-gun-safe/",
     "/best/best-dehumidifier-for-guitar/",
     "/best/best-moisture-absorber/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "60% RH",
+          "label": "Level above which lens fungus becomes a real risk"
+        },
+        {
+          "value": "40–50%",
+          "label": "Sweet spot for long-term storage of lenses and bodies"
+        },
+        {
+          "value": "50–95°F",
+          "label": "Temperature range in which fungus grows comfortably"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Fungus growth speeds up sharply as humidity climbs toward the 80s and 90s, which is why gear stored in a summer closet, a basement studio or a coastal apartment is most at risk. Drier isn't always better, though: going far below 40% for years can dry out rubber grips, seals and internal lubricants."
+    }
   ]
 }

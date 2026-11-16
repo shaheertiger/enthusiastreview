@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for a Server Room (2026): Pump & Wi-Fi Picks",
   "h1": "The Best Dehumidifiers for Server Rooms",
   "dek": "Equipment rooms need humidity held in a band, not wrung out — and they need a unit that drains itself and texts you when something drifts.",
-  "description": "The best dehumidifier for a server room or IT closet: self-draining, app-monitored units that hold equipment inside ASHRAE's 40–60% humidity band.",
+  "description": "ASHRAE recommends 40–60% humidity for IT rooms. The hOmeLabs HME1003 pumps its own water and sends app alerts on drift. 4 server closet picks compared.",
   "published": "2026-09-10",
   "updated": "2026-11-05",
   "intro": [
@@ -84,7 +84,7 @@
       ],
       "whyWeLoveIt": "Many \"server rooms\" are really one rack in a repurposed closet. A 50-pint pump unit is overkill there; this Frigidaire's drain hose gives the same unattended operation if there's a drain to route it to.",
       "performance": "It's a 22-pint-class compressor model with a continuous-drain port and coverage claims well beyond a typical closet. Pair it with a Wi-Fi hygrometer to get remote alerts the unit itself can't send. If there's no lower drain, choose one of the pump models instead.",
-      "notes": "Add a [Wi-Fi hygrometer](/best/best-wifi-dehumidifier/) or your monitoring system's humidity sensor so you know if the unit stops working.",
+      "notes": "Add a [Wi-Fi hygrometer](/best/best-smart-dehumidifier/) or your monitoring system's humidity sensor so you know if the unit stops working.",
       "specs": {
         "Capacity": "22-pint class",
         "Type": "Compressor",
@@ -122,35 +122,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Server room humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "40–60%",
-              "label": "ASHRAE TC9.9's recommended humidity range for IT equipment spaces"
-            },
-            {
-              "value": "20–80%",
-              "label": "ASHRAE's wider allowable range for short excursions"
-            },
-            {
-              "value": "~100 V",
-              "label": "An electrostatic discharge this small can harm sensitive components, per industry ESD guidance"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last figure is why server rooms are different. A home dehumidifier set to its lowest number can push a room too dry, and you'll never feel a 100-volt static discharge — but a circuit board can."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick server room dehumidifiers",
+      "heading": "How we chose these server room dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -164,7 +137,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a server room dehumidifier",
+      "heading": "What matters most in a server room dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -274,9 +247,32 @@
   "related": [
     "/best/best-commercial-dehumidifier/",
     "/best/best-dehumidifier-with-pump/",
-    "/best/best-wifi-dehumidifier/",
+    "/best/best-smart-dehumidifier/",
     "/best/best-dehumidifier-for-office/",
     "/best/best-dehumidifier-for-warehouse/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–60%",
+          "label": "ASHRAE TC9.9's recommended humidity range for IT equipment spaces"
+        },
+        {
+          "value": "20–80%",
+          "label": "ASHRAE's wider allowable range for short excursions"
+        },
+        {
+          "value": "~100 V",
+          "label": "An electrostatic discharge this small can harm sensitive components, per industry ESD guidance"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last figure is why server rooms are different. A home dehumidifier set to its lowest number can push a room too dry, and you'll never feel a 100-volt static discharge — but a circuit board can."
+    }
   ]
 }

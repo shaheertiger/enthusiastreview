@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Cockroaches (2026): Cut Off Their Water",
   "h1": "The Best Dehumidifiers for Cockroaches",
   "dek": "Roaches can go weeks without food but not long without water. Drying the damp spots they depend on is one of the smartest moves in any roach plan.",
-  "description": "The best dehumidifier for cockroaches in basements, crawl spaces and apartments — and why drainage matters, plus the steps that actually end a roach problem.",
+  "description": "A 50-pint unit with a pump, like the GE APER50LZ, leaves no standing water for roaches, which last about a week without it. Picks plus the steps that end it.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -125,26 +125,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Roaches and moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~1 week", "label": "How long a cockroach is commonly said to survive without water" },
-            { "value": "~1 month", "label": "How long it can go without food — water is the tighter limit" },
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends for a healthy home" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Exact survival times vary by species and temperature, but the pattern holds: water is the resource roaches can least afford to lose. Humid air on its own isn't drinking water, but damp basements and bathrooms come with condensation, leaks and wet surfaces — and those are what a dry, ventilated space takes away."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for cockroaches",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -158,7 +140,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for roaches",
+      "heading": "What separates a good dehumidifier for roaches from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -193,12 +175,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Species", "Where you'll find it", "Will a dehumidifier help?"],
+          "head": [
+            "Species",
+            "Where you'll find it",
+            "Will a dehumidifier help?"
+          ],
           "rows": [
-            ["German cockroach", "Kitchens and bathrooms, near food and water", "A little. Sanitation, baits and fixing leaks matter far more"],
-            ["American cockroach", "Basements, boiler rooms, floor drains, sewers", "Yes, as part of a plan — they favor warm, damp areas"],
-            ["Oriental cockroach (\"water bug\")", "Cool, damp basements and crawl spaces", "Yes — they depend heavily on moisture"],
-            ["Brown-banded cockroach", "Warm, dry spots high in rooms and in electronics", "Not much — they tolerate drier air"]
+            [
+              "German cockroach",
+              "Kitchens and bathrooms, near food and water",
+              "A little. Sanitation, baits and fixing leaks matter far more"
+            ],
+            [
+              "American cockroach",
+              "Basements, boiler rooms, floor drains, sewers",
+              "Yes, as part of a plan — they favor warm, damp areas"
+            ],
+            [
+              "Oriental cockroach (\"water bug\")",
+              "Cool, damp basements and crawl spaces",
+              "Yes — they depend heavily on moisture"
+            ],
+            [
+              "Brown-banded cockroach",
+              "Warm, dry spots high in rooms and in electronics",
+              "Not much — they tolerate drier air"
+            ]
           ]
         },
         {
@@ -274,5 +276,28 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-crawl-space-dehumidifier/",
     "/best/best-dehumidifier-for-apartment/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~1 week",
+          "label": "How long a cockroach is commonly said to survive without water"
+        },
+        {
+          "value": "~1 month",
+          "label": "How long it can go without food — water is the tighter limit"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends for a healthy home"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Exact survival times vary by species and temperature, but the pattern holds: water is the resource roaches can least afford to lose. Humid air on its own isn't drinking water, but damp basements and bathrooms come with condensation, leaks and wet surfaces — and those are what a dry, ventilated space takes away."
+    }
   ]
 }

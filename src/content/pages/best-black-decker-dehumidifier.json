@@ -122,31 +122,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Black+Decker dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "3",
-              "label": "Size classes on Amazon: 22, 36.39 and 50 pints"
-            },
-            {
-              "value": "4,500 sq ft",
-              "label": "Top coverage claim, on the 50-pint BDM50WCDA with pump"
-            },
-            {
-              "value": "0",
-              "label": "Appearances on the two largest dehumidifier recalls in CPSC records"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Black+Decker dehumidifiers",
+      "heading": "How we chose these Black+Decker dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -160,7 +137,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Black+Decker dehumidifier",
+      "heading": "What separates a good Black+Decker dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -356,5 +333,24 @@
     "/best/best-dehumidifier-brands/",
     "/best/best-dehumidifier-for-basement/",
     "/best/best-30-pint-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "3",
+          "label": "Size classes on Amazon: 22, 36.39 and 50 pints"
+        },
+        {
+          "value": "4,500 sq ft",
+          "label": "Top coverage claim, on the 50-pint BDM50WCDA with pump"
+        },
+        {
+          "value": "0",
+          "label": "Appearances on the two largest dehumidifier recalls in CPSC records"
+        }
+      ]
+    }
   ]
 }

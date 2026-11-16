@@ -7,7 +7,7 @@
   "title": "Best Hanging Dehumidifier (2026): Bags & Hanging Kits",
   "h1": "The Best Hanging Dehumidifiers, From Closet Bags to Crawl-Space Units",
   "dek": "Off the floor and out of the way: hanging moisture bags for closets and cars, and suspended dehumidifiers for crawl spaces.",
-  "description": "The best hanging dehumidifier for closets, cars and crawl spaces: hanging dehumidifier bags, a reusable option and the Aprilaire 5822 hanging kit, explained.",
+  "description": "DampRid's hanging bag lasts up to 60 days in a closet; the Eva-Dry E-500 is the reusable pick. For crawl spaces, the Aprilaire E070 with its 5822 hanging kit.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -128,13 +128,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Hanging bags", "Rechargeable hangers", "Suspended crawl-space units"],
+          "head": [
+            "",
+            "Hanging bags",
+            "Rechargeable hangers",
+            "Suspended crawl-space units"
+          ],
           "rows": [
-            ["How it works", "Calcium chloride turns moisture into brine", "Silica gel holds moisture until recharged", "Compressor condenses water and drains it"],
-            ["Power", "None", "Only to recharge", "Always plugged in"],
-            ["Capacity", "Small; a closet's worth", "Small; a closet's worth", "70–100+ pints a day"],
-            ["Upkeep", "Replace every month or two", "Recharge every few weeks", "Filter checks, drain line care"],
-            ["Best for", "Closets, lockers, storage", "Closets, RVs, boats, safes", "Crawl spaces, unfinished basements"]
+            [
+              "How it works",
+              "Calcium chloride turns moisture into brine",
+              "Silica gel holds moisture until recharged",
+              "Compressor condenses water and drains it"
+            ],
+            [
+              "Power",
+              "None",
+              "Only to recharge",
+              "Always plugged in"
+            ],
+            [
+              "Capacity",
+              "Small; a closet's worth",
+              "Small; a closet's worth",
+              "70–100+ pints a day"
+            ],
+            [
+              "Upkeep",
+              "Replace every month or two",
+              "Recharge every few weeks",
+              "Filter checks, drain line care"
+            ],
+            [
+              "Best for",
+              "Closets, lockers, storage",
+              "Closets, RVs, boats, safes",
+              "Crawl spaces, unfinished basements"
+            ]
           ]
         },
         {
@@ -145,7 +175,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick hanging dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -155,7 +185,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a hanging dehumidifier",
+      "heading": "What matters most in a hanging dehumidifier?",
       "blocks": [
         {
           "type": "checklist",

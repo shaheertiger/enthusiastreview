@@ -3,10 +3,10 @@
   "section": "compare",
   "category": "Comparisons",
   "navLabel": "Midea vs. Frigidaire",
-  "title": "Midea vs. Frigidaire Dehumidifier (2026): Cube 50 vs. FHDD5034Y1",
+  "title": "Midea vs. Frigidaire Dehumidifier (2026): Cube 50 or FHDD5034?",
   "h1": "Midea vs. Frigidaire Dehumidifiers",
   "dek": "Two best-selling 50-pint machines, nearly tied on efficiency — so the real decision comes down to warranty, tank size and what you'll pay.",
-  "description": "Midea vs. Frigidaire dehumidifier, head to head: the Cube 50 and FHDD5034Y1 compared on real power use, warranty, tank size and features to help you choose.",
+  "description": "Both pull 50 pints at 2.01 L/kWh. Get the Midea Cube 50 for a 34-pint tank, or the Frigidaire FHDD5034Y1 for a 5-year sealed-system warranty at a lower price.",
   "published": "2026-10-26",
   "updated": "2026-11-05",
   "intro": [
@@ -75,17 +75,57 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Midea Cube 50 (MAD50S1QWT)", "Frigidaire FHDD5034Y1"],
+          "head": [
+            "",
+            "Midea Cube 50 (MAD50S1QWT)",
+            "Frigidaire FHDD5034Y1"
+          ],
           "rows": [
-            ["DOE capacity (ENERGY STAR)", "49.67 pints/day", "49.71 pints/day"],
-            ["Efficiency (IEF)", "2.01 L/kWh", "2.01 L/kWh"],
-            ["Rated annual energy", "515 kWh", "521 kWh"],
-            ["Bench-measured draw at 50% RH", "About 512 W", "About 560 W"],
-            ["Water tank", "About 34 pints", "2.7 gallons (~21.6 pints)"],
-            ["Smart control", "Wi-Fi, Alexa, Google", "Wi-Fi, Alexa, Google"],
-            ["Coverage", "Up to ~4,500 sq ft", "Up to ~4,500 sq ft"],
-            ["Warranty", "1 year (2 on select models)", "5 years sealed system"],
-            ["Typical price", "Higher", "Lower"]
+            [
+              "DOE capacity (ENERGY STAR)",
+              "49.67 pints/day",
+              "49.71 pints/day"
+            ],
+            [
+              "Efficiency (IEF)",
+              "2.01 L/kWh",
+              "2.01 L/kWh"
+            ],
+            [
+              "Rated annual energy",
+              "515 kWh",
+              "521 kWh"
+            ],
+            [
+              "Bench-measured draw at 50% RH",
+              "About 512 W",
+              "About 560 W"
+            ],
+            [
+              "Water tank",
+              "About 34 pints",
+              "2.7 gallons (~21.6 pints)"
+            ],
+            [
+              "Smart control",
+              "Wi-Fi, Alexa, Google",
+              "Wi-Fi, Alexa, Google"
+            ],
+            [
+              "Coverage",
+              "Up to ~4,500 sq ft",
+              "Up to ~4,500 sq ft"
+            ],
+            [
+              "Warranty",
+              "1 year (2 on select models)",
+              "5 years sealed system"
+            ],
+            [
+              "Typical price",
+              "Higher",
+              "Lower"
+            ]
           ],
           "caption": "Capacity, IEF and annual energy from ENERGY STAR's certified-product data; draw from one independent bench test."
         }

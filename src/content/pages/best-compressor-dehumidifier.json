@@ -6,7 +6,7 @@
   "title": "Best Compressor Dehumidifier (2026): vs. Peltier & Desiccant",
   "h1": "The Best Compressor Dehumidifiers (and When Peltier or Desiccant Wins)",
   "dek": "Compressor units do the heavy lifting in most homes. Here are the ones worth buying, how they compare with Peltier and desiccant models, and what to do when the compressor quits.",
-  "description": "The best compressor dehumidifier for every room, plus compressor vs. Peltier vs. desiccant explained and how to fix a compressor that runs hot or won’t start.",
+  "description": "The 50-pint Midea Cube 50 is the best compressor dehumidifier for most homes. Compressors pull 20–50 pints a day; a Peltier mini manages about 1 pint.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -148,35 +148,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Compressor dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "20–50",
-              "label": "Pints a day from typical home compressor units (DOE 2019)"
-            },
-            {
-              "value": "~1 pint",
-              "label": "Roughly what a mini Peltier unit removes on a good day"
-            },
-            {
-              "value": "65°F",
-              "label": "DOE test temperature — compressors lose output in colder rooms"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That gap is the whole story. A compressor unit can remove dozens of times more water than a thermoelectric mini, which is why every basement pick on this page uses one. The trade-off comes as temperatures fall: below the 60s, a standard compressor’s coil starts to frost, and desiccants or low-temp models take over."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick compressor dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -190,7 +163,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a compressor dehumidifier",
+      "heading": "What matters most in a compressor dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -370,5 +343,28 @@
     "/best/best-energy-efficient-dehumidifier/",
     "/guides/how-does-a-dehumidifier-work/",
     "/guides/dehumidifier-not-working/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "20–50",
+          "label": "Pints a day from typical home compressor units (DOE 2019)"
+        },
+        {
+          "value": "~1 pint",
+          "label": "Roughly what a mini Peltier unit removes on a good day"
+        },
+        {
+          "value": "65°F",
+          "label": "DOE test temperature — compressors lose output in colder rooms"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That gap is the whole story. A compressor unit can remove dozens of times more water than a thermoelectric mini, which is why every basement pick on this page uses one. The trade-off comes as temperatures fall: below the 60s, a standard compressor’s coil starts to frost, and desiccants or low-temp models take over."
+    }
   ]
 }

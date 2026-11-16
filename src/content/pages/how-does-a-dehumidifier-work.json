@@ -6,7 +6,7 @@
   "title": "How Does a Dehumidifier Work? And How Long Does It Take?",
   "h1": "How Does a Dehumidifier Work — and How Long Does It Take?",
   "dek": "Inside that plain plastic box is a small refrigeration system doing real physics. Here’s what happens, and how soon you’ll feel the difference.",
-  "description": "How does a dehumidifier work? We explain compressor and desiccant designs in plain English, how long a dehumidifier takes to work and why units ice up.",
+  "description": "A dehumidifier chills air below its dew point so water condenses on a coil. Air feels drier in hours; a damp basement takes 1–2 weeks. Both types explained.",
   "published": "2026-08-28",
   "updated": "2026-11-05",
   "intro": [
@@ -16,20 +16,6 @@
   ],
   "products": [],
   "sections": [
-    {
-      "id": "by-the-numbers",
-      "heading": "Dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~41°F", "label": "Room temperature below which compressor coils start to ice" },
-            { "value": "33–104°F", "label": "Operating range Ivation rates its desiccant units for" },
-            { "value": "2.01 L/kWh", "label": "Minimum ENERGY STAR efficiency for a 25–50 pint portable" }
-          ]
-        }
-      ]
-    },
     {
       "id": "compressor",
       "heading": "How a compressor dehumidifier works",
@@ -68,13 +54,37 @@
         },
         {
           "type": "table",
-          "head": ["", "Compressor", "Desiccant"],
+          "head": [
+            "",
+            "Compressor",
+            "Desiccant"
+          ],
           "rows": [
-            ["How it removes moisture", "Condenses vapor on a cold coil", "Absorbs vapor into a wheel"],
-            ["Works best at", "About 60°F and up", "About 33–104°F"],
-            ["Cold-weather problem", "Coil ices below ~41°F", "None"],
-            ["Running cost in warm rooms", "Lower", "Higher"],
-            ["Best for", "Basements, bedrooms, homes", "Cold garages, crawl spaces, boats"]
+            [
+              "How it removes moisture",
+              "Condenses vapor on a cold coil",
+              "Absorbs vapor into a wheel"
+            ],
+            [
+              "Works best at",
+              "About 60°F and up",
+              "About 33–104°F"
+            ],
+            [
+              "Cold-weather problem",
+              "Coil ices below ~41°F",
+              "None"
+            ],
+            [
+              "Running cost in warm rooms",
+              "Lower",
+              "Higher"
+            ],
+            [
+              "Best for",
+              "Basements, bedrooms, homes",
+              "Cold garages, crawl spaces, boats"
+            ]
           ]
         }
       ]
@@ -89,12 +99,27 @@
         },
         {
           "type": "table",
-          "head": ["Situation", "Typical time to reach target humidity"],
+          "head": [
+            "Situation",
+            "Typical time to reach target humidity"
+          ],
           "rows": [
-            ["Bedroom or office that feels sticky", "Several hours to a day"],
-            ["Damp basement, musty smell", "Several days"],
-            ["Very damp space with wet walls", "One to two weeks of steady running"],
-            ["After a leak or minor flood", "Days to weeks; often needs fans or commercial units"]
+            [
+              "Bedroom or office that feels sticky",
+              "Several hours to a day"
+            ],
+            [
+              "Damp basement, musty smell",
+              "Several days"
+            ],
+            [
+              "Very damp space with wet walls",
+              "One to two weeks of steady running"
+            ],
+            [
+              "After a leak or minor flood",
+              "Days to weeks; often needs fans or commercial units"
+            ]
           ],
           "caption": "Rough expectations for a correctly sized unit; your results depend on size, temperature and the moisture source."
         },
@@ -195,5 +220,25 @@
     "/guides/dehumidifier-vs-air-conditioner/",
     "/guides/does-a-dehumidifier-cool-a-room/",
     "/guides/how-much-electricity-does-a-dehumidifier-use/"
-  ]
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~41°F",
+          "label": "Room temperature below which compressor coils start to ice"
+        },
+        {
+          "value": "33–104°F",
+          "label": "Operating range Ivation rates its desiccant units for"
+        },
+        {
+          "value": "2.01 L/kWh",
+          "label": "Minimum ENERGY STAR efficiency for a 25–50 pint portable"
+        }
+      ]
+    }
+  ],
+  "topPicksLead": "A fan pulls room air over a coil colder than the air's dew point, water condenses and drips into the tank, and the drier air is warmed and blown back out. Desiccant units absorb moisture into a wheel instead. You'll feel a difference within a few hours; a damp basement takes one to two weeks."
 }

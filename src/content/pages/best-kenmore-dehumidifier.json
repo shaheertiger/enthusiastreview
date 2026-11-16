@@ -6,7 +6,7 @@
   "title": "Best Kenmore Dehumidifier (2026): KM50, KM70 & Older Models",
   "h1": "The Best Kenmore Dehumidifiers",
   "dek": "A household name that has never built its own appliances — and just changed hands again. Here's what to buy and what to check.",
-  "description": "The best Kenmore dehumidifier today: KM50 vs. KM70, the recalls behind older Kenmore and Kenmore Elite units, and tips on parts, manuals and repair.",
+  "description": "The 50-pint Kenmore KM50 suits most rooms; the 70-pint KM70 handles basements and scores 78 at Consumer Reports. Older-model recalls, parts and manuals.",
   "published": "2026-10-06",
   "updated": "2026-11-05",
   "intro": [
@@ -94,26 +94,8 @@
   ],
   "sections": [
     {
-      "id": "kenmore-by-the-numbers",
-      "heading": "Kenmore dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "2", "label": "Separate CPSC recalls touching Kenmore dehumidifiers, under two manufacturers" },
-            { "value": "78", "label": "Consumer Reports' overall score for the KM70" },
-            { "value": "Q4 2026", "label": "When the first Curtis-made Kenmore products are due" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those numbers sum up the brand: solid current hardware, a complicated past and an uncertain future as the name moves to a new licensee."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Kenmore dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -127,7 +109,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Kenmore dehumidifier",
+      "heading": "What matters most in a Kenmore dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -166,10 +148,22 @@
         },
         {
           "type": "table",
-          "head": ["Recall", "Manufacturer", "What happened"],
+          "head": [
+            "Recall",
+            "Manufacturer",
+            "What happened"
+          ],
           "rows": [
-            ["2012", "Whirlpool", "About 980,000 dehumidifiers sold as Whirlpool, Kenmore and ComfortAire recalled for fire risk in specific model and date-code ranges"],
-            ["2013, later reannounced", "Gree", "Kenmore was one of 13 brands built on a Gree platform recalled for fire risk; the CPSC reannounced it after continued incidents with unregistered units"]
+            [
+              "2012",
+              "Whirlpool",
+              "About 980,000 dehumidifiers sold as Whirlpool, Kenmore and ComfortAire recalled for fire risk in specific model and date-code ranges"
+            ],
+            [
+              "2013, later reannounced",
+              "Gree",
+              "Kenmore was one of 13 brands built on a Gree platform recalled for fire risk; the CPSC reannounced it after continued incidents with unregistered units"
+            ]
           ]
         },
         {
@@ -272,5 +266,28 @@
     "/best/best-dehumidifier-brands/",
     "/guides/dehumidifier-not-working/",
     "/guides/how-long-do-dehumidifiers-last/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2",
+          "label": "Separate CPSC recalls touching Kenmore dehumidifiers, under two manufacturers"
+        },
+        {
+          "value": "78",
+          "label": "Consumer Reports' overall score for the KM70"
+        },
+        {
+          "value": "Q4 2026",
+          "label": "When the first Curtis-made Kenmore products are due"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those numbers sum up the brand: solid current hardware, a complicated past and an uncertain future as the name moves to a new licensee."
+    }
   ]
 }

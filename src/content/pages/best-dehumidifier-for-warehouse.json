@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Rooms & Spaces",
   "navLabel": "Warehouses",
-  "title": "Best Industrial Dehumidifier for Warehouses (2026)",
+  "title": "Best Dehumidifier for Warehouse (2026): Big-Space Picks",
   "h1": "The Best Industrial Dehumidifiers for Warehouses",
   "dek": "Open floors, cardboard, pallets and steel racking need industrial airflow — not a bigger home unit. Here’s what to put to work.",
-  "description": "The best industrial dehumidifier for a warehouse in 2026 — high-capacity, ducted and storage-room picks — plus target humidity, power needs and how many units.",
+  "description": "Keep a warehouse at 50–55% humidity; corrosion speeds up past 60%. The 130-pint Dri-Eaz LGR 7000XLi runs on a 115V circuit. Plus how many units you need.",
   "published": "2026-10-24",
   "updated": "2026-11-05",
   "intro": [
@@ -123,66 +123,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Warehouse humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "60% RH",
-              "label": "Critical humidity above which corrosion on stored metal accelerates"
-            },
-            {
-              "value": "50–55%",
-              "label": "Working target for most warehouses storing paper, wood or metal"
-            },
-            {
-              "value": "8.8 A",
-              "label": "Current draw of the Dri-Eaz LGR 7000XLi on an ordinary 115V circuit"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Capacity",
-            "Coverage",
-            "Key feature"
-          ],
-          "rows": [
-            [
-              "Dri-Eaz LGR 7000XLi",
-              "130 pints/day (AHAM)",
-              "Not published (280 CFM)",
-              "115V, auto pump-out"
-            ],
-            [
-              "Kesnos 216-Pint",
-              "216 pints/day (saturation)",
-              "Up to 8,500 sq ft (brand)",
-              "Built-in pump, 16.4-ft hose"
-            ],
-            [
-              "Waykar 158-Pint Dual Duct",
-              "158 pints/day (manufacturer)",
-              "Up to ~6,500 sq ft",
-              "Ducted intake and exhaust"
-            ],
-            [
-              "AlorAir HDi90",
-              "90 pints/day (AHAM)",
-              "Up to ~2,600 sq ft",
-              "Built-in pump"
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick warehouse dehumidifiers",
+      "heading": "How we chose these warehouse dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -196,7 +138,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a warehouse dehumidifier",
+      "heading": "What separates a good warehouse dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -322,5 +264,59 @@
     "/best/best-dehumidifier-for-storage-unit/",
     "/best/best-dehumidifier-for-pole-barn/",
     "/best/best-dehumidifier-for-shipping-container/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "60% RH",
+          "label": "Critical humidity above which corrosion on stored metal accelerates"
+        },
+        {
+          "value": "50–55%",
+          "label": "Working target for most warehouses storing paper, wood or metal"
+        },
+        {
+          "value": "8.8 A",
+          "label": "Current draw of the Dri-Eaz LGR 7000XLi on an ordinary 115V circuit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Coverage",
+        "Key feature"
+      ],
+      "rows": [
+        [
+          "Dri-Eaz LGR 7000XLi",
+          "130 pints/day (AHAM)",
+          "Not published (280 CFM)",
+          "115V, auto pump-out"
+        ],
+        [
+          "Kesnos 216-Pint",
+          "216 pints/day (saturation)",
+          "Up to 8,500 sq ft (brand)",
+          "Built-in pump, 16.4-ft hose"
+        ],
+        [
+          "Waykar 158-Pint Dual Duct",
+          "158 pints/day (manufacturer)",
+          "Up to ~6,500 sq ft",
+          "Ducted intake and exhaust"
+        ],
+        [
+          "AlorAir HDi90",
+          "90 pints/day (AHAM)",
+          "Up to ~2,600 sq ft",
+          "Built-in pump"
+        ]
+      ]
+    }
   ]
 }

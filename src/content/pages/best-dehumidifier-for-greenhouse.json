@@ -6,7 +6,7 @@
   "title": "Best Greenhouse Dehumidifier (2026): Cold-Tolerant Picks",
   "h1": "The Best Greenhouse Dehumidifiers",
   "dek": "Plants breathe out water all day, and cold nights turn it into dew on every leaf. These units keep running when it matters most.",
-  "description": "The best greenhouse dehumidifier for hobby and commercial growers: cold-tolerant, disease-fighting units that keep humidity below the gray-mold zone.",
+  "description": "Keep a greenhouse at 50–60% humidity; disease risk climbs past 80%. The AlorAir HDi65S, with auto-defrost to about 36°F, is our top cold-tolerant pick.",
   "published": "2026-10-07",
   "updated": "2026-11-05",
   "intro": [
@@ -123,26 +123,8 @@
   ],
   "sections": [
     {
-      "id": "greenhouse-humidity-numbers",
-      "heading": "Greenhouse humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "50–60%", "label": "Target humidity for most mature greenhouse plants" },
-            { "value": "80%", "label": "Point where fungal disease risk starts rising sharply, per UF IFAS" },
-            { "value": "~41°F", "label": "Where a standard compressor dehumidifier ices over" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Growth stage matters, too. Vegetative growth tolerates a looser 60–70% band, while flowering and fruit set do best in a tighter 50–60% range that protects pollination and limits disease."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick greenhouse dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -156,7 +138,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a greenhouse dehumidifier",
+      "heading": "What matters most in a greenhouse dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -191,12 +173,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Best for", "Capacity", "Cold-weather operation"],
+          "head": [
+            "Model",
+            "Best for",
+            "Capacity",
+            "Cold-weather operation"
+          ],
           "rows": [
-            ["AlorAir Sentinel HDi65S", "Most greenhouses", "120 pints (saturation)", "Auto-defrost to ~36°F"],
-            ["AlorAir Storm Elite", "Commercial bays", "125 pints (AHAM)", "LGR with auto-defrost"],
-            ["Ivation 13-Pint Desiccant", "Small hobby greenhouse", "13 pints, up to 270 sq ft", "Desiccant, to ~33°F"],
-            ["Frigidaire FHDD5034W1", "Warm-season budget use", "50 pints (DOE)", "Ices below ~41°F"]
+            [
+              "AlorAir Sentinel HDi65S",
+              "Most greenhouses",
+              "120 pints (saturation)",
+              "Auto-defrost to ~36°F"
+            ],
+            [
+              "AlorAir Storm Elite",
+              "Commercial bays",
+              "125 pints (AHAM)",
+              "LGR with auto-defrost"
+            ],
+            [
+              "Ivation 13-Pint Desiccant",
+              "Small hobby greenhouse",
+              "13 pints, up to 270 sq ft",
+              "Desiccant, to ~33°F"
+            ],
+            [
+              "Frigidaire FHDD5034W1",
+              "Warm-season budget use",
+              "50 pints (DOE)",
+              "Ices below ~41°F"
+            ]
           ]
         }
       ]
@@ -282,5 +289,28 @@
     "/best/best-desiccant-dehumidifier/",
     "/best/best-dehumidifier-for-terrarium/",
     "/best/best-alorair-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "50–60%",
+          "label": "Target humidity for most mature greenhouse plants"
+        },
+        {
+          "value": "80%",
+          "label": "Point where fungal disease risk starts rising sharply, per UF IFAS"
+        },
+        {
+          "value": "~41°F",
+          "label": "Where a standard compressor dehumidifier ices over"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Growth stage matters, too. Vegetative growth tolerates a looser 60–70% band, while flowering and fruit set do best in a tighter 50–60% range that protects pollination and limits disease."
+    }
   ]
 }

@@ -7,7 +7,7 @@
   "title": "Best Dehumidifier for Springtails (2026): Dry Them Out",
   "h1": "The Best Dehumidifiers for Springtails",
   "dek": "Springtails can't survive in dry air, so the right dehumidifier in the right spot does more than any spray.",
-  "description": "The best dehumidifier for springtails in basements, crawl spaces and bathrooms, plus the humidity target and moisture fixes that make them disappear.",
+  "description": "Springtails dry out below 50% humidity. The Midea 50-pint with a pump runs nonstop in a basement; the 70-pint Aprilaire E070 suits crawl spaces.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -150,35 +150,8 @@
   ],
   "sections": [
     {
-      "id": "springtail-numbers",
-      "heading": "Springtails and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "Under 1/16 in.",
-              "label": "Typical length of a springtail, which is why they look like hopping dust"
-            },
-            {
-              "value": "Below 50%",
-              "label": "Humidity target that dries out springtails and their food"
-            },
-            {
-              "value": "60%",
-              "label": "Level above which the EPA says mold is likely to grow indoors"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Springtails eat mold, fungi, algae and decaying plant matter. When a space stays above about 60% humidity, that food supply grows on damp wood, grout, soil and cardboard. Bring the air below 50% and you cut off both their water and their meals at the same time."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for springtails",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -246,7 +219,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a dehumidifier for springtails",
+      "heading": "How do you choose a dehumidifier for springtails?",
       "blocks": [
         {
           "type": "checklist",
@@ -390,5 +363,28 @@
     "/best/best-dehumidifier-for-basement/",
     "/guides/does-a-dehumidifier-help-with-mold/",
     "/best/best-hygrometer/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "Under 1/16 in.",
+          "label": "Typical length of a springtail, which is why they look like hopping dust"
+        },
+        {
+          "value": "Below 50%",
+          "label": "Humidity target that dries out springtails and their food"
+        },
+        {
+          "value": "60%",
+          "label": "Level above which the EPA says mold is likely to grow indoors"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Springtails eat mold, fungi, algae and decaying plant matter. When a space stays above about 60% humidity, that food supply grows on damp wood, grout, soil and cardboard. Bring the air below 50% and you cut off both their water and their meals at the same time."
+    }
   ]
 }

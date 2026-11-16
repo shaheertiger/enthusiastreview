@@ -3,7 +3,7 @@
   "section": "best",
   "category": "Size & Features",
   "navLabel": "Off-Grid & Solar",
-  "title": "Best Solar Powered & Off-Grid Dehumidifier (2026)",
+  "title": "Best Off-Grid & Solar Powered Dehumidifier (2026): 6 Picks",
   "h1": "The Best Off-Grid and Solar-Powered Dehumidifiers",
   "dek": "On solar and batteries, every watt has a job. These dehumidifiers pull the most water from the power you actually have — or need none at all.",
   "description": "The best solar powered and off-grid dehumidifiers, from efficient compressor units to 12V and zero-power picks, with watt-hour, inverter and battery math.",
@@ -172,35 +172,8 @@
   ],
   "sections": [
     {
-      "id": "off-grid-numbers",
-      "heading": "Off-grid dehumidifying, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~2 L/kWh",
-              "label": "Water removed per kilowatt-hour by an efficient compressor unit like the Midea Cube 50"
-            },
-            {
-              "value": "~0.5 L/kWh",
-              "label": "Roughly what a 40-watt thermoelectric mini manages from the same energy"
-            },
-            {
-              "value": "22 W",
-              "label": "Draw of the Eva-Dry EDV-1100, one of the few units that runs on 12V"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That middle number surprises people. A 40-watt mini running all day uses close to 1 kWh to remove about half a liter of water. A compressor unit draws far more watts, but for the same kilowatt-hour it pulls out around four times as much. Low wattage and low energy use are not the same thing — the right choice depends on whether your system can deliver the higher wattage at all."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick off-grid dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -274,7 +247,7 @@
     },
     {
       "id": "how-to-choose",
-      "heading": "How to choose a dehumidifier for off-grid power",
+      "heading": "How do you choose a dehumidifier for off-grid power?",
       "blocks": [
         {
           "type": "checklist",
@@ -458,5 +431,28 @@
     "/best/best-energy-efficient-dehumidifier/",
     "/best/best-rechargeable-dehumidifier/",
     "/best/best-dehumidifier-for-hurricane-season/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~2 L/kWh",
+          "label": "Water removed per kilowatt-hour by an efficient compressor unit like the Midea Cube 50"
+        },
+        {
+          "value": "~0.5 L/kWh",
+          "label": "Roughly what a 40-watt thermoelectric mini manages from the same energy"
+        },
+        {
+          "value": "22 W",
+          "label": "Draw of the Eva-Dry EDV-1100, one of the few units that runs on 12V"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That middle number surprises people. A 40-watt mini running all day uses close to 1 kWh to remove about half a liter of water. A compressor unit draws far more watts, but for the same kilowatt-hour it pulls out around four times as much. Low wattage and low energy use are not the same thing — the right choice depends on whether your system can deliver the higher wattage at all."
+    }
   ]
 }

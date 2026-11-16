@@ -6,7 +6,7 @@
   "title": "Best Laundry Room Dehumidifier (2026): Drain-Ready Picks",
   "h1": "The Best Laundry Room Dehumidifiers",
   "dek": "Your laundry room already has the plumbing a dehumidifier wants. Hook one up to the standpipe and forget about musty towels for good.",
-  "description": "The best laundry room dehumidifier for every setup: units that drain into the standpipe, shrug off lint and fit a stacked-washer closet or open mudroom.",
+  "description": "A 22-pint unit like the Frigidaire FFAD2233W1 suits most laundry rooms and drains straight into the standpipe. A pump pick for rooms with no drain nearby.",
   "published": "2026-08-21",
   "updated": "2026-11-05",
   "intro": [
@@ -146,26 +146,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Laundry room humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~1 gallon", "label": "Water vapor a load can add to the air from a washer or poorly vented dryer" },
-            { "value": "24–48 hrs", "label": "How fast mold can start on damp surfaces, per the EPA" },
-            { "value": "0 buckets", "label": "What you'll empty with a hose into the standpipe" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The EPA recommends 30–50% humidity indoors. A laundry room that never drops back into that band between loads becomes a standing mildew risk behind the machines and inside the washer gasket."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick laundry room dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -179,7 +161,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a laundry room dehumidifier",
+      "heading": "How do you pick a laundry room dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -278,5 +260,28 @@
     "/best/best-dehumidifier-for-bathroom/",
     "/best/best-dehumidifier-for-musty-smell/",
     "/guides/where-to-place-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~1 gallon",
+          "label": "Water vapor a load can add to the air from a washer or poorly vented dryer"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can start on damp surfaces, per the EPA"
+        },
+        {
+          "value": "0 buckets",
+          "label": "What you'll empty with a hose into the standpipe"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The EPA recommends 30–50% humidity indoors. A laundry room that never drops back into that band between loads becomes a standing mildew risk behind the machines and inside the washer gasket."
+    }
   ]
 }

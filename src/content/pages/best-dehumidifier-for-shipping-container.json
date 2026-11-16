@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Rooms & Spaces",
   "navLabel": "Shipping Containers",
-  "title": "Best Shipping Container Dehumidifier (2026): Stop Container Rain",
+  "title": "Best Shipping Container Dehumidifier (2026): No-Power Picks",
   "h1": "The Best Dehumidifiers for a Shipping Container",
   "dek": "A steel box with no insulation makes its own weather. Here’s how to keep “container rain” off everything you store inside.",
-  "description": "The best shipping container dehumidifier picks of 2026 — no-power absorbers sized for 20- and 40-foot boxes, plus cold-proof plug-in units for wired containers.",
+  "description": "A 20-ft container holds about 1,170 cu ft of air, so plan on 2–3 Eva-Dry E-500 units. No-power picks for 20- and 40-ft boxes, plus plug-ins for wired ones.",
   "published": "2026-09-10",
   "updated": "2026-11-05",
   "intro": [
@@ -106,7 +106,7 @@
         "Needs power and a drainage plan"
       ],
       "whyWeLoveIt": "For a container parked at a site you don’t see every day, knowing the humidity without driving out is worth a lot. The app lets you check conditions — and spot trouble — from your phone.",
-      "performance": "As a compressor unit it’s best suited to containers in mild climates that rarely approach freezing. In those conditions it removes far more water than a desiccant or passive absorber. In a cold climate, the Ivation is the safer pick. Compare connected options in our [best Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) guide.",
+      "performance": "As a compressor unit it’s best suited to containers in mild climates that rarely approach freezing. In those conditions it removes far more water than a desiccant or passive absorber. In a cold climate, the Ivation is the safer pick. Compare connected options in our [best Wi-Fi dehumidifier](/best/best-smart-dehumidifier/) guide.",
       "specs": {
         "Type": "Compressor",
         "Smart control": "Wi-Fi app",
@@ -118,35 +118,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Container moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "35–55%",
-              "label": "Target humidity for most goods stored in a container"
-            },
-            {
-              "value": "1,170 cu ft",
-              "label": "Approximate air volume of a standard 20-foot container (a 40-footer is about 2,390)"
-            },
-            {
-              "value": "30°F+",
-              "label": "Day-to-night temperature swings that bare steel passes straight through in many climates"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Container storage providers such as Mobile Modular recommend keeping humidity in the 35–55% band. Above about 60%, the risk of mold, mildew and rust climbs quickly — especially for wood, cardboard, fabric, electronics and bare metal."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick shipping container dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -160,7 +133,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a shipping container dehumidifier",
+      "heading": "Which features matter in a shipping container dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -308,5 +281,28 @@
     "/best/best-eva-dry-dehumidifier/",
     "/guides/dehumidifier-freezing-up/",
     "/best/best-dehumidifier-for-pole-barn/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "35–55%",
+          "label": "Target humidity for most goods stored in a container"
+        },
+        {
+          "value": "1,170 cu ft",
+          "label": "Approximate air volume of a standard 20-foot container (a 40-footer is about 2,390)"
+        },
+        {
+          "value": "30°F+",
+          "label": "Day-to-night temperature swings that bare steel passes straight through in many climates"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Container storage providers such as Mobile Modular recommend keeping humidity in the 35–55% band. Above about 60%, the risk of mold, mildew and rust climbs quickly — especially for wood, cardboard, fabric, electronics and bare metal."
+    }
   ]
 }

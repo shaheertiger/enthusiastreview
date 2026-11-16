@@ -153,27 +153,72 @@
         {
           "type": "stats",
           "items": [
-            { "value": "1", "label": "LG dehumidifier currently sold new in the US" },
-            { "value": "~40 dB", "label": "LG's published noise rating for the Sonoran DT501BKR0" },
-            { "value": "2 of 3", "label": "Recent PuriCare models now marked discontinued by LG" }
+            {
+              "value": "1",
+              "label": "LG dehumidifier currently sold new in the US"
+            },
+            {
+              "value": "~40 dB",
+              "label": "LG's published noise rating for the Sonoran DT501BKR0"
+            },
+            {
+              "value": "2 of 3",
+              "label": "Recent PuriCare models now marked discontinued by LG"
+            }
           ]
         },
         {
           "type": "table",
-          "head": ["Model", "Status", "Capacity", "Pump", "Noise"],
+          "head": [
+            "Model",
+            "Status",
+            "Capacity",
+            "Pump",
+            "Noise"
+          ],
           "rows": [
-            ["Sonoran DT501BKR0", "Current", "50 pints/day", "No (bucket or hose)", "~40 dB"],
-            ["UD501KOG5", "Discontinued", "50 pints/day", "No (bucket or hose)", "Not published"],
-            ["UD501KOJ5", "Discontinued", "50 pints/day", "Yes", "Not published"],
-            ["LD301EL", "Discontinued (older)", "30 pints/day", "No", "Not published"],
-            ["LD651EBL", "Discontinued (older)", "65 pints/day", "No", "Not published"]
+            [
+              "Sonoran DT501BKR0",
+              "Current",
+              "50 pints/day",
+              "No (bucket or hose)",
+              "~40 dB"
+            ],
+            [
+              "UD501KOG5",
+              "Discontinued",
+              "50 pints/day",
+              "No (bucket or hose)",
+              "Not published"
+            ],
+            [
+              "UD501KOJ5",
+              "Discontinued",
+              "50 pints/day",
+              "Yes",
+              "Not published"
+            ],
+            [
+              "LD301EL",
+              "Discontinued (older)",
+              "30 pints/day",
+              "No",
+              "Not published"
+            ],
+            [
+              "LD651EBL",
+              "Discontinued (older)",
+              "65 pints/day",
+              "No",
+              "Not published"
+            ]
           ]
         }
       ]
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick LG dehumidifiers",
+      "heading": "How we chose these LG dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -183,7 +228,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an LG dehumidifier",
+      "heading": "How do you pick an LG dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -291,7 +336,7 @@
   "related": [
     "/best/best-dehumidifier-brands/",
     "/best/best-quiet-dehumidifier/",
-    "/best/best-wifi-dehumidifier/",
+    "/best/best-smart-dehumidifier/",
     "/best/best-50-pint-dehumidifier/",
     "/best/best-dehumidifier-with-pump/",
     "/best/best-midea-dehumidifier/"

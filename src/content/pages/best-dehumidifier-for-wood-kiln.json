@@ -7,7 +7,7 @@
   "title": "Best Wood Kiln Dehumidifier (2026): DIY Lumber Drying Picks",
   "h1": "The Best Dehumidifiers for a DIY Wood Kiln",
   "dek": "Turn a plywood box, some foam board and the right dehumidifier into a kiln that takes air-dried lumber down to furniture-ready moisture in weeks, not years.",
-  "description": "The best wood kiln dehumidifier picks for drying lumber at home: LGR and budget units, fans and monitors, plus moisture targets and how to run a homemade kiln.",
+  "description": "Dry furniture lumber to 6–8% moisture. The 85-pint AlorAir Storm LGR Extreme keeps pulling water as a kiln dries and pumps it outside. Budget picks and setup.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -148,26 +148,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Drying lumber, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "6–8%", "label": "Moisture content to aim for in lumber for indoor furniture and cabinets" },
-            { "value": "12–15%", "label": "Where air-dried lumber typically levels off outdoors in much of the U.S." },
-            { "value": "~1 year", "label": "Air-drying rule of thumb per inch of hardwood thickness" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That gap between air-dried and furniture-dry is why kilns exist. Bring outdoor-dried boards into a heated house and they keep shrinking for months — after you’ve glued them into a tabletop. A dehumidification kiln finishes the job in weeks under controlled conditions."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for wood kilns",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -181,17 +163,35 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a wood kiln dehumidifier",
+      "heading": "What separates a good wood kiln dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
           "items": [
-            { "label": "LGR for the end of the schedule", "text": "Standard dehumidifiers slow down sharply as humidity drops. Low-grain refrigerant units keep pulling water when the chamber is dry, which is when lumber approaches its final moisture content." },
-            { "label": "Operating temperature limits", "text": "Household units are designed for room temperatures, and every manual lists an upper limit. Stay below it, or choose a purpose-built kiln unit." },
-            { "label": "Continuous drainage", "text": "A load of fresh lumber can give off more water in a day than any bucket holds. Use a pump or a gravity hose through the kiln wall." },
-            { "label": "Capacity matched to the load", "text": "A few hundred board feet of air-dried lumber suits a 50-pint household unit or a compact LGR. Bigger or wetter loads need more." },
-            { "label": "A filter that handles dust", "text": "Sawdust and wood fibers clog coils. A washable or MERV-rated filter is worth having." },
-            { "label": "Separate airflow", "text": "Plan on at least one circulator to drive air through the stack; the dehumidifier’s own fan isn’t enough." }
+            {
+              "label": "LGR for the end of the schedule",
+              "text": "Standard dehumidifiers slow down sharply as humidity drops. Low-grain refrigerant units keep pulling water when the chamber is dry, which is when lumber approaches its final moisture content."
+            },
+            {
+              "label": "Operating temperature limits",
+              "text": "Household units are designed for room temperatures, and every manual lists an upper limit. Stay below it, or choose a purpose-built kiln unit."
+            },
+            {
+              "label": "Continuous drainage",
+              "text": "A load of fresh lumber can give off more water in a day than any bucket holds. Use a pump or a gravity hose through the kiln wall."
+            },
+            {
+              "label": "Capacity matched to the load",
+              "text": "A few hundred board feet of air-dried lumber suits a 50-pint household unit or a compact LGR. Bigger or wetter loads need more."
+            },
+            {
+              "label": "A filter that handles dust",
+              "text": "Sawdust and wood fibers clog coils. A washable or MERV-rated filter is worth having."
+            },
+            {
+              "label": "Separate airflow",
+              "text": "Plan on at least one circulator to drive air through the stack; the dehumidifier’s own fan isn’t enough."
+            }
           ]
         }
       ]
@@ -206,13 +206,37 @@
         },
         {
           "type": "table",
-          "head": ["Relative humidity", "Approximate wood EMC", "What it means"],
+          "head": [
+            "Relative humidity",
+            "Approximate wood EMC",
+            "What it means"
+          ],
           "rows": [
-            ["80%", "About 16%", "Air-dry in humid weather; too wet for indoor use"],
-            ["60%", "About 11%", "Typical outdoor air-dried level"],
-            ["50%", "About 9%", "Close, but still wet for heated homes"],
-            ["40%", "About 8%", "Furniture and cabinet range"],
-            ["30%", "About 6%", "Dry end; matches a heated house in winter"]
+            [
+              "80%",
+              "About 16%",
+              "Air-dry in humid weather; too wet for indoor use"
+            ],
+            [
+              "60%",
+              "About 11%",
+              "Typical outdoor air-dried level"
+            ],
+            [
+              "50%",
+              "About 9%",
+              "Close, but still wet for heated homes"
+            ],
+            [
+              "40%",
+              "About 8%",
+              "Furniture and cabinet range"
+            ],
+            [
+              "30%",
+              "About 6%",
+              "Dry end; matches a heated house in winter"
+            ]
           ],
           "caption": "EMC shifts slightly with temperature. Always confirm with a moisture meter."
         },
@@ -299,5 +323,28 @@
     "/best/best-dehumidifier-fan/",
     "/best/best-dehumidifier-for-shed/",
     "/guides/how-does-a-dehumidifier-work/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "6–8%",
+          "label": "Moisture content to aim for in lumber for indoor furniture and cabinets"
+        },
+        {
+          "value": "12–15%",
+          "label": "Where air-dried lumber typically levels off outdoors in much of the U.S."
+        },
+        {
+          "value": "~1 year",
+          "label": "Air-drying rule of thumb per inch of hardwood thickness"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That gap between air-dried and furniture-dry is why kilns exist. Bring outdoor-dried boards into a heated house and they keep shrinking for months — after you’ve glued them into a tabletop. A dehumidification kiln finishes the job in weeks under controlled conditions."
+    }
   ]
 }

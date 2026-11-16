@@ -6,7 +6,7 @@
   "title": "Best Haier Dehumidifier (2026): 20, 35 & 50-Pint Smart Dry",
   "h1": "The Best Haier Dehumidifiers",
   "dek": "Haier owns GE Appliances, but its own Smart Dry lineup has a story of its own. Here's which model to buy, and what to check before you do.",
-  "description": "The best Haier dehumidifier for your space: the 20-, 35- and 50-pint Smart Dry models compared, plus recall history, manuals, filters and the GE connection.",
+  "description": "The 20-pint Haier QDHR20LZ is the best Haier for bedrooms and small rooms; the 50-pint pump model lifts water 16 ft for basements. Recalls and the GE link.",
   "published": "2026-10-02",
   "updated": "2026-11-05",
   "intro": [
@@ -95,33 +95,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Haier dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "2016", "label": "Year Haier bought GE Appliances, with rights to the GE name through 2056" },
-            { "value": "~2M", "label": "Dehumidifiers across 20 brands, including some older Haiers, in a 2021 recall" },
-            { "value": "16 ft", "label": "How far the QPHR50LZ's built-in pump can lift water" }
-          ]
-        },
-        {
-          "type": "table",
-          "head": ["Model", "Capacity", "Rated coverage", "Pump", "Best for"],
-          "rows": [
-            ["QDHR20LZ", "20 pints/day", "~1,000 sq ft (damp)", "No", "Bedroom, office"],
-            ["QDHR35LZ", "35 pints/day", "~1,000 sq ft (very damp)", "No", "Musty mid-size room"],
-            ["QDHR50LZ", "50 pints/day", "~1,500 sq ft (wet)", "No", "Basement with a drain"],
-            ["QPHR50LZ", "50 pints/day", "~1,500 sq ft (wet)", "Yes, 16 ft lift", "Basement without a drain"]
-          ],
-          "caption": "Coverage figures are Haier's own ratings."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Haier dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -135,7 +110,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Haier dehumidifier",
+      "heading": "Which features matter in a Haier dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -277,5 +252,65 @@
     "/best/best-frigidaire-dehumidifier/",
     "/best/best-dehumidifier-brands/",
     "/guides/dehumidifier-not-working/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2016",
+          "label": "Year Haier bought GE Appliances, with rights to the GE name through 2056"
+        },
+        {
+          "value": "~2M",
+          "label": "Dehumidifiers across 20 brands, including some older Haiers, in a 2021 recall"
+        },
+        {
+          "value": "16 ft",
+          "label": "How far the QPHR50LZ's built-in pump can lift water"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Rated coverage",
+        "Pump",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "QDHR20LZ",
+          "20 pints/day",
+          "~1,000 sq ft (damp)",
+          "No",
+          "Bedroom, office"
+        ],
+        [
+          "QDHR35LZ",
+          "35 pints/day",
+          "~1,000 sq ft (very damp)",
+          "No",
+          "Musty mid-size room"
+        ],
+        [
+          "QDHR50LZ",
+          "50 pints/day",
+          "~1,500 sq ft (wet)",
+          "No",
+          "Basement with a drain"
+        ],
+        [
+          "QPHR50LZ",
+          "50 pints/day",
+          "~1,500 sq ft (wet)",
+          "Yes, 16 ft lift",
+          "Basement without a drain"
+        ]
+      ],
+      "caption": "Coverage figures are Haier's own ratings."
+    }
   ]
 }

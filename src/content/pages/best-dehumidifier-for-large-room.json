@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Size & Features",
   "navLabel": "Large Rooms",
-  "title": "Best Large Room Dehumidifier (2026): High-Capacity Picks",
+  "title": "Best Large Room Dehumidifier (2026): 50-Pint Picks by Room",
   "h1": "The Best Large Dehumidifiers for Big Rooms and Open Floor Plans",
   "dek": "Great rooms and open-concept spaces have more air to turn over — and people living in them. Here's how to get capacity without the racket.",
-  "description": "The best large dehumidifier for big rooms in 2026: high-capacity picks for open floor plans, great rooms and finished attics, with pump and quiet options.",
+  "description": "A very damp room over 2,000 sq ft needs 50 pints a day. The Midea Cube 50, with 218 CFM airflow and a base tank, is our top large-room pick; pump picks too.",
   "published": "2026-10-02",
   "updated": "2026-11-05",
   "intro": [
@@ -121,35 +121,8 @@
   ],
   "sections": [
     {
-      "id": "large-room-numbers",
-      "heading": "Large rooms, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "50 pints",
-              "label": "DOE 2019 capacity recommended for a very damp room over about 2,000 sq ft"
-            },
-            {
-              "value": "218 CFM",
-              "label": "Midea's listed Turbo airflow for the Cube 50"
-            },
-            {
-              "value": "4,000 sq ft",
-              "label": "Honeywell's coverage rating for the TPFIT50PWK"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Airflow is the underrated number. Two 50-pint dehumidifiers can cover very different floor areas depending on how much air they move, which is why it's worth checking the CFM figure or coverage rating rather than the pint number alone."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick large-room dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -163,7 +136,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a large-space dehumidifier",
+      "heading": "How do you pick a large-space dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -296,5 +269,28 @@
     "/best/best-quiet-dehumidifier/",
     "/best/best-dehumidifier-with-pump/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "50 pints",
+          "label": "DOE 2019 capacity recommended for a very damp room over about 2,000 sq ft"
+        },
+        {
+          "value": "218 CFM",
+          "label": "Midea's listed Turbo airflow for the Cube 50"
+        },
+        {
+          "value": "4,000 sq ft",
+          "label": "Honeywell's coverage rating for the TPFIT50PWK"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Airflow is the underrated number. Two 50-pint dehumidifiers can cover very different floor areas depending on how much air they move, which is why it's worth checking the CFM figure or coverage rating rather than the pint number alone."
+    }
   ]
 }

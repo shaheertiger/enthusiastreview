@@ -159,9 +159,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "3", "label": "Trazico models: 21, 30 and 45 pints" },
-            { "value": "1,500–4,000", "label": "Square feet of listed coverage" },
-            { "value": "24 hr", "label": "Timer on every model, plus auto defrost" }
+            {
+              "value": "3",
+              "label": "Trazico models: 21, 30 and 45 pints"
+            },
+            {
+              "value": "1,500–4,000",
+              "label": "Square feet of listed coverage"
+            },
+            {
+              "value": "24 hr",
+              "label": "Timer on every model, plus auto defrost"
+            }
           ]
         },
         {
@@ -172,7 +181,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick Trazico dehumidifiers",
+      "heading": "How we chose these Trazico dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -186,7 +195,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a Trazico dehumidifier",
+      "heading": "How do you choose a Trazico dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -221,13 +230,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Capacity", "Drainage", "Key feature", "Best for"],
+          "head": [
+            "Model",
+            "Capacity",
+            "Drainage",
+            "Key feature",
+            "Best for"
+          ],
           "rows": [
-            ["Trazico 30-Pint", "30 pints/day (listed)", "Bucket or hose", "Timer, 3 modes, auto defrost", "Large rooms, small basements"],
-            ["Trazico 21-Pint", "21 pints/day (listed)", "Bucket or hose", "Compact, 3 modes", "Bedrooms, bathrooms, RVs"],
-            ["Trazico 45-Pint", "45 pints/day (listed)", "Bucket or hose", "Most Trazico capacity", "Basements, garages"],
-            ["Midea Cube 35", "35 pints/day (DOE)", "Base tank or hose", "Wi-Fi app, sleep mode", "Large rooms, light basements"],
-            ["Frigidaire FFAD5033W1", "50 pints/day (DOE)", "Bucket or hose", "Auto-restart, digital humidistat", "Damp basements"]
+            [
+              "Trazico 30-Pint",
+              "30 pints/day (listed)",
+              "Bucket or hose",
+              "Timer, 3 modes, auto defrost",
+              "Large rooms, small basements"
+            ],
+            [
+              "Trazico 21-Pint",
+              "21 pints/day (listed)",
+              "Bucket or hose",
+              "Compact, 3 modes",
+              "Bedrooms, bathrooms, RVs"
+            ],
+            [
+              "Trazico 45-Pint",
+              "45 pints/day (listed)",
+              "Bucket or hose",
+              "Most Trazico capacity",
+              "Basements, garages"
+            ],
+            [
+              "Midea Cube 35",
+              "35 pints/day (DOE)",
+              "Base tank or hose",
+              "Wi-Fi app, sleep mode",
+              "Large rooms, light basements"
+            ],
+            [
+              "Frigidaire FFAD5033W1",
+              "50 pints/day (DOE)",
+              "Bucket or hose",
+              "Auto-restart, digital humidistat",
+              "Damp basements"
+            ]
           ],
           "caption": "Trazico capacities and coverage are as listed by Trazico; Midea and Frigidaire figures are DOE 2019 ratings."
         }

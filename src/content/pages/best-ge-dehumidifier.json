@@ -60,7 +60,7 @@
         "App features are only useful if you'll use them"
       ],
       "whyWeLoveIt": "If the dehumidifier lives in a finished basement you rarely visit, being able to check and change it from your phone or by voice is genuinely valuable. This GE adds Wi-Fi, SmartHQ and Alexa and Google control to a 50-pint machine — just plan on a floor drain, because it has no pump.",
-      "performance": "GE rates it at 50 pints a day for spaces up to 5,000 square feet. Water collects in a 15-pint bucket that shuts the unit off with a 10-second alarm when full, or drains continuously through a hose you supply. The humidistat runs from 30% to 70%, Smart Dry nudges the fan speed up or down based on the humidity reading, and the unit tells you when the washable filter needs cleaning. Browse other connected options in our [best Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) roundup.",
+      "performance": "GE rates it at 50 pints a day for spaces up to 5,000 square feet. Water collects in a 15-pint bucket that shuts the unit off with a 10-second alarm when full, or drains continuously through a hose you supply. The humidistat runs from 30% to 70%, Smart Dry nudges the fan speed up or down based on the humidity reading, and the unit tells you when the washable filter needs cleaning. Browse other connected options in our [best Wi-Fi dehumidifier](/best/best-smart-dehumidifier/) roundup.",
       "specs": {
         "Capacity": "50 pints/day (GE)",
         "Coverage": "Up to 5,000 sq ft (GE)",
@@ -146,71 +146,8 @@
   ],
   "sections": [
     {
-      "id": "ge-by-the-numbers",
-      "heading": "GE dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "16 ft",
-              "label": "Vertical pump lift on the APYR50LC, per GE"
-            },
-            {
-              "value": "5,000 sq ft",
-              "label": "GE's rated coverage for its 50-pint Wi-Fi model"
-            },
-            {
-              "value": "1 year",
-              "label": "GE's standard limited warranty across the lineup"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Capacity",
-            "Pump",
-            "Smart control",
-            "Best for"
-          ],
-          "rows": [
-            [
-              "APYR50LC",
-              "50 pints/day",
-              "Yes, 16-ft lift",
-              "No",
-              "Basement or garage"
-            ],
-            [
-              "50-pint Wi-Fi",
-              "50 pints/day",
-              "No (bucket or gravity)",
-              "SmartHQ app, Alexa, Google",
-              "Finished basement with a drain"
-            ],
-            [
-              "ADEL35LZ",
-              "35 pints/day",
-              "No (gravity)",
-              "No",
-              "Bedroom, small basement"
-            ],
-            [
-              "ADEL20LY",
-              "20 pints/day",
-              "No (gravity)",
-              "No",
-              "Single room"
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best GE dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -220,7 +157,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a GE dehumidifier",
+      "heading": "Which features matter in a GE dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -336,5 +273,64 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-for-basement/",
     "/guides/dehumidifier-maintenance/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "16 ft",
+          "label": "Vertical pump lift on the APYR50LC, per GE"
+        },
+        {
+          "value": "5,000 sq ft",
+          "label": "GE's rated coverage for its 50-pint Wi-Fi model"
+        },
+        {
+          "value": "1 year",
+          "label": "GE's standard limited warranty across the lineup"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Pump",
+        "Smart control",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "APYR50LC",
+          "50 pints/day",
+          "Yes, 16-ft lift",
+          "No",
+          "Basement or garage"
+        ],
+        [
+          "50-pint Wi-Fi",
+          "50 pints/day",
+          "No (bucket or gravity)",
+          "SmartHQ app, Alexa, Google",
+          "Finished basement with a drain"
+        ],
+        [
+          "ADEL35LZ",
+          "35 pints/day",
+          "No (gravity)",
+          "No",
+          "Bedroom, small basement"
+        ],
+        [
+          "ADEL20LY",
+          "20 pints/day",
+          "No (gravity)",
+          "No",
+          "Single room"
+        ]
+      ]
+    }
   ]
 }

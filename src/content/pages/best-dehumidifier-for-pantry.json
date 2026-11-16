@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Pantry (2026): Keep Dry Goods Fresh",
   "h1": "The Best Dehumidifiers for a Pantry",
   "dek": "Soft cereal, clumpy flour and a faint mustiness on the shelves are all signs of a damp pantry. The fix is small, quiet and food-safe.",
-  "description": "The best dehumidifier for pantry shelves, from cordless Eva-Dry units to a basement canning-room pick, to keep flour, cereal and boxes dry and mold-free.",
+  "description": "Keep dry goods under 60% humidity. The cordless Eva-Dry E-333 covers about 300 cu ft, a typical reach-in pantry; the E-500 suits walk-ins and canning rooms.",
   "published": "2026-08-25",
   "updated": "2026-11-05",
   "intro": [
@@ -147,26 +147,8 @@
   ],
   "sections": [
     {
-      "id": "pantry-by-the-numbers",
-      "heading": "Pantry moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "<60%", "label": "Humidity ceiling to keep dry goods from absorbing moisture" },
-            { "value": "24–48 hrs", "label": "How fast mold can start on a damp surface, per the EPA" },
-            { "value": "300 cu ft", "label": "Coverage of a single Eva-Dry E-333 — enough for most reach-in pantries" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "To work out your pantry's volume, multiply width by depth by height in feet. A 4-by-2-foot reach-in with an 8-foot ceiling is 64 cubic feet; a 6-by-5-foot walk-in is 240. Most pantries are far smaller than people expect, which is why passive units usually do the job."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best pantry dehumidifiers",
+      "heading": "How we chose these pantry dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -180,7 +162,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a pantry dehumidifier",
+      "heading": "What matters most in a pantry dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -236,13 +218,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Your pantry", "Best fix", "Why"],
+          "head": [
+            "Your pantry",
+            "Best fix",
+            "Why"
+          ],
           "rows": [
-            ["Reach-in cabinet, occasionally stuffy", "Eva-Dry E-333", "Covers the volume with no outlet"],
-            ["Walk-in pantry", "Eva-Dry E-500", "More capacity, hangs out of the way"],
-            ["Not sure if there's a problem", "DampRid hanging bag", "Cheap way to test"],
-            ["Shares a wall with dishwasher or laundry", "Pro Breeze electric mini", "Active drying keeps up"],
-            ["Basement canning or bulk-storage room", "hOmeLabs 32-Pint Wi-Fi", "Room-scale compressor"]
+            [
+              "Reach-in cabinet, occasionally stuffy",
+              "Eva-Dry E-333",
+              "Covers the volume with no outlet"
+            ],
+            [
+              "Walk-in pantry",
+              "Eva-Dry E-500",
+              "More capacity, hangs out of the way"
+            ],
+            [
+              "Not sure if there's a problem",
+              "DampRid hanging bag",
+              "Cheap way to test"
+            ],
+            [
+              "Shares a wall with dishwasher or laundry",
+              "Pro Breeze electric mini",
+              "Active drying keeps up"
+            ],
+            [
+              "Basement canning or bulk-storage room",
+              "hOmeLabs 32-Pint Wi-Fi",
+              "Room-scale compressor"
+            ]
           ]
         }
       ]
@@ -287,5 +293,28 @@
     "/best/best-moisture-absorber/",
     "/best/best-small-dehumidifier/",
     "/best/best-dehumidifier-for-cockroaches/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "<60%",
+          "label": "Humidity ceiling to keep dry goods from absorbing moisture"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can start on a damp surface, per the EPA"
+        },
+        {
+          "value": "300 cu ft",
+          "label": "Coverage of a single Eva-Dry E-333 — enough for most reach-in pantries"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "To work out your pantry's volume, multiply width by depth by height in feet. A 4-by-2-foot reach-in with an 8-foot ceiling is 64 cubic feet; a 6-by-5-foot walk-in is 240. Most pantries are far smaller than people expect, which is why passive units usually do the job."
+    }
   ]
 }

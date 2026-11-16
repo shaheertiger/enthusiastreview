@@ -3,7 +3,7 @@
   "section": "best",
   "category": "Size & Features",
   "navLabel": "Whole House",
-  "title": "Best Whole House Dehumidifier (2026): Ducted & Central Picks",
+  "title": "Best Whole House Dehumidifier (2026): Ducted & HVAC Picks",
   "h1": "The Best Whole-House Dehumidifiers",
   "dek": "When every room feels clammy, one central machine beats three portables. These are the ducted and basement units worth plumbing in.",
   "description": "The best whole house dehumidifiers of 2026 from Aprilaire, AlorAir and Santa Fe, compared on AHAM capacity, coverage, cost, drainage and install type.",
@@ -177,39 +177,40 @@
         "Smart control": "Wi-Fi app",
         "Best for": "One floor or a rental"
       }
+    },
+    {
+      "id": "aprilaire-e130-ducted",
+      "catalogId": "aprilaire-e130",
+      "name": "Aprilaire E130 Whole-House Dehumidifier (130 Pints)",
+      "shortName": "Aprilaire E130",
+      "award": "Best for large homes",
+      "pros": [
+        "130 pints a day — Aprilaire’s largest residential unit",
+        "Rated for up to about 7,400 square feet",
+        "Ducts into the HVAC system or serves a dedicated zone",
+        "ENERGY STAR Most Efficient"
+      ],
+      "cons": [
+        "Overkill for most houses",
+        "Larger cabinet needs more mechanical-room space"
+      ],
+      "whyWeLoveIt": "If your home is unusually large, leaky or in a very humid climate, the E130 gives you headroom the E100 can’t. It’s the same proven Aprilaire design scaled up, and the kind of dedicated ducted machine a local HVAC contractor can install and support for years.",
+      "performance": "Rated at 130 pints a day under AHAM conditions with coverage up to about 7,400 square feet, the E130 suits large custom homes, homes with big finished basements and properties near the coast. Flexible control placement — on top or on the inlet side — helps in cramped mechanical rooms, and Aprilaire sells a Wi-Fi version, the E130W, if you want app control. Because dehumidifiers are sized on moisture load rather than floor area, have a contractor check your actual load before choosing it over the E100.",
+      "notes": "Ask the installer which control strategy they plan to use — a dedicated dehumidistat, or a thermostat with humidity control — before you sign the quote.",
+      "specs": {
+        "Capacity": "130 pints/day (AHAM)",
+        "Coverage": "Up to about 7,400 sq ft",
+        "Install": "Ducted or stand-alone",
+        "Drainage": "Gravity hose or pump (bucketless)",
+        "Efficiency": "ENERGY STAR Most Efficient",
+        "Warranty": "5 years"
+      }
     }
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Whole-house dehumidifying, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Indoor humidity range the EPA recommends, with 60% as the ceiling"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How fast mold can start growing on damp materials, per the EPA"
-            },
-            {
-              "value": "5–6 yrs",
-              "label": "Typical warranty on whole-house units, versus 1–2 on most portables"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The mold window is the strongest argument for a permanently drained central unit. A portable's bucket can fill at 10 a.m. and sit there until you get home; a plumbed whole-house machine just keeps going. And because whole-house units remove more water per kilowatt-hour, the best of them can cost less to run than the two or three portables they replace. Our [energy-efficient dehumidifier](/best/best-energy-efficient-dehumidifier/) guide explains what the Most Efficient badge means."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick whole-house dehumidifiers",
+      "heading": "How we chose these whole-house dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -223,7 +224,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a whole-house dehumidifier",
+      "heading": "Which features matter in a whole-house dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -347,6 +348,45 @@
       ]
     },
     {
+      "id": "hvac-vs-ducted",
+      "heading": "Doesn't my HVAC already dehumidify?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Partly. An air conditioner removes moisture as a side effect of cooling, because warm, humid air condenses on the cold evaporator coil. The trouble is that it only dehumidifies while it's actively cooling. In spring and fall, on mild rainy days, or at night when the thermostat is satisfied, the AC sits idle while humidity creeps up. Oversized systems make it worse: they cool the house quickly and shut off before the coil has had time to pull much water out."
+        },
+        {
+          "type": "p",
+          "text": "That's why so many homes feel cool but clammy. A dedicated HVAC dehumidifier fills the gap, drying the air whether or not the house needs cooling. Our explainer on [dehumidifier vs. air conditioner](/guides/dehumidifier-vs-air-conditioner/) goes deeper into the difference."
+        },
+        {
+          "type": "callout",
+          "title": "Before you buy",
+          "text": "If your system is new and variable-speed, ask your contractor whether its built-in dehumidify mode is enough first. If humidity still sits above 55% on mild days, a ducted dehumidifier is the fix."
+        }
+      ]
+    },
+    {
+      "id": "adding-to-hvac",
+      "heading": "What's involved in adding a dehumidifier to your HVAC?",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Sizing.** A contractor estimates your moisture load from square footage, climate, insulation and any known wet spots like a basement or crawl space.",
+            "**Mounting.** The unit is set on a platform or hung near the furnace or air handler, with clearance for service.",
+            "**Ducting.** Inlet and outlet ducts are tied into the return and/or supply trunks, usually with a backdraft damper.",
+            "**Drainage.** A condensate line runs to a floor drain or a condensate pump.",
+            "**Power and controls.** The unit plugs into or is wired to a nearby circuit, and a dehumidistat or compatible thermostat is connected."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Our full [whole-house dehumidifier installation](/guides/whole-house-dehumidifier-installation/) guide walks through each step, plus when DIY makes sense."
+        }
+      ]
+    },
+    {
       "id": "bottom-line",
       "heading": "The bottom line",
       "blocks": [
@@ -375,16 +415,20 @@
       "a": "One is the saturation rating, measured at 90°F and 90% humidity; the other is the AHAM rating at 80°F and 60%. The AlorAir HDi90, for example, is listed at 198 pints at saturation and 90 pints AHAM. Compare models on the AHAM figure, which reflects normal living conditions."
     },
     {
-      "q": "What size whole-house dehumidifier do I need?",
-      "a": "As a rule of thumb, about 65–80 AHAM pints a day for homes under 1,500 sq ft in a moderate climate, 90–100 for 1,500–2,500 sq ft or humid regions, and 120–155 for larger homes or Gulf Coast climates. Round up if you're between sizes."
-    },
-    {
       "q": "What humidity should a whole-house dehumidifier hold?",
       "a": "Between 30% and 50% relative humidity, the range the EPA recommends, and never above 60%. Most owners set 45–50% in summer. Below 30%, you start to see static, dry sinuses and shrinking wood trim."
     },
     {
-      "q": "Can a whole house dehumidifier connect to my HVAC system?",
-      "a": "Yes. Ducted units like the Aprilaire E100 and AlorAir HDi90 tie into the return side of a forced-air system so dry air reaches every room. That job is usually best left to an HVAC contractor; freestanding basement or crawl-space installs are more DIY-friendly. See our [installation guide](/guides/whole-house-dehumidifier-installation/) for what's involved."
+      "q": "Can you add a dehumidifier to an existing HVAC system?",
+      "a": "Yes. Most whole-house units are designed to be added to an existing forced-air system. A contractor ties the unit into the return (and sometimes supply) ducts, runs a condensate drain and connects a control. Homes without ductwork can use a freestanding whole-house unit or a portable instead."
+    },
+    {
+      "q": "Is a furnace dehumidifier the same as a whole-house dehumidifier?",
+      "a": "Usually, yes. Furnace dehumidifier is a common name for a whole-house unit mounted next to the furnace. The dehumidifier is a separate appliance; it simply shares the furnace's ductwork and blower to distribute dry air."
+    },
+    {
+      "q": "Do I need an HVAC dehumidifier if I have central air?",
+      "a": "Not always. If your home stays at or below about 50% humidity all summer, your AC is doing the job. If it feels damp on mild days, the basement smells musty, or humidity regularly reads above 55–60%, a dedicated dehumidifier is worth it."
     }
   ],
   "related": [
@@ -394,5 +438,28 @@
     "/best/best-70-pint-dehumidifier/",
     "/guides/whole-house-dehumidifier-installation/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends, with 60% as the ceiling"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can start growing on damp materials, per the EPA"
+        },
+        {
+          "value": "5–6 yrs",
+          "label": "Typical warranty on whole-house units, versus 1–2 on most portables"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The mold window is the strongest argument for a permanently drained central unit. A portable's bucket can fill at 10 a.m. and sit there until you get home; a plumbed whole-house machine just keeps going. And because whole-house units remove more water per kilowatt-hour, the best of them can cost less to run than the two or three portables they replace. Our [energy-efficient dehumidifier](/best/best-energy-efficient-dehumidifier/) guide explains what the Most Efficient badge means."
+    }
   ]
 }

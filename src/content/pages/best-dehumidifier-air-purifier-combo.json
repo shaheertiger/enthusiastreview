@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier and Air Purifier Combo (2026): Worth It?",
   "h1": "The Best Dehumidifier and Air Purifier Combos",
   "dek": "One box that dries the air and filters it sounds ideal. In a small room, it can be. In a bigger one, two machines win.",
-  "description": "The best dehumidifier and air purifier combo for small rooms, plus when a dedicated dehumidifier paired with a HEPA purifier is the smarter buy.",
+  "description": "Combos only suit rooms up to about 200 sq ft; the Tenergy Sorbi (True HEPA plus a quiet dehumidifier) is the best. When two machines beat one combo.",
   "published": "2026-10-17",
   "updated": "2026-11-05",
   "intro": [
@@ -96,35 +96,8 @@
   ],
   "sections": [
     {
-      "id": "combo-numbers",
-      "heading": "Dehumidifier and air purifier combos, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~200 sq ft",
-              "label": "Practical upper room size for most combo units"
-            },
-            {
-              "value": "70% → 62%",
-              "label": "Humidity drop a combo managed in a 600 sq ft basement test"
-            },
-            {
-              "value": "30–50%",
-              "label": "Humidity range the EPA recommends to curb mold and dust mites"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That middle number tells the story. A combo did lower the basement's humidity, but it stayed well above the EPA's target, while standalone dehumidifiers got there."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifier air purifier combos",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -138,7 +111,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an air purifier dehumidifier combo",
+      "heading": "What should you look for in an air purifier dehumidifier combo?",
       "blocks": [
         {
           "type": "checklist",
@@ -278,5 +251,28 @@
     "/best/best-dehumidifier-for-bedroom/",
     "/best/best-dehumidifier-for-dust-mites/",
     "/best/best-quiet-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~200 sq ft",
+          "label": "Practical upper room size for most combo units"
+        },
+        {
+          "value": "70% → 62%",
+          "label": "Humidity drop a combo managed in a 600 sq ft basement test"
+        },
+        {
+          "value": "30–50%",
+          "label": "Humidity range the EPA recommends to curb mold and dust mites"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That middle number tells the story. A combo did lower the basement's humidity, but it stayed well above the EPA's target, while standalone dehumidifiers got there."
+    }
   ]
 }

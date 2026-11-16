@@ -7,7 +7,7 @@
   "title": "Best Dehumidifier for Home Theater (2026): Quiet & Gear-Safe",
   "h1": "The Best Dehumidifiers for Home Theaters and Media Rooms",
   "dek": "A basement theater is full of things damp air ruins — speakers, seats, acoustic panels, a projector — so the right dehumidifier is one you never hear during the quiet scenes.",
-  "description": "The best dehumidifier for a home theater: quiet, dim-display picks that protect electronics, seats and acoustic panels, plus a ducted option you won't hear.",
+  "description": "Aim for 40–50% humidity around screens and seats. The 35-pint Midea Cube 35, with a dim sleep mode, is our top pick; a ducted option you won't hear too.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -153,26 +153,8 @@
   ],
   "sections": [
     {
-      "id": "theater-humidity",
-      "heading": "Home theater humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "40–50%", "label": "A sensible humidity target for a room full of electronics and upholstery" },
-            { "value": "60%+", "label": "The level above which mold, mildew and corrosion risk climbs quickly" },
-            { "value": "<30%", "label": "Air dry enough to raise static and dry out wood and leather" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Electronics themselves tolerate a fairly wide range; the real danger is condensation and slow corrosion when damp air meets cool metal, plus mold in the soft materials around them. A **dehumidifier for electronics** isn't about making the air bone-dry. It's about holding the room in the middle of the range, all year."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for home theaters",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -190,13 +172,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Capacity", "Drainage", "Noise / light", "Best for"],
+          "head": [
+            "Model",
+            "Capacity",
+            "Drainage",
+            "Noise / light",
+            "Best for"
+          ],
           "rows": [
-            ["Midea Cube 35", "35 pt (DOE)", "Base tank or hose", "Sleep mode dims display, slows fan", "Most basement theaters"],
-            ["Aprilaire E080", "80 pt (AHAM)", "Gravity or pump", "Installed outside the room", "Dedicated theaters, new builds"],
-            ["Midea Cube 50", "49.67 pt (DOE)", "Reservoir or hose", "From 42 dB(A) (Midea)", "Large open basements"],
-            ["Midea Cube 20", "20 pt (DOE)", "Bucket or hose", "Excellent (Consumer Reports)", "Small media rooms"],
-            ["Govee H5179", "Monitor only", "—", "Silent", "Watching the AV rack"]
+            [
+              "Midea Cube 35",
+              "35 pt (DOE)",
+              "Base tank or hose",
+              "Sleep mode dims display, slows fan",
+              "Most basement theaters"
+            ],
+            [
+              "Aprilaire E080",
+              "80 pt (AHAM)",
+              "Gravity or pump",
+              "Installed outside the room",
+              "Dedicated theaters, new builds"
+            ],
+            [
+              "Midea Cube 50",
+              "49.67 pt (DOE)",
+              "Reservoir or hose",
+              "From 42 dB(A) (Midea)",
+              "Large open basements"
+            ],
+            [
+              "Midea Cube 20",
+              "20 pt (DOE)",
+              "Bucket or hose",
+              "Excellent (Consumer Reports)",
+              "Small media rooms"
+            ],
+            [
+              "Govee H5179",
+              "Monitor only",
+              "—",
+              "Silent",
+              "Watching the AV rack"
+            ]
           ],
           "caption": "Capacities are the makers' ratings; DOE and AHAM figures use different test conditions."
         }
@@ -204,7 +222,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a home theater dehumidifier",
+      "heading": "How do you choose a home theater dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -228,7 +246,11 @@
             {
               "label": "Consider getting it out of the room",
               "text": "For a dedicated theater, a ducted unit in an adjacent room is the only truly silent option.",
-              "sub": ["Best planned during a build or remodel", "Can dry the whole basement, not just the theater", "Compare installed options in our [best ducted dehumidifier](/best/best-ducted-dehumidifier/) guide"]
+              "sub": [
+                "Best planned during a build or remodel",
+                "Can dry the whole basement, not just the theater",
+                "Compare installed options in our [best ducted dehumidifier](/best/best-whole-house-dehumidifier/) guide"
+              ]
             },
             {
               "label": "Running cost",
@@ -331,9 +353,32 @@
   "related": [
     "/best/best-dehumidifier-for-finished-basement/",
     "/best/best-quiet-dehumidifier/",
-    "/best/best-ducted-dehumidifier/",
+    "/best/best-whole-house-dehumidifier/",
     "/best/best-midea-dehumidifier/",
     "/best/best-hygrometer/",
     "/guides/where-to-place-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–50%",
+          "label": "A sensible humidity target for a room full of electronics and upholstery"
+        },
+        {
+          "value": "60%+",
+          "label": "The level above which mold, mildew and corrosion risk climbs quickly"
+        },
+        {
+          "value": "<30%",
+          "label": "Air dry enough to raise static and dry out wood and leather"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Electronics themselves tolerate a fairly wide range; the real danger is condensation and slow corrosion when damp air meets cool metal, plus mold in the soft materials around them. A **dehumidifier for electronics** isn't about making the air bone-dry. It's about holding the room in the middle of the range, all year."
+    }
   ]
 }

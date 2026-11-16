@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Mold & Allergies",
   "navLabel": "Allergies",
-  "title": "Best Dehumidifier for Allergies and Asthma (2026): 5 Top Picks",
+  "title": "Best Dehumidifier for Allergies (2026): Dust Mite & Mold Picks",
   "h1": "The Best Dehumidifiers for Allergies and Asthma",
   "dek": "Dust mites and mold both need damp air. Hold your home under 50% humidity and two of the biggest indoor allergy triggers lose their footing.",
-  "description": "The best dehumidifier for allergies and asthma, led by a precise-humidistat pick, plus the humidity range that curbs dust mites and mold spores at home.",
+  "description": "Keep humidity under 50% and dust mites struggle; the Midea Cube 35 holds an exact target in 5% steps. 5 picks for allergy sufferers, plus setup tips.",
   "published": "2026-09-09",
   "updated": "2026-11-05",
   "intro": [
@@ -146,26 +146,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Allergies and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "Below 45%", "label": "Indoor humidity the AAFA recommends to discourage mold" },
-            { "value": "Under 50%", "label": "Level at which dust mite populations struggle to establish" },
-            { "value": "6–11 days", "label": "For live dust mites to die off at or below 50% RH, per research cited by University of Kentucky entomologists" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Because the mold and mite thresholds sit so close together, a single target — about 45% — covers both. That's why a humidistat you can set to an exact number matters more than how many pints a unit pulls."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for allergies",
+      "heading": "How we chose these dehumidifiers for allergies",
       "blocks": [
         {
           "type": "p",
@@ -179,7 +161,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for allergies",
+      "heading": "Which features matter in a dehumidifier for allergies?",
       "blocks": [
         {
           "type": "checklist",
@@ -218,13 +200,37 @@
         },
         {
           "type": "table",
-          "head": ["Trigger", "Does humidity matter?", "Will a dehumidifier help?"],
+          "head": [
+            "Trigger",
+            "Does humidity matter?",
+            "Will a dehumidifier help?"
+          ],
           "rows": [
-            ["Dust mites", "Yes — they absorb water from the air", "Yes, at or below 50%"],
-            ["Mold spores", "Yes — mold needs damp surfaces", "Yes, it prevents new growth; existing mold needs cleanup"],
-            ["Pollen", "No", "No — use a HEPA purifier and keep windows closed"],
-            ["Pet dander", "No", "No — use a HEPA purifier and wash bedding"],
-            ["Cockroach allergens", "Partly — roaches seek moisture", "Somewhat, alongside pest control"]
+            [
+              "Dust mites",
+              "Yes — they absorb water from the air",
+              "Yes, at or below 50%"
+            ],
+            [
+              "Mold spores",
+              "Yes — mold needs damp surfaces",
+              "Yes, it prevents new growth; existing mold needs cleanup"
+            ],
+            [
+              "Pollen",
+              "No",
+              "No — use a HEPA purifier and keep windows closed"
+            ],
+            [
+              "Pet dander",
+              "No",
+              "No — use a HEPA purifier and wash bedding"
+            ],
+            [
+              "Cockroach allergens",
+              "Partly — roaches seek moisture",
+              "Somewhat, alongside pest control"
+            ]
           ]
         },
         {
@@ -300,5 +306,28 @@
     "/guides/dehumidifier-vs-air-purifier/",
     "/guides/does-a-dehumidifier-help-with-mold/",
     "/best/best-delonghi-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "Below 45%",
+          "label": "Indoor humidity the AAFA recommends to discourage mold"
+        },
+        {
+          "value": "Under 50%",
+          "label": "Level at which dust mite populations struggle to establish"
+        },
+        {
+          "value": "6–11 days",
+          "label": "For live dust mites to die off at or below 50% RH, per research cited by University of Kentucky entomologists"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Because the mold and mite thresholds sit so close together, a single target — about 45% — covers both. That's why a humidistat you can set to an exact number matters more than how many pints a unit pulls."
+    }
   ]
 }

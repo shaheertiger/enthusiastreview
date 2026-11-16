@@ -4,10 +4,10 @@
   "category": "Specialty & Storage",
   "navLabel": "Drying Room",
   "amazonOnly": true,
-  "title": "Best Dehumidifier for Drying Cannabis & Herbs (2026)",
+  "title": "Best Dehumidifier for Drying Cannabis & Herbs (2026): 5 Picks",
   "h1": "The Best Dehumidifiers for Drying Rooms, Herbs and Cannabis",
   "dek": "Slow and steady wins the dry. These dehumidifiers hold a drying space near 60% humidity instead of racing it to bone-dry.",
-  "description": "The best dehumidifier for drying cannabis, herbs and craft flowers: units that hold a steady 55–62% humidity, plus drying-room targets and mistakes to avoid.",
+  "description": "Dry cannabis and herbs at 55–62% humidity, around 60°F. The 20-pint Midea Cube 20 holds an exact target in a small room; tent and big-room picks too.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -150,26 +150,8 @@
   ],
   "sections": [
     {
-      "id": "drying-numbers",
-      "heading": "Drying-room targets, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "60°F / 60%", "label": "The widely used \"60/60\" starting point for slow-drying cannabis" },
-            { "value": "55–62%", "label": "Relative humidity range most growers aim for while drying and curing" },
-            { "value": "7–14 days", "label": "Typical slow-dry window before material moves to sealed containers" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "These numbers aren't strict laws, but they explain why the gear matters. You're not trying to remove water as fast as possible; you're trying to let moisture leave evenly from the inside out. A dehumidifier's job is to stop the room from creeping above the mid-60s while hanging material releases water."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for drying rooms",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -183,7 +165,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a drying room dehumidifier",
+      "heading": "What separates a good drying room dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -218,13 +200,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["What you're drying", "Target humidity", "Temperature", "Notes"],
+          "head": [
+            "What you're drying",
+            "Target humidity",
+            "Temperature",
+            "Notes"
+          ],
           "rows": [
-            ["Cannabis (where legal)", "About 55–62%", "60–70°F", "Slow, even drying protects aroma; avoid direct fan airflow"],
-            ["Curing in sealed jars", "58–62% inside the jar", "Room temperature", "Humidity packs help hold the range"],
-            ["Culinary herbs", "40–55%", "Cool, dark room", "Herbs tolerate faster drying; keep out of sunlight"],
-            ["Flowers for crafts", "40–50%", "Cool, dark room", "Hang upside down; lower humidity preserves color"],
-            ["Seeds for saving", "Below 50%", "Cool room", "Dry fully before sealing in envelopes or jars"]
+            [
+              "Cannabis (where legal)",
+              "About 55–62%",
+              "60–70°F",
+              "Slow, even drying protects aroma; avoid direct fan airflow"
+            ],
+            [
+              "Curing in sealed jars",
+              "58–62% inside the jar",
+              "Room temperature",
+              "Humidity packs help hold the range"
+            ],
+            [
+              "Culinary herbs",
+              "40–55%",
+              "Cool, dark room",
+              "Herbs tolerate faster drying; keep out of sunlight"
+            ],
+            [
+              "Flowers for crafts",
+              "40–50%",
+              "Cool, dark room",
+              "Hang upside down; lower humidity preserves color"
+            ],
+            [
+              "Seeds for saving",
+              "Below 50%",
+              "Cool room",
+              "Dry fully before sealing in envelopes or jars"
+            ]
           ],
           "caption": "Common community and extension-service guidance; adjust for your space and material."
         },
@@ -316,5 +328,28 @@
     "/best/best-small-dehumidifier/",
     "/best/best-dehumidifier-for-plants/",
     "/guides/dehumidifier-humidistat-settings-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "60°F / 60%",
+          "label": "The widely used \"60/60\" starting point for slow-drying cannabis"
+        },
+        {
+          "value": "55–62%",
+          "label": "Relative humidity range most growers aim for while drying and curing"
+        },
+        {
+          "value": "7–14 days",
+          "label": "Typical slow-dry window before material moves to sealed containers"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "These numbers aren't strict laws, but they explain why the gear matters. You're not trying to remove water as fast as possible; you're trying to let moisture leave evenly from the inside out. A dehumidifier's job is to stop the room from creeping above the mid-60s while hanging material releases water."
+    }
   ]
 }

@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier with Drain Hose (2026): Gravity-Drain Picks",
   "h1": "The Best Dehumidifiers with a Drain Hose",
   "dek": "Got a floor drain? Then you don't need a pump. Thread on a garden hose, run it downhill and never empty a bucket again.",
-  "description": "The best dehumidifier with a drain hose port for basements and single rooms, plus how to set up a gravity drain hose so it flows reliably all season.",
+  "description": "Most drain ports take a standard 3/4-in. garden hose. The 50-pint Midea Cube 50 is our top gravity-drain pick; how to set up a hose so it flows all season.",
   "published": "2026-10-09",
   "updated": "2026-11-05",
   "intro": [
@@ -144,26 +144,8 @@
   ],
   "sections": [
     {
-      "id": "drain-hose-numbers",
-      "heading": "Gravity drainage, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "3/4 in.", "label": "Standard garden-hose thread on most dehumidifier drain ports" },
-            { "value": "~$40", "label": "Typical premium for adding a pump to a comparable 50-pint model" },
-            { "value": "0", "label": "Moving parts a gravity hose adds to the system" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That universal thread size means any basic garden hose fits, and you can swap hoses between brands. The only real requirement is that the hose runs downhill the whole way."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers with a drain hose",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -177,7 +159,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier with a drain hose connection",
+      "heading": "Which features matter in a dehumidifier with a drain hose connection?",
       "blocks": [
         {
           "type": "checklist",
@@ -290,5 +272,28 @@
     "/best/best-small-dehumidifier/",
     "/guides/where-to-place-a-dehumidifier/",
     "/guides/dehumidifier-not-collecting-water/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "3/4 in.",
+          "label": "Standard garden-hose thread on most dehumidifier drain ports"
+        },
+        {
+          "value": "~$40",
+          "label": "Typical premium for adding a pump to a comparable 50-pint model"
+        },
+        {
+          "value": "0",
+          "label": "Moving parts a gravity hose adds to the system"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That universal thread size means any basic garden hose fits, and you can swap hoses between brands. The only real requirement is that the hose runs downhill the whole way."
+    }
   ]
 }

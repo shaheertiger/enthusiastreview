@@ -6,7 +6,7 @@
   "title": "Best Low Temperature Dehumidifier (2026): Cold & Winter Picks",
   "h1": "The Best Low-Temperature Dehumidifiers for Cold Basements, Garages and Winter",
   "dek": "Ordinary dehumidifiers ice up when the room turns chilly. These keep pulling water from cold basements, crawl spaces and garages all winter.",
-  "description": "The best low temperature dehumidifiers for cold basements, crawl spaces and garages, plus whether you need a dehumidifier during winter at all.",
+  "description": "Ordinary dehumidifiers ice up around 41°F; the AlorAir Sentinel HD55 keeps running to about 36°F. Picks for cold basements, crawl spaces and garages.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "amazonOnly": true,
@@ -154,26 +154,8 @@
   ],
   "sections": [
     {
-      "id": "cold-numbers",
-      "heading": "Cold-weather dehumidifying, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "65°F", "label": "Room temperature the DOE uses to rate household dehumidifiers" },
-            { "value": "~41°F", "label": "Where ordinary compressor units ice up faster than they can defrost" },
-            { "value": "33°F", "label": "Lowest rated operating temperature among our picks (Ivation desiccant)" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The gap between the first two numbers is the whole story. Below about 60–65°F, the coil inside a regular dehumidifier starts to frost even when the unit is healthy. Auto-defrost buys some room, but by the low 40s it can’t keep up. Our [dehumidifier freezing up](/guides/dehumidifier-freezing-up/) guide explains the mechanics in detail."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick low-temperature dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -187,7 +169,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a low temperature dehumidifier",
+      "heading": "Which features matter in a low temperature dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -226,12 +208,32 @@
         },
         {
           "type": "table",
-          "head": ["Lowest typical temperature", "What works", "Example"],
+          "head": [
+            "Lowest typical temperature",
+            "What works",
+            "Example"
+          ],
           "rows": [
-            ["Above 65°F", "Any standard compressor dehumidifier", "Heated living spaces"],
-            ["50–65°F", "Compressor with auto-defrost; cold-rated unit preferred", "Most finished and unfinished basements"],
-            ["36–50°F", "Cold-rated crawl-space compressor or desiccant", "AlorAir Sentinel HD55, HDi65S"],
-            ["Below ~36°F", "Desiccant only", "Ivation 13-Pint, Eva-Dry EDV-4000"]
+            [
+              "Above 65°F",
+              "Any standard compressor dehumidifier",
+              "Heated living spaces"
+            ],
+            [
+              "50–65°F",
+              "Compressor with auto-defrost; cold-rated unit preferred",
+              "Most finished and unfinished basements"
+            ],
+            [
+              "36–50°F",
+              "Cold-rated crawl-space compressor or desiccant",
+              "AlorAir Sentinel HD55, HDi65S"
+            ],
+            [
+              "Below ~36°F",
+              "Desiccant only",
+              "Ivation 13-Pint, Eva-Dry EDV-4000"
+            ]
           ],
           "caption": "Rated ranges come from manufacturer manuals and spec sheets."
         },
@@ -334,5 +336,28 @@
     "/best/best-dehumidifier-for-garage/",
     "/best/best-dehumidifier-for-basement/",
     "/guides/when-to-use-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "65°F",
+          "label": "Room temperature the DOE uses to rate household dehumidifiers"
+        },
+        {
+          "value": "~41°F",
+          "label": "Where ordinary compressor units ice up faster than they can defrost"
+        },
+        {
+          "value": "33°F",
+          "label": "Lowest rated operating temperature among our picks (Ivation desiccant)"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The gap between the first two numbers is the whole story. Below about 60–65°F, the coil inside a regular dehumidifier starts to frost even when the unit is healthy. Auto-defrost buys some room, but by the low 40s it can’t keep up. Our [dehumidifier freezing up](/guides/dehumidifier-freezing-up/) guide explains the mechanics in detail."
+    }
   ]
 }

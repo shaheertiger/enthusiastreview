@@ -6,7 +6,7 @@
   "title": "Best Ivation Dehumidifier (2026): Pump, 70-Pint & Desiccant",
   "h1": "The Best Ivation Dehumidifiers — and the Recall to Check First",
   "dek": "Ivation makes both compressor and cold-weather desiccant units. One of its current model numbers sits a single letter away from a recalled one.",
-  "description": "The best Ivation dehumidifier for your space: the 50-pint pump model, 70-pint, Wi-Fi and 13-pint desiccant, plus the 2021 recall and manual help.",
+  "description": "The 50-pint Ivation IVADH50PWP2 with a built-in pump is our top Ivation pick. The 70-pint, Wi-Fi and 13-pint desiccant models compared, plus the 2021 recall.",
   "published": "2026-10-07",
   "updated": "2026-11-05",
   "intro": [
@@ -83,7 +83,7 @@
         "App only matters if you'll use it"
       ],
       "whyWeLoveIt": "If the dehumidifier lives somewhere you rarely visit, being able to check humidity and change settings from your phone is worth a little extra. This model adds that to the same pump-equipped 50-pint machine.",
-      "performance": "Underneath, it shares the IVADH50PWP2's 50-pint capacity, pump and ENERGY STAR rating. The app lets you monitor humidity remotely and adjust the target without trips to the basement. Owners say setup is straightforward on a 2.4 GHz home network. See how it stacks up against other connected units in our [best Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) roundup.",
+      "performance": "Underneath, it shares the IVADH50PWP2's 50-pint capacity, pump and ENERGY STAR rating. The app lets you monitor humidity remotely and adjust the target without trips to the basement. Owners say setup is straightforward on a 2.4 GHz home network. See how it stacks up against other connected units in our [best Wi-Fi dehumidifier](/best/best-smart-dehumidifier/) roundup.",
       "specs": {
         "Capacity": "50 pints/day",
         "Drainage": "Built-in pump or gravity hose",
@@ -121,32 +121,8 @@
   ],
   "sections": [
     {
-      "id": "ivation-by-the-numbers",
-      "heading": "Ivation dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "2", "label": "Ivation models named in the 2021 CPSC dehumidifier recall" },
-            { "value": "1 letter", "label": "The difference between recalled IVADH70PW and current IVALDH70PW" },
-            { "value": "~33°F", "label": "How cold Ivation's desiccant models keep working" }
-          ]
-        },
-        {
-          "type": "table",
-          "head": ["Model", "Type", "Capacity", "Pump", "Best for"],
-          "rows": [
-            ["IVADH50PWP2", "Compressor", "50 pints/day", "Yes", "Most basements"],
-            ["IVALDH70PW", "Compressor", "70 pints/day", "No", "Large spaces"],
-            ["IVADUWIFI50WP", "Compressor", "50 pints/day", "Yes", "App control"],
-            ["13-Pint Desiccant", "Desiccant", "13 pints/day", "No", "Cold spaces"]
-          ]
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best Ivation dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -156,7 +132,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an Ivation dehumidifier",
+      "heading": "How do you pick an Ivation dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -195,12 +171,32 @@
         },
         {
           "type": "table",
-          "head": ["Model", "Status", "Notes"],
+          "head": [
+            "Model",
+            "Status",
+            "Notes"
+          ],
           "rows": [
-            ["IVADH30PW (30-pint)", "Recalled", "Made before Sept. 1, 2017"],
-            ["IVADH70PW (70-pint)", "Recalled", "Made before Sept. 1, 2017"],
-            ["IVALDH70PW (70-pint)", "Not recalled", "Current model; note the extra \"L\""],
-            ["IVADH50PWP2, IVADUWIFI50WP, desiccant models", "Not recalled", "Current lineup"]
+            [
+              "IVADH30PW (30-pint)",
+              "Recalled",
+              "Made before Sept. 1, 2017"
+            ],
+            [
+              "IVADH70PW (70-pint)",
+              "Recalled",
+              "Made before Sept. 1, 2017"
+            ],
+            [
+              "IVALDH70PW (70-pint)",
+              "Not recalled",
+              "Current model; note the extra \"L\""
+            ],
+            [
+              "IVADH50PWP2, IVADUWIFI50WP, desiccant models",
+              "Not recalled",
+              "Current lineup"
+            ]
           ]
         },
         {
@@ -273,5 +269,64 @@
     "/best/best-dehumidifier-brands/",
     "/best/best-dehumidifier-for-garage/",
     "/guides/how-to-dispose-of-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2",
+          "label": "Ivation models named in the 2021 CPSC dehumidifier recall"
+        },
+        {
+          "value": "1 letter",
+          "label": "The difference between recalled IVADH70PW and current IVALDH70PW"
+        },
+        {
+          "value": "~33°F",
+          "label": "How cold Ivation's desiccant models keep working"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Type",
+        "Capacity",
+        "Pump",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "IVADH50PWP2",
+          "Compressor",
+          "50 pints/day",
+          "Yes",
+          "Most basements"
+        ],
+        [
+          "IVALDH70PW",
+          "Compressor",
+          "70 pints/day",
+          "No",
+          "Large spaces"
+        ],
+        [
+          "IVADUWIFI50WP",
+          "Compressor",
+          "50 pints/day",
+          "Yes",
+          "App control"
+        ],
+        [
+          "13-Pint Desiccant",
+          "Desiccant",
+          "13 pints/day",
+          "No",
+          "Cold spaces"
+        ]
+      ]
+    }
   ]
 }

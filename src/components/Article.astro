@@ -1,8 +1,8 @@
 ---
-// One template for every review, guide and comparison. Order follows the
-// magazine buyer's-guide pattern: title → byline → disclosure → hero → intro →
-// "Our top picks" → numbered product cards → body sections → FAQ →
-// why trust us → readers also read.
+// One template for every review, guide and comparison (docs/ranking-method.md §4):
+// title → byline → disclosure → "<search>: The Short Answer" (verdict, stats, picks) →
+// hero → intro → numbered product cards → body sections → FAQ → sources box →
+// readers also read.
 import Base from '../layouts/Base.astro';
 import Blocks from './Blocks.astro';
 import Card from './Card.astro';
@@ -11,6 +11,7 @@ import { md as mdBase, plain, fmtDate, pathOf, relatedPages, productLinkMap, cre
 import { amazonLink, productImage } from '../data/affiliate';
 import { getAuthor, authorSchema } from '../data/authors';
 import { SITE, SECTIONS } from '../data/site';
+import { shortAnswerHeading, methodNote, disclosure, trustBox } from '../data/page-copy.mjs';
 
 interface Props { page: Page }
 const { page } = Astro.props;
@@ -38,7 +39,9 @@ const headToHead = comparisonsFor(page);
 const nextReads = keepReading(page);
 const SPONSORED = 'sponsored nofollow noopener';
 const glanceKeys = [...new Set(products.flatMap((p) => Object.keys(p.specs ?? {})))].filter((k) => products.filter((p) => p.specs?.[k]).length >= Math.ceil(products.length / 2)).slice(0, 3);
-const picksHeading = isList ? 'Our top picks:' : isCompare ? 'The two models compared:' : 'Products in this guide:';
+const picksHeading = isList ? 'Our top picks' : isCompare ? 'The two models' : 'Products in this guide';
+const hasShortAnswer = Boolean(page.topPicksLead || page.shortAnswer?.length || products.length);
+const trust = trustBox(page, SITE.name);
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -90,6 +93,7 @@ const jsonLd = {
   ogImage={images[0]}
   article={{ published: page.published, modified: page.updated, section: page.category }}
   jsonLd={jsonLd}
+  noindex={page.noindex}
 >
   <article class="col">
     <nav class="crumbs" aria-label="Breadcrumb">
@@ -97,21 +101,36 @@ const jsonLd = {
     </nav>
     <h1 class="a-title">{page.h1}</h1>
     <p class="a-dek">{page.dek}</p>
-    {/* Answer first: Bing and Copilot lift short, self-contained statements that name the pick. */}
-    {page.topPicksLead && <p class="a-answer"><strong>Short answer:</strong> <span set:html={text(page.topPicksLead)} /></p>}
 
     <div class="byline">
       <div class="avatar" aria-hidden="true">{author.initials}</div>
       <div class="byline-text">
         By <a href={`/authors/${author.slug}/`}>{author.name}</a>
-        <span class="role">Updated <time datetime={page.updated}>{fmtDate(page.updated)}</time> · Researched against DOE &amp; ENERGY STAR data</span>
+        <span class="role">Updated <time datetime={page.updated}>{fmtDate(page.updated)}</time> · {methodNote(page)}</span>
       </div>
       {products.length > 0 && <div class="byline-actions"><a class="btn-ghost" href="#top-picks">View Products</a></div>}
     </div>
-    <p class="disclosure">
-      We research every product on this page independently. If you buy through our links, we may earn a commission at no cost to you.
-      <a href="/how-we-review/">Learn more about how we review.</a>
-    </p>
+    <p class="disclosure" set:html={mdBase(disclosure(page))} />
+
+    {/* Answer first (ranking method §4): the first H2 is "<search>: The Short Answer" with the
+        verdict, one scannable block and the picks. Bing and Copilot lift it as the answer. */}
+    {hasShortAnswer && (
+      <section class="body short-answer" id="short-answer">
+        <h2>{shortAnswerHeading(page)}</h2>
+        {page.topPicksLead && <p class="a-answer" set:html={text(page.topPicksLead)} />}
+        {page.shortAnswer?.length ? <Blocks blocks={page.shortAnswer} text={text} md={md} /> : null}
+        {products.length > 0 && (
+          <div class="toppicks" id="top-picks">
+            <h3>{picksHeading}</h3>
+            <ul>
+              {products.map((p) => (
+                <li><span><b>{p.award}:</b> <a href={`#${p.id}`}>{shortName(p)}</a></span><a class="tp-shop" href={amazonLink(p)} rel={SPONSORED} target="_blank">Amazon →</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </section>
+    )}
 
     {heroItems.length > 0 && (
       <figure class="hero-figure">
@@ -124,17 +143,6 @@ const jsonLd = {
 
     <div class="body">
       {page.intro.map((p) => <p set:html={text(p)} />)}
-
-      {products.length > 0 && (
-        <section class="toppicks" id="top-picks">
-          <h2>{picksHeading}</h2>
-          <ul>
-            {products.map((p) => (
-              <li><span><b>{p.award}:</b> <a href={`#${p.id}`}>{shortName(p)}</a></span><a class="tp-shop" href={amazonLink(p)} rel={SPONSORED} target="_blank">Amazon →</a></li>
-            ))}
-          </ul>
-        </section>
-      )}
 
       {products.map((p, i) => {
         const href = amazonLink(p);
@@ -163,7 +171,7 @@ const jsonLd = {
               <div class="cons"><h3>Cons</h3><ul>{p.cons.map((x) => <li set:html={md(x)} />)}</ul></div>
             </div>
             <p><span class="lbl">Why we picked it:</span> <span set:html={text(p.whyWeLoveIt)} /></p>
-            <p><span class="lbl">Performance:</span> <span set:html={text(p.performance)} /></p>
+            <p><span class="lbl">What the ratings show:</span> <span set:html={text(p.performance)} /></p>
             {p.notes && <p><span class="lbl">Worth knowing:</span> <span set:html={text(p.notes)} /></p>}
             {specs.length > 0 && (
               <div class="specs">
@@ -234,13 +242,8 @@ const jsonLd = {
       )}
 
       <section class="trust" id="why-trust-us">
-        <h2>Why trust {SITE.name}?</h2>
-        <p>
-          Every recommendation on this page is checked against the numbers that matter for dehumidifiers: pints per day under the
-          2019 DOE test standard (not the older, inflated 2012 ratings), ENERGY STAR efficiency listings, manufacturer manuals, the
-          CPSC recall database and patterns across thousands of owner reviews. We update guides when models are discontinued,
-          recalled or replaced, and we never accept payment for a placement. <a href="/how-we-review/">Read our review process.</a>
-        </p>
+        <h2>{trust.heading}</h2>
+        <p>{trust.text} <a href="/how-we-review/">Read our review process.</a></p>
         <div class="author-card">
           <div class="avatar" aria-hidden="true">{author.initials}</div>
           <div>

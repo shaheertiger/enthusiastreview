@@ -19,6 +19,18 @@ const FAKE_TESTING = /\b(we tested|we've tested|we have tested|our testers?|in o
 const all = fs.readdirSync(DIR).filter((f) => f.endsWith('.json'));
 const pages = all.map((f) => ({ f, d: JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8')) }));
 const validPaths = new Set([...STATIC, ...pages.map(({ d }) => `/${d.section}/${d.slug}/`)]);
+const noindexPaths = new Set(pages.filter(({ d }) => d.noindex).map(({ d }) => `/${d.section}/${d.slug}/`));
+// The search a page targets (same rule as queryOf() in src/lib/content.ts).
+const queryOf = (d) => (d.query ?? d.title.split(/\s+\(\d{4}\)|[:?]|\s+[|–—]\s+/)[0]).trim().toLowerCase().replace(/[^a-z0-9]+/g, ' ').replace(/\bdehumidifiers\b/g, 'dehumidifier').trim();
+// Ranking method §1a: one URL per search. Two indexable pages targeting the same query split
+// Google's signals and neither ranks.
+const byQuery = new Map();
+for (const { f, d } of pages) {
+  if (d.noindex || !d.title) continue;
+  const q = queryOf(d);
+  if (byQuery.has(q)) { console.log(`✖ ${f}: targets the same search as ${byQuery.get(q)} ("${q}") — merge them or retitle one`); process.exitCode = 1; }
+  else byQuery.set(q, f);
+}
 // While pages are being written in parallel, PLANNED=<file> (one path per line) whitelists pages that will exist.
 if (process.env.PLANNED) for (const l of fs.readFileSync(process.env.PLANNED, 'utf8').split('\n')) if (l.trim()) validPaths.add(l.trim());
 const only = process.argv.slice(2).map((a) => path.basename(a));
@@ -48,8 +60,11 @@ for (const { f, d } of targets) {
   if (`${d.slug}.json` !== f) err(`slug "${d.slug}" must match file name`);
   if (!SECTIONS.includes(d.section)) err(`section must be one of ${SECTIONS}`);
   if (!CATEGORIES.includes(d.category)) err(`category "${d.category}" not in ${CATEGORIES.join(' | ')}`);
-  if (d.title && d.title.length > 70) warn(`title is ${d.title.length} chars (aim ≤ 65)`);
-  if (d.description && (d.description.length < 110 || d.description.length > 165)) warn(`description is ${d.description.length} chars (aim 120–160)`);
+  // Ranking method §3: title 50–62 chars, exact search first; description 140–158 chars with
+  // the answer (and a number) in its first clause. Reported as warnings; `npm run audit:seo` lists them.
+  if (d.title && (d.title.length < 45 || d.title.length > 65)) warn(`title is ${d.title.length} chars (aim 50–62)`);
+  if (d.description && (d.description.length < 130 || d.description.length > 165)) warn(`description is ${d.description.length} chars (aim 140–158)`);
+  if (d.section === 'guides' && /\(20\d\d\)/.test(d.title ?? '') && !/\b(rental|cost|price)/i.test(d.title)) warn('year in a how-to/explainer title (only buying guides, brand pages and comparisons carry one)');
   for (const k of ['published', 'updated']) if (d[k] && !/^\d{4}-\d{2}-\d{2}$/.test(d[k])) err(`${k} must be YYYY-MM-DD`);
   if (!Array.isArray(d.intro) || !d.intro.length) err('intro must be a non-empty array of paragraphs');
   if (!Array.isArray(d.products)) err('products must be an array (may be empty)');
@@ -96,6 +111,7 @@ for (const { f, d } of targets) {
   for (const m of text.matchAll(/\]\((\/[^)]*)\)/g)) {
     const href = m[1].split('#')[0];
     if (!validPaths.has(href)) err(`internal link to missing page ${m[1]}`);
+    else if (noindexPaths.has(href) && !d.noindex) warn(`links to noindexed page ${href}`);
   }
   for (const r of d.related ?? []) if (!validPaths.has(r)) err(`related link to missing page ${r}`);
   if (/dehumidifierverdict/i.test(JSON.stringify(d))) err('mentions dehumidifierverdict');
@@ -113,4 +129,4 @@ for (const { d } of targets)
   }
 console.log(`\nAffiliate links: ${direct + search} product cards — ${direct} direct /dp/ links, ${search} tagged searches; ${photo} with a product photo.`);
 console.log(`${targets.length} page(s) checked — ${errors} error(s), ${warnings} warning(s).`);
-process.exit(errors ? 1 : 0);
+process.exit(errors || process.exitCode ? 1 : 0);

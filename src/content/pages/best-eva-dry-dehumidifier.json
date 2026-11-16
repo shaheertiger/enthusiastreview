@@ -6,7 +6,7 @@
   "title": "Best Eva-Dry Dehumidifier (2026): E-333, EDV-1100 & EDV-2400",
   "h1": "The Best Eva-Dry Dehumidifiers",
   "dek": "Eva-Dry makes the little dehumidifiers people tuck into closets, safes, campers and bathrooms. Here's which one fits which space — and when you need something bigger.",
-  "description": "The best Eva-Dry dehumidifier for every small space: the E-333 renewable mini, E-500, EDV-1100 petite, EDV-2400 mid-size and EDV-4000 rotary desiccant.",
+  "description": "The cordless Eva-Dry E-333 suits most closets, safes and cabinets up to 333 cu ft. The E-500, EDV-1100, EDV-2400 and EDV-4000 compared for bigger spaces.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -152,13 +152,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "How it works", "Rated space", "Best for"],
+          "head": [
+            "Model",
+            "How it works",
+            "Rated space",
+            "Best for"
+          ],
           "rows": [
-            ["E-333 Renewable Mini", "Silica gel, cordless", "About 333 cu ft", "Closets, safes, cabinets, cars"],
-            ["E-500 Renewable", "Silica gel, cordless", "About 500 cu ft", "Big closets, boats, stored vehicles"],
-            ["EDV-1100 Petite", "Thermoelectric", "About 1,100 cu ft", "Bathrooms, closets, RVs"],
-            ["EDV-2400 Mid-Size", "Thermoelectric with humidistat", "Larger than the EDV-1100", "Small bedrooms, offices"],
-            ["EDV-4000", "Rotary desiccant", "Small rooms, including cool ones", "Garages, cabins, boats"]
+            [
+              "E-333 Renewable Mini",
+              "Silica gel, cordless",
+              "About 333 cu ft",
+              "Closets, safes, cabinets, cars"
+            ],
+            [
+              "E-500 Renewable",
+              "Silica gel, cordless",
+              "About 500 cu ft",
+              "Big closets, boats, stored vehicles"
+            ],
+            [
+              "EDV-1100 Petite",
+              "Thermoelectric",
+              "About 1,100 cu ft",
+              "Bathrooms, closets, RVs"
+            ],
+            [
+              "EDV-2400 Mid-Size",
+              "Thermoelectric with humidistat",
+              "Larger than the EDV-1100",
+              "Small bedrooms, offices"
+            ],
+            [
+              "EDV-4000",
+              "Rotary desiccant",
+              "Small rooms, including cool ones",
+              "Garages, cabins, boats"
+            ]
           ],
           "caption": "Coverage figures are Eva-Dry's own ratings. Real results depend on how humid and how sealed the space is."
         },
@@ -170,7 +200,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick Eva-Dry dehumidifiers",
+      "heading": "How we chose these Eva-Dry dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -184,7 +214,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an Eva-Dry dehumidifier",
+      "heading": "What should you look for in an Eva-Dry dehumidifier?",
       "blocks": [
         {
           "type": "checklist",

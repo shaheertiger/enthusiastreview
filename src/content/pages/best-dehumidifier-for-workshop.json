@@ -7,7 +7,7 @@
   "title": "Best Workshop & Woodshop Dehumidifier (2026): Stop Rust",
   "h1": "The Best Dehumidifiers for Workshops and Woodshops",
   "dek": "Humid air rusts cast iron, swells stock and stalls finishes. A shop dehumidifier holds the air steady so your tools and lumber stay put.",
-  "description": "The best woodshop and workshop dehumidifiers for rust-free cast iron and stable lumber, picked for cold-shop defrost, dust-ready filters and hands-off drainage.",
+  "description": "Hold a shop at 40–50% humidity to stop rust on cast iron. The 50-pint Frigidaire FFAD5033W1 is our top pick, with a washable filter and hose drain.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -175,26 +175,8 @@
   ],
   "sections": [
     {
-      "id": "shop-numbers",
-      "heading": "Workshop humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "40–50%", "label": "The humidity band that protects tools and keeps lumber stable" },
-            { "value": "~60%", "label": "Above roughly this level, rust on bare steel speeds up noticeably" },
-            { "value": "6–8%", "label": "Typical moisture content for wood bound for indoor furniture" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those numbers line up neatly. Wood at 70°F settles at about 8–9% moisture content in 45–50% humidity, which is close to what furniture will see indoors, and steel stays well below the humidity where corrosion takes off."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick workshop dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -208,7 +190,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a woodshop dehumidifier",
+      "heading": "What separates a good woodshop dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -247,13 +229,37 @@
         },
         {
           "type": "table",
-          "head": ["Shop humidity (at 70°F)", "Approximate wood moisture content", "What it means"],
+          "head": [
+            "Shop humidity (at 70°F)",
+            "Approximate wood moisture content",
+            "What it means"
+          ],
           "rows": [
-            ["30%", "About 6%", "Winter-dry; good for glue-ups headed to heated homes"],
-            ["40%", "About 8%", "Ideal for most indoor furniture work"],
-            ["50%", "About 9%", "Fine; the upper end of the comfort zone"],
-            ["60%", "About 11%", "Stock swells; rust risk rises"],
-            ["70%", "About 13%", "Joints loosen later; finishes cure slowly"]
+            [
+              "30%",
+              "About 6%",
+              "Winter-dry; good for glue-ups headed to heated homes"
+            ],
+            [
+              "40%",
+              "About 8%",
+              "Ideal for most indoor furniture work"
+            ],
+            [
+              "50%",
+              "About 9%",
+              "Fine; the upper end of the comfort zone"
+            ],
+            [
+              "60%",
+              "About 11%",
+              "Stock swells; rust risk rises"
+            ],
+            [
+              "70%",
+              "About 13%",
+              "Joints loosen later; finishes cure slowly"
+            ]
           ],
           "caption": "Rounded from published EMC tables; actual values vary by species and temperature."
         },
@@ -347,5 +353,28 @@
     "/best/best-dehumidifier-for-car-storage/",
     "/best/best-desiccant-dehumidifier/",
     "/best/best-dehumidifier-for-shed/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–50%",
+          "label": "The humidity band that protects tools and keeps lumber stable"
+        },
+        {
+          "value": "~60%",
+          "label": "Above roughly this level, rust on bare steel speeds up noticeably"
+        },
+        {
+          "value": "6–8%",
+          "label": "Typical moisture content for wood bound for indoor furniture"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those numbers line up neatly. Wood at 70°F settles at about 8–9% moisture content in 45–50% humidity, which is close to what furniture will see indoors, and steel stays well below the humidity where corrosion takes off."
+    }
   ]
 }

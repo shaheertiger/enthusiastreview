@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Rooms & Spaces",
   "navLabel": "Basements",
-  "title": "Best Dehumidifier for Basement Mold & Musty Smells (2026)",
+  "title": "Best Dehumidifier for Basement (2026): Pump & Low-Temp Picks",
   "h1": "The Best Basement Dehumidifiers for Mold, Damp and Musty Smells",
   "dek": "Below-grade air is cool, still and damp — exactly what mold wants. These dehumidifiers drain themselves and keep the basement in the safe zone.",
-  "description": "The best dehumidifiers for basement mold and musty smells, with self-draining pump picks, low-temperature models and the right size and setting for your space.",
+  "description": "A 50-pint unit suits most basements; the Midea Cube 50 is our top pick with a 4.35-gallon tank. Pump, low-temp and budget picks, plus the right setting.",
   "published": "2026-10-17",
   "updated": "2026-11-05",
   "intro": [
@@ -148,35 +148,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Basement moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "24–48 hrs",
-              "label": "How quickly mold can start on a damp surface, per the EPA"
-            },
-            {
-              "value": "30–50%",
-              "label": "The EPA's recommended indoor humidity range"
-            },
-            {
-              "value": "~65°F",
-              "label": "Below this, a standard unit needs auto-defrost to avoid icing"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "One more figure worth knowing: building-science guidance holds that a large share of the air on your first floor rises from the basement or crawl space. Drying the basement is often the real fix for a musty smell upstairs."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick basement dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -190,7 +163,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a basement dehumidifier",
+      "heading": "What matters most in a basement dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -332,5 +305,28 @@
     "/best/best-dehumidifier-for-musty-smell/",
     "/best/best-50-pint-dehumidifier/",
     "/guides/does-a-dehumidifier-help-with-mold/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can start on a damp surface, per the EPA"
+        },
+        {
+          "value": "30–50%",
+          "label": "The EPA's recommended indoor humidity range"
+        },
+        {
+          "value": "~65°F",
+          "label": "Below this, a standard unit needs auto-defrost to avoid icing"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "One more figure worth knowing: building-science guidance holds that a large share of the air on your first floor rises from the basement or crawl space. Drying the basement is often the real fix for a musty smell upstairs."
+    }
   ]
 }

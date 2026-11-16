@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Mold & Allergies",
   "navLabel": "Silverfish",
-  "title": "Best Dehumidifier for Silverfish (2026): Dry Out Moisture Pests",
+  "title": "Best Dehumidifier for Silverfish (2026): Dry Out the Pests",
   "h1": "The Best Dehumidifiers for Silverfish, Springtails and Booklice",
   "dek": "Silverfish, springtails and booklice all need damp air to survive. Take it away, and keep it away, and they move on.",
-  "description": "The best dehumidifier for silverfish, springtails and booklice, chosen for weeks of nonstop running, plus the humidity targets extension experts cite.",
+  "description": "Silverfish thrive at 75–95% humidity. The Midea 50-pint with pump holds a basement under 50% for weeks, no emptying. Picks for booklice and springtails too.",
   "published": "2026-10-28",
   "updated": "2026-11-05",
   "intro": [
@@ -176,35 +176,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Moisture pests, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "75–95%",
-              "label": "Relative humidity silverfish thrive in, per University of Minnesota Extension"
-            },
-            {
-              "value": "16 days",
-              "label": "At 50% humidity to kill every life stage of four booklouse species (2021 study)"
-            },
-            {
-              "value": "2–8 years",
-              "label": "Possible lifespan of an adult silverfish, per NC State Extension"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "A basement that hovers between 65% and 80% all summer sits squarely in silverfish territory. The EPA's mold guidance — keep indoor humidity below 60%, ideally 30–50% — doubles as the pest target, because the mold and damp debris that springtails and booklice eat stop forming in the same range."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for silverfish",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -218,7 +191,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for silverfish",
+      "heading": "How do you pick a dehumidifier for silverfish?",
       "blocks": [
         {
           "type": "checklist",
@@ -384,5 +357,28 @@
     "/best/best-dehumidifier-for-basement/",
     "/best/best-crawl-space-dehumidifier/",
     "/best/best-dehumidifier-for-closet/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "75–95%",
+          "label": "Relative humidity silverfish thrive in, per University of Minnesota Extension"
+        },
+        {
+          "value": "16 days",
+          "label": "At 50% humidity to kill every life stage of four booklouse species (2021 study)"
+        },
+        {
+          "value": "2–8 years",
+          "label": "Possible lifespan of an adult silverfish, per NC State Extension"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A basement that hovers between 65% and 80% all summer sits squarely in silverfish territory. The EPA's mold guidance — keep indoor humidity below 60%, ideally 30–50% — doubles as the pest target, because the mold and damp debris that springtails and booklice eat stop forming in the same range."
+    }
   ]
 }

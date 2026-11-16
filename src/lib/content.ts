@@ -61,14 +61,27 @@ export interface Page {
   /** Short label for cards and menus, e.g. "Basements". */
   navLabel?: string;
   intro: string[];
-  /** One sentence introducing the #1 pick, shown under "Our top picks". */
+  /** The answer in one or two sentences, naming the pick. Opens "<query>: The Short Answer". */
   topPicksLead?: string;
+  /** The scannable block under the short answer (usually a stats row and one paragraph). */
+  shortAnswer?: Block[];
   products: Product[];
   sections: Section[];
   faqs: { q: string; a: string }[];
   related?: string[];
   /** Every product must be a verified Amazon listing (checked by scripts/validate-content.mjs). */
   amazonOnly?: boolean;
+  /**
+   * Off-topic for a dehumidifier site: the page stays live for visitors but carries
+   * `noindex, follow` and is left out of the sitemap, hubs, menus, related links, autolinks
+   * and the Markdown/llms files, so it doesn't dilute the site's topical focus.
+   */
+  noindex?: boolean;
+  /**
+   * The exact search this page targets, e.g. "best dehumidifier for basement". Defaults to
+   * the title up to "(2026)", ":" or "?". Used for the "<query>: The short answer" heading.
+   */
+  query?: string;
 }
 
 const modules = import.meta.glob<{ default: Page }>('../content/pages/*.json', { eager: true });
@@ -84,9 +97,13 @@ export const realUpdated = (p: Pick<Page, 'slug' | 'published' | 'updated'>) => 
   return d < p.published ? p.published : d;
 };
 
-export const PAGES: Page[] = Object.values(modules)
+/** Every page, including noindexed ones. Only for generating routes. */
+export const ALL_PAGES: Page[] = Object.values(modules)
   .map((m) => ({ ...m.default, updated: realUpdated(m.default) }))
   .sort((a, b) => a.h1.localeCompare(b.h1));
+
+/** Indexable pages: everything that is linked, listed and submitted. */
+export const PAGES: Page[] = ALL_PAGES.filter((p) => !p.noindex);
 
 export const pathOf = (p: Pick<Page, 'section' | 'slug'>) => `/${p.section}/${p.slug}/`;
 
@@ -94,6 +111,10 @@ const BY_PATH = new Map(PAGES.map((p) => [pathOf(p), p]));
 export const pageByPath = (path: string) => BY_PATH.get(path.endsWith('/') ? path : `${path}/`);
 
 export const pagesIn = (section: SectionKey) => PAGES.filter((p) => p.section === section);
+/** Pages to build in a section, noindexed ones included. */
+export const routesIn = (section: SectionKey) => ALL_PAGES.filter((p) => p.section === section);
+
+export { queryOf } from '../data/page-copy.mjs';
 
 export function byCategory(pages: Page[] = PAGES) {
   return CATEGORIES.map((c) => ({ category: c, pages: pages.filter((p) => p.category === c) })).filter((g) => g.pages.length);
@@ -199,7 +220,7 @@ const TOPIC_TERMS: [RegExp, string][] = [
   [/\b50-pint (?:dehumidifiers? |units? |models? )?with (?:a )?(?:built-in )?pump\b/i, '/best/best-50-pint-dehumidifier-with-pump/'],
   [/\bfinished basements?\b/i, '/best/best-dehumidifier-for-finished-basement/'],
   [/\bbasements?\b/i, '/best/best-dehumidifier-for-basement/'],
-  [/\b(?:ducted|HVAC-integrated|in-?line) dehumidifiers?\b/i, '/best/best-ducted-dehumidifier/'],
+  [/\b(?:ducted|HVAC-integrated|in-?line) dehumidifiers?\b/i, '/best/best-whole-house-dehumidifier/'],
   [/\bwhole-(?:house|home) (?:dehumidifiers?|systems?|units?)\b/i, '/best/best-whole-house-dehumidifier/'],
   [/\bmini[- ]?splits?\b/i, '/best/best-dehumidifier-for-mini-split/'],
   [/\bportable (?:air conditioners?|ACs?)\b/i, '/best/best-air-conditioner-dehumidifier/'],
@@ -230,7 +251,7 @@ const TOPIC_TERMS: [RegExp, string][] = [
   [/\b(?:35|40)-pint\b/i, '/best/best-35-pint-dehumidifier/'],
   [/\bhanging (?:dehumidifiers?|bags?|moisture absorbers?)\b/i, '/best/best-hanging-dehumidifier/'],
   [/\bdrying (?:rooms?|racks?)\b|\bcuring\b/i, '/best/best-dehumidifier-for-drying-room/'],
-  [/\b(?:sleeping|while you sleep|sleep quality|trouble sleeping)\b/i, '/best/best-dehumidifier-for-sleeping/'],
+  [/\b(?:sleeping|while you sleep|sleep quality|trouble sleeping)\b/i, '/best/best-dehumidifier-for-bedroom/'],
   [/\bmusty\b/i, '/best/best-dehumidifier-for-musty-smell/'],
   [/\bblack mold\b/i, '/best/best-dehumidifier-for-black-mold/'],
   [/\bmold\b/i, '/guides/does-a-dehumidifier-help-with-mold/'],
@@ -276,7 +297,7 @@ const TOPIC_TERMS: [RegExp, string][] = [
   [/\battics?\b/i, '/best/best-dehumidifier-for-attic/'],
   [/\bsunrooms?\b/i, '/best/best-dehumidifier-for-sunroom/'],
   [/\bapartments?\b/i, '/best/best-dehumidifier-for-apartment/'],
-  [/\bcondos?\b/i, '/best/best-dehumidifier-for-condo/'],
+  [/\bcondos?\b/i, '/best/best-dehumidifier-for-apartment/'],
   [/\bdorm rooms?\b/i, '/best/best-dehumidifier-for-dorm-room/'],
   [/\bnurser(?:y|ies)\b/i, '/best/best-dehumidifier-for-nursery/'],
   [/\b(?:home )?offices?\b/i, '/best/best-dehumidifier-for-office/'],
@@ -296,7 +317,7 @@ const TOPIC_TERMS: [RegExp, string][] = [
   [/\bboats?\b/i, '/best/best-dehumidifier-for-boat/'],
   [/\bcars?\b/i, '/best/best-car-dehumidifier/'],
   [/\bgun safes?\b/i, '/best/best-dehumidifier-for-gun-safe/'],
-  [/\bgun cabinets?\b/i, '/best/best-dehumidifier-for-gun-cabinet/'],
+  [/\bgun cabinets?\b/i, '/best/best-dehumidifier-for-gun-safe/'],
   [/\bgreenhouses?\b/i, '/best/best-dehumidifier-for-greenhouse/'],
   [/\bgrow tents?\b/i, '/best/best-dehumidifier-for-grow-tent/'],
   [/\bterrariums?\b/i, '/best/best-dehumidifier-for-terrarium/'],
@@ -373,7 +394,7 @@ export function comparisonsFor(page: Page): Page[] {
  */
 export function keepReading(page: Page, n = 3): Page[] {
   const sibs = PAGES.filter((p) => p.category === page.category);
-  const i = sibs.indexOf(page);
+  const i = sibs.findIndex((p) => p.slug === page.slug);
   if (sibs.length < 2) return [];
   const out: Page[] = [];
   for (let k = 1; out.length < Math.min(n, sibs.length - 1); k++) out.push(sibs[(i + k) % sibs.length]);

@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Size & Features",
   "navLabel": "LGR",
-  "title": "Best LGR Dehumidifier (2026): Flood & Water Damage Picks",
+  "title": "Best LGR Dehumidifier (2026): Low-Grain Refrigerant Picks",
   "h1": "The Best LGR Dehumidifiers for Flooded Basements and Water Damage",
   "dek": "When a basement floods, a household dehumidifier stalls just as the hard part begins. Low-grain refrigerant units keep pulling water out of carpet, drywall and framing.",
-  "description": "The best LGR dehumidifiers for flood damage and water restoration, from the Dri-Eaz LGR 7000XLi to the AlorAir Storm, with amp draw and drying tips.",
+  "description": "The 85-pint (AHAM) AlorAir Storm LGR Extreme is the best LGR for most homes: a pump and 5-year warranty for less than pro units. Ratings and amps explained.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "amazonOnly": true,
@@ -178,26 +178,8 @@
   ],
   "sections": [
     {
-      "id": "lgr-numbers",
-      "heading": "LGR ratings, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "80°F / 60%", "label": "AHAM test condition — the fairest number to compare" },
-            { "value": "90°F / 90%", "label": "Saturation condition behind the biggest pint claims" },
-            { "value": "12 A", "label": "Continuous-load limit on a standard 15-amp household circuit" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Every LGR spec sheet quotes two capacities, and the saturation number can be nearly double the AHAM one. Saturation describes the first hours in a soaked room; AHAM is closer to the days of drying that follow. Compare machines on AHAM pints, then check the amps before you plug in more than one."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick LGR dehumidifiers",
+      "heading": "How we chose these LGR dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -211,7 +193,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an LGR dehumidifier",
+      "heading": "What should you look for in an LGR dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -265,12 +247,42 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "AHAM pints/day", "Saturation pints/day", "Amps", "Two on one 15 A circuit?"],
+          "head": [
+            "Model",
+            "AHAM pints/day",
+            "Saturation pints/day",
+            "Amps",
+            "Two on one 15 A circuit?"
+          ],
           "rows": [
-            ["AlorAir Storm LGR Extreme", "85", "180", "About 5.4", "Yes"],
-            ["Dri-Eaz LGR 6000Li", "100", "219", "6.5", "No"],
-            ["Dri-Eaz LGR 7000XLi", "130", "235", "8.8", "No"],
-            ["Dri-Eaz LGR 3500i", "170", "270", "10.8", "No — needs its own circuit"]
+            [
+              "AlorAir Storm LGR Extreme",
+              "85",
+              "180",
+              "About 5.4",
+              "Yes"
+            ],
+            [
+              "Dri-Eaz LGR 6000Li",
+              "100",
+              "219",
+              "6.5",
+              "No"
+            ],
+            [
+              "Dri-Eaz LGR 7000XLi",
+              "130",
+              "235",
+              "8.8",
+              "No"
+            ],
+            [
+              "Dri-Eaz LGR 3500i",
+              "170",
+              "270",
+              "10.8",
+              "No — needs its own circuit"
+            ]
           ],
           "caption": "Manufacturer ratings. Keep continuous loads at or below 12 A on a 15 A circuit."
         },
@@ -346,5 +358,28 @@
     "/guides/dehumidifier-rental/",
     "/best/best-industrial-dehumidifier/",
     "/best/best-alorair-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "80°F / 60%",
+          "label": "AHAM test condition — the fairest number to compare"
+        },
+        {
+          "value": "90°F / 90%",
+          "label": "Saturation condition behind the biggest pint claims"
+        },
+        {
+          "value": "12 A",
+          "label": "Continuous-load limit on a standard 15-amp household circuit"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Every LGR spec sheet quotes two capacities, and the saturation number can be nearly double the AHAM one. Saturation describes the first hours in a soaked room; AHAM is closer to the days of drying that follow. Compare machines on AHAM pints, then check the amps before you plug in more than one."
+    }
   ]
 }

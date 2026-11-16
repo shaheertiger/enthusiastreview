@@ -93,35 +93,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Vremi, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "11:50",
-              "label": "Minutes to dry a test room from 90% to 40% RH (Vremi 50-pint, independent test)"
-            },
-            {
-              "value": "2–3%",
-              "label": "How close the Vremi's built-in hygrometer read to actual humidity"
-            },
-            {
-              "value": "0",
-              "label": "Vremi dehumidifier recalls we found in the CPSC database"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put together, those numbers sum up the brand: a trustworthy display and a clean safety record, paired with drying speed that trails the category leaders. Because it drew an ordinary 570 watts while taking longer to finish the job, that same reviewer rated the 50-pint below average on energy efficiency among the 50-pint units it compared."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Vremi dehumidifiers",
+      "heading": "How we chose these Vremi dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -135,7 +108,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Vremi dehumidifier",
+      "heading": "What separates a good Vremi dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -289,5 +262,28 @@
     "/best/best-homelabs-dehumidifier/",
     "/best/best-costway-dehumidifier/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "11:50",
+          "label": "Minutes to dry a test room from 90% to 40% RH (Vremi 50-pint, independent test)"
+        },
+        {
+          "value": "2–3%",
+          "label": "How close the Vremi's built-in hygrometer read to actual humidity"
+        },
+        {
+          "value": "0",
+          "label": "Vremi dehumidifier recalls we found in the CPSC database"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put together, those numbers sum up the brand: a trustworthy display and a clean safety record, paired with drying speed that trails the category leaders. Because it drew an ordinary 570 watts while taking longer to finish the job, that same reviewer rated the 50-pint below average on energy efficiency among the 50-pint units it compared."
+    }
   ]
 }

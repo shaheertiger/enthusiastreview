@@ -4,10 +4,10 @@
   "category": "Rooms & Spaces",
   "navLabel": "Hot Rooms",
   "amazonOnly": true,
-  "title": "Best Dehumidifier for a Hot Room (2026): Dry Air, Less Heat",
+  "title": "Best Dehumidifier for Hot Room (2026): Dry Air, Less Heat",
   "h1": "The Best Dehumidifiers and AC Combos for a Hot Room",
   "dek": "A plain dehumidifier makes a hot room a little hotter. Here's how to dry sticky air without turning up the heat.",
-  "description": "The best dehumidifier for a hot room depends on where the heat goes. These picks dry muggy air while venting heat outdoors or adding as little as possible.",
+  "description": "A 500-watt dehumidifier adds about 3,200 BTU of heat an hour. The Midea Duo dries the air and vents that heat outside; 4 picks for hot, humid rooms.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -159,35 +159,8 @@
   ],
   "sections": [
     {
-      "id": "heat-by-the-numbers",
-      "heading": "A dehumidifier's heat, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~3.4 BTU",
-              "label": "Heat added to the room per hour for every watt a dehumidifier draws"
-            },
-            {
-              "value": "~1,000 BTU",
-              "label": "Heat released when one pint of water vapor condenses on the coil"
-            },
-            {
-              "value": "~3,200 BTU/hr",
-              "label": "Rough total from a 500-watt unit pulling 1.5 pints an hour"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That's roughly what a small space heater gives off on its low setting. A 6,000 BTU window air conditioner, by contrast, *removes* about twice that much heat every hour while it dries — the whole case for an AC in a genuinely hot room. For the physics, read [does a dehumidifier cool a room](/guides/does-a-dehumidifier-cool-a-room/)."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for hot rooms",
+      "heading": "How we chose these dehumidifiers for hot rooms",
       "blocks": [
         {
           "type": "p",
@@ -201,7 +174,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a hot room",
+      "heading": "How do you pick a dehumidifier for a hot room?",
       "blocks": [
         {
           "type": "checklist",
@@ -330,7 +303,7 @@
         {
           "type": "callout",
           "title": "Sleeping in a hot room?",
-          "text": "Dry the room in the evening and let the AC or humidistat cycle overnight. Our [dehumidifier for sleeping](/best/best-dehumidifier-for-sleeping/) guide covers quiet modes and bedroom setpoints."
+          "text": "Dry the room in the evening and let the AC or humidistat cycle overnight. Our [dehumidifier for sleeping](/best/best-dehumidifier-for-bedroom/) guide covers quiet modes and bedroom setpoints."
         }
       ]
     },
@@ -374,5 +347,28 @@
     "/best/best-dehumidifier-for-humid-climates/",
     "/best/best-dehumidifier-for-attic/",
     "/best/best-energy-efficient-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~3.4 BTU",
+          "label": "Heat added to the room per hour for every watt a dehumidifier draws"
+        },
+        {
+          "value": "~1,000 BTU",
+          "label": "Heat released when one pint of water vapor condenses on the coil"
+        },
+        {
+          "value": "~3,200 BTU/hr",
+          "label": "Rough total from a 500-watt unit pulling 1.5 pints an hour"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's roughly what a small space heater gives off on its low setting. A 6,000 BTU window air conditioner, by contrast, *removes* about twice that much heat every hour while it dries — the whole case for an AC in a genuinely hot room. For the physics, read [does a dehumidifier cool a room](/guides/does-a-dehumidifier-cool-a-room/)."
+    }
   ]
 }

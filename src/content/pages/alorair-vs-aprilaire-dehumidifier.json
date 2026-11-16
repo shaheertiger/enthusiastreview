@@ -3,10 +3,10 @@
   "section": "compare",
   "category": "Comparisons",
   "navLabel": "AlorAir vs. Aprilaire",
-  "title": "AlorAir vs. Aprilaire Dehumidifier (2026): Crawl Space Showdown",
+  "title": "AlorAir vs. Aprilaire Dehumidifier (2026): Crawl Space Pick",
   "h1": "AlorAir vs. Aprilaire Dehumidifiers: Which Crawl-Space Unit Is Worth It?",
   "dek": "One costs less than half as much and includes a pump. The other has a cleaner coverage rating and steadier warranty. Here's how to choose.",
-  "description": "AlorAir vs. Aprilaire for crawl spaces: the Sentinel HDi65S and E070 compared on AHAM capacity, coverage, drainage, warranty and total installed cost.",
+  "description": "The 55-pint AlorAir HDi65S is the better value for most crawl spaces; the 70-pint Aprilaire E070 suits large crawls. Capacity, pumps and cost compared.",
   "published": "2026-09-15",
   "updated": "2026-11-05",
   "intro": [
@@ -79,25 +79,70 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "AlorAir Sentinel HDi65S", "Aprilaire E070"],
+          "head": [
+            "",
+            "AlorAir Sentinel HDi65S",
+            "Aprilaire E070"
+          ],
           "rows": [
-            ["Capacity (AHAM)", "55 pints/day", "70 pints/day"],
-            ["Saturation rating", "120 pints/day", "Not the headline figure"],
-            ["Published coverage", "About 1,300 sq ft (Amazon listing)", "Up to 2,200 sq ft"],
-            ["Drainage", "Built-in pump, ~19.6 ft lift", "Bucketless; pump sold separately"],
-            ["Low-temp operation", "Auto-defrost to ~36°F", "No published low-temp rating"],
-            ["Warranty", "6 years limited (2 years full)", "5 years full parts, no labor"],
-            ["Sales channel", "Direct to consumer, online", "HVAC distributors, home centers"],
-            ["Typical price tier", "Well under $1,000", "Well over $1,500 before a pump"]
+            [
+              "Capacity (AHAM)",
+              "55 pints/day",
+              "70 pints/day"
+            ],
+            [
+              "Saturation rating",
+              "120 pints/day",
+              "Not the headline figure"
+            ],
+            [
+              "Published coverage",
+              "About 1,300 sq ft (Amazon listing)",
+              "Up to 2,200 sq ft"
+            ],
+            [
+              "Drainage",
+              "Built-in pump, ~19.6 ft lift",
+              "Bucketless; pump sold separately"
+            ],
+            [
+              "Low-temp operation",
+              "Auto-defrost to ~36°F",
+              "No published low-temp rating"
+            ],
+            [
+              "Warranty",
+              "6 years limited (2 years full)",
+              "5 years full parts, no labor"
+            ],
+            [
+              "Sales channel",
+              "Direct to consumer, online",
+              "HVAC distributors, home centers"
+            ],
+            [
+              "Typical price tier",
+              "Well under $1,000",
+              "Well over $1,500 before a pump"
+            ]
           ],
           "caption": "Specs from AlorAir and Aprilaire. Prices change often; check current listings."
         },
         {
           "type": "stats",
           "items": [
-            { "value": "55 vs. 70", "label": "AHAM pints per day, HDi65S vs. E070" },
-            { "value": "19.6 ft", "label": "Pump lift built into the AlorAir" },
-            { "value": "2,200 sq ft", "label": "Aprilaire's published E070 coverage" }
+            {
+              "value": "55 vs. 70",
+              "label": "AHAM pints per day, HDi65S vs. E070"
+            },
+            {
+              "value": "19.6 ft",
+              "label": "Pump lift built into the AlorAir"
+            },
+            {
+              "value": "2,200 sq ft",
+              "label": "Aprilaire's published E070 coverage"
+            }
           ]
         }
       ]

@@ -6,7 +6,7 @@
   "title": "Best Commercial Dehumidifier (2026): LGR Units for Job Sites",
   "h1": "The Best Commercial Dehumidifiers for Restoration and Job Sites",
   "dek": "When a building is wet, not just humid, you need a machine that drains itself, shrugs off the cold and keeps pulling water long after a home unit gives up.",
-  "description": "The best commercial dehumidifiers for flood restoration, job sites and crawl spaces: heavy-duty LGR units compared on AHAM pints, coverage and pump lift.",
+  "description": "The 85-pint (AHAM) AlorAir Storm LGR Extreme is the best commercial dehumidifier for most jobs: LGR drying, a built-in pump and a 5-year warranty.",
   "published": "2026-11-04",
   "updated": "2026-11-05",
   "intro": [
@@ -177,83 +177,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Commercial drying, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "24–48 hrs",
-              "label": "How soon wet building materials can start growing mold, per the EPA"
-            },
-            {
-              "value": "~40 gr/lb",
-              "label": "How dry an LGR unit can drive the air, in grains of water per pound"
-            },
-            {
-              "value": "$12,514",
-              "label": "Average homeowners insurance claim for water damage or freezing (III, 2017–2021)"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put those together and the case for capacity is simple: a slow dry-out is how a water claim turns into a mold claim. The faster the framing and subfloor get back to normal moisture levels, the less you tear out."
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "AHAM / saturation (pints/day)",
-            "Coverage",
-            "Best for"
-          ],
-          "rows": [
-            [
-              "AlorAir Storm LGR Extreme",
-              "85 / 180",
-              "Up to 2,300 sq ft",
-              "Most jobs"
-            ],
-            [
-              "Dri-Eaz Revolution",
-              "80 / 144",
-              "Single rooms, small leaks",
-              "Portability"
-            ],
-            [
-              "BlueDri BD-76",
-              "76 / 150",
-              "Up to ~2,000 sq ft",
-              "Rough job sites"
-            ],
-            [
-              "AlorAir Storm Elite",
-              "125 / 270",
-              "Up to 3,000 sq ft",
-              "Large open areas"
-            ],
-            [
-              "Dri-Eaz LGR 6000Li",
-              "100 / 219",
-              "Everyday water-damage jobs",
-              "Occupied homes"
-            ],
-            [
-              "Dri-Eaz LGR 7000XLi",
-              "~130 / —",
-              "Large restoration jobs",
-              "Pro fleets"
-            ]
-          ],
-          "caption": "Ratings are manufacturer figures. Compare machines on the AHAM column."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick commercial dehumidifiers",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -267,7 +192,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a commercial-grade dehumidifier",
+      "heading": "Which features matter in a commercial-grade dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -385,5 +310,76 @@
     "/best/best-dehumidifier-for-warehouse/",
     "/best/best-dri-eaz-dehumidifier/",
     "/guides/dehumidifier-rental/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24–48 hrs",
+          "label": "How soon wet building materials can start growing mold, per the EPA"
+        },
+        {
+          "value": "~40 gr/lb",
+          "label": "How dry an LGR unit can drive the air, in grains of water per pound"
+        },
+        {
+          "value": "$12,514",
+          "label": "Average homeowners insurance claim for water damage or freezing (III, 2017–2021)"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put those together and the case for capacity is simple: a slow dry-out is how a water claim turns into a mold claim. The faster the framing and subfloor get back to normal moisture levels, the less you tear out."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "AHAM / saturation (pints/day)",
+        "Coverage",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "AlorAir Storm LGR Extreme",
+          "85 / 180",
+          "Up to 2,300 sq ft",
+          "Most jobs"
+        ],
+        [
+          "Dri-Eaz Revolution",
+          "80 / 144",
+          "Single rooms, small leaks",
+          "Portability"
+        ],
+        [
+          "BlueDri BD-76",
+          "76 / 150",
+          "Up to ~2,000 sq ft",
+          "Rough job sites"
+        ],
+        [
+          "AlorAir Storm Elite",
+          "125 / 270",
+          "Up to 3,000 sq ft",
+          "Large open areas"
+        ],
+        [
+          "Dri-Eaz LGR 6000Li",
+          "100 / 219",
+          "Everyday water-damage jobs",
+          "Occupied homes"
+        ],
+        [
+          "Dri-Eaz LGR 7000XLi",
+          "~130 / —",
+          "Large restoration jobs",
+          "Pro fleets"
+        ]
+      ],
+      "caption": "Ratings are manufacturer figures. Compare machines on the AHAM column."
+    }
   ]
 }

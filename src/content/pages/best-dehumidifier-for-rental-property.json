@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Rental Property (2026): Landlord Picks",
   "h1": "The Best Dehumidifiers for Rental Properties",
   "dek": "A dehumidifier in a rental has to work without you there and without the tenant fussing over it. These are the ones that do.",
-  "description": "The best dehumidifiers for rental property: self-draining, Wi-Fi-monitored picks for landlords, plus who's responsible for damp and mold in a rental.",
+  "description": "Keep a rental under the EPA's 60% ceiling. The 50-pint Frigidaire FFAP5033W1 pumps itself empty, so tenants never touch a bucket. Plus who's liable for mold.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "amazonOnly": true,
@@ -59,7 +59,7 @@
         "Shorter track record than the big appliance brands"
       ],
       "whyWeLoveIt": "For a short-term rental or a unit between tenants, knowing what's happening matters as much as the drying itself. The GoveeLife app shows humidity and alerts you to problems, while the pump keeps water moving without anyone on site.",
-      "performance": "GoveeLife markets it for spaces up to 4,500 square feet. Treat that like other big coverage claims — one open, moderately damp area — and compare it to 50-pint DOE units rather than the larger pint number on the listing. Auto-defrost helps in a cool basement, and voice-assistant support is handy if the property already has a smart speaker. More connected options are in our [best Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) roundup.",
+      "performance": "GoveeLife markets it for spaces up to 4,500 square feet. Treat that like other big coverage claims — one open, moderately damp area — and compare it to 50-pint DOE units rather than the larger pint number on the listing. Auto-defrost helps in a cool basement, and voice-assistant support is handy if the property already has a smart speaker. More connected options are in our [best Wi-Fi dehumidifier](/best/best-smart-dehumidifier/) roundup.",
       "specs": {
         "Coverage": "Up to 4,500 sq ft (GoveeLife)",
         "Drainage": "Built-in pump or hose",
@@ -174,26 +174,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Rental humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "Below 60%", "label": "EPA's upper limit for indoor humidity to help prevent mold" },
-            { "value": "30–50%", "label": "EPA's ideal indoor humidity range" },
-            { "value": "24–48 hrs", "label": "How quickly mold can start on a damp surface, per the EPA" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last figure is why rentals need dehumidifiers that run without supervision. A unit that sits full and switched off for a long weekend in August can let a damp basement cross the line long before anyone notices."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for rental properties",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -207,7 +189,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a rental",
+      "heading": "Which features matter in a dehumidifier for a rental?",
       "blocks": [
         {
           "type": "checklist",
@@ -321,8 +303,31 @@
     "/best/best-dehumidifier-for-vacation-home/",
     "/best/best-dehumidifier-for-apartment/",
     "/best/best-dehumidifier-with-pump/",
-    "/best/best-wifi-dehumidifier/",
+    "/best/best-smart-dehumidifier/",
     "/best/best-crawl-space-dehumidifier/",
     "/guides/does-a-dehumidifier-help-with-mold/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "Below 60%",
+          "label": "EPA's upper limit for indoor humidity to help prevent mold"
+        },
+        {
+          "value": "30–50%",
+          "label": "EPA's ideal indoor humidity range"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can start on a damp surface, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last figure is why rentals need dehumidifiers that run without supervision. A unit that sits full and switched off for a long weekend in August can let a damp basement cross the line long before anyone notices."
+    }
   ]
 }

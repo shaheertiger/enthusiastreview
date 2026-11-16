@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Rooms & Spaces",
   "navLabel": "Drying Clothes",
-  "title": "Best Dehumidifier for Drying Clothes Indoors (2026)",
+  "title": "Best Dehumidifier for Drying Clothes Indoors (2026): 4 Picks",
   "h1": "The Best Dehumidifiers for Drying Clothes Indoors",
   "dek": "No dryer, no balcony, no problem. With the right setup, a dehumidifier turns a drying rack into a same-afternoon laundry system.",
-  "description": "The best dehumidifier for drying clothes indoors, plus the setup that dries washing on a rack in about two hours: closed door, fan and continuous mode.",
+  "description": "A dehumidifier plus a fan dries a rack of laundry in about 2 hours. The hOmeLabs HME1003 is our top pick; the Midea Cube 20 suits one apartment room.",
   "published": "2026-09-14",
   "updated": "2026-11-05",
   "intro": [
@@ -123,26 +123,8 @@
   ],
   "sections": [
     {
-      "id": "drying-numbers",
-      "heading": "Drying clothes indoors, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "~4¾ hrs", "label": "Drying time for a load with a dehumidifier alone in one published magazine test" },
-            { "value": "~2 hrs", "label": "Same load, same test, with a fan aimed at the rack" },
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The lesson from that test: airflow across the fabric matters about as much as how much water the dehumidifier removes. The two together beat either one alone."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for drying clothes",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -156,7 +138,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for clothes",
+      "heading": "What matters most in a dehumidifier for clothes?",
       "blocks": [
         {
           "type": "checklist",
@@ -214,12 +196,32 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Dehumidifier + rack", "Tumble dryer"],
+          "head": [
+            "",
+            "Dehumidifier + rack",
+            "Tumble dryer"
+          ],
           "rows": [
-            ["Drying time", "About 2–5 hours, depending on setup", "Usually under an hour"],
-            ["Heat on fabric", "None", "High, can shrink or fade"],
-            ["Installation", "Plug in anywhere", "Venting or hookups needed"],
-            ["Bonus", "Keeps the room dry all year", "Laundry only"]
+            [
+              "Drying time",
+              "About 2–5 hours, depending on setup",
+              "Usually under an hour"
+            ],
+            [
+              "Heat on fabric",
+              "None",
+              "High, can shrink or fade"
+            ],
+            [
+              "Installation",
+              "Plug in anywhere",
+              "Venting or hookups needed"
+            ],
+            [
+              "Bonus",
+              "Keeps the room dry all year",
+              "Laundry only"
+            ]
           ]
         },
         {
@@ -272,5 +274,28 @@
     "/guides/where-to-place-a-dehumidifier/",
     "/guides/how-to-dehumidify-a-room/",
     "/best/best-small-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~4¾ hrs",
+          "label": "Drying time for a load with a dehumidifier alone in one published magazine test"
+        },
+        {
+          "value": "~2 hrs",
+          "label": "Same load, same test, with a fan aimed at the rack"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The lesson from that test: airflow across the fabric matters about as much as how much water the dehumidifier removes. The two together beat either one alone."
+    }
   ]
 }

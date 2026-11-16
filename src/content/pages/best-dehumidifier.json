@@ -177,33 +177,6 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Damp air, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "24–48 hrs",
-              "label": "How fast mold can start growing on a damp surface, per the EPA"
-            },
-            {
-              "value": "30–50%",
-              "label": "Indoor relative humidity range the EPA recommends"
-            },
-            {
-              "value": "2019",
-              "label": "Year the DOE's tougher test made today's pint ratings run lower than old labels"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last figure trips up a lot of shoppers. The DOE now tests dehumidifiers at 65°F instead of 80°F, which is closer to real basement conditions but produces smaller numbers. A unit labeled 50 pints today removes roughly what an old 70-pint model claimed. Always compare pint ratings under the same test."
-        }
-      ]
-    },
-    {
       "id": "picks-at-a-glance",
       "heading": "Our picks at a glance",
       "blocks": [
@@ -258,7 +231,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick the best dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -272,7 +245,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier",
+      "heading": "What should you look for in a dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -396,5 +369,28 @@
     "/best/best-crawl-space-dehumidifier/",
     "/guides/dehumidifier-size-guide/",
     "/best/best-budget-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24–48 hrs",
+          "label": "How fast mold can start growing on a damp surface, per the EPA"
+        },
+        {
+          "value": "30–50%",
+          "label": "Indoor relative humidity range the EPA recommends"
+        },
+        {
+          "value": "2019",
+          "label": "Year the DOE's tougher test made today's pint ratings run lower than old labels"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last figure trips up a lot of shoppers. The DOE now tests dehumidifiers at 65°F instead of 80°F, which is closer to real basement conditions but produces smaller numbers. A unit labeled 50 pints today removes roughly what an old 70-pint model claimed. Always compare pint ratings under the same test."
+    }
   ]
 }

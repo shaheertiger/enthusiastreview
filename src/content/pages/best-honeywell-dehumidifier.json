@@ -111,7 +111,7 @@
         "No pump"
       ],
       "whyWeLoveIt": "Want app control and the lowest running cost in a basement that already has a floor drain? The TP50AWKNR carries ENERGY STAR's Most Efficient label and works with both Alexa and Google, so it suits a homeowner who wants smart control without paying for a pump.",
-      "performance": "Honeywell rates it at 32 pints a day under the 2019 DOE test — it was previously labeled 50 pints on the old scale — for spaces up to 3,000 square feet. A digital humidistat, 24-hour timer, sleep mode, low-temperature operation and auto-restart cover the basics, and the included drain tube lets it run continuously into a floor drain. For other connected units, see our [best Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) roundup.",
+      "performance": "Honeywell rates it at 32 pints a day under the 2019 DOE test — it was previously labeled 50 pints on the old scale — for spaces up to 3,000 square feet. A digital humidistat, 24-hour timer, sleep mode, low-temperature operation and auto-restart cover the basics, and the included drain tube lets it run continuously into a floor drain. For other connected units, see our [best Wi-Fi dehumidifier](/best/best-smart-dehumidifier/) roundup.",
       "specs": {
         "Capacity": "32 pints/day (DOE 2019)",
         "Coverage": "Up to 3,000 sq ft (Honeywell)",
@@ -124,72 +124,8 @@
   ],
   "sections": [
     {
-      "id": "honeywell-by-the-numbers",
-      "heading": "Honeywell dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "2014",
-              "label": "Year JMATEK began building Honeywell-branded dehumidifiers under license"
-            },
-            {
-              "value": "70 → 50",
-              "label": "A \"TP70\" removes about 50 pints a day under the 2019 DOE test"
-            },
-            {
-              "value": "5 years",
-              "label": "Honeywell's limited sealed-system warranty"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Model name implies",
-            "DOE 2019 rating",
-            "Pump",
-            "Smart"
-          ],
-          "rows": [
-            [
-              "TP30WKN",
-              "30 pints",
-              "About 20 pints",
-              "No",
-              "No (TP30AWKNR: yes)"
-            ],
-            [
-              "TP50WKN / TPFIT50AWK / TP50AWKNR",
-              "50 pints",
-              "About 32 pints",
-              "No",
-              "TPFIT50AWK, TP50AWKNR: yes"
-            ],
-            [
-              "TP70WKN",
-              "70 pints",
-              "50 pints",
-              "No",
-              "No"
-            ],
-            [
-              "TPFIT50PWK",
-              "50 pints",
-              "50 pints",
-              "Yes",
-              "No"
-            ]
-          ],
-          "caption": "Always compare the current DOE rating, not the number in the model name. Older TP70 names imply 70 pints; the newer TPFIT50PWK is rated at the 50 its name says."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best Honeywell dehumidifiers",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -199,7 +135,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Honeywell dehumidifier",
+      "heading": "What matters most in a Honeywell dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -311,9 +247,69 @@
   "related": [
     "/compare/frigidaire-vs-honeywell-dehumidifier/",
     "/best/best-dehumidifier-with-pump/",
-    "/best/best-wifi-dehumidifier/",
+    "/best/best-smart-dehumidifier/",
     "/best/best-dehumidifier-for-basement/",
     "/best/best-dehumidifier-brands/",
     "/best/best-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2014",
+          "label": "Year JMATEK began building Honeywell-branded dehumidifiers under license"
+        },
+        {
+          "value": "70 → 50",
+          "label": "A \"TP70\" removes about 50 pints a day under the 2019 DOE test"
+        },
+        {
+          "value": "5 years",
+          "label": "Honeywell's limited sealed-system warranty"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Model name implies",
+        "DOE 2019 rating",
+        "Pump",
+        "Smart"
+      ],
+      "rows": [
+        [
+          "TP30WKN",
+          "30 pints",
+          "About 20 pints",
+          "No",
+          "No (TP30AWKNR: yes)"
+        ],
+        [
+          "TP50WKN / TPFIT50AWK / TP50AWKNR",
+          "50 pints",
+          "About 32 pints",
+          "No",
+          "TPFIT50AWK, TP50AWKNR: yes"
+        ],
+        [
+          "TP70WKN",
+          "70 pints",
+          "50 pints",
+          "No",
+          "No"
+        ],
+        [
+          "TPFIT50PWK",
+          "50 pints",
+          "50 pints",
+          "Yes",
+          "No"
+        ]
+      ],
+      "caption": "Always compare the current DOE rating, not the number in the model name. Older TP70 names imply 70 pints; the newer TPFIT50PWK is rated at the 50 its name says."
+    }
   ]
 }

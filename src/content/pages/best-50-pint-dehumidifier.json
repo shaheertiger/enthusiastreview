@@ -152,35 +152,8 @@
   ],
   "sections": [
     {
-      "id": "fifty-pint-numbers",
-      "heading": "50-pint dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "~30%",
-              "label": "How much lower pint ratings run under the DOE's 2019 test than the old one"
-            },
-            {
-              "value": "4,500 sq ft",
-              "label": "Typical rated coverage for a true 50-pint unit in a damp space"
-            },
-            {
-              "value": "32 pints",
-              "label": "Actual DOE 2019 rating of Honeywell's TPFIT50AWK, despite its name"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "The first number explains the third. When the DOE dropped the test temperature from 80°F to 65°F, less water condensed out of the test air, so every machine's rating fell. Today's 50-pint unit is roughly what would have been sold as a 70-pinter before 2019."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick 50-pint dehumidifiers",
+      "heading": "How we chose these 50-pint dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -194,7 +167,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a 50-pint dehumidifier",
+      "heading": "How do you pick a 50-pint dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -375,5 +348,28 @@
     "/best/best-dehumidifier-with-pump/",
     "/guides/dehumidifier-size-guide/",
     "/best/best-midea-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "~30%",
+          "label": "How much lower pint ratings run under the DOE's 2019 test than the old one"
+        },
+        {
+          "value": "4,500 sq ft",
+          "label": "Typical rated coverage for a true 50-pint unit in a damp space"
+        },
+        {
+          "value": "32 pints",
+          "label": "Actual DOE 2019 rating of Honeywell's TPFIT50AWK, despite its name"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The first number explains the third. When the DOE dropped the test temperature from 80°F to 65°F, less water condensed out of the test air, so every machine's rating fell. Today's 50-pint unit is roughly what would have been sold as a 70-pinter before 2019."
+    }
   ]
 }

@@ -2,8 +2,8 @@
 
 Static [Astro](https://astro.build) site of dehumidifier reviews, buying guides and comparisons,
 with Amazon affiliate links (tag `sktiger-20`). Every review page follows a magazine
-buyer's-guide layout: title and dek → byline → disclosure → product hero → intro →
-**Our top picks** → numbered product cards (photo, Amazon button, pros/cons, write-up,
+buyer's-guide layout: title and dek → byline → disclosure → **"<search>: The Short Answer"**
+(verdict, stats, top picks) → product hero → intro → numbered product cards (photo, Amazon button, pros/cons, write-up,
 "Features at a glance") → how we pick → what to look for → topic sections → FAQ →
 why trust us → **Readers also read**.
 
@@ -100,14 +100,26 @@ Pages live at `/best/<slug>/`, `/guides/<slug>/` and `/compare/<slug>/`, with hu
 - Search console verification: set `PUBLIC_GOOGLE_SITE_VERIFICATION` and `PUBLIC_BING_SITE_VERIFICATION` in Vercel.
 - IndexNow: every Vercel **production** build ends by submitting every sitemap URL to IndexNow (Bing picks changes up within hours). Previews and local builds skip it, and a failed ping never fails the deploy. `npm run indexnow` submits the live sitemap by hand. Key file in `public/`.
 
+### Ranking method
+
+[`docs/ranking-method.md`](docs/ranking-method.md) is the full method for Google and Bing: one URL per search, page types,
+snippet formulas, the page skeleton, the keyword → page map and the pre-publish checklist. In short:
+
+- **One page per search.** `npm run validate` fails if two indexable pages target the same search. Merge the weaker one
+  into the stronger (move its unique sections and FAQs) and add a 301 for both its HTML and `.md` URL in `vercel.json`.
+- **Off-topic pages** get `"noindex": true`: they stay live but leave the sitemap, hubs, menus, related links and llms files.
+- **Answer first.** The first H2 is "<search>: The Short Answer", built from `topPicksLead` (the verdict) and
+  `shortAnswer` (a stats row or table). The search defaults to the title before "(2026)", ":" or "?"; set `query` to override.
+- **Boilerplate varies by page type** (`src/data/page-copy.mjs`): disclosure, byline method line and trust box.
+
 ### Bing first
 
 Nearly all search traffic to sites like this comes from Bing-powered engines (Bing, DuckDuckGo, Yahoo, Ecosia, Copilot), so the on-page rules follow what Bing rewards:
 
-- **Titles lead with the query**, 50–65 characters. The ` | Enthusiast Review` suffix is added only when it still fits in 65 (`src/layouts/Base.astro`). A year goes in the title only where the answer changes by year: buying guides and brand comparisons carry `(2026)`; how-tos and explainers do not.
-- **Meta descriptions are 110–160 characters** and answer the query; Bing shows them more often than Google rewrites them.
+- **Titles lead with the query**, 50–62 characters. The ` | Enthusiast Review` suffix is added only when it still fits in 65 (`src/layouts/Base.astro`). A year goes in the title only where the answer changes by year: buying guides, brand pages, store pages and comparisons carry `(2026)`; how-tos and explainers do not.
+- **Meta descriptions are 140–158 characters and open with the answer and a number** (the pick and its capacity, the target, the cost); Bing shows them more often than Google rewrites them.
 - **Real dates.** A page's `updated` date is the last git commit that changed its JSON (`scripts/page-dates.mjs`, the first build step, writes the gitignored `src/data/git-dates.json`). Vercel builds from a shallow clone, so the script fetches full history first and ignores the shallow boundary commit if it cannot. The `updated` field in each JSON is only the fallback. Never bump a date without a real change.
 
-`npm run build && npm run audit:seo` (add `--list` for the URLs) reports titles, descriptions, H1s, dates, FAQ schema and weakly linked pages against those rules. Run it monthly, and after any big batch.
+`npm run build && npm run audit:seo` (add `--list` for the URLs) reports titles, descriptions (length and answer-first), the Short Answer H2, duplicate titles, the share of question H2s, H1s, dates, FAQ schema and weakly linked pages against those rules. Run it monthly, and after any big batch.
 
 Bing Webmaster Tools: the home page has no `msvalidate.01` tag unless `PUBLIC_BING_SITE_VERIFICATION` is set in Vercel. Confirm the site is verified (by that tag or by DNS), and submit `/sitemap.xml`.

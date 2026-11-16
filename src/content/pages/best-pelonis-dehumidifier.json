@@ -145,79 +145,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Pelonis dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "5 of 5",
-              "label": "Certified Pelonis listings that name GD Midea as the manufacturer"
-            },
-            {
-              "value": "2.01 L/kWh",
-              "label": "Efficiency of the 35-, 40- and 50-pint models — exactly the ENERGY STAR minimum"
-            },
-            {
-              "value": "12.66 pints",
-              "label": "Bucket size on the 50-pint, about a quarter of its rated daily output"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Capacity (DOE 2019)",
-            "Drainage",
-            "Efficiency",
-            "ENERGY STAR"
-          ],
-          "rows": [
-            [
-              "PAD22C1DWT (22-pint)",
-              "22.27 pints/day",
-              "Bucket + gravity hose",
-              "1.70 L/kWh",
-              "Yes, at the floor"
-            ],
-            [
-              "PAD35C1DWTS (35-pint)",
-              "36.39 pints/day",
-              "Bucket + gravity hose",
-              "2.01 L/kWh",
-              "Yes, at the floor"
-            ],
-            [
-              "PAD40C1AWTS (40-pint)",
-              "41.79 pints/day",
-              "Bucket + gravity hose",
-              "2.01 L/kWh",
-              "S-suffix only"
-            ],
-            [
-              "PAD50P1ABLS (50-pint)",
-              "49.74 pints/day",
-              "Built-in pump",
-              "2.01 L/kWh",
-              "S-suffix only"
-            ],
-            [
-              "PAD60P1AGR (60-pint)",
-              "60 pints/day (spec)",
-              "Built-in pump",
-              "2.8 L/kWh (spec)",
-              "No"
-            ]
-          ],
-          "caption": "Figures from ENERGY STAR's certified-product data where available, otherwise Pelonis spec tables."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Pelonis dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -231,7 +160,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Pelonis dehumidifier",
+      "heading": "What separates a good Pelonis dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -413,5 +342,72 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-budget-dehumidifier/",
     "/best/best-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "5 of 5",
+          "label": "Certified Pelonis listings that name GD Midea as the manufacturer"
+        },
+        {
+          "value": "2.01 L/kWh",
+          "label": "Efficiency of the 35-, 40- and 50-pint models — exactly the ENERGY STAR minimum"
+        },
+        {
+          "value": "12.66 pints",
+          "label": "Bucket size on the 50-pint, about a quarter of its rated daily output"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity (DOE 2019)",
+        "Drainage",
+        "Efficiency",
+        "ENERGY STAR"
+      ],
+      "rows": [
+        [
+          "PAD22C1DWT (22-pint)",
+          "22.27 pints/day",
+          "Bucket + gravity hose",
+          "1.70 L/kWh",
+          "Yes, at the floor"
+        ],
+        [
+          "PAD35C1DWTS (35-pint)",
+          "36.39 pints/day",
+          "Bucket + gravity hose",
+          "2.01 L/kWh",
+          "Yes, at the floor"
+        ],
+        [
+          "PAD40C1AWTS (40-pint)",
+          "41.79 pints/day",
+          "Bucket + gravity hose",
+          "2.01 L/kWh",
+          "S-suffix only"
+        ],
+        [
+          "PAD50P1ABLS (50-pint)",
+          "49.74 pints/day",
+          "Built-in pump",
+          "2.01 L/kWh",
+          "S-suffix only"
+        ],
+        [
+          "PAD60P1AGR (60-pint)",
+          "60 pints/day (spec)",
+          "Built-in pump",
+          "2.8 L/kWh (spec)",
+          "No"
+        ]
+      ],
+      "caption": "Figures from ENERGY STAR's certified-product data where available, otherwise Pelonis spec tables."
+    }
   ]
 }

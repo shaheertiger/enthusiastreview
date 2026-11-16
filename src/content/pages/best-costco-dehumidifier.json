@@ -6,7 +6,7 @@
   "title": "Best Costco Dehumidifier (2026): Hisense and Midea Picks",
   "h1": "The Best Costco Dehumidifiers — and How to Shop the Rotating Aisle",
   "dek": "Costco's dehumidifier selection comes and goes like everything else in the warehouse. Here's what's worth grabbing when you see it, and what to check before you do.",
-  "description": "The best Costco dehumidifiers now: the Hisense 35-pint plus rotating Midea and Hisense 50-pint pump models, and how to judge a Costco deal.",
+  "description": "The 35-pint Hisense is the one dehumidifier Costco.com reliably stocks; Midea and Hisense 50-pint pump models rotate in. How to judge a Costco deal.",
   "published": "2026-10-20",
   "updated": "2026-11-05",
   "intro": [
@@ -96,35 +96,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Costco dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "1",
-              "label": "Dehumidifier we could confirm as a standing Costco.com listing"
-            },
-            {
-              "value": "~2×",
-              "label": "Price spread reported on the identical Midea 50-pint SKU during 2026"
-            },
-            {
-              "value": "3.4M",
-              "label": "Units in Midea's 2016 recall — an older generation than current stock"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That middle number is the key to shopping Costco. The same Midea pump model was reported at everything from roughly $100 on in-store clearance to about $200 at regular member price — the same box, months apart."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Costco dehumidifiers",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -138,7 +111,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Costco dehumidifier",
+      "heading": "Which features matter in a Costco dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -325,5 +298,28 @@
     "/best/best-danby-dehumidifier/",
     "/best/best-50-pint-dehumidifier/",
     "/best/best-dehumidifier-with-pump/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "1",
+          "label": "Dehumidifier we could confirm as a standing Costco.com listing"
+        },
+        {
+          "value": "~2×",
+          "label": "Price spread reported on the identical Midea 50-pint SKU during 2026"
+        },
+        {
+          "value": "3.4M",
+          "label": "Units in Midea's 2016 recall — an older generation than current stock"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That middle number is the key to shopping Costco. The same Midea pump model was reported at everything from roughly $100 on in-store clearance to about $200 at regular member price — the same box, months apart."
+    }
   ]
 }

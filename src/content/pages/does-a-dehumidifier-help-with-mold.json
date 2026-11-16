@@ -95,24 +95,6 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Mold and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "Indoor humidity the EPA recommends; keep it below 60%" },
-            { "value": "24–48 hrs", "label": "EPA window to dry wet materials before mold can start" },
-            { "value": "10 sq ft", "label": "EPA's rough threshold for when to consider professional help" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Those three numbers frame everything a dehumidifier can and can't do. It's excellent at the first, helpful with the second, and no substitute for proper cleanup once you've passed the third."
-        }
-      ]
-    },
-    {
       "id": "how-it-helps",
       "heading": "How a dehumidifier helps prevent mold",
       "blocks": [
@@ -193,7 +175,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for mold control",
+      "heading": "How do you pick a dehumidifier for mold control?",
       "blocks": [
         {
           "type": "checklist",
@@ -266,5 +248,28 @@
     "/best/best-dehumidifier-for-allergies/",
     "/guides/dehumidifier-vs-air-purifier/",
     "/best/best-dehumidifier-for-basement/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity the EPA recommends; keep it below 60%"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "EPA window to dry wet materials before mold can start"
+        },
+        {
+          "value": "10 sq ft",
+          "label": "EPA's rough threshold for when to consider professional help"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Those three numbers frame everything a dehumidifier can and can't do. It's excellent at the first, helpful with the second, and no substitute for proper cleanup once you've passed the third."
+    }
   ]
 }

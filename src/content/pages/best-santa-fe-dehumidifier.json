@@ -3,7 +3,7 @@
   "section": "best",
   "category": "Brands",
   "navLabel": "Santa Fe",
-  "title": "Best Santa Fe Dehumidifiers (2026): Ultra V100, Compact70 & More",
+  "title": "Best Santa Fe Dehumidifier (2026): Ultra V100 & Compact70",
   "h1": "The Best Santa Fe Dehumidifiers",
   "dek": "Santa Fe pairs whole-home drying with hospital-grade filtration and a six-year warranty. Here’s which model fits your basement, crawl space or house.",
   "description": "The best Santa Fe dehumidifiers for 2026 — Ultra V100, Ultra120, Classic, Compact70 and Advance2 — with ventilation, MERV-13 filters and warranty explained.",
@@ -177,83 +177,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Santa Fe, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "6 years",
-              "label": "Warranty on current-generation Santa Fe models built from January 2024"
-            },
-            {
-              "value": "MERV-13",
-              "label": "Filtration on the Ultra V100, Ultra120 and Classic"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How quickly mold can start growing on damp materials, per the EPA"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Capacity",
-            "Coverage",
-            "Ventilating",
-            "Filter"
-          ],
-          "rows": [
-            [
-              "Ultra V100",
-              "Up to 100 pints/day",
-              "About 2,300 sq ft",
-              "Yes",
-              "MERV-13"
-            ],
-            [
-              "Ultra120",
-              "118–121 pints/day",
-              "Up to 3,000 sq ft",
-              "Yes",
-              "MERV-13"
-            ],
-            [
-              "Classic",
-              "110 pints/day (AHAM)",
-              "Up to 2,700 sq ft",
-              "No",
-              "MERV-13"
-            ],
-            [
-              "Compact70",
-              "70 pints/day",
-              "Up to 2,200 sq ft",
-              "No",
-              "See spec sheet"
-            ],
-            [
-              "Advance2",
-              "70 pints/day (AHAM)",
-              "Up to 2,200 sq ft",
-              "No",
-              "MERV-8"
-            ]
-          ],
-          "caption": "Ratings from Santa Fe’s published specifications."
-        },
-        {
-          "type": "p",
-          "text": "ENERGY STAR-certified dehumidifiers use about 15% less energy on average than standard models. On a whole-house unit that runs most of the day, that difference adds up quickly."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Santa Fe dehumidifiers",
+      "heading": "How were these picks chosen?",
       "blocks": [
         {
           "type": "p",
@@ -267,7 +192,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Santa Fe dehumidifier",
+      "heading": "What matters most in a Santa Fe dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -375,5 +300,76 @@
     "/best/best-whole-house-dehumidifier/",
     "/best/best-crawl-space-dehumidifier/",
     "/best/best-dehumidifier-for-basement/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "6 years",
+          "label": "Warranty on current-generation Santa Fe models built from January 2024"
+        },
+        {
+          "value": "MERV-13",
+          "label": "Filtration on the Ultra V100, Ultra120 and Classic"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can start growing on damp materials, per the EPA"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Capacity",
+        "Coverage",
+        "Ventilating",
+        "Filter"
+      ],
+      "rows": [
+        [
+          "Ultra V100",
+          "Up to 100 pints/day",
+          "About 2,300 sq ft",
+          "Yes",
+          "MERV-13"
+        ],
+        [
+          "Ultra120",
+          "118–121 pints/day",
+          "Up to 3,000 sq ft",
+          "Yes",
+          "MERV-13"
+        ],
+        [
+          "Classic",
+          "110 pints/day (AHAM)",
+          "Up to 2,700 sq ft",
+          "No",
+          "MERV-13"
+        ],
+        [
+          "Compact70",
+          "70 pints/day",
+          "Up to 2,200 sq ft",
+          "No",
+          "See spec sheet"
+        ],
+        [
+          "Advance2",
+          "70 pints/day (AHAM)",
+          "Up to 2,200 sq ft",
+          "No",
+          "MERV-8"
+        ]
+      ],
+      "caption": "Ratings from Santa Fe’s published specifications."
+    },
+    {
+      "type": "p",
+      "text": "ENERGY STAR-certified dehumidifiers use about 15% less energy on average than standard models. On a whole-house unit that runs most of the day, that difference adds up quickly."
+    }
   ]
 }

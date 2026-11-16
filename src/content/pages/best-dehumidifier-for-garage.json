@@ -149,35 +149,8 @@
   ],
   "sections": [
     {
-      "id": "garage-by-the-numbers",
-      "heading": "Garage humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "40–50%",
-              "label": "Target humidity to protect tools, drywall and stored gear"
-            },
-            {
-              "value": "~65°F",
-              "label": "Below this, compressor units lose efficiency and can ice up"
-            },
-            {
-              "value": "~33°F",
-              "label": "How low a desiccant dehumidifier can keep working"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Corrosion speeds up as humidity climbs past roughly 50–60%, which is why bare steel tools and fasteners start to bloom with rust in a muggy garage. Keeping the space in the 40s is the single most effective thing you can do for them."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick the best garage dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -191,7 +164,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a garage dehumidifier",
+      "heading": "How do you pick a garage dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -322,5 +295,28 @@
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-for-gym/",
     "/guides/dehumidifier-freezing-up/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "40–50%",
+          "label": "Target humidity to protect tools, drywall and stored gear"
+        },
+        {
+          "value": "~65°F",
+          "label": "Below this, compressor units lose efficiency and can ice up"
+        },
+        {
+          "value": "~33°F",
+          "label": "How low a desiccant dehumidifier can keep working"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Corrosion speeds up as humidity climbs past roughly 50–60%, which is why bare steel tools and fasteners start to bloom with rust in a muggy garage. Keeping the space in the 40s is the single most effective thing you can do for them."
+    }
   ]
 }

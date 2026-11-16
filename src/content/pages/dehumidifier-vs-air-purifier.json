@@ -3,17 +3,17 @@
   "section": "guides",
   "category": "Buying Advice",
   "navLabel": "vs. Air Purifier",
-  "title": "Air Purifier vs. Dehumidifier: Which Do You Need?",
+  "title": "Air Purifier vs. Dehumidifier: Which Do You Need at Home?",
   "h1": "Air Purifier vs. Dehumidifier: Which One Do You Actually Need?",
   "dek": "One removes water, the other removes particles. Buy the wrong one and the problem that's bugging you won't budge.",
-  "description": "Air purifier vs. dehumidifier explained: what each removes, which fixes mold, allergies, dust and musty smells, and when it's worth running both.",
+  "description": "Only a dehumidifier lowers humidity to the EPA's 30–50%; an air purifier catches 99.97% of particles but no moisture. Which fixes mold, allergies and odors.",
   "published": "2026-09-14",
   "updated": "2026-11-05",
   "intro": [
     "The **air purifier vs. dehumidifier** question trips people up because the two machines look alike: boxy, floor-standing and marketed as \"cleaner air.\" But they solve unrelated problems with unrelated hardware. A dehumidifier pulls **water vapor** out of the air to fix dampness, condensation and mold risk. An air purifier pulls **particles** — dust, pollen, pet dander, smoke — through a filter, and it has no effect on humidity at all.",
     "So the right choice depends on what's actually bothering you. Musty smell, foggy windows or a damp basement? That's a dehumidifier job. Sneezing, pet dander or wildfire smoke in a room with normal humidity? That's an air purifier job. Plenty of homes need both, and we'll explain why two dedicated machines usually beat one combo unit."
   ],
-  "topPicksLead": "If dampness is your problem, start with the **Midea Cube 50**; if particles are, the **Levoit Core 300S** is an easy, affordable air purifier for a bedroom.",
+  "topPicksLead": "Get a dehumidifier if the problem is dampness, mold or a musty smell: it's the only one that lowers humidity. Get an air purifier for dust, pollen, pet dander or smoke: a True HEPA filter catches 99.97% of 0.3-micron particles but removes no moisture. Allergy sufferers in damp homes often run both.",
   "products": [
     {
       "id": "midea-cube-50",
@@ -69,32 +69,42 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Dehumidifier vs. air purifier, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "Indoor humidity the EPA recommends — a target only a dehumidifier can hit" },
-            { "value": "99.97%", "label": "Particle capture at 0.3 microns required of a true HEPA filter" },
-            { "value": "0%", "label": "Humidity reduction you'll get from even the best air purifier" }
-          ]
-        }
-      ]
-    },
-    {
       "id": "what-each-does",
       "heading": "What each machine actually does",
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Dehumidifier", "Air purifier"],
+          "head": [
+            "",
+            "Dehumidifier",
+            "Air purifier"
+          ],
           "rows": [
-            ["Removes", "Water vapor (humidity)", "Airborne particles: dust, pollen, dander, smoke"],
-            ["How", "Condenses moisture on a cold coil into a tank or drain", "Pulls air through a HEPA filter, often with carbon"],
-            ["Fixes", "Musty smell, foggy windows, damp basements, mold risk", "Allergies, pet dander, dust, wildfire smoke, some odors"],
-            ["Does nothing for", "Dust, pollen, smoke particles", "Humidity, condensation, mold-causing dampness"],
-            ["Typical price", "About $150–$300 for a room unit", "About $80–$300 for a room unit"]
+            [
+              "Removes",
+              "Water vapor (humidity)",
+              "Airborne particles: dust, pollen, dander, smoke"
+            ],
+            [
+              "How",
+              "Condenses moisture on a cold coil into a tank or drain",
+              "Pulls air through a HEPA filter, often with carbon"
+            ],
+            [
+              "Fixes",
+              "Musty smell, foggy windows, damp basements, mold risk",
+              "Allergies, pet dander, dust, wildfire smoke, some odors"
+            ],
+            [
+              "Does nothing for",
+              "Dust, pollen, smoke particles",
+              "Humidity, condensation, mold-causing dampness"
+            ],
+            [
+              "Typical price",
+              "About $150–$300 for a room unit",
+              "About $80–$300 for a room unit"
+            ]
           ]
         },
         {
@@ -177,11 +187,27 @@
         },
         {
           "type": "table",
-          "head": ["Machine", "What it changes", "Use it when"],
+          "head": [
+            "Machine",
+            "What it changes",
+            "Use it when"
+          ],
           "rows": [
-            ["Dehumidifier", "Lowers humidity", "Air is damp, musty or above ~50–60%"],
-            ["Humidifier", "Raises humidity", "Air is dry, below ~30%; static, dry skin, cracked wood"],
-            ["Air purifier", "Removes particles", "Allergies, dander, dust or smoke at normal humidity"]
+            [
+              "Dehumidifier",
+              "Lowers humidity",
+              "Air is damp, musty or above ~50–60%"
+            ],
+            [
+              "Humidifier",
+              "Raises humidity",
+              "Air is dry, below ~30%; static, dry skin, cracked wood"
+            ],
+            [
+              "Air purifier",
+              "Removes particles",
+              "Allergies, dander, dust or smoke at normal humidity"
+            ]
           ]
         },
         {
@@ -234,5 +260,24 @@
     "/best/best-dehumidifier-for-allergies/",
     "/guides/does-a-dehumidifier-help-with-mold/",
     "/best/best-dehumidifier-for-musty-smell/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity the EPA recommends — a target only a dehumidifier can hit"
+        },
+        {
+          "value": "99.97%",
+          "label": "Particle capture at 0.3 microns required of a true HEPA filter"
+        },
+        {
+          "value": "0%",
+          "label": "Humidity reduction you'll get from even the best air purifier"
+        }
+      ]
+    }
   ]
 }

@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Closet (2026): Bags, Mini & Electric",
   "h1": "The Best Dehumidifiers for Closets, From Hanging Bags to Small Electric Units",
   "dek": "Closets trap still, damp air against your clothes and shoes. The fix is usually small, silent and cordless — here’s what to buy.",
-  "description": "The best dehumidifier for a closet: renewable minis, dehumidifier bags for closet rods, and small electric units for walk-ins that stay humid.",
+  "description": "The cordless Eva-Dry E-333 covers about 300 cu ft, a standard reach-in closet; the E-500 hangs in walk-ins. Bags, minis and small electric units.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -146,26 +146,8 @@
   ],
   "sections": [
     {
-      "id": "closet-numbers",
-      "heading": "Closet humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "30–50%", "label": "Indoor humidity range the EPA recommends for a healthy home" },
-            { "value": "24–48 hrs", "label": "How quickly mold can begin growing on a damp surface" },
-            { "value": "~300 cu ft", "label": "Rated coverage of one Eva-Dry E-333 — about a standard reach-in" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "A typical reach-in closet is around 2 feet deep, 5 or 6 feet wide and 8 feet tall — roughly 80 to 100 cubic feet. That’s why a single renewable unit covers most of them comfortably, while a large walk-in may need the bigger E-500 or two smaller units."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick closet dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -179,7 +161,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a closet dehumidifier",
+      "heading": "What matters most in a closet dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -214,12 +196,37 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Type", "Power", "Upkeep", "Best for"],
+          "head": [
+            "Type",
+            "Power",
+            "Upkeep",
+            "Best for"
+          ],
           "rows": [
-            ["Disposable hanging bags", "None", "Replace about every 60 days", "Trying an absorber, odor control"],
-            ["Renewable silica unit", "Outlet only to recharge", "Recharge every few weeks", "Most reach-in closets"],
-            ["Thermo-electric mini", "Outlet needed", "Empty a small tank", "Closets that stay above 55–60%"],
-            ["Compressor unit", "Outlet needed", "Bucket or hose", "The room the closet opens into"]
+            [
+              "Disposable hanging bags",
+              "None",
+              "Replace about every 60 days",
+              "Trying an absorber, odor control"
+            ],
+            [
+              "Renewable silica unit",
+              "Outlet only to recharge",
+              "Recharge every few weeks",
+              "Most reach-in closets"
+            ],
+            [
+              "Thermo-electric mini",
+              "Outlet needed",
+              "Empty a small tank",
+              "Closets that stay above 55–60%"
+            ],
+            [
+              "Compressor unit",
+              "Outlet needed",
+              "Bucket or hose",
+              "The room the closet opens into"
+            ]
           ]
         },
         {
@@ -290,5 +297,28 @@
     "/best/best-dehumidifier-for-musty-smell/",
     "/best/best-dehumidifier-for-apartment/",
     "/best/best-dehumidifier-for-sneaker-collection/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Indoor humidity range the EPA recommends for a healthy home"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How quickly mold can begin growing on a damp surface"
+        },
+        {
+          "value": "~300 cu ft",
+          "label": "Rated coverage of one Eva-Dry E-333 — about a standard reach-in"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A typical reach-in closet is around 2 feet deep, 5 or 6 feet wide and 8 feet tall — roughly 80 to 100 cubic feet. That’s why a single renewable unit covers most of them comfortably, while a large walk-in may need the bigger E-500 or two smaller units."
+    }
   ]
 }

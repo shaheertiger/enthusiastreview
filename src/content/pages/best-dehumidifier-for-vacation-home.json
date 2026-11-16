@@ -4,10 +4,10 @@
   "category": "Rooms & Spaces",
   "navLabel": "Vacation Homes",
   "amazonOnly": true,
-  "title": "Best Dehumidifier for a Vacation Home (2026): Set & Forget",
+  "title": "Best Dehumidifier for Vacation Home (2026): Set & Forget Picks",
   "h1": "The Best Dehumidifiers for a Vacation Home",
   "dek": "An empty house in a humid season is a mold experiment you can't see. These dehumidifiers drain themselves, restart and tell you when something's wrong.",
-  "description": "The best dehumidifier for a vacation home drains itself, restarts after outages and sends alerts. Our picks for beach houses, lake homes and second homes.",
+  "description": "Set 45–50% humidity while you're away. The GoveeLife with pump drains itself and is adjustable from your phone; auto-restart picks for beach and lake homes.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -156,35 +156,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Vacation home humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "Under 60%",
-              "label": "Indoor humidity the EPA recommends to limit mold growth"
-            },
-            {
-              "value": "24–48 hrs",
-              "label": "How soon mold can start on damp materials, per the EPA"
-            },
-            {
-              "value": "45–50%",
-              "label": "A sensible dehumidifier setting while you're away"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Put the first two together and the risk is obvious: a house that drifts above 60% for even a couple of weeks gives mold plenty of time. A dehumidifier set to 45–50% leaves a comfortable margin if it falls behind during a rainy stretch."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for vacation homes",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -198,7 +171,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a vacation home dehumidifier",
+      "heading": "How do you pick a vacation home dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -213,7 +186,7 @@
             },
             {
               "label": "Two layers of alerts",
-              "text": "The dehumidifier's app plus a battery-powered hygrometer that reports on its own. See our [Wi-Fi dehumidifier](/best/best-wifi-dehumidifier/) picks."
+              "text": "The dehumidifier's app plus a battery-powered hygrometer that reports on its own. See our [Wi-Fi dehumidifier](/best/best-smart-dehumidifier/) picks."
             },
             {
               "label": "Tamper-resistant setup",
@@ -324,9 +297,32 @@
   "related": [
     "/best/best-dehumidifier-for-cabin/",
     "/best/best-dehumidifier-for-rental-property/",
-    "/best/best-wifi-dehumidifier/",
+    "/best/best-smart-dehumidifier/",
     "/best/best-dehumidifier-with-pump/",
     "/best/best-dehumidifier-for-humid-climates/",
     "/best/best-hygrometer/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "Under 60%",
+          "label": "Indoor humidity the EPA recommends to limit mold growth"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "How soon mold can start on damp materials, per the EPA"
+        },
+        {
+          "value": "45–50%",
+          "label": "A sensible dehumidifier setting while you're away"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Put the first two together and the risk is obvious: a house that drifts above 60% for even a couple of weeks gives mold plenty of time. A dehumidifier set to 45–50% leaves a comfortable margin if it falls behind during a rainy stretch."
+    }
   ]
 }

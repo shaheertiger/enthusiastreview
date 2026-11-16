@@ -119,67 +119,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Kesnos, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "95°F / 90%",
-              "label": "The saturation test condition behind Kesnos’s pint ratings"
-            },
-            {
-              "value": "15–20%",
-              "label": "How much lower a DOE 2019 rating typically runs than the older AHAM test"
-            },
-            {
-              "value": "0",
-              "label": "CPSC recalls we found tied to the Kesnos name"
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "head": [
-            "Model",
-            "Rated capacity",
-            "Coverage",
-            "Pump"
-          ],
-          "rows": [
-            [
-              "30-Pint",
-              "30 pints/day",
-              "Up to 2,500 sq ft",
-              "No"
-            ],
-            [
-              "PD253D",
-              "70 pints/day (saturation)",
-              "Up to 5,000 sq ft",
-              "No"
-            ],
-            [
-              "155-Pint",
-              "155 pints/day (saturation)",
-              "Up to 7,500 sq ft",
-              "Yes, 16.4-ft lift"
-            ],
-            [
-              "216-Pint Commercial",
-              "216 pints/day (saturation)",
-              "Up to 8,500 sq ft",
-              "Yes, 16.4-ft hose"
-            ]
-          ],
-          "caption": "Capacity and coverage are Kesnos’s own ratings."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Kesnos dehumidifiers",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -193,7 +134,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Kesnos dehumidifier",
+      "heading": "What should you look for in a Kesnos dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -314,5 +255,60 @@
     "/best/best-dehumidifier-for-basement/",
     "/guides/dehumidifier-size-guide/",
     "/best/best-alorair-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "95°F / 90%",
+          "label": "The saturation test condition behind Kesnos’s pint ratings"
+        },
+        {
+          "value": "15–20%",
+          "label": "How much lower a DOE 2019 rating typically runs than the older AHAM test"
+        },
+        {
+          "value": "0",
+          "label": "CPSC recalls we found tied to the Kesnos name"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Model",
+        "Rated capacity",
+        "Coverage",
+        "Pump"
+      ],
+      "rows": [
+        [
+          "30-Pint",
+          "30 pints/day",
+          "Up to 2,500 sq ft",
+          "No"
+        ],
+        [
+          "PD253D",
+          "70 pints/day (saturation)",
+          "Up to 5,000 sq ft",
+          "No"
+        ],
+        [
+          "155-Pint",
+          "155 pints/day (saturation)",
+          "Up to 7,500 sq ft",
+          "Yes, 16.4-ft lift"
+        ],
+        [
+          "216-Pint Commercial",
+          "216 pints/day (saturation)",
+          "Up to 8,500 sq ft",
+          "Yes, 16.4-ft hose"
+        ]
+      ],
+      "caption": "Capacity and coverage are Kesnos’s own ratings."
+    }
   ]
 }

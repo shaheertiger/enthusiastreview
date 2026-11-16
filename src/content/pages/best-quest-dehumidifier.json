@@ -6,7 +6,7 @@
   "title": "Best Quest Dehumidifier (2026): Dual 155, 205, 225, 335 & 506",
   "h1": "The Best Quest Dehumidifiers for Grow Rooms and Commercial Spaces",
   "dek": "Quest builds the workhorses that keep flower rooms out of the mold zone. Here’s which model fits your space, your circuit and your plant count.",
-  "description": "The best Quest dehumidifier for your space: Dual 155, Dual 205, Quest 225, 335 and 506 compared by capacity, voltage, mounting and grow-room fit.",
+  "description": "The 155-pint Quest Dual 155 is the best Quest for most grow rooms: it runs on 115 V at about 8 amps and hangs overhead. The 205, 225, 335 and 506 compared.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -146,26 +146,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Quest dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "80°F / 60%", "label": "Test conditions behind Quest’s pint ratings" },
-            { "value": "155–500", "label": "Pints per day across the current lineup" },
-            { "value": "115 V vs. 230 V", "label": "The circuit that decides your shortlist" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That first number matters more than it looks. Home dehumidifiers are rated under the DOE’s 2019 test at a cool 65°F, which produces modest figures. Quest rates its machines at 80°F and 60% humidity — warm and wet, close to a flower room after lights-off — which yields bigger numbers. They’re honest numbers for that environment, but don’t compare them pint-for-pint with a portable from a big-box store, and expect less water once the room is already down near 50%. Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) explains the different rating systems."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick Quest dehumidifiers",
+      "heading": "How we chose these Quest dehumidifiers",
       "blocks": [
         {
           "type": "p",
@@ -179,7 +161,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Quest dehumidifier",
+      "heading": "What matters most in a Quest dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -222,14 +204,42 @@
         },
         {
           "type": "table",
-          "head": ["Water fed per day", "Approx. moisture load", "Quest that fits"],
+          "head": [
+            "Water fed per day",
+            "Approx. moisture load",
+            "Quest that fits"
+          ],
           "rows": [
-            ["10 gallons", "About 80 pints", "Dual 155 (plenty of headroom)"],
-            ["15–18 gallons", "120–145 pints", "Dual 155"],
-            ["20–22 gallons", "160–175 pints", "Dual 205"],
-            ["25–28 gallons", "200–225 pints", "Quest 225, or two Dual 155s"],
-            ["35–40 gallons", "280–320 pints", "Quest 335"],
-            ["50+ gallons", "400+ pints", "Quest 506, or multiple units"]
+            [
+              "10 gallons",
+              "About 80 pints",
+              "Dual 155 (plenty of headroom)"
+            ],
+            [
+              "15–18 gallons",
+              "120–145 pints",
+              "Dual 155"
+            ],
+            [
+              "20–22 gallons",
+              "160–175 pints",
+              "Dual 205"
+            ],
+            [
+              "25–28 gallons",
+              "200–225 pints",
+              "Quest 225, or two Dual 155s"
+            ],
+            [
+              "35–40 gallons",
+              "280–320 pints",
+              "Quest 335"
+            ],
+            [
+              "50+ gallons",
+              "400+ pints",
+              "Quest 506, or multiple units"
+            ]
           ],
           "caption": "A rule-of-thumb guide; rooms that run hot, use open reservoirs or flood tables need more capacity."
         },
@@ -337,5 +347,28 @@
     "/best/best-santa-fe-dehumidifier/",
     "/best/best-phoenix-dehumidifier/",
     "/best/best-dehumidifier-for-warehouse/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "80°F / 60%",
+          "label": "Test conditions behind Quest’s pint ratings"
+        },
+        {
+          "value": "155–500",
+          "label": "Pints per day across the current lineup"
+        },
+        {
+          "value": "115 V vs. 230 V",
+          "label": "The circuit that decides your shortlist"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That first number matters more than it looks. Home dehumidifiers are rated under the DOE’s 2019 test at a cool 65°F, which produces modest figures. Quest rates its machines at 80°F and 60% humidity — warm and wet, close to a flower room after lights-off — which yields bigger numbers. They’re honest numbers for that environment, but don’t compare them pint-for-pint with a portable from a big-box store, and expect less water once the room is already down near 50%. Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) explains the different rating systems."
+    }
   ]
 }

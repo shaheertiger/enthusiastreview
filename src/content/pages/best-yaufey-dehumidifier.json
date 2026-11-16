@@ -6,7 +6,7 @@
   "title": "Best Yaufey Dehumidifier (2026): Models, Reviews & Manual Tips",
   "h1": "The Best Yaufey Dehumidifiers",
   "dek": "A basement-and-crawl-space specialist with one standout model, one budget unit to inspect on arrival, and a clean recall record.",
-  "description": "The best Yaufey dehumidifier for rooms, basements and crawl spaces: the 30-, 70- and 125-pint models compared, plus what owner reviews actually report.",
+  "description": "The 70-pint Yaufey AYD1.5DPM, with a pump and a 5-year warranty, is the strongest buy; the 30-pint suits one room. 30-, 70- and 125-pint models compared.",
   "published": "2026-09-17",
   "updated": "2026-11-05",
   "intro": [
@@ -99,24 +99,6 @@
   ],
   "sections": [
     {
-      "id": "yaufey-by-the-numbers",
-      "heading": "Yaufey dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "5 years", "label": "Warranty on the 70-pint AYD1.5DPM" },
-            { "value": "3.8 pints", "label": "Tank size on the entry-level 30-pint model" },
-            { "value": "0", "label": "Yaufey dehumidifier recalls in the CPSC database" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That clean recall record is worth noting, but Yaufey is a younger, lower-volume brand than names like Frigidaire or GE, so it carries less weight than it would for a company that's shipped millions of units over decades."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
       "heading": "How we evaluated Yaufey dehumidifiers",
       "blocks": [
@@ -132,7 +114,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a Yaufey dehumidifier",
+      "heading": "What should you look for in a Yaufey dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -167,11 +149,35 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Best for", "Capacity", "Coverage", "Pump"],
+          "head": [
+            "Model",
+            "Best for",
+            "Capacity",
+            "Coverage",
+            "Pump"
+          ],
           "rows": [
-            ["Yaufey 30-Pint", "Small room", "30 pints/day", "Up to 1,500 sq ft", "No — tank or gravity hose"],
-            ["Yaufey 70-Pint (AYD1.5DPM)", "Basement", "70 pints/day", "Up to 5,000 sq ft", "Yes, 16.4-ft hose"],
-            ["Yaufey 125-Pint (AYD2.0DPM)", "Crawl space", "125 pints/day", "Crawl-space rated", "Yes"]
+            [
+              "Yaufey 30-Pint",
+              "Small room",
+              "30 pints/day",
+              "Up to 1,500 sq ft",
+              "No — tank or gravity hose"
+            ],
+            [
+              "Yaufey 70-Pint (AYD1.5DPM)",
+              "Basement",
+              "70 pints/day",
+              "Up to 5,000 sq ft",
+              "Yes, 16.4-ft hose"
+            ],
+            [
+              "Yaufey 125-Pint (AYD2.0DPM)",
+              "Crawl space",
+              "125 pints/day",
+              "Crawl-space rated",
+              "Yes"
+            ]
           ]
         }
       ]
@@ -251,5 +257,28 @@
     "/best/best-70-pint-dehumidifier/",
     "/compare/alorair-vs-aprilaire-dehumidifier/",
     "/guides/crawl-space-dehumidifier-installation/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "5 years",
+          "label": "Warranty on the 70-pint AYD1.5DPM"
+        },
+        {
+          "value": "3.8 pints",
+          "label": "Tank size on the entry-level 30-pint model"
+        },
+        {
+          "value": "0",
+          "label": "Yaufey dehumidifier recalls in the CPSC database"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That clean recall record is worth noting, but Yaufey is a younger, lower-volume brand than names like Frigidaire or GE, so it carries less weight than it would for a company that's shipped millions of units over decades."
+    }
   ]
 }

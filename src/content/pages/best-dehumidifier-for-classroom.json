@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Classroom (2026): Quiet, Hands-Off Picks",
   "h1": "The Best Dehumidifiers for Classrooms",
   "dek": "A classroom unit has to stay quiet during lessons and keep working through long weekends and summer break, when nobody walks in to check on it.",
-  "description": "The best dehumidifier for a classroom: quiet units for lesson time, auto-restart and drain-hose models for breaks, and a pump pick for portable classrooms.",
+  "description": "A standard 600–900 sq ft classroom suits a 20-pint unit; the quiet Midea Cube 20 is our top pick. Auto-restart, drain-hose and pump picks for breaks.",
   "published": "2026-08-30",
   "updated": "2026-11-05",
   "intro": [
@@ -120,35 +120,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Classroom humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "<60%",
-              "label": "EPA guidance for school buildings, with 30–50% the ideal range"
-            },
-            {
-              "value": "600–900 sq ft",
-              "label": "Typical size of a standard classroom"
-            },
-            {
-              "value": "35 dBA",
-              "label": "Background-noise limit in ANSI/ASA S12.60 for core learning spaces"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That last number is the honest catch: no compressor dehumidifier is as quiet as the national classroom acoustics standard asks for in an empty room. The practical answer is a quiet unit on a low fan during lessons, with the heavy lifting done after hours and on weekends."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick classroom dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -166,7 +139,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a classroom",
+      "heading": "What should you look for in a dehumidifier for a classroom?",
       "blocks": [
         {
           "type": "checklist",
@@ -273,5 +246,28 @@
     "/best/best-dehumidifier-with-drain-hose/",
     "/guides/does-a-dehumidifier-help-with-mold/",
     "/best/best-dehumidifier-for-allergies/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "<60%",
+          "label": "EPA guidance for school buildings, with 30–50% the ideal range"
+        },
+        {
+          "value": "600–900 sq ft",
+          "label": "Typical size of a standard classroom"
+        },
+        {
+          "value": "35 dBA",
+          "label": "Background-noise limit in ANSI/ASA S12.60 for core learning spaces"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That last number is the honest catch: no compressor dehumidifier is as quiet as the national classroom acoustics standard asks for in an empty room. The practical answer is a quiet unit on a low fan during lessons, with the heavy lifting done after hours and on weekends."
+    }
   ]
 }

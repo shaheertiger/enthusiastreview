@@ -200,35 +200,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "50-pint pump dehumidifiers, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "50 pints",
-              "label": "Largest portable size under the 2019 DOE test — roughly a 70-pint on older labels"
-            },
-            {
-              "value": "~15–16 ft",
-              "label": "Typical vertical lift of a residential built-in pump"
-            },
-            {
-              "value": "0",
-              "label": "Buckets to empty once the pump line is in place"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That middle number is why a pump is worth the premium. A gravity hose only works if the drain sits below the unit’s outlet; a pump can push water up to a utility sink, across a joist to a drain stack, or out a basement window."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick 50-pint dehumidifiers with pumps",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -242,7 +215,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a 50-pint dehumidifier with a pump",
+      "heading": "Which features matter in a 50-pint dehumidifier with a pump?",
       "blocks": [
         {
           "type": "checklist",
@@ -419,5 +392,28 @@
     "/best/best-dehumidifier-with-drain-hose/",
     "/guides/dehumidifier-size-guide/",
     "/best/best-frigidaire-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "50 pints",
+          "label": "Largest portable size under the 2019 DOE test — roughly a 70-pint on older labels"
+        },
+        {
+          "value": "~15–16 ft",
+          "label": "Typical vertical lift of a residential built-in pump"
+        },
+        {
+          "value": "0",
+          "label": "Buckets to empty once the pump line is in place"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That middle number is why a pump is worth the premium. A gravity hose only works if the drain sits below the unit’s outlet; a pump can push water up to a utility sink, across a joist to a drain stack, or out a basement window."
+    }
   ]
 }

@@ -4,10 +4,10 @@
   "category": "Specialty & Storage",
   "navLabel": "Drying Drywall",
   "amazonOnly": true,
-  "title": "Best Dehumidifier for Drywall (2026): Mud, Plaster & New Builds",
+  "title": "Best Dehumidifier for Drywall (2026): Mud, Plaster & New Build",
   "h1": "The Best Dehumidifiers for Drying Drywall and Plaster",
   "dek": "Joint compound, plaster and wet wallboard all dry on the air's schedule. A construction dehumidifier puts you back in charge of it.",
-  "description": "The best dehumidifier for drywall, mud and plaster drying: LGR construction units, a compact one-room pick and a budget setup, plus target moisture readings.",
+  "description": "Joint compound needs about 24 hours a coat above 55°F. The 85-pint AlorAir Storm LGR Extreme is our top drywall pick; one-room and budget picks too.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -153,26 +153,8 @@
   ],
   "sections": [
     {
-      "id": "drywall-numbers",
-      "heading": "Drying drywall, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "24 hrs", "label": "Typical drying time per coat of joint compound in moderate conditions" },
-            { "value": "55°F+", "label": "Minimum room temperature compound makers call for during finishing" },
-            { "value": "24–48 hrs", "label": "Window the EPA gives to dry water-damaged materials before mold risk climbs" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That 24-hour figure assumes ordinary indoor conditions. In a cool, muggy room it can stretch to two or three days per coat, which is exactly the delay a dehumidifier eliminates."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for drying drywall",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -190,13 +172,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Model", "Capacity", "Drainage", "Power draw", "Best for"],
+          "head": [
+            "Model",
+            "Capacity",
+            "Drainage",
+            "Power draw",
+            "Best for"
+          ],
           "rows": [
-            ["AlorAir Storm LGR Extreme", "85 pints AHAM", "Pump, 14.7 ft lift", "About 5.4 A", "A floor of drywall"],
-            ["Dri-Eaz Revolution", "80 pints AHAM", "Pump", "Compact LGR", "One room or a leak"],
-            ["Dri-Eaz LGR 7000XLi", "130 pints AHAM", "Automatic pump-out", "About 8.8 A", "New construction"],
-            ["hOmeLabs 50-Pint Wi-Fi", "50 pints (listing)", "Bucket or hose", "Household unit", "Patches, small rooms"],
-            ["Vornado 660", "No moisture removal", "None", "Fan", "Pairing with any pick"]
+            [
+              "AlorAir Storm LGR Extreme",
+              "85 pints AHAM",
+              "Pump, 14.7 ft lift",
+              "About 5.4 A",
+              "A floor of drywall"
+            ],
+            [
+              "Dri-Eaz Revolution",
+              "80 pints AHAM",
+              "Pump",
+              "Compact LGR",
+              "One room or a leak"
+            ],
+            [
+              "Dri-Eaz LGR 7000XLi",
+              "130 pints AHAM",
+              "Automatic pump-out",
+              "About 8.8 A",
+              "New construction"
+            ],
+            [
+              "hOmeLabs 50-Pint Wi-Fi",
+              "50 pints (listing)",
+              "Bucket or hose",
+              "Household unit",
+              "Patches, small rooms"
+            ],
+            [
+              "Vornado 660",
+              "No moisture removal",
+              "None",
+              "Fan",
+              "Pairing with any pick"
+            ]
           ],
           "caption": "AHAM ratings (80°F, 60% RH) and DOE 2019 ratings (65°F, 60% RH) use different conditions, so the numbers aren't directly comparable."
         }
@@ -204,7 +222,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "How to choose a construction dehumidifier",
+      "heading": "How do you choose a construction dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -212,7 +230,10 @@
             {
               "label": "Match the machine to the project",
               "text": "One room or a small leak suits a compact LGR or a household 50-pint unit. A full floor calls for a Storm-class LGR. A whole new build or gut renovation may need a 7000XLi-class unit or several machines.",
-              "sub": ["Closed doors shrink the space you have to dry", "Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) covers everyday pint math"]
+              "sub": [
+                "Closed doors shrink the space you have to dry",
+                "Our [dehumidifier size guide](/guides/dehumidifier-size-guide/) covers everyday pint math"
+              ]
             },
             {
               "label": "Choose LGR for wet walls",
@@ -252,12 +273,32 @@
         },
         {
           "type": "table",
-          "head": ["Material", "What dry looks like", "Before you…"],
+          "head": [
+            "Material",
+            "What dry looks like",
+            "Before you…"
+          ],
           "rows": [
-            ["Joint compound", "Uniform color with no darker damp patches; meter matches the surrounding board", "Sand or apply the next coat"],
-            ["Wet drywall after a leak", "Reading matches the dry standard from an unaffected wall", "Prime, paint or close up"],
-            ["Wood framing", "At or below 19% (the usual definition of dry lumber); many builders aim for 15% or less", "Hang new drywall"],
-            ["Room air", "Holding steady around 40–50% RH", "Paint and switch to everyday humidity control"]
+            [
+              "Joint compound",
+              "Uniform color with no darker damp patches; meter matches the surrounding board",
+              "Sand or apply the next coat"
+            ],
+            [
+              "Wet drywall after a leak",
+              "Reading matches the dry standard from an unaffected wall",
+              "Prime, paint or close up"
+            ],
+            [
+              "Wood framing",
+              "At or below 19% (the usual definition of dry lumber); many builders aim for 15% or less",
+              "Hang new drywall"
+            ],
+            [
+              "Room air",
+              "Holding steady around 40–50% RH",
+              "Paint and switch to everyday humidity control"
+            ]
           ],
           "caption": "Always follow the compound, plaster or paint manufacturer's instructions where they differ."
         },
@@ -358,5 +399,28 @@
     "/guides/dehumidifier-rental/",
     "/best/best-commercial-dehumidifier/",
     "/best/best-dehumidifier-fan/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "24 hrs",
+          "label": "Typical drying time per coat of joint compound in moderate conditions"
+        },
+        {
+          "value": "55°F+",
+          "label": "Minimum room temperature compound makers call for during finishing"
+        },
+        {
+          "value": "24–48 hrs",
+          "label": "Window the EPA gives to dry water-damaged materials before mold risk climbs"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That 24-hour figure assumes ordinary indoor conditions. In a cool, muggy room it can stretch to two or three days per coat, which is exactly the delay a dehumidifier eliminates."
+    }
   ]
 }

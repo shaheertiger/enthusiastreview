@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Size & Features",
   "navLabel": "Rechargeable",
-  "title": "Best Rechargeable Dehumidifier (2026): Cordless Silica Gel Picks",
+  "title": "Best Rechargeable Dehumidifier (2026): Cordless Silica Picks",
   "h1": "The Best Rechargeable Dehumidifiers for Safes, Closets and Cars",
   "dek": "No cord, no bucket, no noise: a rechargeable silica gel dehumidifier quietly soaks up moisture for weeks, then renews itself overnight.",
-  "description": "The best rechargeable dehumidifiers for gun safes, closets, cars and RVs: cordless, non-electric silica gel units you renew and reuse instead of replacing.",
+  "description": "The cordless Eva-Dry E-333 covers about 333 cu ft and recharges overnight, the best fit for most safes and closets. Rechargeable picks for cars and RVs too.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -162,7 +162,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick rechargeable dehumidifiers",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -176,7 +176,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a rechargeable dehumidifier",
+      "heading": "What should you look for in a rechargeable dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -211,13 +211,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Rechargeable silica gel", "Electric rod", "Calcium chloride absorber"],
+          "head": [
+            "",
+            "Rechargeable silica gel",
+            "Electric rod",
+            "Calcium chloride absorber"
+          ],
           "rows": [
-            ["Needs power", "Only to recharge", "Always", "Never"],
-            ["Removes water", "Yes, modest amounts", "No — warms air to prevent condensation", "Yes, more per pound"],
-            ["Maintenance", "Recharge every few weeks", "None", "Replace or refill"],
-            ["Spill risk", "None", "None", "Brine can leak"],
-            ["Best for", "Safes, closets, cars", "Safes near an outlet", "Closets, storage units"]
+            [
+              "Needs power",
+              "Only to recharge",
+              "Always",
+              "Never"
+            ],
+            [
+              "Removes water",
+              "Yes, modest amounts",
+              "No — warms air to prevent condensation",
+              "Yes, more per pound"
+            ],
+            [
+              "Maintenance",
+              "Recharge every few weeks",
+              "None",
+              "Replace or refill"
+            ],
+            [
+              "Spill risk",
+              "None",
+              "None",
+              "Brine can leak"
+            ],
+            [
+              "Best for",
+              "Safes, closets, cars",
+              "Safes near an outlet",
+              "Closets, storage units"
+            ]
           ]
         },
         {

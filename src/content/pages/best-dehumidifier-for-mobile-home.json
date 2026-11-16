@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Rooms & Spaces",
   "navLabel": "Mobile Homes",
-  "title": "Best Dehumidifier for a Mobile Home (2026): Underbelly & Interior",
+  "title": "Best Dehumidifier for Mobile Home (2026): Underbelly & Inside",
   "h1": "The Best Dehumidifier for a Mobile Home",
   "dek": "A manufactured home has two damp zones — the rooms you live in and the skirted space beneath them — and each one needs its own machine.",
-  "description": "The best dehumidifier for a mobile home: a crawl-space unit for the skirted underbelly plus sized picks for single-wide and double-wide interiors.",
+  "description": "Keep a mobile home's underbelly and interior at 30–50% humidity. The 55-pint AlorAir HDi65S suits the skirted crawl; Midea picks for single and double-wides.",
   "published": "2026-10-03",
   "updated": "2026-11-05",
   "intro": [
@@ -146,35 +146,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Mobile home moisture, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "30–50%",
-              "label": "Target relative humidity for both the living space and the underbelly; 60% is the ceiling"
-            },
-            {
-              "value": "Up to 50%",
-              "label": "How much a proper ground vapor barrier can cut underbelly humidity"
-            },
-            {
-              "value": "1:150",
-              "label": "Common skirting vent guideline: 1 sq ft of opening per 150 sq ft of underbelly"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Manufactured-housing inspection guidance also suggests a belly board often lasts only about five to ten years before sun, moisture and road debris take their toll. Inspect yours if you can get under the home safely; tears let ground humidity reach the insulation directly."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for mobile homes",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -188,7 +161,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a mobile home dehumidifier",
+      "heading": "What matters most in a mobile home dehumidifier?",
       "blocks": [
         {
           "type": "checklist",
@@ -323,5 +296,28 @@
     "/best/best-whole-house-dehumidifier/",
     "/best/best-alorair-dehumidifier/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "30–50%",
+          "label": "Target relative humidity for both the living space and the underbelly; 60% is the ceiling"
+        },
+        {
+          "value": "Up to 50%",
+          "label": "How much a proper ground vapor barrier can cut underbelly humidity"
+        },
+        {
+          "value": "1:150",
+          "label": "Common skirting vent guideline: 1 sq ft of opening per 150 sq ft of underbelly"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Manufactured-housing inspection guidance also suggests a belly board often lasts only about five to ten years before sun, moisture and road debris take their toll. Inspect yours if you can get under the home safely; tears let ground humidity reach the insulation directly."
+    }
   ]
 }

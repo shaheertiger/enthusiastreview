@@ -6,7 +6,7 @@
   "title": "Best Dehumidifier for Mini Split Homes (2026): Dry Mode & More",
   "h1": "The Best Dehumidifiers for Mini-Split Homes",
   "dek": "Ductless heat pumps cool beautifully and dry the air only some of the time. Here's how to close the humidity gap.",
-  "description": "The best dehumidifier for mini split homes, plus whether mini splits dehumidify, how dry mode works on Mitsubishi and Daikin units, and when to add one.",
+  "description": "A 50-pint Midea Cube 50 holds a set humidity in open mini-split homes, since mini splits only dry while cooling. How dry mode works and when to add one.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -84,7 +84,7 @@
         "Needs a drain or condensate pump"
       ],
       "whyWeLoveIt": "Ductless homes don't have a central air handler to hang a dehumidifier on, but that doesn't rule out whole-house humidity control. The E080 can stand alone in a basement or mechanical closet, or feed dry air through a few dedicated ducts.",
-      "performance": "Aprilaire rates it at 80 pints a day with coverage up to about 4,400 square feet. In a mini-split house, installers typically place it centrally and run a supply duct to the main living area, which spreads dry air without depending on any one head. Read our [best ducted dehumidifier](/best/best-ducted-dehumidifier/) guide for alternatives.",
+      "performance": "Aprilaire rates it at 80 pints a day with coverage up to about 4,400 square feet. In a mini-split house, installers typically place it centrally and run a supply duct to the main living area, which spreads dry air without depending on any one head. Read our [best ducted dehumidifier](/best/best-whole-house-dehumidifier/) guide for alternatives.",
       "specs": {
         "Capacity": "80 pints/day",
         "Coverage": "Up to about 4,400 sq ft",
@@ -168,7 +168,7 @@
     },
     {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for mini-split homes",
+      "heading": "Where these recommendations come from",
       "blocks": [
         {
           "type": "p",
@@ -182,7 +182,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for a mini split home",
+      "heading": "What should you look for in a dehumidifier for a mini split home?",
       "blocks": [
         {
           "type": "checklist",
@@ -255,13 +255,43 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Mini-split dry mode", "Portable dehumidifier", "Whole-home dehumidifier"],
+          "head": [
+            "",
+            "Mini-split dry mode",
+            "Portable dehumidifier",
+            "Whole-home dehumidifier"
+          ],
           "rows": [
-            ["Holds a humidity %", "No", "Yes", "Yes"],
-            ["Effect on temperature", "Cools somewhat", "Adds slight heat", "Adds slight heat"],
-            ["Works on cool, damp days", "Poorly", "Yes", "Yes"],
-            ["Rooms without a head", "No", "Yes, where placed", "Yes, if ducted there"],
-            ["Extra cost", "None", "Usually under $300", "$1,500+ installed"]
+            [
+              "Holds a humidity %",
+              "No",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Effect on temperature",
+              "Cools somewhat",
+              "Adds slight heat",
+              "Adds slight heat"
+            ],
+            [
+              "Works on cool, damp days",
+              "Poorly",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Rooms without a head",
+              "No",
+              "Yes, where placed",
+              "Yes, if ducted there"
+            ],
+            [
+              "Extra cost",
+              "None",
+              "Usually under $300",
+              "$1,500+ installed"
+            ]
           ]
         },
         {
@@ -315,7 +345,7 @@
     "/best/best-air-conditioner-dehumidifier/",
     "/guides/dehumidifier-vs-air-conditioner/",
     "/best/best-quiet-dehumidifier/",
-    "/best/best-ducted-dehumidifier/",
+    "/best/best-whole-house-dehumidifier/",
     "/guides/where-to-place-a-dehumidifier/",
     "/best/best-dehumidifier-for-bedroom/"
   ]

@@ -3,10 +3,10 @@
   "section": "best",
   "category": "Mold & Allergies",
   "navLabel": "Centipedes",
-  "title": "Best Dehumidifier for Centipedes (2026): Dry Out Their Hideouts",
+  "title": "Best Dehumidifier for Centipedes (2026): Dry Out Hideouts",
   "h1": "The Best Dehumidifiers for Centipedes",
   "dek": "House centipedes go where it's damp and the bugs they eat are plentiful. Dry the basement and bathroom, seal the gaps, and they lose both reasons to stay.",
-  "description": "The best dehumidifier for centipedes in basements, crawl spaces and bathrooms — plus the sealing steps that keep house centipedes from coming back.",
+  "description": "Set 45–50% humidity and centipedes move on. The 50-pint Frigidaire FFAP5033W1 with a built-in pump is the best pick, plus the sealing steps that help.",
   "published": "2026-11-05",
   "updated": "2026-11-05",
   "intro": [
@@ -149,35 +149,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Centipedes and humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "15 pairs",
-              "label": "Legs on an adult house centipede, the species most often found indoors"
-            },
-            {
-              "value": "Below 60%",
-              "label": "Indoor humidity the EPA recommends to limit mold, ideally 30–50%"
-            },
-            {
-              "value": "45–50%",
-              "label": "A practical humidistat setting for basements with pest problems"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "House centipedes lose water through their bodies easily, which is why they cling to damp spaces. Holding a basement at 45–50% doesn't poison them; it just makes the space a poor place to live. It also dries out the mold and damp debris that feed silverfish, springtails and other insects, cutting the centipedes' food supply at the same time."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick dehumidifiers for centipedes",
+      "heading": "How we narrowed the list",
       "blocks": [
         {
           "type": "p",
@@ -191,7 +164,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a dehumidifier for centipedes",
+      "heading": "What matters most in a dehumidifier for centipedes?",
       "blocks": [
         {
           "type": "checklist",
@@ -346,5 +319,28 @@
     "/best/best-crawl-space-dehumidifier/",
     "/best/best-dehumidifier-for-bathroom/",
     "/guides/when-to-use-a-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "15 pairs",
+          "label": "Legs on an adult house centipede, the species most often found indoors"
+        },
+        {
+          "value": "Below 60%",
+          "label": "Indoor humidity the EPA recommends to limit mold, ideally 30–50%"
+        },
+        {
+          "value": "45–50%",
+          "label": "A practical humidistat setting for basements with pest problems"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "House centipedes lose water through their bodies easily, which is why they cling to damp spaces. Holding a basement at 45–50% doesn't poison them; it just makes the space a poor place to live. It also dries out the mold and damp debris that feed silverfish, springtails and other insects, cutting the centipedes' food supply at the same time."
+    }
   ]
 }

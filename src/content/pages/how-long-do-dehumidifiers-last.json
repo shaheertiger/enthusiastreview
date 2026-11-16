@@ -3,7 +3,7 @@
   "section": "guides",
   "category": "Buying Advice",
   "navLabel": "Lifespan",
-  "title": "How Long Do Dehumidifiers Last? Lifespan by Type",
+  "title": "How Long Do Dehumidifiers Last? 5–10 Years, by Type",
   "h1": "How Long Do Dehumidifiers Last? Lifespan by Type — and How to Stretch It",
   "dek": "Most dehumidifiers don't die suddenly. They fade, running a little longer each summer. Here's what's normal, what's not and when to replace yours.",
   "description": "How long do dehumidifiers last? Most compressor units run 5–10 years. See lifespan by type, what wears them out early and when to repair or replace.",
@@ -45,37 +45,47 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Dehumidifier lifespan, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            { "value": "5–10 yrs", "label": "Typical life of a portable compressor dehumidifier with routine care" },
-            { "value": "8–15 yrs", "label": "Typical range for a whole-house ducted system" },
-            { "value": "1 vs. 5 yrs", "label": "Honeywell's warranty bought at retail vs. installed by an HVAC pro" }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "That warranty gap is telling. Honeywell's support pages list a one-year warranty for retail purchases and five years when a unit is bought and installed through an HVAC professional — a clear signal that proper sizing and setup are expected to pay off in longevity."
-        }
-      ]
-    },
-    {
       "id": "lifespan-by-type",
       "heading": "How long should a dehumidifier last? Lifespan by type",
       "blocks": [
         {
           "type": "table",
-          "head": ["Type", "Typical lifespan", "What shortens it"],
+          "head": [
+            "Type",
+            "Typical lifespan",
+            "What shortens it"
+          ],
           "rows": [
-            ["Portable compressor, normal use", "5–10 years", "Dirty filter, frequent icing, damp storage"],
-            ["Portable compressor, nonstop in a wet space", "3–5 years", "Compressor built for cycling forced to run constantly"],
-            ["Whole-house / ducted", "About 8, up to 15 years", "Humid climates and neglected filters"],
-            ["Crawl-space / LGR", "Often 10+ years with service", "Clogged intake, failed pump"],
-            ["Desiccant", "Gradual capacity fade", "Absorbent wheel or material degrades with use"],
-            ["Thermoelectric mini", "Often just a few years", "Low-cost fans and Peltier modules wear out"]
+            [
+              "Portable compressor, normal use",
+              "5–10 years",
+              "Dirty filter, frequent icing, damp storage"
+            ],
+            [
+              "Portable compressor, nonstop in a wet space",
+              "3–5 years",
+              "Compressor built for cycling forced to run constantly"
+            ],
+            [
+              "Whole-house / ducted",
+              "About 8, up to 15 years",
+              "Humid climates and neglected filters"
+            ],
+            [
+              "Crawl-space / LGR",
+              "Often 10+ years with service",
+              "Clogged intake, failed pump"
+            ],
+            [
+              "Desiccant",
+              "Gradual capacity fade",
+              "Absorbent wheel or material degrades with use"
+            ],
+            [
+              "Thermoelectric mini",
+              "Often just a few years",
+              "Low-cost fans and Peltier modules wear out"
+            ]
           ],
           "caption": "Ranges reflect widely cited service and manufacturer guidance, not guarantees."
         }
@@ -235,5 +245,28 @@
     "/guides/how-to-dispose-of-a-dehumidifier/",
     "/best/best-dehumidifier/",
     "/best/best-whole-house-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "5–10 yrs",
+          "label": "Typical life of a portable compressor dehumidifier with routine care"
+        },
+        {
+          "value": "8–15 yrs",
+          "label": "Typical range for a whole-house ducted system"
+        },
+        {
+          "value": "1 vs. 5 yrs",
+          "label": "Honeywell's warranty bought at retail vs. installed by an HVAC pro"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That warranty gap is telling. Honeywell's support pages list a one-year warranty for retail purchases and five years when a unit is bought and installed through an HVAC professional — a clear signal that proper sizing and setup are expected to pay off in longevity."
+    }
   ]
 }

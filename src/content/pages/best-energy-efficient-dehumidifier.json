@@ -6,7 +6,7 @@
   "title": "Best ENERGY STAR Dehumidifiers (2026): Most Efficient Ranked",
   "h1": "The Best ENERGY STAR Dehumidifiers, Ranked by Real Efficiency",
   "dek": "Nearly every dehumidifier wears an ENERGY STAR sticker. These are the ones that pull the most water per kilowatt-hour on the certified numbers.",
-  "description": "The best ENERGY STAR dehumidifiers of 2026, ranked on certified IEF and rated kWh per year — the most energy efficient picks, not box claims or nameplate watts.",
+  "description": "The AEOCKY Leo-003, at 2.21 L/kWh, is the most efficient portable most homes can buy; just 9 of 273 in its class earn Most Efficient. Ranked on certified IEF.",
   "published": "2026-10-30",
   "updated": "2026-11-05",
   "intro": [
@@ -148,35 +148,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Dehumidifier efficiency, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "2.01 L/kWh",
-              "label": "ENERGY STAR minimum for a 25.01–50 pint portable (Version 6.0)"
-            },
-            {
-              "value": "9 of 273",
-              "label": "Portables in that class that meet the Most Efficient criteria"
-            },
-            {
-              "value": "22.5%",
-              "label": "Share of all portable listings carrying the Most Efficient flag"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "ENERGY STAR’s Version 6.0 rules, in effect since October 1, 2025, set minimums of 1.70 L/kWh for portables up to 25 pints, 2.01 for 25.01–50 pints and 3.30 above that. Ducted whole-home units need 2.22 to 3.81 depending on case size. The federal legal minimum for the middle class is lower still, at 1.60."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick energy efficient dehumidifiers",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -190,7 +163,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in an energy efficient dehumidifier",
+      "heading": "What separates a good energy efficient dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -376,5 +349,28 @@
     "/best/best-whole-house-dehumidifier/",
     "/best/best-crawl-space-dehumidifier/",
     "/guides/dehumidifier-size-guide/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "2.01 L/kWh",
+          "label": "ENERGY STAR minimum for a 25.01–50 pint portable (Version 6.0)"
+        },
+        {
+          "value": "9 of 273",
+          "label": "Portables in that class that meet the Most Efficient criteria"
+        },
+        {
+          "value": "22.5%",
+          "label": "Share of all portable listings carrying the Most Efficient flag"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "ENERGY STAR’s Version 6.0 rules, in effect since October 1, 2025, set minimums of 1.70 L/kWh for portables up to 25 pints, 2.01 for 25.01–50 pints and 3.30 above that. Ducted whole-home units need 2.22 to 3.81 depending on case size. The federal legal minimum for the middle class is lower still, at 1.60."
+    }
   ]
 }

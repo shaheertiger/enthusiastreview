@@ -6,7 +6,7 @@
   "title": "Best Guitar Dehumidifier (2026): Case Packs vs. Room Units",
   "h1": "The Best Guitar Dehumidifiers",
   "dek": "Your guitar lives in its case, not the room — so the smartest humidity fix usually goes right next to the neck.",
-  "description": "The best guitar dehumidifier options for 2026: two-way case packs that hold 45–55% humidity, plus closet and music-room units for when the whole room runs damp.",
+  "description": "Guitars want 45–55% humidity. For one guitar, the Boveda 49% two-way kit corrects the case in both directions; closet and room units for damp rooms.",
   "published": "2026-09-19",
   "updated": "2026-11-05",
   "intro": [
@@ -115,35 +115,8 @@
   ],
   "sections": [
     {
-      "id": "by-the-numbers",
-      "heading": "Guitar humidity, by the numbers",
-      "blocks": [
-        {
-          "type": "stats",
-          "items": [
-            {
-              "value": "45–55%",
-              "label": "Relative humidity range Taylor and Martin recommend"
-            },
-            {
-              "value": "~65%",
-              "label": "Above this, swelling and bridge lifting become real risks"
-            },
-            {
-              "value": "~35%",
-              "label": "Below this, cracks and fret sprout become likely"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Taylor notes it builds and seasons its guitars in a shop held near 46%, which is why staying close to that number keeps wood movement to a minimum. The goal is a band, never the lowest reading you can get."
-        }
-      ]
-    },
-    {
       "id": "how-we-pick",
-      "heading": "How we pick guitar humidity control",
+      "heading": "What we checked (and what we didn't)",
       "blocks": [
         {
           "type": "p",
@@ -157,7 +130,7 @@
     },
     {
       "id": "what-to-look-for",
-      "heading": "What to look for in a guitar dehumidifier",
+      "heading": "What separates a good guitar dehumidifier from a poor one?",
       "blocks": [
         {
           "type": "checklist",
@@ -326,5 +299,28 @@
     "/best/best-small-dehumidifier/",
     "/guides/dehumidifier-vs-humidifier/",
     "/best/best-eva-dry-dehumidifier/"
+  ],
+  "shortAnswer": [
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "45–55%",
+          "label": "Relative humidity range Taylor and Martin recommend"
+        },
+        {
+          "value": "~65%",
+          "label": "Above this, swelling and bridge lifting become real risks"
+        },
+        {
+          "value": "~35%",
+          "label": "Below this, cracks and fret sprout become likely"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Taylor notes it builds and seasons its guitars in a shop held near 46%, which is why staying close to that number keeps wood movement to a minimum. The goal is a band, never the lowest reading you can get."
+    }
   ]
 }
