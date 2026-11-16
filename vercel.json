@@ -7,6 +7,81 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/best/best-wifi-dehumidifier/",
+      "destination": "https://www.enthusiastreview.com/best/best-smart-dehumidifier/",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-wifi-dehumidifier.md",
+      "destination": "https://www.enthusiastreview.com/best/best-smart-dehumidifier.md",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-wifi-dehumidifier",
+      "destination": "https://www.enthusiastreview.com/best/best-smart-dehumidifier/",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-dehumidifier-for-sleeping/",
+      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-bedroom/",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-dehumidifier-for-sleeping.md",
+      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-bedroom.md",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-dehumidifier-for-sleeping",
+      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-bedroom/",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-dehumidifier-for-condo/",
+      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-apartment/",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-dehumidifier-for-condo.md",
+      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-apartment.md",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-dehumidifier-for-condo",
+      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-apartment/",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-dehumidifier-for-gun-cabinet/",
+      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-gun-safe/",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-dehumidifier-for-gun-cabinet.md",
+      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-gun-safe.md",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-dehumidifier-for-gun-cabinet",
+      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-gun-safe/",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-ducted-dehumidifier/",
+      "destination": "https://www.enthusiastreview.com/best/best-whole-house-dehumidifier/",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-ducted-dehumidifier.md",
+      "destination": "https://www.enthusiastreview.com/best/best-whole-house-dehumidifier.md",
+      "permanent": true
+    },
+    {
+      "source": "/best/best-ducted-dehumidifier",
+      "destination": "https://www.enthusiastreview.com/best/best-whole-house-dehumidifier/",
+      "permanent": true
+    },
+    {
       "source": "/affiliate-disclosure/",
       "destination": "/disclosure/",
       "permanent": true

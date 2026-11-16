@@ -148,9 +148,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "30–50%", "label": "Relative humidity range the NRA recommends inside a gun safe" },
-            { "value": "~105 kWh", "label": "Yearly energy use of a 12-watt rod running 24/7" },
-            { "value": "5°F ≈ 10 pts", "label": "How much warming room-temperature air by 5°F lowers its relative humidity" }
+            {
+              "value": "30–50%",
+              "label": "Relative humidity range the NRA recommends inside a gun safe"
+            },
+            {
+              "value": "~105 kWh",
+              "label": "Yearly energy use of a 12-watt rod running 24/7"
+            },
+            {
+              "value": "5°F ≈ 10 pts",
+              "label": "How much warming room-temperature air by 5°F lowers its relative humidity"
+            }
           ]
         },
         {
@@ -210,19 +219,49 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["", "Heating rod", "Renewable desiccant", "Electric mini dehumidifier"],
+          "head": [
+            "",
+            "Heating rod",
+            "Renewable desiccant",
+            "Electric mini dehumidifier"
+          ],
           "rows": [
-            ["How it works", "Warms and circulates air", "Silica gel absorbs vapor", "Thermoelectric unit collects water"],
-            ["Removes water?", "No", "Yes", "Yes"],
-            ["Needs power?", "Always", "Only to recharge", "Always"],
-            ["Upkeep", "None", "Recharge every 6–8 weeks", "Empty a small tank"],
-            ["Fits inside a safe?", "Yes", "Yes", "Usually too big — better for vault rooms"]
+            [
+              "How it works",
+              "Warms and circulates air",
+              "Silica gel absorbs vapor",
+              "Thermoelectric unit collects water"
+            ],
+            [
+              "Removes water?",
+              "No",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Needs power?",
+              "Always",
+              "Only to recharge",
+              "Always"
+            ],
+            [
+              "Upkeep",
+              "None",
+              "Recharge every 6–8 weeks",
+              "Empty a small tank"
+            ],
+            [
+              "Fits inside a safe?",
+              "Yes",
+              "Yes",
+              "Usually too big — better for vault rooms"
+            ]
           ],
           "caption": "Many owners in humid areas run a rod and a desiccant canister together."
         },
         {
           "type": "p",
-          "text": "If your safe sits in a walk-in closet or vault room, treat the room as well. A small room dehumidifier or a dedicated [gun cabinet setup](/best/best-dehumidifier-for-gun-cabinet/) protects everything stored outside the safe, too."
+          "text": "If your safe sits in a walk-in closet or vault room, treat the room as well. A small room dehumidifier or a dedicated [gun cabinet setup](/best/best-dehumidifier-for-gun-safe/) protects everything stored outside the safe, too."
         }
       ]
     },
@@ -299,7 +338,6 @@
   "related": [
     "/best/best-dehumidifier-for-gun-safe/",
     "/best/best-hornady-dehumidifier/",
-    "/best/best-dehumidifier-for-gun-cabinet/",
     "/best/best-eva-dry-dehumidifier/",
     "/best/best-moisture-absorber/",
     "/best/best-rechargeable-dehumidifier/"

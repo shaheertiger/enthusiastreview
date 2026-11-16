@@ -34,7 +34,7 @@
       ],
       "whyWeLoveIt": "The E100 is the benchmark 100-pint unit. It can sit on its own in a big basement or be tied into the HVAC system to dry the whole house, and it does it with some of the best efficiency in its class.",
       "performance": "Its 100-pint rating is measured at 80°F and 60% humidity under AHAM conditions, and Aprilaire rates it for homes up to roughly 5,500 square feet. Owners commonly report that it replaces two or three portables, ends bucket duty for good and holds a steady humidity level through the summer. Install quality matters more than anything else in owner complaints, so choose your contractor carefully.",
-      "notes": "Want it on the ductwork? See our [best ducted dehumidifier](/best/best-ducted-dehumidifier/) guide for how HVAC-connected setups work.",
+      "notes": "Want it on the ductwork? See our [best ducted dehumidifier](/best/best-whole-house-dehumidifier/) guide for how HVAC-connected setups work.",
       "specs": {
         "Capacity": "100 pints/day (AHAM)",
         "Coverage": "Up to about 5,500 sq ft",
@@ -180,9 +180,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "80°F / 60%", "label": "AHAM conditions used to rate whole-house and commercial units" },
-            { "value": "~50 pints", "label": "Top DOE 2019 rating for most mainstream portables" },
-            { "value": "24.5 pints", "label": "DOE rating of one budget portable sold as an 80-pint unit" }
+            {
+              "value": "80°F / 60%",
+              "label": "AHAM conditions used to rate whole-house and commercial units"
+            },
+            {
+              "value": "~50 pints",
+              "label": "Top DOE 2019 rating for most mainstream portables"
+            },
+            {
+              "value": "24.5 pints",
+              "label": "DOE rating of one budget portable sold as an 80-pint unit"
+            }
           ]
         },
         {
@@ -250,11 +259,27 @@
         },
         {
           "type": "table",
-          "head": ["Label you see", "What it often means", "What to do"],
+          "head": [
+            "Label you see",
+            "What it often means",
+            "What to do"
+          ],
           "rows": [
-            ["80–140 pints on a small portable", "Saturation capacity, not DOE", "Find the DOE 2019 figure on the spec sheet or ENERGY STAR listing"],
-            ["50 pints (previously 70)", "Same machine, new test", "Treat it as the top portable size"],
-            ["80–130 pints (AHAM)", "Installed whole-house or commercial unit", "Compare these with each other, not with portables"]
+            [
+              "80–140 pints on a small portable",
+              "Saturation capacity, not DOE",
+              "Find the DOE 2019 figure on the spec sheet or ENERGY STAR listing"
+            ],
+            [
+              "50 pints (previously 70)",
+              "Same machine, new test",
+              "Treat it as the top portable size"
+            ],
+            [
+              "80–130 pints (AHAM)",
+              "Installed whole-house or commercial unit",
+              "Compare these with each other, not with portables"
+            ]
           ]
         },
         {
@@ -269,11 +294,27 @@
       "blocks": [
         {
           "type": "table",
-          "head": ["Capacity (AHAM)", "Typical fit", "Example"],
+          "head": [
+            "Capacity (AHAM)",
+            "Typical fit",
+            "Example"
+          ],
           "rows": [
-            ["70–80 pints", "Average home or one large, moderately damp basement", "Aprilaire E080"],
-            ["90–110 pints", "Larger home, wet basement or big crawl space", "Aprilaire E100, AlorAir HDi90, Santa Fe Classic"],
-            ["120–130 pints", "Very large or very humid homes; water damage", "Aprilaire E130, AlorAir Storm Elite"]
+            [
+              "70–80 pints",
+              "Average home or one large, moderately damp basement",
+              "Aprilaire E080"
+            ],
+            [
+              "90–110 pints",
+              "Larger home, wet basement or big crawl space",
+              "Aprilaire E100, AlorAir HDi90, Santa Fe Classic"
+            ],
+            [
+              "120–130 pints",
+              "Very large or very humid homes; water damage",
+              "Aprilaire E130, AlorAir Storm Elite"
+            ]
           ]
         },
         {
@@ -325,7 +366,6 @@
   ],
   "related": [
     "/best/best-whole-house-dehumidifier/",
-    "/best/best-ducted-dehumidifier/",
     "/best/best-aprilaire-dehumidifier/",
     "/best/best-70-pint-dehumidifier/",
     "/best/best-commercial-dehumidifier/",

@@ -103,9 +103,18 @@
         {
           "type": "stats",
           "items": [
-            { "value": "60% RH", "label": "Level above which lens fungus becomes a real risk" },
-            { "value": "40–50%", "label": "Sweet spot for long-term storage of lenses and bodies" },
-            { "value": "50–95°F", "label": "Temperature range in which fungus grows comfortably" }
+            {
+              "value": "60% RH",
+              "label": "Level above which lens fungus becomes a real risk"
+            },
+            {
+              "value": "40–50%",
+              "label": "Sweet spot for long-term storage of lenses and bodies"
+            },
+            {
+              "value": "50–95°F",
+              "label": "Temperature range in which fungus grows comfortably"
+            }
           ]
         },
         {
@@ -186,7 +195,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The sealed-box principle works for anything sensitive to moisture. Hearing aids get their own drying stations, covered in our [best dehumidifier for hearing aids](/best/best-dehumidifier-for-hearing-aids/) guide, and collectors protecting guitars, records and firearms face similar trade-offs between active and passive control. For firearms, see our [best dehumidifier for gun safe](/best/best-dehumidifier-for-gun-safe/) roundup."
+          "text": "The sealed-box principle works for anything sensitive to moisture. Collectors protecting guitars, records and firearms face similar trade-offs between active and passive control. For firearms, see our [best dehumidifier for gun safe](/best/best-dehumidifier-for-gun-safe/) roundup."
         }
       ]
     },
@@ -230,7 +239,6 @@
   "related": [
     "/best/best-dehumidifier-for-closet/",
     "/best/best-desiccant-dehumidifier/",
-    "/best/best-dehumidifier-for-hearing-aids/",
     "/best/best-dehumidifier-for-gun-safe/",
     "/best/best-dehumidifier-for-guitar/",
     "/best/best-moisture-absorber/"

@@ -30,6 +30,8 @@ const pages = fs
   .readdirSync(path.join(ROOT, 'src/content/pages'))
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/content/pages', f), 'utf8')))
+  // Noindexed (off-topic) pages get no Markdown twin and stay out of llms.txt.
+  .filter((p) => !p.noindex)
   .sort((a, b) => a.h1.localeCompare(b.h1));
 // Same real dates as src/lib/content.ts: the git date from scripts/page-dates.mjs, never
 // earlier than the page was published.

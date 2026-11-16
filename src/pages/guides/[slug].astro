@@ -1,9 +1,9 @@
 ---
 import Article from '../../components/Article.astro';
-import { pagesIn, type Page } from '../../lib/content';
+import { routesIn, type Page } from '../../lib/content';
 
 export function getStaticPaths() {
-  return pagesIn('guides').map((page) => ({ params: { slug: page.slug }, props: { page } }));
+  return routesIn('guides').map((page) => ({ params: { slug: page.slug }, props: { page } }));
 }
 const { page } = Astro.props as { page: Page };
 ---
