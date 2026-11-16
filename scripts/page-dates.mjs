@@ -10,6 +10,11 @@
 // ignore it when it is wrong; a hand-typed `updated` field drifts (pages edited on Nov 6
 // still said Nov 5).
 //
+// Commits whose message carries the trailer `Page-Dates: skip` are ignored: use it for
+// site-wide mechanical edits (heading rewording, template migrations, link rewrites, meta
+// titles) so they don't stamp every page as updated. Reader-facing content changes must not
+// carry it.
+//
 // Vercel builds from a shallow clone, where every file's "last commit" is the clone's
 // boundary commit, which would date every page to the deploy. So this first fetches the
 // full history, and if that fails it ignores any file whose last commit is a shallow
@@ -39,6 +44,7 @@ try {
   const boundary = new Set(fs.existsSync(shallowFile) ? fs.readFileSync(shallowFile, 'utf8').split('\n').filter(Boolean) : []);
 
   // One pass over history, newest first: the first time a file appears is its last change.
+  const skip = new Set(git('log', '--format=%H', '--grep=^Page-Dates: skip$', '--', PAGES_DIR).split('\n').filter(Boolean));
   const log = git('log', '--format=@%H %as', '--name-only', '--', PAGES_DIR);
   let commit = null;
   let date = null;
@@ -48,7 +54,7 @@ try {
       continue;
     }
     const m = line.match(/^src\/content\/pages\/(.+)\.json$/);
-    if (!m || m[1] in dates) continue;
+    if (!m || m[1] in dates || skip.has(commit)) continue;
     dates[m[1]] = boundary.has(commit) ? null : date;
   }
   dates = Object.fromEntries(Object.entries(dates).filter(([, d]) => d));
