@@ -41,8 +41,8 @@ const files = [];
 const decode = (s) =>
   s.replace(/&amp;/g, '&').replace(/&#34;/g, '"').replace(/&#39;|&apos;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 
-const HOW_TO = /^(how |why |what |when |can |does |do |is |are |should )|\b(fix|troubleshoot|guide to|explained)\b/i;
-const YEAR_OK = /\b(best|review|deals?|sale|price|prices|cost|costs|buying guide|black friday|cyber monday|top \d+)\b/i;
+const HOW_TO = /^(how |why |what |when |can |does |do |is |are |should )|\b(fix|troubleshoot|guide to|explained|calculator)\b/i;
+const YEAR_OK = /\b(best|review|vs\.?|deals?|sale|price|prices|cost|costs|buying guide|black friday|cyber monday|top \d+)\b/i;
 
 const rows = [];
 const inbound = new Map();
@@ -69,12 +69,12 @@ for (const file of files) {
   ).trim();
   const h1 = [...html.matchAll(/<h1[\s>][\s\S]*?<\/h1>/g)].length;
   const modified = html.match(/"dateModified"\s*:\s*"([^"]+)"/)?.[1]?.slice(0, 10) ?? null;
-  const isArticle = /"datePublished"/.test(html);
+  const isArticle = /"@type"\s*:\s*"Article"/.test(html);
   const faq = /"@type"\s*:\s*"FAQPage"/.test(html);
   const titleCore = title.replace(/\s+[|–—]\s+[^|–—]+$/, '');
   const h2s = [...html.matchAll(/<h2(?![^>]*p-name)[^>]*>([\s\S]*?)<\/h2>/g)].map((m) => decode(m[1].replace(/<[^>]+>/g, '')).trim());
   // Template H2s that every article carries; they don't count toward the question share.
-  const fixed = /^(compare our picks|side by side|frequently asked questions|the bottom line|why trust|how this guide|where our information|about our sources|more in |readers also read)/i;
+  const fixed = /^(how we ranked|spec sheets side by side|specs side by side|notable mentions|common mistakes|the bottom line|frequently asked questions|sources and recent updates|all .* we track|every .* we track|head-to-head|where they differ|how they score|buy the |related|who .* is$|.*: our \d+ picks$|.* lineup, ranked$|.* faq$)/i;
   const bodyH2s = h2s.slice(1).filter((h) => !fixed.test(h));
   const firstClause = desc.split(/[.;:—]/)[0];
   rows.push({

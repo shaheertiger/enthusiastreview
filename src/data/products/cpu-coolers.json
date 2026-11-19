@@ -1,0 +1,539 @@
+[
+  {
+    "id": "thermalright-peerless-assassin-120-se",
+    "name": "Thermalright Peerless Assassin 120 SE",
+    "short": "Peerless Assassin SE",
+    "brand": "thermalright",
+    "category": "cpu-coolers",
+    "released": "2022",
+    "price": [35, 45],
+    "description": "The Peerless Assassin 120 SE is the best-value CPU cooler: two towers, six heat pipes and two 120 mm fans for $35–$45, if your case clears 155 mm.",
+    "quick": "A 155 mm dual-tower air cooler with six heat pipes and two 120 mm fans. It sells for $35–$45 and is one of the most common pairings for 120 W gaming chips like the Ryzen 7 9800X3D.",
+    "bestFor": "Gaming builds on AM5 or LGA 1851 that want near-flagship air cooling for under $50",
+    "skipIf": "Your case clears less than 155 mm or you want the quietest fans at full load",
+    "specs": [
+      ["Type", "Dual-tower air"],
+      ["Fans", "2x 120 mm PWM"],
+      ["Heat pipes", "6x 6 mm"],
+      ["Height", "155 mm"],
+      ["Socket support", "AM4, AM5, LGA 1700, LGA 1851"],
+      ["Lighting", "None on the standard model; ARGB and white versions sold"]
+    ],
+    "score": {
+      "overall": 92,
+      "parts": [["Cooling", 90], ["Noise", 84], ["Compatibility", 86], ["Value", 98]]
+    },
+    "verdict": [
+      "The Peerless Assassin 120 SE is still the default air cooler for most builds in 2026. For $35–$45 you get two aluminum towers, six 6 mm copper heat pipes and two 120 mm PWM fans, a layout that used to mean spending twice as much. Independent reviews have consistently shown it trading blows with coolers that cost two to three times more, which is why it sits at the top of so many build lists.",
+      "The trade-off is refinement, not cooling. The fans are fine at gaming loads but get noticeably louder than Noctua or be quiet! fans near full speed, and the mounting hardware is basic and takes more patience than Noctua's SecuFirm2. At 155 mm it also rules out many compact cases, so check the cooler clearance on your case's spec page before you order.",
+      "Its closest rival is its own sibling, the [Phantom Spirit 120 SE](/gear/thermalright-phantom-spirit-120-se/), which adds a seventh heat pipe for the same money and usually edges slightly ahead in independent comparisons. Buy whichever is cheaper on the day; the difference is small. If you want quieter fans and a six-year warranty, the step-up is the Noctua NH-D15 G2 at about $150, which cools better but costs roughly four times as much.",
+      "For a hot 16-core chip like the Ryzen 9 9950X3D running long all-core jobs, a 360 mm AIO such as the Arctic Liquid Freezer III Pro 360 is the safer choice. For everything from a Ryzen 5 7600 to a Ryzen 7 9800X3D or a Core Ultra 5 245K, this is the cooler to beat."
+    ],
+    "pros": [
+      "Dual-tower cooling for about $40",
+      "Six heat pipes and two fans in the box",
+      "Independent reviews put it near coolers costing 2–3x more",
+      "Supports AM4, AM5, LGA 1700 and LGA 1851",
+      "ARGB and white versions available"
+    ],
+    "cons": [
+      "Fans get loud near full speed",
+      "155 mm height rules out some compact cases",
+      "Front fan can crowd tall RAM",
+      "Basic mounting hardware"
+    ],
+    "extra": {
+      "heading": "Fit and Compatibility",
+      "body": [
+        "At 155 mm tall, the Peerless Assassin 120 SE fits most ATX mid-towers, but not all of them. Look up the maximum CPU cooler height on your case's spec page and leave a few millimeters spare. Compact cases and many micro-ATX towers fall short.",
+        "The dual-tower body overhangs the RAM slot nearest the CPU. Low-profile DDR5 kits around 33–35 mm tall are the easy choice. With taller RGB kits around 44–46 mm, slide the front fan up the fins to clear them, which adds to the total height.",
+        "On AM5 and AM4, the cooler uses the motherboard's stock backplate with Thermalright's standoffs and mounting bars. On Intel, use the included backplate; LGA 1851 keeps the same hole spacing as LGA 1700, so the same hardware fits Core Ultra 200S boards."
+      ],
+      "steps": [
+        ["Remove AMD's clips", "Unscrew the plastic retention clips on each side of the socket and leave the stock backplate in place."],
+        ["Fit standoffs and bars", "Screw the standoffs into the backplate threads, then fix the mounting bars on top."],
+        ["Paste and mount", "Apply a pea-sized dot of paste, seat the cooler and tighten both screws a few turns at a time until they stop."],
+        ["Attach the fans", "Clip both fans on so air flows toward the rear exhaust and connect them to the CPU_FAN header."]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Peerless Assassin 120 SE enough for a Ryzen 7 9800X3D?",
+        "a": "Yes. The 9800X3D is a 120 W chip, and the Peerless Assassin 120 SE is one of the most common pairings for it in owner builds and independent reviews. X3D chips report high temperatures under load with any cooler, and AMD rates them to operate up to 95°C, so warm readings alone are not a sign of a bad mount."
+      },
+      {
+        "q": "Peerless Assassin 120 SE or Phantom Spirit 120 SE?",
+        "a": "Buy whichever is cheaper. The Phantom Spirit 120 SE adds a seventh heat pipe and is usually a hair ahead in independent reviews, but both sell for $35–$45 and neither is a bad choice."
+      },
+      {
+        "q": "Does the Peerless Assassin 120 SE fit LGA 1851?",
+        "a": "Yes. LGA 1851 uses the same cooler hole spacing as LGA 1700, so the included Intel hardware fits Core Ultra 7 265K and Core Ultra 5 245K boards."
+      },
+      {
+        "q": "Will it fit my case?",
+        "a": "It fits if your case lists at least 155 mm of CPU cooler clearance. Most ATX mid-towers do; many compact and micro-ATX cases do not, so check the spec sheet rather than the product photos."
+      }
+    ]
+  },
+  {
+    "id": "thermalright-phantom-spirit-120-se",
+    "name": "Thermalright Phantom Spirit 120 SE",
+    "short": "Phantom Spirit 120 SE",
+    "brand": "thermalright",
+    "category": "cpu-coolers",
+    "released": "2023",
+    "price": [35, 45],
+    "description": "The Phantom Spirit 120 SE is our top air pick for the Ryzen 7 9800X3D: seven heat pipes and two 120 mm fans in a 154 mm dual tower for $35–$45.",
+    "quick": "A 154 mm dual-tower cooler with seven heat pipes and two 120 mm fans. It costs the same $35–$45 as the Peerless Assassin 120 SE and usually lands a small step ahead of it in independent reviews.",
+    "bestFor": "Ryzen 7 9800X3D and Core Ultra 7 265K gaming builds that want top-tier air cooling on a budget",
+    "skipIf": "You want quiet running under long all-core loads or a big-brand warranty and support network",
+    "specs": [
+      ["Type", "Dual-tower air"],
+      ["Fans", "2x 120 mm PWM"],
+      ["Heat pipes", "7x 6 mm"],
+      ["Height", "154 mm"],
+      ["Socket support", "AM4, AM5, LGA 1700, LGA 1851"],
+      ["Lighting", "Standard and ARGB versions sold"]
+    ],
+    "score": {
+      "overall": 91,
+      "parts": [["Cooling", 92], ["Noise", 84], ["Compatibility", 86], ["Value", 96]]
+    },
+    "verdict": [
+      "The Phantom Spirit 120 SE takes the Peerless Assassin formula and adds the one thing that matters most: a seventh 6 mm heat pipe. At $35–$45 it costs the same, stands 1 mm shorter at 154 mm, and in independent reviews it usually lands a small step ahead of its sibling, which itself competes with coolers at two to three times the price. For a Ryzen 7 9800X3D, whose 120 W rating is well within a good dual tower's reach, this is the air cooler we would pick first.",
+      "What you give up is polish. The two 120 mm fans are budget Thermalright units, so the cooler gets noticeably louder when a long render pins the CPU, and the warranty and support network are thinner than Noctua's or be quiet!'s. The towers also overhang the first DIMM slot, so tall RGB memory means raising the front fan.",
+      "The step-up for quiet running is the [Noctua NH-D15 G2](/gear/noctua-nh-d15-g2/), with 140 mm fans and a six-year warranty for around $150. The step-up for raw heat capacity, useful on a 170 W Ryzen 9 9950X3D or a Core Ultra 7 265K left at its 250 W turbo limit, is a 360 mm AIO like the Arctic Liquid Freezer III Pro 360 at $85–$110.",
+      "Its true rival is the Peerless Assassin 120 SE. If that one is $5 cheaper on the day, buy it and spend the difference on better paste; you will not notice the gap in games."
+    ],
+    "pros": [
+      "Seven heat pipes for about $40",
+      "Usually a step ahead of the Peerless Assassin in reviews",
+      "154 mm fits most mid-towers",
+      "AM5 and LGA 1851 mounting in the box",
+      "Strong match for the 120 W Ryzen 7 9800X3D"
+    ],
+    "cons": [
+      "Fans get loud under sustained all-core loads",
+      "Overhangs the first RAM slot",
+      "Thinner support network than Noctua or be quiet!"
+    ],
+    "extra": {
+      "heading": "Fit and Compatibility",
+      "body": [
+        "Plan for 154 mm of height, plus a few millimeters if you raise the front fan for memory. Most ATX mid-towers clear that; many compact and micro-ATX cases do not, so check the case spec sheet before ordering.",
+        "On AM5 and AM4, the Phantom Spirit uses AMD's stock backplate: remove the plastic retention brackets and screw Thermalright's standoffs into the backplate threads. On Intel, use the LGA 1700 parts for LGA 1851 as well, since the hole spacing is unchanged.",
+        "Low-profile DDR5 such as the G.Skill Flare X5 (about 33 mm) is the easy match. With taller RGB kits such as the T-Force Delta RGB (about 46 mm), expect to slide the front fan up the fin stack, and recheck your case clearance afterward."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Phantom Spirit 120 SE better than the Peerless Assassin 120 SE?",
+        "a": "Slightly. The extra heat pipe usually puts it a little ahead in independent reviews, but the gap is small and both cost $35–$45, so the price on the day should decide."
+      },
+      {
+        "q": "Do I need an AIO for a 9800X3D instead?",
+        "a": "No. The Ryzen 7 9800X3D is rated at 120 W, which a dual-tower air cooler like this handles well. An AIO makes more sense for 170 W chips like the Ryzen 9 9950X3D under long all-core loads, or if you prefer the look."
+      },
+      {
+        "q": "Is the Phantom Spirit 120 SE loud?",
+        "a": "It is quiet at typical gaming loads and louder than premium coolers at full fan speed. A gentler fan curve in the BIOS helps; if noise matters most, the Noctua NH-D15 G2 is the quieter step-up."
+      }
+    ]
+  },
+  {
+    "id": "thermalright-assassin-x-120-refined-se",
+    "name": "Thermalright Assassin X 120 Refined SE",
+    "short": "Assassin X 120 R SE",
+    "brand": "thermalright",
+    "category": "cpu-coolers",
+    "price": [18, 25],
+    "description": "The Assassin X 120 Refined SE is the best cooler under $25: a 148 mm single tower with four heat pipes and one 120 mm fan, ideal for 65 W Ryzen chips.",
+    "quick": "A 148 mm single-tower cooler with four heat pipes and one 120 mm fan for $18–$25. It is a clear step up from stock coolers for 65 W chips like the Ryzen 5 7600 and Ryzen 5 9600X.",
+    "bestFor": "Budget builds with 65 W to 105 W chips and cases that cannot fit a 155 mm dual tower",
+    "skipIf": "You are pairing it with a 170 W Ryzen 9 or a Core Ultra 7 265K at its 250 W turbo limit",
+    "specs": [
+      ["Type", "Single-tower air"],
+      ["Fans", "1x 120 mm PWM"],
+      ["Heat pipes", "4x 6 mm"],
+      ["Height", "148 mm"],
+      ["Socket support", "AM4, AM5, LGA 1700, LGA 1851"],
+      ["Lighting", "None on the standard model; ARGB version sold"]
+    ],
+    "score": {
+      "overall": 82,
+      "parts": [["Cooling", 74], ["Noise", 80], ["Compatibility", 92], ["Value", 96]]
+    },
+    "verdict": [
+      "The Assassin X 120 Refined SE exists to replace the cooler in the box, and for $18–$25 nothing does that job better. Four 6 mm heat pipes, one 120 mm fan and a 148 mm single tower give 65 W chips like the Ryzen 5 7600 and Ryzen 5 9600X real headroom, so they hold their boost clocks with less fan noise than AMD's Wraith Stealth.",
+      "Its size is an advantage. At 148 mm it fits cases that a 155 mm Peerless Assassin will not, and a single narrow tower is lighter and easier to install than a dual tower, with more room around the memory slots and the top of the motherboard.",
+      "The limit is heat capacity. It will run a 120 W Ryzen 7 9800X3D, but the single fan has to spin faster under load, and a 170 W Ryzen 9 or a Core Ultra 7 265K at its 250 W turbo limit is beyond what a four-pipe tower should be asked to handle. For about $15 more, the [Peerless Assassin 120 SE](/gear/thermalright-peerless-assassin-120-se/) adds a second tower and fan and is the better buy for any eight-core gaming chip.",
+      "Its closest rival is the Arctic Freezer 36 at $30–$40, which pairs a similar four-pipe tower with two fans in push-pull. The Arctic is the stronger, quieter cooler under load; the Thermalright wins on price and on height, at 11 mm shorter. For a Ryzen 5 build where every dollar goes to the graphics card, this is the one."
+    ],
+    "pros": [
+      "Under $25",
+      "148 mm fits more cases than dual towers",
+      "Big step up from stock coolers",
+      "AM5 and LGA 1851 support",
+      "Light and simple to install"
+    ],
+    "cons": [
+      "Single fan ramps up under heavy loads",
+      "Not for 170 W and higher chips",
+      "Basic budget fan"
+    ],
+    "extra": {
+      "heading": "Fit and Compatibility",
+      "body": [
+        "At 148 mm, this cooler fits most mid-towers and many micro-ATX cases, but budget micro-ATX towers often list clearance close to that figure, so check the exact number on your case's spec page before you buy.",
+        "AMD installs reuse the stock AM4 or AM5 backplate after you remove the plastic retention clips. On Intel, use the included backplate; LGA 1700 and LGA 1851 share hole spacing, so one kit covers both.",
+        "Point the fan so it blows toward the rear exhaust fan. If it touches a tall RAM kit, move it up on its clips or mount it on the rear face of the tower to pull air through instead."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Assassin X 120 Refined SE enough for a Ryzen 5 7600?",
+        "a": "Yes, easily. The Ryzen 5 7600 is a 65 W chip, and this cooler gives it more headroom and lower noise than the included Wraith Stealth."
+      },
+      {
+        "q": "Can it cool a Ryzen 7 9800X3D?",
+        "a": "It can, but it is not the best match. The 9800X3D is rated at 120 W, so the single fan works harder and gets louder; the Peerless Assassin 120 SE and Phantom Spirit 120 SE cost about $15–$20 more and have far more headroom."
+      },
+      {
+        "q": "Does it work on AM4?",
+        "a": "Yes. It supports AM4 as well as AM5, which makes it a cheap upgrade for older Ryzen 5 builds that still run a stock cooler."
+      }
+    ]
+  },
+  {
+    "id": "noctua-nh-d15-g2",
+    "name": "Noctua NH-D15 G2",
+    "short": "NH-D15 G2",
+    "brand": "noctua",
+    "category": "cpu-coolers",
+    "released": "2024",
+    "price": [140, 160],
+    "description": "The Noctua NH-D15 G2 is the best premium air cooler: eight heat pipes, two 140 mm fans and a six-year warranty for about $150, if your case clears 168 mm.",
+    "quick": "Noctua's flagship dual tower with eight heat pipes and two NF-A14x25r G2 140 mm fans, 168 mm tall. It costs about $150 and comes in standard, LBC and HBC versions tuned for different CPU heatspreaders.",
+    "bestFor": "Quiet high-end builds with 170 W chips where you want air cooling and a long warranty",
+    "skipIf": "Your case clears less than 168 mm or that extra $100 would do more on the graphics card",
+    "specs": [
+      ["Type", "Dual-tower air"],
+      ["Fans", "2x NF-A14x25r G2 140 mm PWM"],
+      ["Heat pipes", "8"],
+      ["Height", "168 mm"],
+      ["Socket support", "AM4, AM5, LGA 1700, LGA 1851"],
+      ["Warranty", "6 years"],
+      ["Versions", "Standard, LBC (low base convexity), HBC (high base convexity)"],
+      ["Thermal paste", "NT-H2 included"]
+    ],
+    "score": {
+      "overall": 87,
+      "parts": [["Cooling", 95], ["Noise", 94], ["Compatibility", 76], ["Value", 70]]
+    },
+    "verdict": [
+      "The NH-D15 G2 is the best air cooler you can buy if price is not the deciding factor. Noctua gave it eight heat pipes, two new NF-A14x25r G2 140 mm fans and a larger fin stack than the original NH-D15, and independent reviews place it among the strongest air coolers available while staying quieter than most at the same cooling level. NT-H2 paste, mounting for AM4, AM5, LGA 1700 and LGA 1851, and a six-year warranty are all in the box.",
+      "The catch is that it costs about $150, roughly four times a Phantom Spirit 120 SE, and the cooling gap between the two is far smaller than the price gap. You are paying mainly for lower noise, Noctua's mounting system and support, and the warranty. It is also big: 168 mm tall and wide enough to cover the first RAM slot.",
+      "Noctua also asks you to choose a version. The standard model suits most chips. LBC, for low base convexity, is aimed at flatter heatspreaders such as AM5; HBC, for high base convexity, is aimed at LGA 1700 and LGA 1851 chips whose heatspreaders bow under socket pressure. If you are unsure, the standard version is the safe default.",
+      "Its closest rival is the be quiet! [Dark Rock Pro 5](/gear/be-quiet-dark-rock-pro-5/), also 168 mm and quiet, for $90–$100, though it sits a step behind on cooling. For less money than the Noctua, the Arctic Liquid Freezer III Pro 360 offers more heat capacity for 170 W chips and leaves the RAM area clear, at the cost of a pump that can eventually wear out."
+    ],
+    "pros": [
+      "Among the strongest air coolers available",
+      "Quiet NF-A14x25r G2 140 mm fans",
+      "Six-year warranty and NT-H2 paste included",
+      "Version choice for AM5 or Intel heatspreaders",
+      "Secure, easy SecuFirm2+ mounting"
+    ],
+    "cons": [
+      "About $150, four times a Thermalright dual tower",
+      "168 mm height rules out many cases",
+      "Wide fin stack covers the first RAM slot"
+    ],
+    "extra": {
+      "heading": "Fit and Compatibility",
+      "body": [
+        "Check for at least 168 mm of CPU cooler clearance. Plenty of mid-towers list 165 mm or less, and glass side panels with brackets can take a few millimeters more, so check the exact figure rather than assume.",
+        "The fin stack and front fan overhang the RAM slot nearest the CPU. Low-profile kits such as the G.Skill Flare X5 or Corsair Vengeance DDR5 (about 33–35 mm) are the easy choice. With taller RGB kits, raise the front fan, which pushes total height above 168 mm, so recheck your case clearance.",
+        "AM5 and AM4 use AMD's stock backplate with Noctua's SecuFirm2+ mounting bars; LGA 1851 uses the LGA 1700 hardware. Noctua's website has a compatibility list by motherboard if you want to confirm clearance around the socket before buying."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Which NH-D15 G2 version should I buy?",
+        "a": "Buy the standard version unless you have a reason not to. Noctua aims the LBC version at flatter heatspreaders such as AM5, and the HBC version at LGA 1700 and LGA 1851 chips whose heatspreaders bow under socket pressure."
+      },
+      {
+        "q": "Is the NH-D15 G2 worth $150 over a Phantom Spirit 120 SE?",
+        "a": "Only if noise, build quality and warranty matter more than money. It cools better and more quietly, but the Phantom Spirit 120 SE gets much of the way there for $35–$45."
+      },
+      {
+        "q": "Can the NH-D15 G2 handle a Ryzen 9 9950X3D?",
+        "a": "Yes. The 9950X3D is rated at 170 W, and the NH-D15 G2 is one of the few air coolers that independent reviews rate as suitable for 170 W-class chips. A 360 mm AIO still has more headroom for long all-core work."
+      },
+      {
+        "q": "Does the NH-D15 G2 fit AM5 and LGA 1851?",
+        "a": "Yes. Mounting for AM4, AM5, LGA 1700 and LGA 1851 is in the box, and LGA 1851 uses the LGA 1700 parts."
+      }
+    ]
+  },
+  {
+    "id": "noctua-nh-u12s-redux",
+    "name": "Noctua NH-U12S redux",
+    "short": "NH-U12S redux",
+    "brand": "noctua",
+    "category": "cpu-coolers",
+    "price": [45, 55],
+    "description": "The NH-U12S redux is a quiet, slim 158 mm single tower with four heat pipes and a six-year warranty, but at $45–$55 cheaper dual towers cool better.",
+    "quick": "A slim 158 mm single-tower cooler with four heat pipes and one NF-P12 redux 120 mm fan. It costs $45–$55 and carries Noctua's six-year warranty.",
+    "bestFor": "Quiet builds with 65 W chips where Noctua mounting and warranty matter more than price",
+    "skipIf": "You want the most cooling per dollar, since $40 dual towers cool better",
+    "specs": [
+      ["Type", "Single-tower air"],
+      ["Fans", "1x NF-P12 redux 120 mm PWM"],
+      ["Heat pipes", "4"],
+      ["Height", "158 mm"],
+      ["Socket support", "AM4, AM5, LGA 1700, LGA 1851"],
+      ["Warranty", "6 years"]
+    ],
+    "score": {
+      "overall": 74,
+      "parts": [["Cooling", 70], ["Noise", 84], ["Compatibility", 88], ["Value", 60]]
+    },
+    "verdict": [
+      "The NH-U12S redux is a good cooler at the wrong price. It packs four heat pipes and one NF-P12 redux 120 mm fan into a slim 158 mm tower, uses Noctua's well-regarded mounting, and carries a six-year warranty. On a 65 W Ryzen 5 7600 or a Ryzen 7 9700X at its default 65 W setting it runs quietly, and owners report keeping it across several builds.",
+      "The problem is the competition. At $45–$55 it costs more than the [Peerless Assassin 120 SE](/gear/thermalright-peerless-assassin-120-se/), which brings six heat pipes, two towers and two fans for $35–$45, and more than the Arctic Freezer 36, which adds a second fan in push-pull for $30–$40. Both cool better. The redux line is Noctua's cost-down range, with grey fans and four heat pipes instead of the five on the regular NH-U12S, so the brand premium buys less here than usual.",
+      "Where it still makes sense: narrow cases where a wide dual tower crowds the RAM or the side panel, builds where you want one fan and very low noise at modest loads, and buyers who value Noctua's support record, including its history of mounting kits for new sockets.",
+      "For a 120 W Ryzen 7 9800X3D or anything hotter, step up to the Phantom Spirit 120 SE or, if you want to stay with Noctua, the NH-D15 G2 at about $150."
+    ],
+    "pros": [
+      "Slim tower leaves room around the RAM slots",
+      "Quiet at light and gaming loads",
+      "Six-year warranty",
+      "Noctua mounting is easy and secure"
+    ],
+    "cons": [
+      "Costs more than better-cooling dual towers",
+      "Only four heat pipes and one fan",
+      "Not for 120 W and higher chips under heavy load"
+    ],
+    "extra": {
+      "heading": "Fit and Compatibility",
+      "body": [
+        "At 158 mm, the redux needs a mid-tower with at least that much cooler clearance; it is not the low-profile option its slim shape might suggest. Its narrow fin stack sits close to the socket, which is why it is a common choice when tall RGB memory would collide with a dual tower's front fan.",
+        "AM4 and AM5 use AMD's stock backplate. Noctua lists LGA 1700 and LGA 1851 support, but older boxes may predate the LGA 1700 hardware, and Noctua has offered a separate mounting kit for those. Check the box contents or Noctua's compatibility list before you buy older stock for an Intel build."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What is the difference between the NH-U12S redux and the NH-U12S?",
+        "a": "The redux is the cheaper version. It has four heat pipes instead of five, a simpler NF-P12 redux fan and a grey color scheme, and it costs less than the regular NH-U12S."
+      },
+      {
+        "q": "Is the NH-U12S redux good for a Ryzen 7 9800X3D?",
+        "a": "It works, but it is not the best value. A $35–$45 dual tower such as the Phantom Spirit 120 SE has more headroom for a 120 W chip and costs less."
+      },
+      {
+        "q": "Is the NH-U12S redux quiet?",
+        "a": "Yes, at light and gaming loads on 65 W chips. With hotter CPUs its single fan has to spin up, and a dual tower with two fans will usually be quieter at the same temperature."
+      }
+    ]
+  },
+  {
+    "id": "arctic-freezer-36",
+    "name": "Arctic Freezer 36",
+    "short": "Freezer 36",
+    "brand": "arctic",
+    "category": "cpu-coolers",
+    "released": "2023",
+    "price": [30, 40],
+    "description": "The Arctic Freezer 36 is the best single-tower cooler for most: two 120 mm fans in push-pull, four heat pipes and AM5 and LGA 1851 support for $30–$40.",
+    "quick": "A 159 mm single-tower cooler with four heat pipes and two P12 Pressure-optimised 120 mm fans in push-pull. It sells for $30–$40 and supports AM4, AM5, LGA 1700 and LGA 1851.",
+    "bestFor": "Gaming builds with 65 W to 120 W chips that want easy push-pull cooling under $40",
+    "skipIf": "Your case clears less than 159 mm or a dual tower costs the same where you shop",
+    "specs": [
+      ["Type", "Single-tower air, push-pull"],
+      ["Fans", "2x P12 Pressure-optimised 120 mm PWM"],
+      ["Heat pipes", "4"],
+      ["Height", "159 mm"],
+      ["Socket support", "AM4, AM5, LGA 1700, LGA 1851"],
+      ["Versions", "Standard, A-RGB, CO (dual ball bearing fans)"]
+    ],
+    "score": {
+      "overall": 85,
+      "parts": [["Cooling", 82], ["Noise", 86], ["Compatibility", 84], ["Value", 90]]
+    },
+    "verdict": [
+      "The Freezer 36 is Arctic's answer to cheap dual towers, and it takes a different route: one four-pipe tower with a 120 mm fan on each side. At $30–$40 it is a few dollars under a Peerless Assassin 120 SE, independent reviews place it close to budget dual towers on cooling, and Arctic's clip-on fan holders make it one of the easiest coolers to install.",
+      "Push-pull has a cost in height. At 159 mm it is 4 to 5 mm taller than the Thermalright dual towers, and the front fan sits beside the memory, so very tall RGB kits can get in the way. The narrow single tower does help on crowded micro-ATX boards, where a wide dual tower can foul a top PCIe slot or VRM heatsink.",
+      "It suits a 120 W Ryzen 7 9800X3D or a Core Ultra 5 245K. On a 170 W Ryzen 9 or a Core Ultra 7 265K at its 250 W limit, a dual tower or AIO has more headroom; within Arctic's range, the step-up is the Liquid Freezer III Pro 360 at $85–$110.",
+      "Its closest rival is the [Peerless Assassin 120 SE](/gear/thermalright-peerless-assassin-120-se/). If both cost the same, the Thermalright has more raw capacity from its second tower, while the Arctic is easier to install. Against the $18–$25 Assassin X 120 Refined SE, the Freezer 36's second fan and stronger mounting earn the extra $10–$15."
+    ],
+    "pros": [
+      "Push-pull fans for $30–$40",
+      "Easy clip-on fan mounting",
+      "Narrow tower suits crowded boards",
+      "AM5 and LGA 1851 support in the box",
+      "Quiet at gaming loads"
+    ],
+    "cons": [
+      "159 mm is taller than most budget dual towers",
+      "Front fan can crowd tall RAM",
+      "Less headroom than dual towers for 170 W chips"
+    ],
+    "extra": {
+      "heading": "Fit and Compatibility",
+      "body": [
+        "Allow at least 159 mm of cooler clearance. A case that lists exactly 160 mm is cutting it close once the side panel goes on, so 165 mm or more is more comfortable.",
+        "AM4 and AM5 installs use the motherboard's stock backplate. LGA 1700 and LGA 1851 share hole spacing, so one Intel kit covers both, including Core Ultra 200S chips like the Core Ultra 5 245K.",
+        "If a tall RGB kit hits the front fan, slide the fan up on its holder, or remove it and run the cooler with the rear fan only. It loses some headroom that way but still suits 65 W chips."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Freezer 36 better than the Peerless Assassin 120 SE?",
+        "a": "Not on raw cooling. The Peerless Assassin's two towers give it more capacity, while the Freezer 36 counters with an easier install and a narrower body. At equal prices most buyers should take the Thermalright; if the Arctic is cheaper or fits your board better, it is a fine choice."
+      },
+      {
+        "q": "Does the Freezer 36 support AM5?",
+        "a": "Yes. Mounting for AM4, AM5, LGA 1700 and LGA 1851 is supported in the box, using AMD's stock backplate on AM4 and AM5."
+      },
+      {
+        "q": "What is the Freezer 36 CO?",
+        "a": "It is the version with dual ball bearing fans, which Arctic markets for continuous operation such as always-on machines. For a gaming PC, the standard model is the better pick."
+      }
+    ]
+  },
+  {
+    "id": "be-quiet-dark-rock-pro-5",
+    "name": "be quiet! Dark Rock Pro 5",
+    "short": "Dark Rock Pro 5",
+    "brand": "be-quiet",
+    "category": "cpu-coolers",
+    "price": [90, 100],
+    "description": "The Dark Rock Pro 5 is a quiet, all-black dual tower with seven heat pipes for $90–$100, but it needs 168 mm of space and costs twice a Thermalright.",
+    "quick": "be quiet!'s flagship dual-tower air cooler, with seven heat pipes, a 135 mm Silent Wings fan plus a 120 mm fan, and a 168 mm height. It sells for $90–$100 in an all-black finish.",
+    "bestFor": "Low-noise builds in roomy cases where an all-black look matters",
+    "skipIf": "You care most about cooling per dollar or your case clears less than 168 mm",
+    "specs": [
+      ["Type", "Dual-tower air"],
+      ["Fans", "Silent Wings 135 mm + 120 mm PWM"],
+      ["Heat pipes", "7"],
+      ["Height", "168 mm"],
+      ["Socket support", "AM4, AM5, LGA 1700, LGA 1851"],
+      ["Finish", "All black with aluminum top cover"]
+    ],
+    "score": {
+      "overall": 79,
+      "parts": [["Cooling", 85], ["Noise", 92], ["Compatibility", 72], ["Value", 64]]
+    },
+    "verdict": [
+      "The Dark Rock Pro 5 is the quiet, good-looking alternative to Noctua's flagship. Seven heat pipes feed two black-coated towers, with a 135 mm Silent Wings fan in the middle and a 120 mm fan in front, and a brushed top cover hides the fins. At $90–$100 it costs about two-thirds of an NH-D15 G2, and owners and independent reviews consistently rate it among the quietest high-end air coolers.",
+      "The trade-off is value. In independent reviews its cooling lands close to the much cheaper Thermalright dual towers rather than clearly ahead, so most of the extra $50–$60 pays for low noise, finish and be quiet!'s support. At 168 mm it also needs a roomy case, and the front fan overhangs the first memory slot.",
+      "Installation is fiddlier than on Thermalright or Arctic coolers, and owners suggest fitting it before the motherboard goes into a cramped case.",
+      "Pick the Dark Rock Pro 5 over the [Phantom Spirit 120 SE](/gear/thermalright-phantom-spirit-120-se/) only if silence and looks are worth roughly $55 to you. For more cooling at the top end, the Noctua NH-D15 G2 is the step-up at about $150, and the Arctic Liquid Freezer III Pro 360 costs about the same as the be quiet! with far more headroom for 170 W chips like the Ryzen 9 9950X3D."
+    ],
+    "pros": [
+      "Among the quietest high-end air coolers",
+      "Clean all-black finish with top cover",
+      "Seven heat pipes and Silent Wings fans",
+      "AM5 and LGA 1851 support"
+    ],
+    "cons": [
+      "About twice the price of a Thermalright dual tower for similar cooling",
+      "168 mm height",
+      "Fiddlier install",
+      "Front fan overhangs the first RAM slot"
+    ],
+    "extra": {
+      "heading": "Fit and Compatibility",
+      "body": [
+        "Check clearance first: 168 mm needs a roomier mid-tower, and side panels with fan mounts or glass brackets can eat a few millimeters of the listed clearance.",
+        "Memory under the front fan is the usual snag. Low-profile DDR5 around 33–35 mm is the safe choice; with taller RGB kits, raise the front fan, which pushes total height past 168 mm.",
+        "AMD installs use the stock AM4 or AM5 backplate. On Intel, the LGA 1700 hardware also fits LGA 1851 boards, since the hole spacing did not change."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Dark Rock Pro 5 better than the NH-D15 G2?",
+        "a": "No, but it is cheaper. The NH-D15 G2 cools better and has a six-year warranty, while the Dark Rock Pro 5 costs about $50 less and is similarly quiet."
+      },
+      {
+        "q": "Is the Dark Rock Pro 5 worth it over a Peerless Assassin 120 SE?",
+        "a": "Only for noise and looks. Independent reviews put their cooling close together, and the Thermalright costs less than half as much."
+      },
+      {
+        "q": "Does the Dark Rock Pro 5 fit AM5?",
+        "a": "Yes. It supports AM4 and AM5 using AMD's stock backplate, along with LGA 1700 and LGA 1851."
+      }
+    ]
+  },
+  {
+    "id": "arctic-liquid-freezer-iii-pro-360",
+    "name": "Arctic Liquid Freezer III Pro 360",
+    "short": "Liquid Freezer III Pro",
+    "brand": "arctic",
+    "category": "cpu-coolers",
+    "released": "2025",
+    "price": [85, 110],
+    "description": "The Liquid Freezer III Pro 360 is the best-value 360 mm AIO: a 38 mm thick radiator, three P12 Pro fans and a six-year warranty for $85–$110.",
+    "quick": "A 360 mm all-in-one liquid cooler with a 38 mm thick radiator, three P12 Pro 120 mm fans and a small VRM fan on the pump block. It costs $85–$110, includes an offset AM5 mount and carries a six-year warranty.",
+    "bestFor": "Ryzen 9 9950X3D and Core Ultra 7 265K builds with long all-core loads and room for a 360 mm radiator",
+    "skipIf": "Your case cannot take a thick 360 mm radiator or you would rather not own a pump that can fail",
+    "specs": [
+      ["Type", "360 mm AIO liquid cooler"],
+      ["Fans", "3x P12 Pro 120 mm PWM"],
+      ["Radiator", "360 mm, 38 mm thick"],
+      ["Socket support", "AM4, AM5, LGA 1700, LGA 1851"],
+      ["Pump block", "Integrated VRM fan"],
+      ["AM5 mounting", "Offset mount included"],
+      ["Warranty", "6 years"]
+    ],
+    "score": {
+      "overall": 89,
+      "parts": [["Cooling", 95], ["Noise", 86], ["Compatibility", 78], ["Value", 92]]
+    },
+    "verdict": [
+      "The Liquid Freezer III Pro 360 is the AIO to buy if you actually need one. Arctic pairs a 360 mm radiator that is 38 mm thick, about 11 mm thicker than the typical 27 mm AIO radiator, with three P12 Pro fans. Independent reviews place it at or near the top of 360 mm AIOs while it undercuts most of them on price at $85–$110, and the six-year warranty is longer than many rivals at twice the money.",
+      "Two details set it apart. A small fan on the pump block blows over the motherboard's VRM, which helps boards that lose airflow when an air tower is swapped for liquid. And the AM5 mounting offsets the cold plate toward the hot spot on Ryzen chips, which Arctic says improves temperatures on AM5.",
+      "The trade-off is fit and complexity. You need a case with a 360 mm mount that clears 38 mm of radiator plus 25 mm fans, about 63 mm in all, and top mounts can collide with tall RAM or motherboard heatsinks. A pump can also fail where a heatsink cannot, though the warranty softens that.",
+      "Do you need it? For a 120 W Ryzen 7 9800X3D, the [Phantom Spirit 120 SE](/gear/thermalright-phantom-spirit-120-se/) does the job for under half the price. The Liquid Freezer earns its place on 170 W chips like the Ryzen 9 9950X3D, on a Core Ultra 7 265K run at its 250 W turbo limit, or in builds where a tower would block the view. Its closest premium air rival is the Noctua NH-D15 G2, which costs more and avoids a pump but needs 168 mm of height."
+    ],
+    "pros": [
+      "Top-tier 360 mm cooling for $85–$110",
+      "Thick 38 mm radiator",
+      "VRM fan on the pump block",
+      "Offset AM5 mount included",
+      "Six-year warranty"
+    ],
+    "cons": [
+      "Needs a 360 mm mount with about 63 mm of depth",
+      "Pump is a failure point air coolers lack",
+      "Overkill for 65 W and 120 W chips"
+    ],
+    "extra": {
+      "heading": "Fit and Compatibility",
+      "body": [
+        "Check two numbers on your case spec sheet: 360 mm radiator support, and the thickness that mount allows. With fans, this radiator stack is about 63 mm deep, and some top mounts only take thinner radiators next to tall RAM. Front mounting is usually easier; keep the tube end of the radiator lower than its top so air collects away from the pump.",
+        "On AM5, use Arctic's offset mounting, which shifts the cold plate toward the CPU hot spot. On LGA 1700 and LGA 1851, Arctic includes a contact frame that replaces the socket's stock retention bracket; it is optional, and the standard bracket also works.",
+        "The pump, radiator fans and VRM fan share one cable that runs through the tube sleeve, so a single connector goes to the CPU_FAN header."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do I need a 360 mm AIO for a Ryzen 7 9800X3D?",
+        "a": "No. The 9800X3D is rated at 120 W, which good dual-tower air coolers handle. Buy the Liquid Freezer III Pro 360 for a 170 W Ryzen 9 9950X3D, heavy all-core work, or if you prefer a clear view of the socket area."
+      },
+      {
+        "q": "Will a 38 mm radiator fit my case?",
+        "a": "Check the case's radiator support for thickness, not just length. With fans the stack is about 63 mm deep, which some top mounts cannot take next to tall RAM or motherboard heatsinks; front mounts are usually easier."
+      },
+      {
+        "q": "What is the small fan on the pump block for?",
+        "a": "It cools the motherboard's VRM area. Air towers push some air over the VRM heatsinks and an AIO takes that away; Arctic's pump fan puts some of it back."
+      },
+      {
+        "q": "How long is the Liquid Freezer III Pro 360 warranty?",
+        "a": "Six years from Arctic, which is longer than many AIOs that cost more."
+      }
+    ]
+  }
+]

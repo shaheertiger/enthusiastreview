@@ -1,125 +1,75 @@
-# Enthusiast Review — dehumidifier buying guides
+# Enthusiast Review — PC hardware buying guides
 
-Static [Astro](https://astro.build) site of dehumidifier reviews, buying guides and comparisons,
-with Amazon affiliate links (tag `sktiger-20`). Every review page follows a magazine
-buyer's-guide layout: title and dek → byline → disclosure → **"<search>: The Short Answer"**
-(verdict, stats, top picks) → product hero → intro → numbered product cards (photo, Amazon button, pros/cons, write-up,
-"Features at a glance") → how we pick → what to look for → topic sections → FAQ →
-why trust us → **Readers also read**.
+Static [Astro](https://astro.build) site of PC hardware buying guides, product pages and comparisons
+(graphics cards, CPUs, CPU coolers, power supplies, cases, RAM, motherboards, SSDs), with Amazon
+affiliate links (tag `sktiger-20`). The site was a PC hardware site from 2019; this version brings that
+genre back, restores the 2020 URLs that still had rankings, and copies the page structure that works on
+our sister sites (besthometheaterreview.com, best-proteinpowder.com). See
+[`docs/ranking-method.md`](docs/ranking-method.md).
 
 ## Run
 
 ```bash
 npm install
 npm run dev       # http://localhost:4321
-npm run build     # validates content, then builds static HTML into dist/
+npm run build     # page dates → validate → astro build → Markdown twins → IndexNow (production only)
+npm run audit:seo # after a build: titles, descriptions, Short Answer H2, H1s, schema, inbound links
 ```
 
-Deploy on Vercel (framework preset: Astro, zero config).
+Deploy on Vercel (framework preset: Astro).
+
+## URLs (the sister-site structure)
+
+| Path | Page | Source |
+|---|---|---|
+| `/<slug>/` | Buyer's guides (`/best-graphics-card/`) and brand reviews (`/corsair-review/`) at the root | `src/data/guides/<slug>.json` |
+| `/gear/<id>/` | One page per product: specs, ER Score, verdict, alternatives, FAQ | `src/data/products/<category>.json` |
+| `/compare/<a>-vs-<b>/` | Head-to-heads: Short Answer, specs side by side, differences, scores | `src/data/compares.json` |
+| `/glossary/<id>/` | Spec-sheet terms with a worked example | `src/data/glossary.json` |
+| `/brands/` and `/brands/<brand>/` | Brand hubs with every product we track | `src/data/brands.json` |
+| `/tools/bottleneck-calculator/`, `/tools/psu-calculator/` | Calculators | `src/data/hardware-index.ts` |
+| `/best-of/`, `/gear/`, `/compare/`, `/glossary/`, `/tools/` | Hubs | generated |
+
+Also `/about/`, `/how-we-review/`, `/disclosure/`, `/privacy/`, `/contact/`, `/authors/<slug>/`,
+`/sitemap.xml`, `/robots.txt`, and a Markdown twin of every page (`/gear/rtx-5070.md`).
 
 ## Where things live
 
 | Path | What |
 |---|---|
-| `src/content/pages/*.json` | **One file per page.** Text, products, sections, FAQs. Schema in `src/lib/content.ts`. |
-| `src/data/catalog.json` | Products with a verified Amazon ASIN + photo. Pages reference these with `catalogId`. |
-| `src/data/affiliate.ts` | `amazonLink()` — explicit URL → `/dp/ASIN` from the catalog → tagged Amazon search. Every link carries the tag. |
-| `src/data/site.ts` | Site name, URL, email, categories. |
-| `src/data/authors.ts` | Bylines. Add real authors here and set `"author": "<slug>"` on pages. |
-| `src/components/Article.astro` | The single page template for `/best/`, `/guides/` and `/compare/` pages. |
-| `src/styles/global.css` | Design tokens and styles (Barlow Semi Condensed + Lora, teal accent). |
-| `scripts/validate-content.mjs` | Pre-build checks: schema, word counts, internal links, catalog ids, no fake "we tested" claims; prints affiliate-link coverage. |
-| `scripts/fetch-product-images.mjs` | `npm run images:fetch` — finds each product's exact Amazon ASIN + photo with the **official** Creators API SDK. |
-| `vendor/creatorsapi-nodejs-sdk/` | Amazon's official Creators API Node.js SDK (Amazon ships it as a zip, not on npm), prebuilt. |
+| `docs/content-schema.md` | **The JSON schema and house rules** for every content type. Read before editing content. |
+| `src/lib/data.ts` | Loads all content; lookups, dates, price bands, titles, inline text with auto-links. |
+| `src/pages/[slug].astro` | Guide template: Short Answer → how we ranked → picks → spec table → mentions → sections → mistakes → bottom line → FAQ → sources → all we track. |
+| `src/pages/gear/[id].astro` | Product template (Product + Review + FAQPage schema). |
+| `src/pages/compare/[pair].astro` | Comparison template. |
+| `src/data/categories.ts` | The eight categories, their hero guide and icon. |
+| `src/data/affiliate.ts` | `amazonLink()`: explicit URL → verified `asin` → tagged Amazon search. |
+| `src/data/catalog.json` | Verified Amazon listings (ASIN, photo, title), written by `npm run images:fetch`. |
+| `scripts/fetch-product-images.mjs`, `scripts/lib/match.mjs` | The Creators API fetcher and its per-product match rules. |
+| `scripts/validate-content.mjs` | Schema, ids, internal links, one-URL-per-search, no testing claims, lengths. |
+| `scripts/page-dates.mjs` | Real `updated` dates from git per content file. |
+| `scripts/build-markdown.mjs` | Markdown twins + `llms.txt`, `llms-full.txt`, `ai.txt` from the built HTML. |
+| `middleware.js` | Dualmark Markdown negotiation; 410 Gone for the old dehumidifier URLs; 301 for old bottleneck-finder URLs. |
+| `vercel.json` | 301s for the 2020 URLs that were merged into newer pages. |
 
 ## Common tasks
 
-- **Add a page:** copy an existing JSON file in `src/content/pages/`, change `slug` (must match the
-  file name) and `section`. Hubs, home page, menus, sitemap, related links and JSON-LD pick it up
-  automatically. Run `npm run validate`.
-- **Give a product a photo and direct link:** add it to `src/data/catalog.json` with its ASIN and
-  image URL, then set `"catalogId"` on the product. Only map the exact same model.
-- **Override a link:** set `"url"` (e.g. a SiteStripe link) or `"asin"` on the product.
+- **Add a product:** append it to `src/data/products/<category>.json` (schema §1). Its `/gear/` page,
+  sitemap entry, hub rows and auto-links appear automatically.
+- **Add a comparison:** append `{a, b, title, description, quick, differ, buyA, buyB}` to `compares.json`.
+  It is linked from both product pages, the hub and any guide that picks both.
+- **Add a guide:** copy a file in `src/data/guides/`, change `slug` (must match the file name). Run
+  `npm run validate`: it refuses a second page that targets the same search.
+- **Product photos and direct links:** `npm run images:fetch` searches the Amazon Creators API (official
+  SDK in `vendor/creatorsapi-nodejs-sdk`) for every product without a listing and writes the ASIN, official
+  photo and listing title to `src/data/catalog.json`. Each product has a strict rule in `scripts/lib/match.mjs`
+  (words that must appear, sibling models that must not), so an RTX 5070 never matches a 5070 Ti listing.
+  `-- --verify` re-checks every stored ASIN, `-- --refresh` looks everything up again, `-- --only <id>` one
+  product. Unmatched products keep a tagged Amazon search link; see `scripts/image-match-report.json`.
+  Credentials: `AMAZON_CREATORS_CREDENTIAL_ID`/`_SECRET` (or `_CLIENT_ID`/`_SECRET`) and `AMAZON_CREATORS_PARTNER_TAG`.
 
-## Product photos and direct links (Amazon Creators API)
+## Honesty rules (enforced by the validator)
 
-```bash
-cp .env.example .env            # add your Creators API credential ID, secret and version
-npm run images:fetch            # look up every product still missing an ASIN + photo
-npm run images:fetch -- --verify   # also re-check existing ASINs against their Amazon titles
-```
-
-The script uses Amazon's official Creators API Node.js SDK (vendored in
-`vendor/creatorsapi-nodejs-sdk`). It searches Amazon for each product and only accepts a
-listing whose title contains the product's model number (or, without one, the same brand
-and pint size), then writes the ASIN and official image URL to `src/data/catalog.json`.
-Unmatched products are listed in `scripts/image-match-report.json`; set `"asin"` on those
-by hand. New credentials are limited to 1 request/second and 8,640/day; the script paces
-itself and saves progress every 10 products.
-
-## Internal linking
-
-Handled by the template, so new pages are linked automatically:
-
-- **Contextual links:** the first mention of a brand or topic in body copy links to its page
-  (`createAutolinker` in `src/lib/content.ts`; terms in `BRAND_TERMS` / `TOPIC_TERMS`).
-- **Keep reading:** three in-article links per page, round-robin within its category, so every
-  page is linked from the body of its siblings.
-- **More from [brand]** under each product card, **Head-to-head** comparisons on brand pages,
-  **More in [category]** and **Readers also read** at the bottom, linked breadcrumbs, hubs and the home page.
-
-## AI agents (Dualmark / AEO)
-
-The site follows the [Dualmark](https://dualmark.dev) AEO spec 1.0. After `astro build`,
-`scripts/build-markdown.mjs` writes a Markdown twin of every page from the same JSON
-(`/best/x/` → `/best/x.md`, `/` → `/index.md`), plus `llms.txt`, `llms-full.txt`, `ai.txt`,
-`sitemap.md` and `md-catalog.json`. `middleware.js` (Vercel Routing Middleware, using
-`@dualmark/core`) then:
-
-- serves `.md` URLs with `Content-Type: text/markdown`, `X-Markdown-Tokens`, `X-Robots-Tag: noindex`,
-  `Vary: Accept`, `X-AEO-Version` and `X-Content-Type-Options: nosniff`;
-- returns Markdown for `Accept: text/markdown` and for known AI bots (GPTBot, ClaudeBot, PerplexityBot…)
-  unless they explicitly prefer HTML, and 406 when neither format is acceptable;
-- adds `Link: <…md>; rel="alternate"; type="text/markdown"` and `Vary` to every HTML page;
-- answers 410 Gone for the old PC-gaming URLs.
-
-Check it after a deploy: `npx @dualmark/cli verify https://www.enthusiastreview.com/best/best-dehumidifier/`
-
-## URLs
-
-Pages live at `/best/<slug>/`, `/guides/<slug>/` and `/compare/<slug>/`, with hubs at `/best/`,
-`/guides/` and `/compare/`. Also `/about/`, `/how-we-review/`, `/disclosure/`, `/privacy/`,
-`/contact/`, `/authors/<slug>/`, `/sitemap.xml` and `/robots.txt`.
-
-## SEO
-
-- Pre-rendered HTML with title, description, canonical and Open Graph tags on every page.
-- `sitemap.xml` lists every URL with lastmod and the product photos on each guide (image sitemap); `sitemap.md` lists the Markdown twins.
-- JSON-LD: `BreadcrumbList`, `Article`, `ItemList` and `FAQPage` on content pages; `CollectionPage` on hubs.
-- Affiliate links use `rel="sponsored nofollow noopener"`; disclosure near the top of every page and in the footer.
-- Search console verification: set `PUBLIC_GOOGLE_SITE_VERIFICATION` and `PUBLIC_BING_SITE_VERIFICATION` in Vercel.
-- IndexNow: every Vercel **production** build ends by submitting every sitemap URL to IndexNow (Bing picks changes up within hours). Previews and local builds skip it, and a failed ping never fails the deploy. `npm run indexnow` submits the live sitemap by hand. Key file in `public/`.
-
-### Ranking method
-
-[`docs/ranking-method.md`](docs/ranking-method.md) is the full method for Google and Bing: one URL per search, page types,
-snippet formulas, the page skeleton, the keyword → page map and the pre-publish checklist. In short:
-
-- **One page per search.** `npm run validate` fails if two indexable pages target the same search. Merge the weaker one
-  into the stronger (move its unique sections and FAQs) and add a 301 for both its HTML and `.md` URL in `vercel.json`.
-- **Off-topic pages** get `"noindex": true`: they stay live but leave the sitemap, hubs, menus, related links and llms files.
-- **Answer first.** The first H2 is "<search>: The Short Answer", built from `topPicksLead` (the verdict) and
-  `shortAnswer` (a stats row or table). The search defaults to the title before "(2026)", ":" or "?"; set `query` to override.
-- **Boilerplate varies by page type** (`src/data/page-copy.mjs`): disclosure, byline method line and trust box.
-
-### Bing first
-
-Nearly all search traffic to sites like this comes from Bing-powered engines (Bing, DuckDuckGo, Yahoo, Ecosia, Copilot), so the on-page rules follow what Bing rewards:
-
-- **Titles lead with the query**, 50–62 characters. The ` | Enthusiast Review` suffix is added only when it still fits in 65 (`src/layouts/Base.astro`). A year goes in the title only where the answer changes by year: buying guides, brand pages, store pages and comparisons carry `(2026)`; how-tos and explainers do not.
-- **Meta descriptions are 140–158 characters and open with the answer and a number** (the pick and its capacity, the target, the cost); Bing shows them more often than Google rewrites them.
-- **Real dates.** A page's `updated` date is the last git commit that changed its JSON (`scripts/page-dates.mjs`, the first build step, writes the gitignored `src/data/git-dates.json`). Vercel builds from a shallow clone, so the script fetches full history first and ignores the shallow boundary commit if it cannot. The `updated` field in each JSON is only the fallback. Never bump a date without a real change.
-
-`npm run build && npm run audit:seo` (add `--list` for the URLs) reports titles, descriptions (length and answer-first), the Short Answer H2, duplicate titles, the share of question H2s, H1s, dates, FAQ schema and weakly linked pages against those rules. Run it monthly, and after any big batch.
-
-Bing Webmaster Tools: the home page has no `msvalidate.01` tag unless `PUBLIC_BING_SITE_VERIFICATION` is set in Vercel. Confirm the site is verified (by that tag or by DNS), and submit `/sitemap.xml`.
+We have not bench-tested these parts. The ER Score is a research score from spec sheets, platform
+documentation, independent measurements and owner reports, and every page says so. The validator fails
+any text that claims testing.

@@ -1,1160 +1,440 @@
 {
-  "midea-cube-20": {
-    "name": "Midea Cube 20-Pint Smart Dehumidifier (MAD20S1QWT)",
-    "asin": "B08ZMY8BC8",
-    "image": "https://m.media-amazon.com/images/I/31X4HslPrAL._SL500_.jpg"
-  },
-  "midea-cube-35": {
-    "name": "Midea Cube 35-Pint Dehumidifier",
-    "asin": "B0GL7QLD49",
-    "image": "https://m.media-amazon.com/images/I/31ho4yftX6L._SL500_.jpg"
-  },
-  "midea-cube-50": {
-    "name": "Midea Cube 50-Pint Dehumidifier",
-    "asin": "B0GL7B1FC8",
-    "image": "https://m.media-amazon.com/images/I/31m6sBV6kuL._SL500_.jpg"
-  },
-  "midea-mad22c1aws": {
-    "name": "Midea 22-Pint ENERGY STAR Dehumidifier (MAD22C1AWS)",
-    "asin": "B07NRDBBH5",
-    "image": "https://m.media-amazon.com/images/I/31Z47hoRk4L._SL500_.jpg"
-  },
-  "frigidaire-ffad5033w1": {
-    "name": "Frigidaire 50-Pint Dehumidifier (FFAD5033W1)",
-    "asin": "B0FP1L6W89",
-    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
-  },
-  "frigidaire-ffad3533w1": {
-    "name": "Frigidaire 35-Pint Dehumidifier (FFAD3533W1)",
-    "asin": "",
-    "image": "",
-    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
-  },
-  "homelabs-50-pint": {
-    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier (7,000 Sq Ft)",
-    "asin": "B073VBWKJZ",
-    "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
-  },
-  "homelabs-pump-4500": {
-    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (7,500 Sq Ft)",
-    "asin": "B073V9MG3Y",
-    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
-  },
-  "honeywell-tp30awkn": {
-    "name": "Honeywell TP30AWKN 30-Pint Dehumidifier",
-    "asin": "B085NYKWTQ",
-    "image": "https://m.media-amazon.com/images/I/31bDIIQZAkL._SL500_.jpg"
-  },
-  "honeywell-tp50awkn": {
-    "name": "Honeywell TP50AWKNR Smart Wi-Fi Dehumidifier (32-Pint, 3,000 sq ft)",
-    "asin": "B0CFQTLVSC",
-    "image": "https://m.media-amazon.com/images/I/31EoFt7MXgL._SL500_.jpg"
-  },
-  "honeywell-dr90a3000": {
-    "name": "Honeywell DR90A3000 Whole-House Dehumidifier",
-    "asin": "",
-    "image": "",
-    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
-  },
-  "ge-aper50lz": {
-    "name": "GE 50-Pint Dehumidifier with Built-In Pump (APER50LZ)",
-    "asin": "B0FNQJ2LJS",
-    "image": "https://m.media-amazon.com/images/I/21gadGAP2sL._SL500_.jpg"
-  },
-  "aprilaire-e070": {
-    "name": "Aprilaire E070 Crawl Space Dehumidifier",
-    "asin": "B094PR3HQ1",
-    "image": "https://m.media-amazon.com/images/I/41MF8eAiomL._SL500_.jpg"
-  },
-  "aprilaire-e080": {
-    "name": "Aprilaire E080 Pro Dehumidifier",
-    "asin": "B0CQRYS6N1",
-    "image": "https://m.media-amazon.com/images/I/31ktjs2ckkL._SL500_.jpg"
-  },
-  "aprilaire-e100": {
-    "name": "Aprilaire E100 Whole-House Dehumidifier",
-    "asin": "B0DG3RJ1W5",
-    "image": "https://m.media-amazon.com/images/I/417e2RVPUBL._SL500_.jpg"
-  },
-  "alorair-sentinel-hd35": {
-    "name": "AlorAir Sentinel HD35 Dehumidifier",
-    "asin": "B0GWQDR1PK",
-    "image": "https://m.media-amazon.com/images/I/41s-BhKbrBL._SL500_.jpg"
-  },
-  "alorair-sentinel-hd55": {
-    "name": "AlorAir Sentinel HD55 Crawl Space Dehumidifier",
-    "asin": "B08N6C4GPP",
-    "image": "https://m.media-amazon.com/images/I/413AnYHbnhL._SL500_.jpg"
-  },
-  "alorair-sentinel-hd90": {
-    "name": "AlorAir Sentinel HD90 Dehumidifier",
-    "asin": "B01LW3SOPE",
-    "image": "https://m.media-amazon.com/images/I/418-RMQTzQL._SL500_.jpg"
-  },
-  "alorair-sentinel-hdi65s": {
-    "name": "AlorAir Sentinel HDi65S Dehumidifier",
-    "asin": "B0B3WXNDRZ",
-    "image": "https://m.media-amazon.com/images/I/41KrYRzm9qL._SL500_.jpg"
-  },
-  "alorair-sentinel-hdi90": {
-    "name": "AlorAir Sentinel HDi90 Dehumidifier",
-    "asin": "B0DYSWHNGL",
-    "image": "https://m.media-amazon.com/images/I/41rFmdE9WXL._SL500_.jpg"
-  },
-  "alorair-storm-lgr-extreme": {
-    "name": "AlorAir Storm LGR Extreme Dehumidifier",
-    "asin": "B071HP9PDR",
-    "image": "https://m.media-amazon.com/images/I/51OwHPzjGcL._SL500_.jpg"
-  },
-  "dri-eaz-revolution": {
-    "name": "Dri-Eaz Revolution LGR Dehumidifier",
-    "asin": "B00H3DIT14",
-    "image": "https://m.media-amazon.com/images/I/41UlMYHiqCL._SL500_.jpg"
-  },
-  "santa-fe-compact70": {
-    "name": "Santa Fe Compact70 Dehumidifier",
-    "asin": "B07HCLL7FY",
-    "image": "https://m.media-amazon.com/images/I/31gTrjiY-bL._SL500_.jpg"
-  },
-  "santa-fe-ultra-v100": {
-    "name": "Santa Fe Ultra V100 Ventilating Dehumidifier",
-    "asin": "B0GV4N7HQL",
-    "image": "https://m.media-amazon.com/images/I/413jPXPMe9L._SL500_.jpg"
-  },
-  "santa-fe-ultra70": {
-    "name": "Santa Fe Ultra70 Dehumidifier",
-    "asin": "B0DRWFC4BN",
-    "image": "https://m.media-amazon.com/images/I/3143biKmzqL._SL500_.jpg"
-  },
-  "ivation-13-pint-desiccant": {
-    "name": "Ivation 13-Pint Desiccant Dehumidifier",
-    "asin": "B07B8SCPZ4",
-    "image": "https://m.media-amazon.com/images/I/31E7h2R3DSL._SL500_.jpg"
-  },
-  "ecoseb-desiccant": {
-    "name": "EcoSeb DD122EA Desiccant Dehumidifier",
-    "asin": "",
-    "image": "",
-    "note": "Previous ASIN/image matched the wrong product; cleared. Re-run npm run images:fetch."
-  },
-  "eva-dry-e-333": {
-    "name": "Eva-Dry E-333 Renewable Mini Dehumidifier",
-    "asin": "B000H0XFCS",
-    "image": "https://m.media-amazon.com/images/I/31Mbr9Br-uL._SL500_.jpg"
-  },
-  "eva-dry-edv-1100": {
-    "name": "Eva-Dry EDV-1100 Petite Dehumidifier",
-    "asin": "B000H0ZDD2",
-    "image": "https://m.media-amazon.com/images/I/41RjA8oZPeL._SL500_.jpg"
-  },
-  "eva-dry-edv-2400": {
-    "name": "Eva-Dry EDV-2400 Dehumidifier with Humidistat",
-    "asin": "B082B2PCN6",
-    "image": "https://m.media-amazon.com/images/I/41KMrtFzwXL._SL500_.jpg"
-  },
-  "pro-breeze-pb-02": {
-    "name": "Pro Breeze PB-02 Mini Dehumidifier",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "pro-breeze-pb-03": {
-    "name": "Pro Breeze PB-03 Mini Dehumidifier (2,200 cu ft)",
-    "asin": "B01HXVUT7C",
-    "image": "https://m.media-amazon.com/images/I/41qq9hL4YpL._SL500_.jpg"
-  },
-  "pro-breeze-mini": {
-    "name": "Pro Breeze Mini Dehumidifier (1,200 cu ft)",
-    "asin": "B01DC5PPWM",
-    "image": "https://m.media-amazon.com/images/I/41VPIA+M0RL._SL500_.jpg"
-  },
-  "govee-h5075-hygrometer": {
-    "name": "Govee H5075 Bluetooth Hygrometer",
-    "asin": "B07Y36FWTT",
-    "image": "https://m.media-amazon.com/images/I/516COKKwOXL._SL500_.jpg"
-  },
-  "govee-h5179-wifi-hygrometer": {
-    "name": "Govee H5179 Wi-Fi Hygrometer",
-    "asin": "B0C39TSV2W",
-    "image": "https://m.media-amazon.com/images/I/41kbOdew5lL._SL500_.jpg"
-  },
-  "thermopro-tp50": {
-    "name": "ThermoPro TP50 Hygrometer",
-    "asin": "B01H1R0K68",
-    "image": "https://m.media-amazon.com/images/I/41coCq9Ty6L._SL500_.jpg"
-  },
-  "inkbird-ibs-th2": {
-    "name": "Inkbird IBS-TH2 Hygrometer",
-    "asin": "B095W39L4M",
-    "image": "https://m.media-amazon.com/images/I/31q1yyoOK-L._SL500_.jpg"
-  },
-  "acurite-01083": {
-    "name": "AcuRite 01083 Pro Accuracy Hygrometer",
-    "asin": "B01HDW58GS",
-    "image": "https://m.media-amazon.com/images/I/41wncu75bdL._SL500_.jpg"
-  },
-  "sensorpush-ht1": {
-    "name": "SensorPush HT.w Temperature & Humidity Sensor",
-    "asin": "B08PKWPKM2",
-    "image": "https://m.media-amazon.com/images/I/3107+dGlg+L._SL500_.jpg"
-  },
-  "frigidaire-ffap5033w1": {
-    "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FFAP5033W1)",
-    "asin": "B0FP2VXZ2B",
-    "image": "https://m.media-amazon.com/images/I/31RgYq1H+7L._SL500_.jpg"
-  },
-  "waykar-34-pint": {
-    "name": "Waykar 34-Pint ENERGY STAR Dehumidifier",
-    "asin": "B0GT9WCDWK",
-    "image": "https://m.media-amazon.com/images/I/31sHaE6wi0L._SL500_.jpg"
-  },
-  "levoit-core-300s": {
-    "name": "Levoit Core 300S Smart Air Purifier",
-    "asin": "B07VVK39F7",
-    "image": "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg"
-  },
-  "levoit-core-400s": {
-    "name": "Levoit Core 400S Smart Air Purifier",
-    "asin": "B08R794ZMX",
-    "image": "https://m.media-amazon.com/images/I/414Wkl-jqYL._SL500_.jpg"
-  },
-  "levoit-core-600s": {
-    "name": "Levoit Core 600S Smart Air Purifier",
-    "asin": "B09BJMY8HL",
-    "image": "https://m.media-amazon.com/images/I/41SJAZr8c6L._SL500_.jpg"
-  },
-  "aprilaire-600": {
-    "name": "Aprilaire 600 Bypass Whole-House Humidifier",
-    "asin": "B000PY1IQ6",
-    "image": "https://m.media-amazon.com/images/I/31ft+7ztM3L._SL500_.jpg"
-  },
-  "aprilaire-700": {
-    "name": "Aprilaire 700 Fan-Powered Whole-House Humidifier",
-    "asin": "B00DJVISBK",
-    "image": "https://m.media-amazon.com/images/I/31p+qHjkElL._SL500_.jpg"
-  },
-  "aprilaire-800": {
-    "name": "Aprilaire 800 Steam Whole-House Humidifier",
-    "asin": "B0CM85KV9F",
-    "image": "https://m.media-amazon.com/images/I/31o2+B86FtL._SL500_.jpg"
-  },
-  "honeywell-he280": {
-    "name": "Honeywell HE280 Bypass Whole-House Humidifier",
-    "asin": "B00GPJ46N2",
-    "image": "https://m.media-amazon.com/images/I/31nDiCHheIL._SL500_.jpg"
-  },
-  "levoit-oasismist-450s": {
-    "name": "Levoit OasisMist 450S Smart Humidifier",
-    "asin": "B0B1DQ8KV3",
-    "image": "https://m.media-amazon.com/images/I/41eLomba1WL._SL500_.jpg"
-  },
-  "levoit-classic-300s": {
-    "name": "Levoit Classic 300S Smart Humidifier",
-    "asin": "B09C24TYGQ",
-    "image": "https://m.media-amazon.com/images/I/41+f3SMhFYL._SL500_.jpg"
-  },
-  "levoit-lv600hh": {
-    "name": "Levoit LV600HH Warm and Cool Mist Humidifier",
-    "asin": "B08FHZTYJB",
-    "image": "https://m.media-amazon.com/images/I/41elLoQYNfL._SL500_.jpg"
-  },
-  "aprilaire-e130": {
-    "name": "Aprilaire E130 Whole-House Dehumidifier (130 Pints)",
-    "asin": "B094Q72F4B",
-    "image": "https://m.media-amazon.com/images/I/31KcKDhMqjL._SL500_.jpg"
-  },
-  "alorair-storm-elite-100-pint": {
-    "name": "AlorAir Storm Elite LGR Dehumidifier",
-    "asin": "B09X451F5N",
-    "image": "https://m.media-amazon.com/images/I/4130veDO26L._SL500_.jpg"
-  },
-  "ac-infinity-hydrone-5": {
-    "name": "AC Infinity HYDRONE 5 Plant Dehumidifier",
-    "asin": "B0GFPS5PZD",
-    "image": "https://m.media-amazon.com/images/I/31M7Y5mUQcL._SL500_.jpg"
-  },
-  "ac-infinity-hydrone-7": {
-    "name": "AC Infinity HYDRONE 7 Plant Dehumidifier",
-    "asin": "B0G7MB9LHJ",
-    "image": "https://m.media-amazon.com/images/I/31As+1s93xL._SL500_.jpg"
-  },
-  "aeocky-rhea-001": {
-    "name": "AEOCKY Rhea-001 Dehumidifier (sold as 80-pint)",
-    "asin": "B0FJ2M51KY",
-    "image": "https://m.media-amazon.com/images/I/31Uv-17gWcL._SL500_.jpg"
-  },
-  "aeocky-x1-pro": {
-    "name": "AEOCKY X1-Pro Desiccant Dehumidifier",
-    "asin": "B0FXXDJJJ3",
-    "image": "https://m.media-amazon.com/images/I/41mRluULHoL._SL500_.jpg"
-  },
-  "midea-duo-portable-ac": {
-    "name": "Midea Duo Smart Inverter Portable Air Conditioner",
-    "asin": "B0FC2SGGF9",
-    "image": "https://m.media-amazon.com/images/I/31jH14QaWyL._SL500_.jpg"
-  },
-  "midea-u-window-ac": {
-    "name": "Midea U-Shaped Inverter Window Air Conditioner",
-    "asin": "B0G34M7C1M",
-    "image": "https://m.media-amazon.com/images/I/41aC+tGtZpL._SL500_.jpg"
-  },
-  "whynter-arc-14s": {
-    "name": "Whynter ARC-14S 14,000 BTU Dual-Hose Portable Air Conditioner",
-    "asin": "B0028AYQDC",
-    "image": "https://m.media-amazon.com/images/I/31DL6kGhczL._SL500_.jpg"
-  },
-  "aprilaire-e070w": {
-    "name": "Aprilaire E070W Wi-Fi Dehumidifier (70 Pints)",
-    "asin": "B0FPXRSGBQ",
-    "image": "https://m.media-amazon.com/images/I/41ZU+te9EGL._SL500_.jpg"
-  },
-  "ruggard-30l": {
-    "name": "Ruggard Electronic Dry Cabinet (30L)",
-    "asin": "B0DND6YMW3",
-    "image": "https://m.media-amazon.com/images/I/415PuQ8eO5L._SL500_.jpg"
-  },
-  "eva-dry-e-500": {
-    "name": "Eva-Dry E-500 Renewable Dehumidifier",
-    "asin": "B00BD0FN8A",
-    "image": "https://m.media-amazon.com/images/I/31t-rzUrIfL._SL500_.jpg"
-  },
-  "damprid-hanging": {
-    "name": "DampRid Hanging Moisture Absorber",
-    "asin": "B09QXT95G6",
-    "image": "https://m.media-amazon.com/images/I/41o4RTN1WzL._SL500_.jpg"
-  },
-  "alorair-storm-elite": {
-    "name": "AlorAir Storm Elite LGR Dehumidifier",
-    "asin": "B09X451F5N",
-    "image": "https://m.media-amazon.com/images/I/4130veDO26L._SL500_.jpg"
-  },
-  "dri-eaz-lgr-7000xli": {
-    "name": "Dri-Eaz LGR 7000XLi Dehumidifier",
-    "asin": "B00AB24XIW",
-    "image": "https://m.media-amazon.com/images/I/41+XiKGPMtL._SL500_.jpg"
-  },
-  "costway-32-pint": {
-    "name": "Costway 32-Pint Dehumidifier (2,000 Sq. Ft.)",
-    "asin": "B0FNCXHPR8",
-    "image": "https://m.media-amazon.com/images/I/21maYEq+czL._SL500_.jpg"
-  },
-  "vornado-660-air-circulator": {
-    "name": "Vornado 660 Large Room Air Circulator",
-    "asin": "B0025QKUE8",
-    "image": "https://m.media-amazon.com/images/I/41pNm1-Ap7L._SL500_.jpg"
-  },
-  "homelabs-32-pint-wifi": {
-    "name": "hOmeLabs 32-Pint Wi-Fi Dehumidifier",
-    "asin": "B06X9MFTZZ",
-    "image": "https://m.media-amazon.com/images/I/41MNK1ecLyL._SL500_.jpg"
-  },
-  "waykar-158-pint-dual-duct": {
-    "name": "Waykar 158-Pint Dual Duct Commercial Dehumidifier",
-    "asin": "B0FQJM5NRR",
-    "image": "https://m.media-amazon.com/images/I/41F+d7F2HQL._SL500_.jpg"
-  },
-  "davis-air-dryr-1000": {
-    "name": "Davis Instruments Air-Dryr 1000",
-    "asin": "B0014TMXVA",
-    "image": "https://m.media-amazon.com/images/I/41HKrLqe5PL._SL500_.jpg"
-  },
-  "davis-air-dryr-500": {
-    "name": "Davis Instruments Air-Dryr 500",
-    "asin": "B085W86W6G",
-    "image": "https://m.media-amazon.com/images/I/41TGToT5EdL._SL500_.jpg"
-  },
-  "acurite-01080m": {
-    "name": "AcuRite 01080M Pro Digital Hygrometer",
-    "asin": "B000XTJRRA",
-    "image": "https://m.media-amazon.com/images/I/51DuTVQwnRL._SL500_.jpg"
-  },
-  "pro-breeze-electric-mini": {
-    "name": "Pro Breeze Electric Mini Dehumidifier",
-    "asin": "B01DC5PPWM",
-    "image": "https://m.media-amazon.com/images/I/41VPIA+M0RL._SL500_.jpg"
-  },
-  "wisedry-rechargeable": {
-    "name": "WiseDry Rechargeable Desiccant Dehumidifier",
-    "asin": "B0781BR7V7",
-    "image": "https://m.media-amazon.com/images/I/51pHUtcOd3L._SL500_.jpg"
-  },
-  "waykar-80-pint": {
-    "name": "Waykar 80-Pint Dehumidifier",
-    "asin": "B0B5V2YZPZ",
-    "image": "https://m.media-amazon.com/images/I/21VmSDJgC7L._SL500_.jpg"
-  },
-  "vivosun-aerodrain-d12": {
-    "name": "VIVOSUN AeroDrain D12 Dehumidifier",
-    "asin": "B0F43NRD96",
-    "image": "https://m.media-amazon.com/images/I/41VRpLwasLL._SL500_.jpg"
-  },
-  "pro-breeze-mini-electric": {
-    "name": "Pro Breeze Mini Electric Dehumidifier",
-    "asin": "B01DC5PPWM",
-    "image": "https://m.media-amazon.com/images/I/41VPIA+M0RL._SL500_.jpg"
-  },
-  "perfectdry-lux": {
-    "name": "PerfectDry LUX Hearing Aid Dryer",
-    "asin": "B096BMPS64",
-    "image": "https://m.media-amazon.com/images/I/31pgZg9EVnL._SL500_.jpg"
-  },
-  "dry-and-store-zephyr": {
-    "name": "Dry & Store Zephyr Hearing Aid Dryer",
-    "asin": "B001CNGUQC",
-    "image": "https://m.media-amazon.com/images/I/311XbgYflxS._SL500_.jpg"
-  },
-  "eva-dry-edv-4000": {
-    "name": "Eva-Dry EDV-4000 Rotary Desiccant Dehumidifier",
-    "asin": "B00GOZ1XLK",
-    "image": "https://m.media-amazon.com/images/I/21AEXBSoSZL._SL500_.jpg"
-  },
-  "damprid-hi-capacity-fg50t": {
-    "name": "DampRid Hi-Capacity Moisture Absorber (FG50T, 4 lb)",
-    "asin": "B078HJ4M81",
-    "image": "https://m.media-amazon.com/images/I/51nlmtAjSHL._SL500_.jpg"
-  },
-  "silica-gel-packets": {
-    "name": "Rechargeable Silica Gel Packets (Shoe or Box Size)",
-    "asin": "B00DYKTS9C",
-    "image": "https://m.media-amazon.com/images/I/51ioFKpJqOL._SL500_.jpg"
-  },
-  "damprid-fg50t": {
-    "name": "DampRid Hi-Capacity Moisture Absorber (FG50T, 4 lb)",
-    "asin": "B078HJ4M81",
-    "image": "https://m.media-amazon.com/images/I/51nlmtAjSHL._SL500_.jpg"
-  },
-  "wisesorb-100g-packs": {
-    "name": "Wisesorb 100g Rechargeable Silica Gel Desiccant Packs",
-    "asin": "B0FGJJSCSK",
-    "image": "https://m.media-amazon.com/images/I/51cdjZuhT2L._SL500_.jpg"
-  },
-  "archival-poly-outer-sleeves": {
-    "name": "Archival-Quality Poly Record Outer Sleeves",
-    "asin": "B001716LMM",
-    "image": "https://m.media-amazon.com/images/I/41RXAro1ulL._SL500_.jpg"
-  },
-  "xpower-xd-85l2": {
-    "name": "XPOWER Flood Restoration PRO Pack II (XD-85L2 LGR + 4 air movers)",
-    "asin": "B07FKPFYGS",
-    "image": "https://m.media-amazon.com/images/I/411fFtnWC3L._SL500_.jpg"
-  },
-  "waykar-energy-star-pump": {
-    "name": "Waykar ENERGY STAR Dehumidifier with Pump (marketed as 150-Pint)",
-    "asin": "B0D1R9C6B8",
-    "image": "https://m.media-amazon.com/images/I/31Knh4cqF6L._SL500_.jpg"
-  },
-  "dri-eaz-lgr-6000li": {
-    "name": "Dri-Eaz LGR 6000Li Low-Grain Refrigerant Dehumidifier",
-    "asin": "B07L6WN5P5",
-    "image": "https://m.media-amazon.com/images/I/41uQ6NKLAqL._SL500_.jpg"
-  },
-  "dri-eaz-lgr-5000li": {
-    "name": "Dri-Eaz LGR 5000Li Low-Grain Refrigerant Dehumidifier",
-    "asin": "B0FHC18RJ2",
-    "image": "https://m.media-amazon.com/images/I/41J1zRB9CJL._SL500_.jpg"
-  },
-  "dri-eaz-lgr-3500i": {
-    "name": "Dri-Eaz LGR 3500i Low-Grain Refrigerant Dehumidifier",
-    "asin": "B00AB24VVG",
-    "image": "https://m.media-amazon.com/images/I/41DqvMBh3LL._SL500_.jpg"
-  },
-  "hisense-25-pint": {
-    "name": "Hisense 25-Pint ENERGY STAR Dehumidifier",
-    "asin": "B0GWFVMHZK",
-    "image": "https://m.media-amazon.com/images/I/31lSZkwbUlL._SL500_.jpg"
-  },
-  "hisense-35-pint": {
-    "name": "Hisense 35-Pint ENERGY STAR Dehumidifier",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Matched listing (B0DBWY4W7S) is a Renewed/refurbished unit; cleared."
-  },
-  "hisense-50-pint-pump": {
-    "name": "Hisense 50-Pint Dehumidifier with Pump",
-    "asin": "B0GWFVLJF3",
-    "image": "https://m.media-amazon.com/images/I/31ZENNl8L0L._SL500_.jpg"
-  },
-  "kesnos-150-pint-pump": {
-    "name": "Kesnos 150-Pint Dehumidifier with Pump",
-    "asin": "B0GX1SLRD5",
-    "image": "https://m.media-amazon.com/images/I/31cYABv2YzL._SL500_.jpg",
-    "skip": true,
-    "note": "listing B0GX1SLRD5 has no pump; use kesnos-155-pint-pump"
-  },
-  "kesnos-216-pint-commercial": {
-    "name": "Kesnos 216-Pint Commercial Dehumidifier",
-    "asin": "B0CN6VW442",
-    "image": "https://m.media-amazon.com/images/I/41iOeiBoK-L._SL500_.jpg"
-  },
-  "damprid-refillable": {
-    "name": "DampRid Refillable Moisture Absorber (10.5 oz)",
-    "asin": "B09QXT1ZK1",
-    "image": "https://m.media-amazon.com/images/I/51e4Zh8h6PL._SL500_.jpg"
-  },
-  "damprid-hi-capacity": {
-    "name": "DampRid Hi-Capacity Moisture Absorber (4 lb, FG50T)",
-    "asin": "B078HJ4M81",
-    "image": "https://m.media-amazon.com/images/I/51nlmtAjSHL._SL500_.jpg"
-  },
-  "moiswell-70-pint": {
-    "name": "Moiswell 70 Pint Dehumidifier",
-    "asin": "B0DCZN7FCR",
-    "image": "https://m.media-amazon.com/images/I/41rHEoiCh9L._SL500_.jpg"
-  },
-  "perfect-aire-35-pint": {
-    "name": "Perfect Aire 35-Pint Flat Panel Dehumidifier",
-    "asin": "B0H56WHWMF",
-    "image": "https://m.media-amazon.com/images/I/31Hi9WPUzkL._SL500_.jpg"
-  },
-  "perfect-aire-50-pint": {
-    "name": "Perfect Aire 50-Pint Flat Panel Dehumidifier (1PFD50)",
-    "asin": "B07Z11QWRY",
-    "image": "https://m.media-amazon.com/images/I/31Rva6isnqL._SL500_.jpg"
-  },
-  "phoenix-d385": {
-    "name": "Phoenix D385 Desiccant Dehumidifier",
-    "asin": "B0074IEZC0",
-    "image": "https://m.media-amazon.com/images/I/51tqALBz8CL._SL500_.jpg"
-  },
-  "pro-breeze-50-pint": {
-    "name": "Pro Breeze 50-Pint Compressor Dehumidifier",
-    "asin": "B077GZ3TVS",
-    "image": "https://m.media-amazon.com/images/I/31zwTv4bSIL._SL500_.jpg"
-  },
-  "eva-dry-e-500-rechargeable": {
-    "name": "Eva-Dry E-500 Renewable Wireless Dehumidifier",
-    "asin": "B00BD0FN8A",
-    "image": "https://m.media-amazon.com/images/I/31t-rzUrIfL._SL500_.jpg"
-  },
-  "keystone-35-pint": {
-    "name": "Keystone 35-Pint Dehumidifier with Electronic Controls",
-    "asin": "B0GVLCB765",
-    "image": "https://m.media-amazon.com/images/I/21gqfRq3fgL._SL500_.jpg"
-  },
-  "shinco-200-pint-industrial": {
-    "name": "Shinco 200-Pint Industrial Dehumidifier",
-    "asin": "B0H5VZNW41",
-    "image": "https://m.media-amazon.com/images/I/31Wejfsxy1L._SL500_.jpg"
-  },
-  "tcl-tdw20e20": {
-    "name": "TCL 20-Pint Dehumidifier (TDW20E20)",
-    "asin": "B09FKMLZBR",
-    "image": "https://m.media-amazon.com/images/I/31526VPK1GS._SL500_.jpg"
-  },
-  "santa-fe-ultramd33": {
-    "name": "Santa Fe UltraMD33 In-Wall Dehumidifier",
-    "asin": "B0DS2VPWL3",
-    "image": "https://m.media-amazon.com/images/I/31KvHLj8UZL._SL500_.jpg"
-  },
-  "midea-22-pint-wifi": {
-    "name": "Midea 22-Pint Smart Dehumidifier (Wi-Fi/Alexa)",
-    "asin": "B0FVGKPV97",
-    "image": "https://m.media-amazon.com/images/I/21mWXWENCPL._SL500_.jpg"
-  },
-  "ac-infinity-hydrone-3": {
-    "name": "AC Infinity HYDRONE 3 Plant Dehumidifier",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "quest-dual-105-overhead": {
-    "name": "Quest Dual 105 Overhead Dehumidifier",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "hornady-rechargeable-dehumidifier": {
-    "name": "Hornady Rechargeable Gun Safe Dehumidifier",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "quest-dual-205": {
-    "name": "Quest Dual 205 Overhead Dehumidifier",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "quest-dual-155": {
-    "name": "quest-dual-155",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "black-decker-bdt30wtb": {
-    "name": "black-decker-bdt30wtb",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "afloia-q10": {
-    "name": "afloia-q10",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "hisense-50-pint-3-speed": {
-    "name": "Hisense 50-Pint 3-Speed Dehumidifier",
-    "asin": "B0GWFN8LQR",
-    "image": "https://m.media-amazon.com/images/I/21OmDR-HGTL._SL500_.jpg"
-  },
-  "sanidry-sedona": {
-    "name": "sanidry-sedona",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "shinco-sdl-30p": {
-    "name": "Shinco 30-Pint Dehumidifier (SDL-30P)",
-    "asin": "B08P2VVX9X",
-    "image": "https://m.media-amazon.com/images/I/41KmNogO4BL._SL500_.jpg"
-  },
-  "toshiba-tddp3513es2": {
-    "name": "toshiba-tddp3513es2",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "toshiba-tddp5013es2": {
-    "name": "toshiba-tddp5013es2",
-    "asin": "",
-    "image": "",
-    "skip": true,
-    "note": "Reviewed by hand: Amazon search only returned accessories or other models. Set an ASIN here if a correct listing appears."
-  },
-  "airplus-70-pint": {
-    "name": "AirPlus 70 Pint Dehumidifier with Drain Hose (4,500 sq ft)",
-    "asin": "B0CC2DR9GM",
-    "image": "https://m.media-amazon.com/images/I/31riwobe2lL._SL500_.jpg"
-  },
-  "airplus-max-30-pint": {
-    "name": "AirPlus Max 30 Pint Tall Dehumidifier",
-    "asin": "B08694X9QW",
-    "image": "https://m.media-amazon.com/images/I/31YMpTb2fJL._SL500_.jpg"
-  },
-  "airplus-max-50-pint": {
-    "name": "AirPlus Max 50 Pint Tall Dehumidifier",
-    "asin": "B0F47LZB7B",
-    "image": "https://m.media-amazon.com/images/I/41nwKzCesgL._SL500_.jpg"
-  },
-  "airplus-max-70-pint": {
-    "name": "AirPlus Max 70 Pint Quiet Dehumidifier",
-    "asin": "B0FPQJKCC1",
-    "image": "https://m.media-amazon.com/images/I/21q1DYzWtpL._SL500_.jpg"
-  },
-  "airplus-max-26-pint": {
-    "name": "AirPlus Max 26 Pint Small Dehumidifier",
-    "asin": "B0HF7565LQ",
-    "image": "https://m.media-amazon.com/images/I/21cTZEpbJtL._SL500_.jpg"
-  },
-  "goveelife-dehumidifier-4500": {
-    "name": "GoveeLife Smart Dehumidifier (4,500 sq ft)",
-    "asin": "B0BR7RHQB9",
-    "image": "https://m.media-amazon.com/images/I/31Oqr45fIgL._SL500_.jpg"
-  },
-  "goveelife-dehumidifier-pump": {
-    "name": "GoveeLife Smart Dehumidifier with Pump (4,500 sq ft)",
-    "asin": "B0DZ2H3RQ1",
-    "image": "https://m.media-amazon.com/images/I/31Oqr45fIgL._SL500_.jpg"
-  },
-  "dreo-75-pint": {
-    "name": "Dreo 75 Pint Smart Dehumidifier (ENERGY STAR)",
-    "asin": "B0GXYD5JBY",
-    "image": "https://m.media-amazon.com/images/I/31I2+KSy+VL._SL500_.jpg"
-  },
-  "dreo-95-pint": {
-    "name": "Dreo 95 Pint Smart Dehumidifier (ENERGY STAR)",
-    "asin": "B0GXY1WBCB",
-    "image": "https://m.media-amazon.com/images/I/31OBTBqeJpL._SL500_.jpg"
-  },
-  "dreo-110-pint": {
-    "name": "Dreo 110 Pint Smart Dehumidifier",
-    "asin": "B0F83XFNTB",
-    "image": "https://m.media-amazon.com/images/I/31W1P5NWicL._SL500_.jpg"
-  },
-  "tenergy-sorbi": {
-    "name": "Tenergy Sorbi 1000ml Dehumidifier with True HEPA Filter",
-    "asin": "B07C7H2MRN",
-    "image": "https://m.media-amazon.com/images/I/51M9qlYsZZL._SL500_.jpg"
-  },
-  "airthereal-zephyr-azh200": {
-    "name": "Airthereal Zephyr AZH200 Air Purifier and Dehumidifier Combo",
-    "asin": "B0GWPJJTT7",
-    "image": "https://m.media-amazon.com/images/I/419joFSRjeL._SL500_.jpg"
-  },
-  "thecosky-dehumidifier-purifier": {
-    "name": "Thecosky Dehumidifier and Air Purifier Combo (HEPA H13)",
-    "asin": "B09W9TPJGZ",
-    "image": "https://m.media-amazon.com/images/I/51pVTVMwHbL._SL500_.jpg"
-  },
-  "aircyan-32-pint": {
-    "name": "AirCyan 32 Pint Dehumidifier with HEPA Filter",
-    "asin": "B0F4QBNW1Z",
-    "image": "https://m.media-amazon.com/images/I/31lfOOrSXqL._SL500_.jpg"
-  },
-  "frigidaire-fhdd5034w1": {
-    "name": "Frigidaire 50-Pint ENERGY STAR Dehumidifier (FHDD5034W1)",
-    "asin": "B0FP1L6W89",
-    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
-  },
-  "frigidaire-ffad2233w1": {
-    "name": "Frigidaire 22-Pint Dehumidifier (FFAD2233W1)",
-    "asin": "B0DFZHBSZX",
-    "image": "https://m.media-amazon.com/images/I/31KlaJk653L._SL500_.jpg"
-  },
-  "frigidaire-fhdd5034y1": {
-    "name": "Frigidaire 50-Pint High Humidity Wi-Fi Dehumidifier (FHDD5034Y1)",
-    "asin": "B0FP1L6W89",
-    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
-  },
-  "homelabs-hme1003": {
-    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (HME1003)",
-    "asin": "B073V9MG3Y",
-    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
-  },
-  "homelabs-hme1003-wifi": {
-    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (HME1003)",
-    "asin": "B073V9MG3Y",
-    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
-  },
-  "friedrich-d35b1b": {
-    "name": "Friedrich 35-Pint Dehumidifier with Pump (D35B1B)",
-    "asin": "B0F95HQTW6",
-    "image": "https://m.media-amazon.com/images/I/21p82hhlm6L._SL500_.jpg"
-  },
-  "lockdown-goldenrod-18": {
-    "name": "LOCKDOWN GoldenRod 18\" Dehumidifier Rod",
-    "asin": "B00CYBDFWI",
-    "image": "https://m.media-amazon.com/images/I/21YELvWnjhL._SL500_.jpg"
-  },
-  "honeywell-tp70pwknr": {
-    "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
-    "asin": "B0DCNTTY8S",
-    "image": "https://m.media-amazon.com/images/I/21AiBeSLoXL._SL500_.jpg"
-  },
-  "honeywell-tp70pwkn": {
-    "name": "Honeywell 50-Pint Dehumidifier with Pump (TPFIT50PWK)",
-    "asin": "B0DCNTTY8S",
-    "image": "https://m.media-amazon.com/images/I/21AiBeSLoXL._SL500_.jpg"
-  },
-  "honeywell": {
-    "name": "Honeywell — TP-Fit Series Portable Dehumidifiers (TPFIT50PWK)",
-    "asin": "B0DCNTTY8S",
-    "image": "https://m.media-amazon.com/images/I/21AiBeSLoXL._SL500_.jpg"
-  },
-  "ge-adel35lz": {
-    "name": "GE 35-Pint ENERGY STAR Dehumidifier (ADEL35LZ)",
-    "asin": "B0FNPM17YY",
-    "image": "https://m.media-amazon.com/images/I/21JbkL2OzJL._SL500_.jpg"
-  },
-  "santa-fe-classic": {
-    "name": "Santa Fe Classic Dehumidifier",
-    "asin": "B0DRWDJXZL",
-    "image": "https://m.media-amazon.com/images/I/31S8dcF4LTL._SL500_.jpg"
-  },
-  "santa-fe-classic-100-pint": {
-    "name": "Santa Fe Classic Dehumidifier",
-    "asin": "B0DRWDJXZL",
-    "image": "https://m.media-amazon.com/images/I/31S8dcF4LTL._SL500_.jpg"
-  },
-  "bluedri-bd-76": {
-    "name": "BlueDri BD-76 LGR Dehumidifier",
-    "asin": "B09PPQCBF9",
-    "image": "https://m.media-amazon.com/images/I/41Tf4EjORPL._SL500_.jpg"
-  },
-  "pro-breeze-1500ml-mini": {
-    "name": "Pro Breeze 1500ml Premium Mini Dehumidifier",
-    "asin": "B01HXVUT7C",
-    "image": "https://m.media-amazon.com/images/I/41qq9hL4YpL._SL500_.jpg"
-  },
-  "pro-breeze-1500ml": {
-    "name": "Pro Breeze 1500ml Premium Mini Dehumidifier",
-    "asin": "B01HXVUT7C",
-    "image": "https://m.media-amazon.com/images/I/41qq9hL4YpL._SL500_.jpg"
-  },
-  "homelabs-wifi": {
-    "name": "hOmeLabs Wi-Fi Compressor Dehumidifier",
-    "asin": "B073VBWKJZ",
-    "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
-  },
-  "homelabs": {
-    "name": "hOmeLabs — 50-Pint Wi-Fi Dehumidifier (HME031003N)",
-    "asin": "B073VBWKJZ",
-    "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
-  },
-  "homelabs-hme031003n": {
-    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier (HME031003N)",
-    "asin": "B073VBWKJZ",
-    "image": "https://m.media-amazon.com/images/I/31Dhfy1EpyL._SL500_.jpg"
-  },
-  "keystone-kstad504": {
-    "name": "Keystone 50-Pint Dehumidifier with Electronic Controls (KSTAD504F/KSTAD504G)",
-    "asin": "B0C62CWF4C",
-    "image": "https://m.media-amazon.com/images/I/31NgebUspQL._SL500_.jpg"
-  },
-  "keystone-kstad506pg": {
-    "name": "Keystone 50-Pint Dehumidifier with Built-In Pump (KSTAD506PG)",
-    "asin": "B0GVLCQS4S",
-    "image": "https://m.media-amazon.com/images/I/21gqfRq3fgL._SL500_.jpg"
-  },
-  "keystone-kstad224": {
-    "name": "Keystone 22-Pint Dehumidifier (KSTAD224F/KSTAD224E)",
-    "asin": "B0D2DVWLHC",
-    "image": "https://m.media-amazon.com/images/I/21gqfRq3fgL._SL500_.jpg"
-  },
-  "keystone-kstad354": {
-    "name": "Keystone 35-Pint Dehumidifier (KSTAD354F/KSTAD354G)",
-    "asin": "B0GVLCB765",
-    "image": "https://m.media-amazon.com/images/I/21gqfRq3fgL._SL500_.jpg"
-  },
-  "yaufey-70-pint-ayd15dpm": {
-    "name": "Yaufey 70-Pint Dehumidifier with Pump (AYD1.5DPM)",
-    "asin": "B0FCS31FRW",
-    "image": "https://m.media-amazon.com/images/I/41tRqKabM3L._SL500_.jpg"
-  },
-  "dampp-chaser-pads": {
-    "name": "Dampp-Chaser Humidifier Pad Treatment and Replacement Pads",
-    "asin": "B00945YS4G",
-    "image": "https://m.media-amazon.com/images/I/41RHBB6r46L._SL500_.jpg"
-  },
-  "ivation-ivadh50pwp2": {
-    "name": "Ivation 50-Pint Dehumidifier with Pump (IVADH50PWP2)",
-    "asin": "B078HVJG8Y",
-    "image": "https://m.media-amazon.com/images/I/31BuAavmLAL._SL500_.jpg"
-  },
-  "zarpax-lv-a300": {
-    "name": "Zarpax LV-A300 Car Dehumidifier Bag (300 g)",
-    "asin": "B01N3507KW",
-    "image": "https://m.media-amazon.com/images/I/51XfEb4WXLL._SL500_.jpg"
-  },
-  "frigidaire": {
-    "name": "Frigidaire — 50-Pint Wi-Fi Dehumidifier (FHDD5034W1)",
-    "asin": "B0FP1L6W89",
-    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
-  },
-  "amana-amnd501aw": {
-    "name": "Amana 50-Pint Portable Dehumidifier (AMND501AW)",
-    "asin": "B0D2DV4G9P",
-    "image": "https://m.media-amazon.com/images/I/2148j+Qej1L._SL500_.jpg"
-  },
-  "waykar-chwa80a": {
-    "name": "Waykar CHWA80A 80-Pint Dehumidifier",
-    "asin": "B0B5V2YZPZ",
-    "image": "https://m.media-amazon.com/images/I/21VmSDJgC7L._SL500_.jpg"
-  },
-  "waykar-pd160b-pro": {
-    "name": "Waykar PD160B-PRO 34-Pint Dehumidifier",
-    "asin": "B0GT9WCDWK",
-    "image": "https://m.media-amazon.com/images/I/31sHaE6wi0L._SL500_.jpg"
-  },
-  "waykar-cth150pd": {
-    "name": "Waykar CTH150PD 150-Pint Dehumidifier with Pump",
-    "asin": "B0DBLPC8LC",
-    "image": "https://m.media-amazon.com/images/I/31bUk-p3WaL._SL500_.jpg"
-  },
-  "waykar-cpg130a": {
-    "name": "Waykar CPG130A 130-Pint Commercial Dehumidifier",
-    "asin": "B0HCC85VQF",
-    "image": "https://m.media-amazon.com/images/I/417xLJBm6dL._SL500_.jpg"
-  },
-  "dri-eaz-phd-200": {
-    "name": "Dri-Eaz PHD 200 Dehumidifier",
-    "asin": "B00IJ27MB6",
-    "image": "https://m.media-amazon.com/images/I/41CwJ-sd7HL._SL500_.jpg"
-  },
-  "levoit-core-300-pairing": {
-    "name": "Levoit Core 300 True HEPA Air Purifier (paired with a dedicated dehumidifier)",
-    "asin": "B08GLVHN39",
-    "image": "https://m.media-amazon.com/images/I/51AKBv0BCJL._SL500_.jpg"
-  },
-  "phoenix-drymax-xl": {
-    "name": "Phoenix DryMAX XL LGR Dehumidifier",
-    "asin": "B095KXXZLP",
-    "image": "https://m.media-amazon.com/images/I/51YDF2HgqgS._SL500_.jpg"
-  },
-  "black-decker-bdt50pwtb": {
-    "name": "BLACK+DECKER 50-Pint Dehumidifier with Pump",
-    "asin": "B0G5YCVZH3",
-    "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
-  },
-  "black-decker-bdt50wtb": {
-    "name": "BLACK+DECKER 50-Pint Dehumidifier (BDM50WCDA)",
-    "asin": "B0G1R5GPMZ",
-    "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
-  },
-  "costway-60-pint": {
-    "name": "Costway 60-Pint Dehumidifier (COST00686 / F1W-10N-10N5U1-IT)",
-    "asin": "B0BC87S5XJ",
-    "image": "https://m.media-amazon.com/images/I/315FLLeDk+L._SL500_.jpg"
-  },
-  "costway-100-pint": {
-    "name": "Costway 100-Pint Smart Dehumidifier (COST00687 / F1W-10N-10N6U1-IT)",
-    "asin": "B0BG89TTMN",
-    "image": "https://m.media-amazon.com/images/I/31LHAVKbAxL._SL500_.jpg"
-  },
-  "hisense-hd3526": {
-    "name": "Hisense 35-Pint 3,000 Sq Ft Dehumidifier (HD3524)",
-    "asin": "B0DBVZW7P7",
-    "image": "https://m.media-amazon.com/images/I/2137YvPm2uL._SL500_.jpg"
-  },
-  "panasonic-whispergreen-select": {
-    "name": "Panasonic WhisperGreen Select Bathroom Exhaust Fan",
-    "asin": "B0D7QRKS2W",
-    "image": "https://m.media-amazon.com/images/I/31BPw7FpYgL._SL500_.jpg"
-  },
-  "tcl-w50d9p3-b": {
-    "name": "TCL 50-Pint Dehumidifier (W50D9P3-B)",
-    "asin": "B0CRJZXP1V",
-    "image": "https://m.media-amazon.com/images/I/31cHA6hrJCL._SL500_.jpg"
-  },
-  "hornady-dehumidifier-rod": {
-    "name": "Hornady Dehumidifier Rod",
-    "asin": "B07KCRK4H8",
-    "image": "https://m.media-amazon.com/images/I/31ExvtVCPdL._SL500_.jpg"
-  },
-  "tabyik-dh-cs01": {
-    "name": "TABYIK DH-CS01 Mini Dehumidifier",
-    "asin": "B09TSZTMZ2",
-    "image": "https://m.media-amazon.com/images/I/41Lz3PLVm+L._SL500_.jpg"
-  },
-  "dry-and-store-global-ii": {
-    "name": "Dry & Store Global II Hearing Aid Dryer",
-    "asin": "B000LUWATS",
-    "image": "https://m.media-amazon.com/images/I/31LAnm0HF4S._SL500_.jpg"
-  },
-  "daddario-humidipak": {
-    "name": "D'Addario Humidipak Two-Way Humidification System",
-    "asin": "B00UKBLGZC",
-    "image": "https://m.media-amazon.com/images/I/41AK0TN6PGL._SL500_.jpg"
-  },
-  "lg-ud501kog5": {
-    "name": "LG PuriCare 50-Pint Dehumidifier (UD501KOG5)",
-    "asin": "B0H42G5D34",
-    "image": "https://m.media-amazon.com/images/I/31-3Khuti1L._SL500_.jpg"
-  },
-  "frigidaire-ffad5034w1": {
-    "name": "Frigidaire 50-Pint ENERGY STAR Dehumidifier (FFAD5034W1)",
-    "asin": "B0FP1L6W89",
-    "image": "https://m.media-amazon.com/images/I/2125jn-3fwL._SL500_.jpg"
-  },
-  "ge": {
-    "name": "GE — 50-Pint Dehumidifier with Built-In Pump (APYR50LC)",
-    "asin": "B0FNQJ2LJS",
-    "image": "https://m.media-amazon.com/images/I/21gadGAP2sL._SL500_.jpg"
-  },
-  "ge-adhr50lz": {
-    "name": "GE 50-Pint Smart Dehumidifier with Pump (ADHR50LZ)",
-    "asin": "B0FNQJ2LJS",
-    "image": "https://m.media-amazon.com/images/I/21gadGAP2sL._SL500_.jpg",
-    "skip": true,
-    "note": "no Amazon listing for this model"
-  },
-  "ge-50-pint-wifi": {
-    "name": "GE 50-Pint Wi-Fi Smart Dehumidifier",
-    "asin": "B0FNPXC4X1",
-    "image": "https://m.media-amazon.com/images/I/21yFPizNdsL._SL500_.jpg"
-  },
-  "homelabs-hme031004n": {
-    "name": "hOmeLabs 50-Pint Wi-Fi Dehumidifier with Pump (HME031004N / HME1004)",
-    "asin": "B073V9MG3Y",
-    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
-  },
-  "homelabs-hme1004": {
-    "name": "hOmeLabs 50-Pint Dehumidifier with Pump and Wi-Fi (HME031004N)",
-    "asin": "B073V9MG3Y",
-    "image": "https://m.media-amazon.com/images/I/41gvu0AG+4L._SL500_.jpg"
-  },
-  "midea-cube-50-pump": {
-    "name": "Midea 50-Pint Smart Dehumidifier with Built-In Pump",
-    "asin": "B0GL7R3RJV",
-    "image": "https://m.media-amazon.com/images/I/31wDgVZfXXL._SL500_.jpg"
-  },
-  "midea-mad50ps1bwt-c": {
-    "name": "Midea 50-Pint Dehumidifier with Built-In Pump (MAD50PS1BWT-C)",
-    "asin": "B0GL7R3RJV",
-    "image": "https://m.media-amazon.com/images/I/31wDgVZfXXL._SL500_.jpg"
-  },
-  "midea-mad50ps1awbl": {
-    "name": "Midea 50-Pint Smart Dehumidifier (MAD50PS1AWBL)",
-    "asin": "B0GL7R3RJV",
-    "image": "https://m.media-amazon.com/images/I/31wDgVZfXXL._SL500_.jpg"
-  },
-  "aeocky-leo-003": {
-    "name": "AEOCKY Leo-003 Dehumidifier with Pump (sold as 140-pint)",
-    "asin": "B0G1TP95GL",
-    "image": "https://m.media-amazon.com/images/I/3113X0ANTBL._SL500_.jpg"
-  },
-  "hal-hen-mini-dri-aid": {
-    "name": "Hal-Hen Mini Dri-Aid Hearing Aid Drying Jar",
-    "asin": "B0085F8S6U",
-    "image": "https://m.media-amazon.com/images/I/41bQ3K9LlxL._SL500_.jpg"
-  },
-  "goldenrod-24-inch": {
-    "name": "GoldenRod 24-Inch Dehumidifier Rod",
-    "asin": "B00CYBDFWI",
-    "image": "https://m.media-amazon.com/images/I/21YELvWnjhL._SL500_.jpg"
-  },
-  "amsec-dri-rod": {
-    "name": "American Security (AMSEC) Dri-Rod Dehumidifier",
-    "asin": "B005KW4N4M",
-    "image": "https://m.media-amazon.com/images/I/21Yfq1LBWLL._SL500_.jpg"
-  },
-  "ivation-19-pint-desiccant": {
-    "name": "Ivation 19-Pint Small-Area Desiccant Dehumidifier (IVADDH09)",
-    "asin": "B07X43RGML",
-    "image": "https://m.media-amazon.com/images/I/31z+dMFkIeL._SL500_.jpg"
-  },
-  "boveda-49-instrument-kit": {
-    "name": "Boveda 49% RH Large Instrument Starter Kit",
-    "asin": "B0CX7C3NQ5",
-    "image": "https://m.media-amazon.com/images/I/51ALWVNJ1nL._SL500_.jpg"
-  },
-  "frigidaire-fhdp5033w1": {
-    "name": "Frigidaire 50-Pint Dehumidifier with Built-In Pump (FHDP5033W1 / FHDP5033Y1)",
-    "asin": "B0FP2VXZ2B",
-    "image": "https://m.media-amazon.com/images/I/31niBfzVsZL._SL500_.jpg"
-  },
-  "honeywell-tp70awknr": {
-    "name": "Honeywell 50-Pint Smart Wi-Fi Dehumidifier (TP70AWKNR)",
-    "asin": "B0CFQTLVSC",
-    "image": "https://m.media-amazon.com/images/I/31EoFt7MXgL._SL500_.jpg",
-    "skip": true,
-    "note": "no Amazon listing for this model"
-  },
-  "shinco-120-pint-wifi": {
-    "name": "Shinco 120-Pint ENERGY STAR Wi-Fi Dehumidifier",
-    "asin": "B07RPDKQZM",
-    "image": "https://m.media-amazon.com/images/I/31sA5qQcHzL._SL500_.jpg"
-  },
-  "whirlpool-50-pint-pump": {
-    "name": "Whirlpool 50-Pint ENERGY STAR Dehumidifier with Pump",
-    "asin": "B0GWS2D4QB",
-    "image": "https://m.media-amazon.com/images/I/21JMoVcJAgL._SL500_.jpg"
-  },
-  "whirlpool-25-pint": {
-    "name": "Whirlpool 25-Pint ENERGY STAR Dehumidifier",
-    "asin": "B0GWS6V7WR",
-    "image": "https://m.media-amazon.com/images/I/21xr3MHg8ML._SL500_.jpg"
-  },
-  "whirlpool-32-pint": {
-    "name": "Whirlpool 32-Pint ENERGY STAR Dehumidifier",
-    "asin": "B0GWS9V1R7",
-    "image": "https://m.media-amazon.com/images/I/21+MWRvOVbL._SL500_.jpg"
-  },
-  "whirlpool-20-pint": {
-    "name": "Whirlpool 20-Pint Portable Dehumidifier",
-    "asin": "B08GLB3NG2",
-    "image": "https://m.media-amazon.com/images/I/31gCzdlnKFL._SL500_.jpg"
-  },
-  "midea-60-pint-pump": {
-    "name": "Midea 60-Pint Dehumidifier with Pump",
-    "asin": "B0DZ2PXG1R",
-    "image": "https://m.media-amazon.com/images/I/31vK226ZxpL._SL500_.jpg"
-  },
-  "frigidaire-60-pint": {
-    "name": "Frigidaire 60-Pint Dehumidifier",
-    "asin": "B0BHBR3NZ3",
-    "image": "https://m.media-amazon.com/images/I/31qp2dlzDDL._SL500_.jpg"
-  },
-  "ruggard-dry-cabinet-50l": {
-    "name": "Ruggard Electronic Dry Cabinet (50L)",
-    "asin": "B0784V6V1W",
-    "image": "https://m.media-amazon.com/images/I/41hnFf4BidL._SL500_.jpg"
-  },
-  "ruggard-dry-cabinet-80l": {
-    "name": "Ruggard Electronic Dry Cabinet (80L)",
-    "asin": "B077SSWTZC",
-    "image": "https://m.media-amazon.com/images/I/41KriiZTrhL._SL500_.jpg"
-  },
-  "forspark-dry-cabinet-80l": {
-    "name": "Forspark 80L Electronic Dry Cabinet",
-    "asin": "B06XWW67JW",
-    "image": "https://m.media-amazon.com/images/I/41m5IZpft+L._SL500_.jpg"
-  },
-  "slinger-dry-cabinet-125l": {
-    "name": "Slinger 125L Dehumidifying Dry Cabinet",
-    "asin": "B0CQJNBGTH",
-    "image": "https://m.media-amazon.com/images/I/31gLblm4LtL._SL500_.jpg"
-  },
-  "autens-dry-cabinet-100l": {
-    "name": "AUTENS 100L Dehumidifying Dry Cabinet",
-    "asin": "B0BL733WVK",
-    "image": "https://m.media-amazon.com/images/I/417Hw6z8liL._SL500_.jpg"
-  },
-  "alorair-170-ppd-lgr": {
-    "name": "AlorAir 170 PPD LGR Commercial Dehumidifier with Pump",
-    "asin": "B0DH3G92CX",
-    "image": "https://m.media-amazon.com/images/I/41a26rOXz-L._SL500_.jpg"
-  },
-  "airzentti-155-pint": {
-    "name": "Airzentti 155-Pint Commercial Dehumidifier with Pump",
-    "asin": "B0FGYBZN35",
-    "image": "https://m.media-amazon.com/images/I/41x-XTtc9KL._SL500_.jpg"
-  },
-  "moiswell-240-pint": {
-    "name": "Moiswell 240-Pint Commercial Dehumidifier with Pump",
-    "asin": "B0BRSMSH4K",
-    "image": "https://m.media-amazon.com/images/I/41nEv46eSKL._SL500_.jpg"
-  },
-  "waykar-155-pint-commercial": {
-    "name": "Waykar 155-Pint Commercial Dehumidifier",
-    "asin": "B0BWJHQTGP",
-    "image": "https://m.media-amazon.com/images/I/41mSeOPwZgL._SL500_.jpg"
-  },
-  "trazico-21-pint": {
-    "name": "Trazico 21-Pint Dehumidifier (1,500 sq ft)",
-    "asin": "B0H7WDQ5TY",
-    "image": "https://m.media-amazon.com/images/I/31HgFubarOL._SL500_.jpg"
-  },
-  "trazico-30-pint": {
-    "name": "Trazico 30-Pint Dehumidifier (2,000 sq ft)",
-    "asin": "B0HCVC27J1",
-    "image": "https://m.media-amazon.com/images/I/31MLFf6ZHXL._SL500_.jpg"
-  },
-  "trazico-45-pint": {
-    "name": "Trazico 45-Pint Dehumidifier (4,000 sq ft)",
-    "asin": "B0DSLDCJ7L",
-    "image": "https://m.media-amazon.com/images/I/31c+oe01nwL._SL500_.jpg"
-  },
-  "tabyik-38oz": {
-    "name": "TABYIK 38 oz Small Dehumidifier",
-    "asin": "B0F18LM7R5",
-    "image": "https://m.media-amazon.com/images/I/31J3bxrMRDL._SL500_.jpg"
-  },
-  "rca-20-pint": {
-    "name": "RCA 20-Pint Portable Dehumidifier",
-    "asin": "B0BCCFD52K",
-    "image": "https://m.media-amazon.com/images/I/311tJJZbWBL._SL500_.jpg"
-  },
-  "dravonic-21-pint": {
-    "name": "Dravonic 21-Pint Dehumidifier (1,500 sq ft)",
-    "asin": "B0H6B9VVPG",
-    "image": "https://m.media-amazon.com/images/I/31DjQNGwt4L._SL500_.jpg"
-  },
-  "kesnos-155-pint-pump": {
-    "name": "Kesnos 155-Pint Commercial Dehumidifier with Pump",
-    "asin": "B0H5B4G5K4",
-    "image": "https://m.media-amazon.com/images/I/41w2zvILbWL._SL500_.jpg"
-  },
-  "black-decker-bd22mwsa": {
-    "name": "BLACK+DECKER 22-Pint Dehumidifier (BD22MWSA)",
-    "asin": "B08WHN4B2B",
-    "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
-  },
-  "black-decker-bdm36wcda": {
-    "name": "BLACK+DECKER 36.39-Pint Dehumidifier (BDM36WCDA)",
-    "asin": "B08WHJJQN6",
-    "image": "https://m.media-amazon.com/images/I/21ClprZqHNL._SL500_.jpg"
+  "arctic-freezer-36": {
+    "asin": "B09VG6NBSJ",
+    "image": "https://m.media-amazon.com/images/I/41qj1razI1L._SL500_.jpg",
+    "title": "ARCTIC Freezer 36 - Single-Tower CPU Cooler with Push-Pull, Two Pressure-optimised 120 mm P Fans, Fluid Dynamic Bearing, 200–1800 RPM, 4 Heatpipes, incl. MX-6 Thermal Compound",
+    "checked": "2026-11-19"
+  },
+  "arctic-liquid-freezer-iii-pro-360": {
+    "asin": "B0DLWGG85P",
+    "image": "https://m.media-amazon.com/images/I/31NH2IXjCLL._SL500_.jpg",
+    "title": "ARCTIC Liquid Freezer III Pro 360 - AIO CPU Cooler,3 x 120 mm Water Cooling | Cooler For LGA1851, LGA1700, AM4, AM5.",
+    "checked": "2026-11-19"
+  },
+  "asrock-b850-steel-legend-wifi": {
+    "asin": "B0DRTTJ5D6",
+    "image": "https://m.media-amazon.com/images/I/41jz-ckjdqL._SL500_.jpg",
+    "title": "ASRock B850 Steel Legend WiFi AMD AM5 ATX Motherboard, Supports AMD Ryzen 9000/8000/7000 Series Processors, DDR5 8000+ (OC), PCIe 5.0, 2.5G LAN, WiFi 7, 14+2+1 Power Phase",
+    "checked": "2026-11-19"
+  },
+  "asus-rog-strix-x570-e-gaming": {
+    "asin": "B09GP7V2W5",
+    "image": "https://m.media-amazon.com/images/I/41HZxd12v2L._SL500_.jpg",
+    "title": "ASUS ROG Strix X570-E Gaming WiFi II AMD AM4 X570S ATX Gaming Motherboard (PCIe 4.0, Passive PCH Heatsink, 12+4 Power Stages, WiFi 6E, 2.5 Gb LAN,USB 3.2 Gen 2 Type C and Aura Sync RGB",
+    "checked": "2026-11-19"
+  },
+  "asus-tuf-gaming-b650-plus-wifi": {
+    "asin": "B0BHN7GGBQ",
+    "image": "https://m.media-amazon.com/images/I/41scqVucSuL._SL500_.jpg",
+    "title": "ASUS TUF Gaming B650-PLUS WiFi AMD B650 AM5 Ryzen™ Desktop 9000 8000 and 7000 ATX Motherboard, 14 Power Stages, PCIe® 5.0 M.2, DDR5 Memory, WiFi 6 and 2.5 Gb Ethernet, USB4® Support Aura Sync",
+    "checked": "2026-11-19"
+  },
+  "be-quiet-dark-rock-pro-5": {
+    "asin": "B0CJY3DYQ3",
+    "image": "https://m.media-amazon.com/images/I/51uXTROh65L._SL500_.jpg",
+    "title": "be Quiet! Dark Rock Pro 5 Quiet Cooling CPU Cooler | Immensely High Airflow | 7 high-Performance Copper Heat Pipes | Speed Switch | Thermal Grease | BK036",
+    "checked": "2026-11-19"
+  },
+  "be-quiet-pure-power-12-m-750": {
+    "asin": "B0BT2YZGZK",
+    "image": "https://m.media-amazon.com/images/I/418zeTTxo+L._SL500_.jpg",
+    "title": "be quiet! Pure Power 12 M 750W Power Supply, 80 Plus Gold Efficiency, ATX 3.1 PSU with Full Support for PCIe 5.1 GPUs, exceptionally Silent 120mm be quiet! Fan, 2 Strong 12V-Rails, Modular Cables",
+    "checked": "2026-11-19"
+  },
+  "cooler-master-q300l": {
+    "asin": "B0CB8WGGNW",
+    "image": "https://m.media-amazon.com/images/I/41k0XyMRZQL._SL500_.jpg",
+    "title": "Cooler Master Q300L V2 Micro-ATX Tower, Magnetic Patterned Dust Filter, USB 3.2 Gen 2x2 (20GB), Tempered Glass, CPU Coolers Max 159mm, GPU 360mm, Fully Ventilated Airflow (Q300LV2-KGNN-S00)",
+    "checked": "2026-11-19"
+  },
+  "core-i9-14900k": {
+    "asin": "B0CGJDKLB8",
+    "image": "https://m.media-amazon.com/images/I/41s0IPcEjuL._SL500_.jpg",
+    "title": "Intel® Core™ i9-14900K Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "core-ultra-5-245k": {
+    "asin": "B0DFK2P311",
+    "image": "https://m.media-amazon.com/images/I/41KkV8gKahL._SL500_.jpg",
+    "title": "Intel BX80768245K 245K Up to 5.2 GHz 14 Core Ultra 5 Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "core-ultra-7-265k": {
+    "asin": "B0DFK2MH2D",
+    "image": "https://m.media-amazon.com/images/I/41T+yFsdxdL._SL500_.jpg",
+    "title": "Intel Core Ultra 7 Desktop Processor 265K - 20 cores (8 P-cores + 12 E-cores) up to 5.5 GHz",
+    "checked": "2026-11-19"
+  },
+  "corsair-rm1000x": {
+    "asin": "B0DJ1M9C62",
+    "image": "https://m.media-amazon.com/images/I/41RKn2v9wWL._SL500_.jpg",
+    "title": "CORSAIR RM1000x ATX 3.1 PCIe 5.1 1000W Power Supply – Black | Native 12V-2x6 Connector, Fully Modular, Low-Noise, Cybenetics Gold, NA",
+    "checked": "2026-11-19"
+  },
+  "corsair-rm750e": {
+    "asin": "B0FLFGGDK3",
+    "image": "https://m.media-amazon.com/images/I/41rg84KR1SL._SL500_.jpg",
+    "title": "CORSAIR RM750e ATX 3.1 PCIe 5.1 Ready 750W Power Supply – Black | Native 12V-2x6 Cable Included, Low-Noise, Fully Modular, Cybenetics Gold, Modern Standby Mode, NA",
+    "checked": "2026-11-19"
+  },
+  "corsair-rm850x": {
+    "asin": "B0FLFGG1CC",
+    "image": "https://m.media-amazon.com/images/I/41lWLP0JjGL._SL500_.jpg",
+    "title": "CORSAIR RM850x ATX 3.1 PCIe 5.1 Ready Fully Modular 850W Power Supply – Low-Noise, Cybenetics Gold Efficiency, Native 12V-2x6 Connector – Black",
+    "checked": "2026-11-19"
+  },
+  "corsair-vengeance-ddr5-6000-cl30": {
+    "asin": "B0C3RYHZJQ",
+    "image": "https://m.media-amazon.com/images/I/41Q8eUJZndL._SL500_.jpg",
+    "title": "CORSAIR Vengeance DDR5 RAM 32GB (2x16GB) 6000MHz CL30-36-36-76 1.40V Intel XMP Desktop Computer Memory - Black (CMK32GX5M2B6000C30)",
+    "checked": "2026-11-19"
+  },
+  "corsair-vengeance-lpx-ddr4-3200-cl16": {
+    "asin": "B07RW6Z692",
+    "image": "https://m.media-amazon.com/images/I/31Hq8-Z9oWL._SL500_.jpg",
+    "title": "CORSAIR Vengeance LPX DDR4 RAM 32GB (2x16GB) Up to 3200MHz CL16-20-20-38 1.35V Intel XMP AMD EXPO Computer Memory – Black (CMK32GX4M2E3200C16)",
+    "checked": "2026-11-19"
+  },
+  "crucial-p3-plus": {
+    "asin": "B0B25ML2FH",
+    "image": "https://m.media-amazon.com/images/I/31h4ranQAsL._SL500_.jpg",
+    "title": "Crucial P3 Plus PCIe Gen4 NVMe 2TB SSD, Up to 5,000MB/s Read, Laptop & Desktop (PC) Compatible, Solid State Drive – CT2000P3SSD8",
+    "checked": "2026-11-19"
+  },
+  "crucial-t500": {
+    "asin": "B0CK2TC9XQ",
+    "image": "https://m.media-amazon.com/images/I/31YWApOpD+L._SL500_.jpg",
+    "title": "Crucial T500 PCIe Gen4 NVMe 2TB SSD, Up to 7,400MB/s, TLC NAND, Laptop & Desktop (PC) Compatible, for Creatives and Gamers, Solid State Drive, Includes 1Mo Adobe CC – CT2000T500SSD8",
+    "checked": "2026-11-19"
+  },
+  "fractal-design-north": {
+    "asin": "B09V8HNWW9",
+    "image": "https://m.media-amazon.com/images/I/417KIaaHKWL._SL500_.jpg",
+    "title": "Fractal Design North Charcoal Black Tempered Glass Dark - Genuine Walnut Wood Front - Glass Side Panel - Two 140mm Aspect PWM Fans Included - Type C USB - ATX Airflow Mid Tower PC Gaming Case",
+    "checked": "2026-11-19"
+  },
+  "fractal-design-pop-air": {
+    "asin": "B08T1GB8D8",
+    "image": "https://m.media-amazon.com/images/I/31pnrOrgpyL._SL500_.jpg",
+    "title": "Fractal Design Pop Air RGB Black Tempered Glass Clear Tint",
+    "checked": "2026-11-19"
+  },
+  "gigabyte-b650-aorus-elite-ax": {
+    "asin": "B0BH7GTY9C",
+    "image": "https://m.media-amazon.com/images/I/51DcC8isdeL._SL500_.jpg",
+    "title": "GIGABYTE B650 AORUS Elite AX AMD AM5 ATX Motherboard, Support Ryzen 9000/8000/7000 Series, DDR5, 14+2+1 Power Phase, PCIe 5.0 M.2, USB-C 3.2 Gen 2, WIFI6E, 2.5GbE, EZ-Latch, Q-Flash, RGB Fusion",
+    "checked": "2026-11-19"
+  },
+  "gskill-flare-x5-ddr5-6000-cl30": {
+    "asin": "B0G7QNTRLW",
+    "image": "https://m.media-amazon.com/images/I/414vEwbWjuL._SL500_.jpg",
+    "title": "G.SKILL Flare X5 Series DDR5 RAM (AMD EXPO) 32GB (2x16GB) Up to 6000MT/s* CL30-38-38-96 1.35V Desktop Computer Memory U-DIMM - Matte Black (F5-6000J3038F16GH2-FX5)",
+    "checked": "2026-11-19"
+  },
+  "gskill-trident-z-neo-ddr4-3600-cl16": {
+    "asin": "B07WTS8T2W",
+    "image": "https://m.media-amazon.com/images/I/41P+ADizkPL._SL500_.jpg",
+    "title": "G.SKILL Trident Z Neo Series DDR4 RAM (XMP) 32GB (2x16GB) Up to 3600MT/s* CL16-19-19-39 1.35V Intel AMD Desktop Computer Memory U-DIMM (F4-3600C16D-32GTZNC)",
+    "checked": "2026-11-19"
+  },
+  "gskill-trident-z5-neo-rgb-ddr5-6000-64gb": {
+    "asin": "B0CJXBCQ7P",
+    "image": "https://m.media-amazon.com/images/I/41gRCMNX9yL._SL500_.jpg",
+    "title": "G.SKILL Trident Z5 Neo RGB Series DDR5 RAM (AMD EXPO) 64GB (2x32GB) Up to 6000MT/s* CL30-36-36-96 1.40V Desktop Computer Memory U-DIMM - Matte White (F5-6000J3036G32GX2-TZ5NRW)",
+    "checked": "2026-11-19"
+  },
+  "kingston-fury-beast-ddr5-6000-cl30": {
+    "asin": "B0CYHC58P6",
+    "image": "https://m.media-amazon.com/images/I/415kUsl0MoL._SL500_.jpg",
+    "title": "Kingston FURY Beast 32GB (2x16GB) 6000MT/s DDR5 CL30 Desktop Memory | AMD EXPO | Kit of 2 | KF560C30BBEK2-32",
+    "checked": "2026-11-19"
+  },
+  "kingston-nv3": {
+    "asin": "B0DBR6TRZQ",
+    "image": "https://m.media-amazon.com/images/I/31wu95e-2oL._SL500_.jpg",
+    "title": "Kingston NV3 2TB M.2 2280 NVMe SSD | PCIe 4.0 Gen 4x4 | Up to 6000 MB/s | SNV3S/2000G",
+    "checked": "2026-11-19"
+  },
+  "lian-li-lancool-207": {
+    "asin": "B0DHXWYK4J",
+    "image": "https://m.media-amazon.com/images/I/41DsdV3FxOL._SL500_.jpg",
+    "title": "LIAN LI LANCOOL 207 Black Compact ATX Case, 4 Pre-Installed Fans | Compact ATX case with two 140mm ARGB front fans and two 120mm GPU fans, plus 410mm GPU and 360mm radiator support.",
+    "checked": "2026-11-19"
+  },
+  "lian-li-lancool-217": {
+    "asin": "B0DWF95QP7",
+    "image": "https://m.media-amazon.com/images/I/41eFbeAwWJL._SL500_.jpg",
+    "title": "Lian Li LANCOOL 217 ATX Mid-Tower PC Case, 5 PWM Fans, Black Walnut Wood | Pre-installed 2×170mm, 2×120mm & 1×140mm Fans, Genuine Wood Panels, Back-Connect Ready, Flexible PSU Mounting (LAN217X)",
+    "checked": "2026-11-19"
+  },
+  "lian-li-o11-dynamic-evo": {
+    "asin": "B0G54D3KL7",
+    "image": "https://m.media-amazon.com/images/I/41c+X49X0KL._SL500_.jpg",
+    "title": "LIAN LI O11 Dynamic EVO Gaming PC Case E-ATX Desktop Computer Case - Mid Tower Chassis with Flexible Mode and Configuration, Tempered Glass Panel, USB Type-C Port (Black- with Fans)",
+    "checked": "2026-11-19"
+  },
+  "montech-air-903-max": {
+    "asin": "B0CB26ZFKV",
+    "image": "https://m.media-amazon.com/images/I/51pNYpZJH3L._SL500_.jpg",
+    "title": "MONTECH AIR 903 MAX High-Airflow E-ATX Mid-Tower PC Case, 4 Fans, Black | 400mm GPU & top/front 360mm radiators, tempered glass, USB-C, vertical GPU mount ready, cable space, dust filters & 2 USB 3.0",
+    "checked": "2026-11-19"
+  },
+  "montech-century-ii-850": {
+    "asin": "B0F3XW1J16",
+    "image": "https://m.media-amazon.com/images/I/41mC3iw8TfL._SL500_.jpg",
+    "title": "MONTECH Century II 850W ATX 3.1 Fully Modular 80 PLUS Gold Power Supply | PCIe 5.1, Native 12V-2x6 Cable, Compact 140mm Design, Zero RPM Mode, 100% Japanese Capacitors, 10-Year Warranty",
+    "checked": "2026-11-19"
+  },
+  "montech-xr": {
+    "asin": "B0D5PHHCK5",
+    "image": "https://m.media-amazon.com/images/I/41EQBUlNKML._SL500_.jpg",
+    "title": "MONTECH XR Panoramic ATX Gaming PC Case, Mid Tower, 3 ARGB PWM Fans, Black | High Airflow; 2 Reverse-Blade Side & 1 Rear ARGB PWM Fan; Magnetic Filter; 420mm GPU, 360mm Radiator; USB-C; Up to 9 Fans",
+    "checked": "2026-11-19"
+  },
+  "msi-mag-a750gl-pcie5": {
+    "asin": "B0CC3QBGDL",
+    "image": "https://m.media-amazon.com/images/I/41lDKv1dw8L._SL500_.jpg",
+    "title": "MSI MAG A750GL PCIE5, Fully Modular Compact Gaming 750W Power Supply, 80+ Gold, ATX 3.1 & PCIe 5.1 Ready, Native Dual-Color 12V-2x6 Cable, 10 Year Warranty",
+    "checked": "2026-11-19"
+  },
+  "msi-mag-b650-tomahawk-wifi": {
+    "asin": "B0BHCCNSRH",
+    "image": "https://m.media-amazon.com/images/I/41Wt+beG5uL._SL500_.jpg",
+    "title": "MSI MAG B650 Tomahawk WiFi Gaming Motherboard (AMD Ryzen 9000/8000/7000 Series Processors, AM5, DDR5, PCIe 4.0, M.2, SATA 6Gb/s, USB 3.2 Gen 2, HDMI/DP, Wi-Fi 6E, Bluetooth 5.3, 2.5Gbps LAN, ATX)",
+    "checked": "2026-11-19"
+  },
+  "msi-mag-x870-tomahawk-wifi": {
+    "asin": "B0DG3HK897",
+    "image": "https://m.media-amazon.com/images/I/51CYkD+31mL._SL500_.jpg",
+    "title": "MSI MAG X870 Tomahawk WiFi Gaming Motherboard (AMD Ryzen 9000/8000/7000 Series Processors, AM5, DDR5, PCIe 5.0, M.2 Gen5, SATA 6Gb/s, USB 40Gbps, HDMI/DP, Wi-Fi 7, Bluetooth 5.4, 5Gbps LAN, ATX)",
+    "checked": "2026-11-19"
+  },
+  "msi-pro-b650m-a-wifi": {
+    "asin": "B0FBTFCFMD",
+    "image": "https://m.media-amazon.com/images/I/51nDmhFq6tL._SL500_.jpg",
+    "title": "MSI PRO B650M-A WiFi V1 Motherboard, Micro-ATX - Supports AMD Ryzen 9000/8000 / 7000 Series Processors, AM5 - DDR5 Memory Boost 6000+MHz/OC, 2 x PCIe 4.0 x16, 2 x M.2 Gen4, 2.5G LAN",
+    "checked": "2026-11-19"
+  },
+  "noctua-nh-d15-g2": {
+    "asin": "B0D5B6MXJF",
+    "image": "https://m.media-amazon.com/images/I/51-eBeqvOrL._SL500_.jpg",
+    "title": "Noctua NH-D15 G2, Quiet High-Performance Dual Tower CPU Cooler | 168mm Height, Ultimate Low-Noise Cooling, 8 Heatpipes, For Intel & AMD, Dual Enthusiast-Grade 140mm Fans, Rich Accessory Kit",
+    "checked": "2026-11-19"
+  },
+  "noctua-nh-u12s-redux": {
+    "asin": "B08WPDD6GD",
+    "image": "https://m.media-amazon.com/images/I/41CZlCw8VBL._SL500_.jpg",
+    "title": "Noctua NH-U12S redux, Quiet High-Performance Single Tower CPU Cooler | 158mm Height, Low-Noise Cooling, 5 Heatpipes, For Intel & AMD, 120mm Fan, 100% RAM Compatibility",
+    "checked": "2026-11-19"
+  },
+  "nzxt-h5-flow-2024": {
+    "asin": "B0D2MK6NML",
+    "image": "https://m.media-amazon.com/images/I/313-Xcs095L._SL500_.jpg",
+    "title": "NZXT H5 Flow - Compact ATX Mid-Tower PC Case - Black | Compact mid-tower with 2 included 120mm fans, 360mm front radiator support, and tempered glass. A great first airflow build.",
+    "checked": "2026-11-19"
+  },
+  "phanteks-xt-pro-ultra": {
+    "asin": "B0CT5V2XJK",
+    "image": "https://m.media-amazon.com/images/I/41CD+poUU+L._SL500_.jpg",
+    "title": "Phanteks XT Pro Ultra, Mid-Tower Gaming Chassis, 4X M25-140 Fans Included, High Airflow Performance Mesh, Tempered Glass Window, USB-C 3.2 Gen2 (Black)",
+    "checked": "2026-11-19"
+  },
+  "rtx-4060": {
+    "asin": "B0C8JZNLZL",
+    "image": "https://m.media-amazon.com/images/I/41rBucE50rL._SL500_.jpg",
+    "title": "Gigabyte GeForce RTX 4060 WINDFORCE OC 8G Graphics Card, 2X WINDFORCE Fans, 8GB 128-bit GDDR6, GV-N4060WF2OC-8GD Video Card",
+    "checked": "2026-11-19"
+  },
+  "rtx-4070": {
+    "asin": "B0BZHCQ6PF",
+    "image": "https://m.media-amazon.com/images/I/41sF-bpPBTL._SL500_.jpg",
+    "title": "GIGABYTE GeForce RTX 4070 WINDFORCE OC 12G Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6X, GV-N4070WF3OC-12GD Video Card",
+    "checked": "2026-11-19"
+  },
+  "rtx-5060": {
+    "asin": "B0F8LDHQ7Y",
+    "image": "https://m.media-amazon.com/images/I/41uJIJhUWVL._SL500_.jpg",
+    "title": "GIGABYTE GeForce RTX 5060 WINDFORCE OC 8G Graphics Card, Cooling System, 8GB 128-bit GDDR7, PCIe 5.0, Manufactured by NVIDIA, DisplayPort & HDMI - Video Output Interface, GV-N5060WF2OC-8GD Video Card",
+    "checked": "2026-11-19"
+  },
+  "rtx-5060-ti-16gb": {
+    "asin": "B0F4Y6N6PW",
+    "image": "https://m.media-amazon.com/images/I/41tJ+sJlLIL._SL500_.jpg",
+    "title": "PNY NVIDIA GeForce RTX™ 5060 Ti 16GB OC Dual-Fan Graphics Card | 16GB G7, 128-bit, Boost Speed: 2692 MHz, SFF-Ready, PCIe® 5.0, HDMI®/DP 2.1, 2-Slot, NVIDIA Blackwell Architecture, DLSS 4.5",
+    "checked": "2026-11-19"
+  },
+  "rtx-5070": {
+    "asin": "B0DS6WPTLL",
+    "image": "https://m.media-amazon.com/images/I/41zeOBYIU9L._SL500_.jpg",
+    "title": "ASUS PRIME GeForce RTX 5070 12GB GDDR7 OC Edition Gaming Graphics Card | SFF-Ready, PCIe 5.0, HDMI/DP 2.1, 2.5-slot, Axial-tech Fans, Dual BIOS",
+    "checked": "2026-11-19"
+  },
+  "rtx-5070-ti": {
+    "asin": "B0DXL7GSYC",
+    "image": "https://m.media-amazon.com/images/I/41KT7y98+-L._SL500_.jpg",
+    "title": "PNY NVIDIA GeForce RTX™ 5070 Ti OC Triple-Fan Graphics Card | 16GB GDDR7, 256-bit, Boost: 2572 MHz, PCIe® 5.0, HDMI®/DP 2.1, 2.98-Slot, NVIDIA Blackwell Architecture, DLSS 5",
+    "checked": "2026-11-19"
+  },
+  "rtx-5080": {
+    "asin": "B0DYRZZJZ1",
+    "image": "https://m.media-amazon.com/images/I/41RJRwDb55L._SL500_.jpg",
+    "title": "PNY NVIDIA GeForce RTX™ 5080 Triple-Fan Graphics Card | 16GB GDDR7, 256-bit, Boost Speed: 2617 MHz, PCIe® 5.0, HDMI®/DP 2.1, 2.99-Slot, NVIDIA Blackwell Architecture, DLSS 4.5",
+    "checked": "2026-11-19"
+  },
+  "rtx-5090": {
+    "asin": "B0DTHV8THW",
+    "image": "https://m.media-amazon.com/images/I/51B+ImhOYeL._SL500_.jpg",
+    "title": "ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 OC Edition Gaming Graphics Card (Nvidia GeForce RTX5090, Four Fans, 3.8 Slot Design, PCIe 5.0, 2X HDMI 2.1b, 3X DisplayPort 2.1a)",
+    "checked": "2026-11-19"
+  },
+  "rx-6600": {
+    "asin": "B09J8VCFWN",
+    "image": "https://m.media-amazon.com/images/I/41i-3GyW0UL._SL500_.jpg",
+    "title": "ASRock AMD Radeon RX 6600 Challenger D 8GB GDDR6 DisplayPort 14Gbps HDMI 0dB Silent Cooling 128-bit 7680 x 4320 Dual Fan Graphics Card PCI Express 4.0 x8 8-pin",
+    "checked": "2026-11-19"
+  },
+  "rx-6700-xt": {
+    "asin": "B08YNQ4ZM1",
+    "image": "https://m.media-amazon.com/images/I/51YFV5ual7L._SL500_.jpg",
+    "title": "Sapphire 11306-02-20G Pulse AMD Radeon RX 6700 XT Gaming Graphics Card with 12GB GDDR6, AMD RDNA 2",
+    "checked": "2026-11-19"
+  },
+  "rx-9060-xt-16gb": {
+    "asin": "B0FLHBFFX4",
+    "image": "https://m.media-amazon.com/images/I/41LR+5kEPoL._SL500_.jpg",
+    "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Gaming Graphics Card | PCIe 5.0, HDMI 2.1b, DisplayPort 2.1a, 2.5-slot design, Axial-tech Fans, 0dB Technology",
+    "checked": "2026-11-19"
+  },
+  "rx-9070": {
+    "asin": "B0DTTKCTRD",
+    "image": "https://m.media-amazon.com/images/I/413cBkwCGyL._SL500_.jpg",
+    "title": "ASRock Radeon RX 9070 Challenger 16GB OC Graphics Card, RDNA 4, 2520MHz Boost, 16GB GDDR6 256-bit, PCIe 5.0, Triple Fans, 0dB Silent, LED Indicator",
+    "checked": "2026-11-19"
+  },
+  "rx-9070-xt": {
+    "asin": "B0FSSYTD49",
+    "image": "https://m.media-amazon.com/images/I/411h61PttLL._SL500_.jpg",
+    "title": "ASRock Radeon RX 9070 XT Challenger 16GB OC Graphics Card - AMD RDNA 4 Architecture, 2970 MHz Boost Clock, GDDR6, PCIe 5.0, DisplayPort 2.1a, HDMI 2.1b, Triple Fan Cooling 800W",
+    "checked": "2026-11-19"
+  },
+  "ryzen-5-7600": {
+    "asin": "B0BMQJWBDM",
+    "image": "https://m.media-amazon.com/images/I/41LSnKT1MXL._SL500_.jpg",
+    "title": "AMD Ryzen 5 7600 6-Core, 12-Thread Unlocked Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-5-9600x": {
+    "asin": "B0D6NN6TM7",
+    "image": "https://m.media-amazon.com/images/I/41kb8AbxbTL._SL500_.jpg",
+    "title": "AMD Ryzen™ 5 9600X 6-Core, 12-Thread Unlocked Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-5700x3d": {
+    "asin": "B0CQ4H4H7X",
+    "image": "https://m.media-amazon.com/images/I/31LkUMZ5A8L._SL500_.jpg",
+    "title": "AMD Ryzen 7 5700X3D 8-Core, 16-Thread Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-5800x": {
+    "asin": "B0815XFSGK",
+    "image": "https://m.media-amazon.com/images/I/41t0HDY4O+L._SL500_.jpg",
+    "title": "AMD Ryzen 7 5800X 8-core, 16-thread unlocked desktop processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-5800x3d": {
+    "asin": "B0H41D4KFT",
+    "image": "https://m.media-amazon.com/images/I/41jmTVeiKgL._SL500_.jpg",
+    "title": "AMD Ryzen 7 5800X3D 8-core, 16-Thread Desktop Processor with AMD 3D V-Cache Technology",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-7800x3d": {
+    "asin": "B0BTZB7F88",
+    "image": "https://m.media-amazon.com/images/I/21KtytBd+kL._SL500_.jpg",
+    "title": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-8700f": {
+    "asin": "B0D2JCMP34",
+    "image": "https://m.media-amazon.com/images/I/317Jdk9WQIL._SL500_.jpg",
+    "title": "AMD Ryzen™ 7 8700F",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-9700x": {
+    "asin": "B0D6NMDNNX",
+    "image": "https://m.media-amazon.com/images/I/41tUy4Z4RpL._SL500_.jpg",
+    "title": "AMD Ryzen™ 7 9700X 8-Core, 16-Thread Unlocked Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-9800x3d": {
+    "asin": "B0DKFMSMYK",
+    "image": "https://m.media-amazon.com/images/I/41RRIy3PyvL._SL500_.jpg",
+    "title": "AMD RYZEN 7 9800X3D 8-Core, 16-Thread Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-9-9950x3d": {
+    "asin": "B0DVZSG8D5",
+    "image": "https://m.media-amazon.com/images/I/41yERiN9M1L._SL500_.jpg",
+    "title": "AMD Ryzen 9 9950X3D 16-Core Processor",
+    "checked": "2026-11-19"
+  },
+  "samsung-9100-pro": {
+    "asin": "B0DX2DPJZ5",
+    "image": "https://m.media-amazon.com/images/I/3137jN3vkqL._SL500_.jpg",
+    "title": "Samsung SSD 9100 PRO 2TB, PCIe 5.0x4 M.2 2280, Up to 14,700MB/s | NVMe Internal Solid State Hard Drive best for AI Computing, Gaming, and Heavy Duty Workstations (MZ VAP2T0B/AM)",
+    "checked": "2026-11-19"
+  },
+  "samsung-990-pro": {
+    "asin": "B0BHJJ9Y77",
+    "image": "https://m.media-amazon.com/images/I/41Jf2yGpAgL._SL500_.jpg",
+    "title": "Samsung SSD 990 PRO 2TB, PCIe 4.0 M.2 2280, Up to 7,450 MB/s | NVMe Internal Solid State Hard Drive for High End Computing, Gaming, and Heavy Duty Workstations, (MZ-V9P2T0B/AM)",
+    "checked": "2026-11-19"
+  },
+  "seasonic-focus-gx-850": {
+    "asin": "B0DLFMTX12",
+    "image": "https://m.media-amazon.com/images/I/41a1x2C18rL._SL500_.jpg",
+    "title": "Seasonic FOCUS GX-850 850W Power Supply ATX 3.1 & PCIe 5.1 Ready | 80 Plus Gold & Cybenetics Platinum Fully Modular 12V-2x6 RTX 5080 AMD RX 9000 Ready Japanese Capacitors 10 Years Warranty",
+    "checked": "2026-11-19"
+  },
+  "teamgroup-t-force-delta-rgb-ddr5-6000": {
+    "asin": "B0B3HGJ4V7",
+    "image": "https://m.media-amazon.com/images/I/41X+CHFnLmL._SL500_.jpg",
+    "title": "TEAMGROUP T-Force Delta RGB DDR5 Ram 32GB (2x16GB) 6000MHz PC5-48000 CL30 Intel XMP 3.0 & AMD Expo Compatible Desktop Memory Module Ram White FF4D532G6000HC30DC01",
+    "checked": "2026-11-19"
+  },
+  "thermalright-assassin-x-120-refined-se": {
+    "asin": "B09LHBFPJ6",
+    "image": "https://m.media-amazon.com/images/I/41aJwdGRuAL._SL500_.jpg",
+    "title": "Thermalright Assassin X120 Refined SE CPU Air Cooler, 4 Heat Pipes, TL-C12C PWM Fan, Aluminium Heatsink Cover, AGHP Technology, for AMD AM4/AM5/Intel LGA 1150/1151/1155/1200/1700/1851(AX120 R SE)",
+    "checked": "2026-11-19"
+  },
+  "thermalright-peerless-assassin-120-se": {
+    "asin": "B09LGY38L4",
+    "image": "https://m.media-amazon.com/images/I/41hFTmi5aUL._SL500_.jpg",
+    "title": "Thermalright Peerless Assassin 120 SE CPU Cooler, 6 Heat Pipes AGHP Technology, Dual 120mm PWM Fans, 1550RPM Speed, for AMD:AM4 AM5/Intel LGA 1700/1150/1151/1200/1851,PC Cooler",
+    "checked": "2026-11-19"
+  },
+  "thermalright-phantom-spirit-120-se": {
+    "asin": "B0D93R3YY9",
+    "image": "https://m.media-amazon.com/images/I/41W16fgxB2L._SL500_.jpg",
+    "title": "Thermalright Phantom Spirit 120 SE Black CPU Cooler,Dual TL-C12B V2 PWM Fans and Double Towers, 7 Heat Pipes Heatsink Cooler,for AM4/AM5&Intel LGA1851/1700/115X/1200, Computer CPU Cooling,Black",
+    "checked": "2026-11-19"
+  },
+  "thermaltake-versa-h18": {
+    "asin": "B079G3TNDM",
+    "image": "https://m.media-amazon.com/images/I/51e+2N4f8UL._SL500_.jpg",
+    "title": "Thermaltake Versa H18 Tempered Glass Black Spcc Micro ATX Gaming Computer Case CA-1J4-00S1WN-01",
+    "checked": "2026-11-19"
+  },
+  "wd-black-sn7100": {
+    "asin": "B0DN6ZQ3PD",
+    "image": "https://m.media-amazon.com/images/I/31ZdDDePX3L._SL500_.jpg",
+    "title": "WD_Black SN7100 2TB NVMe SSD - Gen4 PCIe, M.2 2280, Up to 7,250 MB/s Read Speed, Up to 6,900 MB/s Write Speed, Next Gen TLC 3D NAND, for Laptops, Handheld Gaming Devices - WDS200T4X0E",
+    "checked": "2026-11-19"
+  },
+  "wd-black-sn850x": {
+    "asin": "B0B7CMZ3QH",
+    "image": "https://m.media-amazon.com/images/I/31cxgtEyksL._SL500_.jpg",
+    "title": "WD_BLACK SN850X 2TB NVMe SSD - M.2 2280, Up to 7,300 MB/s Read speeds, Up to 6,300 MB/s write speeds, Gaming Expansion, High Performance Internal Solid State Drive - WDS200T2X0E",
+    "checked": "2026-11-19"
   }
 }

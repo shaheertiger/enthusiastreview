@@ -1,0 +1,628 @@
+[
+  {
+    "id": "msi-mag-b650-tomahawk-wifi",
+    "name": "MSI MAG B650 Tomahawk WiFi",
+    "short": "B650 Tomahawk WiFi",
+    "brand": "msi",
+    "category": "motherboards",
+    "released": "2022",
+    "price": [170, 200],
+    "description": "The MSI B650 Tomahawk WiFi is the best AM5 board for most builds at $170 to $200: a strong VRM, Wi-Fi 6E, 2.5 GbE, three M.2 slots and BIOS Flashback.",
+    "quick": "An ATX AM5 board on the B650 chipset with four DDR5 slots, a PCIe 4.0 x16 slot, three PCIe 4.0 M.2 slots, Wi-Fi 6E, 2.5 GbE and a Flash BIOS button. It sells for about $170 to $200.",
+    "bestFor": "Ryzen 7000 and 9000 gaming builds that want solid power delivery and no missing basics",
+    "skipIf": "you need PCIe 5.0 for a GPU or SSD, or USB4",
+    "specs": [
+      ["Socket", "AM5"],
+      ["Chipset", "AMD B650"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR5 DIMM"],
+      ["PCIe x16 slot", "PCIe 4.0 x16"],
+      ["M.2 slots", "3 (PCIe 4.0)"],
+      ["Networking", "Wi-Fi 6E, 2.5 GbE"],
+      ["BIOS flashback", "Yes (Flash BIOS button)"]
+    ],
+    "score": {
+      "overall": 90,
+      "parts": [["Power delivery", 92], ["Features", 87], ["Connectivity", 86], ["Value", 92]]
+    },
+    "verdict": [
+      "The B650 Tomahawk WiFi is the AM5 board we would put in most builds. It gets the expensive parts right: power delivery that independent VRM roundups rate as comfortable even for 16-core Ryzen 9 chips, four DDR5 slots, three PCIe 4.0 M.2 slots, Wi-Fi 6E and 2.5 GbE. A Flash BIOS button on the rear panel means you can update the firmware for a new Ryzen chip without a CPU installed.",
+      "What you give up is PCIe 5.0 and USB4. The x16 slot runs at PCIe 4.0, which costs nothing measurable with an RTX 5070 or RX 9070 XT today; independent testing of current cards shows very small differences between PCIe 4.0 and 5.0 x16. The M.2 slots are also PCIe 4.0, which suits drives like the WD Black SN850X. If you want a 14,000 MB/s PCIe 5.0 SSD such as the Samsung 9100 Pro, look elsewhere.",
+      "Its closest rival is the [Gigabyte B650 Aorus Elite AX](/gear/gigabyte-b650-aorus-elite-ax/), which adds a PCIe 5.0 M.2 slot for about $10 less but has a less generous feature set elsewhere. The step-up is the [MSI MAG X870 Tomahawk WiFi](/gear/msi-mag-x870-tomahawk-wifi/) at $260 to $300, which adds PCIe 5.0 graphics and storage, USB4, Wi-Fi 7 and 5 GbE. For a [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) gaming PC, the B650 Tomahawk is all the board you need, and the $80 saved buys a better GPU."
+    ],
+    "pros": [
+      "Power delivery suits up to 16-core Ryzen 9",
+      "Three PCIe 4.0 M.2 slots",
+      "Wi-Fi 6E and 2.5 GbE",
+      "Flash BIOS button for CPU-less updates",
+      "Strong value at $170 to $200"
+    ],
+    "cons": [
+      "No PCIe 5.0 for GPU or M.2",
+      "No USB4",
+      "Older 2022 boxes need a BIOS update for Ryzen 9000"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "Boards made in 2022 and 2023 shipped with BIOS versions that support Ryzen 7000 only. Ryzen 9000 chips need a BIOS from mid-2024 or later, and the Ryzen 7 9800X3D and Ryzen 9 9950X3D need later versions still. Ryzen 8000G APUs need an early-2024 BIOS. If you are not sure what is installed, update before building; the Flash BIOS button works with no CPU, RAM or GPU installed.",
+        "Download the latest BIOS from MSI's support page for the MAG B650 Tomahawk WiFi, and use a USB stick of 32 GB or less formatted FAT32."
+      ],
+      "steps": [
+        ["Prepare the file", "Extract the BIOS download and rename the file to MSI.ROM, then copy it to the root of the FAT32 USB stick."],
+        ["Connect power", "Connect the 24-pin and 8-pin CPU power cables, and switch the PSU on, but leave the PC off."],
+        ["Use the Flash BIOS port", "Plug the stick into the rear USB port marked Flash BIOS."],
+        ["Press the button", "Press the Flash BIOS button. Its LED flashes during the update."],
+        ["Wait", "When the LED stops flashing, after about five minutes, the update is done. Do not cut power during it."]
+      ]
+    },
+    "faqs": [
+      { "q": "Does the B650 Tomahawk WiFi support the Ryzen 7 9800X3D?", "a": "Yes, with a BIOS from late 2024 or later. Use the Flash BIOS button to update without a CPU if your board has an older version." },
+      { "q": "Does PCIe 4.0 bottleneck an RTX 5070 or RX 9070 XT?", "a": "No. Both cards use a full x16 link, and independent reviews show very small differences between PCIe 4.0 and 5.0 x16 with current GPUs." },
+      { "q": "Can the B650 Tomahawk handle a Ryzen 9 9950X3D?", "a": "Yes. Its power delivery is rated well for 16-core Ryzen 9 chips in independent VRM roundups. Update the BIOS first." }
+    ]
+  },
+  {
+    "id": "gigabyte-b650-aorus-elite-ax",
+    "name": "Gigabyte B650 Aorus Elite AX",
+    "short": "B650 Aorus Elite AX",
+    "brand": "gigabyte",
+    "category": "motherboards",
+    "released": "2022",
+    "price": [160, 190],
+    "description": "The Gigabyte B650 Aorus Elite AX is a strong $160 to $190 AM5 board: one PCIe 5.0 M.2 slot, Wi-Fi 6E, 2.5 GbE and Q-Flash Plus for CPU-free BIOS updates.",
+    "quick": "An ATX AM5 board on the B650 chipset with four DDR5 slots, a PCIe 4.0 x16 slot, one PCIe 5.0 M.2 slot, Wi-Fi 6E, 2.5 GbE and Q-Flash Plus. It sells for about $160 to $190.",
+    "bestFor": "AM5 builders who want a PCIe 5.0 SSD slot without paying X870 prices",
+    "skipIf": "you want PCIe 5.0 graphics, USB4 or the most M.2 slots",
+    "specs": [
+      ["Socket", "AM5"],
+      ["Chipset", "AMD B650"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR5 DIMM"],
+      ["PCIe x16 slot", "PCIe 4.0 x16"],
+      ["M.2 slots", "Includes one PCIe 5.0 x4"],
+      ["Networking", "Wi-Fi 6E, 2.5 GbE"],
+      ["BIOS flashback", "Q-Flash Plus"]
+    ],
+    "score": {
+      "overall": 86,
+      "parts": [["Power delivery", 88], ["Features", 85], ["Connectivity", 84], ["Value", 88]]
+    },
+    "verdict": [
+      "The B650 Aorus Elite AX is the cheapest way into a PCIe 5.0 SSD on a mainstream AM5 board from a major brand. One M.2 slot runs at PCIe 5.0 x4, so a drive like the Samsung 9100 Pro can run at its full rated 14,700 MB/s, while the graphics slot stays at PCIe 4.0 x16. Wi-Fi 6E, 2.5 GbE, four DDR5 slots and Q-Flash Plus round out a board that covers every gaming build.",
+      "The trade-off against the [MSI B650 Tomahawk WiFi](/gear/msi-mag-b650-tomahawk-wifi/) is mostly about where you want the spend. The Gigabyte gets the PCIe 5.0 SSD slot; the MSI is the stronger all-rounder in independent reviews, with three M.2 slots and a reputation for cool-running power delivery. For gaming, a PCIe 5.0 SSD makes little difference to load times, so the slot matters most if you move large files.",
+      "Gigabyte has also sold several versions under similar names, including the Elite AX V2 and the white Elite AX Ice. They differ in details like networking chips and M.2 layout, so check the exact model on the listing before comparing prices. The closest rival is the [ASUS TUF Gaming B650-Plus WiFi](/gear/asus-tuf-gaming-b650-plus-wifi/), which also has a PCIe 5.0 M.2 slot but uses Wi-Fi 6. The step-up is the [MSI X870 Tomahawk WiFi](/gear/msi-mag-x870-tomahawk-wifi/) for PCIe 5.0 graphics, USB4 and Wi-Fi 7."
+    ],
+    "pros": [
+      "PCIe 5.0 M.2 slot at a B650 price",
+      "Wi-Fi 6E and 2.5 GbE",
+      "Q-Flash Plus for CPU-free BIOS updates",
+      "Solid power delivery for Ryzen 7 and 9"
+    ],
+    "cons": [
+      "PCIe 4.0 graphics slot",
+      "Several similar versions make listings confusing",
+      "Fewer extras than the B650 Tomahawk"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "Original 2022 boards shipped with BIOS versions for Ryzen 7000. Ryzen 9000 needs a mid-2024 or later BIOS, the Ryzen 7 9800X3D a late-2024 BIOS, and the Ryzen 9 9950X3D an early-2025 BIOS. Ryzen 8000G APUs need an early-2024 version. Q-Flash Plus updates the board with no CPU or memory installed.",
+        "Download the BIOS for your exact model and revision from Gigabyte's support page; the Elite AX, Elite AX V2 and Elite AX Ice use different files. Use a FAT32-formatted USB stick."
+      ],
+      "steps": [
+        ["Rename the file", "Extract the download and rename the BIOS file to GIGABYTE.bin, then copy it to the root of the USB stick."],
+        ["Connect power", "Connect the 24-pin and 8-pin CPU power cables and switch on the PSU, with the PC off."],
+        ["Use the Q-Flash Plus port", "Insert the stick into the rear USB port labeled for Q-Flash Plus."],
+        ["Press Q-Flash Plus", "Press the button; the LED blinks while the BIOS flashes."],
+        ["Wait for it to finish", "The process takes several minutes and the board may restart. When the LED stops, the update is done."]
+      ]
+    },
+    "faqs": [
+      { "q": "Does the B650 Aorus Elite AX have PCIe 5.0?", "a": "Yes, for one M.2 SSD slot. The graphics slot is PCIe 4.0 x16, which does not hold back current GPUs in a measurable way." },
+      { "q": "What is the difference between the Elite AX and Elite AX V2?", "a": "The V2 is a later revision with changes to details such as networking and M.2 layout. Check the exact model and use the matching BIOS file." },
+      { "q": "Can I update the B650 Aorus Elite AX BIOS without a CPU?", "a": "Yes. Q-Flash Plus flashes the BIOS from a USB stick with only the power supply connected." }
+    ]
+  },
+  {
+    "id": "asus-tuf-gaming-b650-plus-wifi",
+    "name": "ASUS TUF Gaming B650-Plus WiFi",
+    "short": "TUF B650-Plus WiFi",
+    "brand": "asus",
+    "category": "motherboards",
+    "released": "2022",
+    "price": [160, 190],
+    "description": "The ASUS TUF Gaming B650-Plus WiFi is a durable $160 to $190 AM5 board with a PCIe 5.0 M.2 slot, 2.5 GbE and BIOS FlashBack, though only Wi-Fi 6.",
+    "quick": "An ATX AM5 board on the B650 chipset with four DDR5 slots, a PCIe 4.0 x16 slot, a PCIe 5.0 M.2 slot, Wi-Fi 6, 2.5 GbE and BIOS FlashBack. It sells for about $160 to $190.",
+    "bestFor": "AM5 builders who prefer ASUS's BIOS and want a PCIe 5.0 SSD slot on a budget",
+    "skipIf": "you want Wi-Fi 6E or 7, or the best value at this price",
+    "specs": [
+      ["Socket", "AM5"],
+      ["Chipset", "AMD B650"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR5 DIMM"],
+      ["PCIe x16 slot", "PCIe 4.0 x16"],
+      ["M.2 slots", "Includes one PCIe 5.0 x4"],
+      ["Networking", "Wi-Fi 6, 2.5 GbE"],
+      ["BIOS flashback", "BIOS FlashBack"]
+    ],
+    "score": {
+      "overall": 83,
+      "parts": [["Power delivery", 85], ["Features", 82], ["Connectivity", 79], ["Value", 84]]
+    },
+    "verdict": [
+      "The TUF Gaming B650-Plus WiFi is ASUS's value-focused AM5 board, and its pitch is the same as the Gigabyte Elite AX: a PCIe 5.0 M.2 slot for a fast SSD, a PCIe 4.0 x16 graphics slot, 2.5 GbE and BIOS FlashBack. The TUF line leans on military-style styling and conservative component choices, and ASUS's BIOS is one of the easiest to navigate for first-time builders.",
+      "The weak spot is Wi-Fi. This board uses Wi-Fi 6, while the [MSI B650 Tomahawk WiFi](/gear/msi-mag-b650-tomahawk-wifi/) and [Gigabyte B650 Aorus Elite AX](/gear/gigabyte-b650-aorus-elite-ax/) both use Wi-Fi 6E at similar prices. That matters only if you have a 6 GHz router and a crowded wireless environment; with a wired connection or a Wi-Fi 6 router, it makes no difference. Power delivery is adequate for Ryzen 7 and fine for Ryzen 9 with decent case airflow, according to independent VRM roundups, though it is not the strongest in this group.",
+      "Choose it when it is the cheapest of the three on the day, or when you prefer ASUS's software and support. Otherwise the Tomahawk is the better all-rounder and the Elite AX the better spec sheet for the money. The step-up from ASUS is the TUF Gaming X870-Plus WiFi, or the [MSI X870 Tomahawk](/gear/msi-mag-x870-tomahawk-wifi/) for USB4 and Wi-Fi 7."
+    ],
+    "pros": [
+      "PCIe 5.0 M.2 slot",
+      "BIOS FlashBack for CPU-free updates",
+      "Easy-to-use ASUS BIOS",
+      "2.5 GbE wired networking"
+    ],
+    "cons": [
+      "Wi-Fi 6 rather than 6E at this price",
+      "Power delivery is solid but not class-leading",
+      "Rivals offer more for the same money"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "Boards from 2022 and 2023 shipped with Ryzen 7000 BIOS versions. Update to a mid-2024 or later BIOS for Ryzen 9000, a late-2024 BIOS for the Ryzen 7 9800X3D, and an early-2025 BIOS for the Ryzen 9 9950X3D. BIOS FlashBack works with only the power supply connected, so you can update before installing a new chip.",
+        "Download the BIOS from ASUS's support page for the TUF Gaming B650-Plus WiFi. The download includes a BIOSRenamer tool, which gives the file the exact name FlashBack expects. Use a FAT32-formatted USB stick."
+      ],
+      "steps": [
+        ["Rename with BIOSRenamer", "Run BIOSRenamer in the extracted folder, then copy the renamed .CAP file to the root of the USB stick."],
+        ["Connect power", "Connect the 24-pin and 8-pin cables and turn on the PSU, leaving the PC off."],
+        ["Insert the stick", "Use the rear USB port marked BIOS FlashBack."],
+        ["Hold the button", "Press and hold the FlashBack button for about three seconds until the LED starts flashing."],
+        ["Wait", "The LED goes off when the update is complete. Do not unplug anything while it flashes."]
+      ]
+    },
+    "faqs": [
+      { "q": "Does the TUF Gaming B650-Plus WiFi have Wi-Fi 6E?", "a": "No. It uses Wi-Fi 6. The MSI B650 Tomahawk WiFi and Gigabyte B650 Aorus Elite AX offer Wi-Fi 6E at similar prices." },
+      { "q": "Can the TUF B650-Plus run a Ryzen 9 9950X3D?", "a": "Yes, with an early-2025 or later BIOS and decent case airflow over the VRM. Update with BIOS FlashBack before installing the chip." },
+      { "q": "Does it support PCIe 5.0 SSDs?", "a": "Yes, in one M.2 slot. The other M.2 slots and the graphics slot run at PCIe 4.0." }
+    ]
+  },
+  {
+    "id": "msi-mag-x870-tomahawk-wifi",
+    "name": "MSI MAG X870 Tomahawk WiFi",
+    "short": "X870 Tomahawk WiFi",
+    "brand": "msi",
+    "category": "motherboards",
+    "released": "2024",
+    "price": [260, 300],
+    "description": "The MSI X870 Tomahawk WiFi is the AM5 step-up at $260 to $300: PCIe 5.0 graphics and M.2, two 40 Gbps USB4 ports, Wi-Fi 7 and 5 GbE on one ATX board.",
+    "quick": "An ATX AM5 board on the X870 chipset with a PCIe 5.0 x16 slot, PCIe 5.0 M.2 storage, two USB4 ports at 40 Gbps, Wi-Fi 7 and 5 GbE. It sells for about $260 to $300.",
+    "bestFor": "high-end Ryzen 9000 builds that want PCIe 5.0, USB4 and the fastest networking",
+    "skipIf": "you are building a gaming PC where a $180 B650 board does the same job",
+    "specs": [
+      ["Socket", "AM5"],
+      ["Chipset", "AMD X870"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR5 DIMM"],
+      ["PCIe x16 slot", "PCIe 5.0 x16"],
+      ["M.2 slots", "Includes PCIe 5.0 x4"],
+      ["Networking", "Wi-Fi 7, 5 GbE"],
+      ["Rear USB", "Includes 2x USB4 Type-C (40 Gbps)"],
+      ["BIOS flashback", "Yes (Flash BIOS button)"]
+    ],
+    "score": {
+      "overall": 87,
+      "parts": [["Power delivery", 93], ["Features", 92], ["Connectivity", 94], ["Value", 76]]
+    },
+    "verdict": [
+      "The X870 Tomahawk WiFi is the board to buy when you want every current AM5 feature without paying flagship prices. It has PCIe 5.0 for both the graphics card and an M.2 SSD, two USB4 ports at 40 Gbps, Wi-Fi 7 and 5 GbE wired networking. Power delivery is built for 16-core Ryzen 9 chips, and MSI's tool-free M.2 and PCIe release latches make building easier.",
+      "The trade-off is cost against benefit. At $260 to $300 it costs about $80 to $100 more than the [B650 Tomahawk WiFi](/gear/msi-mag-b650-tomahawk-wifi/), and for a gaming PC most of the extras do little. Current GPUs show tiny differences between PCIe 4.0 and 5.0 x16 in independent reviews, and a PCIe 5.0 SSD barely changes game load times. The value is real for creators moving large files to USB4 drives, for homes with multi-gig internet, and for anyone keeping the board through two or three CPU upgrades.",
+      "Its closest rival is the ASUS TUF Gaming X870-Plus WiFi at a similar price, and the Gigabyte X870 Aorus Elite WiFi7 is another strong option. Both are fine; the MSI stands out for its power delivery and practical build features. The cheaper way to get PCIe 5.0 graphics is a B850 board such as the [ASRock B850 Steel Legend WiFi](/gear/asrock-b850-steel-legend-wifi/), though you lose USB4. Pair this board with a [Ryzen 9 9950X3D](/gear/ryzen-9-9950x3d/) or a future AM5 chip, not a Ryzen 5."
+    ],
+    "pros": [
+      "PCIe 5.0 graphics and M.2",
+      "Two 40 Gbps USB4 ports",
+      "Wi-Fi 7 and 5 GbE",
+      "Power delivery for 16-core Ryzen 9",
+      "Flash BIOS button and tool-free latches"
+    ],
+    "cons": [
+      "About $80 to $100 more than a B650 Tomahawk",
+      "Extras add little for gaming alone",
+      "Early stock may need a BIOS update for newer X3D chips"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "The X870 Tomahawk launched in late 2024 with Ryzen 9000 support. Early boards may still need an update for the Ryzen 7 9800X3D, which arrived a few weeks later, and for the Ryzen 9 9950X3D, which launched in 2025. Ryzen 7000 and 8000G chips are supported. Updating to the latest BIOS also brings memory compatibility and stability fixes, so it is worth doing on any new build.",
+        "MSI's Flash BIOS button updates the board without a CPU or memory. Download the BIOS for the MAG X870 Tomahawk WiFi from MSI's support page and use a FAT32 USB stick."
+      ],
+      "steps": [
+        ["Prepare the stick", "Rename the extracted BIOS file to MSI.ROM and copy it to the root of the USB stick."],
+        ["Power only", "Connect the 24-pin and CPU power cables and switch on the PSU; leave the PC off."],
+        ["Insert into Flash BIOS port", "Use the rear USB port labeled Flash BIOS."],
+        ["Start the flash", "Press the Flash BIOS button; the LED flashes while it works."],
+        ["Wait for the LED to stop", "The update takes about five minutes. Do not cut power."]
+      ]
+    },
+    "faqs": [
+      { "q": "Is the X870 Tomahawk worth it over the B650 Tomahawk?", "a": "For gaming alone, usually not. The X870 adds PCIe 5.0 graphics, USB4, Wi-Fi 7 and 5 GbE, which help creators and fast home networks more than frame rates." },
+      { "q": "Does the X870 Tomahawk support the Ryzen 7 9800X3D?", "a": "Yes. Early boards may need a BIOS update, which the Flash BIOS button can do without a CPU installed." },
+      { "q": "What is the difference between X870 and B850?", "a": "X870 requires USB4 and PCIe 5.0 graphics, while B850 makes PCIe 5.0 graphics optional and does not require USB4. Both use AM5 and DDR5." }
+    ]
+  },
+  {
+    "id": "asrock-b850-steel-legend-wifi",
+    "name": "ASRock B850 Steel Legend WiFi",
+    "short": "B850 Steel Legend",
+    "brand": "asrock",
+    "category": "motherboards",
+    "released": "2025",
+    "price": [180, 220],
+    "description": "The ASRock B850 Steel Legend WiFi is a smart $180 to $220 AM5 buy: a newer B850 board with PCIe 5.0 M.2, Wi-Fi, 2.5 GbE and Ryzen 9000 support from the box.",
+    "quick": "An ATX AM5 board on the B850 chipset with four DDR5 slots, PCIe 5.0 M.2 storage, Wi-Fi, 2.5 GbE and BIOS Flashback. It launched in 2025 and sells for about $180 to $220.",
+    "bestFor": "new Ryzen 9000 builds that want a 2025 board with PCIe 5.0 storage and no early-BIOS worries",
+    "skipIf": "you can find a B650 Tomahawk on sale or need USB4",
+    "specs": [
+      ["Socket", "AM5"],
+      ["Chipset", "AMD B850"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR5 DIMM"],
+      ["M.2 slots", "Includes PCIe 5.0 x4"],
+      ["Networking", "Wi-Fi, 2.5 GbE"],
+      ["BIOS flashback", "BIOS Flashback"]
+    ],
+    "score": {
+      "overall": 85,
+      "parts": [["Power delivery", 87], ["Features", 86], ["Connectivity", 85], ["Value", 83]]
+    },
+    "verdict": [
+      "The B850 Steel Legend WiFi is the board for buyers who want something made for the current generation rather than a 2022 design with updates. B850 boards launched in early 2025 with BIOS versions that already support Ryzen 9000, so a [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) build is far less likely to need a flash before first boot. It brings a PCIe 5.0 M.2 slot, Wi-Fi, 2.5 GbE, four DDR5 slots and the white-and-silver Steel Legend styling that suits light-themed builds.",
+      "The trade-off is that B850 is a small step over B650. The chipset is essentially the same, and the main difference is that B850 boards must offer PCIe 5.0 storage. Against the [MSI B650 Tomahawk WiFi](/gear/msi-mag-b650-tomahawk-wifi/), you gain PCIe 5.0 SSD support and newer firmware, and you usually pay $10 to $30 more. If you are not buying a PCIe 5.0 SSD, the Tomahawk on sale remains the better value.",
+      "Its closest rival is the MSI MAG B850 Tomahawk Max WiFi, a similar design at a similar price; the ASRock wins when it is cheaper on the day or when the white look matters. The step-up is the [MSI X870 Tomahawk WiFi](/gear/msi-mag-x870-tomahawk-wifi/) for USB4, Wi-Fi 7 and 5 GbE. For a new Ryzen 9000 build with a PCIe 5.0 SSD like the Samsung 9100 Pro, it is the simplest choice here: full-speed storage and a BIOS that already knows the CPU."
+    ],
+    "pros": [
+      "Newer B850 board with Ryzen 9000 support out of the box",
+      "PCIe 5.0 M.2 slot",
+      "Wi-Fi and 2.5 GbE",
+      "BIOS Flashback",
+      "White styling suits light-themed builds"
+    ],
+    "cons": [
+      "Small upgrade over B650 for the extra cost",
+      "No USB4",
+      "Usually $10 to $30 more than a discounted B650 Tomahawk"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "B850 boards shipped in 2025 with BIOS versions that support Ryzen 7000, 8000 and 9000 chips, including the Ryzen 7 9800X3D. Early stock may still need an update for the Ryzen 9 9950X3D, which arrived a few months later. Updating to the newest BIOS is still worth it for memory compatibility and stability fixes.",
+        "ASRock's BIOS Flashback updates the board with only the power supply connected. Download the BIOS for the B850 Steel Legend WiFi from ASRock's support page and use a FAT32-formatted USB stick."
+      ],
+      "steps": [
+        ["Rename the file", "Extract the BIOS and rename the file to creative.rom, then copy it to the root of the USB stick."],
+        ["Connect power", "Connect the 24-pin and 8-pin cables and turn on the PSU, with the PC off."],
+        ["Use the Flashback port", "Insert the stick into the rear USB port marked for BIOS Flashback."],
+        ["Press the button", "Hold the Flashback button for about three seconds until the LED blinks."],
+        ["Wait", "When the LED stops blinking, the update is done."]
+      ]
+    },
+    "faqs": [
+      { "q": "Is B850 better than B650?", "a": "Slightly. B850 boards must offer PCIe 5.0 storage and ship with newer BIOS versions, but the chipset is very similar. A discounted B650 board is often the better value." },
+      { "q": "Does the B850 Steel Legend need a BIOS update for Ryzen 9000?", "a": "Usually not for most Ryzen 9000 chips, since B850 boards shipped with support. Early units may need an update for the Ryzen 9 9950X3D." },
+      { "q": "Does the B850 Steel Legend have USB4?", "a": "No. USB4 is required on X870 boards, such as the MSI X870 Tomahawk WiFi, but not on B850." }
+    ]
+  },
+  {
+    "id": "msi-pro-b650m-a-wifi",
+    "name": "MSI PRO B650M-A WiFi",
+    "short": "PRO B650M-A WiFi",
+    "brand": "msi",
+    "category": "motherboards",
+    "released": "2022",
+    "price": [130, 160],
+    "description": "The MSI PRO B650M-A WiFi is the best budget AM5 board at $130 to $160: micro-ATX, four DDR5 slots, two M.2 slots, Wi-Fi 6E and 2.5 GbE for gaming builds.",
+    "quick": "A micro-ATX AM5 board on the B650 chipset with four DDR5 slots, a PCIe 4.0 x16 slot, two PCIe 4.0 M.2 slots, Wi-Fi 6E and 2.5 GbE. It sells for about $130 to $160.",
+    "bestFor": "budget AM5 gaming builds with a Ryzen 5 or Ryzen 7 in a micro-ATX or ATX case",
+    "skipIf": "you need more than two M.2 slots or plan a 16-core Ryzen 9",
+    "specs": [
+      ["Socket", "AM5"],
+      ["Chipset", "AMD B650"],
+      ["Form factor", "Micro-ATX"],
+      ["Memory", "4x DDR5 DIMM"],
+      ["PCIe x16 slot", "PCIe 4.0 x16"],
+      ["M.2 slots", "2 (PCIe 4.0)"],
+      ["Networking", "Wi-Fi 6E, 2.5 GbE"],
+      ["BIOS flashback", "Yes (Flash BIOS button)"]
+    ],
+    "score": {
+      "overall": 84,
+      "parts": [["Power delivery", 82], ["Features", 80], ["Connectivity", 84], ["Value", 92]]
+    },
+    "verdict": [
+      "The PRO B650M-A WiFi is the board that makes budget AM5 builds work. For $130 to $160 you get Wi-Fi 6E, 2.5 GbE, four DDR5 slots and two PCIe 4.0 M.2 slots on a micro-ATX board that fits small and full-size cases. Pair it with a [Ryzen 5 7600](/gear/ryzen-5-7600/) or [Ryzen 5 9600X](/gear/ryzen-5-9600x/), 32 GB of DDR5-6000 and an RX 9060 XT, and nothing in the build feels compromised.",
+      "The compromises are in headroom. Two M.2 slots are enough for most gaming PCs, but storage hoarders will run out. The power delivery handles 65 W and 105 W class chips, including the Ryzen 7 9800X3D, according to independent reviews, but it is not the board for a 16-core Ryzen 9 under sustained heavy loads. The MSI PRO line also skips styling extras such as large heatsinks and RGB.",
+      "Its closest rival is the ASRock B650M Pro RS WiFi and similar micro-ATX boards at the same price; the MSI stands out for its Wi-Fi 6E, 2.5 GbE and Flash BIOS button. If you want an ATX board with three M.2 slots and stronger power delivery, the [MSI B650 Tomahawk WiFi](/gear/msi-mag-b650-tomahawk-wifi/) is the step-up for about $40 more. For a compact build, pair this board with the [Montech AIR 100 LITE](/gear/montech-air-100-lite/)."
+    ],
+    "pros": [
+      "Wi-Fi 6E and 2.5 GbE at a budget price",
+      "Four DDR5 slots on micro-ATX",
+      "Two PCIe 4.0 M.2 slots",
+      "Flash BIOS button",
+      "Fits micro-ATX and ATX cases"
+    ],
+    "cons": [
+      "Only two M.2 slots",
+      "Not ideal for 16-core Ryzen 9 chips",
+      "Plain styling and smaller heatsinks"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "Early boards shipped with BIOS versions for Ryzen 7000. Ryzen 8000G APUs need an early-2024 BIOS, Ryzen 9000 a mid-2024 or later BIOS, and the Ryzen 7 9800X3D a late-2024 BIOS. Because budget boards can sit in warehouses for a long time, assume yours needs an update if you are installing a Ryzen 9000 chip.",
+        "The Flash BIOS button updates the board without a CPU, memory or GPU. Download the BIOS from MSI's support page for the PRO B650M-A WiFi and use a FAT32-formatted USB stick."
+      ],
+      "steps": [
+        ["Rename the file", "Rename the extracted BIOS file to MSI.ROM and copy it to the root of the USB stick."],
+        ["Connect power", "Connect the 24-pin and CPU power cables and switch on the PSU with the PC off."],
+        ["Insert the stick", "Plug it into the rear USB port labeled Flash BIOS."],
+        ["Press Flash BIOS", "Press the button on the rear panel; the LED flashes during the update."],
+        ["Wait", "When the LED stops, the BIOS is updated. Then install the CPU and memory."]
+      ]
+    },
+    "faqs": [
+      { "q": "Is the PRO B650M-A WiFi good for the Ryzen 7 9800X3D?", "a": "Yes. Its power delivery handles the 120 W 9800X3D, according to independent reviews. Update to a late-2024 or newer BIOS first." },
+      { "q": "Does the PRO B650M-A WiFi fit in an ATX case?", "a": "Yes. Micro-ATX boards fit in any ATX case, using a subset of the mounting holes." },
+      { "q": "How many M.2 slots does the PRO B650M-A WiFi have?", "a": "Two, both PCIe 4.0. For more, the ATX B650 Tomahawk WiFi has three." }
+    ]
+  },
+  {
+    "id": "msi-mag-b550-tomahawk",
+    "name": "MSI MAG B550 Tomahawk",
+    "short": "B550 Tomahawk",
+    "brand": "msi",
+    "category": "motherboards",
+    "released": "2020",
+    "price": [140, 180],
+    "description": "The MSI B550 Tomahawk is the best-value AM4 board at $140 to $180: strong power delivery, PCIe 4.0, 2.5 GbE plus 1 GbE and BIOS Flashback+, but no Wi-Fi.",
+    "quick": "An ATX AM4 board on the B550 chipset with four DDR4 slots, a PCIe 4.0 x16 slot, one PCIe 4.0 and one PCIe 3.0 M.2 slot, 2.5 GbE plus 1 GbE and BIOS Flashback+. There is no Wi-Fi, and it sells for about $140 to $180.",
+    "bestFor": "AM4 builds and upgrades with Ryzen 3000 or 5000, including 16-core chips",
+    "skipIf": "you need built-in Wi-Fi or are starting a new build that could go AM5",
+    "specs": [
+      ["Socket", "AM4"],
+      ["Chipset", "AMD B550"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR4 DIMM"],
+      ["PCIe x16 slot", "PCIe 4.0 x16"],
+      ["M.2 slots", "2 (1x PCIe 4.0, 1x PCIe 3.0)"],
+      ["Networking", "2.5 GbE + 1 GbE, no Wi-Fi"],
+      ["BIOS flashback", "BIOS Flashback+"]
+    ],
+    "score": {
+      "overall": 86,
+      "parts": [["Power delivery", 92], ["Features", 80], ["Connectivity", 78], ["Value", 88]]
+    },
+    "verdict": [
+      "The B550 Tomahawk became the default AM4 board in 2020 for one reason: power delivery that independent VRM roundups rated among the coolest-running in its class, strong enough for a 16-core Ryzen 9 3950X or 5950X. Add a PCIe 4.0 x16 slot, one PCIe 4.0 M.2 slot, dual Ethernet at 2.5 GbE and 1 GbE, and BIOS Flashback+, and it still makes sense in 2026 for anyone staying on AM4.",
+      "The main gap is wireless. There is no Wi-Fi, so budget about $20 to $40 for a PCIe or USB adapter if you cannot run a cable. The second M.2 slot runs at PCIe 3.0 through the chipset, which is fine for a game library drive. And B550 does not support Ryzen 2000 or Ryzen 3000G APUs, so check your CPU before buying.",
+      "The bigger question is whether to buy AM4 at all. A [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) on this board is a strong gaming upgrade for an existing DDR4 system. For a brand-new build, an AM5 board like the [MSI PRO B650M-A WiFi](/gear/msi-pro-b650m-a-wifi/) costs about the same and has a future CPU path. Among AM4 boards, its closest rival is the [Gigabyte X570S Aorus Elite AX](/gear/gigabyte-x570s-aorus-elite-ax/), which adds Wi-Fi 6 and more PCIe 4.0 lanes for about $50 more. The step-up for a 16-core build is the [ASUS ROG Strix X570-E](/gear/asus-rog-strix-x570-e-gaming/), though stock is thin."
+    ],
+    "pros": [
+      "Power delivery strong enough for 16-core Ryzen 9",
+      "PCIe 4.0 graphics and M.2",
+      "Dual Ethernet, 2.5 GbE plus 1 GbE",
+      "BIOS Flashback+ for CPU-free updates"
+    ],
+    "cons": [
+      "No Wi-Fi",
+      "Second M.2 slot is PCIe 3.0",
+      "No support for Ryzen 2000 or 3000G APUs"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "B550 boards launched in 2020 for Ryzen 3000. Ryzen 5000 chips need a BIOS from late 2020 or later, and the Ryzen 7 5700X3D, launched in early 2024, needs a recent BIOS. Long-stored boards may still ship with old firmware, so update before installing a 5000 series chip. BIOS Flashback+ works without a CPU or memory installed.",
+        "Download the latest BIOS for the MAG B550 Tomahawk from MSI's support page. Use a FAT32 USB stick, ideally 32 GB or smaller, since some older boards reject large drives."
+      ],
+      "steps": [
+        ["Rename the file", "Rename the extracted BIOS file to MSI.ROM and copy it to the root of the USB stick."],
+        ["Connect power", "Connect the 24-pin and 8-pin CPU power cables and switch on the PSU, with the PC off."],
+        ["Use the Flashback port", "Insert the stick into the rear USB port marked for BIOS Flashback."],
+        ["Press the button", "Press the Flash BIOS button; the LED blinks during the update."],
+        ["Wait", "When the LED stops blinking, the update is complete."]
+      ]
+    },
+    "faqs": [
+      { "q": "Can the B550 Tomahawk run a Ryzen 9 5950X or 3950X?", "a": "Yes. Its power delivery is rated well for 16-core Ryzen 9 chips in independent VRM roundups." },
+      { "q": "Does the B550 Tomahawk support the Ryzen 7 5700X3D?", "a": "Yes, with a recent BIOS. Use BIOS Flashback+ to update without a CPU if your board has older firmware." },
+      { "q": "Does the B550 Tomahawk have Wi-Fi?", "a": "No. Use Ethernet or add a PCIe or USB Wi-Fi adapter for about $20 to $40." },
+      { "q": "Should I buy AM4 or AM5 in 2026?", "a": "Buy AM4 only to upgrade an existing DDR4 system. For a new build, AM5 boards cost about the same and support future Ryzen chips." }
+    ]
+  },
+  {
+    "id": "asus-rog-strix-x570-e-gaming",
+    "name": "ASUS ROG Strix X570-E Gaming WiFi II",
+    "short": "Strix X570-E II",
+    "brand": "asus",
+    "category": "motherboards",
+    "released": "2021",
+    "price": [300, 350],
+    "description": "The ASUS ROG Strix X570-E Gaming WiFi II is the premium AM4 board at $300 to $350: robust power delivery, two PCIe 4.0 M.2 slots, Wi-Fi 6E and 2.5 GbE.",
+    "quick": "A premium ATX AM4 board on the X570 chipset with two PCIe 4.0 M.2 slots, Wi-Fi 6E, 2.5 GbE and a chipset fan. It sells for about $300 to $350, and stock is limited.",
+    "bestFor": "16-core Ryzen 9 3950X or 5950X builds that want the strongest AM4 platform",
+    "skipIf": "you are not running a Ryzen 9, or could put the money toward an AM5 build",
+    "specs": [
+      ["Socket", "AM4"],
+      ["Chipset", "AMD X570"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR4 DIMM"],
+      ["PCIe x16 slot", "PCIe 4.0 x16"],
+      ["M.2 slots", "2 (PCIe 4.0)"],
+      ["Networking", "Wi-Fi 6E, 2.5 GbE"],
+      ["BIOS flashback", "BIOS FlashBack"]
+    ],
+    "score": {
+      "overall": 80,
+      "parts": [["Power delivery", 94], ["Features", 88], ["Connectivity", 86], ["Value", 58]]
+    },
+    "verdict": [
+      "The Strix X570-E Gaming WiFi II is the AM4 board for a 16-core Ryzen 9 that will be worked hard. ASUS built it with power delivery that independent VRM roundups placed near the top of the X570 range, along with two PCIe 4.0 M.2 slots, Wi-Fi 6E, 2.5 GbE and BIOS FlashBack. For a Ryzen 9 3950X rendering or compiling for hours, it keeps the VRM cool with headroom to spare.",
+      "The problem is price. At $300 to $350 with limited stock, it costs more than an MSI X870 Tomahawk, a newer AM5 board with PCIe 5.0 and USB4. The X570 chipset also uses a small fan, which some owners notice at idle, though it is quiet on most units. Those costs make sense only if you already own a Ryzen 9 and DDR4 and want the best home for them.",
+      "Its closest rival is the [Gigabyte X570S Aorus Elite AX](/gear/gigabyte-x570s-aorus-elite-ax/), which has a fanless chipset, strong power delivery and Wi-Fi 6 for about $100 less; for most 16-core builds, it is the better value. The [MSI B550 Tomahawk](/gear/msi-mag-b550-tomahawk/) also handles a 3950X for less than half the price. If you are starting fresh, an AM5 board and a Ryzen 9000 chip is the stronger long-term buy than paying a premium for AM4 in 2026."
+    ],
+    "pros": [
+      "Top-tier AM4 power delivery for 16-core chips",
+      "Two PCIe 4.0 M.2 slots",
+      "Wi-Fi 6E and 2.5 GbE",
+      "BIOS FlashBack",
+      "Polished ASUS BIOS"
+    ],
+    "cons": [
+      "Costs more than newer AM5 boards",
+      "Chipset fan",
+      "Stock is limited in 2026"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "The WiFi II version launched in 2021 with Ryzen 5000 support. The Ryzen 7 5700X3D, released in early 2024, needs a newer BIOS, and later versions also improve memory compatibility. X570 boards support Ryzen 2000, 3000 and 5000 desktop chips, but check ASUS's CPU support list for your exact model and BIOS version.",
+        "BIOS FlashBack updates the board with only the power supply connected. Download the BIOS for the ROG Strix X570-E Gaming WiFi II from ASUS's support page, not the original X570-E, since the files differ."
+      ],
+      "steps": [
+        ["Rename with BIOSRenamer", "Run the BIOSRenamer tool included in the download, then copy the renamed .CAP file to the root of a FAT32 USB stick."],
+        ["Connect power", "Connect the 24-pin and 8-pin cables and switch on the PSU, with the PC off."],
+        ["Insert the stick", "Use the rear USB port labeled BIOS FlashBack."],
+        ["Hold the button", "Press and hold the FlashBack button for about three seconds until the LED flashes."],
+        ["Wait for the LED to stop", "When it goes out, the update is complete."]
+      ]
+    },
+    "faqs": [
+      { "q": "What is the difference between the Strix X570-E and the X570-E WiFi II?", "a": "The WiFi II is a 2021 refresh that upgrades wireless to Wi-Fi 6E. Use the BIOS file for your exact version." },
+      { "q": "Is the Strix X570-E worth it for a Ryzen 9 3950X?", "a": "Only if you want the strongest AM4 power delivery. The Gigabyte X570S Aorus Elite AX and MSI B550 Tomahawk handle a 3950X for much less." },
+      { "q": "Is the X570 chipset fan loud?", "a": "Usually not. Most owners report it is quiet, though some notice it at idle in a silent room." }
+    ]
+  },
+  {
+    "id": "gigabyte-x570s-aorus-elite-ax",
+    "name": "Gigabyte X570S Aorus Elite AX",
+    "short": "X570S Aorus Elite AX",
+    "brand": "gigabyte",
+    "category": "motherboards",
+    "released": "2021",
+    "price": [190, 230],
+    "description": "The Gigabyte X570S Aorus Elite AX is the best AM4 board for a 16-core Ryzen at $190 to $230: fanless chipset, PCIe 4.0, Wi-Fi 6, 2.5 GbE and Q-Flash Plus.",
+    "quick": "An ATX AM4 board on the fanless X570S chipset with PCIe 4.0 graphics and storage, Wi-Fi 6, 2.5 GbE and Q-Flash Plus. It sells for about $190 to $230.",
+    "bestFor": "AM4 builds with a Ryzen 9 3950X or 5950X that want Wi-Fi and a silent chipset",
+    "skipIf": "you are starting a new build where AM5 makes more sense",
+    "specs": [
+      ["Socket", "AM4"],
+      ["Chipset", "AMD X570S (fanless)"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR4 DIMM"],
+      ["PCIe x16 slot", "PCIe 4.0 x16"],
+      ["Networking", "Wi-Fi 6, 2.5 GbE"],
+      ["BIOS flashback", "Q-Flash Plus"]
+    ],
+    "score": {
+      "overall": 82,
+      "parts": [["Power delivery", 89], ["Features", 84], ["Connectivity", 84], ["Value", 76]]
+    },
+    "verdict": [
+      "The X570S Aorus Elite AX is the AM4 board to buy for a 16-core Ryzen when you want Wi-Fi and do not want to pay ROG prices. The X570S chipset is a revision of X570 that runs without a fan, so there is no small whine at idle. Power delivery is well suited to a Ryzen 9 3950X or 5950X according to independent VRM roundups, and you get PCIe 4.0 for graphics and storage, Wi-Fi 6, 2.5 GbE and Q-Flash Plus.",
+      "The trade-off against the [MSI B550 Tomahawk](/gear/msi-mag-b550-tomahawk/) is about $50 more for Wi-Fi 6 and more PCIe 4.0 lanes through the chipset. If you run several fast NVMe drives or need wireless, that is worth paying. If you use Ethernet and one or two SSDs, the B550 Tomahawk does the same job for less.",
+      "Its closest rival in the X570 class is the [ASUS ROG Strix X570-E Gaming WiFi II](/gear/asus-rog-strix-x570-e-gaming/), which has stronger power delivery and Wi-Fi 6E but costs about $100 more and keeps the chipset fan. The cheaper X570 alternative, the [ASUS TUF Gaming X570-Plus](/gear/asus-tuf-gaming-x570-plus-wifi/), has a fan and only 1 GbE. For a new build in 2026, an AM5 board like the [MSI B650 Tomahawk WiFi](/gear/msi-mag-b650-tomahawk-wifi/) costs about the same and has a future upgrade path; buy this board to finish or upgrade an AM4 system you already own."
+    ],
+    "pros": [
+      "Fanless X570S chipset",
+      "Strong power delivery for 16-core Ryzen 9",
+      "PCIe 4.0 graphics and storage",
+      "Wi-Fi 6 and 2.5 GbE",
+      "Q-Flash Plus"
+    ],
+    "cons": [
+      "About $50 more than a B550 Tomahawk",
+      "Wi-Fi 6 rather than 6E",
+      "AM4 is a dead-end platform"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "X570S boards launched in 2021 with Ryzen 3000 and 5000 support. The Ryzen 7 5700X3D needs a BIOS from 2024 or later, and newer versions improve memory support and stability. Check Gigabyte's CPU support list for your board revision before buying an older chip.",
+        "Q-Flash Plus updates the board with only the power supply connected, so you can flash before installing a new CPU. Download the BIOS for the X570S Aorus Elite AX and your board revision from Gigabyte's support page."
+      ],
+      "steps": [
+        ["Rename the file", "Rename the extracted BIOS file to GIGABYTE.bin and copy it to the root of a FAT32 USB stick."],
+        ["Connect power", "Connect the 24-pin and 8-pin cables and switch on the PSU, with the PC off."],
+        ["Insert the stick", "Use the rear USB port labeled for Q-Flash Plus."],
+        ["Press Q-Flash Plus", "Press the button; the LED blinks while the BIOS flashes."],
+        ["Wait", "The board may restart during the process. When the LED stops, it is done."]
+      ]
+    },
+    "faqs": [
+      { "q": "What is the difference between X570 and X570S?", "a": "X570S is a revised X570 chipset that runs without a fan. Features and CPU support are otherwise very similar." },
+      { "q": "Is the X570S Aorus Elite AX good for a Ryzen 9 3950X?", "a": "Yes. Its power delivery suits 16-core Ryzen 9 chips, and it adds Wi-Fi 6 and a fanless chipset for about $100 less than the Strix X570-E." },
+      { "q": "Does the X570S Aorus Elite AX support the Ryzen 7 5700X3D?", "a": "Yes, with a 2024 or later BIOS. Use Q-Flash Plus to update without a CPU." }
+    ]
+  },
+  {
+    "id": "asus-tuf-gaming-x570-plus-wifi",
+    "name": "ASUS TUF Gaming X570-Plus (Wi-Fi)",
+    "short": "TUF X570-Plus WiFi",
+    "brand": "asus",
+    "category": "motherboards",
+    "released": "2019",
+    "price": [160, 190],
+    "description": "The ASUS TUF Gaming X570-Plus (Wi-Fi) is an aging $160 to $190 AM4 board: two PCIe 4.0 M.2 slots and Wi-Fi, but only 1 GbE and a chipset fan for the money.",
+    "quick": "An ATX AM4 board on the X570 chipset with two M.2 slots, built-in Wi-Fi, 1 GbE and a chipset fan. It launched in 2019 and sells for about $160 to $190.",
+    "bestFor": "AM4 owners who find it discounted and want PCIe 4.0 with built-in Wi-Fi",
+    "skipIf": "you can get a B550 Tomahawk or X570S Aorus Elite AX for similar money",
+    "specs": [
+      ["Socket", "AM4"],
+      ["Chipset", "AMD X570"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR4 DIMM"],
+      ["PCIe x16 slot", "PCIe 4.0 x16"],
+      ["M.2 slots", "2 (PCIe 4.0)"],
+      ["Networking", "Wi-Fi, 1 GbE"]
+    ],
+    "score": {
+      "overall": 74,
+      "parts": [["Power delivery", 76], ["Features", 74], ["Connectivity", 70], ["Value", 72]]
+    },
+    "verdict": [
+      "The TUF Gaming X570-Plus (Wi-Fi) was a sensible budget X570 board in 2019. It brought PCIe 4.0 for graphics and two M.2 slots, built-in Wi-Fi and ASUS's TUF component choices to a price well below the ROG boards. In 2026, though, it sits at $160 to $190 and is outclassed by boards from the same AM4 era.",
+      "The weak points are networking and value. It has 1 GbE rather than 2.5 GbE, and its Wi-Fi is a generation behind the Wi-Fi 6 and 6E of later boards. The X570 chipset uses a small fan. Power delivery is the lightest of the X570 boards here: independent VRM roundups found it fine for 8- and 12-core chips, while a 16-core Ryzen 9 3950X wants good case airflow over the heatsinks.",
+      "Its closest rival is the [MSI B550 Tomahawk](/gear/msi-mag-b550-tomahawk/), which costs about the same, has stronger power delivery and 2.5 GbE, though no Wi-Fi. For about $30 more, the [Gigabyte X570S Aorus Elite AX](/gear/gigabyte-x570s-aorus-elite-ax/) adds Wi-Fi 6, 2.5 GbE and a fanless chipset, and it is the board to step up to. Buy the TUF X570-Plus only below $140, or to replace a failed board of the same model without reinstalling Windows."
+    ],
+    "pros": [
+      "PCIe 4.0 graphics and two M.2 slots",
+      "Built-in Wi-Fi",
+      "Broad AM4 CPU support with BIOS updates",
+      "Familiar ASUS BIOS"
+    ],
+    "cons": [
+      "Only 1 GbE",
+      "Lightest power delivery of the X570 boards here",
+      "Chipset fan",
+      "Poor value against the B550 Tomahawk and X570S Elite AX"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "This board launched in 2019 for Ryzen 3000. Ryzen 5000 chips need a BIOS from late 2020 or later, and the Ryzen 7 5700X3D needs a 2024-era BIOS. Old stock may ship with firmware that predates both, so check the BIOS version before installing a newer CPU.",
+        "Check the rear I/O and the manual for your board revision for a BIOS FlashBack button. If yours has one, it updates the board without a CPU, using a renamed file from ASUS's BIOSRenamer tool. If not, install a CPU the current BIOS supports, such as a Ryzen 3000 chip, and update with EZ Flash 3 from inside the BIOS before swapping in the new processor."
+      ],
+      "steps": [
+        ["Download the right file", "Get the latest BIOS for the TUF Gaming X570-Plus (Wi-Fi) from ASUS's support page and copy it to a FAT32 USB stick."],
+        ["Boot with a supported CPU", "If there is no FlashBack button, boot with a CPU the installed BIOS supports."],
+        ["Open EZ Flash 3", "Enter the BIOS, switch to Advanced Mode and open the EZ Flash 3 utility under Tool."],
+        ["Select the file", "Choose the BIOS file on the USB stick and confirm. Do not power off during the update."],
+        ["Install the new CPU", "Shut down, swap in the newer Ryzen chip and load optimized defaults."]
+      ]
+    },
+    "faqs": [
+      { "q": "Does the TUF Gaming X570-Plus support Ryzen 5000?", "a": "Yes, with a BIOS from late 2020 or later. The Ryzen 7 5700X3D needs a newer 2024-era BIOS." },
+      { "q": "Is the TUF X570-Plus good for a Ryzen 9 3950X?", "a": "It works, but it is not the best choice. Its power delivery is the lightest of the X570 boards here, so a 3950X needs good case airflow." },
+      { "q": "TUF X570-Plus or B550 Tomahawk?", "a": "The B550 Tomahawk is the better board for most builds, with stronger power delivery and 2.5 GbE. The TUF X570-Plus wins only on built-in Wi-Fi." }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import CatIcon from '../../components/CatIcon.astro';
+import ProductImage from '../../components/ProductImage.astro';
+import { SITE } from '../../data/site';
+import { CATEGORIES } from '../../data/categories';
+import { PRODUCTS, productsIn, getBrand, productPath, priceBand } from '../../lib/data';
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'All Gear', href: '/gear/' }];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Every PC part we track',
+  url: `${SITE.url}/gear/`,
+  mainEntity: { '@type': 'ItemList', numberOfItems: PRODUCTS.length, itemListElement: PRODUCTS.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${productPath(p)}`, name: p.name })) },
+};
+---
+<Base title={`All PC Gear We Track: ${PRODUCTS.length} Parts Rated by ${SITE.score}`} description={`Every one of the ${PRODUCTS.length} PC parts we track, ranked by ${SITE.score} within its category: GPUs, CPUs, coolers, power supplies, cases, RAM, motherboards and SSDs.`} jsonLd={jsonLd}>
+  <div class="wrap hub">
+    <Crumbs items={crumbs} />
+    <h1 class="hub-title">All Gear</h1>
+    <p class="hub-dek">{PRODUCTS.length} parts, each with a spec sheet, a research-based {SITE.score} and a verdict. Sorted by score within each category.</p>
+    <nav class="chips" aria-label="Categories">{CATEGORIES.map((c) => <a href={`#${c.key}`}>{c.label}</a>)}</nav>
+    {CATEGORIES.map((c) => {
+      const list = productsIn(c.key);
+      return list.length > 0 && (
+        <section id={c.key}>
+          <h2 class="section-title"><CatIcon cat={c.key} size={34} /> {c.label}</h2>
+          <div class="table-wrap">
+            <table class="tracked">
+              <thead><tr><th>#</th><th>Product</th><th>Brand</th><th>Key spec</th><th>Score</th><th>Price</th></tr></thead>
+              <tbody>
+                {list.map((p, i) => (
+                  <tr><td>{i + 1}</td><td class="with-thumb"><ProductImage p={p} size={40} /><a href={productPath(p)}>{p.name}</a></td><td>{getBrand(p.brand).name}</td><td>{p.specs[0]?.[1]}</td><td>{p.score.overall}</td><td class="nowrap">{priceBand(p)}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p class="fine"><a href={`/${c.hero}/`}>Our best {c.singular} picks →</a></p>
+        </section>
+      );
+    })}
+  </div>
+</Base>

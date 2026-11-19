@@ -1,0 +1,208 @@
+{
+  "slug": "best-cpu-cooler-for-ryzen-7-9800x3d",
+  "type": "roundup",
+  "category": "cpu-coolers",
+  "title": "Best CPU Cooler for Ryzen 7 9800X3D (2026): 6 Picks Ranked",
+  "h1": "Best CPU Cooler for Ryzen 7 9800X3D",
+  "query": "best cpu cooler for ryzen 7 9800x3d",
+  "description": "A $35–$45 Thermalright Phantom Spirit 120 SE is the best cooler for a Ryzen 7 9800X3D: 7 heat pipes, ample for a 120 W chip. 6 air and AIO picks ranked.",
+  "dek": "The 9800X3D is a 120 W, 8-core chip that needs less cooler than its price suggests. Here is what to buy and what to skip.",
+  "intro": [
+    "The Thermalright Phantom Spirit 120 SE is the best cooler for the Ryzen 7 9800X3D. Its seven heat pipes and two 120 mm fans cover the chip's 120 W rating and 162 W stock power limit for $35 to $45, so you keep the savings for the graphics card that actually sets your frame rate.",
+    "This guide is for anyone who has bought or is about to buy a 9800X3D and wants to know how much cooling it really needs. We sort picks by how you use the chip: stock gaming, heavy all-core work, or Precision Boost Overdrive tuning. We also cover the temperature spikes that worry new owners."
+  ],
+  "quickAnswer": "For gaming on a stock 9800X3D, buy the Thermalright Phantom Spirit 120 SE or Peerless Assassin 120 SE ($35–$45). If you run PBO or long all-core workloads, the Arctic Liquid Freezer III Pro 360 ($85–$110) adds headroom and an offset AM5 mount. The $30–$40 Arctic Freezer 36 is the budget floor.",
+  "picks": [
+    {
+      "id": "thermalright-phantom-spirit-120-se",
+      "label": "Best Overall",
+      "bestFor": "stock or lightly tuned 9800X3D gaming builds in a standard ATX mid-tower",
+      "skipIf": "your case clearance is under about 158 mm",
+      "writeup": [
+        "The 9800X3D draws far less than its 120 W rating while gaming, according to independent reviews, and only reaches its 162 W package power limit in long all-core jobs like rendering or shader compiles. That profile suits a good budget dual tower perfectly, and the Phantom Spirit 120 SE is the strongest of them for the money.",
+        "Seven heat pipes give it a little more capacity than the six-pipe Peerless Assassin, and reviews often show it slightly ahead on hotter chips. On a 9800X3D that spare capacity shows up as fans that stay slow through a gaming session and only climb when you start a heavy multi-core task. It also leaves room to try Curve Optimizer or a mild PBO setting without upgrading.",
+        "It is 154 mm tall and mounts with the AM5 kit in the box using the board's own backplate. The front fan sits over the first DIMM slot, so a low-profile DDR5-6000 kit around 33 to 35 mm tall is the easy pairing. Kits around 46 mm, like many RGB models, may need the fan nudged up. At $35 to $45 it costs about a tenth of the CPU, which is the right ratio for a chip that spends most of its life in games."
+      ],
+      "pros": ["Seven heat pipes for $35–$45", "Headroom for mild PBO tuning", "AM5 mounting in the box"],
+      "cons": ["Front fan can crowd tall RGB RAM", "Fans are noticeable at full speed"]
+    },
+    {
+      "id": "thermalright-peerless-assassin-120-se",
+      "label": "Best Value",
+      "bestFor": "pure gaming builds where every dollar should go to the graphics card",
+      "skipIf": "you plan heavy PBO tuning and want the most air-cooling headroom possible",
+      "writeup": [
+        "In a 9800X3D gaming build, the Peerless Assassin 120 SE and the Phantom Spirit are close enough that the deciding factor should be the price on the day you order. The Peerless often runs a few dollars cheaper, and those few dollars are the only reason it sits second here rather than first.",
+        "Six heat pipes and two 120 mm fans are more than the chip asks for during play. Reviews of the 9800X3D show modest power draw in games, which means the cooler spends most of its time loafing. It only gets a real workout in all-core loads, where the 162 W stock limit applies, and even there it holds clocks without trouble at stock settings.",
+        "The 155 mm height fits most mid-towers. Like its sibling it can overhang tall memory, and its fans are tuned for value rather than silence. If you already own one from a previous AM4 build, check that you kept the AM4/AM5 brackets. AMD kept the same cooler spacing, so it moves straight across. For a dedicated gaming PC, this is the cooler to buy if you want to spend as little as possible without compromising."
+      ]
+    },
+    {
+      "id": "arctic-liquid-freezer-iii-pro-360",
+      "label": "Best AIO",
+      "bestFor": "9800X3D owners who run PBO, stream while gaming or do long all-core work",
+      "skipIf": "you only game at stock settings, where a $40 air tower does the same job",
+      "writeup": [
+        "A 360 mm AIO is more than a stock 9800X3D needs, but it earns its place for two kinds of owner. The first enables Precision Boost Overdrive and Curve Optimizer, which can lift power past the 162 W stock limit. The second runs the chip at full load for long stretches, such as encoding a stream on the CPU while gaming. For both, the Liquid Freezer III Pro 360 offers the most headroom per dollar.",
+        "It has two features that matter specifically on AM5. Arctic's offset mount shifts the cold plate toward the spot where the compute die sits, which is off center under the heat spreader, and reviews of the feature report a small but consistent improvement on Ryzen 7000 and 9000 chips. The pump block also carries a small VRM fan. That helps on B650 boards with lighter heatsinks, which lose the incidental airflow a tower cooler used to give them.",
+        "The radiator is 38 mm thick and three 25 mm fans sit on it, so measure top-mount clearance above your RAM. Arctic backs it for 6 years, and it costs $85 to $110."
+      ]
+    },
+    {
+      "id": "noctua-nh-d15-g2",
+      "label": "Best Premium Air",
+      "bestFor": "a quiet high-end 9800X3D build that will stay on AM5 for years",
+      "skipIf": "you would rather put $100 toward a faster graphics card",
+      "writeup": [
+        "If you have paired a 9800X3D with a high-end card and want the system to stay quiet under load, the NH-D15 G2 is the air cooler to get. Its two 140 mm fans can turn slower than 120 mm fans for the same airflow, and with eight heat pipes it will rarely need to speed up for a 120 W chip.",
+        "Buy the LBC version. Noctua makes the NH-D15 G2 with three base shapes, and the low base convexity model is the one Noctua designed for AM5's flatter heat spreader. The standard version also works, but the LBC is the better match at the same price.",
+        "The long-term case is strong too. AMD has said AM5 will be supported through at least 2027, so a 9800X3D owner may drop in a later Ryzen without changing boards, and Noctua's 6-year warranty covers that span. The downsides are size and cost. It stands 168 mm tall, so many compact mid-towers are out. At about $150 it is three to four times the price of the Thermalright towers above. In games, those cheaper towers cool the chip about as well, so the money buys quiet and build quality."
+      ],
+      "pros": ["LBC base version made for AM5", "Low noise from 140 mm fans", "6-year warranty"],
+      "cons": ["168 mm needs a roomy case", "About $150"]
+    },
+    {
+      "id": "arctic-freezer-36",
+      "label": "Best Budget",
+      "bestFor": "budget 9800X3D builds and anyone using tall RGB DDR5",
+      "skipIf": "you run long all-core workloads and want low fan noise",
+      "writeup": [
+        "The Freezer 36 is the least you should spend on a 9800X3D cooler. It is a single tower with four heat pipes and two P12 Pressure-optimised fans in push-pull, priced at $30 to $40. Because the chip draws modest power in games, that is enough for stock gaming use, and owners pairing the two report no trouble holding boost clocks during play.",
+        "Its real advantage on AM5 is memory clearance. A single tower sits behind the DIMM slots rather than over them, so a tall RGB DDR5-6000 kit fits without moving fans around. That makes it a practical pick for a showcase build where the memory is meant to be seen. It stands 159 mm tall, and the install is among the simplest of any cooler in its class.",
+        "The trade-off arrives under sustained load. Four heat pipes have less capacity than the six or seven on the Thermalright duals, so the fans run faster in a long render or compile, and a PBO setup will push it harder still. If your 9800X3D is a gaming chip first, the Freezer 36 is fine. If it doubles as a workstation, spend the extra $5 to $10 on a dual tower."
+      ]
+    },
+    {
+      "id": "be-quiet-dark-rock-pro-5",
+      "label": "Best for Silence",
+      "bestFor": "a near-silent, all-black 9800X3D build in a case with 170 mm of clearance",
+      "skipIf": "cooling per dollar is your priority",
+      "writeup": [
+        "The Dark Rock Pro 5 is for 9800X3D owners who care more about how a PC sounds than what it costs. It is a black dual tower with seven heat pipes, a Silent Wings 135 mm fan and a 120 mm fan, selling for $90 to $100. Reviews rate it among the quieter big air coolers, and with a 120 W chip it has plenty of spare capacity to keep its fans slow.",
+        "That spare capacity also helps with the 9800X3D's twitchy temperature reading. A cooler with more mass and fin area responds to brief spikes more gently, and the Silent Wings fans stay low-pitched when they do ramp. Pair it with a smoothed fan curve and the system can stay hushed through most games.",
+        "It is not a value pick. The $40 Thermalright towers cool a stock 9800X3D about as well, so the extra $50 to $60 goes on fan quality, finish and noise. At 168 mm tall it shares the NH-D15 G2's clearance problem, so check your case first. If you want silence without Noctua's price and you like the black look, it is a sensible middle ground."
+      ]
+    }
+  ],
+  "tableSpecs": ["Type", "Fans", "Heat pipes", "Height"],
+  "ranking": {
+    "intro": "We ranked these coolers for the Ryzen 7 9800X3D using AMD's published specs, cooler makers' spec sheets, independent reviews of both the CPU and the coolers, and owner reports from AM5 builders. None of these coolers were bench-tested by us. The ER Score is a research score that weighs that evidence against price and fit for this specific chip.",
+    "criteria": [
+      ["Headroom at 162 W", "Whether the cooler holds the 9800X3D's stock all-core power limit with fans at a reasonable speed."],
+      ["Gaming noise", "How quiet it stays during typical game loads, which is where this CPU spends most of its time."],
+      ["AM5 fit", "Included AM5 mounting, offset or base options suited to AM5, and RAM clearance with DDR5 kits."],
+      ["PBO headroom", "How much margin is left for owners who enable Precision Boost Overdrive or Curve Optimizer."],
+      ["Price relative to the CPU", "Whether the cooler cost makes sense next to a $450–$480 processor."]
+    ],
+    "why": "The Phantom Spirit 120 SE won because its seven heat pipes give a stock or lightly tuned 9800X3D real headroom for under $45."
+  },
+  "mentions": [
+    { "id": "thermalright-assassin-x-120-refined-se", "text": "At about $20 this single-fan, four-pipe tower will run a stock 9800X3D in games, but its fan works hard in all-core loads and leaves no room for PBO. Spending $15 to $25 more on a dual tower is the better move on a $450 chip." },
+    { "id": "noctua-nh-u12s-redux", "text": "A slim, easy-to-mount Noctua with a 6-year warranty and full RAM clearance. It handles the 9800X3D at stock, but the Freezer 36 adds a second fan for less money and the Thermalright duals carry more heat pipes, so the redux is mainly for Noctua loyalists." },
+    { "name": "Arctic Liquid Freezer III Pro 280", "text": "The 280 mm version keeps the offset AM5 mount and VRM fan and fits cases that cannot take a 360. It is a sound choice for a PBO-tuned 9800X3D in a smaller case, but most buyers can fit the 360 for a small premium." }
+  ],
+  "sections": [
+    {
+      "h": "Is Air Cooling Enough for a 9800X3D?",
+      "body": [
+        "Yes, for nearly everyone. AMD rates the 9800X3D at 120 W, and on AM5 that translates to a 162 W package power limit at stock settings. Independent reviews show the chip drawing well under its rating in games, which is why a $35 to $45 dual tower handles it without strain.",
+        "Liquid cooling starts to make sense only when you push beyond stock. Precision Boost Overdrive raises the power limits, and Curve Optimizer can let the chip boost higher at the same voltage. Both add heat, though the gains in games are small. If you plan to tinker, a 360 mm AIO gives you room. If you plan to plug it in and play, air is the better buy."
+      ]
+    },
+    {
+      "h": "Why Does My 9800X3D Temperature Spike?",
+      "body": [
+        "The jumps are normal. The 9800X3D's eight cores sit on one small compute die, and heat from a small area builds up fast. When a game loads a level or Windows runs a background task, the temperature sensor reacts within a fraction of a second, then falls back just as quickly. A bigger cooler cannot fully smooth this, because the bottleneck is moving heat out of a small piece of silicon, not the cooler's capacity.",
+        "The annoying part is what fans do in response. A default fan curve tied directly to CPU temperature will rev up and down with every spike. The fix is in the BIOS or your fan software:"
+      ],
+      "list": [
+        "Set a fan step-up and step-down time, sometimes called smoothing or hysteresis, of a few seconds.",
+        "Flatten the low end of the curve so short spikes do not reach the ramp.",
+        "If your software allows it, base the curve on an averaged CPU temperature rather than the instant reading."
+      ]
+    },
+    {
+      "h": "Does the 9800X3D Run Hotter Than the 7800X3D?",
+      "body": [
+        "It handles heat better, even though it can use more power. On the older 7800X3D, AMD stacked the extra cache on top of the compute die, which put a layer between the cores and the heat spreader. For the 9800X3D, AMD moved that cache underneath, so the cores sit directly below the cooler's contact surface.",
+        "That change is why AMD could raise clock speeds and unlock overclocking on the 9800X3D. Reviews broadly found it copes with heat more easily than its predecessor. It also means a cooler that was fine on a 7800X3D will be fine here, and the same AM5 mounting carries over."
+      ]
+    },
+    {
+      "h": "What Cooler Does Each 9800X3D Setup Need?",
+      "body": [
+        "Match the cooler to how you use the chip, not to its price tag. A gaming-only 9800X3D and one tuned with PBO for rendering are different thermal problems."
+      ],
+      "table": {
+        "caption": "9800X3D use case vs the cooler class to buy",
+        "head": ["How you use it", "Power behavior", "Cooler class", "Pick"],
+        "rows": [
+          ["Gaming at stock", "Well under the 120 W rating in most games", "Single tower push-pull or budget dual tower", "Freezer 36, Peerless Assassin 120 SE"],
+          ["Gaming plus CPU stream encoding", "Sustained moderate to high load", "Dual tower", "Phantom Spirit 120 SE"],
+          ["Long all-core work at stock", "Holds the 162 W package limit", "Dual tower", "Phantom Spirit 120 SE, NH-D15 G2"],
+          ["PBO and Curve Optimizer", "Can exceed 162 W", "Large dual tower or 360 mm AIO", "Liquid Freezer III Pro 360"],
+          ["Quiet living-room or studio PC", "Any of the above", "Oversized air with slow fans", "NH-D15 G2, Dark Rock Pro 5"]
+        ]
+      }
+    },
+    {
+      "h": "Air vs AIO for the 9800X3D: Which Is Quieter?",
+      "body": [
+        "In a gaming build, a good dual-tower air cooler is usually the quieter choice. The 9800X3D's game loads are light enough that a tower's two fans can stay slow, and there is no pump. An AIO's pump runs constantly, and some owners hear a faint hum at idle even when the radiator fans are barely turning.",
+        "The balance tips under sustained heavy load. A 360 mm radiator spreads heat across three fans, so in a long render with PBO enabled it can hold lower fan speeds than a tower. If you game most of the time, buy air. If you render or encode for hours, the AIO is the quieter tool for that job."
+      ]
+    },
+    {
+      "h": "Do You Need Offset Mounting or a Contact Frame on AM5?",
+      "body": [
+        "Neither is required, and both are small gains at best. On AM5 the compute die sits off center under the heat spreader, so some coolers, including the Arctic Liquid Freezer III Pro, offer an offset mount that moves the cold plate toward it. Reviews report a modest improvement, so it is a nice extra rather than a reason to choose one cooler over another.",
+        "Aftermarket AM5 contact frames replace the stock socket retention. Their main real benefit is keeping thermal paste out of the notches along the edge of the AM5 heat spreader. If you apply a sensible amount of paste, you do not need one."
+      ]
+    },
+    {
+      "h": "Will These Coolers Fit Your Case and DDR5?",
+      "body": [
+        "Check two numbers: your case's maximum CPU cooler height and your memory's height. Low-profile DDR5-6000 kits around 33 to 35 mm sit under any dual tower's front fan. Taller RGB kits around 44 to 46 mm may force the fan upward, which adds a few millimeters to total height."
+      ],
+      "table": {
+        "caption": "Pick height and RAM fit for a 9800X3D build",
+        "head": ["Cooler", "Height", "RAM overhang", "Case clearance to look for"],
+        "rows": [
+          ["Phantom Spirit 120 SE", "154 mm", "Front fan over first DIMM", "158 mm or more"],
+          ["Peerless Assassin 120 SE", "155 mm", "Front fan over first DIMM", "158 mm or more"],
+          ["Freezer 36", "159 mm", "None, single tower", "163 mm or more"],
+          ["NH-D15 G2", "168 mm", "140 mm fan over DIMMs", "172 mm or more"],
+          ["Dark Rock Pro 5", "168 mm", "Front fan over first DIMM", "172 mm or more"],
+          ["Liquid Freezer III Pro 360", "Radiator mounted", "Pump block only", "360 mm top or front mount"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Chasing idle temperature spikes", "Brief jumps on the 9800X3D's sensor are normal behavior for a small, dense compute die. Buying a bigger cooler will not remove them. Smooth the fan curve instead, so fans respond to sustained heat rather than every momentary blip during desktop use."],
+    ["Unscrewing the AM5 backplate", "On AM5 the backplate holds the socket's retention mechanism, and nearly every cooler is designed to bolt into it. Do not remove it to fit an old AM4 cooler's own backplate. Use the standoffs or brackets the cooler includes for AM5."],
+    ["Overspending on a 420 mm AIO for gaming", "A stock 9800X3D in games draws far less than any big radiator can handle. The extra $100 or more does not raise frame rates. Put it toward a faster graphics card, which is what limits a 9800X3D system in most games."],
+    ["Flooding the heat spreader with paste", "The AM5 heat spreader has notches around its edges, and excess paste squeezes into them and is hard to clean out. A pea-sized dot or thin X in the center spreads fine under mounting pressure and covers the area that matters."],
+    ["Skipping the BIOS update", "Older B650 and X670 boards need a BIOS that supports Ryzen 9000 before a 9800X3D will boot. Update first, ideally with the board's flashback feature, so you are not left troubleshooting a cooler that is not the problem."]
+  ],
+  "bottomLine": "A Ryzen 7 9800X3D does not need an expensive cooler. For gaming, a $35 to $45 Thermalright dual tower is the right buy, with the Phantom Spirit 120 SE taking first place for its extra heat pipe. Step up to the Arctic Liquid Freezer III Pro 360 only if you run PBO or long all-core workloads. Choose the NH-D15 G2 or Dark Rock Pro 5 when quiet matters more than price.",
+  "faqs": [
+    { "q": "Does the Ryzen 7 9800X3D come with a cooler?", "a": "No. AMD sells the 9800X3D without a cooler, so you need to budget for one. A $35 to $45 dual tower like the Thermalright Phantom Spirit 120 SE or Peerless Assassin 120 SE is enough for stock use, which keeps total CPU-plus-cooler cost near $500." },
+    { "q": "Is the Peerless Assassin 120 SE enough for a 9800X3D?", "a": "Yes. Its six heat pipes and two 120 mm fans handle the 9800X3D's 120 W rating and 162 W stock package limit. In games the chip draws far less than that, so the cooler has plenty of headroom. Buy it or the Phantom Spirit, whichever is cheaper." },
+    { "q": "Is a 240 mm AIO enough for a 9800X3D?", "a": "Yes, a 240 mm AIO has enough capacity for a stock or mildly tuned 9800X3D. It does not cool meaningfully better than a good dual-tower air cooler for this chip, though, so buy one only if you prefer the look or need the space around the socket." },
+    { "q": "What is the maximum safe temperature for a 9800X3D?", "a": "AMD lists a maximum operating temperature of 95°C for the Ryzen 7 9800X3D. The chip manages its own boost to stay within that limit. With any cooler on this page at stock settings, you should not be near it in games. Short spikes on the sensor are normal." },
+    { "q": "Can I use my old AM4 cooler on a 9800X3D?", "a": "Usually yes. AM5 kept the same cooler hole spacing as AM4, so coolers that bolt into the stock AMD backplate fit. Coolers that require their own backplate need an AM5 kit from the maker. Check that your cooler can handle a 120 W chip; a basic stock AM4 cooler is too small." },
+    { "q": "Do I need a bigger cooler to use PBO on a 9800X3D?", "a": "Not for mild tuning, but more cooling helps. Precision Boost Overdrive lifts the 162 W stock limit, and the chip will boost only as far as temperature allows. A dual tower handles Curve Optimizer alone. For aggressive PBO with long all-core loads, a 360 mm AIO keeps fan noise down." },
+    { "q": "Which NH-D15 G2 version should I buy for AM5?", "a": "Buy the LBC (low base convexity) version. Noctua designed it for AM5's flatter heat spreader, while the HBC version targets Intel LGA1700 and LGA1851. The standard version works fine on AM5 as well, so do not worry if it is the only one in stock." }
+  ],
+  "sources": [
+    "AMD Ryzen 7 9800X3D product specifications (TDP, maximum temperature, socket)",
+    "AMD AM5 platform documentation on package power limits and support roadmap",
+    "Noctua NH-D15 G2 product page and LBC/HBC base version notes",
+    "Arctic Liquid Freezer III Pro product page and offset mounting documentation",
+    "Thermalright and be quiet! cooler spec sheets",
+    "Independent Ryzen 7 9800X3D reviews reporting gaming and all-core power behavior",
+    "Owner reports from AM5 builders on forums and retailer listings"
+  ],
+  "related": ["best-cpu-cooler", "best-cpu-for-gaming", "best-am5-motherboard"]
+}

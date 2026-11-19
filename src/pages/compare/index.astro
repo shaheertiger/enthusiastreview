@@ -1,6 +1,34 @@
 ---
-import Hub from '../../components/Hub.astro';
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { SITE } from '../../data/site';
+import { CATEGORIES } from '../../data/categories';
+import { COMPARES, mustProduct, comparePath } from '../../lib/data';
+const groups = CATEGORIES.map((c) => ({ c, list: COMPARES.filter((x) => mustProduct(x.a).category === c.key) })).filter((g) => g.list.length);
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'Comparisons', href: '/compare/' }];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'PC Hardware Comparisons',
+  url: `${SITE.url}/compare/`,
+  mainEntity: { '@type': 'ItemList', itemListElement: COMPARES.map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${comparePath(x)}` })) },
+};
 ---
-<Hub section="compare" title="Dehumidifier Brand Comparisons (2026)"
-  description="Head-to-head dehumidifier brand comparisons — Midea vs. Frigidaire, Aprilaire vs. Santa Fe, Haier vs. GE and more — with clear advice on which to buy."
-  intro="Brand-against-brand breakdowns with spec tables and a straight answer on which one to buy." />
+<Base title={`PC Hardware Comparisons: ${COMPARES.length} Head-to-Heads (2026)`} description={`${COMPARES.length} head-to-head PC part comparisons: RTX 5070 vs RX 9070 XT, 9800X3D vs 7800X3D, Peerless Assassin vs NH-D15 G2 and more, with specs, scores and a verdict.`} jsonLd={jsonLd}>
+  <div class="wrap hub">
+    <Crumbs items={crumbs} />
+    <h1 class="hub-title">PC Hardware Comparisons</h1>
+    <p class="hub-dek">Two parts, one table, one verdict. Every comparison lines up the spec sheets, the {SITE.score} and who should buy which.</p>
+    {groups.map((g) => (
+      <section id={g.c.key}>
+        <h2 class="section-title">{g.c.label}</h2>
+        <ul class="vs-list">
+          {g.list.map((x) => {
+            const a = mustProduct(x.a), b = mustProduct(x.b);
+            return <li><a href={comparePath(x)}><strong>{a.short}</strong> vs <strong>{b.short}</strong></a><span>{a.score.overall} vs {b.score.overall}</span></li>;
+          })}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>

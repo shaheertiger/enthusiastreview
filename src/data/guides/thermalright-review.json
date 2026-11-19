@@ -1,0 +1,214 @@
+{
+  "slug": "thermalright-review",
+  "type": "brand",
+  "category": "cpu-coolers",
+  "brand": "thermalright",
+  "title": "Best Thermalright Cooler (2026): 3 Picks, Every Line Ranked",
+  "h1": "Best Thermalright Cooler",
+  "query": "best thermalright cooler",
+  "description": "The $35–$45 Peerless Assassin 120 SE is the best Thermalright cooler for most PCs: 6 heat pipes and 2 fans. Our 3 picks, plus where the brand falls short.",
+  "dek": "Thermalright makes the best-value air coolers on the market. Here are the three worth buying, what the rest of the lineup is for, and when to shop elsewhere.",
+  "about": [
+    "Thermalright is a Taiwan-based heatsink maker that has been building CPU coolers since the early 2000s. In the enthusiast era of the late 2000s it was known for large, expensive towers such as the Ultra-120 Extreme, and later for the Silver Arrow and Macho families, which were sold mostly in Europe and Asia.",
+    "The brand's second wave began in the early 2020s, when the Peerless Assassin 120 and its relatives started selling in volume through Amazon in the US at prices far below established rivals. Today Thermalright sells air coolers, low-profile coolers, liquid coolers, fans, thermal paste and socket contact frames, but its budget dual-tower air coolers are what most builders know it for."
+  ],
+  "intro": [
+    "The Peerless Assassin 120 SE is the best Thermalright cooler for most PCs. It puts six heat pipes and two 120 mm fans on a dual tower for $35 to $45, and it has become the cooler other brands' budget models are judged against.",
+    "This page is for builders deciding whether Thermalright is the right brand and, if so, which model to buy. We cover the three coolers that matter most, explain the confusing model names, and say plainly where Noctua or Arctic is the better choice."
+  ],
+  "quickAnswer": "Buy the Peerless Assassin 120 SE ($35–$45) for nearly any CPU up to the 120 W class. Choose the Phantom Spirit 120 SE (same price) for hotter chips like a Core Ultra 5 245K or a Ryzen 9, thanks to its seventh heat pipe. For a 65 W chip on a $20 budget, buy the Assassin X 120 Refined SE.",
+  "picks": [
+    {
+      "id": "thermalright-peerless-assassin-120-se",
+      "label": "Best Overall",
+      "bestFor": "first-time builders and upgraders who want the most proven Thermalright cooler",
+      "skipIf": "your case allows less than about 158 mm of cooler height",
+      "writeup": [
+        "The Peerless Assassin 120 SE is the cooler that turned Thermalright from a name enthusiasts remembered into the brand budget builders default to. It is a dual tower with six heat pipes, two aluminum fin stacks and two 120 mm fans, 155 mm tall, and it sells for $35 to $45. Independent reviews have compared it favorably with coolers costing three or four times as much since it arrived, and few budget parts have held up that well under scrutiny.",
+        "Thermalright sells it in several versions. The SE is the baseline and usually the cheapest. There are also ARGB and white versions for builds where looks matter, and a Digital version with a small display on top that shows CPU temperature. The heat sink underneath is the same idea in each, so pick the one you like the look of and do not pay much extra for it.",
+        "It fits AM4, AM5, LGA1700 and LGA1851 using the hardware in the box. Its weaknesses are the same as the brand's: value-grade fans that get loud at full speed, a mounting kit with more loose parts than Noctua's, and a front fan that can crowd tall memory. None of that changes the verdict. If you want one Thermalright cooler and do not want to research further, this is it."
+      ],
+      "pros": ["Dual-tower cooling for $35–$45", "Mounts for AM4, AM5, LGA1700 and LGA1851", "ARGB, white and Digital versions available"],
+      "cons": ["Fans louder than premium rivals at full speed", "More mounting parts than Noctua"]
+    },
+    {
+      "id": "thermalright-phantom-spirit-120-se",
+      "label": "Best for Hot CPUs",
+      "bestFor": "CPUs that sit at their power limit for long stretches, such as a Core Ultra 5 245K or Ryzen 9",
+      "skipIf": "it costs noticeably more than the Peerless Assassin that week",
+      "writeup": [
+        "The Phantom Spirit 120 SE is the other half of Thermalright's value pair. It has the same basic recipe as the Peerless Assassin, a dual tower with two 120 mm fans, but adds a seventh heat pipe and stands a millimeter shorter at 154 mm. It sells in the same $35 to $45 band.",
+        "That extra pipe is the whole reason to choose it. Reviews often show the Phantom Spirit slightly ahead of the Peerless on hotter, higher-wattage processors, where more heat-pipe capacity lets the fans work less hard. For a Core Ultra 5 245K at its 159 W turbo limit, a Ryzen 7 9700X in its 105 W mode, a Ryzen 9 at stock or a Ryzen 7 9800X3D with PBO, that small margin is worth having for no extra cost.",
+        "For a 65 W Ryzen 5 or a stock gaming chip the difference is academic, and whichever of the two is cheaper is the right purchase. The Phantom Spirit shares the Peerless Assassin's caveats: fans tuned for value rather than silence and a front fan that may need raising over tall RGB memory. Thermalright also sells a pricier Phantom Spirit 120 EVO. It is worth a look only if the finish appeals to you, since the SE already does the heavy lifting."
+      ]
+    },
+    {
+      "id": "thermalright-assassin-x-120-refined-se",
+      "label": "Best Budget",
+      "bestFor": "65 W processors, compact cases and replacing a noisy stock cooler for about $20",
+      "skipIf": "your CPU is rated above about 120 W",
+      "writeup": [
+        "The Assassin X 120 Refined SE is Thermalright's entry ticket and one of the cheapest coolers that is a genuine improvement over a stock unit. It is a single tower with four heat pipes and one 120 mm fan, 148 mm tall, priced at $18 to $25.",
+        "It earns its place for three reasons. The low height lets it fit many micro-ATX and slim mid-tower cases that cannot take a 154 or 155 mm dual tower. As a single tower, it leaves every memory slot clear, so tall RGB kits are not a problem. And it suits the chips that most budget builds actually use, like the Ryzen 5 7600, Ryzen 5 9600X and older AM4 parts such as the Ryzen 5 5600, where it runs quieter than AMD's box coolers under load.",
+        "It has a ceiling, and you should respect it. One fan and four heat pipes are a mismatch for a Core Ultra 7 265K or a Ryzen 9, and a Ryzen 7 9800X3D will push its fan harder in long all-core work than a dual tower would. The step to the Peerless Assassin costs $15 to $25 and roughly doubles the fin area. Take it if your case allows. If it does not, or the CPU is a 65 W part, the Assassin X is the right buy."
+      ]
+    }
+  ],
+  "tableSpecs": ["Type", "Fans", "Heat pipes", "Height"],
+  "ranking": {
+    "intro": "These picks rank Thermalright's coolers on manufacturer spec sheets, independent reviews that publish thermal and noise data, and owner reports from US retailer listings and PC building forums over several years. None of these coolers were bench-tested by us. The ER Score is a research score that weighs that evidence against price, fit and availability.",
+    "criteria": [
+      ["Cooling per dollar", "How close each cooler gets to the best in its class relative to its street price."],
+      ["Track record", "How long the model has been on sale and how consistent owner reports have been."],
+      ["Fit", "Height, RAM clearance and the sockets supported in the box."],
+      ["Noise", "How the stock fans are reported to sound at typical and full speed."],
+      ["Availability", "Whether the model is easy to buy in the US at the listed price band."]
+    ],
+    "why": "The Peerless Assassin 120 SE won because it has the longest, most consistent record of any Thermalright cooler at a price almost nothing else matches."
+  },
+  "mentions": [
+    { "name": "Thermalright Phantom Spirit 120 EVO", "text": "A dressed-up Phantom Spirit with a different finish and fans, usually priced above the SE. Owners like it, but the SE already delivers the core cooling for less, so the EVO only makes sense if its looks matter to you or it drops to near SE pricing." },
+    { "name": "Thermalright Frost Commander 140", "text": "Thermalright's larger dual tower built around 140 mm fans, pitched at buyers who might otherwise consider a Noctua NH-D15 G2. It is a reasonable alternative, but it is bigger and pricier than the 120 mm towers, and US stock is less steady, so it did not make our picks." },
+    { "name": "Thermalright AXP90-X47", "text": "A 47 mm tall low-profile cooler with a 92 mm fan for mini-ITX cases where towers will not fit. It is one of the better options in that niche for 65 W chips, but it is a specialist part, not a cooler most readers of this page need." }
+  ],
+  "sections": [
+    {
+      "h": "Which Thermalright Cooler Should You Buy?",
+      "body": [
+        "Match the cooler to your CPU's real power draw and your case. Most builders need one of two dual towers, and the choice between them comes down to price on the day."
+      ],
+      "table": {
+        "caption": "Thermalright pick by CPU class",
+        "head": ["Your CPU", "Power rating", "Thermalright pick", "Notes"],
+        "rows": [
+          ["Ryzen 5 7600, Ryzen 5 9600X, Ryzen 5 5600", "65 W TDP", "Assassin X 120 Refined SE", "Fits compact cases, clears all RAM"],
+          ["Ryzen 7 9800X3D, Ryzen 7 7800X3D", "120 W TDP", "Peerless Assassin 120 SE", "Phantom Spirit if PBO is planned"],
+          ["Core Ultra 5 245K", "125 W base / 159 W turbo", "Phantom Spirit 120 SE", "Extra pipe helps at sustained turbo"],
+          ["Ryzen 9 3900X, 3950X", "105 W TDP / 142 W PPT", "Phantom Spirit 120 SE", "See our [3900X and 3950X guide](/best-cpu-cooler-for-ryzen-9-3900x-and-3950x/)"],
+          ["Core Ultra 7 265K, Ryzen 9 9950X3D", "250 W turbo / 170 W TDP", "Consider an AIO from another brand", "Thermalright air will work but runs fans hard"],
+          ["Any 65 W chip in a mini-ITX case", "65 W TDP", "AXP90-X47", "Low-profile, check case height"]
+        ]
+      }
+    },
+    {
+      "h": "What Thermalright Does Well",
+      "body": [
+        "Price is the obvious strength, but the more important point is that the low price does not come with a big cooling penalty. Thermalright's dual towers use the same basic ingredients as premium coolers: nickel-plated copper heat pipes, dense aluminum fin stacks and a direct-contact base. Independent reviews have shown for years that the Peerless Assassin and Phantom Spirit sit close to far more expensive towers in typical gaming and work loads.",
+        "Socket support is another quiet strength. The current towers ship with mounting for AM4, AM5, LGA1700 and LGA1851 in one box, which means a cooler bought for an AM4 upgrade today can move to an AM5 or Intel build later. Thermalright was also early to sell inexpensive contact frames for LGA1700 when bending became a talking point, which shows a brand paying attention to enthusiast forums.",
+        "Finally, there is choice. The same heat sink often comes in black, white, ARGB and Digital display versions, so you can match a build's look without paying a premium brand's price."
+      ],
+      "list": [
+        "Dual-tower cooling for $35–$45",
+        "Mounting for current AMD and Intel sockets in the box",
+        "Many color and lighting variants of the same cooler",
+        "Low-profile and single-tower options for small cases"
+      ]
+    },
+    {
+      "h": "Where Thermalright Falls Short",
+      "body": [
+        "The fans are where the savings show. Thermalright's stock fans are fine at low and medium speed but get noticeably louder than Noctua or be quiet! fans at full speed, and owners occasionally report individual units with bearing noise or rattle. A replacement fan is cheap, but it is a cost you may not have planned for.",
+        "Support and documentation are thinner than at the premium brands. Manuals are brief and lean on illustrations, and most US buyers deal with returns through the retailer rather than the manufacturer. Noctua and Arctic have more established direct support and published warranty terms that buyers can count on.",
+        "The lineup is also hard to navigate. Thermalright sells many near-identical models with suffixes such as SE, EVO, V2, Digital and Refined, sometimes on the same listing, and the differences are not always obvious from the product page. It is easy to pay more for a variant that cools no better."
+      ],
+      "list": [
+        "Value-grade fans that get loud at full speed",
+        "Thinner direct support and documentation than Noctua or Arctic",
+        "Confusing model names and overlapping variants",
+        "Dual towers can crowd tall memory"
+      ]
+    },
+    {
+      "h": "Thermalright vs Noctua and Arctic",
+      "body": [
+        "These three brands cover most of what builders buy in 2026, and each wins in a different place. Thermalright wins on cooling per dollar for air. Noctua wins on noise, mounting and long-term support. Arctic wins on value liquid cooling and sits close to Thermalright on air with its single-tower Freezer 36.",
+        "In practice, a Thermalright dual tower is the default for a budget or mid-range build. The [Noctua NH-D15 G2](/gear/noctua-nh-d15-g2/) is the upgrade if you want a quieter machine and plan to keep the cooler for many years. The [Arctic Liquid Freezer III Pro 360](/gear/arctic-liquid-freezer-iii-pro-360/) is the choice once you need liquid cooling for a 250 W Intel chip or a 16-core Ryzen."
+      ],
+      "table": {
+        "caption": "Thermalright vs Noctua vs Arctic at a glance",
+        "head": ["Brand", "Value pick", "Street price", "Wins on", "Loses on"],
+        "rows": [
+          ["Thermalright", "Peerless Assassin 120 SE", "$35–$45", "Cooling per dollar", "Fan noise, support"],
+          ["Noctua", "NH-D15 G2", "About $150", "Noise, mounting, 6-year warranty", "Price"],
+          ["Noctua", "NH-U12S redux", "$45–$55", "Easy mounting, warranty", "Less cooling per dollar"],
+          ["Arctic", "Freezer 36", "$30–$40", "Push-pull single tower, RAM clearance", "Fewer heat pipes than duals"],
+          ["Arctic", "Liquid Freezer III Pro 360", "$85–$110", "Value AIO, VRM fan, 6-year warranty", "Needs a 360 mm mount"]
+        ]
+      }
+    },
+    {
+      "h": "Peerless Assassin vs Phantom Spirit: What's the Difference?",
+      "body": [
+        "One heat pipe and a millimeter of height. The Peerless Assassin 120 SE has six heat pipes and stands 155 mm tall. The Phantom Spirit 120 SE has seven and stands 154 mm. Both use two 120 mm fans and sell for $35 to $45.",
+        "Reviews show them trading places depending on the CPU, with the Phantom Spirit often slightly ahead on hotter chips. For a gaming build, buy the cheaper one. For a CPU that sits at a high power limit for long periods, choose the Phantom Spirit if the price is close."
+      ]
+    },
+    {
+      "h": "What Do SE, EVO and Digital Mean in Thermalright Names?",
+      "body": [
+        "Thermalright reuses a few core heat sinks across many products, and the suffix usually tells you about fans, finish or extras rather than a new design. SE generally marks the plain, cheapest version of a model. EVO marks a revised or upgraded version, often with different fans or finish. Digital means a small display on the cooler that shows CPU temperature. ARGB and White describe lighting and color.",
+        "The safe rule is to compare heat-pipe count, tower layout and height. If those match, you are mostly choosing on looks."
+      ],
+      "table": {
+        "caption": "Thermalright lineup: what each line is for",
+        "head": ["Model or line", "Type", "Who it is for", "On this page"],
+        "rows": [
+          ["Peerless Assassin 120 SE", "Dual tower, 6 heat pipes", "Most builds", "Best Overall"],
+          ["Phantom Spirit 120 SE", "Dual tower, 7 heat pipes", "Hotter CPUs", "Best for Hot CPUs"],
+          ["Assassin X 120 Refined SE", "Single tower, 4 heat pipes", "65 W chips, compact cases", "Best Budget"],
+          ["Peerless Assassin 120 Digital", "Dual tower with temperature display", "Builders who want a readout", "Same cooling idea as the SE"],
+          ["Phantom Spirit 120 EVO", "Dual tower, revised finish and fans", "Looks-focused builds", "Mention"],
+          ["Frost Commander 140", "Large dual tower, 140 mm fans", "NH-D15 G2 shoppers on a budget", "Mention"],
+          ["AXP90-X47", "Low profile, 47 mm", "Mini-ITX cases", "Mention"],
+          ["Aqua Elite and Frozen Warframe", "AIO liquid coolers", "Liquid on a budget", "See the AIO section below"]
+        ]
+      }
+    },
+    {
+      "h": "Are Thermalright AIOs and Contact Frames Worth It?",
+      "body": [
+        "Thermalright's liquid coolers, sold under names like Aqua Elite and Frozen Warframe, are priced aggressively and owners generally report them working well. Even so, we lean toward the Arctic Liquid Freezer III Pro 360 for liquid cooling, because Arctic publishes a 6-year warranty and adds a VRM fan, and an AIO has a pump that can fail. With a pump in the mix, warranty and support matter more than they do for a block of metal.",
+        "Thermalright's contact frames are a cheap, optional add-on. On LGA1700 and LGA1851 they replace Intel's stock retention to even out pressure on the CPU, and on AM5 they mainly keep paste out of the heat spreader's notches. Neither is required for any pick on this page."
+      ]
+    },
+    {
+      "h": "Who Should Skip Thermalright",
+      "body": [
+        "Thermalright is the right default for most budget and mid-range builds, but not for everyone."
+      ],
+      "list": [
+        "Builders who want the quietest possible air cooler should look at the NH-D15 G2 or be quiet! Dark Rock Pro 5, both with better fans.",
+        "Anyone who values a long published warranty and direct manufacturer support should buy Noctua or Arctic.",
+        "People who need liquid cooling for a 250 W Core Ultra 7 265K or a 170 W Ryzen 9 9950X3D should start with the Arctic Liquid Freezer III Pro 360.",
+        "Owners of tall RGB memory who cannot tolerate a raised fan should consider Arctic's single-tower Freezer 36.",
+        "Builders in cases with less than about 150 mm of clearance should check the Assassin X 120 Refined SE or a low-profile model, not the dual towers."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Paying extra for a variant that cools the same", "The Digital, ARGB and white versions of a Thermalright tower usually share the same heat sink. If you want the display or lighting, fine, but do not expect better temperatures. Compare heat-pipe count and height before paying more for a suffix."],
+    ["Assuming every Thermalright cooler is a bargain", "The brand's reputation rests on its $35 to $45 dual towers. Some higher-end models and AIOs sit much closer to rival prices, where Noctua or Arctic offer better support. Judge each model on its own price and specs, not the logo."],
+    ["Skipping the RAM clearance check", "Thermalright's dual towers hang a fan over the first memory slot. Tall RGB kits may force that fan up a few millimeters, which raises total height. Check memory height and case clearance together before you order the cooler."],
+    ["Mixing up the mounting parts", "Thermalright kits include separate standoffs and brackets for AMD and Intel in one bag. Sort them before you start, and follow the illustration for your socket. Using Intel spacers on AM5 or skipping a step is a common install problem in owner reports."],
+    ["Keeping a noisy fan out of loyalty", "If a stock fan develops a rattle or a whine, replace it or claim a return through the retailer quickly. A good 120 mm fan is cheap, and swapping it keeps the value of the heat sink, which is the part that matters."]
+  ],
+  "bottomLine": "Thermalright makes the best-value air coolers you can buy in 2026. The Peerless Assassin 120 SE is the right cooler for most builds, the Phantom Spirit 120 SE is the better pick for hotter chips at the same price, and the Assassin X 120 Refined SE covers 65 W processors for about $20. Skip the brand if you want the quietest fans, a long published warranty or a liquid cooler, where Noctua and Arctic do better.",
+  "faqs": [
+    { "q": "Is Thermalright a good brand?", "a": "Yes, for air coolers. Its budget dual towers, led by the Peerless Assassin 120 SE, cool close to premium rivals for a fraction of the price, and owner reports have been consistent for years. Its fans and support are weaker than Noctua's, so it is a value brand, not a premium one." },
+    { "q": "Where is Thermalright from?", "a": "Thermalright is based in Taiwan and has made CPU heat sinks since the early 2000s. It was known for high-end towers such as the Ultra-120 Extreme in the late 2000s, then grew rapidly in the US in the early 2020s with budget coolers sold mainly through Amazon." },
+    { "q": "Peerless Assassin or Phantom Spirit: which is better?", "a": "The Phantom Spirit 120 SE has one more heat pipe, seven instead of six, and is often slightly ahead on hotter CPUs in reviews. For most gaming builds the difference is small, so buy whichever is cheaper. For a CPU that runs at a high power limit for long periods, choose the Phantom Spirit." },
+    { "q": "Is the Peerless Assassin 120 SE as good as a Noctua?", "a": "In raw cooling it comes close to Noctua's big towers in typical loads, according to independent reviews. Noctua's NH-D15 G2 is quieter, easier to mount and carries a 6-year warranty, but it costs about $150 against $35 to $45. For most builds, the Peerless is the better value." },
+    { "q": "Does the Peerless Assassin 120 SE fit AM5?", "a": "Yes. It ships with mounting hardware for AM4, AM5, LGA1700 and LGA1851. On AM5 it uses the motherboard's stock backplate. Check that your case allows at least about 158 mm of cooler height, since the cooler itself is 155 mm tall." },
+    { "q": "Are Thermalright fans loud?", "a": "They are quiet at low and medium speed but get noticeably louder than premium fans at full speed. With a sensible fan curve, most gaming builds keep them in the quiet range. If noise matters a lot, you can replace them with premium 120 mm fans later." },
+    { "q": "Should I buy a Thermalright AIO?", "a": "It can work, and owners generally report Thermalright AIOs performing well for the money. We still lean toward the Arctic Liquid Freezer III Pro 360, which has a published 6-year warranty and a VRM fan. Since a pump can fail, warranty and support matter more for liquid coolers than for air." }
+  ],
+  "sources": [
+    "Thermalright product pages and spec sheets for the Peerless Assassin, Phantom Spirit and Assassin X lines",
+    "Noctua NH-D15 G2 and NH-U12S redux product pages",
+    "Arctic Freezer 36 and Liquid Freezer III Pro product pages",
+    "Independent cooler reviews publishing thermal and noise comparisons",
+    "AMD and Intel processor specification pages (TDP, turbo power)",
+    "Owner reports on US retailer listings and PC building forums"
+  ],
+  "related": ["best-cpu-cooler", "best-cpu-cooler-for-ryzen-7-9800x3d", "best-pc-case"]
+}

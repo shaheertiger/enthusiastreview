@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { SITE } from '../../data/site';
+import { BRANDS, productsOfBrand, brandPath, productPath, avgScore, categoryOf } from '../../lib/data';
+const rows = BRANDS.map((b) => ({ b, list: productsOfBrand(b.key) })).sort((x, y) => y.list.length - x.list.length || avgScore(y.list) - avgScore(x.list));
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'Brands', href: '/brands/' }];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'PC hardware brands',
+  url: `${SITE.url}/brands/`,
+  mainEntity: { '@type': 'ItemList', itemListElement: rows.map((r, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${brandPath(r.b)}`, name: r.b.name })) },
+};
+---
+<Base title={`PC Hardware Brands: ${BRANDS.length} Brands Rated by Product Score`} description={`Every PC hardware brand we track, from NVIDIA, AMD and Intel to Corsair, Noctua, Thermalright and Lian Li: each brand's lineup, average ${SITE.score} and best model.`} jsonLd={jsonLd}>
+  <div class="wrap hub">
+    <Crumbs items={crumbs} />
+    <h1 class="hub-title">PC Hardware Brands</h1>
+    <p class="hub-dek">Each brand's lineup on this site, its average {SITE.score} and its best-scoring model.</p>
+    <div class="brand-grid">
+      {rows.map(({ b, list }) => (
+        <section class="brand-card">
+          <h2><a href={brandPath(b)}>{b.name}</a></h2>
+          <p class="fine">{list.length} product{list.length === 1 ? '' : 's'} · Average score {avgScore(list)} · {[...new Set(list.map((p) => categoryOf(p.category).label))].join(', ')}</p>
+          <p>Best model: <a href={productPath(list[0])}>{list[0].name}</a> ({list[0].score.overall}/100)</p>
+        </section>
+      ))}
+    </div>
+  </div>
+</Base>

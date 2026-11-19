@@ -12,25 +12,25 @@ export interface Author {
 }
 
 // Add real, named authors here (with a real bio and profile links) and point
-// pages at them with "author": "<slug>". Pages without an author use the desk.
+// guides at them with "author": "<slug>". Pages without an author use the desk.
 export const AUTHORS: Record<string, Author> = {
-  'home-air-desk': {
-    slug: 'home-air-desk',
-    name: 'The Home Air Desk',
-    role: 'Dehumidifier & Indoor Air Editors',
-    initials: 'HA',
+  'hardware-desk': {
+    slug: 'hardware-desk',
+    name: 'The Hardware Desk',
+    role: 'PC Hardware Editors',
+    initials: 'HW',
     short:
-      'Our home air editors compare dehumidifiers on published DOE and ENERGY STAR data, manufacturer manuals, recall notices and thousands of owner reviews, then explain which one fits your space.',
+      'Our hardware editors compare PC parts on spec sheets, platform requirements, widely published independent measurements and owner reports, then match each part to the build it suits.',
     bio: [
-      'The Home Air Desk covers dehumidifiers, hygrometers and moisture control for Enthusiast Review. We research every model on these pages against the 2019 DOE test standard, ENERGY STAR certification data, manufacturer manuals and the U.S. Consumer Product Safety Commission recall database.',
-      'We read owner reviews in bulk to find the problems that only show up after a season — noisy compressors, failed pumps, buckets that crack — and we say so when a popular model has a recall history or a misleading pint rating.',
-      'We do not accept payment for placement, and manufacturers never see a guide before it is published. When you buy through our links we may earn a commission, which never changes what we recommend.',
+      `The Hardware Desk covers graphics cards, processors, coolers, power supplies, cases, memory, motherboards and SSDs for ${SITE.name}. We have covered PC building since ${SITE.founded}.`,
+      'Every pick is researched against the manufacturer spec sheet, platform documentation (sockets, chipsets, BIOS requirements, connector standards) and the independent reviews and measurements published by the wider hardware press. We read owner reports in bulk to find the problems that show up after months: coil whine, failed fans, BIOS bugs, poor stock.',
+      'We have not bench-tested these parts ourselves, and every page says so. We do not accept payment for placement. When you buy through our links we may earn a commission, which never changes what we recommend.',
     ],
-    beat: ['Portable and whole-house dehumidifiers', 'Crawl space and basement moisture', 'Desiccant and mini dehumidifiers', 'Hygrometers and humidity control', 'Energy use and running costs'],
+    beat: ['Graphics cards and CPUs', 'Air and liquid CPU cooling', 'Power supplies and ATX 3.1', 'Cases, motherboards and memory', 'NVMe storage'],
   },
 };
 
-export const DEFAULT_AUTHOR = 'home-air-desk';
+export const DEFAULT_AUTHOR = 'hardware-desk';
 export const getAuthor = (slug?: string) => AUTHORS[slug ?? DEFAULT_AUTHOR] ?? AUTHORS[DEFAULT_AUTHOR];
 
 export function authorSchema(slug?: string) {

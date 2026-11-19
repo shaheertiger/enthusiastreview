@@ -1,0 +1,13 @@
+---
+// Root-level pages: buyer's guides and brand reviews (/best-graphics-card/, /corsair-review/)
+// and articles (/how-to-update-nvidia-drivers/, /amd-vs-intel/). Source: src/data/guides/*.json.
+import GuidePage from '../components/GuidePage.astro';
+import ArticlePage from '../components/ArticlePage.astro';
+import { ALL_GUIDES, type Guide } from '../lib/data';
+
+export function getStaticPaths() {
+  return ALL_GUIDES.map((g) => ({ params: { slug: g.slug }, props: { g } }));
+}
+const { g } = Astro.props as { g: Guide };
+---
+{g.type === 'article' ? <ArticlePage g={g} /> : <GuidePage g={g} />}

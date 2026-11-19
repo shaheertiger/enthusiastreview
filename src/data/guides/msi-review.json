@@ -1,0 +1,234 @@
+{
+  "slug": "msi-review",
+  "type": "brand",
+  "category": "motherboards",
+  "brand": "msi",
+  "title": "Best MSI Motherboard (2026): 5 Tomahawk, PRO and PSU Picks",
+  "h1": "Best MSI Motherboard",
+  "query": "best msi motherboard",
+  "description": "The MSI MAG B650 Tomahawk WiFi is the best MSI motherboard: strong VRM, Wi-Fi 6E and Flash BIOS for $170–$200. 5 MSI picks ranked, plus where MSI falls short.",
+  "dek": "Which MSI boards are worth buying in 2026, what the PRO, MAG, MPG and MEG names mean, and when ASUS or Gigabyte is the better call.",
+  "about": [
+    "Micro-Star International, better known as MSI, was founded in 1986 in Taiwan and is headquartered in New Taipei City. It began as a motherboard maker and still builds boards for AMD and Intel processors at every price, from plain PRO office boards to MEG flagships. It is one of the four big motherboard brands, alongside ASUS, Gigabyte and ASRock.",
+    "MSI has since grown into graphics cards, gaming laptops, monitors, power supplies, coolers and cases. Its gaming products carry a dragon logo, and its motherboard tiers run from PRO for business and budget builds, through MAG for mainstream gaming, to MPG and MEG at the high end. Among enthusiasts, MSI is best known for its Tomahawk boards, which have offered strong power delivery for the money across several generations."
+  ],
+  "intro": [
+    "The MSI MAG B650 Tomahawk WiFi is the best MSI motherboard for most buyers in 2026. It costs $170–$200 and pairs one of the strongest VRMs in its price class with Wi-Fi 6E, 2.5 GbE and MSI's Flash BIOS button, which makes it a fit for any Ryzen 7000 or 9000 processor.",
+    "This page ranks the MSI products we would buy today: four motherboards across AM5 and AM4, plus an MSI power supply. It also covers what MSI does well, where it falls short, how it compares with ASUS and Gigabyte, and who should shop elsewhere."
+  ],
+  "quickAnswer": "Buy the MSI MAG B650 Tomahawk WiFi ($170–$200) for most AM5 builds. Step up to the MAG X870 Tomahawk WiFi ($260–$300) for USB4, PCIe 5.0 and Wi-Fi 7. The PRO B650M-A WiFi ($130–$160) is the budget micro-ATX pick, the MAG B550 Tomahawk ($140–$180) is MSI's best AM4 board, and the MAG A750GL PCIE5 ($75–$95) is a solid budget PSU.",
+  "picks": [
+    {
+      "id": "msi-mag-b650-tomahawk-wifi",
+      "label": "Best MSI Overall",
+      "bestFor": "AM5 builders who want MSI's best balance of VRM, features and price",
+      "skipIf": "you want PCIe 5.0 storage or graphics on day one",
+      "writeup": [
+        "The B650 Tomahawk WiFi is the board that sums up what MSI does best: spend on power delivery and practical features, skip the extras that raise prices. The VRM has the headroom for a 16-core Ryzen 9 9950X3D, so you can start with a Ryzen 5 9600X and upgrade later without replacing the board. That makes it a better long-term buy than cheaper B650 boards with thinner heatsinks.",
+        "MSI's day-to-day touches add up here. The rear I/O shield comes preinstalled, so there is no loose metal plate to forget during assembly. The Flash BIOS button updates firmware from a USB drive with no CPU or memory fitted. Click BIOS opens in a simple mode with the settings most builders need, such as the EXPO memory profile and fan curves, before you switch to the full advanced view.",
+        "The trade-off is that MSI saved money by skipping PCIe 5.0. Every slot on the board tops out at Gen4, so a Gen5 SSD would be held to roughly half its rated sequential speed, though games would barely notice. If that matters to you, step up to the X870 Tomahawk below. For everyone else, this is the MSI board to buy. Our [AM5 motherboard guide](/best-am5-motherboard/) compares it with ASUS, Gigabyte and ASRock rivals."
+      ],
+      "pros": ["Strong VRM for any AM5 chip", "Preinstalled I/O shield and Flash BIOS button", "Wi-Fi 6E and 2.5 GbE"],
+      "cons": ["PCIe 4.0 only", "No POST code display"]
+    },
+    {
+      "id": "msi-mag-x870-tomahawk-wifi",
+      "label": "Best High-End MSI",
+      "bestFor": "builders who want USB4, Wi-Fi 7 and PCIe 5.0 without paying for MPG or MEG",
+      "skipIf": "your build is gaming-only and the B650 Tomahawk covers your ports",
+      "writeup": [
+        "The X870 Tomahawk WiFi is MSI's sweet spot for a high-end AM5 build. It brings the features of the X870 chipset, including a PCIe 5.0 graphics slot, a PCIe 5.0 M.2 slot and USB4 at 40 Gbps, then adds Wi-Fi 7 and 5 GbE networking. At $260–$300, it costs far less than MSI's MPG and MEG X870E boards while covering what most enthusiasts use.",
+        "Compared with the B650 Tomahawk, the extra money goes to connectivity rather than speed. USB4 is the most useful addition for creators who work from fast external drives or docks. The 5 GbE port pays off only with a matching switch or NAS, and PCIe 5.0 graphics is insurance for future cards rather than a gain with today's GPUs.",
+        "Check the manual before filling every M.2 slot. Like many X870 boards, it shares some CPU lanes between storage, USB4 and the graphics slot, and certain combinations reduce the graphics slot's lane count. MSI documents this clearly. If you want an MSI board that should handle every AM5 processor and peripheral you plan to buy over several years, this is the one to get."
+      ],
+      "pros": ["USB4, PCIe 5.0 graphics and M.2", "Wi-Fi 7 and 5 GbE", "Much cheaper than MPG and MEG X870E"],
+      "cons": ["About $90 more than the B650 Tomahawk", "Lane sharing to plan around"]
+    },
+    {
+      "id": "msi-pro-b650m-a-wifi",
+      "label": "Best Budget MSI",
+      "bestFor": "budget or compact AM5 builds with a 6-core or 8-core Ryzen",
+      "skipIf": "you need three or more M.2 drives or run long all-core loads on a Ryzen 9",
+      "writeup": [
+        "The PRO line is MSI's no-frills range, and the PRO B650M-A WiFi is its best AM5 value. The $130–$160 price still gets you 6 GHz-capable wireless and 2.5-gigabit Ethernet, which plenty of entry boards leave off, on a micro-ATX layout sized for cheap cases. The PRO styling is plain grey and black with no RGB, which suits a sleeper build or an office PC.",
+        "It runs a Ryzen 5 9600X, Ryzen 7 9700X or Ryzen 7 9800X3D at full speed. Smaller VRM heatsinks mean less margin for a 16-core chip under sustained rendering, so pick the ATX Tomahawk for that kind of workload. You also get fewer M.2 slots, fewer PCIe slots and fewer rear USB ports than the ATX boards above.",
+        "If you are building with older stock, check the BIOS version on the box before installing a Ryzen 9000 chip. MSI's update tools make that straightforward. Drop it into a small mesh case such as the [Montech AIR 100 LITE](/gear/montech-air-100-lite/) and you have a tidy, inexpensive gaming base with no obvious weak link."
+      ],
+      "pros": ["Modern networking for under $160", "Fits small cases", "Clean PRO styling"],
+      "cons": ["Fewer M.2 and PCIe slots", "Less VRM margin for 16 cores"]
+    },
+    {
+      "id": "msi-mag-b550-tomahawk",
+      "label": "Best MSI for AM4",
+      "bestFor": "AM4 builds and upgrades that use Ethernet",
+      "skipIf": "you need onboard Wi-Fi",
+      "writeup": [
+        "The B550 Tomahawk is the board that made the Tomahawk name popular with enthusiasts. When B550 launched in 2020, independent VRM roundups placed it near the top of the class, ahead of many costlier X570 boards. That reputation still holds for anyone keeping an AM4 system alive with a Ryzen 7 5700X3D or a 16-core chip.",
+        "It runs PCIe 4.0 to the graphics card and the first M.2 slot, while the second M.2 slot runs at PCIe 3.0 through the chipset. Networking is unusual for its price: one 2.5 GbE port and one 1 GbE port, but no Wi-Fi. BIOS Flashback+ lets you update firmware without a CPU, which is handy for a drop-in upgrade.",
+        "At $140–$180, it costs about the same as an entry AM5 board, so it makes sense mainly if you already own an AM4 CPU and DDR4 memory. For a new build from scratch, the B650 Tomahawk is the better long-term choice. For AM4 owners replacing a failed board or moving to a [Ryzen 9 3950X](/best-motherboard-for-ryzen-9-3950x/), it is MSI's best option."
+      ],
+      "pros": ["Top-class VRM for B550", "Two Ethernet ports", "Flashback+ for CPU-free updates"],
+      "cons": ["No Wi-Fi", "No new CPUs coming for AM4"]
+    },
+    {
+      "id": "msi-mag-a750gl-pcie5",
+      "label": "Best MSI Power Supply",
+      "bestFor": "budget and midrange builds with a GPU up to about 300 W",
+      "skipIf": "you want the quietest PSU or plan an RTX 5080 or faster card",
+      "writeup": [
+        "MSI is not the first name people think of for power supplies, but the MAG A750GL PCIE5 is a sensible budget choice at $75–$95. It is a 750 W, 80 Plus Gold, fully modular unit built to the ATX 3.x standard, with a native 12V-2x6 cable for current graphics cards. That covers builds up to an RTX 5070 Ti or RX 9070 XT with headroom.",
+        "Fully modular cables at this price help in small budget cases where unused cables have nowhere to hide. The native GPU cable means no adapter dangling from an RTX 50 card. The 120 mm fan is smaller than the 140 mm fans in pricier units such as the [Corsair RM850x](/gear/corsair-rm850x/), so it can be louder under heavy load.",
+        "Independent reviews rate it as solid for its price class rather than a standout. If you are spending $100 or more, rivals with longer warranties and quieter fans make more sense; our [PSU under $100](/best-psu-under-100/) guide compares them. For an all-MSI build on a budget, it is the PSU to pair with the boards above."
+      ],
+      "pros": ["750 W Gold, fully modular", "Native 12V-2x6 cable", "Low price"],
+      "cons": ["120 mm fan can be louder under load", "Not the strongest pick above $100"]
+    }
+  ],
+  "tableSpecs": ["Chipset", "Form factor", "M.2 slots", "Networking", "BIOS flashback"],
+  "ranking": {
+    "intro": "These picks come from MSI's spec sheets and manuals, independent reviews of VRM thermals, BIOS and power supply behavior, and owner reports on reliability and support. None of these products were bench-tested by us. We ranked the boards on how well they serve a typical build in 2026, and included the PSU because it is the MSI product outside motherboards we would most readily buy.",
+    "criteria": [
+      ["Power delivery", "Whether the board runs the strongest supported CPU at sustained load without throttling, per independent VRM reviews."],
+      ["Features for the price", "Wi-Fi, Ethernet, M.2 slots, USB and flashback compared with similarly priced ASUS, Gigabyte and ASRock boards."],
+      ["BIOS and software", "Ease of use, update cadence and the quality of MSI's firmware and Windows utilities."],
+      ["Platform life", "How long the socket is likely to accept new CPUs, which favors AM5 boards for new builds."],
+      ["Value", "Street price against the next model up and down MSI's range."]
+    ],
+    "why": "The B650 Tomahawk WiFi won because it has MSI's best mix of VRM headroom, connectivity and flashback at a mainstream price."
+  },
+  "mentions": [
+    {
+      "name": "MSI MPG X870E Carbon WiFi",
+      "text": "The MPG X870E Carbon WiFi adds the dual-chipset X870E platform, more M.2 slots, a stronger VRM and more premium styling and cooling. It is a great board, but it costs well above the X870 Tomahawk, and the extra features matter mainly for workstations with many drives or add-in cards."
+    },
+    {
+      "name": "MSI MAG B850 Tomahawk Max WiFi",
+      "text": "MSI's B850 Tomahawk models add a guaranteed PCIe 5.0 M.2 slot to the Tomahawk formula and ship with Ryzen 9000 support. They make sense if you want Gen5 storage without paying for X870, but prices often sit close to the X870 Tomahawk, which adds USB4."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What MSI Does Well",
+      "body": [
+        "MSI's biggest strength is power delivery for the money. Its Tomahawk boards have repeatedly ranked near the top of independent VRM roundups in their price class, from the B550 Tomahawk in 2020 to the B650 model today. That means you can put a high-core-count chip in a midrange MSI board without throttling.",
+        "MSI also gets the practical details right. A Flash BIOS button is common on its boards, not only expensive ones. Many models come with the rear I/O shield preinstalled, M.2 slots that use tool-free clips, and EZ Debug LEDs that show whether a boot stalls at the CPU, memory, GPU or boot drive. Click BIOS has a simple mode that puts EXPO, fan control and boot order on one screen, which first-time builders appreciate."
+      ],
+      "list": [
+        "Strong VRMs on Tomahawk boards at mainstream prices",
+        "Flash BIOS button on many midrange and budget models",
+        "Preinstalled rear I/O shields on many boards",
+        "Clear Click BIOS with an easy mode for common settings",
+        "Long BIOS support on AM4, including newer CPU support on older boards"
+      ]
+    },
+    {
+      "h": "Where MSI Falls Short",
+      "body": [
+        "MSI's naming is confusing. The same board can come in WiFi and non-WiFi versions, with MAX or II suffixes for later revisions, and PRO boards use letters like -A, -P and -E that are easy to mix up. Always check the full model name against MSI's spec page before buying.",
+        "MSI Center, the company's Windows utility, is a frequent complaint in owner reports: it is large, installs many modules and is not required for most users. You can control fans and RGB in the BIOS and skip it. In 2023, MSI also suffered a ransomware breach in which firmware signing keys were reported stolen, and it advised customers to get BIOS updates only from its official site. That is good advice for any brand.",
+        "Finally, MSI's midrange boards rarely include premium extras like a POST code display or a large number of rear USB ports. That is common across brands, but ASUS and Gigabyte sometimes include more at similar prices."
+      ]
+    },
+    {
+      "h": "MSI vs ASUS and Gigabyte",
+      "body": [
+        "All three brands make good boards, and the best choice usually depends on the specific model and price. MSI tends to lead on VRM value in the midrange, ASUS on BIOS polish and premium features, and Gigabyte on aggressive pricing for boards with PCIe 5.0 M.2 slots.",
+        "ASUS boards often cost a little more for similar specs, and its Armoury Crate software draws the same complaints as MSI Center. Gigabyte's BIOS is functional but less friendly for beginners, and it has sold several revisions of some boards, which makes checking specs important. In 2023, AM5 boards from all major vendors needed BIOS updates to cap SoC voltage after reports of damaged X3D chips; ASUS drew the most attention, and all three released fixes."
+      ],
+      "table": {
+        "caption": "MSI vs ASUS vs Gigabyte motherboards at a glance",
+        "head": ["", "MSI", "ASUS", "Gigabyte"],
+        "rows": [
+          ["Flashback name", "Flash BIOS Button", "BIOS FlashBack", "Q-Flash Plus"],
+          ["Midrange strength", "VRM per dollar (Tomahawk)", "BIOS polish, TUF durability", "Gen5 M.2 at lower prices"],
+          ["Windows software", "MSI Center", "Armoury Crate", "Gigabyte Control Center"],
+          ["Pricing", "Competitive", "Often a little higher", "Often lowest"],
+          ["Common complaint", "Confusing model names", "Higher prices", "Multiple board revisions"],
+          ["Our AM5 pick", "MAG B650 Tomahawk WiFi", "TUF Gaming B650-Plus WiFi", "B650 Aorus Elite AX"]
+        ]
+      }
+    },
+    {
+      "h": "What Do PRO, MAG, MPG and MEG Mean?",
+      "body": [
+        "MSI sorts its motherboards into four main tiers. Knowing them helps you see what you pay for, since a MAG board and an MPG board on the same chipset can differ by $100 or more.",
+        "For most gaming builds, MAG is the right tier, and the Tomahawk is MSI's best MAG model. PRO boards suit budget builds and office machines. MPG and MEG make sense when you need a specific premium feature."
+      ],
+      "list": [
+        "PRO: business and budget boards with plain styling and the essentials",
+        "MAG (Arsenal Gaming): mainstream gaming boards, including the Tomahawk",
+        "MPG (Performance Gaming): higher-end boards such as Carbon and Edge models, with more features and styling",
+        "MEG (Enthusiast Gaming): flagship boards with the strongest VRMs and most connectivity"
+      ]
+    },
+    {
+      "h": "Is MSI BIOS Support Good?",
+      "body": [
+        "Yes, MSI's BIOS support is generally good. On AM4, MSI shipped B450 MAX boards with larger BIOS chips for Ryzen 3000 support and later added Ryzen 5000 support to many older boards. On AM5, MSI released updates for Ryzen 9000 and the X3D chips across its B650 and X670 lines.",
+        "Updates do occasionally introduce bugs, as they do for every brand. Read the release notes, keep a copy of the previous BIOS on a USB drive, and avoid beta versions unless you need a specific fix. MSI's Flash BIOS button makes rolling back easier than on boards without it."
+      ]
+    },
+    {
+      "h": "Who Should Skip MSI?",
+      "body": [
+        "Skip MSI if you want the most polished BIOS or the most premium extras at a given price; ASUS is often stronger there. Skip it if your budget is tight and you only need a Gen5 M.2 slot, since Gigabyte often offers that for less. And skip MSI's power supplies if you want the quietest unit or the longest warranty, where Corsair and Seasonic usually lead.",
+        "If you are building a white or themed PC, check ASRock's Steel Legend boards too. MSI makes white boards, but its best-value models lean toward dark styling."
+      ]
+    },
+    {
+      "h": "Are MSI Power Supplies Any Good?",
+      "body": [
+        "MSI power supplies are decent, with the MAG A750GL PCIE5 as the standout value. Independent reviews generally rate its electrical performance as solid for a budget Gold unit. It covers most midrange builds with a native 12V-2x6 cable.",
+        "Above $100, MSI faces strong rivals. The Corsair RM850x and Seasonic Focus GX-850 offer quieter fans and long warranties for a bit more. Our [best power supply](/best-power-supply/) guide compares them."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Mixing up model names", "MSI sells near-identical boards with different suffixes, such as WiFi vs non-WiFi, MAX, II, or PRO -A vs -P. These can differ in networking, VRM or M.2 slots. Check the full model name and MSI's spec page before buying to avoid getting the wrong board."],
+    ["Installing MSI Center by default", "MSI Center is optional and often criticized for its size and number of modules. Most users can set fan curves, EXPO and RGB in the BIOS instead. If you install it, add only the modules you need, and remove it if it causes trouble."],
+    ["Paying MPG prices for MAG features", "MPG and MEG boards cost far more than the Tomahawk but add features many gaming builds never use, such as extra M.2 slots and POST code displays. Compare the specs closely and buy the higher tier only for a feature you need."],
+    ["Downloading BIOS files from unofficial sites", "After MSI's 2023 breach, the company advised getting firmware only from its official support pages. That applies to every brand. Use the board's own support page, match the exact model and revision, and read the release notes before flashing anything to the board."],
+    ["Buying the B550 Tomahawk for a new build", "The B550 Tomahawk is excellent for AM4 owners, but AM4 is at the end of its life. If you are buying CPU, board and RAM from scratch, the B650 Tomahawk on AM5 costs a little more and gives you years of CPU upgrades."]
+  ],
+  "bottomLine": "MSI makes some of the best-value motherboards you can buy, led by the MAG B650 Tomahawk WiFi at $170–$200. Choose the X870 Tomahawk for USB4 and PCIe 5.0, the PRO B650M-A WiFi for a budget micro-ATX build, and the B550 Tomahawk only if you are staying on AM4. MSI's weaker spots are confusing model names, bloated software and fewer premium extras, so check specs carefully. Its MAG A750GL PCIE5 is a solid budget PSU.",
+  "faqs": [
+    {
+      "q": "Is MSI a good motherboard brand?",
+      "a": "Yes, MSI is a good motherboard brand, especially for value. Its Tomahawk boards have ranked near the top of independent VRM roundups in their price class for several generations. MSI is one of the four largest motherboard makers, alongside ASUS, Gigabyte and ASRock."
+    },
+    {
+      "q": "What is the best MSI motherboard for gaming?",
+      "a": "The MSI MAG B650 Tomahawk WiFi is the best MSI motherboard for gaming in 2026. It runs any Ryzen 7000 or 9000 chip at full speed, including the Ryzen 7 9800X3D, and includes Wi-Fi 6E, 2.5 GbE and a Flash BIOS button for $170–$200."
+    },
+    {
+      "q": "Is MSI better than ASUS?",
+      "a": "Neither is better across the board. MSI usually offers stronger VRMs for the money in the midrange, while ASUS tends to lead on BIOS polish and premium features. ASUS boards often cost a little more for similar specs. Compare the specific models at your price."
+    },
+    {
+      "q": "What does Tomahawk mean on MSI boards?",
+      "a": "Tomahawk is a model name within MSI's MAG gaming tier. Tomahawk boards focus on strong power delivery and practical features at a mainstream price, without heavy RGB or premium extras. MSI uses the name across AMD and Intel chipsets, such as B550, B650 and X870."
+    },
+    {
+      "q": "Do I need MSI Center?",
+      "a": "No, you do not need MSI Center. Fan curves, memory profiles, boot settings and most RGB controls are available in the BIOS. MSI Center is useful mainly for software-controlled lighting and some monitoring features. If you install it, choose only the modules you need."
+    },
+    {
+      "q": "How do I update an MSI motherboard BIOS?",
+      "a": "Use the Flash BIOS button if your board has one. Download the BIOS for your exact model from MSI's support page, copy it to a FAT32 USB drive and rename it as the manual says. Plug it into the labeled port, press the button and wait for the light to stop flashing."
+    },
+    {
+      "q": "Are MSI power supplies reliable?",
+      "a": "MSI power supplies like the MAG A750GL PCIE5 are generally rated as solid for their price by independent reviews. They suit budget and midrange builds. If you want a quieter unit or a longer warranty, the Corsair RM850x or Seasonic Focus GX-850 cost more but lead in those areas."
+    }
+  ],
+  "sources": [
+    "MSI corporate profile and motherboard product pages",
+    "MSI MAG B650 Tomahawk WiFi, MAG X870 Tomahawk WiFi, PRO B650M-A WiFi and MAG B550 Tomahawk spec pages and manuals",
+    "MSI MAG A750GL PCIE5 product page",
+    "MSI security advisory on the 2023 cyberattack",
+    "Independent VRM thermal and motherboard reviews from established hardware outlets",
+    "Independent power supply reviews",
+    "Owner reports on BIOS stability and MSI Center from enthusiast forums"
+  ],
+  "related": ["best-am5-motherboard", "best-motherboard-for-ryzen-9-3950x", "corsair-review"]
+}

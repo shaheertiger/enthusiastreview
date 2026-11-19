@@ -1,0 +1,152 @@
+{
+  "slug": "amd-vs-intel",
+  "type": "article",
+  "kind": "versus",
+  "category": "processors",
+  "title": "AMD vs Intel (2026): Which CPU Is Better for Gaming and Work?",
+  "h1": "AMD vs Intel: Which CPU Is Better?",
+  "query": "intel vs amd",
+  "description": "AMD is the better CPU for gaming in 2026: the Ryzen 7 9800X3D leads independent reviews. Intel's Core Ultra chips give more cores per dollar for heavy work.",
+  "dek": "Who wins for gaming, editing, efficiency and upgrades, and which chip to buy at each budget.",
+  "quickAnswer": "For gaming, buy AMD: the Ryzen 7 9800X3D ($450 to $480) is the fastest gaming CPU in independent reviews, and AM5 has a longer upgrade path. For multi-threaded work on a budget, Intel is strong: the 20-core Core Ultra 7 265K ($260 to $300) beats similarly priced Ryzen chips in rendering and compiling. For a cheap all-rounder, the Ryzen 5 7600 ($170 to $200) is hard to beat.",
+  "intro": [
+    "AMD vs Intel is not one question. It is five: what you play, what you create, how much heat you can live with, how long you keep a motherboard, and what you can spend. This page answers each one in turn, then pairs the current chips at every budget.",
+    "Everything here is based on manufacturer spec sheets and the broad pattern of independent reviews. We have not bench-tested these processors ourselves, so you will see relative claims rather than frame-rate figures."
+  ],
+  "sections": [
+    {
+      "h": "Is AMD or Intel Better for Gaming?",
+      "body": [
+        "AMD is better for gaming in 2026, and it is not especially close at the top. The Ryzen 7 9800X3D, Ryzen 9 9950X3D and Ryzen 7 7800X3D hold the top three spots in independent reviews' gaming averages. Intel's fastest current chip, the Core Ultra 9 285K, lands behind the 7800X3D, a part that launched in 2023.",
+        "The reason is AMD's [3D V-Cache](/glossary/3d-v-cache/). X3D chips stack an extra 64 MB of L3 cache onto the processor, so the eight-core 9800X3D carries 96 MB in total. Games constantly fetch scattered data such as physics, AI and draw calls, and a bigger cache means fewer slow trips to system memory. The gain is largest in simulation, strategy and open-world games, and in 1 percent lows, which is what you feel as smoothness.",
+        "Below the X3D tier the race is much closer. The Ryzen 5 9600X, Core Ultra 5 245K and Ryzen 5 7600 sit within a few percent of each other in games, and with a mid-range graphics card at 1440p you are usually limited by the GPU anyway. In that bracket, choose on price, platform cost and what else you do with the PC.",
+        "Intel's Arrow Lake chips (Core Ultra 200S) also had a rough start. Launch reviews showed weaker gaming results than Intel's older 14th gen, and later BIOS and microcode updates recovered part of the gap. If you buy one, update the BIOS before you judge it."
+      ]
+    },
+    {
+      "h": "Which Is Better for Productivity and Multi-Threaded Work?",
+      "body": [
+        "Intel gives you more cores for the money in the mid-range, while AMD owns the very top. The Core Ultra 7 265K has 20 cores (8 performance and 12 efficient) and sells for about the price of AMD's eight-core Ryzen 7 9700X. In rendering, code compiling and other work that uses every core, independent reviews show the 265K well ahead of the 9700X and in the same range as AMD's 12-core Ryzen 9 chips.",
+        "The same pattern holds one step down. The 14-core Core Ultra 5 245K clearly beats the six-core Ryzen 5 9600X in multi-threaded tests, even though the two trade blows in games.",
+        "At the high end, AMD's 16-core Ryzen 9 9950X and 9950X3D are the strongest mainstream desktop chips for heavy work, and the 9950X3D adds near-9800X3D gaming speed on top. If you render, compile or run simulations for a living and also game, the 9950X3D is the one chip that does both at the top level, at $650 to $700.",
+        "For office work, browsing and light photo editing, every chip on this page is more than fast enough. Do not pay for cores you will not use."
+      ]
+    },
+    {
+      "h": "AMD or Intel for Video and Photo Editing?",
+      "body": [
+        "Intel has a real edge for video editing on a budget, thanks to Quick Sync. Every Intel desktop chip with integrated graphics (the models without an F suffix) includes Intel's media engine, which decodes and encodes common camera formats in hardware. In Premiere Pro and DaVinci Resolve, that makes timeline scrubbing smoother with long-GOP footage such as H.264 and HEVC.",
+        "The biggest win is 10-bit 4:2:2 HEVC, the format many Sony, Canon and Panasonic mirrorless cameras record. Intel's media engine decodes it in hardware. AMD's integrated graphics and Radeon cards do not, so on an AMD system that footage falls back to the CPU and feels sluggish unless you create proxies. NVIDIA's RTX 50 series cards added 4:2:2 decode, which narrows the gap if your build already has one.",
+        "Core counts matter for exports and effects. Independent content-creation reviews generally show the 265K strong for the money in Premiere Pro and Resolve, while the 16-core Ryzen 9 chips lead in heavy CPU rendering. For photo editing in Lightroom and Photoshop, both brands perform well, and fast single-core speed matters as much as core count.",
+        "Avoid KF and F models if you edit video. They drop the integrated graphics, and with it Quick Sync."
+      ]
+    },
+    {
+      "h": "Which Brand Is More Power Efficient?",
+      "body": [
+        "AMD is more efficient, especially in games. The Ryzen 5 9600X and Ryzen 7 9700X carry a 65 W [TDP](/glossary/tdp/) with an 88 W package limit, and the 9800X3D is rated at 120 W. Intel rates the Core Ultra 7 265K at 125 W base power and 250 W maximum turbo power.",
+        "Arrow Lake is a big step forward from Intel's 13th and 14th gen, which ran hot and drew a lot of power under load. Independent reviews still show Ryzen chips using less power on average while gaming, which means less heat to remove and a quieter PC. A good dual-tower air cooler handles any chip here, but the Ryzen 6- and 8-core parts are easier to cool in small cases.",
+        "Under all-core loads, Intel's efficient cores help, and the 265K's performance per watt in rendering is competitive. The gap that matters to most buyers is the gaming one, and there AMD leads."
+      ]
+    },
+    {
+      "h": "Which Platform Lasts Longer: AM5 or LGA 1851?",
+      "body": [
+        "AM5 has the better upgrade path. AMD launched the socket in 2022 with Ryzen 7000, kept it for Ryzen 9000, and has said it will support AM5 through at least 2027. A B650 or X870 board bought today can likely take a future Ryzen with a BIOS update.",
+        "LGA 1851 launched in late 2024 with the Core Ultra 200S chips. Intel has not committed to more generations on it, and its next major desktop family is widely reported to use a new socket. Historically, Intel sockets have lasted two generations. Buy an LGA 1851 board for the chip you are buying now, not for upgrades.",
+        "Both platforms use DDR5 only. AMD's sweet spot is a DDR5-6000 kit with an [EXPO profile](/glossary/amd-expo/), while Arrow Lake is rated for DDR5-6400 and benefits from faster kits. DDR5 prices have risen sharply since late 2025, so memory can now cost as much as a mid-range CPU. That cost is the same on both sides, but it changes the math if you are weighing a new platform against a drop-in upgrade.",
+        "If you own an AM4 board, there is a third option: the Ryzen 7 5700X3D drops into most B450 and B550 boards after a BIOS update and keeps your DDR4. See [best CPU for gaming](/best-cpu-for-gaming/) for how it compares with a full rebuild."
+      ]
+    },
+    {
+      "h": "AMD vs Intel at Every Budget",
+      "body": [
+        "Here is how the current chips line up by street price. Gaming ranks follow the broad pattern of independent reviews at 1080p with a fast GPU; at 1440p and 4K the gaps shrink because the graphics card does more of the work."
+      ],
+      "table": {
+        "caption": "AMD vs Intel matchups by budget, 2026 street prices",
+        "head": ["Budget", "AMD pick", "Intel pick", "Better for gaming", "Better for multi-thread"],
+        "rows": [
+          ["$170–$200", "Ryzen 5 7600 (cooler included)", "Core i5-14400F (older LGA 1700)", "Ryzen 5 7600", "Close, slight edge i5-14400F"],
+          ["$190–$230", "Ryzen 5 9600X", "Core Ultra 5 245K", "Ryzen 5 9600X, slightly", "Core Ultra 5 245K, clearly"],
+          ["$260–$330", "Ryzen 7 9700X", "Core Ultra 7 265K", "Close, slight edge 9700X", "Core Ultra 7 265K, clearly"],
+          ["$360–$420", "Ryzen 7 7800X3D", "No gaming rival", "Ryzen 7 7800X3D", "Core Ultra 7 265K costs less"],
+          ["$450–$480", "Ryzen 7 9800X3D", "No gaming rival", "Ryzen 7 9800X3D", "Core Ultra 7 265K costs less"],
+          ["$650–$700", "Ryzen 9 9950X3D", "Core Ultra 9 285K", "Ryzen 9 9950X3D", "Close, both 24 threads or more"]
+        ]
+      },
+      "list": [
+        "Gaming on a budget: [Ryzen 5 7600](/gear/ryzen-5-7600/), or the [Ryzen 5 9600X vs Ryzen 5 7600](/compare/ryzen-5-9600x-vs-ryzen-5-7600/) step-up if the gap is small.",
+        "Mixed gaming and work under $250: read [Core Ultra 5 245K vs Ryzen 5 9600X](/compare/core-ultra-5-245k-vs-ryzen-5-9600x/).",
+        "Upper mid-range: [Ryzen 7 9800X3D vs Core Ultra 7 265K](/compare/ryzen-7-9800x3d-vs-core-ultra-7-265k/) is the clearest gaming-versus-cores decision.",
+        "No compromise: the [Ryzen 9 9950X3D](/gear/ryzen-9-9950x3d/) for gaming plus heavy rendering."
+      ]
+    },
+    {
+      "h": "Should Old Intel Problems Affect Your Choice?",
+      "body": [
+        "They should affect what you buy used, not the brand you pick. In 2024, Intel confirmed that many 13th and 14th gen Core i7 and i9 desktop chips could degrade from excessive voltage, causing crashes. Intel released microcode fixes and extended the warranty on affected processors. The Core Ultra 200S chips use a different design and are not part of that issue.",
+        "If you are buying a second-hand 13th or 14th gen i7 or i9, ask whether the BIOS was updated early and check the warranty status. AMD has had its own launch-day firmware problems, including early AM5 boards with memory training and voltage bugs that BIOS updates fixed. On either platform, update the BIOS on a new build."
+      ]
+    },
+    {
+      "h": "Does Your Graphics Card Change the Answer?",
+      "body": [
+        "Yes. The faster your GPU, the more the CPU choice matters for games. With an RTX 5080 or RTX 5090, an X3D chip pulls clearly ahead, especially at 1080p and 1440p with high refresh rates. With an RTX 5060 or RX 9060 XT 16GB at 1440p, the GPU sets the frame rate and a Ryzen 5 7600 performs close to a 9800X3D in most games.",
+        "Use the [bottleneck calculator](/tools/bottleneck-calculator/) to see where your pairing sits, and read about [CPU bottlenecks](/glossary/cpu-bottleneck/) before spending more on a processor than on the graphics card."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying an X3D chip for a budget GPU", "A 9800X3D paired with an entry-level card at 1440p spends most of its time waiting on the GPU. Put the extra money into the graphics card first, then upgrade the CPU later on AM5 if you start to see a CPU limit."],
+    ["Choosing a KF chip for video editing", "Intel's KF and F models have no integrated graphics, so they lose Quick Sync. If you edit phone or mirrorless camera footage, the small saving costs you smooth hardware decoding of HEVC and 4:2:2 files."],
+    ["Ignoring the memory bill", "DDR5 prices climbed steeply after late 2025. A new AM5 or LGA 1851 build needs a DDR5 kit, so price the CPU, motherboard and memory together before comparing brands."],
+    ["Judging Arrow Lake on a launch BIOS", "Core Ultra 200S performance improved with later microcode and BIOS updates. Flash the latest BIOS before testing games, or you may blame the chip for a firmware problem."]
+  ],
+  "bottomLine": "For a gaming PC, buy AMD. The Ryzen 7 9800X3D is the fastest gaming CPU you can get, and AM5 keeps an upgrade path open through at least 2027. For multi-threaded work on a budget, or video editing with camera footage, Intel's Core Ultra 7 265K and Core Ultra 5 245K give more cores and Quick Sync for the money. If you do both at a high level, the Ryzen 9 9950X3D is the one chip that does not make you choose.",
+  "faqs": [
+    {
+      "q": "Is AMD better than Intel in 2026?",
+      "a": "AMD is better for gaming and efficiency in 2026, and Intel is better value for multi-threaded work in the $200 to $300 range. The Ryzen 7 9800X3D leads gaming averages in independent reviews, while the 20-core Core Ultra 7 265K beats similarly priced Ryzen chips in rendering and compiling. Choose by what you run most."
+    },
+    {
+      "q": "Is AMD or Intel better for gaming?",
+      "a": "AMD is better for gaming. Its X3D chips, led by the Ryzen 7 9800X3D, top independent gaming reviews thanks to 96 MB of L3 cache. Intel's fastest current chip, the Core Ultra 9 285K, trails even the older Ryzen 7 7800X3D in games. Below $250 the two brands are close."
+    },
+    {
+      "q": "Is Intel or AMD better for video editing?",
+      "a": "Intel is often the better value for video editing, because Quick Sync decodes H.264, HEVC and 10-bit 4:2:2 camera footage in hardware for smoother timelines. AMD's 16-core Ryzen 9 chips lead in heavy CPU rendering. Avoid Intel F and KF models, which drop Quick Sync."
+    },
+    {
+      "q": "Do Intel CPUs run hotter than AMD?",
+      "a": "Usually yes. Intel's Core Ultra 7 265K is rated for 250 W maximum turbo power, while the Ryzen 7 9800X3D is rated at 120 W TDP and the Ryzen 5 9600X at 65 W. Arrow Lake runs much cooler than Intel's 14th gen, but Ryzen chips still draw less power in games."
+    },
+    {
+      "q": "Is AM5 or LGA 1851 better for upgrading later?",
+      "a": "AM5 is better for upgrades. AMD has supported it since 2022 across two Ryzen generations and has said it will continue through at least 2027. Intel has not committed to future chips on LGA 1851, and its next desktop family is widely reported to need a new socket."
+    },
+    {
+      "q": "Which is better value under $250, AMD or Intel?",
+      "a": "It depends on use. For pure gaming, the Ryzen 5 7600 ($170 to $200) includes a cooler and plays games close to the 9600X. For gaming plus heavy multi-threaded work, the 14-core Core Ultra 5 245K ($200 to $230) is the stronger all-rounder."
+    },
+    {
+      "q": "Does it matter whether I pair an AMD CPU with an NVIDIA GPU?",
+      "a": "No. AMD and Intel CPUs work equally well with NVIDIA and AMD graphics cards. Enable Resizable BAR in the BIOS on either platform, and pick the GPU on its own merits. Our [NVIDIA vs AMD](/nvidia-vs-amd/) page covers that side of the choice."
+    },
+    {
+      "q": "Are Intel 13th and 14th gen CPUs safe to buy?",
+      "a": "New ones are, with the latest BIOS installed. Intel released microcode fixes for the voltage-related degradation found on many 13th and 14th gen i7 and i9 chips and extended their warranty. Be careful with used chips whose history you cannot check."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 9000 and Ryzen 7000 series product specifications",
+    "Intel Core Ultra 200S series product specifications and ark.intel.com listings",
+    "Intel statements on 13th and 14th gen instability, microcode updates and warranty extension",
+    "AMD statements on AM5 socket support through 2027",
+    "Independent CPU reviews from TechPowerUp, Hardware Unboxed, Gamers Nexus and Tom's Hardware",
+    "Independent content-creation reviews from Puget Systems",
+    "Retail price tracking for DDR5 memory, late 2025 to 2026"
+  ],
+  "products": ["ryzen-7-9800x3d", "ryzen-9-9950x3d", "ryzen-7-7800x3d", "ryzen-7-9700x", "ryzen-5-9600x", "ryzen-5-7600", "core-ultra-7-265k", "core-ultra-5-245k"],
+  "related": ["best-cpu-for-gaming", "intel-vs-amd-cpu-equivalents", "best-am5-motherboard"]
+}

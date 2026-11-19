@@ -1,0 +1,269 @@
+{
+  "slug": "best-ram-for-gaming",
+  "type": "roundup",
+  "category": "memory",
+  "title": "Best RAM for Gaming (2026): 6 DDR5 and DDR4 Kits Ranked",
+  "h1": "Best RAM for Gaming",
+  "query": "best ram for gaming",
+  "description": "32 GB of DDR5-6000 CL30 is the best RAM for gaming, and the G.Skill Flare X5 is our pick: EXPO, 1.35 V, 33 mm tall. 6 kits ranked; prices rose from late 2025.",
+  "dek": "For a new gaming PC, buy two 16 GB sticks of DDR5-6000 CL30. Here is which kit, and when to spend more or less.",
+  "intro": [
+    "The G.Skill Flare X5 32GB (2x16GB) DDR5-6000 CL30 is the best RAM for gaming in 2026. DDR5-6000 CL30 is the widely recommended sweet spot for AMD's AM5 platform, 32 GB is the right amount for current games, and this kit's 33 mm height clears almost any air cooler.",
+    "This guide is for anyone building or upgrading a gaming PC. Picks are matched to platform (AM5, Intel or older DDR4 systems) and to need: plain, RGB or 64 GB. DRAM prices rose sharply from late 2025, so every price here is a band, and the bands are wide."
+  ],
+  "quickAnswer": "Buy the G.Skill Flare X5 32GB DDR5-6000 CL30 for an AM5 build, or the Corsair Vengeance DDR5-6000 CL30 in its XMP version for Intel. Both sit in the $110–$200 band after late-2025 price rises. Step up to the 64 GB G.Skill Trident Z5 Neo RGB ($220–$400) for streaming or creative work. On DDR4, the G.Skill Ripjaws V DDR4-3600 CL16 ($70–$110) is the pick.",
+  "picks": [
+    {
+      "id": "gskill-flare-x5-ddr5-6000-cl30",
+      "label": "Best Overall",
+      "bestFor": "AM5 gaming builds with a Ryzen 7000 or 9000 CPU, especially under a large air cooler",
+      "skipIf": "you want RGB lighting or are building on Intel, where an XMP kit is the safer match",
+      "writeup": [
+        "The Flare X5 is the kit we would put in almost any AM5 gaming PC. It runs DDR5-6000 at CL30, the combination AMD and most reviewers point to as the sweet spot for Ryzen 7000 and 9000. At that speed, the memory controller runs in sync with the memory, and first-word latency works out to 10 ns.",
+        "G.Skill built it around AMD EXPO, so turning on one BIOS setting gets you the rated speed on a supported AM5 board. It runs at 1.35 V, slightly lower than some rivals at the same speed. Its heat spreader is about 33 mm tall, low enough to fit under a dual-tower cooler like the Thermalright Peerless Assassin 120 SE without shifting the front fan.",
+        "Two 16 GB sticks also mean one stick per channel, which is the easiest load for a memory controller and the most likely to run EXPO speeds without fuss.",
+        "Prices are the catch. Like every DDR5 kit, the Flare X5 got much more expensive after late 2025, and its band now runs $110–$200. Shop around, because identical speed and latency from Corsair or Kingston can be cheaper on a given day."
+      ],
+      "pros": ["DDR5-6000 CL30 sweet spot for AM5", "EXPO profile at 1.35 V", "About 33 mm tall"],
+      "cons": ["No RGB", "Price swings since late 2025"]
+    },
+    {
+      "id": "corsair-vengeance-ddr5-6000-cl30",
+      "label": "Best for Intel or AMD",
+      "bestFor": "Intel Core Ultra builds, or anyone who wants the same kit sold in XMP and EXPO versions",
+      "skipIf": "you need the lowest possible height or voltage",
+      "writeup": [
+        "Corsair's Vengeance 32GB DDR5-6000 CL30 earns its place by being easy to match to any platform. Corsair sells it in an XMP 3.0 version for Intel boards and an EXPO version for AM5, at the same speed and latency, so you can buy the exact profile for your motherboard.",
+        "For a Core Ultra 7 265K or Core Ultra 5 245K, the XMP version is a sensible default. Intel officially supports DDR5-6400 on Arrow Lake, and those chips can use faster memory, but DDR5-6000 CL30 is a well-balanced, low-risk kit that will not cause boot problems. On AM5, the EXPO version does exactly what the Flare X5 does.",
+        "The kit runs at 1.40 V and stands about 35 mm tall. That is a hair taller than the Flare X5, but it still fits under most air coolers. It has no RGB, so you do not need Corsair's iCUE software unless you already use it.",
+        "Its price band is the same as the other 32 GB DDR5-6000 kits, $110–$200. Buy whichever of the three plain kits is cheapest when you shop."
+      ],
+      "pros": ["XMP and EXPO versions", "No software needed", "About 35 mm tall"],
+      "cons": ["1.40 V, slightly higher than the Flare X5", "Easy to buy the wrong profile version"]
+    },
+    {
+      "id": "kingston-fury-beast-ddr5-6000-cl30",
+      "label": "Best Plain Alternative",
+      "bestFor": "AM5 builders who want a plain, low kit when the G.Skill or Corsair is out of stock or pricier",
+      "skipIf": "you want RGB or a 64 GB capacity",
+      "writeup": [
+        "Kingston's Fury Beast 32GB DDR5-6000 CL30 is the third of the plain 32 GB kits we would happily buy. Specs match the Flare X5 and Vengeance: DDR5-6000 at CL30, an EXPO profile for AM5, and 1.40 V. The heat spreader is about 34.9 mm tall.",
+        "There is no performance reason to prefer one of these three over another. They run the same speed and the same primary latency on the same platform. What separates them is price on the day and small physical differences, such as height under a cooler with a low front fan.",
+        "Kingston is one of the largest memory brands in the world, and Fury Beast kits are widely listed on motherboard qualified vendor lists. That can be reassuring if your board is less common or you want a kit that appears by part number on your motherboard maker's support page.",
+        "Use this pick as your backup. If the Flare X5 and Vengeance are both at the top of the $110–$200 band and the Fury Beast is $20 lower, buy the Kingston."
+      ],
+      "pros": ["Same speed and latency as the top picks", "EXPO version for AM5", "Broad board support"],
+      "cons": ["Nothing to set it apart beyond price", "No RGB in this version"]
+    },
+    {
+      "id": "teamgroup-t-force-delta-rgb-ddr5-6000",
+      "label": "Best RGB Kit",
+      "bestFor": "builders who want lit-up memory in a glass-sided case without paying for a premium brand",
+      "skipIf": "you use a large dual-tower air cooler that overhangs the memory slots",
+      "writeup": [
+        "If you want RGB on your memory, the TeamGroup T-Force Delta RGB 32GB DDR5-6000 CL30 delivers it without a big premium. It runs the same DDR5-6000 CL30 sweet spot as the plain kits, with XMP and EXPO support, and a wide diffuser bar across the top.",
+        "The trade-off is height. At about 46 mm tall, it is roughly 13 mm taller than the Flare X5. That matters with big air coolers, where the front fan often sits over the first memory slot. Check your cooler's RAM clearance before you buy, or plan on an AIO liquid cooler, which leaves the slots clear.",
+        "Lighting is usually controlled through your motherboard's RGB software, so you do not need a separate memory app. If you do not care about lighting, the plain kits above are cheaper and lower.",
+        "The band is $120–$210, typically $10 or so above the plain kits. That gap is small enough that RGB is a reasonable splurge, provided it fits."
+      ],
+      "pros": ["RGB at a modest premium", "DDR5-6000 CL30", "XMP and EXPO support"],
+      "cons": ["About 46 mm tall", "Can clash with large air coolers"]
+    },
+    {
+      "id": "gskill-trident-z5-neo-rgb-ddr5-6000-64gb",
+      "label": "Best 64 GB Kit",
+      "bestFor": "gamers who also stream, edit video, run large mod lists or keep many apps open",
+      "skipIf": "you only play games, where 32 GB is enough and half the price",
+      "writeup": [
+        "The G.Skill Trident Z5 Neo RGB 64GB (2x32GB) DDR5-6000 CL30 is the kit to buy if 32 GB is not enough. It runs the same DDR5-6000 CL30 sweet spot on AM5, with an EXPO profile and RGB, in two 32 GB sticks.",
+        "Two sticks is the important part. On AM5, four DDR5 sticks put more load on the memory controller, and boards often cannot reach DDR5-6000 with all four slots filled. If you want 64 GB, buy it as two 32 GB modules, not as two separate 2x16 GB kits.",
+        "Who needs 64 GB? Mostly people doing more than gaming: streaming while playing, editing high-resolution video, running virtual machines, or loading heavily modded simulation and strategy games. For pure gaming, 32 GB still covers current titles, and the extra capacity will sit idle.",
+        "The band is $220–$400, roughly double a 32 GB kit. It is about 44 mm tall, so check cooler clearance."
+      ],
+      "pros": ["64 GB in two sticks", "DDR5-6000 CL30 with EXPO", "RGB"],
+      "cons": ["Roughly double the price of 32 GB", "About 44 mm tall"]
+    },
+    {
+      "id": "gskill-ripjaws-v-ddr4-3600-cl16",
+      "label": "Best DDR4 Kit",
+      "bestFor": "AM4 and DDR4 Intel systems getting a memory upgrade or a new CPU like the Ryzen 7 5700X3D",
+      "skipIf": "you are building a new PC, where DDR5 on AM5 is the better platform",
+      "writeup": [
+        "Not every gaming PC is new. If you are upgrading an AM4 system, perhaps with a Ryzen 7 5700X3D, or keeping a DDR4 Intel board, the G.Skill Ripjaws V 32GB DDR4-3600 CL16 is the kit to get. DDR4-3600 lets Ryzen 3000 and 5000 CPUs run their Infinity Fabric at 1,800 MHz in sync with the memory, which is the best balance for those chips.",
+        "It runs at 1.35 V via XMP 2.0, and its 42 mm heat spreader fits under most coolers. First-word latency is about 8.9 ns, lower on paper than DDR5-6000 CL30, though DDR5 offers far more bandwidth.",
+        "DDR4 is no longer the cheap option it once was. As memory makers cut DDR4 production, its prices climbed alongside DDR5. The band is $70–$110, still well below DDR5 kits, but supply is shrinking.",
+        "Our [best RAM for Ryzen 9 3900X and 3950X](/best-ram-for-ryzen-9-3900x-and-3950x/) guide covers DDR4 tuning on AM4 in more depth."
+      ],
+      "pros": ["DDR4-3600 CL16 for 1:1 on Ryzen", "42 mm height", "Much cheaper than DDR5"],
+      "cons": ["Dead-end platform for new builds", "DDR4 supply shrinking"]
+    }
+  ],
+  "tableSpecs": ["Capacity", "Speed", "CAS latency", "Profile", "Height"],
+  "ranking": {
+    "intro": "These rankings are based on manufacturer specifications, AMD and Intel memory guidance, motherboard qualified vendor lists, published independent reviews, owner reports and recent street prices. We did not bench-test any of these kits. Because DRAM prices have moved so much since late 2025, we rank on specs and fit first and treat price as a band.",
+    "criteria": [
+      ["Speed and latency for the platform", "DDR5-6000 CL30 for AM5, a kit that suits Intel's memory controller, and DDR4-3600 CL16 for AM4."],
+      ["Capacity and stick count", "32 GB in two sticks for gaming, 64 GB in two sticks for heavier use. Four-stick kits ranked lower."],
+      ["Profile support", "An EXPO profile for AM5 or XMP for Intel, so rated speed takes one BIOS setting."],
+      ["Physical fit", "Height under common air coolers and voltage at rated speed."],
+      ["Price band", "Recent US street-price ranges, with the late-2025 increase in mind."]
+    ],
+    "why": "The Flare X5 won because it pairs the AM5 sweet spot of DDR5-6000 CL30 with an EXPO profile, a low 1.35 V and a 33 mm height that fits almost any build."
+  },
+  "mentions": [
+    {
+      "name": "DDR5-6400 CL32 kits",
+      "text": "DDR5-6400 CL32 has the same 10 ns first-word latency as DDR5-6000 CL30 with a little more bandwidth. Many Ryzen 9000 CPUs can run it in sync, but not every chip can, so it carries slightly more risk of needing manual tuning on AM5 for no clear gaming gain."
+    },
+    {
+      "name": "CUDIMM DDR5-8000 and faster kits",
+      "text": "Intel's Core Ultra 200S chips support CUDIMM memory, which adds a clock driver and allows much higher speeds. Fast CUDIMM kits can help Arrow Lake in some games, but they cost much more and do not suit AM5. Most gamers get better value spending that money on the GPU."
+    },
+    {
+      "id": "corsair-vengeance-lpx-ddr4-3200-cl16",
+      "text": "For a DDR4 system on a tight budget, the Vengeance LPX DDR4-3200 CL16 is a cheaper, 34 mm low-profile alternative to the Ripjaws V. It runs at the official speed of most DDR4 platforms but gives up the 1:1 DDR4-3600 setting that suits Ryzen best."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Is 32 GB of RAM Enough for Gaming in 2026?",
+      "body": [
+        "Yes. 32 GB is the right amount for a gaming PC in 2026. Most current games run comfortably within it, and it leaves room for Discord, a browser and launchers running in the background. It is also the capacity that the best-value DDR5 kits come in.",
+        "16 GB is now the minimum, not the target. Many recent games list 16 GB as their recommended spec, and with background apps open, a 16 GB system can start using the page file, which shows up as stutter. If you already have 16 GB and games run well, you do not need to rush, but a new build should start at 32 GB.",
+        "64 GB is for people who do more than play. Streaming, video editing, running virtual machines and heavily modded games can use it. For gaming alone, it adds cost without adding frames."
+      ],
+      "table": {
+        "caption": "How much RAM by use case",
+        "head": ["Use", "Capacity", "Typical kit"],
+        "rows": [
+          ["Light gaming, older titles", "16 GB", "2x8 GB"],
+          ["Gaming in 2026", "32 GB", "2x16 GB"],
+          ["Gaming plus streaming or heavy mods", "32–64 GB", "2x16 GB or 2x32 GB"],
+          ["Video editing, VMs, large projects", "64 GB or more", "2x32 GB"]
+        ]
+      }
+    },
+    {
+      "h": "Why Is DDR5-6000 CL30 the Sweet Spot on AM5?",
+      "body": [
+        "Because it is the fastest speed most Ryzen 7000 and 9000 CPUs can run with the memory controller in sync with the memory. AMD's chips have a memory controller clock (UCLK) that runs 1:1 with the memory clock up to about DDR5-6000 on almost every chip, and up to DDR5-6400 on some. Beyond that, the controller drops to half speed, and the extra latency usually cancels the benefit of faster memory.",
+        "CL30 is the tight latency kits commonly reach at that speed. To compare kits, convert CAS latency to nanoseconds: multiply CL by 2,000 and divide by the speed in MT/s. Lower is better, though bandwidth and secondary timings also matter, so treat this as a guide rather than the whole picture."
+      ],
+      "table": {
+        "caption": "First-word latency by kit (CL x 2,000 / MT/s)",
+        "head": ["Kit", "Latency", "AM5 controller mode", "Notes"],
+        "rows": [
+          ["DDR5-4800 CL40", "16.7 ns", "1:1", "JEDEC baseline, no EXPO"],
+          ["DDR5-5600 CL46", "16.4 ns", "1:1", "Typical plug-and-play speed"],
+          ["DDR5-5600 CL36", "12.9 ns", "1:1", "Budget EXPO kits"],
+          ["DDR5-6000 CL36", "12.0 ns", "1:1", "Common, slightly looser"],
+          ["DDR5-6000 CL30", "10.0 ns", "1:1", "AM5 sweet spot"],
+          ["DDR5-6400 CL32", "10.0 ns", "1:1 on some chips", "Small bandwidth gain"],
+          ["DDR5-7200 CL34", "9.4 ns", "Usually 2:1", "Better suited to Intel"],
+          ["DDR4-3600 CL16", "8.9 ns", "Not AM5 (AM4 sweet spot)", "Lower bandwidth than DDR5"]
+        ]
+      }
+    },
+    {
+      "h": "Does RAM Speed Matter on Ryzen?",
+      "body": [
+        "It matters, but less than it used to, and less than the GPU. Independent reviews consistently show that moving from slow plug-and-play DDR5 to DDR5-6000 CL30 with EXPO gives a measurable gain in CPU-limited games, especially at 1080p with a fast graphics card. At 1440p and 4K, where the GPU sets the pace, the difference shrinks.",
+        "X3D chips are the least sensitive. The Ryzen 7 9800X3D and 7800X3D carry 96 MB of L3 cache, so far more of a game's working data stays on the chip rather than in RAM. Reviews widely report that X3D parts gain less from faster memory than standard Ryzen chips like the Ryzen 5 9600X or Ryzen 7 9700X.",
+        "The practical advice is simple. Buy DDR5-6000 CL30, turn on EXPO, and stop there. Paying a large premium for faster kits on AM5 rarely shows up in games."
+      ]
+    },
+    {
+      "h": "What RAM Speed Is Best for Intel Core Ultra?",
+      "body": [
+        "For Intel Core Ultra 200S chips like the Core Ultra 7 265K, DDR5-6000 to DDR5-6400 is a safe, sensible target, and faster memory can help. Intel officially supports DDR5-6400 on Arrow Lake, and its memory controller can run much higher speeds, especially with CUDIMM modules.",
+        "Independent reviews show Arrow Lake tends to respond more to fast memory than AMD's X3D chips do. If you are buying a Core Ultra 7 265K for gaming and have room in the budget, a DDR5-7200 or faster kit with an XMP profile is reasonable. If the budget is tight, a DDR5-6000 CL30 XMP kit like the Corsair Vengeance is still a good match and a low-risk one."
+      ]
+    },
+    {
+      "h": "Why Did RAM Prices Go Up So Much?",
+      "body": [
+        "DRAM prices rose sharply from late 2025, and they have stayed volatile into 2026. The main driver is demand from AI data centers. Memory makers have shifted production toward high-bandwidth memory and server DRAM, which leaves less capacity for the consumer DDR5 sticks gamers buy.",
+        "DDR4 got hit too, for a different reason. Manufacturers announced they were winding down DDR4 production, and buyers with older systems rushed to stock up, pushing prices up just as supply shrank.",
+        "That is why the bands on this page are wide: $110–$200 for a 32 GB DDR5-6000 CL30 kit, and $220–$400 for 64 GB. Use price alerts, compare the three plain 32 GB kits on the day, and do not overpay for RGB or a brand when an identical spec costs less."
+      ]
+    },
+    {
+      "h": "Should You Use Two Sticks of RAM or Four?",
+      "body": [
+        "Use two sticks. On DDR5 platforms, especially AM5, two sticks are much easier for the memory controller to run at rated speed. Four sticks often force a lower speed than the kit's EXPO or XMP profile, and some boards will take a long time to train memory on first boot with all four slots filled.",
+        "If you think you will want 64 GB later, buy 2x32 GB now rather than 2x16 GB with plans to add a second kit. Mixing kits is also a common cause of instability, even when they share a model number, because memory chips can change between production runs.",
+        "On older DDR4 systems, four sticks are more forgiving, but two sticks still give the best chance of hitting rated speed."
+      ]
+    },
+    {
+      "h": "How Do You Turn On EXPO or XMP?",
+      "body": [
+        "Out of the box, every kit here runs at a slow default JEDEC speed, often DDR5-4800 or DDR5-5600. You need to enable its profile in the BIOS to get the rated speed. It takes a minute."
+      ],
+      "list": [
+        "Update your motherboard BIOS first. AM5 memory compatibility improved a lot with early updates.",
+        "Enter the BIOS (usually Delete or F2 at boot).",
+        "Find the memory profile setting, called EXPO on AMD boards and XMP on Intel boards.",
+        "Select profile 1 and save.",
+        "Expect the first boot to take longer while the board trains the memory; do not power off.",
+        "Check the speed in Windows Task Manager under Memory."
+      ]
+    },
+    {
+      "h": "Is DDR4 Still Worth Buying for Gaming?",
+      "body": [
+        "Only for a system you already own. If you have an AM4 board and want to drop in a Ryzen 7 5700X3D, or a DDR4 Intel 12th to 14th gen board, DDR4-3600 CL16 on Ryzen or DDR4-3200 to 3600 on Intel is a sensible upgrade.",
+        "For a new build, DDR4 is a dead end. AM5 and Intel's LGA 1851 platform are DDR5-only, and the price gap between DDR4 and DDR5 has narrowed as DDR4 production winds down. Spend the money on a DDR5 platform instead."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Forgetting to enable EXPO or XMP", "A DDR5-6000 kit runs at JEDEC speed until you enable its profile. Many new builders never do and lose performance they paid for. Turn it on in the BIOS and confirm the speed in Task Manager."],
+    ["Buying four sticks on AM5", "Four DDR5 sticks often will not run at rated speed on AM5 and can take a long time to train. For 64 GB, buy a 2x32 GB kit rather than two 2x16 GB kits."],
+    ["Ignoring cooler clearance", "RGB kits around 44–46 mm tall can hit the front fan of large air coolers. Check your cooler's RAM clearance spec or choose a low kit like the 33 mm Flare X5."],
+    ["Paying extra for speed AM5 cannot use", "DDR5-7200 and faster kits usually force AM5's memory controller out of 1:1 mode. Unless you are tuning by hand, the extra cost buys little in games over DDR5-6000 CL30."],
+    ["Mixing kits", "Adding a second kit to an existing pair, even with the same model number, is a common cause of crashes. Memory chips change between batches. Buy the full capacity you want as one kit."]
+  ],
+  "bottomLine": "For most gaming PCs in 2026, buy 32 GB of DDR5-6000 CL30 in two sticks. The G.Skill Flare X5 is our pick for AM5, the Corsair Vengeance XMP version suits Intel, and the Kingston Fury Beast is the backup when it is cheaper. Choose the TeamGroup Delta RGB for lighting, the 64 GB Trident Z5 Neo for streaming or creative work, and the Ripjaws V DDR4-3600 for AM4 upgrades. Prices are volatile after late 2025, so compare on the day.",
+  "faqs": [
+    {
+      "q": "What is the best RAM for gaming in 2026?",
+      "a": "The best RAM for gaming in 2026 is a 32 GB (2x16GB) DDR5-6000 CL30 kit, such as the G.Skill Flare X5. That speed and latency is the sweet spot for AMD's AM5 platform and works well on Intel. Prices rose sharply from late 2025, so expect $110–$200."
+    },
+    {
+      "q": "Is 16 GB of RAM enough for gaming?",
+      "a": "16 GB is enough for many games but is now the minimum rather than the target. Recent titles often recommend 16 GB, and background apps can push a 16 GB system into using the page file, which causes stutter. For a new build, buy 32 GB."
+    },
+    {
+      "q": "Is DDR5-6000 CL30 better than DDR5-6400 CL32?",
+      "a": "They have the same 10 ns first-word latency, so performance is very close. DDR5-6000 CL30 is the safer choice on AM5 because almost every Ryzen 7000 and 9000 chip runs it in 1:1 mode. DDR5-6400 adds a little bandwidth but may need tuning on some chips."
+    },
+    {
+      "q": "Does RAM speed matter for the Ryzen 7 9800X3D?",
+      "a": "RAM speed matters less on the Ryzen 7 9800X3D than on standard Ryzen chips, because its 96 MB L3 cache keeps more game data on the chip. DDR5-6000 CL30 with EXPO is still the right pairing. Paying more for faster kits brings little benefit in games."
+    },
+    {
+      "q": "Why is RAM so expensive right now?",
+      "a": "RAM prices rose sharply from late 2025 because memory makers shifted production toward AI data center memory, leaving less supply for consumer DDR5. DDR4 also rose as production wound down. Prices remain volatile, so compare kits with the same specs and use price alerts."
+    },
+    {
+      "q": "Should I buy 64 GB of RAM for gaming?",
+      "a": "Most gamers do not need 64 GB. 32 GB covers current games with background apps. Choose 64 GB if you also stream, edit video, run virtual machines or play heavily modded games, and buy it as two 32 GB sticks for the best stability on AM5."
+    },
+    {
+      "q": "Is XMP or EXPO RAM better for AMD?",
+      "a": "EXPO is the better match for AMD AM5 boards, because the profile is designed for AMD's memory controller. XMP kits often work on AM5 too, but may need manual adjustment. On Intel, XMP is the standard; some EXPO kits also carry an XMP profile."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 7000 and 9000 memory guidance and EXPO documentation",
+    "Intel Core Ultra 200S specifications and XMP documentation",
+    "G.Skill Flare X5, Trident Z5 Neo RGB and Ripjaws V product pages",
+    "Corsair Vengeance DDR5 and Vengeance LPX product pages",
+    "Kingston Fury Beast DDR5 and TeamGroup T-Force Delta RGB product pages",
+    "Motherboard qualified vendor lists (MSI, ASUS, Gigabyte, ASRock)",
+    "Published independent memory scaling reviews",
+    "DRAM market reporting on 2025–2026 price increases"
+  ],
+  "related": ["best-ram-for-ryzen-9-3900x-and-3950x", "best-cpu-for-gaming", "best-am5-motherboard"]
+}

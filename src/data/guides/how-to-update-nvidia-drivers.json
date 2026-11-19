@@ -1,0 +1,202 @@
+{
+  "slug": "how-to-update-nvidia-drivers",
+  "type": "article",
+  "kind": "howto",
+  "category": "graphics-cards",
+  "title": "How to Update NVIDIA Drivers: 3 Ways, Plus Rollback Steps",
+  "h1": "How to Update NVIDIA Drivers",
+  "query": "how to update nvidia drivers",
+  "description": "Open the NVIDIA App, go to Drivers and click Download: most updates take about 5 minutes. Also covers nvidia.com downloads, Windows Update, rollback and DDU.",
+  "dek": "Three ways to get the current GeForce driver, plus what to do when a new one causes trouble.",
+  "quickAnswer": "Open the NVIDIA App, select Drivers in the left menu, click Download, then choose Express Installation. The screen may go black for a few seconds while the driver loads, and the whole job usually takes about 5 minutes. No NVIDIA App? Download the same driver from the drivers page on nvidia.com, or check Optional updates in Windows Update.",
+  "intro": [
+    "This guide is for anyone with a GeForce card in a Windows 10 or Windows 11 PC, from a first build to a laptop that has never had a driver update. It covers the NVIDIA App, the manual download from nvidia.com and Windows Update, then explains Game Ready versus Studio drivers, clean installs, rolling back, full removal with DDU and how to confirm which version you run."
+  ],
+  "stepsHeading": "How to Update NVIDIA Drivers With the NVIDIA App",
+  "steps": [
+    {
+      "h": "Download the NVIDIA App if you do not have it",
+      "body": [
+        "NVIDIA replaced GeForce Experience with the NVIDIA App in late 2024, and the app is now NVIDIA's standard tool for driver updates. Get it from the NVIDIA App page on nvidia.com and run the installer. Signing in with an NVIDIA account is optional, and driver updates work without one.",
+        "If GeForce Experience is still installed, the NVIDIA App installer offers to replace it. Let it. GeForce Experience no longer gets new features, and there is no benefit to keeping both."
+      ]
+    },
+    {
+      "h": "Open the Drivers page",
+      "body": [
+        "Launch the NVIDIA App and select Drivers in the left-hand menu. The page shows the newest driver available for your card and the version currently installed. If the two match, you are already up to date and can stop here."
+      ]
+    },
+    {
+      "h": "Pick Game Ready or Studio",
+      "body": [
+        "The app offers Game Ready drivers by default. If you mainly use creative software such as Blender, DaVinci Resolve or Adobe apps and prefer fewer, slower-moving releases, switch the driver type to Studio using the option on the Drivers page. Both types support the same cards, and you can switch back later."
+      ]
+    },
+    {
+      "h": "Download the driver",
+      "body": [
+        "Click Download. Recent driver packages run from several hundred megabytes to around 1 GB, so the download takes a minute or two on typical broadband. You can keep using the PC while it runs, but save anything open in a game or editor before the install step."
+      ]
+    },
+    {
+      "h": "Choose Express or Custom installation",
+      "body": [
+        "Express Installation keeps your current settings and installs the standard components. Custom Installation lets you choose components and includes a clean installation option, which resets NVIDIA settings to default and clears old profiles. Express is fine for routine updates. Use Custom with a clean install if you have had crashes, flicker or odd behavior since an earlier update."
+      ]
+    },
+    {
+      "h": "Let it finish, then restart if asked",
+      "body": [
+        "Close games and video apps first. During the install the screen goes black or flickers once or twice while the display driver reloads, which is normal. Do not power off the PC at this stage. Most installs finish in under five minutes, and the app says if a restart is needed. Afterward the Drivers page should list the new version as installed."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "Which way of updating NVIDIA drivers should you use?",
+      "body": [
+        "Use the NVIDIA App unless you have a reason not to. It checks for new drivers in the background, shows the release notes and runs the install from one window. The manual download from nvidia.com installs the same package and suits people who dislike background apps or need a specific older version. Windows Update is a fallback: it gets you a working driver, but rarely the newest one."
+      ],
+      "table": {
+        "caption": "Three ways to get NVIDIA driver updates",
+        "head": ["Method", "Best for", "Trade-off"],
+        "rows": [
+          ["NVIDIA App", "Most desktop and laptop owners", "Runs in the background and adds an overlay you may not want"],
+          ["Manual download from nvidia.com", "PCs without the app, offline installs, picking an older version", "You have to check for new releases yourself"],
+          ["Windows Update", "A basic working driver on a fresh Windows install", "Usually behind NVIDIA's current release, with no Studio option"]
+        ]
+      }
+    },
+    {
+      "h": "How do you download NVIDIA drivers manually from nvidia.com?",
+      "body": [
+        "The manual route uses the same installer the app does, minus the automatic checking. It is also the way to install a driver on a PC with no internet connection: download the file on another machine and carry it over on a USB stick."
+      ],
+      "list": [
+        "Go to the drivers page on nvidia.com (nvidia.com/drivers).",
+        "Use the manual search: pick GeForce as the product category, then the series (laptop GPUs have their own Notebooks series), your exact card and your version of Windows.",
+        "Choose Game Ready or Studio as the download type, then search.",
+        "Download the top result and run it. The installer extracts its files, then checks your PC for supported hardware.",
+        "Choose whether to install the driver alone or the driver plus the NVIDIA App, accept the license, then pick Express or Custom. Custom includes the clean installation checkbox."
+      ]
+    },
+    {
+      "h": "Should you let Windows Update install NVIDIA drivers?",
+      "body": [
+        "Windows Update can install NVIDIA drivers, and on a new Windows install it often does so within minutes of going online. These drivers come from NVIDIA through Microsoft, so they are legitimate, but they usually trail NVIDIA's own releases and do not include the NVIDIA App.",
+        "To check for one, open Settings, select Windows Update, then Advanced options, then Optional updates. Any driver updates waiting for approval are listed there. Install one only if you have no better option, such as a PC that cannot run the NVIDIA App.",
+        "Owners sometimes report Windows Update replacing a newer NVIDIA driver with an older one, most often after a major Windows feature update. If your driver version suddenly drops, reinstall the current driver from the NVIDIA App or nvidia.com."
+      ]
+    },
+    {
+      "h": "Game Ready or Studio driver: which should you install?",
+      "body": [
+        "Game Ready drivers are NVIDIA's frequent releases, often timed to big game launches, with game-specific fixes and support for new features in those titles. Studio drivers come from the same driver branches but are released less often, after NVIDIA validates them with major creative applications.",
+        "If you mostly game, install Game Ready. If your PC earns money in Premiere Pro, Resolve or Blender and you value predictability over day-one game support, install Studio. Both run games and creative apps; the difference is release timing and validation focus, not features locked to one type.",
+        "NVIDIA also posts occasional hotfix drivers through its support site to fix one specific bug. They get less validation than regular releases, so install one only if it lists the exact problem you have."
+      ]
+    },
+    {
+      "h": "When should you do a clean install?",
+      "body": [
+        "A clean installation resets NVIDIA's settings to default and removes per-game profiles and custom display settings before installing the new driver. Choose it in the Custom Installation options in either the NVIDIA App or the nvidia.com installer.",
+        "Use it when games crash, the screen flickers or settings behave strangely after an earlier update, or when you are jumping across many driver versions at once. Skip it for routine monthly updates, since you would have to redo any custom settings. If you are switching from an AMD or Intel card, the clean install option is not enough; use DDU, covered below."
+      ]
+    },
+    {
+      "h": "How to roll back NVIDIA drivers",
+      "body": [
+        "If a new driver breaks a game or causes crashes, you have two ways back. The quickest is Device Manager: press Windows + X, open Device Manager, expand Display adapters, right-click your GeForce card and choose Properties. On the Driver tab, click Roll Back Driver, pick a reason and confirm. The screen flickers while the previous driver loads.",
+        "Roll Back Driver is grayed out if Windows did not keep the previous version, which is normal after a clean install or DDU. In that case, install an older driver from the archive of previous releases on nvidia.com, using Custom Installation with the clean installation box checked.",
+        "After rolling back, the NVIDIA App keeps offering the newer driver. Ignore it until a later release lists your problem as fixed in its release notes, which include a section of open and fixed issues."
+      ]
+    },
+    {
+      "h": "How to uninstall NVIDIA drivers completely with DDU",
+      "body": [
+        "A normal uninstall works for most people: open Settings, go to Apps, then Installed apps, find NVIDIA Graphics Driver and choose Uninstall. It leaves some files and registry entries behind. For a truly fresh start, such as switching GPU brands or fixing repeated failed installs, use Display Driver Uninstaller (DDU), a free tool from Wagnardsoft that removes every trace of the driver.",
+        "Before you start, have your BitLocker recovery key handy if your drive is encrypted, since Windows can ask for it when you boot into recovery options."
+      ],
+      "list": [
+        "Download DDU and the NVIDIA driver you plan to install next, and save both somewhere easy to find.",
+        "Disconnect from the internet by unplugging Ethernet or turning off Wi-Fi, so Windows Update cannot install its own driver after the cleanup. DDU's options also include a setting to stop Windows from downloading drivers automatically.",
+        "Boot into Safe Mode: in Windows 11 open Settings, System, Recovery, then Restart now next to Advanced startup. Choose Troubleshoot, Advanced options, Startup Settings, Restart, then press 4. Holding Shift while you click Restart in the Start menu reaches the same screen.",
+        "Run DDU, set the device type to GPU and the vendor to NVIDIA, then click Clean and restart.",
+        "When Windows boots normally, run the driver installer you downloaded, then reconnect to the internet."
+      ]
+    },
+    {
+      "h": "Laptops and prebuilt PCs: what is different?",
+      "body": [
+        "NVIDIA's standard driver supports most GeForce laptop GPUs, so the NVIDIA App or a download from the Notebooks series on nvidia.com works on most gaming laptops. Some laptops, often older or business models, are tied to drivers from the laptop maker. On those, NVIDIA's installer stops with a message that it could not find compatible graphics hardware. Use the driver on the maker's support page instead.",
+        "Most laptops also have Intel or AMD integrated graphics that drive the built-in screen some or all of the time. Keep that driver current too, from Intel, AMD or the laptop maker. Features such as a MUX switch or Advanced Optimus depend on both drivers and the maker's control software, so update all three if display switching misbehaves after an update.",
+        "Prebuilt desktops with a standard GeForce card need nothing special: NVIDIA's normal driver applies."
+      ]
+    },
+    {
+      "h": "How do you check which NVIDIA driver version you have?",
+      "body": [
+        "Any of these shows the installed version. Compare it with the newest release listed on nvidia.com or in the NVIDIA App. If you are not sure which card is in the PC, see [how to check what graphics card you have](/how-to-check-what-graphics-card-i-have/)."
+      ],
+      "list": [
+        "NVIDIA App: the Drivers page lists the installed version.",
+        "NVIDIA Control Panel: open the Help menu and choose System Information; the driver version is near the top. See [NVIDIA Control Panel not opening](/nvidia-control-panel-not-opening/) if it will not launch.",
+        "Device Manager: Display adapters, your card, Properties, Driver tab. Windows shows a long number such as 32.0.15.7680; the last five digits give the NVIDIA version, here 576.80.",
+        "Command Prompt: type nvidia-smi and press Enter. The driver version appears in the header."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Installing on top of a broken driver", "If games already crash or the screen flickers, an Express install over the top can carry the problem forward. Use Custom Installation with a clean install, or DDU in Safe Mode, so the new driver starts from default settings rather than inheriting damaged profiles or leftover files."],
+    ["Staying online during a DDU cleanup", "If the PC is connected when it restarts after DDU, Windows Update may install its own NVIDIA driver before you run yours. That can lead to a version mismatch or a failed install. Disconnect first, install your chosen driver, then go back online."],
+    ["Using driver updater utilities", "Third-party driver updaters and download mirrors offer nothing NVIDIA does not provide for free, and some bundle adware. The NVIDIA App, nvidia.com, Windows Update and your laptop maker's support page cover every legitimate case, so there is no reason to use anything else."],
+    ["Updating the night before something important", "A new driver occasionally introduces a bug. If you have a stream, a deadline or a tournament coming up and the PC is stable, wait. Update when you have time to roll back, and read the release notes for open issues first."]
+  ],
+  "bottomLine": "For most GeForce owners, the NVIDIA App's Drivers page is the only tool needed: check, download, Express install, done in about 5 minutes. Use the manual download from nvidia.com if you skip the app or need an older version, and treat Windows Update as a fallback. Pick Studio drivers only if creative apps matter more than new game support. When an update causes trouble, roll back in Device Manager or install an older release, and save DDU in Safe Mode for brand switches and installs that keep failing.",
+  "faqs": [
+    {
+      "q": "How often does NVIDIA release driver updates?",
+      "a": "NVIDIA usually releases a new Game Ready driver once or twice a month, often timed to major game launches. Studio drivers come out less often. You do not need every release: update for a new game, a fix listed in the release notes or a security bulletin, and otherwise there is no harm in waiting a few days."
+    },
+    {
+      "q": "Do I need the NVIDIA App to update my drivers?",
+      "a": "No. The NVIDIA App is the easiest way, but you can download the same driver from nvidia.com and choose to install the driver alone. Windows Update can also supply an NVIDIA driver, though usually an older one. The app's main benefit is that it checks for new releases for you."
+    },
+    {
+      "q": "Is the NVIDIA App the same as GeForce Experience?",
+      "a": "The NVIDIA App is the replacement for GeForce Experience, which NVIDIA retired in late 2024. It handles driver updates, the in-game overlay and many settings that used to live only in the NVIDIA Control Panel. Unlike GeForce Experience, it does not require an account login to download drivers."
+    },
+    {
+      "q": "Will updating NVIDIA drivers delete my games or files?",
+      "a": "No. A driver update never touches games, saves or personal files. An Express install keeps your NVIDIA settings as they were. A clean install resets only NVIDIA-specific settings, such as per-game profiles and custom color settings, to their defaults, so you may need to set those again."
+    },
+    {
+      "q": "Why does my screen go black during an NVIDIA driver install?",
+      "a": "The screen goes black because Windows unloads the old display driver and loads the new one, and for a moment nothing is driving the monitor. It normally comes back within a few seconds, sometimes at a lower resolution until the install finishes. Do not turn off the PC during this step."
+    },
+    {
+      "q": "Can a new NVIDIA driver increase FPS?",
+      "a": "Sometimes, mainly in games released recently, where NVIDIA's release notes may list specific improvements. Older games rarely change much from one driver to the next. Update for fixes and new-game support, not in the expectation of a large across-the-board frame rate gain."
+    },
+    {
+      "q": "What should I do if the NVIDIA driver install fails?",
+      "a": "Restart the PC and run the installer again, choosing Custom with a clean install. If it still fails, pause third-party antivirus during the install, make sure Windows itself is up to date, then remove the old driver with DDU in Safe Mode while offline and install the fresh package."
+    },
+    {
+      "q": "How do I update NVIDIA drivers on a laptop?",
+      "a": "Use the NVIDIA App or download from the Notebooks series on nvidia.com, which covers most GeForce laptops. If NVIDIA's installer says it cannot find compatible hardware, your laptop needs the maker's driver from its support page. Update the integrated Intel or AMD graphics driver too."
+    }
+  ],
+  "sources": [
+    "NVIDIA App product page and release notes",
+    "NVIDIA driver download page and GeForce driver release notes",
+    "NVIDIA explanation of Game Ready and Studio drivers",
+    "NVIDIA support articles on clean installation and driver installation errors",
+    "Microsoft support: update drivers through Windows Update and Device Manager",
+    "Microsoft support: start your PC in Safe Mode in Windows",
+    "Wagnardsoft Display Driver Uninstaller documentation"
+  ],
+  "products": ["rtx-5070", "rtx-5060-ti-16gb", "rtx-5080"],
+  "related": ["how-to-update-amd-drivers", "nvidia-control-panel-not-opening", "how-to-turn-off-nvidia-overlay"]
+}

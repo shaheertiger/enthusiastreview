@@ -1,0 +1,211 @@
+{
+  "slug": "nvidia-green-lines-on-screen",
+  "type": "article",
+  "kind": "fix",
+  "category": "graphics-cards",
+  "title": "NVIDIA Green Lines on Screen: 6 Causes and How to Fix Them",
+  "h1": "NVIDIA Green Lines on Screen: How to Fix It",
+  "query": "nvidia green lines on screen",
+  "description": "Green lines on an NVIDIA screen are usually a loose cable or bad driver, not a dead GPU. 6 causes in order, how to test GPU vs monitor, and when to RMA.",
+  "dek": "Work through the causes from most to least likely, and find out in a few minutes whether your graphics card, cable or monitor is to blame.",
+  "quickAnswer": "Start with the cable: reseat both ends, try a different cable and another port on the graphics card. That fixes a large share of green-line cases. If the lines remain, remove any GPU overclock, do a clean driver reinstall and set your monitor's native refresh rate. If lines or green dots still show in the BIOS screen or on a second monitor, the card's memory is likely failing and it is time to RMA.",
+  "intro": [
+    "Green lines, bars or flickering streaks on a PC with an NVIDIA graphics card look alarming, but most cases come from something cheap or free to fix. This page is for desktop and laptop owners seeing horizontal or vertical green lines, green static, or scattered green dots, on the desktop or only in games.",
+    "The causes are listed in order of how often owners report them, followed by the fix for each, a quick test to tell a graphics card fault from a monitor fault, and clear signs that the card needs a warranty claim."
+  ],
+  "stepsHeading": "How to Fix Green Lines on Screen, Step by Step",
+  "steps": [
+    {
+      "h": "Take a screenshot of the lines",
+      "body": [
+        "Press Windows key + Print Screen while the lines are visible. Windows saves the image to Pictures, then Screenshots. Open it on another device, such as your phone.",
+        "If the green lines appear in the screenshot, the image was already corrupted inside the graphics card or driver. If the screenshot looks clean, the problem is between the card's output and your eyes: the cable, the port or the monitor."
+      ]
+    },
+    {
+      "h": "Open the monitor's own menu",
+      "body": [
+        "Press the menu button on the monitor to open its on-screen display. That menu is drawn by the monitor itself, not the PC.",
+        "If green lines run through the monitor's menu too, the monitor panel or its electronics are at fault, and no PC fix will help."
+      ]
+    },
+    {
+      "h": "Reseat and swap the display cable",
+      "body": [
+        "Unplug the cable at both ends and plug it back in firmly. Then try a different cable, ideally a certified one: a VESA-certified DisplayPort cable or an Ultra High Speed HDMI cable for high refresh rates.",
+        "Also try a different output on the graphics card, and DisplayPort instead of HDMI or the other way round. Make sure the cable goes into the graphics card, not the motherboard's video outputs."
+      ]
+    },
+    {
+      "h": "Remove every overclock and undervolt",
+      "body": [
+        "If you use MSI Afterburner or a similar tool, press its reset button to return clocks, memory and voltage to stock, and disable any profile that applies at startup. In the NVIDIA App, turn off automatic performance tuning if you enabled it.",
+        "Memory overclocks are the most common culprit. Run at stock for a day before ruling this out."
+      ]
+    },
+    {
+      "h": "Do a clean driver reinstall",
+      "body": [
+        "Download the latest driver from NVIDIA first. Then use Display Driver Uninstaller (DDU) in Windows Safe Mode to remove the current driver completely, restart, and install the new one.",
+        "If the lines began right after a driver update, install the previous driver version instead. For a quicker first try, open Device Manager, expand Display adapters, open your card's properties and use Roll Back Driver on the Driver tab."
+      ]
+    },
+    {
+      "h": "Set native resolution and a standard refresh rate",
+      "body": [
+        "In Windows, open Settings, then System, Display, Advanced display, and choose a refresh rate the monitor officially supports. In the NVIDIA Control Panel, check the Change resolution page for custom resolutions you may have added.",
+        "If you overclocked the monitor's refresh rate, remove it. As a test, drop to 60 Hz: if the lines vanish, the cable or monitor cannot handle the higher bandwidth."
+      ]
+    },
+    {
+      "h": "Check temperatures",
+      "body": [
+        "Run HWiNFO or GPU-Z and play a game for 15 minutes. Look at GPU temperature, hot spot temperature and, on cards that report it, memory junction temperature.",
+        "If temperatures climb far above normal for your card or the lines appear only after warming up, clean the dust out of the card and case and check that all fans spin."
+      ]
+    },
+    {
+      "h": "Test with another display or graphics source",
+      "body": [
+        "Connect the monitor to a laptop, console or another PC. If the lines follow the monitor, it is the monitor. Then connect your PC to a different monitor or TV. If the lines follow the PC, it is the graphics card or driver.",
+        "If your CPU has integrated graphics, you can also remove the graphics card, plug the monitor into the motherboard and see whether the lines disappear."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "Is It the GPU or the Monitor? How to Tell",
+      "body": [
+        "Three quick checks usually settle it. Lines that appear in a screenshot point to the graphics card or driver. Lines that appear over the monitor's own menu point to the monitor. Lines that appear on the BIOS screen, before Windows loads, rule out the Windows driver and point to hardware: the card, cable or monitor.",
+        "Swapping is the final word. If a second monitor on the same PC shows the lines, suspect the card. If your monitor shows them with a different PC or a console, suspect the monitor.",
+        "Green dots need one extra check. A single green dot that stays in exactly the same spot, whatever is on screen, and does not appear in screenshots is usually a stuck pixel on the monitor, not a GPU fault. Green dots or sparkles that are scattered, move around, or appear in new places each time are a classic sign of graphics memory trouble."
+      ],
+      "table": {
+        "caption": "What the symptoms point to",
+        "head": ["What you see", "Most likely cause", "Check first"],
+        "rows": [
+          ["Lines flicker when you touch or move the cable", "Cable or port", "Swap the cable and port"],
+          ["Lines started right after a driver update", "Driver", "Roll back or clean reinstall"],
+          ["Lines or green dots only in games, with an overclock", "Unstable GPU memory overclock", "Reset to stock"],
+          ["Lines only at high refresh rates", "Cable bandwidth or monitor setting", "Test at 60 Hz"],
+          ["Lines appear after 10 to 30 minutes of gaming", "Overheating", "Check temperatures, clean dust"],
+          ["Lines or dots on the BIOS screen and every monitor", "Failing graphics memory", "Prepare an RMA"],
+          ["Lines over the monitor's own menu", "Monitor panel", "Contact the monitor maker"]
+        ]
+      }
+    },
+    {
+      "h": "Lines Flicker When You Move the Cable: Loose or Faulty Cable or Port",
+      "body": [
+        "This is the most common cause and the cheapest fix. A DisplayPort or HDMI plug that is not fully seated, a cable with a damaged conductor, or a worn port can corrupt part of the signal. Green is a common color for this kind of damage, because a broken data lane can throw off one color channel.",
+        "High refresh rates make it worse. A 1440p 240 Hz or 4K 144 Hz signal needs far more bandwidth than 1080p 60 Hz, and cheap or long cables that were fine before can fail when you upgrade your monitor. DisplayPort plugs usually latch; push until it clicks. HDMI plugs do not, so a heavy cable can slowly pull out.",
+        "If a new certified cable and a different port on the card fix it, you are done. Bent or damaged ports on the card itself are covered in the RMA section below."
+      ]
+    },
+    {
+      "h": "Lines Started After a Driver Update: Driver Problem",
+      "body": [
+        "Driver bugs can cause green artifacts, flicker and corrupted video playback, particularly right after new graphics architectures launch. Owners of RTX 50 cards reported black screens and display glitches with some early 2025 drivers, which later releases fixed. Leftover files from an older driver, or from an AMD or Intel card you replaced, can cause similar problems.",
+        "A clean reinstall with DDU in Safe Mode fixes most driver-related cases. If the newest driver is the problem, install the previous version and wait for the next release. Also check NVIDIA's release notes for open issues that match your symptom.",
+        "If the lines only appear in one app, such as a browser or video player, try turning off hardware acceleration in that app. That points to a software issue rather than failing hardware."
+      ]
+    },
+    {
+      "h": "Green Dots or Lines Only in Games: Unstable Overclock or Undervolt",
+      "body": [
+        "A graphics memory overclock that is a step too far often shows up as green or multicolored dots, flashing squares or streaks before it ever crashes. Core overclocks and aggressive undervolts are more likely to crash a game outright, but they can also produce artifacts.",
+        "Factory-overclocked cards are tested at their rated settings, so this cause usually applies only if you, or software you installed, changed clocks. Reset everything to stock. If the artifacts stop, reapply your tuning in smaller steps, or leave it at stock.",
+        "Do not forget automatic tools. Some board-partner utilities and one-click tuning features apply an overclock at every boot, so check startup apps as well."
+      ]
+    },
+    {
+      "h": "Lines at High Refresh Rates: Monitor and Display Settings",
+      "body": [
+        "Some monitors show lines or green tints when they are pushed past what the panel or its controller handles well. Common triggers are monitor overclock modes, custom resolutions created in the NVIDIA Control Panel, and refresh rates above what the cable can carry.",
+        "Set the monitor to its native resolution and a refresh rate from its spec sheet. Update the monitor's firmware if the manufacturer offers it. If you use G-SYNC or variable refresh, try turning it off temporarily in the Set up G-SYNC page of the NVIDIA Control Panel to see whether the lines change.",
+        "Also reset the monitor itself from its own menu. Picture modes, overdrive settings and color settings can make a minor signal problem look worse."
+      ]
+    },
+    {
+      "h": "Lines Appear After the PC Warms Up: Overheating",
+      "body": [
+        "If the screen is clean at startup and green lines appear after 10 to 30 minutes of gaming, heat is a strong suspect. Dust-clogged heatsinks, failed fans, dried thermal paste or pads, and poor case airflow can all push the GPU or its memory too hot. Memory chips can produce artifacts when they overheat even if the main GPU temperature looks normal.",
+        "Clean the card and case with compressed air, hold the fans still while you blow on them, and check that every case fan spins. If temperatures stay high after cleaning on a card still under warranty, contact the manufacturer rather than replacing pads yourself, because opening the cooler can affect warranty coverage with some brands."
+      ]
+    },
+    {
+      "h": "Lines on the BIOS Screen and Every Monitor: Failing Graphics Memory",
+      "body": [
+        "This is the least common cause and the one people fear most. When graphics memory (VRAM) or its connections start to fail, you typically see green or multicolored lines, blocks or sparkles that appear on the BIOS screen, on every monitor and with every cable, and that remain at stock clocks with a clean driver.",
+        "Other signs include artifacts that get worse over days or weeks, crashes or black screens alongside the lines, and the card failing to display anything until it warms up or cools down. Laptops with an NVIDIA GPU can show the same symptoms; if an external monitor shows the lines too, the GPU is the likely fault, and if only the laptop screen does, suspect its display panel or internal cable.",
+        "There is no reliable home fix for failing VRAM. Lowering memory clocks can sometimes reduce artifacts and keep the card usable for a short time, but plan for a repair or replacement."
+      ]
+    },
+    {
+      "h": "When to RMA or Replace Your Graphics Card",
+      "body": [
+        "Start a warranty claim when the lines appear on the BIOS screen, show in screenshots, follow the card to a different monitor and cable, and persist at stock settings after a clean driver install. Also claim if a display port on the card is physically loose or damaged, or if a power connector shows any discoloration or melting.",
+        "For partner cards, contact the brand that made the card, such as ASUS, MSI, Gigabyte, Zotac or PNY. For NVIDIA Founders Edition cards, contact NVIDIA. Keep your receipt and serial number, and record a short phone video of the lines on the BIOS screen. List the steps you already tried; it speeds up the claim.",
+        "Out of warranty, replacement usually makes more sense than repair. If you are shopping, our guides to the [best graphics card](/best-graphics-card/) and [best budget graphics card](/best-budget-graphics-card/) cover current picks, and [NVIDIA vs AMD](/nvidia-vs-amd/) explains the brand choice."
+      ]
+    },
+    {
+      "h": "Safety Note Before You Open the PC",
+      "body": [
+        "Shut down Windows, switch off the power supply at its rear switch, unplug the power cord and press the case power button once to drain stored energy. Touch bare metal on the case before handling parts, and hold the graphics card by its edges.",
+        "When you reseat the card, press the PCIe power plugs in until they latch fully, and keep a [12V-2x6](/glossary/12v-2x6/) cable straight near the connector. If any power plug or socket looks melted or browned, do not power the card on again. Never open a power supply, and skip online tricks like heating a graphics card in an oven, which can destroy it and create a fire risk."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Assuming the GPU is dead", "Most green-line cases come from cables, drivers or settings. Run the screenshot, monitor menu and second display tests before you buy a new card or start a return."],
+    ["Testing with the same cable", "Moving a suspect cable to a new port or monitor proves little. Swap in a different, certified cable as one of your first tests, because cables fail more often than graphics cards."],
+    ["Forgetting a memory overclock", "Tuning apps can reapply an old memory overclock at every boot. Reset to stock and disable startup profiles, or you may chase driver and cable problems that are not there."],
+    ["Opening the cooler on a warranty card", "Replacing thermal pads or paste yourself can affect warranty coverage with some manufacturers. If a card under warranty overheats after cleaning, file a claim first."]
+  ],
+  "bottomLine": "Green lines on an NVIDIA system are usually fixable for free or for the price of a cable. Reseat and swap the cable, try another port, remove overclocks, clean-install the driver and set a supported refresh rate. Then use screenshots, the monitor's menu and a second display to find the faulty part. Lines on the BIOS screen and every monitor at stock settings point to failing graphics memory, and that card should go back under warranty.",
+  "faqs": [
+    {
+      "q": "Why are there green lines on my screen with an NVIDIA card?",
+      "a": "The most common causes are a loose or faulty display cable, a driver problem, or an unstable GPU memory overclock. Less often, the monitor's refresh settings, overheating, or failing graphics memory are to blame. Swap the cable and reset to stock settings first."
+    },
+    {
+      "q": "Are green dots on screen a sign my NVIDIA GPU is dying?",
+      "a": "Not always. Scattered, moving green dots or sparkles that appear at stock settings and on every monitor often point to failing graphics memory. A single dot that never moves and does not show in screenshots is usually a stuck pixel on the monitor."
+    },
+    {
+      "q": "How do I know if it is my GPU or my monitor?",
+      "a": "Take a screenshot and open the monitor's menu. Lines in the screenshot point to the GPU or driver; lines over the monitor's own menu point to the monitor. Then connect the monitor to another device and your PC to another display to confirm."
+    },
+    {
+      "q": "Can a bad HDMI or DisplayPort cable cause green lines?",
+      "a": "Yes, and it is one of the most common causes. Damaged or low-quality cables can corrupt part of the signal, especially at high refresh rates and resolutions. A VESA-certified DisplayPort or Ultra High Speed HDMI cable is a cheap fix to try first."
+    },
+    {
+      "q": "Can a driver update cause green lines on screen?",
+      "a": "Yes. Driver bugs can cause flicker, artifacts and green tints. Roll back the driver in Device Manager, or remove it with DDU in Safe Mode and install the previous version. If the lines also appear on the BIOS screen, the driver is not the cause."
+    },
+    {
+      "q": "Will reinstalling Windows fix green lines?",
+      "a": "Only if the cause is software, and a clean driver install with DDU fixes that faster. If the lines show on the BIOS screen before Windows loads, reinstalling Windows will not help, because the problem is in the hardware or cable."
+    },
+    {
+      "q": "Can overheating cause green lines on a graphics card?",
+      "a": "Yes. If the lines appear only after gaming for a while, the GPU or its memory may be running too hot. Clean dust from the card and case, check that fans spin, and watch temperatures in HWiNFO or GPU-Z."
+    },
+    {
+      "q": "Should I RMA my GPU for green lines?",
+      "a": "Yes, if the lines show on the BIOS screen, appear in screenshots, follow the card to another monitor and cable, and remain at stock settings with a clean driver. Contact the card's manufacturer with your receipt, serial number and a video of the problem."
+    }
+  ],
+  "sources": [
+    "NVIDIA GeForce driver release notes and open-issue lists",
+    "NVIDIA support articles on display flicker and artifacts",
+    "VESA DisplayPort certified cable program and HDMI Ultra High Speed cable certification",
+    "Display Driver Uninstaller (DDU) documentation from Wagnardsoft",
+    "Board-partner warranty and RMA pages from ASUS, MSI, Gigabyte and NVIDIA",
+    "Owner reports on artifacting and RMA outcomes from enthusiast forums"
+  ],
+  "products": ["rtx-5070", "rtx-5060", "rtx-5070-ti"],
+  "related": ["nvidia-vs-amd", "best-graphics-card", "best-budget-graphics-card"]
+}

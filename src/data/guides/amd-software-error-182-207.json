@@ -1,0 +1,183 @@
+{
+  "slug": "amd-software-error-182-207",
+  "type": "article",
+  "kind": "fix",
+  "category": "graphics-cards",
+  "title": "AMD Error 182 and 207: What They Mean and How to Fix Them",
+  "h1": "AMD Error 182 and 207",
+  "query": "amd error 182",
+  "description": "AMD error 182 means the installer found graphics it does not support; 207 is an install failure tied to the existing driver. 5 causes, in order, with fixes.",
+  "dek": "Why AMD Software: Adrenalin Edition refuses to install, and the order to try fixes in.",
+  "quickAnswer": "Error 182 means AMD's installer found no supported AMD graphics: usually an older Radeon, a laptop that needs its maker's driver, or a PC without AMD graphics. Error 207 is an installer failure usually tied to the existing display driver. For both, download the full installer for your exact model, go offline, run the AMD Cleanup Utility, then reinstall with Factory Reset.",
+  "intro": [
+    "This page is for anyone whose AMD Software: Adrenalin Edition install stopped with error 182, 207 or the related 195. It explains what AMD says each code means, lists the five usual causes from most to least likely with a fix for each, shows when the AMD Cleanup Utility is the right tool, and covers the rare case where the card itself is the problem."
+  ],
+  "stepsHeading": "Fix AMD Error 182 or 207 in 6 Steps",
+  "steps": [
+    {
+      "h": "Confirm exactly which graphics hardware you have",
+      "body": [
+        "Press Ctrl + Shift + Esc to open Task Manager, select Performance and look at each GPU entry. Write down the exact name, such as Radeon RX 9060 XT or AMD Radeon Graphics for Ryzen integrated graphics. If no AMD GPU appears at all, error 182 is behaving as designed. Our guide to [checking what graphics card you have](/how-to-check-what-graphics-card-i-have/) shows other ways to confirm it."
+      ]
+    },
+    {
+      "h": "Download the full installer for that exact product",
+      "body": [
+        "On AMD's drivers and support page, search for or browse to your exact model and Windows version, and download the full installer rather than the small web installer. Save it to your desktop. The full package does not need an internet connection while it runs, which matters for the next step."
+      ]
+    },
+    {
+      "h": "Disconnect from the internet",
+      "body": [
+        "Unplug Ethernet or turn off Wi-Fi. This stops Windows Update from installing its own AMD display driver in the middle of the process, which is one of the most common reasons these errors come back after a fix."
+      ]
+    },
+    {
+      "h": "Run the AMD Cleanup Utility",
+      "body": [
+        "Download the AMD Cleanup Utility from AMD's support site before going offline, then run it. Accept its offer to restart in Safe Mode. It removes AMD display drivers, audio drivers and AMD Software, then asks you to restart again. Your screen will run at a basic resolution until the new driver is installed."
+      ]
+    },
+    {
+      "h": "Install with Factory Reset",
+      "body": [
+        "Right-click the installer you downloaded and choose Run as administrator. Pick your install type and tick Factory Reset under the additional options. Let it finish without touching the PC; the screen will flicker or go black a few times."
+      ]
+    },
+    {
+      "h": "Restart, then reconnect",
+      "body": [
+        "Restart when asked, check that AMD Software opens and shows the version you installed, then reconnect to the internet. If the error returns at the same point, work through the cause sections below in order."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "What do AMD error 182, 207 and 195 mean?",
+      "body": [
+        "AMD documents error 182 as the installer detecting graphics hardware that the package does not support. That covers three situations: no AMD graphics in the system, AMD graphics that the current package no longer covers, and AMD graphics in a laptop or prebuilt whose maker customized the driver.",
+        "Error 207 is an installer failure, usually linked to the display driver already on the PC or to the Windows driver store, where Windows keeps installed driver packages. In practice it tends to follow a damaged previous install or a driver that Windows Update put in place.",
+        "Error 195 is another installer code that owners report alongside these two. This page does not assign it a specific meaning, but the same sequence of full offline installer, Cleanup Utility and clean reinstall is the standard first response."
+      ],
+      "table": {
+        "caption": "AMD installer error codes at a glance",
+        "head": ["Code", "What it points to", "First thing to try"],
+        "rows": [
+          ["182", "Unsupported or non-AMD graphics hardware detected", "Confirm your GPU and download the package for that exact model"],
+          ["207", "Installer problem with the existing display driver or driver store", "Cleanup Utility in Safe Mode, then a full offline install"],
+          ["195", "Installer failure reported by owners", "Full offline installer, then the 207 steps if it repeats"]
+        ]
+      }
+    },
+    {
+      "h": "Error 182 on a PC with NVIDIA, Intel or older Radeon graphics",
+      "body": [
+        "This is the most common cause of error 182. AMD's installer looks for a Radeon device it supports, and if it finds none it stops. Typical cases:"
+      ],
+      "list": [
+        "The PC has an NVIDIA or Intel graphics card and no AMD GPU. Many Ryzen processors without a G suffix in older generations have no integrated graphics at all, so a Ryzen CPU does not mean you have Radeon graphics.",
+        "The Radeon card is older than the current package supports. AMD moved RX 400 series, RX 500 series and Vega cards to a separate driver package in late 2023, so the newest Adrenalin release will not install on them.",
+        "The PC uses Ryzen integrated graphics that need a different package from the one downloaded. The product page for your exact processor lists the right driver.",
+        "The AMD GPU is disabled in Device Manager, or integrated graphics are switched off in the BIOS because a dedicated card is installed.",
+        "You are running the installer over Remote Desktop or inside a virtual machine, where the real GPU is hidden from Windows."
+      ]
+    },
+    {
+      "h": "How to fix error 182 caused by unsupported hardware",
+      "body": [
+        "Start by confirming the hardware in Task Manager or Device Manager. If the only GPU listed is NVIDIA or Intel, you do not need AMD graphics drivers at all; you may want Ryzen chipset drivers instead, which are a separate download covered in [how to update AMD drivers](/how-to-update-amd-drivers/).",
+        "If you do have an older Radeon, browse AMD's drivers page to your exact card rather than taking the newest release. The page for that model offers the package that still supports it. For integrated graphics, browse to your exact processor model. If Device Manager shows the AMD device as disabled, right-click it and enable it, then run the installer again at the physical PC rather than over a remote connection."
+      ]
+    },
+    {
+      "h": "Error 182 or 207 right after Windows Update ran",
+      "body": [
+        "Windows Update installs display drivers on its own, and it can do so while AMD's installer is running or shortly before. The result is two different AMD driver versions fighting over the same device, which often surfaces as error 207, and sometimes as 182 when the installer cannot read the device properly.",
+        "To fix it, run the Cleanup Utility while offline and reinstall from the full package, as in the steps above. To stop it happening again, search the Start menu for Change device installation settings and choose No so Windows does not download manufacturer apps and drivers automatically. That setting affects all devices, so switch it back to Yes once AMD's driver is installed and working, or keep it off and update drivers yourself."
+      ]
+    },
+    {
+      "h": "Error 207 after an install that froze, crashed or lost power",
+      "body": [
+        "A previous install that stopped partway leaves a half-registered driver behind, and the next attempt fails when it meets those leftovers. Power cuts, forced restarts during the black-screen stage and a full system drive are the usual triggers.",
+        "Restart the PC first, since Windows may have a pending driver operation waiting for a reboot. Free at least several gigabytes on the C drive. Delete the old extraction folder, C:\\AMD by default, so the installer unpacks fresh files, and download the installer again in case the file itself was damaged. Then run the Cleanup Utility and install with Factory Reset, running the installer as administrator."
+      ]
+    },
+    {
+      "h": "Install fails at the same point every time with antivirus running",
+      "body": [
+        "Third-party antivirus and some system tuning tools can block the installer from writing driver files or registry entries. The giveaway is an install that fails at the same percentage every time, even after a cleanup.",
+        "Pause or disable third-party security software for the length of the install, with the PC offline so you are not exposed. If you use Windows Security's Controlled folder access, turn it off briefly too, since it can block writes to protected locations. Run the installer as administrator, then turn every protection back on as soon as the install finishes and the PC has restarted."
+      ]
+    },
+    {
+      "h": "Error 182 on a laptop or prebuilt with Radeon graphics",
+      "body": [
+        "Some laptops and prebuilt PCs ship with a driver the manufacturer customized for its hardware, and AMD's installer may refuse them with error 182. AMD's own notes describe this case: the hardware is AMD, but it has been tied to OEM drivers.",
+        "Go to the support page for your exact laptop or PC model and install the graphics driver listed there. That gets the hardware working with a known-good driver. AMD's generic package supports many laptops, so once the OEM driver is in place, you can try the current Adrenalin package again; if it still refuses, stay on the maker's driver and check its support page for updates. Laptops with both AMD integrated graphics and an NVIDIA GPU need drivers from both companies."
+      ]
+    },
+    {
+      "h": "When to use the AMD Cleanup Utility, and when not to",
+      "body": [
+        "Use the Cleanup Utility after any failed AMD install, when error 207 or 195 repeats, when AMD Software and the driver report different versions, or before reinstalling after Windows Update overwrote your driver. It removes AMD display drivers, AMD audio drivers and AMD Software, works best in Safe Mode, which it offers to start for you, and leaves the PC on Windows' basic display driver.",
+        "Do not use it as routine maintenance before every update; installing over the top or ticking Factory Reset is enough when nothing is wrong. It also does not touch NVIDIA or Intel drivers, so use DDU if you are moving from another brand to Radeon. Ryzen chipset drivers are not the target either: reinstall the chipset package separately if you suspect it is damaged."
+      ]
+    },
+    {
+      "h": "When to RMA or replace the graphics card",
+      "body": [
+        "Installer errors are almost always software, but a few signs point to hardware. If the card does not appear in Device Manager at all, appears with a Code 43 error after clean installs on a fresh Windows install, shows corrupted graphics during boot before Windows loads, or fails the same way in another PC, contact the seller or card maker about a warranty claim.",
+        "Before you conclude that, power the PC off, switch off the power supply and unplug it, then touch bare metal on the case to discharge static. Reseat the card in its slot, push each power connector in until it clicks, and try a different display output and cable. If you use a riser cable, test the card directly in the motherboard slot."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Retrying the web installer", "The small web installer downloads files while it runs, which gives Windows Update a window to interfere and fails on shaky connections. Use the full offline package for your exact model whenever an AMD install has failed once."],
+    ["Forcing the newest driver onto an old card", "RX 400, RX 500 and Vega owners often keep downloading the latest Adrenalin release and hitting error 182. Those cards use a separate package now. Browse AMD's drivers page to the exact model to get the release that still supports it."],
+    ["Leaving security tools off", "Disabling antivirus or Controlled folder access can help an install finish, but it is meant to be brief. Turn every protection back on as soon as the PC restarts with the new driver, and keep it offline while protection is off."],
+    ["Running the Cleanup Utility while online", "If the PC reconnects after the cleanup restart, Windows can install its own AMD driver before you run yours, recreating the mismatch you just removed. Download everything first, then disconnect until the new driver is installed."]
+  ],
+  "bottomLine": "AMD error 182 almost always means the installer is looking at hardware the package does not cover: no Radeon at all, an older Radeon on a separate package, or an OEM laptop driver. Error 207 and the related 195 usually trace back to a damaged earlier install or Windows Update swapping drivers. The fix order is the same: confirm your exact GPU, download the full installer for it, go offline, run the AMD Cleanup Utility, then install with Factory Reset. Hardware faults are rare, but rule them out if the card vanishes from Device Manager.",
+  "faqs": [
+    {
+      "q": "What does AMD error 182 mean?",
+      "a": "AMD error 182 means the AMD Software installer detected graphics hardware it does not support. The most common reasons are a PC without AMD graphics, an older Radeon card that now uses a separate driver package, or a laptop whose maker requires its own customized driver."
+    },
+    {
+      "q": "What does AMD error 207 mean?",
+      "a": "AMD error 207 is an installer failure that is usually linked to the existing display driver or the Windows driver store. It often follows a previous install that was interrupted or a driver that Windows Update installed. A Cleanup Utility pass in Safe Mode and a full offline reinstall usually clear it."
+    },
+    {
+      "q": "How do I fix AMD error 195?",
+      "a": "Treat error 195 like 207. Download the full offline installer for your exact GPU, disconnect from the internet, run the AMD Cleanup Utility in Safe Mode, then install with Factory Reset ticked. If it keeps failing, pause third-party antivirus during the install and free space on the C drive."
+    },
+    {
+      "q": "Why do I get error 182 when I have a Ryzen CPU?",
+      "a": "A Ryzen processor does not guarantee Radeon graphics. Many older Ryzen chips have no integrated graphics, and if your GPU is NVIDIA or Intel, the Radeon driver has nothing to install on. Ryzen systems need AMD's chipset driver, which is a separate download from the graphics driver."
+    },
+    {
+      "q": "Can Windows Update cause AMD installer errors?",
+      "a": "Yes. Windows Update can install its own AMD display driver in the background, sometimes while AMD's installer is running, leaving mismatched versions. Installing offline from the full package prevents that, and the Change device installation settings option in Windows can stop automatic driver downloads."
+    },
+    {
+      "q": "Is the AMD Cleanup Utility safe to use?",
+      "a": "Yes. It is AMD's own tool and only removes AMD display drivers, AMD audio drivers and AMD Software. Your files and games are untouched. Expect a low screen resolution until you install the new driver, and have that driver downloaded before you start, since you should be offline."
+    },
+    {
+      "q": "Should I use DDU instead of the AMD Cleanup Utility?",
+      "a": "Either works for removing AMD drivers. The Cleanup Utility is AMD's official tool and is the simplest choice for Radeon-only problems. DDU is the better choice when switching between brands, since it also removes NVIDIA and Intel drivers. Run either one in Safe Mode while offline."
+    }
+  ],
+  "sources": [
+    "AMD support article on installer error 182",
+    "AMD support article on installer error 207",
+    "AMD support article on the AMD Cleanup Utility",
+    "AMD announcement moving Polaris and Vega graphics to a separate driver package",
+    "Microsoft support: change device installation settings and Device Manager error codes",
+    "Microsoft support: Controlled folder access in Windows Security",
+    "Owner reports on AMD community forums"
+  ],
+  "products": ["rx-9070-xt", "rx-9060-xt-16gb"],
+  "related": ["how-to-update-amd-drivers", "how-to-check-what-graphics-card-i-have", "how-to-update-nvidia-drivers"]
+}

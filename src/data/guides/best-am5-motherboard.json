@@ -1,0 +1,357 @@
+{
+  "slug": "best-am5-motherboard",
+  "type": "roundup",
+  "category": "motherboards",
+  "title": "Best AM5 Motherboard (2026): 6 B650, B850 and X870 Picks",
+  "h1": "Best AM5 Motherboard",
+  "query": "best am5 motherboard",
+  "description": "The MSI MAG B650 Tomahawk WiFi is the best AM5 motherboard for most builds: Wi-Fi 6E, 2.5 GbE and BIOS Flashback for $170–$200. 6 boards ranked by chipset.",
+  "dek": "Six Socket AM5 boards for Ryzen 7000, 8000 and 9000 chips, with a plain answer on whether B850 or X870 is worth the extra money.",
+  "intro": [
+    "The MSI MAG B650 Tomahawk WiFi is the best AM5 motherboard for most people. At $170–$200 it pairs a strong power stage with Wi-Fi 6E, 2.5 GbE, three M.2 slots and a BIOS Flashback button, which covers a Ryzen 7 9800X3D or Ryzen 9 9950X3D without paying for PCIe 5.0 you may never use.",
+    "This guide is for anyone building on AMD's Socket AM5. Each board is matched to a use: a mainstream gaming build, a high-end X870 system, a PCIe 5.0 SSD on a budget, or a compact micro-ATX PC. We also explain how B650, B850 and X870 differ, since the chipset names hide less change than you might expect."
+  ],
+  "quickAnswer": "Buy the MSI MAG B650 Tomahawk WiFi ($170–$200) for most gaming builds. Step up to the MSI MAG X870 Tomahawk WiFi ($260–$300) for PCIe 5.0 graphics, USB4 and 5 GbE. The ASRock B850 Steel Legend WiFi ($180–$220) is the best B850, and the MSI PRO B650M-A WiFi ($130–$160) is the micro-ATX budget pick.",
+  "picks": [
+    {
+      "id": "msi-mag-b650-tomahawk-wifi",
+      "label": "Best Overall",
+      "bestFor": "mainstream AM5 gaming builds with any Ryzen 7000 or 9000 chip",
+      "skipIf": "you want a PCIe 5.0 SSD or PCIe 5.0 graphics slot",
+      "writeup": [
+        "The B650 Tomahawk WiFi is the board most AM5 builders should buy because it spends money where it matters for a gaming PC. Independent VRM reviews put its power delivery among the strongest at its price, so a 170 W Ryzen 9 9950X3D runs at full boost without the board becoming the limit. You get Wi-Fi 6E, 2.5 GbE, a good spread of rear USB, and a Flash BIOS button that updates firmware with no CPU installed.",
+        "The one omission is PCIe 5.0. Its graphics slot and M.2 slots run at PCIe 4.0, which is the reason it costs less than B850 and X870 rivals. For gaming that is a small loss. Independent PCIe scaling tests show current x16 graphics cards losing very little at PCIe 4.0, and Gen5 SSDs do not shorten game load times in any way most people notice. Three Gen4 M.2 slots hold plenty of fast storage.",
+        "Buy it if you want a Ryzen 7 9800X3D build that will take a CPU upgrade later in the AM5 lifespan. Skip it if you already own a PCIe 5.0 SSD like the [Samsung 9100 Pro](/gear/samsung-9100-pro/) and want its full speed; the Gigabyte B650 Aorus Elite AX or ASRock B850 Steel Legend gives you a Gen5 M.2 slot for similar money."
+      ],
+      "pros": [
+        "Strong VRM for 16-core chips",
+        "Wi-Fi 6E and 2.5 GbE",
+        "Flash BIOS button"
+      ],
+      "cons": [
+        "No PCIe 5.0 slots",
+        "Plain styling"
+      ]
+    },
+    {
+      "id": "msi-mag-x870-tomahawk-wifi",
+      "label": "Best X870 Board",
+      "bestFor": "high-end builds that want PCIe 5.0 graphics, USB4 and fast networking",
+      "skipIf": "you game on a midrange GPU and do not need USB4 or 5 GbE",
+      "writeup": [
+        "If you want the full AM5 feature set without paying X870E prices, the X870 Tomahawk WiFi is the board to buy. X870 requires PCIe 5.0 for both the graphics slot and at least one M.2 slot, plus USB4, and MSI adds Wi-Fi 7 and 5 GbE networking. At $260–$300, it costs about $90 more than the B650 Tomahawk.",
+        "What does that buy you in practice? USB4 gives a 40 Gbps port for fast external SSDs, docks and some displays. The 5 GbE port only helps if your home network has a 5 Gbps or faster switch or NAS. PCIe 5.0 graphics is future-proofing: today's cards like the [RTX 5090](/gear/rtx-5090/) lose very little on PCIe 4.0, but a later card on the same board might lean on the extra bandwidth more.",
+        "Read the manual's lane-sharing table before filling M.2 slots. On many X870 boards, the USB4 controller and some M.2 slots share CPU lanes, and filling certain slots can cut the graphics slot to x8. That costs little in gaming, but it is worth knowing before you plan four SSDs. For a 9950X3D workstation or a no-compromise 9800X3D gaming PC that will stay in service for years, this is the pick."
+      ],
+      "pros": [
+        "PCIe 5.0 graphics and M.2",
+        "USB4 at 40 Gbps",
+        "Wi-Fi 7 and 5 GbE"
+      ],
+      "cons": [
+        "About $90 more than B650 Tomahawk",
+        "Lane sharing with some M.2 slots"
+      ]
+    },
+    {
+      "id": "gigabyte-b650-aorus-elite-ax",
+      "label": "Cheapest Gen5 SSD Slot",
+      "bestFor": "budget builds that want one PCIe 5.0 M.2 slot",
+      "skipIf": "you want PCIe 5.0 graphics or the strongest VRM at this price",
+      "writeup": [
+        "The B650 Aorus Elite AX is the cheapest way on this list to get a PCIe 5.0 M.2 slot. At $160–$190, it pairs that slot with Wi-Fi 6E, 2.5 GbE and Q-Flash Plus, Gigabyte's version of BIOS flashback. If you plan to buy a Gen5 SSD now or later, it gives you somewhere to put one without stepping up to B850.",
+        "The rest of the board is a sensible mid-range B650 design. Power delivery is comfortable with 8-core chips like the Ryzen 7 9800X3D and 9700X, and a 16-core Ryzen 9 at stock settings is within its rating, though the Tomahawk has more margin for long all-core loads. The graphics slot is PCIe 4.0.",
+        "Gigabyte has sold several revisions of this board, and the revision number on the box affects details like the M.2 layout and BIOS options. Check the revision in the listing against Gigabyte's spec page. Owners rate Gigabyte's BIOS as functional but less polished than MSI's. If you want Gen5 storage at the lowest cost and use an 8-core chip, it is a strong buy."
+      ],
+      "pros": [
+        "PCIe 5.0 M.2 slot at B650 pricing",
+        "Wi-Fi 6E and 2.5 GbE",
+        "Q-Flash Plus"
+      ],
+      "cons": [
+        "Multiple revisions to check",
+        "PCIe 4.0 graphics slot"
+      ]
+    },
+    {
+      "id": "asus-tuf-gaming-b650-plus-wifi",
+      "label": "Best ASUS Value",
+      "bestFor": "ASUS fans who want a Gen5 M.2 slot and a durable-feeling board",
+      "skipIf": "Wi-Fi 6E matters to you or the Tomahawk is cheaper",
+      "writeup": [
+        "The TUF Gaming B650-Plus WiFi is ASUS's value AM5 board, and it covers the basics well for $160–$190. It includes a PCIe 5.0 M.2 slot, 2.5 GbE, Wi-Fi 6 and BIOS FlashBack, ASUS's name for a no-CPU firmware update. The TUF line favors heavier heatsinks and a utilitarian look over RGB.",
+        "Its main appeal is ASUS's BIOS, which many builders already know, and the Armoury Crate ecosystem if you run other ASUS hardware. Owners rate the BIOS layout as clear, with fan control and EXPO memory profiles easy to find. Power delivery suits 8-core and 12-core Ryzen chips with headroom, and a stock 16-core chip runs fine.",
+        "The trade-off is wireless. Wi-Fi 6 lacks the 6 GHz band that Wi-Fi 6E and 7 use, which matters only if you have a 6E or 7 router and want the less crowded channels. Price is the other check: ASUS boards often list a little above equivalent MSI and Gigabyte models. If it is within $10 of the B650 Tomahawk, buy based on the PCIe 5.0 slot or your brand preference."
+      ],
+      "pros": [
+        "PCIe 5.0 M.2 slot",
+        "Familiar ASUS BIOS",
+        "BIOS FlashBack"
+      ],
+      "cons": [
+        "Wi-Fi 6, not 6E",
+        "Often priced above MSI equivalents"
+      ]
+    },
+    {
+      "id": "asrock-b850-steel-legend-wifi",
+      "label": "Best B850 Board",
+      "bestFor": "new builds that want guaranteed Gen5 storage and Ryzen 9000 support out of the box",
+      "skipIf": "the B650 Tomahawk is $30 or more cheaper and you do not need Gen5",
+      "writeup": [
+        "B850 boards arrived in early 2025 as the newer midrange chipset, and the Steel Legend WiFi is the one to get. B850 requires at least one PCIe 5.0 M.2 slot, so every board in the class supports Gen5 storage, and boards ship with BIOS versions that support Ryzen 9000 from the start. That removes the flashback step some older B650 stock still needs.",
+        "ASRock's Steel Legend boards use a white and silver design that suits white builds, and the board includes Wi-Fi, 2.5 GbE and a solid VRM for midrange and high-end chips. At $180–$220 it overlaps with the B650 Tomahawk, so the choice comes down to whether a Gen5 SSD slot is worth a small premium to you.",
+        "The B850 chipset itself is not new silicon. It uses the same chipset design as B650, so performance and lane counts are close. The real differences are the guaranteed Gen5 M.2 slot, newer board designs and a newer BIOS at launch. If you are buying everything new in 2026 and want fewer surprises during setup, the Steel Legend is a safe, well-rounded choice."
+      ],
+      "pros": [
+        "Guaranteed PCIe 5.0 M.2",
+        "Ships with Ryzen 9000 support",
+        "White and silver styling"
+      ],
+      "cons": [
+        "Often priced above B650 Tomahawk",
+        "Same chipset silicon as B650"
+      ]
+    },
+    {
+      "id": "msi-pro-b650m-a-wifi",
+      "label": "Best Micro-ATX",
+      "bestFor": "compact or budget AM5 builds with one GPU and one or two SSDs",
+      "skipIf": "you want three or more M.2 drives or plan sustained all-core workloads on a 16-core chip",
+      "writeup": [
+        "The PRO B650M-A WiFi is the best way to build on AM5 for less. At $130–$160, it includes Wi-Fi 6E and 2.5 GbE, which some budget boards still drop, and it fits the smaller micro-ATX cases that are common under $60. For a Ryzen 5 9600X or Ryzen 7 9800X3D gaming PC with one graphics card, it gives up very little.",
+        "Here is what micro-ATX costs you. There are fewer M.2 slots, fewer PCIe expansion slots and fewer rear USB ports than on the ATX boards above. The VRM heatsinks are smaller, which is fine for 6-core and 8-core chips but leaves less margin for a Ryzen 9 under long all-core rendering loads. Everything runs at PCIe 4.0.",
+        "It is a smart base for a budget build in a case like the [Montech AIR 100 LITE](/gear/montech-air-100-lite/). Check the BIOS version on the box if you are installing a Ryzen 9000 chip and the board might be older stock; MSI's update tools make that simple. If your build needs more storage slots, the ATX B650 Tomahawk is about $40 more."
+      ],
+      "pros": [
+        "Wi-Fi 6E and 2.5 GbE at a low price",
+        "Fits small cases",
+        "Enough VRM for 8-core chips"
+      ],
+      "cons": [
+        "Fewer M.2 and PCIe slots",
+        "Smaller VRM heatsinks"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "Chipset",
+    "Form factor",
+    "M.2 slots",
+    "Networking",
+    "BIOS flashback"
+  ],
+  "ranking": {
+    "intro": "These rankings are built from AMD's chipset specifications, each board maker's spec sheet and manual, independent reviews of VRM thermals and features, and owner reports on BIOS stability and setup. None of these boards were bench-tested by us. We favored boards that run any current Ryzen chip at full speed and avoid paying for features most gaming builds do not use.",
+    "criteria": [
+      [
+        "Power delivery",
+        "Whether the VRM handles a 16-core Ryzen 9 at sustained load without throttling, based on independent VRM thermal reviews."
+      ],
+      [
+        "Connectivity",
+        "Wi-Fi generation, Ethernet speed, rear USB and front USB-C header support."
+      ],
+      [
+        "Storage and PCIe",
+        "Number of M.2 slots, PCIe 5.0 support and any lane sharing that reduces the graphics slot."
+      ],
+      [
+        "BIOS and setup",
+        "BIOS Flashback, memory-training stability with DDR5-6000 EXPO kits and the quality of the firmware interface."
+      ],
+      [
+        "Value",
+        "Street price against features, compared with the next board up and down the range."
+      ]
+    ],
+    "why": "The B650 Tomahawk WiFi won because it runs every Ryzen 9000 chip at full speed with Wi-Fi 6E, 2.5 GbE and flashback for less than any PCIe 5.0 board."
+  },
+  "mentions": [
+    {
+      "name": "ASUS ROG Strix B650E-F Gaming WiFi",
+      "text": "The ROG Strix B650E-F adds PCIe 5.0 to the graphics slot as well as storage, which plain B650 boards lack. It is a strong board, but it usually costs as much as the X870 Tomahawk, which adds USB4 and newer networking. Consider it only on a good sale."
+    },
+    {
+      "name": "Gigabyte X870E Aorus Master",
+      "text": "X870E boards like the Aorus Master use two chipsets for more lanes and USB ports, and they have premium VRMs and extra M.2 slots. For a workstation with many drives or add-in cards, they make sense. For gaming, they cost far more than the X870 Tomahawk without a meaningful frame rate gain."
+    }
+  ],
+  "sections": [
+    {
+      "h": "B650 vs B850 vs X870: What Is the Difference?",
+      "body": [
+        "The main differences are which slots must run at PCIe 5.0 and whether USB4 is required. All of these chipsets support every AM5 processor, DDR5 memory and CPU overclocking. B850 and X870 are not faster chipsets than B650; they mainly set stricter minimum features for board makers.",
+        "Pick B650 if you want the best value and are happy with PCIe 4.0. Pick B850 if you want a guaranteed Gen5 SSD slot on a newer board. Pick X870 if you want USB4 and a PCIe 5.0 graphics slot. Skip B840, a cut-down chipset built around PCIe 3.0 that offers little value next to discounted B650 boards."
+      ],
+      "table": {
+        "caption": "AM5 chipsets compared",
+        "head": [
+          "Chipset",
+          "Graphics slot",
+          "M.2 PCIe 5.0",
+          "USB4",
+          "Typical price band"
+        ],
+        "rows": [
+          [
+            "B650",
+            "PCIe 4.0 on most boards",
+            "Optional, often absent",
+            "No",
+            "$130–$200"
+          ],
+          [
+            "B650E",
+            "PCIe 5.0",
+            "Yes",
+            "No",
+            "$200–$300"
+          ],
+          [
+            "B850",
+            "PCIe 4.0 or 5.0 (board maker's choice)",
+            "Required",
+            "Optional",
+            "$160–$250"
+          ],
+          [
+            "X870",
+            "PCIe 5.0 required",
+            "Required",
+            "Required",
+            "$230–$350"
+          ],
+          [
+            "X870E",
+            "PCIe 5.0 required",
+            "Required",
+            "Required",
+            "$330 and up"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "B650 or X870: Is the Upgrade Worth It?",
+      "body": [
+        "For most gaming builds, no. The roughly $90 gap between the B650 Tomahawk and the X870 Tomahawk buys USB4, a PCIe 5.0 graphics slot, Gen5 storage, Wi-Fi 7 and 5 GbE. None of those raise frame rates with current cards in a way you would notice. That money buys more performance as a better graphics card or a faster CPU.",
+        "The upgrade makes sense if you use fast external storage or a dock over USB4, run a 5 Gbps or faster home network, or plan to keep the board through two or three CPU and GPU upgrades and want every interface covered. AMD has said it plans to support AM5 for years, so a feature-rich board has a longer runway than it would on a short-lived socket."
+      ]
+    },
+    {
+      "h": "Do You Need a BIOS Update for Ryzen 9000?",
+      "body": [
+        "You might, if your board is a B650 or X670 model from older stock. Ryzen 9000 chips need a BIOS released for them, generally one built on AMD's AGESA 1.2.0.x code or newer, and the X3D models want a later release still. Boards built after mid-2024 usually ship with support, and B850 and X870 boards support Ryzen 9000 from launch.",
+        "If the board will not post with your new CPU, use the BIOS flashback button. It updates the firmware from a USB drive with no processor or memory installed. Most boards on this list have one, but confirm it on the spec page before buying any budget board, since some cheaper models leave it out."
+      ],
+      "list": [
+        "Download the latest stable BIOS for your exact board model and revision from the maker's support page.",
+        "Format a USB drive as FAT32 and copy the file, renaming it if the manual says so.",
+        "Plug the drive into the labeled flashback USB port with the PSU connected and switched on.",
+        "Press the flashback button and wait until the light stops blinking, usually several minutes.",
+        "Install the CPU and memory, then expect a long first boot while DDR5 memory trains."
+      ]
+    },
+    {
+      "h": "What Do You Lose on Micro-ATX?",
+      "body": [
+        "You lose slots and some cooling margin, not speed. A micro-ATX AM5 board runs the same CPU and GPU at the same performance as an ATX board. The trade-offs are physical: usually two M.2 slots instead of three or four, fewer PCIe expansion slots, fewer rear USB ports and fan headers, and smaller VRM heatsinks.",
+        "For a gaming PC with one graphics card, one or two SSDs and a 6-core or 8-core Ryzen, micro-ATX is a sensible way to save $30 to $50. For a 16-core workstation under long all-core loads, multiple drives or add-in cards, ATX is the safer choice."
+      ]
+    },
+    {
+      "h": "Do You Need Wi-Fi on the Motherboard?",
+      "body": [
+        "Only if you cannot run an Ethernet cable. A wired connection is more stable and has lower latency than Wi-Fi, and every board here has 2.5 GbE or faster. If the PC sits near the router, a non-Wi-Fi version of a board can save $10 to $30 where one exists.",
+        "If you need wireless, onboard Wi-Fi is the cleanest option, with antennas that screw into the rear I/O. Wi-Fi 6E and 7 use the 6 GHz band, which is less crowded but shorter range, so they help most when the router is in the same or a nearby room. A PCIe Wi-Fi card is a fine fallback if you buy a board without it."
+      ]
+    },
+    {
+      "h": "Does PCIe 5.0 Matter for Your GPU and SSD?",
+      "body": [
+        "Not much for gaming in 2026. RTX 50 series and Radeon RX 9000 cards support PCIe 5.0, but independent scaling tests show x16 cards losing very little performance on a PCIe 4.0 x16 slot, typically in the low single digits at most. PCIe 4.0 x8 cards like the RTX 5060 Ti also run well on any AM5 board.",
+        "For storage, PCIe 5.0 SSDs post very high sequential speeds, but game load times barely change compared with a good PCIe 4.0 drive like the [WD Black SN850X](/gear/wd-black-sn850x/). Gen5 helps with large file transfers and some professional work. For a gaming build, it is a nice extra, not a reason to change boards."
+      ]
+    },
+    {
+      "h": "Which AM5 Board Suits a Ryzen 7 9800X3D?",
+      "body": [
+        "Any board on this list runs the 9800X3D at full speed. At 120 W, it does not need a premium VRM, so the choice comes down to features. The B650 Tomahawk is the value pick, and the X870 Tomahawk is the choice if you want USB4 and Gen5 everything.",
+        "Pair it with a DDR5-6000 CL30 kit and enable the EXPO profile in the BIOS. Our [best CPU for gaming](/best-cpu-for-gaming/) guide covers why the 9800X3D leads for gaming, and our [best RAM for gaming](/best-ram-for-gaming/) guide covers memory kits that work well on AM5."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Paying for X870 just for gaming",
+      "X870 adds USB4, PCIe 5.0 graphics and faster networking, but none of those raise frame rates with current cards in a way you would notice. For a gaming-only build, the $90 saved by choosing B650 buys more performance as a better GPU or CPU."
+    ],
+    [
+      "Skipping the BIOS check",
+      "Older B650 stock may not post with a Ryzen 9000 chip until the BIOS is updated. Check the board's support list and buy a board with BIOS flashback, so you can update with a USB drive and no CPU installed."
+    ],
+    [
+      "Panicking at the first boot",
+      "AM5 boards train DDR5 memory on first boot and after BIOS changes, which can take several minutes with a black screen. Wait before assuming the build is dead. Enabling Memory Context Restore in the BIOS shortens later boots, and a BIOS update often improves training."
+    ],
+    [
+      "Ignoring M.2 lane sharing",
+      "On many boards, especially X870 models, filling certain M.2 slots disables SATA ports or drops the graphics slot to x8. Read the manual's lane-sharing table before installing multiple SSDs, and put your main drive in the top CPU-connected slot so it gets full bandwidth."
+    ],
+    [
+      "Buying B840 because it is cheapest",
+      "B840 is a cut-down chipset built around PCIe 3.0, and its boards tend to cut VRM quality, ports and slots as well. A discounted B650 board usually costs little more and gives you PCIe 4.0, better VRMs and more ports."
+    ]
+  ],
+  "bottomLine": "Buy the MSI MAG B650 Tomahawk WiFi for most AM5 builds: it runs any Ryzen 9000 chip at full speed and includes Wi-Fi 6E, 2.5 GbE and BIOS Flashback for $170–$200. Choose the X870 Tomahawk if you want USB4 and PCIe 5.0 everywhere, the ASRock B850 Steel Legend for a guaranteed Gen5 SSD slot on a newer board, and the MSI PRO B650M-A WiFi for a compact budget build.",
+  "faqs": [
+    {
+      "q": "Is B650 still worth buying in 2026?",
+      "a": "Yes, B650 is still worth buying for most gaming builds. It supports every AM5 processor, DDR5 and CPU overclocking, and boards like the B650 Tomahawk have VRMs strong enough for 16-core chips. You give up guaranteed PCIe 5.0 and USB4, which matter little for gaming."
+    },
+    {
+      "q": "Do I need X870 for the Ryzen 7 9800X3D?",
+      "a": "No, you do not need X870 for the Ryzen 7 9800X3D. Any B650 or B850 board runs it at full speed, as long as the BIOS supports Ryzen 9000. X870 adds USB4 and PCIe 5.0 graphics, which are useful extras rather than requirements."
+    },
+    {
+      "q": "Will a B650 board work with Ryzen 9000?",
+      "a": "Yes, B650 boards work with Ryzen 9000 after a BIOS update that adds support, generally AGESA 1.2.0.x or newer. Most boards sold in 2025 and 2026 already have it. If yours does not post, use BIOS flashback to update from a USB drive with no CPU installed."
+    },
+    {
+      "q": "What is the difference between B650 and B650E?",
+      "a": "B650E boards run the graphics slot and at least one M.2 slot at PCIe 5.0, while most B650 boards use PCIe 4.0 for the graphics slot. B650E boards cost more and now compete with X870 boards, which add USB4 for similar money."
+    },
+    {
+      "q": "Is micro-ATX fine for an AM5 gaming PC?",
+      "a": "Yes, micro-ATX is fine for an AM5 gaming PC. It runs the CPU and GPU at the same speed as ATX. You lose M.2 and PCIe slots, rear USB ports and some VRM cooling margin, which matters mainly for 16-core chips under long all-core loads."
+    },
+    {
+      "q": "How long will AM5 be supported?",
+      "a": "AMD has said it plans to support AM5 for several more years, with public statements pointing to 2027 and beyond. That means a good AM5 board bought now should accept future Ryzen chips with a BIOS update, although new features may need a newer board."
+    },
+    {
+      "q": "Why does my AM5 PC take so long to boot the first time?",
+      "a": "The first boot is slow because the board trains DDR5 memory timings, which can take a few minutes. It is normal and only happens again after BIOS updates or memory changes. Enabling Memory Context Restore in the BIOS reduces later boot times."
+    },
+    {
+      "q": "What RAM should I use with an AM5 motherboard?",
+      "a": "Most AM5 builders should use a 32 GB DDR5-6000 CL30 kit with an EXPO profile. That speed is widely considered the sweet spot for Ryzen 7000 and 9000. DRAM prices rose sharply from late 2025, so compare kits before buying."
+    }
+  ],
+  "sources": [
+    "AMD AM5 chipset specifications for B650, B650E, B840, B850, X870 and X870E",
+    "AMD AGESA and Ryzen 9000 BIOS support notes",
+    "MSI MAG B650 Tomahawk WiFi, MAG X870 Tomahawk WiFi and PRO B650M-A WiFi spec pages and manuals",
+    "Gigabyte B650 Aorus Elite AX spec page and revision notes",
+    "ASUS TUF Gaming B650-Plus WiFi spec page",
+    "ASRock B850 Steel Legend WiFi spec page",
+    "Independent AM5 motherboard and VRM thermal reviews from established hardware outlets",
+    "Independent PCIe 4.0 vs 5.0 GPU scaling reviews"
+  ],
+  "related": [
+    "best-cpu-for-gaming",
+    "best-ram-for-gaming",
+    "msi-review"
+  ]
+}

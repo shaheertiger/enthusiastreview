@@ -1,21 +1,39 @@
 ---
 import Prose from '../components/Prose.astro';
+import { SITE } from '../data/site';
+import { CATEGORIES } from '../data/categories';
 ---
-<Prose title="How We Review Dehumidifiers" h1="How We Review Dehumidifiers" description="The data, sources and rules behind every Enthusiast Review dehumidifier recommendation — DOE ratings, ENERGY STAR, recalls and owner reviews." dek="No lab coats, no fake test scores — just the data that actually separates a good dehumidifier from a bad one.">
-  <h2>1. We start with comparable numbers</h2>
-  <p>Manufacturers love big pint numbers. We compare models on their capacity under the <strong>2019 DOE test procedure</strong> (65°F, 60% relative humidity), which is the only rating that lines up across brands. Where a listing quotes the older 2012 rating (80°F), we convert or flag it.</p>
-  <h2>2. We check efficiency and safety records</h2>
+<Prose title="How We Score PC Hardware: The ER Score Explained" h1="How We Score PC Hardware" description="The ER Score is a 0–100 research score built from the spec sheet, price band, platform fit and owner reports, in four parts per category. How it works." dek={`What the ${SITE.score} measures, where the numbers come from and what we have not done.`}>
+  <h2>The short version</h2>
+  <p>Every part we track gets an {SITE.score} from 0 to 100, split into four parts that matter for its category. It is a research score: we build it from the manufacturer's spec sheet, platform documentation, the price band the part actually sells in, widely published independent measurements and the problems owners report after months of use. We have not bench-tested these parts ourselves.</p>
+  <h2>What each category is scored on</h2>
+  <table>
+    <thead><tr><th>Category</th><th>Score parts</th></tr></thead>
+    <tbody>
+      <tr><td>Graphics cards</td><td>Gaming performance, value, efficiency, features</td></tr>
+      <tr><td>Processors</td><td>Gaming performance, multi-thread, efficiency, value</td></tr>
+      <tr><td>CPU coolers</td><td>Cooling, noise, compatibility, value</td></tr>
+      <tr><td>Power supplies</td><td>Electrical quality, noise, features, value</td></tr>
+      <tr><td>PC cases</td><td>Airflow, build ease, features, value</td></tr>
+      <tr><td>Memory</td><td>Speed, compatibility, value, build</td></tr>
+      <tr><td>Motherboards</td><td>Power delivery, features, connectivity, value</td></tr>
+      <tr><td>SSDs</td><td>Speed, endurance, value, warranty</td></tr>
+    </tbody>
+  </table>
+  <p>The overall score is not a plain average: a part that fails at its main job (a cooler that cannot hold its CPU, a power supply with a poor warranty) loses more than the average would show.</p>
+  <h2>Where the information comes from</h2>
   <ul>
-    <li><strong>ENERGY STAR:</strong> we look up each model's Integrated Energy Factor (liters removed per kWh) — the clearest guide to running cost.</li>
-    <li><strong>CPSC recalls:</strong> we search the Consumer Product Safety Commission database for every brand and model family and say so on the page when there's history.</li>
-    <li><strong>Manuals:</strong> minimum operating temperature, defrost behavior, drain options, pump lift height and filter care come straight from manufacturer documentation.</li>
+    <li><strong>Spec sheets and manuals</strong> from the manufacturer, for every number in a spec table.</li>
+    <li><strong>Platform documentation:</strong> socket and chipset support lists, BIOS release notes, the ATX 3.1 and PCIe standards.</li>
+    <li><strong>Independent measurements</strong> published by the wider hardware press. We use the broad pattern across many reviews, never a single chart, and we do not quote frame rates as if we measured them.</li>
+    <li><strong>Owner reports</strong> read in bulk, for the problems that only appear after months: coil whine, failed fans, pump noise, RMA experiences.</li>
+    <li><strong>Price bands</strong> from the street prices parts actually sell for, not launch MSRP. Memory and SSD prices have swung sharply since late 2025, so treat every band as a guide and check the live price.</li>
   </ul>
-  <h2>3. We read owner reviews in bulk</h2>
-  <p>A dehumidifier's real weaknesses — a pump that dies after one season, a humidistat that reads ten points off, a compressor that rattles — show up in patterns across hundreds of reviews. We look for those patterns, not star averages.</p>
-  <h2>4. We match the machine to the job</h2>
-  <p>The best basement dehumidifier is a bad pick for a nursery. Every guide is written around one space or problem, and the picks are chosen for that job: capacity, noise, cold tolerance, drainage and footprint.</p>
-  <h2>5. We keep guides current</h2>
-  <p>Models get discontinued, renamed and recalled constantly. We revisit guides regularly and show the last-updated date at the top of every page.</p>
-  <h2>What we don't do</h2>
-  <p>We don't run a test lab, and we don't claim to. We don't accept payment for placement or let manufacturers review guides before publishing. Affiliate links help fund the site — see our <a href="/disclosure/">disclosure</a>.</p>
+  <h2>What we have not done</h2>
+  <p>We have not run these parts on our own test bench. When we do get hands-on time with a part, the page will say so plainly, with the date and what was measured.</p>
+  <h2>Ranking a best list</h2>
+  <p>A best list is not the {SITE.score} sorted. Each list is built for one search and one kind of build, so a part with a lower overall score can top a list where its strengths matter most: the cheapest card that holds 1080p, the cooler that fits a small case. Each list explains its ranking criteria in a "How We Ranked" section.</p>
+  <h2>Independence</h2>
+  <p>We earn affiliate commissions when you buy through some links. Manufacturers never see a guide before it is published and cannot pay for placement. See our <a href="/disclosure/">disclosure</a>.</p>
+  <p class="fine">Categories covered: {CATEGORIES.map((c) => c.label).join(', ')}.</p>
 </Prose>

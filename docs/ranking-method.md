@@ -1,415 +1,146 @@
 # enthusiastreview.com: the method to rank on Google and Bing
 
-This is the treadmillreviewsusa.com ranking method, adapted to this site: 212 dehumidifier
-guides (210 indexable) in `src/content/pages/`, one Astro template (`src/components/Article.astro`),
-and Amazon affiliate links. Sections 1–6 say what the rule is, what was done here, and what's left.
-Sections 7–10 are the working loop.
+The site is a PC hardware buying-guide site again (it was one from 2019 to 2020). This version copies the
+structure that already earns impressions on our two sister sites and keeps the Bing on-page rules this
+repo already had. Schema and house rules for content: [`content-schema.md`](content-schema.md).
 
-**Data used:** the site's own content and build output. Data still missing:
-- **Semrush:** the account's API units balance is zero, so no keyword export was pulled.
-- **Bing Webmaster Tools:** no page or keyword reports were supplied.
-- **Google Search Console:** no export was supplied.
+## 1. The evidence (Search Console, last 24 hours, 19 Nov 2026)
 
-The volume and KD columns in section 7 are blank until those exports exist. Fill them in
-before trusting the order of the list.
+Impression-weighted average position by page type:
 
-Check the site against the rules at any time:
-
-```bash
-npm run build && npm run audit:seo
-```
-
----
-
-## 0. The diagnosis in one paragraph
-
-The site doesn't need more pages. It has a page for nearly every dehumidifier search worth
-winning (rooms, sizes, brands, problems, fixes). What held it back on Google were the same five
-problems as the treadmill site:
-
-1. **Pages competing for the same search**, e.g. Wi-Fi vs. smart, sleeping vs. bedroom, ducted vs.
-   whole-house, and basement and musty-smell titles that both said "musty smells".
-2. **Every page reading the same.** About 180 pages used the same three headings ("X, by the
-   numbers", "How we pick X", "What to look for in X") and the same disclosure and trust paragraph.
-3. **Descriptions that listed topics instead of answering.** 124 of 217 had no number in the
-   first clause.
-4. **Spec-based copy with a testing-flavoured label** ("Performance:").
-5. **Off-topic pages** (Amazon Prime, hearing-aid dryers).
-
-All five are fixed at the site level (see the git log on this branch). What remains is
-page-by-page work: depth, original visuals, first-hand evidence and internal links from pages
-that already rank.
-
----
-
-## 1. Site-level fixes
-
-### 1a. One URL per search (done)
-
-| Search | Was | Now | Redirect |
+| Page type | besthometheaterreview.com | best-proteinpowder.com | Here |
 |---|---|---|---|
-| smart / Wi-Fi dehumidifier | `best-smart-dehumidifier`, `best-wifi-dehumidifier` | `best-smart-dehumidifier` (title covers Wi-Fi, Alexa, app) | wifi → smart |
-| dehumidifier for bedroom / sleeping | `best-dehumidifier-for-bedroom`, `best-dehumidifier-for-sleeping` | `best-dehumidifier-for-bedroom` ("Quiet Picks for Sleep") | sleeping → bedroom |
-| dehumidifier for apartment / condo | `…-for-apartment`, `…-for-condo` | `…-for-apartment` (with the condo HOA, insurance and drain-line section) | condo → apartment |
-| gun safe / gun cabinet dehumidifier | `…-for-gun-safe`, `…-for-gun-cabinet` | `…-for-gun-safe` ("Safe & Gun Cabinet Picks") | gun cabinet → gun safe |
-| whole house / ducted dehumidifier | `best-whole-house-dehumidifier`, `best-ducted-dehumidifier` | `best-whole-house-dehumidifier` ("Ducted & HVAC Picks") | ducted → whole house |
+| Comparison `/compare/a-vs-b/` | 20.0 (5 pages) | **6.7** (70 pages) | 35 pages |
+| Brand review `/<brand>-review/` | **17.7** (7) | **12.1** (43) | 3 pages |
+| Brand hub `/brands/<brand>/` | 28.8 (1) | **14.3** (29) | 27 pages |
+| Product page `/gear/<model>/` | **19.4** (68) | 35.2 (28) | 73 pages |
+| Buyer's guide `/best-x/` | 28.8 (22) | 34.1 (61) | 18 pages |
+| Glossary | 38.8 | 45.1 | 24 terms |
+| Tools | 27.8 | 47.7 | 2 calculators |
 
-The merged page took the other page's unique sections, FAQs and products. The 301s live in
-`vercel.json`, for both the HTML URL and its `.md` twin, and point straight at the final
-`https://www.` URL so there's no extra redirect hop. Internal links were rewritten to the kept URLs.
+What it says:
 
-Pages that overlapped but serve **different products** were kept and **retitled** so each owns
-one search:
+1. **Specific pages rank first.** Comparisons, brand reviews, brand hubs and model pages sit on page 1–2
+   within weeks; broad `/best-x/` guides take longer (positions 30–60 for head terms like "best chocolate
+   protein powder", "best home theater seating"). The specific pages are what pass authority up.
+2. **Exact model searches win.** "hisense u7sg review" (position 1), "svs soundbar" (9.5), model-number
+   queries all land on product pages. So every product gets its own page with the model in the H1 and title.
+3. **Long-tail guides win before head terms.** "best protein powder for baristas" (2), "best protein
+   powder for coffee" (6.8) beat "best protein powder" (12.8). The restored 2020 URLs here are long-tail
+   by nature ("best cpu cooler for ryzen 9 3900x").
+4. **Glossary and tools are support pages.** They rank poorly alone but feed internal links and answer
+   definitional queries; keep them, don't prioritise them.
 
-| Pair | Split |
+And from this domain's own 2020 history (Semrush, Canada): `/best-pc-cases-under-50/`,
+`/best-cpu-cooler-for-ryzen-9-3900x-and-3950x/`, `/best-gpu-for-ryzen-5-2600-and-3600/`,
+`/best-motherboard-for-ryzen-9-3950x/`, `/best-ram-for-ryzen-9-3900x-and-3950x/`, `/best-psu-under-100/`
+and `/best-psu-for-rtx-2080-and-2080-ti/` held positions 2–11. They are live again at the same URLs with
+2026 content written for people who still own that hardware. The other 2020 URLs 301 to their nearest
+page (`vercel.json`).
+
+## 2. Site structure (copied from the sister sites)
+
+| Sister-site pattern | Here |
 |---|---|
-| large room vs. heavy duty | large room = 50-pint home units; heavy duty = 100- to 240-pint |
-| industrial vs. heavy duty vs. commercial vs. LGR vs. water damage | industrial = restoration-grade; commercial = job sites; LGR = the technology; water damage = flood cleanup |
-| basement vs. musty smell | basement no longer says "mold & musty smells" |
-| allergies vs. asthma | allergies no longer says "and asthma" |
-| warehouse vs. industrial | warehouse no longer leads with "industrial" |
-| small vs. mini vs. closet | small = compact units for small rooms; mini = tiny/cordless; closet = closets |
+| Root-level buyer's guides | `/best-graphics-card/`, `/best-pc-cases-under-50/` … |
+| Brand reviews at the root | `/corsair-review/`, `/msi-review/`, `/thermalright-review/` |
+| `/gear/<model>/` product pages | 73 parts, each with specs, score, verdict, alternatives, compare links, FAQ, "Featured in" |
+| `/compare/<a>-vs-<b>/` | 35 pairs, linked from both product pages and from guides that pick both |
+| `/brands/` + `/brands/<brand>/` | 27 brand hubs |
+| `/glossary/<term>/` | 24 terms, auto-linked on first mention site-wide |
+| `/tools/` | Bottleneck and PSU calculators |
+| `/best-of/`, `/gear/`, `/compare/` hubs | yes |
 
-**Guard rail:** `npm run validate` now fails the build if two indexable pages target the same
-search (the title up to "(2026)", ":" or "?", or the page's `query` field). `audit:seo` reports
-duplicate titles.
-
-**Next candidates to watch** once Search Console data exists (merge only if Google shows both
-URLs for the same queries):
-- `best-dehumidifier-with-pump` vs. `best-50-pint-dehumidifier-with-pump`
-- `best-crawl-space-dehumidifier` vs. `best-encapsulated-crawl-space-dehumidifier`
-- `best-quiet-dehumidifier` vs. `best-dehumidifier-for-nursery`
-- `best-dehumidifier-for-drying-room` vs. `best-grow-room-dehumidifier`
-
-### 1b. Off-topic pages (done)
-
-`is-amazon-prime-worth-it` and `best-dehumidifier-for-hearing-aids` carry `"noindex": true`.
-The flag keeps the page live for visitors (`noindex, follow`) but leaves it out of:
-- the sitemap, hubs, menus, related links and autolinks
-- `llms.txt` and the Markdown twins
-
-Use the same flag for any future page that isn't about dehumidifiers or indoor humidity.
-
-Kept on purpose, because each one answers a humidity problem: camera dry cabinets, the pest
-pages, car and boat pages, and moisture absorbers.
-
-### 1c. The template fingerprint (done at template level)
-
-- **Disclosure, byline method line and trust box** now depend on page type and topic, and
-  rotate between wordings (`src/data/page-copy.mjs`). Each method line says what that page type
-  is actually based on.
-- **Repeated headings:** 169 "X, by the numbers" sections became the Short Answer block
-  (section 4). 360 "How we pick X", "What to look for in X" and "How to choose X" headings now
-  use several wordings, most of them questions. Anchors are unchanged.
-
-**Still to do, page by page:** a unique lede, a Common Mistakes section and a bottom line
-written for that page. The skeleton is the same everywhere, and that's fine; repeated sentences
-are the problem.
-
-### 1d. Honesty signals (done)
-
-- Product cards say "What the ratings show:" instead of "Performance:".
-- The trust box says plainly that the machines weren't lab-tested and that every figure is
-  attributed.
-- `validate-content.mjs` still fails any page that claims hands-on testing.
-
-If you get hands-on time with any machine, that page becomes the site's flagship (section 5B).
-
----
-
-## 2. Page types on this site
-
-Every page is one of these. `pageType()` in `src/data/page-copy.mjs` assigns it automatically.
-
-| Type | Here | Examples | Count |
-|---|---|---|---|
-| **A. Question / number answer** | `guides/`, Buying Advice | `dehumidifier-size-guide`, `how-much-electricity-does-a-dehumidifier-use`, `how-long-do-dehumidifiers-last` | ~15 |
-| **B. Model review** | none yet | — the biggest gap; see 5B | 0 |
-| **C. Brand guide** | `best/`, Brands | `best-midea-dehumidifier`, `best-alorair-dehumidifier` | 49 |
-| **D. Buyer's guide (roundup)** | `best/`, every other category | `best-dehumidifier-for-basement`, `best-50-pint-dehumidifier` | ~125 |
-| **E. Problem / fix** | `guides/`, How-To & Fixes | `dehumidifier-not-collecting-water`, `dehumidifier-freezing-up` | 9 |
-| **F. X vs Y** | `compare/` and `guides/*-vs-*` | `midea-vs-frigidaire-dehumidifier`, `dehumidifier-vs-air-conditioner` | 9 |
-| **G. Store page** | `best/`, Retailers | `best-costco-dehumidifier`, `best-walmart-dehumidifier` | 4 |
-
----
-
-## 3. The snippet: title, description, URL (done; keep it that way)
-
-### Title: the exact search first, 50–62 characters
-
-| Type | Formula | Example on the site |
-|---|---|---|
-| A | `<Exact question>? <the answer in brief>` | `How Long Do Dehumidifiers Last? 5–10 Years, by Type` |
-| C | `Best <Brand> Dehumidifier (2026): <models or verdict>` | `Best Midea Dehumidifier (2026): Cube, 35-Pint & Pump Models` |
-| D | `Best <exact search> (2026): <how ranked or what's special>` | `Best Dehumidifier for Basement (2026): Pump & Low-Temp Picks` |
-| E | `<Problem>? <the fix promise>` | `Dehumidifier Not Collecting Water? 6 Causes and Easy Fixes` |
-| F | `<X> vs. <Y> (2026): <which to buy, in brief>` | `Haier vs. GE Dehumidifier (2026): Same Owner, Which to Buy?` |
-| G | `Best <Store> Dehumidifier (2026): <what's worth buying>` | `Best Walmart Dehumidifier (2026): 5 Brands Worth Buying There` |
-
-Rules:
-- Use the **highest-volume wording** from the keyword export. Until there's an export, use the
-  wording people type ("dehumidifier for basement", not "basement moisture control unit").
-- **(2026)** goes only on C, D, F and G. Update it on 1 January, and only on pages you actually
-  rechecked.
-- Never use "Tested" unless the machine was physically tested.
-- The ` | Enthusiast Review` suffix is added automatically only when the title stays within 65
-  characters, so at 50–62 it's normally left off.
-
-### Meta description: 140–158 characters, answer first
-
-The first clause is the answer, with a number: the pick and its capacity, the humidity target,
-the cost or the size. Examples now live on the site:
-
-- **size guide:** "Most spaces up to 1,000 sq ft need 20–30 pints a day; 1,000–2,000 sq ft needs 25–50, by
-  dampness…"
-- **basement:** "A 50-pint unit suits most basements; the Midea Cube 50 is our top pick with a 4.35-gallon tank…"
-- **freezing up:** "Most dehumidifiers ice up below about 60–65°F or with a dirty filter. Frost that clears in
-  20–30 minutes is normal…"
-
-A yes/no answer ("No. Dehumidifier water isn't distilled…") also counts. `audit:seo` lists any
-description whose first clause has no number. Three pages are flagged because their answer is
-qualitative (smoke smell, how a dehumidifier works, disposal), and that's acceptable.
-
-### URL
-
-Don't change existing URLs to match a new title; retitle instead. Change a URL only when merging,
-and add a 301 in `vercel.json` (HTML and `.md`).
-
----
-
-## 4. The page skeleton (implemented in the template)
+Guide skeleton (sister-site order, Bing's Short Answer first):
 
 ```
-H1          The search, plain                                    page.h1
-Dek         One sentence                                          page.dek
-Byline      Author · "Updated <real git date>" · method note      methodNote(page)
-Disclosure  Page-specific                                         disclosure(page)
-
-H2 1        "<Search>: The Short Answer"                          shortAnswerHeading(page)
-            Verdict in 1–2 sentences                              page.topPicksLead
-            One scannable block (stats row + one paragraph)       page.shortAnswer
-            The picks list (types C, D, F, G)                     page.products
-
-Hero, lede  40–70 words ideally; sentence 1 = the answer          page.intro
-Product cards (C, D, F, G)
-H2 2–8      Each H2 = a question people search                    page.sections
-H2          Common Mistakes (5, page-specific)                    ← not on any page yet
-H2          Frequently Asked Questions (6–8, FAQPage schema)       page.faqs
-H2          The Bottom Line                                       last section
-Box         Why trust / sources (page-specific)                   trustBox(page)
-            Related guides                                         related + automatic
+H1 (the search) · dek · byline (real git date, read time) · research disclosure
+Lede: sentence 1 names the pick with numbers
+Shortlist (numbered picks, label, best for, score, price)        ← not a heading
+On this page                                                       ← not a heading
+H2 1. <H1>: The Short Answer     quick answer + picks table (best for / skip it if / score / price)
+H2 2. Who <Brand> Is              (brand pages)
+H2 3. How We Ranked These …      criteria; plainly says nothing was bench-tested
+H2 4. <H1>: Our N Picks           one card per pick: key specs, skip it if, buy button, write-up, pros/cons
+H2 5. Spec Sheets Side by Side
+H2 6. Notable Mentions
+H2 7–12. Topic sections, mostly the questions people type (92% are questions)
+H2 Common Mistakes to Avoid · The Bottom Line · Frequently Asked Questions (FAQPage)
+H2 Sources and Recent Updates · All <category> We Track · Head-to-Head Comparisons · Related Guides
 ```
 
-**Gaps against the method** (from the content as it stands):
+## 3. Bing and Google on-page rules (kept from the previous version of this repo)
 
-| Rule | Now | Target |
+- **Titles lead with the search, 50–62 characters.** `(2026)` only on guides, brand pages and comparisons.
+  Product pages: `<Model> Review: Specs, Score & Verdict`, padded with the category noun when short.
+- **Descriptions 140–158 characters, answer and a number first** ("The RTX 5070 is the best graphics card
+  for most people: 12 GB, 250 W…"). The validator warns outside the range; `audit:seo` flags no-number openers.
+- **First H2 is "<search>: The Short Answer"** on guides and comparisons.
+- **Real dates.** `scripts/page-dates.mjs` stamps each page with the last commit that changed its JSON.
+  Use the `Page-Dates: skip` trailer on mechanical commits.
+- **IndexNow on every production deploy**; submit `/sitemap.xml` in Bing Webmaster Tools and Search Console.
+- **One URL per search.** The validator fails two indexable guides targeting the same query.
+- **Schema:** Article + BreadcrumbList + ItemList + FAQPage on guides; Product + Review + FAQPage on
+  product pages; DefinedTerm on glossary pages; WebApplication on tools.
+- **Markdown twins and llms.txt** for AI search (Dualmark), generated from the built HTML.
+
+## 4. Old URLs
+
+| URLs | Response | Why |
 |---|---|---|
-| Common Mistakes section | 1 page | every page, 5 page-specific mistakes of 40–60 words |
-| Question H2s | 37% of topic headings | most of them (`audit:seo` prints the share) |
-| Length | roundups: median 1,660 words; guides: 1,220 | D: 3,500–6,000; A, E, F: 2,500–4,000. Add answered questions, not padding |
-| FAQs | 19 pages have 5 | 6–8 |
-| Lede | narrative intros | sentence 1 answers; 40–70 words |
-| Original visual | product photos only | one chart or diagram per page (size chart, humidity chart, wattage chart, placement diagram) with alt text |
-| Author | "The Home Air Desk" (an organisation) | a real, named author with credentials and a profile in `src/data/authors.ts` |
+| `/best/*`, `/guides/*`, six `/compare/*-dehumidifier/` | **410 Gone** (middleware) | Dehumidifier pages from Nov 5–19, 2026: off-topic now |
+| `/best-gpu-for-<cpu>/` (Nov 2026 bottleneck finder) | 301 → `/tools/bottleneck-calculator/` | Same intent |
+| `/gpu-bottleneck-calculator/`, `/bottleneck-calculator/` | 301 → the calculator | Same intent |
+| 2020 URLs not restored | 301 to the nearest guide (`vercel.json`) | Keep link equity |
+| `/how-to-overclock-a-gpu/` and other 2019 how-tos | 410 | No equivalent page |
 
----
+## 5. Keyword → page map (Semrush US exports, 19 Nov 2026: "graphic card", "amd", "nvidia")
 
-## 5. Required blocks by page type
+Every keyword in these exports has KD 28 or under, so they are winnable. Off-topic matches (stock prices,
+"amd" the eye condition, NVIDIA Shield) are ignored.
 
-### A. Question / number answer
-- The number in the description, the Short Answer and the lede.
-- One **original table or calculator**: pints by square footage and dampness, watts and monthly
-  cost by size, lifespan by type, humidity targets by room.
-- A link to the roundup that a person with this question needs next, e.g. size guide →
-  `best-dehumidifier-for-basement`.
-
-### B. Model review (new page type; the biggest Google opportunity)
-The site has no single-model reviews. The treadmill data showed reviews are where Google most
-rewards first-hand evidence. Start with the models the site recommends most often:
-
-| Model | Featured on (guides) | Suggested URL |
-|---|---|---|
-| Midea Cube 50 (MAD50S1QWT) | 42 | `/reviews/midea-cube-50-review/` |
-| Midea Cube 20 | 39 | `/reviews/midea-cube-20-review/` |
-| AlorAir Sentinel HDi65S | 29 | `/reviews/alorair-sentinel-hdi65s-review/` |
-| hOmeLabs HME1003 | 24 | `/reviews/homelabs-hme1003-review/` |
-| Midea Cube 35 | 24 | `/reviews/midea-cube-35-review/` |
-| Frigidaire FFAP5033W1 | 19 | `/reviews/frigidaire-ffap5033w1-review/` |
-| AlorAir Storm LGR Extreme | 16 | `/reviews/alorair-storm-lgr-extreme-review/` |
-
-Each review needs:
-- **Short Answer:** the verdict, "Buy it if… / Skip it if…" and the price band.
-- **Spec table** from the manufacturer and ENERGY STAR: DOE 2019 pints, AHAM pints for
-  LGRs, coverage, tank size, pump lift, minimum operating temperature, IEF (L/kWh), noise, warranty
-  by component. Name the source and the date checked.
-- **Question H2s:**
-  - "Is the <Model> Big Enough for a Basement?"
-  - "How Loud Is the <Model>?"
-  - "Does the <Model> Work in a Cold Basement?"
-  - "What Does It Cost to Run?"
-  - "What Do Owners Complain About?"
-  - "Warranty: What It Actually Covers"
-  - "<Model> vs. <rival>"
-  - "Who Should Buy It, and Who Should Skip It?"
-- **The Google upgrade: first-hand evidence.** Your own photos, a measured noise reading, a
-  measured watt draw (a $20 plug meter), pints collected in a week, a timed setup. Label it clearly
-  ("Measured by <author> on <date>").
-
-Adding a `reviews` section needs a new route folder (`src/pages/reviews/[slug].astro`) and a
-`SECTIONS` entry in `src/data/site.ts`. It's a small change, but make it with the first real review.
-
-### C. Brand guide
-- A lineup table: model, pints (DOE 2019), pump, coverage, warranty, ENERGY STAR status.
-- Verdict H2s: "Is <Brand> a Good Dehumidifier Brand?", "Where Are <Brand> Dehumidifiers Made?",
-  "<Brand> Warranty and Recalls", "Best <Brand> Dehumidifier for a Basement".
-- Link to the X-vs-Y page for that brand (the template does this automatically under "Head-to-head").
-
-### D. Buyer's guide (roundup)
-- The real number of picks in the title when you add one ("5 Picks"). Vary it; don't make every
-  list 5.
-- A quick comparison table first: the spec that matters for this guide. That's the minimum
-  temperature for garages, pump lift for basements, dB for bedrooms and cubic feet for closets.
-- A method section that says exactly what was and wasn't done (the "How we…" sections already do).
-- The niche-specific questions as H2s, e.g. "How Cold Can a Garage Dehumidifier Run?"
-
-### E. Problem / fix
-- The Short Answer is the most likely cause and its fix (done for all 9).
-- Numbered steps, causes in order of likelihood, each an H2 phrased as the symptom.
-- A safety box (unplug first; refrigerant isn't a DIY repair) and "when to call a tech" with
-  typical costs.
-
-### F. X vs Y
-- A side-by-side table in the first screen (the template renders it under "Side by side").
-- The Short Answer is "Pick X if…, pick Y if…" (done).
-- Each difference as a question H2, e.g. "Which Has the Longer Warranty?"
-
-### G. Store page
-- What the store actually stocks, delivery and returns, and price match, all sourced from the
-  store with the date checked.
-- 3–5 picks.
-
----
-
-## 6. Google vs. Bing: what each needs on top
-
-**Both (in place):**
-- Article, FAQPage, BreadcrumbList and ItemList schema
-- Self-canonicals and trailing slashes
-- Real git dates (`scripts/page-dates.mjs`)
-- A sitemap with product images
-
-**Google adds:**
-1. **One URL per search.** Done (1a), and guarded by the validator.
-2. **Evidence of experience.** Model reviews with measurements (5B) and a named author. This is the
-   largest remaining gap.
-3. **Topical focus.** Done (1b).
-4. **Unique writing per page.** Template-level done (1c); ledes and Common Mistakes still to write.
-5. **Real freshness.** Recheck prices, stock and discontinued models monthly on C, D and G pages.
-   The "Updated" date moves only when the JSON changes, so never edit a file just to bump it.
-6. **Internal links from pages that already rank.** Needs Search Console or Bing data to know
-   which pages those are (section 8, step 7).
-7. **Specific before broad.** "best dehumidifier" and "best dehumidifier for basement" take months.
-   Win the specific searches first; they pass authority up.
-
-**Bing adds:**
-- The answer in the description (done).
-- The exact query in the title, H1 and the Short Answer H2 (done).
-- IndexNow on every production deploy (in place) and the sitemap submitted in Bing Webmaster Tools.
-  Confirm the site is verified: there's no `msvalidate.01` tag unless `PUBLIC_BING_SITE_VERIFICATION`
-  is set.
-
----
-
-## 7. Keyword → page map (fill in volume and KD first)
-
-These pages already own the search; most need the **section 4 gaps** closed, not a new page.
-Run a Semrush export (US, filter on "dehumidifier") and fill in the volume and KD columns. Then
-work the KD ≤ 40 rows first, highest volume first.
-
-| # | Search | Owner page | Volume | KD | Next action |
-|---|---|---|---|---|---|
-| 1 | what size dehumidifier do I need | `guides/dehumidifier-size-guide` | | | Chart as an image; calculator; Common Mistakes |
-| 2 | how much electricity does a dehumidifier use | `guides/how-much-electricity-does-a-dehumidifier-use` | | | Wattage chart image; measured plug-meter reading |
-| 3 | dehumidifier not collecting water | `guides/dehumidifier-not-collecting-water` | | | Symptom H2s; "when to call a tech" with costs |
-| 4 | dehumidifier freezing up | `guides/dehumidifier-freezing-up` | | | Symptom H2s; temperature diagram |
-| 5 | best dehumidifier for basement | `best/best-dehumidifier-for-basement` | | | Long-term target; link in from 1–4 |
-| 6 | best crawl space dehumidifier | `best/best-crawl-space-dehumidifier` | | | Comparison table by min. temp and pump lift |
-| 7 | best dehumidifier with pump | `best/best-dehumidifier-with-pump` | | | Check overlap with the 50-pint pump page |
-| 8 | best 50 pint dehumidifier | `best/best-50-pint-dehumidifier` | | | Question H2s; Common Mistakes |
-| 9 | best 70 pint dehumidifier | `best/best-70-pint-dehumidifier` | | | Explain "70-pint" vs. DOE 2019 in the Short Answer |
-| 10 | best quiet dehumidifier | `best/best-quiet-dehumidifier` | | | dB table first |
-| 11 | best dehumidifier for bedroom | `best/best-dehumidifier-for-bedroom` | | | Check the merged sleep section reads naturally |
-| 12 | best dehumidifier for garage | `best/best-dehumidifier-for-garage` | | | Minimum-temperature table first |
-| 13 | best small dehumidifier | `best/best-small-dehumidifier` | | | Size table: cu ft vs. pints |
-| 14 | best whole house dehumidifier | `best/best-whole-house-dehumidifier` | | | Installed-cost table; link to the installation guide |
-| 15 | best smart dehumidifier | `best/best-smart-dehumidifier` | | | App, Alexa and Google feature table |
-| 16 | best energy efficient dehumidifier | `best/best-energy-efficient-dehumidifier` | | | IEF chart image |
-| 17 | best desiccant dehumidifier | `best/best-desiccant-dehumidifier` | | | Compressor vs. desiccant by temperature chart |
-| 18 | best midea dehumidifier | `best/best-midea-dehumidifier` | | | Brand blocks (5C) |
-| 19 | best frigidaire dehumidifier | `best/best-frigidaire-dehumidifier` | | | Brand blocks (5C) |
-| 20 | best hOmeLabs dehumidifier | `best/best-homelabs-dehumidifier` | | | Brand blocks (5C) |
-| 21 | midea vs frigidaire dehumidifier | `compare/midea-vs-frigidaire-dehumidifier` | | | Difference H2s as questions |
-| 22 | dehumidifier vs air purifier | `guides/dehumidifier-vs-air-purifier` | | | Answer in sentence 1 (done); a table |
-| 23 | does a dehumidifier help with mold | `guides/does-a-dehumidifier-help-with-mold` | | | Health caveat; link to black mold |
-| 24 | where to place a dehumidifier | `guides/where-to-place-a-dehumidifier` | | | Placement diagram (original visual) |
-| 25 | midea cube 50 review | **new:** `reviews/midea-cube-50-review` | | | Type B with measurements (5B) |
-
-Re-run the match every month: sort a fresh export by volume, keep KD ≤ 40, and check
-`src/content/pages/` for an owner page before creating anything. The validator refuses a second
-page targeting the same search.
-
----
-
-## 8. The workflow for every page
-
-1. **Pick the search** from section 7. Confirm no other page targets it (`npm run validate` will
-   tell you).
-2. **Collect the questions** from the keyword export filtered by the head term, Google's "People
-   also ask" and the Bing keyword report. These become the H2s and FAQs.
-3. **Collect the facts** from:
-   - the ENERGY STAR product finder (DOE 2019 pints, IEF)
-   - manufacturer manuals and spec pages
-   - CPSC recalls
-   - store pages
-   - owner reviews (summarise, attribute, don't invent)
-
-   Note each source and the date checked.
-4. **Write the snippet first** (section 3) and the Short Answer (`topPicksLead`). If you can't put
-   the answer and a number in the description, you don't know the answer yet.
-5. **Write to the skeleton** (section 4) and the type blocks (section 5). Add a Common Mistakes
-   section and bring FAQs to 6–8.
-6. **Add the original visual** and any first-hand evidence.
-7. **Link it** from its hub, from 2+ pages that already get impressions (add them to those pages'
-   `related` or link in body copy), and out to 2–4 siblings. Use the exact search as anchor text at
-   least once.
-8. **Publish.** A production deploy pings IndexNow automatically. Then request indexing in Search
-   Console (URL Inspection).
-9. **Review at 4 weeks.** Position 5–20 with impressions → strengthen the page with more answered
-   questions and more internal links. Page 1 with CTR under 2% → rewrite the title and description.
-
-## 9. Pre-publish checklist
-
-- [ ] One page type (A–G); `npm run validate` passes (no other page targets this search)
-- [ ] Title 50–62 characters, highest-volume wording first; "(2026)" only on C, D, F, G
-- [ ] Description 140–158 characters; first clause = the answer, with a number
-- [ ] `topPicksLead` answers the search in 1–2 sentences; `shortAnswer` has one stats or table block
-- [ ] Every other H2 is a searched question
-- [ ] No testing language unless testing happened (the validator checks)
-- [ ] Sourced spec table (C, D, F) with the date checked
-- [ ] One original visual with alt text
-- [ ] Unique lede, Common Mistakes (5), 6–8 FAQs, bottom line; a health or safety caveat where relevant
-- [ ] Internal links: hub, 2+ ranking pages in, 2–4 siblings out, trailing slashes
-- [ ] `npm run build && npm run audit:seo` is clean for the page; schema validates in the Rich
-      Results Test
-- [ ] Production deploy (IndexNow) and Request Indexing
-
-## 10. Order of work from here
-
-| Week | Do |
+| Search (monthly US volume, KD) | Page |
 |---|---|
-| 0 (done) | Merges and 301s; noindex off-topic; Short Answer H2 on every page; template boilerplate varied; repeated headings reworded; all titles and descriptions to the snippet rules |
-| 1 | Get the data: a Semrush export, the Bing Webmaster page and keyword reports, a 3-month Search Console export (Pages.csv + Queries.csv). Fill section 7. Add a real named author |
-| 2 | Common Mistakes + 6–8 FAQs + answer-first lede on the top 20 pages by impressions |
-| 3–4 | Section 7 rows 1–12 to the full skeleton, with original chart images on the chart pages (size, electricity, humidity by room, placement) |
-| 5–6 | Rows 13–24; the first model review with measurements (5B) |
-| Then | Monthly: fresh export → section 7; the 4-week review loop (section 8, step 9); recheck prices and discontinued models on C, D and G pages |
+| how to update nvidia drivers (135,000, 19); nvidia driver updates (2,900); roll back / uninstall nvidia drivers (1,900 each); download nvidia app (3,600) | `/how-to-update-nvidia-drivers/` |
+| nvidia green lines on screen (14,800, 23); green dots on screen nvidia (8,100) | `/nvidia-green-lines-on-screen/` |
+| amd ryzen 5 9600x vs amd ryzen 7 7800x3d (8,100, 26) | `/compare/ryzen-5-9600x-vs-ryzen-7-7800x3d/` |
+| amd video cards (6,600, 21); best amd graphics card (2,900); best amd video card (1,300); best radeon gpu (1,000) | `/best-amd-graphics-card/` |
+| intel vs amd (5,400); amd is better or intel (4,400); amd or intel / intel or amd (3,600 each); amd vs intel cpu (2,400) | `/amd-vs-intel/` |
+| error 207 amd (5,400); amd error 182 (2,900); error 182/207 amd software (2,400 each); amd error 195 (1,600) | `/amd-software-error-182-207/` |
+| good video cards (5,400, 21); best gpu (4,400, 19); best vga card for gaming (3,600, 17); top graphics cards for gaming (1,600) | `/best-graphics-card/` (title now leads with "Best GPU") |
+| rx 6700 10gb nvidia equivalent (4,400, 16); 6600 xt / 9070 xt / 9060 xt nvidia equivalent (390–1,300) | `/amd-vs-nvidia-gpu-equivalents/` |
+| best amd cpu for gaming (3,600); best amd cpu (3,600, 15); best amd processor for gaming (2,900); best ryzen gaming cpu (1,000) | `/best-amd-cpu-for-gaming/` |
+| nvidia overlay fps n/a (3,600); how to open / turn off nvidia overlay (2,900 each); disable nvidia statistics overlay (2,400) | `/how-to-turn-off-nvidia-overlay/` |
+| 14700f amd equivalent (2,900, 17) | `/intel-vs-amd-cpu-equivalents/` |
+| nvidia control panel not opening (2,900) | `/nvidia-control-panel-not-opening/` |
+| how to check what graphics card i have (2,900) | `/how-to-check-what-graphics-card-i-have/` |
+| amd radeon rx 9060 xt vs nvidia geforce rtx 5070 (2,900, 11) | `/compare/rx-9060-xt-16gb-vs-rtx-5070/` |
+| adrenalin amd (2,400); amd driver timeout (2,400); amd display driver failed to load (2,900) | `/how-to-update-amd-drivers/` |
+| best nvidia graphics card (2,400, 15); best selling 50 series gpu (1,300); best 5080 graphics card (590) | `/best-nvidia-graphics-card/` |
+| amd radeon rx 6600 (4,400); amd ryzen 7 5800x (4,400); 5800x3d (4,400); rx 6700 xt (3,600); ryzen 7 8700f (3,600); nvidia 4070 (2,900); rtx 4060 (2,400) | `/gear/rx-6600/`, `/gear/ryzen-7-5800x/`, `/gear/ryzen-7-5800x3d/`, `/gear/rx-6700-xt/`, `/gear/ryzen-7-8700f/`, `/gear/rtx-4070/`, `/gear/rtx-4060/` |
+| amd ryzen 7 9800x3d vs intel core i9-14900k (1,600); 9950x3d vs 14900k (880) | `/compare/ryzen-7-9800x3d-vs-core-i9-14900k/`, `/compare/ryzen-9-9950x3d-vs-core-i9-14900k/` |
+| nvidia vs amd / nvidia or amd / amd gpu vs nvidia (1,000–1,300) | `/nvidia-vs-amd/` |
+| amd ryzen 7 9700x (4,400); 9800x3d cpu (4,400); radeon rx 9070 (3,600); nvidia 5070 ti (2,900); rtx 5060 ti 16gb (2,900); rtx 5080 graphics card (2,900) | existing `/gear/` pages |
+| best gpu for 1440p / best 1440p gpu (590–720) | `/best-graphics-card-for-1440p/` (title now leads with "Best GPU for 1440p") |
+
+Next from these exports: "graphics card repair" (1.2M, KD 27, mostly local intent: a "should you repair or
+replace a GPU" article), "how to check graphics card temperature windows 11" (1,900), "how to remove graphics
+card" (1,600), "how to update firmware on amd motherboard" (1,900), "best gpu for ai" (720), "best graphics
+card under 300 / gpu under 500" (390–480), "best motherboard for amd ryzen 7 9800x3d" (480).
+
+## 6. What to do next (in order)
+
+1. **Submit** the sitemap in Search Console and Bing Webmaster Tools; request indexing for the seven restored URLs.
+2. **More comparisons and brand hubs** — the best-ranking page types on both sister sites. Add pairs people
+   search ("rtx 5070 vs rtx 5070 ti", "9800x3d vs 9700x", "nh-d15 g2 vs phantom spirit"). Each needs only a
+   `compares.json` entry.
+3. **More brand reviews** once a brand has 4+ products: NVIDIA, AMD, Lian Li, Noctua, G.Skill.
+4. **More model pages** for parts people search by name (RTX 5060 Ti 8GB, RX 9060 XT 8GB, Ryzen 5 9600,
+   B850 Tomahawk), each linked into a guide and a comparison.
+5. **Long-tail guides** in the 2020 pattern: "best cpu cooler for ryzen 7 9700x", "best psu for rtx 5070",
+   "best gpu for ryzen 7 5800x3d".
+6. **Review at 4 weeks.** Position 5–20 with impressions → add answered questions and internal links.
+   Page 1 with CTR under 2% → rewrite title and description.
+7. **Product photos and direct links.** Set `asin` only after checking the listing is the exact model.
+
+Check the site against the rules at any time: `npm run build && npm run audit:seo`.
