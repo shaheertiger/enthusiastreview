@@ -1313,5 +1313,521 @@
         "a": "With a recent CPU, the B580 for its 12 GB and lower price. With an older CPU, or if you want DLSS 4 and the most consistent drivers, the RTX 5060."
       }
     ]
+  },
+  {
+    "id": "rx-6600",
+    "name": "AMD Radeon RX 6600",
+    "short": "RX 6600",
+    "brand": "amd",
+    "category": "graphics-cards",
+    "released": "2021",
+    "price": [
+      180,
+      230
+    ],
+    "description": "The RX 6600 is a 2021 budget card for 1080p at $180 to $230 where still sold new: 8 GB, 132 W and solid raster speed, but no FSR 4 and weaker ray tracing.",
+    "quick": "The RX 6600 has 28 compute units (1,792 stream processors) and 8 GB of GDDR6 on a 128-bit bus with 32 MB of Infinity Cache. AMD rates it at 132 W, and it runs on a PCIe 4.0 x8 link.",
+    "bestFor": "1080p esports and older games on the tightest budget, or a cheap used upgrade for an old office PC",
+    "skipIf": "you can stretch to $250 or more, where newer cards with more VRAM and better upscaling start",
+    "specs": [
+      [
+        "VRAM",
+        "8 GB GDDR6"
+      ],
+      [
+        "Board power",
+        "132 W"
+      ],
+      [
+        "Boost clock",
+        "Up to 2.49 GHz"
+      ],
+      [
+        "Shader cores",
+        "1,792 stream processors (28 CUs)"
+      ],
+      [
+        "Memory bus",
+        "128-bit"
+      ],
+      [
+        "PCIe interface",
+        "PCIe 4.0 x8"
+      ],
+      [
+        "Power connector",
+        "1x 8-pin on most models"
+      ],
+      [
+        "Upscaling",
+        "FSR 3 with frame generation"
+      ]
+    ],
+    "score": {
+      "overall": 70,
+      "parts": [
+        [
+          "Gaming performance",
+          52
+        ],
+        [
+          "Value",
+          80
+        ],
+        [
+          "Efficiency",
+          82
+        ],
+        [
+          "Features",
+          62
+        ]
+      ]
+    },
+    "verdict": [
+      "The RX 6600 is a previous-generation 1080p card that still makes sense at the very bottom of the market. It launched in 2021 with 28 RDNA 2 compute units, 8 GB of GDDR6 and a 132 W rating, and independent reviews placed it roughly level with the RTX 3060 in raster games. Today that means medium to high settings at 1080p in most games and high frame rates in esports titles.",
+      "The catch is age. Availability varies: new stock is thin, and much of the supply is used or clearance at $180 to $230. Ray tracing is weak, and AMD launched FSR 4 as an RX 9000 feature, so this card relies on FSR 3. The 8 GB of VRAM forces lower textures in some new games, and the x8 link costs a little more on PCIe 3.0 boards when memory spills over. Late in 2025 AMD also moved RX 5000 and RX 6000 cards to a separate driver branch focused on fixes and game support rather than new features.",
+      "Buy one under $200, or used from a trusted seller, for an esports or older-game build. Once the price reaches the mid-$200s, the [Arc B580](/gear/arc-b580/) adds 12 GB of VRAM and XeSS 2 on a new card with a full warranty, and the [RTX 5060](/gear/rtx-5060/) is much faster with DLSS 4 for about $100 more. For new AAA games, the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) is the card worth saving for."
+    ],
+    "pros": [
+      "Low price, especially used",
+      "132 W board power and one 8-pin connector on most models",
+      "Good 1080p raster speed for the money",
+      "Short two-fan models suit small cases"
+    ],
+    "cons": [
+      "8 GB of VRAM limits textures in new games",
+      "Weak ray tracing and no FSR 4",
+      "New stock is thin and availability varies",
+      "x8 link hurts more on PCIe 3.0 boards"
+    ],
+    "extra": {
+      "heading": "Drivers and Updates",
+      "body": [
+        "The RX 6600 updates through AMD Software: Adrenalin Edition. Late in 2025 AMD moved RDNA 1 and RDNA 2 cards, including the RX 6000 series, to a separate driver branch; AMD said these cards keep getting game support and bug fixes, while new features land first on RX 7000 and RX 9000 cards. Install the newest driver the AMD site lists for the RX 6600.",
+        "Moving from a GeForce card, remove the old driver with DDU in Safe Mode first. On a used card, a fresh driver install with Factory Reset clears the previous owner's tuning profile. Enable Resizable BAR (Smart Access Memory) in the BIOS if your board supports it."
+      ],
+      "steps": [
+        [
+          "Open AMD Software",
+          "Launch AMD Software: Adrenalin Edition from the Start menu or the system tray, or press Alt+R."
+        ],
+        [
+          "Check for updates",
+          "On the Home tab, click Check for Updates. Recommended drivers are WHQL-certified; Optional drivers arrive sooner with fixes for new games."
+        ],
+        [
+          "Install",
+          "Download the update and run it. For a clean install, tick Factory Reset in the installer, which removes old driver files and settings first."
+        ],
+        [
+          "Restart",
+          "Reboot, then reapply any tuning profile or per-game settings, since a Factory Reset clears them."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the RX 6600 still good in 2026?",
+        "a": "For 1080p esports and older games, yes, especially under $200. For new AAA games at high textures, its 8 GB of VRAM and lack of FSR 4 hold it back."
+      },
+      {
+        "q": "RX 6600 or RTX 4060?",
+        "a": "The RTX 4060 is faster and adds DLSS, but usually costs about $80 to $100 more. The RX 6600 is the pick only when the budget is firm below $230."
+      },
+      {
+        "q": "Is a used RX 6600 safe to buy?",
+        "a": "Usually, if the seller is reputable and the card passes a stress test. Check fans for noise, ask about remaining warranty, and avoid listings with no photos of the card running."
+      }
+    ]
+  },
+  {
+    "id": "rx-6700-xt",
+    "name": "AMD Radeon RX 6700 XT",
+    "short": "RX 6700 XT",
+    "brand": "amd",
+    "category": "graphics-cards",
+    "released": "2021",
+    "price": [
+      250,
+      330
+    ],
+    "description": "The RX 6700 XT is a 2021 card with 12 GB of VRAM and good 1440p raster speed for $250 to $330, mostly used or clearance, but it draws 230 W and lacks FSR 4.",
+    "quick": "The RX 6700 XT has 40 compute units (2,560 stream processors) and 12 GB of GDDR6 on a 192-bit bus with 96 MB of Infinity Cache. AMD rates it at 230 W on a full PCIe 4.0 x16 link.",
+    "bestFor": "budget 1080p high settings and entry 1440p when a good used or clearance deal turns up",
+    "skipIf": "you want a new card with a warranty, better ray tracing or lower power draw",
+    "specs": [
+      [
+        "VRAM",
+        "12 GB GDDR6"
+      ],
+      [
+        "Board power",
+        "230 W"
+      ],
+      [
+        "Boost clock",
+        "Up to 2.58 GHz"
+      ],
+      [
+        "Shader cores",
+        "2,560 stream processors (40 CUs)"
+      ],
+      [
+        "Memory bus",
+        "192-bit"
+      ],
+      [
+        "PCIe interface",
+        "PCIe 4.0 x16"
+      ],
+      [
+        "Power connector",
+        "8-pin + 6-pin (reference); varies by model"
+      ],
+      [
+        "Recommended PSU",
+        "650 W"
+      ],
+      [
+        "Upscaling",
+        "FSR 3 with frame generation"
+      ]
+    ],
+    "score": {
+      "overall": 72,
+      "parts": [
+        [
+          "Gaming performance",
+          64
+        ],
+        [
+          "Value",
+          78
+        ],
+        [
+          "Efficiency",
+          66
+        ],
+        [
+          "Features",
+          64
+        ]
+      ]
+    },
+    "verdict": [
+      "The RX 6700 XT is a previous-generation card whose 12 GB of VRAM keeps it relevant. It launched in 2021 with 40 RDNA 2 compute units on a 192-bit bus, and independent reviews placed it between the RTX 3060 Ti and RTX 3070 in raster games. That still means high settings at 1080p and playable 1440p in most games, without the texture limits that 8 GB cards hit.",
+      "Today it is mostly a used or clearance purchase at $250 to $330, and availability varies. The trade-offs are power and features. At 230 W it draws far more than newer cards of similar speed and needs a quality 650 W supply. Ray tracing is weak, and since AMD launched FSR 4 for RX 9000 cards, the 6700 XT relies on FSR 3. AMD also moved RX 6000 cards to a separate driver branch late in 2025, with new features going to newer Radeons first. Do not confuse it with the RX 6700 non-XT, which has 10 GB on a 160-bit bus and 36 compute units.",
+      "A used card near $250 is reasonable value for a 1440p raster build. New, the [Arc B580](/gear/arc-b580/) offers the same 12 GB with XeSS 2, a warranty and lower power for similar money, though it prefers a recent CPU. The better buy for most people is the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/): 16 GB, FSR 4 and around 160 W for $350 to $400."
+    ],
+    "pros": [
+      "12 GB of VRAM at a used price",
+      "Good 1080p and entry 1440p raster speed",
+      "Full PCIe 4.0 x16 link, fine on PCIe 3.0 boards",
+      "Often cheap on the used market"
+    ],
+    "cons": [
+      "230 W board power and a 650 W PSU recommendation",
+      "Weak ray tracing and no FSR 4",
+      "Mostly used or clearance stock",
+      "Driver features now arrive on newer Radeons first"
+    ],
+    "extra": {
+      "heading": "Drivers and Updates",
+      "body": [
+        "The RX 6700 XT updates through AMD Software: Adrenalin Edition. Late in 2025 AMD moved RX 5000 and RX 6000 cards to a separate driver branch; AMD said they keep getting game support and bug fixes, while new features land first on RX 7000 and RX 9000 cards.",
+        "On a used card, install the latest driver with Factory Reset to clear old tuning profiles, then run a stress test and watch temperatures. Older cards can run hot if the thermal paste has dried out. Enable Resizable BAR (Smart Access Memory) in the BIOS if your board supports it."
+      ],
+      "steps": [
+        [
+          "Open AMD Software",
+          "Launch AMD Software: Adrenalin Edition from the Start menu or the system tray, or press Alt+R."
+        ],
+        [
+          "Check for updates",
+          "On the Home tab, click Check for Updates. Recommended drivers are WHQL-certified; Optional drivers arrive sooner with fixes for new games."
+        ],
+        [
+          "Install",
+          "Download the update and run it. For a clean install, tick Factory Reset in the installer, which removes old driver files and settings first."
+        ],
+        [
+          "Restart",
+          "Reboot, then reapply any tuning profile or per-game settings, since a Factory Reset clears them."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the RX 6700 XT still worth it in 2026?",
+        "a": "Used near $250, yes, for 1080p and entry 1440p. At $330 or more, a new RX 9060 XT 16GB is the better buy, with more VRAM, FSR 4 and lower power."
+      },
+      {
+        "q": "What power supply does the RX 6700 XT need?",
+        "a": "AMD recommends 650 W. A quality 650 W unit with two PCIe cables covers the 230 W card and a mainstream CPU. Check your model's connectors, since they vary by maker."
+      },
+      {
+        "q": "RX 6700 XT or Arc B580?",
+        "a": "Both have 12 GB. The Arc B580 is new, uses less power and has XeSS 2, but needs a recent CPU to avoid driver overhead. The 6700 XT suits older CPUs and good used deals."
+      }
+    ]
+  },
+  {
+    "id": "rtx-4060",
+    "name": "NVIDIA GeForce RTX 4060",
+    "short": "RTX 4060",
+    "brand": "nvidia",
+    "category": "graphics-cards",
+    "released": "2023",
+    "price": [
+      280,
+      310
+    ],
+    "description": "The RTX 4060 is a 115 W, 8 GB card for 1080p at $280 to $310, but the RTX 5060 costs about $20 more and is around 20% faster, so it rarely makes sense new.",
+    "quick": "The RTX 4060 has 3,072 CUDA cores and 8 GB of GDDR6 on a 128-bit bus. NVIDIA rates it at 115 W, and it runs on a PCIe 4.0 x8 link with DLSS frame generation.",
+    "bestFor": "very low-power 1080p builds where a deal puts it well below the RTX 5060",
+    "skipIf": "the RTX 5060 costs within $30, or you want more than 8 GB of VRAM",
+    "specs": [
+      [
+        "VRAM",
+        "8 GB GDDR6"
+      ],
+      [
+        "Board power",
+        "115 W"
+      ],
+      [
+        "Boost clock",
+        "2.46 GHz"
+      ],
+      [
+        "Shader cores",
+        "3,072 CUDA cores"
+      ],
+      [
+        "Memory bus",
+        "128-bit"
+      ],
+      [
+        "PCIe interface",
+        "PCIe 4.0 x8"
+      ],
+      [
+        "Power connector",
+        "1x 8-pin on most models"
+      ],
+      [
+        "Upscaling",
+        "DLSS 4 with Frame Generation (no Multi Frame Generation)"
+      ]
+    ],
+    "score": {
+      "overall": 68,
+      "parts": [
+        [
+          "Gaming performance",
+          58
+        ],
+        [
+          "Value",
+          66
+        ],
+        [
+          "Efficiency",
+          94
+        ],
+        [
+          "Features",
+          80
+        ]
+      ]
+    },
+    "verdict": [
+      "The RTX 4060 is a previous-generation 1080p card that has been overtaken by its successor. It launched in 2023 with 3,072 CUDA cores, 8 GB of GDDR6 and a 115 W rating, and it introduced DLSS 3 frame generation at this price. It now supports the DLSS 4 upscaler too, though not Multi Frame Generation. It handles esports titles at high frame rates and most AAA games at 1080p medium to high settings.",
+      "The problem is the price next to the [RTX 5060](/gear/rtx-5060/). At $280 to $310 the 4060 sits only about $20 below the newer card, which independent reviews put around 20% faster, with GDDR7 and Multi Frame Generation. Both share the same 8 GB limit, which already forces lower textures in some new games, and both use an eight-lane link that costs more on PCIe 3.0 boards when memory spills over.",
+      "Its one real strength is efficiency. At 115 W it is one of the easiest cards to feed and cool, so it suits small builds and prebuilt upgrades with modest power supplies. Buy it only at a clear discount or used. Otherwise take the RTX 5060, or spend about $50 to $90 more on the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/), which doubles the VRAM and is the better long-term card. The [Arc B580](/gear/arc-b580/) gives 12 GB for less with a recent CPU."
+    ],
+    "pros": [
+      "115 W board power, easy to cool",
+      "DLSS 4 upscaling and frame generation",
+      "Compact models fit small cases",
+      "Good 1080p esports performance"
+    ],
+    "cons": [
+      "RTX 5060 is around 20% faster for about $20 more",
+      "8 GB of VRAM limits textures in new games",
+      "x8 link hurts more on PCIe 3.0 boards",
+      "No Multi Frame Generation"
+    ],
+    "extra": {
+      "heading": "Drivers and Updates",
+      "body": [
+        "NVIDIA supports the RTX 4060 with the same Game Ready drivers as its current cards, and RTX 40 cards received the DLSS 4 transformer upscaler through those drivers and the NVIDIA App. Multi Frame Generation stays exclusive to RTX 50 cards.",
+        "In an older PCIe 3.0 system, enable Resizable BAR in the BIOS if the board offers it and update the chipset driver. Use DDU in Safe Mode when the previous card was AMD or Intel; a clean installation through the NVIDIA App is enough when upgrading from an older GeForce."
+      ],
+      "steps": [
+        [
+          "Open the NVIDIA App",
+          "Install the NVIDIA App from nvidia.com if it is not already on the PC. It replaced GeForce Experience, and signing in is optional."
+        ],
+        [
+          "Check the Drivers tab",
+          "Choose Game Ready drivers for games or Studio drivers for creative apps, then click Download when a new version appears."
+        ],
+        [
+          "Pick Express or Custom",
+          "Express keeps your settings. Custom installation offers a clean installation option that resets driver settings and game profiles."
+        ],
+        [
+          "Restart",
+          "Reboot when the installer finishes, then confirm the new version number on the Drivers tab."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "RTX 4060 or RTX 5060?",
+        "a": "The RTX 5060 in most cases. Independent reviews put it around 20% faster, and it usually costs only about $20 more. The 4060 makes sense only at a clear discount or used."
+      },
+      {
+        "q": "Does the RTX 4060 support DLSS 4?",
+        "a": "Partly. It gets the DLSS 4 upscaler and single frame generation, but Multi Frame Generation is limited to RTX 50 cards."
+      },
+      {
+        "q": "What power supply does the RTX 4060 need?",
+        "a": "A quality 450 to 550 W unit is plenty for the 115 W card and a mainstream CPU. Most models use one 8-pin PCIe connector."
+      }
+    ]
+  },
+  {
+    "id": "rtx-4070",
+    "name": "NVIDIA GeForce RTX 4070",
+    "short": "RTX 4070",
+    "brand": "nvidia",
+    "category": "graphics-cards",
+    "released": "2023",
+    "price": [
+      500,
+      600
+    ],
+    "description": "The RTX 4070 is a 200 W, 12 GB card for 1440p at $500 to $600, but stock is thinning and its successor, the RTX 5070, is around 20% faster for about $50 more.",
+    "quick": "The RTX 4070 has 5,888 CUDA cores and 12 GB of GDDR6X on a 192-bit bus. NVIDIA rates it at 200 W on a PCIe 4.0 x16 link, and it supports DLSS frame generation.",
+    "bestFor": "efficient 1440p builds when a clearance or used deal puts it well below the RTX 5070",
+    "skipIf": "the RTX 5070 costs about the same, or you want 16 GB of VRAM",
+    "specs": [
+      [
+        "VRAM",
+        "12 GB GDDR6X"
+      ],
+      [
+        "Board power",
+        "200 W"
+      ],
+      [
+        "Boost clock",
+        "2.48 GHz"
+      ],
+      [
+        "Shader cores",
+        "5,888 CUDA cores"
+      ],
+      [
+        "Memory bus",
+        "192-bit"
+      ],
+      [
+        "PCIe interface",
+        "PCIe 4.0 x16"
+      ],
+      [
+        "Power connector",
+        "16-pin on Founders Edition; 1x 8-pin on many partner cards"
+      ],
+      [
+        "Recommended PSU",
+        "650 W"
+      ],
+      [
+        "Upscaling",
+        "DLSS 4 with Frame Generation (no Multi Frame Generation)"
+      ]
+    ],
+    "score": {
+      "overall": 74,
+      "parts": [
+        [
+          "Gaming performance",
+          74
+        ],
+        [
+          "Value",
+          66
+        ],
+        [
+          "Efficiency",
+          90
+        ],
+        [
+          "Features",
+          86
+        ]
+      ]
+    },
+    "verdict": [
+      "The RTX 4070 is a capable 1440p card that has been replaced by the [RTX 5070](/gear/rtx-5070/). It launched in 2023 with 5,888 CUDA cores and 12 GB of GDDR6X, and independent reviews placed it roughly level with the RTX 3080 at a much lower 200 W. It still runs most games at 1440p high settings, and DLSS frame generation helps in demanding titles. A later version with GDDR6 instead of GDDR6X also exists, so check the listing.",
+      "The issue is value. At $500 to $600 with stock thinning, it sits close to the RTX 5070, which independent reviews put around 20% faster and which adds GDDR7, PCIe 5.0 and Multi Frame Generation. Both have 12 GB, so neither gains a VRAM advantage, and both already need texture settings watched in a few new games at 1440p. The 4070's edge is power: at 200 W it runs cooler and quieter than the 250 W 5070, and many partner cards use a single 8-pin connector.",
+      "Buy it only when a clearance or used deal undercuts the RTX 5070 by $100 or more. Otherwise take the 5070, or the [RX 9070](/gear/rx-9070/) for 16 GB at a similar price. Owners of an RTX 4070 have little reason to move to a 5070; the [RTX 5070 Ti](/gear/rtx-5070-ti/) is the meaningful upgrade."
+    ],
+    "pros": [
+      "200 W board power, efficient for 1440p",
+      "DLSS 4 upscaling and frame generation",
+      "Many models use a single 8-pin connector",
+      "Roughly RTX 3080 speed in independent reviews"
+    ],
+    "cons": [
+      "RTX 5070 is around 20% faster for about $50 more",
+      "12 GB of VRAM is tight in a few new games",
+      "Stock is thinning",
+      "No Multi Frame Generation"
+    ],
+    "extra": {
+      "heading": "Drivers and Updates",
+      "body": [
+        "The RTX 4070 gets the same Game Ready drivers as NVIDIA's current cards, and RTX 40 cards received the DLSS 4 transformer upscaler and improved frame generation through those drivers and the NVIDIA App. Multi Frame Generation is limited to RTX 50 cards.",
+        "Founders Edition cards use a 16-pin connector: push the plug in fully and avoid sharp bends near it. Partner cards with an 8-pin need one dedicated PCIe cable. Use DDU in Safe Mode when the previous card was AMD or Intel."
+      ],
+      "steps": [
+        [
+          "Open the NVIDIA App",
+          "Install the NVIDIA App from nvidia.com if it is not already on the PC. It replaced GeForce Experience, and signing in is optional."
+        ],
+        [
+          "Check the Drivers tab",
+          "Choose Game Ready drivers for games or Studio drivers for creative apps, then click Download when a new version appears."
+        ],
+        [
+          "Pick Express or Custom",
+          "Express keeps your settings. Custom installation offers a clean installation option that resets driver settings and game profiles."
+        ],
+        [
+          "Restart",
+          "Reboot when the installer finishes, then confirm the new version number on the Drivers tab."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "RTX 4070 or RTX 5070?",
+        "a": "The RTX 5070 when prices are close. Independent reviews put it around 20% faster, with the same 12 GB. The 4070 only makes sense at a discount of $100 or more."
+      },
+      {
+        "q": "Is 12 GB of VRAM enough for 1440p?",
+        "a": "For most games, yes. A few new titles at maximum textures push past 12 GB at 1440p, so a 16 GB card like the RX 9070 gives more headroom."
+      },
+      {
+        "q": "What power supply does the RTX 4070 need?",
+        "a": "NVIDIA recommends 650 W. A quality 650 W unit covers the 200 W card and a mainstream CPU."
+      }
+    ]
   }
 ]

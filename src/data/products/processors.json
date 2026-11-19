@@ -989,5 +989,455 @@
         "a": "Yes. It drives an RTX 5070 or RX 9070 well at 1440p in most games, and those x16 cards lose little on a PCIe 3.0 B450 board."
       }
     ]
+  },
+  {
+    "id": "ryzen-7-5800x3d",
+    "name": "AMD Ryzen 7 5800X3D",
+    "short": "Ryzen 7 5800X3D",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2022",
+    "price": [
+      280,
+      350
+    ],
+    "description": "The Ryzen 7 5800X3D is still a fast AM4 gaming chip with 96 MB of L3, but it is discontinued and $280 to $350 where found, more than the near-equal 5700X3D.",
+    "quick": "The 5800X3D has 8 Zen 3 cores, 16 threads and 96 MB of L3 cache, boosting to 4.5 GHz at 105 W. It fits socket AM4, uses DDR4 memory and ships without a cooler.",
+    "bestFor": "AM4 owners who find a fair used deal at or below the price of a new 5700X3D",
+    "skipIf": "a new Ryzen 7 5700X3D is available for less, or you are building a new PC",
+    "specs": [
+      [
+        "Cores / threads",
+        "8 / 16"
+      ],
+      [
+        "Boost clock",
+        "4.5 GHz"
+      ],
+      [
+        "L3 cache",
+        "96 MB"
+      ],
+      [
+        "TDP",
+        "105 W"
+      ],
+      [
+        "Socket",
+        "AM4"
+      ],
+      [
+        "Memory support",
+        "DDR4-3200 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "None"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 76,
+      "parts": [
+        [
+          "Gaming performance",
+          85
+        ],
+        [
+          "Multi-thread",
+          64
+        ],
+        [
+          "Efficiency",
+          84
+        ],
+        [
+          "Value",
+          66
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 7 5800X3D is the chip that proved what 3D V-Cache could do for games. When it launched in 2022, its 96 MB of L3 cache let an 8-core AM4 part match or beat far newer processors in many games, and it remains the fastest gaming CPU AM4 ever got. Paired with a midrange or upper-midrange GPU, it still holds up well at 1080p and 1440p.",
+      "The problem is that AMD has discontinued it. Most supply is used, and where it turns up the price runs $280 to $350, which is more than the [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/). That newer chip keeps the same 96 MB of cache at a lower 4.1 GHz boost, and independent reviews put it only slightly behind the 5800X3D in games. A small gain is hard to justify at a higher price with no retail warranty on a used chip.",
+      "The other trade-offs are shared with every AM4 chip: a locked multiplier, modest multi-thread speed and no integrated graphics. AM4 is also at the end of its life, so this is the last stop on that socket. Buy a 5800X3D only used at or below the 5700X3D's price. For a new build, a [Ryzen 5 7600](/gear/ryzen-5-7600/) or [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) on AM5 offers a real upgrade path, though DDR5 prices have climbed since late 2025."
+    ],
+    "pros": [
+      "96 MB of L3 cache for gaming",
+      "Drop-in upgrade for most AM4 boards",
+      "Keeps your DDR4 memory",
+      "Fastest gaming chip on AM4"
+    ],
+    "cons": [
+      "Discontinued, mostly used stock",
+      "Costs more than the near-equal 5700X3D",
+      "Locked multiplier",
+      "AM4 is a dead-end platform"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 5800X3D uses socket AM4. B450, B550, X470 and X570 boards support it once updated to a BIOS that lists the chip on the board's CPU support page, and some makers also added support to older 300-series boards. Flash the update with your old CPU still installed, since many B450 boards lack BIOS Flashback.",
+        "Buying used, ask for proof of purchase and test the chip under a full load before the return window closes. DDR4-3600 CL16 at a 1:1 Infinity Fabric ratio is the sweet spot, but the large cache makes an existing DDR4-3200 kit fine. A 120 mm tower cooler handles its 105 W TDP, though it runs warm under heavy all-core loads."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Ryzen 7 5800X3D or 5700X3D?",
+        "a": "The 5700X3D in most cases. It is only slightly slower in games in independent reviews and usually costs less, new and with a warranty."
+      },
+      {
+        "q": "Is the 5800X3D discontinued?",
+        "a": "Yes. AMD has ended production, so most listings are used or old stock, and prices vary widely."
+      },
+      {
+        "q": "Is a 5800X3D worth it over moving to AM5?",
+        "a": "For an AM4 owner, an X3D drop-in is far cheaper than a new board, CPU and DDR5. Choose the 5700X3D unless a used 5800X3D costs the same or less."
+      }
+    ]
+  },
+  {
+    "id": "ryzen-7-5800x",
+    "name": "AMD Ryzen 7 5800X",
+    "short": "Ryzen 7 5800X",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2020",
+    "price": [
+      130,
+      180
+    ],
+    "description": "The Ryzen 7 5800X is a 2020 AM4 chip with 8 cores at up to 4.7 GHz for $130 to $180, solid for work and games, but the 5700X3D is far better for gaming.",
+    "quick": "The 5800X has 8 Zen 3 cores, 16 threads and 32 MB of L3 cache, boosting to 4.7 GHz at 105 W. It fits socket AM4, uses DDR4 memory and ships without a cooler.",
+    "bestFor": "AM4 owners who want 8 cores for mixed work and gaming at a low price",
+    "skipIf": "gaming is the main goal, where the 5700X3D is clearly faster, or you are building new",
+    "specs": [
+      [
+        "Cores / threads",
+        "8 / 16"
+      ],
+      [
+        "Boost clock",
+        "4.7 GHz"
+      ],
+      [
+        "L3 cache",
+        "32 MB"
+      ],
+      [
+        "TDP",
+        "105 W"
+      ],
+      [
+        "Socket",
+        "AM4"
+      ],
+      [
+        "Memory support",
+        "DDR4-3200 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "None"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 72,
+      "parts": [
+        [
+          "Gaming performance",
+          70
+        ],
+        [
+          "Multi-thread",
+          64
+        ],
+        [
+          "Efficiency",
+          70
+        ],
+        [
+          "Value",
+          82
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 7 5800X is a previous-generation 8-core chip that still works well in an AM4 system. It launched in 2020 with 8 Zen 3 cores, 16 threads, 32 MB of L3 and a 4.7 GHz boost, and it is unlocked for overclocking and Precision Boost Overdrive tuning. At $130 to $180 it is a cheap way to add cores to an older B450 or B550 build for streaming, compiling or video work.",
+      "For gaming it has been overtaken. The [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) has the same core count but three times the L3 cache, and independent reviews show it clearly ahead in CPU-bound games, often by a wide margin with a fast graphics card. If your goal is more frames, the extra $70 to $80 for the X3D chip is well spent.",
+      "The 5800X also runs warm. Its 105 W TDP is spread across a single compute die, so it needs a good tower cooler and hits high temperatures under all-core loads; that is normal behavior, not a fault. The 65 W Ryzen 7 5700X is close in speed and easier to cool when prices line up. Buy the 5800X when you want 8 cores for mixed use on a tight budget. For a new PC, a [Ryzen 5 7600](/gear/ryzen-5-7600/) or [Ryzen 5 9600X](/gear/ryzen-5-9600x/) on AM5 is the better start."
+    ],
+    "pros": [
+      "8 cores and 16 threads for $130 to $180",
+      "Unlocked multiplier and PBO tuning",
+      "Drop-in upgrade for most AM4 boards",
+      "Keeps your DDR4 memory"
+    ],
+    "cons": [
+      "Much slower in games than the 5700X3D",
+      "Runs hot; needs a good tower cooler",
+      "No cooler or integrated graphics",
+      "AM4 is a dead-end platform"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 5800X uses socket AM4 and runs on B450, B550, X470 and X570 boards with a BIOS that lists Ryzen 5000 support. Update the BIOS with your old CPU installed before the swap, since many B450 boards lack BIOS Flashback.",
+        "Pair it with a dual-tower air cooler or a 240 mm AIO; a small stock-style cooler lets it throttle under long all-core loads. DDR4-3600 CL16 at a 1:1 Infinity Fabric ratio is the sweet spot. If gaming matters most, the 5700X3D is the stronger last upgrade for this socket."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Ryzen 7 5800X or 5700X3D for gaming?",
+        "a": "The 5700X3D. Its 96 MB of L3 cache makes it clearly faster in CPU-bound games, and the price gap is usually about $70 to $80."
+      },
+      {
+        "q": "Why does the Ryzen 7 5800X run so hot?",
+        "a": "It packs 105 W into one compact compute die, which is hard to cool. High temperatures under load are expected; a strong tower cooler and a mild undervolt help."
+      },
+      {
+        "q": "Does the Ryzen 7 5800X come with a cooler?",
+        "a": "No. Budget for a dual-tower air cooler or a 240 mm AIO, since it runs warm under heavy loads."
+      }
+    ]
+  },
+  {
+    "id": "ryzen-7-8700f",
+    "name": "AMD Ryzen 7 8700F",
+    "short": "Ryzen 7 8700F",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2024",
+    "price": [
+      200,
+      240
+    ],
+    "description": "The Ryzen 7 8700F gives 8 Zen 4 cores at up to 5.0 GHz on AM5 for $200 to $240, but its 16 MB of L3 and no graphics make the Ryzen 5 7600 a better gaming buy.",
+    "quick": "The 8700F has 8 Zen 4 cores, 16 threads and 16 MB of L3 cache, boosting to 5.0 GHz at 65 W. It fits socket AM5 and uses DDR5, and its integrated graphics are disabled.",
+    "bestFor": "budget AM5 builds with a graphics card that want 8 cores for mixed work",
+    "skipIf": "gaming is the priority, or you want integrated graphics as a backup",
+    "specs": [
+      [
+        "Cores / threads",
+        "8 / 16"
+      ],
+      [
+        "Boost clock",
+        "5.0 GHz"
+      ],
+      [
+        "L3 cache",
+        "16 MB"
+      ],
+      [
+        "TDP",
+        "65 W"
+      ],
+      [
+        "Socket",
+        "AM5"
+      ],
+      [
+        "Memory support",
+        "DDR5-5200 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "None (disabled)"
+      ]
+    ],
+    "score": {
+      "overall": 75,
+      "parts": [
+        [
+          "Gaming performance",
+          74
+        ],
+        [
+          "Multi-thread",
+          70
+        ],
+        [
+          "Efficiency",
+          90
+        ],
+        [
+          "Value",
+          76
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 7 8700F is an 8-core AM5 chip built from AMD's Phoenix laptop silicon with the graphics turned off. It launched in 2024 with 8 Zen 4 cores, 16 threads, a 5.0 GHz boost and a 65 W TDP, so it runs cool and suits budget AM5 builds that already have a graphics card. At $200 to $240 it is one of the cheaper ways to get 8 modern cores on the platform.",
+      "The catch is cache. It has 16 MB of L3, half of what desktop Ryzen 7000 and 9000 chips carry, and games are sensitive to that. Independent reviews generally show it no faster than the cheaper [Ryzen 5 7600](/gear/ryzen-5-7600/) in games, and the 7600 adds integrated graphics for troubleshooting. The 8700F also limits PCIe to 4.0 instead of 5.0, which matters little for today's graphics cards but rules out PCIe 5.0 SSD speeds.",
+      "Its advantage is two extra cores for threaded work such as compiling, streaming and video export, at low power. Buy it when that matters and the price sits near $200. For gaming, the 7600 or the [Ryzen 5 9600X](/gear/ryzen-5-9600x/) is the better pick, and for both gaming and work the [Ryzen 7 9700X](/gear/ryzen-7-9700x/) is the full-cache 8-core step-up. The upside of AM5 is that the board can later take an X3D chip."
+    ],
+    "pros": [
+      "8 Zen 4 cores at 65 W",
+      "Runs cool on a modest air cooler",
+      "AM5 board can take a future upgrade",
+      "Cheaper than other 8-core AM5 chips"
+    ],
+    "cons": [
+      "Only 16 MB of L3 cache hurts gaming",
+      "No integrated graphics",
+      "PCIe 4.0 only",
+      "Ryzen 5 7600 is as fast in games for less"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 8700F uses socket AM5 and needs a BIOS that supports Ryzen 8000-series processors; most boards sold today have one, but older stock and used boards may need an update first. With no integrated graphics, a BIOS Flashback button helps if the board needs an update before it will post.",
+        "B650 boards are the sensible match. DDR5-5200 is the rated speed, and many systems run DDR5-6000 EXPO kits, though DDR5 prices have risen sharply since late 2025. AMD has said AM5 will be supported through at least 2027, so the board can later take an X3D chip such as the Ryzen 7 9800X3D."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Ryzen 7 8700F or Ryzen 5 7600?",
+        "a": "The Ryzen 5 7600 for gaming. It has twice the L3 cache, integrated graphics and is usually cheaper. The 8700F suits threaded work that uses its two extra cores."
+      },
+      {
+        "q": "Does the Ryzen 7 8700F have integrated graphics?",
+        "a": "No. The F suffix means the graphics are disabled, so you need a graphics card to get a display."
+      },
+      {
+        "q": "Does the 8700F support PCIe 5.0?",
+        "a": "No. It runs PCIe 4.0, which is fine for current graphics cards and most SSDs, but cannot use the full speed of PCIe 5.0 drives."
+      }
+    ]
+  },
+  {
+    "id": "core-i9-14900k",
+    "name": "Intel Core i9-14900K",
+    "short": "Core i9-14900K",
+    "brand": "intel",
+    "category": "processors",
+    "released": "2023",
+    "price": [
+      400,
+      470
+    ],
+    "description": "The Core i9-14900K has 24 cores and a 6.0 GHz boost for $400 to $470, but it pulls up to 253 W, sits on a dead-end socket and needs the 0x12B microcode BIOS.",
+    "quick": "The 14900K has 8 Performance and 16 Efficient cores, 32 threads, 36 MB of cache and a 6.0 GHz boost. Intel rates it at 125 W base and 253 W maximum turbo on socket LGA 1700.",
+    "bestFor": "LGA 1700 owners who want the fastest drop-in for heavy multi-threaded work",
+    "skipIf": "you are building new, gaming is the priority, or you want low power draw",
+    "specs": [
+      [
+        "Cores / threads",
+        "24 (8P + 16E) / 32"
+      ],
+      [
+        "Boost clock",
+        "6.0 GHz"
+      ],
+      [
+        "L3 cache",
+        "36 MB"
+      ],
+      [
+        "TDP",
+        "125 W base / 253 W max turbo"
+      ],
+      [
+        "Socket",
+        "LGA 1700"
+      ],
+      [
+        "Memory support",
+        "DDR5-5600 or DDR4-3200 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "Intel UHD Graphics 770"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 72,
+      "parts": [
+        [
+          "Gaming performance",
+          86
+        ],
+        [
+          "Multi-thread",
+          94
+        ],
+        [
+          "Efficiency",
+          56
+        ],
+        [
+          "Value",
+          64
+        ]
+      ]
+    },
+    "verdict": [
+      "The Core i9-14900K is Intel's last flagship for LGA 1700, and it is still fast. It launched in 2023 with 24 cores, 32 threads and a 6.0 GHz boost, and independent reviews show it among the quickest chips for rendering, compiling and other threaded work, with strong gaming performance. It also supports both DDR5 and DDR4, depending on the board.",
+      "Two problems hang over it. The first is reliability: Intel confirmed in 2024 that many 13th and 14th gen desktop chips could degrade from elevated voltage requests, which showed up as crashes and instability. Intel released microcode updates, ending with 0x12B in September 2024, which it said addresses the root cause, and extended the warranty on boxed chips by two years. The fix prevents further damage but does not reverse it, so update the BIOS before first boot and buy used chips with caution. The second is power: at its 253 W limit it runs hot and needs a 360 mm AIO or a top air cooler for sustained loads.",
+      "For gaming, the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) is clearly faster in independent reviews at a fraction of the power. For work, the [Core Ultra 7 265K](/gear/core-ultra-7-265k/) comes close for far less, and the [Ryzen 9 9950X3D](/gear/ryzen-9-9950x3d/) beats it at both. LGA 1700 is a dead end, so the 14900K makes sense mainly as a drop-in for an existing Z690 or Z790 system."
+    ],
+    "pros": [
+      "24 cores and 32 threads",
+      "Strong multi-thread and gaming speed",
+      "Works with DDR5 or DDR4 boards",
+      "Integrated graphics for troubleshooting"
+    ],
+    "cons": [
+      "13th/14th gen instability history; needs the 0x12B BIOS",
+      "Up to 253 W; hard to cool",
+      "LGA 1700 is a dead-end platform",
+      "Ryzen X3D chips are faster in games"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 14900K uses socket LGA 1700 and runs on Z690, Z790, B660 and B760 boards, though 600-series boards need a BIOS update first. Before running any load, install a BIOS that includes Intel's 0x12B microcode or newer, and keep the board's Intel Default Settings profile rather than an unlimited power profile. Intel extended the warranty on boxed 13th and 14th gen desktop chips by two years, so keep proof of purchase.",
+        "Plan for heat. A 360 mm AIO or a top dual-tower air cooler is the minimum for sustained all-core loads, and a contact frame is a popular fix for LGA 1700 mounting pressure. There are no newer CPUs for this socket, so the next upgrade means a new board."
+      ],
+      "steps": [
+        [
+          "Find your board's BIOS page",
+          "Look up your exact motherboard model on the maker's support site and open the BIOS download list."
+        ],
+        [
+          "Pick a 0x12B or newer release",
+          "Read the release notes and choose a BIOS that lists Intel microcode 0x12B or later."
+        ],
+        [
+          "Flash and reset",
+          "Flash it with your current CPU or BIOS Flashback, then load defaults and choose the Intel Default Settings profile if offered."
+        ],
+        [
+          "Confirm the version",
+          "Check the microcode revision in the BIOS or a tool such as HWiNFO before heavy use."
+        ]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Core i9-14900K safe to buy now?",
+        "a": "A new chip with a BIOS that has 0x12B or newer microcode is protected from the voltage problem, according to Intel. Used chips are riskier, since the update does not reverse earlier damage."
+      },
+      {
+        "q": "Core i9-14900K or Ryzen 7 9800X3D for gaming?",
+        "a": "The 9800X3D. Independent reviews show it clearly faster in games while drawing far less power. The 14900K is stronger only in heavily threaded work."
+      },
+      {
+        "q": "What cooler does the 14900K need?",
+        "a": "A 360 mm AIO or a top dual-tower air cooler. At its 253 W limit it runs very hot in all-core work, though gaming loads are lower."
+      }
+    ]
   }
 ]

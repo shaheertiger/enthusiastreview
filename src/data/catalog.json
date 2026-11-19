@@ -47,6 +47,12 @@
     "title": "Cooler Master Q300L V2 Micro-ATX Tower, Magnetic Patterned Dust Filter, USB 3.2 Gen 2x2 (20GB), Tempered Glass, CPU Coolers Max 159mm, GPU 360mm, Fully Ventilated Airflow (Q300LV2-KGNN-S00)",
     "checked": "2026-11-19"
   },
+  "core-i9-14900k": {
+    "asin": "B0CGJDKLB8",
+    "image": "https://m.media-amazon.com/images/I/41s0IPcEjuL._SL500_.jpg",
+    "title": "Intel® Core™ i9-14900K Desktop Processor",
+    "checked": "2026-11-19"
+  },
   "core-ultra-5-245k": {
     "asin": "B0DFK2P311",
     "image": "https://m.media-amazon.com/images/I/41KkV8gKahL._SL500_.jpg",
@@ -233,6 +239,18 @@
     "title": "Phanteks XT Pro Ultra, Mid-Tower Gaming Chassis, 4X M25-140 Fans Included, High Airflow Performance Mesh, Tempered Glass Window, USB-C 3.2 Gen2 (Black)",
     "checked": "2026-11-19"
   },
+  "rtx-4060": {
+    "asin": "B0C8JZNLZL",
+    "image": "https://m.media-amazon.com/images/I/41rBucE50rL._SL500_.jpg",
+    "title": "Gigabyte GeForce RTX 4060 WINDFORCE OC 8G Graphics Card, 2X WINDFORCE Fans, 8GB 128-bit GDDR6, GV-N4060WF2OC-8GD Video Card",
+    "checked": "2026-11-19"
+  },
+  "rtx-4070": {
+    "asin": "B0BZHCQ6PF",
+    "image": "https://m.media-amazon.com/images/I/41sF-bpPBTL._SL500_.jpg",
+    "title": "GIGABYTE GeForce RTX 4070 WINDFORCE OC 12G Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6X, GV-N4070WF3OC-12GD Video Card",
+    "checked": "2026-11-19"
+  },
   "rtx-5060": {
     "asin": "B0F8LDHQ7Y",
     "image": "https://m.media-amazon.com/images/I/41uJIJhUWVL._SL500_.jpg",
@@ -267,6 +285,18 @@
     "asin": "B0DTHV8THW",
     "image": "https://m.media-amazon.com/images/I/51B+ImhOYeL._SL500_.jpg",
     "title": "ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 OC Edition Gaming Graphics Card (Nvidia GeForce RTX5090, Four Fans, 3.8 Slot Design, PCIe 5.0, 2X HDMI 2.1b, 3X DisplayPort 2.1a)",
+    "checked": "2026-11-19"
+  },
+  "rx-6600": {
+    "asin": "B09J8VCFWN",
+    "image": "https://m.media-amazon.com/images/I/41i-3GyW0UL._SL500_.jpg",
+    "title": "ASRock AMD Radeon RX 6600 Challenger D 8GB GDDR6 DisplayPort 14Gbps HDMI 0dB Silent Cooling 128-bit 7680 x 4320 Dual Fan Graphics Card PCI Express 4.0 x8 8-pin",
+    "checked": "2026-11-19"
+  },
+  "rx-6700-xt": {
+    "asin": "B08YNQ4ZM1",
+    "image": "https://m.media-amazon.com/images/I/51YFV5ual7L._SL500_.jpg",
+    "title": "Sapphire 11306-02-20G Pulse AMD Radeon RX 6700 XT Gaming Graphics Card with 12GB GDDR6, AMD RDNA 2",
     "checked": "2026-11-19"
   },
   "rx-9060-xt-16gb": {
@@ -305,10 +335,28 @@
     "title": "AMD Ryzen 7 5700X3D 8-Core, 16-Thread Desktop Processor",
     "checked": "2026-11-19"
   },
+  "ryzen-7-5800x": {
+    "asin": "B0815XFSGK",
+    "image": "https://m.media-amazon.com/images/I/41t0HDY4O+L._SL500_.jpg",
+    "title": "AMD Ryzen 7 5800X 8-core, 16-thread unlocked desktop processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-5800x3d": {
+    "asin": "B0H41D4KFT",
+    "image": "https://m.media-amazon.com/images/I/41jmTVeiKgL._SL500_.jpg",
+    "title": "AMD Ryzen 7 5800X3D 8-core, 16-Thread Desktop Processor with AMD 3D V-Cache Technology",
+    "checked": "2026-11-19"
+  },
   "ryzen-7-7800x3d": {
     "asin": "B0BTZB7F88",
     "image": "https://m.media-amazon.com/images/I/21KtytBd+kL._SL500_.jpg",
     "title": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-8700f": {
+    "asin": "B0D2JCMP34",
+    "image": "https://m.media-amazon.com/images/I/317Jdk9WQIL._SL500_.jpg",
+    "title": "AMD Ryzen™ 7 8700F",
     "checked": "2026-11-19"
   },
   "ryzen-7-9700x": {
