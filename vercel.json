@@ -7,78 +7,123 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/best/best-wifi-dehumidifier/",
-      "destination": "https://www.enthusiastreview.com/best/best-smart-dehumidifier/",
+      "source": "/best-gpu-for-ryzen-9-3900x-and-3950x/",
+      "destination": "https://www.enthusiastreview.com/best-graphics-card/",
       "permanent": true
     },
     {
-      "source": "/best/best-wifi-dehumidifier.md",
-      "destination": "https://www.enthusiastreview.com/best/best-smart-dehumidifier.md",
+      "source": "/best-gpu-for-ryzen-9-3900x-and-3950x",
+      "destination": "https://www.enthusiastreview.com/best-graphics-card/",
       "permanent": true
     },
     {
-      "source": "/best/best-wifi-dehumidifier",
-      "destination": "https://www.enthusiastreview.com/best/best-smart-dehumidifier/",
+      "source": "/best-gpu-for-ryzen-9-3900x-and-3950x.md",
+      "destination": "https://www.enthusiastreview.com/best-graphics-card.md",
       "permanent": true
     },
     {
-      "source": "/best/best-dehumidifier-for-sleeping/",
-      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-bedroom/",
+      "source": "/best-graphics-card-under-100/",
+      "destination": "https://www.enthusiastreview.com/best-budget-graphics-card/",
       "permanent": true
     },
     {
-      "source": "/best/best-dehumidifier-for-sleeping.md",
-      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-bedroom.md",
+      "source": "/best-graphics-card-under-100",
+      "destination": "https://www.enthusiastreview.com/best-budget-graphics-card/",
       "permanent": true
     },
     {
-      "source": "/best/best-dehumidifier-for-sleeping",
-      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-bedroom/",
+      "source": "/best-graphics-card-under-100.md",
+      "destination": "https://www.enthusiastreview.com/best-budget-graphics-card.md",
       "permanent": true
     },
     {
-      "source": "/best/best-dehumidifier-for-condo/",
-      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-apartment/",
+      "source": "/best-pc-cases-for-ryzen-3000-series/",
+      "destination": "https://www.enthusiastreview.com/best-pc-case/",
       "permanent": true
     },
     {
-      "source": "/best/best-dehumidifier-for-condo.md",
-      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-apartment.md",
+      "source": "/best-pc-cases-for-ryzen-3000-series",
+      "destination": "https://www.enthusiastreview.com/best-pc-case/",
       "permanent": true
     },
     {
-      "source": "/best/best-dehumidifier-for-condo",
-      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-apartment/",
+      "source": "/best-pc-cases-for-ryzen-3000-series.md",
+      "destination": "https://www.enthusiastreview.com/best-pc-case.md",
       "permanent": true
     },
     {
-      "source": "/best/best-dehumidifier-for-gun-cabinet/",
-      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-gun-safe/",
+      "source": "/best-psu-for-ryzen-7-2700x-and-3700x/",
+      "destination": "https://www.enthusiastreview.com/best-psu-under-100/",
       "permanent": true
     },
     {
-      "source": "/best/best-dehumidifier-for-gun-cabinet.md",
-      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-gun-safe.md",
+      "source": "/best-psu-for-ryzen-7-2700x-and-3700x",
+      "destination": "https://www.enthusiastreview.com/best-psu-under-100/",
       "permanent": true
     },
     {
-      "source": "/best/best-dehumidifier-for-gun-cabinet",
-      "destination": "https://www.enthusiastreview.com/best/best-dehumidifier-for-gun-safe/",
+      "source": "/best-psu-for-ryzen-7-2700x-and-3700x.md",
+      "destination": "https://www.enthusiastreview.com/best-psu-under-100.md",
       "permanent": true
     },
     {
-      "source": "/best/best-ducted-dehumidifier/",
-      "destination": "https://www.enthusiastreview.com/best/best-whole-house-dehumidifier/",
+      "source": "/best-power-supply-psu-for-ryzen-5-2600-and-3600/",
+      "destination": "https://www.enthusiastreview.com/best-psu-under-100/",
       "permanent": true
     },
     {
-      "source": "/best/best-ducted-dehumidifier.md",
-      "destination": "https://www.enthusiastreview.com/best/best-whole-house-dehumidifier.md",
+      "source": "/best-power-supply-psu-for-ryzen-5-2600-and-3600",
+      "destination": "https://www.enthusiastreview.com/best-psu-under-100/",
       "permanent": true
     },
     {
-      "source": "/best/best-ducted-dehumidifier",
-      "destination": "https://www.enthusiastreview.com/best/best-whole-house-dehumidifier/",
+      "source": "/best-power-supply-psu-for-ryzen-5-2600-and-3600.md",
+      "destination": "https://www.enthusiastreview.com/best-psu-under-100.md",
+      "permanent": true
+    },
+    {
+      "source": "/best-psu-for-ryzen-9-3900x-and-3950x/",
+      "destination": "https://www.enthusiastreview.com/best-power-supply/",
+      "permanent": true
+    },
+    {
+      "source": "/best-psu-for-ryzen-9-3900x-and-3950x",
+      "destination": "https://www.enthusiastreview.com/best-power-supply/",
+      "permanent": true
+    },
+    {
+      "source": "/best-psu-for-ryzen-9-3900x-and-3950x.md",
+      "destination": "https://www.enthusiastreview.com/best-power-supply.md",
+      "permanent": true
+    },
+    {
+      "source": "/gpu-bottleneck-calculator/",
+      "destination": "https://www.enthusiastreview.com/tools/bottleneck-calculator/",
+      "permanent": true
+    },
+    {
+      "source": "/gpu-bottleneck-calculator",
+      "destination": "https://www.enthusiastreview.com/tools/bottleneck-calculator/",
+      "permanent": true
+    },
+    {
+      "source": "/gpu-bottleneck-calculator.md",
+      "destination": "https://www.enthusiastreview.com/tools/bottleneck-calculator.md",
+      "permanent": true
+    },
+    {
+      "source": "/bottleneck-calculator/",
+      "destination": "https://www.enthusiastreview.com/tools/bottleneck-calculator/",
+      "permanent": true
+    },
+    {
+      "source": "/bottleneck-calculator",
+      "destination": "https://www.enthusiastreview.com/tools/bottleneck-calculator/",
+      "permanent": true
+    },
+    {
+      "source": "/bottleneck-calculator.md",
+      "destination": "https://www.enthusiastreview.com/tools/bottleneck-calculator.md",
       "permanent": true
     },
     {

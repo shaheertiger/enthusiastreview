@@ -1,0 +1,158 @@
+{
+  "nvidia": {
+    "name": "NVIDIA",
+    "founded": "1993",
+    "hq": "Santa Clara, California",
+    "blurb": "NVIDIA designs GeForce graphics cards, from the RTX 5060 up to the RTX 5090. It is known for leading ray tracing performance and DLSS upscaling, which is supported in hundreds of games."
+  },
+  "amd": {
+    "name": "AMD",
+    "founded": "1969",
+    "hq": "Santa Clara, California",
+    "blurb": "AMD makes Ryzen processors and Radeon graphics cards. Its X3D chips with 3D V-Cache lead in gaming, and its Radeon RX 9000 series competes on VRAM and price per frame."
+  },
+  "intel": {
+    "name": "Intel",
+    "founded": "1968",
+    "hq": "Santa Clara, California",
+    "blurb": "Intel makes Core Ultra desktop processors and Arc graphics cards. Its CPUs are strong in multi-threaded work for the money, and the Arc B580 offers 12 GB of VRAM at a budget price."
+  },
+  "thermalright": {
+    "name": "Thermalright",
+    "blurb": "Thermalright makes air CPU coolers and fans. It is best known for budget dual-tower coolers like the Peerless Assassin 120 SE and Phantom Spirit 120 SE that rival far pricier models.",
+    "review": "thermalright-review"
+  },
+  "noctua": {
+    "name": "Noctua",
+    "founded": "2005",
+    "hq": "Vienna, Austria",
+    "blurb": "Noctua makes premium air coolers and fans known for low noise, sturdy mounting systems and 6-year warranties. Its NH-D15 line is one of the most recommended air coolers available."
+  },
+  "arctic": {
+    "name": "Arctic",
+    "founded": "2001",
+    "hq": "Braunschweig, Germany",
+    "blurb": "Arctic makes value-focused CPU coolers, AIO liquid coolers, fans and thermal paste. Its P12 fans, Freezer air coolers and Liquid Freezer AIOs are known for strong performance per dollar."
+  },
+  "be-quiet": {
+    "name": "be quiet!",
+    "founded": "2002",
+    "hq": "Glinde, Germany",
+    "blurb": "be quiet! makes power supplies, CPU coolers, fans and cases with a focus on low noise. Its Dark Rock coolers and Pure Power and Straight Power PSUs are popular in quiet builds."
+  },
+  "corsair": {
+    "name": "Corsair",
+    "founded": "1994",
+    "hq": "Fremont, California",
+    "blurb": "Corsair makes power supplies, memory, coolers, cases and peripherals. Its RMx and RMe power supplies and Vengeance memory are among the most common picks in gaming PCs.",
+    "review": "corsair-review"
+  },
+  "msi": {
+    "name": "MSI",
+    "founded": "1986",
+    "hq": "New Taipei City, Taiwan",
+    "blurb": "MSI makes motherboards, graphics cards, power supplies and laptops. Its MAG Tomahawk motherboards are known for strong power delivery and good features for the price.",
+    "review": "msi-review"
+  },
+  "seasonic": {
+    "name": "Seasonic",
+    "founded": "1975",
+    "hq": "Taipei, Taiwan",
+    "blurb": "Seasonic is a long-established power supply maker whose platforms have been used by many other brands. Its Focus and Prime lines are known for build quality and long warranties."
+  },
+  "montech": {
+    "name": "Montech",
+    "blurb": "Montech makes budget and midrange PC cases, power supplies and coolers. Its AIR and XR cases and Century power supplies are known for including a lot of features for the price."
+  },
+  "lian-li": {
+    "name": "Lian Li",
+    "founded": "1983",
+    "hq": "Taiwan",
+    "blurb": "Lian Li makes PC cases, fans and AIO coolers. It is known for the O11 Dynamic showcase cases and Lancool airflow cases, plus its daisy-chained UNI FAN lineup."
+  },
+  "fractal": {
+    "name": "Fractal Design",
+    "founded": "2007",
+    "hq": "Gothenburg, Sweden",
+    "blurb": "Fractal Design makes PC cases, coolers and power supplies with a Scandinavian design style. Its North case, with a real wood front, and its Pop and Meshify lines are popular."
+  },
+  "phanteks": {
+    "name": "Phanteks",
+    "blurb": "Phanteks makes PC cases, fans and cooling hardware. Its Eclipse and XT cases are known for good airflow, generous included fans and clean cable management at fair prices."
+  },
+  "nzxt": {
+    "name": "NZXT",
+    "founded": "2004",
+    "blurb": "NZXT makes PC cases, AIO coolers, motherboards and prebuilt systems. Its H-series cases are known for clean, minimal styling and easy cable management."
+  },
+  "cooler-master": {
+    "name": "Cooler Master",
+    "founded": "1992",
+    "hq": "New Taipei City, Taiwan",
+    "blurb": "Cooler Master makes cases, CPU coolers, power supplies and peripherals. Its Hyper 212 coolers and MasterBox cases have been budget-build staples for years."
+  },
+  "thermaltake": {
+    "name": "Thermaltake",
+    "founded": "1999",
+    "hq": "Taipei, Taiwan",
+    "blurb": "Thermaltake makes PC cases, power supplies, liquid cooling and fans. It covers everything from budget Versa cases to large showcase builds and custom liquid cooling parts."
+  },
+  "zalman": {
+    "name": "Zalman",
+    "founded": "1999",
+    "hq": "South Korea",
+    "blurb": "Zalman is a Korean maker of PC cases, coolers and power supplies. Today it is best known in the US for inexpensive mesh-front cases that include several fans."
+  },
+  "gskill": {
+    "name": "G.Skill",
+    "founded": "1989",
+    "hq": "Taipei, Taiwan",
+    "blurb": "G.Skill makes desktop memory and peripherals. Its Trident Z, Flare X5 and Ripjaws kits are known for tuned, high-speed memory, including kits built specifically for AMD platforms."
+  },
+  "kingston": {
+    "name": "Kingston",
+    "founded": "1987",
+    "hq": "Fountain Valley, California",
+    "blurb": "Kingston is one of the largest independent memory makers, selling RAM and SSDs. Its Fury memory and NV-series SSDs are common budget and midrange picks."
+  },
+  "teamgroup": {
+    "name": "TeamGroup",
+    "founded": "1997",
+    "hq": "New Taipei City, Taiwan",
+    "blurb": "TeamGroup makes memory, SSDs and flash storage. Its T-Force gaming line, including Delta RGB memory, is known for competitive pricing and bold RGB styling."
+  },
+  "crucial": {
+    "name": "Crucial",
+    "hq": "Boise, Idaho",
+    "blurb": "Crucial is Micron's consumer brand for memory and SSDs, known for reliable, plug-and-play parts. Micron announced in late 2025 that it is winding down the Crucial consumer business."
+  },
+  "gigabyte": {
+    "name": "Gigabyte",
+    "founded": "1986",
+    "hq": "New Taipei City, Taiwan",
+    "blurb": "Gigabyte makes motherboards, graphics cards, monitors and laptops. Its Aorus motherboards are known for solid features, and Q-Flash Plus lets you update the BIOS without a CPU."
+  },
+  "asus": {
+    "name": "ASUS",
+    "founded": "1989",
+    "hq": "Taipei, Taiwan",
+    "blurb": "ASUS makes motherboards, graphics cards, laptops and monitors. Its ROG and TUF Gaming motherboards cover premium and value builds, with strong BIOS and software support."
+  },
+  "asrock": {
+    "name": "ASRock",
+    "founded": "2002",
+    "hq": "Taipei, Taiwan",
+    "blurb": "ASRock makes motherboards, graphics cards and mini PCs. It is known for value-focused boards, including the Steel Legend line, and for Radeon graphics cards."
+  },
+  "samsung": {
+    "name": "Samsung",
+    "founded": "1969",
+    "hq": "Suwon, South Korea",
+    "blurb": "Samsung makes its own NAND flash, DRAM and controllers, which lets it build SSDs end to end. Its 990 Pro and 9100 Pro drives are among the fastest consumer SSDs available."
+  },
+  "wd": {
+    "name": "WD",
+    "hq": "San Jose, California",
+    "blurb": "WD is known in PC hardware for its WD Black gaming SSDs, such as the SN850X and SN7100. Its flash business, including these drives, was spun off as SanDisk in early 2025."
+  }
+}

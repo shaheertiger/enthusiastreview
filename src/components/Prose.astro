@@ -1,13 +1,16 @@
 ---
 import Base from '../layouts/Base.astro';
-interface Props { title: string; description: string; h1: string; dek?: string; noindex?: boolean }
-const { title, description, h1, dek, noindex } = Astro.props;
+import Crumbs from './Crumbs.astro';
+interface Props { title: string; h1: string; description: string; dek?: string }
+const { title, h1, description, dek } = Astro.props;
 ---
-<Base title={title} description={description} noindex={noindex}>
-  <article class="col prose-page">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><span>{h1}</span></nav>
-    <h1 class="a-title">{h1}</h1>
-    {dek && <p class="a-dek">{dek}</p>}
-    <div class="body"><slot /></div>
+<Base title={title} description={description}>
+  <article class="article">
+    <header class="col a-head">
+      <Crumbs items={[{ name: 'Home', href: '/' }, { name: h1, href: Astro.url.pathname }]} />
+      <h1 class="a-title">{h1}</h1>
+      {dek && <p class="dek">{dek}</p>}
+    </header>
+    <div class="col body"><slot /></div>
   </article>
 </Base>

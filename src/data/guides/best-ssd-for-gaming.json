@@ -1,0 +1,216 @@
+{
+  "slug": "best-ssd-for-gaming",
+  "type": "roundup",
+  "category": "storage",
+  "title": "Best SSD for Gaming (2026): 7 NVMe Drives Ranked by Value",
+  "h1": "Best SSD for Gaming",
+  "query": "best ssd for gaming",
+  "description": "The WD Black SN850X is the best SSD for gaming in most PCs: 7,300 MB/s, TLC, DRAM and 1,200 TBW at 2 TB. 7 NVMe picks ranked, with 2026 price warnings.",
+  "dek": "Seven 2 TB NVMe drives for gaming PCs and the PS5, ranked on real-world value at a time when SSD prices are well above their 2025 lows.",
+  "intro": [
+    "The WD Black SN850X is the best SSD for gaming for most people. The 2 TB model reads at up to 7,300 MB/s, uses TLC flash with a DRAM cache and is rated for 1,200 TBW, and it usually costs less than the Samsung 990 Pro while loading games just as quickly.",
+    "This guide covers gaming PCs first and the PS5 second. We compare 2 TB models because that capacity fits a modern game library without constant uninstalling. One warning up front: SSD prices rose sharply from late 2025, so the bands here are wider than usual and worth checking before you buy."
+  ],
+  "quickAnswer": "Buy the WD Black SN850X 2TB ($140–$190) for a gaming PC or PS5. The Crucial T500 ($130–$180) is the value alternative with the same class of TLC and DRAM. Only buy the PCIe 5.0 Samsung 9100 Pro ($230–$310) for heavy file work. On a budget, the Kingston NV3 ($100–$140) loads games nearly as fast.",
+  "picks": [
+    {
+      "id": "wd-black-sn850x",
+      "label": "Best Overall",
+      "bestFor": "a primary game drive in any PC with a PCIe 4.0 or 5.0 M.2 slot, or a PS5 with the heatsink version",
+      "skipIf": "you only need a cheap second drive for an older game library",
+      "writeup": [
+        "The SN850X has been the safe gaming SSD recommendation for years, and nothing in 2026 has displaced it. The 2 TB drive is rated at 7,300 MB/s reads and 6,600 MB/s writes on PCIe 4.0, with TLC flash, a DRAM cache, a 1,200 TBW endurance rating and a 5-year warranty. That combination means it stays fast when the drive fills up, handles big game installs without slowing to a crawl, and should outlast the rest of your PC.",
+        "For gaming specifically, independent reviews show it loading games as quickly as any PCIe 4.0 drive and within a second or two of PCIe 5.0 models. That is the honest ceiling for game storage today: beyond this tier, the gains show up in large file copies rather than in how fast a level appears.",
+        "It also works well in a PS5. WD sells a version with a factory heatsink that meets Sony's height limit, and it is one of the most common PS5 upgrades owners report. WD's flash business, including the WD Black line, moved to SanDisk in the 2025 split, so you may see SanDisk branding on newer listings. The drive and the warranty terms carry over. At $140 to $190, it is the one to buy."
+      ],
+      "pros": ["7,300 MB/s with TLC and DRAM", "1,200 TBW and 5-year warranty", "Heatsink version fits the PS5"],
+      "cons": ["Prices up since late 2025", "Not the fastest drive for large file copies"]
+    },
+    {
+      "id": "samsung-990-pro",
+      "label": "Runner-Up",
+      "bestFor": "Samsung loyalists and anyone who wants Samsung Magician's monitoring tools",
+      "skipIf": "the SN850X or T500 is $20 or more cheaper",
+      "writeup": [
+        "The 990 Pro is the SN850X's direct rival and a fine choice when it costs the same. The 2 TB model is rated at 7,450 MB/s reads and 6,900 MB/s writes, with TLC flash, DRAM, 1,200 TBW and a 5-year warranty. On paper it is a touch faster. In games, independent reviews show the two loading at practically the same speed.",
+        "Samsung's software is its strongest extra. Magician handles firmware updates, health monitoring and drive speed checks in one place, and it is more polished than most rivals' tools. That matters more than usual here: early 990 Pro units had a widely reported firmware issue that caused health readings to fall quickly, which Samsung fixed with an update. If you buy one, install Magician and confirm you are on current firmware.",
+        "Like the SN850X, it comes in a heatsink version for the PS5. The reason it sits second is price, not quality. In the 2026 market the 990 Pro usually sells for $150 to $210, a little above the SN850X and Crucial T500. If you find it at the same price, buy whichever brand you trust more."
+      ]
+    },
+    {
+      "id": "crucial-t500",
+      "label": "Best Value",
+      "bestFor": "builders who want a premium-class TLC drive with DRAM for the least money",
+      "skipIf": "you want the most established gaming-focused software suite",
+      "writeup": [
+        "The Crucial T500 is the quiet value pick in the high-end PCIe 4.0 tier. The 2 TB version is rated at 7,400 MB/s reads and 7,000 MB/s writes, uses TLC flash with a DRAM cache, carries a 1,200 TBW endurance rating and a 5-year warranty. Those are the same headline specs as the SN850X and 990 Pro, and it often costs $10 to $20 less, at $130 to $180.",
+        "For a gaming PC, that makes it the drive to buy when the SN850X is not on sale. Game loads in independent reviews put it in the same group as its two better-known rivals, and the DRAM cache keeps it consistent as the drive fills. Crucial also sells a heatsink version for PS5 owners.",
+        "There is no big catch. Crucial's Storage Executive software is more basic than Samsung Magician, and the T500 gets less attention in buying guides than the WD and Samsung drives, which is partly why it sells for less. If you just want a fast, durable game drive and do not care about the logo, the T500 is the smart buy."
+      ]
+    },
+    {
+      "id": "wd-black-sn7100",
+      "label": "Best DRAM-less",
+      "bestFor": "gaming laptops, small builds and anyone who wants top PCIe 4.0 speed with low power draw",
+      "skipIf": "you do heavy sustained writes like video editing on the same drive",
+      "writeup": [
+        "The SN7100 shows how far DRAM-less drives have come. The 2 TB model is rated at 7,250 MB/s reads and 6,900 MB/s writes on PCIe 4.0, with TLC flash, a 1,200 TBW rating and a 5-year warranty. It skips the DRAM chip and instead borrows a small slice of system memory through Host Memory Buffer, which saves cost and power.",
+        "For gaming, that design costs very little. Games are mostly read once into memory, and independent reviews show the SN7100 loading them about as quickly as DRAM-equipped drives. Where it gives ground is in long, mixed workloads and when the drive is nearly full, which matter more for a workstation than a game library.",
+        "Its low power draw makes it a strong choice for a gaming laptop with an empty M.2 2280 slot, a compact PC with limited airflow, or anyone who wants a fast drive that runs cool without a heavy heatsink. At $120 to $170 it usually undercuts the SN850X. In a desktop where heat and power do not matter, the SN850X or T500 is the better use of a small price gap."
+      ]
+    },
+    {
+      "id": "samsung-9100-pro",
+      "label": "Best PCIe 5.0",
+      "bestFor": "builders with a PCIe 5.0 M.2 slot who also move large files, edit video or want the fastest drive available",
+      "skipIf": "your board has only PCIe 4.0 M.2 slots or the PC is purely for gaming",
+      "writeup": [
+        "The 9100 Pro is the drive to buy if you want PCIe 5.0, but be clear about what you are paying for. The 2 TB model is rated at 14,700 MB/s reads and 13,400 MB/s writes, roughly double the best PCIe 4.0 drives, with TLC flash, DRAM, 1,200 TBW and a 5-year warranty. It costs $230 to $310.",
+        "In games, that doubling barely shows. Independent reviews find load times within a second or two of fast PCIe 4.0 drives, because games spend much of their loading time decompressing assets and building shaders rather than waiting on raw transfer speed. DirectStorage could change that in time, but few games use it heavily today.",
+        "Where the 9100 Pro does pull ahead is everything else: copying a 100 GB game folder, scrubbing a 4K video timeline or moving large project files. If your gaming PC doubles as a creative workstation, that is worth paying for. You need a PCIe 5.0 M.2 slot to get the speed, such as the one on the [MSI MAG X870 Tomahawk WiFi](/gear/msi-mag-x870-tomahawk-wifi/), and a good heatsink, since Gen5 drives run warm. In a PCIe 4.0 slot it works at PCIe 4.0 speed."
+      ],
+      "pros": ["14,700 MB/s reads", "TLC, DRAM and 1,200 TBW", "Big gains for large file work"],
+      "cons": ["Little gaming benefit over PCIe 4.0", "Needs a Gen5 slot and a heatsink", "Costs $230–$310"]
+    },
+    {
+      "id": "kingston-nv3",
+      "label": "Best Budget",
+      "bestFor": "budget gaming builds where every dollar should go to the graphics card",
+      "skipIf": "you want consistent long-term components or a 5-year warranty",
+      "writeup": [
+        "The Kingston NV3 is the cheapest drive here that still feels fast in games. The 2 TB model is rated at 6,000 MB/s reads and 5,000 MB/s writes on PCIe 4.0, is DRAM-less, carries a 640 TBW endurance rating and has a 3-year warranty. It typically sells for $100 to $140.",
+        "In real game loads, a 6,000 MB/s rating is plenty. Load times in independent reviews put budget PCIe 4.0 drives close to premium ones, because raw sequential speed is rarely the bottleneck. For a $900 to $1,200 gaming PC, choosing the NV3 over a $150 drive frees money for a better graphics card, which you will notice far more.",
+        "Go in with realistic expectations. Kingston does not commit to a fixed NAND type, and component changes between production batches are widely reported across the NV line, so two NV3 drives may not perform identically. Endurance and warranty are lower than on the premium picks, and sustained write speed drops once its cache fills during a big install. For a game library you read far more than you write, those are acceptable trade-offs."
+      ]
+    },
+    {
+      "id": "crucial-p3-plus",
+      "label": "Best Second Drive",
+      "bestFor": "a cheap second drive for an overflow game library",
+      "skipIf": "it would be your only drive or you install huge games often",
+      "writeup": [
+        "The P3 Plus is a library drive, not a boot drive. The 2 TB model is rated at 5,000 MB/s reads and 4,200 MB/s writes on PCIe 4.0, uses QLC flash, has no DRAM, is rated for 440 TBW and carries a 5-year warranty. It sells for $100 to $140, about the same as the NV3.",
+        "QLC flash stores four bits per cell, which makes it cheaper but slower to write once the drive's fast cache runs out. That shows up when you install a 150 GB game or copy a large folder: the first chunk flies, then write speed drops sharply. Reading games back, which is what a library drive does most of the time, is much less affected, and load times stay well ahead of any SATA SSD or hard drive.",
+        "That makes it a sensible second drive for older titles and games you play now and then, alongside a TLC drive like the SN850X for Windows and your current favorites. Its 5-year warranty is longer than the NV3's, though its endurance rating is lower. If you can only afford one drive, choose the NV3 or stretch to the T500 instead."
+      ]
+    }
+  ],
+  "tableSpecs": ["Interface", "Sequential read", "NAND", "DRAM cache", "Endurance"],
+  "ranking": {
+    "intro": "These rankings draw on manufacturer spec sheets, independent SSD reviews that publish game load times and sustained write results, Sony's PS5 storage requirements, and owner reports from retailer listings and forums. None of these drives were bench-tested by us. The ER Score is a research score that weighs that evidence against 2026 street prices, which have been unusually volatile.",
+    "criteria": [
+      ["Game load speed", "How quickly the drive loads games in independent reviews, which matters more than its peak sequential rating."],
+      ["Consistency", "Whether speed holds up as the drive fills and during large installs, which depends on NAND type and DRAM."],
+      ["Endurance and warranty", "The TBW rating and warranty length at 2 TB."],
+      ["Value at 2026 prices", "Street price relative to the tier, given the sharp rise in SSD prices since late 2025."],
+      ["Compatibility", "Fit in PCIe 4.0 and 5.0 slots, and availability of a heatsink version for the PS5."]
+    ],
+    "why": "The SN850X won because it matches the fastest PCIe 4.0 drives in game loads, adds TLC, DRAM and 1,200 TBW, and usually costs less than the Samsung 990 Pro."
+  },
+  "mentions": [
+    { "name": "Samsung 990 EVO Plus", "text": "A DRAM-less PCIe 4.0 drive from Samsung that sits below the 990 Pro on price. It is a solid gaming drive, but the WD Black SN7100 offers similar strengths with a higher endurance rating at 2 TB, so it took the DRAM-less slot instead." },
+    { "name": "Crucial T705", "text": "One of the fastest PCIe 5.0 drives available, aimed at enthusiasts chasing peak transfer rates. For gaming it offers no meaningful advantage over the Samsung 9100 Pro, and it typically costs more and runs hot, so it is hard to recommend for a game drive." },
+    { "name": "Any 2.5-inch SATA SSD", "text": "A SATA SSD at around 550 MB/s still loads most games far faster than a hard drive and works in older PCs without an M.2 slot. In a modern build, an NVMe drive often costs about the same, so SATA only makes sense for reusing a drive you already own." }
+  ],
+  "sections": [
+    {
+      "h": "How Fast Does a Gaming SSD Need to Be?",
+      "body": [
+        "Faster than a hard drive, and that is the jump that matters most. Moving from a hard drive to any SSD cuts load times dramatically. Moving from a SATA SSD to NVMe helps a little more. Beyond a good PCIe 4.0 drive, independent reviews show load times improving by a second or two at most.",
+        "The reason is that games do more than read files when they load. They decompress assets, compile shaders and set up the world, and those steps lean on the CPU. A drive rated at 14,700 MB/s cannot speed up work that is not waiting on storage."
+      ],
+      "table": {
+        "caption": "SSD speed tiers and what they mean for games",
+        "head": ["Tier", "Typical rated read", "Examples", "Gaming verdict"],
+        "rows": [
+          ["Hard drive", "A few hundred MB/s at most", "7,200 rpm desktop HDD", "Slow loads, stutter in some open-world games"],
+          ["SATA SSD", "About 550 MB/s", "Any 2.5-inch SATA SSD", "Fine for older games, cheap reuse"],
+          ["PCIe 3.0 NVMe", "Up to about 3,500 MB/s", "Older NVMe drives", "Close to modern drives in game loads"],
+          ["PCIe 4.0 budget", "5,000–6,000 MB/s", "Crucial P3 Plus, Kingston NV3", "Very good value"],
+          ["PCIe 4.0 high end", "7,000–7,450 MB/s", "SN850X, 990 Pro, T500, SN7100", "The sweet spot for a main drive"],
+          ["PCIe 5.0", "About 14,000 MB/s or more", "Samsung 9100 Pro", "Faster file copies, little gaming gain"]
+        ]
+      }
+    },
+    {
+      "h": "Do You Need a PCIe 5.0 SSD for Gaming?",
+      "body": [
+        "No. A PCIe 5.0 drive like the Samsung 9100 Pro doubles the rated read speed of the best PCIe 4.0 drives, but game load times in independent reviews barely change. You also need a motherboard with a PCIe 5.0 M.2 slot, and Gen5 drives run warmer, so a proper heatsink is required.",
+        "Microsoft's DirectStorage API is the one thing that could make fast drives matter more. It lets the graphics card decompress game data directly, cutting the CPU work that slows loading. Only a small number of PC games use it so far, and in those, fast PCIe 4.0 drives still do well. Buy PCIe 5.0 for creative work, not for games."
+      ]
+    },
+    {
+      "h": "DRAM vs DRAM-less: Does It Matter?",
+      "body": [
+        "For gaming, much less than it used to. A DRAM cache holds the map of where data lives on the flash, which keeps the drive quick during heavy mixed use and when it is nearly full. Older DRAM-less drives could feel sluggish because of that missing map.",
+        "Modern DRAM-less NVMe drives use Host Memory Buffer to borrow a small amount of your system memory for the same job. Independent reviews show drives like the WD Black SN7100 loading games about as fast as DRAM models. DRAM still helps for a boot drive that also handles large projects, so the SN850X and T500 remain the safer all-round picks. For a game library, DRAM-less is fine."
+      ]
+    },
+    {
+      "h": "TLC vs QLC: Will a QLC Drive Slow Down Games?",
+      "body": [
+        "Not when you play them, but you may notice it when you install them. QLC flash stores four bits per cell instead of TLC's three, which makes it cheaper and lowers its endurance rating. Every modern drive writes first to a fast cache. On a QLC drive, once that cache fills during a big install, write speed falls sharply.",
+        "Reading data back, which is what happens when you load a game, is far less affected. That is why a QLC drive like the Crucial P3 Plus works well as a second drive for a game library, and less well as your only drive if you install and delete large games often."
+      ]
+    },
+    {
+      "h": "How Much Storage Do You Need for Games?",
+      "body": [
+        "2 TB is the sensible target for a main drive in 2026. Many big releases now take 100 GB or more each, and a few with every add-on installed go well past 200 GB. A 1 TB drive holds Windows and a handful of large games before you start uninstalling.",
+        "Also leave some free space. Many drives use spare capacity as their fast write cache, so a drive kept nearly full gets slower at installs and updates."
+      ],
+      "table": {
+        "caption": "Capacity vs how you play",
+        "head": ["Capacity", "What it holds comfortably", "Who it suits"],
+        "rows": [
+          ["1 TB", "Windows plus a few large games", "One or two main games, fast internet for reinstalls"],
+          ["2 TB", "Windows plus a rotating library of current games", "Most gamers"],
+          ["4 TB", "A large library with little uninstalling", "Big libraries, slow internet, or one drive for everything"],
+          ["2 TB plus a second drive", "Main games on TLC, older titles on a cheap drive", "Best cost per terabyte for large libraries"]
+        ]
+      }
+    },
+    {
+      "h": "Why Did SSD Prices Go Up?",
+      "body": [
+        "SSD prices rose sharply from late 2025 after NAND flash makers shifted supply toward data center demand and cut back on cheap consumer output. Contract prices for flash climbed, and retail SSD prices followed. A 2 TB drive that sold near its lowest price in mid-2025 often costs noticeably more now.",
+        "That is why the price bands on this page are wide. Check current prices before deciding, compare the 2 TB and 4 TB cost per terabyte, and do not assume a premium drive is out of reach: price gaps between tiers have sometimes narrowed during the increase."
+      ]
+    },
+    {
+      "h": "Which SSD Works in a PS5?",
+      "body": [
+        "The PS5 takes a PCIe 4.0 M.2 NVMe drive, and Sony recommends a read speed of at least 5,500 MB/s. Sony also requires cooling, which in practice means a heatsink version that stays within the console's height limit. The SN850X, 990 Pro and T500 all come in heatsink versions built for this.",
+        "The Kingston NV3 and Crucial P3 Plus fall at or below Sony's recommended speed, so they are poor PS5 choices even though they work fine as PC library drives. The Samsung 9100 Pro is a PCIe 5.0 drive and would run at PCIe 4.0 speed in a PS5, so there is no reason to pay extra for it."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying PCIe 5.0 for a PCIe 4.0 slot", "A PCIe 5.0 drive in a PCIe 4.0 slot runs at PCIe 4.0 speed, so you pay $80 or more extra for nothing. Check your motherboard manual for which M.2 slots support Gen5 before you buy a drive like the Samsung 9100 Pro."],
+    ["Skipping the heatsink", "Fast NVMe drives, especially PCIe 5.0 models, can slow down when they get hot. Use the motherboard's M.2 heatsink if it has one, or buy the heatsink version, and remove any protective film from its thermal pad. In a PS5, a heatsink is required, not optional."],
+    ["Using a QLC drive as your only drive", "QLC drives are cheap and read games quickly, but write speed drops sharply once the cache fills. If you install and delete large games often, pair a QLC library drive with a TLC main drive instead of relying on it alone."],
+    ["Filling the drive to the brim", "Many SSDs use free space as fast write cache. A nearly full drive installs and patches games more slowly and wears a little faster. Aim to keep some space free, which is another reason 2 TB is the better buy than 1 TB."],
+    ["Ignoring shared M.2 lanes", "On some motherboards, using a particular M.2 slot disables SATA ports or reduces lanes elsewhere. Read the manual's lane-sharing table before installing a second drive, especially on boards with many M.2 slots, so a new drive does not quietly cost you SATA ports or graphics card bandwidth."]
+  ],
+  "bottomLine": "For a gaming PC or PS5, buy the WD Black SN850X 2TB. It matches the fastest PCIe 4.0 drives in game loads and adds TLC, DRAM and 1,200 TBW. Choose the Crucial T500 if it is cheaper, the Samsung 9100 Pro only if you also do heavy file work on a PCIe 5.0 slot, and the Kingston NV3 or Crucial P3 Plus when budget is tight. Prices rose sharply from late 2025, so check before you buy.",
+  "faqs": [
+    { "q": "Is 1 TB enough for gaming?", "a": "It works, but 2 TB is the better buy in 2026. Many big games now take 100 GB or more each, so a 1 TB drive holds Windows and only a handful of large titles. A 2 TB drive avoids constant uninstalling and leaves free space for the cache that keeps installs fast." },
+    { "q": "Does an SSD increase FPS?", "a": "No, an SSD does not raise average frame rates. It shortens load times and can reduce stutter in open-world games that stream assets from storage, especially compared with a hard drive. Frame rate depends on your graphics card and CPU." },
+    { "q": "Is NVMe faster than SATA for gaming?", "a": "Yes, but by less than the specs suggest. NVMe drives are rated many times faster than SATA SSDs, yet game load times in independent reviews improve only modestly. In a new build, choose NVMe anyway, since it often costs about the same as SATA and needs no cables." },
+    { "q": "Is a DRAM-less SSD OK for gaming?", "a": "Yes. Modern DRAM-less drives use Host Memory Buffer to borrow a little system memory, and drives like the WD Black SN7100 load games about as fast as DRAM models in independent reviews. DRAM matters more for heavy mixed workloads than for games." },
+    { "q": "Do I need a heatsink on my SSD?", "a": "Usually yes for a fast NVMe drive, and always for a PS5. Most modern motherboards include M.2 heatsinks, which are enough for PCIe 4.0 drives like the SN850X. PCIe 5.0 drives run warmer and need a proper heatsink to avoid slowing down under load." },
+    { "q": "What is the best SSD for the PS5?", "a": "The WD Black SN850X with heatsink is the best PS5 SSD for most owners. It meets Sony's recommended 5,500 MB/s speed with plenty to spare and has a factory heatsink built for the console. The Samsung 990 Pro and Crucial T500 heatsink versions are good alternatives." },
+    { "q": "Will SSD prices go down in 2026?", "a": "Nobody can promise that. Prices rose sharply from late 2025 as flash makers shifted supply toward data center demand, and they have stayed elevated. If you need a drive now, buy at a fair price rather than waiting, and compare cost per terabyte across 2 TB and 4 TB models." }
+  ],
+  "sources": [
+    "WD Black (SanDisk) SN850X and SN7100 product pages and spec sheets",
+    "Samsung 990 Pro and 9100 Pro product pages",
+    "Crucial T500 and P3 Plus product pages",
+    "Kingston NV3 product page",
+    "Sony PS5 M.2 SSD expansion requirements",
+    "Microsoft DirectStorage documentation",
+    "Independent SSD reviews publishing game load times and sustained write results",
+    "NAND flash market pricing reports from late 2025 and 2026"
+  ],
+  "related": ["best-graphics-card", "best-cpu-for-gaming", "best-am5-motherboard"]
+}

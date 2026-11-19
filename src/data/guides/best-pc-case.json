@@ -1,0 +1,387 @@
+{
+  "slug": "best-pc-case",
+  "type": "roundup",
+  "category": "pc-cases",
+  "title": "Best PC Case (2026): 8 Airflow, Wood and Glass Picks Ranked",
+  "h1": "Best PC Case",
+  "query": "best pc case",
+  "description": "The Lian Li Lancool 217 is the best PC case for most builds: two 170 mm front fans, more fans in the box and a $100–$120 price. 8 cases ranked by build type.",
+  "dek": "Eight cases ranked for airflow, fit and build ease, from an $80 mesh tower to a glass showcase.",
+  "intro": [
+    "The Lian Li Lancool 217 is the best PC case for most people in 2026. Two 170 mm front fans move plenty of air at low speed, Lian Li adds rear and bottom fans in the box, and the $100–$120 street price undercuts most cases that ship with that much hardware.",
+    "This page is for anyone building a standard ATX gaming or work PC. Each pick matches a build type: big graphics card, small desk, tall air cooler, showcase loop or tight budget. If you only have about $50, our [cases under $50](/best-pc-cases-under-50/) guide covers that tier and what you give up."
+  ],
+  "quickAnswer": "Buy the Lian Li Lancool 217 ($100–$120) for strong stock airflow and room for a large GPU. Pay up for the Fractal Design North ($130–$150) if the case sits on display. For less, the Lancool 207 ($80–$90) fits a 360 mm AIO on top in a compact frame, and the Phanteks XT Pro Ultra ($80–$100) ships with four 120 mm fans.",
+  "picks": [
+    {
+      "id": "lian-li-lancool-217",
+      "label": "Best Overall",
+      "bestFor": "most ATX builds where quiet airflow and room for a big GPU come first",
+      "skipIf": "you need a small footprint or want a glass front that shows off RGB",
+      "writeup": [
+        "The Lancool 217 wins because it solves the problem most cases leave to you: buying fans. Lian Li fits two 170 mm fans behind the front panel, and a fan that large moves the same air as a 120 mm fan while spinning far slower, which is what keeps a gaming PC quiet under load. More fans come preinstalled at the rear and bottom, so the case is ready for a 300 W graphics card on day one.",
+        "The front pairs mesh with a wood accent strip, so the case reads as furniture rather than a gamer box, without the airflow penalty of a solid panel. Inside, the layout is a familiar mid-tower: the power supply hides under a shroud, radiators from 240 mm to 360 mm have a home, and the main chamber is long enough for the triple-fan cards that dominate the RTX 50 and RX 9070 lineups. Confirm the exact GPU and radiator limits on Lian Li's spec sheet before you order, since they depend on which mounts you fill.",
+        "The trade-offs are size and the fan format. It is a full-size mid-tower that will crowd a small desk, and 170 mm fans are an uncommon size if one fails years from now. For a typical Ryzen 7 9800X3D and RTX 5070 Ti build, it is the easiest case here to recommend."
+      ],
+      "pros": [
+        "Two 170 mm front fans plus more preinstalled",
+        "Quiet airflow at low fan speeds",
+        "Room for big triple-fan GPUs"
+      ],
+      "cons": [
+        "Large footprint",
+        "170 mm replacement fans are less common"
+      ]
+    },
+    {
+      "id": "fractal-design-north",
+      "label": "Best Wood Design",
+      "bestFor": "living-room or office builds where the case is on display",
+      "skipIf": "you plan a top-mounted 360 mm radiator or want the most airflow per dollar",
+      "writeup": [
+        "The North is the case people buy for how it looks, and it earns its place because it does not punish you much for that choice. The front is a row of real walnut or oak slats with gaps between them, and behind those slats sit two 140 mm Fractal Aspect fans. Air still gets in, which is not true of many designer cases that use a solid front.",
+        "Fractal sells it with a mesh side panel or a tempered-glass side. Choose the mesh side if your graphics card draws 250 W or more; the extra intake area helps a hot GPU more than the view helps you. The interior is a conventional ATX layout with a PSU shroud, a front radiator mount and enough height for most dual-tower air coolers. The roof is the weak spot, with less room than the Lancool 217, so plan on a front radiator if you want an AIO. A larger North XL exists if you need more space.",
+        "At $130–$150 it costs more than cases that move more air, and only two fans come installed. Add a rear exhaust fan for a high-power build. Paired with a quiet tower cooler from our [CPU cooler guide](/best-cpu-cooler/), it makes a PC that looks at home next to a bookshelf."
+      ],
+      "pros": [
+        "Real wood front that still breathes",
+        "Mesh or glass side options",
+        "Two 140 mm Aspect fans included"
+      ],
+      "cons": [
+        "Costs more than higher-airflow cases",
+        "Top radiator space is limited"
+      ]
+    },
+    {
+      "id": "lian-li-lancool-207",
+      "label": "Best Compact ATX",
+      "bestFor": "small-footprint ATX builds that want a 360 mm AIO on top",
+      "skipIf": "you use a very long power supply or like a roomy basement for cable clutter",
+      "writeup": [
+        "The Lancool 207 rearranges the mid-tower to save space. Lian Li moved the power supply to the front-bottom corner, which frees the whole roof for a 360 mm radiator while keeping the case shorter and shallower than a typical ATX tower. Four fans come included at $80–$90, which makes it one of the best-equipped cases in that price band.",
+        "That layout suits one build especially well: a Ryzen 9 or Core Ultra 7 under a 360 mm AIO such as the [Arctic Liquid Freezer III Pro 360](/gear/arctic-liquid-freezer-iii-pro-360/), with a mid-size or large GPU below it. With the radiator exhausting out the top, the front fans feed the graphics card directly instead of warming air through a front radiator first.",
+        "The catch is the PSU bay. Because the power supply sits up front, cable space is tighter than in a standard shroud design, and extra-long units crowd the area. A modular PSU of ordinary length is the safer choice. The case is also slimmer than most, so air-cooler fans should check Lian Li's height limit before buying the tallest dual towers. If you want an ATX case that takes an AIO without eating your desk, this is the one."
+      ],
+      "pros": [
+        "360 mm radiator fits on top",
+        "Four fans included",
+        "Small footprint for ATX"
+      ],
+      "cons": [
+        "Tight PSU and cable area",
+        "Less room for tall air coolers"
+      ]
+    },
+    {
+      "id": "phanteks-xt-pro-ultra",
+      "label": "Best Glass-Side Value",
+      "bestFor": "first-time builders who want a glass side and four fans under $100",
+      "skipIf": "you want a quieter case with fewer, larger fans",
+      "writeup": [
+        "The XT Pro Ultra is the value pick for people who want the classic glass-side look without paying extra for fans. Phanteks includes four 120 mm fans behind a mesh front, which gives you three intakes and a rear exhaust, the arrangement most builders end up buying anyway. At $80–$100, that bundle covers what an empty case plus a fan pack would cost elsewhere.",
+        "The inside is a plain ATX layout: PSU shroud, room for a front or top radiator, and standard space behind the motherboard tray for cables. Phanteks has a long record of tidy routing channels, and owners describe it as an easy first build, with tool-free panels and tie points where you need them. The glass side shows off the GPU without blocking airflow, because intake comes through the mesh front.",
+        "Four 120 mm fans at full speed are louder than the two 170 mm fans in the Lancool 217 moving similar air, so set a fan curve in the BIOS instead of leaving them at default. The included fans are serviceable rather than premium. If the gap to the 217 is under $20 when you shop, take the 217. If the gap is bigger, the XT Pro Ultra is the smarter spend."
+      ],
+      "pros": [
+        "Four 120 mm fans included",
+        "Mesh front with glass side",
+        "Easy first build"
+      ],
+      "cons": [
+        "Louder than big-fan cases at speed",
+        "Basic included fans"
+      ]
+    },
+    {
+      "id": "nzxt-h5-flow-2024",
+      "label": "Best for Hot GPUs",
+      "bestFor": "desk builds where the graphics card is the hottest part",
+      "skipIf": "you want more than two fans in the box or a top 360 mm radiator",
+      "writeup": [
+        "NZXT's H5 Flow (2024) earns a spot for one clever feature: an angled fan mount in the bottom front corner that aims a 120 mm fan straight at the graphics card. A modern GPU dumps more heat than everything else in the case combined, and feeding cool air into its fans is a better use of one fan than another intake that mostly stirs the empty top of the chamber.",
+        "It is a compact mid-tower with a perforated front panel, two 120 mm fans included and NZXT's usual clean styling: few visible screws, a cable bar that hides the mess, and a layout that tucks the PSU and drives out of sight. It suits a mid-range build such as a Ryzen 5 9600X with an RTX 5070 that sits on a desk where looks and size both matter.",
+        "Two fans is thin at $90–$100, so budget for at least one more. Radiator support favors the front mount; check NZXT's spec page for what the top accepts. If you do not care about the angled fan and want more included hardware for less money, the Lancool 207 above gives you four fans for about $10 less."
+      ],
+      "pros": [
+        "Angled bottom fan aimed at the GPU",
+        "Clean, compact design",
+        "Good cable management"
+      ],
+      "cons": [
+        "Only two fans included",
+        "Pricey for what is in the box"
+      ]
+    },
+    {
+      "id": "montech-air-903-max",
+      "label": "Most Fan Area per Dollar",
+      "bestFor": "air-cooled gaming builds that want the most fan area for the money",
+      "skipIf": "you want a minimal look or a smaller case",
+      "writeup": [
+        "Montech's AIR 903 MAX is the brute-force answer to case cooling. It ships with four 140 mm fans behind a full-mesh front, which is more total fan area than any other case here at $80–$90. For an air-cooled build with a power-hungry GPU such as an RX 9070 XT, that much intake keeps the graphics card fed without spinning anything fast.",
+        "The 140 mm format helps noise too. Larger blades move more air per rotation, so four 140s at a gentle curve can match the airflow of smaller fans running harder. The front panel is almost all open mesh, which also means it collects dust faster than cases with a separate filter; plan on wiping it every few months.",
+        "Montech is a younger Taiwanese brand than Lian Li or Fractal, and the finish shows it in small ways: thinner panels and fewer cable tie points, according to owner reports. None of that hurts temperatures. The styling is plain and gamer-leaning, and the case is a full-size mid-tower. If you want the most air for the least money and do not need the case to look refined, it is hard to beat."
+      ],
+      "pros": [
+        "Four 140 mm fans included",
+        "Full-mesh front",
+        "Low price for the hardware"
+      ],
+      "cons": [
+        "Front collects dust",
+        "Plainer finish than pricier cases"
+      ]
+    },
+    {
+      "id": "lian-li-o11-dynamic-evo",
+      "label": "Best Showcase Build",
+      "bestFor": "showcase builds and custom loops that need multiple radiators",
+      "skipIf": "you want good airflow out of the box or a low total cost",
+      "writeup": [
+        "The O11 Dynamic EVO is the case behind most of the glass-cube builds you see online, and it remains the best frame for a showpiece PC. Glass covers the front and side with no pillar at the corner, a second chamber behind the motherboard hides the power supply and cables, and the layout can be flipped so the window faces either way. It accepts up to three 360 mm radiators, which is why custom-loop builders favor it.",
+        "Know the real cost before buying. The EVO ships with no fans at all, and a properly cooled build needs fans on the side, bottom and top: often seven to ten of them. Add those to the $140–$170 case price and the total lands well above the Lancool 217 with every fan included. Because the front is glass, all intake comes through the side and bottom mounts, so fan placement matters more than in a mesh-front case.",
+        "The EVO is a wide case that needs desk depth and width. It rewards planning and patience, not a fast first build. If your goal is a PC that looks like a display piece and you will spend on fans and a vertical GPU setup, nothing here does it better."
+      ],
+      "pros": [
+        "Pillarless glass front and side",
+        "Up to three 360 mm radiators",
+        "Reversible layout"
+      ],
+      "cons": [
+        "No fans included",
+        "Real build cost is much higher than the case price"
+      ]
+    },
+    {
+      "id": "fractal-design-pop-air",
+      "label": "Best Budget Mid-Tower",
+      "bestFor": "budget ATX builds under $100 that need a mesh front and three fans",
+      "skipIf": "the Lancool 207 or XT Pro Ultra is on sale for the same money",
+      "writeup": [
+        "The Pop Air is the safe budget pick from a brand with a good reputation for build quality. Its honeycomb mesh front lets air through freely, and three 120 mm fans come installed, enough for a midrange build with an RX 9060 XT or RTX 5060 Ti and a 65 W to 120 W processor. Street pricing sits at $80–$90.",
+        "It is an older design than most cases here, and that shows in the details. The interior is roomy enough for standard ATX parts but lacks the newer tricks like a front-mounted PSU or an angled GPU fan. In exchange you get Fractal's careful finish: smooth panel edges, solid feet and dust filters that are easy to remove and clean.",
+        "Value is the issue. The Lancool 207 and Phanteks XT Pro Ultra often cost the same and include four fans, so check prices before buying. Where the Pop Air wins is availability and consistency: it has been sold for years in several colorways, and it is easy to find a replacement panel or filter. For a straightforward airflow case at under $100, it still does the job well."
+      ],
+      "pros": [
+        "Honeycomb mesh front",
+        "Three fans included",
+        "Good finish for the price"
+      ],
+      "cons": [
+        "Older layout",
+        "Often matched or beaten on value by newer cases"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "Form factor",
+    "Fans included",
+    "Max GPU length",
+    "Radiator support"
+  ],
+  "ranking": {
+    "intro": "These rankings come from manufacturer spec sheets, independent reviews from established hardware outlets, and owner reports on build ease and noise. None of these cases were bench-tested by us. We weighted what a case gives you on day one, since a case that needs $40 of extra fans is not really an $80 case.",
+    "criteria": [
+      [
+        "Stock airflow",
+        "How much intake the front panel and included fans provide before you buy anything extra. Mesh fronts and large fans score highest."
+      ],
+      [
+        "Fit",
+        "Room for long, thick graphics cards, tall air coolers and common radiator sizes, based on published clearance figures."
+      ],
+      [
+        "Build ease",
+        "Cable space behind the tray, tool-free panels and how forgiving the layout is for a first build, drawn from reviews and owner reports."
+      ],
+      [
+        "Value",
+        "Street price against what is in the box, especially the number and size of included fans."
+      ],
+      [
+        "Noise",
+        "Whether the case can stay quiet at the airflow a 250 W to 350 W GPU needs. Larger fans at lower speed help most."
+      ]
+    ],
+    "why": "The Lancool 217 won because it combines quiet large-fan airflow, a complete fan set and room for a big GPU at a price below most rivals."
+  },
+  "mentions": [
+    {
+      "id": "montech-xr",
+      "text": "The Montech XR wraps the front corner in glass and includes ARGB fans for $70–$80, which makes it a cheap showcase alternative to the O11 Dynamic EVO. It misses the list because glass-front cases depend on side and bottom intake, and at this price the airflow-first picks above keep a hot GPU cooler."
+    },
+    {
+      "name": "Corsair 4000D Airflow",
+      "text": "The Corsair 4000D Airflow has been a reliable mid-tower for years, with a clean interior and good cable routing. It now ships with fewer fans than newer rivals at a similar price, so the Phanteks XT Pro Ultra and Lancool 207 give you more for the money unless the 4000D is on a deep sale."
+    },
+    {
+      "name": "Lian Li Lancool 216",
+      "text": "The Lancool 216 is the predecessor to the 217 and still shows up at a discount. It uses large front fans and a mesh front, so it cools well. If you find it for $20 or more below the 217, it is a sensible buy; otherwise the newer case is the better-rounded choice."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Size PC Case Do I Need?",
+      "body": [
+        "Start with the motherboard, then the graphics card. The motherboard form factor sets the minimum case size, and the GPU length and thickness usually decide whether a smaller case is realistic. Most people building a gaming PC in 2026 should pick an ATX mid-tower, because it fits every common motherboard and nearly every consumer graphics card without measuring to the millimeter.",
+        "Smaller cases are possible, but every step down trades something: fewer fan mounts, tighter cable space, and stricter limits on GPU length and cooler height. The table below sums up what each size class realistically holds."
+      ],
+      "table": {
+        "caption": "Case size vs. the parts it usually fits",
+        "head": [
+          "Case size",
+          "Motherboard",
+          "Typical GPU room",
+          "Radiator room",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Mini-ITX / small form factor",
+            "Mini-ITX only",
+            "Two-slot or short cards in many models",
+            "Often 240 mm or none",
+            "Compact builds where size beats ease"
+          ],
+          [
+            "Micro-ATX tower",
+            "Micro-ATX, Mini-ITX",
+            "Most dual-fan cards, some triple-fan",
+            "Usually up to 240 mm",
+            "Budget builds and small desks"
+          ],
+          [
+            "Compact ATX mid-tower",
+            "ATX and smaller",
+            "Most triple-fan cards",
+            "240 mm to 360 mm",
+            "Builders short on desk space"
+          ],
+          [
+            "ATX mid-tower",
+            "ATX and smaller, some E-ATX",
+            "Nearly all consumer cards",
+            "360 mm in front or top",
+            "Most gaming and work PCs"
+          ],
+          [
+            "Dual-chamber showcase",
+            "ATX, often E-ATX",
+            "Nearly all, often vertical mount options",
+            "Up to three 360 mm in some models",
+            "Glass showcase builds and custom loops"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Will My GPU Fit?",
+      "body": [
+        "Check three numbers, not one. Length is the figure every case lists, but thickness and height cause just as many returns. Many RTX 5080 and RTX 5090 partner cards are three to four slots thick, and some are tall enough that the power cable presses against the side panel.",
+        "Length clearance in a spec sheet usually assumes nothing is mounted in front of the card. A front radiator or a thick fan can take a large bite out of the listed number, so subtract the radiator plus fan thickness if you plan to mount one there. Height matters most with the 12V-2x6 connector used by the RTX 50 series: the cable needs to run straight out of the card before it bends, and a tight side panel forces a sharp bend at the plug.",
+        "For a card like the [RTX 5090](/gear/rtx-5090/), stick with full mid-towers such as the Lancool 217 or the O11 Dynamic EVO and compare the exact card dimensions to the case listing. Most dual-fan cards in the RTX 5060 and RX 9060 XT class fit in any case on this page."
+      ],
+      "list": [
+        "Length: compare the card's listed length to the case figure, minus any front radiator.",
+        "Thickness: count slots, and check that the case has enough expansion slots below the GPU.",
+        "Height: leave room for the power cable to exit straight before bending."
+      ]
+    },
+    {
+      "h": "Mesh or Glass: Which Runs Cooler?",
+      "body": [
+        "A mesh front runs cooler than a glass front, and the gap is largest with a hot graphics card. The front panel is where most intake air enters a mid-tower, so a solid or glass front forces air to sneak in through side vents or bottom mounts. A glass side panel, by contrast, costs almost nothing in temperatures, because the side was never an intake on most cases.",
+        "Showcase cases with glass fronts like the O11 Dynamic EVO can still run cool, but only if you add intake fans on the side and bottom and give them room to breathe. Wood-slat fronts such as the Fractal North sit in between: the gaps let air in, though less freely than open mesh. If you want a window, choose a mesh-front case with a glass side, which is exactly what the XT Pro Ultra and Lancool 217 offer."
+      ]
+    },
+    {
+      "h": "How Many Case Fans Do You Actually Need?",
+      "body": [
+        "Two intakes and one exhaust is enough for most gaming builds with a GPU up to about 300 W. Add a second exhaust or a top fan for anything hotter, such as an RTX 5080 or RTX 5090. More fans beyond that bring small gains and more noise.",
+        "Aim for slightly more intake than exhaust. That positive pressure pushes air out through every gap in the case, so dust enters mainly through the filtered intakes instead of through unfiltered seams. Larger fans help with noise: a 140 mm or 170 mm fan moves a given amount of air at lower speed than a 120 mm fan. That is the main reason the Lancool 217 and AIR 903 MAX are quieter than their fan counts suggest."
+      ]
+    },
+    {
+      "h": "Will a 360 mm Radiator Fit on Top?",
+      "body": [
+        "Often, but check two things the spec sheet may not stress. First, the gap between the roof and the motherboard: tall VRM heatsinks and RGB memory can collide with a radiator and fans, especially with thick radiators like the 38 mm unit on the Liquid Freezer III Pro. Second, whether the case lists 360 mm support at the top or only at the front.",
+        "Front mounting always works if the case supports it, but it costs GPU length and warms the air the graphics card breathes. Top mounting exhausts CPU heat straight out of the case, which is why the Lancool 207's front-PSU layout is useful. If you want an air cooler instead, check the case's CPU cooler height limit against coolers like the 168 mm [Noctua NH-D15 G2](/gear/noctua-nh-d15-g2/)."
+      ]
+    },
+    {
+      "h": "Is a Dual-Chamber Case Worth It?",
+      "body": [
+        "Only if you want the look. Dual-chamber cases move the power supply and cable mess behind the motherboard, which leaves the main chamber clean for glass on two sides. That design is great for showcase builds and custom loops, and it gives you lots of radiator mounts.",
+        "The costs are a wider footprint, a higher fan bill and a more involved build. A dual-chamber case does not cool better by itself. A conventional mesh-front mid-tower with three included fans will usually beat a glass-front dual-chamber case with the same parts unless you invest in fans for the second case."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Trusting the GPU length figure alone",
+      "The listed clearance usually assumes nothing is mounted in front of the card. A front radiator can take away a large chunk of that space, and very thick cards can also block slots or press their power cable against the side panel. Measure length, slot thickness and height together."
+    ],
+    [
+      "Buying a glass-front case for a hot GPU",
+      "A glass or solid front starves the graphics card of intake air unless you add side and bottom fans. For a 300 W card or hotter, a mesh-front case with a glass side panel keeps the GPU cooler and quieter for less total money."
+    ],
+    [
+      "Ignoring the fan bill",
+      "An empty case that looks cheaper can cost more once you buy three or more fans. Price the case with the fans it needs. The Lancool 217 and AIR 903 MAX include a full set; the O11 Dynamic EVO includes none."
+    ],
+    [
+      "Forgetting top radiator clearance",
+      "A 360 mm AIO on top can collide with tall motherboard heatsinks or RGB memory, and thick radiators like the 38 mm Liquid Freezer III Pro make it worse. Check the case's roof clearance for radiator plus fans, and pick low-profile RAM or a front mount if the gap is tight."
+    ],
+    [
+      "Paying for front USB-C you cannot use",
+      "The case's USB-C port needs a matching internal header on the motherboard, usually labeled USB 3.2 Gen 2 or Type-C front panel. Older and budget boards often lack it, so the port sits dead. Check the board's manual before letting that feature decide your case."
+    ]
+  ],
+  "bottomLine": "For most builds, buy the Lian Li Lancool 217: it includes a full set of fans, cools quietly and fits large graphics cards at $100–$120. Choose the Fractal North if the PC lives on display, the Lancool 207 if you want a compact ATX case with a 360 mm AIO on top, and the Phanteks XT Pro Ultra if you want four fans and a glass side for under $100. Save the O11 Dynamic EVO for showcase builds where you are ready to buy every fan yourself.",
+  "faqs": [
+    {
+      "q": "What is the best PC case for airflow in 2026?",
+      "a": "The Lian Li Lancool 217 is the best airflow case for most people because its two 170 mm front fans move a lot of air quietly, and more fans come preinstalled. The Montech AIR 903 MAX is the budget alternative, with four 140 mm fans behind a full-mesh front for $80–$90."
+    },
+    {
+      "q": "Is a mid-tower big enough for an RTX 5090?",
+      "a": "A full-size ATX mid-tower usually fits an RTX 5090, but you must check the specific card. Partner cards vary in length and many are three to four slots thick. Compare the card's length and height to the case listing, and subtract any front radiator thickness from the length clearance."
+    },
+    {
+      "q": "Does a glass side panel make a PC run hotter?",
+      "a": "No, a glass side panel has little effect on temperatures in a mesh-front case, because the side is rarely an intake. A glass front panel is different: it blocks the main intake path, so glass-front cases need side or bottom intake fans to keep the graphics card cool."
+    },
+    {
+      "q": "How much should I spend on a PC case?",
+      "a": "Most builders should spend $80–$120. That range buys a mesh front, three or four included fans and room for large GPUs, as with the Lancool 207, Phanteks XT Pro Ultra and Lancool 217. Spending more mostly buys looks or showcase layouts; spending less usually means fewer fans and thinner steel."
+    },
+    {
+      "q": "Should I buy a case with fans included?",
+      "a": "Yes, unless you already own good fans or want a specific brand. Included fans save $30–$60 on a typical setup and come mounted in sensible positions. The main exception is a showcase case like the O11 Dynamic EVO, where buyers usually choose matching fans themselves."
+    },
+    {
+      "q": "Is a wood PC case a good idea?",
+      "a": "A wood-front case works well if the wood is slatted with gaps, as on the Fractal Design North, because air can still flow through. Avoid cases with solid wood or solid panel fronts for gaming builds, since they restrict intake. Wood also needs gentle cleaning with a dry cloth rather than liquid sprays."
+    },
+    {
+      "q": "Can I reuse my old PC case for a new build?",
+      "a": "Usually yes, if it fits your new graphics card and has decent intake. Modern GPUs are longer and thicker than cards from a few years ago, and the 12V-2x6 cable needs straight clearance. If your old case has a solid front or limited fan mounts, a new mesh-front case is a cheap upgrade."
+    }
+  ],
+  "sources": [
+    "Lian Li Lancool 217, Lancool 207 and O11 Dynamic EVO product pages and spec sheets",
+    "Fractal Design North and Pop Air product pages",
+    "Phanteks XT Pro Ultra product page",
+    "NZXT H5 Flow (2024) product page",
+    "Montech AIR 903 MAX and XR product pages",
+    "Independent case reviews from established hardware outlets",
+    "Owner reports on build ease, noise and fit from retailer reviews and enthusiast forums"
+  ],
+  "related": [
+    "best-pc-cases-under-50",
+    "best-cpu-cooler",
+    "best-power-supply"
+  ]
+}

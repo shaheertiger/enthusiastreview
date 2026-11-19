@@ -1,0 +1,95 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import FaqList from '../../components/FaqList.astro';
+import { SITE } from '../../data/site';
+import { CPUS, GPUS } from '../../data/hardware-index';
+import { productPath, plain } from '../../lib/data';
+const path = '/tools/bottleneck-calculator/';
+const faqs = [
+  { q: 'What is a CPU bottleneck?', a: 'A CPU bottleneck is when the processor cannot prepare frames as fast as the graphics card can draw them, so the GPU waits and frame rate stops rising. It shows up most at 1080p and at high refresh rates, and it fades at 1440p and 4K, where the GPU has more work per frame. See [CPU bottleneck](/glossary/cpu-bottleneck/) in the glossary.' },
+  { q: 'Is some bottleneck normal?', a: 'Yes. Every PC is limited by something in every game. A GPU-limited system is the healthy default for gaming, because the expensive part is the one working hardest. A small CPU limit at 1080p is normal too; it becomes a problem when a large share of the GPU you paid for sits idle at the resolution you actually play.' },
+  { q: 'Does resolution change the bottleneck?', a: 'Yes, more than anything else. The CPU cost of a frame barely changes with resolution, but the GPU cost roughly doubles from 1080p to 1440p-class work and doubles again toward 4K. A CPU that holds back an RTX 5070 at 1080p often does not at 4K.' },
+  { q: 'Will a Ryzen 5 3600 bottleneck an RTX 5070?', a: 'At 1080p, yes, by a wide margin in CPU-heavy games. At 1440p the limit shrinks, and at 4K the card is mostly the limit. A drop-in [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) is the cheapest way to free up the card on an AM4 board. Our [best GPU for Ryzen 5 2600 and 3600](/best-gpu-for-ryzen-5-2600-and-3600/) guide covers the pairing in detail.' },
+  { q: 'How accurate is this bottleneck calculator?', a: 'It is a planning tool, not a benchmark. It compares relative performance tiers that we drew from the broad pattern of published independent reviews, and games vary widely: simulation and strategy titles lean on the CPU, while ray-traced shooters lean on the GPU. Treat a result within about 10% as balanced.' },
+];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebApplication', name: 'PC Bottleneck Calculator', url: `${SITE.url}${path}`, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' } },
+    { '@type': 'BreadcrumbList', itemListElement: [['Home', '/'], ['Tools', '/tools/'], ['Bottleneck Calculator', path]].map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: `${SITE.url}${h}` })) },
+    { '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) },
+  ],
+};
+const data = { cpus: CPUS.map((c) => ({ ...c, href: c.id ? productPath(c.id) : null })), gpus: GPUS.map((g) => ({ ...g, href: g.id ? productPath(g.id) : null })) };
+---
+<Base title="PC Bottleneck Calculator: Will Your CPU Hold Back Your GPU?" description={`Pick a CPU, a GPU and a resolution: the calculator shows which part limits frame rate and by roughly how much, from 1080p to 4K. Free, ${CPUS.length} CPUs, ${GPUS.length} GPUs.`} jsonLd={jsonLd}>
+  <article class="article">
+    <header class="col a-head">
+      <Crumbs items={[{ name: 'Home', href: '/' }, { name: 'Tools', href: '/tools/' }, { name: 'Bottleneck Calculator', href: path }]} />
+      <div class="kicker">Free tool</div>
+      <h1 class="a-title">PC Bottleneck Calculator</h1>
+      <p class="dek">Choose your processor, graphics card and resolution to see which part sets the frame-rate ceiling, and whether an upgrade would help.</p>
+    </header>
+    <div class="col">
+      <form class="tool" id="bn" onsubmit="return false">
+        <label>Processor<select id="bn-cpu">{CPUS.map((c) => <option value={c.name} selected={c.name === 'AMD Ryzen 5 3600'}>{c.name}</option>)}</select></label>
+        <label>Graphics card<select id="bn-gpu">{GPUS.map((g) => <option value={g.name} selected={g.name === 'NVIDIA GeForce RTX 5070'}>{g.name}</option>)}</select></label>
+        <fieldset><legend>Resolution</legend>
+          <label class="radio"><input type="radio" name="bn-res" value="1080" checked /> 1080p</label>
+          <label class="radio"><input type="radio" name="bn-res" value="1440" /> 1440p</label>
+          <label class="radio"><input type="radio" name="bn-res" value="2160" /> 4K</label>
+        </fieldset>
+        <output id="bn-out" class="tool-out" aria-live="polite"></output>
+      </form>
+    </div>
+    <div class="col body">
+      <h2 id="how-it-works">How the Bottleneck Calculator Works</h2>
+      <p>Each processor and graphics card has a relative performance tier. The processor's tier sets a frame-rate ceiling that barely moves with resolution. The graphics card's tier sets a ceiling that drops as resolution rises. Whichever ceiling is lower is the bottleneck, and the gap between the two is how much of the other part sits unused.</p>
+      <p>The tiers are editorial estimates drawn from the broad pattern of published independent reviews, rounded so that small differences do not pretend to be precise. We have not benchmarked these parts ourselves, and no single game behaves like the average. Use the result to plan an upgrade, not to predict a frame rate.</p>
+      <h2 id="reading">How to Read the Result</h2>
+      <ul>
+        <li><strong>Balanced (within about 10%):</strong> neither part holds the other back much. Spend on whatever matters more for your games.</li>
+        <li><strong>GPU-limited:</strong> the usual, healthy result for gaming. A faster graphics card raises frame rate; a faster CPU does little.</li>
+        <li><strong>CPU-limited:</strong> part of the graphics card sits idle. Raise resolution or settings, or upgrade the processor. On AM4 the <a href="/gear/ryzen-7-5700x3d/">Ryzen 7 5700X3D</a> is the usual drop-in; on a new build see the <a href="/best-cpu-for-gaming/">best CPU for gaming</a>.</li>
+      </ul>
+      <h2 id="faq">Bottleneck Calculator FAQ</h2>
+      <FaqList faqs={faqs} />
+      <h2 id="related">Related</h2>
+      <ul class="link-list">
+        <li><a href="/tools/psu-calculator/">PSU wattage calculator</a></li>
+        <li><a href="/best-graphics-card/">Best graphics card</a></li>
+        <li><a href="/best-cpu-for-gaming/">Best CPU for gaming</a></li>
+        <li><a href="/best-gpu-for-ryzen-5-2600-and-3600/">Best GPU for Ryzen 5 2600 and 3600</a></li>
+      </ul>
+    </div>
+  </article>
+  <script is:inline define:vars={{ data }}>
+    const RES = { 1080: 3.6, 1440: 2.6, 2160: 1.45 };
+    const CPU_K = 2.4;
+    const $ = (id) => document.getElementById(id);
+    const link = (r) => (r.href ? `<a href="${r.href}">${r.name}</a>` : r.name);
+    function run() {
+      const cpu = data.cpus.find((c) => c.name === $('bn-cpu').value);
+      const gpu = data.gpus.find((g) => g.name === $('bn-gpu').value);
+      const res = document.querySelector('input[name="bn-res"]:checked').value;
+      const cpuCap = cpu.game * CPU_K;
+      const gpuCap = gpu.game * RES[res];
+      const label = res === '2160' ? '4K' : `${res}p`;
+      const gap = Math.round((1 - Math.min(cpuCap, gpuCap) / Math.max(cpuCap, gpuCap)) * 100);
+      let verdict, cls;
+      if (gap <= 10) { verdict = `<strong>Balanced at ${label}.</strong> Neither part holds the other back by more than about ${Math.max(gap, 1)}%.`; cls = 'ok'; }
+      else if (gpuCap < cpuCap) { verdict = `<strong>GPU-limited at ${label} (normal).</strong> The ${link(cpu)} has roughly ${gap}% more headroom than the ${link(gpu)} can use. A faster graphics card is the upgrade that raises frame rate.`; cls = 'ok'; }
+      else { verdict = `<strong>CPU-limited at ${label}.</strong> Roughly ${gap}% of the ${link(gpu)} would sit idle in CPU-heavy games. Play at a higher resolution, raise settings, or upgrade the processor.`; cls = gap > 25 ? 'bad' : 'warn'; }
+      const cpuPct = Math.round((cpuCap / Math.max(cpuCap, gpuCap)) * 100);
+      const gpuPct = Math.round((gpuCap / Math.max(cpuCap, gpuCap)) * 100);
+      $('bn-out').innerHTML = `<div class="tool-verdict ${cls}">${verdict}</div>
+        <div class="bars"><div class="bar"><span class="bar-k">CPU ceiling</span><span class="bar-track"><span class="bar-fill" style="width:${cpuPct}%"></span></span><span class="bar-v">${cpuPct}</span></div>
+        <div class="bar"><span class="bar-k">GPU ceiling</span><span class="bar-track"><span class="bar-fill" style="width:${gpuPct}%"></span></span><span class="bar-v">${gpuPct}</span></div></div>
+        <p class="fine">Relative ceilings (higher part = 100). Planning estimate from performance tiers, not a benchmark.</p>`;
+    }
+    ['bn-cpu', 'bn-gpu'].forEach((id) => $(id).addEventListener('change', run));
+    document.querySelectorAll('input[name="bn-res"]').forEach((r) => r.addEventListener('change', run));
+    run();
+  </script>
+</Base>

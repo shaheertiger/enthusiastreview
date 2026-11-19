@@ -1,0 +1,92 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import FaqList from '../../components/FaqList.astro';
+import { SITE } from '../../data/site';
+import { CPUS, GPUS } from '../../data/hardware-index';
+import { productsIn, productPath, spec, priceBand, plain } from '../../lib/data';
+const path = '/tools/psu-calculator/';
+const psus = productsIn('power-supplies').map((p) => ({ name: p.name, href: productPath(p), watts: parseInt((spec(p, 'Wattage') ?? '0').replace(/[^0-9]/g, ''), 10), price: priceBand(p), score: p.score.overall }));
+const faqs = [
+  { q: 'How many watts do I need for my PC?', a: 'Add up the CPU package power and the GPU board power, add about 75 to 100 W for the motherboard, memory, drives and fans, then add 30% headroom. Most gaming PCs with a mid-range graphics card land at 650 to 750 W; an RTX 5080 build wants 850 W and an RTX 5090 build 1,000 W.' },
+  { q: 'Why add 30% headroom?', a: 'Modern graphics cards draw short spikes well above their rated board power, and a power supply runs quieter and more efficiently around half to two-thirds load. Headroom also leaves room for a future GPU upgrade. ATX 3.x units are designed to ride out those spikes; see [ATX 3.1](/glossary/atx-3-1/).' },
+  { q: 'Is a bigger power supply wasteful?', a: 'Not much. A PC only draws what its parts need, so an 850 W unit in a 400 W build does not use 850 W. Efficiency is a little lower at very light loads, and a bigger unit costs more up front, which is why we round to the next standard size rather than doubling it.' },
+  { q: 'Do I need a 12V-2x6 cable?', a: 'Only if your graphics card has the 16-pin connector, which includes most RTX 50 series cards. Most Radeon cards and the Arc B580 use 8-pin PCIe connectors. A native [12V-2x6](/glossary/12v-2x6/) cable from an ATX 3.1 power supply is cleaner than an adapter. Push it in fully until it clicks.' },
+  { q: 'Which 80 Plus rating should I buy?', a: '[80 Plus](/glossary/80-plus/) Gold is the sweet spot for gaming PCs: efficient enough that the difference to Platinum is a few dollars a year for most people, and it is where the best-built mid-priced units sit. See our [best power supply](/best-power-supply/) picks.' },
+];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebApplication', name: 'PSU Wattage Calculator', url: `${SITE.url}${path}`, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' } },
+    { '@type': 'BreadcrumbList', itemListElement: [['Home', '/'], ['Tools', '/tools/'], ['PSU Calculator', path]].map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: `${SITE.url}${h}` })) },
+    { '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) },
+  ],
+};
+const data = { cpus: CPUS, gpus: GPUS, psus };
+---
+<Base title="PSU Calculator: How Many Watts Does Your PC Need?" description="Most gaming PCs need a 650–850 W power supply. Pick your CPU, GPU and parts; the calculator adds 30% headroom, rounds to a standard size and lists PSUs." jsonLd={jsonLd}>
+  <article class="article">
+    <header class="col a-head">
+      <Crumbs items={[{ name: 'Home', href: '/' }, { name: 'Tools', href: '/tools/' }, { name: 'PSU Calculator', href: path }]} />
+      <div class="kicker">Free tool</div>
+      <h1 class="a-title">PSU Wattage Calculator</h1>
+      <p class="dek">Pick your parts to get the power supply size your PC needs, with headroom for GPU power spikes and a future upgrade.</p>
+    </header>
+    <div class="col">
+      <form class="tool" id="psu" onsubmit="return false">
+        <label>Processor<select id="psu-cpu">{CPUS.map((c) => <option value={c.name} selected={c.name === 'AMD Ryzen 7 9800X3D'}>{c.name}</option>)}</select></label>
+        <label>Graphics card<select id="psu-gpu">{GPUS.map((g) => <option value={g.name} selected={g.name === 'NVIDIA GeForce RTX 5070'}>{g.name}</option>)}</select></label>
+        <div class="tool-row">
+          <label>RAM sticks<input id="psu-ram" type="number" min="1" max="8" value="2" /></label>
+          <label>NVMe SSDs<input id="psu-ssd" type="number" min="0" max="8" value="1" /></label>
+          <label>Hard drives<input id="psu-hdd" type="number" min="0" max="10" value="0" /></label>
+          <label>Case fans<input id="psu-fans" type="number" min="0" max="15" value="4" /></label>
+        </div>
+        <label class="check"><input id="psu-aio" type="checkbox" /> Liquid cooler (AIO pump)</label>
+        <output id="psu-out" class="tool-out" aria-live="polite"></output>
+      </form>
+    </div>
+    <div class="col body">
+      <h2 id="how-it-works">How the PSU Calculator Works</h2>
+      <p>It adds the processor's stock package power limit (AMD PPT or Intel's maximum turbo power) to the graphics card's rated board power, then adds the rest of the system: 50 W for the motherboard, 5 W per memory stick, 7 W per NVMe drive, 10 W per hard drive, 3 W per fan and 10 W for an AIO pump. It multiplies the total by 1.3 and rounds up to the next common size: 550, 650, 750, 850, 1,000, 1,200 or 1,600 W.</p>
+      <p>That is deliberately cautious. Real gaming loads rarely push the CPU and GPU to their limits at the same moment, but graphics cards spike above their rating for milliseconds, and a cheap unit that trips on a spike shuts the PC down. A quality ATX 3.x unit at the recommended size covers both.</p>
+      <h2 id="table">Typical PSU Size by Graphics Card</h2>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Graphics card class</th><th>Board power</th><th>Typical PSU</th></tr></thead>
+        <tbody>
+          <tr><td>RTX 5060, Arc B580, RX 9060 XT</td><td>145–190 W</td><td>550–650 W</td></tr>
+          <tr><td>RTX 5070, RX 9070</td><td>220–250 W</td><td>650–750 W</td></tr>
+          <tr><td>RTX 5070 Ti, RX 9070 XT</td><td>300–304 W</td><td>750–850 W</td></tr>
+          <tr><td>RTX 5080</td><td>360 W</td><td>850 W</td></tr>
+          <tr><td>RTX 5090</td><td>575 W</td><td>1,000–1,200 W</td></tr>
+        </tbody>
+      </table></div>
+      <h2 id="faq">PSU Calculator FAQ</h2>
+      <FaqList faqs={faqs} />
+      <h2 id="related">Related</h2>
+      <ul class="link-list">
+        <li><a href="/best-power-supply/">Best power supply</a></li>
+        <li><a href="/best-psu-under-100/">Best PSU under $100</a></li>
+        <li><a href="/tools/bottleneck-calculator/">Bottleneck calculator</a></li>
+      </ul>
+    </div>
+  </article>
+  <script is:inline define:vars={{ data }}>
+    const SIZES = [550, 650, 750, 850, 1000, 1200, 1600];
+    const $ = (id) => document.getElementById(id);
+    const n = (id) => Math.max(0, parseInt($(id).value, 10) || 0);
+    function run() {
+      const cpu = data.cpus.find((c) => c.name === $('psu-cpu').value);
+      const gpu = data.gpus.find((g) => g.name === $('psu-gpu').value);
+      const rest = 50 + n('psu-ram') * 5 + n('psu-ssd') * 7 + n('psu-hdd') * 10 + n('psu-fans') * 3 + ($('psu-aio').checked ? 10 : 0);
+      const load = cpu.watts + gpu.watts + rest;
+      const need = load * 1.3;
+      const size = SIZES.find((s) => s >= need) ?? 1600;
+      const fits = data.psus.filter((p) => p.watts >= size).sort((a, b) => a.watts - b.watts || b.score - a.score).slice(0, 3);
+      $('psu-out').innerHTML = `<div class="tool-verdict ok"><strong>Recommended: ${size.toLocaleString('en-US')} W.</strong> Estimated peak load ${Math.round(load)} W (CPU ${cpu.watts} W + GPU ${gpu.watts} W + ${rest} W for everything else), plus 30% headroom.</div>` +
+        (fits.length ? `<p><strong>Power supplies we track at ${size.toLocaleString('en-US')} W or more:</strong></p><ul>${fits.map((p) => `<li><a href="${p.href}">${p.name}</a> · ${p.score}/100 · ${p.price}</li>`).join('')}</ul>` : '<p>None of the power supplies we track is that large; look for a quality 1,200 W+ ATX 3.1 unit.</p>');
+    }
+    document.querySelectorAll('#psu select, #psu input').forEach((el) => el.addEventListener('input', run));
+    run();
+  </script>
+</Base>

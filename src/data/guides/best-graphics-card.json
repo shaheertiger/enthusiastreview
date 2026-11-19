@@ -1,0 +1,269 @@
+{
+  "slug": "best-graphics-card",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best Graphics Card (2026): 8 GPUs Ranked for Every Budget",
+  "h1": "Best Graphics Card",
+  "query": "best graphics card",
+  "description": "The RTX 5070 is the best graphics card for most people: 12 GB, 250 W and DLSS 4 for $550–$650. 8 GPUs ranked, from the $250 Arc B580 to the RTX 5090.",
+  "dek": "Eight current cards matched to resolution and budget, with the trade-offs that actually decide the purchase.",
+  "intro": [
+    "The NVIDIA GeForce RTX 5070 is the best graphics card for most buyers in 2026: 12 GB of GDDR7, a 250 W rating and DLSS 4 for a $550–$650 street price. It handles high-refresh 1440p, runs on a 650 W power supply and has the broadest upscaling support of anything near its price.",
+    "This page is for anyone choosing one GPU this year, whether that is a first build, a 1080p refresh or a 4K upgrade. Each pick is matched to a resolution and a price band. Performance claims reflect the consensus of published reviews and spec sheets."
+  ],
+  "quickAnswer": "Buy the RTX 5070 ($550–$650, 12 GB) for 1440p. Pay a little more for the RX 9070 XT ($600–$730, 16 GB) if you want extra VRAM and raster speed, or the RTX 5070 Ti ($750–$900) for heavy ray tracing. On a tight budget, the RX 9060 XT 16GB ($350–$400) is the safest 1080p card. Only 4K buyers need an RTX 5080 or 5090.",
+  "picks": [
+    {
+      "id": "rtx-5070",
+      "label": "Best Overall",
+      "bestFor": "1440p gamers who want DLSS 4 at a sub-$650 price",
+      "skipIf": "you play at 4K or load games with huge texture mods",
+      "writeup": [
+        "The RTX 5070 wins because it lands in the middle of the market without forcing a new power supply. NVIDIA rates it at 250 W and recommends a 650 W unit, so most desktops built in the last five years can take one. At $550–$650 it undercuts every 16 GB card that keeps pace with it in ray-traced games.",
+        "Its strongest argument is software. DLSS 4 upscaling is in hundreds of titles, and multi frame generation can push a 165 Hz or 240 Hz 1440p monitor well past what the card renders natively. Independent reviews put it roughly level with the RX 9070 in traditional raster, ahead of it once heavy ray tracing is on, and a step behind the RX 9070 XT.",
+        "The weak spot is memory. Twelve gigabytes on a 192-bit bus is fine for 1440p today, but it is the first resource to run short at 4K or with maxed texture settings in the newest releases. If you keep a card five years or longer, the 16 GB RX 9070 XT is the safer bet. For a three-to-four-year 1440p card, this is the one to beat."
+      ],
+      "pros": ["DLSS 4 with multi frame generation", "250 W, runs on a 650 W PSU", "Strong ray tracing for the price"],
+      "cons": ["12 GB limits 4K and max textures", "Slower than the RX 9070 XT in raster"]
+    },
+    {
+      "id": "rx-9070-xt",
+      "label": "Best 16 GB Value",
+      "bestFor": "buyers who want 16 GB and top raster speed under $750",
+      "skipIf": "your power supply is under 750 W or you live in path-traced games",
+      "writeup": [
+        "The Radeon RX 9070 XT is the card to buy if frames per dollar matter more to you than NVIDIA's feature list. It pairs 16 GB of GDDR6 with 64 compute units on a 256-bit bus, and independent reviews generally place it close to the RTX 5070 Ti in rasterized games while it sells for $100 or more less.",
+        "RDNA 4 also fixed AMD's two old weak points. Ray tracing is far stronger than on the RX 7000 generation, and FSR 4 uses a machine-learning model that reviewers rate much closer to DLSS than FSR 3 ever was. The catch is coverage: FSR 4 is in fewer games than DLSS, and full path tracing still favors NVIDIA by a wide margin.",
+        "Plan for the power draw. AMD rates the card at 304 W and many partner models run higher, so a quality 750 W unit is the sensible floor, and most versions are long triple-fan designs. The upside is that most cards use ordinary 8-pin connectors instead of the 16-pin plug. If street prices drift toward $730, the gap to the RTX 5070 Ti narrows and the NVIDIA card gets easier to justify."
+      ],
+      "pros": ["16 GB of VRAM", "Close to RTX 5070 Ti raster speed", "FSR 4 is a big image-quality jump", "8-pin power on most models"],
+      "cons": ["304 W, wants a 750 W PSU", "Path tracing still trails NVIDIA"]
+    },
+    {
+      "id": "rtx-5070-ti",
+      "label": "Best for Ray Tracing",
+      "bestFor": "high-refresh 1440p or entry 4K with ray tracing switched on",
+      "skipIf": "your library is mostly esports titles or raster-only games",
+      "writeup": [
+        "At $750–$900 the RTX 5070 Ti is the most sensible high-end NVIDIA card. It carries 16 GB of GDDR7 on a 256-bit bus, the same memory setup as the RTX 5080, and NVIDIA rates it at 300 W with a 750 W supply recommended.",
+        "It earns its premium over the RX 9070 XT in ray tracing and path tracing. In titles such as Cyberpunk 2077 and Alan Wake 2 with full ray tracing enabled, independent reviews show a clear NVIDIA lead, and DLSS 4 frame generation turns those settings into something playable at 1440p and often at 4K. In games without ray tracing, the two cards land close together.",
+        "Against the RTX 5080, the 5070 Ti gives up a modest slice of speed for several hundred dollars less, which makes it the better buy for nearly everyone below the very top tier. Treat it as the entry point to 4K if you are happy using DLSS Quality or Balanced modes. Skip it if you mostly play competitive shooters at 1080p, where a cheaper card is already waiting on the CPU."
+      ],
+      "pros": ["16 GB of GDDR7", "Clear ray tracing lead over AMD", "Most of an RTX 5080 for less"],
+      "cons": ["Costs $100–$200 more than the RX 9070 XT", "Uses the 16-pin 12V-2x6 connector"]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Under $400",
+      "bestFor": "1080p and light 1440p gaming on a budget",
+      "skipIf": "you want 4K or need CUDA for creative software",
+      "writeup": [
+        "For $350–$400 the RX 9060 XT 16GB delivers the one thing most cheap cards still lack: enough memory to stop worrying about texture settings. Its 16 GB of GDDR6 sits on a narrow 128-bit bus, but at 1080p that rarely holds it back, and it gives the card a much longer useful life than any 8 GB model.",
+        "Independent reviews place it close to the RTX 5060 Ti 16GB in raster performance, usually a few percent behind, while it costs less. It supports FSR 4, draws roughly 160–180 W depending on the model and runs comfortably on a good 550 W to 650 W supply. It also uses a full x16 PCIe connection, which matters if it is going into an older PCIe 3.0 board.",
+        "Check the listing before you pay: an 8 GB version shares the same name and often sits right next to it. The 16 GB card is the one that belongs here. For more options under $400, see our [best budget graphics card](/best-budget-graphics-card/) guide."
+      ],
+      "pros": ["16 GB for under $400", "Full x16 lanes, fine on PCIe 3.0", "FSR 4 support", "Modest power draw"],
+      "cons": ["128-bit bus limits high-setting 1440p", "Easy to confuse with the 8 GB model"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best Budget NVIDIA",
+      "bestFor": "budget builders who want DLSS 4, NVENC and 16 GB",
+      "skipIf": "your board is PCIe 3.0 and every dollar counts",
+      "writeup": [
+        "The RTX 5060 Ti 16GB is the cheapest way into NVIDIA's current feature set without the 8 GB compromise. It has 4,608 CUDA cores, 16 GB of GDDR7 on a 128-bit bus and a 180 W rating, and independent reviews show it slightly ahead of the RX 9060 XT 16GB on average.",
+        "The reasons to pay $430–$480 instead of AMD's price are DLSS 4, stronger ray tracing and better support in creative apps that use CUDA or NVIDIA's encoder, such as Blender and DaVinci Resolve. For anyone who streams, NVENC remains the default choice.",
+        "The quirk is the connection. This card uses eight PCIe 5.0 lanes rather than sixteen. On a modern board that makes no practical difference, but in a PCIe 3.0 system, such as a B450 build, it runs at 3.0 x8 and loses a few percent. The loss grows sharply when a card runs out of memory, which the 16 GB version rarely does. Owners of older platforms should read our [GPU guide for Ryzen 5 2600 and 3600](/best-gpu-for-ryzen-5-2600-and-3600/) first."
+      ],
+      "pros": ["DLSS 4 and NVENC", "16 GB of GDDR7", "180 W, easy to cool"],
+      "cons": ["Costs more than the RX 9060 XT 16GB", "x8 link loses a little on PCIe 3.0"]
+    },
+    {
+      "id": "rtx-5080",
+      "label": "Best for 4K",
+      "bestFor": "4K gaming at high settings with DLSS",
+      "skipIf": "you play at 1440p, where the RTX 5070 Ti is nearly as fast",
+      "writeup": [
+        "The RTX 5080 is the fastest card most people should consider and the cheapest route to comfortable 4K with ray tracing. It uses 10,752 CUDA cores and 16 GB of GDDR7 on a 256-bit bus, and NVIDIA rates it at 360 W with an 850 W power supply recommended.",
+        "The honest problem is the size of the step. Independent reviews put it roughly 10 to 15 percent ahead of the RTX 5070 Ti, while its $1,000–$1,300 street price often sits $250 or more above the cheaper card. At 1440p that gap barely changes what you see. At 4K, where DLSS carries much of the load and every frame counts, it is easier to defend.",
+        "Memory is the other caveat. Sixteen gigabytes is enough for 4K today, but it is the same amount a $750 card carries, so the 5080 does not buy extra longevity on that front. Buy it if you own a 4K 144 Hz monitor and want the fastest card short of the 5090's price, and pair it with a quality unit like the [Corsair RM850x](/gear/corsair-rm850x/)."
+      ],
+      "pros": ["Fastest card under $1,300", "16 GB of GDDR7 on a 256-bit bus", "DLSS 4 multi frame generation"],
+      "cons": ["Small gain over the RTX 5070 Ti", "Same 16 GB as cheaper cards", "Needs an 850 W PSU"]
+    },
+    {
+      "id": "rtx-5090",
+      "label": "Best No-Limit Card",
+      "bestFor": "4K high refresh, path tracing and local AI work",
+      "skipIf": "you game below 4K or own a PSU under 1,000 W",
+      "writeup": [
+        "Nothing else on the consumer market sits in the same class as the RTX 5090. It has 21,760 CUDA cores, 32 GB of GDDR7 on a 512-bit bus and a 575 W rating, with NVIDIA recommending a 1,000 W power supply. It is the only card here that runs path-traced games at 4K with high frame rates once DLSS 4 is enabled.",
+        "For most gamers it is still the wrong purchase. At $2,000–$2,700 it costs about as much as two RTX 5080s, and below 4K even the fastest gaming CPUs often cannot keep it fed, so much of its extra speed goes unused. The 32 GB of memory is the real separator for people who run large local AI models, heavy 3D scenes or 8K video timelines.",
+        "Take the power side seriously. The card draws everything through a single 12V-2x6 connector, so use a native cable from an ATX 3.1 supply, seat the plug fully and avoid tight bends near the connector. A unit like the [Corsair RM1000x](/gear/corsair-rm1000x/) is the minimum sensible pairing, and a case with strong airflow is not optional."
+      ],
+      "pros": ["Fastest consumer GPU by a wide margin", "32 GB for AI and creative work", "512-bit memory bus"],
+      "cons": ["$2,000–$2,700", "575 W, 1,000 W PSU recommended", "Often CPU-limited below 4K"]
+    },
+    {
+      "id": "arc-b580",
+      "label": "Best Under $300",
+      "bestFor": "new budget 1080p builds with a recent CPU and Resizable BAR",
+      "skipIf": "your CPU is a Ryzen 5 3600 or anything of that age",
+      "writeup": [
+        "The Intel Arc B580 is the cheapest card on this list that still makes sense in 2026. At $250–$290 it brings 12 GB of GDDR6 on a 192-bit bus, more memory than the 8 GB RTX 5060 for less money, along with XeSS 2 upscaling and frame generation.",
+        "There are two conditions. First, it needs Resizable BAR enabled in the BIOS; without it, performance falls sharply. Second, independent reviews widely reported that the Arc driver leans harder on the CPU than AMD or NVIDIA drivers do. Paired with a modern processor like a Ryzen 5 7600, the B580 performs well. Paired with older six-core chips such as the Ryzen 5 2600 or 3600, it can lose a large share of its speed in CPU-heavy games.",
+        "That makes the B580 a strong choice for a fresh budget build and a risky one as a drop-in upgrade. It also uses a PCIe 4.0 x8 link, so older boards give it only 3.0 x8 bandwidth. If your system is several years old, the RX 9060 XT 16GB is the safer spend."
+      ],
+      "pros": ["12 GB for under $300", "XeSS 2 with frame generation", "AV1 hardware encoding"],
+      "cons": ["Needs Resizable BAR", "Driver overhead hurts older CPUs", "PCIe 4.0 x8 link"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "Board power", "Boost clock", "PCIe interface", "Recommended PSU"],
+  "ranking": {
+    "intro": "These rankings are based on manufacturer spec sheets, independent reviews from major hardware outlets and long-term owner reports. Enthusiast Review did not bench-test any of these cards. When this page says one card is faster than another, that reflects the consensus of published reviews, not numbers we produced ourselves.",
+    "criteria": [
+      ["Performance per dollar", "Each card's street-price band was weighed against where independent reviews place it at 1080p, 1440p and 4K."],
+      ["VRAM and longevity", "Cards with 12 GB or more ranked higher, because 8 GB already forces lower texture settings in several new games."],
+      ["Power and fit", "Board power and the PSU a card needs decide whether an upgrade is a simple swap or a bigger project."],
+      ["Upscaling and features", "DLSS 4, FSR 4 and XeSS 2 support, ray tracing strength and encoder quality shape what a card can do in practice."],
+      ["Driver maturity", "Reported driver stability and CPU overhead counted, which matters most for Intel Arc on older systems."]
+    ],
+    "why": "The RTX 5070 won because it pairs high-refresh 1440p, the widest upscaling support and a 650 W PSU requirement with a price under $650, a mix no other card matches."
+  },
+  "mentions": [
+    {
+      "id": "rx-9070",
+      "text": "The Radeon RX 9070 is a 220 W, 16 GB card that reviewers rank a little faster than the RTX 5070 when ray tracing is off. It missed the list only because its $550–$620 band sits so close to the RX 9070 XT that the faster card is usually worth the small extra. Near $550, it is an excellent buy."
+    },
+    {
+      "id": "rtx-5060",
+      "text": "The RTX 5060 costs $300–$330 and brings DLSS 4 to the entry tier, but its 8 GB of memory already forces texture cutbacks in some 2025 and 2026 releases. It is fine for esports and older games. For a card you plan to keep, spending $50–$80 more on a 16 GB model pays off."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Which Graphics Card Should You Buy for Your Monitor?",
+      "body": [
+        "Your monitor decides more about the right card than brand loyalty does. A 1080p screen and a 4K screen call for cards that sit roughly $1,500 apart, and buying far above your display's needs mostly pays for frames you will never see.",
+        "Refresh rate matters almost as much as resolution. A 1440p panel at 165 Hz asks for about twice the frame rate of a 60 Hz panel at the same resolution, so match the card to both numbers. The table below is a starting point, not a rule; competitive players can drop settings, and single-player fans can lean on upscaling."
+      ],
+      "table": {
+        "caption": "Which card fits which display (2026 street prices)",
+        "head": ["Display", "Typical goal", "Card to buy", "Price band"],
+        "rows": [
+          ["1080p, 60–144 Hz", "High settings", "RX 9060 XT 16GB or Arc B580", "$250–$400"],
+          ["1080p, 240 Hz esports", "Competitive settings", "RTX 5060 Ti 16GB or RTX 5070", "$430–$650"],
+          ["1440p, 144–165 Hz", "High to ultra", "RTX 5070 or RX 9070 XT", "$550–$730"],
+          ["1440p with ray tracing", "Ultra with RT on", "RTX 5070 Ti", "$750–$900"],
+          ["4K, 60–120 Hz", "High with upscaling", "RTX 5070 Ti or RTX 5080", "$750–$1,300"],
+          ["4K, 144 Hz and up, path tracing", "Maximum", "RTX 5090", "$2,000–$2,700"]
+        ]
+      }
+    },
+    {
+      "h": "Is 8 GB of VRAM Enough in 2026?",
+      "body": [
+        "Only for 1080p, and only if you accept lower texture settings in some new releases. Several big games from 2025 and 2026 exceed 8 GB at high textures even at 1080p. When that happens the card spills data into system memory over the PCIe bus, and the result is stutter, textures that load late or blurry, and frame-time spikes that an average FPS figure hides.",
+        "Esports titles like Counter-Strike 2, Valorant and Fortnite at competitive settings run comfortably in 8 GB, so the RTX 5060 is not a bad card for that use. The problem is longevity. Game memory budgets only grow, and an 8 GB card bought today will need settings cuts sooner than a 12 GB or 16 GB one.",
+        "For a new purchase, treat 12 GB as the minimum and 16 GB as the comfortable target if you plan to keep the card four years or more. The price gap between 8 GB and 16 GB versions of the same chip is usually $50–$80, which is cheap insurance."
+      ]
+    },
+    {
+      "h": "NVIDIA or AMD: Which Graphics Card Brand Is Better in 2026?",
+      "body": [
+        "Neither wins outright. AMD's RX 9000 cards usually offer more memory and more raster speed per dollar, while NVIDIA's RTX 50 cards lead in ray tracing and in how many games support their upscaler. FSR 4 narrowed the image-quality gap a lot, so the choice now comes down to the games you play and the software you use outside of games."
+      ],
+      "list": [
+        "Choose NVIDIA if you play path-traced games, stream with NVENC, or use CUDA apps like Blender, DaVinci Resolve or local AI tools.",
+        "Choose AMD if you want 16 GB at a lower price, mostly play raster games, or prefer standard 8-pin power connectors.",
+        "Choose Intel Arc only for a new build with a recent CPU and Resizable BAR enabled, where the B580's 12 GB at under $300 is hard to match."
+      ]
+    },
+    {
+      "h": "What Size Power Supply Does a New Graphics Card Need?",
+      "body": [
+        "Most mid-range cards are easier on power than their reputation suggests. Everything from the RTX 5060 to the RX 9070 runs on a quality 550 W to 650 W unit paired with a typical gaming CPU. The jump comes above that: the RTX 5070 Ti and RX 9070 XT want 750 W, the RTX 5080 wants 850 W and the RTX 5090 wants 1,000 W.",
+        "Quality matters more than the label. An 80 Plus Gold, ATX 3.x unit from a known brand handles the short power spikes modern GPUs produce far better than an old or unbranded supply with a higher number on the box. To check your own build, run the parts through our [PSU calculator](/tools/psu-calculator/)."
+      ],
+      "table": {
+        "caption": "Board power and the PSU size to plan for",
+        "head": ["Card", "Board power", "PSU to plan for"],
+        "rows": [
+          ["RTX 5060", "145 W", "550 W"],
+          ["RX 9060 XT 16GB", "160–180 W", "550–600 W"],
+          ["RTX 5060 Ti 16GB", "180 W", "550–600 W"],
+          ["Arc B580", "190 W", "550–600 W"],
+          ["RX 9070", "220 W", "650 W"],
+          ["RTX 5070", "250 W", "650 W (NVIDIA)"],
+          ["RTX 5070 Ti", "300 W", "750 W (NVIDIA)"],
+          ["RX 9070 XT", "304 W", "750 W"],
+          ["RTX 5080", "360 W", "850 W (NVIDIA)"],
+          ["RTX 5090", "575 W", "1,000 W (NVIDIA)"]
+        ]
+      }
+    },
+    {
+      "h": "Do Ray Tracing and Upscaling Matter When Choosing a GPU?",
+      "body": [
+        "Upscaling matters to almost everyone now; ray tracing matters to a smaller group. DLSS, FSR and XeSS render each frame at a lower resolution and rebuild it, which is how mid-range cards reach high frame rates at 1440p and how high-end cards make 4K practical. The quality of that rebuild is part of what you are buying.",
+        "Ray tracing is different. In most games it is an optional setting that costs a lot of performance for lighting and reflection upgrades. If the games you play do not use it, or you always switch it off, raster speed and VRAM should drive the decision, which favors the RX 9070 XT and RX 9060 XT. If you play showcase titles with path tracing, NVIDIA's lead is large enough to justify the RTX 5070 Ti or higher.",
+        "Frame generation, offered by all three vendors, inserts generated frames between rendered ones. It makes motion look smoother on high-refresh monitors but does not reduce input lag, so it works best when the base frame rate is already reasonable."
+      ]
+    },
+    {
+      "h": "How Long Will a New Graphics Card Last?",
+      "body": [
+        "A well-chosen card stays useful for four to six years, but memory is usually what ends its run before raw speed does. The GTX 1060 6GB and RX 580 8GB stayed playable for years longer than their 3 GB and 4 GB siblings, and the same pattern is repeating with 8 GB versus 16 GB cards today.",
+        "To stretch a card's life, buy for the resolution you will own in two years, not the one you have now, and prefer the higher-memory version of any chip. Driver support is long for all three vendors, so the hardware, not software, is what will set your upgrade date."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying 8 GB for the long haul", "An 8 GB card saves $50–$80 today but is the first to need texture and setting cuts in new releases. If you keep cards for four years or more, the 16 GB version of the same chip is the cheaper choice over its lifetime."],
+    ["Ignoring the power supply", "A 300 W or larger card on an old, low-quality supply can trigger shutdowns under load. Check the recommended wattage, the connector type and the age of your unit before you order, and budget for a new PSU if it is more than seven or eight years old."],
+    ["Pairing a fast card with an old CPU", "An RTX 5080 behind a six-core chip from 2019 will spend much of its time waiting, especially at 1080p. Check the pairing with our [bottleneck calculator](/tools/bottleneck-calculator/) and consider a CPU upgrade first if the gap is large. A balanced pair usually beats a lopsided one at the same total spend."],
+    ["Skipping the case clearance check", "Many RX 9070 XT, RTX 5070 Ti and RTX 5080 partner cards are long, thick triple-fan designs. Measure the room between your front fans and the rear slot, and check the slot count, before buying a flagship cooler model. Some also need three slots of width, which can block a second M.2 heatsink or a capture card."],
+    ["Overbuying for a 1080p monitor", "An RTX 5090 on a 1080p 144 Hz display is mostly idle. Unless a monitor upgrade is planned, put the savings toward a better display, which changes what you see far more than surplus GPU power. A 1440p high-refresh panel plus an RTX 5070 is a better experience than this pairing."]
+  ],
+  "bottomLine": "For most people the RTX 5070 is the right card in 2026: fast enough for high-refresh 1440p, efficient enough for a 650 W supply and backed by DLSS 4 in hundreds of games. If you would rather have 16 GB and more raster speed, the RX 9070 XT is the value pick, and the RTX 5070 Ti is worth its premium only for heavy ray tracing. Budget buyers should go straight to the RX 9060 XT 16GB, and only genuine 4K players need to look at the RTX 5080 or 5090.",
+  "faqs": [
+    {
+      "q": "What is the best graphics card for the money in 2026?",
+      "a": "The RX 9070 XT gives the most performance per dollar among upper mid-range cards, pairing 16 GB with raster performance close to an RTX 5070 Ti at $600–$730. Below $400, the RX 9060 XT 16GB is the value leader. The RTX 5070 is the best all-round choice when features and power draw count too."
+    },
+    {
+      "q": "Is the RTX 5070 or RX 9070 XT better?",
+      "a": "The RX 9070 XT is faster in most raster games and has 16 GB against 12 GB, while the RTX 5070 draws less power, costs a little less and leads in ray tracing and upscaling support. Choose the 9070 XT for longevity and raw speed, the 5070 for efficiency and DLSS 4."
+    },
+    {
+      "q": "How much should I spend on a graphics card?",
+      "a": "Spend $350–$400 for 1080p, $550–$730 for 1440p and $750 or more for 4K. Those bands buy a card that runs current games at high settings on the matching monitor. Spending far above your resolution mostly buys headroom you will not notice until the next monitor upgrade."
+    },
+    {
+      "q": "Is the RTX 5090 worth it for gaming?",
+      "a": "Only for 4K high-refresh gaming or path tracing at high frame rates. At $2,000–$2,700 it costs roughly twice an RTX 5080, and at 1440p even the fastest CPUs often hold it back. Its 32 GB of memory makes more sense for local AI and creative work than for games alone."
+    },
+    {
+      "q": "Do I need a PCIe 5.0 motherboard for a new graphics card?",
+      "a": "No. Current cards run at full speed on PCIe 4.0 x16 and lose very little on PCIe 3.0 x16. The exception is x8 cards, such as the RTX 5060 Ti and Arc B580, which lose a few percent on PCIe 3.0 boards and more when they run out of memory."
+    },
+    {
+      "q": "What graphics card do I need for 1440p gaming?",
+      "a": "An RTX 5070 or RX 9070 XT covers high-refresh 1440p at high settings, and the RX 9070 is a strong cheaper alternative. A 12 GB card is the minimum worth buying for 1440p in 2026. Our [best graphics card for 1440p](/best-graphics-card-for-1440p/) guide ranks the options in detail."
+    },
+    {
+      "q": "Is Intel Arc good enough to buy now?",
+      "a": "Yes, in the right system. The Arc B580 offers 12 GB for under $300 and solid 1080p performance with a modern CPU and Resizable BAR enabled. On older processors such as the Ryzen 5 3600, its driver overhead costs a lot of performance, so AMD or NVIDIA is the safer choice there."
+    }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 50 series product and specification pages",
+    "AMD Radeon RX 9000 series product and specification pages",
+    "Intel Arc B580 product page and Resizable BAR guidance",
+    "Independent GPU reviews and performance summaries from TechPowerUp, Hardware Unboxed, Gamers Nexus and Tom's Hardware",
+    "Widely reported independent analysis of Arc B580 driver overhead on older CPUs",
+    "Owner reports on retailer listings and enthusiast forums",
+    "PCI-SIG published PCIe bandwidth figures"
+  ],
+  "related": ["best-graphics-card-for-1440p", "best-budget-graphics-card", "best-power-supply"]
+}

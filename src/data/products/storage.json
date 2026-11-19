@@ -1,0 +1,486 @@
+[
+  {
+    "id": "samsung-990-pro",
+    "name": "Samsung 990 Pro 2TB",
+    "short": "990 Pro",
+    "brand": "samsung",
+    "category": "storage",
+    "released": "2022",
+    "price": [150, 210],
+    "description": "The Samsung 990 Pro 2TB is one of the fastest PCIe 4.0 SSDs: 7,450 MB/s reads, TLC NAND, DRAM and 1,200 TBW, though prices have risen to $150–$210.",
+    "quick": "A 2 TB PCIe 4.0 x4 NVMe SSD rated at 7,450 MB/s read and 6,900 MB/s write, with TLC NAND, a DRAM cache and 1,200 TBW of endurance. It sells for $150–$210 after the NAND price rise that began in late 2025.",
+    "bestFor": "Gaming PCs and PS5 owners who want a top PCIe 4.0 drive with strong endurance",
+    "skipIf": "You only need bulk game storage, where a cheaper DRAM-less drive does the job",
+    "specs": [
+      ["Interface", "PCIe 4.0 x4 NVMe"],
+      ["Capacity", "2 TB"],
+      ["Sequential read", "7,450 MB/s"],
+      ["Sequential write", "6,900 MB/s"],
+      ["NAND", "TLC (Samsung V-NAND)"],
+      ["DRAM cache", "Yes, 2 GB LPDDR4"],
+      ["Endurance", "1,200 TBW"],
+      ["Warranty", "5 years"],
+      ["Form factor", "M.2 2280 (heatsink version sold)"]
+    ],
+    "score": {
+      "overall": 88,
+      "parts": [["Speed", 92], ["Endurance", 90], ["Value", 78], ["Warranty", 88]]
+    },
+    "verdict": [
+      "The 990 Pro remains one of the best PCIe 4.0 SSDs four years after launch. Samsung rates the 2 TB model at 7,450 MB/s reads and 6,900 MB/s writes, near the ceiling of the interface, and backs it with TLC NAND, a 2 GB DRAM cache, 1,200 TBW of endurance and a five-year warranty. Independent reviews have consistently placed it among the fastest Gen4 drives in real-world file copies and game loads.",
+      "The catch in 2026 is price. NAND prices climbed sharply from late 2025, and the 990 Pro has moved into a $150–$210 band. At those prices the gap to the [WD Black SN850X](/gear/wd-black-sn850x/), its closest rival with nearly identical specs, decides most purchases. For gaming the two are effectively interchangeable, so buy whichever is cheaper on the day.",
+      "Two notes for buyers. Early 990 Pro units had a widely reported firmware bug that made drive health readings fall quickly; Samsung fixed it in early 2023, so update through Samsung Magician after installing, especially if you find old stock. And if you want PCIe 5.0, the step-up is the Samsung 9100 Pro at $230–$310, which roughly doubles rated sequential speeds but changes game load times far less than those numbers suggest.",
+      "For a PS5, buy the heatsink version, which Samsung sells for exactly that use, or add a slim heatsink that fits Sony's size limit."
+    ],
+    "pros": [
+      "Near the top of PCIe 4.0 speeds",
+      "TLC NAND with a 2 GB DRAM cache",
+      "1,200 TBW and a five-year warranty",
+      "Heatsink version for PS5",
+      "Samsung Magician handles firmware updates"
+    ],
+    "cons": [
+      "Prices up sharply since late 2025",
+      "Early firmware bug means old stock needs an update",
+      "Little gaming benefit over cheaper Gen4 drives"
+    ],
+    "extra": {
+      "heading": "Install and Heatsink",
+      "body": [
+        "Install the 990 Pro in an M.2 slot wired to the CPU, usually the top slot nearest the processor; your motherboard manual lists which slots run at PCIe 4.0 x4 or faster. In a PCIe 5.0 slot it simply runs at Gen4 speed. Use the motherboard's M.2 heatsink if it has one; the drive does not need a large aftermarket heatsink in a desktop.",
+        "For a PS5, Sony requires cooling and limits the drive plus heatsink to 11.25 mm tall. The 990 Pro with Heatsink is made for that, or you can pair the bare drive with a slim third-party heatsink that fits.",
+        "Moving from an old boot drive? Samsung's Data Migration tool clones Windows onto Samsung SSDs."
+      ],
+      "steps": [
+        ["Check the slot", "Find the CPU-connected M.2 slot in your motherboard manual and note any SATA ports or PCIe slots it disables."],
+        ["Install", "Remove the protective film from the board's thermal pad, seat the drive at an angle, press it flat and secure it."],
+        ["Clone", "With the old drive still connected, run Samsung Data Migration to copy Windows to the 990 Pro."],
+        ["Boot and update", "Set the 990 Pro first in the BIOS boot order, then update its firmware in Samsung Magician."]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Samsung 990 Pro good for PS5?",
+        "a": "Yes. Its rated speed is well above Sony's 5,500 MB/s recommendation, and the heatsink version fits the PS5's expansion slot without extra parts."
+      },
+      {
+        "q": "Was the 990 Pro firmware problem fixed?",
+        "a": "Yes. Samsung released a fix in early 2023 for the bug that made health readings drop; update to the latest firmware in Samsung Magician."
+      },
+      {
+        "q": "990 Pro or WD Black SN850X?",
+        "a": "Buy whichever is cheaper. Both are 2 TB PCIe 4.0 drives with TLC, DRAM and 1,200 TBW, and independent reviews show little difference between them in games."
+      },
+      {
+        "q": "Why did the 990 Pro get more expensive?",
+        "a": "NAND flash prices rose sharply from late 2025 as supply tightened, driven largely by demand from AI data centers, and that pushed most SSD prices up."
+      }
+    ]
+  },
+  {
+    "id": "wd-black-sn850x",
+    "name": "WD Black SN850X 2TB",
+    "short": "SN850X",
+    "brand": "wd",
+    "category": "storage",
+    "released": "2022",
+    "price": [140, 190],
+    "description": "The WD Black SN850X 2TB is the best gaming SSD for most: PCIe 4.0, 7,300 MB/s reads, TLC with DRAM, 1,200 TBW and a 5-year warranty for $140–$190.",
+    "quick": "A 2 TB PCIe 4.0 NVMe SSD rated at 7,300 MB/s read and 6,600 MB/s write, with TLC NAND, a DRAM cache and 1,200 TBW. It sells for $140–$190 and comes in a heatsink version that fits the PS5.",
+    "bestFor": "Gaming PCs and PS5s that want a fast, proven PCIe 4.0 drive for a little less than the 990 Pro",
+    "skipIf": "You are filling a secondary game library on a tight budget, where a DRAM-less drive saves $20 or more",
+    "specs": [
+      ["Interface", "PCIe 4.0 x4 NVMe"],
+      ["Capacity", "2 TB"],
+      ["Sequential read", "7,300 MB/s"],
+      ["Sequential write", "6,600 MB/s"],
+      ["NAND", "TLC"],
+      ["DRAM cache", "Yes"],
+      ["Endurance", "1,200 TBW"],
+      ["Warranty", "5 years"],
+      ["Form factor", "M.2 2280 (heatsink version sold)"]
+    ],
+    "score": {
+      "overall": 90,
+      "parts": [["Speed", 90], ["Endurance", 90], ["Value", 86], ["Warranty", 88]]
+    },
+    "verdict": [
+      "The SN850X is the SSD we would put in most gaming PCs right now, because it pairs near-top PCIe 4.0 speed with a slightly lower price than its main rival. WD rates the 2 TB model at 7,300 MB/s reads and 6,600 MB/s writes, with TLC NAND, a DRAM cache, 1,200 TBW of endurance and a five-year warranty. Independent reviews put it alongside the Samsung 990 Pro in games and everyday use.",
+      "It has been on sale since 2022, and that counts for something: the firmware is mature and owners report few problems. WD's Dashboard software adds a Game Mode that keeps the drive out of low-power states for consistent loading, and the heatsink version is one of the most common PS5 upgrades. Since SanDisk split from Western Digital in 2025, WD Black drives come from SanDisk, but the SN850X itself is unchanged.",
+      "Like every SSD in 2026, it costs more than it did. NAND prices rose sharply from late 2025, pushing the 2 TB model to $140–$190, and the cheaper [WD Black SN7100](/gear/wd-black-sn7100/) is now a strong alternative, with similar rated speeds and the same endurance but no DRAM cache, for about $20 less. For a boot drive that also handles large file work, the SN850X's DRAM is worth paying for.",
+      "The step-up is PCIe 5.0, where the Samsung 9100 Pro roughly doubles rated sequential speeds for $230–$310, though independent reviews show only small load-time gains in games. The closest rival is the Samsung 990 Pro; buy whichever is cheaper."
+    ],
+    "pros": [
+      "Near-top PCIe 4.0 speeds",
+      "TLC NAND with DRAM cache",
+      "1,200 TBW and a five-year warranty",
+      "Heatsink version fits the PS5",
+      "Mature, well-proven firmware"
+    ],
+    "cons": [
+      "Prices up sharply since late 2025",
+      "Not much faster in games than cheaper DRAM-less drives",
+      "Dashboard software is Windows-only"
+    ],
+    "extra": {
+      "heading": "Install and Heatsink",
+      "body": [
+        "Use the M.2 slot connected to the CPU, usually the top one, for your boot drive; a PCIe 5.0 slot works too, at Gen4 speed. Put it under the motherboard's M.2 heatsink if the board has one, and peel the protective film off the thermal pad first. The bare drive does not need an aftermarket heatsink in a desktop with reasonable airflow.",
+        "For a PS5, buy the heatsink version, which is designed to fit Sony's expansion bay, or use a third-party heatsink that keeps the total height within Sony's 11.25 mm limit. Install it under the PS5's cover and let the console format it.",
+        "To move an existing Windows install, connect both drives, copy the old one with a disk-cloning tool (Clonezilla is free), then pick the SN850X as the boot drive in the BIOS and install WD Dashboard for firmware updates."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the WD Black SN850X good for PS5?",
+        "a": "Yes. The heatsink version fits the PS5 expansion slot, and its 7,300 MB/s rated reads are well above Sony's 5,500 MB/s recommendation."
+      },
+      {
+        "q": "SN850X or SN7100?",
+        "a": "The SN850X if it is your boot drive and you copy large files; the SN7100 if you mostly load games and want to save about $20. Both have 1,200 TBW and five-year warranties."
+      },
+      {
+        "q": "Does the SN850X need a heatsink?",
+        "a": "Not in most desktops. The motherboard's M.2 cover is enough; the PS5 is the exception, where Sony requires a heatsink."
+      }
+    ]
+  },
+  {
+    "id": "crucial-t500",
+    "name": "Crucial T500 2TB",
+    "short": "T500",
+    "brand": "crucial",
+    "category": "storage",
+    "released": "2023",
+    "price": [130, 180],
+    "description": "The Crucial T500 2TB is a top PCIe 4.0 value pick: 7,400 MB/s reads, 7,000 MB/s writes, TLC with DRAM and 1,200 TBW for $130–$180 while stock lasts.",
+    "quick": "A 2 TB PCIe 4.0 NVMe SSD rated at 7,400 MB/s read and 7,000 MB/s write, with Micron TLC NAND, a DRAM cache and 1,200 TBW. It sells for $130–$180, often under the Samsung and WD flagships.",
+    "bestFor": "Gaming and creator PCs that want flagship Gen4 specs for less money",
+    "skipIf": "Prices are level with the 990 Pro and SN850X, whose brands are still expanding their consumer lines",
+    "specs": [
+      ["Interface", "PCIe 4.0 x4 NVMe"],
+      ["Capacity", "2 TB"],
+      ["Sequential read", "7,400 MB/s"],
+      ["Sequential write", "7,000 MB/s"],
+      ["NAND", "TLC (Micron 232-layer)"],
+      ["DRAM cache", "Yes"],
+      ["Endurance", "1,200 TBW"],
+      ["Warranty", "5 years"],
+      ["Form factor", "M.2 2280 (heatsink version sold)"]
+    ],
+    "score": {
+      "overall": 86,
+      "parts": [["Speed", 91], ["Endurance", 90], ["Value", 86], ["Warranty", 82]]
+    },
+    "verdict": [
+      "The T500 matches the Samsung 990 Pro and WD Black SN850X on paper and often undercuts both. Crucial rates the 2 TB model at 7,400 MB/s reads and 7,000 MB/s writes, the highest rated write speed of the Gen4 drives here, and pairs Micron's 232-layer TLC NAND with a DRAM cache, 1,200 TBW of endurance and a five-year warranty. Independent reviews put it in the same top group as the Samsung and WD drives for gaming and general use.",
+      "The bigger story is the brand. Micron announced in December 2025 that it would exit the Crucial consumer business to focus on memory for AI data centers, and said it would keep honoring warranties on Crucial products. That makes the T500 a leftover-stock purchase in late 2026: the five-year warranty still applies, but price and availability depend on what retailers have left.",
+      "Combined with the NAND price increases that began in late 2025, that means the T500 is no longer reliably the cheapest of the big three. When it is $20 or more below the [Samsung 990 Pro](/gear/samsung-990-pro/) and WD Black SN850X, it is the best value of the group; when prices are level, the Samsung and WD drives come from companies still building their consumer lines.",
+      "Step down to the WD Black SN7100 for a DRAM-less drive with similar rated speeds and the same endurance, or step up to the Samsung 9100 Pro for PCIe 5.0, at a large premium for small gains in games."
+    ],
+    "pros": [
+      "Highest rated writes of the Gen4 drives here",
+      "TLC NAND with DRAM cache",
+      "1,200 TBW and a five-year warranty",
+      "Often cheaper than the Samsung and WD flagships",
+      "Heatsink version available"
+    ],
+    "cons": [
+      "Micron is winding down the Crucial consumer brand",
+      "Availability and price now depend on leftover stock",
+      "No real gaming gain over cheaper DRAM-less drives"
+    ],
+    "extra": {
+      "heading": "Install and Heatsink",
+      "body": [
+        "Install the T500 in the CPU-connected M.2 slot if it will be your boot drive. Check the manual first: on many AM5 and LGA 1851 boards, some M.2 slots share lanes with SATA ports or a secondary PCIe slot. Use the board's M.2 heatsink if one is fitted.",
+        "For a PS5, buy the heatsink version or add a heatsink that stays within Sony's 11.25 mm height limit; the rated 7,400 MB/s reads are well over Sony's 5,500 MB/s recommendation.",
+        "Crucial has offered Acronis True Image for Crucial as a free cloning tool; if that download is gone, any disk-cloning tool works. Clone with both drives installed, then set the T500 first in the BIOS boot order."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Crucial T500 still a safe buy after Micron's Crucial exit?",
+        "a": "Yes, if the price is right. Micron said it would keep honoring warranties on Crucial products, so the five-year warranty still applies; the main effect is that stock and prices now depend on what retailers have left."
+      },
+      {
+        "q": "Is the T500 good for PS5?",
+        "a": "Yes, with a heatsink. Its rated speeds are well above Sony's 5,500 MB/s recommendation; buy the heatsink version or add one within Sony's size limit."
+      },
+      {
+        "q": "Crucial T500 or Samsung 990 Pro?",
+        "a": "They are close on paper and in independent reviews. Buy the T500 when it is clearly cheaper and the 990 Pro when prices are level."
+      }
+    ]
+  },
+  {
+    "id": "samsung-9100-pro",
+    "name": "Samsung 9100 Pro 2TB",
+    "short": "9100 Pro",
+    "brand": "samsung",
+    "category": "storage",
+    "released": "2025",
+    "price": [230, 310],
+    "description": "The Samsung 9100 Pro 2TB is the fastest SSD here: PCIe 5.0, 14,700 MB/s reads, TLC with DRAM and 1,200 TBW, but $230–$310 buys little extra in games.",
+    "quick": "A 2 TB PCIe 5.0 x4 NVMe SSD rated at 14,700 MB/s read and 13,400 MB/s write, with TLC NAND, a DRAM cache and 1,200 TBW. It costs $230–$310 and needs a PCIe 5.0 M.2 slot to reach those speeds.",
+    "bestFor": "Creators moving large video and project files on a PCIe 5.0 motherboard",
+    "skipIf": "You mainly game, where a $140 PCIe 4.0 drive loads levels almost as quickly",
+    "specs": [
+      ["Interface", "PCIe 5.0 x4 NVMe"],
+      ["Capacity", "2 TB"],
+      ["Sequential read", "14,700 MB/s"],
+      ["Sequential write", "13,400 MB/s"],
+      ["NAND", "TLC (Samsung V-NAND)"],
+      ["DRAM cache", "Yes"],
+      ["Endurance", "1,200 TBW"],
+      ["Warranty", "5 years"],
+      ["Form factor", "M.2 2280 (heatsink version sold)"]
+    ],
+    "score": {
+      "overall": 84,
+      "parts": [["Speed", 98], ["Endurance", 90], ["Value", 64], ["Warranty", 88]]
+    },
+    "verdict": [
+      "The 9100 Pro is the fastest drive in this lineup by a wide margin. Samsung rates the 2 TB model at 14,700 MB/s reads and 13,400 MB/s writes, roughly double the best PCIe 4.0 drives, using its own controller, TLC NAND and a DRAM cache, with the same 1,200 TBW and five-year warranty as the 990 Pro. Independent reviews place it among the fastest PCIe 5.0 SSDs and note it runs more efficiently than the first wave of Gen5 drives, which were known for heat.",
+      "The problem for gamers is that sequential speed is not what limits load times. Independent reviews consistently show Gen5 drives loading games only marginally faster than good Gen4 drives, so the $90–$120 premium over a [WD Black SN850X](/gear/wd-black-sn850x/) buys very little in play. The late-2025 NAND price rise pushed it higher too, which makes the gap harder to justify.",
+      "Where it earns its price: copying large video projects, moving big game installs between fast drives, and scratch disks for editing, where its write speed and DRAM cache keep throughput high. You also need the right board. Full speed requires a PCIe 5.0 M.2 slot, found on boards like the MSI MAG X870 Tomahawk WiFi and many B650 and B850 boards; in a Gen4 slot it runs at Gen4 speed.",
+      "Its closest PCIe 5.0 rivals are drives like the Crucial T705 and WD Black SN8100, which trade places depending on price and workload. Within Samsung's range, the step-down is the 990 Pro, which most gamers should buy instead."
+    ],
+    "pros": [
+      "Rated 14,700 MB/s reads and 13,400 MB/s writes",
+      "TLC NAND with DRAM cache",
+      "1,200 TBW and a five-year warranty",
+      "More efficient than early Gen5 drives",
+      "Heatsink version available"
+    ],
+    "cons": [
+      "$230–$310 is a steep premium",
+      "Little load-time gain in games",
+      "Needs a PCIe 5.0 M.2 slot for full speed",
+      "Needs a heatsink for sustained work"
+    ],
+    "extra": {
+      "heading": "Install and Heatsink",
+      "body": [
+        "Put the 9100 Pro in a PCIe 5.0 M.2 slot connected to the CPU; on AM5 boards that is usually the top slot. Read the manual first: on some boards, populating a particular Gen5 M.2 slot drops the graphics card slot from x16 to x8, which costs little but is worth knowing.",
+        "Use a heatsink. The motherboard's Gen5 M.2 heatsink is usually enough; if your board lacks one, buy the 9100 Pro with Heatsink. Gen5 drives slow down under long transfers without cooling.",
+        "In a PS5 it runs at PCIe 4.0 speed, so you pay Gen5 prices for no gain; a 990 Pro or SN850X with a heatsink is the better PS5 buy. To move Windows over, use Samsung's Data Migration tool, then update the firmware in Samsung Magician."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Samsung 9100 Pro worth it for gaming?",
+        "a": "Usually not. Independent reviews show Gen5 drives loading games only slightly faster than good Gen4 drives, so a WD Black SN850X or Samsung 990 Pro is better value for gaming."
+      },
+      {
+        "q": "Will the 9100 Pro work in a PCIe 4.0 slot?",
+        "a": "Yes. It is backward compatible and runs at PCIe 4.0 speed, around the level of a 990 Pro, which removes the reason to pay extra for it."
+      },
+      {
+        "q": "Does the 9100 Pro need a heatsink?",
+        "a": "Yes, for sustained work. Use your motherboard's M.2 heatsink or buy the heatsink version."
+      }
+    ]
+  },
+  {
+    "id": "crucial-p3-plus",
+    "name": "Crucial P3 Plus 2TB",
+    "short": "P3 Plus",
+    "brand": "crucial",
+    "category": "storage",
+    "released": "2022",
+    "price": [100, 140],
+    "description": "The Crucial P3 Plus 2TB is a budget game-library SSD: PCIe 4.0, 5,000 MB/s reads, QLC, no DRAM and 440 TBW, so skip it as a heavy-use boot drive.",
+    "quick": "A 2 TB PCIe 4.0 NVMe SSD rated at 5,000 MB/s read and 4,200 MB/s write, using QLC NAND without a DRAM cache. It sells for $100–$140 with 440 TBW of endurance and a five-year warranty.",
+    "bestFor": "Secondary game storage on a budget, where load times matter more than sustained writes",
+    "skipIf": "You write large files often or want it as your main boot drive for years",
+    "specs": [
+      ["Interface", "PCIe 4.0 x4 NVMe"],
+      ["Capacity", "2 TB"],
+      ["Sequential read", "5,000 MB/s"],
+      ["Sequential write", "4,200 MB/s"],
+      ["NAND", "QLC"],
+      ["DRAM cache", "No (uses host memory buffer)"],
+      ["Endurance", "440 TBW"],
+      ["Warranty", "5 years"]
+    ],
+    "score": {
+      "overall": 73,
+      "parts": [["Speed", 70], ["Endurance", 62], ["Value", 78], ["Warranty", 82]]
+    },
+    "verdict": [
+      "The P3 Plus is a drive for holding games, not for heavy work. Crucial rates the 2 TB model at 5,000 MB/s reads and 4,200 MB/s writes, plenty for game loading, but it uses QLC NAND without a DRAM cache, and its 440 TBW endurance is little more than a third of the 1,200 TBW on drives like the WD Black SN7100.",
+      "QLC's weakness shows in long writes. Once the drive's fast cache fills during a big copy or a large game install, write speed drops sharply, a pattern independent reviews have reported on this drive and on most QLC SSDs. For a library of installed games that you read far more often than you write, that rarely matters.",
+      "The value case has weakened. NAND price rises since late 2025 lifted the P3 Plus to $100–$140, the Kingston NV3 sits in the same band with higher rated speeds and endurance, and the TLC-based WD Black SN7100 costs only about $20–$30 more. Micron's December 2025 decision to exit the Crucial consumer business also means remaining stock is finite, though Micron said it would keep honoring warranties.",
+      "Buy it if it is clearly the cheapest 2 TB NVMe drive you can find for a second M.2 slot. For a boot drive, step up to the [WD Black SN7100](/gear/wd-black-sn7100/). Its closest rival at this price is the Kingston NV3, which trades a shorter three-year warranty for more speed."
+    ],
+    "pros": [
+      "Cheap 2 TB NVMe storage",
+      "Fast enough for game loading",
+      "Five-year warranty",
+      "Low heat, no heatsink needed in desktops"
+    ],
+    "cons": [
+      "QLC write speed drops after the cache fills",
+      "440 TBW endurance",
+      "No DRAM cache",
+      "Below Sony's 5,500 MB/s PS5 recommendation"
+    ],
+    "extra": {
+      "heading": "Install and Heatsink",
+      "body": [
+        "Put the P3 Plus in a secondary M.2 slot, including chipset-connected slots; its 5,000 MB/s rating sits within PCIe 4.0 x4 bandwidth and game loading will not suffer. Save the CPU-connected slot for a faster boot drive.",
+        "It does not need a heatsink in a desktop. In a PS5 it will install and run games, but it falls short of Sony's 5,500 MB/s recommendation and still needs a heatsink there; a faster drive such as the WD Black SN850X with heatsink is the better PS5 buy.",
+        "If you clone a full game drive onto it, expect slower progress once the write cache fills; moving a 2 TB library takes noticeably longer than on a TLC drive, so leave the copy running rather than assuming it has stalled."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Crucial P3 Plus good for gaming?",
+        "a": "Yes, for storing and loading games. Its 5,000 MB/s rated reads are plenty for load times; its weaknesses, QLC NAND and no DRAM, show up mainly in long writes."
+      },
+      {
+        "q": "Is 440 TBW enough?",
+        "a": "For a game library, yes. 440 TBW works out to about 240 GB written every day for five years, and most gamers write a small fraction of that."
+      },
+      {
+        "q": "Should I buy the P3 Plus for a PS5?",
+        "a": "Only if it is much cheaper. It works, but its 5,000 MB/s rating falls short of Sony's 5,500 MB/s recommendation and you need to add a heatsink."
+      }
+    ]
+  },
+  {
+    "id": "kingston-nv3",
+    "name": "Kingston NV3 2TB",
+    "short": "NV3",
+    "brand": "kingston",
+    "category": "storage",
+    "released": "2024",
+    "price": [100, 140],
+    "description": "The Kingston NV3 2TB is a cheap PCIe 4.0 game drive: 6,000 MB/s reads and 640 TBW, but it has no DRAM, parts vary by batch and the warranty is 3 years.",
+    "quick": "A 2 TB PCIe 4.0 NVMe SSD rated at 6,000 MB/s read and 5,000 MB/s write, without a DRAM cache. It sells for $100–$140 with 640 TBW of endurance and a three-year warranty.",
+    "bestFor": "Budget builds and secondary game storage that need 2 TB for as little as possible",
+    "skipIf": "You want consistent hardware from batch to batch or a five-year warranty",
+    "specs": [
+      ["Interface", "PCIe 4.0 x4 NVMe"],
+      ["Capacity", "2 TB"],
+      ["Sequential read", "6,000 MB/s"],
+      ["Sequential write", "5,000 MB/s"],
+      ["NAND", "Not specified (varies by batch)"],
+      ["DRAM cache", "No"],
+      ["Endurance", "640 TBW"],
+      ["Warranty", "3 years"]
+    ],
+    "score": {
+      "overall": 76,
+      "parts": [["Speed", 76], ["Endurance", 70], ["Value", 84], ["Warranty", 62]]
+    },
+    "verdict": [
+      "The NV3 is Kingston's budget PCIe 4.0 drive, and for game storage it does the job at a low price. Kingston rates the 2 TB model at 6,000 MB/s reads and 5,000 MB/s writes, ahead of the Crucial P3 Plus, with 640 TBW of endurance. In the $100–$140 band it is one of the cheapest ways to add 2 TB of fast storage.",
+      "The trade-offs are real. There is no DRAM cache, and Kingston does not commit to a specific controller or NAND type: the NV series is known for shipping with different components over its life, so two drives with the same model number can behave differently in long writes. The warranty is three years, against five on most drives here.",
+      "Since NAND prices rose from late 2025, the NV3's price advantage has narrowed. The [WD Black SN7100](/gear/wd-black-sn7100/) often costs only $20–$30 more with TLC NAND, 1,200 TBW and five years of cover, and for a boot drive it is the better buy. Against the Crucial P3 Plus, its closest rival, the NV3 offers higher rated speeds and endurance but a shorter warranty.",
+      "Use the NV3 where its weaknesses do not matter: a second drive for your Steam library, the only drive in a lightly used budget build, or a hand-me-down PC. For a PS5, its 6,000 MB/s rating clears Sony's 5,500 MB/s recommendation, but you will need to add a heatsink."
+    ],
+    "pros": [
+      "Low price for 2 TB",
+      "6,000 MB/s rated reads",
+      "640 TBW, more than the P3 Plus",
+      "Fine for game libraries",
+      "Meets Sony's PS5 speed recommendation"
+    ],
+    "cons": [
+      "Components vary by batch",
+      "No DRAM cache",
+      "Three-year warranty"
+    ],
+    "extra": {
+      "heading": "Install and Heatsink",
+      "body": [
+        "Any M.2 slot that runs at PCIe 4.0 x4 gives the NV3 full speed, so it suits a chipset-connected second slot. In a PCIe 3.0 slot on an older board, such as many B450 systems, it tops out around 3,500 MB/s, which is still fine for games.",
+        "No heatsink is needed in a desktop. For a PS5, Sony requires one: add a slim M.2 heatsink that keeps the total height within 11.25 mm.",
+        "Kingston has offered Acronis True Image for Kingston as a cloning tool on its support site. Clone with both drives connected, then set the NV3 as the boot drive in the BIOS."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Kingston NV3 good for gaming?",
+        "a": "Yes, as a game drive. Its 6,000 MB/s rated reads load games quickly; the lack of DRAM and the variable components matter more for long writes than for play."
+      },
+      {
+        "q": "Why do the NV3's parts vary?",
+        "a": "Kingston builds the NV series to a price and a rated spec rather than a fixed parts list, so controllers and NAND can change between production batches. The rated speeds still apply, but long-write behavior can differ."
+      },
+      {
+        "q": "Kingston NV3 or Crucial P3 Plus?",
+        "a": "The NV3 for speed and endurance, the P3 Plus for its five-year warranty. At the same price, most buyers should take the NV3 for a game drive."
+      }
+    ]
+  },
+  {
+    "id": "wd-black-sn7100",
+    "name": "WD Black SN7100 2TB",
+    "short": "SN7100",
+    "brand": "wd",
+    "category": "storage",
+    "released": "2024",
+    "price": [120, 170],
+    "description": "The WD Black SN7100 2TB is the best-value fast SSD: 7,250 MB/s reads, TLC NAND and 1,200 TBW without DRAM, for $120–$170 with a 5-year warranty.",
+    "quick": "A 2 TB PCIe 4.0 NVMe SSD rated at 7,250 MB/s read and 6,900 MB/s write, with TLC NAND and no DRAM cache. It sells for $120–$170 with 1,200 TBW of endurance and a five-year warranty.",
+    "bestFor": "Gaming PCs that want near-flagship Gen4 speed and endurance for less than the SN850X",
+    "skipIf": "You run heavy sustained writes, like big video projects, where a DRAM drive holds up better",
+    "specs": [
+      ["Interface", "PCIe 4.0 x4 NVMe"],
+      ["Capacity", "2 TB"],
+      ["Sequential read", "7,250 MB/s"],
+      ["Sequential write", "6,900 MB/s"],
+      ["NAND", "TLC"],
+      ["DRAM cache", "No (uses host memory buffer)"],
+      ["Endurance", "1,200 TBW"],
+      ["Warranty", "5 years"]
+    ],
+    "score": {
+      "overall": 87,
+      "parts": [["Speed", 88], ["Endurance", 90], ["Value", 90], ["Warranty", 88]]
+    },
+    "verdict": [
+      "The SN7100 is the drive that makes DRAM-less SSDs respectable. WD rates the 2 TB model at 7,250 MB/s reads and 6,900 MB/s writes, close to its own SN850X and the Samsung 990 Pro, with TLC NAND, 1,200 TBW of endurance and a five-year warranty, for $120–$170. Independent reviews have found it very close to DRAM-equipped flagships in game loading and everyday use, and among the most power-efficient Gen4 drives.",
+      "The missing DRAM is the trade-off. Like other DRAM-less drives it borrows a little system memory through the host memory buffer, and in long, heavy writes or very busy workloads it can fall behind drives like the SN850X. In a gaming PC, where most activity is reading game files, that rarely shows.",
+      "With NAND prices up sharply since late 2025, the SN7100's value matters more than it did at launch. It typically costs about $20 less than the [WD Black SN850X](/gear/wd-black-sn850x/) and only $20–$30 more than budget drives like the Kingston NV3, while matching the flagships on endurance. That makes it the default pick if you want one fast 2 TB drive and nothing exotic.",
+      "Its closest rival is the Crucial T500, which adds DRAM at a similar price when stock allows. Step up to the SN850X if this will be a workstation boot drive or you want the official heatsink version for a PS5."
+    ],
+    "pros": [
+      "Near-flagship rated speeds",
+      "TLC NAND and 1,200 TBW",
+      "Five-year warranty",
+      "Very power efficient",
+      "Cheaper than DRAM-equipped rivals"
+    ],
+    "cons": [
+      "No DRAM cache",
+      "Can fall behind DRAM drives in long, heavy writes",
+      "Prices up since late 2025"
+    ],
+    "extra": {
+      "heading": "Install and Heatsink",
+      "body": [
+        "The SN7100 suits either the CPU-connected boot slot or a secondary slot. It is efficient and runs cool, so the motherboard's M.2 cover is plenty in a desktop, and a bare drive is fine with reasonable airflow.",
+        "For a PS5, its rated speeds clear Sony's 5,500 MB/s recommendation, but you must add a heatsink that keeps total height within 11.25 mm. It is a 2280 drive, so it does not fit handhelds like the Steam Deck or ROG Ally, which use the shorter 2230 size.",
+        "To clone, connect both drives, copy your Windows drive with a disk-cloning tool, then set the SN7100 first in the BIOS boot order. WD Dashboard handles firmware updates."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is a DRAM-less SSD fine for gaming?",
+        "a": "Yes, especially the SN7100. Games mostly read data, and independent reviews show it close to DRAM-equipped drives in load times."
+      },
+      {
+        "q": "SN7100 or SN850X?",
+        "a": "The SN7100 for most gaming PCs; the SN850X if you do heavy file work, want the DRAM cache, or want the official heatsink version for a PS5."
+      },
+      {
+        "q": "Does the SN7100 work in a PS5?",
+        "a": "Yes, with a heatsink added. Its rated reads exceed Sony's 5,500 MB/s recommendation; keep the drive plus heatsink within 11.25 mm."
+      }
+    ]
+  }
+]

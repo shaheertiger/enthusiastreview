@@ -1,0 +1,230 @@
+{
+  "slug": "best-budget-graphics-card",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best Budget Graphics Card (2026): 5 GPUs From $250 to $620",
+  "h1": "Best Budget Graphics Card",
+  "query": "best budget graphics card",
+  "description": "The RX 9060 XT 16GB is the best budget graphics card: 16 GB of VRAM for $350–$400. 5 GPUs ranked, from the $250 Arc B580 up to the RX 9070, with the catches.",
+  "dek": "Five cards that stretch a small budget the furthest, and the fine print that makes a cheap GPU a good or bad deal.",
+  "intro": [
+    "The AMD Radeon RX 9060 XT 16GB is the best budget graphics card in 2026: 16 GB of VRAM, FSR 4 and a full x16 PCIe link for $350–$400. No other card under $400 gives you that much memory, and memory is what decides how long a cheap card stays useful.",
+    "This guide is for 1080p gamers, first-time builders and anyone upgrading an older PC without a big budget. The picks run from $250 to about $620, and each one comes with the condition that makes it a smart or a poor buy for your system."
+  ],
+  "quickAnswer": "The RX 9060 XT 16GB ($350–$400) is the pick for most budget builds. The Arc B580 ($250–$290, 12 GB) is the cheapest good card, but only with a modern CPU. Pay $430–$480 for the RTX 5060 Ti 16GB if you want DLSS 4 and NVENC. The 8 GB RTX 5060 ($300–$330) suits esports only. Stretch to the RX 9070 ($550–$620) for real 1440p.",
+  "picks": [
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Budget GPU",
+      "bestFor": "most 1080p builds and upgrades under $400",
+      "skipIf": "you need CUDA for Blender, Resolve or local AI",
+      "writeup": [
+        "A budget card succeeds or fails on what it does in year three, not on launch day, and that is where the RX 9060 XT 16GB pulls ahead. Its 16 GB frame buffer means the high texture setting stays available in new releases long after 8 GB cards have been forced down to medium. At $350–$400 it is the cheapest current card with that much memory.",
+        "Speed is competitive too. Independent reviews put it within a few percent of the more expensive RTX 5060 Ti 16GB in raster games and clearly ahead of the RTX 5060 once a game needs more than 8 GB. FSR 4, AMD's machine-learning upscaler, is supported, and reviewers rate its image quality far above the older FSR 3.",
+        "It is also easy to live with. Board power lands around 160–180 W across partner models, so a decent 550 W supply covers it, and most versions are compact dual-fan designs that fit small cases. Because it uses all sixteen PCIe lanes, it loses almost nothing in an older PCIe 3.0 motherboard, which makes it the safest choice for upgrading a 2018-to-2020 era PC.",
+        "One warning: the RX 9060 XT also comes in an 8 GB version with a nearly identical name. Confirm the memory size in the listing title before you check out."
+      ],
+      "pros": ["Most VRAM under $400", "Full x16 PCIe link", "FSR 4 upscaling", "Runs on a 550 W supply"],
+      "cons": ["8 GB version is easy to buy by mistake", "Weaker ray tracing than NVIDIA"]
+    },
+    {
+      "id": "arc-b580",
+      "label": "Cheapest 12 GB Card",
+      "bestFor": "new budget builds with a Ryzen 5 7600 class CPU or newer",
+      "skipIf": "you are upgrading a PC with a CPU from 2020 or earlier",
+      "writeup": [
+        "The Arc B580 is the lowest price on this page at $250–$290, and it still comes with 12 GB of GDDR6 on a 192-bit bus. That is 4 GB more than the RTX 5060 for less money. Intel's XeSS 2 adds machine-learning upscaling and frame generation, and the media engine handles AV1 encoding for anyone who records or streams.",
+        "The price comes with fine print. The B580 depends on Resizable BAR, a BIOS setting that lets the CPU address the card's full memory. Without it, independent reviews report steep losses, so check that your board and CPU support it before ordering. The bigger issue is driver overhead. Widely reported testing by outlets including Hardware Unboxed showed the Arc driver demands more CPU time than AMD or NVIDIA drivers, and on older chips such as the Ryzen 5 2600, 3600 and even some Ryzen 5000 parts, the B580 can fall well behind its usual standing.",
+        "Put those two facts together and the B580 makes sense in one situation: a brand-new budget build with a current CPU, where the money saved goes toward a better processor or more storage. As a drop-in for an aging PC, the RX 9060 XT 16GB is the less risky card even though it costs more. It also runs on a PCIe 4.0 x8 link, so a PCIe 3.0 board halves its bandwidth."
+      ],
+      "pros": ["12 GB at the lowest price here", "XeSS 2 with frame generation", "AV1 encoding"],
+      "cons": ["Resizable BAR is mandatory", "Slower on older CPUs due to driver load", "PCIe 4.0 x8 only"]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Best for Esports Only",
+      "bestFor": "competitive shooters and older games at 1080p",
+      "skipIf": "you want to play new single-player releases at high textures",
+      "writeup": [
+        "The RTX 5060 is on this list for a narrow reason: if you mainly play Counter-Strike 2, Valorant, Fortnite, Apex Legends or Rocket League, its 8 GB of GDDR7 is not a problem, and it gets you NVIDIA's feature set for $300–$330. Those games are built to run on modest hardware, and at competitive settings they stay well inside 8 GB.",
+        "For that audience the card has real strengths. NVIDIA rates it at 145 W, the lowest board power on this page, so it runs cool and quiet on almost any supply. NVIDIA Reflex, which lowers input latency in supported shooters, works on every RTX card, and DLSS 4 helps in heavier titles.",
+        "Outside esports the 8 GB ceiling shows quickly. Independent reviews have documented several 2025 and 2026 releases that stutter or load textures late on 8 GB cards at high settings, even at 1080p. The card also uses only eight PCIe lanes, and on a PCIe 3.0 board that hurts most exactly when the memory overflows. Spend the extra $50–$70 on the RX 9060 XT 16GB unless you are certain your library will stay competitive."
+      ],
+      "pros": ["145 W, cool and quiet", "DLSS 4 and Reflex", "Lowest NVIDIA price here"],
+      "cons": ["8 GB runs short in new releases", "x8 link suffers on PCIe 3.0 boards"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best Budget for Creators",
+      "bestFor": "gamers who also stream, edit video or render in Blender",
+      "skipIf": "gaming is the only thing the PC does",
+      "writeup": [
+        "Spending $430–$480 is the top of most budgets, and the RTX 5060 Ti 16GB justifies it mainly for people who do more than play. NVIDIA's NVENC encoder remains the standard for streaming and recording, CUDA acceleration speeds up Blender and DaVinci Resolve, and many local AI tools assume an NVIDIA GPU. For those uses the 16 GB of GDDR7 is as valuable as it is in games.",
+        "In games alone the case is thinner. Independent reviews show it slightly faster than the RX 9060 XT 16GB on average, with a larger lead in ray-traced titles, but the AMD card costs roughly $80 less. DLSS 4 support in far more games than FSR 4 does narrow that gap, especially if you plan to use frame generation on a high-refresh monitor.",
+        "Like the RTX 5060, it uses eight PCIe 5.0 lanes. That is a non-issue on PCIe 4.0 and 5.0 boards. On a PCIe 3.0 platform it gives up a few percent, which the 16 GB buffer keeps from turning into stutter. The card is rated at 180 W, so a quality 550 W to 600 W supply is plenty."
+      ],
+      "pros": ["NVENC, CUDA and DLSS 4", "16 GB of GDDR7", "180 W board power"],
+      "cons": ["About $80 more than the RX 9060 XT 16GB", "x8 PCIe link"]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Best Stretch Pick",
+      "bestFor": "buyers who can reach $550–$620 and want real 1440p",
+      "skipIf": "your monitor is 1080p 60 Hz",
+      "writeup": [
+        "If the budget can stretch to the $550–$620 band, the Radeon RX 9070 is the point where a card stops being a 1080p compromise and becomes a genuine 1440p high-refresh option. It has 56 compute units, 16 GB of GDDR6 on a 256-bit bus, twice the bus width of the cheaper cards on this page, and AMD rates it at 220 W.",
+        "That combination is unusually efficient. Independent reviews place it slightly ahead of the RTX 5070 in raster games while drawing less power, and a quality 650 W supply is enough. FSR 4 and much-improved ray tracing make it a complete package, though NVIDIA keeps the edge in path-traced games.",
+        "Compared with the RX 9060 XT 16GB, you pay around $200 more for a large jump in 1440p performance and much more memory bandwidth. Whether that is worth it depends on your monitor. On a 1080p screen, the cheaper card already runs most games at high settings, and the extra money is better spent on a 1440p display first. When the display upgrade is planned, buying the RX 9070 now avoids replacing the card twice. Watch the RX 9070 XT as well: when the two sit less than $60 apart, the XT is the better buy."
+      ],
+      "pros": ["Real 1440p high-refresh card", "16 GB on a 256-bit bus", "220 W, efficient for its speed"],
+      "cons": ["Well above a typical budget", "Path tracing trails NVIDIA"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "Board power", "Memory bus", "PCIe interface", "Upscaling"],
+  "ranking": {
+    "intro": "These picks are built from manufacturer specifications, published independent reviews and owner reports on retailer sites and forums. Nothing here was bench-tested by Enthusiast Review. Performance comparisons repeat what reviewers widely agree on, and prices are street-price bands that move with sales.",
+    "criteria": [
+      ["VRAM for the money", "Memory is the main reason budget cards age badly, so 12 GB and 16 GB cards were rewarded heavily over 8 GB ones."],
+      ["Fit in older PCs", "Many budget buyers upgrade existing systems, so PCIe lane count, Resizable BAR needs and CPU overhead were all weighed."],
+      ["1080p performance per dollar", "The consensus of independent reviews at 1080p high settings set the baseline for value."],
+      ["Power and size", "Cards that run on a 550 W supply and fit compact cases score higher for budget builds."],
+      ["Software features", "Upscaler quality and coverage, encoders and creative-app support mattered where cards were otherwise close."]
+    ],
+    "why": "The RX 9060 XT 16GB won because it is the only card under $400 with 16 GB and a full x16 link, so it ages well and drops into almost any PC."
+  },
+  "mentions": [
+    {
+      "name": "AMD Radeon RX 9060 XT 8GB",
+      "text": "The 8 GB version of the RX 9060 XT uses the same chip as our top pick and sells for noticeably less. It is a reasonable esports card, but it inherits every 8 GB limit described below. For most buyers the step to the 16 GB model is the best $50–$70 in this price range."
+    },
+    {
+      "name": "NVIDIA GeForce RTX 5050",
+      "text": "NVIDIA's RTX 5050 is the cheapest current GeForce, with 8 GB of GDDR6 and a price near the Arc B580. It gives access to DLSS 4 and Reflex, but independent reviews place it below the RTX 5060, and the B580 offers more memory for similar money. Consider it only for light esports builds."
+    },
+    {
+      "id": "rtx-5070",
+      "text": "The RTX 5070 starts around $550, the same entry point as the RX 9070. It wins on ray tracing and DLSS coverage but carries 12 GB instead of 16 GB and trails slightly in raster. It is our overall pick in the [best graphics card](/best-graphics-card/) guide; here, the RX 9070 gives more lasting value."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Is the Best Graphics Card at Each Budget?",
+      "body": [
+        "The right budget card depends on the exact number you can spend, because a $50 step often buys a whole tier of memory. The bands below follow 2026 street prices, which shift with sales, so check two or three retailers before you decide.",
+        "If you are building a new PC rather than upgrading, keep the graphics card at roughly 30 to 40 percent of the total budget. Below that the GPU limits you in every game; above it, the CPU, memory and power supply start getting squeezed."
+      ],
+      "table": {
+        "caption": "Budget GPU picks by price, 2026 street bands",
+        "head": ["Budget", "Buy", "VRAM", "Realistic target"],
+        "rows": [
+          ["Under $300", "Arc B580 (modern CPU only)", "12 GB", "1080p high"],
+          ["$300–$340", "RTX 5060 (esports focus)", "8 GB", "1080p competitive"],
+          ["$350–$400", "RX 9060 XT 16GB", "16 GB", "1080p ultra, light 1440p"],
+          ["$430–$480", "RTX 5060 Ti 16GB", "16 GB", "1080p ultra, 1440p medium-high"],
+          ["$550–$620", "RX 9070", "16 GB", "1440p high refresh"]
+        ]
+      }
+    },
+    {
+      "h": "Is It Worth Saving Money With an 8 GB Graphics Card?",
+      "body": [
+        "Usually not, and the math explains why. The gap between an 8 GB card and a 16 GB card on a similar chip is about $50–$80. Spread over four years of ownership, that is roughly $15–$20 a year for the ability to keep high textures, avoid stutter in memory-heavy releases and sell the card for more when you move on.",
+        "The 8 GB card makes sense only when you know your games. A player who sticks to esports titles, indie games and older releases can run an 8 GB card for years without hitting the limit. Someone who buys the big releases each year will hit it within months, and the usual workaround, dropping texture quality, is the setting that most affects how a game looks.",
+        "There is one more trap for upgraders. The RTX 5060 and the 8 GB RX 9060 XT both use eight PCIe lanes. When an 8 GB card runs out of memory, it pulls data across the PCIe bus, and on an older PCIe 3.0 board that bus is half as fast. Owners of B450 and similar boards feel 8 GB limits harder than anyone."
+      ]
+    },
+    {
+      "h": "Which CPUs Work Well With the Arc B580?",
+      "body": [
+        "The B580's value depends almost entirely on the processor next to it. Independent analysis widely reported in early 2025 showed that the card's driver consumes more CPU time per frame than competing drivers, so it performs best when the CPU has time to spare. Intel has released driver updates since, but reviewers still advise caution on older chips.",
+        "Use this table as a rough guide and check reviews for the specific games you play. If your CPU lands in the bottom rows, our [GPU guide for Ryzen 5 2600 and 3600 owners](/best-gpu-for-ryzen-5-2600-and-3600/) covers better matches."
+      ],
+      "table": {
+        "caption": "Arc B580 pairing guide",
+        "head": ["CPU", "B580 verdict", "Why"],
+        "rows": [
+          ["Ryzen 5 7600, Ryzen 5 9600X or newer", "Good match", "Enough CPU headroom to absorb driver overhead"],
+          ["Ryzen 7 5700X3D", "Usually acceptable", "Large cache helps, but check CPU-heavy games"],
+          ["Ryzen 5 5600 or 5600X", "Mixed", "Noticeable losses reported in CPU-bound titles"],
+          ["Ryzen 5 3600 or 2600", "Poor match", "Large losses widely reported; PCIe 3.0 on many boards"],
+          ["Any system without Resizable BAR", "Do not buy", "Performance drops sharply with it disabled"]
+        ]
+      }
+    },
+    {
+      "h": "Can a Budget Graphics Card Run 1440p?",
+      "body": [
+        "Yes, with the right card and realistic settings. The RX 9060 XT 16GB and RTX 5060 Ti 16GB both run many games at 1440p on medium to high settings, especially with FSR 4 or DLSS 4 in Quality mode. Their 128-bit memory buses are the limiting factor, not their memory size, so they run out of bandwidth before they run out of VRAM at that resolution.",
+        "The Arc B580 is also respectable at 1440p, where its 192-bit bus helps and the CPU overhead matters less because the GPU is the bottleneck more often. The RTX 5060 is the weakest option here, since 1440p raises memory use and 8 GB fills sooner.",
+        "If 1440p at 144 Hz or more is the goal, the honest answer is the RX 9070. It is the first card on this page built for that resolution rather than stretched to it. For a full breakdown, see our [best graphics card for 1440p](/best-graphics-card-for-1440p/) guide."
+      ]
+    },
+    {
+      "h": "Will a Budget GPU Work in My Older PC?",
+      "body": [
+        "Almost always, but check five things before you order. Most upgrade problems come from the parts around the card, not the card itself."
+      ],
+      "list": [
+        "Power supply: every card here runs on a quality 550 W unit except the RX 9070, which wants 650 W. An old 450 W office-grade supply is the most common reason an upgrade fails.",
+        "Power connectors: count the PCIe 8-pin cables on your supply. Some cards need one, some need two, and a few NVIDIA models use the 16-pin connector with an adapter.",
+        "PCIe generation: on a PCIe 3.0 board, prefer full x16 cards such as the RX 9060 XT 16GB and RX 9070 over x8 cards.",
+        "Resizable BAR: required for the Arc B580 and helpful for the others. Older boards often need a BIOS update to enable it.",
+        "Case room: measure the space from the rear slot to the front fans, and check how many slots of width the card needs."
+      ]
+    },
+    {
+      "h": "Is a Used Graphics Card a Better Budget Buy?",
+      "body": [
+        "Sometimes, but the new cards on this list have narrowed the gap. Popular used options in the budget range include the RTX 3060 12GB, RX 6700 XT 12GB and RX 6800 16GB. They can offer good memory for the money, but they lack FSR 4 or DLSS frame generation, draw more power than current cards of similar speed, and usually come without a transferable warranty.",
+        "If you go used, buy locally where you can see the card run a demanding game for several minutes, or use a marketplace with buyer protection. Check fan noise, look for signs of a reflashed or modified BIOS, and walk away from cards with heavy dust caked into the heatsink. As a rule, a used card should cost meaningfully less than a new Arc B580 or RX 9060 XT 16GB to be worth the risk."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying the wrong RX 9060 XT", "The 8 GB and 16 GB versions share a name and often share a product page. Read the full listing title and the spec table, and confirm the memory size on the box or in your order confirmation before it ships."],
+    ["Pairing an Arc B580 with an old CPU", "The B580 looks like the best value on paper, but on a Ryzen 5 2600 or 3600 its driver overhead can erase that advantage. Match it with a current CPU, or choose the RX 9060 XT 16GB for an older system."],
+    ["Forgetting Resizable BAR", "Arc cards need Resizable BAR enabled, and AMD and NVIDIA cards benefit from it. Update the motherboard BIOS and enable the setting, along with Above 4G Decoding, before judging a new card's performance. On many AM4 boards the toggle sits under PCI subsystem or advanced settings, and CSM must be off."],
+    ["Reusing a tired power supply", "A ten-year-old 500 W unit may technically power a 180 W card, but aging capacitors handle spikes poorly. If the supply predates your current GPU by several years, budget $75–$100 for a modern Gold-rated unit. Our [best PSU under $100](/best-psu-under-100/) guide lists safe options at that price."],
+    ["Chasing 1440p on a 1080p budget", "A $300 card at 1440p ultra settings will disappoint. Either keep the 1080p monitor and enjoy high settings, or save for the RX 9070 tier where 1440p high-refresh gaming is realistic. A sharp 1080p image at high settings looks better than a blurry upscaled 1440p one."]
+  ],
+  "bottomLine": "The RX 9060 XT 16GB is the budget card to buy in 2026 because it pairs 16 GB of memory with a full x16 link and a $350–$400 price, so it suits new builds and old PCs alike. The Arc B580 is cheaper and good, but only beside a modern CPU. Choose the RTX 5060 Ti 16GB if you stream or edit, the RTX 5060 only for esports, and the RX 9070 if your budget and monitor are ready for 1440p.",
+  "faqs": [
+    {
+      "q": "What is the best graphics card under $300?",
+      "a": "The Arc B580 is the best card under $300 if your CPU is a Ryzen 5 7600 or similar modern chip. It offers 12 GB for $250–$290. On older CPUs, its driver overhead makes it a poor match, and saving for the RX 9060 XT 16GB is the better move."
+    },
+    {
+      "q": "What is the best graphics card under $400?",
+      "a": "The RX 9060 XT 16GB is the best card under $400. It has 16 GB of VRAM, FSR 4 and a full x16 PCIe link for $350–$400, and independent reviews put it within a few percent of the pricier RTX 5060 Ti 16GB in raster games."
+    },
+    {
+      "q": "Is the RTX 5060 good for the price?",
+      "a": "It is good for esports and older games but a weak long-term buy. The RTX 5060 has DLSS 4 and a low 145 W rating, but its 8 GB of memory already limits texture settings in several new releases. A 16 GB card costs $50–$70 more and lasts longer."
+    },
+    {
+      "q": "Is the RX 9060 XT 16GB better than the RTX 5060 Ti 16GB?",
+      "a": "For gaming value, yes. Independent reviews show the RTX 5060 Ti 16GB slightly faster on average, but the RX 9060 XT 16GB costs about $80 less and uses a full x16 link. The NVIDIA card is the better choice for streaming, CUDA apps and heavier ray tracing."
+    },
+    {
+      "q": "Can I run a budget graphics card on a 500 W power supply?",
+      "a": "Usually, yes. The RTX 5060, RTX 5060 Ti 16GB and RX 9060 XT 16GB all fit a quality 500 W to 550 W unit with a typical six-core CPU. The supply must be a reputable, reasonably recent model. Run your build through our [PSU calculator](/tools/psu-calculator/) to check."
+    },
+    {
+      "q": "Is the Intel Arc B580 still worth buying in 2026?",
+      "a": "Yes, for a new build with a modern CPU. Its 12 GB of memory for under $300 is still unmatched by AMD or NVIDIA. For upgrades to older systems, especially Ryzen 2000 and 3000 or older Intel chips, its driver overhead and Resizable BAR requirement make it a risky pick."
+    },
+    {
+      "q": "How much should I spend on a budget gaming GPU?",
+      "a": "Plan on $350–$400 for a card that handles 1080p at high settings for several years. You can spend $250–$330 if you play mostly esports titles or pair an Arc B580 with a modern CPU, but below that band, current cards give up too much."
+    }
+  ],
+  "sources": [
+    "AMD Radeon RX 9060 XT and RX 9070 product pages",
+    "NVIDIA GeForce RTX 5060 and RTX 5060 Ti product pages",
+    "Intel Arc B580 product page and Resizable BAR requirements",
+    "Independent budget GPU reviews from TechPowerUp, Hardware Unboxed and Tom's Hardware",
+    "Hardware Unboxed analysis of Arc B580 performance with older CPUs",
+    "Owner reports on retailer listings and enthusiast forums"
+  ],
+  "related": ["best-graphics-card", "best-gpu-for-ryzen-5-2600-and-3600", "best-graphics-card-for-1440p"]
+}

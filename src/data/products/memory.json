@@ -1,0 +1,553 @@
+[
+  {
+    "id": "gskill-flare-x5-ddr5-6000-cl30",
+    "name": "G.Skill Flare X5 32GB (2x16GB) DDR5-6000 CL30",
+    "short": "Flare X5 6000 CL30",
+    "brand": "gskill",
+    "category": "memory",
+    "released": "2022",
+    "price": [110, 200],
+    "description": "The G.Skill Flare X5 is the best AM5 RAM for most builds: 32 GB of DDR5-6000 CL30 at 1.35 V with EXPO, and a 33 mm height that clears any air cooler.",
+    "quick": "A 32 GB (2x16GB) DDR5-6000 CL30 kit with an AMD EXPO profile, 1.35 V and a low-profile heatspreader about 33 mm tall. It hits the AM5 sweet spot, but prices have swung between roughly $110 and $200 since late 2025.",
+    "bestFor": "Ryzen 7000 and 9000 gaming builds that want the sweet-spot speed with no cooler clearance worries",
+    "skipIf": "you are on Intel and want a kit with a validated XMP profile",
+    "specs": [
+      ["Capacity", "32 GB (2x 16 GB)"],
+      ["Speed", "DDR5-6000"],
+      ["CAS latency", "CL30"],
+      ["Voltage", "1.35 V"],
+      ["Profile", "AMD EXPO"],
+      ["Height", "About 33 mm"],
+      ["Type", "DDR5 UDIMM"],
+      ["Timings", "30-38-38-96"],
+      ["Lighting", "None"]
+    ],
+    "score": {
+      "overall": 90,
+      "parts": [["Speed", 88], ["Compatibility", 93], ["Value", 88], ["Build", 85]]
+    },
+    "verdict": [
+      "The Flare X5 is the memory we recommend first for an AM5 gaming PC. DDR5-6000 at CL30 is the speed where Ryzen 7000 and 9000 run the memory controller in 1:1 mode with the memory clock, and G.Skill rates this kit for that at only 1.35 V, a little lower than the 1.40 V many rivals need. The EXPO profile is built for AMD boards, so one BIOS setting gets you the rated speed.",
+      "Its other strength is size. At about 33 mm tall, it clears the front fan of any dual-tower air cooler, including the 168 mm Noctua NH-D15 G2, without shifting the fan up. There is no RGB, which keeps the price down and the build simple. The trade-off is Intel support: this is an EXPO-only kit, so Core Ultra buyers should choose an XMP kit instead.",
+      "Price is the variable to watch. DRAM contract prices climbed sharply from late 2025, and this kit has ranged from about $110 to $200. Check the live price before buying, and if a near-identical 6000 CL30 kit is $20 cheaper that day, buy that one. Its closest rivals are the [Corsair Vengeance DDR5-6000 CL30](/gear/corsair-vengeance-ddr5-6000-cl30/) and [Kingston Fury Beast](/gear/kingston-fury-beast-ddr5-6000-cl30/), which perform the same for gaming. The step-up is the 64 GB [Trident Z5 Neo RGB](/gear/gskill-trident-z5-neo-rgb-ddr5-6000-64gb/) if you edit video or run heavy workloads."
+    ],
+    "pros": [
+      "DDR5-6000 CL30, the AM5 sweet spot",
+      "Low 1.35 V rating",
+      "About 33 mm tall, clears any air cooler",
+      "EXPO profile for one-click setup",
+      "No RGB tax"
+    ],
+    "cons": [
+      "EXPO-only, not the best pick for Intel",
+      "Price has swung widely since late 2025"
+    ],
+    "extra": {
+      "heading": "Setting Up EXPO or XMP",
+      "body": [
+        "Out of the box, DDR5 runs at a slow default speed, often DDR5-4800. Enabling EXPO in the BIOS applies the rated DDR5-6000 CL30 settings. On AM5, DDR5-6000 lets the memory controller clock (UCLK) match the memory clock 1:1, which is why this speed is the sweet spot; boards set this automatically with EXPO, and the Infinity Fabric (FCLK) typically runs around 2,000 MHz on auto.",
+        "The first boot after enabling EXPO can take a few minutes, with a blank screen while the board trains the memory. That is normal on AM5. Do not power off during it. Turning on Memory Context Restore, if your board offers it, shortens later boots."
+      ],
+      "steps": [
+        ["Update the BIOS", "A current BIOS improves memory compatibility and training on AM5."],
+        ["Enable EXPO", "Find it under Extreme Tweaker (ASUS), OC (MSI), Tweaker (Gigabyte) or OC Tweaker (ASRock) and select EXPO Profile 1."],
+        ["Save and wait", "Allow several minutes for the first memory training boot."],
+        ["Confirm the speed", "Check that the BIOS or a tool like CPU-Z shows DDR5-6000 (3,000 MHz actual)."]
+      ]
+    },
+    "faqs": [
+      { "q": "Is DDR5-6000 CL30 still the sweet spot for Ryzen 9000?", "a": "Yes. DDR5-6000 runs the memory controller 1:1 with the memory clock on Ryzen 7000 and 9000, and CL30 keeps latency low. Faster kits cost more for little gaming gain." },
+      { "q": "Does the Flare X5 work with Intel CPUs?", "a": "It usually runs, but it has only an EXPO profile, so you may need to enter speed and timings manually on an Intel board. An XMP kit like the Corsair Vengeance is the simpler choice for Intel." },
+      { "q": "Will the Flare X5 fit under my air cooler?", "a": "Almost certainly. At about 33 mm tall it clears the front fan of dual-tower coolers such as the Thermalright Peerless Assassin 120 SE and Noctua NH-D15 G2." },
+      { "q": "Why did the Flare X5 price go up?", "a": "DRAM prices rose sharply from late 2025 as supply tightened. Check the live price and compare it with other 6000 CL30 kits before buying." }
+    ]
+  },
+  {
+    "id": "corsair-vengeance-ddr5-6000-cl30",
+    "name": "Corsair Vengeance 32GB (2x16GB) DDR5-6000 CL30",
+    "short": "Vengeance 6000 CL30",
+    "brand": "corsair",
+    "category": "memory",
+    "released": "2023",
+    "price": [110, 200],
+    "description": "The Corsair Vengeance DDR5-6000 CL30 is the safest pick for AMD or Intel: 32 GB at 1.40 V, sold in separate XMP 3.0 and EXPO versions, about 35 mm tall.",
+    "quick": "A 32 GB (2x16GB) DDR5-6000 CL30 kit sold in an Intel XMP 3.0 version and an AMD EXPO version, rated at 1.40 V and about 35 mm tall. Street prices have ranged from about $110 to $200 since DRAM prices jumped in late 2025.",
+    "bestFor": "builders who want one well-known kit that has a version for both AMD and Intel",
+    "skipIf": "you want the lowest voltage or RGB lighting",
+    "specs": [
+      ["Capacity", "32 GB (2x 16 GB)"],
+      ["Speed", "DDR5-6000"],
+      ["CAS latency", "CL30"],
+      ["Voltage", "1.40 V"],
+      ["Profile", "XMP 3.0 or EXPO (separate versions)"],
+      ["Height", "About 35 mm"],
+      ["Type", "DDR5 UDIMM"],
+      ["Timings", "30-36-36-76"],
+      ["Lighting", "None"]
+    ],
+    "score": {
+      "overall": 88,
+      "parts": [["Speed", 89], ["Compatibility", 92], ["Value", 85], ["Build", 85]]
+    },
+    "verdict": [
+      "Corsair's Vengeance DDR5-6000 CL30 is the kit to buy if you want one name that covers both platforms. Corsair sells it in two versions with the same speed and timings: an XMP 3.0 kit for Intel boards and an EXPO kit for AMD. The part number tells them apart, with C30 marking XMP and Z30 marking EXPO. The rated 30-36-36-76 timings are slightly tighter than G.Skill's Flare X5, though no game will show the difference.",
+      "The trade-off is voltage and price. It runs 1.40 V versus 1.35 V for the Flare X5, which is well within DDR5 norms but leaves a little less overclocking headroom. At about 35 mm, the plain heatspreader still clears dual-tower air coolers. The non-RGB version is the one to buy; the Vengeance RGB adds a light bar and often $15 to $30 for the same chips.",
+      "Pricing is the wild card in 2026. DRAM costs rose sharply from late 2025, and this kit has sold anywhere from about $110 to $200. Check the live price, and treat any of the 6000 CL30 kits here as equal for gaming: buy whichever is cheapest that day. Its closest rival is the [G.Skill Flare X5](/gear/gskill-flare-x5-ddr5-6000-cl30/) for AMD builds, and the [Kingston Fury Beast](/gear/kingston-fury-beast-ddr5-6000-cl30/) is a near twin. For 64 GB, step up to the [Trident Z5 Neo RGB 64GB](/gear/gskill-trident-z5-neo-rgb-ddr5-6000-64gb/) or Corsair's own 2x32GB Vengeance."
+    ],
+    "pros": [
+      "Separate XMP 3.0 and EXPO versions",
+      "Rated 30-36-36-76 at DDR5-6000",
+      "About 35 mm tall, cooler friendly",
+      "Widely stocked",
+      "Non-RGB version avoids the lighting premium"
+    ],
+    "cons": [
+      "1.40 V, higher than the Flare X5",
+      "Easy to buy the wrong version for your platform",
+      "Price swings since late 2025"
+    ],
+    "extra": {
+      "heading": "Setting Up EXPO or XMP",
+      "body": [
+        "Buy the version that matches your platform: the XMP kit for Intel, the EXPO kit for AMD. Either will usually run on the other platform, but the matching profile is what the board vendor has tuned for. In the BIOS, enable XMP (Intel) or EXPO (AMD) and choose the first profile.",
+        "On Ryzen 7000 and 9000, DDR5-6000 keeps the memory controller (UCLK) 1:1 with the memory clock. Leave the Infinity Fabric (FCLK) on auto unless you know your chip handles more. Expect the first boot after enabling EXPO on AM5 to take several minutes while the board trains memory; on Intel Core Ultra boards, training is usually quicker."
+      ],
+      "steps": [
+        ["Check the part number", "C30 at the end means the XMP version; Z30 means EXPO."],
+        ["Enable the profile", "Select XMP Profile 1 or EXPO Profile 1 in the memory or overclocking section of the BIOS."],
+        ["Let it train", "Wait out the first boot; a black screen for a few minutes is normal on AM5."],
+        ["Verify", "Confirm DDR5-6000 in the BIOS or Windows Task Manager."]
+      ]
+    },
+    "faqs": [
+      { "q": "Should I buy the XMP or EXPO Corsair Vengeance?", "a": "Buy EXPO for AMD Ryzen and XMP for Intel. The speed and timings are the same; only the stored profile differs." },
+      { "q": "Is Corsair Vengeance DDR5-6000 CL30 good for the Ryzen 7 9800X3D?", "a": "Yes. DDR5-6000 CL30 is the recommended pairing for the 9800X3D, and the EXPO version sets it up in one step." },
+      { "q": "Is the RGB version worth it?", "a": "Only if you want the lighting. The Vengeance RGB uses the same speed and timings but often costs $15 to $30 more, which is hard to justify while DRAM prices are high." }
+    ]
+  },
+  {
+    "id": "kingston-fury-beast-ddr5-6000-cl30",
+    "name": "Kingston Fury Beast 32GB (2x16GB) DDR5-6000 CL30",
+    "short": "Fury Beast 6000 CL30",
+    "brand": "kingston",
+    "category": "memory",
+    "released": "2023",
+    "price": [110, 200],
+    "description": "The Kingston Fury Beast DDR5-6000 CL30 is a no-fuss AM5 kit: 32 GB at 1.40 V with EXPO, about 35 mm tall and backed by Kingston's limited lifetime warranty.",
+    "quick": "A 32 GB (2x16GB) DDR5-6000 CL30 kit with an AMD EXPO profile, 1.40 V and a low heatspreader about 34.9 mm tall. Like every DDR5 kit, its price has moved between about $110 and $200 since late 2025.",
+    "bestFor": "Ryzen builders who want a reliable sweet-spot kit and buy whichever brand is cheapest that week",
+    "skipIf": "you need an XMP-tuned kit for Intel or want lighting",
+    "specs": [
+      ["Capacity", "32 GB (2x 16 GB)"],
+      ["Speed", "DDR5-6000"],
+      ["CAS latency", "CL30"],
+      ["Voltage", "1.40 V"],
+      ["Profile", "AMD EXPO"],
+      ["Height", "About 34.9 mm"],
+      ["Type", "DDR5 UDIMM"],
+      ["Lighting", "None (RGB version sold separately)"],
+      ["Warranty", "Limited lifetime"]
+    ],
+    "score": {
+      "overall": 87,
+      "parts": [["Speed", 87], ["Compatibility", 91], ["Value", 87], ["Build", 84]]
+    },
+    "verdict": [
+      "The Kingston Fury Beast is the quiet achiever of the 6000 CL30 group. It has the same headline numbers as the Flare X5 and Vengeance: 32 GB, DDR5-6000, CL30, and an EXPO profile for AM5. Kingston rates it at 1.40 V, and the plain black heatspreader stands about 34.9 mm tall, so it clears tower coolers without trouble. Kingston backs it with a limited lifetime warranty.",
+      "Why rank it third, then? Not because of speed. The gaming difference between these three kits is within run-to-run variation in independent reviews. The ranking comes down to small things: a slightly higher voltage than the Flare X5 and an EXPO-only profile that makes it a weaker fit for Intel than the Corsair kit. Kingston also sells many Fury Beast variants with similar names, including CL36 and CL40 versions at the same speed, so read the listing carefully.",
+      "The practical advice is simple. DRAM prices have climbed sharply since late 2025 and the three sweet-spot kits trade places on price every few weeks. Check the live price and buy the cheapest real 6000 CL30 kit, which is often this one. Skip the Fury Beast RGB unless the lighting matters; it carries a premium for the same memory. The closest rival is the [G.Skill Flare X5](/gear/gskill-flare-x5-ddr5-6000-cl30/). The step-up for heavy multitasking is a 64 GB kit like the [Trident Z5 Neo RGB](/gear/gskill-trident-z5-neo-rgb-ddr5-6000-64gb/)."
+    ],
+    "pros": [
+      "DDR5-6000 CL30 with EXPO",
+      "About 34.9 mm tall, cooler friendly",
+      "Limited lifetime warranty",
+      "Often the cheapest of the sweet-spot kits"
+    ],
+    "cons": [
+      "Many similar listings with slower CL36 and CL40 timings",
+      "EXPO-only, less ideal for Intel",
+      "1.40 V versus 1.35 V for the Flare X5"
+    ],
+    "extra": {
+      "heading": "Setting Up EXPO or XMP",
+      "body": [
+        "Without EXPO enabled, the kit runs at a conservative default speed. In the BIOS, enable the EXPO profile and save. On AM5 this sets DDR5-6000, CL30 and 1.40 V together. The memory controller runs 1:1 with the memory clock at this speed, which is what you want; the Infinity Fabric (FCLK) is best left on auto.",
+        "Expect the first boot to take one to several minutes while the board trains the memory, sometimes with a blank screen. Let it finish. If the board fails to boot after three tries, it should fall back to safe settings; update the BIOS and try again before suspecting the memory."
+      ],
+      "steps": [
+        ["Install in the right slots", "Use the two slots the motherboard manual marks for two-DIMM setups, usually A2 and B2."],
+        ["Enable EXPO", "Select EXPO Profile 1 in the BIOS memory settings."],
+        ["Wait for training", "Do not power off during the first long boot."],
+        ["Check stability", "Confirm DDR5-6000 is reported and play a few hours before tuning anything else."]
+      ]
+    },
+    "faqs": [
+      { "q": "Is the Kingston Fury Beast as good as G.Skill Flare X5?", "a": "For gaming, yes. Both are DDR5-6000 CL30 kits with EXPO; the Flare X5 runs at a slightly lower 1.35 V. Buy whichever is cheaper." },
+      { "q": "How do I make sure I am buying the CL30 Fury Beast?", "a": "Check that the listing says CL30 and EXPO. Kingston sells DDR5-6000 Fury Beast kits at CL36 and CL40 too, which look the same." },
+      { "q": "What warranty does Kingston give on Fury Beast?", "a": "Kingston covers Fury Beast DDR5 with a limited lifetime warranty." }
+    ]
+  },
+  {
+    "id": "teamgroup-t-force-delta-rgb-ddr5-6000",
+    "name": "TeamGroup T-Force Delta RGB 32GB (2x16GB) DDR5-6000 CL30",
+    "short": "Delta RGB 6000 CL30",
+    "brand": "teamgroup",
+    "category": "memory",
+    "released": "2022",
+    "price": [120, 210],
+    "description": "The T-Force Delta RGB is the best-value RGB DDR5: 32 GB of DDR5-6000 CL30 with a wide light bar, but it stands about 46 mm tall, so check cooler clearance.",
+    "quick": "A 32 GB (2x16GB) DDR5-6000 CL30 kit with a wide RGB light bar, sold with XMP and EXPO profiles depending on version. It stands about 46 mm tall and usually costs $10 to $20 more than plain kits, within a $120 to $210 band since late 2025.",
+    "bestFor": "builders who want RGB memory at the sweet-spot speed without paying flagship-brand prices",
+    "skipIf": "you use a large dual-tower air cooler or do not care about lighting",
+    "specs": [
+      ["Capacity", "32 GB (2x 16 GB)"],
+      ["Speed", "DDR5-6000"],
+      ["CAS latency", "CL30"],
+      ["Profile", "XMP 3.0 or EXPO, by version"],
+      ["Height", "About 46 mm"],
+      ["Type", "DDR5 UDIMM"],
+      ["Lighting", "ARGB light bar"]
+    ],
+    "score": {
+      "overall": 82,
+      "parts": [["Speed", 87], ["Compatibility", 80], ["Value", 78], ["Build", 84]]
+    },
+    "verdict": [
+      "The T-Force Delta RGB is for builders who want their memory to light up and still hit the AM5 sweet spot. It runs DDR5-6000 at CL30 like the plain kits above it, and its wide, diffused light bar is one of the better-looking RGB designs at its price. TeamGroup sells versions with XMP and EXPO profiles, so pick the one that matches your platform.",
+      "The first trade-off is height. At about 46 mm, it is roughly 13 mm taller than the Flare X5, which matters with dual-tower air coolers. The front fan on coolers like the Thermalright Peerless Assassin 120 SE can usually be raised to clear it, but that adds to total cooler height and can then hit the side panel of a compact case. With an AIO, height is a non-issue.",
+      "The second trade-off is cost. RGB adds roughly $10 to $20 over a plain 6000 CL30 kit, and with DRAM prices up sharply since late 2025, that premium is harder to justify. Check the live price; if the gap grows past $20, buy the [G.Skill Flare X5](/gear/gskill-flare-x5-ddr5-6000-cl30/) and spend the difference elsewhere. Its closest RGB rival is the Corsair Vengeance RGB, which usually costs more. The step-up for capacity is the 64 GB [Trident Z5 Neo RGB](/gear/gskill-trident-z5-neo-rgb-ddr5-6000-64gb/)."
+    ],
+    "pros": [
+      "DDR5-6000 CL30 sweet-spot speed",
+      "Wide, diffused RGB light bar",
+      "Cheaper than most big-brand RGB kits",
+      "XMP and EXPO versions available"
+    ],
+    "cons": [
+      "About 46 mm tall, can clash with air coolers",
+      "RGB premium while DRAM prices are high",
+      "Check which profile your version carries"
+    ],
+    "extra": {
+      "heading": "Setting Up EXPO or XMP",
+      "body": [
+        "Check the listing or box for the profile: buy EXPO for Ryzen and XMP for Intel where TeamGroup offers both. In the BIOS, enable the matching profile to run DDR5-6000 CL30. On Ryzen 7000 and 9000, this speed keeps the memory controller 1:1 with the memory clock; leave the Infinity Fabric (FCLK) on auto.",
+        "On AM5, the first boot after enabling EXPO can take several minutes of memory training. For the lighting, TeamGroup's software or your motherboard's RGB tool controls the light bar; installing several RGB apps at once can cause conflicts, so use one."
+      ],
+      "steps": [
+        ["Check cooler clearance", "Measure the space under your air cooler's front fan; this kit needs about 46 mm."],
+        ["Enable the profile", "Select EXPO or XMP Profile 1 in the BIOS."],
+        ["Wait for training", "Allow a few minutes on the first AM5 boot."],
+        ["Set up lighting", "Use one RGB app, either the motherboard vendor's or TeamGroup's."]
+      ]
+    },
+    "faqs": [
+      { "q": "Does the T-Force Delta RGB fit under a Peerless Assassin?", "a": "Usually, with the front fan raised. At about 46 mm, the RAM needs more room than low-profile kits, so check the cooler's RAM clearance and your case's cooler height limit." },
+      { "q": "Is RGB memory slower than non-RGB?", "a": "No. The Delta RGB runs the same DDR5-6000 CL30 as plain kits. You pay for the lighting, not speed." },
+      { "q": "Is the Delta RGB worth it in 2026?", "a": "Only if the premium is small. DRAM prices rose sharply from late 2025, so compare it with a plain 6000 CL30 kit and do not pay more than about $20 for RGB." }
+    ]
+  },
+  {
+    "id": "gskill-trident-z5-neo-rgb-ddr5-6000-64gb",
+    "name": "G.Skill Trident Z5 Neo RGB 64GB (2x32GB) DDR5-6000 CL30",
+    "short": "Trident Z5 Neo 64GB",
+    "brand": "gskill",
+    "category": "memory",
+    "released": "2023",
+    "price": [220, 400],
+    "description": "The Trident Z5 Neo RGB 64GB is the AM5 workstation pick: 64 GB of DDR5-6000 CL30 on just two sticks with EXPO, but RGB and a $220 to $400 band raise the cost.",
+    "quick": "A 64 GB (2x32GB) DDR5-6000 CL30 kit with EXPO, RGB lighting and a heatspreader about 44 mm tall. Its price has swung from about $220 to $400 as DRAM costs jumped in late 2025.",
+    "bestFor": "Ryzen 9 builds that edit video, run VMs or keep huge projects open alongside games",
+    "skipIf": "you only game, where 32 GB is enough, or you do not want to pay for RGB",
+    "specs": [
+      ["Capacity", "64 GB (2x 32 GB)"],
+      ["Speed", "DDR5-6000"],
+      ["CAS latency", "CL30"],
+      ["Voltage", "1.40 V"],
+      ["Profile", "AMD EXPO"],
+      ["Height", "About 44 mm"],
+      ["Type", "DDR5 UDIMM"],
+      ["Lighting", "RGB light bar"]
+    ],
+    "score": {
+      "overall": 85,
+      "parts": [["Speed", 88], ["Compatibility", 88], ["Value", 74], ["Build", 91]]
+    },
+    "verdict": [
+      "This is the kit for an AM5 workstation that also games. Two 32 GB sticks give you 64 GB at DDR5-6000 CL30, the same sweet-spot speed as the 32 GB kits, with an EXPO profile for Ryzen. Pair it with a 16-core [Ryzen 9 9950X3D](/gear/ryzen-9-9950x3d/) for 4K video editing, large code builds, virtual machines or big photo libraries, and you avoid paging to the SSD.",
+      "Two sticks matter more than the brand. Filling all four DIMM slots on AM5 usually forces lower memory speeds, so 2x32GB beats 4x16GB for the same 64 GB. That makes this a cleaner path than buying a second 32 GB kit later.",
+      "The trade-off is cost. RGB and the Trident Z5 Neo's premium heatspreader push the price above plain 64 GB kits, and DRAM prices rose sharply from late 2025, leaving a band from about $220 to $400. Check the live price and compare it with non-RGB 2x32GB DDR5-6000 kits, such as G.Skill's own Flare X5 64GB; if the RGB version costs more than $30 extra, buy the plain kit. At about 44 mm it also stands taller than low-profile kits, so check air cooler clearance.",
+      "For pure gaming, 32 GB is still enough in 2026, and the [Flare X5 32GB](/gear/gskill-flare-x5-ddr5-6000-cl30/) is the better buy. The closest 64 GB rival is Corsair's Vengeance RGB 2x32GB DDR5-6000 kit. A 96 GB (2x48GB) kit is the step-up for very large workloads."
+    ],
+    "pros": [
+      "64 GB on two sticks keeps full speed on AM5",
+      "DDR5-6000 CL30 with EXPO",
+      "Premium heatspreader and RGB",
+      "Ideal match for 16-core Ryzen 9 chips"
+    ],
+    "cons": [
+      "Expensive, with a wide price band since late 2025",
+      "RGB premium over plain 64 GB kits",
+      "About 44 mm tall"
+    ],
+    "extra": {
+      "heading": "Setting Up EXPO or XMP",
+      "body": [
+        "Enable EXPO in the BIOS to run the kit at DDR5-6000 CL30. Higher-capacity 32 GB modules take longer to train than 16 GB sticks, so the first boot on AM5 can take several minutes with a blank screen. Leave it alone until it finishes. Enabling Memory Context Restore, if your board has it, keeps later boots fast.",
+        "At DDR5-6000, the Ryzen memory controller runs 1:1 with the memory clock. Leave the Infinity Fabric (FCLK) on auto. If you need even more memory later, buy a single 2x48GB or 2x64GB kit rather than adding sticks; four DIMMs on AM5 usually means a lower stable speed."
+      ],
+      "steps": [
+        ["Update the BIOS", "Newer AM5 BIOS versions handle high-capacity kits better."],
+        ["Use two slots", "Install in the slots the manual marks for two DIMMs, usually A2 and B2."],
+        ["Enable EXPO", "Select EXPO Profile 1 and save."],
+        ["Be patient", "First memory training on 64 GB can take several minutes."]
+      ]
+    },
+    "faqs": [
+      { "q": "Do I need 64 GB of RAM for gaming?", "a": "No. 32 GB is enough for gaming in 2026. Choose 64 GB for video editing, VMs, large code builds or heavy multitasking." },
+      { "q": "Is 2x32GB better than 4x16GB on AM5?", "a": "Yes. Two DIMMs run DDR5-6000 more reliably, while four DIMMs usually force a lower speed on Ryzen 7000 and 9000." },
+      { "q": "Is there a cheaper non-RGB 64 GB alternative?", "a": "Yes. Plain 2x32GB DDR5-6000 kits, including G.Skill's Flare X5 64GB, usually cost less. Check live prices, since DRAM costs rose sharply from late 2025." }
+    ]
+  },
+  {
+    "id": "gskill-ripjaws-v-ddr4-3600-cl16",
+    "name": "G.Skill Ripjaws V 32GB (2x16GB) DDR4-3600 CL16",
+    "short": "Ripjaws V 3600 CL16",
+    "brand": "gskill",
+    "category": "memory",
+    "price": [70, 110],
+    "description": "The G.Skill Ripjaws V DDR4-3600 CL16 is the best value AM4 RAM: 32 GB at 1.35 V with XMP, rated 16-19-19-39, for a 1:1 FCLK 1800 setup on Ryzen 3000 and 5000.",
+    "quick": "A 32 GB (2x16GB) DDR4-3600 CL16 kit rated 16-19-19-39 at 1.35 V with an XMP 2.0 profile and a 42 mm heatspreader. It sells for about $70 to $110, though DDR4 has also climbed as makers wind down production.",
+    "bestFor": "Ryzen 3000 and 5000 owners who want the sweet-spot DDR4 speed without paying for RGB",
+    "skipIf": "you are building a new AM5 or Intel Core Ultra system, which need DDR5",
+    "specs": [
+      ["Capacity", "32 GB (2x 16 GB)"],
+      ["Speed", "DDR4-3600"],
+      ["CAS latency", "CL16"],
+      ["Voltage", "1.35 V"],
+      ["Profile", "Intel XMP 2.0"],
+      ["Height", "42 mm"],
+      ["Type", "DDR4 UDIMM"],
+      ["Timings", "16-19-19-39"],
+      ["Lighting", "None"]
+    ],
+    "score": {
+      "overall": 86,
+      "parts": [["Speed", 86], ["Compatibility", 88], ["Value", 88], ["Build", 80]]
+    },
+    "verdict": [
+      "For an AM4 system, DDR4-3600 CL16 is the speed to aim for, and the Ripjaws V is the plainest, cheapest way to get it from a major brand. At 3600, Ryzen 3000 and 5000 chips can run the Infinity Fabric at 1,800 MHz in a 1:1 ratio with the memory clock, which keeps latency low. G.Skill rates this kit at 16-19-19-39 and 1.35 V.",
+      "It suits two kinds of buyer. One is a Ryzen 7 3700X or Ryzen 9 3900X owner who is still running 16 GB of DDR4-3000 and wants a cheap boost before a [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) drop-in. The other is someone filling a B550 or X570 board for a budget gaming build. In both cases, 32 GB is the right amount in 2026.",
+      "The trade-offs are small. The 42 mm heatspreader is taller than the 34 mm Vengeance LPX, so check clearance under big dual-tower coolers. There is no RGB, which is the point. And DDR4 prices have climbed as memory makers shift production to DDR5, so check the live price before buying and avoid paying a premium for lit kits. Its closest rival is the [Trident Z Neo DDR4-3600 CL16](/gear/gskill-trident-z-neo-ddr4-3600-cl16/), the same speed and timings with RGB for about $20 more. The budget alternative is the [Vengeance LPX DDR4-3200](/gear/corsair-vengeance-lpx-ddr4-3200-cl16/)."
+    ],
+    "pros": [
+      "DDR4-3600 CL16, the AM4 sweet spot",
+      "1:1 Infinity Fabric at 1,800 MHz on most Ryzen 3000 and 5000 chips",
+      "No RGB premium",
+      "Big-brand kit at a fair price"
+    ],
+    "cons": [
+      "42 mm heatspreader taller than low-profile kits",
+      "DDR4 prices rising as production winds down",
+      "XMP-only, profile tuned for Intel naming"
+    ],
+    "extra": {
+      "heading": "Setting Up EXPO or XMP",
+      "body": [
+        "DDR4 kits use Intel XMP profiles, and AMD boards read them under their own names: D.O.C.P. on ASUS, A-XMP on MSI and XMP on Gigabyte and ASRock. Enable it in the BIOS to set DDR4-3600 CL16 at 1.35 V. Without it, the kit runs at a default of DDR4-2133 or 2400.",
+        "On Ryzen 3000 and 5000, check that the Infinity Fabric clock (FCLK) is 1,800 MHz, matching the 1,800 MHz memory clock for a 1:1 ratio. Most boards set this automatically with XMP, but some leave FCLK on a lower auto value. A few Ryzen 3000 chips cannot run FCLK 1800 stably; if so, drop to DDR4-3466 or 3400 with FCLK to match rather than running out of sync."
+      ],
+      "steps": [
+        ["Enable XMP or D.O.C.P.", "Select Profile 1 in the BIOS memory or overclocking menu."],
+        ["Set FCLK to 1800", "If it is not already, set the Infinity Fabric frequency to 1800 MHz."],
+        ["Save and test", "Boot to Windows and run a memory test such as MemTest86 or TestMem5 for stability."]
+      ]
+    },
+    "faqs": [
+      { "q": "Is DDR4-3600 CL16 still the best RAM for Ryzen 5000?", "a": "Yes. It lets most Ryzen 3000 and 5000 chips run the Infinity Fabric at 1,800 MHz in a 1:1 ratio, the best balance of latency and bandwidth." },
+      { "q": "Does the Ripjaws V work on AMD boards?", "a": "Yes. AMD boards read its XMP 2.0 profile as D.O.C.P. on ASUS, A-XMP on MSI, and XMP on Gigabyte and ASRock." },
+      { "q": "Why are DDR4 prices going up?", "a": "Memory makers are shifting production to DDR5 and newer memory types, so DDR4 supply has tightened. Check the live price before buying." }
+    ]
+  },
+  {
+    "id": "gskill-trident-z-neo-ddr4-3600-cl16",
+    "name": "G.Skill Trident Z Neo 32GB (2x16GB) DDR4-3600 CL16",
+    "short": "Trident Z Neo 3600",
+    "brand": "gskill",
+    "category": "memory",
+    "released": "2019",
+    "price": [90, 130],
+    "description": "The Trident Z Neo DDR4-3600 CL16 is the RGB pick for Ryzen 3000 and 5000: 32 GB at 1.35 V, built for Ryzen's 1:1 FCLK 1800, about $20 more than plain kits.",
+    "quick": "A 32 GB (2x16GB) DDR4-3600 CL16 kit that G.Skill designed and validated for Ryzen 3000, with RGB lighting, 1.35 V and a 44 mm heatspreader. It sells for about $90 to $130.",
+    "bestFor": "Ryzen 3000 and 5000 builds that want RGB memory at the AM4 sweet-spot speed",
+    "skipIf": "you do not need lighting, since the Ripjaws V gives the same speed for less",
+    "specs": [
+      ["Capacity", "32 GB (2x 16 GB)"],
+      ["Speed", "DDR4-3600"],
+      ["CAS latency", "CL16"],
+      ["Voltage", "1.35 V"],
+      ["Profile", "Intel XMP 2.0"],
+      ["Height", "44 mm"],
+      ["Type", "DDR4 UDIMM"],
+      ["Timings", "16-19-19-39"],
+      ["Lighting", "RGB light bar"]
+    ],
+    "score": {
+      "overall": 84,
+      "parts": [["Speed", 87], ["Compatibility", 91], ["Value", 77], ["Build", 87]]
+    },
+    "verdict": [
+      "G.Skill launched the Trident Z Neo in 2019 alongside Ryzen 3000, and it remains the RGB kit most tied to that platform. The DDR4-3600 CL16 version runs at 1.35 V with 16-19-19-39 timings, which on a Ryzen 9 3900X or 3950X means a 1:1 Infinity Fabric at 1,800 MHz. G.Skill validated it on AMD boards, so XMP tends to just work.",
+      "Performance is identical to the [Ripjaws V DDR4-3600 CL16](/gear/gskill-ripjaws-v-ddr4-3600-cl16/), which has the same rated speed and timings. The difference is the brushed aluminum heatspreader, the RGB light bar and about $20 more. For a build with a glass side and other lighting, that may be worth it. For anyone else, it is money better spent on storage.",
+      "Height is the other practical point. At 44 mm, it is 10 mm taller than the Vengeance LPX, which matters with dual-tower coolers that put a fan over the DIMM slots. For a 16-core 3950X, which benefits from more memory for rendering and compiling, G.Skill also sells this kit as 2x32GB; it is the cleaner path to 64 GB than four sticks. DDR4 prices have risen as production shifts to DDR5, so check the live price. The step-down is the [Vengeance LPX DDR4-3200](/gear/corsair-vengeance-lpx-ddr4-3200-cl16/) for builds where cost matters most."
+    ],
+    "pros": [
+      "DDR4-3600 CL16 validated for Ryzen",
+      "1:1 Infinity Fabric at 1,800 MHz",
+      "Premium heatspreader with RGB",
+      "Also sold in 2x32GB for 64 GB builds"
+    ],
+    "cons": [
+      "About $20 more than the Ripjaws V for the same speed",
+      "44 mm tall, check air cooler clearance",
+      "DDR4 prices climbing"
+    ],
+    "extra": {
+      "heading": "Setting Up EXPO or XMP",
+      "body": [
+        "Enable XMP in the BIOS; it appears as D.O.C.P. on ASUS boards and A-XMP on MSI boards. That sets DDR4-3600 CL16 at 1.35 V. Then check that the Infinity Fabric (FCLK) reads 1,800 MHz, matching the memory clock 1:1. If your board leaves it on a lower auto value, set it manually.",
+        "If you are adding this kit to a system with four DIMMs, expect to need DDR4-3200 or 3400 for stability on many Ryzen 3000 chips; two sticks at 3600 is the easier setup. For RGB control, use one app: either G.Skill's Trident Z Lighting Control or your board's software."
+      ],
+      "steps": [
+        ["Enable D.O.C.P. or A-XMP", "Choose Profile 1 in the BIOS memory menu."],
+        ["Match FCLK", "Set Infinity Fabric to 1800 MHz if it is not already."],
+        ["Stability check", "Run a memory test before gaming."],
+        ["Set lighting", "Use one RGB app to avoid conflicts."]
+      ]
+    },
+    "faqs": [
+      { "q": "Is the Trident Z Neo faster than the Ripjaws V?", "a": "No. Both are DDR4-3600 CL16 at 1.35 V with 16-19-19-39 timings. The Trident Z Neo adds RGB and a premium heatspreader." },
+      { "q": "Is the Trident Z Neo good for the Ryzen 9 3950X?", "a": "Yes. Its DDR4-3600 CL16 rating matches the 3950X's 1:1 Infinity Fabric at 1,800 MHz, and the 2x32GB version gives 64 GB for heavy workloads." },
+      { "q": "Does Trident Z Neo work on Intel?", "a": "Yes. It uses a standard XMP 2.0 profile, so Intel DDR4 boards enable it the same way." }
+    ]
+  },
+  {
+    "id": "corsair-vengeance-lpx-ddr4-3200-cl16",
+    "name": "Corsair Vengeance LPX 32GB (2x16GB) DDR4-3200 CL16",
+    "short": "Vengeance LPX 3200",
+    "brand": "corsair",
+    "category": "memory",
+    "price": [60, 100],
+    "description": "The Corsair Vengeance LPX DDR4-3200 CL16 is the safe budget DDR4 pick: 32 GB at 1.35 V with XMP and a 34 mm low profile that fits under any air cooler.",
+    "quick": "A 32 GB (2x16GB) DDR4-3200 CL16 kit with an XMP 2.0 profile, 1.35 V and a low 34 mm heatspreader. It sells for about $60 to $100 and is one of the most widely stocked DDR4 kits.",
+    "bestFor": "budget AM4 and Intel DDR4 builds, and anyone with a big air cooler over the DIMM slots",
+    "skipIf": "you can get DDR4-3600 CL16 for under $15 more on a Ryzen 3000 or 5000 build",
+    "specs": [
+      ["Capacity", "32 GB (2x 16 GB)"],
+      ["Speed", "DDR4-3200"],
+      ["CAS latency", "CL16"],
+      ["Voltage", "1.35 V"],
+      ["Profile", "Intel XMP 2.0"],
+      ["Height", "34 mm"],
+      ["Type", "DDR4 UDIMM"],
+      ["Lighting", "None"]
+    ],
+    "score": {
+      "overall": 80,
+      "parts": [["Speed", 78], ["Compatibility", 93], ["Value", 84], ["Build", 80]]
+    },
+    "verdict": [
+      "The Vengeance LPX has been a default DDR4 kit for years because it fits almost anywhere and almost always works. The 34 mm low-profile heatspreader slides under the front fan of any dual-tower air cooler, the XMP profile sets DDR4-3200 CL16 at 1.35 V, and it runs on AM4 boards, Intel 12th to 14th gen DDR4 boards and older systems alike.",
+      "The trade-off is speed on Ryzen. At DDR4-3200, Ryzen 3000 and 5000 run the Infinity Fabric at 1,600 MHz rather than the 1,800 MHz a 3600 kit allows. Independent reviews put the gaming gap at a few percent in CPU-limited games, not a dramatic difference, but if a DDR4-3600 CL16 kit like the [Ripjaws V](/gear/gskill-ripjaws-v-ddr4-3600-cl16/) costs less than $15 more, buy that instead for a Ryzen build. On Intel DDR4 platforms, 3200 CL16 is a fine target.",
+      "Its value case depends on the day's price. DDR4 has climbed as manufacturers shift production to DDR5, so check the live price and skip the Vengeance RGB Pro variants unless you want lighting. The closest rival at JEDEC speeds is the [Crucial Pro DDR4-3200](/gear/crucial-pro-ddr4-3200/), which needs no XMP but runs looser CL22 timings. The step-up for Ryzen is the Ripjaws V DDR4-3600 CL16."
+    ],
+    "pros": [
+      "34 mm low profile clears any air cooler",
+      "Broad compatibility on AMD and Intel",
+      "1.35 V XMP profile is easy to enable",
+      "Widely stocked"
+    ],
+    "cons": [
+      "DDR4-3200 leaves Ryzen's Infinity Fabric at 1,600 MHz",
+      "A 3600 CL16 kit is often only a little more",
+      "DDR4 prices rising"
+    ],
+    "extra": {
+      "heading": "Setting Up EXPO or XMP",
+      "body": [
+        "Enable XMP in the BIOS, called D.O.C.P. on ASUS and A-XMP on MSI, to run the kit at DDR4-3200 CL16. Without it, the kit runs at DDR4-2133 or 2400 by default, a common reason new builds feel slower than expected.",
+        "On Ryzen 3000 and 5000, DDR4-3200 pairs with a 1,600 MHz Infinity Fabric clock (FCLK) in a 1:1 ratio, which most boards set automatically. Some owners raise this kit to DDR4-3600 manually, but that is not guaranteed; stay at the rated 3200 unless you are comfortable testing stability."
+      ],
+      "steps": [
+        ["Enable XMP", "Select Profile 1 in the BIOS memory settings."],
+        ["Check FCLK", "Confirm the Infinity Fabric reads 1600 MHz on Ryzen."],
+        ["Verify in Windows", "Task Manager should show 3200 MT/s under Memory."]
+      ]
+    },
+    "faqs": [
+      { "q": "Is DDR4-3200 CL16 good enough for Ryzen 5000?", "a": "Yes, but 3600 CL16 is a little better. 3200 sets the Infinity Fabric to 1,600 MHz instead of 1,800 MHz, a gap of a few percent in CPU-limited games." },
+      { "q": "Will Vengeance LPX fit under my Noctua NH-D15 G2?", "a": "Yes. At 34 mm, it is low enough to clear the front fan of large dual-tower coolers." },
+      { "q": "Does Vengeance LPX work with Intel 12th to 14th gen?", "a": "Yes, on DDR4 motherboards. Those CPUs support DDR4 or DDR5 depending on the board, so check yours." }
+    ]
+  },
+  {
+    "id": "crucial-pro-ddr4-3200",
+    "name": "Crucial Pro 32GB (2x16GB) DDR4-3200 CL22",
+    "short": "Crucial Pro 3200",
+    "brand": "crucial",
+    "category": "memory",
+    "released": "2023",
+    "price": [55, 90],
+    "description": "The Crucial Pro DDR4-3200 CL22 is the plug-and-play DDR4 pick: 32 GB that runs 3200 at a JEDEC 1.2 V with no BIOS changes, but CL22 is slow for gaming.",
+    "quick": "A 32 GB (2x16GB) DDR4-3200 kit that runs at its rated speed using standard JEDEC timings of 22-22-22 at 1.2 V, so it needs no XMP. It sells for about $55 to $90.",
+    "bestFor": "office PCs, upgrades to prebuilt systems and anyone who will never open the BIOS",
+    "skipIf": "you are building a gaming PC on Ryzen, where a CL16 kit is worth the small premium",
+    "specs": [
+      ["Capacity", "32 GB (2x 16 GB)"],
+      ["Speed", "DDR4-3200"],
+      ["CAS latency", "CL22"],
+      ["Voltage", "1.2 V"],
+      ["Profile", "None needed (JEDEC)"],
+      ["Type", "DDR4 UDIMM"],
+      ["Timings", "22-22-22"],
+      ["Warranty", "Limited lifetime"]
+    ],
+    "score": {
+      "overall": 74,
+      "parts": [["Speed", 66], ["Compatibility", 95], ["Value", 80], ["Build", 72]]
+    },
+    "verdict": [
+      "The Crucial Pro DDR4-3200 solves a different problem from the other kits here. It runs at DDR4-3200 using standard JEDEC timings at 1.2 V, so on a board and CPU that support 3200 it reaches full speed with no XMP, no BIOS menu and no stability testing. That makes it the safest pick for prebuilt and office PCs, especially machines with locked-down BIOS options.",
+      "The cost is latency. CL22 is far looser than the CL16 of the [Vengeance LPX](/gear/corsair-vengeance-lpx-ddr4-3200-cl16/), and Ryzen gaming systems are sensitive to memory latency. For a gaming build on a B550 or X570 board, a CL16 kit at 3200 or 3600 is the better buy. Also note that on older platforms whose official limit is below 3200, such as Ryzen 2000, the board may run it at a lower default speed.",
+      "Where it shines is simplicity and support. Crucial is Micron's consumer brand, and it covers this kit with a limited lifetime warranty. Prices for DDR4 have risen as makers shift to DDR5, so check the live price; if a CL16 3200 kit is within $10, take the faster one unless the no-BIOS setup is what you need. Its closest rival for plug-and-play use is Kingston's ValueRAM line; for gaming, step up to the [Ripjaws V DDR4-3600 CL16](/gear/gskill-ripjaws-v-ddr4-3600-cl16/)."
+    ],
+    "pros": [
+      "Runs DDR4-3200 without XMP on supported systems",
+      "Low 1.2 V",
+      "Ideal for prebuilt and office upgrades",
+      "Limited lifetime warranty"
+    ],
+    "cons": [
+      "CL22 timings are slow for Ryzen gaming",
+      "May run below 3200 on older platforms",
+      "CL16 kits often cost only a little more"
+    ],
+    "extra": {
+      "heading": "Setting Up EXPO or XMP",
+      "body": [
+        "This kit needs no XMP or EXPO profile. On a motherboard and CPU that officially support DDR4-3200, such as Ryzen 3000 and 5000 or Intel 12th to 14th gen DDR4 systems, it runs at 3200 automatically. Check the speed in the BIOS or Windows Task Manager after installing.",
+        "On Ryzen 3000 and 5000, DDR4-3200 runs the Infinity Fabric (FCLK) at 1,600 MHz in a 1:1 ratio, which boards set by default. If the system reports a lower speed, update the BIOS first; on platforms with an official limit below 3200, the lower speed is expected."
+      ],
+      "steps": [
+        ["Install two sticks", "Use the slots the manual marks for two-DIMM setups, usually A2 and B2."],
+        ["Boot normally", "No BIOS changes are needed on supported platforms."],
+        ["Confirm 3200", "Check the reported speed in the BIOS or Task Manager."]
+      ]
+    },
+    "faqs": [
+      { "q": "Do I need to enable XMP on Crucial Pro DDR4-3200?", "a": "No. It runs at DDR4-3200 using standard JEDEC settings on platforms that support that speed, with no BIOS changes." },
+      { "q": "Is Crucial Pro DDR4-3200 good for gaming?", "a": "It works, but CL22 adds latency that Ryzen gaming builds notice. A CL16 kit at 3200 or 3600 is a better gaming buy." },
+      { "q": "Will Crucial Pro upgrade my prebuilt PC?", "a": "Usually yes. Because it needs no XMP, it suits prebuilt systems with limited BIOS options. Check that your PC uses DDR4 desktop DIMMs." }
+    ]
+  }
+]

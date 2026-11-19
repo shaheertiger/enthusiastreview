@@ -1,8 +1,11 @@
 /**
  * Vercel Routing Middleware.
  *
- * 1. Old site: the domain used to host a PC-gaming site (GPU bottleneck finder, PSU/RAM/case
- *    lists). Those URLs answer 410 Gone so search engines drop them faster than a 404.
+ * 1. Old URLs. From Nov 5-19 2026 the domain hosted dehumidifier guides under /best/, /guides/
+ *    and six /compare/*-dehumidifier pages; those answer 410 Gone (off-topic for a PC hardware
+ *    site) so search engines drop them faster than a 404. The Nov 2026 GPU bottleneck finder
+ *    pages (/best-gpu-for-<cpu>/) 301 to the bottleneck calculator. The 2019-2020 PC guides that
+ *    still had rankings are live again at their original URLs; the rest 301 in vercel.json.
  *
  * 2. Dualmark / AEO (https://dualmark.dev, AEO spec 1.0): every page has a Markdown twin,
  *    written into dist/ by scripts/build-markdown.mjs.
@@ -24,11 +27,14 @@ export const config = {
   matcher: ['/((?!_astro/|_vercel/|.*\\.(?:css|js|mjs|png|jpe?g|gif|webp|avif|svg|ico|woff2?|txt|xml|json|map)$).*)'],
 };
 
-const GONE = /^\/(?:best-gpu-for-.+|best-graphics-card-.+|gpu-bottleneck-calculator|bottleneck-calculator|how-to-overclock-a-gpu|best-cpu-cooler-.+|best-psu-.+|best-power-supply-.+|best-pc-cases-.+|best-ram-.+|best-motherboard-.+|how-to-benchmark-.+|how-to-get-windows-.+|how-to-choose-best-drone-.+|methodology|og)(?:\/.*)?$/;
+const GONE = /^\/(?:best|guides)(?:\/.*)?$|^\/compare\/(?:alorair\-vs\-aprilaire\-dehumidifier|amana\-vs\-friedrich\-dehumidifier|aprilaire\-vs\-santa\-fe\-dehumidifier|frigidaire\-vs\-honeywell\-dehumidifier|haier\-vs\-ge\-dehumidifier|midea\-vs\-frigidaire\-dehumidifier)(?:\/|\.md)?$|^\/authors\/home-air-desk(?:\/|\.md)?$|^\/(?:how-to-overclock-a-gpu|how-to-benchmark-.+|how-to-get-windows-.+|how-to-choose-best-drone-.+|methodology|og)(?:\/.*)?$/;
+// The Nov 2026 bottleneck-finder pages, except the 2020 guide that is live again and the one
+// vercel.json redirects to /best-graphics-card/.
+const BOTTLENECK = /^\/best-gpu-for-(?!(?:ryzen-5-2600-and-3600|ryzen-9-3900x-and-3950x)(?:\/|\.md)?$)[a-z0-9-]+(?:\/|\.md)?$/;
 const GONE_HTML =
   '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page removed | Enthusiast Review</title></head>' +
   '<body style="font-family:system-ui,sans-serif;max-width:640px;margin:auto;padding:32px 16px;color:#1f1f1f">' +
-  '<h1>This page has been removed</h1><p>Enthusiast Review now covers dehumidifiers. Start with <a href="/best/best-dehumidifier/">the best dehumidifiers</a> or browse <a href="/best/">every guide</a>.</p></body></html>';
+  '<h1>This page has been removed</h1><p>Enthusiast Review covers PC hardware. Start with <a href="/best-of/">every best list</a>, <a href="/gear/">the parts we track</a> or the <a href="/tools/bottleneck-calculator/">bottleneck calculator</a>.</p></body></html>';
 
 // Marks the middleware's own request for a static .md file so it isn't handled twice.
 const INTERNAL = 'x-markdown-internal';
@@ -90,6 +96,9 @@ export default async function middleware(request) {
   const { pathname } = new URL(request.url);
   const { method } = request;
 
+  if (BOTTLENECK.test(pathname)) {
+    return Response.redirect(new URL('/tools/bottleneck-calculator/', 'https://www.enthusiastreview.com'), 301);
+  }
   if (GONE.test(pathname)) {
     return new Response(method === 'HEAD' ? null : GONE_HTML, { status: 410, headers: { 'content-type': 'text/html; charset=utf-8', 'x-robots-tag': 'noindex' } });
   }

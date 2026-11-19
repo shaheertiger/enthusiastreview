@@ -1,0 +1,682 @@
+[
+  {
+    "id": "tdp",
+    "term": "TDP",
+    "title": "What Is TDP? CPU and GPU Power Ratings Explained",
+    "short": "TDP (thermal design power) is the heat, in watts, a chip maker says a cooler must handle at base settings. It guides cooler choice, not exact power draw.",
+    "body": [
+      "TDP stands for thermal design power. It is a number in watts that a CPU or GPU maker publishes to tell cooler designers and system builders how much heat the chip produces under a defined workload. It is a cooling target, not a precise measure of how much power the chip pulls from the wall, and each company defines it a little differently.",
+      "That difference matters. AMD rates the Ryzen 7 9800X3D at 120 W TDP, but its socket power limit, called PPT, is higher, so the chip can briefly draw more. Intel lists the Core Ultra 7 265K at 125 W base power and up to 250 W maximum turbo power, which means the chip can draw twice its base rating during heavy all-core work if the motherboard and cooler allow it. On graphics cards, NVIDIA and AMD usually quote total board power instead, such as 250 W for the RTX 5070.",
+      "Here is a worked example. Say you pair a Ryzen 5 9600X, rated at 65 W, with an RX 9070 rated at 220 W. Add roughly 50 to 75 W for the motherboard, RAM, drives and fans, and the system lands around 335 to 360 W under a heavy gaming load. A quality 650 W power supply covers that with plenty of headroom for short power spikes.",
+      "Use TDP to pick a cooler with enough capacity, and use the maker's power limits and board power figures to size your power supply. A cooler rated well above the TDP will run quieter, since its fans can spin slower."
+    ],
+    "aliases": [
+      "thermal design power",
+      "tdp rating",
+      "processor base power"
+    ],
+    "related": [
+      "vrm",
+      "aio-cooler",
+      "heat-pipes",
+      "80-plus"
+    ],
+    "guides": [
+      "best-cpu-cooler",
+      "best-cpu-cooler-for-ryzen-7-9800x3d",
+      "best-power-supply"
+    ]
+  },
+  {
+    "id": "vram",
+    "term": "VRAM",
+    "title": "What Is VRAM? How Much Video Memory You Need",
+    "short": "VRAM is the graphics card's own memory for textures and frame data. In 2026, 8 GB is tight at 1080p, 12 GB suits 1440p, and 16 GB gives the most headroom.",
+    "body": [
+      "VRAM, or video memory, is the fast memory soldered onto a graphics card. It holds the textures, geometry, shadow maps and frame buffers the GPU needs to draw each frame. Modern cards use GDDR6 or GDDR7, and the amount is fixed: you cannot add more later.",
+      "When a game needs more VRAM than the card has, data spills into slower system memory over the PCIe bus. The result is not a gentle drop in frame rate but stutter, textures that load late or look blurry, and sometimes crashes. Higher resolutions, maximum texture settings, ray tracing and frame generation all raise VRAM use.",
+      "A worked example: the RTX 5060 has 8 GB, the Arc B580 has 12 GB, and the RX 9060 XT 16GB has 16 GB. If a new game uses about 9 to 10 GB at 1080p with high textures, the RTX 5060 runs out and needs medium textures, while the other two cards keep high settings. At 1440p with ultra textures and ray tracing, a few demanding titles already pass 12 GB, which is where 16 GB cards like the RX 9070 earn their place.",
+      "Bus width and memory speed matter too. A 256-bit bus with GDDR6 can move more data per second than a 128-bit bus with the same memory. Capacity sets how much fits, and bandwidth sets how fast the GPU can use it."
+    ],
+    "aliases": [
+      "video memory",
+      "video ram",
+      "gddr7",
+      "gddr6",
+      "graphics memory"
+    ],
+    "related": [
+      "resizable-bar",
+      "pcie-5-0",
+      "frame-generation",
+      "ray-tracing"
+    ],
+    "guides": [
+      "best-graphics-card",
+      "best-budget-graphics-card",
+      "best-graphics-card-for-1440p"
+    ]
+  },
+  {
+    "id": "cpu-bottleneck",
+    "term": "CPU Bottleneck",
+    "title": "What Is a CPU Bottleneck? When Your Processor Limits FPS",
+    "short": "A CPU bottleneck happens when the processor cannot prepare frames as fast as the graphics card draws them, so FPS stops rising even with a faster GPU.",
+    "body": [
+      "Every frame in a game needs work from both the CPU and the GPU. The CPU runs game logic, physics, AI and draw calls, then hands the frame to the GPU to render. If the CPU takes longer per frame than the GPU, the GPU sits partly idle and the CPU sets the frame rate. That is a CPU bottleneck.",
+      "Bottlenecks depend on resolution and settings. At 1080p, the GPU finishes each frame quickly, so the CPU is more likely to be the limit. At 4K, the GPU has far more pixels to draw and usually becomes the limit instead. Simulators, strategy games and large multiplayer titles lean harder on the CPU than most shooters.",
+      "A worked example: suppose your CPU can prepare 110 frames per second in a game, and your old GPU can render 80. You get about 80 FPS, limited by the GPU. Upgrade to a GPU that can render 160, and you get about 110, not 160, because the CPU now caps it. Moving to a faster CPU, such as from a Ryzen 5 3600 to a Ryzen 7 5700X3D on the same AM4 board, raises that ceiling.",
+      "A quick check: if GPU usage in a monitoring overlay sits well below 95 percent while frame rates disappoint, and lowering resolution does not raise FPS, the CPU is probably the limit. Driver overhead can make this worse, which is why the Arc B580 loses more performance on older CPUs."
+    ],
+    "aliases": [
+      "cpu bottleneck",
+      "cpu bottlenecking",
+      "cpu-limited",
+      "cpu bound"
+    ],
+    "related": [
+      "3d-v-cache",
+      "resizable-bar",
+      "frame-generation"
+    ],
+    "guides": [
+      "best-gpu-for-ryzen-5-2600-and-3600",
+      "best-cpu-for-gaming"
+    ]
+  },
+  {
+    "id": "80-plus",
+    "term": "80 Plus",
+    "title": "What Is 80 Plus? PSU Efficiency Ratings Explained",
+    "short": "80 Plus is an efficiency certification for power supplies. Gold units must convert about 87 to 90 percent of wall power into usable DC power at typical loads.",
+    "body": [
+      "80 Plus is a certification program for computer power supplies. A unit earns a tier, from White through Bronze, Silver, Gold and Platinum up to Titanium, by meeting minimum efficiency targets at set fractions of its rated load. Efficiency is how much of the power drawn from the wall reaches your components as usable DC power. The rest turns into heat.",
+      "For a 115 V US unit, Gold requires about 87 percent efficiency at 20 percent load, 90 percent at 50 percent load and 87 percent at full load. Platinum and Titanium raise those floors. Higher efficiency means less heat inside the PSU, which lets the fan run slower and quieter.",
+      "A worked example: a gaming PC that needs 450 W of DC power, running through a Gold PSU at 90 percent efficiency, draws 450 / 0.90 = 500 W from the wall. The same load on an 80 percent efficient unit draws about 563 W. The 63 W difference, at four hours of gaming a day and 15 cents per kWh, costs roughly $14 a year.",
+      "80 Plus measures efficiency only. It says nothing about voltage regulation, ripple, protection features, fan quality or build. Two Gold units can differ widely in quality, so read independent reviews too. Most good gaming PSUs today, such as the Corsair RM850x and Seasonic Focus GX-850, are Gold rated, which is the sweet spot for price and efficiency."
+    ],
+    "aliases": [
+      "80 plus gold",
+      "80+ gold",
+      "80 plus platinum",
+      "80 plus bronze",
+      "80 plus titanium",
+      "80 plus certification"
+    ],
+    "related": [
+      "atx-3-1",
+      "12v-2x6",
+      "tdp"
+    ],
+    "guides": [
+      "best-power-supply",
+      "best-psu-under-100",
+      "best-psu-for-rtx-2080-and-2080-ti"
+    ]
+  },
+  {
+    "id": "atx-3-1",
+    "term": "ATX 3.1",
+    "title": "What Is ATX 3.1? The Modern PSU Standard Explained",
+    "short": "ATX 3.1 is Intel's 2023 power supply standard. It sets rules for riding out short GPU power spikes and specifies the safer 12V-2x6 connector for new cards.",
+    "body": [
+      "ATX 3.1 is a revision of Intel's ATX power supply design guide. It builds on ATX 3.0, which added two big changes for modern graphics cards: a native high-power GPU connector and stricter requirements for surviving short power excursions, the brief spikes a GPU can draw above its rated power.",
+      "ATX 3.1 replaced the original 12VHPWR connector spec with 12V-2x6, which uses shorter sense pins and longer power pins. The goal is that the card only draws full power when the plug is fully seated, which reduces the risk of a melted connector from a partial insertion. ATX 3.1 also relaxed one of ATX 3.0's hold-up time requirements.",
+      "A worked example of the power excursion rule: under ATX 3.x, a PSU must handle brief spikes up to 200 percent of its rated output for very short periods. An 850 W ATX 3.1 unit such as the Corsair RM850x is designed to ride out a split-second spike toward 1,700 W without shutting down. Older units without that design could trip their protection when a high-end GPU spiked, causing a sudden reboot during a game.",
+      "Do you need ATX 3.1? Not strictly. An older quality PSU with enough wattage and the right adapter can run a modern GPU. But for a new build with an RTX 50 series card, an ATX 3.1 unit with a native 12V-2x6 cable is the simplest, tidiest and safest choice."
+    ],
+    "aliases": [
+      "atx 3.1",
+      "atx 3.0",
+      "atx 3.x",
+      "atx3.1"
+    ],
+    "related": [
+      "12v-2x6",
+      "80-plus",
+      "tdp"
+    ],
+    "guides": [
+      "best-power-supply",
+      "best-psu-under-100",
+      "best-psu-for-rtx-2080-and-2080-ti"
+    ]
+  },
+  {
+    "id": "12v-2x6",
+    "term": "12V-2x6",
+    "title": "What Is 12V-2x6? The 16-Pin GPU Power Connector",
+    "short": "12V-2x6 is the 16-pin power connector on modern NVIDIA cards. One cable carries up to 600 W, and its revised pins help prevent melting from a loose plug.",
+    "body": [
+      "12V-2x6 is a 16-pin graphics card power connector: twelve power pins plus four small sense pins. It replaced the earlier 12VHPWR design in 2023 and is part of the ATX 3.1 standard. NVIDIA's RTX 50 series cards use it, and some AMD partner cards do too, though most Radeon RX 9070 XT models still use standard 8-pin plugs.",
+      "The physical plug looks almost the same as 12VHPWR, and the cables are generally cross-compatible. The change is in the pins: the sense pins are shorter and the power pins longer. If the plug is not fully seated, the sense pins lose contact first and the card limits its power draw, rather than pushing full current through a poor connection that could overheat.",
+      "A worked example: a single 12V-2x6 cable is rated for up to 600 W. The RTX 5090 is rated at 575 W, so it needs essentially the full capacity of one cable. By comparison, each standard 8-pin PCIe connector is rated for 150 W, so delivering the same 600 W the old way would take four 8-pin plugs.",
+      "Installation tips: push the plug in until it clicks and no gap shows, avoid bending the cable sharply within about 35 mm of the connector, and use the native cable from an ATX 3.1 PSU rather than an adapter when you can."
+    ],
+    "aliases": [
+      "12v-2x6",
+      "12vhpwr",
+      "16-pin connector",
+      "16-pin power connector",
+      "12v 2x6"
+    ],
+    "related": [
+      "atx-3-1",
+      "80-plus",
+      "tdp"
+    ],
+    "guides": [
+      "best-power-supply",
+      "best-graphics-card",
+      "best-psu-for-rtx-2080-and-2080-ti"
+    ]
+  },
+  {
+    "id": "amd-expo",
+    "term": "AMD EXPO",
+    "title": "What Is AMD EXPO? One-Click DDR5 Memory Profiles",
+    "short": "AMD EXPO is a memory profile stored on DDR5 modules. Enabling it in BIOS runs the RAM at its rated speed, like DDR5-6000 CL30, instead of the slow default.",
+    "body": [
+      "EXPO stands for Extended Profiles for Overclocking. It is AMD's standard for storing tested speed, timing and voltage settings on DDR5 memory modules. Without it, DDR5 runs at a conservative default speed set by JEDEC, often DDR5-4800. Turning on EXPO in your motherboard's BIOS loads the faster settings the memory maker validated.",
+      "EXPO is AMD's answer to Intel's XMP. Many AM5 boards can read XMP profiles too, and many Intel boards can read EXPO, but kits labeled for your platform are the simplest path. EXPO is an open standard, so the profile data can be inspected.",
+      "A worked example: a G.Skill Flare X5 DDR5-6000 CL30 kit boots at its default speed out of the box. Enable EXPO, and it runs at 6,000 MT/s with CAS latency 30 at 1.35 V. On an AM5 CPU like the Ryzen 7 9800X3D, DDR5-6000 lets the memory controller run at a 1:1 ratio with the memory clock, at 3,000 MHz, which is the sweet spot for gaming performance.",
+      "The first boot after enabling EXPO can take longer than usual, sometimes a minute or more, while the board trains the memory. That is normal. If the system will not boot, clear CMOS and try a BIOS update. Running memory at its EXPO speed is supported by AMD, though technically it is still an overclock of the memory itself."
+    ],
+    "aliases": [
+      "amd expo",
+      "expo profile",
+      "extended profiles for overclocking"
+    ],
+    "related": [
+      "intel-xmp",
+      "cas-latency",
+      "infinity-fabric"
+    ],
+    "guides": [
+      "best-ram-for-gaming",
+      "best-am5-motherboard"
+    ]
+  },
+  {
+    "id": "intel-xmp",
+    "term": "Intel XMP",
+    "title": "What Is Intel XMP? Memory Profiles for Rated RAM Speed",
+    "short": "Intel XMP (Extreme Memory Profile) stores tested speed and timing settings on RAM. Turn it on in BIOS to run memory at its rated speed, not a slow default.",
+    "body": [
+      "XMP stands for Extreme Memory Profile. Intel created it so memory makers could store faster, tested settings on a module alongside the standard JEDEC defaults. Without XMP enabled, RAM runs at the safe default speed. Enable XMP in BIOS, and the board applies the speed, timings and voltage printed on the box.",
+      "XMP 2.0 covers DDR4, and XMP 3.0 covers DDR5 with more profiles and room for user-saved settings. Most AMD boards can read XMP as well, often under a feature name like DOCP or as a direct XMP option, which is how DDR4 kits built for Intel work in Ryzen systems.",
+      "A worked example: a Corsair Vengeance LPX DDR4-3200 CL16 kit boots at DDR4-2133 by default. Enable XMP and it runs at 3,200 MT/s with CL16 at 1.35 V. That is a 50 percent increase in memory bandwidth from one BIOS setting, and it can noticeably raise frame rates in CPU-bound games.",
+      "Not every kit will run its XMP speed on every board and CPU, especially with four sticks installed. If you see instability, try a BIOS update, then drop one speed step. Many people buy a fast kit and never enable XMP, leaving free performance unused, so check your BIOS after any new build."
+    ],
+    "aliases": [
+      "intel xmp",
+      "xmp profile",
+      "xmp 3.0",
+      "xmp 2.0",
+      "extreme memory profile",
+      "docp"
+    ],
+    "related": [
+      "amd-expo",
+      "cas-latency",
+      "infinity-fabric"
+    ],
+    "guides": [
+      "best-ram-for-gaming",
+      "best-ram-for-ryzen-9-3900x-and-3950x"
+    ]
+  },
+  {
+    "id": "cas-latency",
+    "term": "CAS Latency",
+    "title": "What Is CAS Latency? RAM Timings and CL Explained",
+    "short": "CAS latency (CL) is how many clock cycles RAM takes to return data after a request. Lower is better, but true latency depends on both CL and memory speed.",
+    "body": [
+      "CAS latency, written as CL, is the most quoted memory timing. CAS stands for column address strobe. The number is how many memory clock cycles pass between the controller asking for data and the module starting to send it. A lower CL means fewer cycles to wait.",
+      "CL alone is misleading, because each cycle's length depends on memory speed. Faster memory has shorter cycles, so a higher CL at a higher speed can deliver the same true latency in nanoseconds. That is why DDR5 kits list CL values that look high compared with DDR4.",
+      "A worked example: true latency in nanoseconds equals CL times 2,000 divided by the speed in MT/s. DDR4-3600 CL16 works out to 16 x 2,000 / 3,600 = 8.9 ns. DDR5-6000 CL30 is 30 x 2,000 / 6,000 = 10 ns. DDR5-6000 CL36 is 12 ns. So DDR5-6000 CL30 has slightly higher true latency than good DDR4, but nearly double the bandwidth, which is why it is faster overall in modern games.",
+      "CAS latency is one of many timings. Others, such as tRCD and tRP, also affect performance. For AM5 gaming builds, DDR5-6000 CL30 is the common sweet spot. For older Ryzen 3000 systems on DDR4, DDR4-3600 CL16 is the equivalent."
+    ],
+    "aliases": [
+      "cas latency",
+      "cl30",
+      "cl16",
+      "cl36",
+      "memory timings",
+      "ram timings"
+    ],
+    "related": [
+      "amd-expo",
+      "intel-xmp",
+      "infinity-fabric"
+    ],
+    "guides": [
+      "best-ram-for-gaming",
+      "best-ram-for-ryzen-9-3900x-and-3950x"
+    ]
+  },
+  {
+    "id": "infinity-fabric",
+    "term": "Infinity Fabric",
+    "title": "What Is Infinity Fabric? AMD FCLK and RAM Ratios",
+    "short": "Infinity Fabric is AMD's internal link between CPU chiplets, the memory controller and I/O. Its clock ties to RAM speed, which is why Ryzen favors some kits.",
+    "body": [
+      "Infinity Fabric is the interconnect AMD uses inside Ryzen processors. It links the core chiplets to the I/O die, which contains the memory controller, PCIe lanes and other connections. Its clock is called FCLK. Because data from memory has to cross the fabric to reach the cores, the relationship between fabric speed and memory speed affects latency.",
+      "On Ryzen 3000 and 5000 CPUs with DDR4, the best results come when FCLK runs 1:1 with the memory clock. DDR4-3600 has a memory clock of 1,800 MHz, so FCLK 1,800 MHz keeps things synchronized. Most chips of that generation can run FCLK 1,800 reliably, which is why DDR4-3600 CL16 became the sweet spot for the Ryzen 9 3900X and 3950X.",
+      "A worked example for AM5: DDR5-6000 has a memory clock of 3,000 MHz. On Ryzen 7000 and 9000 CPUs, the key ratio is between the memory controller clock, UCLK, and the memory clock, which should be 1:1 at 3,000 MHz. FCLK typically runs around 2,000 MHz on these chips and is decoupled from memory speed. Pushing to DDR5-8000 often forces UCLK to half speed, which adds latency and can erase the gain.",
+      "In short, AMD platforms reward picking a memory speed that keeps the controller and fabric in their efficient ratios rather than chasing the highest number on the box."
+    ],
+    "aliases": [
+      "infinity fabric",
+      "fclk",
+      "fabric clock",
+      "uclk"
+    ],
+    "related": [
+      "amd-expo",
+      "cas-latency",
+      "3d-v-cache"
+    ],
+    "guides": [
+      "best-ram-for-ryzen-9-3900x-and-3950x",
+      "best-ram-for-gaming"
+    ]
+  },
+  {
+    "id": "pcie-5-0",
+    "term": "PCIe 5.0",
+    "title": "What Is PCIe 5.0? Bandwidth for GPUs and SSDs Explained",
+    "short": "PCIe 5.0 is the fifth generation of PCI Express. It doubles per-lane bandwidth over PCIe 4.0 to about 4 GB/s, or about 64 GB/s for a full x16 slot.",
+    "body": [
+      "PCI Express is the interface that connects graphics cards, SSDs and expansion cards to the CPU and chipset. Each generation roughly doubles the bandwidth per lane, and slots come in widths like x4, x8 and x16. PCIe 5.0 runs at 32 GT/s per lane, about 4 GB/s in each direction.",
+      "For graphics cards, PCIe 5.0 adds little today. Even top cards lose only a small amount of performance at PCIe 4.0 x16. The width matters more on cheaper cards: the RTX 5060 and RTX 5060 Ti use only eight lanes, so on an older PCIe 3.0 board they get a quarter of their designed bandwidth, which can cost a few percent, more when VRAM runs out.",
+      "A worked example: a PCIe 5.0 x4 SSD slot offers about 16 GB/s. The Samsung 9100 Pro is rated at 14,700 MB/s reads, which needs that headroom. A PCIe 4.0 x4 slot offers about 8 GB/s, enough for drives like the Samsung 990 Pro at 7,450 MB/s. Put the 9100 Pro in a PCIe 4.0 slot and it works, but tops out around PCIe 4.0 speeds.",
+      "All generations are backward and forward compatible: any PCIe card works in any PCIe slot of the right physical size, at the lower of the two generations. On AM5, X870 boards typically offer PCIe 5.0 for the GPU slot, while many B650 boards keep the GPU at PCIe 4.0 and may add one PCIe 5.0 M.2 slot."
+    ],
+    "aliases": [
+      "pcie 5.0",
+      "pcie gen 5",
+      "pci express 5.0",
+      "pcie 4.0",
+      "pcie 3.0",
+      "gen 5 ssd"
+    ],
+    "related": [
+      "nvme",
+      "chipset",
+      "vram",
+      "dram-cache"
+    ],
+    "guides": [
+      "best-ssd-for-gaming",
+      "best-am5-motherboard",
+      "best-gpu-for-ryzen-5-2600-and-3600"
+    ]
+  },
+  {
+    "id": "aio-cooler",
+    "term": "AIO Cooler",
+    "title": "What Is an AIO Cooler? All-in-One Liquid Cooling Explained",
+    "short": "An AIO cooler is a sealed liquid loop: a pump block on the CPU, tubes and a fan-cooled radiator. It moves heat to the case edge but adds a pump that can fail.",
+    "body": [
+      "AIO stands for all-in-one. An AIO liquid cooler is a closed loop filled at the factory: a cold plate and pump sit on the CPU, two tubes carry coolant to a radiator, and fans on the radiator push the heat out of the case. You install it like any cooler and never refill it.",
+      "AIOs are sized by radiator length: 240 mm for two 120 mm fans, 280 mm for two 140 mm fans and 360 mm for three 120 mm fans. Bigger radiators shed more heat at a given fan speed. The main benefits are headroom for hot CPUs during long loads, no tall tower blocking RAM, and a clean look. The trade-offs are cost, pump noise in quiet rooms, and a pump that can eventually wear out.",
+      "A worked example: a Ryzen 9 9950X3D is rated at 170 W and can sustain that during long renders. A 360 mm AIO like the Arctic Liquid Freezer III Pro 360 spreads the heat across a radiator with three fans, which lets each fan run slower than a dual-tower air cooler would need. For a 120 W Ryzen 7 9800X3D used for gaming, a $40 dual-tower air cooler already handles the load, so the AIO's advantage is much smaller.",
+      "Mount the radiator so the pump is not the highest point in the loop. Top mounting or front mounting with the tubes at the bottom avoids air collecting in the pump, which causes noise and poor cooling."
+    ],
+    "aliases": [
+      "aio cooler",
+      "aio liquid cooler",
+      "all-in-one liquid cooler",
+      "360 mm aio",
+      "240 mm aio",
+      "closed-loop cooler"
+    ],
+    "related": [
+      "heat-pipes",
+      "static-pressure",
+      "tdp",
+      "vrm"
+    ],
+    "guides": [
+      "best-cpu-cooler",
+      "best-cpu-cooler-for-ryzen-7-9800x3d",
+      "best-cpu-cooler-for-ryzen-9-3900x-and-3950x"
+    ]
+  },
+  {
+    "id": "heat-pipes",
+    "term": "Heat Pipes",
+    "title": "What Are Heat Pipes? How Air CPU Coolers Move Heat",
+    "short": "Heat pipes are sealed copper tubes in air coolers that move heat from the CPU base to the fins by evaporating and condensing a small amount of liquid inside.",
+    "body": [
+      "A heat pipe is a sealed copper tube with a small amount of liquid inside and a wick structure along its walls. At the hot end, over the CPU, the liquid evaporates and carries heat as vapor to the cooler end in the fin stack. There it condenses, releases the heat into the fins, and wicks back to the base. The cycle repeats with no moving parts.",
+      "Heat pipes are the reason a tower cooler can move heat far from the CPU and spread it across dozens of thin aluminum fins, where fans carry it away. More pipes, thicker pipes and better contact with the CPU all help, but pipe count is only one factor. Fin area, fan quality and base design matter just as much.",
+      "A worked example: the Thermalright Assassin X 120 Refined SE uses 4 heat pipes in a single tower, the Peerless Assassin 120 SE uses 6 across two towers, and the Noctua NH-D15 G2 uses 8 across two larger towers. For a 65 W Ryzen 5 9600X, 4 pipes are enough. For a 170 W Ryzen 9 9950X3D under long loads, 6 to 8 pipes and dual towers keep temperatures and fan noise lower.",
+      "Most budget coolers use direct-contact bases, where the flattened heat pipes touch the CPU directly. Premium coolers often use a solid nickel-plated copper base. Both approaches work well when the pipes are matched to the CPU's heat spreader size."
+    ],
+    "aliases": [
+      "heat pipes",
+      "heat pipe",
+      "heatpipes",
+      "heatpipe"
+    ],
+    "related": [
+      "aio-cooler",
+      "tdp",
+      "static-pressure"
+    ],
+    "guides": [
+      "best-cpu-cooler",
+      "best-cpu-cooler-for-ryzen-9-3900x-and-3950x",
+      "thermalright-review"
+    ]
+  },
+  {
+    "id": "resizable-bar",
+    "term": "Resizable BAR",
+    "title": "What Is Resizable BAR? Full GPU Memory Access Explained",
+    "short": "Resizable BAR is a PCIe feature that lets the CPU access all of a GPU's VRAM at once instead of in 256 MB chunks. Intel Arc cards need it for full speed.",
+    "body": [
+      "BAR stands for Base Address Register. By default, a CPU can only map a 256 MB window of a graphics card's memory at a time, so larger transfers happen in many small pieces. Resizable BAR, part of the PCIe standard, lets the system map the whole VRAM pool at once. AMD markets the same feature as Smart Access Memory.",
+      "For most NVIDIA and AMD cards, Resizable BAR gives small gains in some games and none in others. For Intel Arc cards, it is effectively required: Intel says the Arc B580 needs it, and independent reviews show large performance drops when it is off.",
+      "A worked example: the Arc B580 has 12 GB of VRAM. Without Resizable BAR, the CPU sees it through a 256 MB window, which is about 2 percent of the card's memory at a time. With it on, the CPU can address all 12 GB directly. That is why an Arc card in an older PC with the feature disabled can perform far worse than reviews suggest.",
+      "To enable it, update your motherboard BIOS, switch the boot mode to UEFI with CSM disabled, then turn on Above 4G Decoding and Resizable BAR. Most AM4 boards with Ryzen 3000 or newer and Intel boards from 10th gen onward support it after an update. Windows must be installed in UEFI mode for it to work."
+    ],
+    "aliases": [
+      "resizable bar",
+      "rebar",
+      "smart access memory",
+      "above 4g decoding"
+    ],
+    "related": [
+      "vram",
+      "pcie-5-0",
+      "cpu-bottleneck"
+    ],
+    "guides": [
+      "best-budget-graphics-card",
+      "best-gpu-for-ryzen-5-2600-and-3600"
+    ]
+  },
+  {
+    "id": "dlss",
+    "term": "DLSS",
+    "title": "What Is DLSS? NVIDIA's AI Upscaling Explained",
+    "short": "DLSS (Deep Learning Super Sampling) is NVIDIA's AI upscaler. The GPU renders at a lower resolution and a neural network rebuilds a sharp, higher-res image.",
+    "body": [
+      "DLSS stands for Deep Learning Super Sampling. It runs on the Tensor cores in NVIDIA's RTX cards. The game renders each frame at a lower internal resolution, and a trained neural network uses motion data and previous frames to reconstruct a higher-resolution image. The result is a large frame rate boost with image quality close to native, and sometimes better in fine detail.",
+      "DLSS 4 brought a transformer-based upscaling model with improved stability and detail, and on RTX 50 series cards it adds multi frame generation, which inserts up to three generated frames per rendered frame. Upscaling works on all RTX cards. Multi frame generation is exclusive to the RTX 50 series.",
+      "A worked example: at 1440p, DLSS Quality mode renders internally at about 960p, which is about 2.25 times fewer pixels than native 1440p. Performance mode renders at 720p, a quarter of the pixels. If an RTX 5070 runs a game at 60 FPS native, Quality mode might lift it into the 80s, and Performance mode higher still, depending on how GPU-bound the game is.",
+      "DLSS's main advantage over rivals is adoption: it is supported in hundreds of games, and NVIDIA's app can override older games to use newer DLSS models. When comparing an NVIDIA card with an AMD card, check whether the games you play support DLSS, FSR 4 or both."
+    ],
+    "aliases": [
+      "dlss",
+      "dlss 4",
+      "deep learning super sampling",
+      "dlss upscaling"
+    ],
+    "related": [
+      "fsr",
+      "frame-generation",
+      "ray-tracing",
+      "vram"
+    ],
+    "guides": [
+      "best-graphics-card",
+      "best-graphics-card-for-1440p",
+      "best-budget-graphics-card"
+    ]
+  },
+  {
+    "id": "fsr",
+    "term": "FSR",
+    "title": "What Is FSR? AMD FidelityFX Super Resolution Explained",
+    "short": "FSR (FidelityFX Super Resolution) is AMD's upscaler. FSR 4 uses machine learning on RDNA 4 cards like the RX 9070 XT; older versions run on almost any GPU.",
+    "body": [
+      "FSR stands for FidelityFX Super Resolution. Like DLSS, it renders a game at a lower internal resolution and upscales it to your display resolution, raising frame rates. FSR 1 used simple spatial scaling, and FSR 2 and 3 added temporal data from previous frames. Those versions run on almost any modern GPU, including NVIDIA and Intel cards.",
+      "FSR 4 is a big change. It uses a machine-learning model and runs on AMD's RDNA 4 cards, including the RX 9070 XT, RX 9070 and RX 9060 XT. Owners and independent reviews report much better image quality than FSR 3, especially in motion and fine detail, closing most of the gap with DLSS. Its game list is smaller than DLSS but growing.",
+      "A worked example: at 4K, FSR Quality mode renders internally at 1440p, which is about 44 percent of the pixels. Performance mode renders at 1080p, 25 percent of the pixels. On an RX 9070 XT running a demanding game at 45 FPS native 4K, Quality mode might reach about 60, and Performance mode more, depending on the game's CPU load.",
+      "AMD also offers frame generation alongside FSR and a driver-level option called AFMF that works in many games without built-in support. When choosing between AMD and NVIDIA, check which upscalers your favorite games support."
+    ],
+    "aliases": [
+      "fsr",
+      "fsr 4",
+      "fsr 3",
+      "fidelityfx super resolution",
+      "amd fsr"
+    ],
+    "related": [
+      "dlss",
+      "frame-generation",
+      "ray-tracing"
+    ],
+    "guides": [
+      "best-graphics-card",
+      "best-graphics-card-for-1440p",
+      "best-budget-graphics-card"
+    ]
+  },
+  {
+    "id": "frame-generation",
+    "term": "Frame Generation",
+    "title": "What Is Frame Generation? Generated Frames and Latency",
+    "short": "Frame generation creates extra frames between rendered ones using motion data, raising displayed FPS. Motion looks smoother, but input latency does not drop.",
+    "body": [
+      "Frame generation is a GPU feature that inserts artificially created frames between the frames the game actually renders. It uses motion vectors and optical flow to estimate what the in-between image should look like. NVIDIA offers it through DLSS, with multi frame generation on RTX 50 series cards, and AMD offers it with FSR and the driver-level AFMF feature.",
+      "The key point is that generated frames are not real game updates. Your inputs are only processed on rendered frames, and the technique needs to hold back a frame to generate the in-between one, which adds a little latency. NVIDIA pairs it with Reflex and AMD with Anti-Lag to offset that.",
+      "A worked example: a game renders at 60 FPS on an RTX 5070. With 2x frame generation, the display shows about 120 FPS. With NVIDIA's 4x multi frame generation, it can show up to about 240 FPS. Motion looks far smoother on a high-refresh monitor, but the game still responds like a 60 FPS game, plus a few milliseconds of overhead. If the base frame rate is only 30, it will feel sluggish however high the counter reads.",
+      "Use frame generation when your base frame rate is already around 50 to 60 FPS or higher and you want to fill a 144 Hz or faster display. Avoid it in competitive shooters, where latency matters more than smoothness."
+    ],
+    "aliases": [
+      "frame generation",
+      "frame gen",
+      "multi frame generation",
+      "afmf"
+    ],
+    "related": [
+      "dlss",
+      "fsr",
+      "cpu-bottleneck",
+      "vram"
+    ],
+    "guides": [
+      "best-graphics-card",
+      "best-graphics-card-for-1440p"
+    ]
+  },
+  {
+    "id": "ray-tracing",
+    "term": "Ray Tracing",
+    "title": "What Is Ray Tracing? Realistic Lighting in Games Explained",
+    "short": "Ray tracing simulates how light bounces around a scene to produce realistic reflections, shadows and lighting. It looks better but costs a lot of performance.",
+    "body": [
+      "Ray tracing is a rendering technique that traces the paths of light rays as they bounce off surfaces. Traditional rasterization fakes lighting with tricks like shadow maps and screen-space reflections. Ray tracing calculates it more directly, producing accurate reflections, soft shadows and light that bleeds naturally between surfaces. Path tracing is the most complete form, where nearly all lighting is ray traced.",
+      "Modern GPUs have dedicated hardware for the math. NVIDIA calls them RT cores, AMD uses ray accelerators in each compute unit, and Intel builds RT units into its Xe cores. NVIDIA has generally led in RT performance, and the gap widens in path-traced games. AMD's RDNA 4 cards, like the RX 9070 XT, made a large step forward over the previous generation.",
+      "A worked example of the cost: if a game runs at 100 FPS with rasterized lighting, turning on full ray tracing can drop it to around 50 to 60 FPS on many cards, and path tracing lower still. That is why upscalers like DLSS and FSR are so often paired with ray tracing. Rendering at a lower internal resolution wins back much of the lost performance.",
+      "Ray tracing also uses more VRAM, which is one reason 12 GB cards can run short at 1440p with RT on. If you mainly play competitive games, you will likely leave RT off and should weigh raster performance more heavily."
+    ],
+    "aliases": [
+      "ray tracing",
+      "ray-tracing",
+      "path tracing",
+      "rt cores",
+      "raytracing"
+    ],
+    "related": [
+      "dlss",
+      "fsr",
+      "vram",
+      "frame-generation"
+    ],
+    "guides": [
+      "best-graphics-card",
+      "best-graphics-card-for-1440p"
+    ]
+  },
+  {
+    "id": "chipset",
+    "term": "Chipset",
+    "title": "What Is a Chipset? B650, X870 and Motherboard Tiers",
+    "short": "A chipset is the motherboard hub that adds USB, SATA, M.2 and PCIe lanes beyond the CPU's own. Its name, like B650 or X870, sets the board's feature tier.",
+    "body": [
+      "The chipset is a chip on the motherboard that connects to the CPU and provides additional input and output: extra USB ports, SATA ports, M.2 slots, PCIe lanes for networking and Wi-Fi, and more. The CPU itself supplies the main graphics slot and usually one or two M.2 slots. The chipset fills in the rest over a shared link to the CPU.",
+      "Chipset names describe a tier. On AMD's AM5 platform, A620 is the entry tier, B650 and B850 are the mainstream tiers, and X870 and X870E are the high end. X870 boards must include USB4 and PCIe 5.0 graphics. On Intel's LGA 1851, B860 is mainstream and Z890 is the enthusiast tier with CPU overclocking support.",
+      "A worked example: the MSI MAG B650 Tomahawk WiFi and MSI MAG X870 Tomahawk WiFi accept the same AM5 CPUs. The B650 board gives you a PCIe 4.0 x16 slot, Wi-Fi 6E and 2.5 GbE for $170 to $200. The X870 board adds PCIe 5.0 graphics and storage, 40 Gbps USB4, Wi-Fi 7 and 5 GbE for $260 to $300. Same CPU, same gaming performance, about $90 more for connectivity.",
+      "Chipset choice rarely affects frame rates. Choose based on the ports, slots and networking you need, and on the board's power delivery for your CPU."
+    ],
+    "aliases": [
+      "chipset",
+      "b650 chipset",
+      "x870 chipset",
+      "b850",
+      "x870e",
+      "a620"
+    ],
+    "related": [
+      "vrm",
+      "pcie-5-0",
+      "nvme"
+    ],
+    "guides": [
+      "best-am5-motherboard",
+      "best-motherboard-for-ryzen-9-3950x",
+      "msi-review"
+    ]
+  },
+  {
+    "id": "vrm",
+    "term": "VRM",
+    "title": "What Is a VRM? Motherboard Power Delivery Explained",
+    "short": "The VRM (voltage regulator module) converts 12 V from the PSU into the roughly 1 to 1.4 V a CPU needs. A stronger VRM runs cooler with high-core-count chips.",
+    "body": [
+      "A CPU runs on very low voltage, often around 1.0 to 1.4 V, but at high current. The power supply delivers 12 V. The voltage regulator module, or VRM, sits around the CPU socket and steps that 12 V down to what the processor needs, adjusting thousands of times per second as load changes. It is made of power stages, chokes and capacitors, usually under a heatsink.",
+      "Boards advertise VRMs by phase count and power stage rating, but those numbers do not tell the whole story. Heatsink design, airflow and component quality matter as much. Independent reviews that measure VRM temperatures under load are the best guide.",
+      "A worked example: a Ryzen 9 3950X has 16 cores and can draw about 142 W at the socket under full load. At around 1.2 V, that is roughly 118 amps the VRM must deliver steadily. A Ryzen 5 3600 draws much less, perhaps half that current. A budget board may handle the 3600 easily but run its VRM hot and throttle with the 3950X during long renders, which is why 16-core builds call for boards like the ASUS ROG Strix X570-E Gaming or MSI MAG B550 Tomahawk.",
+      "For gaming CPUs like the Ryzen 7 9800X3D, nearly any decent B650 or B850 board has enough VRM. It becomes important for 16-core chips, overclocking and small cases with poor airflow around the socket."
+    ],
+    "aliases": [
+      "vrm",
+      "voltage regulator module",
+      "power stages",
+      "vrm phases"
+    ],
+    "related": [
+      "chipset",
+      "tdp",
+      "aio-cooler"
+    ],
+    "guides": [
+      "best-motherboard-for-ryzen-9-3950x",
+      "best-am5-motherboard",
+      "msi-review"
+    ]
+  },
+  {
+    "id": "nvme",
+    "term": "NVMe",
+    "title": "What Is NVMe? Fast SSD Protocol vs SATA Explained",
+    "short": "NVMe is a storage protocol that lets SSDs talk to the CPU over PCIe lanes. NVMe drives reach 5,000 to 14,000 MB/s, against about 550 MB/s for SATA SSDs.",
+    "body": [
+      "NVMe stands for Non-Volatile Memory Express. It is the protocol that fast SSDs use to communicate with the system over PCIe lanes. It was designed for flash memory from the start, with deep command queues and low overhead, unlike the older AHCI protocol used by SATA drives, which was built for spinning hard disks.",
+      "Most NVMe drives use the M.2 form factor, a small stick that screws into the motherboard. Be careful: M.2 is only the physical shape. Some M.2 drives are SATA, not NVMe, and run at SATA speed. Check that both the drive and the slot support NVMe, and which PCIe generation the slot runs.",
+      "A worked example: a SATA SSD tops out around 550 MB/s. A PCIe 4.0 NVMe drive like the WD Black SN850X is rated at 7,300 MB/s reads, about 13 times faster in sequential transfers. Copying a 100 GB folder takes about three minutes on SATA at full speed and well under a minute on the SN850X under ideal conditions. Game loading shrinks less, often by a few seconds, because games also wait on the CPU.",
+      "For gaming builds, a 2 TB PCIe 4.0 NVMe drive is the sweet spot in 2026. NAND prices rose through 2025 and 2026, so check current prices before you buy."
+    ],
+    "aliases": [
+      "nvme",
+      "nvme ssd",
+      "m.2 ssd",
+      "m.2 nvme",
+      "non-volatile memory express"
+    ],
+    "related": [
+      "pcie-5-0",
+      "dram-cache",
+      "chipset"
+    ],
+    "guides": [
+      "best-ssd-for-gaming",
+      "best-am5-motherboard"
+    ]
+  },
+  {
+    "id": "3d-v-cache",
+    "term": "3D V-Cache",
+    "title": "What Is 3D V-Cache? AMD X3D CPUs Explained",
+    "short": "3D V-Cache is AMD's stacked L3 cache that triples a chiplet's cache to 96 MB. It keeps more game data near the cores, which is why X3D chips lead in gaming.",
+    "body": [
+      "3D V-Cache is a layer of extra L3 cache that AMD bonds vertically onto a CPU chiplet. A standard Ryzen chiplet has 32 MB of L3. Adding a 64 MB cache die brings it to 96 MB. Processors with the technology carry an X3D suffix, such as the Ryzen 7 9800X3D, Ryzen 7 7800X3D and Ryzen 7 5700X3D.",
+      "Games constantly access data that does not fit in a normal cache, and each trip to system RAM costs time. With three times the cache, far more of that data stays close to the cores. The result is higher average frame rates and steadier frame times, especially in simulators, strategy games and MMOs. In most productivity apps, extra cache helps less.",
+      "A worked example: the Ryzen 7 9700X and Ryzen 7 9800X3D both have 8 Zen 5 cores. The 9700X has 32 MB of L3 and the 9800X3D has 96 MB. Independent reviews generally show the 9800X3D around 20 to 25 percent faster in games at 1080p with a fast GPU, almost entirely due to that cache difference.",
+      "Placement matters. On the 7800X3D, the cache sits on top of the cores, which traps heat and limits clocks. On the 9800X3D, AMD moved it underneath, so the cores sit closer to the cooler and run faster. On 16-core chips like the Ryzen 9 9950X3D, only one of the two chiplets has the extra cache, and drivers steer games to it."
+    ],
+    "aliases": [
+      "3d v-cache",
+      "3d vcache",
+      "x3d",
+      "stacked cache"
+    ],
+    "related": [
+      "cpu-bottleneck",
+      "infinity-fabric",
+      "tdp"
+    ],
+    "guides": [
+      "best-cpu-for-gaming",
+      "best-cpu-cooler-for-ryzen-7-9800x3d"
+    ]
+  },
+  {
+    "id": "static-pressure",
+    "term": "Static Pressure",
+    "title": "What Is Static Pressure? Fans for Radiators and Coolers",
+    "short": "Static pressure is a fan's ability to push air through resistance, like radiator fins or dense heatsinks, measured in mm H2O. High-pressure fans suit coolers.",
+    "body": [
+      "Every fan has two key ratings: airflow, measured in CFM, and static pressure, measured in millimeters of water (mm H2O). Airflow is how much air a fan moves with nothing in the way. Static pressure is how hard it can push when something resists, such as tightly packed radiator fins, a CPU cooler's fin stack, or a dense dust filter.",
+      "Fans built for pressure often use more blades, tighter blade spacing or higher speeds. Fans built for airflow tend to have fewer, wider blades. The right type depends on where the fan goes. Open case intake and exhaust spots favor airflow. Radiators and heatsinks favor pressure.",
+      "A worked example: suppose two 120 mm fans are each rated around 60 CFM. Fan A has a static pressure of 1.0 mm H2O and Fan B has 2.5 mm H2O. In open air, they move a similar amount of air. Mounted on a thick radiator, such as the 38 mm radiator on the Arctic Liquid Freezer III Pro 360, Fan A's airflow drops much more, while Fan B keeps pushing air through the fins. That is why AIOs and tower coolers ship with pressure-optimized fans, such as Arctic's P12 Pressure-optimised fans on the Freezer 36.",
+      "Spec sheets from different makers are not always measured the same way, so compare fans within a brand or rely on independent reviews."
+    ],
+    "aliases": [
+      "static pressure",
+      "mm h2o",
+      "pressure-optimized fans",
+      "static pressure fans"
+    ],
+    "related": [
+      "aio-cooler",
+      "heat-pipes"
+    ],
+    "guides": [
+      "best-cpu-cooler",
+      "best-pc-case"
+    ]
+  },
+  {
+    "id": "dram-cache",
+    "term": "DRAM Cache",
+    "title": "What Is a DRAM Cache on an SSD? DRAM-less Drives Explained",
+    "short": "A DRAM cache is a memory chip on an SSD that holds the drive's address map for fast lookups. DRAM-less drives borrow system RAM via Host Memory Buffer.",
+    "body": [
+      "An SSD has to keep track of where every piece of data lives in its flash memory. That lookup table, called the mapping table, is used on nearly every read and write. Drives with a DRAM cache store it on a dedicated memory chip, which makes lookups fast and keeps performance steady under heavy random workloads.",
+      "DRAM-less drives skip that chip to save cost and power. Most modern NVMe DRAM-less drives use Host Memory Buffer, or HMB, which borrows a small slice of your system RAM, often around 64 MB, to hold the busiest part of the mapping table. For gaming and everyday desktop use, good DRAM-less drives with HMB perform very well.",
+      "A worked example: a common rule of thumb is about 1 GB of DRAM per 1 TB of flash, so a 2 TB drive like the Samsung 990 Pro or Crucial T500 typically carries around 2 GB of DRAM. A DRAM-less drive like the WD Black SN7100 or Kingston NV3 relies on HMB instead. Under sustained random writes across the whole drive, the DRAM drive keeps more consistent speeds, while for game loading the difference is often negligible.",
+      "DRAM-less drives also tend to run cooler and use less power, which suits laptops. For a boot drive under heavy professional workloads, a drive with DRAM and TLC NAND is the safer choice."
+    ],
+    "aliases": [
+      "dram cache",
+      "dram-less",
+      "dramless",
+      "host memory buffer",
+      "hmb"
+    ],
+    "related": [
+      "nvme",
+      "pcie-5-0"
+    ],
+    "guides": [
+      "best-ssd-for-gaming"
+    ]
+  }
+]

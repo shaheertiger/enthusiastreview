@@ -1,0 +1,219 @@
+{
+  "slug": "best-cpu-cooler-for-ryzen-9-3900x-and-3950x",
+  "type": "roundup",
+  "category": "cpu-coolers",
+  "title": "Best CPU Cooler for Ryzen 9 3900X and 3950X (2026): 7 Picks",
+  "h1": "Best CPU Cooler for Ryzen 9 3900X and 3950X",
+  "query": "best cpu cooler for ryzen 9 3900x and 3950x",
+  "description": "The $35–$45 Thermalright Peerless Assassin 120 SE is the best cooler for a Ryzen 9 3900X or 3950X: 6 heat pipes for a 142 W AM4 chip. 7 picks, ranked.",
+  "dek": "Still running a 12-core or 16-core Zen 2 chip in 2026? A $40 tower handles it at stock. Here is when you need more.",
+  "intro": [
+    "The Thermalright Peerless Assassin 120 SE is the best cooler for a Ryzen 9 3900X or 3950X in 2026. Both chips are rated at 105 W and stop at a 142 W package power limit at stock, and this $35 to $45 dual tower with six heat pipes holds that load on AM4 without a liquid cooler.",
+    "We first published this page in 2020. This update is for people who still run a 3900X or 3950X as a workstation or gaming PC and want to replace a worn-out cooler, quiet a loud one, or enable Precision Boost Overdrive. Every pick mounts on AM4 and carries over to AM5 if you upgrade later."
+  ],
+  "quickAnswer": "For a stock 3900X or 3950X, buy the Thermalright Peerless Assassin 120 SE ($35–$45) or the seven-pipe Phantom Spirit 120 SE. If you run PBO on a 3950X for hours of rendering, the Arctic Liquid Freezer III Pro 360 ($85–$110) is the comfortable choice. On a 3900X in Eco mode, the $30–$40 Arctic Freezer 36 is plenty.",
+  "picks": [
+    {
+      "id": "thermalright-peerless-assassin-120-se",
+      "label": "Best Overall",
+      "bestFor": "a stock 3900X or 3950X that needs a quieter, stronger cooler than the one it has",
+      "skipIf": "you run PBO with long all-core loads every day",
+      "writeup": [
+        "When the 3900X launched in 2019, the best air coolers for it cost $80 to $100. In 2026 the Peerless Assassin 120 SE does the same job for $35 to $45. It uses six heat pipes and two 120 mm fans across two fin stacks, and independent reviews place it close to coolers that cost far more.",
+        "That is the right amount of cooler for either chip at stock. A 3900X or 3950X caps itself at 142 W of package power, and in a long render it sits at that limit for as long as the job runs. A dual tower with this much fin area can absorb that load with its fans at a moderate speed, which is a noticeable change from the 3900X's boxed Wraith Prism.",
+        "The AM4 install removes the board's plastic retention brackets and bolts into AMD's stock backplate. Keep those brackets in a drawer in case you ever sell the board. At 155 mm tall it fits most ATX cases from the Ryzen 3000 era, but check older or slimmer cases. If you later drop in a Ryzen 7 5700X3D or move to AM5, the cooler moves with you."
+      ],
+      "pros": ["Handles 142 W at stock for $35–$45", "AM4 and AM5 mounting included", "Big step up from the Wraith Prism"],
+      "cons": ["Fans audible at full speed", "Front fan can overhang tall DDR4"]
+    },
+    {
+      "id": "thermalright-phantom-spirit-120-se",
+      "label": "Best Air for the 3950X",
+      "bestFor": "a 16-core 3950X running long renders, compiles or encodes on air",
+      "skipIf": "the Peerless Assassin is cheaper and you mostly game",
+      "writeup": [
+        "The 3950X squeezes 16 cores into the same 142 W budget as the 12-core 3900X, and it spends more time pinned at that limit in multi-threaded work. That is where the Phantom Spirit 120 SE's seventh heat pipe earns its keep. Reviews often show it slightly ahead of the Peerless Assassin on hotter chips, and a 3950X running Blender or a code build for an hour is about as steady a heat source as desktop CPUs get.",
+        "It is a 154 mm dual tower with two 120 mm fans, priced at $35 to $45, so the step up costs nothing over the Peerless when both are in stock. On a 3950X that sees daily all-core work, it is the air cooler to choose, especially if you want to leave PBO off and keep the fans quiet.",
+        "It fits AM4 the same way, with the stock backplate, and clears most mid-towers. One practical note for older builds: tall DDR4 kits like 44 mm RGB modules can sit under the front fan. You may need to raise the fan a few millimeters. If you are pairing it with a 3950X that already struggles on a smaller tower, this is the cheapest fix that works."
+      ]
+    },
+    {
+      "id": "arctic-liquid-freezer-iii-pro-360",
+      "label": "Best for PBO",
+      "bestFor": "a 3950X with Precision Boost Overdrive enabled for sustained heavy work",
+      "skipIf": "your 3900X runs at stock or in Eco mode",
+      "writeup": [
+        "AMD recommended a liquid cooler with a 280 mm radiator or larger for the 3950X at launch, and a 360 mm unit still makes sense if you enable Precision Boost Overdrive. PBO lifts the 142 W package limit to whatever the motherboard allows, and on a 16-core Zen 2 chip that adds a lot of heat for a small clock gain. The Liquid Freezer III Pro 360 gives that heat somewhere to go for $85 to $110.",
+        "Its pump-block VRM fan is worth more on AM4 than on newer platforms. Many X470 and B450 boards from the 3950X era have modest VRM heatsinks, and a 16-core chip under PBO leans on them hard. A tower cooler blows some air across that area. A typical AIO removes it, which is why Arctic's small fan on the block is a real advantage here.",
+        "Arctic includes AM4 mounting and backs the unit for 6 years. You need a case with a 360 mm top or front mount, and the 38 mm radiator plus fans adds about 63 mm of depth, so check top clearance over your memory. If your workload is gaming rather than rendering, a dual tower is the simpler buy."
+      ]
+    },
+    {
+      "id": "noctua-nh-d15-g2",
+      "label": "Best Premium Air",
+      "bestFor": "a quiet 3950X workstation that will later move to AM5",
+      "skipIf": "your case is under about 170 mm or the PC is near the end of its life",
+      "writeup": [
+        "The original NH-D15 was the cooler most reviewers paired with the 3950X in 2019, and the G2 is its successor. It carries eight heat pipes and two NF-A14x25r G2 140 mm fans, stands 168 mm tall and costs about $150. Large 140 mm fans can move the same air as 120 mm fans at lower speed. That is why it can run a stock 3950X through a long render more quietly than the budget towers.",
+        "For AM4, the standard base version is the safe choice. Noctua also sells LBC and HBC versions tuned for AM5 and recent Intel chips, but the standard model suits AM4's heat spreader and works on AM5 too. AM4 and AM5 mounting are both in the box.",
+        "The case for spending $150 on a 2019 CPU comes down to what happens next. If you plan to move the cooler to an AM5 build within a couple of years, the 6-year warranty and Noctua's long record of socket support make it a cooler you buy once. If the 3950X is your last stop on this PC, the Phantom Spirit is the better use of money."
+      ],
+      "pros": ["Quiet 140 mm fans", "Standard base suits AM4 and AM5", "6-year warranty"],
+      "cons": ["About $150", "168 mm tall, heavy and wide"]
+    },
+    {
+      "id": "be-quiet-dark-rock-pro-5",
+      "label": "Quietest Pick",
+      "bestFor": "a home studio or office 3900X that should be heard as little as possible",
+      "skipIf": "you want the most cooling per dollar",
+      "writeup": [
+        "A 3900X or 3950X often ends up as a home studio, editing or development machine, and in those rooms fan noise matters more than a few hundred megahertz. The Dark Rock Pro 5 is built for that. It pairs a Silent Wings 135 mm fan with a 120 mm fan on a seven-pipe dual tower, priced at $90 to $100, and reviews generally place it among the quieter large air coolers.",
+        "Its spare capacity at 142 W lets the fans stay slow. That also softens the Ryzen 3000 habit of short temperature jumps at idle and light load, which can make a default fan curve rev up and down. A cooler with more mass reacts more gently, and the Silent Wings fans stay low in pitch when they do spin up.",
+        "The cost is $50 to $60 more than the Thermalright towers for similar raw cooling, plus a 168 mm height that rules out many compact cases. If the PC sits next to a microphone or your desk, that premium buys real value. For a gaming rig in another room, it is harder to justify."
+      ]
+    },
+    {
+      "id": "arctic-freezer-36",
+      "label": "Best Budget",
+      "bestFor": "a 3900X at stock or in Eco mode on a tight budget, especially with tall DDR4",
+      "skipIf": "you have a 3950X doing daily all-core work",
+      "writeup": [
+        "The Freezer 36 is the cheapest cooler we would put on a 3900X. It is a single tower with four heat pipes and two P12 Pressure-optimised fans in push-pull, 159 mm tall, for $30 to $40. On a 12-core chip that games, browses and runs the odd export, it is a clear improvement over the boxed Wraith Prism in noise.",
+        "A single tower also stays out of the way of memory. Many 3900X builds use tall DDR4-3600 kits with RGB heat spreaders, and a dual tower's front fan can collide with them. The Freezer 36 sits behind the DIMM slots, so nothing needs adjusting. Owners consistently describe it as easy to install, and AM4 mounting is included.",
+        "Four heat pipes are the limit to respect. A 3950X at its 142 W package limit for long stretches will push the fans hard, and PBO is out of the question. If your workload is heavy, spend $5 to $10 more on the Peerless Assassin. If your 3900X runs in Eco mode or mostly games, the Freezer 36 is all you need."
+      ]
+    },
+    {
+      "id": "noctua-nh-u12s-redux",
+      "label": "Best for Eco Mode",
+      "bestFor": "a 3900X or 3950X run in 65 W Eco mode as a quiet, efficient workstation",
+      "skipIf": "you run the chip at full stock power or with PBO",
+      "writeup": [
+        "Many long-term 3900X and 3950X owners eventually switch on Eco mode in Ryzen Master or the BIOS, which drops the chip to a 65 W TDP and 88 W package limit. You give up some multi-core speed in exchange for much less heat. At that power level, a slim single tower like the NH-U12S redux is plenty, and it brings Noctua's mounting system and a 6-year warranty for $45 to $55.",
+        "The redux uses four heat pipes and one NF-P12 redux 120 mm fan, and stands 158 mm tall. It stays clear of every DIMM slot, which suits machines stuffed with 64 GB of tall DDR4, and Noctua's SecuFirm2 mounting is among the easiest on AM4.",
+        "Do not buy it for a full-power 3950X. At the stock 142 W limit, the Thermalright dual towers and even the Freezer 36 have more cooling for less money. The redux is the right pick for one scenario: an older Ryzen 9 turned into a quiet, efficient home server or office PC, where low noise and a long warranty matter more than the last bit of performance."
+      ]
+    }
+  ],
+  "tableSpecs": ["Type", "Fans", "Heat pipes", "Height"],
+  "ranking": {
+    "intro": "These picks are based on AMD's specifications for the Ryzen 9 3900X and 3950X, cooler makers' spec sheets, independent reviews of both the CPUs and the coolers, and years of owner reports from AM4 builders. We did not bench-test any of these coolers ourselves. The ER Score is a research score that weighs that evidence against price and AM4 fit.",
+    "criteria": [
+      ["Capacity at 142 W", "Whether the cooler holds a 3900X or 3950X at its stock package power limit with fans at a reasonable speed."],
+      ["PBO headroom", "How much margin remains if you lift AMD's limits on a 16-core chip."],
+      ["AM4 fit", "AM4 mounting in the box, clearance in older cases and room for tall DDR4."],
+      ["Noise", "How loud reviews and owners report it under long multi-threaded loads."],
+      ["Carry-over value", "Whether the cooler is worth moving to a 5000-series upgrade or an AM5 build."]
+    ],
+    "why": "The Peerless Assassin 120 SE won because it holds either chip at 142 W for less than half of what a comparable cooler cost when these CPUs launched."
+  },
+  "mentions": [
+    { "id": "thermalright-assassin-x-120-refined-se", "text": "At around $20 this one-fan, four-pipe tower is fine for a 3900X in Eco mode, but at the stock 142 W limit it runs its single fan hard and a 3950X overwhelms it. The Freezer 36 adds a second fan for about $10 more and is the safer floor." },
+    { "name": "AMD Wraith Prism", "text": "The RGB cooler that shipped with the 3900X keeps it within spec at stock, and many owners still use it. It is louder than any pick here under load, and it was never included with the 3950X. If yours works, it is a fallback, not a reason to skip an upgrade." },
+    { "name": "Arctic Liquid Freezer III Pro 280", "text": "The 280 mm version meets AMD's original 3950X liquid cooling recommendation and keeps the VRM fan. It suits cases that cannot take a 360. If yours can, the 360 costs only slightly more and has more headroom for PBO." }
+  ],
+  "sections": [
+    {
+      "h": "Does a 3950X Need a 360 mm AIO?",
+      "body": [
+        "No, not at stock. AMD recommended a 280 mm or larger liquid cooler when the 3950X launched, but that advice was about giving the chip room to boost as high as possible. A 3950X at stock stops at a 142 W package power limit, the same as the 3900X. A good dual-tower air cooler like the Phantom Spirit 120 SE handles that load, and independent reviews of the time showed big air coolers keeping pace with 280 mm AIOs.",
+        "A 360 mm AIO becomes the comfortable choice in one case: you enable PBO and run long all-core jobs. Lifting the power limit on 16 Zen 2 cores adds far more heat than performance, and the larger radiator lets the fans stay slower while it soaks that up."
+      ]
+    },
+    {
+      "h": "How Hot Do the 3900X and 3950X Run?",
+      "body": [
+        "Warmer than their 105 W TDP suggests, because the number that matters is the 142 W package power limit. Each chip packs its cores into two small 7 nm chiplets, and heat from a small area is harder to pull out than heat from a large one. AMD lists a 95°C maximum operating temperature for both, and the chips manage their own boost to stay inside it.",
+        "Ryzen 3000 also boosts in short bursts at light load. Monitoring software catches each burst, so owners often see the temperature jump when they open a browser or a background update starts. That is normal behavior, not a cooler problem."
+      ],
+      "table": {
+        "caption": "Ryzen 9 3900X vs 3950X: the numbers that affect cooling",
+        "head": ["Spec", "Ryzen 9 3900X", "Ryzen 9 3950X"],
+        "rows": [
+          ["Cores / threads", "12 / 24", "16 / 32"],
+          ["Max boost (AMD rated)", "4.6 GHz", "4.7 GHz"],
+          ["TDP", "105 W", "105 W"],
+          ["Stock package power (PPT)", "142 W", "142 W"],
+          ["Eco mode package power", "88 W", "88 W"],
+          ["Cooler in the box", "Wraith Prism", "None"],
+          ["Cooler class we suggest at stock", "Dual tower", "Dual tower, seven pipes or more"],
+          ["Cooler class we suggest with PBO", "Dual tower or 280 mm AIO", "360 mm AIO"]
+        ]
+      }
+    },
+    {
+      "h": "What Changes With PBO Enabled?",
+      "body": [
+        "Heat goes up much more than speed does. Precision Boost Overdrive replaces AMD's 142 W limit and its current limits with the motherboard's, which can be far higher. On Zen 2, widely reported results show only small gains from PBO in most workloads, because these chips run out of clock headroom before they run out of power.",
+        "Zen 2 also lacks Curve Optimizer, the per-core undervolting tool AMD added with the Ryzen 5000 series, so there is no easy way to get more speed for less heat. If you want to tune a 3900X or 3950X today, Eco mode is usually the better trade: it cuts heat sharply for a modest loss in multi-core speed."
+      ]
+    },
+    {
+      "h": "Is the Wraith Prism Good Enough for a 3900X?",
+      "body": [
+        "It keeps a 3900X within spec at stock, so it is good enough in the narrow sense. It is also loud when the chip runs at its 142 W limit, and after six or seven years its fan bearing may have worn and its paste dried out. Owners who swap it for a $35 to $45 dual tower routinely report a quieter machine under load.",
+        "The 3950X never shipped with a cooler, so there is no stock option to fall back on. If you bought one used and it came with a Wraith Prism from another chip, upgrade it."
+      ]
+    },
+    {
+      "h": "How Do Coolers Mount on AM4?",
+      "body": [
+        "There are two methods. Clip-style coolers, including AMD's boxed units, hook onto the plastic retention brackets around the socket. Most aftermarket coolers remove those brackets and bolt into the metal backplate behind the board, using standoffs and a cross bar. Every pick on this page uses the second method and includes the parts.",
+        "Keep the plastic brackets and screws when you remove them. You may need them to reinstall a stock cooler before selling the board."
+      ],
+      "table": {
+        "caption": "AM4 fit for each pick",
+        "head": ["Cooler", "Height", "AM4 method", "DDR4 clearance"],
+        "rows": [
+          ["Peerless Assassin 120 SE", "155 mm", "Stock backplate", "Front fan may need raising for tall RGB kits"],
+          ["Phantom Spirit 120 SE", "154 mm", "Stock backplate", "Front fan may need raising for tall RGB kits"],
+          ["Freezer 36", "159 mm", "Stock backplate", "Full clearance"],
+          ["NH-U12S redux", "158 mm", "Stock backplate", "Full clearance"],
+          ["NH-D15 G2", "168 mm", "Stock backplate", "140 mm fan overhangs DIMMs"],
+          ["Dark Rock Pro 5", "168 mm", "Stock backplate", "Front fan overhangs first DIMM"],
+          ["Liquid Freezer III Pro 360", "Radiator", "AM4 kit included", "Pump block only"]
+        ]
+      }
+    },
+    {
+      "h": "Will the Cooler Carry Over to AM5?",
+      "body": [
+        "Yes. AMD kept the same cooler mounting holes on AM5, and every cooler on this page ships with mounting for both sockets. That makes a new cooler a safer purchase for an aging 3900X than a new motherboard or memory, which would not carry over.",
+        "The same holds for an AM4 CPU upgrade. If you replace the 3900X or 3950X with a Ryzen 7 5700X3D for gaming or a Ryzen 9 5950X for work, the cooler stays put, and you only need a BIOS update."
+      ]
+    },
+    {
+      "h": "Should You Upgrade the CPU Instead of the Cooler?",
+      "body": [
+        "It depends on what is slow. For gaming, the [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) is a drop-in AM4 upgrade with 96 MB of L3 cache, and independent reviews show it well ahead of the 3900X and 3950X in games. It is also rated at 105 W, so any cooler on this page handles it.",
+        "For multi-threaded work, a 3950X still holds up, and a better cooler mainly buys lower noise. If your board needs replacing too, compare the cost of a full move to AM5 using our [CPU guide](/best-cpu-for-gaming/) before you spend on an AM4 platform. A good cooler is the one part that comes with you either way."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Reusing six-year-old paste", "If you are reseating an old cooler or moving it to a new one, clean off the old compound with isopropyl alcohol and apply fresh paste. Dried paste from a 2019 build can make a perfectly good cooler look undersized, and a tube of new compound costs only a few dollars."],
+    ["Throwing away the AM4 plastic brackets", "Aftermarket coolers bolt into the backplate after you remove the plastic retention brackets. Keep them and their screws. You will need them if you ever reinstall a clip-style cooler, sell the board with a stock cooler or hand the PC down to someone else."],
+    ["Enabling PBO and expecting big gains", "On Zen 2, PBO adds a lot of heat for a small speed increase in most workloads. If you turn it on, check whether your actual renders or compiles get faster. If not, turn it off or try Eco mode, which often makes the PC much quieter."],
+    ["Chasing idle temperature jumps", "Ryzen 3000 chips boost briefly at light load, so monitoring tools show quick spikes. Buying a bigger cooler will not stop them. Add a few seconds of fan smoothing in the BIOS so the fans respond to sustained heat, not every short burst."],
+    ["Ignoring VRM cooling with an AIO", "Older B450 and X470 boards running a 16-core chip rely on some airflow across the VRM. A tower cooler provides it and a typical AIO does not. Pick an AIO with a VRM fan, like the Arctic, or keep a case fan aimed at that area."]
+  ],
+  "bottomLine": "A Ryzen 9 3900X or 3950X does not need an expensive cooler in 2026. At stock, a $35 to $45 Thermalright dual tower handles the 142 W package limit, with the Phantom Spirit 120 SE the better fit for a 3950X doing daily all-core work. Buy the Arctic Liquid Freezer III Pro 360 only if you run PBO on a 3950X. Whatever you pick will carry over to AM5.",
+  "faqs": [
+    { "q": "Does the Ryzen 9 3950X come with a cooler?", "a": "No. The 3950X shipped without a cooler, and AMD recommended a liquid cooler with a 280 mm or larger radiator at launch. In practice, a strong dual-tower air cooler like the Thermalright Phantom Spirit 120 SE handles it at its stock 142 W limit for $35 to $45." },
+    { "q": "Is the Peerless Assassin 120 SE enough for a 3950X?", "a": "Yes, at stock settings. Its six heat pipes and two fans hold the 3950X at its 142 W package power limit, though the fans will speed up during long all-core work. If you render daily, the seven-pipe Phantom Spirit 120 SE costs the same and has a little more capacity." },
+    { "q": "What is the maximum temperature for a Ryzen 9 3900X?", "a": "AMD lists a maximum operating temperature of 95°C for both the Ryzen 9 3900X and 3950X. The chips adjust their own boost to stay within that limit. Brief spikes in monitoring software at light load are normal Ryzen 3000 behavior, not a sign the cooler is failing." },
+    { "q": "Does PBO make the 3950X run hotter?", "a": "Yes, often much hotter. PBO removes AMD's 142 W stock limit and uses the motherboard's higher limits instead. On Zen 2 the speed gain is usually small, so many owners leave it off. If you use it on a 3950X, a 360 mm AIO keeps the fans manageable." },
+    { "q": "Can I run a 3900X or 3950X in Eco mode?", "a": "Yes. Ryzen Master and many AM4 BIOS versions offer an Eco mode that sets the chip to a 65 W TDP with an 88 W package limit. You lose some multi-core speed but cut heat sharply, which lets a smaller cooler like the NH-U12S redux run quietly." },
+    { "q": "Will an AM4 cooler fit a future AM5 build?", "a": "Usually yes. AM5 kept AM4's cooler hole spacing, so coolers that use the stock AMD backplate fit both. Every cooler on this page includes mounting for AM4 and AM5, so buying one now for your 3900X or 3950X does not lock you into the old platform." },
+    { "q": "Is it worth buying a new cooler for a 2019 CPU?", "a": "Yes, if your current cooler is loud, failing or a boxed unit. A $35 to $45 dual tower makes the PC quieter today and moves to your next AM4 or AM5 build. Expensive coolers are harder to justify unless you plan to reuse them." }
+  ],
+  "sources": [
+    "AMD Ryzen 9 3900X and Ryzen 9 3950X product specifications (TDP, boost clock, maximum temperature)",
+    "AMD Ryzen 9 3950X launch materials and cooling recommendation",
+    "AMD documentation on Precision Boost Overdrive and Eco mode for Ryzen processors",
+    "Thermalright, Noctua, Arctic and be quiet! cooler spec sheets and AM4 mounting guides",
+    "Independent Ryzen 3000 reviews from 2019 and 2020 covering cooling and PBO behavior",
+    "Owner reports from AM4 builders on forums and retailer listings"
+  ],
+  "related": ["best-motherboard-for-ryzen-9-3950x", "best-ram-for-ryzen-9-3900x-and-3950x", "best-cpu-cooler"]
+}

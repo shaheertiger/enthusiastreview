@@ -2,9 +2,10 @@
 //
 //   node scripts/page-dates.mjs        (runs first in `npm run build`)
 //
-// Writes src/data/git-dates.json: { "<slug>": "YYYY-MM-DD" }, the author date of the last
-// commit that changed src/content/pages/<slug>.json. src/lib/content.ts and
-// scripts/build-markdown.mjs use it as the page's `updated` date, so the date on the page,
+// Writes src/data/git-dates.json: { "<key>": "YYYY-MM-DD" }, the author date of the last commit
+// that changed each content file. Keys: "guides/<slug>" (src/data/guides/<slug>.json),
+// "products/<category>" (src/data/products/<category>.json), "compares", "glossary".
+// src/lib/data.ts uses it as the page's `updated` date, so the date on the page,
 // in the Article JSON-LD and in the sitemap <lastmod> moves when the content really changes
 // and never otherwise. Bing uses dateModified/lastmod as a freshness signal and learns to
 // ignore it when it is wrong; a hand-typed `updated` field drifts (pages edited on Nov 6
@@ -24,7 +25,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
-const PAGES_DIR = 'src/content/pages';
+const PATHS = ['src/data/guides', 'src/data/products', 'src/data/compares.json', 'src/data/glossary.json'];
+const keyOf = (file) =>
+  file.match(/^src\/data\/(guides\/.+)\.json$/)?.[1] ??
+  file.match(/^src\/data\/(products\/.+)\.json$/)?.[1] ??
+  file.match(/^src\/data\/(compares|glossary)\.json$/)?.[1];
 const OUT = path.join(ROOT, 'src/data/git-dates.json');
 
 const git = (...args) => execFileSync('git', args, { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
@@ -44,8 +49,8 @@ try {
   const boundary = new Set(fs.existsSync(shallowFile) ? fs.readFileSync(shallowFile, 'utf8').split('\n').filter(Boolean) : []);
 
   // One pass over history, newest first: the first time a file appears is its last change.
-  const skip = new Set(git('log', '--format=%H', '--grep=^Page-Dates: skip$', '--', PAGES_DIR).split('\n').filter(Boolean));
-  const log = git('log', '--format=@%H %as', '--name-only', '--', PAGES_DIR);
+  const skip = new Set(git('log', '--format=%H', '--grep=^Page-Dates: skip$', '--', ...PATHS).split('\n').filter(Boolean));
+  const log = git('log', '--format=@%H %as', '--name-only', '--', ...PATHS);
   let commit = null;
   let date = null;
   for (const line of log.split('\n')) {
@@ -53,13 +58,13 @@ try {
       [commit, date] = line.slice(1).split(' ');
       continue;
     }
-    const m = line.match(/^src\/content\/pages\/(.+)\.json$/);
-    if (!m || m[1] in dates || skip.has(commit)) continue;
-    dates[m[1]] = boundary.has(commit) ? null : date;
+    const key = keyOf(line);
+    if (!key || key in dates || skip.has(commit)) continue;
+    dates[key] = boundary.has(commit) ? null : date;
   }
   dates = Object.fromEntries(Object.entries(dates).filter(([, d]) => d));
 } catch (e) {
-  console.warn(`page-dates: git unavailable (${String(e.message).split('\n')[0]}); using the JSON dates`);
+  console.warn(`page-dates: git unavailable (${String(e.message).split('\n')[0]}); using the launch dates`);
   dates = {};
 }
 

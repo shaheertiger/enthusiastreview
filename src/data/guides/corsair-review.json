@@ -1,0 +1,245 @@
+{
+  "slug": "corsair-review",
+  "type": "brand",
+  "category": "power-supplies",
+  "brand": "corsair",
+  "title": "Best Corsair PSU and RAM (2026): 3 PSUs, 2 Kits Ranked",
+  "h1": "Best Corsair PSU and RAM",
+  "query": "corsair review",
+  "description": "The Corsair RM850x is the best Corsair product to buy: 850 W, ATX 3.1 and a 10-year warranty. 5 Corsair PSUs and RAM kits ranked, plus where rivals beat them.",
+  "dek": "Corsair makes some of the safest power supply and memory picks on the market. Here is which ones to buy, and when another brand is the smarter call.",
+  "intro": [
+    "The Corsair RM850x (2024) is the best Corsair product for most builders in 2026: an 850 W, 80 Plus Gold, ATX 3.1 power supply with a native 12V-2x6 cable and a 10-year warranty for $120–$150. Corsair's Vengeance DDR5-6000 CL30 kit is its best memory buy.",
+    "This page reviews Corsair as a brand for the two categories where it is strongest: power supplies and RAM. We rank five products, explain what Corsair does well and badly, and say plainly when Seasonic, MSI or G.Skill is the better buy."
+  ],
+  "quickAnswer": "Buy the Corsair RM850x ($120–$150) for most gaming PCs, the RM1000x ($170–$200) for an RTX 5090, and the RM750e ($85–$100) for midrange cards. For memory, the Vengeance 32GB DDR5-6000 CL30 ($110–$200) suits AM5 and Intel builds, and the Vengeance LPX DDR4-3200 CL16 ($60–$100) suits older AM4 and Intel systems.",
+  "about": [
+    "Corsair was founded in 1994 in California's Bay Area. It started out making cache memory modules for PCs and moved into DRAM, where its Vengeance and Dominator lines became fixtures in enthusiast builds. It added power supplies in the mid-2000s, and over the following decade expanded into cases, coolers, fans, keyboards, mice and headsets.",
+    "Today Corsair is a publicly traded company that also owns brands such as Elgato, SCUF and Origin PC. For PC builders, it is best known for power supplies with long warranties, widely compatible memory kits and its iCUE software, which ties together RGB lighting and fan control across its products."
+  ],
+  "picks": [
+    {
+      "id": "corsair-rm850x",
+      "label": "Best Corsair PSU",
+      "bestFor": "gaming PCs with anything from an RTX 5060 to an RTX 5080 or RX 9070 XT",
+      "skipIf": "you need 1,000 W for an RTX 5090",
+      "writeup": [
+        "The RM850x (2024) is the product that best shows why Corsair has a strong reputation in power supplies. It is 850 W, 80 Plus Gold, ATX 3.1 and fully modular, with a native 12V-2x6 cable, a 140 mm fan that stops at low loads and a 10-year warranty.",
+        "Those specs matter for one reason: they match current hardware. NVIDIA recommends 850 W for the RTX 5080 and 750 W for the RTX 5070 Ti, so this unit covers both with no adapter. Independent reviews have long rated the RMx line well for regulation and noise, and that record is why it appears in so many build guides.",
+        "As a Corsair product, it also has the most predictable buying experience. Stock is wide, the model has been revised carefully over the years, and the warranty process is well understood by owners.",
+        "Its weakness is price. Seasonic's Focus GX-850 offers similar specs and a 10-year warranty and is often a little cheaper. For a full comparison against other brands, see our [best power supply](/best-power-supply/) guide. Within Corsair's range, though, this is the one to buy."
+      ],
+      "pros": ["ATX 3.1 with native 12V-2x6", "10-year warranty", "Zero-RPM 140 mm fan"],
+      "cons": ["Often a few dollars above Seasonic's equivalent"]
+    },
+    {
+      "id": "corsair-rm1000x",
+      "label": "Best for High-End GPUs",
+      "bestFor": "RTX 5090 builds and workstations with a high-power CPU and GPU",
+      "skipIf": "your graphics card is an RTX 5080 or smaller",
+      "writeup": [
+        "The RM1000x (2024) is the same design as the RM850x scaled up to 1,000 W. It is the Corsair unit to buy if you own or plan to buy an RTX 5090, which NVIDIA rates at 575 W and pairs with a 1,000 W power supply.",
+        "Everything good about the RM850x carries over: 80 Plus Gold, ATX 3.1, fully modular, a native 12V-2x6 cable, a 140 mm zero-RPM fan and a 10-year warranty. The extra 150 W is the margin a 575 W GPU and a 170 W Ryzen 9 9950X3D need together.",
+        "Corsair also sells Platinum HX and Titanium AX units at this wattage. For a gaming PC they are hard to justify. The efficiency gain over Gold is a few points, and the electricity saved over a typical gaming week will not cover the price gap within the warranty period.",
+        "For anything below an RTX 5090, skip it. At $170–$200 it costs roughly $50 more than the RM850x, and an RTX 5080 system will never use the extra headroom."
+      ],
+      "pros": ["Meets NVIDIA's 1,000 W guidance for the RTX 5090", "Same quiet fan design as the RM850x", "10-year warranty"],
+      "cons": ["Wasted money below an RTX 5090"]
+    },
+    {
+      "id": "corsair-rm750e",
+      "label": "Best Value Corsair PSU",
+      "bestFor": "midrange builds with an RTX 5070, RTX 5070 Ti, RX 9070 or RX 9070 XT",
+      "skipIf": "you want a 10-year warranty or plan to run an RTX 5080",
+      "writeup": [
+        "The RM750e is Corsair's best answer for buyers who do not need 850 W. It is 750 W, 80 Plus Gold, ATX 3.1 and fully modular, with a native 12V-2x6 cable, and it usually sells for $85–$100.",
+        "The e in its name signals where Corsair trimmed cost compared with the RMx line. The fan is 120 mm instead of 140 mm, and the warranty is 7 years instead of 10. That is still a long warranty, and the unit meets NVIDIA's 750 W recommendation for the RTX 5070 Ti.",
+        "This is also where Corsair faces its stiffest competition. The MSI MAG A750GL PCIE5 often costs $10–$20 less, and the be quiet! Pure Power 12 M 750W adds a 10-year warranty for a little more. The RM750e's case is balance: a known brand, current standards and a price that usually stays under $100.",
+        "For more budget options, see our [best PSU under $100](/best-psu-under-100/) guide. If you want Corsair specifically, this is the model to choose for a midrange card."
+      ],
+      "pros": ["ATX 3.1 under $100", "Fully modular", "Native 12V-2x6 cable"],
+      "cons": ["7-year warranty", "Faces cheaper rivals at 750 W"]
+    },
+    {
+      "id": "corsair-vengeance-ddr5-6000-cl30",
+      "label": "Best Corsair RAM",
+      "bestFor": "AM5 and Intel DDR5 gaming builds that want a plain, widely compatible 32 GB kit",
+      "skipIf": "you need a low-profile kit under a large air cooler, where G.Skill's Flare X5 is shorter",
+      "writeup": [
+        "Corsair's Vengeance 32GB (2x16GB) DDR5-6000 CL30 is the memory kit to buy if you want Corsair RAM in a current build. DDR5-6000 at CL30 is the widely recommended sweet spot for Ryzen 7000 and 9000, and it works well on Intel Core Ultra boards too.",
+        "Corsair sells this kit in both XMP 3.0 and EXPO versions. Either one usually works on either platform, but buy the EXPO version for AM5 and the XMP version for Intel so the profile is tuned for the board you have. It runs at 1.40 V and stands about 35 mm tall, which clears most air coolers.",
+        "Like all DRAM, it has become much more expensive since late 2025, when memory prices rose sharply. Its band is $110–$200, and it moves with the market. Do not pay a premium for the Corsair badge alone: identical speed and latency from G.Skill or Kingston are just as good.",
+        "Our [best RAM for gaming](/best-ram-for-gaming/) guide compares it with those kits."
+      ],
+      "pros": ["DDR5-6000 CL30 sweet spot", "XMP and EXPO versions", "About 35 mm tall"],
+      "cons": ["Prices volatile since late 2025", "Rivals often match it for less"]
+    },
+    {
+      "id": "corsair-vengeance-lpx-ddr4-3200-cl16",
+      "label": "Best for Older Builds",
+      "bestFor": "AM4 and older Intel builds that need a reliable, low-profile 32 GB DDR4 kit",
+      "skipIf": "you run a Ryzen 3000 or 5000 CPU and want the extra speed of DDR4-3600",
+      "writeup": [
+        "The Vengeance LPX 32GB (2x16GB) DDR4-3200 CL16 has been one of the most common DDR4 kits for years, and it is still a sensible choice for upgrading or repairing an older system. It runs DDR4-3200 at CL16 via XMP 2.0 at 1.35 V, and its 34 mm heat spreader fits under almost any CPU cooler.",
+        "DDR4-3200 is the officially supported speed for Ryzen 3000 and 5000 and for Intel 11th and 12th gen chips, so this kit is low risk on almost any DDR4 board. It is not the fastest option. On Ryzen 3000 and 5000, a DDR4-3600 CL16 kit can run the Infinity Fabric at 1,800 MHz in sync with the memory, which helps a little in games. Our [best RAM for Ryzen 9 3900X and 3950X](/best-ram-for-ryzen-9-3900x-and-3950x/) guide explains that in detail.",
+        "DDR4 prices have also climbed as manufacturers wind down production. Its $60–$100 band is still well below DDR5, but buy soon if you need it."
+      ],
+      "pros": ["34 mm low profile", "Officially supported speed on most DDR4 platforms", "Long track record"],
+      "cons": ["Slower than DDR4-3600 kits on Ryzen", "DDR4 supply shrinking"]
+    }
+  ],
+  "tableSpecs": ["Wattage", "Efficiency", "Capacity", "Speed", "Warranty"],
+  "ranking": {
+    "intro": "We ranked these Corsair products using Corsair's own specifications and warranty terms, NVIDIA and AMD platform recommendations, published independent reviews, owner reports and recent street prices. We did not bench-test any of them. Rankings weigh how useful each product is for a typical 2026 build against what rivals offer at the same price.",
+    "criteria": [
+      ["Fit for current builds", "Power supplies need ATX 3.x and a native 16-pin GPU cable; memory needs the right speed and profile for AM5, Intel or AM4."],
+      ["Warranty and support", "Length of coverage and how predictable the claim process is, based on owner reports."],
+      ["Reported quality", "What independent reviewers report about electrical behavior for power supplies and compatibility for memory."],
+      ["Value against rivals", "How each Corsair product prices against Seasonic, MSI, be quiet!, G.Skill and Kingston equivalents."],
+      ["Practical details", "Fan size and noise modes for power supplies, height and voltage for memory."]
+    ],
+    "why": "The RM850x ranks first because it is Corsair's strongest product against any rival: current standards, a quiet 140 mm fan and a 10-year warranty at a fair price."
+  },
+  "mentions": [
+    {
+      "name": "Corsair HX and AX power supplies",
+      "text": "Corsair's Platinum HX and Titanium AX lines are well regarded and add higher efficiency, and on some models software monitoring. For a gaming PC, the extra cost rarely pays back. They make more sense for workstations that run under heavy load for long hours."
+    },
+    {
+      "name": "Corsair CX series",
+      "text": "The CX line is Corsair's 80 Plus Bronze budget range. It suits basic office or entry-level builds, but for a gaming PC with a current GPU, the RM750e adds Gold efficiency, full modularity and a native GPU cable for not much more."
+    },
+    {
+      "name": "Corsair Vengeance RGB and Dominator DDR5",
+      "text": "Corsair's RGB and Dominator kits use the same speeds as the plain Vengeance with lighting and taller heat spreaders. Buy one if you want RGB controlled through iCUE. For performance alone, the plain kit is the better value."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Is Corsair a Good Power Supply Brand?",
+      "body": [
+        "Yes. Corsair is one of the most dependable power supply brands for gaming PCs. Its RMx line has been among the most recommended Gold units for years, its warranties run up to 10 years, and its current models follow ATX 3.1 with native 12V-2x6 cables.",
+        "Like most brands, Corsair does not build every unit in its own factory. It designs and specifies its power supplies and works with manufacturing partners. What matters for you is the specific model and its independent reviews, not the logo, and the RMx and RMe models on this page have a solid record.",
+        "Where Corsair is weaker is at the very bottom of its range. The Bronze CX line is fine for light builds but not the brand's best work."
+      ]
+    },
+    {
+      "h": "What Corsair Does Well",
+      "body": [
+        "Corsair's strengths are consistency and coverage. When you buy an RMx unit, you know what you are getting, and that predictability is worth something when a power supply protects the rest of the PC."
+      ],
+      "list": [
+        "Long warranties: 10 years on the RM850x and RM1000x, 7 years on the RM750e, and limited lifetime coverage on memory.",
+        "Current standards: ATX 3.1 and native 12V-2x6 cables across the RMx and RMe lines.",
+        "Quiet fan modes: zero-RPM operation on the RMx units, with a 140 mm fan.",
+        "Memory compatibility: Vengeance kits are sold in both XMP and EXPO versions for DDR5, so you can match your platform.",
+        "Availability: Corsair products are stocked almost everywhere, which helps with returns and replacements.",
+        "One ecosystem: iCUE controls lighting and fans across Corsair RAM, coolers and fans if you want that."
+      ]
+    },
+    {
+      "h": "Where Corsair Falls Short",
+      "body": [
+        "Corsair's biggest weakness is price. You pay a small premium for the brand on most products, and identical specs from Seasonic, MSI, G.Skill or Kingston are often $10–$30 cheaper.",
+        "Its software is the second complaint. iCUE is powerful but heavy, and owners regularly report background processes and occasional bugs. The products on this page work without it; you only need iCUE for RGB lighting or Corsair fan control.",
+        "Naming can also confuse buyers. The RM850x has had several revisions over the years, and older stock still turns up. Check that you are buying the 2024 ATX 3.1 model. Finally, the RM750e's 7-year warranty is shorter than what be quiet! offers at 750 W."
+      ]
+    },
+    {
+      "h": "Which Corsair PSU Should You Buy?",
+      "body": [
+        "Match the power supply to your graphics card. NVIDIA's recommendations are a sensible floor, and the table below shows where each Corsair unit fits. Our [PSU calculator](/tools/psu-calculator/) checks your exact parts."
+      ],
+      "table": {
+        "caption": "Corsair power supplies matched to GPUs",
+        "head": ["Corsair unit", "Wattage", "Warranty", "Fits these GPUs"],
+        "rows": [
+          ["RM750e", "750 W", "7 years", "Up to RTX 5070 Ti, RX 9070 XT"],
+          ["RM850x (2024)", "850 W", "10 years", "Up to RTX 5080"],
+          ["RM1000x (2024)", "1,000 W", "10 years", "RTX 5090"],
+          ["CX series", "Varies", "Shorter", "Entry-level cards only"]
+        ]
+      }
+    },
+    {
+      "h": "Is Corsair Vengeance RAM Good for AM5?",
+      "body": [
+        "Yes. The Vengeance DDR5-6000 CL30 kit is a strong choice for AM5, as long as you buy the EXPO version. DDR5-6000 is the speed AMD and most reviewers point to as the sweet spot for Ryzen 7000 and 9000, because it lets the memory controller run in sync with the memory.",
+        "At about 35 mm tall, the plain Vengeance clears most coolers, though G.Skill's Flare X5 is shorter at around 33 mm. Both run at CL30. Corsair's version uses 1.40 V, slightly above the Flare X5's 1.35 V, which makes no practical difference to stability on a modern board.",
+        "Memory prices rose sharply from late 2025, and Corsair's kits moved with the market. Treat the price band as a guide and compare it against G.Skill and Kingston on the day you buy."
+      ]
+    },
+    {
+      "h": "Corsair vs Seasonic, MSI and G.Skill",
+      "body": [
+        "Corsair's closest rivals differ by category. Seasonic is its main competitor in premium power supplies, MSI undercuts it in budget power supplies, and G.Skill is its main competitor in enthusiast memory. Here is how the matchups usually go."
+      ],
+      "table": {
+        "caption": "Corsair against its closest rivals",
+        "head": ["Matchup", "Corsair wins on", "Rival wins on"],
+        "rows": [
+          ["RM850x vs Seasonic Focus GX-850", "140 mm fan, wider stock", "Often slightly cheaper, hybrid fan switch"],
+          ["RM750e vs MSI MAG A750GL PCIE5", "7-year warranty, longer PSU track record", "Usually $10–$20 cheaper"],
+          ["RM750e vs be quiet! Pure Power 12 M 750W", "Usually cheaper", "10-year warranty"],
+          ["Vengeance DDR5-6000 CL30 vs G.Skill Flare X5", "XMP and EXPO versions", "Lower profile, lower voltage, EXPO-first"],
+          ["Vengeance LPX DDR4-3200 vs G.Skill Ripjaws V DDR4-3600", "Lower price, 34 mm height", "Faster, better for Ryzen 3000 and 5000"]
+        ]
+      }
+    },
+    {
+      "h": "Who Should Skip Corsair",
+      "body": [
+        "Skip Corsair if price is your first priority. In budget power supplies, the MSI MAG A750GL PCIE5 does the same job as the RM750e for less, and in memory, generic-looking kits from Kingston or G.Skill at the same speed and latency often undercut Corsair.",
+        "Skip it if you want the longest warranty at 750 W, which be quiet! offers. Skip it if you are building on AM5 with a big air cooler and want the lowest-profile EXPO kit, where the G.Skill Flare X5 is a better fit. And if you want no RGB software at all, you can still buy Corsair, but there is no reason to pay extra for its lighting ecosystem."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying old RM850x stock", "Earlier RM850x revisions are still sold by some retailers. Look for the 2024 model with ATX 3.1 and a native 12V-2x6 cable. An older revision works, but lacks the native GPU cable and the newer standard."],
+    ["Mixing Corsair modular cables", "Corsair has changed cable designs across generations, and even Corsair-to-Corsair swaps can be unsafe if the types differ. Never move modular cables between power supplies unless the maker explicitly lists them as compatible."],
+    ["Buying the XMP kit for AM5", "Corsair sells Vengeance DDR5 in both XMP and EXPO versions. The XMP kit often works on AM5, but the EXPO version is tuned for AMD boards. Match the profile to your platform to avoid manual tuning."],
+    ["Paying for the badge", "Corsair's memory is good, but DDR5-6000 CL30 is DDR5-6000 CL30. If a G.Skill or Kingston kit at the same speed and latency is $20 cheaper, buy it."],
+    ["Installing iCUE you do not need", "The power supplies and plain Vengeance memory here work without any software. Only install iCUE if you have Corsair RGB or fans to control."]
+  ],
+  "bottomLine": "Corsair is a safe, sometimes slightly pricey choice. The RM850x is its best product and one of the best power supplies you can buy for an RTX 5070 Ti to RTX 5080 build. The RM1000x covers the RTX 5090 and the RM750e covers midrange cards. Vengeance DDR5-6000 CL30 is a solid memory kit if the price is right. When Seasonic, MSI or G.Skill offer the same specs for less, buy those instead.",
+  "faqs": [
+    {
+      "q": "Is Corsair a good brand?",
+      "a": "Yes, Corsair is a reliable brand for power supplies and memory. Its RMx power supplies carry 10-year warranties and follow the current ATX 3.1 standard, and its Vengeance memory is widely compatible. It is often a little more expensive than rivals with the same specs."
+    },
+    {
+      "q": "What is the best Corsair power supply?",
+      "a": "The Corsair RM850x (2024) is the best Corsair power supply for most builds. It is 850 W, 80 Plus Gold, ATX 3.1 and fully modular, with a native 12V-2x6 cable, a 140 mm zero-RPM fan and a 10-year warranty. It covers GPUs up to an RTX 5080."
+    },
+    {
+      "q": "Is Corsair RMe or RMx better?",
+      "a": "The RMx is better: it has a larger 140 mm fan with zero-RPM mode and a 10-year warranty, while the RMe uses a 120 mm fan and a 7-year warranty. The RMe is cheaper and still a good unit. Choose RMe for midrange builds on a budget and RMx for high-end or long-term builds."
+    },
+    {
+      "q": "Who makes Corsair power supplies?",
+      "a": "Corsair designs its power supplies and has them built by manufacturing partners, which is normal in the industry. The OEM can differ between product lines and revisions. Judge each model by its specs, warranty and independent reviews rather than by who assembled it."
+    },
+    {
+      "q": "Is Corsair Vengeance DDR5 good for Ryzen?",
+      "a": "Yes, Corsair Vengeance DDR5-6000 CL30 is a good kit for Ryzen 7000 and 9000. Buy the EXPO version for AM5 boards. DDR5-6000 CL30 is the widely recommended speed for those CPUs, and at about 35 mm tall it fits under most coolers."
+    },
+    {
+      "q": "Do I need iCUE for Corsair RAM?",
+      "a": "No, you do not need iCUE for Corsair RAM. Speed and timings are set by XMP or EXPO in your motherboard's BIOS. iCUE is only needed to control RGB lighting on RGB kits or to monitor and control other Corsair devices."
+    },
+    {
+      "q": "How long is Corsair's power supply warranty?",
+      "a": "Corsair's warranty depends on the line: the RM850x and RM1000x have 10 years and the RM750e has 7 years. Check the exact model on Corsair's site, because terms can differ between product lines and regions."
+    }
+  ],
+  "sources": [
+    "Corsair RM850x, RM1000x and RM750e product pages and warranty terms",
+    "Corsair Vengeance DDR5 and Vengeance LPX DDR4 product pages",
+    "Corsair company history and investor materials",
+    "NVIDIA GeForce RTX 50 series power recommendations",
+    "AMD Ryzen 7000 and 9000 memory guidance",
+    "Seasonic, MSI, be quiet! and G.Skill product pages for comparison units",
+    "Published independent reviews and owner reports"
+  ],
+  "related": ["best-power-supply", "best-ram-for-gaming", "best-psu-under-100"]
+}

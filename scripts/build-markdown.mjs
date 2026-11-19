@@ -1,309 +1,174 @@
 // Writes the Markdown side of the site into dist/ after `astro build` (Dualmark / AEO):
 //
-//   dist/<section>/<slug>.md   Markdown twin of every guide (/best/x/ → /best/x.md)
-//   dist/index.md, best.md, guides.md, compare.md   home and hub twins
-//   dist/md-catalog.json       every Markdown route (served at /api/md/_catalog)
-//   dist/llms.txt              site index for AI agents (llmstxt.org)
-//   dist/llms-full.txt         guide for AI assistants + URL index + full content of top pages
-//   dist/ai.txt                how AI systems may use the content
+//   dist/<path>.md          Markdown twin of every indexable page (/best-graphics-card/ → /best-graphics-card.md,
+//                           /gear/rtx-5070/ → /gear/rtx-5070.md, / → /index.md)
+//   dist/md-catalog.json    every Markdown route (served at /api/md/_catalog)
+//   dist/llms.txt           site index for AI agents (llmstxt.org)
+//   dist/llms-full.txt      guide for AI assistants + the full text of every best list
+//   dist/ai.txt             how AI systems may use the content
+//   dist/sitemap.md         every Markdown URL
 //
-// The Markdown is generated from the same JSON the HTML is built from
-// (src/content/pages/*.json), so the two can never disagree. middleware.js serves these
-// files to AI agents and to anyone asking for text/markdown (see https://dualmark.dev).
+// The Markdown is converted from the built HTML's <main>, so the two can never disagree.
+// middleware.js serves these files to AI agents and to anyone asking for text/markdown.
 import fs from 'node:fs';
 import path from 'node:path';
-import { shortAnswerHeading, methodNote, disclosure, trustBox } from '../src/data/page-copy.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const SITE_URL = 'https://www.enthusiastreview.com';
 const SITE_NAME = 'Enthusiast Review';
-const TAG = 'sktiger-20';
-const FULL_LIMIT = 400_000; // characters in llms-full.txt
+const FULL_LIMIT = 600_000; // characters in llms-full.txt
 
 if (!fs.existsSync(DIST)) {
   console.error('build-markdown: dist/ not found — run astro build first.');
   process.exit(1);
 }
 
-const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog.json'), 'utf8'));
-const pages = fs
-  .readdirSync(path.join(ROOT, 'src/content/pages'))
-  .filter((f) => f.endsWith('.json'))
-  .map((f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/content/pages', f), 'utf8')))
-  // Noindexed (off-topic) pages get no Markdown twin and stay out of llms.txt.
-  .filter((p) => !p.noindex)
-  .sort((a, b) => a.h1.localeCompare(b.h1));
-// Same real dates as src/lib/content.ts: the git date from scripts/page-dates.mjs, never
-// earlier than the page was published.
-const gitDatesFile = path.join(ROOT, 'src/data/git-dates.json');
-const gitDates = fs.existsSync(gitDatesFile) ? JSON.parse(fs.readFileSync(gitDatesFile, 'utf8')) : {};
-for (const p of pages) {
-  const d = gitDates[p.slug] ?? p.updated;
-  p.updated = d < p.published ? p.published : d;
-}
-const urlOf = (p) => `${SITE_URL}/${p.section}/${p.slug}/`;
-// Hubs and site-wide files are as new as the newest guide, not as new as the build.
-const today = pages.reduce((m, p) => (p.updated > m ? p.updated : m), '0000-00-00');
+const decode = (s) =>
+  s
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#34;|&quot;/g, '"').replace(/&#39;|&apos;|&#x27;/g, "'")
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
+const meta = (html, re) => decode(html.match(re)?.[1] ?? '');
+const abs = (href) => (href.startsWith('/') ? SITE_URL + href : href);
 
-/* ---------- helpers mirroring src/data/affiliate.ts ---------- */
-function searchQuery(name) {
-  const model = name.match(/\(([A-Z0-9][A-Z0-9-]{3,})\)/)?.[1];
-  const brand = name.split(/\s+/)[0];
-  if (model && /\d/.test(model) && !name.startsWith(model)) return `${brand} ${model}`;
-  return name.replace(/[()]/g, '').replace(/\s+/g, ' ').trim();
-}
-function amazonLink(p) {
-  if (p.url?.startsWith('http')) return p.url.includes('tag=') ? p.url : `${p.url}${p.url.includes('?') ? '&' : '?'}tag=${TAG}`;
-  const asin = p.asin || catalog[p.catalogId]?.asin || catalog[p.id]?.asin;
-  if (asin) return `https://www.amazon.com/dp/${asin}?tag=${TAG}&linkCode=ll1`;
-  return `https://www.amazon.com/s?k=${encodeURIComponent(searchQuery(p.name))}&tag=${TAG}`;
-}
-/** Content text is already Markdown; make internal links absolute so the file stands alone. */
-const abs = (s = '') => s.replace(/\]\((\/[^)\s]*)\)/g, (_, href) => `](${SITE_URL}${href})`);
-const esc = (s = '') => String(s).replace(/\|/g, '\\|');
-
-function blockMd(b) {
-  switch (b.type) {
-    case 'p': return abs(b.text);
-    case 'h3': return `### ${abs(b.text)}`;
-    case 'ul': return b.items.map((i) => `- ${abs(i)}`).join('\n');
-    case 'ol': return b.items.map((i, n) => `${n + 1}. ${abs(i)}`).join('\n');
-    case 'checklist':
-      return b.items.map((i) => [`- **${i.label}:** ${abs(i.text)}`, ...(i.sub ?? []).map((s) => `  - ${abs(s)}`)].join('\n')).join('\n');
-    case 'table':
-      return [
-        `| ${b.head.map(esc).join(' | ')} |`,
-        `| ${b.head.map(() => '---').join(' | ')} |`,
-        ...b.rows.map((r) => `| ${r.map((c) => esc(abs(c))).join(' | ')} |`),
-        ...(b.caption ? ['', `*${b.caption}*`] : []),
-      ].join('\n');
-    case 'callout': return `> ${b.title ? `**${b.title}:** ` : ''}${abs(b.text)}`;
-    case 'stats': return b.items.map((s) => `- **${s.value}** — ${abs(s.label)}`).join('\n');
-    default: return '';
-  }
-}
-
-function pageMd(p) {
-  const out = [];
-  out.push(`# ${p.h1}`, '', `> ${p.dek}`, '');
-  out.push([`Canonical: ${urlOf(p)}`, `Last updated: ${p.updated}`, `Published: ${p.published}`, `Category: ${p.category}`, `Publisher: ${SITE_NAME}`, `Method: ${methodNote(p)}`].join('\n'), '');
-  const products = p.products ?? [];
-  // Same order as the HTML page: the short answer comes first.
-  if (p.topPicksLead || p.shortAnswer?.length || products.length) {
-    out.push(`## ${shortAnswerHeading(p)}`, '');
-    if (p.topPicksLead) out.push(abs(p.topPicksLead), '');
-    for (const b of p.shortAnswer ?? []) out.push(blockMd(b), '');
-    if (products.length) {
-      out.push(`**${p.section === 'best' ? 'Our top picks' : p.section === 'compare' ? 'The two models' : 'Products in this guide'}:**`, '');
-      for (const pr of products) out.push(`- **${pr.award}:** ${pr.shortName ?? pr.name} — [check price on Amazon](${amazonLink(pr)})`);
-      out.push('');
-    }
-  }
-  out.push(...p.intro.map(abs).flatMap((x) => [x, '']));
-  if (products.length) {
-    products.forEach((pr, i) => {
-      out.push(`## ${i + 1}. ${pr.name} — ${pr.award}`, '');
-      out.push(`[Check price on Amazon](${amazonLink(pr)})`, '');
-      out.push('**Pros**', '', ...pr.pros.map((x) => `- ${abs(x)}`), '');
-      out.push('**Cons**', '', ...pr.cons.map((x) => `- ${abs(x)}`), '');
-      out.push(`**Why we picked it:** ${abs(pr.whyWeLoveIt)}`, '');
-      out.push(`**What the ratings show:** ${abs(pr.performance)}`, '');
-      if (pr.notes) out.push(`**Worth knowing:** ${abs(pr.notes)}`, '');
-      const specs = Object.entries(pr.specs ?? {});
-      if (specs.length) out.push('| Spec | Value |', '| --- | --- |', ...specs.map(([k, v]) => `| ${esc(k)} | ${esc(v)} |`), '');
-    });
-  }
-  for (const s of p.sections) {
-    out.push(`## ${s.heading}`, '');
-    for (const b of s.blocks) out.push(blockMd(b), '');
-  }
-  if (p.faqs?.length) {
-    out.push('## Frequently asked questions', '');
-    for (const f of p.faqs) out.push(`### ${f.q}`, '', abs(f.a), '');
-  }
-  const rel = (p.related ?? []).map((r) => pages.find((x) => `/${x.section}/${x.slug}/` === r)).filter(Boolean);
-  if (rel.length) out.push('## Related guides', '', ...rel.map((r) => `- [${r.h1}](${urlOf(r)})`), '');
-  const trust = trustBox(p, SITE_NAME);
-  out.push(`## ${trust.heading}`, '', trust.text, '');
-  out.push('---', '', `*${abs(disclosure(p))} Amazon links carry the affiliate tag ${TAG}.*`, '');
-  return out.join('\n').replace(/\n{3,}/g, '\n\n');
-}
-
-/* ---------- write page twins ---------- */
-const written = [];
-const write = (rel, body, meta) => {
-  const file = path.join(DIST, rel);
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, body);
-  written.push({ path: `/${rel}`, ...meta, tokens: Math.ceil(body.length / 4) });
-};
-
-const mdByPage = new Map();
-for (const p of pages) {
-  const md = pageMd(p);
-  mdByPage.set(p, md);
-  write(`${p.section}/${p.slug}.md`, md, { canonical: urlOf(p), title: p.h1, section: p.section, category: p.category, updated: p.updated });
-}
-
-const SECTIONS = { best: 'Best Picks', guides: 'Buying Guides', compare: 'Comparisons' };
-const CATEGORIES = [...new Set(pages.map((p) => p.category))];
-const listing = (ps) => ps.map((p) => `- [${p.h1}](${urlOf(p)}): ${p.dek}`).join('\n');
-
-for (const [key, label] of Object.entries(SECTIONS)) {
-  const ps = pages.filter((p) => p.section === key);
-  const groups = CATEGORIES.map((c) => [c, ps.filter((p) => p.category === c)]).filter(([, l]) => l.length);
-  const body = [`# ${label} — ${SITE_NAME}`, '', `Canonical: ${SITE_URL}/${key}/`, `Last updated: ${today}`, '', ...groups.flatMap(([c, l]) => [`## ${c}`, '', listing(l), ''])].join('\n');
-  write(`${key}.md`, body, { canonical: `${SITE_URL}/${key}/`, title: label, section: key, updated: today });
-}
-
-const home = [
-  `# ${SITE_NAME}: Dehumidifier Reviews, Buying Guides & Fixes`,
-  '',
-  `Canonical: ${SITE_URL}/`,
-  `Last updated: ${today}`,
-  '',
-  `${SITE_NAME} is an independent buying-guide site about dehumidifiers and home moisture control: ${pages.length} guides covering every room and job, every major brand, sizing, settings, running costs and troubleshooting. Picks are researched against 2019 DOE capacity ratings, ENERGY STAR data, manufacturer manuals, CPSC recall records and owner-review patterns.`,
-  '',
-  ...Object.entries(SECTIONS).flatMap(([k, label]) => [`## ${label}`, '', listing(pages.filter((p) => p.section === k)), '']),
-].join('\n');
-write('index.md', home, { canonical: `${SITE_URL}/`, title: SITE_NAME, section: 'home', updated: today });
-
-/* ---------- static pages (about, disclosure…): simple HTML → Markdown ---------- */
-const decode = (t) => t.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ');
-function htmlToMd(html) {
+/** Inline HTML → Markdown text (links, bold), tags stripped. */
+function inline(html) {
   return decode(
     html
-      .replace(/<a [^>]*href="([^"]+)"[^>]*>(.*?)<\/a>/gs, (_, h, t) => `[${t.replace(/<[^>]+>/g, '')}](${h.startsWith('/') ? SITE_URL + h : h})`)
-      .replace(/<(strong|b)>(.*?)<\/\1>/gs, '**$2**')
-      .replace(/<(em|i)>(.*?)<\/\1>/gs, '*$2*')
-      .replace(/<h1[^>]*>(.*?)<\/h1>/gs, '\n# $1\n')
-      .replace(/<h2[^>]*>(.*?)<\/h2>/gs, '\n## $1\n')
-      .replace(/<h3[^>]*>(.*?)<\/h3>/gs, '\n### $1\n')
-      .replace(/<li[^>]*>(.*?)<\/li>/gs, '- $1\n')
-      .replace(/<p[^>]*>(.*?)<\/p>/gs, '\n$1\n')
+      .replace(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, (_, href, text) => {
+        const t = text.replace(/<[^>]+>/g, '').trim();
+        return href.startsWith('#') || !t ? t : `[${t}](${abs(decode(href))})`;
+      })
+      .replace(/<(strong|b)\b[^>]*>([\s\S]*?)<\/\1>/gi, '**$2**')
+      .replace(/<br\s*\/?>/gi, ' ')
+      .replace(/<\/(span|div|dd|dt|td|th|h3)>/gi, ' ')
       .replace(/<[^>]+>/g, ''),
   )
-    .split('\n').map((l) => l.trim()).join('\n')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function table(html) {
+  const rows = [...html.matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)].map((r) => [...r[1].matchAll(/<t([hd])\b[^>]*>([\s\S]*?)<\/t\1>/gi)].map((c) => inline(c[2]).replace(/\|/g, '\\|') || ' '));
+  if (!rows.length) return '';
+  const width = Math.max(...rows.map((r) => r.length));
+  const pad = (r) => [...r, ...Array(width - r.length).fill(' ')];
+  const caption = inline(html.match(/<caption\b[^>]*>([\s\S]*?)<\/caption>/i)?.[1] ?? '');
+  const [head, ...body] = rows.map(pad);
+  return `\n\n${caption ? `*${caption}*\n\n` : ''}| ${head.join(' | ')} |\n|${head.map(() => ' --- ').join('|')}|\n${body.map((r) => `| ${r.join(' | ')} |`).join('\n')}\n\n`;
+}
+
+/** The page's <main> → Markdown body. */
+function toMarkdown(main) {
+  let h = main
+    .replace(/<(script|style|svg|select|template|noscript)\b[\s\S]*?<\/\1>/gi, '')
+    .replace(/<nav class="(?:crumbs|toc)"[\s\S]*?<\/nav>/gi, '')
+    .replace(/<div class="sticky-buy"[\s\S]*?<\/div>/gi, '')
+    .replace(/<output\b[\s\S]*?<\/output>/gi, '')
+    .replace(/<table\b[\s\S]*?<\/table>/gi, (t) => `\u0000${Buffer.from(table(t)).toString('base64')}\u0000`)
+    .replace(/<a\b[^>]*class="(?:card|cat-tile)[^"]*"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, (_, href, t) => `\n- [${inline(t.replace(/<\/(h3|strong|span)>/gi, ' · </$1>')).replace(/\s*·\s*$/, '')}](${abs(decode(href))})\n`)
+    .replace(/<a\b[^>]*href="([^"]+)"[^>]*class="(?:card|cat-tile)[^"]*"[^>]*>([\s\S]*?)<\/a>/gi, (_, href, t) => `\n- [${inline(t.replace(/<\/(h3|strong|span)>/gi, ' · </$1>')).replace(/\s*·\s*$/, '')}](${abs(decode(href))})\n`)
+    .replace(/<div class="(?:byline|kicker|gear-meta|sl-main|pick-meta)"[^>]*>([\s\S]*?)<\/div>/gi, (_, t) => `\n\n${inline(t)}\n\n`)
+    .replace(/<dt\b[^>]*>([\s\S]*?)<\/dt>\s*<dd\b[^>]*>([\s\S]*?)<\/dd>/gi, (_, k, v) => `\n- **${inline(k)}:** ${inline(v)}\n`)
+    .replace(/<h([1-4])\b[^>]*>([\s\S]*?)<\/h\1>/gi, (_, n, t) => `\n\n${'#'.repeat(+n)} ${inline(t)}\n\n`)
+    .replace(/<li\b[^>]*>([\s\S]*?)<\/li>/gi, (_, t) => `\n- ${inline(t)}\n`)
+    .replace(/<p\b[^>]*>([\s\S]*?)<\/p>/gi, (_, t) => `\n\n${inline(t)}\n\n`)
+    .replace(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, (m) => `\n\n${inline(m)}\n\n`);
+  // Whatever is left (divs, spans with text) becomes plain lines.
+  h = h.replace(/<\/(div|section|header|article|aside|ul|ol|dl|form|fieldset|label)>/gi, '\n').replace(/<[^>]+>/g, '');
+  h = decode(h).replace(/\u0000([A-Za-z0-9+/=]+)\u0000/g, (_, b) => Buffer.from(b, 'base64').toString());
+  return h
+    .split('\n')
+    .map((l) => l.replace(/[ \t]+/g, ' ').trim())
+    .join('\n')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
-for (const route of ['about', 'how-we-review', 'disclosure', 'privacy', 'contact', 'authors/home-air-desk']) {
-  const file = path.join(DIST, route, 'index.html');
-  if (!fs.existsSync(file)) continue;
+
+// ---- collect every indexable page --------------------------------------------------------
+const files = [];
+(function walk(dir) {
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) walk(p);
+    else if (e.name === 'index.html') files.push(p);
+  }
+})(DIST);
+
+const pages = [];
+for (const file of files) {
   const html = fs.readFileSync(file, 'utf8');
-  const main = html.match(/<main[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? '';
-  const article = main.replace(/<nav class="crumbs"[\s\S]*?<\/nav>/, '');
-  const title = decode(html.match(/<h1[^>]*>(.*?)<\/h1>/s)?.[1]?.replace(/<[^>]+>/g, '') ?? route);
-  const body = htmlToMd(article).replace(/^# .*\n?/, '');
-  const md = [`# ${title}`, '', `Canonical: ${SITE_URL}/${route}/`, `Last updated: ${today}`, '', body, ''].join('\n');
-  write(`${route}.md`, md, { canonical: `${SITE_URL}/${route}/`, title, section: 'site', updated: today });
+  if (/<meta[^>]+name="robots"[^>]+content="[^"]*noindex/i.test(html)) continue;
+  const route = '/' + path.relative(DIST, path.dirname(file)).split(path.sep).filter(Boolean).join('/');
+  const url = route === '/' ? '/' : `${route}/`;
+  const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1];
+  if (!main) continue;
+  const title = meta(html, /<title>([\s\S]*?)<\/title>/i);
+  const description = meta(html, /<meta name="description" content="([^"]*)"/i);
+  const canonical = meta(html, /<link rel="canonical" href="([^"]+)"/i) || SITE_URL + url;
+  const updated = meta(html, /<meta property="article:modified_time" content="([^"]+)"/i) || undefined;
+  const mdPath = url === '/' ? '/index.md' : `${route}.md`;
+  const body = toMarkdown(main);
+  const kind = url === '/' ? 'home' : url.startsWith('/gear/') && url !== '/gear/' ? 'gear' : url.startsWith('/compare/') && url !== '/compare/' ? 'compare' : url.startsWith('/glossary/') && url !== '/glossary/' ? 'glossary' : url.startsWith('/tools/') && url !== '/tools/' ? 'tool' : url.startsWith('/brands/') && url !== '/brands/' ? 'brand' : /^\/[^/]+\/$/.test(url) && /class="shortlist"/.test(html) ? 'guide' : 'other';
+  const h1 = inline(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? title);
+  const md =
+    `---\ntitle: ${JSON.stringify(title)}\ndescription: ${JSON.stringify(description)}\n---\n\n` +
+    `Canonical: ${canonical}\n${updated ? `Last updated: ${updated}\n` : ''}Site: ${SITE_NAME}\n\n${body}\n`;
+  const out = path.join(DIST, mdPath.slice(1));
+  fs.mkdirSync(path.dirname(out), { recursive: true });
+  fs.writeFileSync(out, md);
+  pages.push({ url, mdPath, title, h1, description, updated, kind, md });
 }
+pages.sort((a, b) => a.url.localeCompare(b.url));
 
-/* ---------- sitemap.md: every Markdown twin (AEO spec, discovery) ---------- */
-{
-  const lines = [`# Sitemap — ${SITE_NAME} (Markdown)`, '', `Canonical: ${SITE_URL}/sitemap.xml`, `Last updated: ${today}`, '', 'Every page on this site as Markdown. Append `.md` to any page path, or send `Accept: text/markdown`.', ''];
-  for (const w of written) lines.push(`- [${w.title}](${SITE_URL}${w.path})`);
-  fs.writeFileSync(path.join(DIST, 'sitemap.md'), lines.join('\n') + '\n');
-}
+// ---- catalog, llms.txt, llms-full.txt, ai.txt, sitemap.md --------------------------------
+fs.writeFileSync(
+  path.join(DIST, 'md-catalog.json'),
+  JSON.stringify({ site: SITE_URL, count: pages.length, pages: pages.map((p) => ({ url: SITE_URL + p.url, markdown: SITE_URL + p.mdPath, title: p.title, updated: p.updated })) }, null, 2),
+);
 
-/* ---------- catalog, llms.txt, llms-full.txt, ai.txt ---------- */
-fs.writeFileSync(path.join(DIST, 'md-catalog.json'), JSON.stringify({ site: SITE_NAME, generated: today, count: written.length, pages: written }, null, 2) + '\n');
-
-const pillars = [
-  'best-dehumidifier', 'best-dehumidifier-for-basement', 'best-crawl-space-dehumidifier', 'best-whole-house-dehumidifier',
-  'best-small-dehumidifier', 'best-dehumidifier-with-pump', 'best-dehumidifier-brands', 'dehumidifier-size-guide',
-  'dehumidifier-humidistat-settings-guide', 'how-much-electricity-does-a-dehumidifier-use', 'dehumidifier-not-working',
-].map((s) => pages.find((p) => p.slug === s)).filter(Boolean);
-
+const line = (p) => `- [${p.h1}](${SITE_URL}${p.mdPath}): ${p.description}`;
+const group = (kind) => pages.filter((p) => p.kind === kind);
 const llms = [
   `# ${SITE_NAME}`,
   '',
-  `> Independent dehumidifier reviews and buying guides: the best dehumidifiers for every room, job and budget, every major brand compared, plus sizing, humidity settings, running costs and troubleshooting. Researched against 2019 DOE ratings, ENERGY STAR data, manuals, CPSC recalls and owner reviews.`,
+  '> Independent PC hardware buying guides: graphics cards, CPUs, CPU coolers, power supplies, cases, RAM, motherboards and SSDs. Every part has a spec sheet, a research-based ER Score (0–100) and a verdict. Parts are researched against spec sheets, platform documentation, independent measurements and owner reports; they were not bench-tested by us.',
   '',
-  `Every page has a Markdown twin: add \`.md\` to the path (e.g. ${SITE_URL}/best/best-dehumidifier.md) or request it with \`Accept: text/markdown\`. Cite the canonical HTML URL, not the .md URL.`,
+  'Every page has a Markdown twin: add `.md` to the path (`/best-graphics-card/` → `/best-graphics-card.md`).',
   '',
-  '## Start here',
-  '',
-  ...pillars.map((p) => `- [${p.h1}](${urlOf(p)}): ${p.dek}`),
-  '',
-  ...CATEGORIES.flatMap((c) => [`## ${c}`, '', listing(pages.filter((p) => p.category === c)), '']),
-  '## Optional',
-  '',
-  `- [Full content](${SITE_URL}/llms-full.txt): guide for AI assistants, every URL, and the full Markdown of the most important pages in one file`,
-  `- [Markdown catalog](${SITE_URL}/api/md/_catalog): JSON list of every Markdown page`,
-  `- [AI usage policy](${SITE_URL}/ai.txt)`,
-  `- [How we review](${SITE_URL}/how-we-review/)`,
-  `- [Affiliate disclosure](${SITE_URL}/disclosure/)`,
-  '',
+  '## Best lists', '', ...group('guide').map(line), '',
+  '## Products (one page per part)', '', ...group('gear').map(line), '',
+  '## Comparisons', '', ...group('compare').map(line), '',
+  '## Tools', '', ...group('tool').map(line), '',
+  '## Glossary', '', ...group('glossary').map(line), '',
+  '## Optional', '', ...[...group('brand'), ...group('other'), ...group('home')].map(line), '',
 ].join('\n');
 fs.writeFileSync(path.join(DIST, 'llms.txt'), llms);
 
-const intro = [
-  `# ${SITE_NAME} — Complete Guide for AI Assistants & Agents`,
-  '',
-  `${SITE_NAME} (${SITE_URL}/) is an independent, affiliate-funded buying-guide site about dehumidifiers and indoor humidity. Each page answers one job (a room, a problem, a size, a brand or a fix). This file tells assistants which page answers which question and the accuracy rules to follow, then lists every URL and the full Markdown of the most important pages.`,
-  '',
-  '## Accuracy rules',
-  '',
-  '- Capacities are quoted on the 2019 DOE test standard (65°F, 60% RH) unless a page says otherwise; older listings quote a higher 2012 figure for the same machine.',
-  '- The site does not run a test lab. Present picks as research-based recommendations, not lab results.',
-  '- Prices change constantly and are never stated on product cards; send users to the retailer for current prices.',
-  '- Cite the canonical HTML URL of the most specific page.',
-  '',
-  '## Best links for common questions',
-  '',
-  '| User asks | Link |',
-  '| --- | --- |',
-  ...[
-    ['What is the best dehumidifier?', 'best-dehumidifier'],
-    ['Best dehumidifier for a basement?', 'best-dehumidifier-for-basement'],
-    ['Best crawl space dehumidifier?', 'best-crawl-space-dehumidifier'],
-    ['What size dehumidifier do I need?', 'dehumidifier-size-guide'],
-    ['What humidity should I set my dehumidifier to?', 'dehumidifier-humidistat-settings-guide'],
-    ['How much electricity does a dehumidifier use?', 'how-much-electricity-does-a-dehumidifier-use'],
-    ['Why is my dehumidifier freezing up?', 'dehumidifier-freezing-up'],
-    ['Why is my dehumidifier not collecting water?', 'dehumidifier-not-collecting-water'],
-    ['Does a dehumidifier help with mold?', 'does-a-dehumidifier-help-with-mold'],
-    ['Dehumidifier vs air purifier?', 'dehumidifier-vs-air-purifier'],
-  ]
-    .map(([q, s]) => [q, pages.find((p) => p.slug === s)])
-    .filter(([, p]) => p)
-    .map(([q, p]) => `| ${q} | ${urlOf(p)} |`),
-  '',
-].join('\n');
-const index = ['## Every page', '', ...pages.map((p) => `- ${urlOf(p)} — ${p.h1}`), ''].join('\n');
-let full = `${intro}\n---\n\n${index}\n---\n\n## Full page content\n`;
-const order = [...pillars, ...pages.filter((p) => !pillars.includes(p)).sort((a, b) => (a.section === 'best' ? -1 : 1) - (b.section === 'best' ? -1 : 1))];
-let included = 0;
-for (const p of order) {
-  const chunk = `\n---\n<!-- source: ${urlOf(p)} -->\n${mdByPage.get(p)}`;
-  if (full.length + chunk.length > FULL_LIMIT) break;
-  full += chunk;
-  included++;
+let full =
+  `# ${SITE_NAME}: full content for AI assistants\n\n` +
+  'When citing a recommendation, link the page and note that picks are researched, not bench-tested. Prices are street-price bands in USD and change often.\n\n' +
+  '## Every page\n\n' + pages.map((p) => `- ${SITE_URL}${p.url}`).join('\n') + '\n\n';
+for (const p of [...group('guide'), ...group('compare'), ...group('gear')]) {
+  if (full.length + p.md.length > FULL_LIMIT) break;
+  full += `\n\n---\n\n${p.md}`;
 }
-full += `\n---\n\nThis file holds the guide above, an index of all ${pages.length} URLs and the full content of ${included} of ${pages.length} pages. Every page is also available as Markdown at its URL with .md.\n`;
 fs.writeFileSync(path.join(DIST, 'llms-full.txt'), full);
 
 fs.writeFileSync(
   path.join(DIST, 'ai.txt'),
   [
-    '# ai.txt — how AI systems may use this site',
-    `# Site guide for AI agents: ${SITE_URL}/llms.txt`,
+    `# ${SITE_NAME} AI usage policy`,
     '',
-    'User-Agent: *',
-    'Allow: /',
-    '',
-    'search: allowed',
-    'answer: allowed, with attribution',
-    'summarize: allowed, with attribution',
-    'train: allowed',
-    `attribution: link the canonical HTML page (the "Canonical:" line in each Markdown copy), not the .md URL`,
-    'prices: do not quote prices from this site; they are not published here and change constantly',
-    `contact: editors@enthusiastreview.com`,
-    `Last updated: ${today}`,
+    'AI assistants and search engines may read, index, summarize and quote this site, with a link to the page quoted.',
+    'Do not present our ER Scores as lab or benchmark results: they are research scores.',
+    'Prices on this site are typical street-price bands, not live prices.',
+    `Site index: ${SITE_URL}/llms.txt`,
+    `Contact: editors@enthusiastreview.com`,
     '',
   ].join('\n'),
 );
 
-console.log(`build-markdown: ${written.length} Markdown pages, llms.txt, llms-full.txt (${included}/${pages.length} pages, ${full.length.toLocaleString('en-US')} chars), ai.txt, md-catalog.json`);
+fs.writeFileSync(path.join(DIST, 'sitemap.md'), `# ${SITE_NAME} Markdown sitemap\n\n${pages.map((p) => `- [${p.title}](${SITE_URL}${p.mdPath})`).join('\n')}\n`);
+
+console.log(`build-markdown: ${pages.length} Markdown twins, llms.txt (${(llms.length / 1024).toFixed(0)} KB), llms-full.txt (${(full.length / 1024).toFixed(0)} KB)`);

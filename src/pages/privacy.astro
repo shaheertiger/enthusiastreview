@@ -2,13 +2,14 @@
 import Prose from '../components/Prose.astro';
 import { SITE } from '../data/site';
 ---
-<Prose title="Privacy Policy" h1="Privacy Policy" description="What data Enthusiast Review collects, how analytics and affiliate links work, and how to contact us about privacy." dek={`Last updated ${new Date(SITE.updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`}>
-  <h2>What we collect</h2>
-  <p>We don't ask you to create an account or share personal information to read this site. We use Vercel Web Analytics, which counts page views without cookies and without identifying individual visitors.</p>
+<Prose title="Privacy Policy" h1="Privacy Policy" description="How Enthusiast Review handles data: cookie-free Vercel Web Analytics, affiliate links to Amazon, and no newsletter or account data collected on this site.">
+  <p>This policy explains what happens to your data when you visit {SITE.name}.</p>
+  <h2>Analytics</h2>
+  <p>We use Vercel Web Analytics to count page views. It does not use cookies and does not track you across other websites.</p>
   <h2>Affiliate links</h2>
-  <p>When you click a link to Amazon or another retailer, that retailer may set cookies to attribute a purchase to us. Their handling of your data is governed by their own privacy policies.</p>
+  <p>When you click a product link, you leave this site for the retailer (usually Amazon). The retailer may set cookies to credit the referral to us; their privacy policy applies from that point.</p>
   <h2>Email</h2>
-  <p>If you email us, we use your address only to reply. We never sell or share it.</p>
+  <p>If you email us, we use your address only to reply.</p>
   <h2>Contact</h2>
-  <p>Privacy questions: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+  <p>Questions about this policy: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
 </Prose>

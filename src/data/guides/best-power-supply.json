@@ -1,0 +1,436 @@
+{
+  "slug": "best-power-supply",
+  "type": "roundup",
+  "category": "power-supplies",
+  "title": "Best Power Supply (2026): 7 PSUs Ranked for Gaming PCs",
+  "h1": "Best Power Supply",
+  "query": "best power supply",
+  "description": "The Corsair RM850x is the best power supply for most PCs: 850 W, 80 Plus Gold, ATX 3.1, a 10-year warranty. 7 PSUs ranked from $75 to $200 by GPU and budget.",
+  "dek": "Seven ATX 3.x power supplies from 750 W to 1,000 W, matched to the graphics card you actually run.",
+  "intro": [
+    "The Corsair RM850x (2024) is the best power supply for most gaming PCs in 2026: 850 W covers everything up to an RTX 5080, it is ATX 3.1 with a native 12V-2x6 cable, and Corsair backs it for 10 years. It usually sells for $120–$150.",
+    "This page is for anyone building or upgrading a desktop. Each pick is matched to a wattage tier and a GPU class, so you can buy for the card you own now and the one you might buy next, without paying for watts you will never use."
+  ],
+  "quickAnswer": "Buy the Corsair RM850x ($120–$150) for an RTX 5070 Ti, RX 9070 XT or RTX 5080. Step up to the Corsair RM1000x ($170–$200) for an RTX 5090. On a tighter budget, the MSI MAG A750GL PCIE5 ($75–$95) handles an RTX 5070 or RX 9070. The Seasonic Focus GX-850 ($120–$140) is the closest rival to our top pick.",
+  "picks": [
+    {
+      "id": "corsair-rm850x",
+      "label": "Best Overall",
+      "bestFor": "most gaming PCs with anything from an RTX 5060 up to an RTX 5080 or RX 9070 XT",
+      "skipIf": "you run an RTX 5090 or plan to, since NVIDIA recommends 1,000 W for that card",
+      "writeup": [
+        "The RM850x (2024) wins because 850 W is the wattage that fits the most real builds, and Corsair did not cut corners to hit its price. It is 80 Plus Gold, ATX 3.1 compliant and fully modular, and it ships with a native 12V-2x6 cable, so an RTX 5070 Ti or RTX 5080 plugs straight in without an octopus adapter.",
+        "NVIDIA recommends an 850 W supply for the RTX 5080 and 750 W for the RTX 5070 Ti. That makes 850 W the point where you stop worrying: there is room for a Ryzen 7 9800X3D or a Core Ultra 7 265K, a handful of fans and drives, and the short power spikes modern GPUs throw. AMD cards on 8-pin cables, like most RX 9070 XT models, are covered too.",
+        "The 140 mm fan has a zero-RPM mode, so it stays off at idle and light loads, which is most of the time on a desktop. Independent reviews have generally rated the RMx line well for voltage regulation and ripple, and the 10-year warranty tells you how long Corsair expects it to last.",
+        "The trade-off is price. At $120–$150 it costs $30–$50 more than a good 750 W unit, and if your card draws 250 W or less, you will not use the extra headroom. The Seasonic Focus GX-850 is the closest rival and is often a little cheaper."
+      ],
+      "pros": [
+        "Native 12V-2x6 cable",
+        "Zero-RPM 140 mm fan",
+        "10-year warranty",
+        "Right size for RTX 5070 Ti to RTX 5080"
+      ],
+      "cons": [
+        "Costs more than 750 W units that suit midrange cards",
+        "Not enough for an RTX 5090"
+      ]
+    },
+    {
+      "id": "seasonic-focus-gx-850",
+      "label": "Best Seasonic Alternative",
+      "bestFor": "builders who want an 850 W Gold unit from the company that makes power supplies for many other brands",
+      "skipIf": "you want a 140 mm fan or the RM850x is cheaper that week",
+      "writeup": [
+        "The Seasonic Focus GX-850 (ATX 3) is the RM850x's direct rival, and on any given week either one can be the better buy. It matches the Corsair on the things that matter: 850 W, 80 Plus Gold, fully modular cables, a 12V-2x6 lead for current NVIDIA cards and a 10-year warranty.",
+        "Seasonic has built power supplies for decades, both under its own name and as the factory behind units sold by other brands. That history is why the Focus line shows up in so many recommended builds. Its 120 mm fan uses a fluid dynamic bearing and has a hybrid mode switch, which lets the fan stop at low loads or run all the time if you prefer steady airflow.",
+        "The fan is the main difference from the Corsair. A 120 mm fan has to spin faster than a 140 mm fan to move the same air, so under a long heavy gaming load the Corsair has a small edge on paper. In practice, most owners report both are hard to hear inside a closed case with GPU fans running.",
+        "Buy the Focus GX-850 when it is $10 or more below the RM850x. At $120–$140 it is a safe choice for an RTX 5070 Ti, RX 9070 XT or RTX 5080 build, and the same 850 W math applies."
+      ],
+      "pros": [
+        "10-year warranty",
+        "Hybrid fan switch",
+        "12V-2x6 cable included"
+      ],
+      "cons": [
+        "120 mm fan instead of 140 mm",
+        "Price swings week to week"
+      ]
+    },
+    {
+      "id": "corsair-rm1000x",
+      "label": "Best for RTX 5090",
+      "bestFor": "RTX 5090 builds and workstations with a 16-core CPU and a high-end GPU",
+      "skipIf": "your GPU draws 360 W or less, where 850 W already gives you margin",
+      "writeup": [
+        "The RTX 5090 is rated at 575 W, and NVIDIA recommends a 1,000 W power supply for it. The RM1000x (2024) is the sensible way to meet that recommendation without paying for a 1,200 W or Platinum unit you do not need.",
+        "It shares the RM850x's design: 80 Plus Gold, ATX 3.1, fully modular, a native 12V-2x6 cable and a 140 mm fan with zero-RPM mode. The warranty is also 10 years. What you get for the extra $50 or so is 150 W more headroom, which matters when a 575 W GPU sits next to a Ryzen 9 9950X3D at 170 W TDP, or a Core Ultra 7 265K that can pull up to 250 W at max turbo.",
+        "A 1,000 W unit also runs cooler and quieter at a given load than a smaller one, because it is working further from its limit. That is useful in a quiet build where the GPU is the main heat source.",
+        "For an RTX 5080 or below, skip it. NVIDIA rates the RTX 5080 at 360 W with an 850 W recommendation, and the extra 150 W will sit unused while you pay $170–$200 instead of $120–$150. Buy it for a 5090, a planned 5090 upgrade, or a rendering rig with two power-hungry parts."
+      ],
+      "pros": [
+        "Meets NVIDIA's 1,000 W recommendation for the RTX 5090",
+        "Same quiet 140 mm fan design as the RM850x",
+        "10-year warranty"
+      ],
+      "cons": [
+        "Overkill below an RTX 5080",
+        "Largest box on this list"
+      ]
+    },
+    {
+      "id": "corsair-rm750e",
+      "label": "Best 750 W Pick",
+      "bestFor": "RTX 5070, RTX 5070 Ti, RX 9070 and RX 9070 XT builds that want a known brand at a midrange price",
+      "skipIf": "a 10-year warranty matters to you, since this one is covered for 7",
+      "writeup": [
+        "The RM750e is the most power supply most midrange builds need. At 750 W it meets NVIDIA's recommendation for the RTX 5070 Ti and clears the 650 W figure for the RTX 5070 with room to spare. It is 80 Plus Gold, ATX 3.1, fully modular, and it ships with a 12V-2x6 cable.",
+        "Corsair keeps the price at $85–$100 by trimming a few things compared with the RMx line. The fan is 120 mm rather than 140 mm, and the warranty is 7 years rather than 10. Neither is a deal breaker. Seven years outlasts the useful life of most gaming builds, and the RM750e still has a fan profile that stays quiet at light loads.",
+        "A typical RTX 5070 build with a Ryzen 7 9800X3D draws well under 500 W from the wall while gaming. That leaves 750 W plenty of margin for spikes and for a GPU upgrade one tier up. Where it runs out is the RTX 5080: NVIDIA asks for 850 W there, and you should listen.",
+        "If you see the be quiet! Pure Power 12 M 750W for the same price, it is worth a look for its longer warranty. Otherwise, the RM750e is the easiest 750 W recommendation on this page."
+      ],
+      "pros": [
+        "ATX 3.1 with a 12V-2x6 cable",
+        "Usually under $100",
+        "Fully modular"
+      ],
+      "cons": [
+        "7-year warranty, shorter than the RMx",
+        "Not enough for an RTX 5080 per NVIDIA's guidance"
+      ]
+    },
+    {
+      "id": "msi-mag-a750gl-pcie5",
+      "label": "Best Budget PSU",
+      "bestFor": "budget and midrange builds with an RTX 5060, RTX 5070, RX 9060 XT or RX 9070",
+      "skipIf": "you want a 10-year warranty from a brand known mainly for power supplies",
+      "writeup": [
+        "The MSI MAG A750GL PCIE5 is the cheapest power supply here that we would put under a current graphics card. It is 750 W, 80 Plus Gold, fully modular and ATX 3.x, with a native 16-pin cable for RTX 50 cards. It often sells for $75–$95, which is roughly what Bronze units with fewer features cost a few years ago.",
+        "Those specs put it in the same tier as the RM750e for practical purposes. Pair it with an RTX 5070 and a 65 W Ryzen 5 9600X and it will rarely run past half load, which is where Gold units are most efficient and fans spin slowest.",
+        "The compromises are the ones you expect at this price. It uses a 120 mm fan, MSI's warranty term varies by region, so check the listing, and MSI has a shorter history in power supplies than Corsair or Seasonic. For a gaming PC with a 250 W GPU, none of that changes daily use.",
+        "If you are building a value PC and every $20 matters, buy this and put the savings toward the GPU. If you are building around an RTX 5070 Ti or better, spend a little more on the RM850x."
+      ],
+      "pros": [
+        "Lowest price on this list",
+        "Native 16-pin GPU cable",
+        "Fully modular at a budget price"
+      ],
+      "cons": [
+        "Warranty term varies by region",
+        "Shorter PSU track record than Corsair or Seasonic"
+      ]
+    },
+    {
+      "id": "be-quiet-pure-power-12-m-750",
+      "label": "Best 750 W Warranty",
+      "bestFor": "750 W builds where a 10-year warranty and a quiet-first brand matter more than the last $10",
+      "skipIf": "it costs more than the RM750e by $15 or more and warranty length is not a concern",
+      "writeup": [
+        "The be quiet! Pure Power 12 M 750W gives you the same practical wattage as the RM750e and the MSI unit, with a 10-year warranty instead of 7 or an unstated term. That is its whole case, and it is a good one if you keep parts for a long time and move a power supply from build to build.",
+        "Specs line up with the rest of the 750 W field: 80 Plus Gold, ATX 3.x, fully modular cables and a 12VHPWR/12V-2x6 lead for RTX 50 cards. The fan is 120 mm. be quiet! is a German brand that built its name on low noise, and owners tend to report the Pure Power 12 M stays unobtrusive at gaming loads.",
+        "It usually sells for $95–$110, a little above the RM750e. That gap is the price of the extra three years of coverage. For an RTX 5070 or RX 9070 build that you expect to upgrade once or twice over the next decade, the longer warranty can make the power supply the one part you never replace.",
+        "As with every 750 W unit here, stop at the RTX 5070 Ti. For an RTX 5080, follow NVIDIA's 850 W guidance and look at the RM850x or Focus GX-850."
+      ],
+      "pros": [
+        "10-year warranty at 750 W",
+        "Fully modular",
+        "Native GPU cable"
+      ],
+      "cons": [
+        "Usually a bit pricier than the RM750e",
+        "120 mm fan"
+      ]
+    },
+    {
+      "id": "montech-century-ii-850",
+      "label": "Cheapest 850 W",
+      "bestFor": "builders who want 850 W of headroom for an RTX 5080-class card at close to 750 W prices",
+      "skipIf": "you want the newer ATX 3.1 spec and the 12V-2x6 connector revision",
+      "writeup": [
+        "The Montech Century II 850W is the cheapest way on this page to get 850 W with a Gold rating and a 10-year warranty. It typically lands at $95–$115, which is close to what the 750 W picks cost.",
+        "It is fully modular and ships with a 12VHPWR cable for RTX 50 cards. It is rated to ATX 3.0 rather than 3.1. The practical difference is small: ATX 3.1 formalized the revised 12V-2x6 connector with shorter sense pins, and you can still use a 12VHPWR cable with a 12V-2x6 graphics card as long as it is pushed fully home. Read the section below if you want the detail.",
+        "Montech is a younger brand than Corsair or Seasonic, better known in the past for cases. The Century II has earned a decent reputation in independent reviews for the money, but it does not have the long track record of the RMx or Focus lines.",
+        "Buy it if you want room for an RTX 5080 or RX 9070 XT and a fast CPU, but the RM850x is over budget. If the price gap to the RM850x drops below $20, pay the difference for the newer spec and the bigger fan."
+      ],
+      "pros": [
+        "850 W at near 750 W prices",
+        "10-year warranty",
+        "Fully modular"
+      ],
+      "cons": [
+        "ATX 3.0, not 3.1",
+        "Shorter brand track record in power supplies"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "Wattage",
+    "Efficiency",
+    "ATX version",
+    "GPU connector",
+    "Warranty"
+  ],
+  "ranking": {
+    "intro": "These rankings are based on manufacturer spec sheets and certifications, published independent reviews, owner reports and current street prices. We did not bench-test any of these power supplies ourselves, and nothing on this page comes from our own load testing. The ER Score is a research score that weighs what is known about each unit.",
+    "criteria": [
+      [
+        "Wattage fit",
+        "How well the unit's rating matches the GPUs people actually buy, using NVIDIA and AMD power recommendations as the floor."
+      ],
+      [
+        "Standards and connectors",
+        "ATX 3.x compliance and a native 12V-2x6 or 12VHPWR cable count heavily, since current NVIDIA cards use that connector."
+      ],
+      [
+        "Reported electrical quality",
+        "Voltage regulation, ripple and protection behavior as reported by independent reviewers who load-test power supplies."
+      ],
+      [
+        "Warranty",
+        "The length of coverage, which is the clearest public signal of how long a maker expects a unit to last."
+      ],
+      [
+        "Noise",
+        "Fan size, zero-RPM or hybrid modes, and what owners report about noise under gaming loads."
+      ],
+      [
+        "Price",
+        "Street-price bands in USD over recent months, not one-day deals."
+      ]
+    ],
+    "why": "The RM850x won because 850 W, ATX 3.1, a native 12V-2x6 cable and a 10-year warranty cover the widest range of builds at a price that is only modestly above 750 W units."
+  },
+  "mentions": [
+    {
+      "id": "seasonic-focus-gx-850",
+      "text": "Seasonic also sells the Focus GX in 750 W and 1,000 W sizes. The 750 W version is a strong alternative to the RM750e when it is on sale, and the 1,000 W version competes with the RM1000x for RTX 5090 builds. We list the 850 W model because it is the size most people should buy."
+    },
+    {
+      "name": "SFX power supplies",
+      "text": "Small form factor builds need an SFX or SFX-L unit, and none of the ATX picks here will fit a compact ITX case. If you are building small, check your case's supported PSU format first, then shop for an SFX unit with the same wattage logic used on this page."
+    }
+  ],
+  "sections": [
+    {
+      "h": "How Many Watts Do You Need for Your Graphics Card?",
+      "body": [
+        "Your graphics card decides your wattage. A CPU like the Ryzen 7 9800X3D is rated at 120 W, and even a Core Ultra 7 265K at its 250 W turbo limit rarely sits there while gaming. The GPU, by contrast, can pull its full rated board power for hours, and current cards also produce very short spikes above that rating.",
+        "Start with the GPU maker's recommendation, which already includes a typical CPU and the rest of the system. Then add a margin if you run a high-power CPU or plan to upgrade the GPU. Our [PSU calculator](/tools/psu-calculator/) does the arithmetic for your exact parts."
+      ],
+      "table": {
+        "caption": "Board power and sensible PSU size by GPU (maker recommendations where published)",
+        "head": [
+          "Graphics card",
+          "Board power",
+          "Maker recommendation",
+          "Sensible PSU"
+        ],
+        "rows": [
+          [
+            "RTX 5090",
+            "575 W",
+            "1,000 W (NVIDIA)",
+            "1,000 W"
+          ],
+          [
+            "RTX 5080",
+            "360 W",
+            "850 W (NVIDIA)",
+            "850 W"
+          ],
+          [
+            "RTX 5070 Ti",
+            "300 W",
+            "750 W (NVIDIA)",
+            "750–850 W"
+          ],
+          [
+            "RX 9070 XT",
+            "304 W",
+            "Check the card maker's page",
+            "750–850 W"
+          ],
+          [
+            "RTX 5070",
+            "250 W",
+            "650 W (NVIDIA)",
+            "650–750 W"
+          ],
+          [
+            "RX 9070",
+            "220 W",
+            "Check the card maker's page",
+            "650–750 W"
+          ],
+          [
+            "RTX 5060 Ti 16GB",
+            "180 W",
+            "Check the card maker's page",
+            "550–650 W"
+          ],
+          [
+            "RTX 5060",
+            "145 W",
+            "Check the card maker's page",
+            "550–650 W"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Is 80 Plus Gold Worth It?",
+      "body": [
+        "Yes, for almost everyone. Gold is where good components, quiet fans and long warranties usually meet a fair price, and the efficiency gain over Bronze is real but modest. The rating describes how much power is lost as heat when the unit converts wall power to the voltages your parts use.",
+        "Here is a worked example. A gaming PC drawing 400 W from its power supply pulls about 444 W from the wall on a 90% efficient Gold unit, and about 471 W on an 85% Bronze unit. That 27 W gap, over four hours of gaming a day at $0.17 per kWh, is roughly $6–$7 a year. The bigger benefit is indirect: less waste heat means the fan spins slower.",
+        "Platinum and Titanium squeeze out a few more points, but the price jump is usually larger than the savings. Some reviewers now prefer Cybenetics ratings, which measure efficiency and noise across many load points instead of three, so they are worth checking when they are published for a unit you are considering."
+      ],
+      "table": {
+        "caption": "80 Plus minimum efficiency at 115 V (20% / 50% / 100% load)",
+        "head": [
+          "Rating",
+          "20% load",
+          "50% load",
+          "100% load"
+        ],
+        "rows": [
+          [
+            "Bronze",
+            "82%",
+            "85%",
+            "82%"
+          ],
+          [
+            "Gold",
+            "87%",
+            "90%",
+            "87%"
+          ],
+          [
+            "Platinum",
+            "90%",
+            "92%",
+            "89%"
+          ],
+          [
+            "Titanium",
+            "92%",
+            "94%",
+            "90%"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Difference Between ATX 3.0 and ATX 3.1?",
+      "body": [
+        "ATX 3.0 was the big change. It required power supplies to tolerate short power excursions well above their rating, which modern GPUs produce, and it introduced the 16-pin 12VHPWR connector for graphics cards. Older ATX 2.x units can trip their protection on those spikes and shut the PC off.",
+        "ATX 3.1 is a smaller revision. Its headline change is the 12V-2x6 connector, which keeps the same 16-pin shape but uses shorter sense pins and longer power pins, so the card only draws full power when the plug is fully seated. A 12VHPWR cable and a 12V-2x6 socket are physically compatible.",
+        "For buying purposes: an ATX 3.0 unit like the Montech Century II is fine, and an ATX 3.1 unit like the RM850x is a little more future-proof. Avoid older ATX 2.x units for a new RTX 50 or RX 9000 build unless they are a high-wattage model from a known maker."
+      ]
+    },
+    {
+      "h": "Do You Need a Native 12V-2x6 Cable for an RTX 50 Card?",
+      "body": [
+        "You do not strictly need one, but you should want one. Every RTX 50 Founders Edition card and most partner RTX 50 cards use the 16-pin connector. NVIDIA includes an adapter that turns several 8-pin PCIe cables into one 16-pin plug, but adapters add bulk, extra connections and more places for a poor fit.",
+        "A native cable runs straight from the power supply to the card. All seven picks here include one. Most RX 9070 XT and RX 9070 cards still use 8-pin PCIe connectors, which every pick also supplies.",
+        "The main failure mode with the 16-pin connector is a plug that is not fully seated, or a cable bent hard right at the connector. Push it in until it clicks and sits flush, and give the cable some room before it bends."
+      ],
+      "list": [
+        "Push the 16-pin plug in until it clicks and no gap is visible.",
+        "Leave about 35 mm of straight cable before any bend.",
+        "Use the cable that came with your power supply, not one from another brand.",
+        "Check the plug again after you close the side panel."
+      ]
+    },
+    {
+      "h": "Fully Modular vs Semi-Modular: Does It Matter?",
+      "body": [
+        "It matters for building, not for performance. A fully modular power supply lets you detach every cable, including the 24-pin motherboard and CPU leads. That makes it easier to route cables in a tight case and to swap the unit later without rewiring.",
+        "Semi-modular units have the 24-pin and CPU cables fixed and the rest detachable. Non-modular units have every cable attached, which leaves you hiding unused leads somewhere in the case. All seven picks here are fully modular, so you do not need to trade this away even at the budget end.",
+        "One rule applies to every modular unit: never use a modular cable from a different power supply model or brand. Pinouts on the power supply side are not standardized, and a mismatched cable can send 12 V down a pin that expects something else."
+      ]
+    },
+    {
+      "h": "How Loud Is a Power Supply in a Gaming PC?",
+      "body": [
+        "In most gaming PCs the power supply is the quietest part, because its fan sits at the bottom of the case and often does not spin at all. Units with a zero-RPM or hybrid mode, like the RM850x, RM1000x and Focus GX-850, keep the fan stopped until load or temperature crosses a threshold.",
+        "Two things raise power supply noise: running a unit close to its limit and a small fan. That is one reason to buy a little more wattage than the minimum. A 750 W unit powering a 450 W load runs cooler and quieter than a 550 W unit doing the same job."
+      ]
+    },
+    {
+      "h": "How Long Should a Power Supply Last?",
+      "body": [
+        "A good Gold unit should last through two or three GPU upgrades. The warranty is the best public guide: the RM850x, RM1000x, Focus GX-850, Pure Power 12 M and Century II carry 10 years, and the RM750e carries 7.",
+        "That longevity is why it pays to buy for your next card, not just your current one. If you are on an RTX 5070 today and think you might move to an RTX 5080-class card in two years, an 850 W unit now saves you buying twice.",
+        "Replace a power supply if it is older than its warranty, if it predates ATX 3.0 and you are moving to a high-power GPU, or if it ever shuts the PC down under load. Do not open one up: the capacitors inside can hold a dangerous charge after the unit is unplugged."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Buying for today's GPU only",
+      "A power supply outlives two or three graphics cards. If you buy exactly 650 W for an RTX 5070, an upgrade to an RTX 5080 later means buying again. Spending $30 more on 850 W now is usually the cheaper path."
+    ],
+    [
+      "Mixing modular cables",
+      "Reusing cables from your old power supply with a new one is the fastest way to destroy parts. Power-supply-side pinouts differ between brands and even between models. Always use the cables that came in the box."
+    ],
+    [
+      "Ignoring the 16-pin seating",
+      "Most melted 16-pin connectors trace back to a plug that was not fully seated or was bent hard at the socket. Push it in until it clicks, check for a gap, and avoid tight bends near the card."
+    ],
+    [
+      "Overpaying for 1,200 W",
+      "Big numbers look safe, but a 1,200 W unit under an RTX 5070 runs at low load, costs far more and gains nothing. Follow the GPU maker's recommendation and add a sensible margin."
+    ],
+    [
+      "Keeping an old ATX 2.x unit for a new GPU",
+      "Older units were not designed for the short power spikes current GPUs produce. They can shut down under load even when their wattage looks sufficient. A new GPU is a good time to move to ATX 3.x."
+    ]
+  ],
+  "bottomLine": "For most builds, buy the Corsair RM850x: 850 W, ATX 3.1, a native 12V-2x6 cable and a 10-year warranty for $120–$150. Take the Seasonic Focus GX-850 if it is cheaper that week. Step up to the RM1000x only for an RTX 5090. For an RTX 5070 or RX 9070, a 750 W Gold unit like the RM750e or MSI MAG A750GL PCIE5 is enough, and the savings are better spent on the graphics card.",
+  "faqs": [
+    {
+      "q": "What is the best power supply for gaming in 2026?",
+      "a": "The Corsair RM850x is the best power supply for most gaming PCs in 2026. It is 850 W, 80 Plus Gold and ATX 3.1, includes a native 12V-2x6 cable and has a 10-year warranty. It covers every current GPU up to an RTX 5080 and usually costs $120–$150."
+    },
+    {
+      "q": "Is 750 W enough for an RTX 5070 Ti?",
+      "a": "Yes, 750 W is enough for an RTX 5070 Ti, and it is exactly what NVIDIA recommends. The card is rated at 300 W. If you also run a high-power CPU such as a Core Ultra 7 265K, or you might upgrade to an RTX 5080 later, an 850 W unit gives you more margin."
+    },
+    {
+      "q": "What power supply do I need for an RTX 5090?",
+      "a": "You need at least a 1,000 W power supply for an RTX 5090, which is NVIDIA's recommendation for the 575 W card. Pick an ATX 3.x unit with a native 12V-2x6 cable, such as the Corsair RM1000x. Pair a 5090 with a 170 W CPU and lots of drives and fans, and some builders step up further."
+    },
+    {
+      "q": "Is it safe to use a 12VHPWR cable with a 12V-2x6 graphics card?",
+      "a": "Yes, a 12VHPWR cable fits and works in a 12V-2x6 socket. The connector shape is the same; the 12V-2x6 revision changed the pin lengths on the card and power supply side so the card only draws full power when the plug is fully seated. Whatever cable you use, push it in until it clicks."
+    },
+    {
+      "q": "Does a power supply affect gaming performance?",
+      "a": "No, a working power supply does not change frame rates. It affects stability: an undersized or worn unit can cause crashes, reboots or shutdowns under load. A good unit also runs quieter and wastes less power as heat, which helps in a warm or quiet room."
+    },
+    {
+      "q": "Should I buy a Platinum power supply?",
+      "a": "Most gaming builds should not, because a Platinum unit costs much more than a Gold one for a few points of efficiency. At four hours of gaming a day, the yearly electricity saving is usually a few dollars. Platinum makes sense if you run the PC under heavy load all day or find one on a deep sale."
+    },
+    {
+      "q": "Can I reuse my old power supply in a new build?",
+      "a": "You can if it is ATX 3.x, still under warranty and has enough wattage for your new GPU. If it predates ATX 3.0, is out of warranty or has ever shut down under load, replace it. Never reuse its modular cables with a different power supply."
+    }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 50 series specification pages and power recommendations",
+    "AMD Radeon RX 9070 series product pages",
+    "Corsair RM850x, RM1000x and RM750e product pages and warranty terms",
+    "Seasonic Focus GX ATX 3 product page",
+    "be quiet! Pure Power 12 M, MSI MAG A750GL PCIE5 and Montech Century II product pages",
+    "Intel ATX 3.0 and ATX 3.1 power supply design guides",
+    "80 Plus program efficiency requirements (CLEAResult)",
+    "Published independent PSU reviews and Cybenetics reports"
+  ],
+  "related": [
+    "best-psu-under-100",
+    "best-graphics-card",
+    "best-psu-for-rtx-2080-and-2080-ti"
+  ]
+}

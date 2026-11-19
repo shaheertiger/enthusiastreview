@@ -1,0 +1,993 @@
+[
+  {
+    "id": "ryzen-7-9800x3d",
+    "name": "AMD Ryzen 7 9800X3D",
+    "short": "Ryzen 7 9800X3D",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2024",
+    "price": [
+      450,
+      480
+    ],
+    "description": "The Ryzen 7 9800X3D is the fastest gaming CPU you can buy: 8 cores, 96 MB of L3 cache and a 120 W TDP on AM5, at a street price of $450 to $480 today.",
+    "quick": "The 9800X3D has 8 Zen 5 cores, 16 threads and 96 MB of L3 cache, with the 3D V-Cache now placed under the cores. It boosts to 5.2 GHz at a 120 W TDP on socket AM5.",
+    "bestFor": "high-refresh gaming builds where the CPU is the limit",
+    "skipIf": "you game at 4K with a mid-range GPU or need more than 8 cores for rendering",
+    "specs": [
+      [
+        "Cores / threads",
+        "8 / 16"
+      ],
+      [
+        "Boost clock",
+        "5.2 GHz"
+      ],
+      [
+        "L3 cache",
+        "96 MB"
+      ],
+      [
+        "TDP",
+        "120 W"
+      ],
+      [
+        "Socket",
+        "AM5"
+      ],
+      [
+        "Memory support",
+        "DDR5-5600 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "AMD Radeon Graphics (2 CUs)"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 93,
+      "parts": [
+        [
+          "Gaming performance",
+          99
+        ],
+        [
+          "Multi-thread",
+          74
+        ],
+        [
+          "Efficiency",
+          88
+        ],
+        [
+          "Value",
+          80
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 7 9800X3D is the fastest gaming CPU in independent reviews, roughly 10% ahead of the [Ryzen 7 7800X3D](/gear/ryzen-7-7800x3d/) on average and well ahead of Intel's Core Ultra 9 285K. Its 96 MB of L3 cache keeps game data close to the 8 Zen 5 cores, which matters most in CPU-bound games at 1080p and 1440p with a fast graphics card.",
+      "AMD moved the 3D V-Cache under the CPU die this generation, so the cores sit closer to the heat spreader. That allows a higher 5.2 GHz boost and full overclocking support, a first for an X3D chip. It is rated at 120 W, and a good dual-tower air cooler in the $35 to $45 range keeps it in check.",
+      "The trade-off is cores per dollar. At $450 to $480, it costs more than twice as much as a Ryzen 5 9600X, and with 8 cores it trails the Core Ultra 7 265K and Ryzen 9 9900X in rendering and code compiles. At 4K with a mid-range GPU, the graphics card sets the frame rate and the extra cache makes little difference. The step-up is the [Ryzen 9 9950X3D](/gear/ryzen-9-9950x3d/), which matches it in games and adds 8 more cores for about $200 more. The 7800X3D remains the closest rival if you find it near $360."
+    ],
+    "pros": [
+      "Fastest gaming CPU in independent reviews",
+      "96 MB of L3 cache",
+      "Fully unlocked for overclocking",
+      "120 W TDP is easy to cool with air",
+      "AM5 support promised through 2027"
+    ],
+    "cons": [
+      "Only 8 cores for the price",
+      "No cooler included",
+      "Little gain at 4K with a mid-range GPU"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 9800X3D uses socket AM5, which AMD has said it will support through at least 2027. B650 is the sensible chipset for most builds; B850 makes a PCIe 5.0 M.2 slot standard, and X870 adds PCIe 5.0 graphics and USB4. A620 boards boot it but do not support CPU overclocking, which wastes one of this chip's new features.",
+        "Older B650 and X670 boards need a BIOS with AGESA 1.2.0.2 or newer before they will run the chip. Boards with BIOS Flashback can be updated from a USB stick without a CPU installed. For memory, DDR5-6000 CL30 with EXPO is the sweet spot because it keeps the memory controller and memory clock at a 1:1 ratio; 2x16 GB suits gaming, 2x32 GB adds headroom."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do I need liquid cooling for the 9800X3D?",
+        "a": "No. At a 120 W TDP, a good dual-tower air cooler handles it. A 360 mm AIO is optional, mainly for lower noise under long loads."
+      },
+      {
+        "q": "Is the 9800X3D worth it over the 7800X3D?",
+        "a": "If you are buying new, usually yes: it is about 10% faster in games and supports overclocking. If you already own a 7800X3D, the upgrade is not worth the money."
+      },
+      {
+        "q": "What RAM is best for the 9800X3D?",
+        "a": "DDR5-6000 CL30 with EXPO, such as the [G.Skill Flare X5](/gear/gskill-flare-x5-ddr5-6000-cl30/). The large cache makes it less sensitive to memory speed than non-X3D chips, so faster kits add little."
+      },
+      {
+        "q": "Does the 9800X3D work on B650 boards?",
+        "a": "Yes, after a BIOS update. Boards need AGESA 1.2.0.2 or newer, and many B650 boards in circulation shipped with older firmware."
+      }
+    ]
+  },
+  {
+    "id": "ryzen-9-9950x3d",
+    "name": "AMD Ryzen 9 9950X3D",
+    "short": "Ryzen 9 9950X3D",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2025",
+    "price": [
+      650,
+      700
+    ],
+    "description": "The Ryzen 9 9950X3D is the best CPU for gaming and heavy work in one: 16 cores, 128 MB of L3 and near-9800X3D game speed, for $650 to $700 on AM5.",
+    "quick": "The 9950X3D has 16 Zen 5 cores and 32 threads, with 3D V-Cache on one of its two core dies for 128 MB of L3 in total. It boosts to 5.7 GHz at a 170 W TDP on AM5.",
+    "bestFor": "creators and developers who also want top-tier gaming performance",
+    "skipIf": "you only game, where the 9800X3D matches it for about $200 less",
+    "specs": [
+      [
+        "Cores / threads",
+        "16 / 32"
+      ],
+      [
+        "Boost clock",
+        "5.7 GHz"
+      ],
+      [
+        "L3 cache",
+        "128 MB"
+      ],
+      [
+        "TDP",
+        "170 W"
+      ],
+      [
+        "Socket",
+        "AM5"
+      ],
+      [
+        "Memory support",
+        "DDR5-5600 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "AMD Radeon Graphics (2 CUs)"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 86,
+      "parts": [
+        [
+          "Gaming performance",
+          97
+        ],
+        [
+          "Multi-thread",
+          98
+        ],
+        [
+          "Efficiency",
+          82
+        ],
+        [
+          "Value",
+          66
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 9 9950X3D is the chip for people who refuse to choose between gaming and productivity. Independent reviews show it close to the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) in games, sometimes a little ahead and sometimes a few percent behind, while matching the standard Ryzen 9 9950X in rendering, compiling and video encoding across 16 cores and 32 threads.",
+      "It gets there by placing 3D V-Cache on only one of its two core dies. AMD's chipset driver and the Xbox Game Bar in Windows steer games to the cache die and park the other cores while you play. When that works, the result is excellent. When a game is not recognized, performance can dip, so keep the chipset driver current and leave Game Bar installed.",
+      "The trade-off is cost and heat. At $650 to $700, it is about $200 more than the 9800X3D for gaming performance that is effectively the same. Its 170 W TDP calls for a strong dual-tower air cooler or a 360 mm AIO such as the [Arctic Liquid Freezer III Pro 360](/gear/arctic-liquid-freezer-iii-pro-360/). The closest rival is Intel's Core Ultra 9 285K, competitive in multi-thread work but well behind in games. The only real step-up is a Threadripper workstation. Buy the 9950X3D if you render, compile or stream while gaming; otherwise, the 9800X3D is the smarter spend."
+    ],
+    "pros": [
+      "Near-9800X3D gaming speed",
+      "16 cores and 32 threads",
+      "128 MB of L3 cache",
+      "Matches the Ryzen 9 9950X in multi-thread work"
+    ],
+    "cons": [
+      "About $200 more than the 9800X3D for the same gaming speed",
+      "Relies on drivers to steer games onto the cache die",
+      "170 W TDP needs serious cooling",
+      "No cooler included"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 9950X3D fits any AM5 board, but it needs a 2025 BIOS that lists it on the board's CPU support page; older B650 and X670 boards will not boot it until updated. Pick a board with solid power delivery, such as a B650 Tomahawk-class board, B850 or X870E, rather than a budget A620 board with minimal VRM cooling.",
+        "After installing Windows, add AMD's latest chipset driver before gaming, since it handles core parking. DDR5-6000 CL30 is the sweet spot; for heavy multi-thread work, 2x32 GB at DDR5-6000 is the practical choice, because four DIMMs usually force lower memory speeds on AM5. AMD has said AM5 will be supported through at least 2027."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the 9950X3D better than the 9800X3D for gaming?",
+        "a": "Not meaningfully. Independent reviews put them within a few percent of each other in games. The 9950X3D's value is its 8 extra cores for work."
+      },
+      {
+        "q": "Do I need to do anything special to set up the 9950X3D?",
+        "a": "Install AMD's latest chipset driver and keep the Xbox Game Bar enabled in Windows. Together they steer games to the cores with 3D V-Cache."
+      },
+      {
+        "q": "What cooler does the 9950X3D need?",
+        "a": "A large dual-tower air cooler or a 360 mm AIO. It is rated at 170 W, and long all-core workloads push it hard; a single-tower cooler will hold it back."
+      }
+    ]
+  },
+  {
+    "id": "ryzen-7-9700x",
+    "name": "AMD Ryzen 7 9700X",
+    "short": "Ryzen 7 9700X",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2024",
+    "price": [
+      290,
+      330
+    ],
+    "description": "The Ryzen 7 9700X is an efficient 8-core AM5 chip: 5.5 GHz, a 65 W TDP and solid gaming for $290 to $330, though AMD's X3D chips are much faster in games.",
+    "quick": "The 9700X has 8 Zen 5 cores, 16 threads and 32 MB of L3 cache, boosting to 5.5 GHz. AMD rates it at 65 W, with an optional 105 W mode added through a later BIOS.",
+    "bestFor": "cool, quiet all-round builds that mix gaming with light creative work",
+    "skipIf": "gaming is the priority, where a 7800X3D or 9800X3D is worth the extra money",
+    "specs": [
+      [
+        "Cores / threads",
+        "8 / 16"
+      ],
+      [
+        "Boost clock",
+        "5.5 GHz"
+      ],
+      [
+        "L3 cache",
+        "32 MB"
+      ],
+      [
+        "TDP",
+        "65 W (105 W mode optional)"
+      ],
+      [
+        "Socket",
+        "AM5"
+      ],
+      [
+        "Memory support",
+        "DDR5-5600 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "AMD Radeon Graphics (2 CUs)"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 78,
+      "parts": [
+        [
+          "Gaming performance",
+          84
+        ],
+        [
+          "Multi-thread",
+          76
+        ],
+        [
+          "Efficiency",
+          92
+        ],
+        [
+          "Value",
+          72
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 7 9700X is a very efficient 8-core chip whose value depends on what you pay. AMD launched it at a 65 W TDP, and independent reviews found gaming performance close to the older Ryzen 7 7700X with much lower power draw. A later BIOS added an optional 105 W mode that lifts multi-thread performance noticeably while barely changing frame rates.",
+      "The trade-off is gaming value. For gaming-first builds, the [Ryzen 7 7800X3D](/gear/ryzen-7-7800x3d/) and 9800X3D are clearly faster in CPU-bound games thanks to their 96 MB of cache, and the Ryzen 5 9600X delivers similar frame rates with two fewer cores for about $100 less. The 9700X earns its place in mixed use: code compiles, photo editing and CPU streaming benefit from the extra two cores, and at 65 W it runs happily on a $20 single-tower cooler.",
+      "The closest Intel rival is the [Core Ultra 7 265K](/gear/core-ultra-7-265k/), which costs about the same, wins clearly in multi-thread work with 20 cores and roughly matches it in games, but draws far more power under heavy load. The step-up on AM5 is the 9800X3D for gaming or the 12-core Ryzen 9 9900X for work. Buy the 9700X near $290 for a quiet, efficient all-rounder; at $330, the alternatives look better."
+    ],
+    "pros": [
+      "65 W TDP, easy to cool",
+      "Optional 105 W mode for more multi-thread speed",
+      "Excellent performance per watt",
+      "Full AVX-512 support on Zen 5",
+      "Long AM5 upgrade path"
+    ],
+    "cons": [
+      "X3D chips are much faster in games",
+      "Core Ultra 7 265K wins in multi-thread for similar money",
+      "No cooler included"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 9700X fits every AM5 board, but boards built before mid-2024 need a BIOS update to recognize Ryzen 9000 chips. The optional 105 W mode arrived with AGESA 1.2.0.2 BIOS releases and is switched on in the BIOS, usually under a PBO or TDP setting, depending on the board maker.",
+        "B650 is plenty for this chip, even in 105 W mode. X870 adds USB4 and PCIe 5.0 graphics if you plan to move to a much faster CPU later. Pair it with DDR5-6000 CL30 using EXPO, which runs the memory controller 1:1 with the memory; 2x16 GB covers gaming and light creative work."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Should I enable 105 W mode on the 9700X?",
+        "a": "If you run multi-thread work, yes. It raises sustained speed in rendering and compiling while gaming barely changes. Make sure your cooler can handle the extra heat."
+      },
+      {
+        "q": "Is the 9700X good for gaming?",
+        "a": "Yes, but it is poor value for gaming alone. It roughly matches the cheaper Ryzen 5 9600X in most games, and X3D chips are clearly faster."
+      },
+      {
+        "q": "What cooler does the 9700X need?",
+        "a": "At 65 W, a single-tower cooler like the [Thermalright Assassin X 120 Refined SE](/gear/thermalright-assassin-x-120-refined-se/) is enough. In 105 W mode, a dual-tower cooler is a better match."
+      }
+    ]
+  },
+  {
+    "id": "ryzen-5-9600x",
+    "name": "AMD Ryzen 5 9600X",
+    "short": "Ryzen 5 9600X",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2024",
+    "price": [
+      190,
+      230
+    ],
+    "description": "The Ryzen 5 9600X is the best mainstream gaming CPU on AM5: 6 Zen 5 cores at 5.4 GHz with a 65 W TDP for $190 to $230, and a base for later X3D upgrades.",
+    "quick": "The 9600X has 6 Zen 5 cores, 12 threads and 32 MB of L3 cache, boosting to 5.4 GHz. AMD rates it at 65 W, and a 105 W mode is available through the BIOS.",
+    "bestFor": "mid-range AM5 gaming builds paired with an RTX 5070 or RX 9070 class card",
+    "skipIf": "you stream, render or compile often, where 8 or more cores pay off",
+    "specs": [
+      [
+        "Cores / threads",
+        "6 / 12"
+      ],
+      [
+        "Boost clock",
+        "5.4 GHz"
+      ],
+      [
+        "L3 cache",
+        "32 MB"
+      ],
+      [
+        "TDP",
+        "65 W (105 W mode optional)"
+      ],
+      [
+        "Socket",
+        "AM5"
+      ],
+      [
+        "Memory support",
+        "DDR5-5600 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "AMD Radeon Graphics (2 CUs)"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 83,
+      "parts": [
+        [
+          "Gaming performance",
+          82
+        ],
+        [
+          "Multi-thread",
+          66
+        ],
+        [
+          "Efficiency",
+          92
+        ],
+        [
+          "Value",
+          86
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 5 9600X is the sensible gaming CPU for most AM5 builds. Independent reviews show it modestly faster than the Ryzen 5 7600X in games, and with a mid-range card such as the [RTX 5070](/gear/rtx-5070/), the GPU sets the frame rate at 1440p far more often than this chip does. Its 65 W TDP means a $20 to $40 air cooler is enough.",
+      "The trade-off is cores. With 6 cores and 12 threads, it handles a game plus Discord and a browser easily, but high-quality CPU streaming, rendering and large code builds run noticeably faster on 8 or more cores. The optional 105 W mode helps multi-thread work a little; it does not change the core count. For a gaming-only PC, six fast cores are rarely the real limit.",
+      "Price is the other question. Street prices of $190 to $230 sit close to the [Ryzen 5 7600](/gear/ryzen-5-7600/), which is only slightly slower in games, includes a cooler and costs $20 to $30 less. The closest Intel rival is the Core Ultra 5 245K, much stronger in multi-thread work but behind in most games and pricier to build around. The gaming step-up is the 9800X3D at more than twice the price, so a common plan is a 9600X now and an X3D chip on the same board later."
+    ],
+    "pros": [
+      "Strong gaming for the price",
+      "65 W TDP, easy to cool",
+      "Full AVX-512 support on Zen 5",
+      "Long AM5 upgrade path",
+      "Optional 105 W mode"
+    ],
+    "cons": [
+      "Only 6 cores",
+      "Ryzen 5 7600 is close in games and includes a cooler",
+      "No cooler included"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "A B650 board is the natural match. Budget A620 boards also run the 9600X, but they lack CPU overclocking and usually have fewer M.2 slots. Boards made before mid-2024 need a BIOS update for Ryzen 9000; check the board's CPU support list and update with BIOS Flashback if you do not have an older AM5 CPU to boot with.",
+        "DDR5-6000 CL30 in 2x16 GB, run with EXPO enabled, is the sweet spot. DDR5 prices have climbed sharply since late 2025, so 32 GB costs noticeably more than it did at launch; 2x8 GB kits save money but leave little headroom in newer games. When you upgrade, any AM5 chip up to the 9800X3D or 9950X3D drops into the same board."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Ryzen 5 9600X or Ryzen 5 7600?",
+        "a": "For pure gaming value, the 7600: it is only slightly slower, includes a cooler and costs less. Choose the 9600X for the newer cores and a little more gaming speed."
+      },
+      {
+        "q": "Is 6 cores enough for gaming in 2026?",
+        "a": "Yes for nearly all games. A few heavily threaded titles benefit from 8 cores, but with a 6-core Zen 5 chip the graphics card is usually the limit."
+      },
+      {
+        "q": "Can I upgrade from the 9600X later?",
+        "a": "Yes. Any AM5 chip, including the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/), drops into the same board, and AMD has said AM5 will be supported through at least 2027."
+      }
+    ]
+  },
+  {
+    "id": "ryzen-7-7800x3d",
+    "name": "AMD Ryzen 7 7800X3D",
+    "short": "Ryzen 7 7800X3D",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2023",
+    "price": [
+      360,
+      420
+    ],
+    "description": "The Ryzen 7 7800X3D is still a top-tier gaming CPU: 8 cores, 96 MB of L3 and 120 W on AM5, close to the 9800X3D, for $360 to $420 while stock lasts.",
+    "quick": "The 7800X3D has 8 Zen 4 cores, 16 threads and 96 MB of L3 cache stacked on top of the core die. It boosts to 5.0 GHz at a 120 W TDP on AM5.",
+    "bestFor": "gaming-first AM5 builds when it sells well below the 9800X3D",
+    "skipIf": "the 9800X3D is within about $60, or you need strong multi-thread performance",
+    "specs": [
+      [
+        "Cores / threads",
+        "8 / 16"
+      ],
+      [
+        "Boost clock",
+        "5.0 GHz"
+      ],
+      [
+        "L3 cache",
+        "96 MB"
+      ],
+      [
+        "TDP",
+        "120 W"
+      ],
+      [
+        "Socket",
+        "AM5"
+      ],
+      [
+        "Memory support",
+        "DDR5-5200 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "AMD Radeon Graphics (2 CUs)"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 89,
+      "parts": [
+        [
+          "Gaming performance",
+          95
+        ],
+        [
+          "Multi-thread",
+          70
+        ],
+        [
+          "Efficiency",
+          93
+        ],
+        [
+          "Value",
+          82
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 7 7800X3D held the title of fastest gaming CPU until its successor arrived, and it is still one of the fastest. Independent reviews put it about 10% behind the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) on average and ahead of Intel's Core Ultra 9 285K and Core i9-14900K in most games. Its 96 MB of L3 cache does the work, which is how it beats chips with much higher clock speeds.",
+      "It is also one of the most frugal gaming chips around. Independent reviews show gaming power draw well under its 120 W TDP, so a $35 dual-tower air cooler keeps it cool and quiet. Because the cache sits on top of the cores, boost tops out at 5.0 GHz and multiplier overclocking is locked, though Curve Optimizer undervolting is available in the BIOS on most boards.",
+      "The trade-off is supply and price. AMD has shifted production to the 9800X3D, and at $360 to $420 the older chip is sometimes only $60 to $90 cheaper; at that gap, the newer chip is the better buy. Multi-thread performance is modest for the money too, and the [Core Ultra 7 265K](/gear/core-ultra-7-265k/) is far quicker in rendering for less. Buy the 7800X3D when it dips toward $360, or used from a trusted seller. Otherwise, step up."
+    ],
+    "pros": [
+      "Among the fastest gaming CPUs in independent reviews",
+      "96 MB of L3 cache",
+      "Low power draw in games",
+      "Easy to cool with air",
+      "AM5 upgrade path"
+    ],
+    "cons": [
+      "Stock is thinning as AMD shifts to the 9800X3D",
+      "5.0 GHz cap and locked multiplier",
+      "Weak multi-thread value",
+      "No cooler included"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 7800X3D runs on any AM5 board with a BIOS from mid-2023 or later. Update before enabling EXPO: early AM5 firmware allowed excessive SoC voltage with memory profiles, and AMD capped it after widely reported chip failures in 2023. Most boards sold today ship with fixed firmware, but older stock and used boards may not.",
+        "B650 boards are the sensible choice; X870 adds USB4 and PCIe 5.0 graphics for future upgrades. DDR5-6000 CL30 with EXPO is the sweet spot, and the large cache means slower DDR5-5200 kits cost less performance than on non-X3D chips. AMD has said AM5 will be supported through at least 2027, so a later Ryzen drops into the same board."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "7800X3D or 9800X3D?",
+        "a": "If the gap is under about $60, the 9800X3D: it is about 10% faster and unlocked. Above that, the 7800X3D gives most of the gaming speed for less."
+      },
+      {
+        "q": "Is the 7800X3D still worth buying in 2026?",
+        "a": "Yes, at the right price. Independent reviews still place it ahead of Intel's current desktop chips in most games, and AM5 has support promised through at least 2027."
+      },
+      {
+        "q": "Can I overclock the 7800X3D?",
+        "a": "Not with the multiplier, which is locked. Curve Optimizer in the BIOS's PBO menu lets you undervolt for lower temperatures and sometimes slightly higher sustained clocks."
+      }
+    ]
+  },
+  {
+    "id": "ryzen-5-7600",
+    "name": "AMD Ryzen 5 7600",
+    "short": "Ryzen 5 7600",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2023",
+    "price": [
+      170,
+      200
+    ],
+    "description": "The Ryzen 5 7600 is the best budget AM5 CPU: 6 cores at 5.1 GHz, a 65 W TDP and a cooler in the box for $170 to $200, with a clear upgrade path to X3D chips.",
+    "quick": "The Ryzen 5 7600 has 6 Zen 4 cores, 12 threads and 32 MB of L3 cache, boosting to 5.1 GHz at 65 W. It is one of the few current AMD chips with a cooler in the box, the Wraith Stealth.",
+    "bestFor": "budget gaming builds that want a cheap way onto AM5",
+    "skipIf": "you need more than 6 cores, or plan heavy all-core work on the stock cooler",
+    "specs": [
+      [
+        "Cores / threads",
+        "6 / 12"
+      ],
+      [
+        "Boost clock",
+        "5.1 GHz"
+      ],
+      [
+        "L3 cache",
+        "32 MB"
+      ],
+      [
+        "TDP",
+        "65 W"
+      ],
+      [
+        "Socket",
+        "AM5"
+      ],
+      [
+        "Memory support",
+        "DDR5-5200 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "AMD Radeon Graphics (2 CUs)"
+      ],
+      [
+        "Cooler included",
+        "Yes, Wraith Stealth"
+      ]
+    ],
+    "score": {
+      "overall": 85,
+      "parts": [
+        [
+          "Gaming performance",
+          77
+        ],
+        [
+          "Multi-thread",
+          62
+        ],
+        [
+          "Efficiency",
+          90
+        ],
+        [
+          "Value",
+          95
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 5 7600 is the cheapest sensible way into AM5. Independent reviews show it within a few percent of the Ryzen 5 7600X in games and only modestly behind the newer [Ryzen 5 9600X](/gear/ryzen-5-9600x/), and at $170 to $200 it includes a cooler. With an RTX 5060 Ti or RX 9060 XT class card, the GPU, not this CPU, sets the frame rate.",
+      "The included Wraith Stealth is fine for gaming but gets loud under sustained all-core loads. A $20 to $35 tower cooler is the first upgrade worth making, and it helps the chip hold its boost clocks longer. With 6 cores and 12 threads, it games well but is slower in rendering and compiling than 8-core parts.",
+      "The real appeal is the platform. Starting on AM5 with a B650 board and DDR5-6000 means you can later drop in a [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) or a future AM5 chip without changing anything else. The closest Intel rival is the Core Ultra 5 245K, which beats it in multi-thread work but costs more and needs a separate cooler. Against the 9600X, the 7600 gives up a little speed to save money and add a cooler, and for a budget build that is the better trade. The main cost to watch is DDR5, which has become expensive since late 2025."
+    ],
+    "pros": [
+      "Cooler included",
+      "Close to the 7600X in games",
+      "65 W TDP",
+      "Cheapest route onto AM5",
+      "Integrated graphics for troubleshooting"
+    ],
+    "cons": [
+      "Stock cooler is loud under load",
+      "Only 6 cores",
+      "DDR5 prices make AM5 builds costlier than AM4"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "Any AM5 board runs the 7600, and boards sold today support it out of the box. A620 boards are the cheapest match and fine at 65 W. B650 adds more M.2 slots and USB, CPU overclocking and the stronger power delivery you will want for a later X3D or 16-core upgrade.",
+        "If you do upgrade later, update the BIOS first: Ryzen 9000 chips need firmware from mid-2024 or newer. DDR5-6000 CL30 with EXPO is the sweet spot. DDR5 prices rose sharply from late 2025, so a 2x16 GB kit can cost about as much as the CPU; a DDR5-5200 kit gives up a little performance to save some money."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Wraith Stealth enough for the Ryzen 5 7600?",
+        "a": "For gaming, yes. Under sustained all-core work it runs loud, and a $20 to $35 tower cooler is quieter and cooler."
+      },
+      {
+        "q": "Ryzen 5 7600 or Ryzen 5 7600X?",
+        "a": "The 7600 for most people. It is within a few percent in games, runs at 65 W instead of 105 W and includes a cooler."
+      },
+      {
+        "q": "Can the Ryzen 5 7600 run without a graphics card?",
+        "a": "Yes. Its integrated Radeon graphics drive a display for desktop use and troubleshooting, but they are not meant for modern games."
+      }
+    ]
+  },
+  {
+    "id": "core-ultra-7-265k",
+    "name": "Intel Core Ultra 7 265K",
+    "short": "Core Ultra 7 265K",
+    "brand": "intel",
+    "category": "processors",
+    "released": "2024",
+    "price": [
+      260,
+      300
+    ],
+    "description": "The Core Ultra 7 265K is a strong multi-thread chip for $260 to $300: 20 cores at up to 5.5 GHz on LGA 1851, but AMD's X3D chips are clearly faster in games.",
+    "quick": "Intel's Arrow Lake chip has 8 Performance cores and 12 Efficient cores, 20 threads in total, with 30 MB of cache and a 5.5 GHz boost. It is rated at 125 W base and 250 W maximum turbo power on socket LGA 1851.",
+    "bestFor": "content creators and developers who want strong multi-thread speed for under $300",
+    "skipIf": "gaming frame rate is your main goal, where Ryzen X3D chips lead",
+    "specs": [
+      [
+        "Cores / threads",
+        "20 (8P + 12E) / 20"
+      ],
+      [
+        "Boost clock",
+        "5.5 GHz"
+      ],
+      [
+        "L3 cache",
+        "30 MB"
+      ],
+      [
+        "TDP",
+        "125 W base / 250 W max turbo"
+      ],
+      [
+        "Socket",
+        "LGA 1851"
+      ],
+      [
+        "Memory support",
+        "DDR5-6400 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "Intel Graphics (4 Xe cores)"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 79,
+      "parts": [
+        [
+          "Gaming performance",
+          76
+        ],
+        [
+          "Multi-thread",
+          92
+        ],
+        [
+          "Efficiency",
+          72
+        ],
+        [
+          "Value",
+          84
+        ]
+      ]
+    },
+    "verdict": [
+      "The Core Ultra 7 265K has become Intel's best-value desktop chip, mainly because its price fell well below the $394 launch price. At $260 to $300, its 20 cores deliver multi-thread performance near the Core i7-14700K in independent reviews with lower power draw, which makes it one of the fastest chips under $300 for rendering, compiling and video export. It also includes an NPU and Intel Graphics with 4 Xe cores, so it can run a system before a graphics card arrives.",
+      "Gaming is the weak spot. Arrow Lake dropped Hyper-Threading and moved the memory controller onto a separate tile, and launch reviews found gaming performance below Intel's own 14th-gen chips and well behind AMD's X3D parts. Microcode and Windows updates since then recovered some ground, but the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) and 7800X3D remain clearly faster for high-refresh gaming.",
+      "The platform is the other trade-off. Z890 and B860 boards are not cheap, and Intel's next major desktop family is widely reported to move to a new socket, so upgrade options on LGA 1851 are limited. On the plus side, Arrow Lake runs fast DDR5, including CUDIMM kits at DDR5-8000. The closest AMD rival for work is the 12-core Ryzen 9 9900X; for gaming, a [Ryzen 5 9600X](/gear/ryzen-5-9600x/) roughly matches it for less money. Buy the 265K when multi-thread speed per dollar matters more than frame rate."
+    ],
+    "pros": [
+      "20 cores for under $300",
+      "Strong multi-thread performance",
+      "Lower power than the Core i7-14700K",
+      "Supports fast DDR5 and CUDIMM kits",
+      "LGA 1700 coolers fit"
+    ],
+    "cons": [
+      "Trails Ryzen X3D chips in games",
+      "LGA 1851 has a limited upgrade path",
+      "Up to 250 W under heavy all-core load",
+      "No cooler included"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 265K uses socket LGA 1851. Z890 boards allow CPU and memory overclocking; B860 boards drop CPU overclocking but keep memory tuning for less money, and H810 is the bare-bones option. LGA 1700 coolers fit LGA 1851 because the mounting holes did not change.",
+        "Update the BIOS before you judge performance: Intel's 0x114 microcode and related firmware, released around the turn of 2025, fixed problems seen at launch, and newer BIOS releases on many boards add Intel's 200S Boost profile for faster memory and fabric speeds under warranty. DDR5-6400 is the rated speed, Arrow Lake gains from faster kits, and CUDIMM modules are the usual choice at DDR5-8000. DDR5 prices have risen sharply since late 2025."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Core Ultra 7 265K good for gaming?",
+        "a": "It is fine, not great. It runs games well with any mid-range GPU, but independent reviews show Ryzen X3D chips clearly ahead and the cheaper Ryzen 5 9600X roughly level."
+      },
+      {
+        "q": "Will LGA 1851 get new CPUs?",
+        "a": "Probably few beyond the Core Ultra 200S family. Intel's next major desktop generation is widely reported to use a new socket, so plan on a new board for that upgrade."
+      },
+      {
+        "q": "What cooler does the 265K need?",
+        "a": "A strong dual-tower air cooler or a 240 to 360 mm AIO. At its 250 W turbo limit it runs hot in all-core work, though gaming loads are much lower. LGA 1700 mounts fit."
+      }
+    ]
+  },
+  {
+    "id": "core-ultra-5-245k",
+    "name": "Intel Core Ultra 5 245K",
+    "short": "Core Ultra 5 245K",
+    "brand": "intel",
+    "category": "processors",
+    "released": "2024",
+    "price": [
+      200,
+      230
+    ],
+    "description": "The Core Ultra 5 245K is a solid mid-range chip with 14 cores at 5.2 GHz for $200 to $230, strong in multi-thread work but behind the Ryzen 5 9600X in games.",
+    "quick": "The 245K has 6 Performance cores and 8 Efficient cores, 14 threads in total, with 24 MB of cache and a 5.2 GHz boost. It is rated at 125 W base and 159 W maximum turbo power on LGA 1851.",
+    "bestFor": "budget workstation builds that mix gaming with rendering or compiling",
+    "skipIf": "you only game, where a Ryzen 5 7600 or 9600X is cheaper to build around and faster",
+    "specs": [
+      [
+        "Cores / threads",
+        "14 (6P + 8E) / 14"
+      ],
+      [
+        "Boost clock",
+        "5.2 GHz"
+      ],
+      [
+        "L3 cache",
+        "24 MB"
+      ],
+      [
+        "TDP",
+        "125 W base / 159 W max turbo"
+      ],
+      [
+        "Socket",
+        "LGA 1851"
+      ],
+      [
+        "Memory support",
+        "DDR5-6400 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "Intel Graphics (4 Xe cores)"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 74,
+      "parts": [
+        [
+          "Gaming performance",
+          72
+        ],
+        [
+          "Multi-thread",
+          80
+        ],
+        [
+          "Efficiency",
+          76
+        ],
+        [
+          "Value",
+          76
+        ]
+      ]
+    },
+    "verdict": [
+      "The Core Ultra 5 245K is a capable chip with a narrow audience. Its 14 cores give it far more multi-thread performance than six-core rivals: independent reviews show it well ahead of the Ryzen 5 9600X in rendering and compiling, and it draws less power under heavy load than the Core i5-14600K it replaced.",
+      "Gaming is where it falls short. Launch reviews placed it behind both the 9600X and the older Core i5-14600K in most games, and later microcode fixes narrowed the gap without closing it. Paired with an RTX 5070 or RX 9070 at 1440p, the difference shrinks because the graphics card becomes the limit, but at 1080p high refresh rates AMD is ahead for less money.",
+      "Platform cost is the bigger issue. A Z890 or B860 board plus DDR5 makes the total build pricier than a Ryzen 5 7600 on B650, and LGA 1851 is widely expected to see little beyond the current generation, while AMD has promised AM5 support through 2027. The step-up is the [Core Ultra 7 265K](/gear/core-ultra-7-265k/), which adds two Performance and four Efficient cores for roughly $60 to $70 more and is the better Intel value. The closest AMD rival is the [Ryzen 5 9600X](/gear/ryzen-5-9600x/). Buy the 245K for a budget workstation; for a gaming build, look to AMD."
+    ],
+    "pros": [
+      "14 cores for around $200",
+      "Strong multi-thread speed for the price",
+      "Lower power than the Core i5-14600K under load",
+      "Integrated graphics and an NPU"
+    ],
+    "cons": [
+      "Behind the Ryzen 5 9600X in most games",
+      "Limited upgrade path on LGA 1851",
+      "Platform costs more than budget AM5 builds",
+      "No cooler included"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 245K uses socket LGA 1851. B860 boards are the value choice, since the chip's 159 W turbo limit is modest and B860 still allows memory overclocking; Z890 adds CPU overclocking and more connectivity. Existing LGA 1700 coolers fit without new brackets.",
+        "Update the BIOS to a 2025 release or later to get Intel's performance microcode fixes. DDR5-6400 is the rated memory speed, and a DDR5-6400 to 7200 kit is a sensible target. DDR5 prices have risen sharply since late 2025, so 2x16 GB is the practical capacity for most builds."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Core Ultra 5 245K or Ryzen 5 9600X?",
+        "a": "The 9600X for gaming, where it is faster in most titles and sits on a longer-lived platform. The 245K for rendering, compiling and other multi-thread work, where its 14 cores win clearly."
+      },
+      {
+        "q": "Core Ultra 5 245K or Core Ultra 7 265K?",
+        "a": "The 265K if you can spend $60 to $70 more. It adds six cores and a higher boost clock, and the gap in multi-thread work is large."
+      },
+      {
+        "q": "Does the 245K need a Z890 board?",
+        "a": "Only for CPU overclocking. A B860 board runs it at full stock speed and still allows memory overclocking, for less money."
+      }
+    ]
+  },
+  {
+    "id": "ryzen-7-5700x3d",
+    "name": "AMD Ryzen 7 5700X3D",
+    "short": "Ryzen 7 5700X3D",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2024",
+    "price": [
+      200,
+      260
+    ],
+    "description": "The Ryzen 7 5700X3D is the best gaming upgrade for older AM4 PCs: 8 cores and 96 MB of L3 for $200 to $260, a drop-in for B450, B550 and X570 boards.",
+    "quick": "The 5700X3D has 8 Zen 3 cores, 16 threads and 96 MB of L3 cache, boosting to 4.1 GHz at 105 W. It fits socket AM4 and uses DDR4 memory.",
+    "bestFor": "Ryzen 5 2600, 3600 and 5600 owners who want a big gaming jump without a new board or RAM",
+    "skipIf": "you are building a new PC, where AM5 offers a longer upgrade path",
+    "specs": [
+      [
+        "Cores / threads",
+        "8 / 16"
+      ],
+      [
+        "Boost clock",
+        "4.1 GHz"
+      ],
+      [
+        "L3 cache",
+        "96 MB"
+      ],
+      [
+        "TDP",
+        "105 W"
+      ],
+      [
+        "Socket",
+        "AM4"
+      ],
+      [
+        "Memory support",
+        "DDR4-3200 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "None"
+      ],
+      [
+        "Cooler included",
+        "No"
+      ]
+    ],
+    "score": {
+      "overall": 82,
+      "parts": [
+        [
+          "Gaming performance",
+          84
+        ],
+        [
+          "Multi-thread",
+          64
+        ],
+        [
+          "Efficiency",
+          86
+        ],
+        [
+          "Value",
+          88
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 7 5700X3D is the best upgrade for an aging AM4 gaming PC. It keeps the 96 MB of L3 cache that made the Ryzen 7 5800X3D a favorite, at a lower 4.1 GHz boost, and independent reviews put it only slightly behind the 5800X3D in games. For anyone on a Ryzen 5 2600 or 3600, the jump in CPU-bound games is large, and minimum frame rates with a modern graphics card improve noticeably.",
+      "The appeal is cost. You keep the motherboard, the DDR4 memory and often the cooler, so $200 to $260 buys most of the gaming benefit of a new platform. B450, B550, X470 and X570 boards support it after a BIOS update; check your board's CPU support list before buying, especially on older or budget models.",
+      "The trade-offs: the multiplier is locked, multi-thread performance is closer to a Ryzen 7 5700X than to modern chips, and there is no integrated graphics. AM4 is also at the end of its life, so this is the last stop on that socket. Supply varies, and when the price drifts toward $260, a [Ryzen 5 7600](/gear/ryzen-5-7600/) with a budget B650 board becomes the better long-term buy, if you can absorb the cost of DDR5. The only step-up on AM4 is the discontinued 5800X3D, worth it only at a fair used price."
+    ],
+    "pros": [
+      "96 MB of L3 cache for gaming",
+      "Drop-in upgrade for most AM4 boards",
+      "Keeps your DDR4 memory",
+      "105 W TDP, easy to cool"
+    ],
+    "cons": [
+      "Locked multiplier",
+      "No integrated graphics",
+      "AM4 is a dead-end platform",
+      "Availability and price vary"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The 5700X3D uses socket AM4. B450, B550, X470 and X570 boards support it once updated to a BIOS that lists the chip on the board's CPU support page. Flash the update with your old CPU still installed, since many B450 boards lack BIOS Flashback. Some older boards with small BIOS chips drop support for Ryzen 1000 or 2000 chips in newer versions, so update only when the new CPU is in hand.",
+        "B450 boards run the graphics slot at PCIe 3.0, which matters little for x16 cards but costs a little with x8 cards like the RTX 5060 Ti. For memory, DDR4-3600 CL16 at a 1:1 Infinity Fabric ratio (FCLK 1800) is the sweet spot, but the 96 MB cache narrows the gap, so an existing DDR4-3200 CL16 kit is fine. A 120 mm tower cooler handles its 105 W TDP."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will the 5700X3D work on my B450 board?",
+        "a": "In most cases, yes, after a BIOS update. Check the board's CPU support list for the 5700X3D and update with your current CPU installed, since many B450 boards lack BIOS Flashback."
+      },
+      {
+        "q": "Ryzen 7 5700X3D or 5800X3D?",
+        "a": "The 5800X3D is slightly faster thanks to higher clocks, but it is discontinued. The 5700X3D is the one you can usually buy new."
+      },
+      {
+        "q": "What RAM works best with the 5700X3D?",
+        "a": "Keep your current DDR4. The large cache makes it less sensitive to memory speed; DDR4-3200 CL16 is fine and DDR4-3600 CL16 is the upper sweet spot."
+      },
+      {
+        "q": "Is the 5700X3D fast enough for an RTX 5070?",
+        "a": "Yes. It drives an RTX 5070 or RX 9070 well at 1440p in most games, and those x16 cards lose little on a PCIe 3.0 B450 board."
+      }
+    ]
+  }
+]

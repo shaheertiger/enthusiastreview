@@ -1,0 +1,13 @@
+---
+import { inline, type FAQ, type LinkCtx } from '../lib/data';
+interface Props { faqs: FAQ[]; ctx?: LinkCtx }
+const { faqs, ctx } = Astro.props;
+---
+<div class="faqs">
+  {faqs.map((f) => (
+    <details class="faq">
+      <summary><h3>{f.q}</h3></summary>
+      <div set:html={`<p>${inline(f.a, ctx)}</p>`} />
+    </details>
+  ))}
+</div>

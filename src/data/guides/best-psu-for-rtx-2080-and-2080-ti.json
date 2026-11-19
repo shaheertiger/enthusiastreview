@@ -1,0 +1,246 @@
+{
+  "slug": "best-psu-for-rtx-2080-and-2080-ti",
+  "type": "roundup",
+  "category": "power-supplies",
+  "title": "Best PSU for RTX 2080 and 2080 Ti (2026): 6 Picks Ranked",
+  "h1": "Best PSU for RTX 2080 and 2080 Ti",
+  "query": "best psu for rtx 2080",
+  "description": "The Corsair RM850x is the best PSU for an RTX 2080 or 2080 Ti: 850 W powers either card today and an RTX 5080 later. 6 picks from $75, all with 8-pin cables.",
+  "dek": "Still running a Turing card? Buy a power supply that feeds it properly now and is ready for the RTX 50 card you will buy next.",
+  "intro": [
+    "The Corsair RM850x (2024) is the best PSU for an RTX 2080 or 2080 Ti in 2026. NVIDIA recommends 650 W for both cards, and 850 W gives you that plus the full 850 W NVIDIA asks for with an RTX 5080, so you only buy once.",
+    "We wrote the first version of this page in 2020, when these cards were current. This update is for owners who still run one and need a new power supply, whether the old unit died, is out of warranty or will not handle a future upgrade. Every pick includes the 8-pin PCIe cables a Turing card needs and a native 16-pin cable for RTX 50."
+  ],
+  "quickAnswer": "Buy the Corsair RM850x ($120–$150) to cover your RTX 2080 Ti now and an RTX 5080 later. If your next card will be an RTX 5070 Ti or RX 9070 XT at most, the Corsair RM750e ($85–$100) is enough. The MSI MAG A750GL PCIE5 ($75–$95) is the cheapest safe pick for a 2080 alone.",
+  "picks": [
+    {
+      "id": "corsair-rm850x",
+      "label": "Best Overall",
+      "bestFor": "RTX 2080 and 2080 Ti owners who expect to move to an RTX 5070 Ti, RTX 5080 or RX 9070 XT",
+      "skipIf": "you are sure your next GPU will be an RTX 5070 or smaller, where 750 W is plenty",
+      "writeup": [
+        "An RTX 2080 Ti draws 250 W at reference clocks and 260 W as a Founders Edition. That does not need an 850 W power supply on its own. The reason the RM850x tops this page is what comes after the 2080 Ti. NVIDIA recommends 850 W for the RTX 5080, which is the card many Turing owners are eyeing, and this unit meets that recommendation on day one.",
+        "For your current card, it supplies separate 6+2-pin PCIe cables, so you can run one cable to each of the 2080 Ti's two 8-pin sockets instead of relying on a single split lead. When you upgrade, the native 12V-2x6 cable plugs straight into an RTX 50 card with no adapter.",
+        "It is ATX 3.1, 80 Plus Gold, fully modular and backed by a 10-year warranty, which should comfortably cover two GPU generations. The 140 mm fan stops entirely at low loads, so a 2080 system browsing the web will not hear it at all.",
+        "The case against it is cost. At $120–$150 it is about $35–$50 more than the RM750e. If you are certain your next card is a 250 W RTX 5070 or a 220 W RX 9070, put that money into the GPU instead."
+      ],
+      "pros": ["Meets NVIDIA's 850 W guidance for an RTX 5080 upgrade", "Separate PCIe cables for both 8-pin sockets", "10-year warranty"],
+      "cons": ["More wattage than a 2080 alone needs", "Highest price of the main picks"]
+    },
+    {
+      "id": "corsair-rm750e",
+      "label": "Best Value",
+      "bestFor": "owners who will upgrade to an RTX 5070, RTX 5070 Ti, RX 9070 or RX 9070 XT at most",
+      "skipIf": "an RTX 5080 or bigger is on your shopping list",
+      "writeup": [
+        "The RM750e is the value answer for a 2080 or 2080 Ti owner. It has 100 W more than NVIDIA's 650 W recommendation for either Turing card, and it lands at exactly NVIDIA's 750 W figure for the RTX 5070 Ti. That covers both today and the most likely midrange upgrade.",
+        "It ships with 6+2-pin PCIe cables for your current card and a native 12V-2x6 lead for an RTX 50 card later. It is 80 Plus Gold, ATX 3.1 and fully modular, so you can leave the 16-pin cable in the box until you need it and keep the case tidy around an older card.",
+        "Corsair covers it for 7 years. That is shorter than the 10 years on the RM850x, but still longer than most people keep a GPU. The 120 mm fan is a touch smaller than the RMx line's 140 mm fan, a difference you are unlikely to notice at the loads a 2080 or 2080 Ti produces.",
+        "At $85–$100 it is the best balance of price and future headroom on this page. Choose it unless you already know you want an RTX 5080."
+      ],
+      "pros": ["Covers a 2080 Ti and an RTX 5070 Ti upgrade", "ATX 3.1 with native 12V-2x6", "Usually under $100"],
+      "cons": ["7-year warranty", "Not enough for an RTX 5080 per NVIDIA"]
+    },
+    {
+      "id": "seasonic-focus-gx-850",
+      "label": "Best 850 W Alternative",
+      "bestFor": "upgrade-minded owners who want an 850 W unit and find the Seasonic cheaper than the Corsair",
+      "skipIf": "the RM850x costs the same or less that week",
+      "writeup": [
+        "The Seasonic Focus GX-850 does the same job as our top pick and is often a few dollars cheaper. It powers an RTX 2080 Ti with plenty of room and meets NVIDIA's 850 W guidance for the RTX 5080, which makes it a one-purchase plan for Turing owners.",
+        "The spec sheet reads much like the Corsair's: 850 W, 80 Plus Gold, ATX 3.x, fully modular, a 12V-2x6 lead for RTX 50 and 6+2-pin PCIe cables for the card you have now. Seasonic covers it for 10 years. Its 120 mm fan uses a fluid dynamic bearing and has a hybrid mode switch that lets it rest at light loads.",
+        "Seasonic has a long record in power supplies, and many owners of 2018-era builds will have run a Seasonic-made unit at some point, whether under that badge or another brand's. If your old power supply was one and it served you well, this is the natural replacement.",
+        "At $120–$140 it overlaps the RM850x's band. Buy whichever is cheaper on the day; the practical difference for a 2080 Ti owner is small."
+      ],
+      "pros": ["850 W for an RTX 5080 later", "10-year warranty", "Hybrid fan switch"],
+      "cons": ["120 mm fan", "Price overlaps the RM850x"]
+    },
+    {
+      "id": "be-quiet-pure-power-12-m-750",
+      "label": "Best Long Warranty",
+      "bestFor": "owners who want 750 W with a 10-year warranty and plan to keep the unit through several cards",
+      "skipIf": "it costs noticeably more than the RM750e and the warranty gap does not matter to you",
+      "writeup": [
+        "If you have run your RTX 2080 since 2018 or 2019, you already know you keep hardware a long time. The be quiet! Pure Power 12 M 750W suits that habit. It pairs 750 W with a 10-year warranty, three years more than the RM750e at similar wattage.",
+        "It is 80 Plus Gold, ATX 3.x and fully modular, with PCIe cables for a Turing card and a 12VHPWR/12V-2x6 cable for RTX 50. The 750 W rating covers a 2080 Ti with margin and meets NVIDIA's recommendation for an RTX 5070 Ti, so it handles the same upgrade path as the RM750e.",
+        "be quiet! focuses on low noise, and owners generally report this unit stays in the background under gaming loads. Its 120 mm fan is the same size as the RM750e's.",
+        "The price is usually $95–$110, a little above the Corsair. If you value a decade of coverage, the gap is worth paying. If your plan is to replace the whole PC within five years, the RM750e is the better deal."
+      ],
+      "pros": ["10-year warranty at 750 W", "Fully modular", "Quiet-focused design"],
+      "cons": ["Usually costs a bit more than the RM750e", "Stops short of RTX 5080 guidance"]
+    },
+    {
+      "id": "msi-mag-a750gl-pcie5",
+      "label": "Cheapest Safe Pick",
+      "bestFor": "owners who just need to replace a dead or aging unit under a 2080 or 2080 Ti as cheaply as possible",
+      "skipIf": "you want a long, clearly stated warranty",
+      "writeup": [
+        "When an old power supply fails, the goal is often simple: get the PC running again without spending much. The MSI MAG A750GL PCIE5 does that for $75–$95 while still giving you modern standards.",
+        "It is 750 W, 80 Plus Gold, fully modular and ATX 3.x. For an RTX 2080 at 215–225 W or a 2080 Ti at 250–260 W, that is a comfortable margin over NVIDIA's 650 W recommendation, even with a power-hungry chip like a Core i9-9900K that can draw well above its 95 W rating when motherboard limits are lifted.",
+        "It also ships with a native 16-pin cable, so an RTX 5070 or RX 9070 upgrade later will not require another purchase. The RTX 5070 Ti is the practical ceiling, matching NVIDIA's 750 W figure.",
+        "MSI's power supplies have a shorter track record than Corsair's or Seasonic's, and the warranty term varies by region, so check the listing. As a low-cost replacement that also prepares you for a midrange upgrade, it is hard to beat."
+      ],
+      "pros": ["Lowest price here", "Gold and fully modular", "Native 16-pin cable for a future card"],
+      "cons": ["Warranty term varies by region", "Shorter PSU track record"]
+    },
+    {
+      "id": "montech-century-ii-850",
+      "label": "Budget 850 W",
+      "bestFor": "owners who want RTX 5080-level headroom without paying RM850x prices",
+      "skipIf": "you prefer the ATX 3.1 spec and a longer brand history",
+      "writeup": [
+        "The Montech Century II 850W gets you 850 W for $95–$115, which is close to 750 W money. For a 2080 or 2080 Ti owner who wants to keep the RTX 5080 option open, it is the cheapest route.",
+        "It is 80 Plus Gold, fully modular and carries a 10-year warranty. It includes PCIe cables for your Turing card and a 12VHPWR cable for an RTX 50 card. It is rated to ATX 3.0, not 3.1. That matters less than it sounds: a 12VHPWR plug fits and works in a 12V-2x6 socket as long as it is fully seated.",
+        "Montech came to power supplies from cases and is newer to the category than the other brands here. Independent reviews have been broadly favorable for the money, but it does not have the decade of history behind the Corsair and Seasonic units.",
+        "Pick it if you want 850 W and the RM850x or Focus GX-850 is over budget. If the gap to those units is under $20, the established names are worth the difference."
+      ],
+      "pros": ["850 W at near 750 W pricing", "10-year warranty", "Fully modular"],
+      "cons": ["ATX 3.0", "Shorter track record in PSUs"]
+    }
+  ],
+  "tableSpecs": ["Wattage", "Efficiency", "ATX version", "GPU connector", "Warranty"],
+  "ranking": {
+    "intro": "These rankings come from manufacturer specifications, NVIDIA's published power recommendations for the RTX 2080, RTX 2080 Ti and RTX 50 cards, independent reviews, owner reports and recent street prices. We did not bench-test any of these power supplies or measure any card's power draw ourselves.",
+    "criteria": [
+      ["Turing compatibility", "Enough wattage over NVIDIA's 650 W recommendation, and enough separate 6+2-pin PCIe cables for two 8-pin sockets."],
+      ["Upgrade headroom", "How far the unit takes you into the RTX 50 or RX 9000 range, measured against NVIDIA's 750 W and 850 W recommendations."],
+      ["Native 16-pin cable", "A 12VHPWR or 12V-2x6 cable in the box, so an RTX 50 card will not need an adapter."],
+      ["Warranty", "Longer coverage ranked higher, because owners of 2018-era cards tend to keep parts a long time."],
+      ["Price", "Typical street-price band in USD, so the power supply does not eat the GPU upgrade budget."]
+    ],
+    "why": "The RM850x won because it handles a 2080 Ti with separate PCIe cables today and meets NVIDIA's 850 W recommendation for an RTX 5080 tomorrow, with a 10-year warranty to cover both."
+  },
+  "mentions": [
+    {
+      "id": "corsair-rm1000x",
+      "text": "The RM1000x is the right choice only if your upgrade plan is an RTX 5090, which NVIDIA pairs with a 1,000 W power supply. For an RTX 2080 Ti on its own it is far more than you need, and at $170–$200 it can cost as much as a CPU upgrade for an older platform."
+    },
+    {
+      "name": "Keeping your current 650 W unit",
+      "text": "If your existing power supply is a quality 650 W or larger unit, still under warranty and stable under load, it will keep running a 2080 or 2080 Ti. Replace it when it shows problems, when the warranty runs out, or when you buy a card that needs more."
+    }
+  ],
+  "sections": [
+    {
+      "h": "How Many Watts Does an RTX 2080 or 2080 Ti Need?",
+      "body": [
+        "NVIDIA recommends a 650 W power supply for both the RTX 2080 and the RTX 2080 Ti. That figure assumes a typical gaming CPU and leaves margin, so a good 650 W unit is genuinely enough for either card in a normal build.",
+        "The cards themselves draw much less than that. The RTX 2080 is rated at 215 W, or 225 W for the factory-overclocked Founders Edition. The RTX 2080 Ti is rated at 250 W, or 260 W for the Founders Edition. Partner cards with higher clocks can run above those figures, which is one reason to buy a little more than 650 W."
+      ],
+      "table": {
+        "caption": "Turing card power and connectors (NVIDIA reference and Founders Edition)",
+        "head": ["Card", "Board power", "Founders Edition", "Power connectors (FE)", "NVIDIA PSU recommendation"],
+        "rows": [
+          ["RTX 2080", "215 W", "225 W", "One 8-pin + one 6-pin", "650 W"],
+          ["RTX 2080 Super", "250 W", "250 W", "One 8-pin + one 6-pin", "650 W"],
+          ["RTX 2080 Ti", "250 W", "260 W", "Two 8-pin", "650 W"]
+        ]
+      }
+    },
+    {
+      "h": "Does the RTX 2080 Need Two 8-Pin Cables?",
+      "body": [
+        "The RTX 2080 Ti does: it has two 8-pin PCIe sockets. The RTX 2080 Founders Edition uses one 8-pin and one 6-pin, while many partner RTX 2080 models moved to two 8-pins. A handful of flagship partner 2080 Ti cards use three. Look at the top edge of your card to be sure.",
+        "Each 8-pin PCIe connector is rated for 150 W and the PCIe slot adds 75 W, so two 8-pins give a card up to 375 W of rated capacity. A 6+2-pin cable fits either an 8-pin or a 6-pin socket, which is why every pick here covers both layouts.",
+        "Use a separate cable for each socket where you can. Many power supplies ship PCIe cables with two plugs on one lead, often called a pigtail or daisy chain. On a quality unit that is usually fine for a 225 W card, but splitting the load across two cables runs them cooler and is the safer habit for a 260 W 2080 Ti or an overclocked partner model."
+      ],
+      "list": [
+        "RTX 2080 Ti: two separate 6+2-pin cables, one per socket.",
+        "RTX 2080 FE: one 6+2-pin in the 8-pin socket, one 6+2-pin folded to 6-pin.",
+        "Three-socket partner cards: three separate cables if the power supply allows it.",
+        "Never use a SATA or Molex to PCIe adapter for a high-power card."
+      ]
+    },
+    {
+      "h": "Is a 2018 Power Supply Still Safe With an RTX 2080 Ti?",
+      "body": [
+        "It may be, but age is catching up. A power supply bought alongside an RTX 2080 in late 2018 is now around eight years old. Many units sold then carried five- or seven-year warranties, which have expired. Ten-year units are still covered for a little longer.",
+        "Signs that it is time to replace it include random shutdowns or reboots in games, a fan that rattles or grinds, a burning smell, or coil noise that has grown louder. Any one of these is reason enough. A failing power supply can damage the parts it feeds.",
+        "Even a healthy older unit has one more limitation: it was designed to the ATX 2.x standard. That is fine for a Turing card, but current RTX 50 and RX 9000 cards produce sharper short power spikes, which older designs can treat as a fault. If an upgrade is coming, plan the power supply with it."
+      ]
+    },
+    {
+      "h": "What PSU Do You Need to Upgrade From an RTX 2080 to an RTX 50 Card?",
+      "body": [
+        "It depends on which card you buy. For an RTX 5070, 650 W meets NVIDIA's recommendation, so a good existing unit may be enough. For an RTX 5070 Ti, NVIDIA asks for 750 W. For an RTX 5080, it is 850 W. The table maps the likely upgrades to the picks on this page.",
+        "RTX 50 cards also use the 16-pin connector. NVIDIA's Founders Edition cards include an adapter that combines several 8-pin cables, but a native cable from an ATX 3.x unit is neater and removes the extra joints. Most RX 9070 XT and RX 9070 cards still use 8-pin connectors, so an AMD upgrade is more forgiving of an older power supply. Our [PSU calculator](/tools/psu-calculator/) will check your exact combination."
+      ],
+      "table": {
+        "caption": "Upgrade targets from an RTX 2080 or 2080 Ti",
+        "head": ["Upgrade card", "Board power", "NVIDIA recommendation", "Picks that fit"],
+        "rows": [
+          ["RTX 5060 Ti 16GB", "180 W", "Check the card maker's page", "Any pick here"],
+          ["RTX 5070", "250 W", "650 W", "Any pick here"],
+          ["RX 9070 XT", "304 W", "Check the card maker's page", "Any pick; 850 W with a hot CPU"],
+          ["RTX 5070 Ti", "300 W", "750 W", "Any pick here"],
+          ["RTX 5080", "360 W", "850 W", "RM850x, Focus GX-850, Century II"],
+          ["RTX 5090", "575 W", "1,000 W", "RM1000x (see notable mentions)"]
+        ]
+      }
+    },
+    {
+      "h": "Will a New ATX 3.1 Power Supply Work in an Older PC?",
+      "body": [
+        "Yes. ATX 3.x power supplies are backward compatible with older motherboards and cards. They use the same 24-pin motherboard connector, the same 8-pin (4+4) EPS CPU connector, and the same 6+2-pin PCIe and SATA connectors that a Z390, X470 or B450 build expects.",
+        "The 12V-2x6 or 12VHPWR cable simply stays in the box until you buy a card that uses it. Because all the picks here are fully modular, an unused cable does not clutter the case.",
+        "Two practical checks: measure the space for the power supply if your case is small, since some 850 W units are longer than older 550–650 W units, and take a photo of your current wiring before you remove the old unit. Do not reuse any modular cables from the old power supply, even if they appear to fit."
+      ]
+    },
+    {
+      "h": "Should You Upgrade the Power Supply or the Whole PC?",
+      "body": [
+        "If your RTX 2080 still runs your games the way you want, a new power supply is a sensible, low-risk repair. The GPU is not the whole story, though. Turing cards support DLSS upscaling, including NVIDIA's newer transformer model for super resolution, but not DLSS Frame Generation, which needs an RTX 40 or RTX 50 card. The RTX 2080's 8 GB of memory is also tight for some current games at high settings; the 2080 Ti's 11 GB holds up better.",
+        "The rest of a 2018 system matters too. A Core i7-9700K, Core i9-9900K or Ryzen 7 2700X can hold back a much faster GPU, and Z390, B450 and X470 boards run PCIe 3.0. Cards with a full x16 link lose little on PCIe 3.0, while x8 cards like the RTX 5060 Ti can lose a bit more.",
+        "If you are planning a broader upgrade, buy the power supply first and carry it into the new build. That is exactly why the picks here look past Turing. See our [best graphics card](/best-graphics-card/) guide when you are ready for the GPU."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Running both 8-pins from one cable", "A single pigtail cable feeding both sockets on a 2080 Ti concentrates the current on one lead. It often works, but two separate cables run cooler and leave more margin, especially on an overclocked partner card. Every pick here has enough cables to do it properly."],
+    ["Buying exactly 650 W in 2026", "A 650 W unit runs a 2080 Ti fine, but it caps your upgrade at an RTX 5070. Spending a little more on 750 W or 850 W means the power supply is already sorted for an RTX 5070 Ti or RTX 5080."],
+    ["Reusing old modular cables", "Cables from your 2018 power supply may plug into the new one, but the pinouts on the power supply end are not standardized. A mismatched cable can kill a drive or motherboard instantly. Use only the new unit's cables."],
+    ["Ignoring an expired warranty", "An eight-year-old power supply that still turns on is not necessarily healthy. If it is out of warranty and you are spending money on the PC anyway, replacing it is cheap insurance for the parts it feeds."],
+    ["Using an adapter for an RTX 50 upgrade", "Keeping an old power supply and using NVIDIA's 8-pin adapter on a new card works, but adds bulk and extra connections. If you are replacing the power supply anyway, buy one with a native 16-pin cable."]
+  ],
+  "bottomLine": "For an RTX 2080 or 2080 Ti in 2026, buy the Corsair RM850x if you plan to move to an RTX 5080, or the Corsair RM750e if your next card will be an RTX 5070 Ti or smaller. Both ship with separate 6+2-pin cables for your current card and a native 12V-2x6 cable for RTX 50. If you only need to replace a dying unit cheaply, the MSI MAG A750GL PCIE5 does the job for under $100.",
+  "faqs": [
+    {
+      "q": "What PSU do I need for an RTX 2080?",
+      "a": "NVIDIA recommends a 650 W power supply for the RTX 2080. The card is rated at 215 W, or 225 W for the Founders Edition, and uses one 8-pin plus one 6-pin connector on the Founders Edition. A 750 W Gold unit like the Corsair RM750e gives you margin and room for an RTX 50 upgrade."
+    },
+    {
+      "q": "Is 650 W enough for an RTX 2080 Ti?",
+      "a": "Yes, 650 W is enough for an RTX 2080 Ti, and it is NVIDIA's recommendation. The card is rated at 250 W, or 260 W for the Founders Edition. Choose a quality unit with two separate 8-pin PCIe cables. If you plan a GPU upgrade, 750–850 W is the better buy."
+    },
+    {
+      "q": "Does the RTX 2080 Ti need two separate PCIe cables?",
+      "a": "Separate cables are recommended for the RTX 2080 Ti, though not strictly required on a quality power supply. The card has two 8-pin sockets. Using one cable per socket spreads the load and runs the wires cooler, which matters more on factory-overclocked partner cards."
+    },
+    {
+      "q": "Can I use a new ATX 3.1 PSU with an RTX 2080?",
+      "a": "Yes, an ATX 3.1 power supply works with an RTX 2080 or 2080 Ti. It has the same 6+2-pin PCIe cables older cards use, plus a 16-pin cable for newer cards. The motherboard and CPU connectors are also unchanged."
+    },
+    {
+      "q": "What PSU do I need to upgrade from an RTX 2080 Ti to an RTX 5080?",
+      "a": "NVIDIA recommends an 850 W power supply for the RTX 5080. The Corsair RM850x, Seasonic Focus GX-850 and Montech Century II 850W all meet that and include a native 16-pin cable. A 750 W unit falls short of NVIDIA's guidance for that card."
+    },
+    {
+      "q": "Will my old power supply work with an RTX 5070?",
+      "a": "It may, if it is a quality 650 W or larger unit in good health. NVIDIA recommends 650 W for the RTX 5070, and its Founders Edition includes an 8-pin to 16-pin adapter. An older ATX 2.x unit is more likely to trip on short power spikes, so replace it if it is near the end of its warranty."
+    },
+    {
+      "q": "How old is too old for a power supply?",
+      "a": "A power supply past its warranty period is a good candidate for replacement, especially if you are upgrading the GPU. Units bought alongside an RTX 2080 in 2018 or 2019 are now seven or eight years old. Any shutdowns, grinding fans or burning smells mean replace it now."
+    }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 2080, RTX 2080 Super and RTX 2080 Ti specification pages",
+    "NVIDIA GeForce RTX 50 series specification pages and power recommendations",
+    "PCI-SIG PCIe connector power ratings",
+    "Corsair RM850x, RM750e and RM1000x product pages",
+    "Seasonic, be quiet!, MSI and Montech product pages for the listed units",
+    "Intel ATX 3.x power supply design guides",
+    "Published independent PSU reviews and owner reports"
+  ],
+  "related": ["best-power-supply", "best-psu-under-100", "best-graphics-card"]
+}

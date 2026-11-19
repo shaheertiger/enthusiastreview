@@ -1,71 +1,127 @@
 ---
 import Base from '../layouts/Base.astro';
-import Card from '../components/Card.astro';
-import { PAGES, pageByPath, pagesIn, byCategory, pathOf, type Page } from '../lib/content';
+import Score from '../components/Score.astro';
+import CatIcon from '../components/CatIcon.astro';
 import { SITE } from '../data/site';
-const pick = (paths: string[]) => paths.map((p) => pageByPath(p)).filter(Boolean) as Page[];
-const featured = pick(['/best/best-dehumidifier/'])[0] ?? PAGES[0];
-const side = pick(['/best/best-dehumidifier-for-basement/', '/best/best-crawl-space-dehumidifier/', '/best/best-whole-house-dehumidifier/', '/best/best-small-dehumidifier/']);
-const rooms = pick(['/best/best-dehumidifier-for-bedroom/', '/best/best-dehumidifier-for-bathroom/', '/best/best-dehumidifier-for-garage/', '/best/best-dehumidifier-for-laundry-room/', '/best/best-dehumidifier-for-apartment/', '/best/best-dehumidifier-for-finished-basement/', '/best/best-dehumidifier-for-wood-floors/', '/best/best-rv-dehumidifier/']);
-const latest = [...PAGES].sort((a, b) => b.updated.localeCompare(a.updated) || b.published.localeCompare(a.published)).filter((p) => p !== featured && !side.includes(p)).slice(0, 8);
-const groups = byCategory(PAGES);
-const brands = PAGES.filter((p) => p.category === 'Brands');
-const guides = pagesIn('guides');
-const compare = pagesIn('compare');
+import { CATEGORIES } from '../data/categories';
+import { PRODUCTS, GUIDES, COMPARES, BRANDS, getGuide, getProduct, mustProduct, guidePath, productPath, comparePath, priceBand, categoryOf, getBrand, guideUpdated, inline } from '../lib/data';
+const hero = getGuide('best-graphics-card');
+const heroPick = hero ? getProduct(hero.picks[0].id) : undefined;
+const top10 = [...PRODUCTS].sort((a, b) => b.score.overall - a.score.overall).slice(0, 10);
+const featured = CATEGORIES.map((c) => getGuide(c.hero)).filter((g) => g && !g.noindex);
+const latest = [...GUIDES].sort((a, b) => guideUpdated(b).localeCompare(guideUpdated(a)) || a.slug.localeCompare(b.slug)).filter((g) => !featured.includes(g)).slice(0, 6);
+const popular = COMPARES.slice(0, 8);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    { '@type': 'WebSite', name: SITE.name, url: `${SITE.url}/` },
-    { '@type': 'Organization', name: SITE.name, url: `${SITE.url}/`, logo: `${SITE.url}/favicon.svg`, email: SITE.email },
+    { '@type': 'WebSite', name: SITE.name, url: SITE.url, description: SITE.tagline },
+    { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: { '@type': 'ImageObject', url: `${SITE.url}/favicon.svg` }, email: SITE.email },
+    { '@type': 'ItemList', name: 'Best PC hardware guides', itemListElement: featured.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${guidePath(g!)}`, name: g!.h1 })) },
   ],
 };
 ---
-<Base title={`${SITE.name}: Dehumidifier Reviews, Buying Guides & Fixes`} description="Independent dehumidifier reviews and buying guides: the best picks for basements, crawl spaces, bedrooms and every major brand, plus sizing, settings and fixes." jsonLd={jsonLd}>
-  <div class="wrap">
-    <h1 class="home-h1">Dehumidifier Reviews, Buying Guides and Fixes</h1>
-    <section class="home-hero" aria-label="Featured">
-      <div class="lead"><Card page={featured} dek kicker="Editors' pick" /></div>
-      <div class="side">{side.map((p) => <Card page={p} />)}</div>
-    </section>
-
-    <h2 class="section-title">Pick by room</h2>
-    <div class="grid grid-4">{rooms.map((p) => <Card page={p} />)}</div>
-  </div>
-
-  <section class="band">
+<Base title={`${SITE.name}: Independent PC Hardware Reviews and Guides`} description={`Independent PC hardware reviews: ${PRODUCTS.length} GPUs, CPUs, coolers, PSUs, cases, RAM kits, motherboards and SSDs checked against the spec sheet. No paid placements.`} jsonLd={jsonLd}>
+  <section class="home-hero">
     <div class="wrap">
-      <h2>Not sure what size you need?</h2>
-      <p style="max-width:44rem">Most people buy too small. Start with our sizing chart, then dial in the right humidity setting so the machine cycles off instead of running all day.</p>
-      <div class="chips">
-        <a class="chip" href="/guides/dehumidifier-size-guide/">Size guide</a>
-        <a class="chip" href="/guides/dehumidifier-humidistat-settings-guide/">Humidity settings</a>
-        <a class="chip" href="/guides/where-to-place-a-dehumidifier/">Where to place it</a>
-        <a class="chip" href="/guides/how-much-electricity-does-a-dehumidifier-use/">Running costs</a>
-        <a class="chip" href="/guides/dehumidifier-not-working/">Troubleshooting</a>
-      </div>
+      <p class="kicker">PC hardware, researched</p>
+      <h1>Read the Spec Sheet. Build the Right PC.</h1>
+      <p class="hub-dek">We match every graphics card, CPU, cooler and power supply to the build it suits: resolution, platform, case and budget. {PRODUCTS.length} parts tracked, {GUIDES.length} best lists, {COMPARES.length} head-to-heads.</p>
+      <div class="hero-cta"><a class="buy" href="/best-of/">See every best list</a><a class="btn-ghost dark" href="/tools/bottleneck-calculator/">Bottleneck calculator</a></div>
     </div>
   </section>
 
   <div class="wrap">
-    <h2 class="section-title">Latest updates</h2>
-    <div class="grid grid-4">{latest.map((p) => <Card page={p} />)}</div>
+    {hero && heroPick && (
+      <section class="home-answer">
+        <h2>What Is the Best Graphics Card Right Now?</h2>
+        <p set:html={inline(hero.quickAnswer)} />
+        <p><a href={guidePath(hero)}>Read the full best graphics card guide →</a></p>
+      </section>
+    )}
 
-    <h2 class="section-title">Brands, ranked</h2>
-    <ul class="list-links">{brands.map((p) => <li><a href={pathOf(p)}>{p.navLabel ?? p.h1}</a></li>)}</ul>
+    <section>
+      <h2 class="section-title">Browse by Category</h2>
+      <div class="cat-grid">
+        {CATEGORIES.map((c) => (
+          <a class="cat-tile" href={`/${c.hero}/`}>
+            <CatIcon cat={c.key} size={48} />
+            <strong>{c.label}</strong>
+            <span>{c.blurb}</span>
+          </a>
+        ))}
+      </div>
+    </section>
 
-    <h2 class="section-title">Buying guides &amp; fixes</h2>
-    <div class="grid grid-4">{guides.slice(0, 8).map((p) => <Card page={p} />)}</div>
-    <p style="margin-top:1rem"><a class="btn-ghost" href="/guides/">All buying guides</a></p>
+    <section>
+      <h2 class="section-title">Best PC Hardware: Picks by Part and Budget</h2>
+      <div class="grid grid-4">
+        {featured.map((g) => {
+          const p = getProduct(g!.picks[0].id)!;
+          return (
+            <a class="card" href={guidePath(g!)}>
+              <span class="card-k">{categoryOf(g!.category).label}</span>
+              <h3>{g!.h1}</h3>
+              <span class="card-sub">Top pick: {p.short} · {p.score.overall}/100</span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
 
-    <h2 class="section-title">Head-to-head</h2>
-    <div class="grid grid-4">{compare.map((p) => <Card page={p} />)}</div>
+    <section>
+      <h2 class="section-title">The {PRODUCTS.length} Parts We Track: Top 10 by {SITE.score}</h2>
+      <div class="table-wrap">
+        <table class="tracked">
+          <thead><tr><th>#</th><th>Product</th><th>Category</th><th>Score</th><th>Price</th></tr></thead>
+          <tbody>{top10.map((p, i) => <tr><td>{i + 1}</td><td><a href={productPath(p)}>{p.name}</a></td><td>{categoryOf(p.category).label}</td><td><Score value={p.score.overall} /></td><td class="nowrap">{priceBand(p)}</td></tr>)}</tbody>
+        </table>
+      </div>
+      <p class="fine"><a href="/gear/">See all {PRODUCTS.length} parts →</a></p>
+    </section>
 
-    <h2 class="section-title">Browse everything</h2>
-    {groups.map((g) => (
-      <>
-        <h3 style="font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;margin:1.5rem 0 .5rem">{g.category}</h3>
-        <ul class="list-links">{g.pages.map((p) => <li><a href={pathOf(p)}>{p.navLabel ?? p.h1}</a></li>)}</ul>
-      </>
-    ))}
+    <section class="split">
+      <div>
+        <h2 class="section-title">Built on the Spec Sheet, Not the Marketing</h2>
+        <p>Every part on this site has a page with its full spec sheet, a research-based {SITE.score} out of 100 and a plain verdict: who it suits, who should skip it and what to buy instead. The score weighs specs against the price band and what owners report after months of use.</p>
+        <p>We do not run a test lab, and we say so on every page. Where performance matters we lean on the broad pattern of independent reviews, never a single cherry-picked chart. <a href="/how-we-review/">How we score</a>.</p>
+      </div>
+      <div>
+        <h2 class="section-title">How We're Different</h2>
+        <h3>We do the platform maths</h3>
+        <p>PCIe lanes on older boards, BIOS versions for new CPUs, cooler height against case clearance, connector types on power supplies: the things that stop a build from booting.</p>
+        <h3>Build first, product second</h3>
+        <p>We pick for the resolution, case and budget you actually have, so the best card for a Ryzen 5 3600 is not the best card for a 9800X3D.</p>
+        <h3>No paid placements</h3>
+        <p>Manufacturers never see a guide before it is published, and affiliate commissions never change a ranking.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Popular Comparisons</h2>
+      <ul class="vs-list">{popular.map((c) => { const a = mustProduct(c.a), b = mustProduct(c.b); return <li><a href={comparePath(c)}><strong>{a.short}</strong> vs <strong>{b.short}</strong></a><span>{a.score.overall} vs {b.score.overall}</span></li>; })}</ul>
+      <p class="fine"><a href="/compare/">All {COMPARES.length} comparisons →</a></p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Latest Guides and Brand Reviews</h2>
+      <div class="grid grid-3">
+        {latest.map((g) => <a class="card" href={guidePath(g)}><span class="card-k">{g.type === 'brand' ? 'Brand Review' : categoryOf(g.category).label}</span><h3>{g.h1}</h3><span class="card-sub">{g.picks.length} picks</span></a>)}
+      </div>
+    </section>
+
+    <section class="split">
+      <div>
+        <h2 class="section-title">Free Tools</h2>
+        <ul class="link-list">
+          <li><a href="/tools/bottleneck-calculator/">PC bottleneck calculator</a></li>
+          <li><a href="/tools/psu-calculator/">PSU wattage calculator</a></li>
+          <li><a href="/glossary/">PC hardware glossary</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="section-title">Brands</h2>
+        <p class="term-cloud">{BRANDS.map((b) => <a href={`/brands/${b.key}/`}>{b.name}</a>)}</p>
+      </div>
+    </section>
   </div>
 </Base>

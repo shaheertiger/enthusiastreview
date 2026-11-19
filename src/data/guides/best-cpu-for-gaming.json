@@ -1,0 +1,250 @@
+{
+  "slug": "best-cpu-for-gaming",
+  "type": "roundup",
+  "category": "processors",
+  "title": "Best CPU for Gaming (2026): 7 Processors Ranked, $170 to $700",
+  "h1": "Best CPU for Gaming",
+  "query": "best cpu for gaming",
+  "description": "The Ryzen 7 9800X3D is the best CPU for gaming: 8 cores and 96 MB of L3 cache for $450–$480. 7 processors ranked, from the $170 Ryzen 5 7600 to the 9950X3D.",
+  "dek": "Seven processors for every budget and platform, including the AM4 drop-in that still makes sense for older builds.",
+  "intro": [
+    "The AMD Ryzen 7 9800X3D is the best CPU for gaming in 2026. Its 8 cores and 96 MB of L3 cache give it the highest gaming averages in independent reviews, and at $450–$480 it costs far less than the 16-core chips it beats in games.",
+    "This guide is for anyone choosing a processor mainly to play games, from a $170 budget build to a no-compromise rig. Picks are matched to budget, graphics card tier and platform, including one for AM4 owners who want a big upgrade without a new motherboard."
+  ],
+  "quickAnswer": "The Ryzen 7 9800X3D ($450–$480) is the fastest gaming CPU you can buy. The Ryzen 7 7800X3D ($360–$420) is close behind while stock lasts. On a budget, the Ryzen 5 7600 ($170–$200) includes a cooler, and the Ryzen 5 9600X ($190–$230) is slightly quicker. AM4 owners should drop in a Ryzen 7 5700X3D ($200–$260) instead of rebuilding.",
+  "picks": [
+    {
+      "id": "ryzen-7-9800x3d",
+      "label": "Best Overall",
+      "bestFor": "high-refresh gaming with an RTX 5070 Ti class card or faster",
+      "skipIf": "you pair it with a budget GPU at 1440p or 4K",
+      "writeup": [
+        "The Ryzen 7 9800X3D tops this list for one reason: games love cache, and this chip has more of it per core than anything else on the market. Its 96 MB of L3 lets the processor keep game data close instead of fetching it from system memory, which smooths frame times and lifts averages, especially in simulation, strategy and large multiplayer games.",
+        "AMD also moved the 3D V-Cache layer under the compute die for this generation instead of on top of it. That puts the hot cores closer to the cooler, which allows higher clocks, up to 5.2 GHz, and full overclocking support. Independent reviews put it ahead of every other desktop CPU in gaming averages and around 10 percent ahead of the Ryzen 7 7800X3D at 1080p with a top-tier GPU.",
+        "Its 120 W TDP is easy to cool: a good dual-tower air cooler is enough, as our [cooler guide for the 9800X3D](/best-cpu-cooler-for-ryzen-7-9800x3d/) explains. It runs on AM5, which AMD has said it will support through at least 2027, so the board you buy now should take another CPU generation.",
+        "The case against it is balance. With a mid-range card at 1440p or 4K, the GPU sets the frame rate and a cheaper CPU delivers nearly the same result. Buy it when your graphics card is fast enough to need it."
+      ],
+      "pros": ["Highest gaming averages in reviews", "96 MB of L3 cache", "Easy to cool at 120 W", "AM5 upgrade path"],
+      "cons": ["Overkill with a mid-range GPU", "8 cores trail 16-core chips in heavy rendering"]
+    },
+    {
+      "id": "ryzen-7-7800x3d",
+      "label": "Best Value X3D",
+      "bestFor": "gamers who find it at least $60 below the 9800X3D",
+      "skipIf": "the 9800X3D is within $50 of it",
+      "writeup": [
+        "The Ryzen 7 7800X3D was the gaming champion before the 9800X3D arrived, and it remains the second-fastest gaming CPU on this list. It has the same 8 cores, 16 threads and 96 MB of L3 cache, boosts to 5.0 GHz and is rated at 120 W on AM5.",
+        "Because its cache sits on top of the compute die, it runs lower clocks and cannot be manually overclocked, which explains most of the gap to its successor. In practice that gap is modest: independent reviews show the 9800X3D around 10 percent faster on average with the fastest graphics cards, and the difference shrinks at 1440p and 4K or with anything below an RTX 5070 Ti class card.",
+        "That makes price the only real question. AMD has moved production to newer chips, and stock is thinning, with street prices between $360 and $420. When it sells $60 or more below the 9800X3D, it is the better value for most gaming builds. When the gap closes, buy the newer chip. Either way you get an AM5 board with years of support behind it and a CPU that runs cool on a mid-size air cooler."
+      ],
+      "pros": ["Second-fastest gaming CPU here", "96 MB of L3 cache", "Low power, easy to cool"],
+      "cons": ["Stock thinning, price varies", "No manual overclocking"]
+    },
+    {
+      "id": "ryzen-5-9600x",
+      "label": "Best Mid-Range",
+      "bestFor": "RTX 5070 or RX 9070 builds on a sensible budget",
+      "skipIf": "you can stretch to an X3D chip for high-refresh play",
+      "writeup": [
+        "The Ryzen 5 9600X is the quickest six-core gaming chip you can buy, and six cores remain enough for nearly every game in 2026. It runs the Zen 5 architecture, boosts to 5.4 GHz and has 32 MB of L3 cache, all at a 65 W TDP on AM5.",
+        "For a 1440p build with an RTX 5070 or RX 9070 XT, it is the CPU tier where spending more starts to bring smaller returns. Most games at that resolution lean on the GPU, so the gap between this chip and an X3D part narrows considerably compared with 1080p charts. AMD later added a 105 W mode through BIOS updates, which helps multi-threaded work more than games.",
+        "Against the Ryzen 5 7600, independent reviews show it only a few percent faster in games, and it does not include a cooler. That makes the decision about price. When the gap between the two is $30 or less, the 9600X is the better long-term choice. When the 7600 is much cheaper, take it and put the difference toward the graphics card. Either way, budget for DDR5-6000 memory, which suits both chips."
+      ],
+      "pros": ["Fastest six-core for gaming", "65 W, cool and efficient", "Same AM5 upgrade path as X3D chips"],
+      "cons": ["Only slightly faster than the 7600", "No cooler included"]
+    },
+    {
+      "id": "ryzen-5-7600",
+      "label": "Best Budget Gaming CPU",
+      "bestFor": "budget AM5 builds with an RX 9060 XT or RTX 5060 Ti",
+      "skipIf": "you want top frame rates in CPU-heavy games",
+      "writeup": [
+        "The Ryzen 5 7600 is the cheapest way onto AM5, and it is good enough that most budget gamers will not need anything faster for years. At $170–$200 it gives you 6 cores, 12 threads, a 5.1 GHz boost and 32 MB of L3 cache at 65 W.",
+        "It is also the only chip on this list that includes a cooler. AMD's Wraith Stealth keeps it within spec for gaming, though a $20 tower cooler is quieter under sustained load. That bundled cooler and the low price make the total platform cost noticeably lower than the 9600X, especially while DDR5 prices remain elevated after the late-2025 memory price surge.",
+        "Paired with an RX 9060 XT 16GB, RTX 5060 Ti 16GB or even an RTX 5070 at 1440p, the 7600 is rarely the limiting factor. Its value goes further because of the platform. A budget B650 board and this CPU today can take a Ryzen 7 9800X3D or a later AM5 chip down the road, turning a budget build into a high-end one with a single swap.",
+        "It has integrated Radeon graphics too, which is handy for troubleshooting or for running the PC before your graphics card arrives."
+      ],
+      "pros": ["Lowest price on AM5", "Wraith Stealth cooler included", "Integrated graphics for troubleshooting", "Drop-in path to X3D chips"],
+      "cons": ["Behind X3D chips in CPU-heavy games", "Stock cooler is audible under load"]
+    },
+    {
+      "id": "ryzen-9-9950x3d",
+      "label": "Best for Gaming and Work",
+      "bestFor": "gamers who also render, compile or edit 4K video",
+      "skipIf": "the PC is used only for games",
+      "writeup": [
+        "The Ryzen 9 9950X3D is the chip for people who want a single machine for gaming and heavy work. It has 16 cores, 32 threads, a 5.7 GHz boost and 128 MB of total L3 cache, rated at 170 W on AM5.",
+        "The cache layout explains how it behaves. Only one of its two eight-core dies carries the extra 3D V-Cache. In games, AMD's chipset driver and Windows steer threads onto that die, so it performs much like a 9800X3D, with independent reviews showing the two close in gaming averages. In rendering, compiling and video export, all 16 cores run flat out and it leaves the 8-core chip far behind.",
+        "At $650–$700 it is poor value for gaming alone, since the 9800X3D gives nearly the same frame rates for about $200 less. It also needs more cooling: a high-end dual-tower air cooler or a 360 mm liquid cooler such as the [Arctic Liquid Freezer III Pro 360](/gear/arctic-liquid-freezer-iii-pro-360/) is sensible. Keep Windows and the AMD chipset driver up to date, because the core-steering depends on them. For a creator who games after hours, nothing else here does both jobs as well."
+      ],
+      "pros": ["Gaming close to the 9800X3D", "16 cores for heavy workloads", "128 MB of total L3"],
+      "cons": ["$200 premium over the 9800X3D for games", "Needs strong cooling at 170 W", "Relies on driver core-steering"]
+    },
+    {
+      "id": "core-ultra-7-265k",
+      "label": "Best Intel Option",
+      "bestFor": "mixed gaming and productivity builds under $300",
+      "skipIf": "you want the highest frame rates or a long upgrade path",
+      "writeup": [
+        "The Core Ultra 7 265K is Intel's best case for a gaming build in 2026, and the argument is value for multi-threaded work rather than raw frame rates. It has 20 cores, 8 performance and 12 efficient, a 5.5 GHz boost and 30 MB of cache on LGA 1851, rated at 125 W base and 250 W maximum turbo.",
+        "In games it trails AMD's X3D chips clearly in independent reviews, and lands closer to the Ryzen 7 9700X than to the 9800X3D. Intel shipped firmware and software updates after launch that improved some results, but it did not close the X3D gap. Where it shines is productivity: in rendering, code compilation and video encoding it competes with far pricier chips, and at $260–$300 it is an excellent all-round processor.",
+        "The platform is the bigger concern. LGA 1851 is widely expected to be a short-lived socket, so buying into it now offers less upgrade headroom than AM5. Its peak power is also high, so plan a capable dual-tower cooler such as the [Thermalright Phantom Spirit 120 SE](/gear/thermalright-phantom-spirit-120-se/). Choose it if your PC earns money during the day and plays games at night, and your budget stops under $300."
+      ],
+      "pros": ["Strong multi-thread performance for $260–$300", "20 cores", "Good efficiency at idle and light loads"],
+      "cons": ["Clearly behind X3D chips in games", "Limited upgrade path on LGA 1851", "High peak power"]
+    },
+    {
+      "id": "ryzen-7-5700x3d",
+      "label": "Best AM4 Upgrade",
+      "bestFor": "AM4 owners with a Ryzen 5 2600, 3600 or 5600",
+      "skipIf": "you are building a new PC from scratch",
+      "writeup": [
+        "The Ryzen 7 5700X3D is the only AM4 chip on this list, and it is here because millions of people still own AM4 systems. It has 8 cores, 16 threads and 96 MB of L3 cache, boosts to 4.1 GHz and is rated at 105 W. Best of all, it slots into many B450, B550 and X570 boards once the BIOS is updated, and keeps your existing DDR4 memory.",
+        "For an owner of a Ryzen 5 2600 or 3600, the jump is large. Its cache helps most in the strategy, simulation and big-multiplayer titles that older six-core Ryzen parts find hardest, and the upgrade costs $200–$260 instead of the price of a new CPU, AM5 motherboard and DDR5 kit. With DDR5 prices volatile since late 2025, that saving is larger than it was a year ago.",
+        "It is not a new-build CPU. AM4 has no future upgrades, the chip is locked for overclocking and availability varies by region. It also ships without a cooler, so add a tower cooler if you are replacing a chip that came with one. Our [GPU guide for Ryzen 5 2600 and 3600 owners](/best-gpu-for-ryzen-5-2600-and-3600/) explains how to pair it with a new graphics card."
+      ],
+      "pros": ["Drop-in for many AM4 boards", "96 MB of L3 cache", "Keeps your DDR4 and motherboard"],
+      "cons": ["Dead-end platform", "No cooler, locked for overclocking", "Availability varies"]
+    }
+  ],
+  "tableSpecs": ["Cores / threads", "Boost clock", "L3 cache", "TDP", "Socket"],
+  "ranking": {
+    "intro": "These rankings are drawn from AMD and Intel specifications, independent CPU reviews from established outlets and long-term owner reports. We have not run any of these processors on a test bench ourselves. Relative gaming performance reflects the consensus of published reviews, Prices quoted are USD street bands and shift often.",
+    "criteria": [
+      ["Gaming performance", "Where each chip lands in independent reviews' gaming averages, with weight on 1 percent lows and CPU-heavy titles."],
+      ["Value for a gaming build", "Price of the CPU plus the motherboard and memory it needs, not the chip alone."],
+      ["Platform longevity", "How many future CPU generations the socket is likely to support."],
+      ["Cooling and power", "TDP and peak power, and how much cooler each chip needs to run at full speed."],
+      ["Multi-thread ability", "Secondary weight for streaming, rendering and other work beyond games."]
+    ],
+    "why": "The Ryzen 7 9800X3D won because it leads every major gaming average at a 120 W TDP and a sub-$500 price, on a platform with years of support ahead."
+  },
+  "mentions": [
+    {
+      "id": "ryzen-7-9700x",
+      "text": "The Ryzen 7 9700X adds two cores over the 9600X at $290–$330 and gains a 105 W mode through BIOS updates. For pure gaming it is barely faster than the six-core chip, and the 7800X3D or 9800X3D are much faster for a little more money, so it falls between two better choices."
+    },
+    {
+      "id": "core-ultra-5-245k",
+      "text": "The Core Ultra 5 245K offers 14 cores for $200–$230 and solid multi-thread performance. In games it trails the Ryzen 5 9600X and Ryzen 5 7600 in independent reviews, and LGA 1851's limited upgrade path weighs against it. It suits budget productivity builds more than gaming ones."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Which Gaming CPU Should You Buy for Your Budget?",
+      "body": [
+        "Start with the graphics card, then match the CPU to it. A $1,000 GPU deserves an X3D chip; a $350 GPU does not. The table below pairs each budget with a CPU and the GPU tier it suits, using 2026 street prices.",
+        "Remember the platform cost. AM5 chips need a DDR5 motherboard and memory, and DDR5 prices jumped after late 2025, so a 32 GB kit can cost much more than it did a year earlier. AM4 upgrades avoid that entirely."
+      ],
+      "table": {
+        "caption": "Gaming CPU by budget, 2026 street prices",
+        "head": ["CPU budget", "Buy", "Platform", "Suits a GPU like"],
+        "rows": [
+          ["$170–$200", "Ryzen 5 7600", "AM5, DDR5", "RX 9060 XT 16GB, RTX 5060 Ti 16GB"],
+          ["$190–$230", "Ryzen 5 9600X", "AM5, DDR5", "RTX 5070, RX 9070"],
+          ["$200–$260", "Ryzen 7 5700X3D", "AM4, DDR4 (upgrade only)", "RX 9070, RTX 5070"],
+          ["$260–$300", "Core Ultra 7 265K", "LGA 1851, DDR5", "RTX 5070, RX 9070 XT"],
+          ["$360–$420", "Ryzen 7 7800X3D", "AM5, DDR5", "RX 9070 XT, RTX 5070 Ti"],
+          ["$450–$480", "Ryzen 7 9800X3D", "AM5, DDR5", "RTX 5070 Ti, RTX 5080, RTX 5090"],
+          ["$650–$700", "Ryzen 9 9950X3D", "AM5, DDR5", "RTX 5080, RTX 5090 with work on the side"]
+        ]
+      }
+    },
+    {
+      "h": "Why Are AMD X3D Processors So Good for Gaming?",
+      "body": [
+        "Because games are unusually sensitive to memory latency, and X3D chips hide most of it with a huge cache. Every frame, a game updates physics, AI, animation and draw calls, touching data scattered across memory. Fetching that data from DDR5 takes far longer than reading it from on-chip cache. AMD's 3D V-Cache stacks an extra 64 MB of cache onto the chip, tripling the L3 to 96 MB on eight-core models.",
+        "With more of the game's working set fitting on the chip, the cores spend less time waiting. The effect is largest in simulation, strategy and open-world games, and in 1 percent lows, which is why X3D chips often feel smoother than their average frame rates suggest. Productivity software benefits far less, which is why non-X3D chips with similar core counts match or beat them outside games."
+      ]
+    },
+    {
+      "h": "How Many CPU Cores Do You Need for Gaming in 2026?",
+      "body": [
+        "Six fast cores are enough for nearly every game, and eight are the comfortable target. Most game engines still lean on a few main threads, so per-core speed and cache matter more than core count. That is why the 8-core 9800X3D beats 16-core and 20-core chips in games.",
+        "More cores help when you game and do something else at once: streaming with CPU encoding, running a voice chat and browser alongside a demanding game, or compiling code between matches. If streaming is part of the plan, an eight-core chip gives useful headroom, though GPU encoders such as NVENC and AMD's media engine now take most of that load off the processor."
+      ],
+      "list": [
+        "6 cores: fine for gaming in 2026, ideal for budget builds.",
+        "8 cores: the sweet spot for high-refresh gaming and light multitasking.",
+        "12 to 16 cores: only worth it for rendering, encoding or heavy work alongside gaming."
+      ]
+    },
+    {
+      "h": "Does the CPU Matter for Gaming at 1440p and 4K?",
+      "body": [
+        "Less than at 1080p, but it never stops mattering. At higher resolutions the graphics card takes longer to draw each frame, so it usually sets the frame rate and the gap between CPUs narrows. Reviewers run CPU tests at 1080p with the fastest GPU precisely to remove that GPU limit and show the true differences between processors.",
+        "Two cases keep the CPU important at 1440p and 4K. The first is CPU-heavy games, such as large multiplayer battles, strategy titles and simulators, where the processor sets the ceiling at any resolution. The second is upscaling: DLSS and FSR render at a lower internal resolution, which shifts the load back toward the CPU. A 4K gamer using DLSS Performance is effectively rendering near 1080p.",
+        "If you want to check your own balance, try our [bottleneck calculator](/tools/bottleneck-calculator/), then read the [best graphics card for 1440p](/best-graphics-card-for-1440p/) guide for GPU pairings."
+      ]
+    },
+    {
+      "h": "AM5 or Intel LGA 1851: Which Platform Lasts Longer?",
+      "body": [
+        "AM5 has the clearer future. AMD launched it in 2022 and has said it will support the socket through at least 2027, and it has already hosted three generations of Ryzen desktop chips. A B650 board bought today with a Ryzen 5 7600 can later take a 9800X3D or a newer AM5 processor after a BIOS update.",
+        "Intel's LGA 1851 launched in 2024 with the Core Ultra 200S series, and it is widely expected to be a short-lived socket. That does not make the 265K a bad chip, but it means you should buy it for what it does today rather than for what the board might run later. If upgrade headroom matters, AM5 is the safer platform; our [best AM5 motherboard](/best-am5-motherboard/) guide covers board choices."
+      ]
+    },
+    {
+      "h": "Is It Worth Upgrading From AM4 to AM5 for Gaming?",
+      "body": [
+        "Not always. A move to AM5 means a new CPU, motherboard and DDR5 memory, and with DDR5 prices volatile since late 2025, the total can be two to three times the cost of a Ryzen 7 5700X3D drop-in. For many AM4 owners the 5700X3D delivers most of the gaming benefit for a fraction of the money.",
+        "AM5 makes more sense if your AM4 board is too old to support the 5700X3D, if you need PCIe 5.0 or USB4, or if you want a platform that takes future CPUs. It also makes sense if you already own a fast GPU like an RTX 5080, where a 9800X3D extracts noticeably more performance than any AM4 chip."
+      ]
+    },
+    {
+      "h": "What Cooler and Memory Does a Gaming CPU Need?",
+      "body": [
+        "Less cooling than most people buy, and faster memory than most prebuilts ship with. The 65 W Ryzen 5 chips run happily on a $20–$25 single-tower cooler. The 120 W X3D chips are well served by a $35–$45 dual tower such as the [Thermalright Peerless Assassin 120 SE](/gear/thermalright-peerless-assassin-120-se/). Only the 9950X3D and the Core Ultra 7 265K under full load justify a premium air cooler or a 360 mm AIO.",
+        "For memory, 32 GB of DDR5-6000 CL30 is the sweet spot for AM5, matching the memory controller's preferred ratio. Prices have swung widely since late 2025, so compare a few kits before buying. On AM4, DDR4-3200 to 3600 CL16 remains ideal for the 5700X3D. Our [best RAM for gaming](/best-ram-for-gaming/) guide lists kits that work."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying a 16-core chip just for games", "The Ryzen 9 9950X3D and other high-core chips cost hundreds more without raising frame rates over the 9800X3D. Unless you render, compile or encode regularly, put that money toward a faster graphics card, which affects gaming far more at any resolution above 1080p."],
+    ["Pairing a flagship CPU with a budget GPU", "A 9800X3D with an RTX 5060 at 1440p wastes most of its advantage, because the graphics card sets the frame rate. Match the tiers: a Ryzen 5 7600 or 9600X suits budget and mid-range cards perfectly well, and the savings buy a better GPU."],
+    ["Skipping the BIOS update", "New AM5 and AM4 chips often need a recent BIOS. Buy a board with a flashback button, or confirm the board ships with a compatible version. For AM4 drop-ins, update while the old CPU is still installed, and never interrupt a flash in progress."],
+    ["Leaving memory at default speed", "DDR5 kits boot at a slow default until you enable EXPO or XMP in the BIOS. Running DDR5-6000 at 4800 costs real frame rates, especially on non-X3D chips. Enable the profile and confirm the speed in Task Manager or CPU-Z afterward."],
+    ["Ignoring total platform cost", "A cheap CPU on an expensive platform is not a bargain. Add up the processor, motherboard and memory. With DDR5 prices elevated, an AM4 drop-in or the Ryzen 5 7600 with a budget board can be the smarter buy than a pricier chip on a premium board."]
+  ],
+  "bottomLine": "The Ryzen 7 9800X3D is the best gaming CPU in 2026, with the highest frame rates in independent reviews, a 120 W TDP that is easy to cool and a long AM5 future. Buy the 7800X3D if it is clearly cheaper, the Ryzen 5 9600X or 7600 for mid-range and budget builds, and the 9950X3D only if you also do heavy work. AM4 owners should drop in a 5700X3D before spending on a new platform.",
+  "faqs": [
+    {
+      "q": "What is the best CPU for gaming right now?",
+      "a": "The AMD Ryzen 7 9800X3D is the best gaming CPU right now. It leads independent reviews' gaming averages thanks to 96 MB of L3 cache, runs at a manageable 120 W and costs $450–$480. The Ryzen 7 7800X3D is close behind and often cheaper while stock lasts."
+    },
+    {
+      "q": "Is the Ryzen 7 9800X3D worth it over the 7800X3D?",
+      "a": "Yes, if the price gap is under about $50. Independent reviews show the 9800X3D around 10 percent faster on average with a top GPU, and it supports overclocking. If the 7800X3D sells for $60 or more less, it is the better value for most builds."
+    },
+    {
+      "q": "Is Intel or AMD better for gaming in 2026?",
+      "a": "AMD is better for gaming in 2026. Its X3D chips lead every major gaming average, and AM5 has a clearer upgrade path. Intel's Core Ultra 7 265K is competitive for productivity and good value under $300, but it trails AMD's X3D processors in games."
+    },
+    {
+      "q": "What is the best budget CPU for gaming?",
+      "a": "The Ryzen 5 7600 is the best budget gaming CPU. It costs $170–$200, includes a Wraith Stealth cooler, and handles mid-range graphics cards without holding them back. It also sits on AM5, so you can upgrade to an X3D chip later without changing the motherboard."
+    },
+    {
+      "q": "Is 6 cores enough for gaming in 2026?",
+      "a": "Yes. Six modern cores, like those in the Ryzen 5 7600 or 9600X, run nearly every game well. Eight cores help in a few CPU-heavy titles and when streaming or multitasking, but per-core speed and cache matter more than core count for frame rates."
+    },
+    {
+      "q": "Should I upgrade to a Ryzen 7 5700X3D or switch to AM5?",
+      "a": "Upgrade to the 5700X3D if your AM4 board supports it and you want the most gaming gain for the least money. It costs $200–$260 and keeps your board and DDR4. Switch to AM5 if your board is unsupported or you want a long upgrade path."
+    },
+    {
+      "q": "Does the CPU affect FPS at 4K?",
+      "a": "Somewhat. At native 4K the graphics card usually sets the frame rate, so CPU differences shrink. With DLSS or FSR upscaling, though, the game renders at a lower internal resolution, and a faster CPU again raises frame rates, especially in CPU-heavy games."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 9000 and Ryzen 7000 series product specifications",
+    "AMD Ryzen 7 5700X3D product page and AM4 support lists",
+    "Intel Core Ultra 200S series product specifications",
+    "AMD statements on AM5 socket support through 2027",
+    "Independent CPU gaming reviews from TechPowerUp, Hardware Unboxed, Gamers Nexus and Tom's Hardware",
+    "Owner reports on cooling and BIOS updates from enthusiast forums",
+    "Retail price tracking for DDR5 and DDR4 memory, late 2025 to 2026"
+  ],
+  "related": ["best-cpu-cooler-for-ryzen-7-9800x3d", "best-am5-motherboard", "best-ram-for-gaming"]
+}

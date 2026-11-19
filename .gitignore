@@ -4,5 +4,4 @@ node_modules/
 .vercel/
 .DS_Store
 .env
-scripts/image-match-report.json
 src/data/git-dates.json
