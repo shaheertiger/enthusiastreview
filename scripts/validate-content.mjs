@@ -166,6 +166,15 @@ for (const [k, b] of Object.entries(brands)) {
   if (b.review && !guideSlugs.has(b.review)) err(`brand ${k}`, `review "${b.review}" is not a guide`);
 }
 
+// ---- Amazon catalog (scripts/fetch-product-images.mjs) --------------------------------------
+const catalog = load('src/data/catalog.json', {});
+for (const [id, e] of Object.entries(catalog)) {
+  if (!byId.has(id)) warn(`catalog ${id}`, 'not a product id (stale entry)');
+  if (!/^[A-Z0-9]{10}$/.test(e.asin ?? '')) err(`catalog ${id}`, 'bad asin');
+  if (!/^https:\/\/m\.media-amazon\.com\//.test(e.image ?? '')) err(`catalog ${id}`, 'image must be an official m.media-amazon.com URL');
+}
+console.log(`validate: ${Object.keys(catalog).filter((id) => byId.has(id)).length} of ${products.length} products have a verified Amazon listing and photo`);
+
 // ---- report -------------------------------------------------------------------------------
 const featured = new Set(guides.flatMap((g) => (g.picks ?? []).map((p) => p.id)));
 const orphans = products.filter((p) => !featured.has(p.id));

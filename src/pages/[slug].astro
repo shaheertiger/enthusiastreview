@@ -5,6 +5,7 @@ import Crumbs from '../components/Crumbs.astro';
 import Score from '../components/Score.astro';
 import BuyButton from '../components/BuyButton.astro';
 import CatIcon from '../components/CatIcon.astro';
+import ProductImage from '../components/ProductImage.astro';
 import FaqList from '../components/FaqList.astro';
 import { SITE } from '../data/site';
 import { getAuthor, authorSchema } from '../data/authors';
@@ -93,7 +94,7 @@ const jsonLd = {
       '@type': 'ItemList',
       name: g.h1,
       numberOfItems: picks.length,
-      itemListElement: picks.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.p.name, url: `${SITE.url}${productPath(x.p)}` })),
+      itemListElement: picks.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.p.name, url: `${SITE.url}${productPath(x.p)}`, ...(x.p.image ? { image: x.p.image } : {}) })),
     },
     {
       '@type': 'FAQPage',
@@ -102,7 +103,7 @@ const jsonLd = {
   ],
 };
 ---
-<Base title={g.title} description={g.description} ogType="article" article={{ published, modified: updated, section: cat.label }} jsonLd={jsonLd} noindex={g.noindex}>
+<Base title={g.title} description={g.description} ogImage={top.p.image} ogType="article" article={{ published, modified: updated, section: cat.label }} jsonLd={jsonLd} noindex={g.noindex}>
   <article class="article">
     <header class="a-head col">
       <Crumbs items={crumbs} />
@@ -127,8 +128,9 @@ const jsonLd = {
         <p class="mini">Shortlist: which pick suits you</p>
         <ol>
           {picks.map((x, i) => (
-            <li>
+            <li class={x.p.image ? 'has-thumb' : undefined}>
               <span class="sl-n">{i + 1}</span>
+              {x.p.image && <ProductImage p={x.p} size={52} class="sl-thumb" />}
               <div class="sl-main">
                 <div class="sl-label">{x.label}</div>
                 <a class="sl-name" href={`#${pickAnchor(x.id)}`}>{x.p.name}</a>
@@ -190,7 +192,7 @@ const jsonLd = {
       {picks.map((x, i) => (
         <section class="pick" id={pickAnchor(x.id)}>
           <div class="pick-head">
-            <CatIcon cat={x.p.category} size={64} />
+            <ProductImage p={x.p} size={96} buy />
             <div>
               <div class="pick-label">{x.label}</div>
               <h3>{i + 1}. {x.p.name}</h3>
@@ -318,7 +320,7 @@ const jsonLd = {
           const rp = getProduct(r.picks[0]?.id);
           return (
             <a class="card" href={guidePath(r)}>
-              <CatIcon cat={r.category} size={44} />
+              {rp ? <ProductImage p={rp} size={72} /> : <CatIcon cat={r.category} size={44} />}
               <span class="card-k">{r.type === 'brand' ? 'Brand Review' : categoryOf(r.category).label}</span>
               <h3>{r.h1}</h3>
               {rp && <span class="card-sub">Top pick: {rp.short}</span>}

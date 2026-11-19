@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
 import CatIcon from '../../components/CatIcon.astro';
+import ProductImage from '../../components/ProductImage.astro';
 import { SITE } from '../../data/site';
 import { CATEGORIES } from '../../data/categories';
 import { PRODUCTS, productsIn, getBrand, productPath, priceBand } from '../../lib/data';
@@ -30,7 +31,7 @@ const jsonLd = {
               <thead><tr><th>#</th><th>Product</th><th>Brand</th><th>Key spec</th><th>Score</th><th>Price</th></tr></thead>
               <tbody>
                 {list.map((p, i) => (
-                  <tr><td>{i + 1}</td><td><a href={productPath(p)}>{p.name}</a></td><td>{getBrand(p.brand).name}</td><td>{p.specs[0]?.[1]}</td><td>{p.score.overall}</td><td class="nowrap">{priceBand(p)}</td></tr>
+                  <tr><td>{i + 1}</td><td class="with-thumb"><ProductImage p={p} size={40} /><a href={productPath(p)}>{p.name}</a></td><td>{getBrand(p.brand).name}</td><td>{p.specs[0]?.[1]}</td><td>{p.score.overall}</td><td class="nowrap">{priceBand(p)}</td></tr>
                 ))}
               </tbody>
             </table>

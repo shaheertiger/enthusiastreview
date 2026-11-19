@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
 import CatIcon from '../../components/CatIcon.astro';
+import ProductImage from '../../components/ProductImage.astro';
 import { SITE } from '../../data/site';
 import { CATEGORIES } from '../../data/categories';
 import { GUIDES, getProduct, guidePath } from '../../lib/data';
@@ -29,7 +30,7 @@ const jsonLd = {
           <div class="grid grid-3">
             {list.map((g) => {
               const top = getProduct(g.picks[0]?.id);
-              return <a class="card" href={guidePath(g)}><span class="card-k">{c.label}</span><h3>{g.h1}</h3><span class="card-sub">{g.picks.length} picks{top && ` · Top: ${top.short}`}</span></a>;
+              return <a class="card" href={guidePath(g)}>{top && <ProductImage p={top} size={88} />}<span class="card-k">{c.label}</span><h3>{g.h1}</h3><span class="card-sub">{g.picks.length} picks{top && ` · Top: ${top.short}`}</span></a>;
             })}
           </div>
         </section>

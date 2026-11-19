@@ -44,6 +44,8 @@ Also `/about/`, `/how-we-review/`, `/disclosure/`, `/privacy/`, `/contact/`, `/a
 | `src/pages/compare/[pair].astro` | Comparison template. |
 | `src/data/categories.ts` | The eight categories, their hero guide and icon. |
 | `src/data/affiliate.ts` | `amazonLink()`: explicit URL → verified `asin` → tagged Amazon search. |
+| `src/data/catalog.json` | Verified Amazon listings (ASIN, photo, title), written by `npm run images:fetch`. |
+| `scripts/fetch-product-images.mjs`, `scripts/lib/match.mjs` | The Creators API fetcher and its per-product match rules. |
 | `scripts/validate-content.mjs` | Schema, ids, internal links, one-URL-per-search, no testing claims, lengths. |
 | `scripts/page-dates.mjs` | Real `updated` dates from git per content file. |
 | `scripts/build-markdown.mjs` | Markdown twins + `llms.txt`, `llms-full.txt`, `ai.txt` from the built HTML. |
@@ -58,7 +60,13 @@ Also `/about/`, `/how-we-review/`, `/disclosure/`, `/privacy/`, `/contact/`, `/a
   It is linked from both product pages, the hub and any guide that picks both.
 - **Add a guide:** copy a file in `src/data/guides/`, change `slug` (must match the file name). Run
   `npm run validate`: it refuses a second page that targets the same search.
-- **Direct product links:** set `"asin"` on a product only after checking the Amazon listing is the exact model.
+- **Product photos and direct links:** `npm run images:fetch` searches the Amazon Creators API (official
+  SDK in `vendor/creatorsapi-nodejs-sdk`) for every product without a listing and writes the ASIN, official
+  photo and listing title to `src/data/catalog.json`. Each product has a strict rule in `scripts/lib/match.mjs`
+  (words that must appear, sibling models that must not), so an RTX 5070 never matches a 5070 Ti listing.
+  `-- --verify` re-checks every stored ASIN, `-- --refresh` looks everything up again, `-- --only <id>` one
+  product. Unmatched products keep a tagged Amazon search link; see `scripts/image-match-report.json`.
+  Credentials: `AMAZON_CREATORS_CREDENTIAL_ID`/`_SECRET` (or `_CLIENT_ID`/`_SECRET`) and `AMAZON_CREATORS_PARTNER_TAG`.
 
 ## Honesty rules (enforced by the validator)
 

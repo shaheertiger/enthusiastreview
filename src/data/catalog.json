@@ -1,0 +1,392 @@
+{
+  "arctic-freezer-36": {
+    "asin": "B09VG6NBSJ",
+    "image": "https://m.media-amazon.com/images/I/41qj1razI1L._SL500_.jpg",
+    "title": "ARCTIC Freezer 36 - Single-Tower CPU Cooler with Push-Pull, Two Pressure-optimised 120 mm P Fans, Fluid Dynamic Bearing, 200–1800 RPM, 4 Heatpipes, incl. MX-6 Thermal Compound",
+    "checked": "2026-11-19"
+  },
+  "arctic-liquid-freezer-iii-pro-360": {
+    "asin": "B0DLWGG85P",
+    "image": "https://m.media-amazon.com/images/I/31NH2IXjCLL._SL500_.jpg",
+    "title": "ARCTIC Liquid Freezer III Pro 360 - AIO CPU Cooler,3 x 120 mm Water Cooling | Cooler For LGA1851, LGA1700, AM4, AM5.",
+    "checked": "2026-11-19"
+  },
+  "asrock-b850-steel-legend-wifi": {
+    "asin": "B0DRTTJ5D6",
+    "image": "https://m.media-amazon.com/images/I/41jz-ckjdqL._SL500_.jpg",
+    "title": "ASRock B850 Steel Legend WiFi AMD AM5 ATX Motherboard, Supports AMD Ryzen 9000/8000/7000 Series Processors, DDR5 8000+ (OC), PCIe 5.0, 2.5G LAN, WiFi 7, 14+2+1 Power Phase",
+    "checked": "2026-11-19"
+  },
+  "asus-rog-strix-x570-e-gaming": {
+    "asin": "B09GP7V2W5",
+    "image": "https://m.media-amazon.com/images/I/41HZxd12v2L._SL500_.jpg",
+    "title": "ASUS ROG Strix X570-E Gaming WiFi II AMD AM4 X570S ATX Gaming Motherboard (PCIe 4.0, Passive PCH Heatsink, 12+4 Power Stages, WiFi 6E, 2.5 Gb LAN,USB 3.2 Gen 2 Type C and Aura Sync RGB",
+    "checked": "2026-11-19"
+  },
+  "asus-tuf-gaming-b650-plus-wifi": {
+    "asin": "B0BHN7GGBQ",
+    "image": "https://m.media-amazon.com/images/I/41scqVucSuL._SL500_.jpg",
+    "title": "ASUS TUF Gaming B650-PLUS WiFi AMD B650 AM5 Ryzen™ Desktop 9000 8000 and 7000 ATX Motherboard, 14 Power Stages, PCIe® 5.0 M.2, DDR5 Memory, WiFi 6 and 2.5 Gb Ethernet, USB4® Support Aura Sync",
+    "checked": "2026-11-19"
+  },
+  "be-quiet-dark-rock-pro-5": {
+    "asin": "B0CJY3DYQ3",
+    "image": "https://m.media-amazon.com/images/I/51uXTROh65L._SL500_.jpg",
+    "title": "be Quiet! Dark Rock Pro 5 Quiet Cooling CPU Cooler | Immensely High Airflow | 7 high-Performance Copper Heat Pipes | Speed Switch | Thermal Grease | BK036",
+    "checked": "2026-11-19"
+  },
+  "be-quiet-pure-power-12-m-750": {
+    "asin": "B0BT2YZGZK",
+    "image": "https://m.media-amazon.com/images/I/418zeTTxo+L._SL500_.jpg",
+    "title": "be quiet! Pure Power 12 M 750W Power Supply, 80 Plus Gold Efficiency, ATX 3.1 PSU with Full Support for PCIe 5.1 GPUs, exceptionally Silent 120mm be quiet! Fan, 2 Strong 12V-Rails, Modular Cables",
+    "checked": "2026-11-19"
+  },
+  "cooler-master-q300l": {
+    "asin": "B0CB8WGGNW",
+    "image": "https://m.media-amazon.com/images/I/41k0XyMRZQL._SL500_.jpg",
+    "title": "Cooler Master Q300L V2 Micro-ATX Tower, Magnetic Patterned Dust Filter, USB 3.2 Gen 2x2 (20GB), Tempered Glass, CPU Coolers Max 159mm, GPU 360mm, Fully Ventilated Airflow (Q300LV2-KGNN-S00)",
+    "checked": "2026-11-19"
+  },
+  "core-ultra-5-245k": {
+    "asin": "B0DFK2P311",
+    "image": "https://m.media-amazon.com/images/I/41KkV8gKahL._SL500_.jpg",
+    "title": "Intel BX80768245K 245K Up to 5.2 GHz 14 Core Ultra 5 Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "core-ultra-7-265k": {
+    "asin": "B0DFK2MH2D",
+    "image": "https://m.media-amazon.com/images/I/41T+yFsdxdL._SL500_.jpg",
+    "title": "Intel Core Ultra 7 Desktop Processor 265K - 20 cores (8 P-cores + 12 E-cores) up to 5.5 GHz",
+    "checked": "2026-11-19"
+  },
+  "corsair-rm1000x": {
+    "asin": "B0DJ1M9C62",
+    "image": "https://m.media-amazon.com/images/I/41RKn2v9wWL._SL500_.jpg",
+    "title": "CORSAIR RM1000x ATX 3.1 PCIe 5.1 1000W Power Supply – Black | Native 12V-2x6 Connector, Fully Modular, Low-Noise, Cybenetics Gold, NA",
+    "checked": "2026-11-19"
+  },
+  "corsair-rm750e": {
+    "asin": "B0FLFGGDK3",
+    "image": "https://m.media-amazon.com/images/I/41rg84KR1SL._SL500_.jpg",
+    "title": "CORSAIR RM750e ATX 3.1 PCIe 5.1 Ready 750W Power Supply – Black | Native 12V-2x6 Cable Included, Low-Noise, Fully Modular, Cybenetics Gold, Modern Standby Mode, NA",
+    "checked": "2026-11-19"
+  },
+  "corsair-rm850x": {
+    "asin": "B0FLFGG1CC",
+    "image": "https://m.media-amazon.com/images/I/41lWLP0JjGL._SL500_.jpg",
+    "title": "CORSAIR RM850x ATX 3.1 PCIe 5.1 Ready Fully Modular 850W Power Supply – Low-Noise, Cybenetics Gold Efficiency, Native 12V-2x6 Connector – Black",
+    "checked": "2026-11-19"
+  },
+  "corsair-vengeance-ddr5-6000-cl30": {
+    "asin": "B0C3RYHZJQ",
+    "image": "https://m.media-amazon.com/images/I/41Q8eUJZndL._SL500_.jpg",
+    "title": "CORSAIR Vengeance DDR5 RAM 32GB (2x16GB) 6000MHz CL30-36-36-76 1.40V Intel XMP Desktop Computer Memory - Black (CMK32GX5M2B6000C30)",
+    "checked": "2026-11-19"
+  },
+  "corsair-vengeance-lpx-ddr4-3200-cl16": {
+    "asin": "B07RW6Z692",
+    "image": "https://m.media-amazon.com/images/I/31Hq8-Z9oWL._SL500_.jpg",
+    "title": "CORSAIR Vengeance LPX DDR4 RAM 32GB (2x16GB) Up to 3200MHz CL16-20-20-38 1.35V Intel XMP AMD EXPO Computer Memory – Black (CMK32GX4M2E3200C16)",
+    "checked": "2026-11-19"
+  },
+  "crucial-p3-plus": {
+    "asin": "B0B25ML2FH",
+    "image": "https://m.media-amazon.com/images/I/31h4ranQAsL._SL500_.jpg",
+    "title": "Crucial P3 Plus PCIe Gen4 NVMe 2TB SSD, Up to 5,000MB/s Read, Laptop & Desktop (PC) Compatible, Solid State Drive – CT2000P3SSD8",
+    "checked": "2026-11-19"
+  },
+  "crucial-t500": {
+    "asin": "B0CK2TC9XQ",
+    "image": "https://m.media-amazon.com/images/I/31YWApOpD+L._SL500_.jpg",
+    "title": "Crucial T500 PCIe Gen4 NVMe 2TB SSD, Up to 7,400MB/s, TLC NAND, Laptop & Desktop (PC) Compatible, for Creatives and Gamers, Solid State Drive, Includes 1Mo Adobe CC – CT2000T500SSD8",
+    "checked": "2026-11-19"
+  },
+  "fractal-design-north": {
+    "asin": "B09V8HNWW9",
+    "image": "https://m.media-amazon.com/images/I/417KIaaHKWL._SL500_.jpg",
+    "title": "Fractal Design North Charcoal Black Tempered Glass Dark - Genuine Walnut Wood Front - Glass Side Panel - Two 140mm Aspect PWM Fans Included - Type C USB - ATX Airflow Mid Tower PC Gaming Case",
+    "checked": "2026-11-19"
+  },
+  "fractal-design-pop-air": {
+    "asin": "B08T1GB8D8",
+    "image": "https://m.media-amazon.com/images/I/31pnrOrgpyL._SL500_.jpg",
+    "title": "Fractal Design Pop Air RGB Black Tempered Glass Clear Tint",
+    "checked": "2026-11-19"
+  },
+  "gigabyte-b650-aorus-elite-ax": {
+    "asin": "B0BH7GTY9C",
+    "image": "https://m.media-amazon.com/images/I/51DcC8isdeL._SL500_.jpg",
+    "title": "GIGABYTE B650 AORUS Elite AX AMD AM5 ATX Motherboard, Support Ryzen 9000/8000/7000 Series, DDR5, 14+2+1 Power Phase, PCIe 5.0 M.2, USB-C 3.2 Gen 2, WIFI6E, 2.5GbE, EZ-Latch, Q-Flash, RGB Fusion",
+    "checked": "2026-11-19"
+  },
+  "gskill-flare-x5-ddr5-6000-cl30": {
+    "asin": "B0G7QNTRLW",
+    "image": "https://m.media-amazon.com/images/I/414vEwbWjuL._SL500_.jpg",
+    "title": "G.SKILL Flare X5 Series DDR5 RAM (AMD EXPO) 32GB (2x16GB) Up to 6000MT/s* CL30-38-38-96 1.35V Desktop Computer Memory U-DIMM - Matte Black (F5-6000J3038F16GH2-FX5)",
+    "checked": "2026-11-19"
+  },
+  "gskill-trident-z-neo-ddr4-3600-cl16": {
+    "asin": "B07WTS8T2W",
+    "image": "https://m.media-amazon.com/images/I/41P+ADizkPL._SL500_.jpg",
+    "title": "G.SKILL Trident Z Neo Series DDR4 RAM (XMP) 32GB (2x16GB) Up to 3600MT/s* CL16-19-19-39 1.35V Intel AMD Desktop Computer Memory U-DIMM (F4-3600C16D-32GTZNC)",
+    "checked": "2026-11-19"
+  },
+  "gskill-trident-z5-neo-rgb-ddr5-6000-64gb": {
+    "asin": "B0CJXBCQ7P",
+    "image": "https://m.media-amazon.com/images/I/41gRCMNX9yL._SL500_.jpg",
+    "title": "G.SKILL Trident Z5 Neo RGB Series DDR5 RAM (AMD EXPO) 64GB (2x32GB) Up to 6000MT/s* CL30-36-36-96 1.40V Desktop Computer Memory U-DIMM - Matte White (F5-6000J3036G32GX2-TZ5NRW)",
+    "checked": "2026-11-19"
+  },
+  "kingston-fury-beast-ddr5-6000-cl30": {
+    "asin": "B0CYHC58P6",
+    "image": "https://m.media-amazon.com/images/I/415kUsl0MoL._SL500_.jpg",
+    "title": "Kingston FURY Beast 32GB (2x16GB) 6000MT/s DDR5 CL30 Desktop Memory | AMD EXPO | Kit of 2 | KF560C30BBEK2-32",
+    "checked": "2026-11-19"
+  },
+  "kingston-nv3": {
+    "asin": "B0DBR6TRZQ",
+    "image": "https://m.media-amazon.com/images/I/31wu95e-2oL._SL500_.jpg",
+    "title": "Kingston NV3 2TB M.2 2280 NVMe SSD | PCIe 4.0 Gen 4x4 | Up to 6000 MB/s | SNV3S/2000G",
+    "checked": "2026-11-19"
+  },
+  "lian-li-lancool-207": {
+    "asin": "B0DHXWYK4J",
+    "image": "https://m.media-amazon.com/images/I/41DsdV3FxOL._SL500_.jpg",
+    "title": "LIAN LI LANCOOL 207 Black Compact ATX Case, 4 Pre-Installed Fans | Compact ATX case with two 140mm ARGB front fans and two 120mm GPU fans, plus 410mm GPU and 360mm radiator support.",
+    "checked": "2026-11-19"
+  },
+  "lian-li-lancool-217": {
+    "asin": "B0DWF95QP7",
+    "image": "https://m.media-amazon.com/images/I/41eFbeAwWJL._SL500_.jpg",
+    "title": "Lian Li LANCOOL 217 ATX Mid-Tower PC Case, 5 PWM Fans, Black Walnut Wood | Pre-installed 2×170mm, 2×120mm & 1×140mm Fans, Genuine Wood Panels, Back-Connect Ready, Flexible PSU Mounting (LAN217X)",
+    "checked": "2026-11-19"
+  },
+  "lian-li-o11-dynamic-evo": {
+    "asin": "B0G54D3KL7",
+    "image": "https://m.media-amazon.com/images/I/41c+X49X0KL._SL500_.jpg",
+    "title": "LIAN LI O11 Dynamic EVO Gaming PC Case E-ATX Desktop Computer Case - Mid Tower Chassis with Flexible Mode and Configuration, Tempered Glass Panel, USB Type-C Port (Black- with Fans)",
+    "checked": "2026-11-19"
+  },
+  "montech-air-903-max": {
+    "asin": "B0CB26ZFKV",
+    "image": "https://m.media-amazon.com/images/I/51pNYpZJH3L._SL500_.jpg",
+    "title": "MONTECH AIR 903 MAX High-Airflow E-ATX Mid-Tower PC Case, 4 Fans, Black | 400mm GPU & top/front 360mm radiators, tempered glass, USB-C, vertical GPU mount ready, cable space, dust filters & 2 USB 3.0",
+    "checked": "2026-11-19"
+  },
+  "montech-century-ii-850": {
+    "asin": "B0F3XW1J16",
+    "image": "https://m.media-amazon.com/images/I/41mC3iw8TfL._SL500_.jpg",
+    "title": "MONTECH Century II 850W ATX 3.1 Fully Modular 80 PLUS Gold Power Supply | PCIe 5.1, Native 12V-2x6 Cable, Compact 140mm Design, Zero RPM Mode, 100% Japanese Capacitors, 10-Year Warranty",
+    "checked": "2026-11-19"
+  },
+  "montech-xr": {
+    "asin": "B0D5PHHCK5",
+    "image": "https://m.media-amazon.com/images/I/41EQBUlNKML._SL500_.jpg",
+    "title": "MONTECH XR Panoramic ATX Gaming PC Case, Mid Tower, 3 ARGB PWM Fans, Black | High Airflow; 2 Reverse-Blade Side & 1 Rear ARGB PWM Fan; Magnetic Filter; 420mm GPU, 360mm Radiator; USB-C; Up to 9 Fans",
+    "checked": "2026-11-19"
+  },
+  "msi-mag-a750gl-pcie5": {
+    "asin": "B0CC3QBGDL",
+    "image": "https://m.media-amazon.com/images/I/41lDKv1dw8L._SL500_.jpg",
+    "title": "MSI MAG A750GL PCIE5, Fully Modular Compact Gaming 750W Power Supply, 80+ Gold, ATX 3.1 & PCIe 5.1 Ready, Native Dual-Color 12V-2x6 Cable, 10 Year Warranty",
+    "checked": "2026-11-19"
+  },
+  "msi-mag-b650-tomahawk-wifi": {
+    "asin": "B0BHCCNSRH",
+    "image": "https://m.media-amazon.com/images/I/41Wt+beG5uL._SL500_.jpg",
+    "title": "MSI MAG B650 Tomahawk WiFi Gaming Motherboard (AMD Ryzen 9000/8000/7000 Series Processors, AM5, DDR5, PCIe 4.0, M.2, SATA 6Gb/s, USB 3.2 Gen 2, HDMI/DP, Wi-Fi 6E, Bluetooth 5.3, 2.5Gbps LAN, ATX)",
+    "checked": "2026-11-19"
+  },
+  "msi-mag-x870-tomahawk-wifi": {
+    "asin": "B0DG3HK897",
+    "image": "https://m.media-amazon.com/images/I/51CYkD+31mL._SL500_.jpg",
+    "title": "MSI MAG X870 Tomahawk WiFi Gaming Motherboard (AMD Ryzen 9000/8000/7000 Series Processors, AM5, DDR5, PCIe 5.0, M.2 Gen5, SATA 6Gb/s, USB 40Gbps, HDMI/DP, Wi-Fi 7, Bluetooth 5.4, 5Gbps LAN, ATX)",
+    "checked": "2026-11-19"
+  },
+  "msi-pro-b650m-a-wifi": {
+    "asin": "B0FBTFCFMD",
+    "image": "https://m.media-amazon.com/images/I/51nDmhFq6tL._SL500_.jpg",
+    "title": "MSI PRO B650M-A WiFi V1 Motherboard, Micro-ATX - Supports AMD Ryzen 9000/8000 / 7000 Series Processors, AM5 - DDR5 Memory Boost 6000+MHz/OC, 2 x PCIe 4.0 x16, 2 x M.2 Gen4, 2.5G LAN",
+    "checked": "2026-11-19"
+  },
+  "noctua-nh-d15-g2": {
+    "asin": "B0D5B6MXJF",
+    "image": "https://m.media-amazon.com/images/I/51-eBeqvOrL._SL500_.jpg",
+    "title": "Noctua NH-D15 G2, Quiet High-Performance Dual Tower CPU Cooler | 168mm Height, Ultimate Low-Noise Cooling, 8 Heatpipes, For Intel & AMD, Dual Enthusiast-Grade 140mm Fans, Rich Accessory Kit",
+    "checked": "2026-11-19"
+  },
+  "noctua-nh-u12s-redux": {
+    "asin": "B08WPDD6GD",
+    "image": "https://m.media-amazon.com/images/I/41CZlCw8VBL._SL500_.jpg",
+    "title": "Noctua NH-U12S redux, Quiet High-Performance Single Tower CPU Cooler | 158mm Height, Low-Noise Cooling, 5 Heatpipes, For Intel & AMD, 120mm Fan, 100% RAM Compatibility",
+    "checked": "2026-11-19"
+  },
+  "nzxt-h5-flow-2024": {
+    "asin": "B0D2MK6NML",
+    "image": "https://m.media-amazon.com/images/I/313-Xcs095L._SL500_.jpg",
+    "title": "NZXT H5 Flow - Compact ATX Mid-Tower PC Case - Black | Compact mid-tower with 2 included 120mm fans, 360mm front radiator support, and tempered glass. A great first airflow build.",
+    "checked": "2026-11-19"
+  },
+  "phanteks-xt-pro-ultra": {
+    "asin": "B0CT5V2XJK",
+    "image": "https://m.media-amazon.com/images/I/41CD+poUU+L._SL500_.jpg",
+    "title": "Phanteks XT Pro Ultra, Mid-Tower Gaming Chassis, 4X M25-140 Fans Included, High Airflow Performance Mesh, Tempered Glass Window, USB-C 3.2 Gen2 (Black)",
+    "checked": "2026-11-19"
+  },
+  "rtx-5060": {
+    "asin": "B0F8LDHQ7Y",
+    "image": "https://m.media-amazon.com/images/I/41uJIJhUWVL._SL500_.jpg",
+    "title": "GIGABYTE GeForce RTX 5060 WINDFORCE OC 8G Graphics Card, Cooling System, 8GB 128-bit GDDR7, PCIe 5.0, Manufactured by NVIDIA, DisplayPort & HDMI - Video Output Interface, GV-N5060WF2OC-8GD Video Card",
+    "checked": "2026-11-19"
+  },
+  "rtx-5060-ti-16gb": {
+    "asin": "B0F4Y6N6PW",
+    "image": "https://m.media-amazon.com/images/I/41tJ+sJlLIL._SL500_.jpg",
+    "title": "PNY NVIDIA GeForce RTX™ 5060 Ti 16GB OC Dual-Fan Graphics Card | 16GB G7, 128-bit, Boost Speed: 2692 MHz, SFF-Ready, PCIe® 5.0, HDMI®/DP 2.1, 2-Slot, NVIDIA Blackwell Architecture, DLSS 4.5",
+    "checked": "2026-11-19"
+  },
+  "rtx-5070": {
+    "asin": "B0DS6WPTLL",
+    "image": "https://m.media-amazon.com/images/I/41zeOBYIU9L._SL500_.jpg",
+    "title": "ASUS PRIME GeForce RTX 5070 12GB GDDR7 OC Edition Gaming Graphics Card | SFF-Ready, PCIe 5.0, HDMI/DP 2.1, 2.5-slot, Axial-tech Fans, Dual BIOS",
+    "checked": "2026-11-19"
+  },
+  "rtx-5070-ti": {
+    "asin": "B0DXL7GSYC",
+    "image": "https://m.media-amazon.com/images/I/41KT7y98+-L._SL500_.jpg",
+    "title": "PNY NVIDIA GeForce RTX™ 5070 Ti OC Triple-Fan Graphics Card | 16GB GDDR7, 256-bit, Boost: 2572 MHz, PCIe® 5.0, HDMI®/DP 2.1, 2.98-Slot, NVIDIA Blackwell Architecture, DLSS 5",
+    "checked": "2026-11-19"
+  },
+  "rtx-5080": {
+    "asin": "B0DYRZZJZ1",
+    "image": "https://m.media-amazon.com/images/I/41RJRwDb55L._SL500_.jpg",
+    "title": "PNY NVIDIA GeForce RTX™ 5080 Triple-Fan Graphics Card | 16GB GDDR7, 256-bit, Boost Speed: 2617 MHz, PCIe® 5.0, HDMI®/DP 2.1, 2.99-Slot, NVIDIA Blackwell Architecture, DLSS 4.5",
+    "checked": "2026-11-19"
+  },
+  "rtx-5090": {
+    "asin": "B0DTHV8THW",
+    "image": "https://m.media-amazon.com/images/I/51B+ImhOYeL._SL500_.jpg",
+    "title": "ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 OC Edition Gaming Graphics Card (Nvidia GeForce RTX5090, Four Fans, 3.8 Slot Design, PCIe 5.0, 2X HDMI 2.1b, 3X DisplayPort 2.1a)",
+    "checked": "2026-11-19"
+  },
+  "rx-9060-xt-16gb": {
+    "asin": "B0FLHBFFX4",
+    "image": "https://m.media-amazon.com/images/I/41LR+5kEPoL._SL500_.jpg",
+    "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Gaming Graphics Card | PCIe 5.0, HDMI 2.1b, DisplayPort 2.1a, 2.5-slot design, Axial-tech Fans, 0dB Technology",
+    "checked": "2026-11-19"
+  },
+  "rx-9070": {
+    "asin": "B0DTTKCTRD",
+    "image": "https://m.media-amazon.com/images/I/413cBkwCGyL._SL500_.jpg",
+    "title": "ASRock Radeon RX 9070 Challenger 16GB OC Graphics Card, RDNA 4, 2520MHz Boost, 16GB GDDR6 256-bit, PCIe 5.0, Triple Fans, 0dB Silent, LED Indicator",
+    "checked": "2026-11-19"
+  },
+  "rx-9070-xt": {
+    "asin": "B0FSSYTD49",
+    "image": "https://m.media-amazon.com/images/I/411h61PttLL._SL500_.jpg",
+    "title": "ASRock Radeon RX 9070 XT Challenger 16GB OC Graphics Card - AMD RDNA 4 Architecture, 2970 MHz Boost Clock, GDDR6, PCIe 5.0, DisplayPort 2.1a, HDMI 2.1b, Triple Fan Cooling 800W",
+    "checked": "2026-11-19"
+  },
+  "ryzen-5-7600": {
+    "asin": "B0BMQJWBDM",
+    "image": "https://m.media-amazon.com/images/I/41LSnKT1MXL._SL500_.jpg",
+    "title": "AMD Ryzen 5 7600 6-Core, 12-Thread Unlocked Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-5-9600x": {
+    "asin": "B0D6NN6TM7",
+    "image": "https://m.media-amazon.com/images/I/41kb8AbxbTL._SL500_.jpg",
+    "title": "AMD Ryzen™ 5 9600X 6-Core, 12-Thread Unlocked Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-5700x3d": {
+    "asin": "B0CQ4H4H7X",
+    "image": "https://m.media-amazon.com/images/I/31LkUMZ5A8L._SL500_.jpg",
+    "title": "AMD Ryzen 7 5700X3D 8-Core, 16-Thread Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-7800x3d": {
+    "asin": "B0BTZB7F88",
+    "image": "https://m.media-amazon.com/images/I/21KtytBd+kL._SL500_.jpg",
+    "title": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-9700x": {
+    "asin": "B0D6NMDNNX",
+    "image": "https://m.media-amazon.com/images/I/41tUy4Z4RpL._SL500_.jpg",
+    "title": "AMD Ryzen™ 7 9700X 8-Core, 16-Thread Unlocked Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-7-9800x3d": {
+    "asin": "B0DKFMSMYK",
+    "image": "https://m.media-amazon.com/images/I/41RRIy3PyvL._SL500_.jpg",
+    "title": "AMD RYZEN 7 9800X3D 8-Core, 16-Thread Desktop Processor",
+    "checked": "2026-11-19"
+  },
+  "ryzen-9-9950x3d": {
+    "asin": "B0DVZSG8D5",
+    "image": "https://m.media-amazon.com/images/I/41yERiN9M1L._SL500_.jpg",
+    "title": "AMD Ryzen 9 9950X3D 16-Core Processor",
+    "checked": "2026-11-19"
+  },
+  "samsung-9100-pro": {
+    "asin": "B0DX2DPJZ5",
+    "image": "https://m.media-amazon.com/images/I/3137jN3vkqL._SL500_.jpg",
+    "title": "Samsung SSD 9100 PRO 2TB, PCIe 5.0x4 M.2 2280, Up to 14,700MB/s | NVMe Internal Solid State Hard Drive best for AI Computing, Gaming, and Heavy Duty Workstations (MZ VAP2T0B/AM)",
+    "checked": "2026-11-19"
+  },
+  "samsung-990-pro": {
+    "asin": "B0BHJJ9Y77",
+    "image": "https://m.media-amazon.com/images/I/41Jf2yGpAgL._SL500_.jpg",
+    "title": "Samsung SSD 990 PRO 2TB, PCIe 4.0 M.2 2280, Up to 7,450 MB/s | NVMe Internal Solid State Hard Drive for High End Computing, Gaming, and Heavy Duty Workstations, (MZ-V9P2T0B/AM)",
+    "checked": "2026-11-19"
+  },
+  "seasonic-focus-gx-850": {
+    "asin": "B0DLFMTX12",
+    "image": "https://m.media-amazon.com/images/I/41a1x2C18rL._SL500_.jpg",
+    "title": "Seasonic FOCUS GX-850 850W Power Supply ATX 3.1 & PCIe 5.1 Ready | 80 Plus Gold & Cybenetics Platinum Fully Modular 12V-2x6 RTX 5080 AMD RX 9000 Ready Japanese Capacitors 10 Years Warranty",
+    "checked": "2026-11-19"
+  },
+  "teamgroup-t-force-delta-rgb-ddr5-6000": {
+    "asin": "B0B3HGJ4V7",
+    "image": "https://m.media-amazon.com/images/I/41X+CHFnLmL._SL500_.jpg",
+    "title": "TEAMGROUP T-Force Delta RGB DDR5 Ram 32GB (2x16GB) 6000MHz PC5-48000 CL30 Intel XMP 3.0 & AMD Expo Compatible Desktop Memory Module Ram White FF4D532G6000HC30DC01",
+    "checked": "2026-11-19"
+  },
+  "thermalright-assassin-x-120-refined-se": {
+    "asin": "B09LHBFPJ6",
+    "image": "https://m.media-amazon.com/images/I/41aJwdGRuAL._SL500_.jpg",
+    "title": "Thermalright Assassin X120 Refined SE CPU Air Cooler, 4 Heat Pipes, TL-C12C PWM Fan, Aluminium Heatsink Cover, AGHP Technology, for AMD AM4/AM5/Intel LGA 1150/1151/1155/1200/1700/1851(AX120 R SE)",
+    "checked": "2026-11-19"
+  },
+  "thermalright-peerless-assassin-120-se": {
+    "asin": "B09LGY38L4",
+    "image": "https://m.media-amazon.com/images/I/41hFTmi5aUL._SL500_.jpg",
+    "title": "Thermalright Peerless Assassin 120 SE CPU Cooler, 6 Heat Pipes AGHP Technology, Dual 120mm PWM Fans, 1550RPM Speed, for AMD:AM4 AM5/Intel LGA 1700/1150/1151/1200/1851,PC Cooler",
+    "checked": "2026-11-19"
+  },
+  "thermalright-phantom-spirit-120-se": {
+    "asin": "B0D93R3YY9",
+    "image": "https://m.media-amazon.com/images/I/41W16fgxB2L._SL500_.jpg",
+    "title": "Thermalright Phantom Spirit 120 SE Black CPU Cooler,Dual TL-C12B V2 PWM Fans and Double Towers, 7 Heat Pipes Heatsink Cooler,for AM4/AM5&Intel LGA1851/1700/115X/1200, Computer CPU Cooling,Black",
+    "checked": "2026-11-19"
+  },
+  "thermaltake-versa-h18": {
+    "asin": "B079G3TNDM",
+    "image": "https://m.media-amazon.com/images/I/51e+2N4f8UL._SL500_.jpg",
+    "title": "Thermaltake Versa H18 Tempered Glass Black Spcc Micro ATX Gaming Computer Case CA-1J4-00S1WN-01",
+    "checked": "2026-11-19"
+  },
+  "wd-black-sn7100": {
+    "asin": "B0DN6ZQ3PD",
+    "image": "https://m.media-amazon.com/images/I/31ZdDDePX3L._SL500_.jpg",
+    "title": "WD_Black SN7100 2TB NVMe SSD - Gen4 PCIe, M.2 2280, Up to 7,250 MB/s Read Speed, Up to 6,900 MB/s Write Speed, Next Gen TLC 3D NAND, for Laptops, Handheld Gaming Devices - WDS200T4X0E",
+    "checked": "2026-11-19"
+  },
+  "wd-black-sn850x": {
+    "asin": "B0B7CMZ3QH",
+    "image": "https://m.media-amazon.com/images/I/31cxgtEyksL._SL500_.jpg",
+    "title": "WD_BLACK SN850X 2TB NVMe SSD - M.2 2280, Up to 7,300 MB/s Read speeds, Up to 6,300 MB/s write speeds, Gaming Expansion, High Performance Internal Solid State Drive - WDS200T2X0E",
+    "checked": "2026-11-19"
+  }
+}

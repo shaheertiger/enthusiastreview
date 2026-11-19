@@ -18,6 +18,10 @@ export interface Product {
   amazon?: string;
   asin?: string;
   url?: string;
+  /** Official Amazon photo, from src/data/catalog.json (scripts/fetch-product-images.mjs). */
+  image?: string;
+  /** Title of the Amazon listing the photo and direct link come from. */
+  listing?: string;
   description: string;
   quick: string;
   bestFor: string;
@@ -117,6 +121,8 @@ const guideFiles = import.meta.glob('../data/guides/*.json', { eager: true, impo
 const compareFile = one<Compare[]>(import.meta.glob('../data/compares.json', { eager: true, import: 'default' })) ?? [];
 const glossaryFile = one<Term[]>(import.meta.glob('../data/glossary.json', { eager: true, import: 'default' })) ?? [];
 const brandFile = one<Record<string, Omit<Brand, 'key'>>>(import.meta.glob('../data/brands.json', { eager: true, import: 'default' })) ?? {};
+/** Verified Amazon listings: { id: { asin, image, title, checked } } (scripts/fetch-product-images.mjs). */
+const catalogFile = one<Record<string, { asin: string; image: string; title: string; checked?: string }>>(import.meta.glob('../data/catalog.json', { eager: true, import: 'default' })) ?? {};
 /** Last real content change per file, from git (scripts/page-dates.mjs). */
 const gitDates = one<Record<string, string>>(import.meta.glob('../data/git-dates.json', { eager: true, import: 'default' })) ?? {};
 
@@ -124,6 +130,11 @@ const catOrder = (k: string) => CATEGORIES.findIndex((c) => c.key === k);
 
 export const PRODUCTS: Product[] = Object.values(productFiles)
   .flat()
+  .map((p) => {
+    const c = catalogFile[p.id];
+    // A hand-set asin or url on the product wins; the catalog fills the photo and direct link.
+    return c && !p.url && (!p.asin || p.asin === c.asin) ? { ...p, asin: c.asin, image: p.image ?? c.image, listing: c.title } : p;
+  })
   .sort((a, b) => catOrder(a.category) - catOrder(b.category) || b.score.overall - a.score.overall || a.name.localeCompare(b.name));
 const PRODUCT_BY_ID = new Map(PRODUCTS.map((p) => [p.id, p]));
 

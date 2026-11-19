@@ -5,6 +5,7 @@ import Crumbs from '../../components/Crumbs.astro';
 import Score from '../../components/Score.astro';
 import BuyButton from '../../components/BuyButton.astro';
 import CatIcon from '../../components/CatIcon.astro';
+import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
 import { amazonLink } from '../../data/affiliate';
@@ -49,6 +50,7 @@ const jsonLd = {
       brand: { '@type': 'Brand', name: brand.name },
       category: cat.label,
       url: `${SITE.url}${path}`,
+      ...(p.image ? { image: p.image } : {}),
       review: {
         '@type': 'Review',
         name: `${p.name} review`,
@@ -65,7 +67,7 @@ const jsonLd = {
   ],
 };
 ---
-<Base title={productTitle(p)} description={p.description} ogType="article" article={{ published: updated, modified: updated, section: cat.label }} jsonLd={jsonLd}>
+<Base title={productTitle(p)} description={p.description} ogImage={p.image} ogType="article" article={{ published: updated, modified: updated, section: cat.label }} jsonLd={jsonLd}>
   <article class="article gear">
     <header class="col a-head">
       <Crumbs items={crumbs} />
@@ -79,13 +81,26 @@ const jsonLd = {
 
     <div class="col">
       <section class="quick-card">
-        <div class="qc-top">
-          <CatIcon cat={p.category} size={72} />
-          <div>
-            <h2 class="mini">Quick answer</h2>
-            <p set:html={inline(p.quick, ctx)} />
+        {p.image ? (
+          <div class="qc-hero">
+            <figure class="qc-photo">
+              <ProductImage p={p} size={220} buy eager />
+              <figcaption>Amazon listing: {p.listing && p.listing.length > 90 ? `${p.listing.slice(0, p.listing.lastIndexOf(' ', 88))}…` : p.listing}{p.category === 'graphics-cards' && ' (one of several partner cards)'}</figcaption>
+            </figure>
+            <div>
+              <h2 class="mini">Quick answer</h2>
+              <p set:html={inline(p.quick, ctx)} />
+            </div>
           </div>
-        </div>
+        ) : (
+          <div class="qc-top">
+            <CatIcon cat={p.category} size={72} />
+            <div>
+              <h2 class="mini">Quick answer</h2>
+              <p set:html={inline(p.quick, ctx)} />
+            </div>
+          </div>
+        )}
         <dl class="qc-fit">
           <div><dt>Best for</dt><dd>{p.bestFor}</dd></div>
           <div><dt>Skip it if</dt><dd>{p.skipIf}</dd></div>
