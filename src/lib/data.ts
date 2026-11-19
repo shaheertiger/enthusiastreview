@@ -54,7 +54,9 @@ export interface Section {
 
 export interface Guide {
   slug: string;
-  type: 'roundup' | 'brand';
+  type: 'roundup' | 'brand' | 'article';
+  /** Articles only: how-to, fix, explainer or X vs Y. */
+  kind?: 'howto' | 'fix' | 'explainer' | 'versus';
   category: string;
   brand?: string;
   author?: string;
@@ -65,12 +67,18 @@ export interface Guide {
   dek: string;
   intro: string[];
   quickAnswer: string;
-  picks: Pick[];
-  tableSpecs: string[];
-  ranking: { intro: string; criteria: [string, string][]; why?: string };
+  /** Roundups and brand pages. */
+  picks?: Pick[];
+  tableSpecs?: string[];
+  ranking?: { intro: string; criteria: [string, string][]; why?: string };
+  /** Articles: the main procedure. */
+  steps?: { h: string; body: string[] }[];
+  stepsHeading?: string;
+  /** Articles: products shown under "Parts mentioned". */
+  products?: string[];
   mentions?: { id?: string; name?: string; text: string }[];
   sections: Section[];
-  mistakes: [string, string][];
+  mistakes?: [string, string][];
   bottomLine: string;
   faqs: FAQ[];
   sources: string[];
@@ -181,7 +189,7 @@ export function rankOf(p: Product) {
 
 /** Guides that pick this product, with the label they give it. */
 export function guidesFeaturing(id: string) {
-  return GUIDES.flatMap((g) => g.picks.filter((pk) => pk.id === id).map((pk) => ({ guide: g, label: pk.label })));
+  return GUIDES.flatMap((g) => (g.picks ?? []).filter((pk) => pk.id === id).map((pk) => ({ guide: g, label: pk.label })));
 }
 export const comparesFor = (id: string) => COMPARES.filter((c) => c.a === id || c.b === id);
 
@@ -234,10 +242,11 @@ export const readMinutes = (texts: string[]) => Math.max(1, Math.round(texts.joi
 
 export function guideText(g: Guide): string[] {
   return [
-    g.dek, ...g.intro, g.quickAnswer, ...(g.about ?? []), g.ranking.intro, ...g.ranking.criteria.flat(),
-    ...g.picks.flatMap((p) => p.writeup), ...(g.mentions ?? []).map((m) => m.text),
+    g.dek, ...g.intro, g.quickAnswer, ...(g.about ?? []), g.ranking?.intro ?? '', ...(g.ranking?.criteria ?? []).flat(),
+    ...(g.picks ?? []).flatMap((p) => p.writeup), ...(g.mentions ?? []).map((m) => m.text),
+    ...(g.steps ?? []).flatMap((s) => [s.h, ...s.body]),
     ...g.sections.flatMap((s) => [s.h, ...(s.body ?? []), ...(s.list ?? [])]),
-    ...g.mistakes.flat(), g.bottomLine, ...g.faqs.flatMap((f) => [f.q, f.a]),
+    ...(g.mistakes ?? []).flat(), g.bottomLine, ...g.faqs.flatMap((f) => [f.q, f.a]),
   ];
 }
 

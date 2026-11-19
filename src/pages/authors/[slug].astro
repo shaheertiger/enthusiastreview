@@ -19,7 +19,7 @@ const guides = GUIDES.filter((g) => (g.author ?? DEFAULT_AUTHOR) === a.slug);
       <h2>Covers</h2>
       <ul>{a.beat.map((b) => <li>{b}</li>)}</ul>
       <h2>Guides by {a.name}</h2>
-      <ul class="link-list">{guides.map((g) => <li><a href={guidePath(g)}>{g.h1}</a> <span class="tag">{g.type === 'brand' ? 'Brand Review' : categoryOf(g.category).label}</span></li>)}</ul>
+      <ul class="link-list">{guides.map((g) => <li><a href={guidePath(g)}>{g.h1}</a> <span class="tag">{g.type === 'brand' ? 'Brand Review' : g.type === 'article' ? 'Guide' : categoryOf(g.category).label}</span></li>)}</ul>
     </div>
   </div>
 </Base>

@@ -10,7 +10,7 @@ const hero = getGuide('best-graphics-card');
 const heroPick = hero ? getProduct(hero.picks[0].id) : undefined;
 const top10 = [...PRODUCTS].sort((a, b) => b.score.overall - a.score.overall).slice(0, 10);
 const featured = CATEGORIES.map((c) => getGuide(c.hero)).filter((g) => g && !g.noindex);
-const latest = [...GUIDES].sort((a, b) => guideUpdated(b).localeCompare(guideUpdated(a)) || a.slug.localeCompare(b.slug)).filter((g) => !featured.includes(g)).slice(0, 6);
+const latest = [...GUIDES.filter((g) => g.type !== 'article')].sort((a, b) => guideUpdated(b).localeCompare(guideUpdated(a)) || a.slug.localeCompare(b.slug)).filter((g) => !featured.includes(g)).slice(0, 6);
 const popular = COMPARES.slice(0, 8);
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -57,7 +57,7 @@ const jsonLd = {
       <h2 class="section-title">Best PC Hardware: Picks by Part and Budget</h2>
       <div class="grid grid-4">
         {featured.map((g) => {
-          const p = getProduct(g!.picks[0].id)!;
+          const p = getProduct(g!.picks![0].id)!;
           return (
             <a class="card" href={guidePath(g!)}>
               <ProductImage p={p} size={96} />
@@ -107,7 +107,7 @@ const jsonLd = {
     <section>
       <h2 class="section-title">Latest Guides and Brand Reviews</h2>
       <div class="grid grid-3">
-        {latest.map((g) => <a class="card" href={guidePath(g)}><span class="card-k">{g.type === 'brand' ? 'Brand Review' : categoryOf(g.category).label}</span><h3>{g.h1}</h3><span class="card-sub">{g.picks.length} picks</span></a>)}
+        {latest.map((g) => <a class="card" href={guidePath(g)}><span class="card-k">{g.type === 'brand' ? 'Brand Review' : categoryOf(g.category).label}</span><h3>{g.h1}</h3><span class="card-sub">{g.picks?.length} picks</span></a>)}
       </div>
     </section>
 

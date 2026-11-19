@@ -31,6 +31,10 @@ export const RULES = {
   'rx-9070-xt': { all: [String.raw`rx\s*9070\s*xt`, String.raw`16\s*g`], none: [GPU_NOT] },
   'rx-9070': { all: [String.raw`rx\s*9070\b`, String.raw`16\s*g`], none: [String.raw`9070\s*xt|\bxt\b|\bgre\b`, GPU_NOT] },
   'rx-9060-xt-16gb': { all: [String.raw`rx\s*9060\s*xt`, String.raw`\b16\s*g`], none: [String.raw`\b8\s*gb?\b`, GPU_NOT] },
+  'rx-6600': { all: [String.raw`rx\s*6600\b`, String.raw`\b8\s*g`], none: [String.raw`6600\s*xt|\bxt\b`, GPU_NOT] },
+  'rx-6700-xt': { all: [String.raw`rx\s*6700\s*xt`, String.raw`12\s*g`], none: [GPU_NOT] },
+  'rtx-4060': { all: [String.raw`rtx\W*4060\b`, String.raw`\b8\s*g`], none: [String.raw`4060\s*ti|\bti\b`, GPU_NOT] },
+  'rtx-4070': { all: [String.raw`rtx\W*4070\b`, String.raw`12\s*g`], none: [String.raw`4070\s*(ti|super)|\bti\b|super`, GPU_NOT] },
   'arc-b580': { q: 'Intel Arc B580 12GB graphics card', all: [String.raw`\bb580\b`, String.raw`^(intel|asrock|sparkle|acer|gunnir|onix|maxsun)\b`], none: [String.raw`\bb570\b|\bpro\b`, GPU_NOT] },
 
   // ---- processors
@@ -42,6 +46,10 @@ export const RULES = {
   'ryzen-5-7600': { all: [String.raw`ryzen\W*5\s*7600\b`], none: [String.raw`7600x`, CPU_NOT] },
   'core-ultra-7-265k': { all: [String.raw`^intel`, String.raw`ultra\s*7\b`, String.raw`\b265k\b`], none: [String.raw`265kf|270k`, CPU_NOT] },
   'core-ultra-5-245k': { all: [String.raw`^intel`, String.raw`ultra\s*5\b`, String.raw`\b245k\b`], none: [String.raw`245kf|250k`, CPU_NOT] },
+  'ryzen-7-5800x3d': { all: [String.raw`ryzen\W*7\s*5800x3d\b`], none: [String.raw`anniversary`, CPU_NOT] },
+  'ryzen-7-5800x': { all: [String.raw`ryzen\W*7\s*5800x\b`], none: [CPU_NOT] },
+  'ryzen-7-8700f': { all: [String.raw`ryzen\W*7\s*8700f\b`], none: [CPU_NOT] },
+  'core-i9-14900k': { all: [String.raw`^intel`, String.raw`i9-?\s*14900k\b`], none: [String.raw`14900kf|14900ks`, CPU_NOT] },
   'ryzen-7-5700x3d': { all: [String.raw`ryzen\W*7\s*5700x3d\b`], none: [CPU_NOT] },
 
   // ---- CPU coolers

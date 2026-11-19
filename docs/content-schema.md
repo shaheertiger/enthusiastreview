@@ -186,3 +186,41 @@ An array. Page: `/compare/<a>-vs-<b>/`. The spec table, scores and links are gen
 
 `graphics-cards`, `processors`, `cpu-coolers`, `power-supplies`, `pc-cases`, `memory`,
 `motherboards`, `storage` (see `src/data/categories.ts`).
+
+---
+
+## 6. Articles (how-tos, fixes, explainers, X vs Y) — `src/data/guides/<slug>.json` with `"type": "article"`
+
+Same folder and root URL as guides (`/how-to-update-nvidia-drivers/`), but no picks. For searches that
+want an answer, not a shopping list.
+
+```jsonc
+{
+  "slug": "how-to-update-nvidia-drivers",
+  "type": "article",
+  "kind": "howto",                      // "howto" | "fix" | "explainer" | "versus"
+  "category": "graphics-cards",
+  "title": "How to Update NVIDIA Drivers: 3 Ways, Step by Step",  // 50–62 chars, the search first; no year on how-tos/fixes
+  "h1": "How to Update NVIDIA Drivers",
+  "query": "how to update nvidia drivers",
+  "description": "140–158 chars, the answer first (with a number where natural).",
+  "dek": "One sentence.",
+  "quickAnswer": "40–80 words: the answer itself (for a how-to: the fastest method in one or two sentences).",
+  "intro": ["40–80 words: who this is for, what the page covers."],
+  "steps": [                            // optional; howto/fix pages: the main procedure
+    { "h": "Open the NVIDIA App", "body": ["what to click, what you should see"] }
+  ],
+  "stepsHeading": "How to Update NVIDIA Drivers, Step by Step",  // optional H2 above the steps
+  "sections": [ { "h": "Question heading?", "body": [], "list": [], "table": {} } ],  // 5–9, mostly questions
+  "mistakes": [["Short title", "40–60 words."]],   // optional, 3–5
+  "bottomLine": "60–100 words.",
+  "faqs": [{ "q": "", "a": "" }],       // 6–8
+  "sources": ["NVIDIA support article: ...", "..."],
+  "products": ["rtx-5070"],             // optional product ids to show under "Parts mentioned"
+  "related": ["guide-or-article-slug"]  // 3
+}
+```
+
+Length 1,800–3,500 words. Fix pages: causes in order of likelihood, each as an H2 phrased as the symptom,
+a "when to RMA or replace" section, and a safety note where hardware is opened. Step text must match the
+current software's real menu names; if unsure of an exact label, describe it plainly instead of inventing one.

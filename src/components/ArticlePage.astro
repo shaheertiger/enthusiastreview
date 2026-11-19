@@ -1,0 +1,174 @@
+---
+// How-tos, fixes, explainers and X-vs-Y articles (type "article" in src/data/guides/).
+// Skeleton: H1 → Short Answer (first H2, the Bing rule) → lede → steps → question sections
+// → mistakes → bottom line → FAQ → sources → parts mentioned → related.
+import Base from '../layouts/Base.astro';
+import Crumbs from './Crumbs.astro';
+import CatIcon from './CatIcon.astro';
+import ProductImage from './ProductImage.astro';
+import Score from './Score.astro';
+import BuyButton from './BuyButton.astro';
+import FaqList from './FaqList.astro';
+import { SITE } from '../data/site';
+import { getAuthor, authorSchema } from '../data/authors';
+import {
+  GUIDES, getGuide, getProduct, categoryOf, guidePath, productPath, guideUpdated, guidePublished, fmtDate, priceBand,
+  readMinutes, guideText, newCtx, inline, plain, slugify, type Guide, type Product,
+} from '../lib/data';
+
+interface Props { g: Guide }
+const { g } = Astro.props;
+const path = guidePath(g);
+const ctx = newCtx(path);
+const cat = categoryOf(g.category);
+const author = getAuthor(g.author);
+const updated = guideUpdated(g);
+const published = guidePublished(g);
+const products = (g.products ?? []).map(getProduct).filter((p): p is Product => Boolean(p));
+const related = (g.related ?? []).map(getGuide).filter((x): x is Guide => Boolean(x && !x.noindex));
+const more = GUIDES.filter((x) => x.slug !== g.slug && x.type === 'article' && !related.includes(x)).slice(0, 3);
+const kindLabel = { howto: 'How-To', fix: 'Fix', explainer: 'Explainer', versus: 'Head to Head' }[g.kind ?? 'explainer'];
+const stepsHeading = g.stepsHeading ?? `${g.h1}, Step by Step`;
+const outline: [string, string][] = [
+  ['short-answer', `${g.h1}: The Short Answer`],
+  ...(g.steps?.length ? [['steps', stepsHeading] as [string, string]] : []),
+  ...g.sections.map((s) => [slugify(s.h), s.h] as [string, string]),
+  ...(g.mistakes?.length ? [['mistakes', 'Common Mistakes to Avoid'] as [string, string]] : []),
+  ['bottom-line', 'The Bottom Line'],
+  ['faq', 'Frequently Asked Questions'],
+  ['sources', 'Sources'],
+];
+const crumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Guides', href: '/best-of/#guides' },
+  { name: g.h1, href: path },
+];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article',
+      headline: g.h1,
+      description: g.description,
+      datePublished: published,
+      dateModified: updated,
+      author: authorSchema(g.author),
+      publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: { '@type': 'ImageObject', url: `${SITE.url}/favicon.svg` } },
+      mainEntityOfPage: `${SITE.url}${path}`,
+      about: cat.label,
+    },
+    { '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: `${SITE.url}${c.href}` })) },
+    { '@type': 'FAQPage', mainEntity: g.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) },
+  ],
+};
+---
+<Base title={g.title} description={g.description} ogImage={products[0]?.image} ogType="article" article={{ published, modified: updated, section: cat.label }} jsonLd={jsonLd} noindex={g.noindex}>
+  <article class="article">
+    <header class="a-head col">
+      <Crumbs items={crumbs} />
+      <div class="kicker">{cat.label} · {kindLabel}</div>
+      <h1 class="a-title">{g.h1}</h1>
+      <p class="dek" set:html={inline(g.dek)} />
+      <div class="byline">
+        By <a href={`/authors/${author.slug}/`}>{author.name}</a> · Updated <time datetime={updated}>{fmtDate(updated)}</time> · {readMinutes(guideText(g))} min read
+      </div>
+    </header>
+
+    <div class="col body numbered">
+      <h2 id="short-answer">{g.h1}: The Short Answer</h2>
+      <div class="answer-box"><p set:html={inline(g.quickAnswer, ctx)} /></div>
+      {g.intro.map((t) => <p set:html={inline(t, ctx)} />)}
+    </div>
+
+    <div class="col">
+      <nav class="toc" aria-label="On this page">
+        <p class="mini">On this page</p>
+        <ol>{outline.map(([id, h]) => <li><a href={`#${id}`}>{h}</a></li>)}</ol>
+      </nav>
+    </div>
+
+    <div class="col body numbered">
+      {g.steps?.length && (
+        <>
+          <h2 id="steps">{stepsHeading}</h2>
+          <ol class="howto-steps">
+            {g.steps.map((s) => (
+              <li>
+                <h3>{s.h}</h3>
+                {s.body.map((t) => <p set:html={inline(t, ctx)} />)}
+              </li>
+            ))}
+          </ol>
+        </>
+      )}
+
+      {g.sections.map((s) => (
+        <>
+          <h2 id={slugify(s.h)}>{s.h}</h2>
+          {(s.body ?? []).map((t) => <p set:html={inline(t, ctx)} />)}
+          {s.list?.length && <ul>{s.list.map((t) => <li set:html={inline(t, ctx)} />)}</ul>}
+          {s.table && (
+            <div class="table-wrap">
+              <table>
+                {s.table.caption && <caption>{s.table.caption}</caption>}
+                <thead><tr>{s.table.head.map((h) => <th>{h}</th>)}</tr></thead>
+                <tbody>{s.table.rows.map((r) => <tr>{r.map((c) => <td set:html={inline(c)} />)}</tr>)}</tbody>
+              </table>
+            </div>
+          )}
+        </>
+      ))}
+
+      {g.mistakes?.length && (
+        <>
+          <h2 id="mistakes">Common Mistakes to Avoid</h2>
+          {g.mistakes.map(([k, v]) => (
+            <>
+              <h3>{k}</h3>
+              <p set:html={inline(v, ctx)} />
+            </>
+          ))}
+        </>
+      )}
+
+      <h2 id="bottom-line">The Bottom Line</h2>
+      <p set:html={inline(g.bottomLine, ctx)} />
+
+      <h2 id="faq">Frequently Asked Questions</h2>
+      <FaqList faqs={g.faqs} ctx={ctx} />
+
+      <h2 id="sources">Sources</h2>
+      <ul>{g.sources.map((s) => <li set:html={inline(s)} />)}</ul>
+      <p class="fine">Steps and menu names checked against the vendors' current software and support pages as of <time datetime={updated}>{fmtDate(updated)}</time>. Spotted a change? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+    </div>
+
+    {products.length > 0 && (
+      <div class="col">
+        <h2 class="section-title" id="parts">Parts Mentioned</h2>
+        <div class="mentioned">
+          {products.map((p) => (
+            <div class="mentioned-row">
+              <ProductImage p={p} size={64} />
+              <div><a href={productPath(p)}>{p.name}</a><span class="fine"> · {priceBand(p)}</span></div>
+              <Score value={p.score.overall} />
+              <BuyButton p={p} label="Price" small />
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <aside class="wrap related">
+      <h2 class="section-title">Related</h2>
+      <div class="grid grid-3">
+        {[...related, ...more].slice(0, 6).map((r) => (
+          <a class="card" href={guidePath(r)}>
+            <CatIcon cat={r.category} size={44} />
+            <span class="card-k">{r.type === 'article' ? 'Guide' : r.type === 'brand' ? 'Brand Review' : categoryOf(r.category).label}</span>
+            <h3>{r.h1}</h3>
+          </a>
+        ))}
+      </div>
+    </aside>
+  </article>
+</Base>

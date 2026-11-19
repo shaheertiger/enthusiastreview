@@ -16,7 +16,7 @@ export function GET() {
     ...GUIDES.map((g) => ({
       loc: guidePath(g),
       lastmod: guideUpdated(g),
-      images: g.picks.map((pk) => getProduct(pk.id)).filter((p) => p?.image).map((p) => ({ loc: p!.image!, title: p!.name })),
+      images: (g.picks ?? []).map((pk) => getProduct(pk.id)).filter((p) => p?.image).map((p) => ({ loc: p!.image!, title: p!.name })),
     })),
     ...PRODUCTS.map((p) => ({ loc: productPath(p), lastmod: productUpdated(p), images: p.image ? [{ loc: p.image, title: p.name }] : [] })),
     ...COMPARES.map((c) => ({ loc: comparePath(c), lastmod: compareUpdated() })),

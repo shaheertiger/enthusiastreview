@@ -104,9 +104,12 @@ for (const p of products) {
 const targets = new Map();
 for (const g of guides) {
   const w = `guide ${g.slug ?? g._file}`;
-  need(w, g, ['slug', 'type', 'category', 'title', 'h1', 'description', 'dek', 'intro', 'quickAnswer', 'picks', 'tableSpecs', 'ranking', 'sections', 'mistakes', 'bottomLine', 'faqs', 'sources']);
+  const isArticle = g.type === 'article';
+  need(w, g, ['slug', 'type', 'category', 'title', 'h1', 'description', 'dek', 'intro', 'quickAnswer', 'sections', 'bottomLine', 'faqs', 'sources', ...(isArticle ? ['kind'] : ['picks', 'tableSpecs', 'ranking', 'mistakes'])]);
   if (`${g.slug}.json` !== g._file) err(w, `slug must match file name ${g._file}`);
-  if (!['roundup', 'brand'].includes(g.type)) err(w, `type must be roundup or brand`);
+  if (!['roundup', 'brand', 'article'].includes(g.type)) err(w, `type must be roundup, brand or article`);
+  if (isArticle && !['howto', 'fix', 'explainer', 'versus'].includes(g.kind)) err(w, 'kind must be howto, fix, explainer or versus');
+  for (const id of g.products ?? []) if (!byId.has(id)) err(w, `products: "${id}" is not a product`);
   if (!CATS.includes(g.category)) err(w, `unknown category ${g.category}`);
   if (g.type === 'brand' && !brands[g.brand]) err(w, `brand page needs a known "brand"`);
   if (ROUTES.has(`/${g.slug}/`) && ['best-of', 'gear', 'compare', 'glossary', 'brands', 'tools', 'about', 'contact', 'privacy', 'disclosure', 'how-we-review'].includes(g.slug)) err(w, 'slug collides with a site route');
@@ -129,7 +132,7 @@ for (const g of guides) {
   for (const m of g.mentions ?? []) if (m.id && !byId.has(m.id)) err(w, `mention "${m.id}" is not a product`);
   if ((g.faqs ?? []).length < 6) warn(w, `${(g.faqs ?? []).length} FAQs (target 6-8)`);
   const words = JSON.stringify(g).split(/\s+/).length;
-  if (words < 2200) warn(w, `about ${words} words (target 2,800+)`);
+  if (words < (isArticle ? 1500 : 2200)) warn(w, `about ${words} words (target ${isArticle ? '1,800' : '2,800'}+)`);
   if (!g.noindex) {
     const t = (g.query ?? g.title.split(/\s*[(:?]/)[0]).toLowerCase().trim();
     if (targets.has(t)) err(w, `targets the same search as ${targets.get(t)} ("${t}"): merge one into the other`);

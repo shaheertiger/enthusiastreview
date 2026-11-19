@@ -2,9 +2,9 @@
   "slug": "best-graphics-card-for-1440p",
   "type": "roundup",
   "category": "graphics-cards",
-  "title": "Best Graphics Card for 1440p (2026): 6 GPUs Ranked by Value",
+  "title": "Best GPU for 1440p (2026): 6 Graphics Cards Ranked by Value",
   "h1": "Best Graphics Card for 1440p",
-  "query": "best graphics card for 1440p",
+  "query": "best gpu for 1440p",
   "description": "The RX 9070 XT is the best graphics card for 1440p: 16 GB and near RTX 5070 Ti speed for $600–$730. 6 GPUs ranked by refresh rate, VRAM and ray tracing.",
   "dek": "Six cards sorted by what a 1440p monitor actually asks for: frame rate at your refresh, enough memory and good upscaling.",
   "intro": [
@@ -24,8 +24,16 @@
         "FSR 4 is the second reason RDNA 4 finally competes at the high end. Reviewers rate it a large improvement over FSR 3 and close to DLSS in Quality mode at 1440p, though it is available in fewer titles. Ray tracing is much better than on the RX 7000 series, but in path-traced games the RTX 5070 Ti stays clearly ahead.",
         "Budget for a 750 W supply, since AMD rates the card at 304 W, and check case length: many partner models are large."
       ],
-      "pros": ["16 GB for long-term 1440p", "Near RTX 5070 Ti raster performance", "FSR 4 image quality", "Standard 8-pin power on most cards"],
-      "cons": ["304 W, needs 750 W", "Weaker in path-traced games"]
+      "pros": [
+        "16 GB for long-term 1440p",
+        "Near RTX 5070 Ti raster performance",
+        "FSR 4 image quality",
+        "Standard 8-pin power on most cards"
+      ],
+      "cons": [
+        "304 W, needs 750 W",
+        "Weaker in path-traced games"
+      ]
     },
     {
       "id": "rtx-5070",
@@ -37,8 +45,15 @@
         "DLSS 4 is the deciding feature at this resolution. In Quality mode the card renders internally at 960p and reconstructs a 1440p image that reviewers rate as nearly indistinguishable from native in most games. That alone can lift frame rates enough to fill a 165 Hz panel in demanding titles, and multi frame generation goes further for players who accept the latency trade.",
         "Independent reviews show it trading blows with the RX 9070 when ray tracing is off and pulling ahead when it is on. What holds it back is memory: 12 GB covers 1440p now, yet it is the spec most likely to force a settings cut as new releases grow, which is why the 16 GB RX 9070 XT ranks above it here. If you replace cards every three years, that limit may never matter to you."
       ],
-      "pros": ["DLSS 4 in hundreds of games", "250 W on a 650 W supply", "Better ray tracing than the RX 9070"],
-      "cons": ["12 GB is tight for future 1440p", "Behind the RX 9070 XT in raster"]
+      "pros": [
+        "DLSS 4 in hundreds of games",
+        "250 W on a 650 W supply",
+        "Better ray tracing than the RX 9070"
+      ],
+      "cons": [
+        "12 GB is tight for future 1440p",
+        "Behind the RX 9070 XT in raster"
+      ]
     },
     {
       "id": "rtx-5070-ti",
@@ -50,8 +65,15 @@
         "In raster-only games it lands close to the RX 9070 XT, so you are paying $100 to $200 more almost entirely for ray tracing, DLSS coverage and NVIDIA's software ecosystem. In path-traced showcases like Cyberpunk 2077's Overdrive mode and Alan Wake 2, independent reviews show a lead large enough that the 5070 Ti is playable where the AMD card is not, especially with DLSS 4 frame generation filling in.",
         "It also brings the 16 GB that the RTX 5070 lacks, so it avoids that card's long-term memory concern. For a 1440p 240 Hz monitor in demanding single-player games, this is the most balanced high-end option. If your library is mostly competitive shooters or raster titles, the RX 9070 XT delivers similar frame rates for less."
       ],
-      "pros": ["Best ray tracing under $1,000", "16 GB of GDDR7", "DLSS 4 frame generation"],
-      "cons": ["$100–$200 over the RX 9070 XT", "Little raster advantage for the price"]
+      "pros": [
+        "Best ray tracing under $1,000",
+        "16 GB of GDDR7",
+        "DLSS 4 frame generation"
+      ],
+      "cons": [
+        "$100–$200 over the RX 9070 XT",
+        "Little raster advantage for the price"
+      ]
     },
     {
       "id": "rx-9070",
@@ -63,8 +85,15 @@
         "That efficiency pays off in smaller cases and on existing 650 W supplies. Partner cards tend to run cooler and quieter than XT models with similar coolers, and the lower draw makes it a sensible choice for micro-ATX builds where airflow is limited.",
         "The only real problem is its sibling. At $550–$620 it often lands near enough to the XT's price that the extra speed costs very little. When the gap is $80 or more, the RX 9070 is the smarter buy, and it still runs high-refresh 1440p at high settings in most games, with FSR 4 helping in the heaviest ones."
       ],
-      "pros": ["220 W with 16 GB", "Slightly ahead of the RTX 5070 in raster", "Cool and quiet in small cases"],
-      "cons": ["Often priced too close to the RX 9070 XT", "Ray tracing trails NVIDIA"]
+      "pros": [
+        "220 W with 16 GB",
+        "Slightly ahead of the RTX 5070 in raster",
+        "Cool and quiet in small cases"
+      ],
+      "cons": [
+        "Often priced too close to the RX 9070 XT",
+        "Ray tracing trails NVIDIA"
+      ]
     },
     {
       "id": "rtx-5060-ti-16gb",
@@ -76,8 +105,15 @@
         "Its weak spot at this resolution is the 128-bit memory bus. The card has plenty of memory but less bandwidth than the 256-bit cards above, so it runs out of speed before it runs out of VRAM. DLSS 4 is what makes it work: Quality or Balanced mode recovers enough performance for smooth play in most new games.",
         "On PCIe 4.0 and 5.0 boards its eight-lane connection costs nothing worth noticing. On older PCIe 3.0 platforms it gives up a few percent. If you are already near $550, the RX 9070 is a much bigger step than the price gap suggests, so treat this card as the ceiling for buyers who cannot reach that tier."
       ],
-      "pros": ["16 GB at under $500", "DLSS 4 makes 1440p workable", "180 W, small and quiet"],
-      "cons": ["128-bit bus limits high refresh", "Big performance gap to the RX 9070"]
+      "pros": [
+        "16 GB at under $500",
+        "DLSS 4 makes 1440p workable",
+        "180 W, small and quiet"
+      ],
+      "cons": [
+        "128-bit bus limits high refresh",
+        "Big performance gap to the RX 9070"
+      ]
     },
     {
       "id": "rtx-5080",
@@ -89,19 +125,48 @@
         "Outside that setup it is hard to recommend for this resolution. Independent reviews show its lead over the RTX 5070 Ti shrinking at 1440p, because more games hit a CPU limit before the GPU runs out of room. At $1,000–$1,300 it costs several hundred dollars more than the 5070 Ti for a gain many players will struggle to see.",
         "It does make a sensible bridge for anyone planning a 4K monitor soon, since it is the first NVIDIA card here built with 4K in mind. It needs an 850 W supply and a well-ventilated case. Pair it with a CPU from our [best CPU for gaming](/best-cpu-for-gaming/) list; anything older will hold it back at 1440p."
       ],
-      "pros": ["Highest 1440p frame rates here", "Handles maxed ray tracing", "Ready for a later 4K monitor"],
-      "cons": ["Often CPU-limited at 1440p", "Poor value next to the RTX 5070 Ti", "360 W, 850 W PSU"]
+      "pros": [
+        "Highest 1440p frame rates here",
+        "Handles maxed ray tracing",
+        "Ready for a later 4K monitor"
+      ],
+      "cons": [
+        "Often CPU-limited at 1440p",
+        "Poor value next to the RTX 5070 Ti",
+        "360 W, 850 W PSU"
+      ]
     }
   ],
-  "tableSpecs": ["VRAM", "Board power", "Memory bus", "Boost clock", "Upscaling"],
+  "tableSpecs": [
+    "VRAM",
+    "Board power",
+    "Memory bus",
+    "Boost clock",
+    "Upscaling"
+  ],
   "ranking": {
     "intro": "Rankings draw on official specifications, independent 1440p reviews from established outlets and owner reports. Enthusiast Review has not bench-tested these cards. Relative performance statements follow what reviewers widely agree on at 1440p, and prices are 2026 street-price bands rather than list prices.",
     "criteria": [
-      ["1440p performance per dollar", "How each card's reviewed 1440p results compare against its street price."],
-      ["VRAM headroom", "16 GB cards earned extra credit because 1440p with high textures already exceeds 12 GB in some 2026 games."],
-      ["Refresh-rate fit", "Cards were matched to the refresh rate they can realistically hold, from 60 Hz to 360 Hz panels."],
-      ["Upscaling quality", "DLSS 4 and FSR 4 quality at 1440p, plus how many games support each, weighed heavily."],
-      ["Power and noise", "Board power, PSU needs and how hot partner models run affected the ranking where performance was close."]
+      [
+        "1440p performance per dollar",
+        "How each card's reviewed 1440p results compare against its street price."
+      ],
+      [
+        "VRAM headroom",
+        "16 GB cards earned extra credit because 1440p with high textures already exceeds 12 GB in some 2026 games."
+      ],
+      [
+        "Refresh-rate fit",
+        "Cards were matched to the refresh rate they can realistically hold, from 60 Hz to 360 Hz panels."
+      ],
+      [
+        "Upscaling quality",
+        "DLSS 4 and FSR 4 quality at 1440p, plus how many games support each, weighed heavily."
+      ],
+      [
+        "Power and noise",
+        "Board power, PSU needs and how hot partner models run affected the ranking where performance was close."
+      ]
     ],
     "why": "The RX 9070 XT won because it combines near RTX 5070 Ti raster speed with 16 GB of VRAM for $600–$730, the best balance of frame rate and longevity at 1440p."
   },
@@ -125,12 +190,32 @@
       ],
       "table": {
         "caption": "VRAM at 1440p in 2026",
-        "head": ["VRAM", "1440p experience", "Cards"],
+        "head": [
+          "VRAM",
+          "1440p experience",
+          "Cards"
+        ],
         "rows": [
-          ["8 GB", "Medium textures in many new games; stutter risk at high", "RTX 5060"],
-          ["12 GB", "High textures today; tight with RT and frame generation", "RTX 5070, Arc B580"],
-          ["16 GB", "Comfortable for high and ultra textures for years", "RX 9070 XT, RX 9070, RTX 5070 Ti, RTX 5080, RTX 5060 Ti 16GB"],
-          ["32 GB", "Far beyond gaming needs; useful for AI and 3D work", "RTX 5090"]
+          [
+            "8 GB",
+            "Medium textures in many new games; stutter risk at high",
+            "RTX 5060"
+          ],
+          [
+            "12 GB",
+            "High textures today; tight with RT and frame generation",
+            "RTX 5070, Arc B580"
+          ],
+          [
+            "16 GB",
+            "Comfortable for high and ultra textures for years",
+            "RX 9070 XT, RX 9070, RTX 5070 Ti, RTX 5080, RTX 5060 Ti 16GB"
+          ],
+          [
+            "32 GB",
+            "Far beyond gaming needs; useful for AI and 3D work",
+            "RTX 5090"
+          ]
         ]
       }
     },
@@ -142,12 +227,32 @@
       ],
       "table": {
         "caption": "Matching a GPU to a 1440p refresh rate",
-        "head": ["1440p monitor", "Card tier", "Notes"],
+        "head": [
+          "1440p monitor",
+          "Card tier",
+          "Notes"
+        ],
         "rows": [
-          ["60–100 Hz", "RTX 5060 Ti 16GB", "Medium-high settings, DLSS helps"],
-          ["144–165 Hz", "RTX 5070 or RX 9070", "High settings, upscaling in heavy games"],
-          ["165–240 Hz", "RX 9070 XT or RTX 5070 Ti", "High to ultra; 5070 Ti for ray tracing"],
-          ["240–360 Hz", "RTX 5080 with a top CPU", "Competitive titles; CPU sets the ceiling"]
+          [
+            "60–100 Hz",
+            "RTX 5060 Ti 16GB",
+            "Medium-high settings, DLSS helps"
+          ],
+          [
+            "144–165 Hz",
+            "RTX 5070 or RX 9070",
+            "High settings, upscaling in heavy games"
+          ],
+          [
+            "165–240 Hz",
+            "RX 9070 XT or RTX 5070 Ti",
+            "High to ultra; 5070 Ti for ray tracing"
+          ],
+          [
+            "240–360 Hz",
+            "RTX 5080 with a top CPU",
+            "Competitive titles; CPU sets the ceiling"
+          ]
         ]
       }
     },
@@ -182,11 +287,26 @@
     }
   ],
   "mistakes": [
-    ["Choosing 12 GB for a five-year card", "The RTX 5070 is excellent today, but at 1440p 12 GB will be the first limit it hits as games grow. If you replace cards rarely, a 16 GB card like the RX 9070 XT or RTX 5070 Ti is the safer long-term buy."],
-    ["Buying a 360 Hz monitor for single-player games", "Very high refresh rates help competitive shooters, but demanding single-player releases will not approach 360 FPS on any card without heavy frame generation. A 165 Hz panel with better color and contrast often suits those players better, and costs less too."],
-    ["Ignoring the CPU at high refresh", "At 1440p 240 Hz the processor often sets the frame-rate ceiling. Pairing an RTX 5080 with a Ryzen 5 3600 wastes much of the card. Check the pairing first and upgrade the CPU if the gap is large, since a faster card cannot fix a CPU limit."],
-    ["Leaving upscaling off on principle", "At 1440p, DLSS 4 and FSR 4 Quality modes look close to native in most games and add a large frame-rate boost. Refusing to use them often means buying a far more expensive card for a difference few people can see."],
-    ["Underrating the power supply", "The RX 9070 XT and RTX 5070 Ti both want 750 W. Pushing them on an aging 600 W unit invites crashes under transient load. Run your parts through the [PSU calculator](/tools/psu-calculator/) before ordering, and replace any unit older than about eight years."]
+    [
+      "Choosing 12 GB for a five-year card",
+      "The RTX 5070 is excellent today, but at 1440p 12 GB will be the first limit it hits as games grow. If you replace cards rarely, a 16 GB card like the RX 9070 XT or RTX 5070 Ti is the safer long-term buy."
+    ],
+    [
+      "Buying a 360 Hz monitor for single-player games",
+      "Very high refresh rates help competitive shooters, but demanding single-player releases will not approach 360 FPS on any card without heavy frame generation. A 165 Hz panel with better color and contrast often suits those players better, and costs less too."
+    ],
+    [
+      "Ignoring the CPU at high refresh",
+      "At 1440p 240 Hz the processor often sets the frame-rate ceiling. Pairing an RTX 5080 with a Ryzen 5 3600 wastes much of the card. Check the pairing first and upgrade the CPU if the gap is large, since a faster card cannot fix a CPU limit."
+    ],
+    [
+      "Leaving upscaling off on principle",
+      "At 1440p, DLSS 4 and FSR 4 Quality modes look close to native in most games and add a large frame-rate boost. Refusing to use them often means buying a far more expensive card for a difference few people can see."
+    ],
+    [
+      "Underrating the power supply",
+      "The RX 9070 XT and RTX 5070 Ti both want 750 W. Pushing them on an aging 600 W unit invites crashes under transient load. Run your parts through the [PSU calculator](/tools/psu-calculator/) before ordering, and replace any unit older than about eight years."
+    ]
   ],
   "bottomLine": "The RX 9070 XT is the best 1440p card for most people in 2026, because 16 GB and near RTX 5070 Ti raster speed for $600–$730 cover both today's frame rates and tomorrow's textures. Choose the RTX 5070 if you prefer DLSS 4 and a lower power draw, the RTX 5070 Ti if ray tracing is a priority, and the RX 9070 for quiet, efficient builds. Only very fast monitors with top CPUs justify the RTX 5080 at this resolution.",
   "faqs": [
@@ -227,5 +347,9 @@
     "Owner reports on partner-card noise and temperatures from retailer reviews and forums",
     "NVIDIA and AMD upscaler game-support lists"
   ],
-  "related": ["best-graphics-card", "best-cpu-for-gaming", "best-budget-graphics-card"]
+  "related": [
+    "best-graphics-card",
+    "best-cpu-for-gaming",
+    "best-budget-graphics-card"
+  ]
 }

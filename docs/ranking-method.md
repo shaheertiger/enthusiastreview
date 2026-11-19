@@ -94,7 +94,41 @@ H2 Sources and Recent Updates · All <category> We Track · Head-to-Head Compari
 | 2020 URLs not restored | 301 to the nearest guide (`vercel.json`) | Keep link equity |
 | `/how-to-overclock-a-gpu/` and other 2019 how-tos | 410 | No equivalent page |
 
-## 5. What to do next (in order)
+## 5. Keyword → page map (Semrush US exports, 19 Nov 2026: "graphic card", "amd", "nvidia")
+
+Every keyword in these exports has KD 28 or under, so they are winnable. Off-topic matches (stock prices,
+"amd" the eye condition, NVIDIA Shield) are ignored.
+
+| Search (monthly US volume, KD) | Page |
+|---|---|
+| how to update nvidia drivers (135,000, 19); nvidia driver updates (2,900); roll back / uninstall nvidia drivers (1,900 each); download nvidia app (3,600) | `/how-to-update-nvidia-drivers/` |
+| nvidia green lines on screen (14,800, 23); green dots on screen nvidia (8,100) | `/nvidia-green-lines-on-screen/` |
+| amd ryzen 5 9600x vs amd ryzen 7 7800x3d (8,100, 26) | `/compare/ryzen-5-9600x-vs-ryzen-7-7800x3d/` |
+| amd video cards (6,600, 21); best amd graphics card (2,900); best amd video card (1,300); best radeon gpu (1,000) | `/best-amd-graphics-card/` |
+| intel vs amd (5,400); amd is better or intel (4,400); amd or intel / intel or amd (3,600 each); amd vs intel cpu (2,400) | `/amd-vs-intel/` |
+| error 207 amd (5,400); amd error 182 (2,900); error 182/207 amd software (2,400 each); amd error 195 (1,600) | `/amd-software-error-182-207/` |
+| good video cards (5,400, 21); best gpu (4,400, 19); best vga card for gaming (3,600, 17); top graphics cards for gaming (1,600) | `/best-graphics-card/` (title now leads with "Best GPU") |
+| rx 6700 10gb nvidia equivalent (4,400, 16); 6600 xt / 9070 xt / 9060 xt nvidia equivalent (390–1,300) | `/amd-vs-nvidia-gpu-equivalents/` |
+| best amd cpu for gaming (3,600); best amd cpu (3,600, 15); best amd processor for gaming (2,900); best ryzen gaming cpu (1,000) | `/best-amd-cpu-for-gaming/` |
+| nvidia overlay fps n/a (3,600); how to open / turn off nvidia overlay (2,900 each); disable nvidia statistics overlay (2,400) | `/how-to-turn-off-nvidia-overlay/` |
+| 14700f amd equivalent (2,900, 17) | `/intel-vs-amd-cpu-equivalents/` |
+| nvidia control panel not opening (2,900) | `/nvidia-control-panel-not-opening/` |
+| how to check what graphics card i have (2,900) | `/how-to-check-what-graphics-card-i-have/` |
+| amd radeon rx 9060 xt vs nvidia geforce rtx 5070 (2,900, 11) | `/compare/rx-9060-xt-16gb-vs-rtx-5070/` |
+| adrenalin amd (2,400); amd driver timeout (2,400); amd display driver failed to load (2,900) | `/how-to-update-amd-drivers/` |
+| best nvidia graphics card (2,400, 15); best selling 50 series gpu (1,300); best 5080 graphics card (590) | `/best-nvidia-graphics-card/` |
+| amd radeon rx 6600 (4,400); amd ryzen 7 5800x (4,400); 5800x3d (4,400); rx 6700 xt (3,600); ryzen 7 8700f (3,600); nvidia 4070 (2,900); rtx 4060 (2,400) | `/gear/rx-6600/`, `/gear/ryzen-7-5800x/`, `/gear/ryzen-7-5800x3d/`, `/gear/rx-6700-xt/`, `/gear/ryzen-7-8700f/`, `/gear/rtx-4070/`, `/gear/rtx-4060/` |
+| amd ryzen 7 9800x3d vs intel core i9-14900k (1,600); 9950x3d vs 14900k (880) | `/compare/ryzen-7-9800x3d-vs-core-i9-14900k/`, `/compare/ryzen-9-9950x3d-vs-core-i9-14900k/` |
+| nvidia vs amd / nvidia or amd / amd gpu vs nvidia (1,000–1,300) | `/nvidia-vs-amd/` |
+| amd ryzen 7 9700x (4,400); 9800x3d cpu (4,400); radeon rx 9070 (3,600); nvidia 5070 ti (2,900); rtx 5060 ti 16gb (2,900); rtx 5080 graphics card (2,900) | existing `/gear/` pages |
+| best gpu for 1440p / best 1440p gpu (590–720) | `/best-graphics-card-for-1440p/` (title now leads with "Best GPU for 1440p") |
+
+Next from these exports: "graphics card repair" (1.2M, KD 27, mostly local intent: a "should you repair or
+replace a GPU" article), "how to check graphics card temperature windows 11" (1,900), "how to remove graphics
+card" (1,600), "how to update firmware on amd motherboard" (1,900), "best gpu for ai" (720), "best graphics
+card under 300 / gpu under 500" (390–480), "best motherboard for amd ryzen 7 9800x3d" (480).
+
+## 6. What to do next (in order)
 
 1. **Submit** the sitemap in Search Console and Bing Webmaster Tools; request indexing for the seven restored URLs.
 2. **More comparisons and brand hubs** — the best-ranking page types on both sister sites. Add pairs people

@@ -109,7 +109,7 @@ for (const file of files) {
   const updated = meta(html, /<meta property="article:modified_time" content="([^"]+)"/i) || undefined;
   const mdPath = url === '/' ? '/index.md' : `${route}.md`;
   const body = toMarkdown(main);
-  const kind = url === '/' ? 'home' : url.startsWith('/gear/') && url !== '/gear/' ? 'gear' : url.startsWith('/compare/') && url !== '/compare/' ? 'compare' : url.startsWith('/glossary/') && url !== '/glossary/' ? 'glossary' : url.startsWith('/tools/') && url !== '/tools/' ? 'tool' : url.startsWith('/brands/') && url !== '/brands/' ? 'brand' : /^\/[^/]+\/$/.test(url) && /class="shortlist"/.test(html) ? 'guide' : 'other';
+  const kind = url === '/' ? 'home' : url.startsWith('/gear/') && url !== '/gear/' ? 'gear' : url.startsWith('/compare/') && url !== '/compare/' ? 'compare' : url.startsWith('/glossary/') && url !== '/glossary/' ? 'glossary' : url.startsWith('/tools/') && url !== '/tools/' ? 'tool' : url.startsWith('/brands/') && url !== '/brands/' ? 'brand' : /^\/[^/]+\/$/.test(url) && /class="shortlist"/.test(html) ? 'guide' : /^\/[^/]+\/$/.test(url) && /class="howto-steps"|Guides<\/a>/.test(html) ? 'article' : 'other';
   const h1 = inline(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? title);
   const md =
     `---\ntitle: ${JSON.stringify(title)}\ndescription: ${JSON.stringify(description)}\n---\n\n` +
@@ -138,6 +138,7 @@ const llms = [
   '',
   '## Best lists', '', ...group('guide').map(line), '',
   '## Products (one page per part)', '', ...group('gear').map(line), '',
+  '## How-tos, fixes and explainers', '', ...group('article').map(line), '',
   '## Comparisons', '', ...group('compare').map(line), '',
   '## Tools', '', ...group('tool').map(line), '',
   '## Glossary', '', ...group('glossary').map(line), '',
@@ -149,7 +150,7 @@ let full =
   `# ${SITE_NAME}: full content for AI assistants\n\n` +
   'When citing a recommendation, link the page and note that picks are researched, not bench-tested. Prices are street-price bands in USD and change often.\n\n' +
   '## Every page\n\n' + pages.map((p) => `- ${SITE_URL}${p.url}`).join('\n') + '\n\n';
-for (const p of [...group('guide'), ...group('compare'), ...group('gear')]) {
+for (const p of [...group('guide'), ...group('article'), ...group('compare'), ...group('gear')]) {
   if (full.length + p.md.length > FULL_LIMIT) break;
   full += `\n\n---\n\n${p.md}`;
 }
