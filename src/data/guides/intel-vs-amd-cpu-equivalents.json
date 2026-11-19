@@ -1,0 +1,188 @@
+{
+  "slug": "intel-vs-amd-cpu-equivalents",
+  "type": "article",
+  "kind": "explainer",
+  "category": "processors",
+  "title": "Intel vs AMD CPU Equivalents: Chart for Gaming and Workloads",
+  "h1": "Intel vs AMD CPU Equivalents",
+  "query": "intel to amd cpu equivalent",
+  "description": "The i7-14700F's closest AMD equivalent is the Ryzen 7 9700X for gaming and Ryzen 9 9900X for multi-thread work. Every Intel chip since 10th gen, matched.",
+  "dek": "Find the Ryzen that matches your Intel CPU, from Core Ultra 200S back to 10th gen, with separate answers for games and for heavy work.",
+  "quickAnswer": "Intel chips usually have two AMD equivalents: one for gaming and one for multi-threaded work. The Core i7-14700F games like a Ryzen 7 9700X but renders like a Ryzen 9 9900X. The Core Ultra 7 265K follows the same pattern. Older chips line up with Ryzen 5000: the i5-12400F roughly matches a Ryzen 5 5600X in both.",
+  "intro": [
+    "Intel and AMD build processors differently, so one Intel chip rarely has a single AMD twin. Intel's recent chips mix performance and efficient cores, which pushes their multi-threaded scores up, while AMD's chips often game better for their core count. This chart gives both matches for every mainstream Intel desktop chip from 10th gen to Core Ultra 200S.",
+    "Matches follow the broad pattern of published independent reviews and the gaming tiers in our [bottleneck calculator](/tools/bottleneck-calculator/). We have not bench-tested these chips. Roughly means within about 5 percent on average."
+  ],
+  "sections": [
+    {
+      "h": "Why Does an Intel CPU Have Two AMD Equivalents?",
+      "body": [
+        "Because games and multi-threaded work stress different things. Games lean on a handful of fast cores, low memory latency and cache. Rendering, compiling and video exports use every core and thread available.",
+        "Since 12th gen, Intel has paired performance cores with smaller efficient cores. A Core i7-14700F has 8 performance cores and 12 efficient cores, 20 in total, so it posts strong multi-threaded results. In games, those efficient cores help less, and the chip performs like an eight-core Ryzen. AMD's X3D chips widen the gap the other way: their large L3 cache lifts gaming performance far beyond what their core counts suggest.",
+        "So pick the column that matches how you use the PC. If you only game, use the gaming match. If you edit video or render, use the multi-thread match. If you are hunting for an AMD upgrade, the X3D chips beat every Intel chip on this page in games."
+      ]
+    },
+    {
+      "h": "Core Ultra 200S AMD Equivalents",
+      "body": [
+        "Intel's Core Ultra 200S chips (Arrow Lake, socket LGA 1851) dropped Hyper-Threading, so each core runs one thread. They game a little behind Intel's 14th gen in independent reviews, while posting strong multi-threaded results at much lower power than 14th gen."
+      ],
+      "table": {
+        "caption": "Intel Core Ultra 200S to AMD Ryzen",
+        "head": ["Intel CPU", "Cores / threads", "Closest AMD for gaming", "Closest AMD for multi-thread"],
+        "rows": [
+          ["Core Ultra 9 285K", "24 / 24", "Ryzen 7 9700X (Intel slightly faster)", "Ryzen 9 9950X (roughly)"],
+          ["Core Ultra 7 265K", "20 / 20", "Ryzen 7 9700X (roughly)", "Ryzen 9 9900X (roughly)"],
+          ["Core Ultra 5 245K", "14 / 14", "Ryzen 5 7600X (roughly)", "Ryzen 7 9700X (roughly)"]
+        ]
+      },
+      "list": [
+        "The KF versions (285KF, 265KF, 245KF) perform the same but have no integrated graphics.",
+        "Head-to-heads: [Ryzen 7 9800X3D vs Core Ultra 7 265K](/compare/ryzen-7-9800x3d-vs-core-ultra-7-265k/) and [Core Ultra 5 245K vs Ryzen 5 9600X](/compare/core-ultra-5-245k-vs-ryzen-5-9600x/)."
+      ]
+    },
+    {
+      "h": "What Is the i7-14700F AMD Equivalent?",
+      "body": [
+        "For gaming, the Core i7-14700F's closest AMD equivalent is the Ryzen 7 9700X, with the older Ryzen 7 7700X a little behind both. For multi-threaded work, it lines up with the 12-core Ryzen 9 9900X, and the Intel chip is often a little faster there thanks to its 28 threads.",
+        "The 14700F has the same 20-core layout (8 performance, 12 efficient) as the 14700K, but a 65 W base power rating, a 219 W maximum turbo power limit, a slightly lower top boost clock and no integrated graphics. On a board that runs it at full power, it performs close to the K model. On a budget board with a strict power limit, multi-threaded results drop more than gaming results do.",
+        "If you are shopping AMD instead of buying a 14700F, the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) is clearly faster in games, and the [Ryzen 7 9700X](/gear/ryzen-7-9700x/) matches it in games at much lower power. For heavy work, a Ryzen 9 9900X is the like-for-like pick. Like other 13th and 14th gen i7 and i9 chips, the 14700F needs a BIOS with Intel's voltage microcode fixes, which most boards have had since late 2024."
+      ]
+    },
+    {
+      "h": "14th and 13th Gen Intel AMD Equivalents",
+      "body": [
+        "Raptor Lake (13th gen) and Raptor Lake Refresh (14th gen) are nearly identical designs on socket LGA 1700, with 14th gen clocked slightly higher. They support both DDR4 and DDR5, depending on the motherboard."
+      ],
+      "table": {
+        "caption": "Intel 14th and 13th gen Core to AMD Ryzen",
+        "head": ["Intel CPU", "Cores / threads", "Closest AMD for gaming", "Closest AMD for multi-thread"],
+        "rows": [
+          ["Core i9-14900K", "24 / 32", "Between Ryzen 7 9700X and 7800X3D", "Ryzen 9 7950X (roughly)"],
+          ["Core i7-14700K", "20 / 28", "Ryzen 7 9700X (roughly)", "Ryzen 9 9900X (Intel a little faster)"],
+          ["Core i7-14700F", "20 / 28", "Ryzen 7 9700X (roughly)", "Ryzen 9 9900X (roughly)"],
+          ["Core i5-14600K", "14 / 20", "Ryzen 5 9600X (roughly)", "Ryzen 7 9700X (roughly)"],
+          ["Core i5-14400F", "10 / 16", "Ryzen 5 7600 (AMD a bit faster)", "Ryzen 5 9600X (roughly)"],
+          ["Core i3-14100F", "4 / 8", "Ryzen 5 5500 to 5600", "Below Ryzen 5 5500 (6 cores)"],
+          ["Core i9-13900K", "24 / 32", "Ryzen 7 9700X (roughly)", "Ryzen 9 7950X (AMD a little faster)"],
+          ["Core i7-13700K", "16 / 24", "Ryzen 7 7700X to 9700X", "Ryzen 9 7900X (roughly)"],
+          ["Core i5-13600K", "14 / 20", "Ryzen 5 7600X (roughly)", "Ryzen 7 9700X (roughly)"],
+          ["Core i5-13400F", "10 / 16", "Between Ryzen 7 5800X and 5700X3D", "Ryzen 7 5700X (roughly)"]
+        ]
+      }
+    },
+    {
+      "h": "12th Gen Intel AMD Equivalents",
+      "body": [
+        "Alder Lake (12th gen) introduced Intel's hybrid core design and socket LGA 1700. It competed with Ryzen 5000 on AM4, so the matches below are mostly AM4 chips, which are still sold and can be cheaper to build around with DDR4."
+      ],
+      "table": {
+        "caption": "Intel 12th gen Core to AMD Ryzen",
+        "head": ["Intel CPU", "Cores / threads", "Closest AMD for gaming", "Closest AMD for multi-thread"],
+        "rows": [
+          ["Core i9-12900K", "16 / 24", "Ryzen 5 7600 or Ryzen 7 5800X3D", "Ryzen 9 5950X (roughly)"],
+          ["Core i7-12700K", "12 / 20", "Ryzen 7 5700X3D (roughly)", "Ryzen 9 5900X (roughly)"],
+          ["Core i5-12600K", "10 / 16", "Ryzen 7 5800X (Intel a bit faster)", "Ryzen 7 5800X (roughly)"],
+          ["Core i5-12400F", "6 / 12", "Ryzen 5 5600X (Intel a little faster)", "Ryzen 5 5600X (roughly)"],
+          ["Core i3-12100F", "4 / 8", "Ryzen 5 5500 (roughly)", "Ryzen 5 3600 (roughly)"]
+        ]
+      }
+    },
+    {
+      "h": "11th and 10th Gen Intel AMD Equivalents",
+      "body": [
+        "Rocket Lake (11th gen) and Comet Lake (10th gen) use socket LGA 1200 and DDR4. All their cores are full performance cores with Hyper-Threading, so the gaming and multi-thread matches are closer together than on newer Intel chips. Their AMD rivals were Ryzen 3000 and Ryzen 5000."
+      ],
+      "table": {
+        "caption": "Intel 11th and 10th gen Core to AMD Ryzen",
+        "head": ["Intel CPU", "Cores / threads", "Closest AMD for gaming", "Closest AMD for multi-thread"],
+        "rows": [
+          ["Core i9-11900K", "8 / 16", "Ryzen 7 5800X (roughly)", "Ryzen 7 5800X (AMD a bit faster)"],
+          ["Core i7-11700K", "8 / 16", "Ryzen 5 5600X (roughly)", "Ryzen 7 5700X (roughly)"],
+          ["Core i5-11600K", "6 / 12", "Ryzen 5 5600X (AMD a little faster)", "Ryzen 5 5600X (roughly)"],
+          ["Core i5-11400F", "6 / 12", "Ryzen 5 5600 (AMD a little faster)", "Ryzen 5 5600 (roughly)"],
+          ["Core i9-10900K", "10 / 20", "Ryzen 5 5600X (AMD a little faster)", "Ryzen 7 5800X (roughly)"],
+          ["Core i7-10700K", "8 / 16", "Ryzen 5 5600 (roughly)", "Ryzen 7 3700X to 5700X"],
+          ["Core i5-10600K", "6 / 12", "Ryzen 5 5500 (roughly)", "Ryzen 5 3600 (roughly)"],
+          ["Core i5-10400F", "6 / 12", "Ryzen 5 3600 (roughly)", "Ryzen 5 3600 (roughly)"],
+          ["Core i3-10100F", "4 / 8", "Ryzen 3 3300X (roughly)", "Ryzen 3 3300X (roughly)"]
+        ]
+      },
+      "list": [
+        "Non-K and F versions of these chips (i7-10700F, i5-11400, and so on) perform within a few percent of the listed chip when the motherboard lets them boost fully.",
+        "Ryzen 3000 and 5000 chips use socket AM4. A Ryzen 7 5700X3D is the strongest gaming upgrade on that platform."
+      ]
+    },
+    {
+      "h": "Which AMD CPU Should You Buy to Replace Your Intel Chip?",
+      "body": [
+        "Matching an old Intel chip is rarely the goal; beating it is. For a gaming upgrade from any Intel chip on this page, the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) is the fastest gaming CPU in independent reviews, and the [Ryzen 7 7800X3D](/gear/ryzen-7-7800x3d/) is close behind. On a budget, the [Ryzen 5 7600](/gear/ryzen-5-7600/) already outruns every 10th, 11th and 12th gen chip listed here in games.",
+        "For multi-threaded work, the Ryzen 9 9900X and 9950X cover the 14700K and 14900K tier, and the [Ryzen 9 9950X3D](/gear/ryzen-9-9950x3d/) adds top gaming speed on top of 16 cores.",
+        "Switching brands means a new motherboard, and moving to AM5 means DDR5. DDR5 prices have climbed sharply since late 2025, so price the board and memory before you decide. If you would rather stay on Intel, a Core Ultra 7 265K on LGA 1851 is the closest current match to a 14700K for multi-threaded work, with lower power draw. See [AMD vs Intel](/amd-vs-intel/) for the brand-level comparison."
+      ],
+      "table": {
+        "caption": "Upgrade picks from older Intel chips, 2026 street prices",
+        "head": ["If you have", "Gaming upgrade", "Multi-thread upgrade", "Lower-cost pick"],
+        "rows": [
+          ["10th or 11th gen i5", "Ryzen 7 7800X3D", "Ryzen 7 9700X", "Ryzen 5 7600 ($170–$200)"],
+          ["10th or 11th gen i7/i9", "Ryzen 7 9800X3D", "Ryzen 9 9900X", "Ryzen 5 9600X ($190–$230)"],
+          ["12th gen i5", "Ryzen 7 7800X3D", "Ryzen 7 9700X", "Ryzen 5 9600X ($190–$230)"],
+          ["12th to 14th gen i7/i9", "Ryzen 7 9800X3D", "Ryzen 9 9950X3D", "Ryzen 7 7800X3D ($360–$420)"]
+        ]
+      }
+    },
+    {
+      "h": "Does the Graphics Card Change the Match?",
+      "body": [
+        "Yes, it shrinks the differences. The gaming matches above reflect CPU-limited testing with a fast graphics card at 1080p. At 1440p or 4K, or with a mid-range GPU, the graphics card sets the frame rate, and chips one or two rows apart can look nearly identical.",
+        "That also means an older Intel chip can still be fine. A Core i5-12400F with an RTX 5060 at 1440p is mostly GPU-limited. Pair the same chip with an RTX 5080 and it will hold the card back in many games. Check your pairing with the [bottleneck calculator](/tools/bottleneck-calculator/), and read what a [CPU bottleneck](/glossary/cpu-bottleneck/) actually looks like before upgrading."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Comparing core counts directly", "A 20-core Intel chip is not twice as fast as a 10-core one, and it is not equal to a 20-core Ryzen. Intel's efficient cores are smaller and slower than its performance cores, so compare results, not core totals."],
+    ["Using the multi-thread match for gaming", "The Core i7-14700F matches a Ryzen 9 9900X in rendering, but in games it performs like a Ryzen 7 9700X. Buying a 12-core Ryzen for a gaming-only PC wastes money that would buy an X3D chip."],
+    ["Forgetting about power limits", "Intel's F and non-K chips depend on the motherboard's power settings. A budget board that enforces the base power rating can cut multi-threaded performance well below the figures reviews report for the same chip."],
+    ["Overlooking AM4 for older Intel matches", "If you are matching a 10th or 11th gen Intel chip, a cheaper AM4 Ryzen 5000 build with DDR4 can be enough. You do not always need AM5 and DDR5 to match or beat what you have."]
+  ],
+  "bottomLine": "Every recent Intel chip has a gaming match and a multi-thread match. The Core i7-14700F and Core Ultra 7 265K game like a Ryzen 7 9700X and render like a Ryzen 9 9900X. The i5-14600K matches a Ryzen 5 9600X in games, and the i5-12400F matches a Ryzen 5 5600X in both. If you want to beat rather than match, the Ryzen 7 9800X3D outruns every Intel chip here in games.",
+  "faqs": [
+    {
+      "q": "What is the AMD equivalent of the i7-14700F?",
+      "a": "For gaming, the Ryzen 7 9700X is the closest AMD equivalent to the Core i7-14700F. For multi-threaded work like rendering and compiling, the 12-core Ryzen 9 9900X is the closer match, with the Intel chip often slightly ahead thanks to its 28 threads."
+    },
+    {
+      "q": "What AMD CPU is equal to the i5-12400F?",
+      "a": "The Ryzen 5 5600X. The two have six cores and twelve threads each and land close in both games and multi-threaded work, with the i5-12400F a little faster in games on average. On AM5, the Ryzen 5 7600 is clearly faster."
+    },
+    {
+      "q": "What is the AMD equivalent of the i7-14700K?",
+      "a": "In games, the Ryzen 7 9700X performs roughly like the Core i7-14700K. In multi-threaded work, the 14700K sits a little above the Ryzen 9 9900X. The 9700X uses far less power, while the 9900X is the closer match for rendering."
+    },
+    {
+      "q": "What is the AMD equivalent of the Core Ultra 7 265K?",
+      "a": "The Ryzen 7 9700X for gaming and the Ryzen 9 9900X for multi-threaded work. The 265K has 20 cores and 20 threads, which gives it strong rendering results for its price, while its gaming performance is close to the eight-core 9700X."
+    },
+    {
+      "q": "What is the AMD equivalent of the i9-14900K?",
+      "a": "The Ryzen 9 7950X for multi-threaded work, and somewhere between the Ryzen 7 9700X and Ryzen 7 7800X3D for gaming. The Ryzen 7 9800X3D and 7800X3D are faster in games, and the Ryzen 9 9950X is faster in heavy work."
+    },
+    {
+      "q": "What is the AMD equivalent of the i5-14600K?",
+      "a": "The Ryzen 5 9600X in games and the Ryzen 7 9700X in multi-threaded work. The i5-14600K's 14 cores and 20 threads give it a clear multi-thread lead over the six-core 9600X, while gaming performance is roughly level."
+    },
+    {
+      "q": "Is Ryzen 5 equivalent to Core i5?",
+      "a": "Roughly, within the same generation. A Ryzen 5 9600X games like a Core i5-14600K, and a Ryzen 5 5600X like a Core i5-12400F. Intel's i5 chips since 13th gen usually win multi-threaded tests because they add efficient cores."
+    }
+  ],
+  "sources": [
+    "Intel Core Ultra 200S, 14th, 13th, 12th, 11th and 10th gen desktop processor specifications (ark.intel.com)",
+    "AMD Ryzen 9000, 7000, 5000 and 3000 series specifications",
+    "Intel statements on 13th and 14th gen voltage microcode updates",
+    "Independent CPU reviews from TechPowerUp, Hardware Unboxed, Gamers Nexus and Tom's Hardware",
+    "Independent multi-threaded results from Puget Systems and Cinebench result databases"
+  ],
+  "products": ["ryzen-7-9800x3d", "ryzen-7-7800x3d", "ryzen-9-9950x3d", "ryzen-7-9700x", "ryzen-5-9600x", "ryzen-5-7600", "core-ultra-7-265k", "core-ultra-5-245k", "ryzen-7-5700x3d"],
+  "related": ["amd-vs-intel", "best-cpu-for-gaming", "best-am5-motherboard"]
+}

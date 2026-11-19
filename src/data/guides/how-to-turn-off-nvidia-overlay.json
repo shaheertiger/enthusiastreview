@@ -1,0 +1,179 @@
+{
+  "slug": "how-to-turn-off-nvidia-overlay",
+  "type": "article",
+  "kind": "howto",
+  "category": "graphics-cards",
+  "title": "How to Turn Off NVIDIA Overlay (and Fix FPS Showing N/A)",
+  "h1": "How to Turn Off NVIDIA Overlay",
+  "query": "how to turn off nvidia overlay",
+  "description": "Turn off NVIDIA Overlay in the NVIDIA App's Settings with one switch; Alt+Z opens it and Alt+R hides the FPS counter. Plus why the FPS reads N/A and 6 fixes.",
+  "dek": "Switch the overlay off completely, hide just the statistics, or fix an FPS counter stuck on N/A.",
+  "quickAnswer": "Open the NVIDIA App, go to Settings and switch NVIDIA Overlay off in the features list; Alt+Z will then do nothing. To keep the overlay but hide the FPS counter, press Alt+R in a game, or press Alt+Z, open Statistics and turn the statistics view off. FPS showing N/A usually means the overlay cannot see a game rendering on your NVIDIA GPU.",
+  "intro": [
+    "This guide is for GeForce owners using the NVIDIA App, which replaced GeForce Experience in late 2024. It shows how to open the overlay, turn it off entirely or just hide the statistics and FPS counter, why the FPS readout sometimes shows N/A and how to fix it, plus other ways to see frame rates and the steps for anyone still on GeForce Experience."
+  ],
+  "stepsHeading": "How to Turn Off NVIDIA Overlay in the NVIDIA App",
+  "steps": [
+    {
+      "h": "Open the NVIDIA App",
+      "body": [
+        "Find NVIDIA App in the Start menu, or click the NVIDIA icon in the system tray. If you only have the NVIDIA Control Panel, the overlay is not part of it; the overlay comes with the NVIDIA App, which you can download from nvidia.com."
+      ]
+    },
+    {
+      "h": "Go to Settings",
+      "body": [
+        "Open Settings from the app's main menu. In current versions, the settings area includes a features list where each optional component, including the overlay, has its own on and off switch."
+      ]
+    },
+    {
+      "h": "Switch NVIDIA Overlay off",
+      "body": [
+        "Find NVIDIA Overlay and turn its switch off. The change applies right away. Alt+Z and the other overlay shortcuts stop responding, and the overlay's pop-up notifications stop appearing when you launch a game."
+      ]
+    },
+    {
+      "h": "Check the result in a game",
+      "body": [
+        "Launch a game and press Alt+Z. Nothing should happen. If a panel still appears, it is coming from another app, such as Steam, Discord or the Windows Game Bar, each of which has its own overlay settings."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "What is NVIDIA Overlay, and what does Alt+Z do?",
+      "body": [
+        "NVIDIA Overlay is the in-game panel that comes with the NVIDIA App. It holds screenshot and video recording, Instant Replay, Photo Mode, game filters and a statistics view that can show FPS, GPU use and temperatures on screen. Alt+Z opens and closes the main panel from inside a game or on the desktop.",
+        "The shortcuts below are the long-standing defaults. You can change any of them in the overlay's settings, so if one does not respond, check whether it has been reassigned."
+      ],
+      "table": {
+        "caption": "Default NVIDIA Overlay shortcuts",
+        "head": ["Shortcut", "What it does"],
+        "rows": [
+          ["Alt+Z", "Open or close the overlay panel"],
+          ["Alt+R", "Show or hide the statistics view (FPS and other metrics)"],
+          ["Alt+F1", "Take a screenshot"],
+          ["Alt+F9", "Start or stop recording"],
+          ["Alt+F10", "Save an Instant Replay clip"]
+        ]
+      }
+    },
+    {
+      "h": "Why does Alt+Z not open NVIDIA Overlay?",
+      "body": [
+        "If Alt+Z does nothing, the overlay is either switched off in the NVIDIA App's settings, not installed because you installed the driver without the NVIDIA App, or blocked by another program using the same shortcut. Some streaming tools, keyboard utilities and translation apps grab Alt+Z.",
+        "Turn the overlay on in the NVIDIA App's settings, restart the app, then try again with no other software running. If it works then, change the conflicting shortcut in the other program or reassign the overlay's own shortcut. Make sure the NVIDIA App and driver are up to date too; see [how to update NVIDIA drivers](/how-to-update-nvidia-drivers/)."
+      ]
+    },
+    {
+      "h": "How do you disable the NVIDIA statistics overlay?",
+      "body": [
+        "The statistics view is the small block of numbers, usually in a corner of the screen, showing FPS and optionally GPU load, clock speed, temperature and latency. It can be hidden without switching off the whole overlay.",
+        "The fastest way is Alt+R, which toggles the statistics view on and off. For a setting that stays put, press Alt+Z, open the Statistics section and set the view to off, or reduce it to FPS only if you want a smaller readout. The same section lets you move it to a different corner.",
+        "If the numbers keep coming back when you launch a game, open the Statistics section and set the view to off there rather than relying on the shortcut. If they still appear, they are probably coming from a different app."
+      ]
+    },
+    {
+      "h": "Why does NVIDIA overlay show FPS as N/A?",
+      "body": [
+        "The FPS counter shows N/A when the overlay has no frame data to read. It counts frames from the game's rendering on your NVIDIA GPU, so anything that hides that rendering from it produces N/A. The usual causes, roughly in order:"
+      ],
+      "list": [
+        "No game is in focus. On the desktop, in a launcher or with the game minimized, there is nothing to count, so N/A is expected.",
+        "On a laptop, the game is running on the integrated Intel or AMD graphics instead of the GeForce GPU, so the NVIDIA overlay sees no frames.",
+        "The game uses a graphics API or rendering path the statistics view cannot read, which owners report most often with some older OpenGL titles, emulators and certain Vulkan games.",
+        "Another overlay or frame-rate tool, such as RivaTuner Statistics Server, Steam, Discord or a capture app, has hooked the game first and the two conflict.",
+        "Anti-cheat software blocks the overlay from attaching to the game.",
+        "The NVIDIA App or driver is outdated, or the overlay process has stalled after a long session or a sleep and wake cycle."
+      ]
+    },
+    {
+      "h": "How do you fix NVIDIA overlay FPS N/A?",
+      "body": [
+        "Work through these in order and check the counter in a game after each one. Most people find the fix in the first three."
+      ],
+      "list": [
+        "Click into the game window so it has focus, and switch the game between fullscreen and borderless window to see whether the counter starts reading.",
+        "On a laptop, force the game onto the GeForce GPU: open Settings, System, Display, then Graphics, select the game and set it to the high performance option, then relaunch it.",
+        "Restart the overlay: switch NVIDIA Overlay off in the NVIDIA App's settings, wait a few seconds, switch it on again and relaunch the game. A full PC restart clears a stalled overlay process too.",
+        "Close other overlays and monitoring tools one at a time, starting with RivaTuner Statistics Server and capture software, then retest.",
+        "Update the NVIDIA App and driver, choosing a clean installation if the problem started after an update.",
+        "If one game still shows N/A, it may simply not be readable by the overlay. Use another counter for that title, as listed below."
+      ]
+    },
+    {
+      "h": "Does turning off NVIDIA Overlay improve performance?",
+      "body": [
+        "Usually by very little. The overlay sits idle until you open it, and the statistics view is lightweight. Instant Replay is the feature with a continuous cost, since it keeps recording in the background; turn that off in the overlay if you do not use it, even if you keep the rest.",
+        "One exception got wide attention. In late 2024, independent outlets reported frame-rate drops in some games tied to the NVIDIA App's game filters and Photo Mode feature, and NVIDIA responded by turning that feature off by default. If you switched it on, and you do not use filters, switch it back off.",
+        "Turning the overlay off also removes game filters, Photo Mode and recording, since those run through it. If you rely on any of them, keep the overlay and disable only the parts you do not need."
+      ]
+    },
+    {
+      "h": "Other ways to show FPS without NVIDIA Overlay",
+      "body": [
+        "If you have switched the overlay off, or a game shows N/A, you have several other options. Each has its own settings and can conflict with others, so run one at a time."
+      ],
+      "list": [
+        "Windows Game Bar: press Windows + G and open the Performance widget, which can show FPS once you grant it permission. It works on any GPU brand.",
+        "Steam: in Steam's settings, the in-game section includes a performance monitor that can show an FPS counter in Steam games.",
+        "MSI Afterburner with RivaTuner Statistics Server: the most detailed option, with frame times and per-core CPU load, at the cost of more setup.",
+        "Many games include their own FPS counter in the graphics or display settings menu."
+      ]
+    },
+    {
+      "h": "How do you turn off the GeForce Experience overlay?",
+      "body": [
+        "If your PC still runs GeForce Experience, open it, click the gear icon for Settings, and on the General page switch the in-game overlay off. Alt+Z then stops working.",
+        "GeForce Experience no longer receives new features, so the better long-term step is to install the NVIDIA App, which offers to replace it, and manage the overlay there. If you just want to know which GPU you have before installing anything, see [how to check what graphics card you have](/how-to-check-what-graphics-card-i-have/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Turning off the wrong overlay", "Steam, Discord, the Windows Game Bar and the NVIDIA App all have overlays, and several draw FPS counters. Before changing NVIDIA settings, check which app the panel or numbers belong to; the layout and styling usually give it away, and each one is switched off in its own app."],
+    ["Uninstalling the app to remove the overlay", "Removing the whole NVIDIA App to get rid of the overlay also loses automatic driver checks and the graphics settings the app now holds. The overlay has its own switch in Settings, so turn that off and keep the rest of the app."],
+    ["Disabling the overlay to fix N/A", "Switching the overlay off removes the counter rather than fixing it. If you want NVIDIA's FPS readout, check game focus, GPU assignment and conflicting overlays first; those three explain most N/A readings."],
+    ["Leaving Instant Replay running unused", "Instant Replay records continuously so it can save the last few minutes on demand. If you never save clips, turn it off in the overlay. It is the one overlay feature that does steady background work."]
+  ],
+  "bottomLine": "To turn off NVIDIA Overlay completely, open the NVIDIA App, go to Settings and switch NVIDIA Overlay off. To keep the overlay but lose the numbers, press Alt+R or turn the statistics view off in the overlay's Statistics section. An FPS counter stuck on N/A almost always means the overlay cannot see a game rendering on your GeForce GPU: check focus, force the game onto the NVIDIA GPU on laptops, and close competing overlays before reinstalling anything.",
+  "faqs": [
+    {
+      "q": "How do I open NVIDIA Overlay?",
+      "a": "Press Alt+Z, in a game or on the desktop, with the NVIDIA App installed and the overlay switched on in its settings. If nothing happens, check that NVIDIA Overlay is enabled in the NVIDIA App, that no other program uses the same shortcut, and that the app and driver are current."
+    },
+    {
+      "q": "How do I get rid of the FPS counter in the top corner?",
+      "a": "If it is NVIDIA's statistics view, press Alt+R to hide it, or press Alt+Z, open Statistics and turn the view off so it stays hidden. If the counter remains, it likely belongs to Steam, the Windows Game Bar, MSI Afterburner or the game itself, and needs switching off there."
+    },
+    {
+      "q": "Does NVIDIA Overlay lower FPS?",
+      "a": "In most games the effect is too small to notice, because the overlay is idle until opened. Instant Replay does continuous background recording, so disable it if unused. Late-2024 reports tied measurable drops to the game filters feature, which NVIDIA later turned off by default."
+    },
+    {
+      "q": "Can I turn off NVIDIA Overlay and keep the NVIDIA App?",
+      "a": "Yes. The overlay is one feature inside the NVIDIA App and has its own switch in Settings. Driver updates, graphics settings and the rest of the app keep working with the overlay off. You only lose the in-game features that run through it, such as recording, Photo Mode and filters."
+    },
+    {
+      "q": "Why does the NVIDIA overlay FPS say N/A on my laptop?",
+      "a": "On laptops, N/A most often means the game is running on the integrated graphics, so the NVIDIA overlay has no frames to count. Set the game to the high performance GPU in Windows Settings under System, Display, Graphics, then relaunch it and check again."
+    },
+    {
+      "q": "Does NVIDIA Overlay work with AMD or Intel graphics?",
+      "a": "No. NVIDIA Overlay needs a GeForce GPU and the NVIDIA App. On AMD graphics, AMD Software: Adrenalin Edition has its own metrics overlay, and the Windows Game Bar's Performance widget works with any brand of graphics card."
+    },
+    {
+      "q": "How do I change the Alt+Z shortcut?",
+      "a": "Open the overlay with Alt+Z, go to its settings and find the keyboard shortcuts section, where you can reassign the overlay key and the other shortcuts. Pick a combination that no other app uses, then test it in a game."
+    }
+  ],
+  "sources": [
+    "NVIDIA App product page and release notes",
+    "NVIDIA support documentation for NVIDIA Overlay and its keyboard shortcuts",
+    "NVIDIA statement on the game filters and Photo Mode default change, late 2024",
+    "Microsoft support: Xbox Game Bar performance widget and per-app graphics preference",
+    "Valve Steam client documentation for the in-game performance monitor",
+    "Owner reports on NVIDIA and gaming forums about FPS showing N/A"
+  ],
+  "products": ["rtx-5070", "rtx-5060"],
+  "related": ["how-to-update-nvidia-drivers", "nvidia-control-panel-not-opening", "how-to-check-what-graphics-card-i-have"]
+}

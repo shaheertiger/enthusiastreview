@@ -1,0 +1,161 @@
+{
+  "slug": "nvidia-vs-amd",
+  "type": "article",
+  "kind": "versus",
+  "category": "graphics-cards",
+  "title": "NVIDIA vs AMD (2026): Which GPU Brand Should You Buy?",
+  "h1": "NVIDIA vs AMD: Which Graphics Card Brand Is Better?",
+  "query": "nvidia vs amd",
+  "description": "AMD gives more VRAM and raster speed per dollar in 2026; NVIDIA wins on DLSS 4, ray tracing and CUDA. Below $700, Radeon is often the better gaming value.",
+  "dek": "Upscaling, ray tracing, VRAM, drivers, streaming, power and AI, plus the matchup at every price.",
+  "quickAnswer": "For raster gaming value up to about $700, AMD usually wins: the RX 9070 XT ($600 to $730) matches the RTX 5070 Ti in most games with the same 16 GB for less money. NVIDIA is the better choice for heavy ray tracing, the widest DLSS 4 game support, AI work that needs CUDA, and anything above $900, where AMD has no current card.",
+  "intro": [
+    "NVIDIA and AMD are closer in 2026 than they have been in years. AMD's RX 9000 cards fixed its two biggest weaknesses, upscaling quality and ray tracing, while NVIDIA kept its lead in features and the high end. This page compares the two brands on the things that actually change your experience, then pairs the current cards at each price.",
+    "It draws on spec sheets and the broad pattern of independent reviews. We have not bench-tested these cards, so performance is described in relative terms."
+  ],
+  "sections": [
+    {
+      "h": "Which Is Faster for the Money?",
+      "body": [
+        "In traditional raster games, AMD usually gives you more speed per dollar. Independent reviews put the RX 9070 XT roughly level with the RTX 5070 Ti at 1440p, and the RX 9070 slightly ahead of the RTX 5070, in both cases at the same price or less. At the entry level, the RX 9060 XT 16GB and RTX 5060 Ti 16GB are close to even, with the AMD card usually cheaper.",
+        "NVIDIA owns the top of the market outright. The RTX 5080 and RTX 5090 have no RDNA 4 rival, and AMD has said it is focusing this generation on the mainstream. If your budget is over about $900, the choice is already made.",
+        "Prices move, and memory shortages since late 2025 have pushed some cards above their launch prices. Compare current street prices against the matchups below rather than relying on launch MSRPs."
+      ]
+    },
+    {
+      "h": "DLSS 4 vs FSR 4: Which Upscaler Is Better?",
+      "body": [
+        "[DLSS](/glossary/dlss/) 4 is still ahead, mainly because it is in far more games. Its transformer-based upscaling model works on every RTX card back to the RTX 20 series, and the NVIDIA App can override older DLSS versions in many titles. RTX 50 cards add multi frame generation, which inserts several generated frames for each rendered one.",
+        "[FSR](/glossary/fsr/) 4 is AMD's first machine-learning upscaler, and it closed most of the image-quality gap. Owners and reviewers report that it looks far better than FSR 3, especially in motion. The limits are that it officially runs only on RX 9000 cards, and fewer games support it. AMD's Adrenalin driver can upgrade many FSR 3.1 games to FSR 4, and AMD has since added ML-based [frame generation](/glossary/frame-generation/) and ray regeneration for RX 9000 cards.",
+        "In practice: if the games you play list DLSS but not FSR 4, NVIDIA has a real advantage. If they support both, the difference is small enough that price and VRAM should decide."
+      ]
+    },
+    {
+      "h": "Which Is Better for Ray Tracing?",
+      "body": [
+        "NVIDIA is better for [ray tracing](/glossary/ray-tracing/), though the gap shrank a lot. AMD says RDNA 4 doubles ray-tracing throughput per compute unit over RX 7000, and in typical games with a few RT effects the RX 9070 XT lands near an RTX 5070. That still leaves it behind the RTX 5070 Ti it matches in raster.",
+        "The gap is widest in path-traced games such as Cyberpunk 2077's Overdrive mode, Alan Wake 2 and Indiana Jones, where NVIDIA cards stay well ahead. If those are the games you bought a new GPU for, buy NVIDIA. If you mostly play competitive shooters and esports titles, which rarely use heavy RT, AMD's raster advantage counts for more."
+      ]
+    },
+    {
+      "h": "Who Gives More VRAM per Dollar?",
+      "body": [
+        "AMD does, at almost every price. Every RX 9070 and RX 9070 XT has 16 GB of [VRAM](/glossary/vram/), while the similarly priced RTX 5070 has 12 GB. The RX 9060 XT 16GB costs less than the RTX 5060 Ti 16GB, and NVIDIA's RTX 5060 at around $300 has only 8 GB.",
+        "Why it matters: when a game needs more video memory than the card has, you get stutter and texture pop-in, not a gentle drop in frame rate. 8 GB is already tight at 1080p with high textures in some new games, and 12 GB can be pushed at 1440p with ray tracing and ultra textures. If you keep a card four or five years, buy 16 GB.",
+        "NVIDIA counters with faster GDDR7 memory and better memory compression, but neither turns 12 GB into 16 GB when a game simply needs more."
+      ],
+      "table": {
+        "caption": "VRAM at each price, 2026 street prices",
+        "head": ["Price band", "NVIDIA", "VRAM", "AMD", "VRAM"],
+        "rows": [
+          ["$300–$400", "RTX 5060", "8 GB", "RX 9060 XT 16GB", "16 GB"],
+          ["$430–$480", "RTX 5060 Ti 16GB", "16 GB", "RX 9060 XT 16GB (cheaper)", "16 GB"],
+          ["$550–$650", "RTX 5070", "12 GB", "RX 9070", "16 GB"],
+          ["$600–$900", "RTX 5070 Ti", "16 GB", "RX 9070 XT", "16 GB"],
+          ["$1,000+", "RTX 5080 / RTX 5090", "16 GB / 32 GB", "No current rival", "None"]
+        ]
+      }
+    },
+    {
+      "h": "Are AMD Drivers Still Worse Than NVIDIA's?",
+      "body": [
+        "No, not in any way most buyers will notice. AMD's old reputation for buggy drivers dates mostly to the RX 5000 era. Today both companies ship monthly drivers with day-one updates for big game launches, and both have had rough patches: NVIDIA's early RTX 50 drivers in 2025 drew widespread owner reports of black screens and crashes before later releases fixed them.",
+        "The software suites differ in style. AMD's Adrenalin puts everything in one app: game profiles, overclocking and undervolting, a performance overlay, recording and the FSR 4 upgrade toggle. NVIDIA moved most settings into the NVIDIA App, which handles drivers, the DLSS override and recording, while some options still live in the older NVIDIA Control Panel.",
+        "Where NVIDIA still has an edge is breadth. Older and niche games, emulators and VR titles tend to be tested on GeForce first. Check the specific games you care about if you play anything unusual."
+      ]
+    },
+    {
+      "h": "Which Is Better for Streaming and Recording?",
+      "body": [
+        "NVIDIA keeps a small lead, but AMD is now perfectly usable. NVIDIA's NVENC encoder has the longest track record and the widest support in OBS, Discord and streaming apps, and its H.264 quality is the reference that Twitch streamers compare against.",
+        "AMD's encoder was the weak point for years, especially for H.264 at the low bitrates Twitch uses. RDNA 4 improved it substantially, and independent tests of RX 9000 cards show H.264 and HEVC quality much closer to NVIDIA. Both brands' current cards encode AV1, which YouTube accepts and which looks better at the same bitrate.",
+        "If streaming to Twitch is a big part of why you game, NVIDIA is the safer pick. For recording gameplay or streaming to YouTube, either works."
+      ]
+    },
+    {
+      "h": "Which Uses Less Power?",
+      "body": [
+        "It depends on the matchup, and the gaps are small. The RX 9070 is rated at 220 W against the RTX 5070's 250 W. The RX 9070 XT is rated at 304 W against the RTX 5070 Ti's 300 W, and many partner 9070 XT cards run higher. At the entry level, the RTX 5060 is the most frugal at 145 W.",
+        "Connectors differ more than wattage. Most RTX 50 cards use the [12V-2x6](/glossary/12v-2x6/) connector or an adapter, while most Radeon cards stick with standard 8-pin plugs. If your power supply is older and has no 12V-2x6 cable, an AMD card is often the simpler fit. Seat any 12V-2x6 plug fully, with no sharp bend near the connector."
+      ]
+    },
+    {
+      "h": "NVIDIA or AMD for AI, Blender and Pro Apps?",
+      "body": [
+        "NVIDIA, clearly. CUDA is the default for local AI tools, machine learning frameworks and many pro applications, and most tutorials assume a GeForce card. AMD's ROCm platform supports fewer cards and fewer apps on Windows, although support has been improving.",
+        "In Blender, NVIDIA's OptiX renderer is well ahead of AMD's HIP in independent tests, and Adobe's GPU features run well on both. If you run local language models or image generators, NVIDIA's software support matters more than raw specs, though AMD's 16 GB cards do give more memory per dollar for models that fit."
+      ]
+    },
+    {
+      "h": "NVIDIA vs AMD at Every Price",
+      "body": [
+        "These are the head-to-head matchups that matter in 2026. Raster standings follow the broad pattern of independent reviews and match the tiers in our [bottleneck calculator](/tools/bottleneck-calculator/)."
+      ],
+      "table": {
+        "caption": "NVIDIA vs AMD matchups by price tier",
+        "head": ["Tier", "NVIDIA", "AMD", "Raster", "Ray tracing", "Our pick"],
+        "rows": [
+          ["Entry, $250–$330", "RTX 5060 8GB", "RX 9060 XT 8GB", "Close", "NVIDIA", "Spend up to a 16 GB card if you can"],
+          ["Budget, $350–$480", "RTX 5060 Ti 16GB", "RX 9060 XT 16GB", "Close to even", "NVIDIA", "RX 9060 XT 16GB on price"],
+          ["Mid-range, $550–$650", "RTX 5070", "RX 9070", "AMD, slightly", "NVIDIA", "RX 9070 for 16 GB"],
+          ["Upper mid, $600–$900", "RTX 5070 Ti", "RX 9070 XT", "Close to even", "NVIDIA", "RX 9070 XT unless RT matters"],
+          ["High end, $1,000+", "RTX 5080, RTX 5090", "None this generation", "NVIDIA", "NVIDIA", "NVIDIA"]
+        ]
+      },
+      "list": [
+        "[RTX 5060 Ti 16GB vs RX 9060 XT 16GB](/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/)",
+        "[RTX 5070 vs RX 9070](/compare/rtx-5070-vs-rx-9070/) and [RTX 5070 vs RX 9070 XT](/compare/rtx-5070-vs-rx-9070-xt/)",
+        "[RTX 5070 Ti vs RX 9070 XT](/compare/rtx-5070-ti-vs-rx-9070-xt/)",
+        "Under $300, also look at Intel: [RTX 5060 vs Arc B580](/compare/rtx-5060-vs-arc-b580/)"
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying an 8 GB card for the long haul", "The RTX 5060 and RX 9060 XT 8GB are fine at 1080p with sensible settings, but 8 GB is already tight in some new games. If you keep cards for years, the 16 GB models are worth the extra money."],
+    ["Paying for ray tracing you will not use", "If you mainly play esports and competitive shooters, NVIDIA's RT lead does little for you. Compare raster performance and VRAM at your price instead."],
+    ["Assuming FSR 4 works on older Radeons", "FSR 4 officially runs on RX 9000 cards only. An RX 7000 or RX 6000 card is limited to FSR 3.1, which looks noticeably softer than DLSS 4 and FSR 4."],
+    ["Skipping the PSU check", "The RX 9070 XT and RTX 5070 Ti both want a quality 750 W unit, and most RTX 50 cards need a 12V-2x6 cable or adapter. Confirm your power supply before you order."]
+  ],
+  "bottomLine": "Up to about $700, AMD is usually the better gaming value: the RX 9070 XT and RX 9070 give 16 GB and equal or faster raster performance for the money. NVIDIA is worth its premium if you play path-traced games, rely on DLSS 4 in titles without FSR 4, stream to Twitch, or use CUDA for AI and rendering. Above $900, NVIDIA is the only choice this generation.",
+  "faqs": [
+    {
+      "q": "Is NVIDIA or AMD better for gaming?",
+      "a": "AMD is better value for raster gaming below about $700, while NVIDIA is better for ray tracing, DLSS 4 support and the high end. The RX 9070 XT matches the RTX 5070 Ti in most games for less money, but the RTX 5080 and RTX 5090 have no AMD rival this generation."
+    },
+    {
+      "q": "Is an AMD GPU better than NVIDIA for the price?",
+      "a": "Usually yes. At most price points AMD offers more VRAM and equal or better raster performance. The RX 9070 has 16 GB against the RTX 5070's 12 GB, and the RX 9060 XT 16GB costs less than the RTX 5060 Ti 16GB. NVIDIA's premium buys features and ray-tracing speed."
+    },
+    {
+      "q": "Is FSR 4 as good as DLSS 4?",
+      "a": "Close, but DLSS 4 is still ahead overall. FSR 4's machine-learning upscaling closed most of the image-quality gap, according to reviewers and owners. DLSS 4 remains in many more games and works on every RTX card, while FSR 4 officially runs only on RX 9000 cards."
+    },
+    {
+      "q": "Do AMD GPUs work with Intel CPUs?",
+      "a": "Yes. AMD and NVIDIA graphics cards work with both Intel and AMD processors. AMD's Smart Access Memory is its name for Resizable BAR, which also works on Intel boards. Enable Resizable BAR in the BIOS for either brand of card."
+    },
+    {
+      "q": "Which brand is better for streaming?",
+      "a": "NVIDIA has a slight edge for streaming, especially H.264 to Twitch, thanks to its mature NVENC encoder and broad app support. AMD's RX 9000 encoder improved a lot and is fine for most streamers, and both brands encode AV1 for YouTube."
+    },
+    {
+      "q": "Is NVIDIA better for AI and machine learning?",
+      "a": "Yes. Most AI tools and frameworks are built on CUDA, so NVIDIA cards work with far more software out of the box. AMD's ROCm supports fewer cards and apps, especially on Windows, though AMD's 16 GB cards give more memory per dollar."
+    },
+    {
+      "q": "Does AMD have an answer to the RTX 5080 or RTX 5090?",
+      "a": "No, not this generation. AMD's fastest RDNA 4 card is the RX 9070 XT, which competes with the RTX 5070 Ti. The previous-generation RX 7900 XTX is roughly level with an RTX 4080 Super in raster but well behind in ray tracing and lacks FSR 4."
+    }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 50 series specifications and DLSS 4 documentation",
+    "AMD Radeon RX 9000 series specifications and FSR 4 documentation",
+    "AMD Adrenalin and NVIDIA App release notes",
+    "Independent GPU reviews from TechPowerUp, Hardware Unboxed, Gamers Nexus and Digital Foundry",
+    "Independent Blender and content-creation results from Puget Systems and Blender Open Data",
+    "Owner reports on drivers and stability from enthusiast forums",
+    "Retail price tracking for graphics cards, late 2025 to 2026"
+  ],
+  "products": ["rtx-5090", "rtx-5080", "rtx-5070-ti", "rtx-5070", "rtx-5060-ti-16gb", "rtx-5060", "rx-9070-xt", "rx-9070", "rx-9060-xt-16gb"],
+  "related": ["amd-vs-nvidia-gpu-equivalents", "best-graphics-card", "best-graphics-card-for-1440p"]
+}

@@ -93,7 +93,7 @@ td .tag { display: block; width: max-content; margin-bottom: .35rem; }
 .body li::marker { color: var(--teal-dark); }
 .body strong { color: var(--ink); }
 .lede p:first-child { font-size: 1.18rem; }
-.numbered { counter-reset: h2n; }
+.article { counter-reset: h2n; }
 .numbered h2:not(.plain) { counter-increment: h2n; }
 .numbered h2:not(.plain)::before { content: counter(h2n) '. '; color: var(--teal-dark); }
 .mini { font: 800 .82rem/1 var(--head); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 .75rem; }

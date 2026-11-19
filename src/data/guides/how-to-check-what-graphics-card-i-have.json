@@ -1,0 +1,166 @@
+{
+  "slug": "how-to-check-what-graphics-card-i-have",
+  "type": "article",
+  "kind": "howto",
+  "category": "graphics-cards",
+  "title": "How to Check What Graphics Card I Have: 6 Quick Ways",
+  "h1": "How to Check What Graphics Card I Have",
+  "query": "how to check what graphics card i have",
+  "description": "Press Ctrl+Shift+Esc, open Performance and click GPU: Task Manager shows your graphics card name and VRAM in seconds. 5 more ways, plus Mac and Linux.",
+  "dek": "Find the exact GPU model, tell integrated from dedicated graphics and read how much video memory you have.",
+  "quickAnswer": "Press Ctrl + Shift + Esc to open Task Manager, click Performance, then click GPU 0 (and GPU 1 if listed). The card's name appears in the top-right corner, and Dedicated GPU memory shows its VRAM. If you see two GPUs, the one with dedicated memory in gigabytes is usually your graphics card; the other is integrated graphics.",
+  "intro": [
+    "This page is for anyone who needs to know which graphics card is in a Windows PC, whether to check game requirements, download the right driver or plan an upgrade. It covers six ways to find it in Windows, how to do the same on a Mac or Linux PC, and how to read the result: integrated or dedicated, and how much VRAM."
+  ],
+  "stepsHeading": "How to Check Your Graphics Card in Task Manager",
+  "steps": [
+    {
+      "h": "Open Task Manager",
+      "body": [
+        "Press Ctrl + Shift + Esc. You can also right-click the Start button and choose Task Manager. If it opens as a small window with just a list of apps, click More details to see the full view."
+      ]
+    },
+    {
+      "h": "Go to the Performance page",
+      "body": [
+        "Click Performance. On Windows 11 it is in the left-hand menu, shown as a small graph icon if the menu is collapsed; on Windows 10 it is a tab along the top. The left column lists CPU, Memory, Disk, network adapters and one entry for each GPU."
+      ]
+    },
+    {
+      "h": "Click each GPU entry",
+      "body": [
+        "Click GPU 0. The full model name, such as NVIDIA GeForce RTX 5070 or AMD Radeon RX 9060 XT, appears in the top-right corner. If there is a GPU 1, click it too. Laptops and many desktops show two: the integrated graphics in the processor and a dedicated card."
+      ]
+    },
+    {
+      "h": "Read the memory and driver lines",
+      "body": [
+        "Below the graphs, Dedicated GPU memory is the card's own VRAM, Shared GPU memory is system RAM Windows can lend it, and Driver version shows the installed driver. Physical location tells you which slot the GPU sits in, which helps tell two GPUs apart."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "How do you check your graphics card in Device Manager?",
+      "body": [
+        "Device Manager lists every GPU Windows knows about, including ones with driver problems that Task Manager may not show. Right-click the Start button, choose Device Manager, then expand Display adapters. Each entry is a graphics device.",
+        "If you see Microsoft Basic Display Adapter instead of a brand name, Windows has no proper driver for your GPU. The hardware is there, but you need to install a driver before you can see the model name. Right-click it, choose Properties, open the Details tab and select Hardware Ids; the VEN code identifies the maker, with 10DE for NVIDIA, 1002 for AMD and 8086 for Intel.",
+        "A yellow warning icon on the card means the device has a problem. Double-click it to see the error code in the Device status box."
+      ]
+    },
+    {
+      "h": "How do you check your GPU with dxdiag?",
+      "body": [
+        "The DirectX Diagnostic Tool gives a detailed report that is handy to save or share when asking for help. Press Windows + R, type dxdiag and press Enter. Click Yes if it asks about checking driver signatures.",
+        "Open the Display tab. Under Device, Name shows the GPU model, Display Memory shows total memory available to it, Dedicated Memory shows its own VRAM and Shared Memory shows borrowed system RAM. If the PC has a second GPU that does not drive a screen, as on many laptops, dxdiag lists it on a Render tab instead.",
+        "Click Save All Information to write a text file with the whole report, which is useful for support forums."
+      ]
+    },
+    {
+      "h": "Other ways to find your graphics card in Windows",
+      "body": [
+        "These are useful when Task Manager is not available or you need a specific detail."
+      ],
+      "list": [
+        "System Information: press Windows + R, type msinfo32 and go to Components, then Display. Adapter Description shows the model. Ignore the Adapter RAM figure for modern cards, since it often misreports memory above 4 GB.",
+        "Windows Settings: on Windows 11, go to System, Display, then Advanced display. The display information section shows which GPU each monitor is connected to.",
+        "PowerShell: open PowerShell and run Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion to list every GPU and its driver. This replaces the older wmic command, which recent Windows 11 versions no longer include by default.",
+        "Vendor software: the NVIDIA App, AMD Software: Adrenalin Edition and Intel Graphics Software each show the GPU model on their system or home page."
+      ]
+    },
+    {
+      "h": "How do you see full GPU details with GPU-Z?",
+      "body": [
+        "GPU-Z is a free utility from TechPowerUp that shows far more than Windows does: the exact model and board partner, GPU chip, memory type and size, memory bus width, clock speeds, BIOS version and whether features such as [Resizable BAR](/glossary/resizable-bar/) are enabled. It can run without installing.",
+        "Download it only from TechPowerUp's own site. Its Sensors tab also shows live temperature, clock speed and load, which helps when checking whether a card is running hot or throttling. For simply knowing the model name, Task Manager is enough; GPU-Z is for when you need the full spec sheet."
+      ]
+    },
+    {
+      "h": "How do you check your graphics card on a Mac or Linux PC?",
+      "body": [
+        "On a Mac, open the Apple menu and choose About This Mac. Apple silicon Macs show the chip, such as M3 or M4 Pro, and the graphics are part of that chip, with the GPU core count listed in System Information under Hardware, then Graphics/Displays. Intel Macs list the graphics directly in About This Mac.",
+        "On Linux, open a terminal and run lspci | grep -iE 'vga|3d' to list graphics devices. With NVIDIA's proprietary driver installed, nvidia-smi shows the model, memory and driver version. On most desktops, glxinfo -B, from the mesa-utils package on Ubuntu and Debian, prints the active renderer and video memory. Desktop environments such as GNOME also show the graphics model in Settings under About or System."
+      ]
+    },
+    {
+      "h": "Integrated or dedicated graphics: how can you tell?",
+      "body": [
+        "Integrated graphics are built into the processor and use system RAM. Dedicated graphics are a separate card or laptop chip with its own memory. The name usually gives it away, and the memory figures confirm it."
+      ],
+      "table": {
+        "caption": "Telling integrated and dedicated graphics apart",
+        "head": ["Clue", "Integrated graphics", "Dedicated graphics"],
+        "rows": [
+          ["Typical names", "Intel UHD, Intel Iris Xe, Intel Arc Graphics (in a laptop CPU), AMD Radeon Graphics, Radeon 780M", "NVIDIA GeForce RTX or GTX, AMD Radeon RX, Intel Arc A or B series cards"],
+          ["Dedicated GPU memory in Task Manager", "Small, often 512 MB or less, or none", "Several gigabytes, commonly 8 to 16 GB on current cards"],
+          ["Where the monitor plugs in (desktop)", "Ports on the motherboard's rear panel", "Ports on the card, lower down in a horizontal slot"]
+        ]
+      },
+      "list": [
+        "On a desktop with a graphics card, plug the monitor into the card's ports, not the motherboard's. Using the motherboard ports is a common reason a new PC performs poorly.",
+        "On a laptop, both GPUs are normal. Windows switches games to the dedicated GPU automatically, and you can set a preference per app in Settings under System, Display, Graphics."
+      ]
+    },
+    {
+      "h": "How much VRAM do you have, and is it enough?",
+      "body": [
+        "Your VRAM is the Dedicated GPU memory figure in Task Manager or Dedicated Memory in dxdiag. Ignore the larger shared or total figures; shared memory is system RAM and is much slower for a GPU to use. See the [VRAM](/glossary/vram/) glossary entry for why it matters.",
+        "As a rough guide for current games, 8 GB handles 1080p at medium to high settings but runs short in some new releases at high texture settings, 12 GB is comfortable at 1440p, and 16 GB gives headroom for 1440p with maxed textures and for 4K. Check each game's published requirements, which list a minimum and recommended GPU by name."
+      ]
+    },
+    {
+      "h": "What should you do once you know your graphics card?",
+      "body": [
+        "Use the exact model to download the right driver: see [how to update NVIDIA drivers](/how-to-update-nvidia-drivers/) or [how to update AMD drivers](/how-to-update-amd-drivers/). Compare it against the requirements of the games you want to play, which name specific GPUs for each tier.",
+        "If you are thinking about an upgrade, enter your current CPU and GPU in our [bottleneck calculator](/tools/bottleneck-calculator/) to see whether the graphics card or the processor is holding the system back. Then compare current options in the [best graphics card](/best-graphics-card/) guide, and check that your power supply can handle a new card with the [PSU calculator](/tools/psu-calculator/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Reading shared memory as VRAM", "Task Manager and dxdiag show both dedicated and shared memory, and the total can look impressive. Only the dedicated figure is the card's own VRAM. Shared memory is borrowed system RAM, far slower for the GPU, and does not count toward a game's VRAM requirement."],
+    ["Stopping at GPU 0", "On PCs with two GPUs, GPU 0 is often the integrated graphics. If you only check that entry, you may conclude the PC has weak graphics when a capable card is sitting in GPU 1. Click every GPU entry in Task Manager before drawing conclusions."],
+    ["Trusting the System Information memory figure", "msinfo32 is fine for the model name, but its Adapter RAM line often reports the wrong amount for cards with more than 4 GB. Use Task Manager, dxdiag or GPU-Z for an accurate VRAM figure."],
+    ["Ignoring Microsoft Basic Display Adapter", "If Windows shows this generic name, the GPU has no proper driver, and games may run poorly or not start. Identify the card through its hardware ID or by looking at the card itself, then install the correct driver from the maker."]
+  ],
+  "bottomLine": "The fastest way to check your graphics card is Task Manager: Ctrl + Shift + Esc, Performance, then each GPU entry, where the model name sits top right and Dedicated GPU memory shows VRAM. Device Manager catches cards without drivers, dxdiag gives a shareable report and GPU-Z shows the full spec sheet. If you see two GPUs, the one with gigabytes of dedicated memory is your graphics card. Once you know the model, update its driver, check game requirements and use the bottleneck calculator before buying an upgrade.",
+  "faqs": [
+    {
+      "q": "What is the fastest way to see what graphics card I have?",
+      "a": "Press Ctrl + Shift + Esc, click Performance, then click GPU 0 and any other GPU entries. Task Manager shows the model name in the top-right corner and the amount of dedicated GPU memory below the graphs. The whole check takes under 10 seconds on Windows 10 or 11."
+    },
+    {
+      "q": "Why does Task Manager show two GPUs?",
+      "a": "Most laptops and many desktops have integrated graphics in the processor as well as a dedicated card or chip. Task Manager lists both, as GPU 0 and GPU 1. The one with several gigabytes of dedicated memory, usually NVIDIA GeForce or AMD Radeon RX, is the one games should use."
+    },
+    {
+      "q": "How do I check my graphics card without turning on the PC?",
+      "a": "Look at the card itself. With the PC off and unplugged, open the side panel; most cards print the model on the shroud or the edge facing up, and a sticker on the card usually lists the exact model. For a laptop or prebuilt, the model number on its label leads to a spec page listing the graphics."
+    },
+    {
+      "q": "How do I find my graphics card if it says Microsoft Basic Display Adapter?",
+      "a": "That name means no proper driver is installed. In Device Manager, open its Properties, go to Details and choose Hardware Ids. A VEN code of 10DE means NVIDIA, 1002 means AMD and 8086 means Intel. AMD's Auto-Detect tool can also identify Radeon cards and install the right driver."
+    },
+    {
+      "q": "Is integrated graphics good enough for gaming?",
+      "a": "For light games, older titles and esports games at 1080p with low to medium settings, recent integrated graphics such as AMD's Radeon 780M can be enough. For current AAA games at good settings, a dedicated graphics card is still needed. Check each game's minimum requirements against your model."
+    },
+    {
+      "q": "How can I tell if my graphics card is NVIDIA or AMD?",
+      "a": "The name gives it away: NVIDIA cards are GeForce RTX or GTX, AMD cards are Radeon RX, and Intel cards are Arc. Task Manager, Device Manager and dxdiag all show the full name. If you see both an NVIDIA or AMD card and an Intel or AMD integrated GPU, you have both."
+    },
+    {
+      "q": "Does my graphics card bottleneck my CPU?",
+      "a": "It depends on the pairing, resolution and games. A powerful GPU with an older CPU can be held back at 1080p, while at 1440p and 4K the GPU usually sets the limit. Enter both parts in our [bottleneck calculator](/tools/bottleneck-calculator/) for a quick estimate, and see the [CPU bottleneck](/glossary/cpu-bottleneck/) explainer."
+    }
+  ],
+  "sources": [
+    "Microsoft support: Task Manager, Device Manager and the DirectX Diagnostic Tool",
+    "Microsoft documentation for the Win32_VideoController class and wmic deprecation",
+    "TechPowerUp GPU-Z documentation",
+    "Apple support: About This Mac and System Information",
+    "PCI ID Repository vendor codes for NVIDIA, AMD and Intel",
+    "NVIDIA, AMD and Intel product pages for current graphics cards"
+  ],
+  "products": ["rtx-5070", "rx-9060-xt-16gb", "arc-b580"],
+  "related": ["best-graphics-card", "how-to-update-nvidia-drivers", "how-to-update-amd-drivers"]
+}

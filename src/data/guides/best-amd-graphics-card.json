@@ -1,0 +1,386 @@
+{
+  "slug": "best-amd-graphics-card",
+  "type": "brand",
+  "category": "graphics-cards",
+  "brand": "amd",
+  "title": "Best AMD Graphics Card (2026): 5 Radeon GPUs Ranked by Budget",
+  "h1": "Best AMD Graphics Card",
+  "query": "best amd graphics card",
+  "description": "The RX 9070 XT is the best AMD graphics card: 16 GB, near RTX 5070 Ti raster speed and FSR 4 for $600–$730. 5 Radeon cards ranked, from the RX 6600 up.",
+  "dek": "Which AMD video cards are worth buying in 2026, from the RX 9070 XT down to older RX 6000 models, and when a GeForce card is the better call.",
+  "about": [
+    "AMD was founded in 1969 by Jerry Sanders and a group of fellow engineers, and it is headquartered in Santa Clara, California. Its graphics business began with the 2006 purchase of ATI Technologies, the Canadian company founded in 1985 that launched the Radeon brand in 2000. Radeon has been NVIDIA's main rival in PC graphics ever since, and AMD graphics also power the PlayStation 5, the Xbox Series X and S, and Valve's Steam Deck.",
+    "AMD designs the Radeon chips, and partners such as Sapphire, PowerColor, XFX, ASRock, ASUS and Gigabyte build most of the cards on sale. The current desktop lineup is the RX 9000 series, built on the RDNA 4 architecture and launched in 2025. AMD chose not to build an RTX 5090 rival this generation and focused instead on mainstream and upper mid-range cards, where it competes on VRAM and price."
+  ],
+  "intro": [
+    "The Radeon RX 9070 XT is the best AMD graphics card for most gamers in 2026. For $600 to $730, it brings 16 GB of GDDR6, raster performance close to an RTX 5070 Ti and FSR 4, AMD's machine-learning upscaler, which makes it a strong card for 1440p and capable at 4K.",
+    "This page ranks five Radeon cards from the RX 9070 XT down to the older RX 6600. Picks are matched to resolution, budget and the age of your PC, and the sections cover which AMD video cards still make sense, FSR 4 support, AMD's weak spots and how Radeon compares with GeForce and Arc."
+  ],
+  "quickAnswer": "Buy the RX 9070 XT ($600–$730) for 1440p and 4K. The RX 9070 ($550–$620) keeps 16 GB at a much lower 220 W. The RX 9060 XT 16GB ($350–$400) is the best budget Radeon for 1080p and entry 1440p. Older RX 6700 XT and RX 6600 cards are worth buying only at clearly lower prices.",
+  "picks": [
+    {
+      "id": "rx-9070-xt",
+      "label": "Best AMD Graphics Card",
+      "bestFor": "1440p and 4K gamers who want 16 GB and the most raster speed per dollar",
+      "skipIf": "you play heavily path-traced games or rely on CUDA software",
+      "writeup": [
+        "The RX 9070 XT is the fastest card in AMD's current lineup and the best Radeon for most buyers. It uses the full RDNA 4 chip, with 64 compute units and 16 GB of GDDR6 on a 256-bit bus, and independent reviews show it trading blows with NVIDIA's RTX 5070 Ti in raster games while usually costing $100 to $200 less.",
+        "It also fixes the two areas where older Radeon cards lagged. Ray tracing is much stronger than on the RX 7000 series, though NVIDIA still leads in heavy path tracing. FSR 4 uses machine learning for image quality far closer to DLSS than FSR 3, and AMD Software can upgrade many FSR 3.1 games to FSR 4. The catch is that DLSS still appears in more games.",
+        "The trade-off is power. AMD rates it at 304 W, factory-overclocked models draw more, and a 750 W power supply is the sensible floor. Most cards use two or three standard 8-pin plugs, which suits older power supplies without a 16-pin cable. Buy it near $600; above $730, the RTX 5070 Ti becomes the better deal. Our [RTX 5070 Ti vs RX 9070 XT](/compare/rtx-5070-ti-vs-rx-9070-xt/) page covers the matchup."
+      ],
+      "pros": [
+        "Raster speed near the RTX 5070 Ti",
+        "16 GB on a 256-bit bus",
+        "FSR 4 machine-learning upscaling",
+        "Standard 8-pin connectors"
+      ],
+      "cons": [
+        "304 W or more",
+        "Trails NVIDIA in path tracing"
+      ]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Most Efficient Radeon",
+      "bestFor": "quiet or compact 1440p builds that already have a 650 W power supply",
+      "skipIf": "the RX 9070 XT costs only $50 more",
+      "writeup": [
+        "The RX 9070 is the efficient half of AMD's RDNA 4 pair. It keeps the full 16 GB of GDDR6 and 256-bit bus of the XT but drops to 56 compute units and cuts board power to 220 W. Independent reviews put it roughly 10–15% behind the XT and a little ahead of the RTX 5070 in raster games, which makes it one of the best performance-per-watt cards of this generation.",
+        "Against its NVIDIA rival, the trade is simple. The RX 9070 has 4 GB more VRAM and lower power at a similar price, while the RTX 5070 is stronger in heavy ray tracing and has wider DLSS support. For a card you plan to keep for several years, the extra memory makes the Radeon the safer bet. See our [RTX 5070 vs RX 9070](/compare/rtx-5070-vs-rx-9070/) comparison for the details.",
+        "The awkward part is AMD's own pricing. The XT often costs only $50 to $100 more, and at that gap it gives more performance per dollar. The 9070 makes the most sense in small cases, quiet builds or systems with a 650 W unit you would rather keep. AMD Software's tuning page also makes undervolting simple if you want even lower heat."
+      ],
+      "pros": [
+        "220 W for 16 GB-class performance",
+        "Slightly faster than the RTX 5070 in raster",
+        "Runs on a 650 W PSU"
+      ],
+      "cons": [
+        "Often too close in price to the XT",
+        "Weaker ray tracing than NVIDIA"
+      ]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Budget Radeon",
+      "bestFor": "1080p high settings and entry 1440p, including older PCIe 3.0 systems",
+      "skipIf": "you want maximum settings at 1440p",
+      "writeup": [
+        "The RX 9060 XT 16GB is the best AMD video card under $400 and the one most budget buyers should choose. It pairs 32 RDNA 4 compute units with 16 GB of GDDR6 and FSR 4, and independent reviews place it within a few percent of the RTX 5060 Ti 16GB in raster games while it usually costs $50 to $80 less.",
+        "Its quiet advantage is the full PCIe 5.0 x16 link. NVIDIA's 5060-class cards use eight lanes, which loses a little on older PCIe 3.0 boards. The 9060 XT keeps all sixteen, so it holds up better as an upgrade for an older B450 system with a Ryzen 5 3600. At about 160 W, it runs on modest power supplies and fits small cases.",
+        "Make sure you buy the 16 GB version. The 8 GB model shares the name and costs less, but it runs short of memory in new games. The 128-bit bus also limits the card at higher resolutions, so treat 1440p as a medium-to-high settings target with upscaling. For more on its rival, read our [RTX 5060 Ti 16GB vs RX 9060 XT 16GB](/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/) comparison."
+      ],
+      "pros": [
+        "16 GB under $400",
+        "Full PCIe x16 link",
+        "About 160 W",
+        "FSR 4 support"
+      ],
+      "cons": [
+        "128-bit bus limits 1440p",
+        "Easy to confuse with the 8 GB model"
+      ]
+    },
+    {
+      "id": "rx-6700-xt",
+      "label": "Best Older Radeon",
+      "bestFor": "1080p and light 1440p builds when it costs clearly less than an RX 9060 XT 16GB",
+      "skipIf": "you want FSR 4, strong ray tracing or a long driver runway",
+      "writeup": [
+        "The RX 6700 XT is the older Radeon still worth considering, mostly as a used card or remaining stock. Launched in 2021, it has 40 RDNA 2 compute units, 12 GB of GDDR6 on a 192-bit bus and 96 MB of Infinity Cache, with a 230 W rating and a full PCIe 4.0 x16 link. Twelve gigabytes still covers most games at 1080p and many at 1440p with sensible settings.",
+        "Its age shows in features. Ray tracing is weak by current standards, and FSR 4 is built for RDNA 4, so this card relies on FSR 3.1 upscaling and AMD's driver-level Fluid Motion Frames instead. In late 2025, AMD also moved RX 5000 and RX 6000 cards to a separate driver track focused on fixes, with new features arriving first on newer Radeon cards.",
+        "That makes price the whole story. The RX 9060 XT 16GB has more memory, FSR 4 and lower power, so a used RX 6700 XT needs to cost clearly less to make sense. Find one at a fair price from a seller with a clear history, plan for a 650 W power supply, and it remains a solid 1080p card."
+      ],
+      "pros": [
+        "12 GB of VRAM",
+        "Full PCIe 4.0 x16 link",
+        "Often cheap on the used market"
+      ],
+      "cons": [
+        "No FSR 4",
+        "Weak ray tracing",
+        "230 W for its speed"
+      ]
+    },
+    {
+      "id": "rx-6600",
+      "label": "Cheapest Radeon Worth Buying",
+      "bestFor": "1080p esports and older games on the smallest budget",
+      "skipIf": "you play new AAA games at high textures",
+      "writeup": [
+        "The RX 6600 is the lowest-cost Radeon we would still put in a gaming PC. It has 28 RDNA 2 compute units, 8 GB of GDDR6 on a 128-bit bus and a 132 W rating, with one 8-pin plug on most models. That low draw means it runs on almost any decent 450 W to 550 W power supply, which makes it a common upgrade for old office PCs and budget builds.",
+        "Keep expectations to 1080p. It handles esports games at high frame rates and many older or lighter titles at high settings, but 8 GB limits texture settings in new releases, and ray tracing is not realistic. Like the RX 6700 XT, it relies on FSR 3.1 rather than FSR 4. It also uses a PCIe 4.0 x8 link, so it loses a little on PCIe 3.0 boards.",
+        "Buy it only when the price gap to the RX 9060 XT 16GB is large. At a small gap, the newer card's doubled memory and FSR 4 support are worth the extra money. If you are weighing Intel too, the Arc B580 has 12 GB but needs a recent CPU and Resizable BAR to perform well."
+      ],
+      "pros": [
+        "132 W rating",
+        "Single 8-pin on most models",
+        "Fine for 1080p esports"
+      ],
+      "cons": [
+        "8 GB of VRAM",
+        "No FSR 4",
+        "Eight-lane PCIe link"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "VRAM",
+    "Board power",
+    "Memory bus",
+    "PCIe interface",
+    "Upscaling"
+  ],
+  "ranking": {
+    "intro": "These rankings are based on AMD's specifications, independent reviews from established hardware outlets and owner reports on drivers, noise and reliability. None of these cards were bench-tested by us. We ranked each card on how well it serves its target resolution and budget in 2026, giving extra weight to VRAM and current feature support.",
+    "criteria": [
+      [
+        "Performance for the money",
+        "Relative raster and ray tracing results in independent reviews against the street-price band."
+      ],
+      [
+        "VRAM and memory bus",
+        "Whether the memory covers new games at high textures, which is where Radeon cards often beat GeForce cards at the same price."
+      ],
+      [
+        "Feature support",
+        "FSR 4 support, ray tracing strength and how long the card is likely to receive driver optimizations."
+      ],
+      [
+        "Power and fit",
+        "Board power, connector type and the power supply each card needs."
+      ],
+      [
+        "Rivals at the same price",
+        "How each Radeon compares with the NVIDIA and Intel card it competes against."
+      ]
+    ],
+    "why": "The RX 9070 XT won because it matches far pricier NVIDIA cards in raster games, carries 16 GB and supports FSR 4."
+  },
+  "mentions": [
+    {
+      "name": "AMD Radeon RX 7900 XTX",
+      "text": "The RX 7900 XTX is the last Radeon flagship, with 24 GB of GDDR6 and a 355 W rating. It is still fast in raster games at 4K, but it lacks FSR 4 support, trails RDNA 4 in ray tracing and draws more power, so it makes sense only at a used price below a new RX 9070 XT."
+    },
+    {
+      "name": "AMD Radeon RX 7800 XT",
+      "text": "The RX 7800 XT offers 16 GB on a 256-bit bus at a 263 W rating, and it was a popular 1440p card in 2023 and 2024. The RX 9070 is faster, more efficient and supports FSR 4, so the 7800 XT is only worth buying if remaining stock or a used card is clearly cheaper."
+    },
+    {
+      "name": "AMD Radeon RX 9060 XT 8GB",
+      "text": "The 8 GB RX 9060 XT uses the same chip as the 16 GB model for less money. It works for esports and older games, but new releases at high textures exceed 8 GB even at 1080p. The 16 GB version costs only modestly more and is the one to buy."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Which Radeon Card Is Right for Your Resolution?",
+      "body": [
+        "Start with your monitor. At 1080p, the RX 9060 XT 16GB covers high settings in new games, and older RX 6000 cards are fine for esports. At 1440p, the RX 9070 and RX 9070 XT have the memory and bandwidth for high settings at high refresh rates. At 4K, the RX 9070 XT is AMD's only current choice, and it works best with FSR 4 switched on.",
+        "If you are upgrading an older PC, also check your power supply and your board's PCIe generation. Our [PSU calculator](/tools/psu-calculator/) helps with the first, and Radeon cards with a full x16 link lose less on older PCIe 3.0 boards."
+      ],
+      "table": {
+        "caption": "Radeon cards by resolution",
+        "head": [
+          "Target",
+          "AMD card",
+          "VRAM",
+          "Board power",
+          "Upscaler"
+        ],
+        "rows": [
+          [
+            "1080p esports, tight budget",
+            "RX 6600",
+            "8 GB",
+            "132 W",
+            "FSR 3.1"
+          ],
+          [
+            "1080p, used-market value",
+            "RX 6700 XT",
+            "12 GB",
+            "230 W",
+            "FSR 3.1"
+          ],
+          [
+            "1080p high, entry 1440p",
+            "RX 9060 XT 16GB",
+            "16 GB",
+            "160 W",
+            "FSR 4"
+          ],
+          [
+            "1440p, efficient",
+            "RX 9070",
+            "16 GB",
+            "220 W",
+            "FSR 4"
+          ],
+          [
+            "1440p high refresh and 4K",
+            "RX 9070 XT",
+            "16 GB",
+            "304 W",
+            "FSR 4"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Which AMD Video Cards Are Still Worth Buying?",
+      "body": [
+        "The RX 9000 series is the one to buy new. It brings FSR 4, much better ray tracing and current driver priority, and every card above the budget 8 GB model has 16 GB of memory. AMD's RX 7000 cards, such as the RX 7800 XT and RX 7900 XTX, are still capable but lack official FSR 4 support and draw more power for similar raster speed.",
+        "RX 6000 cards are now used-market buys. The RX 6600, RX 6700 XT and RX 6800 can still run current games, but they rely on FSR 3.1 and receive new features later than newer cards. Buy one only when the price is clearly below the current card that matches it, and avoid paying close to new-card money for a five-year-old design."
+      ]
+    },
+    {
+      "h": "What Is FSR 4, and Which Radeon Cards Support It?",
+      "body": [
+        "FSR 4 is AMD's machine-learning upscaler. It renders a game at a lower resolution and rebuilds the image with an AI model running on RDNA 4's dedicated hardware, and independent reviews rate its image quality far closer to NVIDIA's DLSS than FSR 3 managed. It is officially supported on RX 9000 cards.",
+        "Game support is growing, and AMD Software can replace FSR 3.1 with FSR 4 in many games that already use 3.1. DLSS still appears in more titles, so check whether your main games support FSR 4 before treating it as a reason to buy. Older Radeon cards use FSR 3.1, which works on any GPU but looks softer, especially at 1080p. See our [FSR glossary entry](/glossary/fsr/) for how the versions differ."
+      ]
+    },
+    {
+      "h": "What AMD Does Well",
+      "body": [
+        "AMD's strongest card is memory per dollar. Every current RX 9000 card above $350 carries 16 GB, while NVIDIA puts 8 GB or 12 GB on cards at similar prices. Raster performance per dollar is also strong: the RX 9070 XT and RX 9060 XT 16GB match their NVIDIA rivals in most non-ray-traced games for less money.",
+        "AMD also makes practical choices. Most Radeon cards use standard 8-pin power plugs rather than a 16-pin connector. AMD Software includes tuning, undervolting, frame rate limits and driver-level Fluid Motion Frames in one place without an account. On Linux, AMD's open-source drivers are built into the kernel and Mesa, which is one reason SteamOS and the Steam Deck run on AMD hardware."
+      ],
+      "list": [
+        "16 GB on every RX 9000 card above $350",
+        "Strong raster performance per dollar",
+        "Standard 8-pin connectors on most cards",
+        "Built-in tuning and undervolting in AMD Software",
+        "Open-source Linux drivers"
+      ]
+    },
+    {
+      "h": "Where AMD Falls Short",
+      "body": [
+        "Ray tracing is still AMD's weak spot. RDNA 4 narrowed the gap a lot, but in heavy path-traced games NVIDIA's cards remain clearly ahead. Upscaler coverage is the second gap: FSR 4 is good, but DLSS is supported in many more games, and older Radeon cards cannot officially run FSR 4 at all.",
+        "AMD also has no answer at the top. The RX 9070 XT competes with the RTX 5070 Ti, and nothing from AMD challenges the RTX 5080 or 5090. Efficiency varies too: the RX 9070 is excellent, but the XT draws more power than the 5070 Ti for similar raster speed. Finally, CUDA is the default in many creative and AI tools, and AMD's ROCm alternative supports fewer apps."
+      ]
+    },
+    {
+      "h": "AMD vs NVIDIA and Intel",
+      "body": [
+        "Choose AMD when you want the most VRAM and raster speed for your money. Choose NVIDIA for path tracing, the widest upscaler support, CUDA apps or anything faster than an RTX 5070 Ti; our [best NVIDIA graphics card](/best-nvidia-graphics-card/) guide covers that lineup. Intel's Arc B580 is a budget option with 12 GB, but its driver overhead hurts it on older CPUs.",
+        "At each price, the closest matchups are the RX 9070 XT against the RTX 5070 Ti, the RX 9070 against the RTX 5070 and the RX 9060 XT 16GB against the RTX 5060 Ti 16GB."
+      ],
+      "table": {
+        "caption": "AMD vs NVIDIA vs Intel at each price (street prices, USD)",
+        "head": [
+          "Price band",
+          "AMD",
+          "NVIDIA",
+          "Intel"
+        ],
+        "rows": [
+          [
+            "$180–$330",
+            "RX 6600 (8 GB)",
+            "RTX 5060 (8 GB)",
+            "Arc B580 (12 GB)"
+          ],
+          [
+            "$350–$480",
+            "RX 9060 XT 16GB",
+            "RTX 5060 Ti 16GB",
+            "None"
+          ],
+          [
+            "$550–$650",
+            "RX 9070 (16 GB)",
+            "RTX 5070 (12 GB)",
+            "None"
+          ],
+          [
+            "$600–$900",
+            "RX 9070 XT (16 GB)",
+            "RTX 5070 Ti (16 GB)",
+            "None"
+          ],
+          [
+            "$1,000 and up",
+            "None",
+            "RTX 5080, RTX 5090",
+            "None"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Who Should Skip AMD?",
+      "body": [
+        "Skip Radeon if path-traced games such as Cyberpunk 2077 or Alan Wake 2 are a big part of what you play, or if you rely on CUDA software for rendering, video or AI. Skip it if you want a card faster than an RTX 5070 Ti, since AMD has nothing in that class.",
+        "Streamers who already depend on NVIDIA-specific tools, and players whose favorite games support DLSS but not FSR 4, may also be happier with GeForce. For raster-focused gamers on a budget, Radeon is usually the better value."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Buying the 8 GB RX 9060 XT by mistake",
+      "The 8 GB and 16 GB versions share a name and look alike in listings. The 8 GB card runs out of memory in new games at high textures. Check the full model name and memory size before you buy, since the 16 GB version costs only modestly more."
+    ],
+    [
+      "Expecting FSR 4 on older Radeon cards",
+      "FSR 4 is officially supported on RX 9000 cards. RX 7000 and RX 6000 cards use FSR 3.1, which looks softer. If better upscaling is a reason you are buying, make sure the card you choose is an RX 9000 model."
+    ],
+    [
+      "Buying the RX 9070 when the XT is close in price",
+      "The RX 9070 XT is roughly 10–15% faster. When it costs only $50 to $100 more, it gives more performance per dollar. The non-XT card makes sense mainly for its lower power draw or a 650 W power supply you want to keep."
+    ],
+    [
+      "Skipping the power supply check",
+      "AMD rates the RX 9070 XT at 304 W, and factory-overclocked models draw more. Use a quality 750 W unit with enough separate PCIe cables, and avoid daisy-chained 8-pin connectors on cards that need three plugs, since one cable then carries far more current than intended."
+    ],
+    [
+      "Paying near-new prices for an RX 6000 card",
+      "Used RX 6700 XT and RX 6600 listings sometimes sit close to the price of an RX 9060 XT 16GB. At that point, the newer card's FSR 4 support, lower power and fuller driver support are worth more than any small saving."
+    ]
+  ],
+  "bottomLine": "The RX 9070 XT is the best AMD graphics card for most gamers, with 16 GB, near RTX 5070 Ti raster speed and FSR 4 for $600 to $730. The RX 9070 suits efficient 1440p builds, and the RX 9060 XT 16GB is the best budget Radeon. Buy an RX 6700 XT or RX 6600 only at a clear discount. Pick NVIDIA instead for path tracing, CUDA or the very high end.",
+  "faqs": [
+    {
+      "q": "What is the best AMD graphics card right now?",
+      "a": "The RX 9070 XT is the best AMD graphics card in 2026. It has 16 GB of GDDR6, trades blows with the RTX 5070 Ti in raster games and supports FSR 4, for $600 to $730. The RX 9070 is the more efficient alternative at 220 W, and the RX 9060 XT 16GB is the best budget choice."
+    },
+    {
+      "q": "What is the best budget AMD video card?",
+      "a": "The RX 9060 XT 16GB is the best budget AMD video card at $350 to $400. It has 16 GB of VRAM, FSR 4 support and a full PCIe x16 link, which helps in older systems. The RX 6600 is cheaper, but its 8 GB limits new games, so buy it only when the saving is large."
+    },
+    {
+      "q": "Are AMD graphics cards good for gaming?",
+      "a": "Yes, AMD graphics cards are good for gaming, especially for value. Radeon RX 9000 cards match or beat similarly priced NVIDIA cards in most raster games and carry more VRAM. NVIDIA still leads in heavy ray tracing and upscaler game support, so the right choice depends on the games you play."
+    },
+    {
+      "q": "Is the RX 9070 XT better than the RTX 5070 Ti?",
+      "a": "The RX 9070 XT is the better value, and the RTX 5070 Ti is the better all-rounder. Independent reviews show them trading blows in raster games, with the AMD card usually $100 to $200 cheaper. The RTX 5070 Ti leads in path tracing, uses less power and has wider DLSS support."
+    },
+    {
+      "q": "Is the RX 6700 XT still good in 2026?",
+      "a": "The RX 6700 XT is still a capable 1080p card, but it is only worth buying used at a clear discount. Its 12 GB of VRAM handles most games, but it lacks FSR 4, has weak ray tracing and draws 230 W. The RX 9060 XT 16GB is the better buy if the prices are close."
+    },
+    {
+      "q": "Does FSR 4 work on RX 7000 or RX 6000 cards?",
+      "a": "No, not officially. FSR 4 is built for the AI hardware in RDNA 4 and is supported on RX 9000 cards. RX 7000 and RX 6000 cards use FSR 3.1, which works on any GPU but produces a softer image, especially at 1080p. AMD's driver-level Fluid Motion Frames still works on RX 6000 cards and newer."
+    },
+    {
+      "q": "What power supply do I need for the RX 9070 XT?",
+      "a": "AMD recommends a 750 W power supply for the RX 9070 XT. It is rated at 304 W, and factory-overclocked models draw more. Most cards use two or three 8-pin connectors, so check that your power supply has enough separate PCIe cables. The RX 9070 runs on a quality 650 W unit."
+    }
+  ],
+  "sources": [
+    "AMD Radeon RX 9070 series and RX 9060 XT product and specification pages",
+    "AMD Radeon RX 6700 XT and RX 6600 product pages",
+    "AMD FSR 4 announcement and supported games list",
+    "AMD Software: Adrenalin Edition release notes",
+    "AMD corporate history and the 2006 ATI acquisition",
+    "Independent graphics card reviews from established hardware outlets",
+    "Owner reports on drivers and partner card noise from enthusiast forums"
+  ],
+  "related": [
+    "best-graphics-card",
+    "best-budget-graphics-card",
+    "best-gpu-for-ryzen-5-2600-and-3600"
+  ]
+}

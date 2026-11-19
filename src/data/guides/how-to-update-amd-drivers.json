@@ -1,0 +1,178 @@
+{
+  "slug": "how-to-update-amd-drivers",
+  "type": "article",
+  "kind": "howto",
+  "category": "graphics-cards",
+  "title": "How to Update AMD Drivers: Adrenalin, Auto-Detect and Manual",
+  "h1": "How to Update AMD Drivers",
+  "query": "how to update amd drivers",
+  "description": "Update AMD drivers 3 ways: inside AMD Software: Adrenalin Edition, with the Auto-Detect tool or a manual download. Plus Factory Reset, cleanup and timeouts.",
+  "dek": "Radeon graphics drivers, Ryzen chipset drivers and the fixes for installs that go wrong.",
+  "quickAnswer": "If AMD Software: Adrenalin Edition is installed, open it, check for updates, then download and install the new driver; it takes about 5 to 10 minutes. If it is not installed, run AMD's Auto-Detect and Install tool from amd.com, or download the full driver for your exact Radeon card from AMD's driver page. Ryzen chipset drivers are a separate download.",
+  "intro": [
+    "This page is for Radeon graphics card owners and anyone with Ryzen integrated graphics on Windows 10 or 11. It covers the three ways to update, the difference between recommended and optional releases, when to use Factory Reset or the AMD Cleanup Utility, how chipset drivers differ from graphics drivers, and first steps for driver timeouts and drivers that fail to load."
+  ],
+  "stepsHeading": "How to Update AMD Drivers in AMD Software: Adrenalin Edition",
+  "steps": [
+    {
+      "h": "Open AMD Software: Adrenalin Edition",
+      "body": [
+        "Find AMD Software: Adrenalin Edition in the Start menu, or click the AMD icon in the system tray. It installs alongside every full Radeon driver package, so if you have ever installed a driver from AMD it is probably already there. If it is missing, skip to the Auto-Detect tool section below."
+      ]
+    },
+    {
+      "h": "Check for updates",
+      "body": [
+        "The Home tab shows a notice when a newer driver is available. To check by hand, click the gear icon in the top-right corner and open the System tab. The software and driver section lists your installed version and has a Check for Updates button. AMD Software then shows the newest release it can offer your hardware."
+      ]
+    },
+    {
+      "h": "Decide between recommended and optional",
+      "body": [
+        "AMD labels each release as recommended or optional. Recommended drivers are WHQL-certified and form AMD's stable baseline. Optional drivers arrive more often and usually add support for new games. A setting in the same section controls whether you are offered optional releases or only recommended ones."
+      ]
+    },
+    {
+      "h": "Download and install",
+      "body": [
+        "Click to download the new driver, then start the install when the download finishes. Close games, browsers playing video and any GPU tuning tools first. Your screen will go black or flicker a few times while the display driver reloads. Do not shut down during this step."
+      ]
+    },
+    {
+      "h": "Restart and confirm the version",
+      "body": [
+        "Restart when prompted, even if Windows looks fine. Then reopen AMD Software, go back to the System tab and confirm the driver version matches the release you installed. If you had a custom tuning profile, check that it still applies, since some updates reset tuning to default."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "Which way of updating AMD drivers should you use?",
+      "body": [
+        "If AMD Software is already installed and working, update from inside it. Use the Auto-Detect and Install tool when you have no AMD software installed or are not sure of your exact GPU model. Use the full manual download when you want an offline installer, a specific version, or when the other two methods fail. Windows Update is the last resort."
+      ],
+      "table": {
+        "caption": "Four ways to get AMD graphics drivers",
+        "head": ["Method", "Best for", "Trade-off"],
+        "rows": [
+          ["AMD Software: Adrenalin Edition", "PCs that already have AMD Software installed", "Needs a working existing install"],
+          ["Auto-Detect and Install tool", "First installs, unsure of exact model", "Needs internet; cannot identify unsupported or some OEM hardware"],
+          ["Manual download from amd.com", "Offline installs, older versions, failed installs", "You must pick the right product and Windows version"],
+          ["Windows Update", "Getting a basic display driver on a fresh Windows install", "Usually older, often without AMD Software"]
+        ]
+      }
+    },
+    {
+      "h": "How do you use the AMD Auto-Detect and Install tool?",
+      "body": [
+        "The Auto-Detect and Install tool is a small download on AMD's drivers and support page. Run it and it identifies your Radeon graphics and Windows version, downloads the matching AMD Software package and starts the installer. It is the easiest choice for a new build, or for a PC where you do not know which Radeon model is fitted.",
+        "If the tool cannot match your hardware, it stops with an error rather than installing the wrong driver. That is most common on older Radeon cards, laptops with manufacturer-customized drivers and PCs with no AMD graphics at all. See [AMD error 182 and 207](/amd-software-error-182-207/) for what those messages mean and how to get past them."
+      ]
+    },
+    {
+      "h": "How do you download AMD drivers manually?",
+      "body": [
+        "The manual download gives you the full offline installer, which is the most reliable option when an install keeps failing or the PC has a poor connection."
+      ],
+      "list": [
+        "Open the drivers and support page on amd.com.",
+        "Search for your exact product or browse the list: Graphics, then the Radeon RX family, then your series and model. For Ryzen processors with built-in graphics, browse Processors with graphics instead. Not sure of your model? See [how to check what graphics card you have](/how-to-check-what-graphics-card-i-have/).",
+        "Expand the entry for your version of Windows and download the full installer for the release you want, recommended or optional.",
+        "Run the file. It extracts to a folder on your C drive, by default C:\\AMD, then opens the installer.",
+        "Choose the install type, from the full AMD Software package down to a driver-only install, and tick Factory Reset under the additional options if you want to wipe the previous driver and settings first."
+      ]
+    },
+    {
+      "h": "Recommended vs optional AMD drivers: which should you install?",
+      "body": [
+        "Recommended releases carry Microsoft's WHQL certification and are the versions AMD points most users to. Optional releases come out between them, often within days of a major game launch, and add fixes and support for new titles. They have not always finished WHQL certification at release.",
+        "Install recommended drivers if your PC is stable and you value predictability. Install the newest optional driver if a game you play launched recently, if the release notes list a fix for a problem you have, or if you just bought a card from AMD's newest series, where early optional drivers sometimes add meaningful fixes. You can move back to a recommended release at any time by downloading it manually."
+      ]
+    },
+    {
+      "h": "When should you use Factory Reset or the AMD Cleanup Utility?",
+      "body": [
+        "Factory Reset is a checkbox in the AMD installer. It removes the previous AMD driver and resets AMD Software settings, including tuning profiles, before installing the new version. Use it when you jump several versions at once, after crashes or display glitches, or when AMD Software and the driver report different versions.",
+        "The AMD Cleanup Utility is a separate free download from AMD's support site, built for installs that are badly broken. When you run it, it offers to restart Windows in Safe Mode, then removes AMD display drivers, AMD audio drivers and AMD Software. Afterward the PC runs on Windows' basic display driver until you install a fresh package. Use it after a failed install, when installer errors repeat, or before installing a Radeon card in a PC that previously had an older Radeon. To remove an NVIDIA driver before switching to Radeon, use DDU, as covered in [how to update NVIDIA drivers](/how-to-update-nvidia-drivers/).",
+        "Before running the Cleanup Utility, download the driver you plan to install next and disconnect from the internet, so Windows Update cannot slip in its own AMD driver after the restart."
+      ]
+    },
+    {
+      "h": "Ryzen chipset drivers vs Radeon drivers: what is the difference?",
+      "body": [
+        "They are separate packages for different hardware. Radeon drivers, delivered through AMD Software: Adrenalin Edition, run graphics: Radeon cards and the integrated graphics in Ryzen processors. Ryzen chipset drivers support the motherboard platform: power management, the AMD power plan settings Windows uses to schedule work across cores, and the parts of the [chipset](/glossary/chipset/) that Windows' own drivers do not fully cover.",
+        "Get chipset drivers from AMD's drivers page by browsing Chipsets and picking your motherboard chipset, such as X870E, B850 or B650 on AM5. They matter more than many people assume on Ryzen chips with two CCDs and [3D V-Cache](/glossary/3d-v-cache/), where the chipset package includes the component that helps Windows steer games to the cache-equipped cores.",
+        "Install the chipset driver when you first build the PC and after major Windows updates, and check for a new one every few months. It does not replace BIOS updates, which come from your motherboard maker. See the [best AM5 motherboard](/best-am5-motherboard/) guide for boards with straightforward BIOS update tools."
+      ]
+    },
+    {
+      "h": "What does it mean when the AMD display driver failed to load?",
+      "body": [
+        "This class of error means Windows is not running the AMD driver you expect. Common signs are AMD Software refusing to open, a message that the AMD Software version is not compatible with the installed driver, Device Manager listing Microsoft Basic Display Adapter instead of your Radeon card, or the card showing a yellow warning icon.",
+        "The usual cause is Windows Update installing its own AMD driver over the one you installed, leaving AMD Software and the driver at different versions. An interrupted install can do the same.",
+        "The fix is a fresh start: download the full installer for your card, disconnect from the internet, run the AMD Cleanup Utility, then install with Factory Reset ticked and reconnect afterward. If Device Manager shows the card with an error even after that, check that it is seated properly and that its power cables are fully inserted, with the PC switched off and unplugged."
+      ]
+    },
+    {
+      "h": "How do you fix an AMD driver timeout?",
+      "body": [
+        "A driver timeout message from AMD Software means the GPU stopped responding long enough that Windows reset the driver. Windows does this after about 2 seconds without a response, through a feature called timeout detection and recovery. The screen goes black briefly, the game may crash and AMD Software offers to send a bug report. Work through the likely causes in this order."
+      ],
+      "list": [
+        "Reset any GPU tuning to default in AMD Software's Performance section, including overclocks, undervolts and preset tuning profiles. An undervolt that looks stable in one game can time out in another.",
+        "Remove system memory overclocks and EXPO briefly to rule them out, then re-enable EXPO once the timeouts stop.",
+        "Install the most recent recommended driver with Factory Reset, or go back one release if the timeouts began with a new driver.",
+        "Check power: use separate PCIe cables for each power socket on the card rather than one daisy-chained cable, and confirm your power supply has enough headroom with the [PSU calculator](/tools/psu-calculator/).",
+        "Close overlays and recording tools one at a time, and try turning off hardware acceleration in your browser and chat apps if timeouts happen on the desktop.",
+        "Check temperatures with AMD Software's metrics overlay; a clogged heatsink or failed fan can cause instability under load."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Installing the wrong product's driver", "Picking a driver by series name alone can land you on the wrong package, especially for older cards and Ryzen integrated graphics, which are not always covered by the newest release. Confirm your exact model in Device Manager or Task Manager before searching AMD's drivers page."],
+    ["Letting Windows Update interfere", "Windows can install its own AMD display driver in the background while AMD's installer runs, which causes failed installs and mismatched versions. Stay offline during a clean reinstall, and use the full offline installer so the AMD package does not need a connection."],
+    ["Skipping chipset drivers on Ryzen", "A fresh Windows install runs a Ryzen PC without AMD's chipset package, but power management and core scheduling work best with it. Dual-CCD 3D V-Cache chips in particular depend on it for game scheduling. Install it from AMD's Chipsets section."],
+    ["Keeping an old undervolt after updating", "Tuning profiles can carry over between drivers, and a new driver can change how the card behaves at the same settings. If timeouts start after an update, reset tuning to default before blaming the driver itself."]
+  ],
+  "bottomLine": "Most Radeon owners only need AMD Software: Adrenalin Edition: open it, check for updates, install and restart, about 5 to 10 minutes. On a new build or after a broken install, use the Auto-Detect and Install tool or the full manual download for your exact card. Choose recommended drivers for stability and optional ones for new games. Keep Factory Reset for big version jumps and the Cleanup Utility for installs that keep failing, and remember Ryzen chipset drivers are a separate download.",
+  "faqs": [
+    {
+      "q": "How often does AMD release new graphics drivers?",
+      "a": "AMD usually ships at least one Adrenalin release a month, mixing optional drivers timed to game launches with less frequent recommended WHQL releases. You do not need every one. Update when a new game you play is supported, when release notes list a fix you need, or every couple of months to stay current."
+    },
+    {
+      "q": "Is AMD Software: Adrenalin Edition required?",
+      "a": "No, but it is the easiest way to update and it holds the settings for features such as FSR, Radeon Anti-Lag, tuning and the metrics overlay. AMD's installer offers a driver-only option for people who want the driver without the full app, though you then lose those controls and in-app update checks."
+    },
+    {
+      "q": "Can Windows Update install AMD drivers?",
+      "a": "Yes. Windows Update can install an AMD display driver, usually an older version than AMD's current release and sometimes without AMD Software. It is fine for getting a picture on screen after a fresh Windows install. For gaming, replace it with the current package from AMD."
+    },
+    {
+      "q": "Do I need to uninstall the old AMD driver before updating?",
+      "a": "No. Installing a new AMD driver over the old one is normal and works for routine updates. Tick Factory Reset if you are skipping many versions or had problems, and use the AMD Cleanup Utility in Safe Mode only when installs fail or errors keep appearing."
+    },
+    {
+      "q": "Why does AMD's installer say my hardware is not supported?",
+      "a": "AMD's installer stops when it cannot match your graphics hardware to the package you downloaded. Common reasons are an older Radeon that needs a different driver package, a laptop that requires its maker's driver, or a PC with no AMD graphics. Our [AMD error 182 and 207](/amd-software-error-182-207/) page covers each case."
+    },
+    {
+      "q": "Do Ryzen CPUs need driver updates?",
+      "a": "Ryzen processors use AMD's chipset driver package rather than a CPU driver, and it is worth installing on every Ryzen build. If your Ryzen chip has integrated graphics, those graphics use the Radeon driver from AMD Software. Firmware updates for the CPU arrive through motherboard BIOS updates."
+    },
+    {
+      "q": "How do I check which AMD driver version I have?",
+      "a": "Open AMD Software: Adrenalin Edition, click the gear icon and open the System tab, which lists the software and driver versions. Device Manager also shows a driver version under your card's Properties on the Driver tab, but it uses Windows' numbering rather than AMD's release name, so AMD Software is easier to compare."
+    }
+  ],
+  "sources": [
+    "AMD drivers and support page and AMD Software: Adrenalin Edition release notes",
+    "AMD support articles on the Auto-Detect and Install tool and the AMD Cleanup Utility",
+    "AMD support articles on installation errors and Factory Reset",
+    "AMD chipset driver release notes for AM4 and AM5 platforms",
+    "Microsoft documentation on timeout detection and recovery (TDR)",
+    "Microsoft support: update drivers through Windows Update and Device Manager"
+  ],
+  "products": ["rx-9070-xt", "rx-9070", "rx-9060-xt-16gb"],
+  "related": ["amd-software-error-182-207", "how-to-update-nvidia-drivers", "how-to-check-what-graphics-card-i-have"]
+}

@@ -3,13 +3,15 @@
     "name": "NVIDIA",
     "founded": "1993",
     "hq": "Santa Clara, California",
-    "blurb": "NVIDIA designs GeForce graphics cards, from the RTX 5060 up to the RTX 5090. It is known for leading ray tracing performance and DLSS upscaling, which is supported in hundreds of games."
+    "blurb": "NVIDIA designs GeForce graphics cards, from the RTX 5060 up to the RTX 5090. It is known for leading ray tracing performance and DLSS upscaling, which is supported in hundreds of games.",
+    "review": "best-nvidia-graphics-card"
   },
   "amd": {
     "name": "AMD",
     "founded": "1969",
     "hq": "Santa Clara, California",
-    "blurb": "AMD makes Ryzen processors and Radeon graphics cards. Its X3D chips with 3D V-Cache lead in gaming, and its Radeon RX 9000 series competes on VRAM and price per frame."
+    "blurb": "AMD makes Ryzen processors and Radeon graphics cards. Its X3D chips with 3D V-Cache lead in gaming, and its Radeon RX 9000 series competes on VRAM and price per frame.",
+    "review": "best-amd-graphics-card"
   },
   "intel": {
     "name": "Intel",
