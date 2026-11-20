@@ -9,69 +9,60 @@ export interface Author {
   bio: string[];
   beat: string[];
   sameAs?: string[];
-  /** Person only: real credentials, emitted in schema exactly as written. */
+  /** One-line professional summary for schema `description`. */
+  summary?: string;
+  /** Real credentials, emitted in schema exactly as written. */
   credential?: string;
   alumniOf?: string;
-  worksFor?: string;
   knowsAbout?: string[];
+  /** Real roles, newest first: [organisation, role and years, place]. */
+  background?: [string, string, string][];
 }
 
-// Add real, named authors here (with a real bio and profile links) and point
-// guides at them with "author": "<slug>". Pages without an author use the desk.
+// The site's author. Everything here is from his real profile (also the author of
+// besthometheaterreview.com). Do not add roles, credentials or claims he has not made.
 export const AUTHORS: Record<string, Author> = {
-  'hardware-desk': {
-    slug: 'hardware-desk',
-    name: 'The Hardware Desk',
-    role: 'PC Hardware Editors',
-    initials: 'HW',
+  'justin-lee': {
+    slug: 'justin-lee',
+    name: 'Justin Lee',
+    role: 'Author',
+    initials: 'JL',
     short:
-      'Our hardware editors compare PC parts on spec sheets, platform requirements, widely published independent measurements and owner reports, then match each part to the build it suits.',
+      'Justin Lee writes every guide, comparison and product verdict on Enthusiast Review. Software engineer: ex-Apple, ex-Tesla firmware, Waterloo CS.',
+    summary: 'Software engineer (ex-Apple, ex-Tesla firmware) with a background in embedded software and digital signal processing. University of Waterloo Computer Science.',
     bio: [
-      `The Hardware Desk covers graphics cards, processors, coolers, power supplies, cases, memory, motherboards and SSDs for ${SITE.name}. We have covered PC building since ${SITE.founded}.`,
-      'Every pick is researched against the manufacturer spec sheet, platform documentation (sockets, chipsets, BIOS requirements, connector standards) and the independent reviews and measurements published by the wider hardware press. We read owner reports in bulk to find the problems that show up after months: coil whine, failed fans, BIOS bugs, poor stock.',
-      'We have not bench-tested these parts ourselves, and every page says so. We do not accept payment for placement. When you buy through our links we may earn a commission, which never changes what we recommend.',
+      `Justin Lee writes the buying guides, brand reviews, comparisons and product verdicts on ${SITE.name}.`,
+      'He is a software engineer whose work has sat close to the hardware: embedded and firmware engineering and digital signal processing. That is the layer where drivers, BIOS updates, power limits and boost behaviour live, and it is why our pages spend so much time on platform requirements, firmware and what a spec sheet actually promises.',
+      'Every page is researched against the manufacturer spec sheet, platform documentation, widely published independent measurements and owner reports. He has not bench-tested these parts, and every page says so. We do not accept payment for placement.',
     ],
-    beat: ['Graphics cards and CPUs', 'Air and liquid CPU cooling', 'Power supplies and ATX 3.1', 'Cases, motherboards and memory', 'NVMe storage'],
-  },
-  // Content reviewer. His field is food science, not PC hardware: credit him for what he did
-  // (reviewing the site's research method, sourcing and accuracy) and never as a hardware tester.
-  'adam-franczyk': {
-    slug: 'adam-franczyk',
-    name: 'Adam Franczyk, PhD',
-    role: 'Research Reviewer',
-    initials: 'AF',
-    short:
-      'Adam Franczyk is a research scientist (PhD, University of Manitoba) who reviewed our research method, sourcing and claims for accuracy across the site.',
-    bio: [
-      'Adam Franczyk holds a PhD and an MSc in Food and Human Nutritional Sciences from the University of Manitoba, where he is now a postdoctoral researcher. His field is protein quality: he has evaluated thousands of samples, developed and tested four laboratory SOPs (one validated by the American Oil Chemists\' Society) and published peer-reviewed work in Cereal Chemistry and the Journal of Food Composition and Analysis.',
-      `For ${SITE.name} he reviewed the research method behind every page: how sources are chosen and cited, how spec-sheet figures and independent measurements are used, how the score is built, and whether claims are stated plainly and honestly, including that we have not bench-tested these parts.`,
-      'He is not a PC hardware specialist and did not test or rank individual products. Product picks and write-ups come from the Hardware Desk.',
+    beat: ['Graphics cards and CPUs', 'Drivers, BIOS and firmware', 'Power supplies and ATX 3.1', 'Coolers, cases, motherboards and memory', 'NVMe storage'],
+    background: [
+      ['Apple', 'Software Engineer (2024–2026) and Software Engineer Intern (2023)', 'Cupertino'],
+      ['Tesla', 'Firmware Engineer Intern (2023)', 'Palo Alto'],
+      ['Coherent Logix', 'Digital Signal Processing Software Engineer Intern (2022)', 'Waterloo'],
+      ['Peraso', 'Embedded Software Engineer co-op (2021–2022)', 'Toronto'],
+      ['University of Waterloo', "Bachelor's degree in Computer Science (2019–2024)", ''],
     ],
-    beat: ['Research method and sourcing', 'Accuracy of claims and citations', 'How the score is built', 'Plain disclosure of what was and was not tested'],
-    sameAs: ['https://www.linkedin.com/in/ajf17/'],
-    credential: 'PhD, Food and Human Nutritional Sciences',
-    alumniOf: 'University of Manitoba',
-    worksFor: 'University of Manitoba',
-    knowsAbout: ['Research methodology', 'Scientific writing', 'Laboratory method validation', 'Data analysis'],
+    sameAs: ['https://www.linkedin.com/in/justinllee32/'],
+    credential: "Bachelor's degree in Computer Science",
+    alumniOf: 'University of Waterloo',
+    knowsAbout: ['Embedded software', 'Firmware', 'Digital signal processing', 'PC hardware'],
   },
 };
 
-export const DEFAULT_AUTHOR = 'hardware-desk';
-/** Reviewed the whole site's research method and content (shown as "Reviewed by"). */
-export const SITE_REVIEWER = 'adam-franczyk';
+export const DEFAULT_AUTHOR = 'justin-lee';
 export const getAuthor = (slug?: string) => AUTHORS[slug ?? DEFAULT_AUTHOR] ?? AUTHORS[DEFAULT_AUTHOR];
 
 export function authorSchema(slug?: string) {
   const a = getAuthor(slug);
   return {
-    '@type': a.slug === DEFAULT_AUTHOR ? 'Organization' : 'Person',
+    '@type': 'Person',
     name: a.name,
     url: `${SITE.url}/authors/${a.slug}/`,
-    ...(a.slug === DEFAULT_AUTHOR ? {} : { jobTitle: a.role }),
     ...(a.sameAs?.length ? { sameAs: a.sameAs } : {}),
-    ...(a.credential ? { hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: a.credential } } : {}),
+    ...(a.summary ? { description: a.summary } : {}),
     ...(a.alumniOf ? { alumniOf: { '@type': 'CollegeOrUniversity', name: a.alumniOf } } : {}),
-    ...(a.worksFor ? { worksFor: { '@type': 'CollegeOrUniversity', name: a.worksFor } } : {}),
+    ...(a.credential ? { hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: a.credential } } : {}),
     ...(a.knowsAbout?.length ? { knowsAbout: a.knowsAbout } : {}),
   };
 }

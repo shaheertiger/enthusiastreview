@@ -2,7 +2,6 @@
 import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
 import { SITE } from '../../data/site';
-import { reviewedPage } from '../../lib/schema';
 import { TERMS, getTerm, getGuide, termPath, guidePath, glossaryUpdated, fmtDate, newCtx, inline, type Term } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -19,7 +18,6 @@ const crumbs = [{ name: 'Home', href: '/' }, { name: 'Glossary', href: '/glossar
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    reviewedPage(path, updated),
     {
       '@type': 'DefinedTerm',
       name: t.term,
@@ -38,7 +36,7 @@ const jsonLd = {
       <div class="kicker">PC Hardware Glossary</div>
       <h1 class="a-title">{t.title.split(/[?:]/)[0]}{t.title.includes('?') ? '?' : ''}</h1>
       <p class="dek">{t.short}</p>
-      <div class="byline">Updated <time datetime={updated}>{fmtDate(updated)}</time> · Reviewed by <a href="/authors/adam-franczyk/">Adam Franczyk, PhD</a></div>
+      <div class="byline">By <a href="/authors/justin-lee/">Justin Lee</a> · Updated <time datetime={updated}>{fmtDate(updated)}</time></div>
     </header>
     <div class="col body">
       {t.body.map((p) => <p set:html={inline(p, ctx)} />)}
