@@ -1,0 +1,143 @@
+{
+  "slug": "integrated-graphics-equivalents",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Integrated Graphics Equivalents: Radeon 780M, Iris Xe and More",
+  "h1": "Integrated Graphics Equivalents",
+  "query": "integrated graphics equivalent",
+  "description": "The Radeon 780M roughly equals a GTX 1050 Ti to GTX 1650, Iris Xe a GT 1030 and UHD 620 sits below a GT 730. Find the graphics card match for every iGPU.",
+  "dek": "Find the dedicated graphics card closest to the integrated graphics in your laptop or desktop chip, from Intel UHD 600 to Radeon 890M.",
+  "quickAnswer": "The fastest integrated graphics, Radeon 890M, 780M and Intel Arc 140V, land between a GTX 1050 Ti and a GTX 1650 with fast dual-channel memory. The Radeon 680M roughly matches a GTX 1050 Ti, Vega 8 and Iris Xe 96EU a GT 1030 or MX350, and Intel UHD 630 and UHD 620 sit below a GT 730. Even the best iGPU is far slower than an RTX 3050.",
+  "intro": [
+    "This chart matches the integrated graphics in recent AMD Ryzen and Intel Core chips to the dedicated graphics card that performs most like it in games. It covers AMD's Radeon 890M, 880M, 780M, 760M, 680M, 660M and Vega graphics, the desktop Ryzen G-series APUs, Intel's Arc 140V, 130V and Meteor Lake Arc graphics, Iris Xe, and the UHD 770, 730, 630, 620 and 600.",
+    "Equivalents follow the broad pattern of published independent reviews and are rounded to the nearest card. We have not bench-tested these chips. Integrated graphics swing much more than graphics cards do, because they share system memory and the laptop's power budget, so read the notes on memory and power before you trust any single match."
+  ],
+  "sections": [
+    {
+      "h": "Why Integrated Graphics Equivalents Vary So Much",
+      "body": [
+        "A graphics card has its own memory and its own power budget. Integrated graphics have neither. They borrow system RAM as video memory and share the chip's power limit with the CPU cores, so the same iGPU can perform very differently in two machines.",
+        "Memory is the biggest factor. Integrated graphics need two memory channels: one stick of RAM, or a laptop with soldered single-channel memory, can cut gaming performance by roughly a third or more. Memory speed matters too. A Radeon 780M with DDR5-5600 or LPDDR5X-7500 is much faster than the same chip with slow memory. On desktop APUs, DDR5-6000 is the practical target for the 8700G and DDR4-3200 to 3600 for the 5700G.",
+        "Power is the second factor. A Radeon 780M in a handheld or thin laptop set to 15 W runs well below the same chip at 35 W or more in a thicker laptop or a desktop. The ranges in the tables below run from a low-power, well-configured laptop to a well-cooled machine with fast dual-channel memory.",
+        "Integrated graphics also get no dedicated [VRAM](/glossary/vram/). The BIOS or driver sets aside part of system RAM, which is one more reason 16 GB of system memory is the practical minimum for gaming on an iGPU."
+      ]
+    },
+    {
+      "h": "AMD Radeon Integrated Graphics Equivalents",
+      "body": [
+        "AMD's RDNA-based integrated graphics are the fastest in mainstream laptops and desktop APUs. The older Vega graphics in Ryzen 2000 to 5000 chips sit a large step lower."
+      ],
+      "table": {
+        "caption": "AMD integrated graphics to dedicated GPUs, with fast dual-channel memory",
+        "head": ["Integrated GPU", "Found in", "Closest graphics card", "Note"],
+        "rows": [
+          ["Radeon 890M", "Ryzen AI 9 HX 370, AI 9 365", "GTX 1650 (roughly)", "Fastest mainstream iGPU; gains depend on power limit"],
+          ["Radeon 880M", "Ryzen AI 9 365 class, Ryzen AI 7", "Between GTX 1050 Ti and GTX 1650", "Close to the 780M"],
+          ["Radeon 780M", "Ryzen 7 7840U/HS, 8840U/HS, Ryzen 7 8700G", "Between GTX 1050 Ti and GTX 1650", "Near GTX 1650 only at higher power"],
+          ["Radeon 760M", "Ryzen 5 7640U/HS, 8640U/HS, Ryzen 5 8600G", "GTX 1050 to GTX 1050 Ti", "About 20 to 30 percent below 780M"],
+          ["Radeon 740M", "Ryzen 5 7540U, Ryzen 3 7440U", "Below GTX 1050; above GT 1030", "Light 1080p low or 720p gaming"],
+          ["Radeon 680M", "Ryzen 7 6800U/H, Ryzen 7 7735U/HS", "GTX 1050 Ti (roughly)", "RDNA 2, 12 compute units"],
+          ["Radeon 660M", "Ryzen 5 6600U/H, Ryzen 5 7535U/HS", "MX450 to GTX 1050 (roughly)", "Half the units of the 680M"],
+          ["Radeon 610M", "Ryzen 7020 and 7000 desktop CPUs", "Below GT 1030", "Display output, not a gaming GPU"],
+          ["Vega 8", "Ryzen 5 3500U, 4500U, 5500U; Ryzen 7 5700G", "GT 1030 to MX350 (roughly)", "5700G version is faster than laptop versions"],
+          ["Vega 7", "Ryzen 5 4600H, 5600H, 5600U; Ryzen 5 5600G", "GT 1030 (roughly)", "Similar to Vega 8 in practice"],
+          ["Vega 11", "Ryzen 5 2400G, 3400G", "GT 1030 (roughly)", "Older desktop APUs, DDR4 dependent"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Radeon 780M Equivalent?",
+      "body": [
+        "The Radeon 780M performs between a GTX 1050 Ti and a GTX 1650 in games. With fast dual-channel DDR5 or LPDDR5X and a power limit of 35 W or more, it comes close to a desktop GTX 1650 on average; in a thin laptop at 15 to 25 W, or with slower memory, it lands nearer a GTX 1050 Ti.",
+        "In practice that means most esports games at 1080p high, and many recent games at 1080p low or with FSR upscaling at 30 to 60 frames per second. It is nowhere near a current entry card: an [RTX 5060](/gear/rtx-5060/) or [Arc B580](/gear/arc-b580/) is several times faster.",
+        "The Radeon 880M uses the newer RDNA 3.5 design with the same 12 compute units and performs close to the 780M. The Radeon 890M adds four more units and is usually 10 to 25 percent faster at higher power, putting it at roughly GTX 1650 level."
+      ]
+    },
+    {
+      "h": "What Is the Ryzen 7 8700G GPU Equivalent?",
+      "body": [
+        "The Ryzen 7 8700G uses the same Radeon 780M graphics, and on a desktop board with dual-channel DDR5-6000 it runs near the top of the 780M's range: a little below a GTX 1650 on average, and ahead of a GTX 1050 Ti. The Ryzen 5 8600G has the Radeon 760M and lands around a GTX 1050 to GTX 1050 Ti.",
+        "These are the fastest integrated graphics you can put in a desktop. Even so, adding a used [RX 6600](/gear/rx-6600/) multiplies performance several times over. Note that the [Ryzen 7 8700F](/gear/ryzen-7-8700f/) is the same chip with the graphics turned off, so it needs a graphics card.",
+        "The older Ryzen 7 5700G uses Vega 8 graphics and the Ryzen 5 5600G Vega 7. With fast dual-channel DDR4, both land around a GT 1030, with the 5700G a little ahead."
+      ]
+    },
+    {
+      "h": "What Is the Vega 8 Equivalent?",
+      "body": [
+        "Vega 8 graphics land around a GT 1030 or a laptop MX350 in games. The desktop Ryzen 7 5700G version, clocked at 2.0 GHz with fast DDR4, sits at the top of that range; the laptop versions in the Ryzen 5 3500U, 4500U and 5500U run lower, closer to an MX250 or MX330 in thin laptops.",
+        "Vega 7 in the Ryzen 5 4600H, 5600H and 5600G performs much the same as Vega 8, because the newer chips run their fewer units at higher clocks. Vega 11 in the desktop Ryzen 5 2400G and 3400G is also roughly a GT 1030. All of these handle esports games at 720p to 1080p low, and very little else at playable frame rates."
+      ]
+    },
+    {
+      "h": "Intel Integrated Graphics Equivalents",
+      "body": [
+        "Intel's integrated graphics changed the most in recent years. The Arc graphics in Core Ultra laptop chips compete with AMD's best, while the UHD graphics in desktop Core chips are meant for display output, not gaming."
+      ],
+      "table": {
+        "caption": "Intel integrated graphics to dedicated GPUs, with fast dual-channel memory",
+        "head": ["Integrated GPU", "Found in", "Closest graphics card", "Note"],
+        "rows": [
+          ["Arc 140V", "Core Ultra 7 and 9 200V (Lunar Lake)", "GTX 1650 class; close to Radeon 890M", "Strong at low power"],
+          ["Arc 130V", "Core Ultra 5 200V (Lunar Lake)", "Between GTX 1050 Ti and GTX 1650", "One fewer Xe core than 140V"],
+          ["Arc (8 Xe cores)", "Core Ultra 7 155H, 165H (Meteor Lake)", "Between GTX 1050 Ti and GTX 1650", "Close to Radeon 780M; needs dual-channel RAM"],
+          ["Iris Xe 96 EU", "Core i7-1165G7, i7-1260P, i7-1355U", "GT 1030 to MX350 (roughly)", "Laptop power limit changes it a lot"],
+          ["Iris Xe 80 EU", "Core i5-1135G7, i5-1240P, i5-1335U", "A step below GT 1030; around MX250", "About 15 to 20 percent below 96 EU"],
+          ["UHD 770", "Core i5, i7, i9 12th to 14th gen desktop", "Well below GT 1030; around GT 730", "Display and video, not gaming"],
+          ["UHD 730", "Core i3 and some i5 12th to 14th gen desktop", "A little below UHD 770", ""],
+          ["UHD 630", "Core 8th to 10th gen desktop", "GT 710 to GT 730", "Older games at 720p low only"],
+          ["UHD 620", "Core 8th to 10th gen U-series laptops", "Below GT 730", "Slower than UHD 630 at laptop power"],
+          ["UHD 600", "Celeron and Pentium Silver", "Far below GT 710", "Not for 3D gaming"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Iris Xe Equivalent?",
+      "body": [
+        "Intel Iris Xe graphics with 96 execution units, found in Core i7 laptop chips from 11th to 13th gen, roughly match a GT 1030 or a laptop MX350 in games. The 80 EU version in Core i5 chips is about 15 to 20 percent slower, closer to an MX250. Both need dual-channel memory to earn the Iris Xe name; with single-channel RAM, Windows reports them as Intel UHD Graphics and they run noticeably slower.",
+        "Iris Xe is enough for esports titles such as Valorant, League of Legends and Counter-Strike 2 at 1080p low to 720p, and for older games. It is well behind the Radeon 680M and 780M, and far behind any current graphics card."
+      ]
+    },
+    {
+      "h": "What Is the UHD 620 Equivalent?",
+      "body": [
+        "Intel UHD 620, the graphics in most 8th to 10th gen Core i5 and i7 U-series laptops, sits below a GT 730 in games and well below a GT 1030. It handles video playback, office work and light older games at 720p low, but not modern 3D games at playable frame rates.",
+        "The desktop UHD 630 uses the same design at higher clocks and power and is a little faster, landing around a GT 710 to GT 730. The UHD 770 and UHD 730 in 12th to 14th gen desktop chips are newer but still aimed at display output: if you want to game on an Intel desktop, plan on a graphics card."
+      ]
+    },
+    {
+      "h": "When Is Integrated Graphics Enough, and What Should You Upgrade To?",
+      "body": [
+        "The top tier, Radeon 780M, 880M, 890M and Intel Arc 140V, is enough for esports games, older titles and lighter recent games at 1080p low or with upscaling. Everything at Iris Xe or Vega level and below is for esports and older games at 720p to 1080p low.",
+        "On a desktop, any recent entry graphics card is a large upgrade. A used [RX 6600](/gear/rx-6600/) is roughly four to five times faster than a Radeon 780M in games by the broad pattern of independent reviews, and an [RTX 5060](/gear/rtx-5060/) or [Arc B580](/gear/arc-b580/) faster still. Our [best budget graphics card](/best-budget-graphics-card/) guide covers the options, and the [AMD vs NVIDIA GPU equivalents](/amd-vs-nvidia-gpu-equivalents/) chart places each card against the others.",
+        "Before adding a card to an older office PC, check the power supply and the slot. Many small prebuilt desktops have a 180 W to 300 W power supply with no PCIe power connector, which limits you to low-profile cards that draw all their power from the slot."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Running integrated graphics on one stick of RAM", "Single-channel memory halves the bandwidth an iGPU depends on and can cut gaming performance by a third or more. Two matched sticks, or a laptop with dual-channel soldered memory, is the first thing to check."],
+    ["Comparing a 15 W laptop to a desktop APU", "The same Radeon 780M is much faster in a Ryzen 7 8700G desktop than in a thin laptop set to 15 W. Compare benchmarks from machines with a similar power limit, not just the same iGPU name."],
+    ["Buying an F-series CPU for a build without a GPU", "Chips like the Ryzen 7 8700F and Intel Core i5-14400F have no integrated graphics. Without a graphics card, the PC cannot show a picture, so check for the F suffix before you buy."],
+    ["Expecting an iGPU to replace an entry graphics card", "Even the Radeon 890M is a GTX 1650-class part. A current entry card like the RTX 5060 is several times faster, so for modern games at 1080p medium or above, integrated graphics is a stopgap."]
+  ],
+  "bottomLine": "With fast dual-channel memory and a reasonable power limit, the Radeon 890M and Intel Arc 140V roughly match a GTX 1650, the Radeon 780M and 880M sit between a GTX 1050 Ti and GTX 1650, the Radeon 680M matches a GTX 1050 Ti, Vega 8 and Iris Xe 96 EU match a GT 1030, and Intel UHD 630 and 620 sit below a GT 730. Memory and power move each match by a full tier, so check both before you compare.",
+  "faqs": [
+    {"q": "What is the Radeon 780M equivalent to?", "a": "Between a GTX 1050 Ti and a GTX 1650 in games. With fast dual-channel DDR5 and a power limit of 35 W or more, as in the Ryzen 7 8700G, it comes close to a GTX 1650. In thin laptops at low power it lands nearer a GTX 1050 Ti."},
+    {"q": "What graphics card is equal to Intel Iris Xe?", "a": "Iris Xe with 96 execution units roughly matches a GT 1030 or a laptop MX350. The 80 EU version in Core i5 chips is a step slower, around an MX250. Both need dual-channel memory to reach those levels."},
+    {"q": "What is the Vega 8 equivalent to?", "a": "Roughly a GT 1030 or MX350. The desktop Ryzen 7 5700G with fast DDR4 is at the top of that range, while laptop chips like the Ryzen 5 5500U run lower, closer to an MX250 or MX330."},
+    {"q": "What is the Ryzen 7 8700G GPU equivalent to?", "a": "Its Radeon 780M performs a little below a GTX 1650 and ahead of a GTX 1050 Ti on a desktop with dual-channel DDR5-6000. It is the fastest integrated graphics available in a desktop chip."},
+    {"q": "What is Intel UHD 620 equivalent to?", "a": "It sits below a GT 730 and well below a GT 1030. It handles video, office work and older games at 720p low, but not modern 3D games at playable frame rates."},
+    {"q": "Is the Radeon 890M better than a GTX 1650?", "a": "Roughly equal at best. With fast LPDDR5X and a high power limit, the Radeon 890M performs around a desktop GTX 1650; in thinner laptops at lower power it falls somewhat below."},
+    {"q": "Is Intel Arc 140V better than Radeon 780M?", "a": "Usually a little better, especially at low power limits, and roughly level with the Radeon 890M in many games. Results swing more from game to game than with AMD's graphics."},
+    {"q": "How much RAM does integrated graphics need?", "a": "16 GB in two channels is the practical minimum for gaming, because the iGPU borrows part of system memory as video memory. Faster RAM helps directly: DDR5-6000 for the Ryzen 8000G, DDR4-3200 to 3600 for the Ryzen 5000G."}
+  ],
+  "sources": [
+    "AMD Ryzen 8000G, 7040, 8040, AI 300, 6000 and 5000 series processor specifications",
+    "Intel Core Ultra 200V and Series 1, 11th to 14th gen Core processor graphics specifications",
+    "NVIDIA GeForce GTX 16, GTX 10, GT 1030 and MX series specifications",
+    "TechPowerUp GPU database relative performance listings",
+    "Independent integrated graphics reviews from Hardware Unboxed, Gamers Nexus, Notebookcheck and Tom's Hardware, including Ryzen 7 8700G memory scaling tests"
+  ],
+  "products": ["rx-6600", "rtx-5060", "arc-b580", "ryzen-7-8700f"],
+  "related": ["amd-vs-nvidia-gpu-equivalents", "best-budget-graphics-card", "intel-arc-gpu-equivalents"]
+}
