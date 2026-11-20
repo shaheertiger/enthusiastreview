@@ -201,6 +201,10 @@
   },
   "mentions": [
     {
+      "id": "corsair-rm850e",
+      "text": "The Corsair RM850e (2025) is the 850 W version of our RM750e pick: ATX 3.1, fully modular, a native 12V-2x6 cable and a 7-year warranty for $105 to $130. It covers an RTX 5080 for about $20 less than the RM850x, which keeps the edge with a quieter 140 mm fan and a 10-year warranty."
+    },
+    {
       "id": "seasonic-focus-gx-850",
       "text": "Seasonic also sells the Focus GX in 750 W and 1,000 W sizes. The 750 W version is a strong alternative to the RM750e when it is on sale, and the 1,000 W version competes with the RM1000x for RTX 5090 builds. We list the 850 W model because it is the size most people should buy."
     },

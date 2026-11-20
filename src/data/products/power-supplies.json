@@ -458,5 +458,61 @@
         "a": "Not in a way most buyers will notice. ATX 3.1 made small changes, including adopting the 12V-2x6 connector, and an ATX 3.0 unit with a 16-pin cable works with current cards."
       }
     ]
+  },
+  {
+    "id": "corsair-rm850e",
+    "name": "Corsair RM850e (2025)",
+    "short": "RM850e",
+    "brand": "corsair",
+    "category": "power-supplies",
+    "released": "2025",
+    "price": [105, 130],
+    "amazon": "Corsair RM850e 2025 ATX 3.1 power supply",
+    "description": "The Corsair RM850e is an 850 W, ATX 3.1, fully modular PSU with a native 12V-2x6 cable for $105 to $130: enough for an RTX 5080, about $20 under the RM850x.",
+    "quick": "An 850 W, fully modular ATX 3.1 power supply with a native 12V-2x6 GPU cable, Cybenetics Gold efficiency and 105°C-rated capacitors. It carries a 7-year warranty.",
+    "bestFor": "RTX 5070 Ti, RTX 5080 and RX 9070 XT builds that want 850 W for less than the RM850x",
+    "skipIf": "you want a 10-year warranty and the quieter 140 mm fan of the RM850x, or your build needs only 750 W",
+    "specs": [
+      ["Wattage", "850 W"],
+      ["Efficiency", "Cybenetics Gold"],
+      ["ATX version", "ATX 3.1"],
+      ["Modularity", "Fully modular"],
+      ["GPU connector", "Native 12V-2x6 cable"],
+      ["Fan", "120 mm"],
+      ["Warranty", "7 years"],
+      ["Capacitors", "105°C rated"]
+    ],
+    "score": {
+      "overall": 87,
+      "parts": [["Electrical quality", 86], ["Noise", 83], ["Features", 86], ["Value", 91]]
+    },
+    "verdict": [
+      "The RM850e is the cheaper way to get 850 W from Corsair. For $105 to $130 it gives you a fully modular ATX 3.1 unit with a native 12V-2x6 cable, Cybenetics Gold efficiency and a 7-year warranty. That meets NVIDIA's 850 W recommendation for the [RTX 5080](/gear/rtx-5080/) and leaves comfortable headroom for an RTX 5070 Ti or RX 9070 XT with a 120 W CPU.",
+      "It is the 850 W version of the [RM750e](/gear/corsair-rm750e/), and it makes the same trade against the [RM850x](/gear/corsair-rm850x/): a 120 mm fan instead of 140 mm, and seven years of warranty instead of ten. A smaller fan has to spin faster to move the same air, so expect it to be more audible than the RM850x during long, heavy loads, though it stays quiet in typical gaming. The saving is usually about $20.",
+      "Buy the 2025 model. Listings name it RM850e (2025) and mention ATX 3.1 and a native 12V-2x6 cable; older RM850e stock may not include them. If your graphics card tops out at an RTX 5070, the RM750e saves another $15 to $25, and if you want the longest warranty and the quietest fan, the RM850x is worth the extra."
+    ],
+    "pros": ["850 W for RTX 5080 builds", "ATX 3.1 with a native 12V-2x6 cable", "Fully modular", "About $20 less than the RM850x", "Seven-year warranty"],
+    "cons": ["Shorter warranty than the RM850x", "Smaller 120 mm fan", "Older stock may lack ATX 3.1"],
+    "extra": {
+      "heading": "Cables and Connectors",
+      "body": [
+        "The native 12V-2x6 cable plugs straight into RTX 50 series cards, with no adapter. Push the plug in until it clicks, check from the side that no gap remains, and leave a gentle curve rather than a tight bend near the connector.",
+        "For Radeon cards like the RX 9070 XT, use the PCIe 8-pin cables, one cable per socket where possible. NVIDIA's guidance for reference: RTX 5070 650 W, RTX 5070 Ti 750 W, RTX 5080 850 W."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the RM850e enough for an RTX 5080?",
+        "a": "Yes. NVIDIA recommends an 850 W supply for the 360 W RTX 5080, and the RM850e includes the native 12V-2x6 cable it uses."
+      },
+      {
+        "q": "RM850e or RM850x: which should I buy?",
+        "a": "The RM850x if the price gap is $20 or less: it adds a 140 mm fan and a 10-year warranty. The RM850e if you want 850 W for the lowest price."
+      },
+      {
+        "q": "How do I know I am getting the 2025 RM850e?",
+        "a": "Check that the listing says 2025, ATX 3.1 and a native 12V-2x6 cable. Those are the features that matter for current graphics cards."
+      }
+    ]
   }
 ]
