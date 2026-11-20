@@ -7,6 +7,7 @@ import BuyButton from '../../components/BuyButton.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
+import { amazonLink } from '../../data/affiliate';
 import { publisherRef, productItemList } from '../../lib/schema';
 import { authorSchema } from '../../data/authors';
 import {
@@ -163,6 +164,12 @@ const jsonLd = {
         {guides.map((g) => <li><a href={guidePath(g)}>{g.h1}</a></li>)}
         {more.map((x) => <li><a href={comparePath(x)}>{mustProduct(x.a).short} vs {mustProduct(x.b).short}</a></li>)}
       </ul>
+    </div>
+
+    <div class="sticky-buy sb-mobile sb-pair" aria-label="Check prices on Amazon">
+      <a class="buy buy-sm" href={amazonLink(a)} rel="sponsored nofollow noopener" target="_blank">{a.short}</a>
+      <a class="buy buy-sm" href={amazonLink(b)} rel="sponsored nofollow noopener" target="_blank">{b.short}</a>
+      <button class="sb-close" type="button" aria-label="Dismiss" onclick="this.parentElement.hidden=true">×</button>
     </div>
   </article>
 </Base>

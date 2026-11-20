@@ -10,6 +10,7 @@ import Score from './Score.astro';
 import BuyButton from './BuyButton.astro';
 import FaqList from './FaqList.astro';
 import { SITE } from '../data/site';
+import { amazonLink } from '../data/affiliate';
 import { publisherRef } from '../lib/schema';
 import { getAuthor, authorSchema } from '../data/authors';
 import {
@@ -45,6 +46,8 @@ const crumbs = [
   { name: g.h1, href: path },
 ];
 const OG_IMAGE = products[0]?.image;
+// Mobile sticky Amazon bar: the first part listed in the article's `products`.
+const stickyP = products[0];
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -175,5 +178,13 @@ const jsonLd = {
         ))}
       </div>
     </aside>
+
+    {stickyP && (
+      <div class="sticky-buy sb-mobile" aria-label="Featured part">
+        <span class="sb-text"><span class="sb-k">{SITE.score} {stickyP.score.overall}/100 · {priceBand(stickyP)}</span><strong>{stickyP.name}</strong></span>
+        <a class="buy buy-sm" href={amazonLink(stickyP)} rel="sponsored nofollow noopener" target="_blank">Check Price</a>
+        <button class="sb-close" type="button" aria-label="Dismiss" onclick="this.parentElement.hidden=true">×</button>
+      </div>
+    )}
   </article>
 </Base>
