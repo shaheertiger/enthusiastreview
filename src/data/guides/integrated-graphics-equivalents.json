@@ -30,21 +30,100 @@
       ],
       "table": {
         "caption": "AMD integrated graphics to dedicated GPUs, with fast dual-channel memory",
-        "head": ["Integrated GPU", "Found in", "Closest graphics card", "Note"],
+        "head": [
+          "Integrated GPU",
+          "Found in",
+          "Closest graphics card",
+          "Note"
+        ],
         "rows": [
-          ["Radeon 890M", "Ryzen AI 9 HX 370, AI 9 365", "GTX 1650 (roughly)", "Fastest mainstream iGPU; gains depend on power limit"],
-          ["Radeon 880M", "Ryzen AI 9 365 class, Ryzen AI 7", "Between GTX 1050 Ti and GTX 1650", "Close to the 780M"],
-          ["Radeon 780M", "Ryzen 7 7840U/HS, 8840U/HS, Ryzen 7 8700G", "Between GTX 1050 Ti and GTX 1650", "Near GTX 1650 only at higher power"],
-          ["Radeon 760M", "Ryzen 5 7640U/HS, 8640U/HS, Ryzen 5 8600G", "GTX 1050 to GTX 1050 Ti", "About 20 to 30 percent below 780M"],
-          ["Radeon 740M", "Ryzen 5 7540U, Ryzen 3 7440U", "Below GTX 1050; above GT 1030", "Light 1080p low or 720p gaming"],
-          ["Radeon 680M", "Ryzen 7 6800U/H, Ryzen 7 7735U/HS", "GTX 1050 Ti (roughly)", "RDNA 2, 12 compute units"],
-          ["Radeon 660M", "Ryzen 5 6600U/H, Ryzen 5 7535U/HS", "MX450 to GTX 1050 (roughly)", "Half the units of the 680M"],
-          ["Radeon 610M", "Ryzen 7020 and 7000 desktop CPUs", "Below GT 1030", "Display output, not a gaming GPU"],
-          ["Vega 8", "Ryzen 5 3500U, 4500U, 5500U; Ryzen 7 5700G", "GT 1030 to MX350 (roughly)", "5700G version is faster than laptop versions"],
-          ["Vega 7", "Ryzen 5 4600H, 5600H, 5600U; Ryzen 5 5600G", "GT 1030 (roughly)", "Similar to Vega 8 in practice"],
-          ["Vega 11", "Ryzen 5 2400G, 3400G", "GT 1030 (roughly)", "Older desktop APUs, DDR4 dependent"]
+          [
+            "Radeon 8060S",
+            "Ryzen AI Max+ 395 (Strix Halo)",
+            "Desktop RTX 4060 class at high power (estimate)",
+            "40 compute units, 256-bit LPDDR5X; far above other iGPUs"
+          ],
+          [
+            "Radeon 890M",
+            "Ryzen AI 9 HX 370, AI 9 365",
+            "GTX 1650 (roughly)",
+            "Fastest mainstream iGPU; gains depend on power limit"
+          ],
+          [
+            "Z2 Extreme / Z1 Extreme graphics",
+            "ROG Xbox Ally X / ROG Ally, Legion Go",
+            "GTX 1650 class at 25 to 35 W",
+            "Same classes as the 890M and 780M"
+          ],
+          [
+            "Radeon 880M",
+            "Ryzen AI 9 365 class, Ryzen AI 7",
+            "Between GTX 1050 Ti and GTX 1650",
+            "Close to the 780M"
+          ],
+          [
+            "Radeon 780M",
+            "Ryzen 7 7840U/HS, 8840U/HS, Ryzen 7 8700G",
+            "Between GTX 1050 Ti and GTX 1650",
+            "Near GTX 1650 only at higher power"
+          ],
+          [
+            "Radeon 760M",
+            "Ryzen 5 7640U/HS, 8640U/HS, Ryzen 5 8600G",
+            "GTX 1050 to GTX 1050 Ti",
+            "About 20 to 30 percent below 780M"
+          ],
+          [
+            "Radeon 740M",
+            "Ryzen 5 7540U, Ryzen 3 7440U",
+            "Below GTX 1050; above GT 1030",
+            "Light 1080p low or 720p gaming"
+          ],
+          [
+            "Radeon 680M",
+            "Ryzen 7 6800U/H, Ryzen 7 7735U/HS",
+            "GTX 1050 Ti (roughly)",
+            "RDNA 2, 12 compute units"
+          ],
+          [
+            "Radeon 660M",
+            "Ryzen 5 6600U/H, Ryzen 5 7535U/HS",
+            "MX450 to GTX 1050 (roughly)",
+            "Half the units of the 680M"
+          ],
+          [
+            "Radeon 610M",
+            "Ryzen 7020 and 7000 desktop CPUs",
+            "Below GT 1030",
+            "Display output, not a gaming GPU"
+          ],
+          [
+            "Vega 8",
+            "Ryzen 5 3500U, 4500U, 5500U; Ryzen 7 5700G",
+            "GT 1030 to MX350 (roughly)",
+            "5700G version is faster than laptop versions"
+          ],
+          [
+            "Vega 7",
+            "Ryzen 5 4600H, 5600H, 5600U; Ryzen 5 5600G",
+            "GT 1030 (roughly)",
+            "Similar to Vega 8 in practice"
+          ],
+          [
+            "Vega 11",
+            "Ryzen 5 2400G, 3400G",
+            "GT 1030 (roughly)",
+            "Older desktop APUs, DDR4 dependent"
+          ]
         ]
       }
+    },
+    {
+      "h": "What Is the Ryzen AI Max+ 395 GPU Equivalent?",
+      "body": [
+        "The Ryzen AI Max+ 395's Radeon 8060S is a different class from every other integrated GPU here: 40 RDNA 3.5 compute units fed by a 256-bit LPDDR5X memory bus. At the higher power limits used in larger laptops and mini PCs, it performs roughly like a desktop RTX 4060, or between an RTX 4060 Laptop and RTX 4070 Laptop; see our [laptop GPU equivalents](/laptop-gpu-equivalents/) for those. At lower power it drops a tier.",
+        "That makes it the only integrated GPU that plays new games at 1080p high. Its other advantage is memory: systems with 64 or 128 GB can give the GPU far more than any consumer graphics card's VRAM, which matters for local AI models more than for games. Treat the gaming match as a range, because results vary widely with the system's power limit."
+      ]
     },
     {
       "h": "What Is the Radeon 780M Equivalent?",
@@ -52,6 +131,12 @@
         "The Radeon 780M performs between a GTX 1050 Ti and a GTX 1650 in games. With fast dual-channel DDR5 or LPDDR5X and a power limit of 35 W or more, it comes close to a desktop GTX 1650 on average; in a thin laptop at 15 to 25 W, or with slower memory, it lands nearer a GTX 1050 Ti.",
         "In practice that means most esports games at 1080p high, and many recent games at 1080p low or with FSR upscaling at 30 to 60 frames per second. It is nowhere near a current entry card: an [RTX 5060](/gear/rtx-5060/) or [Arc B580](/gear/arc-b580/) is several times faster.",
         "The Radeon 880M uses the newer RDNA 3.5 design with the same 12 compute units and performs close to the 780M. The Radeon 890M adds four more units and is usually 10 to 25 percent faster at higher power, putting it at roughly GTX 1650 level."
+      ]
+    },
+    {
+      "h": "What Is the Radeon 890M Equivalent?",
+      "body": [
+        "The Radeon 890M, in the Ryzen AI 9 HX 370 and similar chips, has 16 RDNA 3.5 compute units and performs roughly like a GTX 1650 at 28 W or more. That makes it a modest step over the 780M rather than a full tier, because both share the same dual-channel memory bandwidth limit. The Ryzen Z2 Extreme in the ROG Xbox Ally X uses the same class of graphics."
       ]
     },
     {
@@ -76,20 +161,87 @@
       ],
       "table": {
         "caption": "Intel integrated graphics to dedicated GPUs, with fast dual-channel memory",
-        "head": ["Integrated GPU", "Found in", "Closest graphics card", "Note"],
+        "head": [
+          "Integrated GPU",
+          "Found in",
+          "Closest graphics card",
+          "Note"
+        ],
         "rows": [
-          ["Arc 140V", "Core Ultra 7 and 9 200V (Lunar Lake)", "GTX 1650 class; close to Radeon 890M", "Strong at low power"],
-          ["Arc 130V", "Core Ultra 5 200V (Lunar Lake)", "Between GTX 1050 Ti and GTX 1650", "One fewer Xe core than 140V"],
-          ["Arc (8 Xe cores)", "Core Ultra 7 155H, 165H (Meteor Lake)", "Between GTX 1050 Ti and GTX 1650", "Close to Radeon 780M; needs dual-channel RAM"],
-          ["Iris Xe 96 EU", "Core i7-1165G7, i7-1260P, i7-1355U", "GT 1030 to MX350 (roughly)", "Laptop power limit changes it a lot"],
-          ["Iris Xe 80 EU", "Core i5-1135G7, i5-1240P, i5-1335U", "A step below GT 1030; around MX250", "About 15 to 20 percent below 96 EU"],
-          ["UHD 770", "Core i5, i7, i9 12th to 14th gen desktop", "Well below GT 1030; around GT 730", "Display and video, not gaming"],
-          ["UHD 730", "Core i3 and some i5 12th to 14th gen desktop", "A little below UHD 770", ""],
-          ["UHD 630", "Core 8th to 10th gen desktop", "GT 710 to GT 730", "Older games at 720p low only"],
-          ["UHD 620", "Core 8th to 10th gen U-series laptops", "Below GT 730", "Slower than UHD 630 at laptop power"],
-          ["UHD 600", "Celeron and Pentium Silver", "Far below GT 710", "Not for 3D gaming"]
+          [
+            "Arc 140V",
+            "Core Ultra 7 and 9 200V (Lunar Lake)",
+            "GTX 1650 class; close to Radeon 890M",
+            "Strong at low power"
+          ],
+          [
+            "Arc 130V",
+            "Core Ultra 5 200V (Lunar Lake)",
+            "Between GTX 1050 Ti and GTX 1650",
+            "One fewer Xe core than 140V"
+          ],
+          [
+            "Arc 140T",
+            "Core Ultra 200H (Arrow Lake H)",
+            "Between GTX 1050 Ti and GTX 1650",
+            "Close to the Meteor Lake Arc iGPU"
+          ],
+          [
+            "Arc (8 Xe cores)",
+            "Core Ultra 7 155H, 165H (Meteor Lake)",
+            "Between GTX 1050 Ti and GTX 1650",
+            "Close to Radeon 780M; needs dual-channel RAM"
+          ],
+          [
+            "Iris Xe 96 EU",
+            "Core i7-1165G7, i7-1260P, i7-1355U",
+            "GT 1030 to MX350 (roughly)",
+            "Laptop power limit changes it a lot"
+          ],
+          [
+            "Iris Xe 80 EU",
+            "Core i5-1135G7, i5-1240P, i5-1335U",
+            "A step below GT 1030; around MX250",
+            "About 15 to 20 percent below 96 EU"
+          ],
+          [
+            "UHD 770",
+            "Core i5, i7, i9 12th to 14th gen desktop",
+            "Well below GT 1030; around GT 730",
+            "Display and video, not gaming"
+          ],
+          [
+            "UHD 730",
+            "Core i3 and some i5 12th to 14th gen desktop",
+            "A little below UHD 770",
+            ""
+          ],
+          [
+            "UHD 630",
+            "Core 8th to 10th gen desktop",
+            "GT 710 to GT 730",
+            "Older games at 720p low only"
+          ],
+          [
+            "UHD 620",
+            "Core 8th to 10th gen U-series laptops",
+            "Below GT 730",
+            "Slower than UHD 630 at laptop power"
+          ],
+          [
+            "UHD 600",
+            "Celeron and Pentium Silver",
+            "Far below GT 710",
+            "Not for 3D gaming"
+          ]
         ]
       }
+    },
+    {
+      "h": "What Is the Intel Arc 140V Equivalent?",
+      "body": [
+        "The Arc 140V in Core Ultra 200V (Lunar Lake) laptops performs roughly like a GTX 1650 in games that run well on Arc drivers, putting it close to the Radeon 890M and often ahead of it at 15 to 20 W. The Arc 140T in Core Ultra 200H (Arrow Lake H) chips uses older Xe graphics and lands lower, between a GTX 1050 Ti and GTX 1650, near the Meteor Lake Arc iGPU. Both need dual-channel memory; Lunar Lake's is built into the chip package, so every 140V laptop has it."
+      ]
     },
     {
       "h": "What Is the Iris Xe Equivalent?",
@@ -115,21 +267,57 @@
     }
   ],
   "mistakes": [
-    ["Running integrated graphics on one stick of RAM", "Single-channel memory halves the bandwidth an iGPU depends on and can cut gaming performance by a third or more. Two matched sticks, or a laptop with dual-channel soldered memory, is the first thing to check."],
-    ["Comparing a 15 W laptop to a desktop APU", "The same Radeon 780M is much faster in a Ryzen 7 8700G desktop than in a thin laptop set to 15 W. Compare benchmarks from machines with a similar power limit, not just the same iGPU name."],
-    ["Buying an F-series CPU for a build without a GPU", "Chips like the Ryzen 7 8700F and Intel Core i5-14400F have no integrated graphics. Without a graphics card, the PC cannot show a picture, so check for the F suffix before you buy."],
-    ["Expecting an iGPU to replace an entry graphics card", "Even the Radeon 890M is a GTX 1650-class part. A current entry card like the RTX 5060 is several times faster, so for modern games at 1080p medium or above, integrated graphics is a stopgap."]
+    [
+      "Running integrated graphics on one stick of RAM",
+      "Single-channel memory halves the bandwidth an iGPU depends on and can cut gaming performance by a third or more. Two matched sticks, or a laptop with dual-channel soldered memory, is the first thing to check."
+    ],
+    [
+      "Comparing a 15 W laptop to a desktop APU",
+      "The same Radeon 780M is much faster in a Ryzen 7 8700G desktop than in a thin laptop set to 15 W. Compare benchmarks from machines with a similar power limit, not just the same iGPU name."
+    ],
+    [
+      "Buying an F-series CPU for a build without a GPU",
+      "Chips like the Ryzen 7 8700F and Intel Core i5-14400F have no integrated graphics. Without a graphics card, the PC cannot show a picture, so check for the F suffix before you buy."
+    ],
+    [
+      "Expecting an iGPU to replace an entry graphics card",
+      "Even the Radeon 890M is a GTX 1650-class part. A current entry card like the RTX 5060 is several times faster, so for modern games at 1080p medium or above, integrated graphics is a stopgap."
+    ]
   ],
   "bottomLine": "With fast dual-channel memory and a reasonable power limit, the Radeon 890M and Intel Arc 140V roughly match a GTX 1650, the Radeon 780M and 880M sit between a GTX 1050 Ti and GTX 1650, the Radeon 680M matches a GTX 1050 Ti, Vega 8 and Iris Xe 96 EU match a GT 1030, and Intel UHD 630 and 620 sit below a GT 730. Memory and power move each match by a full tier, so check both before you compare.",
   "faqs": [
-    {"q": "What is the Radeon 780M equivalent to?", "a": "Between a GTX 1050 Ti and a GTX 1650 in games. With fast dual-channel DDR5 and a power limit of 35 W or more, as in the Ryzen 7 8700G, it comes close to a GTX 1650. In thin laptops at low power it lands nearer a GTX 1050 Ti."},
-    {"q": "What graphics card is equal to Intel Iris Xe?", "a": "Iris Xe with 96 execution units roughly matches a GT 1030 or a laptop MX350. The 80 EU version in Core i5 chips is a step slower, around an MX250. Both need dual-channel memory to reach those levels."},
-    {"q": "What is the Vega 8 equivalent to?", "a": "Roughly a GT 1030 or MX350. The desktop Ryzen 7 5700G with fast DDR4 is at the top of that range, while laptop chips like the Ryzen 5 5500U run lower, closer to an MX250 or MX330."},
-    {"q": "What is the Ryzen 7 8700G GPU equivalent to?", "a": "Its Radeon 780M performs a little below a GTX 1650 and ahead of a GTX 1050 Ti on a desktop with dual-channel DDR5-6000. It is the fastest integrated graphics available in a desktop chip."},
-    {"q": "What is Intel UHD 620 equivalent to?", "a": "It sits below a GT 730 and well below a GT 1030. It handles video, office work and older games at 720p low, but not modern 3D games at playable frame rates."},
-    {"q": "Is the Radeon 890M better than a GTX 1650?", "a": "Roughly equal at best. With fast LPDDR5X and a high power limit, the Radeon 890M performs around a desktop GTX 1650; in thinner laptops at lower power it falls somewhat below."},
-    {"q": "Is Intel Arc 140V better than Radeon 780M?", "a": "Usually a little better, especially at low power limits, and roughly level with the Radeon 890M in many games. Results swing more from game to game than with AMD's graphics."},
-    {"q": "How much RAM does integrated graphics need?", "a": "16 GB in two channels is the practical minimum for gaming, because the iGPU borrows part of system memory as video memory. Faster RAM helps directly: DDR5-6000 for the Ryzen 8000G, DDR4-3200 to 3600 for the Ryzen 5000G."}
+    {
+      "q": "What is the Radeon 780M equivalent to?",
+      "a": "Between a GTX 1050 Ti and a GTX 1650 in games. With fast dual-channel DDR5 and a power limit of 35 W or more, as in the Ryzen 7 8700G, it comes close to a GTX 1650. In thin laptops at low power it lands nearer a GTX 1050 Ti."
+    },
+    {
+      "q": "What graphics card is equal to Intel Iris Xe?",
+      "a": "Iris Xe with 96 execution units roughly matches a GT 1030 or a laptop MX350. The 80 EU version in Core i5 chips is a step slower, around an MX250. Both need dual-channel memory to reach those levels."
+    },
+    {
+      "q": "What is the Vega 8 equivalent to?",
+      "a": "Roughly a GT 1030 or MX350. The desktop Ryzen 7 5700G with fast DDR4 is at the top of that range, while laptop chips like the Ryzen 5 5500U run lower, closer to an MX250 or MX330."
+    },
+    {
+      "q": "What is the Ryzen 7 8700G GPU equivalent to?",
+      "a": "Its Radeon 780M performs a little below a GTX 1650 and ahead of a GTX 1050 Ti on a desktop with dual-channel DDR5-6000. It is the fastest integrated graphics available in a desktop chip."
+    },
+    {
+      "q": "What is Intel UHD 620 equivalent to?",
+      "a": "It sits below a GT 730 and well below a GT 1030. It handles video, office work and older games at 720p low, but not modern 3D games at playable frame rates."
+    },
+    {
+      "q": "Is the Radeon 890M better than a GTX 1650?",
+      "a": "Roughly equal at best. With fast LPDDR5X and a high power limit, the Radeon 890M performs around a desktop GTX 1650; in thinner laptops at lower power it falls somewhat below."
+    },
+    {
+      "q": "Is Intel Arc 140V better than Radeon 780M?",
+      "a": "Usually a little better, especially at low power limits, and roughly level with the Radeon 890M in many games. Results swing more from game to game than with AMD's graphics."
+    },
+    {
+      "q": "How much RAM does integrated graphics need?",
+      "a": "16 GB in two channels is the practical minimum for gaming, because the iGPU borrows part of system memory as video memory. Faster RAM helps directly: DDR5-6000 for the Ryzen 8000G, DDR4-3200 to 3600 for the Ryzen 5000G."
+    }
   ],
   "sources": [
     "AMD Ryzen 8000G, 7040, 8040, AI 300, 6000 and 5000 series processor specifications",
@@ -138,6 +326,15 @@
     "TechPowerUp GPU database relative performance listings",
     "Independent integrated graphics reviews from Hardware Unboxed, Gamers Nexus, Notebookcheck and Tom's Hardware, including Ryzen 7 8700G memory scaling tests"
   ],
-  "products": ["rx-6600", "rtx-5060", "arc-b580", "ryzen-7-8700f"],
-  "related": ["amd-vs-nvidia-gpu-equivalents", "best-budget-graphics-card", "intel-arc-gpu-equivalents"]
+  "products": [
+    "rx-6600",
+    "rtx-5060",
+    "arc-b580",
+    "ryzen-7-8700f"
+  ],
+  "related": [
+    "amd-vs-nvidia-gpu-equivalents",
+    "best-budget-graphics-card",
+    "intel-arc-gpu-equivalents"
+  ]
 }
