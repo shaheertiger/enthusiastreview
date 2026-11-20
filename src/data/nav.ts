@@ -45,6 +45,7 @@ export const NAV_GROUPS: NavGroup[] = [
       guide('best-nvidia-graphics-card', 'Best NVIDIA Cards', 'GeForce RTX, ranked'),
       guide('best-amd-graphics-card', 'Best AMD Cards', 'Radeon RX, ranked'),
       guide('amd-vs-nvidia-gpu-equivalents', 'AMD vs NVIDIA Equivalents', 'Which card matches which'),
+      guide('intel-arc-gpu-equivalents', 'Intel Arc Equivalents', 'Arc vs GeForce and Radeon'),
     ],
   },
   {

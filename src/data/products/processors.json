@@ -86,6 +86,13 @@
       "No cooler included",
       "Little gain at 4K with a mid-range GPU"
     ],
+    "equivalent": {
+      "heading": "Ryzen 7 9800X3D Intel Equivalent",
+      "body": [
+        "Intel has no gaming equivalent to the Ryzen 7 9800X3D. Its 3D V-Cache makes it faster in games than the Core i9-14900K and Core Ultra 9 285K by the broad pattern of independent reviews. In multi-threaded work its 8 cores land closer to a Core i5-14600K or Core Ultra 5 245K.",
+        "See [Ryzen 7 9800X3D vs Core i9-14900K](/compare/ryzen-7-9800x3d-vs-core-i9-14900k/) and [9800X3D vs Core Ultra 7 265K](/compare/ryzen-7-9800x3d-vs-core-ultra-7-265k/). The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -199,6 +206,13 @@
       "170 W TDP needs serious cooling",
       "No cooler included"
     ],
+    "equivalent": {
+      "heading": "Ryzen 9 9950X3D Intel Equivalent",
+      "body": [
+        "In multi-threaded work, the Ryzen 9 9950X3D's closest Intel equivalent is the Core Ultra 9 285K, roughly even. In games, Intel has no match: the 9950X3D is faster than both the 285K and the Core i9-14900K, close to the Ryzen 7 9800X3D.",
+        "See [Ryzen 9 9950X3D vs Core i9-14900K](/compare/ryzen-9-9950x3d-vs-core-i9-14900k/). The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -308,6 +322,13 @@
       "Core Ultra 7 265K wins in multi-thread for similar money",
       "No cooler included"
     ],
+    "equivalent": {
+      "heading": "Ryzen 7 9700X Intel Equivalent",
+      "body": [
+        "In games, the Ryzen 7 9700X's Intel equivalent is the Core Ultra 7 265K or Core i7-14700K, roughly even. In multi-threaded work, its 8 cores match the Core Ultra 5 245K or Core i5-14600K instead, because the Intel i7s have far more cores.",
+        "The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) shows the gaming and multi-thread match for every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -417,6 +438,13 @@
       "Ryzen 5 7600 is close in games and includes a cooler",
       "No cooler included"
     ],
+    "equivalent": {
+      "heading": "Ryzen 5 9600X Intel Equivalent",
+      "body": [
+        "In games, the Ryzen 5 9600X's Intel equivalent is the Core i5-14600K, roughly even. In multi-threaded work, its 6 cores land closer to the Core i5-14400F. Against the current Core Ultra line, the Core Ultra 5 245K is roughly even in games and faster in multi-thread.",
+        "See [Core Ultra 5 245K vs Ryzen 5 9600X](/compare/core-ultra-5-245k-vs-ryzen-5-9600x/), or the [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) for every Intel chip."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -527,6 +555,13 @@
       "Weak multi-thread value",
       "No cooler included"
     ],
+    "equivalent": {
+      "heading": "Ryzen 7 7800X3D Intel Equivalent",
+      "body": [
+        "Intel has no gaming equivalent to the Ryzen 7 7800X3D: it is a little faster than the Core i9-14900K in most games and faster than the Core Ultra 9 285K. In multi-threaded work, its 8 cores land closer to a Core i5-14400F.",
+        "The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen, for gaming and for multi-thread."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -636,6 +671,13 @@
       "Only 6 cores",
       "DDR5 prices make AM5 builds costlier than AM4"
     ],
+    "equivalent": {
+      "heading": "Ryzen 5 7600 Intel Equivalent",
+      "body": [
+        "In games, the Ryzen 5 7600's Intel equivalent is the Core i5-14400F, with the Ryzen a bit faster; the Core i5-13600K is close to the 7600X. In multi-threaded work, it lands between the Core i5-12400F and Core i5-13400F.",
+        "The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -746,6 +788,13 @@
       "Up to 250 W under heavy all-core load",
       "No cooler included"
     ],
+    "equivalent": {
+      "heading": "Core Ultra 7 265K AMD Equivalent",
+      "body": [
+        "The Core Ultra 7 265K has two AMD equivalents: the Ryzen 7 9700X in games, roughly even, and the Ryzen 9 9900X in multi-threaded work. For gaming alone, the Ryzen 7 9800X3D is clearly faster.",
+        "See [Ryzen 7 9800X3D vs Core Ultra 7 265K](/compare/ryzen-7-9800x3d-vs-core-ultra-7-265k/). The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -855,6 +904,13 @@
       "Platform costs more than budget AM5 builds",
       "No cooler included"
     ],
+    "equivalent": {
+      "heading": "Core Ultra 5 245K AMD Equivalent",
+      "body": [
+        "The Core Ultra 5 245K's AMD equivalent is the Ryzen 5 7600X in games, roughly even, and the Ryzen 7 9700X in multi-threaded work, where its 14 cores help.",
+        "See [Core Ultra 5 245K vs Ryzen 5 9600X](/compare/core-ultra-5-245k-vs-ryzen-5-9600x/). The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -964,6 +1020,13 @@
       "AM4 is a dead-end platform",
       "Availability and price vary"
     ],
+    "equivalent": {
+      "heading": "Ryzen 7 5700X3D Intel Equivalent",
+      "body": [
+        "In games, the Ryzen 7 5700X3D's Intel equivalent is the Core i7-12700K, roughly even. In multi-threaded work, its 8 cores match a Core i5-13400F more closely.",
+        "See [Ryzen 7 5800X3D vs 5700X3D](/compare/ryzen-7-5800x3d-vs-ryzen-7-5700x3d/), or the [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) for every Intel chip."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -1077,6 +1140,13 @@
       "Locked multiplier",
       "AM4 is a dead-end platform"
     ],
+    "equivalent": {
+      "heading": "Ryzen 7 5800X3D Intel Equivalent",
+      "body": [
+        "In games, the Ryzen 7 5800X3D's Intel equivalent is the Core i9-12900K, roughly even. In multi-threaded work its 8 cores are closer to a Core i5-12600K, which is a little faster.",
+        "The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -1186,6 +1256,13 @@
       "No cooler or integrated graphics",
       "AM4 is a dead-end platform"
     ],
+    "equivalent": {
+      "heading": "Ryzen 7 5800X Intel Equivalent",
+      "body": [
+        "The Ryzen 7 5800X's Intel equivalent is the Core i9-11900K in games and the Core i5-12600K in multi-threaded work. The i5-12600K is also a bit faster in games.",
+        "The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -1291,6 +1368,13 @@
       "PCIe 4.0 only",
       "Ryzen 5 7600 is as fast in games for less"
     ],
+    "equivalent": {
+      "heading": "Ryzen 7 8700F Intel Equivalent",
+      "body": [
+        "The Ryzen 7 8700F's closest Intel equivalent is roughly the Core i5-14400F: similar in multi-threaded work, and in the same range in games, where the 8700F's smaller cache keeps it behind a Ryzen 5 7600. The Core i5-13600K is faster in both.",
+        "The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -1400,6 +1484,13 @@
       "LGA 1700 is a dead-end platform",
       "Ryzen X3D chips are faster in games"
     ],
+    "equivalent": {
+      "heading": "Core i9-14900K AMD Equivalent",
+      "body": [
+        "The Core i9-14900K's AMD equivalent is the Ryzen 9 7950X in multi-threaded work, roughly even. In games it lands between the Ryzen 7 9700X and the Ryzen 7 7800X3D; the 9800X3D is clearly faster.",
+        "See [Ryzen 7 9800X3D vs Core i9-14900K](/compare/ryzen-7-9800x3d-vs-core-i9-14900k/). The [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) matches every Intel chip since 10th gen."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [
@@ -1528,6 +1619,13 @@
       "Only worth it below the 9600X's price",
       "Far behind X3D chips in CPU-bound games"
     ],
+    "equivalent": {
+      "heading": "Ryzen 5 9600 Intel Equivalent",
+      "body": [
+        "The Ryzen 5 9600 is a 9600X with slightly lower clocks, so the matches are the same a step down: a little behind the Core i5-14600K in games and roughly a Core i5-14400F in multi-threaded work.",
+        "See [Ryzen 5 9600 vs 9600X](/compare/ryzen-5-9600-vs-ryzen-5-9600x/), or the [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) for every Intel chip."
+      ]
+    },
     "extra": {
       "heading": "Platform and Upgrade Path",
       "body": [

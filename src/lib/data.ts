@@ -32,6 +32,8 @@ export interface Product {
   pros: string[];
   cons: string[];
   extra?: { heading: string; body?: string[]; steps?: [string, string][] };
+  /** "<model> NVIDIA/AMD/Intel equivalent" answer, linking to the equivalents charts. */
+  equivalent?: { heading: string; body: string[] };
   faqs: FAQ[];
 }
 
