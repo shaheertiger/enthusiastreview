@@ -1,0 +1,162 @@
+{
+  "slug": "console-gpu-equivalents",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "PS5 GPU Equivalent: PC Graphics Card Match for Every Console",
+  "h1": "PS5 GPU Equivalent (and Every Other Console)",
+  "query": "ps5 gpu equivalent",
+  "description": "The PS5 GPU roughly equals an RX 6700 or RTX 2070 Super, and the Xbox Series X an RTX 2080. Find the PC graphics card match for every console and handheld.",
+  "dek": "The closest NVIDIA, AMD and Intel Arc card to the PS5, PS5 Pro, Xbox Series X and S, Steam Deck, ROG Ally and more, with the catches that make console-to-PC matches rough.",
+  "quickAnswer": "The PS5's GPU roughly equals a desktop RX 6700 or RTX 2070 Super, and an RTX 4060 or Arc B580 performs about the same or a little better. The Xbox Series X lands near an RTX 2080, the PS5 Pro near an RTX 4060 Ti to RTX 4070, the Xbox Series S near a GTX 1650 Super, and the Steam Deck near a GTX 1050.",
+  "intro": [
+    "This chart matches every current console and PC handheld to the desktop graphics cards that perform most like it: PS5, PS5 Pro, Xbox Series X and Series S, the last-generation PS4, PS4 Pro and Xbox One X, the Steam Deck, the Z1 Extreme handhelds (ROG Ally, Ally X, Legion Go) and the Nintendo Switch 2.",
+    "Console-to-PC matches are rougher than card-to-card ones. Consoles share one pool of memory between CPU and GPU, run games tuned for one fixed piece of hardware, and often render below their output resolution. The equivalents here follow the broad pattern of independent testing, including side-by-side comparisons of the same games on PC and console, rounded to the nearest card. We have not bench-tested these systems."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart, and Why Consoles Are Hard to Match",
+      "body": [
+        "Each row lists the desktop card with the closest raster performance in games that run on both platforms. Roughly means within about 10 percent on average, a wider band than our [AMD vs NVIDIA chart](/amd-vs-nvidia-gpu-equivalents/), because console results depend so much on how well each game is optimized.",
+        "Three things shift the match. First, optimization: developers tune console versions for one GPU, so a well-made console port can beat a PC card that is a bit faster on paper. Second, memory: the PS5 and Xbox Series X have 16 GB of shared GDDR6, and games can use roughly 12 to 13.5 GB of it, more than an 8 GB graphics card holds. Third, settings: consoles often use dynamic resolution and settings below PC's high preset, so a PC at true 1440p high is doing more work.",
+        "Ray tracing is the weak spot of every AMD-based console. Their RDNA 2 graphics have the same limited ray-tracing hardware as the RX 6000 series, so with RT on they fall closer to an RTX 2060 class card. The PS5 Pro improved this, but not to NVIDIA's level."
+      ]
+    },
+    {
+      "h": "Current Console GPU Equivalents",
+      "body": [
+        "The PS5 and Xbox Series consoles use custom AMD RDNA 2 graphics, the same architecture as the Radeon RX 6000 series. That makes the AMD match the most direct; the NVIDIA and Intel Arc matches are by performance."
+      ],
+      "table": {
+        "caption": "Current consoles to desktop graphics cards, raster performance",
+        "head": ["Console", "GPU", "Closest AMD", "Closest NVIDIA", "Closest Intel Arc"],
+        "rows": [
+          ["PS5 Pro", "60 CUs, RDNA 2 with RDNA 3/4 features", "RX 7700 XT (roughly)", "RTX 4060 Ti to RTX 4070", "None (above B580)"],
+          ["Xbox Series X", "52 CUs, 12.1 TFLOPS", "Between RX 6700 and RX 6700 XT", "RTX 2080 (roughly)", "Arc B580 (roughly)"],
+          ["PS5", "36 CUs, 10.3 TFLOPS", "RX 6700 (roughly)", "RTX 2070 Super (roughly)", "Arc B570 to B580"],
+          ["Xbox Series S", "20 CUs, 4 TFLOPS", "RX 6500 XT (roughly)", "GTX 1650 Super (roughly)", "Arc A380 (console a bit faster)"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the PS5 GPU Equivalent?",
+      "body": [
+        "The PS5's GPU is closest to a desktop Radeon RX 6700 (the 10 GB card, not the XT). Both use RDNA 2 with 36 compute units; the PS5 runs them at up to 2.23 GHz for about 10.3 TFLOPS. In side-by-side game tests, the PS5 generally performs like an RTX 2070 Super, sometimes reaching RTX 2080 level in a well-optimized port.",
+        "In today's lineup, an [RTX 4060](/gear/rtx-4060/) or [Arc B580](/gear/arc-b580/) roughly matches or slightly beats a PS5 in raster, and the [RTX 5060](/gear/rtx-5060/) is a little faster again. All three add DLSS or XeSS, which usually look better than the PS5's upscaling. The [RX 6600](/gear/rx-6600/) is somewhat slower than a PS5. With ray tracing on, the PS5 falls closer to an RTX 2060 Super or RTX 3060.",
+        "The catch is memory. Recent PS5 ports such as The Last of Us Part I and Ratchet & Clank were built for its 16 GB pool, and on PC they ask for more than 8 GB of video memory at high textures. A 12 GB or 16 GB card, like the Arc B580 or [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/), matches the PS5 experience more reliably than an 8 GB card of the same speed. See [VRAM](/glossary/vram/) for why."
+      ]
+    },
+    {
+      "h": "What Is the PS5 Pro GPU Equivalent?",
+      "body": [
+        "Sony says the PS5 Pro renders about 45 percent faster than the PS5, using 60 compute units with faster memory. By that figure and independent testing, it lands roughly between an RTX 4060 Ti and an RTX 4070 in raster, close to an RX 7700 XT. Ray tracing improved more than raster, by Sony's figures two to three times the PS5's speed in some cases, though NVIDIA cards of the same raster tier still lead with heavy RT.",
+        "The Pro also adds PSSR, Sony's machine-learning upscaler, which plays a similar role to DLSS or FSR 4. On PC, an [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) or [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) is the price-sensible way to get PS5 Pro class performance, and an [RTX 5070](/gear/rtx-5070/) clearly beats it."
+      ]
+    },
+    {
+      "h": "What Is the Xbox Series X GPU Equivalent?",
+      "body": [
+        "The Xbox Series X GPU has 52 RDNA 2 compute units at 1.825 GHz, about 12.1 TFLOPS. On paper that sits between a desktop RX 6700 and RX 6700 XT. In game tests it performs roughly like an RTX 2080, a little ahead of the PS5 in many titles, though the PS5's higher clock speed lets it match or win in some.",
+        "In current cards, an RTX 4060 is close but slightly behind in raster, the Arc B580 is roughly even, and the RTX 5060 and [RX 6700 XT](/gear/rx-6700-xt/) are a little faster. The Series X gives games about 10 GB of fast memory for graphics, so the same 8 GB caution applies."
+      ]
+    },
+    {
+      "h": "What Is the Xbox Series S GPU Equivalent?",
+      "body": [
+        "The Xbox Series S has 20 RDNA 2 compute units at 1.565 GHz, about 4 TFLOPS, and 10 GB of memory in total. In practice it performs roughly like a GTX 1650 Super or RX 6500 XT, and a little better than an Arc A380. Most games target 1080p or below on it, often with lower settings than the Series X.",
+        "Any current graphics card from the RTX 4060 or RX 7600 up is far faster than a Series S."
+      ]
+    },
+    {
+      "h": "Last-Generation Console GPU Equivalents (PS4, PS4 Pro, Xbox One X)",
+      "body": [
+        "The PS4 and Xbox One family used AMD's older GCN graphics. These matches help if you are moving an old console library to PC or deciding whether an old graphics card can keep up with cross-generation games."
+      ],
+      "table": {
+        "caption": "Last-generation consoles to desktop graphics cards, raster performance",
+        "head": ["Console", "GPU", "Closest AMD", "Closest NVIDIA"],
+        "rows": [
+          ["Xbox One X", "40 CUs, 6 TFLOPS", "RX 580 (roughly)", "GTX 1060 6GB (roughly)"],
+          ["PS4 Pro", "36 CUs, 4.2 TFLOPS", "RX 470 (roughly)", "GTX 1060 3GB (roughly)"],
+          ["PS4", "18 CUs, 1.84 TFLOPS", "Radeon R7 265 (roughly)", "GTX 750 Ti to GTX 1050"],
+          ["Xbox One", "12 CUs, 1.3 TFLOPS", "Radeon R7 260X (roughly)", "GTX 750 (roughly)"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Steam Deck GPU Equivalent?",
+      "body": [
+        "The Steam Deck's GPU has 8 RDNA 2 compute units at 1.0 to 1.6 GHz, about 1.6 TFLOPS, sharing 16 GB of LPDDR5 with a 4-core Zen 2 CPU. In games it performs roughly like a GTX 1050 or Arc A310, well below a GTX 1650, which suits its 1280 x 800 screen. The OLED model uses a die-shrunk version of the same chip, so performance is about the same.",
+        "The Z1 Extreme handhelds (ASUS ROG Ally and Ally X, Lenovo Legion Go) use 12 RDNA 3 compute units, the same graphics as the Radeon 780M laptop chip. At their higher power settings they perform roughly like a GTX 1650, or about 1.5 to 2 times a Steam Deck in many games; at 15 W they fall much closer to the Deck. The Ally X adds faster memory, which helps a little."
+      ],
+      "table": {
+        "caption": "PC handhelds and Switch 2 to desktop graphics cards, raster performance",
+        "head": ["Handheld", "GPU", "Closest desktop card"],
+        "rows": [
+          ["ROG Ally X", "Z1 Extreme, 12 RDNA 3 CUs, faster memory", "GTX 1650 (roughly, at 25 to 30 W)"],
+          ["ROG Ally / Legion Go", "Z1 Extreme, 12 RDNA 3 CUs", "GTX 1650 at high power; nearer GTX 1050 Ti at 15 W"],
+          ["Steam Deck (LCD and OLED)", "8 RDNA 2 CUs, 1.6 TFLOPS", "GTX 1050 or Arc A310 (roughly)"],
+          ["Nintendo Switch 2", "Custom NVIDIA Ampere, 1,536 CUDA cores", "Roughly GTX 1050 Ti to GTX 1650 class docked (estimate)"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Nintendo Switch 2 GPU Equivalent?",
+      "body": [
+        "Nintendo has published less detail than Sony or Microsoft. What is widely reported is that the Switch 2 uses a custom NVIDIA chip with an Ampere-generation GPU of 1,536 CUDA cores, 12 GB of LPDDR5X and support for DLSS and hardware ray tracing. Clock speeds reported by developers and testers put it at roughly 3 TFLOPS docked and under 2 TFLOPS in handheld mode.",
+        "On those figures, its raw throughput docked is roughly GTX 1050 Ti to GTX 1650 class, a clear step above the Steam Deck but well below a PS5. DLSS lets games render at a lower resolution and look sharper than that suggests. Treat this match as an estimate; games built for the Switch 2 are tuned to it in ways a desktop card comparison cannot capture."
+      ]
+    },
+    {
+      "h": "What Is the PS5 CPU Equivalent?",
+      "body": [
+        "The PS5 CPU is an 8-core, 16-thread AMD Zen 2 chip at up to 3.5 GHz, with a smaller cache than desktop Zen 2. It performs roughly like a Ryzen 7 3700X held to lower clocks, or a Ryzen 7 4700G; in games it lands closer to a Ryzen 5 3600. The Xbox Series X uses the same design at up to 3.8 GHz, slightly faster; the Series S runs at 3.6 GHz.",
+        "Any current desktop CPU is much faster. A [Ryzen 5 7600](/gear/ryzen-5-7600/) or [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) comfortably beats a PS5 CPU, which matters in games that run at 30 or 60 fps on console because of the CPU, not the GPU. If your PC still has a Ryzen 5 2600 or 3600, it is roughly at console level; our [GPU guide for the Ryzen 5 2600 and 3600](/best-gpu-for-ryzen-5-2600-and-3600/) covers what to pair with it."
+      ]
+    },
+    {
+      "h": "What PC Matches a PS5?",
+      "body": [
+        "A PC that matches or slightly beats a PS5 in most games needs three things: a GPU at RTX 4060 level or better, a 6-core CPU from the last few years, and 16 GB of system RAM. For new parts, that means an [RTX 5060](/gear/rtx-5060/) or [Arc B580](/gear/arc-b580/) with a [Ryzen 5 7600](/gear/ryzen-5-7600/). For PS5 ports with heavy textures, the 12 GB B580 or a 16 GB [RX 9060 XT](/gear/rx-9060-xt-16gb/) is the safer choice. See [RTX 5060 vs Arc B580](/compare/rtx-5060-vs-arc-b580/) for that trade-off.",
+        "To match a PS5 Pro, step up to an RTX 5060 Ti 16GB or RX 9060 XT 16GB; to clearly beat it, an [RTX 5070](/gear/rtx-5070/) or [RX 9070](/gear/rx-9070/). On a tighter budget, an [RX 6600](/gear/rx-6600/) gets you most of the way to a PS5 at 1080p. Our [best budget graphics cards](/best-budget-graphics-card/) list ranks the options by price, and the [bottleneck calculator](/tools/bottleneck-calculator/) checks your CPU and GPU pairing."
+      ],
+      "table": {
+        "caption": "PC graphics card tiers against consoles",
+        "head": ["Target", "Graphics card", "CPU", "Notes"],
+        "rows": [
+          ["Below PS5, above Series S", "RX 6600", "Ryzen 5 5600 or better", "1080p medium to high"],
+          ["Match a PS5", "RTX 4060, RTX 5060 or Arc B580", "Ryzen 5 7600", "12 GB B580 safer for big ports"],
+          ["Match a PS5 Pro", "RTX 5060 Ti 16GB or RX 9060 XT 16GB", "Ryzen 5 7600 or Ryzen 7 5700X3D", "16 GB VRAM"],
+          ["Clearly beat both", "RTX 5070 or RX 9070", "Ryzen 7 7800X3D or 9800X3D", "1440p high refresh"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Matching on TFLOPS alone", "TFLOPS figures do not compare across architectures. The Z1 Extreme lists 8.6 TFLOPS, almost the Series X's number, because RDNA 3 counts dual-issue math; in games it is several times slower. Use measured game performance, not the spec-sheet number."],
+    ["Buying an 8 GB card to match a PS5", "A PS5 game can use roughly 12 GB or more for graphics. An 8 GB card with the same raw speed can stutter or need lower textures in PS5 ports. Choose 12 GB or 16 GB if console ports are what you play."],
+    ["Expecting console settings to equal PC high", "Consoles often run dynamic resolution and settings between PC's medium and high presets. A PC at native 1440p high is doing more work than the console version you are comparing it with."],
+    ["Forgetting the CPU", "Many console games are capped at 30 or 60 fps by the Zen 2 CPU. A faster desktop CPU is a big part of why PC versions can run at 100 fps or more with the same class of graphics card."]
+  ],
+  "bottomLine": "The quick matches are: PS5 to an RX 6700 or RTX 2070 Super, with an RTX 4060, RTX 5060 or Arc B580 matching or beating it today; PS5 Pro to an RTX 4060 Ti to RTX 4070; Xbox Series X to an RTX 2080; Series S to a GTX 1650 Super; Steam Deck to a GTX 1050; and Z1 Extreme handhelds to a GTX 1650 at full power. Choose 12 GB or more of VRAM for PS5 ports, and expect any modern 6-core CPU to beat a console's.",
+  "faqs": [
+    {"q": "What graphics card is equivalent to a PS5?", "a": "The desktop RX 6700 is the closest, with the same RDNA 2 design and 36 compute units. By performance, the PS5 roughly matches an RTX 2070 Super. An RTX 4060, RTX 5060 or Arc B580 matches or slightly beats it today."},
+    {"q": "Is an RTX 3060 better than a PS5?", "a": "They are close. The RTX 3060 12GB is a little slower than a PS5 in raster on average, roughly even with ray tracing on, and adds DLSS. Its 12 GB of VRAM handles PS5 ports better than 8 GB cards."},
+    {"q": "Is an RTX 4060 better than a PS5?", "a": "Roughly even to slightly better in raster, and better with ray tracing and DLSS. Its 8 GB of VRAM is the weak point: some PS5 ports need lower texture settings on it than on the console."},
+    {"q": "What is the Xbox Series X GPU equivalent to?", "a": "Roughly an RTX 2080, and between a desktop RX 6700 and RX 6700 XT on paper. Today, an Arc B580 is about even with it, and an RTX 5060 or RX 6700 XT is a little faster."},
+    {"q": "What is the PS5 Pro GPU equivalent?", "a": "Roughly between an RTX 4060 Ti and an RTX 4070 in raster, close to an RX 7700 XT. Sony quotes about 45 percent faster rendering than the base PS5, with a bigger gain in ray tracing."},
+    {"q": "What GPU is the Steam Deck equal to?", "a": "Roughly a GTX 1050 or Arc A310. The Steam Deck's 8 RDNA 2 compute units make about 1.6 TFLOPS, which is enough for its 800p screen but well below a GTX 1650."},
+    {"q": "What is the PS5 CPU equivalent to?", "a": "An 8-core Zen 2 chip at up to 3.5 GHz, roughly a down-clocked Ryzen 7 3700X or a Ryzen 7 4700G. In games it lands near a Ryzen 5 3600. A Ryzen 5 7600 is much faster."},
+    {"q": "Can a $700 PC beat a PS5?", "a": "Yes, at current part prices a build around an RTX 5060 or Arc B580 with a Ryzen 5 7600 and 16 GB of RAM matches or beats a PS5 in most games, though it costs more than the console once you add a case, PSU, storage and Windows."}
+  ],
+  "sources": [
+    "Sony Interactive Entertainment PS5 and PS5 Pro hardware specifications and announcements",
+    "Microsoft Xbox Series X and Series S hardware specifications (Hot Chips 2020 presentation)",
+    "Valve Steam Deck specifications; AMD Ryzen Z1 Extreme specifications",
+    "Nintendo Switch 2 specifications and widely reported developer and teardown details",
+    "Digital Foundry PC versus console comparisons",
+    "TechPowerUp GPU database relative performance listings and independent GPU reviews from Hardware Unboxed and Tom's Hardware"
+  ],
+  "products": ["rtx-5060", "arc-b580", "rx-9060-xt-16gb", "rtx-4060", "ryzen-5-7600"],
+  "related": ["amd-vs-nvidia-gpu-equivalents", "intel-arc-gpu-equivalents", "best-budget-graphics-card"]
+}
