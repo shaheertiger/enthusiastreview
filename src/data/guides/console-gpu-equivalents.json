@@ -68,8 +68,8 @@
           [
             "Steam Machine (Valve)",
             "28 CUs, RDNA 3, 8 GB GDDR6",
-            "A little below RX 7600 (estimate)",
-            "RTX 3060 class (estimate)",
+            "RX 6600 XT (estimate)",
+            "RTX 3060 12GB (estimate)",
             "Arc B570 class (estimate)"
           ]
         ]
@@ -107,7 +107,7 @@
     {
       "h": "What Is the Steam Machine GPU Equivalent?",
       "body": [
-        "Valve's Steam Machine uses a semi-custom AMD RDNA 3 GPU with 28 compute units and 8 GB of GDDR6, running at up to 2.45 GHz. On specs that puts it a little below a desktop RX 7600, which has 32 RDNA 3 compute units, and in the same class as an RTX 3060 or Arc B570. That makes it roughly PS5-class in raster, with a newer architecture, a smaller VRAM pool than the console's shared 16 GB, and a much faster CPU than a PS5.",
+        "Valve's Steam Machine uses a semi-custom AMD RDNA 3 GPU with 28 compute units and 8 GB of GDDR6, running at up to 2.45 GHz within a 110 W budget. On those specs it lands roughly at an RX 6600 XT or RTX 3060 12GB, about 15 to 20 percent below a desktop RX 7600, which has 32 compute units, higher clocks and more power. That puts it a step below a PS5's GPU in raster, though with a newer architecture and a much faster CPU.",
         "These are estimates from the published specs; treat them as a range rather than a single card. The full breakdown, including the semi-custom Zen 4 6-core CPU, is in [Steam Machine GPU equivalent](/steam-machine-gpu-equivalent/)."
       ]
     },
@@ -365,7 +365,7 @@
     },
     {
       "q": "What is the Steam Machine GPU equivalent?",
-      "a": "On its published specs, a 28-compute-unit RDNA 3 GPU with 8 GB of GDDR6, the Steam Machine lands a little below a desktop RX 7600, in the same class as an RTX 3060 or Arc B570. That is roughly PS5-class in raster. Treat it as an estimate from specs."
+      "a": "On its published specs, a 28-compute-unit RDNA 3 GPU with 8 GB of GDDR6 at up to 2.45 GHz, the Steam Machine lands roughly at an RX 6600 XT or RTX 3060 12GB, about 15 to 20 percent below an RX 7600 and a step below a PS5. Treat it as an estimate from specs."
     }
   ],
   "sources": [
