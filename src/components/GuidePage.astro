@@ -10,7 +10,7 @@ import FaqList from './FaqList.astro';
 import { SITE } from '../data/site';
 import { getAuthor, authorSchema } from '../data/authors';
 import { amazonLink } from '../data/affiliate';
-import { publisherRef, productItemList } from '../lib/schema';
+import { publisherRef, productItemList, reviewedPage } from '../lib/schema';
 import {
   GUIDES, getGuide, getProduct, mustProduct, getBrand, categoryOf, productsIn, productsOfBrand, comparesFor,
   guidePath, productPath, comparePath, brandPath, guideUpdated, guidePublished, fmtDate, priceBand, spec,
@@ -76,6 +76,7 @@ const OG_IMAGE = top?.p.image;
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
+    reviewedPage(path, updated),
     {
       '@type': 'Article',
       headline: g.title,
@@ -111,7 +112,7 @@ const jsonLd = {
       <h1 class="a-title">{g.h1}</h1>
       <p class="dek" set:html={inline(g.dek)} />
       <div class="byline">
-        By <a href={`/authors/${author.slug}/`}>{author.name}</a> · Updated <time datetime={updated}>{fmtDate(updated)}</time> · {words} min read
+        By <a href={`/authors/${author.slug}/`}>{author.name}</a> · Updated <time datetime={updated}>{fmtDate(updated)}</time> · {words} min read · Reviewed by <a href="/authors/adam-franczyk/">Adam Franczyk, PhD</a>
         {published !== updated && <> · First published <time datetime={published}>{fmtDate(published)}</time></>}
       </div>
       <p class="disclosure">

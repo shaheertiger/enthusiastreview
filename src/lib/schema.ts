@@ -8,7 +8,7 @@
 /* and every page carries the same Organization and WebSite nodes.     */
 /* ------------------------------------------------------------------ */
 import { SITE } from '../data/site';
-import { authorSchema } from '../data/authors';
+import { authorSchema, SITE_REVIEWER } from '../data/authors';
 import { getBrand, categoryOf, productPath, productUpdated, plain, type Product } from './data';
 
 export const ORG_ID = `${SITE.url}/#organization`;
@@ -72,4 +72,14 @@ export const productItemList = (products: Product[], name?: string, author?: str
   ...(name ? { name } : {}),
   numberOfItems: products.length,
   itemListElement: products.map((p, i) => ({ '@type': 'ListItem', position: i + 1, item: productSchema(p, author) })),
+});
+
+/** WebPage node with the site reviewer: "Reviewed by Adam Franczyk, PhD" on every content page. */
+export const reviewedPage = (path: string, lastReviewed: string) => ({
+  '@type': 'WebPage',
+  '@id': `${SITE.url}${path}`,
+  url: `${SITE.url}${path}`,
+  isPartOf: { '@id': WEBSITE_ID },
+  reviewedBy: authorSchema(SITE_REVIEWER),
+  lastReviewed,
 });

@@ -1,13 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
-import { AUTHORS, DEFAULT_AUTHOR, authorSchema, type Author } from '../../data/authors';
+import { AUTHORS, DEFAULT_AUTHOR, SITE_REVIEWER, authorSchema, type Author } from '../../data/authors';
 import { GUIDES, guidePath, categoryOf } from '../../lib/data';
 export function getStaticPaths() {
   return Object.values(AUTHORS).map((a) => ({ params: { slug: a.slug }, props: { a } }));
 }
 const { a } = Astro.props as { a: Author };
-const guides = GUIDES.filter((g) => (g.author ?? DEFAULT_AUTHOR) === a.slug);
+const isReviewer = a.slug === SITE_REVIEWER;
+const guides = isReviewer ? GUIDES.filter((g) => !g.noindex) : GUIDES.filter((g) => (g.author ?? DEFAULT_AUTHOR) === a.slug);
 ---
 <Base title={`${a.name}: ${a.role} at Enthusiast Review`} description={a.short.length > 158 ? a.short.slice(0, a.short.lastIndexOf(' ', 155)).replace(/[,;:]$/, '') + '.' : a.short} jsonLd={{ '@context': 'https://schema.org', ...authorSchema(a.slug) }}>
   <div class="col hub">
@@ -16,9 +17,10 @@ const guides = GUIDES.filter((g) => (g.author ?? DEFAULT_AUTHOR) === a.slug);
     <p class="kicker">{a.role}</p>
     <div class="body">
       {a.bio.map((b) => <p>{b}</p>)}
-      <h2>Covers</h2>
+      {a.sameAs?.length && <p><a href={a.sameAs[0]} rel="me noopener" target="_blank">{a.name} on LinkedIn</a></p>}
+      <h2>{isReviewer ? 'What He Reviewed' : 'Covers'}</h2>
       <ul>{a.beat.map((b) => <li>{b}</li>)}</ul>
-      <h2>Guides by {a.name}</h2>
+      <h2>{isReviewer ? 'Guides He Reviewed' : `Guides by ${a.name}`}</h2>
       <ul class="link-list">{guides.map((g) => <li><a href={guidePath(g)}>{g.h1}</a> <span class="tag">{g.type === 'brand' ? 'Brand Review' : g.type === 'article' ? 'Guide' : categoryOf(g.category).label}</span></li>)}</ul>
     </div>
   </div>
