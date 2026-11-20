@@ -2430,5 +2430,153 @@
         "a": "Yes, for gaming on AM4. It remains one of the best AM4 gaming chips, and it is the best upgrade for an older Ryzen system that does not want a new board and memory."
       }
     ]
+  },
+  {
+    "a": "rx-9070",
+    "b": "rtx-5070-ti",
+    "title": "RX 9070 vs RTX 5070 Ti (2026): Is NVIDIA Worth $240 More?",
+    "description": "The RTX 5070 Ti is roughly 15% faster than the RX 9070, with better ray tracing, for about $240 more. Both have 16 GB; the RX 9070 is the value pick at 220 W.",
+    "quick": "Pick the RX 9070 for 1440p at the best price: 16 GB, 220 W and a 650 W PSU for $550 to $620. Pick the RTX 5070 Ti for 4K or heavy ray tracing: roughly 15% faster in raster, further ahead with RT, plus DLSS 4 Multi Frame Generation, for $750 to $900 and a 750 W PSU.",
+    "differ": [
+      [
+        "How much faster is the RTX 5070 Ti?",
+        "Independent reviews put the RTX 5070 Ti roughly 15% ahead of the RX 9070 in raster games at 1440p and 4K, and further ahead with ray tracing or path tracing. Both cards have 16 GB on a 256-bit bus, so memory is a tie; the difference is GPU horsepower and NVIDIA's ray tracing lead."
+      ],
+      [
+        "Which is better value?",
+        "The RX 9070. At $550 to $620 against $750 to $900, the RTX 5070 Ti costs around 40% more for roughly 15% more raster speed. The 5070 Ti earns its price when you play at 4K with ray tracing, where DLSS 4 and its RT advantage do the most work."
+      ],
+      [
+        "What about power and PSU?",
+        "AMD rates the RX 9070 at 220 W, among the most efficient cards in this class, and recommends a 650 W PSU. NVIDIA rates the RTX 5070 Ti at 300 W with a 750 W recommendation. Most 5070 Ti cards use the 16-pin 12V-2x6 connector; most RX 9070 cards use two 8-pin plugs."
+      ]
+    ],
+    "buyA": [
+      "You game at 1440p and want the best value with 16 GB",
+      "Your PSU is a 650 W unit",
+      "You play mostly raster games"
+    ],
+    "buyB": [
+      "You play at 4K or with heavy ray tracing",
+      "You want DLSS 4 Multi Frame Generation",
+      "You have a 750 W PSU and the budget"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RX 9070 XT a better rival to the RTX 5070 Ti?",
+        "a": "Yes. The RX 9070 XT sits close to the RTX 5070 Ti in raster games and usually costs less, though NVIDIA keeps the ray tracing lead. The RX 9070 is the cheaper, more efficient step down."
+      }
+    ]
+  },
+  {
+    "a": "ryzen-7-7800x3d",
+    "b": "ryzen-7-9700x",
+    "title": "Ryzen 7 7800X3D vs 9700X (2026): Which 8-Core Is Better?",
+    "description": "The Ryzen 7 7800X3D is faster in games thanks to 96 MB of 3D V-Cache. The Ryzen 7 9700X costs $70 to $90 less, runs at 65 W and leads in multi-threaded work.",
+    "quick": "Pick the Ryzen 7 7800X3D for a gaming PC: its 96 MB of L3 cache makes it clearly faster in games, especially at 1080p with a fast GPU. Pick the Ryzen 7 9700X if you split time between gaming and work like video export or code compiles: it is $70 to $90 cheaper, runs at 65 W and is faster in most multi-threaded tasks.",
+    "differ": [
+      [
+        "Which is faster in games?",
+        "The 7800X3D. Both have eight cores and 16 threads, but the 7800X3D has 96 MB of L3 cache against 32 MB, and games that fit in that cache run much faster. Independent reviews show it clearly ahead at 1080p with a fast GPU; at 1440p and 4K the gap narrows because the graphics card sets the pace."
+      ],
+      [
+        "Which is better for work?",
+        "Usually the 9700X. Its Zen 5 cores boost to 5.5 GHz against 5.0 GHz and support full-width AVX-512, so it is faster in most rendering, encoding and compile workloads. The 7800X3D's extra cache helps little outside games."
+      ],
+      [
+        "What about power and cooling?",
+        "The 9700X is rated at 65 W, with an optional 105 W mode; the 7800X3D at 120 W. Both are easy to cool with a $35 to $45 dual-tower air cooler. The 9700X runs cooler and quieter at stock."
+      ]
+    ],
+    "buyA": [
+      "You build a gaming PC",
+      "You play at 1080p with a fast GPU or high refresh rate",
+      "You play CPU-heavy simulation and strategy games"
+    ],
+    "buyB": [
+      "You game and do multi-threaded work on one PC",
+      "You want the lowest power and heat",
+      "You want to save $70 to $90"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Ryzen 7 9800X3D worth it over both?",
+        "a": "For a gaming PC, yes, if the budget allows. It combines 3D V-Cache with Zen 5 cores and leads both chips in games, and it is no slower than the 9700X in most multi-threaded work."
+      }
+    ]
+  },
+  {
+    "a": "corsair-rm850x",
+    "b": "corsair-rm850e",
+    "title": "Corsair RM850x vs RM850e (2026): Is the x Worth $20 More?",
+    "description": "The Corsair RM850x adds a 140 mm fan and a 10-year warranty over the RM850e for about $20 more. Both are 850 W, ATX 3.1, fully modular, with a 12V-2x6 cable.",
+    "quick": "Pick the RM850x if the gap is about $20: you get a quieter 140 mm fan with a zero-RPM mode and a 10-year warranty instead of seven years. Pick the RM850e if you want 850 W for the lowest price; it has the same wattage, ATX 3.1 support, full modularity and native 12V-2x6 cable.",
+    "differ": [
+      [
+        "What does the RM850x add?",
+        "Two things you can feel: a larger 140 mm fan that stops at low loads, and a 10-year warranty against seven. A larger fan moves the same air at lower speed, so the RM850x is the quieter unit under long, heavy loads. Corsair also lists Japanese 105°C capacitors on the RM850x."
+      ],
+      [
+        "Are they the same for my graphics card?",
+        "Yes. Both deliver 850 W, meet NVIDIA's recommendation for an RTX 5080, follow ATX 3.1 and include a native 12V-2x6 cable for RTX 50 cards. For an RX 9070 XT, both have the PCIe 8-pin cables you need."
+      ],
+      [
+        "Which is better value?",
+        "It depends on the gap. At $20, the RM850x's three extra years of warranty and quieter fan are worth it for a unit you may keep through two or three builds. When the RM850e is $30 or more cheaper, it is the smarter buy."
+      ]
+    ],
+    "buyA": [
+      "The price gap is about $20",
+      "You want the quietest fan",
+      "You want a 10-year warranty"
+    ],
+    "buyB": [
+      "You want 850 W at the lowest price",
+      "The gap is $30 or more",
+      "Seven years of warranty is enough for you"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RM850e good enough for an RTX 5080?",
+        "a": "Yes. It meets NVIDIA's 850 W recommendation and includes the native 12V-2x6 cable. The RM850x is quieter and has a longer warranty, not more capability."
+      }
+    ]
+  },
+  {
+    "a": "corsair-rm750e",
+    "b": "corsair-rm850e",
+    "title": "Corsair RM750e vs RM850e (2026): Do You Need the Extra 100 W?",
+    "description": "Buy the RM750e for an RTX 5070 Ti or smaller card and the RM850e for an RTX 5080. Same 7-year warranty, 120 mm fan and 12V-2x6 cable; $20 to $30 apart.",
+    "quick": "Pick the Corsair RM750e for builds up to an RTX 5070 Ti or RX 9070 XT: 750 W meets NVIDIA's guidance and costs $20 to $30 less. Pick the RM850e for an RTX 5080, or if you want headroom for a bigger graphics card later. Otherwise the two are the same design: ATX 3.1, fully modular, a 120 mm fan and a 7-year warranty.",
+    "differ": [
+      [
+        "Which graphics cards need the RM850e?",
+        "Use NVIDIA's guidance: 650 W for the RTX 5070, 750 W for the RTX 5070 Ti, 850 W for the RTX 5080. The RM750e covers everything up to the 5070 Ti and AMD's 304 W RX 9070 XT with a typical 120 W CPU; the RTX 5080 calls for the RM850e."
+      ],
+      [
+        "Is the extra 100 W worth it for future upgrades?",
+        "Often, yes. Power supplies outlast graphics cards, and the gap is only $20 to $30. If you might move up to an RTX 5080-class card in a few years, the RM850e saves buying a second PSU. If you stay in the mid-range, the RM750e is enough."
+      ],
+      [
+        "Are they otherwise the same?",
+        "Yes. Both are fully modular ATX 3.1 units with a native 12V-2x6 cable, a 120 mm fan and a 7-year warranty. The higher-wattage unit runs at a lower share of its capacity with the same load, so its fan usually spins a little slower."
+      ]
+    ],
+    "buyA": [
+      "Your GPU is an RTX 5070 Ti, RX 9070 XT or smaller",
+      "You want the lowest price",
+      "You do not plan a bigger GPU"
+    ],
+    "buyB": [
+      "You run an RTX 5080",
+      "You want headroom for a future GPU upgrade",
+      "The gap is $30 or less"
+    ],
+    "faqs": [
+      {
+        "q": "Is 750 W enough for an RTX 5070 Ti?",
+        "a": "Yes. NVIDIA recommends 750 W for the RTX 5070 Ti, which the RM750e meets."
+      }
+    ]
   }
 ]

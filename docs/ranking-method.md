@@ -180,9 +180,11 @@ card under 300 / gpu under 500" (390–480), "best motherboard for amd ryzen 7 9
 1. **Submit** the sitemap in Search Console and Bing Webmaster Tools; request indexing for the seven restored URLs.
 2. **More comparisons** — the best-ranking page type (1c). 20 Nov 2026 added 14, including sibling pairs
    (RTX 5060 Ti 8GB vs 16GB, RX 9060 XT 8GB vs 16GB, Ryzen 5 9600 vs 9600X, B650 vs B850 Tomahawk) and
-   upgrade pairs (RTX 4060 vs 5060, 5800X3D vs 9800X3D). Next: "rtx 5070 ti vs rtx 5080", "9800x3d vs
-   9950x3d" exists, "rx 9070 vs rtx 5070 ti", "7800x3d vs 9700x", "rm850x vs rm850e". Each needs only a
-   `compares.json` entry.
+   upgrade pairs (RTX 4060 vs 5060, 5800X3D vs 9800X3D). The same day added RX 9070 vs RTX 5070 Ti,
+   7800X3D vs 9700X, RM850x vs RM850e (with a new RM850e page) and RM750e vs RM850e; RTX 5070 Ti vs RTX 5080
+   and 9800X3D vs 9950X3D were already live. Next candidates: "rx 9070 xt vs rtx 5070" exists, so look at
+   "9600x vs 7600x", "nh-u12s vs peerless assassin", "990 pro vs 9100 pro" exists, "lancool 217 vs 207",
+   "rx 9060 xt vs rtx 5060 ti 8gb". Each needs only a `compares.json` entry.
 3. **More brand reviews** once a brand has 4+ products: NVIDIA, AMD, Lian Li, Noctua, G.Skill.
 4. **More model pages** for parts people search by name. Added 20 Nov 2026: RTX 5060 Ti 8GB, RX 9060 XT 8GB,
    Ryzen 5 9600, MSI B850 Tomahawk MAX WiFi (each with comparisons). Next: pick them in a guide where they fit.

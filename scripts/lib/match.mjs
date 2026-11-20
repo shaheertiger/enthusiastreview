@@ -68,6 +68,7 @@ export const RULES = {
   // ---- power supplies
   'corsair-rm850x': { all: [String.raw`^corsair`, String.raw`\brm850x\b`], none: [String.raw`shift|white|\bsf\b`], prefer: [String.raw`atx\s*3\.1|2024|12v-2x6`] },
   'corsair-rm1000x': { all: [String.raw`^corsair`, String.raw`\brm1000x\b`], none: [String.raw`shift|white`], prefer: [String.raw`atx\s*3\.1|2024|12v-2x6`] },
+  'corsair-rm850e': { all: [String.raw`^corsair`, String.raw`\brm850e\b`], none: [String.raw`white`], prefer: [String.raw`2025|atx\s*3\.1|12v-2x6`] },
   'corsair-rm750e': { all: [String.raw`^corsair`, String.raw`\brm750e\b`], prefer: [String.raw`atx\s*3\.1|12v-2x6`] },
   'msi-mag-a750gl-pcie5': { all: [String.raw`^msi`, String.raw`a750gl`], prefer: [String.raw`pcie\s*5`] },
   'seasonic-focus-gx-850': { all: [String.raw`seasonic`, String.raw`focus\s*gx-?850\b`], prefer: [String.raw`atx\s*3|12v-2x6|pcie\s*5`] },
