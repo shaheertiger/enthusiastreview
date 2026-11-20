@@ -236,6 +236,9 @@ td .tag { display: block; width: max-content; margin-bottom: .35rem; }
 .sb-text strong { font: 700 .98rem/1.2 var(--head); color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .sb-k { font: 500 .76rem/1.2 var(--sans); color: var(--muted); }
 .sb-close { flex: none; background: none; border: 0; font-size: 1.4rem; line-height: 1; color: var(--muted); cursor: pointer; padding: .25rem; }
+/* Mobile-only sticky Amazon bar (articles, comparisons). */
+@media (min-width: 761px) { .sticky-buy.sb-mobile { display: none; } }
+.sb-pair .buy { display: block; flex: 1; letter-spacing: .03em; padding-inline: .6rem; min-width: 0; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .alt-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(14rem, 100%), 1fr)); gap: .75rem; margin: .5rem 0 1.25rem; }
 .alt-card { display: grid; grid-template-columns: auto 1fr; gap: .75rem; align-items: center; border: 1px solid var(--rule); padding: .65rem; text-decoration: none; color: var(--ink); }
 .alt-card:hover { border-color: var(--ink); }
