@@ -63,6 +63,8 @@ export interface Guide {
   title: string;
   h1: string;
   query?: string;
+  /** Extra search wording for the Article schema `keywords` (variants of `query`). */
+  keywords?: string[];
   description: string;
   dek: string;
   intro: string[];
@@ -234,7 +236,32 @@ export function productTitle(p: Product) {
     `${p.short} Review: Specs, Score & Verdict`,
     `${p.short} Review: Specs & Score`,
   ];
-  return options.find((t) => t.length >= 50 && t.length <= 62) ?? options.find((t) => t.length <= 62) ?? options[options.length - 1];
+  const base = options.find((t) => t.length >= 50 && t.length <= 62) ?? options.find((t) => t.length <= 62) ?? options[options.length - 1];
+  // Sister-site pattern ("KEF LS50 Wireless II Review: Specs, Score & Verdict (88/100)"): show the
+  // score in the title when it still fits in 65 characters.
+  const scored = `${base} (${p.score.overall}/100)`;
+  return scored.length <= 65 ? scored : base;
+}
+
+/**
+ * Product meta description, sister-site format: "<Model> at a glance: <spec> <value>, ... <summary>".
+ * Leads with the spec sheet because model pages are found by "<model> specs", "<model> dimensions"
+ * and "<model> review" searches. Up to three specs, then the verdict line, cut at a word at 158 characters.
+ */
+export function productDescription(p: Product, max = 158) {
+  const lead = `${p.short} at a glance: `;
+  const specs: string[] = [];
+  for (const [k, v] of p.specs) {
+    const next = [...specs, `${/^[A-Z][a-z]/.test(k) ? k.charAt(0).toLowerCase() + k.slice(1) : k} ${v.replace(/\s*\([^)]*\)/g, '').replace(/;.*$/, '').trim()}`];
+    if ((lead + next.join(', ')).length > 100 || next.length > 3) break;
+    specs.splice(0, specs.length, ...next);
+  }
+  if (!specs.length) return p.description;
+  // Then the hand-written verdict line, cut at a word boundary like a SERP snippet.
+  const out = `${lead}${specs.join(', ')}. ${plain(p.description)}`;
+  if (out.length <= max) return out;
+  const cut = out.slice(0, out.lastIndexOf(' ', max - 1)).replace(/[\s,;:–—-]+$/, '');
+  return `${cut}…`;
 }
 
 /** "4 min read" for a list of strings. */

@@ -72,7 +72,7 @@ for (const file of files) {
   const isArticle = /"@type"\s*:\s*"Article"/.test(html);
   const faq = /"@type"\s*:\s*"FAQPage"/.test(html);
   const titleCore = title.replace(/\s+[|–—]\s+[^|–—]+$/, '');
-  const h2s = [...html.matchAll(/<h2(?![^>]*p-name)[^>]*>([\s\S]*?)<\/h2>/g)].map((m) => decode(m[1].replace(/<[^>]+>/g, '')).trim());
+  const h2s = [...html.matchAll(/<h2(?![^>]*p-name)[^>]*>([\s\S]*?)<\/h2>/g)].map((m) => decode(m[1].replace(/<[^>]+>/g, '')).trim().replace(/^\d+\.\s+/, '')); // guides number their H2s
   // Template H2s that every article carries; they don't count toward the question share.
   const fixed = /^(how we ranked|spec sheets side by side|specs side by side|notable mentions|common mistakes|the bottom line|frequently asked questions|sources and recent updates|all .* we track|every .* we track|head-to-head|where they differ|how they score|buy the |related|who .* is$|.*: our \d+ picks$|.* lineup, ranked$|.* faq$)/i;
   const bodyH2s = h2s.slice(1).filter((h) => !fixed.test(h));

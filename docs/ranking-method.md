@@ -38,6 +38,21 @@ and `/best-psu-for-rtx-2080-and-2080-ti/` held positions 2–11. They are live a
 2026 content written for people who still own that hardware. The other 2020 URLs 301 to their nearest
 page (`vercel.json`).
 
+### 1b. What earns the clicks (besthometheaterreview.com, 17–19 Nov 2026, 12 clicks / 900 impressions)
+
+| Signal | Data | What we copy |
+|---|---|---|
+| Clicks by page type | 6 of 12 clicks to `/gear/` model pages, 3 to `/best-x/` guides, 1 to a brand review | Model pages stay first-class: model in H1 and title |
+| Queries that clicked | "hisense ax5120g", "polk signature elite es35 review", "kef ls50 wireless ii review", "svs soundbar", "polk 5.1 speaker package" | `<Model> Review: Specs, Score & Verdict (NN/100)` titles |
+| Model + attribute searches | "onkyo tx-rz50 specs", "era 300 dimensions", "s90f refresh rate", "polk es20 frequency response", "s95f firmware" | Meta description leads with the spec sheet: `<Model> at a glance: <spec>, <spec>, <spec>. <verdict>`; driver/firmware H2 |
+| Rich results | **Product snippets** 222 impressions (2 clicks), **Review snippet** 41 (1 click) | A full Product + Review (rating, pros/cons, ASIN as `sku`, publisher) for *every* product on a page: product pages, each pick in a guide's ItemList, both sides of a comparison (`src/lib/schema.ts`) |
+| Homepage | Position 1–5 for "best home theater system for beginners / modern / premium" | Homepage keeps its "What Is the Best …?" H2 answer |
+| Guide outline | Top guide (best subwoofer, 2 clicks) numbers every H2: "1. Compare the Picks at a Glance" … "18. All Subwoofers We Track" | Guide H2s carry their number (matches the On this page list) |
+| Site-wide schema | Organization (`#organization`, 512 px PNG logo) + WebSite (`#website`) on every page; Article has `headline` = title, `keywords`, `articleSection`, `image`, `inLanguage` | Same, emitted by `Base.astro`; no headings before the H1 (menu labels are not headings) |
+
+Not copied: the sister site's named reviewer (Person with `alumniOf`, `sameAs`). Add a real author to
+`src/data/authors.ts` only with a real bio and profile; until then the Hardware Desk is the author.
+
 ## 2. Site structure (copied from the sister sites)
 
 | Sister-site pattern | Here |
@@ -58,7 +73,7 @@ H1 (the search) · dek · byline (real git date, read time) · research disclosu
 Lede: sentence 1 names the pick with numbers
 Shortlist (numbered picks, label, best for, score, price)        ← not a heading
 On this page                                                       ← not a heading
-H2 1. <H1>: The Short Answer     quick answer + picks table (best for / skip it if / score / price)
+H2 1. <H1>: The Short Answer     (the number is part of the rendered H2, as on the sister site)     quick answer + picks table (best for / skip it if / score / price)
 H2 2. Who <Brand> Is              (brand pages)
 H2 3. How We Ranked These …      criteria; plainly says nothing was bench-tested
 H2 4. <H1>: Our N Picks           one card per pick: key specs, skip it if, buy button, write-up, pros/cons
@@ -72,7 +87,10 @@ H2 Sources and Recent Updates · All <category> We Track · Head-to-Head Compari
 ## 3. Bing and Google on-page rules (kept from the previous version of this repo)
 
 - **Titles lead with the search, 50–62 characters.** `(2026)` only on guides, brand pages and comparisons.
-  Product pages: `<Model> Review: Specs, Score & Verdict`, padded with the category noun when short.
+  Product pages: `<Model> Review: Specs, Score & Verdict`, padded with the category noun when short, plus
+  ` (NN/100)` when the title still fits in 65 characters.
+- **Product descriptions are generated** (`productDescription()`): `<Model> at a glance:` up to three specs,
+  then the hand-written `description`, cut at a word at 158 characters.
 - **Descriptions 140–158 characters, answer and a number first** ("The RTX 5070 is the best graphics card
   for most people: 12 GB, 250 W…"). The validator warns outside the range; `audit:seo` flags no-number openers.
 - **First H2 is "<search>: The Short Answer"** on guides and comparisons.
@@ -80,8 +98,9 @@ H2 Sources and Recent Updates · All <category> We Track · Head-to-Head Compari
   Use the `Page-Dates: skip` trailer on mechanical commits.
 - **IndexNow on every production deploy**; submit `/sitemap.xml` in Bing Webmaster Tools and Search Console.
 - **One URL per search.** The validator fails two indexable guides targeting the same query.
-- **Schema:** Article + BreadcrumbList + ItemList + FAQPage on guides; Product + Review + FAQPage on
-  product pages; DefinedTerm on glossary pages; WebApplication on tools.
+- **Schema:** Organization + WebSite on every page; Article + BreadcrumbList + ItemList of full Product +
+  Review nodes + FAQPage on guides; Product + Review + FAQPage on product pages; Article + 2-Product ItemList
+  + FAQPage on comparisons; DefinedTerm on glossary pages; WebApplication on tools.
 - **Markdown twins and llms.txt** for AI search (Dualmark), generated from the built HTML.
 
 ## 4. Old URLs

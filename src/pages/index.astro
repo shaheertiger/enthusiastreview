@@ -15,8 +15,6 @@ const popular = COMPARES.slice(0, 8);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    { '@type': 'WebSite', name: SITE.name, url: SITE.url, description: SITE.tagline },
-    { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: { '@type': 'ImageObject', url: `${SITE.url}/favicon.svg` }, email: SITE.email },
     { '@type': 'ItemList', name: 'Best PC hardware guides', itemListElement: featured.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${guidePath(g!)}`, name: g!.h1 })) },
   ],
 };
