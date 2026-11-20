@@ -7,6 +7,8 @@ import BuyButton from '../../components/BuyButton.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
+import { publisherRef, productItemList } from '../../lib/schema';
+import { authorSchema } from '../../data/authors';
 import {
   COMPARES, mustProduct, categoryOf, getBrand, comparesFor, guidesFeaturing, comparePath, productPath, guidePath,
   compareUpdated, fmtDate, priceBand, spec, newCtx, inline, plain, shortAnswerHeading, type Compare,
@@ -56,15 +58,21 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Article',
-      headline: `${a.name} vs ${b.name}`,
+      headline: c.title,
       description: c.description,
       datePublished: updated,
       dateModified: updated,
-      author: { '@type': 'Organization', name: SITE.name, url: SITE.url },
-      publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
-      mainEntityOfPage: `${SITE.url}${path}`,
-      about: [a, b].map((p) => ({ '@type': 'Product', name: p.name, ...(p.image ? { image: p.image } : {}), brand: { '@type': 'Brand', name: getBrand(p.brand).name }, url: `${SITE.url}${productPath(p)}` })),
+      author: authorSchema(),
+      publisher: publisherRef(),
+      mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE.url}${path}` },
+      ...((a.image ?? b.image) ? { image: a.image ?? b.image } : {}),
+      articleSection: cat.label,
+      // Both word orders, as the sister sites do: people search "a vs b" and "b vs a".
+      keywords: [...new Set([`${a.short} vs ${b.short}`, `${b.short} vs ${a.short}`, `${a.name} vs ${b.name}`].map((k) => k.toLowerCase()))].join(', '),
+      inLanguage: 'en-US',
     },
+    // Both sides as full Product + Review nodes (the sister sites' "Product snippets" pattern).
+    productItemList([a, b]),
     { '@type': 'BreadcrumbList', itemListElement: crumbs.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.name, item: `${SITE.url}${x.href}` })) },
     { '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) },
   ],

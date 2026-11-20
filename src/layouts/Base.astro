@@ -4,6 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Analytics from '@vercel/analytics/astro';
 import { SITE } from '../data/site';
+import { siteSchema } from '../lib/schema';
 
 interface Props {
   title: string;
@@ -35,7 +36,7 @@ const bing = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex, follow" />}
-    {!noindex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
+    {!noindex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     {markdownHref && <link rel="alternate" type="text/markdown" href={markdownHref} />}
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
@@ -54,6 +55,7 @@ const bing = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
     {article?.section && <meta property="article:section" content={article.section} />}
     {gsc && <meta name="google-site-verification" content={gsc} />}
     {bing && <meta name="msvalidate.01" content={bing} />}
+    {siteSchema().map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
   <body>

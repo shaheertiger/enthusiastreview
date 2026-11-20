@@ -9,9 +9,10 @@ import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
 import { amazonLink } from '../../data/affiliate';
+import { productSchema } from '../../lib/schema';
 import {
   PRODUCTS, getBrand, categoryOf, productsIn, productsOfBrand, rankOf, guidesFeaturing, comparesFor, mustProduct,
-  productPath, guidePath, comparePath, brandPath, productUpdated, fmtDate, priceBand, productTitle, newCtx, inline, plain, type Product,
+  productPath, guidePath, comparePath, brandPath, productUpdated, fmtDate, priceBand, productTitle, productDescription, newCtx, inline, plain, type Product,
 } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -43,31 +44,13 @@ const crumbs = [
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    {
-      '@type': 'Product',
-      name: p.name,
-      description: plain(p.quick),
-      brand: { '@type': 'Brand', name: brand.name },
-      category: cat.label,
-      url: `${SITE.url}${path}`,
-      ...(p.image ? { image: p.image } : {}),
-      review: {
-        '@type': 'Review',
-        name: `${p.name} review`,
-        author: { '@type': 'Organization', name: SITE.name, url: SITE.url },
-        datePublished: updated,
-        reviewBody: plain(p.verdict[0]),
-        reviewRating: { '@type': 'Rating', ratingValue: p.score.overall, bestRating: 100, worstRating: 0 },
-        positiveNotes: { '@type': 'ItemList', itemListElement: p.pros.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t })) },
-        negativeNotes: { '@type': 'ItemList', itemListElement: p.cons.map((t, i) => ({ '@type': 'ListItem', position: i + 1, name: t })) },
-      },
-    },
+    productSchema(p),
     { '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: `${SITE.url}${c.href}` })) },
     { '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) },
   ],
 };
 ---
-<Base title={productTitle(p)} description={p.description} ogImage={p.image} ogType="article" article={{ published: updated, modified: updated, section: cat.label }} jsonLd={jsonLd}>
+<Base title={productTitle(p)} description={productDescription(p)} ogImage={p.image} ogType="article" article={{ published: updated, modified: updated, section: cat.label }} jsonLd={jsonLd}>
   <article class="article gear">
     <header class="col a-head">
       <Crumbs items={crumbs} />

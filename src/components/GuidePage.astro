@@ -10,10 +10,11 @@ import FaqList from './FaqList.astro';
 import { SITE } from '../data/site';
 import { getAuthor, authorSchema } from '../data/authors';
 import { amazonLink } from '../data/affiliate';
+import { publisherRef, productItemList } from '../lib/schema';
 import {
   GUIDES, getGuide, getProduct, mustProduct, getBrand, categoryOf, productsIn, productsOfBrand, comparesFor,
   guidePath, productPath, comparePath, brandPath, guideUpdated, guidePublished, fmtDate, priceBand, spec,
-  readMinutes, guideText, newCtx, inline, plain, slugify, type Guide,
+  readMinutes, guideText, guideQuery, newCtx, inline, plain, slugify, type Guide,
 } from '../lib/data';
 
 const { g } = Astro.props as { g: Guide };
@@ -61,6 +62,8 @@ const outline = [
   ['sources', H.sources],
   ['tracked', H.tracked],
 ] as [string, string][];
+// Sister-site H2s carry their number ("1. Compare the Picks at a Glance"), matching the On this page list.
+const num = (id: string) => `${outline.findIndex(([x]) => x === id) + 1}. `;
 const words = readMinutes(guideText(g));
 const pickAnchor = (id: string) => `pick-${id}`;
 
@@ -69,30 +72,30 @@ const crumbs = [
   isBrand ? { name: 'Brand Reviews', href: '/best-of/#brand-reviews' } : { name: 'Best Lists', href: '/best-of/' },
   { name: g.h1, href: path },
 ];
+const OG_IMAGE = top?.p.image;
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
     {
       '@type': 'Article',
-      headline: g.h1,
+      headline: g.title,
       description: g.description,
       datePublished: published,
       dateModified: updated,
       author: authorSchema(g.author),
-      publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: { '@type': 'ImageObject', url: `${SITE.url}/favicon.svg` } },
-      mainEntityOfPage: `${SITE.url}${path}`,
-      about: cat.label,
+      publisher: publisherRef(),
+      mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE.url}${path}` },
+      ...(OG_IMAGE ? { image: OG_IMAGE } : {}),
+      articleSection: cat.label,
+      keywords: [...new Set([guideQuery(g), g.h1.toLowerCase(), ...(g.keywords ?? [])])].join(', '),
+      inLanguage: 'en-US',
     },
     {
       '@type': 'BreadcrumbList',
       itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: `${SITE.url}${c.href}` })),
     },
-    {
-      '@type': 'ItemList',
-      name: g.h1,
-      numberOfItems: picks.length,
-      itemListElement: picks.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.p.name, url: `${SITE.url}${productPath(x.p)}`, ...(x.p.image ? { image: x.p.image } : {}) })),
-    },
+    // Each pick is a full Product + Review (the sister sites' "Product snippets" pattern).
+    { ...productItemList(picks.map((x) => x.p), g.h1, g.author) },
     {
       '@type': 'FAQPage',
       mainEntity: g.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })),
@@ -146,7 +149,7 @@ const jsonLd = {
     </div>
 
     <div class="col body numbered">
-      <h2 id="short-answer">{H.short}</h2>
+      <h2 id="short-answer">{num('short-answer')}{H.short}</h2>
       <div class="answer-box"><p set:html={inline(g.quickAnswer, ctx)} /></div>
       <div class="table-wrap">
         <table class="picks-table">
@@ -168,13 +171,13 @@ const jsonLd = {
 
       {g.about?.length && brand && (
         <>
-          <h2 id="who">{H.about}</h2>
+          <h2 id="who">{num('who')}{H.about}</h2>
           {g.about.map((t) => <p set:html={inline(t, ctx)} />)}
           <p class="fine">{[brand.founded && `Founded ${brand.founded}`, brand.hq && `Headquarters: ${brand.hq}`].filter(Boolean).join(' · ')} · <a href={brandPath(brand)}>All {brand.name} products we track</a></p>
         </>
       )}
 
-      <h2 id="how-we-ranked">{H.how}</h2>
+      <h2 id="how-we-ranked">{num('how-we-ranked')}{H.how}</h2>
       <p set:html={inline(g.ranking!.intro, ctx)} />
       <ul class="criteria">
         {g.ranking!.criteria.map(([k, v]) => <li><strong>{k}.</strong> <span set:html={inline(v, ctx)} /></li>)}
@@ -182,7 +185,7 @@ const jsonLd = {
       {g.ranking!.why && <p set:html={inline(g.ranking!.why, ctx)} />}
       <p class="fine">We track {tracked.length} {isBrand && brand ? `${brand.name} products` : cat.plural}; {picks.length} made this list. Scores are research scores, not lab results. <a href="/how-we-review/">How the {SITE.score} works</a>.</p>
 
-      <h2 id="picks">{H.picks}</h2>
+      <h2 id="picks">{num('picks')}{H.picks}</h2>
     </div>
 
     <div class="col">
@@ -212,7 +215,7 @@ const jsonLd = {
     </div>
 
     <div class="col body numbered">
-      <h2 id="specs">{H.specs}</h2>
+      <h2 id="specs">{num('specs')}{H.specs}</h2>
       <div class="table-wrap">
         <table class="spec-table">
           <caption>Key specs for every pick, from the manufacturers' spec sheets</caption>
@@ -232,7 +235,7 @@ const jsonLd = {
 
       {g.mentions?.length && (
         <>
-          <h2 id="mentions">{H.mentions}</h2>
+          <h2 id="mentions">{num('mentions')}{H.mentions}</h2>
           {g.mentions.map((m) => {
             const mp = m.id ? getProduct(m.id) : undefined;
             return (
@@ -247,7 +250,7 @@ const jsonLd = {
 
       {g.sections.map((s) => (
         <>
-          <h2 id={slugify(s.h)}>{s.h}</h2>
+          <h2 id={slugify(s.h)}>{num(slugify(s.h))}{s.h}</h2>
           {(s.body ?? []).map((t) => <p set:html={inline(t, ctx)} />)}
           {s.list?.length && <ul>{s.list.map((t) => <li set:html={inline(t, ctx)} />)}</ul>}
           {s.table && (
@@ -262,7 +265,7 @@ const jsonLd = {
         </>
       ))}
 
-      <h2 id="mistakes">{H.mistakes}</h2>
+      <h2 id="mistakes">{num('mistakes')}{H.mistakes}</h2>
       {(g.mistakes ?? []).map(([k, v]) => (
         <>
           <h3>{k}</h3>
@@ -270,21 +273,21 @@ const jsonLd = {
         </>
       ))}
 
-      <h2 id="bottom-line">{H.bottom}</h2>
+      <h2 id="bottom-line">{num('bottom-line')}{H.bottom}</h2>
       <p set:html={inline(g.bottomLine, ctx)} />
       <p><BuyButton p={top.p} label={`Check the ${top.p.short} on Amazon`} /></p>
 
-      <h2 id="faq">{H.faq}</h2>
+      <h2 id="faq">{num('faq')}{H.faq}</h2>
       <FaqList faqs={g.faqs} ctx={ctx} />
 
-      <h2 id="sources">{H.sources}</h2>
+      <h2 id="sources">{num('sources')}{H.sources}</h2>
       <h3>Recent updates</h3>
       <ul><li><time datetime={updated}>{fmtDate(updated)}</time>: picks, prices and specs rechecked.</li></ul>
       <h3>What this page is based on</h3>
       <ul>{g.sources.map((s) => <li set:html={inline(s)} />)}</ul>
       <p class="fine">Spotted a spec that changed or a part that went out of stock? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
 
-      <h2 id="tracked">{H.tracked}</h2>
+      <h2 id="tracked">{num('tracked')}{H.tracked}</h2>
       <div class="table-wrap">
         <table class="tracked">
           <thead><tr><th>Product</th><th>{isBrand ? 'Category' : 'Brand'}</th><th>Score</th><th>Price</th><th></th></tr></thead>
