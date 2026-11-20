@@ -12,7 +12,7 @@ export function GET() {
   const latest = latestDate();
   const urls: { loc: string; lastmod: string; images?: { loc: string; title: string }[] }[] = [
     { loc: '/', lastmod: latest },
-    ...['/best-of/', '/gear/', '/compare/', '/glossary/', '/brands/', '/tools/'].map((loc) => ({ loc, lastmod: latest })),
+    ...['/best-of/', '/gear/', '/compare/', '/glossary/', '/brands/', '/tools/', '/equivalents/'].map((loc) => ({ loc, lastmod: latest })),
     ...GUIDES.map((g) => ({
       loc: guidePath(g),
       lastmod: guideUpdated(g),

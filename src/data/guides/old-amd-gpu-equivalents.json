@@ -1,0 +1,153 @@
+{
+  "slug": "old-amd-gpu-equivalents",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "RX 580 Equivalent Today: Old Radeon Cards Matched to New GPUs",
+  "h1": "Old Radeon GPU Equivalents Today",
+  "query": "rx 580 equivalent new",
+  "description": "No new card is as slow as an RX 580: an RTX 5060 or RX 9060 XT is about 2.5x faster. See what every older Radeon equals today and which card doubles it.",
+  "dek": "What your RX 580, RX 5700 XT, Vega or RX 6000 card is worth in today's terms, and the new card that roughly doubles it.",
+  "quickAnswer": "An RX 580 performs like a GTX 1060 6GB, and no current card is that slow: an RTX 5060 or RX 9060 XT 8GB is roughly 2.5 times faster. An RX 5700 XT sits near an RX 6600 XT, and an RX 9070 or RTX 5070 roughly doubles it. An RX 6600 is close to an RTX 3060, and an RX 6700 XT a little behind an RTX 5060.",
+  "intro": [
+    "This chart is for people who already own an older Radeon card and want to know two things: what it equals in today's terms, and which new card is a real upgrade. It covers the RX 400 and RX 500 series, Vega, RX 5000 and RX 6000, matched against current RX 9000, RX 7000, RTX 50 and RTX 40 cards.",
+    "For each card we list the newer card it performs most like in raster games, and the cheapest current AMD and NVIDIA card that roughly doubles it. Equivalents follow the broad pattern of published independent reviews, rounded to the nearest card. We have not bench-tested these GPUs, and any single game can swing a fair amount either way."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart",
+      "body": [
+        "The \"performs about like\" column names the card, old or new, with the closest average raster performance at 1080p, the resolution most of these cards were built for. Roughly means within about 10 percent on average. Where no current card is that slow, we name the closest older GeForce card instead, so you can compare with listings on the used market.",
+        "The upgrade columns name the cheapest current card that is roughly twice as fast. Doubling is a useful line: below it, an upgrade often feels like a few extra frames rather than a new card. Above it, settings that were impossible become playable. Prices move, so check current listings before you buy.",
+        "Ray tracing is left out on purpose. RX 400, RX 500, Vega and RX 5000 cards have no ray-tracing hardware at all, so any current card is an infinite upgrade there. RX 6000 cards have it, but at a level well below their raster match; the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) has a ray tracing column for them."
+      ]
+    },
+    {
+      "h": "RX 400, RX 500 and Vega Equivalents Today",
+      "body": [
+        "Polaris (RX 400 and RX 500) and Vega cards are the most common older Radeons still in use. AMD moved RX 400, RX 500 and Vega cards to legacy support in late 2023, so they get critical fixes rather than regular game optimizations. That alone is a reason to plan an upgrade, even if your card still runs the games you play."
+      ],
+      "table": {
+        "caption": "Older Radeon cards: what they equal today, and the upgrade that roughly doubles them",
+        "head": ["Old card", "VRAM", "Performs about like", "Roughly 2x upgrade (AMD)", "Roughly 2x upgrade (NVIDIA)"],
+        "rows": [
+          ["Radeon VII", "16 GB", "GTX 1080 Ti; close to RX 6600 XT", "RX 9070", "RTX 5070"],
+          ["RX Vega 64", "8 GB", "GTX 1080; near RX 5600 XT", "RX 9060 XT 16GB (just under 2x) or RX 9070", "RTX 5060 Ti 16GB (just under 2x) or RTX 5070"],
+          ["RX Vega 56", "8 GB", "GTX 1070 (AMD slightly faster)", "RX 9060 XT 16GB", "RTX 5060 Ti 16GB"],
+          ["RX 590", "8 GB", "Between GTX 1060 6GB and GTX 1660", "RX 9060 XT 8GB or RX 7600 XT", "RTX 5060"],
+          ["RX 580 8GB", "8 GB", "GTX 1060 6GB (roughly even)", "RX 9060 XT 8GB or RX 7600", "RTX 5060 or RTX 4060"],
+          ["RX 480 8GB", "8 GB", "A little below RX 580", "RX 7600 or RX 9060 XT 8GB", "RTX 4060 or RTX 5060"],
+          ["RX 570 / RX 470", "4 or 8 GB", "GTX 1650 (roughly); Arc A380", "RX 7600", "RTX 4060"],
+          ["RX 560", "4 GB", "GTX 1050 (roughly)", "RX 6600 or anything above", "RTX 3050 or anything above"],
+          ["RX 550", "2 or 4 GB", "GT 1030 (roughly)", "Any current card", "Any current card"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the RX 580 Equivalent Today?",
+      "body": [
+        "The RX 580 8GB performs like a GTX 1060 6GB, and the two have been roughly even since launch. Nothing in AMD's or NVIDIA's current desktop lineup is that slow. The closest cards still sold new are the RTX 3050 6GB, which is a little faster, and Intel's Arc A380, which is a little slower.",
+        "Every current mainstream card is a big step up. An [RX 9060 XT 8GB](/gear/rx-9060-xt-8gb/) or [RTX 5060](/gear/rtx-5060/) is roughly two and a half to three times as fast in raster games by the broad pattern of independent reviews, and an [RX 6600](/gear/rx-6600/) on clearance is close to double. If you also want more VRAM than the 8 GB you have now, the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) is the card to look at.",
+        "Before you buy, check the power supply. Many RX 580 builds have a 500 W unit, which is fine for an RTX 5060, RX 7600 or RX 9060 XT but not for higher tiers. Also check the CPU: a Ryzen 5 1600 or 2600 or a Core i5 from the same era will hold a modern card back in many games. Our [GPU guide for the Ryzen 5 2600 and 3600](/best-gpu-for-ryzen-5-2600-and-3600/) covers that pairing."
+      ]
+    },
+    {
+      "h": "What Is the RX 570 Equivalent Today?",
+      "body": [
+        "The RX 570 is roughly a GTX 1650, a little behind the RX 580, and the 4 GB version is now short of memory in many recent games. Intel's Arc A380 lands in the same range. The RX 470 performs about the same as the RX 570.",
+        "Because the RX 570 is slower to start with, almost any current card doubles it. An RX 6600 is close to twice as fast, and an RX 7600 or [RTX 4060](/gear/rtx-4060/) clearly more than that. If your system has an older PCIe 3.0 board, the RX 7600 and RTX 4060 lose a little performance on their eight-lane link, but the upgrade is still large."
+      ]
+    },
+    {
+      "h": "What Is the Vega 56 and Vega 64 Equivalent Today?",
+      "body": [
+        "The RX Vega 56 performs like a GTX 1070, with the Radeon slightly ahead in many games, and the Vega 64 like a GTX 1080. In AMD's later lineup, the Vega 64 sits near an RX 5600 XT. Both have 8 GB of HBM2 memory and draw a lot of power for their performance: around 210 W for the Vega 56 and close to 300 W for the Vega 64.",
+        "For a Vega 56, an RX 9060 XT 16GB or RTX 5060 Ti 16GB roughly doubles performance with 16 GB of VRAM, and uses less power. For a Vega 64 those cards are just under double; an [RX 9070](/gear/rx-9070/) or [RTX 5070](/gear/rtx-5070/) is a clear doubling. A Vega system usually has a 650 W or larger power supply already, which is enough for both. The Radeon VII, the last Vega card, performs like a GTX 1080 Ti, and the RX 9070 or RTX 5070 roughly doubles it."
+      ]
+    },
+    {
+      "h": "RX 5000 Series Equivalents Today",
+      "body": [
+        "RDNA 1 cards were AMD's first after Vega. They have no ray-tracing hardware and cannot run FSR 4, so a growing number of new games either skip effects on them or need FSR 3.1 to stay smooth."
+      ],
+      "table": {
+        "caption": "Radeon RX 5000: what it equals today, and the upgrade that roughly doubles it",
+        "head": ["Old card", "VRAM", "Performs about like", "Roughly 2x upgrade (AMD)", "Roughly 2x upgrade (NVIDIA)"],
+        "rows": [
+          ["RX 5700 XT", "8 GB", "RX 6600 XT (a little slower); RTX 2070 Super (a little slower)", "RX 9070", "RTX 5070"],
+          ["RX 5700", "8 GB", "RX 6600 (roughly); RTX 2060 Super", "RX 9070", "RTX 5070"],
+          ["RX 5600 XT", "6 GB", "RTX 2060 (roughly)", "RX 9060 XT 16GB", "RTX 5060 Ti 16GB"],
+          ["RX 5500 XT", "4 or 8 GB", "GTX 1650 Super (roughly)", "RX 9060 XT 8GB or RX 7600", "RTX 5060"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the RX 5700 XT Equivalent Today?",
+      "body": [
+        "The RX 5700 XT performs a little below an RX 6600 XT and an RTX 2070 Super, and close to an RTX 3060 12GB in raster games. In today's lineup that puts it below the RX 7600 and RTX 4060, which are faster by a modest margin rather than a large one. Its 8 GB of VRAM and lack of ray tracing are what date it most.",
+        "A card that roughly doubles a 5700 XT starts at the [RX 9070](/gear/rx-9070/) and [RTX 5070](/gear/rtx-5070/). An RX 9060 XT 16GB is a meaningful but smaller step, about 1.5 times as fast with twice the memory, and costs much less. If 1440p is your target, the doubling is worth paying for; at 1080p the RX 9060 XT 16GB is enough."
+      ]
+    },
+    {
+      "h": "RX 6000 Series Equivalents Today",
+      "body": [
+        "RDNA 2 cards are still common and still capable. The question with these is less whether they run games than whether a new card adds enough to justify the price. The upgrade columns get expensive quickly: at the top of the RX 6000 range, only flagship cards double performance."
+      ],
+      "table": {
+        "caption": "Radeon RX 6000: what it equals today, and the upgrade that roughly doubles it",
+        "head": ["Old card", "VRAM", "Performs about like", "Roughly 2x upgrade (AMD)", "Roughly 2x upgrade (NVIDIA)"],
+        "rows": [
+          ["RX 6950 XT / RX 6900 XT", "16 GB", "RX 7800 XT to RTX 5070", "None", "RTX 5090"],
+          ["RX 6800 XT", "16 GB", "RX 7800 XT; RTX 4070 (roughly)", "None (RX 9070 XT is about 1.5x)", "RTX 5090 (RTX 5080 is about 1.6x)"],
+          ["RX 6800", "16 GB", "RX 9060 XT 16GB; RX 7700 XT (roughly)", "None (RX 9070 XT is about 1.7x)", "RTX 5080"],
+          ["RX 6750 XT", "12 GB", "RTX 5060 (roughly)", "RX 9070 XT (just under 2x)", "RTX 5070 Ti (just under 2x)"],
+          ["RX 6700 XT", "12 GB", "RTX 3060 Ti; a little below RTX 5060", "RX 9070 XT", "RTX 5070 Ti"],
+          ["RX 6700 10GB", "10 GB", "RTX 4060 (AMD slightly faster)", "RX 9070", "RTX 5070"],
+          ["RX 6650 XT / RX 6600 XT", "8 GB", "RX 7600; RTX 4060", "RX 9070", "RTX 5070"],
+          ["RX 6600", "8 GB", "RTX 3060 12GB (a bit slower)", "RX 7800 XT or RX 9070", "RTX 4070 or RTX 5070"],
+          ["RX 6500 XT", "4 GB", "GTX 1650 Super (roughly)", "RX 7600 or RX 9060 XT 8GB", "RTX 4060 or RTX 5060"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the RX 6600 Equivalent Today?",
+      "body": [
+        "The [RX 6600](/gear/rx-6600/) performs a bit below an RTX 3060 12GB in raster games, and the RX 7600 and [RTX 4060](/gear/rtx-4060/) are roughly 20 to 25 percent faster. That gap is real but small, so neither is a worthwhile upgrade on its own; [RX 6600 vs RTX 4060](/compare/rx-6600-vs-rtx-4060/) covers when it is.",
+        "To roughly double an RX 6600, look at the RX 7800 XT, [RX 9070](/gear/rx-9070/), RTX 4070 or [RTX 5070](/gear/rtx-5070/). All of them also lift you from 8 GB to 12 or 16 GB of VRAM. The RX 6600 draws about 130 W, so check that your power supply can handle a 220 to 250 W card first."
+      ]
+    },
+    {
+      "h": "What Is the RX 6700 XT Equivalent Today?",
+      "body": [
+        "The [RX 6700 XT](/gear/rx-6700-xt/) performs like an RTX 3060 Ti in raster games and is a little slower than an [RTX 5060](/gear/rtx-5060/), though its 12 GB of VRAM holds up better than the RTX 5060's 8 GB with high textures. The RX 6750 XT is a few percent faster and roughly level with the RTX 5060.",
+        "Roughly doubling an RX 6700 XT takes an [RX 9070 XT](/gear/rx-9070-xt/) or [RTX 5070 Ti](/gear/rtx-5070-ti/). The RX 9070 and RTX 5070 are about 1.7 to 1.8 times as fast and cost less. Below that tier, upgrades from an RX 6700 XT give too little for the money: an RX 9060 XT 16GB is only about a quarter faster."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Upgrading by a single tier", "Moving from an RX 6600 to an RX 7600, or from an RX 5700 XT to an RTX 4060, adds 10 to 25 percent. That is often less than the price suggests. Aim for roughly double, or keep your card a while longer."],
+    ["Ignoring the power supply", "An RX 580 or RX 6600 system may have a 450 W or 500 W unit. That covers an RTX 5060 or RX 9060 XT, but an RX 9070 or RTX 5070 needs more. Check the card maker's recommended wattage and connectors before you buy."],
+    ["Keeping a CPU that is too old", "A Ryzen 5 1600, Ryzen 5 2600 or 8th-gen Core i5 can hold an RX 9070 or RTX 5070 well below its potential. With an older CPU, a mid-range card is often the better buy, and the [bottleneck calculator](/tools/bottleneck-calculator/) shows how much headroom you have."],
+    ["Buying another 8 GB card", "If you are leaving an 8 GB RX 580, RX 5700 XT or RX 6600, a new 8 GB card helps frame rates but not texture settings. The RX 9060 XT 16GB and RTX 5060 Ti 16GB cost a little more and age better."]
+  ],
+  "bottomLine": "Older Radeons map onto today's cards like this: RX 580 to GTX 1060 6GB, below any current card; Vega 64 to GTX 1080; RX 5700 XT to just under RX 6600 XT; RX 6600 to just under RTX 3060; RX 6700 XT to just under RTX 5060. For a real upgrade, aim to double: RX 9060 XT 8GB or RTX 5060 from an RX 580, RX 9060 XT 16GB from a Vega 56 or RX 5600 XT, RX 9070 or RTX 5070 from an RX 5700 XT or RX 6600, and RX 9070 XT or RTX 5070 Ti from an RX 6700 XT.",
+  "faqs": [
+    {"q": "What is the RX 580 equivalent to today?", "a": "A GTX 1060 6GB, roughly even. No current AMD or NVIDIA desktop card is that slow: the RTX 3050 6GB is a little faster, and an RX 9060 XT 8GB or RTX 5060 is about two and a half to three times as fast."},
+    {"q": "What new GPU is equal to an RX 580?", "a": "None in the current RX 9000 or RTX 50 lineups. The slowest cards still sold new, such as the RTX 3050 6GB, are a little faster. Intel's Arc A380 is a little slower. Treat any current mainstream card as a large upgrade."},
+    {"q": "Is the RX 580 still good in 2026?", "a": "For older and lighter games at 1080p, yes. It struggles in recent releases, has no ray tracing, cannot run FSR 4, and AMD moved it to legacy driver support in late 2023, so new games no longer get optimizations for it."},
+    {"q": "What is the RX 5700 XT equivalent to today?", "a": "Just under an RX 6600 XT and an RTX 2070 Super, and close to an RTX 3060 12GB in raster games. The RX 7600 and RTX 4060 are modestly faster. An RX 9070 or RTX 5070 roughly doubles it."},
+    {"q": "What is the Vega 64 equivalent to today?", "a": "A GTX 1080, and near an RX 5600 XT in AMD's later lineup. An RX 9070 or RTX 5070 more than doubles it, and an RX 9060 XT 16GB comes close to double while using much less power."},
+    {"q": "What should I upgrade to from an RX 6600?", "a": "For a real step, an RX 9070 or RTX 5070, which roughly double it and bring 12 to 16 GB of VRAM. The RX 7600 and RTX 4060 are only about 20 to 25 percent faster, which is rarely worth the money."},
+    {"q": "Is the RX 6700 XT still worth keeping?", "a": "Yes, at 1080p and most 1440p games. It performs a little below an RTX 5060 and has more VRAM. Only an RX 9070 XT or RTX 5070 Ti roughly doubles it; smaller upgrades give too little for the price."},
+    {"q": "What is the RX 570 equivalent to?", "a": "Roughly a GTX 1650, a little behind the RX 580. The 4 GB version runs short of memory in many recent games. An RX 6600 is close to twice as fast, and an RX 7600 or RTX 4060 more than that."}
+  ],
+  "sources": [
+    "AMD Radeon RX 9000, RX 7000, RX 6000, RX 5000, Vega and RX 500 series specifications",
+    "NVIDIA GeForce RTX 50, RTX 40, RTX 30, RTX 20, GTX 16 and GTX 10 series specifications",
+    "TechPowerUp GPU database relative performance listings",
+    "Independent GPU reviews from Hardware Unboxed, Gamers Nexus, TechPowerUp and Tom's Hardware GPU hierarchy",
+    "AMD driver support announcements for RX 400, RX 500 and Vega cards, 2023"
+  ],
+  "products": ["rx-9060-xt-8gb", "rx-9060-xt-16gb", "rx-9070", "rx-9070-xt", "rtx-5060", "rtx-5070", "rx-6600", "rx-6700-xt"],
+  "related": ["amd-vs-nvidia-gpu-equivalents", "best-amd-graphics-card", "best-budget-graphics-card"]
+}

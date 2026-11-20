@@ -14,7 +14,7 @@ import { amazonLink } from '../data/affiliate';
 import { publisherRef } from '../lib/schema';
 import { getAuthor, authorSchema } from '../data/authors';
 import {
-  GUIDES, getGuide, getProduct, categoryOf, guidePath, productPath, guideUpdated, guidePublished, fmtDate, priceBand,
+  GUIDES, EQUIVALENTS, getGuide, getProduct, categoryOf, guidePath, productPath, guideUpdated, guidePublished, fmtDate, priceBand,
   readMinutes, guideText, guideQuery, newCtx, inline, plain, slugify, type Guide, type Product,
 } from '../lib/data';
 
@@ -29,6 +29,7 @@ const published = guidePublished(g);
 const products = (g.products ?? []).map(getProduct).filter((p): p is Product => Boolean(p));
 const related = (g.related ?? []).map(getGuide).filter((x): x is Guide => Boolean(x && !x.noindex));
 const more = GUIDES.filter((x) => x.slug !== g.slug && x.type === 'article' && !related.includes(x)).slice(0, 3);
+const siblings = /-equivalents?$/.test(g.slug) ? EQUIVALENTS().filter((x) => x.slug !== g.slug) : [];
 const kindLabel = { howto: 'How-To', fix: 'Fix', explainer: 'Explainer', versus: 'Head to Head' }[g.kind ?? 'explainer'];
 const stepsHeading = g.stepsHeading ?? `${g.h1}, Step by Step`;
 const outline: [string, string][] = [
@@ -36,6 +37,7 @@ const outline: [string, string][] = [
   ...(g.steps?.length ? [['steps', stepsHeading] as [string, string]] : []),
   ...g.sections.map((s) => [slugify(s.h), s.h] as [string, string]),
   ...(g.mistakes?.length ? [['mistakes', 'Common Mistakes to Avoid'] as [string, string]] : []),
+  ...(siblings.length ? [['more-equivalents', 'More Equivalents Charts'] as [string, string]] : []),
   ['bottom-line', 'The Bottom Line'],
   ['faq', 'Frequently Asked Questions'],
   ['sources', 'Sources'],
@@ -136,6 +138,13 @@ const jsonLd = {
               <p set:html={inline(v, ctx)} />
             </>
           ))}
+        </>
+      )}
+
+      {siblings.length > 0 && (
+        <>
+          <h2 id="more-equivalents">More Equivalents Charts</h2>
+          <ul class="link-list">{siblings.map((x) => <li><a href={guidePath(x)}>{x.h1}</a></li>)}<li><a href="/equivalents/">Every GPU and CPU equivalents chart</a></li></ul>
         </>
       )}
 

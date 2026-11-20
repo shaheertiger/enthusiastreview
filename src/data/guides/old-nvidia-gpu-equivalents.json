@@ -1,0 +1,180 @@
+{
+  "slug": "old-nvidia-gpu-equivalents",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "GTX 1080 Ti Equivalent RTX: Old GeForce Cards Matched to New",
+  "h1": "Old NVIDIA GPU Equivalents: GTX and RTX 20/30 Matched to New Cards",
+  "query": "gtx 1080 ti equivalent rtx",
+  "description": "The GTX 1080 Ti roughly equals an RTX 4060 or RTX 3060 Ti, and a GTX 1070 an RTX 3050. Find the new RTX 40, RTX 50 and Radeon match for every older GeForce.",
+  "dek": "Find the current GeForce and Radeon card that performs like your old GTX or RTX card, and the upgrade that roughly doubles it.",
+  "quickAnswer": "In raster games, the GTX 1080 Ti roughly equals an RTX 4060 and sits just below an RTX 3060 Ti. The GTX 1080 matches an RTX 3060, the GTX 1070 an RTX 3050 8GB, and the GTX 1060 6GB a GTX 1650 Super. The RTX 2080 Ti matches an RTX 3070, the RTX 3070 an RTX 5060 Ti, and the RTX 3080 an RTX 4070.",
+  "intro": [
+    "This chart starts from the older GeForce card in your PC, from the GTX 900 series through GTX 10, GTX 16, RTX 20 and RTX 30, and lists the current NVIDIA and AMD card that performs most like it in raster games. A last column names the card that roughly doubles your frame rate, which is the point where an upgrade feels worth the money.",
+    "Equivalents follow the broad pattern of published independent reviews, rounded to the nearest card. We have not bench-tested these GPUs. Expect any single game to swing a few percent either way, and more where an old card runs out of video memory."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart, and What Old Cards Are Missing",
+      "body": [
+        "Each row shows the newer card with the closest average raster performance, the traditional rendering most games still use, at 1080p for older and entry cards and 1440p for high-end ones. Roughly means within about 5 to 10 percent on average. The doubling column is a rough guide to a card that is about twice as fast, or close to it, by the same broad pattern.",
+        "Raw speed is only part of the match. GTX cards, including the GTX 16 series, have no RT cores or Tensor cores, so they cannot use [DLSS](/glossary/dlss/) or run hardware ray tracing in a practical way. RTX 20 and RTX 30 cards get DLSS upscaling but not DLSS [frame generation](/glossary/frame-generation/), which needs an RTX 40 card, or multi frame generation, which needs an RTX 50 card. So an RTX 4060 that matches a GTX 1080 Ti in raster can be far ahead in a game where DLSS and frame generation are turned on.",
+        "Video memory matters too. Many older cards have 4 GB to 8 GB of [VRAM](/glossary/vram/), and new games at high texture settings can exceed that. When a card runs out of memory you get stutter rather than a smooth drop in frame rate, so an equal match on paper can feel worse on the older card."
+      ]
+    },
+    {
+      "h": "GTX 10 and GTX 900 Series: New Card Equivalents",
+      "body": [
+        "Pascal and Maxwell cards are the most common upgrade starting points. Even the best of them, the GTX 1080 Ti, now lands around NVIDIA's entry-level current cards in raster, without access to DLSS."
+      ],
+      "table": {
+        "caption": "GTX 10 and GTX 900 to current GeForce and Radeon, raster",
+        "head": ["Old card", "VRAM", "Closest NVIDIA today", "Closest AMD today", "Roughly doubles it"],
+        "rows": [
+          ["GTX 1080 Ti", "11 GB", "RTX 4060 (roughly); RTX 3060 Ti a little faster", "RX 7600 (roughly)", "RTX 5070 or RX 9070"],
+          ["GTX 1080", "8 GB", "RTX 3060 12GB (roughly)", "RX 6600 (roughly)", "RTX 5060 Ti 16GB (close to 2x) or RX 9060 XT 16GB"],
+          ["GTX 1070 Ti", "8 GB", "RTX 2060 (roughly)", "Below RX 6600", "RTX 5060 Ti 16GB or RX 9060 XT 16GB"],
+          ["GTX 1070", "8 GB", "RTX 3050 8GB (GTX 1070 slightly faster)", "Below RX 6600", "RTX 5060 or RX 9060 XT 8GB"],
+          ["GTX 1060 6GB", "6 GB", "GTX 1650 Super (roughly); no RTX 40 or 50 match", "RX 580 (roughly)", "RTX 5060 is well over 2x"],
+          ["GTX 1060 3GB", "3 GB", "GTX 1650 (roughly)", "RX 570 (roughly)", "RTX 3050 8GB or RX 6600"],
+          ["GTX 1050 Ti", "4 GB", "Below GTX 1650", "RX 6400 is faster", "RX 6600 or RTX 3050 8GB"],
+          ["GTX 980 Ti", "6 GB", "GTX 1070 (a little slower)", "Below RX 6600", "RTX 5060 or RX 9060 XT 8GB"],
+          ["GTX 980", "4 GB", "GTX 1060 6GB (roughly)", "RX 580 (roughly)", "RX 6600 or RTX 3060"],
+          ["GTX 970", "4 GB (3.5 GB fast)", "GTX 1060 3GB to GTX 1650", "RX 570 (roughly)", "RX 6600 or RTX 3050 8GB"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the GTX 1080 Ti RTX Equivalent?",
+      "body": [
+        "The GTX 1080 Ti's closest RTX equivalent is the [RTX 4060](/gear/rtx-4060/), roughly even in raster games by the broad pattern of independent reviews, and the older RTX 2080 is also close. The RTX 3060 Ti is a little faster. On the AMD side, it lands near an RX 7600.",
+        "Where the two differ is features and power. The RTX 4060 supports DLSS, frame generation and real-time ray tracing, and draws roughly half the power. The GTX 1080 Ti has 11 GB of VRAM against 8 GB, which helps in texture-heavy games. For an upgrade that roughly doubles it, look at the [RTX 5070](/gear/rtx-5070/) or [RX 9070](/gear/rx-9070/); the [RTX 5060](/gear/rtx-5060/) is only a modest step up in raster."
+      ]
+    },
+    {
+      "h": "What Is the GTX 1070 Equivalent Today?",
+      "body": [
+        "The GTX 1070 performs roughly like an RTX 3050 8GB, a little faster on average, and close to a GTX 1660 Super. NVIDIA's RTX 40 and RTX 50 lines have no card that slow, so the cheapest current GeForce cards are all clear upgrades.",
+        "The [RTX 5060](/gear/rtx-5060/) or [RX 9060 XT 8GB](/gear/rx-9060-xt-8gb/) roughly doubles a GTX 1070 in raster, and both add modern upscaling. If you also play at 1440p or with high textures, the 16 GB [RX 9060 XT](/gear/rx-9060-xt-16gb/) or [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) is the safer long-term buy."
+      ]
+    },
+    {
+      "h": "What Is the GTX 1060 Equivalent Today?",
+      "body": [
+        "The GTX 1060 6GB roughly equals a GTX 1650 Super and an AMD RX 580. Nothing in NVIDIA's current lineup is that slow. The 3 GB version is slower again, around a GTX 1650, and its memory is too small for many new games at any setting.",
+        "Almost any modern card is a large upgrade. An [RX 6600](/gear/rx-6600/) is roughly twice as fast for little money, and an RTX 5060 is well beyond that. Check two things first: the power supply, since many GTX 1060 builds have a 400 W to 500 W unit, and the CPU. Our [GPU guide for the Ryzen 5 2600 and 3600](/best-gpu-for-ryzen-5-2600-and-3600/) covers that era of system, and the [PSU calculator](/tools/psu-calculator/) checks your power supply."
+      ]
+    },
+    {
+      "h": "What Is the GTX 970 Equivalent Today?",
+      "body": [
+        "The GTX 970 lands between a GTX 1060 3GB and a GTX 1650 in raster games, and near an AMD RX 570. Its 4 GB is split into a fast 3.5 GB pool and a slow 0.5 GB pool, so it stutters sooner than the numbers suggest once a game fills its memory.",
+        "An RX 6600 or RTX 3050 8GB roughly doubles it, and current cards like the RTX 5060 go much further. Many GTX 970 systems also have an older CPU, so run the [bottleneck calculator](/tools/bottleneck-calculator/) before buying a high-end card."
+      ]
+    },
+    {
+      "h": "GTX 16 Series: New Card Equivalents",
+      "body": [
+        "The GTX 16 series uses the same Turing architecture as RTX 20 but without RT cores or Tensor cores, so no DLSS and no practical ray tracing."
+      ],
+      "table": {
+        "caption": "GTX 16 to current GeForce and Radeon, raster",
+        "head": ["Old card", "VRAM", "Closest NVIDIA today", "Closest AMD today", "Roughly doubles it"],
+        "rows": [
+          ["GTX 1660 Ti", "6 GB", "RTX 3050 8GB (roughly)", "Below RX 6600", "RTX 5060 or RX 9060 XT 8GB"],
+          ["GTX 1660 Super", "6 GB", "RTX 3050 8GB (roughly); GTX 1070 class", "Below RX 6600", "RTX 5060 or RX 9060 XT 8GB"],
+          ["GTX 1660", "6 GB", "A little below RTX 3050 8GB", "RX 590 (roughly)", "RTX 5060 or RX 9060 XT 8GB"],
+          ["GTX 1650 Super", "4 GB", "GTX 1060 6GB (roughly)", "RX 6500 XT (roughly)", "RX 6600 or RTX 3060"],
+          ["GTX 1650", "4 GB", "GTX 1060 3GB (roughly)", "RX 6400 (roughly)", "RX 6600 or RTX 3050 8GB"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the GTX 1660 Super Equivalent Today?",
+      "body": [
+        "The GTX 1660 Super performs roughly like an RTX 3050 8GB or a GTX 1070, and the GTX 1660 Ti is about the same. Their 6 GB of VRAM is now the main limit: many new games want 8 GB at medium textures.",
+        "The [RTX 5060](/gear/rtx-5060/) or [RX 9060 XT 8GB](/gear/rx-9060-xt-8gb/) roughly doubles it and adds DLSS or FSR 4. On a tighter budget, a used [RX 6600](/gear/rx-6600/) is a solid step up of about 30 to 40 percent."
+      ]
+    },
+    {
+      "h": "RTX 20 and RTX 30 Series: New Card Equivalents",
+      "body": [
+        "These cards support DLSS upscaling and ray tracing, so the feature gap to new cards is smaller: what they miss is frame generation and, on many models, VRAM."
+      ],
+      "table": {
+        "caption": "RTX 20 and RTX 30 to current GeForce and Radeon, raster",
+        "head": ["Old card", "VRAM", "Closest NVIDIA today", "Closest AMD today", "Roughly doubles it"],
+        "rows": [
+          ["RTX 3090 / 3090 Ti", "24 GB", "RTX 4070 Super to RTX 5070 (roughly)", "RX 7900 GRE to RX 9070", "Only RTX 5090 or 4090"],
+          ["RTX 3080 Ti", "12 GB", "RTX 5070 (roughly)", "RX 9070 (roughly)", "Only RTX 5090 or 4090"],
+          ["RTX 3080 10GB", "10 GB", "RTX 4070 (roughly); RTX 5070 a little faster", "RX 7800 XT (roughly)", "RTX 5090; RTX 5080 is about 1.6x"],
+          ["RTX 3070 Ti", "8 GB", "RTX 5060 Ti (a little faster)", "RX 9060 XT 16GB (roughly)", "RTX 5080"],
+          ["RTX 3070", "8 GB", "RTX 5060 Ti 16GB (roughly); RTX 4060 Ti a little slower", "RX 9060 XT 16GB (roughly)", "RTX 5080; RTX 5070 Ti is about 1.7x"],
+          ["RTX 3060 Ti", "8 GB", "RTX 5060 or RTX 4060 Ti (roughly)", "RX 9060 XT 8GB (roughly)", "RTX 5070 Ti or RX 9070 XT"],
+          ["RTX 3060 12GB", "12 GB", "RTX 4060 is about 20% faster", "RX 7600 (a little faster)", "RTX 5070 or RX 9070"],
+          ["RTX 3050 8GB", "8 GB", "GTX 1660 Super to GTX 1070", "Below RX 6600", "RTX 5060 or RX 9060 XT 8GB"],
+          ["RTX 2080 Ti", "11 GB", "RTX 3070 or RTX 5060 Ti 16GB (roughly)", "RX 9060 XT 16GB (roughly)", "RTX 5080"],
+          ["RTX 2080 / 2080 Super", "8 GB", "RTX 4060 Ti or RTX 5060 (roughly)", "RX 9060 XT 8GB (roughly)", "RTX 5070 Ti or RX 9070 XT"],
+          ["RTX 2070 Super", "8 GB", "RTX 4060 (roughly)", "RX 7600 (roughly)", "RTX 5070 or RX 9070"],
+          ["RTX 2070", "8 GB", "RTX 3060 12GB (a little faster)", "RX 6600 XT (roughly)", "RTX 5070 or RX 9070"],
+          ["RTX 2060 Super", "8 GB", "RTX 3060 12GB (roughly)", "RX 6600 XT (a little slower)", "RTX 5070 or RX 9070"],
+          ["RTX 2060", "6 GB", "RTX 3050 8GB is slower; RTX 3060 a little faster", "RX 6600 (roughly)", "RTX 5060 Ti 16GB (close to 2x) or RX 9060 XT 16GB"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the RTX 2060 Equivalent Today?",
+      "body": [
+        "The RTX 2060 lands between an RTX 3050 8GB and an RTX 3060 12GB in raster, close to a GTX 1070 Ti, and roughly level with an AMD RX 6600. Its 6 GB of VRAM is the weak point in new games.",
+        "For a near-doubling with more memory, the [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) or [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) is the best fit; the [RTX 5060](/gear/rtx-5060/) is a cheaper but smaller step, still limited to 8 GB."
+      ]
+    },
+    {
+      "h": "What Is the RTX 3070 Equivalent Today?",
+      "body": [
+        "The RTX 3070 performs roughly like an [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) and an older RTX 2080 Ti in raster, with the RTX 4060 Ti a little slower. AMD's match is the RX 9060 XT 16GB, and from the previous generation the RX 6750 XT.",
+        "The RTX 3070's 8 GB is what pushes most owners to upgrade. An RTX 5070 Ti or [RX 9070 XT](/gear/rx-9070-xt/) is roughly 1.6 to 1.7 times as fast with 16 GB; only the RTX 5080 comes close to doubling it. See [RTX 5070 vs RTX 5070 Ti](/compare/rtx-5070-vs-rtx-5070-ti/) if you are weighing those two."
+      ]
+    },
+    {
+      "h": "What Is the RTX 3080 Equivalent Today?",
+      "body": [
+        "The RTX 3080 10GB is roughly equal to an [RTX 4070](/gear/rtx-4070/) in raster, with the [RTX 5070](/gear/rtx-5070/) a little faster. AMD's match is the RX 7800 XT, or the RX 6800 XT from the same generation. The RTX 4070 and RTX 5070 add frame generation and use far less power.",
+        "Nothing short of an RTX 5090 or RTX 4090 doubles an RTX 3080. An RTX 5080 is about 1.6 times as fast, and an RTX 5070 Ti or RX 9070 XT about 1.4 to 1.5 times. For the jump from the RTX 40 generation, see [RTX 4070 vs RTX 5070](/compare/rtx-4070-vs-rtx-5070/)."
+      ]
+    },
+    {
+      "h": "Do Old GTX Cards Still Get Drivers?",
+      "body": [
+        "NVIDIA has said that its 580 driver branch, released in 2025, is the last to support Maxwell (GTX 900) and Pascal (GTX 10) cards with new Game Ready drivers, with security updates continuing for a period after. These cards still run, but new games will not get specific optimizations or fixes for them. GTX 16, RTX 20 and RTX 30 cards remain fully supported.",
+        "That is one more reason to treat a GTX 900 or GTX 10 card as due for replacement even if its raw speed is still enough for the games you play."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Assuming a newer name means faster", "An RTX 3050 is slower than a GTX 1080, and an RTX 4060 only matches a GTX 1080 Ti in raster. Compare by the chart, not by the generation number."],
+    ["Ignoring the power supply", "A GTX 1060 or GTX 970 build often has a 400 W to 500 W unit. That is fine for an RTX 5060 or RX 9060 XT, but higher tiers need more power and sometimes a 12V-2x6 connector. Check before you buy."],
+    ["Upgrading the GPU on a slow CPU", "Owners of GTX 900 and GTX 10 cards often have a CPU from the same era. A fast new card can be held back by it, especially at 1080p. Check the pairing first."],
+    ["Buying another 8 GB card for the long term", "If your old card ran out of VRAM, a new 8 GB card will hit the same wall in texture-heavy games. For a card you plan to keep four or five years, 12 GB to 16 GB is the safer choice."]
+  ],
+  "bottomLine": "For raster gaming, the quick matches are: GTX 1080 Ti to RTX 4060, GTX 1080 to RTX 3060, GTX 1070 to RTX 3050 8GB, GTX 1660 Super to RTX 3050 8GB, GTX 1060 6GB to GTX 1650 Super, RTX 2060 to RX 6600, RTX 2080 Ti and RTX 3070 to RTX 5060 Ti 16GB, and RTX 3080 to RTX 4070. Newer cards add DLSS, frame generation and lower power draw on top. To roughly double a GTX 10 card, an RTX 5060 or RX 9060 XT is enough; for an RTX 30 card you need an RTX 5070 Ti, RX 9070 XT or higher.",
+  "faqs": [
+    {"q": "What RTX card is equal to a GTX 1080 Ti?", "a": "The RTX 4060 is roughly even in raster games, and the RTX 2080 is also close. The RTX 3060 Ti is a little faster. The RTX 4060 adds DLSS and frame generation and uses about half the power, but has 8 GB against 11 GB."},
+    {"q": "What is the GTX 1080 equivalent to today?", "a": "The RTX 3060 12GB, roughly, and the AMD RX 6600. The RTX 4060 is a little faster. An RTX 5060 Ti 16GB comes close to doubling a GTX 1080."},
+    {"q": "What is the GTX 1070 equivalent to in RTX?", "a": "Roughly an RTX 3050 8GB, with the GTX 1070 slightly faster on average. The RTX 2060 is a bit faster. An RTX 5060 roughly doubles it."},
+    {"q": "What is the GTX 1060 equivalent to today?", "a": "The GTX 1060 6GB roughly equals a GTX 1650 Super and an AMD RX 580. No RTX 40 or RTX 50 card is that slow; an RX 6600 is about twice as fast and an RTX 5060 well beyond that."},
+    {"q": "Is the RTX 3060 better than a GTX 1080 Ti?", "a": "Not in raster: the GTX 1080 Ti is a little faster on average. The RTX 3060 has 12 GB, supports DLSS and ray tracing, and uses less power, so in DLSS-enabled games it can come out ahead."},
+    {"q": "What is the RTX 3070 equivalent to in the RTX 50 series?", "a": "The RTX 5060 Ti 16GB, roughly, in raster games, with twice the VRAM. The RTX 5070 is clearly faster, and an RTX 5080 comes close to doubling the RTX 3070."},
+    {"q": "What card doubles the performance of an RTX 3080?", "a": "Only an RTX 5090 or RTX 4090. An RTX 5080 is about 1.6 times as fast, and an RTX 5070 Ti or RX 9070 XT about 1.4 to 1.5 times."},
+    {"q": "Can GTX cards use DLSS?", "a": "No. DLSS needs the Tensor cores in RTX cards. GTX 900, GTX 10 and GTX 16 cards can use AMD FSR upscaling instead, including in many games that offer DLSS."}
+  ],
+  "sources": [
+    "NVIDIA GeForce GTX 900, GTX 10, GTX 16, RTX 20, RTX 30, RTX 40 and RTX 50 series specifications",
+    "AMD Radeon RX 9000, RX 7000, RX 6000 and RX 500 series specifications",
+    "NVIDIA driver support announcement for Maxwell, Pascal and Volta GPUs, 2025",
+    "TechPowerUp GPU database relative performance listings",
+    "Independent GPU reviews from Hardware Unboxed, Gamers Nexus, TechPowerUp and Tom's Hardware GPU hierarchy"
+  ],
+  "products": ["rtx-5060", "rtx-5060-ti-16gb", "rtx-5070", "rx-9060-xt-16gb", "rx-9070-xt", "rtx-4060"],
+  "related": ["amd-vs-nvidia-gpu-equivalents", "best-graphics-card", "best-budget-graphics-card"]
+}

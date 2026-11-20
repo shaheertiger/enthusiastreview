@@ -89,6 +89,7 @@ export const NAV_GROUPS: NavGroup[] = [
     items: [
       { label: 'All PC Gear', href: '/gear/', tagline: 'Every part we track, scored', icon: 'gear' },
       { label: 'Brands', href: '/brands/', tagline: 'Every brand and its lineup', icon: 'brand' },
+      { label: 'Equivalents Charts', href: '/equivalents/', tagline: 'Which GPU or CPU matches which', icon: 'compare' },
       { label: 'Compare Two Products', href: '/compare/', tagline: 'Head-to-head spec sheets', icon: 'compare' },
       { label: 'Glossary', href: '/glossary/', tagline: 'Spec-sheet terms explained', icon: 'glossary' },
       { label: 'How We Score', href: '/how-we-review/', tagline: 'What the ER Score weighs', icon: 'score' },

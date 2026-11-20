@@ -1,0 +1,430 @@
+{
+  "slug": "laptop-gpu-equivalents",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Laptop GPU vs Desktop Equivalents: Chart for Every RTX Laptop",
+  "h1": "Laptop GPU vs Desktop Equivalents",
+  "query": "laptop gpu desktop equivalent",
+  "description": "The RTX 4060 Laptop roughly equals a desktop RTX 3060, and the RTX 4090 Laptop an RTX 4070 Ti. Find the desktop match for every RTX and Radeon laptop GPU.",
+  "dek": "Find the desktop card that performs like your laptop GPU, from the RTX 5090 Laptop down to the RTX 3050, with the wattage catch spelled out.",
+  "quickAnswer": "A laptop GPU usually performs like a desktop card one or two tiers lower. At typical wattage, the RTX 4090 Laptop roughly equals a desktop RTX 4070 Ti, the RTX 4080 Laptop an RTX 4070, the RTX 4070 and RTX 4060 Laptop an RTX 4060 to RTX 3060, and the RTX 4050 Laptop sits just above an RTX 3050. Low-wattage versions drop another tier.",
+  "intro": [
+    "Laptop GPUs share names with desktop cards but not performance. The chip is often smaller, the clocks are lower, and the power limit is a fraction of the desktop card's. This chart matches every recent NVIDIA and AMD laptop GPU to the desktop card that performs most like it in raster games, at the wattage most gaming laptops use.",
+    "Equivalents follow the broad pattern of published independent laptop reviews, rounded to the nearest desktop card. We have not bench-tested these laptops. The same laptop GPU can differ by 20 percent or more between two laptops, so check the wattage section before you compare."
+  ],
+  "sections": [
+    {
+      "h": "Why Is a Laptop GPU Slower Than the Desktop Card With the Same Name?",
+      "body": [
+        "Three reasons. First, the chip itself is often different: the RTX 4090 Laptop uses the smaller AD103 chip from the desktop RTX 4080, and the RTX 4080 Laptop uses the AD104 chip from the desktop RTX 4070 series. Second, laptop clocks are lower to fit a thin chassis. Third, and most important, power: a desktop RTX 4090 draws up to 450 W, while the laptop version is limited to around 150 to 175 W.",
+        "So the name tells you the tier inside the laptop lineup, not the desktop match. A useful rule: a high-wattage laptop GPU usually performs like the desktop card one tier lower, and a low-wattage one like the card two tiers lower. Memory is cut too in many cases; the RTX 4070 Laptop has 8 GB of [VRAM](/glossary/vram/), where the desktop RTX 4070 has 12 GB."
+      ]
+    },
+    {
+      "h": "What Is TGP, and How Much Does It Change the Match?",
+      "body": [
+        "TGP (total graphics power) is the power limit the laptop maker sets for the GPU, similar to [TDP](/glossary/tdp/) on a CPU. NVIDIA lets makers choose from a wide range, and Dynamic Boost can add up to about 25 W more when the CPU is idle. A thin laptop at the bottom of the range and a thick one at the top can both say RTX 4070 Laptop on the box and perform a full tier apart.",
+        "As a rough guide from independent testing, a laptop GPU running near the top of its range is 15 to 30 percent faster than the same GPU near the bottom. The gap is biggest on the higher-end chips, which need power to stretch their legs. Check the TGP in the laptop's spec sheet or review; in Windows, the NVIDIA App or NVIDIA Control Panel's System Information panel lists the maximum graphics power."
+      ],
+      "table": {
+        "caption": "NVIDIA laptop GPU power ranges (TGP, before Dynamic Boost)",
+        "head": [
+          "Laptop GPU",
+          "VRAM",
+          "TGP range",
+          "Typical gaming laptop"
+        ],
+        "rows": [
+          [
+            "RTX 4090 Laptop",
+            "16 GB",
+            "80 to 150 W",
+            "150 W + boost"
+          ],
+          [
+            "RTX 4080 Laptop",
+            "12 GB",
+            "60 to 150 W",
+            "150 W + boost"
+          ],
+          [
+            "RTX 4070 Laptop",
+            "8 GB",
+            "35 to 115 W",
+            "100 to 115 W"
+          ],
+          [
+            "RTX 4060 Laptop",
+            "8 GB",
+            "35 to 115 W",
+            "100 to 115 W"
+          ],
+          [
+            "RTX 4050 Laptop",
+            "6 GB",
+            "35 to 115 W",
+            "75 to 115 W"
+          ],
+          [
+            "RTX 3080 Ti Laptop",
+            "16 GB",
+            "80 to 150 W",
+            "130 to 150 W"
+          ],
+          [
+            "RTX 3070 Laptop",
+            "8 GB",
+            "80 to 125 W",
+            "100 to 125 W"
+          ],
+          [
+            "RTX 3060 Laptop",
+            "6 GB",
+            "60 to 115 W",
+            "85 to 115 W"
+          ],
+          [
+            "RTX 3050 Laptop",
+            "4 GB",
+            "35 to 80 W",
+            "60 to 80 W"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "RTX 50 Series Laptop Desktop Equivalents",
+      "body": [
+        "NVIDIA's Blackwell laptop GPUs gain DLSS 4 with multi frame generation, but their raster gains over RTX 40 laptops are modest at the same wattage. The matches below assume a laptop running near the top of the chip's power range."
+      ],
+      "table": {
+        "caption": "GeForce RTX 50 Laptop to desktop GPU, raster",
+        "head": [
+          "Laptop GPU",
+          "VRAM",
+          "Closest desktop GPU (raster)",
+          "Note"
+        ],
+        "rows": [
+          [
+            "RTX 5090 Laptop",
+            "24 GB",
+            "RTX 5070 to RTX 4070 Ti Super (roughly)",
+            "A little faster than the RTX 4090 Laptop"
+          ],
+          [
+            "RTX 5080 Laptop",
+            "16 GB",
+            "RTX 4070 Super (roughly)",
+            "Close to the RTX 4090 Laptop"
+          ],
+          [
+            "RTX 5070 Ti Laptop",
+            "12 GB",
+            "Between RTX 4060 Ti and RTX 4070",
+            ""
+          ],
+          [
+            "RTX 5070 Laptop",
+            "8 GB",
+            "RTX 4060 to RTX 4060 Ti",
+            "A little faster than the RTX 4070 Laptop"
+          ],
+          [
+            "RTX 5060 Laptop",
+            "8 GB",
+            "RTX 4060 (roughly)",
+            "Close to the RTX 4070 Laptop"
+          ],
+          [
+            "RTX 5050 Laptop",
+            "8 GB",
+            "RTX 3060 (roughly)",
+            "Close to the RTX 4060 Laptop"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "What Is the RTX 5090 Laptop Desktop Equivalent?",
+      "body": [
+        "The RTX 5090 Laptop's desktop equivalent is roughly an RTX 5070 to RTX 4070 Ti Super, nowhere near a desktop RTX 5090. Despite the name, it uses the same GB203 chip as the desktop [RTX 5080](/gear/rtx-5080/), cut to fit a laptop power budget of up to about 175 W with boost, against 360 W for the desktop RTX 5080 and 575 W for the RTX 5090. Its 24 GB of VRAM is its clearest advantage over every other laptop GPU.",
+        "In practice it is a little faster than the RTX 4090 Laptop, which landed near a desktop RTX 4070 Ti. Thin laptops that run it at lower wattage lose a further step, so check the TGP before paying for the top chip."
+      ]
+    },
+    {
+      "h": "What Is the RTX 5070 Laptop Desktop Equivalent?",
+      "body": [
+        "At typical wattage, the RTX 5070 Laptop performs somewhere between a desktop [RTX 4060](/gear/rtx-4060/) and an RTX 4060 Ti in raster games. It is only a little faster than the RTX 4070 Laptop it replaces, and it keeps the same 8 GB of VRAM. It is well short of a desktop [RTX 5070](/gear/rtx-5070/), which has 12 GB and draws 250 W.",
+        "Its main gain over RTX 40 laptops is DLSS 4 with multi frame generation, which raises frame rates in supported games but adds latency. If you want the laptop to last at 1440p, the 12 GB RTX 5070 Ti Laptop is the safer step up."
+      ]
+    },
+    {
+      "h": "RTX 40 Series Laptop Desktop Equivalents",
+      "body": [
+        "The RTX 40 laptop range is the most common in laptops sold today, new and used. The spread between the RTX 4050, 4060 and 4070 Laptop is smaller than the names suggest, because all three can run at the same wattage."
+      ],
+      "table": {
+        "caption": "GeForce RTX 40 Laptop to desktop GPU, raster",
+        "head": [
+          "Laptop GPU",
+          "VRAM",
+          "Closest desktop GPU (raster)",
+          "Note"
+        ],
+        "rows": [
+          [
+            "RTX 4090 Laptop",
+            "16 GB",
+            "RTX 4070 Ti (roughly)",
+            "Uses the desktop RTX 4080's chip; near RTX 3090"
+          ],
+          [
+            "RTX 4080 Laptop",
+            "12 GB",
+            "RTX 4070 (roughly)",
+            "Near RTX 3080 in raster"
+          ],
+          [
+            "RTX 4070 Laptop",
+            "8 GB",
+            "RTX 4060 (roughly)",
+            "Short of RTX 3060 Ti"
+          ],
+          [
+            "RTX 4060 Laptop",
+            "8 GB",
+            "RTX 3060 12GB (roughly)",
+            "A little below desktop RTX 4060"
+          ],
+          [
+            "RTX 4050 Laptop",
+            "6 GB",
+            "A little faster than RTX 3050 8GB",
+            "6 GB limits newer games"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "What Is the RTX 4060 Laptop Desktop Equivalent?",
+      "body": [
+        "The RTX 4060 Laptop's desktop equivalent is roughly the RTX 3060 12GB, a little below a desktop [RTX 4060](/gear/rtx-4060/). It uses the same AD107 chip as the desktop RTX 4060 with the same 8 GB, but even at its maximum 115 W it runs at lower clocks with less cooling headroom than the desktop card, so it lands 10 to 20 percent behind it on average.",
+        "At low wattage, around 60 W or less in thin laptops, it drops closer to a desktop RTX 3050 to RTX 2060 Super. That is why two RTX 4060 laptops can review so differently. For AMD desktop matches, the desktop RTX 3060 sits near an RX 6600 XT; see the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/)."
+      ]
+    },
+    {
+      "h": "What Is the RTX 4070 Laptop Desktop Equivalent?",
+      "body": [
+        "The RTX 4070 Laptop's desktop equivalent is roughly the [RTX 4060](/gear/rtx-4060/), and it falls short of a desktop RTX 3060 Ti. It is only about 10 percent faster than the RTX 4060 Laptop at the same wattage, and it has the same 8 GB, so it is a long way from the 12 GB desktop [RTX 4070](/gear/rtx-4070/).",
+        "If a laptop with the RTX 4070 costs much more than the same model with an RTX 4060, the extra money buys little. The real step up is the RTX 4080 Laptop, which uses a larger chip and 12 GB."
+      ]
+    },
+    {
+      "h": "What Is the RTX 4050 Laptop Desktop Equivalent?",
+      "body": [
+        "The RTX 4050 Laptop performs a little faster than a desktop RTX 3050 8GB at typical wattage, landing close to the RTX 3060 Laptop. Its 6 GB of VRAM is the weak spot: recent games at 1080p high settings can exceed it, causing stutter. Lowering textures one step usually fixes it.",
+        "It is a fine 1080p medium-to-high settings GPU, and DLSS 3 frame generation helps in supported games. For a laptop you want to keep four or more years, an 8 GB RTX 4060 Laptop is worth the usually small price step."
+      ]
+    },
+    {
+      "h": "RTX 30 Series Laptop Desktop Equivalents",
+      "body": [
+        "RTX 30 laptops are now mostly used or refurbished. Their wattage ranges were even wider, and early models often hid the TGP, so check a review of the exact laptop."
+      ],
+      "table": {
+        "caption": "GeForce RTX 30 Laptop to desktop GPU, raster",
+        "head": [
+          "Laptop GPU",
+          "VRAM",
+          "Closest desktop GPU (raster)",
+          "Note"
+        ],
+        "rows": [
+          [
+            "RTX 3080 Ti Laptop",
+            "16 GB",
+            "RTX 3070 (roughly)",
+            ""
+          ],
+          [
+            "RTX 3080 Laptop",
+            "8 or 16 GB",
+            "RTX 3060 Ti (roughly)",
+            "High-wattage models approach RTX 3070"
+          ],
+          [
+            "RTX 3070 Ti Laptop",
+            "8 GB",
+            "RTX 3060 Ti (a little slower)",
+            ""
+          ],
+          [
+            "RTX 3070 Laptop",
+            "8 GB",
+            "RTX 3060 12GB (a little faster at high TGP)",
+            ""
+          ],
+          [
+            "RTX 3060 Laptop",
+            "6 GB",
+            "RTX 2060 Super to RTX 3060 (a little below)",
+            "Close to RTX 4050 Laptop"
+          ],
+          [
+            "RTX 3050 Ti Laptop",
+            "4 GB",
+            "GTX 1650 Super (roughly)",
+            ""
+          ],
+          [
+            "RTX 3050 Laptop",
+            "4 GB",
+            "GTX 1650 to GTX 1650 Super",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "h": "What Is the RTX 3060 Laptop Desktop Equivalent?",
+      "body": [
+        "At 100 W or more, the RTX 3060 Laptop performs roughly like a desktop RTX 2060 Super, a little below a desktop RTX 3060 12GB. It has 6 GB of VRAM against 12 GB on the desktop card, which matters more each year. At 60 to 80 W it drops closer to a desktop RTX 2060.",
+        "It remains one of the best-value used laptop GPUs for 1080p, roughly level with the newer RTX 4050 Laptop in raster but without DLSS frame generation."
+      ]
+    },
+    {
+      "h": "AMD Radeon Laptop GPU Desktop Equivalents",
+      "body": [
+        "AMD laptop GPUs are less common, mostly in a few gaming laptops and handheld-adjacent designs. The same wattage rule applies: the S models are low-power versions for thin laptops."
+      ],
+      "table": {
+        "caption": "Radeon laptop GPU to desktop GPU, raster",
+        "head": [
+          "Laptop GPU",
+          "VRAM",
+          "Closest desktop GPU (raster)",
+          "Note"
+        ],
+        "rows": [
+          [
+            "RX 7900M",
+            "16 GB",
+            "RX 7800 XT or RTX 4070 (roughly)",
+            "Close to RTX 4080 Laptop"
+          ],
+          [
+            "RX 7700S",
+            "8 GB",
+            "RX 6600 XT (roughly)",
+            "Near RTX 4060 Laptop"
+          ],
+          [
+            "RX 7600S",
+            "8 GB",
+            "RX 6600 (a little slower)",
+            ""
+          ],
+          [
+            "RX 6800M",
+            "12 GB",
+            "RX 6700 10GB (roughly)",
+            "Near RTX 3080 Laptop"
+          ],
+          [
+            "RX 6700M",
+            "10 GB",
+            "RX 6600 XT (roughly)",
+            ""
+          ],
+          [
+            "RX 6600M",
+            "8 GB",
+            "RX 6600 (a little slower)",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "h": "How Do You Find Your Laptop's GPU and Wattage?",
+      "body": [
+        "Open Task Manager, go to Performance and select the GPU to see its exact name. Our guide on [how to check what graphics card you have](/how-to-check-what-graphics-card-i-have/) covers other methods. Laptops often show two GPUs: the integrated one in the processor and the dedicated NVIDIA or AMD chip. The dedicated one is what this chart covers.",
+        "For wattage, open the NVIDIA App or NVIDIA Control Panel, then System Information, and look for Maximum Graphics Power. Keep the driver current with [our NVIDIA driver guide](/how-to-update-nvidia-drivers/), and plug the laptop in: on battery, most gaming laptops cut GPU power sharply, and none of these equivalents apply."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Assuming the name matches the desktop card",
+      "An RTX 4070 Laptop is not a desktop RTX 4070. It has 8 GB instead of 12 GB and performs closer to a desktop RTX 4060. Compare using this chart, not the model number."
+    ],
+    [
+      "Ignoring the wattage",
+      "The same laptop GPU can be 15 to 30 percent faster in a thick laptop with a high power limit than in a thin one. Check the TGP in a review or spec sheet before paying for a higher GPU tier."
+    ],
+    [
+      "Paying a lot more for the RTX 4070 Laptop",
+      "At the same wattage it is only about 10 percent faster than the RTX 4060 Laptop with the same 8 GB. The bigger jump is to the RTX 4080 Laptop or RTX 5070 Ti Laptop."
+    ],
+    [
+      "Testing on battery",
+      "Most gaming laptops cut GPU power heavily on battery to save charge. Benchmarks and these equivalents assume the laptop is plugged in with the performance mode on."
+    ]
+  ],
+  "bottomLine": "A laptop GPU usually performs like the desktop card one tier below its name at high wattage, and two tiers below at low wattage. The quick matches at typical power: RTX 4090 Laptop to desktop RTX 4070 Ti, RTX 4080 Laptop to RTX 4070, RTX 4070 Laptop to RTX 4060, RTX 4060 Laptop to RTX 3060, RTX 4050 Laptop just above RTX 3050, RTX 5070 Laptop between RTX 4060 and 4060 Ti, and RTX 3060 Laptop to RTX 2060 Super. Always check the laptop's TGP before comparing.",
+  "faqs": [
+    {
+      "q": "What desktop GPU is the RTX 4060 Laptop equal to?",
+      "a": "Roughly a desktop RTX 3060 12GB, a little below a desktop RTX 4060. Low-wattage versions in thin laptops drop closer to a desktop RTX 3050 or RTX 2060 Super."
+    },
+    {
+      "q": "What is the RTX 4070 Laptop equivalent to in desktop?",
+      "a": "Roughly a desktop RTX 4060, short of an RTX 3060 Ti. It has 8 GB of VRAM, not the 12 GB of the desktop RTX 4070, and is only about 10 percent faster than the RTX 4060 Laptop."
+    },
+    {
+      "q": "Is the RTX 4090 Laptop as fast as a desktop RTX 4090?",
+      "a": "No. It uses the smaller chip from the desktop RTX 4080 at a fraction of the power, and performs roughly like a desktop RTX 4070 Ti or RTX 3090. A desktop RTX 4090 is far faster."
+    },
+    {
+      "q": "What desktop GPU is the RTX 3060 Laptop equal to?",
+      "a": "Roughly a desktop RTX 2060 Super at 100 W or more, a little below a desktop RTX 3060. It has 6 GB of VRAM against 12 GB on the desktop card."
+    },
+    {
+      "q": "What is the RTX 4050 Laptop equivalent to?",
+      "a": "A little faster than a desktop RTX 3050 8GB, and close to the RTX 3060 Laptop. Its 6 GB of VRAM limits texture settings in newer games."
+    },
+    {
+      "q": "What is the RTX 5070 Laptop equivalent to in desktop?",
+      "a": "Between a desktop RTX 4060 and RTX 4060 Ti at typical wattage. It is a little faster than the RTX 4070 Laptop and has the same 8 GB, well short of the desktop RTX 5070."
+    },
+    {
+      "q": "Why do two laptops with the same GPU perform differently?",
+      "a": "Mostly power and cooling. Makers set the GPU's TGP within a wide range, so a thick laptop at 140 W can be 15 to 30 percent faster than a thin one at 60 W with the same GPU name."
+    },
+    {
+      "q": "Is a laptop GPU worse than a desktop GPU?",
+      "a": "At the same name, yes, usually by one or two tiers. At the same price, a desktop is also faster, because laptop prices include the screen, battery and chassis. A laptop wins only on portability."
+    }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 50, RTX 40 and RTX 30 laptop GPU specifications and power ranges",
+    "AMD Radeon RX 7000M/S and RX 6000M/S mobile graphics specifications",
+    "NVIDIA desktop GeForce RTX 50, RTX 40 and RTX 30 series specifications",
+    "Independent laptop GPU reviews from Jarrod'sTech, Hardware Unboxed, Notebookcheck and TechPowerUp",
+    "Notebookcheck mobile graphics benchmark listings"
+  ],
+  "products": [
+    "rtx-4060",
+    "rtx-4070",
+    "rtx-5060",
+    "rtx-5070",
+    "rx-6600"
+  ],
+  "related": [
+    "amd-vs-nvidia-gpu-equivalents",
+    "intel-arc-gpu-equivalents",
+    "how-to-check-what-graphics-card-i-have"
+  ]
+}

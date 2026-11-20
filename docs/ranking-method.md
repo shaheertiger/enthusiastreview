@@ -95,6 +95,27 @@ Intel reverse table; a new `/intel-arc-gpu-equivalents/` covers Arc. Every GPU a
 cross-brand comparisons list the matching chart first under Related. Next in the same format: laptop vs desktop
 GPU equivalents, and "<card> equivalent" H2s for any GPU added later.
 
+### 1e. Semrush "gpu equivalent" / "cpu equivalent" exports (US, 20 Nov 2026)
+
+1,463 GPU keywords (30,080 monthly searches) and 378 CPU keywords (5,510). Consoles dominate: "ps5 gpu
+equivalent" 1,600, "ps5 pro gpu equivalent" 1,300, "steam machine gpu equivalent" 1,000 (plus "cpu: semi-custom
+amd zen 4 6c / 12t equivalent" 1,900, the Steam Machine's spec line), "xbox series x gpu equivalent" 880,
+"steam deck gpu equivalent" 720, PS4 / Switch 2 390 each. Then laptop GPUs ("4070 desktop equivalent laptop gpu",
+"rtx 5090 laptop gpu desktop equivalent" 320 each) and iGPUs (AI Max+ 395, Z1/Z2 Extreme, Arc 140V, 780M, 890M).
+
+| Cluster | Page |
+|---|---|
+| Consoles, handhelds, console CPUs | `/console-gpu-equivalents/` (title leads with "PS5 GPU Equivalent") |
+| Steam Machine GPU and CPU | `/steam-machine-gpu-equivalent/` |
+| Laptop GPU → desktop | `/laptop-gpu-equivalents/` |
+| iGPUs and APUs | `/integrated-graphics-equivalents/` |
+| Old GeForce / old Radeon → new | `/old-nvidia-gpu-equivalents/`, `/old-amd-gpu-equivalents/` |
+| Radeon ↔ GeForce, Arc, Intel ↔ Ryzen | the three original charts |
+
+Every chart links the others ("More Equivalents Charts") and the hub `/equivalents/` (menu, sitemap).
+Not yet covered: Apple M-series GPU and CPU equivalents (M4/M5 family, about 500 searches combined), PS6
+(unreleased). Update the Steam Machine page when independent benchmarks are out; its match is a spec estimate.
+
 ## 2. Site structure (copied from the sister sites)
 
 | Sister-site pattern | Here |

@@ -1,0 +1,131 @@
+{
+  "slug": "steam-machine-gpu-equivalent",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Steam Machine GPU Equivalent: PC Graphics Card and CPU Match",
+  "h1": "Steam Machine GPU Equivalent",
+  "query": "steam machine gpu equivalent",
+  "description": "The Steam Machine's 28-CU RDNA 3 GPU roughly equals an RX 6600 XT or RTX 3060, a step below an RX 7600. Its 6-core Zen 4 CPU is close to a Ryzen 5 7500F.",
+  "dek": "The closest desktop graphics card and processor to Valve's Steam Machine, worked out from its announced specs, with what that means for 1080p, 1440p and 4K.",
+  "quickAnswer": "From its announced specs, the Steam Machine's semi-custom 28-CU RDNA 3 GPU should land roughly at a desktop RX 6600 XT or RTX 3060 12GB, a step below an RX 7600 and an RTX 4060. Its semi-custom 6-core, 12-thread Zen 4 CPU is close to a Ryzen 5 7500F or Ryzen 5 7600 running at lower power, roughly a Core i5-13400F on the Intel side.",
+  "intro": [
+    "Valve's Steam Machine is a small living-room PC that runs SteamOS. Valve published its key specs: a semi-custom AMD Zen 4 CPU with 6 cores and 12 threads at up to 4.8 GHz, and a semi-custom AMD RDNA 3 GPU with 28 compute units at up to 2.45 GHz, 8 GB of GDDR6 video memory, and 16 GB of DDR5 system memory. This page matches those parts to the desktop GPU and CPU that perform most like them.",
+    "Matches here are estimates from the published specs and from how the closest desktop RDNA 3 and Zen 4 parts perform in independent reviews, rounded to the nearest card. We have not tested a Steam Machine. Where independent game testing of the Steam Machine itself disagrees with a spec estimate, trust the testing."
+  ],
+  "sections": [
+    {
+      "h": "How We Matched the Steam Machine to Desktop Parts",
+      "body": [
+        "The Steam Machine's GPU uses the same RDNA 3 architecture as AMD's Radeon RX 7000 cards, so the cleanest comparison is the desktop RX 7600. That card has 32 compute units and boosts to about 2.65 GHz. The Steam Machine has 28 compute units at up to 2.45 GHz, about 12 percent fewer units at a somewhat lower clock, and Valve lists a 110 W power budget against about 165 W for an RX 7600 board. On raw shader throughput that puts it roughly 15 to 20 percent below an RX 7600.",
+        "In practice, that lands it around the desktop RX 6600 XT and RTX 3060 12GB in raster games, a step below the RX 7600 and RTX 4060. Roughly means within about 10 percent. A fixed platform helps: SteamOS games can be tuned once for one GPU, and Valve's own target is 4K at 60 frames per second with [FSR](/glossary/fsr/) upscaling, not native 4K.",
+        "The CPU is easier. It is a 6-core, 12-thread Zen 4 chip at up to 4.8 GHz, the same core design as the Ryzen 5 7600 and 7500F, at a lower clock and power limit. That makes it a little slower than those desktop chips, but far faster than the Zen 2 processors in the PS5 and Xbox Series X."
+      ]
+    },
+    {
+      "h": "Steam Machine GPU Equivalents: NVIDIA, AMD and Intel",
+      "body": [
+        "The table lists the closest desktop card from each brand, estimated from specs. To see how these cards line up against each other, use the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/). Ray tracing follows the RDNA 3 pattern: usable in light RT effects, well behind NVIDIA cards of the same raster tier in heavy ray tracing."
+      ],
+      "table": {
+        "caption": "Steam Machine GPU (semi-custom RDNA 3, 28 CUs) to desktop graphics cards, estimated",
+        "head": ["Brand", "Closest desktop card (raster)", "Faster than the Steam Machine", "Slower than the Steam Machine"],
+        "rows": [
+          ["AMD", "RX 6600 XT to RX 6650 XT (roughly)", "RX 7600, RX 9060 XT 8GB", "RX 6600"],
+          ["NVIDIA", "RTX 3060 12GB (roughly)", "RTX 4060, RTX 5060", "RTX 3050 8GB"],
+          ["Intel Arc", "Arc A770 (roughly)", "Arc B580", "Arc A580"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Steam Machine GPU Equivalent?",
+      "body": [
+        "The Steam Machine GPU's closest desktop equivalent is roughly an AMD RX 6600 XT, a step below the RX 7600 that shares its RDNA 3 architecture. That is the card to picture when you read 28 compute units at 2.45 GHz: fine for 1080p at high settings, workable at 1440p with upscaling, and dependent on FSR for the 4K target Valve gave.",
+        "The 8 GB of GDDR6 matches the RX 7600 and RTX 4060. That is enough for 1080p and most 1440p settings today, but it is the same limit that holds back 8 GB desktop cards with ultra textures in the newest games. See [VRAM](/glossary/vram/) for why that matters more each year."
+      ]
+    },
+    {
+      "h": "What Is the Steam Machine GPU Equivalent in NVIDIA?",
+      "body": [
+        "The Steam Machine GPU's NVIDIA equivalent is roughly an RTX 3060 12GB in raster games. The [RTX 4060](/gear/rtx-4060/) should be a little faster, and the [RTX 5060](/gear/rtx-5060/) clearly faster. With ray tracing on, the NVIDIA cards pull further ahead, as they do against every RDNA 3 card.",
+        "There is one feature gap: the Steam Machine uses FSR, not DLSS. On a PC with an RTX card, DLSS usually gives a sharper image at the same upscaling ratio, which narrows the effective difference further in NVIDIA's favour."
+      ]
+    },
+    {
+      "h": "What Is the Steam Machine CPU Equivalent? (Semi-Custom AMD Zen 4 6C/12T)",
+      "body": [
+        "The \"semi-custom AMD Zen 4 6C / 12T\" CPU in the Steam Machine's spec sheet is closest to a desktop [Ryzen 5 7600](/gear/ryzen-5-7600/) or Ryzen 5 7500F running at a lower clock and power limit. Those chips use the same Zen 4 cores, also 6 cores and 12 threads, and boost to about 5.0 to 5.1 GHz; the Steam Machine tops out at 4.8 GHz. Expect it to land a little below them.",
+        "On the Intel side, that puts it roughly at a Core i5-13400F or Core i5-12600K class chip for gaming. In a laptop, the nearest match is a 6-core Zen 4 mobile chip such as the Ryzen 5 7640HS. Valve has not published the CPU's cache size, so gaming performance could differ from the desktop chips if the cache is smaller.",
+        "For the GPU it is paired with, this CPU has plenty of headroom: a Ryzen 5 7600 does not hold back an RX 7600 or RTX 4060 class card in nearly any game. Check any pairing with the [bottleneck calculator](/tools/bottleneck-calculator/)."
+      ]
+    },
+    {
+      "h": "Is the Steam Machine Faster Than a PS5?",
+      "body": [
+        "In GPU power, probably not. The PS5's GPU is roughly a desktop RX 6700 (36 RDNA 2 compute units at up to 2.23 GHz), which sits above an RX 7600 in raster games. By the spec estimate above, the Steam Machine's GPU lands a step below an RX 7600, so the PS5 likely has the stronger graphics hardware, by something like 15 to 25 percent. The PS5 also has more memory available to games: 16 GB shared, of which roughly 12 to 13.5 GB goes to a game, against 8 GB of dedicated VRAM on the Steam Machine.",
+        "In CPU power, the Steam Machine is clearly ahead. Its Zen 4 cores at 4.8 GHz are much faster per core than the PS5's 8 Zen 2 cores at up to 3.5 GHz, which helps in CPU-heavy games and at high frame rates.",
+        "The result depends on the game: GPU-bound games at 4K should favour the PS5's console-optimized versions, while CPU-heavy PC games and anything chasing 90 to 120 fps at lower resolutions may favour the Steam Machine. For every console's GPU match, see the [console GPU equivalents chart](/console-gpu-equivalents/)."
+      ]
+    },
+    {
+      "h": "Steam Machine vs Steam Deck: How Much Faster Is It?",
+      "body": [
+        "Valve says the Steam Machine is more than six times as powerful as the Steam Deck. That fits the specs: the Steam Deck has 8 RDNA 2 compute units at up to 1.6 GHz and a 4-core Zen 2 CPU in a handheld power budget, roughly a desktop GTX 1050 in graphics. The Steam Machine has 28 RDNA 3 compute units at up to 2.45 GHz, a 110 W GPU budget and dedicated GDDR6 memory.",
+        "In practice, games the Steam Deck runs at 800p and 30 to 60 fps should run on the Steam Machine at 1440p or higher with upscaling. Both run SteamOS and the same library, so the Steam Machine is the TV-side step up rather than a different platform."
+      ],
+      "table": {
+        "caption": "Steam Machine vs Steam Deck, announced specs",
+        "head": ["Spec", "Steam Machine", "Steam Deck"],
+        "rows": [
+          ["CPU", "Zen 4, 6 cores / 12 threads, up to 4.8 GHz", "Zen 2, 4 cores / 8 threads, up to 3.5 GHz"],
+          ["GPU", "RDNA 3, 28 CUs, up to 2.45 GHz", "RDNA 2, 8 CUs, up to 1.6 GHz"],
+          ["Memory", "16 GB DDR5 + 8 GB GDDR6", "16 GB LPDDR5 (shared)"],
+          ["Closest desktop GPU", "RX 6600 XT / RTX 3060 (roughly)", "GTX 1050 (roughly)"]
+        ]
+      }
+    },
+    {
+      "h": "Can You Build a PC Like the Steam Machine?",
+      "body": [
+        "Yes, and with current parts you can match or beat it. The table below starts from a Ryzen 5 7600, which is a little faster than the Steam Machine's CPU, and pairs it with three current graphics cards that all land at or above the Steam Machine's estimated GPU level. On a self-built PC, Steam's Big Picture mode gives a similar TV-friendly interface.",
+        "A self-built tower will be larger and louder than Valve's box, and you will pay for a case, power supply, storage and Windows separately. In exchange you get a card you can upgrade later. For more picks at this price, see the [best budget graphics cards](/best-budget-graphics-card/)."
+      ],
+      "table": {
+        "caption": "Desktop builds at or above Steam Machine level",
+        "head": ["Build", "CPU", "GPU", "Versus the Steam Machine"],
+        "rows": [
+          ["Match it", "Ryzen 5 7600", "Arc B580 (12 GB)", "GPU a little faster, more VRAM"],
+          ["Match it, NVIDIA", "Ryzen 5 7600", "RTX 5060 (8 GB)", "GPU faster, DLSS 4"],
+          ["Beat it", "Ryzen 5 7600", "RX 9060 XT 8GB", "GPU clearly faster, FSR 4"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Treating Valve's 4K target as native 4K", "Valve's 4K at 60 fps target relies on FSR upscaling. A 28-CU RDNA 3 GPU renders well below 4K in demanding games, so compare it to desktop cards at 1080p and 1440p, not native 4K results."],
+    ["Matching on architecture name alone", "RDNA 3 does not mean RX 7900 performance. The Steam Machine's GPU has 28 compute units; the RX 7900 XTX has 96. Compare unit counts and clocks, not the generation name."],
+    ["Ignoring the 8 GB VRAM limit", "The Steam Machine's GPU has 8 GB of GDDR6, the same as an RTX 4060 or RX 7600. New games with ultra textures can exceed that at 1440p, so plan on high rather than ultra textures."],
+    ["Assuming spec estimates are benchmarks", "These matches come from specs and desktop RDNA 3 results. Console-style tuning, cooling and SteamOS drivers can move real results either way. Check independent game tests of the Steam Machine itself when they cover your games."]
+  ],
+  "bottomLine": "By its announced specs, the Steam Machine's 28-CU RDNA 3 GPU lands roughly at a desktop RX 6600 XT or RTX 3060 12GB, a step below an RX 7600 and RTX 4060, with 8 GB of GDDR6. Its 6-core Zen 4 CPU is close to a Ryzen 5 7500F or 7600 at lower power, roughly a Core i5-13400F. That makes it slower than a PS5 in GPU power but faster in CPU power, and more than six times a Steam Deck. A Ryzen 5 7600 with an Arc B580, RTX 5060 or RX 9060 XT matches or beats it.",
+  "faqs": [
+    {"q": "What GPU is the Steam Machine equivalent to?", "a": "Roughly a desktop RX 6600 XT or RTX 3060 12GB, by its announced specs: a semi-custom RDNA 3 GPU with 28 compute units at up to 2.45 GHz and 8 GB of GDDR6. That is a step below an RX 7600, which has 32 RDNA 3 compute units."},
+    {"q": "What is the Steam Machine GPU equivalent in NVIDIA?", "a": "The RTX 3060 12GB is the closest NVIDIA match in raster games. The RTX 4060 should be a little faster and the RTX 5060 clearly faster, and all three pull ahead with ray tracing on."},
+    {"q": "What is the semi-custom AMD Zen 4 6C/12T CPU equivalent to?", "a": "A desktop Ryzen 5 7600 or Ryzen 5 7500F at a lower clock and power limit: same Zen 4 cores, 6 cores and 12 threads, but up to 4.8 GHz instead of about 5.0 to 5.1 GHz. On the Intel side it is roughly a Core i5-13400F for gaming."},
+    {"q": "What is the semi-custom AMD RDNA 3 28 CU GPU equivalent to?", "a": "It is a cut-down cousin of the desktop RX 7600, which has 32 RDNA 3 compute units. With fewer units, a lower clock and a 110 W budget, it should land roughly 15 to 20 percent below an RX 7600, around an RX 6600 XT."},
+    {"q": "Is the Steam Machine more powerful than a PS5?", "a": "Its CPU is clearly faster, but its GPU is likely weaker. The PS5's GPU is roughly an RX 6700, which is faster than an RX 7600; the Steam Machine's GPU is estimated a step below an RX 7600."},
+    {"q": "How much faster is the Steam Machine than the Steam Deck?", "a": "Valve says more than six times. The Steam Deck's GPU is roughly a GTX 1050; the Steam Machine's is roughly an RX 6600 XT, with a much faster 6-core Zen 4 CPU."},
+    {"q": "Can the Steam Machine run games at 4K?", "a": "Valve's target is 4K at 60 fps with FSR upscaling, which means rendering below 4K and scaling up. Demanding new games will need lower settings or a lower target; lighter and older games can run at higher resolutions."},
+    {"q": "What PC parts match the Steam Machine?", "a": "A Ryzen 5 7600 with an Arc B580, RTX 5060 or RX 9060 XT 8GB matches or beats it. The CPU is a little faster than the Steam Machine's, and all three cards land at or above its estimated GPU level."}
+  ],
+  "sources": [
+    "Valve Steam Machine announcement and published specifications, November 2025",
+    "AMD Radeon RX 7600, RX 7600 XT and RX 6000 series specifications",
+    "AMD Ryzen 5 7600 and Ryzen 5 7500F specifications",
+    "Sony PS5 and Valve Steam Deck published specifications",
+    "TechPowerUp GPU database relative performance listings",
+    "Independent GPU and CPU reviews from Hardware Unboxed, Digital Foundry, TechPowerUp and Tom's Hardware"
+  ],
+  "products": ["arc-b580", "rtx-5060", "rx-9060-xt-8gb", "ryzen-5-7600", "rtx-4060"],
+  "related": ["console-gpu-equivalents", "amd-vs-nvidia-gpu-equivalents", "best-budget-graphics-card"]
+}
