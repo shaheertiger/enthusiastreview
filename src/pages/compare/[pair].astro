@@ -11,7 +11,7 @@ import { publisherRef, productItemList } from '../../lib/schema';
 import { authorSchema } from '../../data/authors';
 import {
   COMPARES, mustProduct, categoryOf, getBrand, comparesFor, guidesFeaturing, comparePath, productPath, guidePath,
-  compareUpdated, fmtDate, priceBand, spec, newCtx, inline, plain, shortAnswerHeading, type Compare,
+  compareUpdated, fmtDate, priceBand, spec, newCtx, inline, plain, shortAnswerHeading, compareDiffs, type Compare,
 } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -25,6 +25,8 @@ const ctx = newCtx(path);
 const cat = categoryOf(a.category);
 const updated = compareUpdated();
 const labels = [...new Set([...a.specs.map(([k]) => k), ...b.specs.map(([k]) => k)])];
+// Answer-first difference H2s (the best-proteinpowder.com comparison pattern).
+const diffs = compareDiffs(a, b);
 const winner = a.score.overall === b.score.overall ? undefined : a.score.overall > b.score.overall ? a : b;
 const cheaper = a.price[0] === b.price[0] ? undefined : a.price[0] < b.price[0] ? a : b;
 const lc = (s: string) => s.replace(/\.$/, '').replace(/^./, (x) => x.toLowerCase());
@@ -104,6 +106,13 @@ const jsonLd = {
     <div class="col body">
       <h2 id="short-answer">{shortAnswerHeading(`${a.short} vs ${b.short}`)}</h2>
       <div class="answer-box"><p set:html={inline(c.quick, ctx)} /></div>
+
+      {diffs.map((d, i) => (
+        <>
+          <h2 id={`diff-${i + 1}`}>{d.h}</h2>
+          <p>{d.text}</p>
+        </>
+      ))}
 
       <h2 id="specs">Specs Side by Side</h2>
       <div class="table-wrap">

@@ -352,3 +352,100 @@ export function inline(text: string, ctx?: LinkCtx): string {
 export const plain = (text: string) => text.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1');
 
 export const slugify = (s: string) => s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+/* ------------------------------------------------------------------ */
+/* Answer-first difference headings for comparisons.                  */
+/* best-proteinpowder.com's comparison pages rank at positions 1-9    */
+/* with H2s that state the answer ("Price: Gold Standard is 32%       */
+/* cheaper per gram of protein"). These are built from the spec data  */
+/* the same way, so every comparison gets them and they never drift.  */
+/* ------------------------------------------------------------------ */
+
+type DiffRule = { label: string; topic?: string; more?: string; less?: string; dp?: number; kind?: 'lanes' | 'gen' };
+const DIFF_RULES: Record<string, DiffRule[]> = {
+  'graphics-cards': [
+    { label: 'VRAM', more: 'has {d} GB more VRAM' },
+    { label: 'Board power', less: 'is rated {d} W lower' },
+    { label: 'PCIe interface', more: 'uses a full x16 link', kind: 'lanes' },
+  ],
+  processors: [
+    { label: 'Cores / threads', topic: 'Cores', more: 'has {d} more core{s}' },
+    { label: 'Boost clock', more: 'boosts {d} GHz higher', dp: 1 },
+    { label: 'L3 cache', more: 'has {d} MB more L3 cache' },
+    { label: 'TDP', less: 'is rated {d} W lower' },
+  ],
+  'cpu-coolers': [
+    { label: 'Height', less: 'is {d} mm shorter, so it fits more cases' },
+    { label: 'Heat pipes', more: 'has {d} more heat pipe{s}' },
+  ],
+  'power-supplies': [
+    { label: 'Wattage', more: 'delivers {d} W more' },
+    { label: 'Warranty', more: 'has a {d}-year longer warranty' },
+  ],
+  memory: [
+    { label: 'Capacity', more: 'has {d} GB more' },
+    { label: 'CAS latency', less: 'has {d} lower CAS latency' },
+  ],
+  motherboards: [{ label: 'PCIe x16 slot', more: 'has a PCIe {v} graphics slot', kind: 'gen' }],
+  storage: [
+    { label: 'Sequential read', more: 'reads up to {d} MB/s faster' },
+    { label: 'Endurance', more: 'is rated for {d} TBW more endurance' },
+  ],
+  'pc-cases': [{ label: 'Max GPU length', more: 'fits a graphics card {d} mm longer' }],
+};
+
+const firstNum = (s?: string) => {
+  const m = s?.replace(/(\d),(\d{3})/g, '$1$2').match(/\d+(\.\d+)?/);
+  return m ? Number(m[0]) : undefined;
+};
+const fmtNum = (n: number, dp = 0) => n.toLocaleString('en-US', { minimumFractionDigits: dp, maximumFractionDigits: dp });
+
+/** Up to six "<Topic>: the <winner> <difference>" headings, each with both values underneath. */
+export function compareDiffs(a: Product, b: Product): { h: string; text: string }[] {
+  const out: { h: string; text: string }[] = [];
+  const both = (va: string, vb: string) => `${a.short}: ${va}. ${b.short}: ${vb}.`;
+
+  const mid = (p: Product) => (p.price[0] + p.price[1]) / 2;
+  const gap = Math.round(Math.abs(mid(a) - mid(b)) / 10) * 10;
+  if (gap >= 10) {
+    const cheap = mid(a) < mid(b) ? a : b;
+    const dear = cheap === a ? b : a;
+    const pct = Math.round((1 - mid(cheap) / mid(dear)) * 100);
+    out.push({
+      h: `Price: the ${cheap.short} costs about $${fmtNum(gap)} less (${pct}% cheaper)`,
+      text: `${both(priceBand(a), priceBand(b))} Street prices move often, so check the live listing.`,
+    });
+  }
+
+  for (const r of DIFF_RULES[a.category] ?? []) {
+    const sa = spec(a, r.label);
+    const sb = spec(b, r.label);
+    if (!sa || !sb) continue;
+    if (r.kind) {
+      const read = (s: string) => Number((r.kind === 'lanes' ? s.match(/x(\d+)/) : s.match(/(\d)\.0/))?.[1]);
+      const [na, nb] = [read(sa), read(sb)];
+      if (!na || !nb || na === nb) continue;
+      const w = na > nb ? a : b;
+      const topic = r.kind === 'lanes' ? 'PCIe link' : r.label;
+      out.push({ h: `${topic}: the ${w.short} ${r.more!.replace('{v}', `${Math.max(na, nb)}.0`)}`, text: both(sa, sb) });
+      continue;
+    }
+    const [na, nb] = [firstNum(sa), firstNum(sb)];
+    if (na === undefined || nb === undefined || na === nb) continue;
+    const d = Math.abs(na - nb);
+    // "more" rules credit the higher number; "less" rules credit the lower one.
+    const w = r.more ? (na > nb ? a : b) : na < nb ? a : b;
+    const phrase = (r.more ?? r.less)!.replace('{d}', fmtNum(d, r.dp ?? (Number.isInteger(d) ? 0 : 1))).replace('{s}', d === 1 ? '' : 's');
+    out.push({ h: `${r.topic ?? r.label}: the ${w.short} ${phrase}`, text: both(sa, sb) });
+  }
+
+  if (a.score.overall !== b.score.overall) {
+    const w = a.score.overall > b.score.overall ? a : b;
+    const l = w === a ? b : a;
+    out.push({
+      h: `${SITE.score}: the ${w.short} scores higher, ${w.score.overall} to ${l.score.overall}`,
+      text: `The ${SITE.score} weighs the spec sheet against the price band and owner reports. A higher score does not make it the right pick for every build; the short answer above says which build suits each.`,
+    });
+  }
+  return out.slice(0, 6);
+}

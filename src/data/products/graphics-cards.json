@@ -1829,5 +1829,224 @@
         "a": "NVIDIA recommends 650 W. A quality 650 W unit covers the 200 W card and a mainstream CPU."
       }
     ]
+  },
+  {
+    "id": "rtx-5060-ti-8gb",
+    "name": "NVIDIA GeForce RTX 5060 Ti 8GB",
+    "short": "RTX 5060 Ti 8GB",
+    "brand": "nvidia",
+    "category": "graphics-cards",
+    "released": "2025",
+    "price": [
+      360,
+      400
+    ],
+    "amazon": "RTX 5060 Ti 8GB graphics card",
+    "description": "The RTX 5060 Ti 8GB is hard to recommend: the same GPU as the 16GB model at 180 W, but 8 GB runs short in new games for only $50 to $80 less.",
+    "quick": "The RTX 5060 Ti 8GB has the same 4,608 CUDA cores, 180 W rating and PCIe 5.0 x8 link as the 16 GB card, with half the GDDR7. It is a 1080p card that needs lower texture settings in several new games.",
+    "bestFor": "1080p esports and older games on a PCIe 4.0 or newer board, at the lowest NVIDIA price above the RTX 5060",
+    "skipIf": "you can stretch $50 to $80 to the 16 GB model, or your board is PCIe 3.0",
+    "specs": [
+      [
+        "VRAM",
+        "8 GB GDDR7"
+      ],
+      [
+        "Board power",
+        "180 W"
+      ],
+      [
+        "Boost clock",
+        "2.57 GHz"
+      ],
+      [
+        "Shader cores",
+        "4,608 CUDA cores"
+      ],
+      [
+        "Memory bus",
+        "128-bit"
+      ],
+      [
+        "PCIe interface",
+        "PCIe 5.0 x8"
+      ],
+      [
+        "Power connector",
+        "1x 8-pin on most models"
+      ],
+      [
+        "Upscaling",
+        "DLSS 4 with Multi Frame Generation"
+      ]
+    ],
+    "score": {
+      "overall": 70,
+      "parts": [
+        [
+          "Gaming performance",
+          66
+        ],
+        [
+          "Value",
+          62
+        ],
+        [
+          "Efficiency",
+          92
+        ],
+        [
+          "Features",
+          86
+        ]
+      ]
+    },
+    "verdict": [
+      "The RTX 5060 Ti 8GB uses exactly the same GPU as the [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/): 4,608 CUDA cores, 448 GB/s of bandwidth on a 128-bit bus and a 180 W rating. When a game fits in 8 GB, independent reviews show the two cards running at almost the same speed. The problem is how often new games no longer fit. At 1080p with high or ultra textures, several recent releases exceed 8 GB, and then frame rates and frame pacing fall away sharply.",
+      "The PCIe 5.0 x8 link makes that worse on older PCs. When the card runs out of VRAM it streams data over PCIe, and on a PCIe 3.0 board such as B450 that link has a quarter of the bandwidth it has on PCIe 5.0. Independent reviews show the 8 GB card losing far more on PCIe 3.0 than the 16 GB card does. If you are upgrading a Ryzen 5 3600 or similar system, this is the wrong card.",
+      "At $360 to $400 it sits only $50 to $80 below the 16 GB model, which is the better buy for almost everyone. If the budget is fixed near $300, the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) gives 16 GB for about the same money, and the [RTX 5060](/gear/rtx-5060/) is cheaper still if you only play esports titles. The 8 GB Ti makes sense only on sale, in a PCIe 4.0 or newer system, for someone who plays lighter games and wants DLSS 4."
+    ],
+    "pros": [
+      "Same GPU and speed as the 16 GB model when VRAM is not the limit",
+      "180 W board power",
+      "DLSS 4 with Multi Frame Generation",
+      "Excellent performance per watt"
+    ],
+    "cons": [
+      "8 GB runs short in several new games at 1080p high",
+      "Only $50 to $80 cheaper than the 16 GB model",
+      "PCIe 5.0 x8 loses more on PCIe 3.0 boards when VRAM fills"
+    ],
+    "extra": {
+      "heading": "Drivers and Updates",
+      "body": [
+        "The RTX 5060 Ti 8GB uses the same Game Ready driver as every RTX 50 card, so new-game fixes arrive on day one. Install it from the NVIDIA App, which replaced GeForce Experience.",
+        "With an 8 GB card, the settings matter more than the driver. If a game stutters, lower the texture setting one step before anything else; it frees the most VRAM for the least visual cost. On older boards, enable Resizable BAR in the BIOS, which may need a BIOS update first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the RTX 5060 Ti 8GB enough for 1080p?",
+        "a": "For esports and older games, yes. In several new games at 1080p high or ultra, 8 GB runs out and you need to lower textures. The 16 GB model avoids that for $50 to $80 more."
+      },
+      {
+        "q": "Is the RTX 5060 Ti 8GB slower than the 16GB?",
+        "a": "Not when a game fits in 8 GB: it is the same GPU, so the speed is nearly identical. The gap appears when VRAM fills, and then the 8 GB card can lose a large share of its frame rate."
+      },
+      {
+        "q": "Should I use the RTX 5060 Ti 8GB on a PCIe 3.0 board?",
+        "a": "No. Its eight-lane link drops to PCIe 3.0 speed, and when VRAM overflows the card leans on that link. Independent reviews show bigger losses for the 8 GB model on PCIe 3.0 than for the 16 GB one."
+      }
+    ]
+  },
+  {
+    "id": "rx-9060-xt-8gb",
+    "name": "AMD Radeon RX 9060 XT 8GB",
+    "short": "RX 9060 XT 8GB",
+    "brand": "amd",
+    "category": "graphics-cards",
+    "released": "2025",
+    "price": [
+      280,
+      320
+    ],
+    "amazon": "Radeon RX 9060 XT 8GB graphics card",
+    "description": "The RX 9060 XT 8GB is a $280 to $320 card for 1080p esports with a full x16 link and FSR 4, but 8 GB limits new games and the 16GB model costs little more.",
+    "quick": "The RX 9060 XT 8GB has the same 32 compute units and full PCIe 5.0 x16 link as the 16 GB card, with 8 GB of GDDR6. AMD rates it at 150 W, and it supports FSR 4.",
+    "bestFor": "1080p esports and lighter games on a tight budget, including older PCIe 3.0 systems",
+    "skipIf": "you play new AAA games at high settings, or the 16 GB model is within about $60",
+    "specs": [
+      [
+        "VRAM",
+        "8 GB GDDR6"
+      ],
+      [
+        "Board power",
+        "150 W"
+      ],
+      [
+        "Boost clock",
+        "Up to 3.13 GHz"
+      ],
+      [
+        "Shader cores",
+        "2,048 stream processors (32 CUs)"
+      ],
+      [
+        "Memory bus",
+        "128-bit"
+      ],
+      [
+        "PCIe interface",
+        "PCIe 5.0 x16"
+      ],
+      [
+        "Power connector",
+        "1x 8-pin on most models"
+      ],
+      [
+        "Upscaling",
+        "FSR 4"
+      ]
+    ],
+    "score": {
+      "overall": 72,
+      "parts": [
+        [
+          "Gaming performance",
+          64
+        ],
+        [
+          "Value",
+          78
+        ],
+        [
+          "Efficiency",
+          90
+        ],
+        [
+          "Features",
+          78
+        ]
+      ]
+    },
+    "verdict": [
+      "The RX 9060 XT 8GB is the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) with half the memory: the same 32 RDNA 4 compute units (2,048 stream processors), the same 128-bit bus and a full PCIe 5.0 x16 link. AMD rates it at 150 W against 160 W for the 16 GB card. When a game fits in 8 GB, independent reviews show the two running at nearly the same speed.",
+      "Like every 8 GB card in 2026, it hits a wall in some new games at 1080p high or ultra textures, where frame rates and frame pacing drop sharply once memory fills. Its one real advantage over the [RTX 5060 Ti 8GB](/gear/rtx-5060-ti-8gb/) is that x16 link: when VRAM does overflow, it has twice the PCIe bandwidth to fall back on, so it holds up better in older PCIe 3.0 and PCIe 4.0 systems.",
+      "At $280 to $320 it undercuts the 8 GB 5060 Ti by around $70, which makes it the better 8 GB buy. But the 16 GB model usually costs only $60 to $90 more, and that extra money buys years of headroom. Buy the 8 GB card only when the budget truly stops near $300 and you mostly play esports titles. Otherwise, the 16 GB card or the [Arc B580](/gear/arc-b580/) with 12 GB is the safer pick."
+    ],
+    "pros": [
+      "Full PCIe 5.0 x16 link, good for older boards",
+      "Same GPU as the 16 GB card",
+      "150 W board power",
+      "FSR 4 support",
+      "Cheapest RDNA 4 card"
+    ],
+    "cons": [
+      "8 GB runs short in several new games at 1080p high",
+      "The 16 GB model costs only $60 to $90 more",
+      "FSR 4 is in fewer games than DLSS 4"
+    ],
+    "extra": {
+      "heading": "Drivers and Updates",
+      "body": [
+        "Install AMD Software: Adrenalin Edition from amd.com. It finds the RX 9060 XT on its own and offers new drivers as they release. Switching from an NVIDIA card, run DDU in Safe Mode first so the old driver does not conflict.",
+        "To use FSR 4 in games that ship FSR 3.1, check the FSR 4 upgrade toggle in Adrenalin's game settings. On an 8 GB card, lower the texture setting first when a game stutters; it frees the most memory for the smallest visual change."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the RX 9060 XT 8GB worth it?",
+        "a": "Only on a strict $300 budget for esports and older games. The 16 GB model usually costs $60 to $90 more and avoids the VRAM limits that 8 GB cards hit in new games."
+      },
+      {
+        "q": "Does the RX 9060 XT 8GB work on PCIe 3.0?",
+        "a": "Yes, and better than the RTX 5060 Ti 8GB does. It uses all 16 lanes, so it keeps more bandwidth on a PCIe 3.0 board when memory overflows."
+      },
+      {
+        "q": "What power supply does the RX 9060 XT 8GB need?",
+        "a": "A quality 500 W to 550 W unit is enough for most systems. AMD rates the card at 150 W, and most models use a single 8-pin connector."
+      }
+    ]
   }
 ]

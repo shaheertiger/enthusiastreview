@@ -1896,5 +1896,539 @@
         "a": "No. Both have locked multipliers because of the stacked cache. Use your board's default boost behavior and a good tower cooler."
       }
     ]
+  },
+  {
+    "a": "rtx-5070",
+    "b": "rtx-5070-ti",
+    "title": "RTX 5070 vs RTX 5070 Ti (2026): Is the Ti Worth $200 More?",
+    "description": "The RTX 5070 Ti is about 20% faster with 16 GB instead of 12 GB, for $200 to $250 more. The RTX 5070 is the better value at 1440p; the Ti suits 4K.",
+    "quick": "Pick the RTX 5070 for 1440p gaming at the best price: it costs $550 to $650 and DLSS 4 covers most of the gap. Pick the RTX 5070 Ti if you play at 4K or use maximum textures, where its 16 GB and roughly 20% extra speed matter, and budget a 750 W power supply.",
+    "differ": [
+      [
+        "How much faster is the RTX 5070 Ti?",
+        "Independent reviews put the RTX 5070 Ti about 20% ahead of the RTX 5070 at 1440p, and a little more at 4K. That tracks the hardware: 8,960 CUDA cores against 6,144, and a 256-bit memory bus against 192-bit. At 1440p on a 144 Hz monitor, the 5070 already runs most games at high refresh rates with DLSS, so the extra speed is easier to see at 4K."
+      ],
+      [
+        "Is 12 GB enough, or do you need 16 GB?",
+        "12 GB is enough for 1440p in almost every current game. A few new releases at maximum textures, especially with ray tracing and frame generation on, push past 12 GB, and 4K pushes further. If you keep cards for four or five years, the 5070 Ti's 16 GB is the safer bet. If you upgrade every two or three years, the 5070's 12 GB is fine."
+      ],
+      [
+        "What power supply does each card need?",
+        "NVIDIA rates the RTX 5070 at 250 W and recommends a 650 W power supply. The RTX 5070 Ti is rated at 300 W with a 750 W recommendation. If your current PSU is a 650 W unit, the 5070 is the drop-in upgrade; the Ti may mean a new PSU too, which adds $90 to $130 to its real cost."
+      ]
+    ],
+    "buyA": [
+      "You game at 1440p and want the best value in the RTX 50 series",
+      "Your PSU is a 650 W unit",
+      "You upgrade your GPU every two to three years"
+    ],
+    "buyB": [
+      "You play at 4K or want maximum textures with ray tracing",
+      "You want 16 GB so the card lasts longer",
+      "You have a 750 W PSU and $200 more to spend"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RTX 5070 Ti worth it over the RTX 5070?",
+        "a": "For 4K, yes: about 20% more speed and 16 GB of VRAM. For 1440p, the RTX 5070 is the better value, and the $200 to $250 difference buys a better CPU or monitor."
+      },
+      {
+        "q": "What is the AMD alternative to both cards?",
+        "a": "The RX 9070 XT. It has 16 GB, sits close to the RTX 5070 Ti in raster games and usually costs $100 to $200 less, though NVIDIA keeps the lead in ray tracing and DLSS support."
+      }
+    ]
+  },
+  {
+    "a": "noctua-nh-d15-g2",
+    "b": "thermalright-phantom-spirit-120-se",
+    "title": "NH-D15 G2 vs Phantom Spirit 120 SE (2026): Worth $110 More?",
+    "description": "The Phantom Spirit 120 SE gets within a few degrees of the NH-D15 G2 for $35 to $45. The Noctua is quieter, with a six-year warranty, for about $150.",
+    "quick": "Pick the Thermalright Phantom Spirit 120 SE for nearly flagship air cooling at a budget price: it costs $35 to $45, stands 154 mm tall and fits most mid-tower cases. Pick the Noctua NH-D15 G2 if you want the quietest air cooling for a hot 16-core chip, a six-year warranty and Noctua's support, and your case clears 168 mm.",
+    "differ": [
+      [
+        "How close is the cooling?",
+        "Close. Both are dual-tower coolers with two fans, and independent reviews show the Phantom Spirit 120 SE within a few degrees of the NH-D15 G2 at full load on most chips. The Noctua's bigger 140 mm fans and eight heat pipes (against seven) give it the edge on hot 16-core chips, and it does so at lower fan speeds."
+      ],
+      [
+        "Which is quieter?",
+        "The NH-D15 G2. Its two NF-A14x25r G2 140 mm fans move a lot of air at low speeds, so at the same temperature it runs quieter than the Phantom Spirit's 120 mm fans. In a gaming build with a Ryzen 7 9800X3D, both stay quiet; the gap shows during long all-core loads."
+      ],
+      [
+        "Will each one fit my case and RAM?",
+        "Check height first: the NH-D15 G2 stands 168 mm, and many mid-tower cases top out around 165 mm. The Phantom Spirit 120 SE is 154 mm and fits far more cases. Both are wide dual towers, so check the front fan against tall RAM heatsinks; low-profile memory avoids the problem on either cooler."
+      ]
+    ],
+    "buyA": [
+      "You want the quietest air cooling for a 16-core chip",
+      "You value a six-year warranty and Noctua's support",
+      "Your case clears 168 mm"
+    ],
+    "buyB": [
+      "You want near-flagship cooling for $35 to $45",
+      "Your case is a typical mid-tower with about 155 to 165 mm of clearance",
+      "You run a gaming CPU like the 9800X3D or 9700X"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Noctua NH-D15 G2 worth it over the Phantom Spirit 120 SE?",
+        "a": "Only if quiet operation under heavy all-core loads and the six-year warranty matter to you. For gaming builds, the Phantom Spirit gives nearly the same temperatures for about a quarter of the price."
+      },
+      {
+        "q": "Which NH-D15 G2 version should I buy for AM5?",
+        "a": "Noctua sells standard, LBC (low base convexity) and HBC (high base convexity) versions. Noctua's own compatibility guidance is the source to follow; check its site for your exact CPU."
+      }
+    ]
+  },
+  {
+    "a": "rtx-5060-ti-8gb",
+    "b": "rtx-5060-ti-16gb",
+    "title": "RTX 5060 Ti 8GB vs 16GB (2026): Is the Extra 8 GB Worth It?",
+    "description": "Get the RTX 5060 Ti 16GB: the same GPU at 180 W, but 8 GB runs short in several new games at 1080p high. The 16GB model costs only $50 to $80 more.",
+    "quick": "Pick the RTX 5060 Ti 16GB for almost every build: it is the same GPU, and the extra memory keeps new games smooth at 1080p and 1440p high settings. Pick the 8 GB model only if you play esports titles, your board is PCIe 4.0 or newer and the $50 to $80 saving matters more than headroom.",
+    "differ": [
+      [
+        "Are they the same speed?",
+        "When a game fits in 8 GB, yes. Both have 4,608 CUDA cores, a 2.57 GHz boost, a 128-bit bus and a 180 W rating, so independent reviews show near-identical frame rates in lighter games. In several new games at 1080p high or ultra textures, the 8 GB card runs out of memory and loses a large share of its frame rate, with stutter on top."
+      ],
+      [
+        "Does PCIe 3.0 make the 8 GB card worse?",
+        "Yes. Both cards use a PCIe 5.0 x8 link. When VRAM overflows, the card streams data over PCIe, and on a PCIe 3.0 board such as B450 that link is a quarter of its PCIe 5.0 speed. Independent reviews show the 8 GB model losing far more on PCIe 3.0 than the 16 GB model does."
+      ],
+      [
+        "How long will each one last?",
+        "Game memory use has climbed every year, and 8 GB is already the limit at 1080p in some releases. The 16 GB card has room for several more years of new games at medium to high settings. Over a four-year life, the extra $50 to $80 is the cheapest insurance in this price range."
+      ]
+    ],
+    "buyA": [
+      "You play esports games like Valorant, CS2 or Fortnite at 1080p",
+      "Your board is PCIe 4.0 or newer",
+      "It is on sale well below the 16 GB model"
+    ],
+    "buyB": [
+      "You play new AAA games at high settings",
+      "You want the card to last four years or more",
+      "Your board is PCIe 3.0"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RTX 5060 Ti 8GB a bad buy?",
+        "a": "Not for esports and older games, but it is poor value next to the 16 GB model, which costs only $50 to $80 more and avoids the VRAM limits in new games."
+      },
+      {
+        "q": "How can I tell the 8GB and 16GB versions apart on a listing?",
+        "a": "Check the memory size in the title and spec sheet. Both are sold as RTX 5060 Ti, often with similar coolers, so the 8G or 16G in the model name is the giveaway."
+      }
+    ]
+  },
+  {
+    "a": "rx-9060-xt-8gb",
+    "b": "rx-9060-xt-16gb",
+    "title": "RX 9060 XT 8GB vs 16GB (2026): Which Version Should You Buy?",
+    "description": "Buy the RX 9060 XT 16GB: same 32 CUs and x16 link, but 16 GB avoids the VRAM limits that 8 GB hits in new games. The 8GB model saves only $60 to $90.",
+    "quick": "Pick the RX 9060 XT 16GB for nearly every build: same GPU, and 16 GB keeps new games smooth at 1080p and 1440p high. Pick the 8 GB model only on a strict $300 budget for esports and older games, where it runs at the same speed for $60 to $90 less.",
+    "differ": [
+      [
+        "Are they the same speed?",
+        "In games that fit in 8 GB, nearly. Both have 32 RDNA 4 compute units, a boost of up to 3.13 GHz and a 128-bit bus. AMD rates the 8 GB card at 150 W and the 16 GB card at 160 W. Once a game needs more than 8 GB, the 8 GB card falls well behind, with lower averages and uneven frame pacing."
+      ],
+      [
+        "Does the full x16 link help the 8 GB card?",
+        "It helps a little. Unlike the RTX 5060 Ti, both RX 9060 XT models use all 16 PCIe lanes, so when memory overflows the 8 GB card has more bandwidth to fall back on, especially on PCIe 3.0 and 4.0 boards. It softens the problem; it does not solve it."
+      ],
+      [
+        "Which one is better value?",
+        "The 16 GB card at $350 to $400 is one of the best-value GPUs you can buy. The 8 GB card at $280 to $320 saves $60 to $90, but that money buys years of headroom. Unless the budget is fixed, spend it."
+      ]
+    ],
+    "buyA": [
+      "Your budget stops near $300",
+      "You mostly play esports and older games at 1080p",
+      "You plan to upgrade again within two years"
+    ],
+    "buyB": [
+      "You play new AAA games at high settings",
+      "You game at 1440p",
+      "You want the card to last four years or more"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RX 9060 XT 8GB enough for 1080p?",
+        "a": "For esports and older games, yes. In several new games at 1080p high textures, 8 GB runs out and you need to lower settings. The 16 GB model does not have that problem."
+      },
+      {
+        "q": "Which is better, the RX 9060 XT 8GB or RTX 5060 8GB?",
+        "a": "The RX 9060 XT 8GB is usually faster in raster games and has a full x16 link. The RTX 5060 has DLSS 4 and better ray tracing. Both share the same 8 GB limit."
+      }
+    ]
+  },
+  {
+    "a": "rtx-5060-ti-8gb",
+    "b": "rx-9060-xt-8gb",
+    "title": "RTX 5060 Ti 8GB vs RX 9060 XT 8GB (2026): Best 8 GB GPU?",
+    "description": "The RX 9060 XT 8GB is the better 8 GB buy: close raster speed and a full x16 link for about $80 less. The RTX 5060 Ti 8GB wins on DLSS 4 and ray tracing.",
+    "quick": "Pick the RX 9060 XT 8GB if you want the most for about $300 and your board is PCIe 3.0 or 4.0: its x16 link holds up better when 8 GB overflows. Pick the RTX 5060 Ti 8GB if you want DLSS 4, better ray tracing and NVENC, on a PCIe 4.0 or newer board. Better still, stretch to a 16 GB version of either.",
+    "differ": [
+      [
+        "Which card is faster?",
+        "In raster games, independent reviews show the RTX 5060 Ti 8GB a little ahead on average, and further ahead with ray tracing. The RX 9060 XT 8GB is close enough that the roughly $70 price gap decides it for most buyers. Both lose a lot of speed in games that need more than 8 GB."
+      ],
+      [
+        "Which handles running out of VRAM better?",
+        "The RX 9060 XT 8GB. It uses a full PCIe 5.0 x16 link, while the RTX 5060 Ti uses x8. When memory overflows, the AMD card has twice the lanes to fall back on, which matters most on PCIe 3.0 boards."
+      ],
+      [
+        "What about upscaling and features?",
+        "DLSS 4 with Multi Frame Generation is in far more games than FSR 4, and NVIDIA's NVENC encoder is the safer choice for streaming. FSR 4 looks much better than earlier FSR versions, but its game list is shorter."
+      ]
+    ],
+    "buyA": [
+      "You want DLSS 4 and better ray tracing",
+      "You stream with NVENC",
+      "Your board is PCIe 4.0 or newer"
+    ],
+    "buyB": [
+      "You want the lowest price for an 8 GB card",
+      "Your board is PCIe 3.0",
+      "You mostly play raster games"
+    ],
+    "faqs": [
+      {
+        "q": "Should I buy either 8 GB card in 2026?",
+        "a": "Only on a strict budget for esports and older games. The 16 GB versions cost $50 to $90 more and avoid the memory limits that 8 GB cards hit in new games."
+      }
+    ]
+  },
+  {
+    "a": "ryzen-5-9600",
+    "b": "ryzen-5-9600x",
+    "title": "Ryzen 5 9600 vs 9600X (2026): Is the X Worth the Extra Money?",
+    "description": "The Ryzen 5 9600 and 9600X are the same 6-core Zen 5 chip; the X boosts to 5.4 GHz, not 5.2 GHz. The gaming gap is a few percent, so buy the cheaper one.",
+    "quick": "Pick the Ryzen 5 9600 when it costs $15 or more below the 9600X: it is the same six-core Zen 5 chip with a 200 MHz lower boost, and the gaming difference is a few percent. Pick the Ryzen 5 9600X when the two cost about the same, since you get the higher clocks for free.",
+    "differ": [
+      [
+        "What is actually different?",
+        "Clock speed. The 9600 boosts to 5.2 GHz with a 3.8 GHz base; the 9600X boosts to 5.4 GHz. Both have six Zen 5 cores, 12 threads, 32 MB of L3 cache, a 65 W TDP and support for DDR5-5600. Both are unlocked."
+      ],
+      [
+        "How big is the gaming gap?",
+        "Small. The boost difference is about 4%, and in games the graphics card usually sets the frame rate. Independent reviews show a gap of a few percent or less with a mid-range GPU at 1440p. Precision Boost Overdrive on a decent B650 or B850 board narrows it further."
+      ],
+      [
+        "Which is better value?",
+        "Whichever is cheaper by a meaningful margin. Street prices move, and the two often sit $15 to $30 apart. Put any saving toward a better GPU, which changes frame rates far more than 200 MHz of CPU clock."
+      ]
+    ],
+    "buyA": [
+      "It costs $15 or more less than the 9600X",
+      "You game with a mid-range GPU at 1440p",
+      "You want to put the saving toward the GPU"
+    ],
+    "buyB": [
+      "It costs about the same as the 9600",
+      "You want the highest stock clocks",
+      "You do not want to tune PBO"
+    ],
+    "faqs": [
+      {
+        "q": "Can I overclock the Ryzen 5 9600?",
+        "a": "Yes. Like every Ryzen desktop chip it is unlocked, and Precision Boost Overdrive can raise its sustained clocks on a board with good power delivery."
+      }
+    ]
+  },
+  {
+    "a": "ryzen-5-7600",
+    "b": "ryzen-5-9600",
+    "title": "Ryzen 5 7600 vs Ryzen 5 9600 (2026): Zen 4 or Zen 5 for AM5?",
+    "description": "The Ryzen 5 9600 is a few percent faster in games with Zen 5 and DDR5-5600 support. The Ryzen 5 7600 often costs less and includes a Wraith Stealth cooler.",
+    "quick": "Pick the Ryzen 5 7600 for the cheapest capable AM5 build: it often costs a little less, includes a Wraith Stealth cooler and is close in games with a mid-range GPU. Pick the Ryzen 5 9600 if the price gap is small: Zen 5 is a few percent faster in games, much faster in AVX-512 work, and rated for DDR5-5600.",
+    "differ": [
+      [
+        "How much faster is the Ryzen 5 9600?",
+        "In games, a few percent in independent reviews, more in CPU-bound titles at 1080p with a fast GPU. Both have six cores, 12 threads, 32 MB of L3 cache and a 65 W TDP. The 9600 boosts to 5.2 GHz against 5.1 GHz, and Zen 5 adds higher instructions per clock and full-width AVX-512."
+      ],
+      [
+        "Which one includes a cooler?",
+        "The Ryzen 5 7600 ships with AMD's Wraith Stealth. It is fine for gaming loads but gets loud under all-core work. Either chip benefits from a $35 to $45 dual-tower air cooler such as the Thermalright Phantom Spirit 120 SE."
+      ],
+      [
+        "Do they use the same board and memory?",
+        "Yes. Both use socket AM5 and DDR5, so any B650, B850, X670 or X870 board works, and both can later move to a faster AM5 chip with a BIOS update. AMD rates the 7600 for DDR5-5200 and the 9600 for DDR5-5600; DDR5-6000 with EXPO works on both in practice."
+      ]
+    ],
+    "buyA": [
+      "You want the cheapest capable AM5 CPU",
+      "You want a cooler in the box",
+      "You pair it with a mid-range GPU"
+    ],
+    "buyB": [
+      "The price gap is $20 or less",
+      "You run AVX-512 workloads",
+      "You want the newer core design"
+    ],
+    "faqs": [
+      {
+        "q": "Is it worth upgrading from a Ryzen 5 7600 to a 9600?",
+        "a": "No. The gain is a few percent. If you want a real upgrade on the same board, move to a Ryzen 7 9800X3D."
+      }
+    ]
+  },
+  {
+    "a": "msi-mag-b650-tomahawk-wifi",
+    "b": "msi-mag-b850-tomahawk-max-wifi",
+    "title": "MSI B650 Tomahawk vs B850 Tomahawk MAX (2026): Worth $40 More?",
+    "description": "The B850 Tomahawk MAX WiFi adds PCIe 5.0 for the GPU and an SSD, Wi-Fi 7 and 5 GbE for $30 to $60 more. The B650 Tomahawk WiFi still runs any AM5 chip.",
+    "quick": "Pick the MSI B650 Tomahawk WiFi to save $30 to $60 on a board that still runs a Ryzen 7 9800X3D: PCIe 4.0 costs current GPUs almost nothing. Pick the MSI B850 Tomahawk MAX WiFi if you want Wi-Fi 7, 5 GbE and PCIe 5.0 slots for a future GPU or Gen5 SSD.",
+    "differ": [
+      [
+        "Does PCIe 5.0 make games faster?",
+        "Not today. Independent reviews show current cards, including the RTX 5090, losing only a percent or two on PCIe 4.0 x16. A PCIe 5.0 SSD loads games about as fast as a good Gen4 drive. The B850 board's Gen5 slots are future-proofing, not a speed boost."
+      ],
+      [
+        "What changes in networking?",
+        "The B850 Tomahawk MAX WiFi has Wi-Fi 7 and 5 GbE. The B650 Tomahawk WiFi has Wi-Fi 6E and 2.5 GbE. If your internet plan is under 2.5 Gbps and your router is not Wi-Fi 7, you will not notice the difference."
+      ],
+      [
+        "Can both boards run a Ryzen 9000 chip?",
+        "Yes. Both have strong power delivery for any AM5 chip, including a Ryzen 7 9800X3D or 16-core Ryzen 9, and both have MSI's Flash BIOS button to update without a CPU installed. Older B650 stock may need a BIOS update for Ryzen 9000."
+      ]
+    ],
+    "buyA": [
+      "You want the best-value AM5 board",
+      "Your GPU and SSD are PCIe 4.0",
+      "Your internet is under 2.5 Gbps"
+    ],
+    "buyB": [
+      "You want Wi-Fi 7 and 5 GbE",
+      "You plan a PCIe 5.0 SSD or a future GPU upgrade",
+      "The price gap is $40 or less"
+    ],
+    "faqs": [
+      {
+        "q": "Is B850 better than B650?",
+        "a": "B850 requires a PCIe 5.0 M.2 slot and boards usually add newer networking. For gaming performance, a good B650 board is just as fast with current parts."
+      }
+    ]
+  },
+  {
+    "a": "asrock-b850-steel-legend-wifi",
+    "b": "msi-mag-b850-tomahawk-max-wifi",
+    "title": "B850 Steel Legend vs B850 Tomahawk MAX (2026): Which to Buy?",
+    "description": "The MSI B850 Tomahawk MAX WiFi has 5 GbE, Wi-Fi 7 and a Flash BIOS button. The ASRock B850 Steel Legend WiFi often costs $20 to $30 less with 2.5 GbE.",
+    "quick": "Pick the ASRock B850 Steel Legend WiFi to save $20 to $30 on a capable B850 board with a PCIe 5.0 M.2 slot and BIOS Flashback. Pick the MSI B850 Tomahawk MAX WiFi if you want 5 GbE, Wi-Fi 7 and the board most AM5 builders choose, with 80 A power stages for any Ryzen chip.",
+    "differ": [
+      [
+        "Which has better networking?",
+        "The MSI board lists Wi-Fi 7 and 5 GbE. The ASRock lists Wi-Fi and 2.5 GbE. For most homes, 2.5 GbE is more than the internet connection can use, so this matters mainly if you move large files on a fast local network."
+      ],
+      [
+        "Can both run a Ryzen 7 9800X3D?",
+        "Yes. Both are full ATX B850 boards with power delivery that handles any AM5 chip at stock, and both can update the BIOS from a USB stick without a CPU. Update to a current BIOS before installing Windows."
+      ],
+      [
+        "Which is the better value?",
+        "It comes down to the price gap. At $20 to $30 apart, the Steel Legend is the value pick and the Tomahawk MAX is the safer, better-connected choice. If they cost the same, buy the Tomahawk."
+      ]
+    ],
+    "buyA": [
+      "You want a B850 board for less",
+      "2.5 GbE is enough for your network",
+      "You want BIOS Flashback and a PCIe 5.0 M.2 slot for less"
+    ],
+    "buyB": [
+      "You want 5 GbE and Wi-Fi 7",
+      "The price gap is $20 or less",
+      "You want MSI's Flash BIOS button"
+    ],
+    "faqs": [
+      {
+        "q": "Do both boards have a PCIe 5.0 M.2 slot?",
+        "a": "Yes. Every B850 board must have at least one PCIe 5.0 M.2 slot, and both of these do."
+      }
+    ]
+  },
+  {
+    "a": "rtx-4060",
+    "b": "rtx-5060",
+    "title": "RTX 4060 vs RTX 5060 (2026): Is the Newer Card Worth It?",
+    "description": "The RTX 5060 is roughly 20% faster than the RTX 4060 with GDDR7 and Multi Frame Generation, for about $20 more. Both have 8 GB, which limits new games.",
+    "quick": "Pick the RTX 5060 over the RTX 4060 if both are new: it is roughly 20% faster, adds Multi Frame Generation and costs only about $20 more. Pick the RTX 4060 only used or on clearance well below the 5060. Either way, 8 GB limits new games at high settings, so consider a 16 GB card if you can.",
+    "differ": [
+      [
+        "How much faster is the RTX 5060?",
+        "Independent reviews put the RTX 5060 roughly 20% ahead of the RTX 4060 at 1080p. It has 3,840 CUDA cores against 3,072 and faster GDDR7 memory on the same 128-bit bus. It also draws more power: 145 W against 115 W."
+      ],
+      [
+        "What does DLSS 4 add on the RTX 5060?",
+        "Multi Frame Generation, which generates up to three frames for every rendered one. The RTX 4060 gets DLSS 4's improved upscaling and single frame generation, but not the multi-frame mode. Frame generation raises displayed frame rates but adds latency, so it suits single-player games more than shooters."
+      ],
+      [
+        "Do both have the same 8 GB problem?",
+        "Yes. Both have 8 GB, and both run short in some new games at 1080p high textures. The 5060's PCIe 5.0 x8 link and the 4060's PCIe 4.0 x8 link both suffer on PCIe 3.0 boards when memory overflows."
+      ]
+    ],
+    "buyA": [
+      "You find one used or on clearance for $50 or more below the RTX 5060",
+      "You want the lowest power draw (115 W)",
+      "You play esports titles only"
+    ],
+    "buyB": [
+      "You are buying new",
+      "You want Multi Frame Generation",
+      "You want roughly 20% more speed for about $20 more"
+    ],
+    "faqs": [
+      {
+        "q": "Should I upgrade from an RTX 4060 to an RTX 5060?",
+        "a": "No. The gain is about 20% with the same 8 GB. A real upgrade from an RTX 4060 is a 16 GB card such as the RX 9060 XT 16GB or RTX 5060 Ti 16GB, or an RTX 5070."
+      }
+    ]
+  },
+  {
+    "a": "rtx-5060-ti-16gb",
+    "b": "rtx-5070",
+    "title": "RTX 5060 Ti 16GB vs RTX 5070 (2026): 16 GB or More Speed?",
+    "description": "The RTX 5070 is roughly 30% faster than the RTX 5060 Ti 16GB for $120 to $170 more, but has 12 GB. The 5060 Ti 16GB is the better 1080p value.",
+    "quick": "Pick the RTX 5060 Ti 16GB for 1080p and light 1440p gaming, small cases and modest power supplies: 16 GB at 180 W for $430 to $480. Pick the RTX 5070 for high-refresh 1440p: it is roughly 30% faster for $120 to $170 more, with 12 GB that is enough at 1440p today.",
+    "differ": [
+      [
+        "How much faster is the RTX 5070?",
+        "Independent reviews put the RTX 5070 roughly 30% ahead of the RTX 5060 Ti 16GB at 1440p. It has 6,144 CUDA cores against 4,608, a 192-bit bus against 128-bit and a full PCIe 5.0 x16 link against x8."
+      ],
+      [
+        "Is 16 GB better than 12 GB here?",
+        "Only when a game needs more than 12 GB, which at 1440p is rare today. The 5070 is the faster card in nearly every game now; the 5060 Ti's 16 GB is a hedge for the future and for heavy texture mods."
+      ],
+      [
+        "What about power and PSU?",
+        "The RTX 5060 Ti 16GB is rated at 180 W and runs on a quality 550 W PSU. The RTX 5070 is rated at 250 W, and NVIDIA recommends 650 W. In an older PC with a 550 W unit, the 5060 Ti is the easier upgrade."
+      ]
+    ],
+    "buyA": [
+      "You game at 1080p or light 1440p",
+      "Your PSU is 550 W",
+      "You want 16 GB for under $500"
+    ],
+    "buyB": [
+      "You want high-refresh 1440p",
+      "You have a 650 W PSU",
+      "You want the fastest card under $650"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RTX 5070 worth $150 more than the RTX 5060 Ti 16GB?",
+        "a": "For 1440p, yes: roughly 30% more speed is a bigger difference than the extra 4 GB of VRAM on the 5060 Ti. For 1080p, the 5060 Ti 16GB is enough."
+      }
+    ]
+  },
+  {
+    "a": "rx-9070-xt",
+    "b": "rtx-5080",
+    "title": "RX 9070 XT vs RTX 5080 (2026): Is the 5080 Worth $400 More?",
+    "description": "The RTX 5080 is about 15 to 20% faster than the RX 9070 XT with better ray tracing, but costs $400 to $550 more. Both have 16 GB; the 9070 XT is better value.",
+    "quick": "Pick the RX 9070 XT for 1440p and most 4K gaming at a much lower price: 16 GB for $600 to $730. Pick the RTX 5080 if you want the fastest card short of an RTX 5090, with clearly better ray tracing and path tracing and DLSS 4, and the extra $400 to $550 does not matter.",
+    "differ": [
+      [
+        "How much faster is the RTX 5080?",
+        "Independent reviews put the RTX 5080 about 15 to 20% ahead of the RX 9070 XT in raster games, and further ahead with heavy ray tracing or path tracing. Both have 16 GB on a 256-bit bus, so memory is a tie."
+      ],
+      [
+        "Is the price gap worth it?",
+        "For most players, no. At $1,000 to $1,300 against $600 to $730, the RTX 5080 costs 60 to 80% more for a 15 to 20% gain. It makes sense for 4K with path tracing, where its RT lead and DLSS 4 Multi Frame Generation do the most work."
+      ],
+      [
+        "What power supply does each need?",
+        "AMD rates the RX 9070 XT at 304 W and NVIDIA rates the RTX 5080 at 360 W. Plan on a quality 750 W unit for the 9070 XT and 850 W for the 5080. Most RTX 5080 cards use the 16-pin 12V-2x6 connector; many 9070 XT cards use 8-pin connectors."
+      ]
+    ],
+    "buyA": [
+      "You want the best value for 1440p and 4K",
+      "You play mostly raster games",
+      "You want to save $400 or more"
+    ],
+    "buyB": [
+      "You play at 4K with ray tracing or path tracing",
+      "You want DLSS 4 Multi Frame Generation",
+      "Budget is not the constraint"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RX 9070 XT as good as an RTX 5080?",
+        "a": "Not quite. It is about 15 to 20% slower in raster games and further behind in ray tracing, but it costs $400 to $550 less, which makes it the better value."
+      }
+    ]
+  },
+  {
+    "a": "ryzen-5-9600x",
+    "b": "ryzen-7-9700x",
+    "title": "Ryzen 5 9600X vs Ryzen 7 9700X (2026): 6 or 8 Cores to Game?",
+    "description": "The Ryzen 7 9700X is only a few percent faster in games than the Ryzen 5 9600X. Its two extra cores pay off in streaming and editing, for about $100 more.",
+    "quick": "Pick the Ryzen 5 9600X for a gaming PC: six Zen 5 cores keep up with the 9700X in games for about $100 less. Pick the Ryzen 7 9700X if you stream, edit video or compile code, where its eight cores do about a third more work.",
+    "differ": [
+      [
+        "How big is the gaming gap?",
+        "Small. Both are Zen 5 chips with 32 MB of L3 cache; the 9700X boosts to 5.5 GHz against 5.4 GHz. Independent reviews show a gap of a few percent in most games, because few games use more than six cores heavily."
+      ],
+      [
+        "When do the extra cores matter?",
+        "In streaming with CPU encoding, video export, 3D rendering and code compiles. Eight cores against six is a third more threads, and multi-threaded results scale close to that. If you game and stream on one PC, the 9700X is the better fit."
+      ],
+      [
+        "What about power and cooling?",
+        "Both are rated at 65 W TDP with an optional 105 W mode. A $35 to $45 dual-tower air cooler handles either one quietly."
+      ]
+    ],
+    "buyA": [
+      "You build a gaming PC",
+      "You want to put $100 toward the GPU",
+      "You do not stream or edit video"
+    ],
+    "buyB": [
+      "You stream or edit video on the same PC",
+      "You compile code or render",
+      "You want more headroom for future games"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Ryzen 7 9700X worth it over the 9600X for gaming?",
+        "a": "Not for gaming alone. For a pure gaming PC, spend the difference on the graphics card, or save toward a Ryzen 7 9800X3D."
+      }
+    ]
+  },
+  {
+    "a": "ryzen-7-5800x3d",
+    "b": "ryzen-7-9800x3d",
+    "title": "Ryzen 7 5800X3D vs 9800X3D (2026): Is Moving to AM5 Worth It?",
+    "description": "The Ryzen 7 9800X3D is far faster in CPU-bound games than the 5800X3D, but needs an AM5 board and DDR5. On AM4, keep the 5800X3D and upgrade the GPU.",
+    "quick": "Keep or buy the Ryzen 7 5800X3D if you are on AM4 and game at 1440p or 4K: it is still a strong gaming CPU on DDR4. Pick the Ryzen 7 9800X3D for a new build or a fast GPU at 1080p and high refresh rates: it is far quicker in CPU-bound games and sits on AM5, with an upgrade path.",
+    "differ": [
+      [
+        "How much faster is the 9800X3D?",
+        "A lot in CPU-bound games. Independent reviews show the 9800X3D well ahead of the 5800X3D at 1080p with a fast GPU, commonly by a third or more. Both have eight cores and 96 MB of L3 cache; the 9800X3D boosts to 5.2 GHz against 4.5 GHz, with Zen 5 cores and the cache under the cores so it can clock higher."
+      ],
+      [
+        "What does the platform change cost?",
+        "The 9800X3D needs an AM5 board and DDR5 memory. A $170 to $250 board and 32 GB of DDR5-6000 add a lot to the $450 to $480 CPU price, and DDR5 prices have swung sharply since late 2025. The 5800X3D drops into an existing AM4 board with a BIOS update."
+      ],
+      [
+        "Will I notice the difference at 1440p or 4K?",
+        "Less than at 1080p. At higher resolutions the GPU sets the frame rate, so a 5800X3D with an RTX 5070 or RX 9070 XT gives up little. The gap grows with an RTX 5080 or 5090, or in CPU-heavy games like simulation and strategy titles."
+      ]
+    ],
+    "buyA": [
+      "You already have an AM4 board and DDR4",
+      "You game at 1440p or 4K",
+      "You want to spend on the GPU instead"
+    ],
+    "buyB": [
+      "You are building a new PC",
+      "You play at 1080p with a fast GPU and high refresh rate",
+      "You want an upgrade path on AM5"
+    ],
+    "faqs": [
+      {
+        "q": "Is the 5800X3D still good in 2026?",
+        "a": "Yes, for gaming on AM4. It remains one of the best AM4 gaming chips, and it is the best upgrade for an older Ryzen system that does not want a new board and memory."
+      }
+    ]
   }
 ]
