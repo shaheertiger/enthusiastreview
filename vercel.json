@@ -7,6 +7,26 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/authors/hardware-desk/",
+      "destination": "https://www.enthusiastreview.com/authors/justin-lee/",
+      "permanent": true
+    },
+    {
+      "source": "/authors/hardware-desk",
+      "destination": "https://www.enthusiastreview.com/authors/justin-lee/",
+      "permanent": true
+    },
+    {
+      "source": "/authors/adam-franczyk/",
+      "destination": "https://www.enthusiastreview.com/authors/justin-lee/",
+      "permanent": true
+    },
+    {
+      "source": "/authors/adam-franczyk",
+      "destination": "https://www.enthusiastreview.com/authors/justin-lee/",
+      "permanent": true
+    },
+    {
       "source": "/best-gpu-for-ryzen-9-3900x-and-3950x/",
       "destination": "https://www.enthusiastreview.com/best-graphics-card/",
       "permanent": true

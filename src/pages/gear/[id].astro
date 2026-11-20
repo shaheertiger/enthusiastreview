@@ -9,7 +9,7 @@ import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
 import { amazonLink } from '../../data/affiliate';
-import { productSchema, reviewedPage } from '../../lib/schema';
+import { productSchema } from '../../lib/schema';
 import {
   PRODUCTS, getBrand, categoryOf, productsIn, productsOfBrand, rankOf, guidesFeaturing, comparesFor, mustProduct,
   productPath, guidePath, comparePath, brandPath, productUpdated, fmtDate, priceBand, productTitle, productDescription, newCtx, inline, plain, type Product,
@@ -44,7 +44,6 @@ const crumbs = [
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    reviewedPage(path, updated),
     productSchema(p),
     { '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: `${SITE.url}${c.href}` })) },
     { '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) },
@@ -59,7 +58,7 @@ const jsonLd = {
       <h1 class="a-title">{p.name}</h1>
       <div class="gear-meta">
         <Score value={p.score.overall} size="lg" />
-        <span>#{rank} of {of} {cat.plural} · {priceBand(p)}{p.released && <> · Released {p.released}</>} · Updated <time datetime={updated}>{fmtDate(updated)}</time> · Reviewed by <a href="/authors/adam-franczyk/">Adam Franczyk, PhD</a></span>
+        <span>By <a href="/authors/justin-lee/">Justin Lee</a> · #{rank} of {of} {cat.plural} · {priceBand(p)}{p.released && <> · Released {p.released}</>} · Updated <time datetime={updated}>{fmtDate(updated)}</time></span>
       </div>
     </header>
 

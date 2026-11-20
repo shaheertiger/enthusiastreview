@@ -50,8 +50,9 @@ page (`vercel.json`).
 | Guide outline | Top guide (best subwoofer, 2 clicks) numbers every H2: "1. Compare the Picks at a Glance" … "18. All Subwoofers We Track" | Guide H2s carry their number (matches the On this page list) |
 | Site-wide schema | Organization (`#organization`, 512 px PNG logo) + WebSite (`#website`) on every page; Article has `headline` = title, `keywords`, `articleSection`, `image`, `inLanguage` | Same, emitted by `Base.astro`; no headings before the H1 (menu labels are not headings) |
 
-Not copied: the sister site's named reviewer (Person with `alumniOf`, `sameAs`). Add a real author to
-`src/data/authors.ts` only with a real bio and profile; until then the Hardware Desk is the author.
+Author: the same named author as the sister site, Justin Lee (Person with `alumniOf`, `hasCredential`,
+`knowsAbout`, `sameAs` LinkedIn), on every Article, Review and the `/authors/justin-lee/` ProfilePage.
+Only facts from his real profile go in `src/data/authors.ts`.
 
 ## 2. Site structure (copied from the sister sites)
 
