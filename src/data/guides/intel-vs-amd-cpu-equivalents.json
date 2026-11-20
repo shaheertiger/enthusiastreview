@@ -114,6 +114,32 @@
       ]
     },
     {
+      "h": "9th and 8th Gen Intel AMD Equivalents",
+      "body": [
+        "Coffee Lake chips from 2017 to 2019 are still common in prebuilt and second-hand PCs. In games they line up with Ryzen 2000 and 3000, and the fastest of them, the Core i9-9900K, reaches early Ryzen 5000 territory. In multi-threaded work, the six-thread i5s fall behind the 12-thread Ryzen 5 chips of the same era.",
+        "These matches are rougher than the newer tables: results depend more on memory speed, and many 9th and 8th gen systems shipped with slower RAM than review benches use. Treat them as a guide to the tier, not a precise ranking."
+      ],
+      "table": {
+        "caption": "Intel 9th and 8th gen to AMD Ryzen",
+        "head": ["Intel CPU", "Cores / threads", "Closest AMD for gaming", "Closest AMD for multi-thread"],
+        "rows": [
+          ["Core i9-9900K", "8 / 16", "Ryzen 5 5600 (roughly)", "Ryzen 7 3700X to 3800X (roughly)"],
+          ["Core i7-9700K", "8 / 8", "Ryzen 5 5500 to 5600", "Ryzen 5 3600 to Ryzen 7 3700X"],
+          ["Core i5-9600K", "6 / 6", "Ryzen 5 3600 (roughly)", "Ryzen 5 2600 (roughly)"],
+          ["Core i5-9400F", "6 / 6", "Ryzen 5 3600 (Intel a little slower)", "Ryzen 5 1600 to 2600"],
+          ["Core i3-9100F", "4 / 4", "Ryzen 3 3100 (roughly)", "Below Ryzen 3 3100 (4 cores, 8 threads)"],
+          ["Core i7-8700K", "6 / 12", "Ryzen 5 3600 (Intel a little faster)", "Ryzen 5 3600 (roughly)"],
+          ["Core i5-8600K", "6 / 6", "Ryzen 5 2600 to 3600", "Ryzen 5 1600 to 2600"],
+          ["Core i5-8400", "6 / 6", "Ryzen 5 2600 (roughly)", "Ryzen 5 1600 (AMD a little faster)"],
+          ["Core i3-8100", "4 / 4", "Ryzen 3 1300X to 2200G", "Ryzen 3 1300X (roughly)"]
+        ]
+      },
+      "list": [
+        "All 9th and 8th gen desktop chips use socket LGA 1151 with 300-series boards, so there is no in-socket upgrade beyond the i9-9900K. Moving to AMD means a new board and, on AM5, DDR5 memory.",
+        "A Ryzen 5 7600 or Ryzen 7 7800X3D is a large step up from any chip in this table. On a tighter budget, a Ryzen 7 5700X3D on AM4 with DDR4 is still a big gaming upgrade."
+      ]
+    },
+    {
       "h": "Which AMD CPU Should You Buy to Replace Your Intel Chip?",
       "body": [
         "Matching an old Intel chip is rarely the goal; beating it is. For a gaming upgrade from any Intel chip on this page, the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) is the fastest gaming CPU in independent reviews, and the [Ryzen 7 7800X3D](/gear/ryzen-7-7800x3d/) is close behind. On a budget, the [Ryzen 5 7600](/gear/ryzen-5-7600/) already outruns every 10th, 11th and 12th gen chip listed here in games.",
@@ -159,7 +185,12 @@
           ["Ryzen 5 5600X", "Core i5-12400F (Intel a little faster)", "Core i5-12400F (roughly)"],
           ["Ryzen 5 5600", "Core i5-11400F (AMD a little faster)", "Core i5-11400F (roughly)"],
           ["Ryzen 5 5500", "Core i3-12100F (roughly)", "Core i5-10400F (roughly)"],
-          ["Ryzen 5 3600", "Core i5-10400F (roughly)", "Core i5-10400F (roughly)"]
+          ["Ryzen 7 3700X", "Core i5-9600K (Intel a little faster)", "Core i9-9900K (Intel a little faster)"],
+          ["Ryzen 5 3600", "Core i5-10400F (roughly)", "Core i5-10400F (roughly)"],
+          ["Ryzen 7 2700X", "Core i5-8400 (roughly)", "Between Core i7-8700K and i9-9900K"],
+          ["Ryzen 5 2600", "Core i5-8400 (AMD a little slower)", "Core i5-9600K (roughly)"],
+          ["Ryzen 7 1700", "Core i3-8100 (roughly)", "Core i7-8700K (roughly)"],
+          ["Ryzen 5 1600", "Core i3-8100 (roughly)", "Core i5-8400 (AMD a little faster)"]
         ]
       }
     },
