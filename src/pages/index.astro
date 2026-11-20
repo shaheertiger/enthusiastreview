@@ -1,17 +1,20 @@
 ---
+// Home page in the sister-site order (besthometheaterreview.com): hero → quick answer → browse by
+// category → picks by need → top 10 → spec-sheet promise → how we're different → latest → identity.
 import Base from '../layouts/Base.astro';
 import Score from '../components/Score.astro';
-import CatIcon from '../components/CatIcon.astro';
+import NavIcon from '../components/NavIcon.astro';
 import ProductImage from '../components/ProductImage.astro';
 import { SITE } from '../data/site';
 import { CATEGORIES } from '../data/categories';
-import { PRODUCTS, GUIDES, COMPARES, BRANDS, getGuide, getProduct, mustProduct, guidePath, productPath, comparePath, priceBand, categoryOf, getBrand, guideUpdated, inline } from '../lib/data';
+import { NAV_GROUPS } from '../data/nav';
+import { PRODUCTS, GUIDES, BRANDS, getGuide, getProduct, guidePath, productPath, priceBand, categoryOf, guideUpdated, inline } from '../lib/data';
 const hero = getGuide('best-graphics-card');
 const heroPick = hero ? getProduct(hero.picks[0].id) : undefined;
 const top10 = [...PRODUCTS].sort((a, b) => b.score.overall - a.score.overall).slice(0, 10);
 const featured = CATEGORIES.map((c) => getGuide(c.hero)).filter((g) => g && !g.noindex);
-const latest = [...GUIDES.filter((g) => g.type !== 'article')].sort((a, b) => guideUpdated(b).localeCompare(guideUpdated(a)) || a.slug.localeCompare(b.slug)).filter((g) => !featured.includes(g)).slice(0, 6);
-const popular = COMPARES.slice(0, 8);
+const latest = [...GUIDES.filter((g) => g.type !== 'article' && !g.noindex)].sort((a, b) => guideUpdated(b).localeCompare(guideUpdated(a)) || a.slug.localeCompare(b.slug)).filter((g) => !featured.includes(g)).slice(0, 6);
+const browse = NAV_GROUPS.filter((grp) => grp.home);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -24,29 +27,30 @@ const jsonLd = {
     <div class="wrap">
       <p class="kicker">PC hardware, researched</p>
       <h1>Read the Spec Sheet. Build the Right PC.</h1>
-      <p class="hub-dek">We match every graphics card, CPU, cooler and power supply to the build it suits: resolution, platform, case and budget. {PRODUCTS.length} parts tracked, {GUIDES.length} best lists, {COMPARES.length} head-to-heads.</p>
-      <div class="hero-cta"><a class="buy" href="/best-of/">See every best list</a><a class="btn-ghost dark" href="/tools/bottleneck-calculator/">Bottleneck calculator</a></div>
+      <p class="hub-dek">We match every graphics card, CPU, cooler and power supply to the build it suits: resolution, platform, case and budget. {PRODUCTS.length} parts from {new Set(PRODUCTS.map((p) => p.brand)).size} brands, scored.</p>
+      <div class="hero-cta"><a class="buy" href="/best-graphics-card/">Best Graphics Cards</a><a class="btn-ghost dark" href="/best-cpu-for-gaming/">Best CPUs for Gaming</a></div>
+      <p class="hero-trust">Independent · Spec-sheet first · No paid rankings</p>
     </div>
   </section>
 
   <div class="wrap">
     {hero && heroPick && (
       <section class="home-answer">
+        <p class="mini">Quick answer</p>
         <h2>What Is the Best Graphics Card Right Now?</h2>
         <p set:html={inline(hero.quickAnswer)} />
-        <p><a href={guidePath(hero)}>Read the full best graphics card guide →</a></p>
+        <p><a href={guidePath(hero)}>See all {hero.picks.length} picks in our best graphics card guide →</a></p>
       </section>
     )}
 
     <section>
       <h2 class="section-title">Browse by Category</h2>
-      <div class="cat-grid">
-        {CATEGORIES.map((c) => (
-          <a class="cat-tile" href={`/${c.hero}/`}>
-            <CatIcon cat={c.key} size={48} />
-            <strong>{c.label}</strong>
-            <span>{c.blurb}</span>
-          </a>
+      <div class="browse">
+        {browse.map((grp) => (
+          <div class="browse-col">
+            <h3>{grp.label}</h3>
+            <ul>{grp.items.map((it) => <li><a href={it.href}><NavIcon icon={it.icon} size={28} />{it.label}</a></li>)}</ul>
+          </div>
         ))}
       </div>
     </section>
@@ -70,58 +74,61 @@ const jsonLd = {
 
     <section>
       <h2 class="section-title">The {PRODUCTS.length} Parts We Track: Top 10 by {SITE.score}</h2>
-      <div class="table-wrap">
-        <table class="tracked">
-          <thead><tr><th>#</th><th>Product</th><th>Category</th><th>Score</th><th>Price</th></tr></thead>
-          <tbody>{top10.map((p, i) => <tr><td>{i + 1}</td><td><a href={productPath(p)}>{p.name}</a></td><td>{categoryOf(p.category).label}</td><td><Score value={p.score.overall} /></td><td class="nowrap">{priceBand(p)}</td></tr>)}</tbody>
-        </table>
-      </div>
-      <p class="fine"><a href="/gear/">See all {PRODUCTS.length} parts →</a></p>
+      <ol class="rank-list">
+        {top10.map((p, i) => (
+          <li>
+            <span class="rk-n">{i + 1}</span>
+            <ProductImage p={p} size={64} />
+            <span class="rk-main"><a href={productPath(p)}>{p.name}</a><small>{categoryOf(p.category).label} · {priceBand(p)}</small></span>
+            <Score value={p.score.overall} />
+          </li>
+        ))}
+      </ol>
+      <p class="fine"><a href="/gear/">See all {PRODUCTS.length} parts ranked →</a></p>
     </section>
 
-    <section class="split">
-      <div>
-        <h2 class="section-title">Built on the Spec Sheet, Not the Marketing</h2>
-        <p>Every part on this site has a page with its full spec sheet, a research-based {SITE.score} out of 100 and a plain verdict: who it suits, who should skip it and what to buy instead. The score weighs specs against the price band and what owners report after months of use.</p>
-        <p>We do not run a test lab, and we say so on every page. Where performance matters we lean on the broad pattern of independent reviews, never a single cherry-picked chart. <a href="/how-we-review/">How we score</a>.</p>
-      </div>
-      <div>
-        <h2 class="section-title">How We're Different</h2>
-        <h3>We do the platform maths</h3>
-        <p>PCIe lanes on older boards, BIOS versions for new CPUs, cooler height against case clearance, connector types on power supplies: the things that stop a build from booting.</p>
-        <h3>Build first, product second</h3>
-        <p>We pick for the resolution, case and budget you actually have, so the best card for a Ryzen 5 3600 is not the best card for a 9800X3D.</p>
-        <h3>No paid placements</h3>
-        <p>Manufacturers never see a guide before it is published, and affiliate commissions never change a ranking.</p>
-      </div>
+    <section class="home-prose">
+      <h2 class="section-title">Built on the Spec Sheet, Not the Marketing</h2>
+      <p>Every part on this site has a page with its full spec sheet, a research-based {SITE.score} out of 100 and a plain verdict: who it suits, who should skip it and what to buy instead. The score weighs specs against the price band and what owners report after months of use. We do not run a test lab, and we say so on every page. Where performance matters we lean on the broad pattern of independent reviews, never a single cherry-picked chart.</p>
     </section>
 
     <section>
-      <h2 class="section-title">Popular Comparisons</h2>
-      <ul class="vs-list">{popular.map((c) => { const a = mustProduct(c.a), b = mustProduct(c.b); return <li><a href={comparePath(c)}><strong>{a.short}</strong> vs <strong>{b.short}</strong></a><span>{a.score.overall} vs {b.score.overall}</span></li>; })}</ul>
-      <p class="fine"><a href="/compare/">All {COMPARES.length} comparisons →</a></p>
+      <h2 class="section-title">How We're Different From Other Review Sites</h2>
+      <div class="diff-grid">
+        <div>
+          <h3>We Do the Platform Maths</h3>
+          <p>PCIe lanes on older boards, BIOS versions for new CPUs, cooler height against case clearance, connector types on power supplies: the things that stop a build from booting. Our <a href="/tools/bottleneck-calculator/">bottleneck</a> and <a href="/tools/psu-calculator/">PSU</a> calculators do the sums for you.</p>
+        </div>
+        <div>
+          <h3>Build First, Product Second</h3>
+          <p>We pick for the resolution, case and budget you actually have, so the best card for a Ryzen 5 3600 is not the best card for a 9800X3D.</p>
+        </div>
+        <div>
+          <h3>No Paid Placements</h3>
+          <p>Manufacturers never see a guide before it is published, and affiliate commissions never change a ranking. <a href="/how-we-review/">How we score</a>.</p>
+        </div>
+      </div>
     </section>
 
     <section>
       <h2 class="section-title">Latest Guides and Brand Reviews</h2>
       <div class="grid grid-3">
-        {latest.map((g) => <a class="card" href={guidePath(g)}><span class="card-k">{g.type === 'brand' ? 'Brand Review' : categoryOf(g.category).label}</span><h3>{g.h1}</h3><span class="card-sub">{g.picks?.length} picks</span></a>)}
+        {latest.map((g) => (
+          <a class="card" href={guidePath(g)}>
+            <span class="card-k">{g.type === 'brand' ? 'Brand Reviews' : 'Guides'}</span>
+            <h3>{g.h1}</h3>
+            <span class="card-sub">{g.dek}</span>
+          </a>
+        ))}
       </div>
     </section>
 
-    <section class="split">
-      <div>
-        <h2 class="section-title">Free Tools</h2>
-        <ul class="link-list">
-          <li><a href="/tools/bottleneck-calculator/">PC bottleneck calculator</a></li>
-          <li><a href="/tools/psu-calculator/">PSU wattage calculator</a></li>
-          <li><a href="/glossary/">PC hardware glossary</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="section-title">Brands</h2>
-        <p class="term-cloud">{BRANDS.map((b) => <a href={`/brands/${b.key}/`}>{b.name}</a>)}</p>
-      </div>
+    <section class="home-id">
+      <h2 class="section-title">{SITE.name}</h2>
+      <p>{SITE.name} has covered PC hardware since {SITE.founded}. We help you buy the right graphics card, CPU, cooler, power supply, case, RAM, motherboard and SSD for the build you actually have, and we tell you plainly when a cheaper part will do.</p>
+      <p class="mini">Brands we track</p>
+      <p class="term-cloud">{BRANDS.map((b) => <a href={`/brands/${b.key}/`}>{b.name}</a>)}</p>
+      <p class="fine">As an Amazon Associate we earn from qualifying purchases. Rankings are never sold. <a href="/disclosure/">How we make money</a></p>
     </section>
   </div>
 </Base>
