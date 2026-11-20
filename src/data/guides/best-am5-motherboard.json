@@ -2,16 +2,16 @@
   "slug": "best-am5-motherboard",
   "type": "roundup",
   "category": "motherboards",
-  "title": "Best AM5 Motherboard (2026): 6 B650, B850 and X870 Picks",
+  "title": "Best AM5 Motherboard (2026): 7 B650, B850 and X870 Picks",
   "h1": "Best AM5 Motherboard",
   "query": "best am5 motherboard",
-  "description": "The MSI MAG B650 Tomahawk WiFi is the best AM5 motherboard for most builds: Wi-Fi 6E, 2.5 GbE and BIOS Flashback for $170–$200. 6 boards ranked by chipset.",
-  "dek": "Six Socket AM5 boards for Ryzen 7000, 8000 and 9000 chips, with a plain answer on whether B850 or X870 is worth the extra money.",
+  "description": "The MSI MAG B650 Tomahawk WiFi is the best AM5 motherboard for most builds: Wi-Fi 6E, 2.5 GbE and BIOS Flashback for $170–$200. 7 boards ranked by chipset.",
+  "dek": "Seven Socket AM5 boards for Ryzen 7000, 8000 and 9000 chips, with a plain answer on whether B850 or X870 is worth the extra money.",
   "intro": [
     "The MSI MAG B650 Tomahawk WiFi is the best AM5 motherboard for most people. At $170–$200 it pairs a strong power stage with Wi-Fi 6E, 2.5 GbE, three M.2 slots and a BIOS Flashback button, which covers a Ryzen 7 9800X3D or Ryzen 9 9950X3D without paying for PCIe 5.0 you may never use.",
     "This guide is for anyone building on AMD's Socket AM5. Each board is matched to a use: a mainstream gaming build, a high-end X870 system, a PCIe 5.0 SSD on a budget, or a compact micro-ATX PC. We also explain how B650, B850 and X870 differ, since the chipset names hide less change than you might expect."
   ],
-  "quickAnswer": "Buy the MSI MAG B650 Tomahawk WiFi ($170–$200) for most gaming builds. Step up to the MSI MAG X870 Tomahawk WiFi ($260–$300) for PCIe 5.0 graphics, USB4 and 5 GbE. The ASRock B850 Steel Legend WiFi ($180–$220) is the best B850, and the MSI PRO B650M-A WiFi ($130–$160) is the micro-ATX budget pick.",
+  "quickAnswer": "Buy the MSI MAG B650 Tomahawk WiFi ($170–$200) for most gaming builds. Step up to the MSI MAG X870 Tomahawk WiFi ($260–$300) for PCIe 5.0 graphics, USB4 and 5 GbE. The MSI MAG B850 Tomahawk MAX WiFi ($210–$250) is the best B850, with the ASRock Steel Legend ($180–$220) as the cheaper one, and the MSI PRO B650M-A WiFi ($130–$160) is the micro-ATX budget pick.",
   "picks": [
     {
       "id": "msi-mag-b650-tomahawk-wifi",
@@ -31,6 +31,27 @@
       "cons": [
         "No PCIe 5.0 slots",
         "Plain styling"
+      ]
+    },
+    {
+      "id": "msi-mag-b850-tomahawk-max-wifi",
+      "label": "Best B850 Board",
+      "bestFor": "new AM5 builds that want PCIe 5.0, Wi-Fi 7 and 5 GbE without X870 prices",
+      "skipIf": "the B650 Tomahawk is $40 or more cheaper and you have no use for Gen5 or faster networking",
+      "writeup": [
+        "The MSI MAG B850 Tomahawk MAX WiFi is the B850 board to buy. It keeps what made the B650 Tomahawk our top pick, power delivery with headroom for any AM5 chip (MSI lists 80 A smart power stages) and a Flash BIOS button, then adds a PCIe 5.0 x16 graphics slot, a PCIe 5.0 M.2 slot, Wi-Fi 7 and 5 GbE.",
+        "At $210–$250 it costs $30 to $60 more than the B650 Tomahawk, and you should be clear about what that buys. Current graphics cards lose only a percent or two on PCIe 4.0 x16, and a Gen5 SSD loads games about as fast as a good Gen4 drive. The faster networking and the newer BIOS at launch are the parts you will notice; the Gen5 slots are future-proofing.",
+        "Against the ASRock B850 Steel Legend WiFi, the Tomahawk MAX adds 5 GbE in place of 2.5 GbE for about $20 to $30 more. Against the X870 Tomahawk, it gives up only USB4 and saves $40 to $60. MSI also lists V1 and II revisions, so check the exact name on the listing."
+      ],
+      "pros": [
+        "PCIe 5.0 x16 and PCIe 5.0 M.2",
+        "Wi-Fi 7 and 5 GbE",
+        "80 A power stages for any AM5 chip",
+        "Flash BIOS button"
+      ],
+      "cons": [
+        "$30 to $60 more than the B650 Tomahawk",
+        "No USB4"
       ]
     },
     {
@@ -95,13 +116,13 @@
     },
     {
       "id": "asrock-b850-steel-legend-wifi",
-      "label": "Best B850 Board",
+      "label": "Best B850 Value",
       "bestFor": "new builds that want guaranteed Gen5 storage and Ryzen 9000 support out of the box",
-      "skipIf": "the B650 Tomahawk is $30 or more cheaper and you do not need Gen5",
+      "skipIf": "the B850 Tomahawk MAX is within $20, or the B650 Tomahawk is $30 or more cheaper and you do not need Gen5",
       "writeup": [
-        "B850 boards arrived in early 2025 as the newer midrange chipset, and the Steel Legend WiFi is the one to get. B850 requires at least one PCIe 5.0 M.2 slot, so every board in the class supports Gen5 storage, and boards ship with BIOS versions that support Ryzen 9000 from the start. That removes the flashback step some older B650 stock still needs.",
+        "B850 boards arrived in early 2025 as the newer midrange chipset, and the Steel Legend WiFi is the value pick among them. B850 requires at least one PCIe 5.0 M.2 slot, so every board in the class supports Gen5 storage, and boards ship with BIOS versions that support Ryzen 9000 from the start. That removes the flashback step some older B650 stock still needs.",
         "ASRock's Steel Legend boards use a white and silver design that suits white builds, and the board includes Wi-Fi, 2.5 GbE and a solid VRM for midrange and high-end chips. At $180–$220 it overlaps with the B650 Tomahawk, so the choice comes down to whether a Gen5 SSD slot is worth a small premium to you.",
-        "The B850 chipset itself is not new silicon. It uses the same chipset design as B650, so performance and lane counts are close. The real differences are the guaranteed Gen5 M.2 slot, newer board designs and a newer BIOS at launch. If you are buying everything new in 2026 and want fewer surprises during setup, the Steel Legend is a safe, well-rounded choice."
+        "The B850 chipset itself is not new silicon. It uses the same chipset design as B650, so performance and lane counts are close. The real differences are the guaranteed Gen5 M.2 slot, newer board designs and a newer BIOS at launch. If you are buying everything new in 2026 and want fewer surprises during setup, the Steel Legend is a safe, well-rounded choice that usually costs $20 to $30 less than the B850 Tomahawk MAX."
       ],
       "pros": [
         "Guaranteed PCIe 5.0 M.2",
@@ -304,7 +325,7 @@
       "B840 is a cut-down chipset built around PCIe 3.0, and its boards tend to cut VRM quality, ports and slots as well. A discounted B650 board usually costs little more and gives you PCIe 4.0, better VRMs and more ports."
     ]
   ],
-  "bottomLine": "Buy the MSI MAG B650 Tomahawk WiFi for most AM5 builds: it runs any Ryzen 9000 chip at full speed and includes Wi-Fi 6E, 2.5 GbE and BIOS Flashback for $170–$200. Choose the X870 Tomahawk if you want USB4 and PCIe 5.0 everywhere, the ASRock B850 Steel Legend for a guaranteed Gen5 SSD slot on a newer board, and the MSI PRO B650M-A WiFi for a compact budget build.",
+  "bottomLine": "Buy the MSI MAG B650 Tomahawk WiFi for most AM5 builds: it runs any Ryzen 9000 chip at full speed and includes Wi-Fi 6E, 2.5 GbE and BIOS Flashback for $170–$200. Choose the X870 Tomahawk if you want USB4 and PCIe 5.0 everywhere, the B850 Tomahawk MAX WiFi for Gen5 slots, Wi-Fi 7 and 5 GbE on a newer board (or the ASRock B850 Steel Legend to save $20 to $30), and the MSI PRO B650M-A WiFi for a compact budget build.",
   "faqs": [
     {
       "q": "Is B650 still worth buying in 2026?",
@@ -347,7 +368,8 @@
     "ASUS TUF Gaming B650-Plus WiFi spec page",
     "ASRock B850 Steel Legend WiFi spec page",
     "Independent AM5 motherboard and VRM thermal reviews from established hardware outlets",
-    "Independent PCIe 4.0 vs 5.0 GPU scaling reviews"
+    "Independent PCIe 4.0 vs 5.0 GPU scaling reviews",
+    "MSI MAG B850 Tomahawk MAX WiFi product page and Amazon listing"
   ],
   "related": [
     "best-cpu-for-gaming",

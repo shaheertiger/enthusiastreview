@@ -204,7 +204,7 @@
       "text": "The RTX 5050 is the cheapest RTX 50 card, with 8 GB of GDDR6 and a 130 W rating. It brings DLSS 4 and Multi Frame Generation to a lower price, but it is clearly slower than the RTX 5060 while sharing the same 8 GB limit, so the small saving rarely pays off."
     },
     {
-      "name": "NVIDIA GeForce RTX 5060 Ti 8GB",
+      "id": "rtx-5060-ti-8gb",
       "text": "The 8 GB RTX 5060 Ti uses the same chip as the 16 GB model for less money, but it hits the same memory wall as the RTX 5060 in new games. Because the 16 GB card costs only modestly more, we would skip the 8 GB version, especially for 1440p or an older PCIe 3.0 system."
     }
   ],

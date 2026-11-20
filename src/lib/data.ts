@@ -191,7 +191,11 @@ export function rankOf(p: Product) {
 
 /** Guides that pick this product, with the label they give it. */
 export function guidesFeaturing(id: string) {
-  return GUIDES.flatMap((g) => (g.picks ?? []).filter((pk) => pk.id === id).map((pk) => ({ guide: g, label: pk.label })));
+  return GUIDES.filter((g) => !g.noindex).flatMap((g) => [
+    ...(g.picks ?? []).filter((pk) => pk.id === id).map((pk) => ({ guide: g, label: pk.label })),
+    // Notable mentions link back too, so a model page lists every guide that discusses it.
+    ...(g.mentions ?? []).filter((m) => m.id === id).map(() => ({ guide: g, label: 'Notable Mention' })),
+  ]);
 }
 export const comparesFor = (id: string) => COMPARES.filter((c) => c.a === id || c.b === id);
 

@@ -179,10 +179,11 @@ for (const [id, e] of Object.entries(catalog)) {
 console.log(`validate: ${Object.keys(catalog).filter((id) => byId.has(id)).length} of ${products.length} products have a verified Amazon listing and photo`);
 
 // ---- report -------------------------------------------------------------------------------
-const featured = new Set(guides.flatMap((g) => (g.picks ?? []).map((p) => p.id)));
+// A product counts as featured when a guide picks it or links it as a notable mention.
+const featured = new Set(guides.flatMap((g) => [...(g.picks ?? []).map((p) => p.id), ...(g.mentions ?? []).map((m) => m.id).filter(Boolean)]));
 const orphans = products.filter((p) => !featured.has(p.id));
 console.log(`validate: ${products.length} products, ${guides.length} guides, ${compares.length} comparisons, ${terms.length} glossary terms, ${Object.keys(brands).length} brands`);
-if (orphans.length) console.log(`validate: ${orphans.length} products are not picked by any guide: ${orphans.map((p) => p.id).join(', ')}`);
+if (orphans.length) console.log(`validate: ${orphans.length} products are not picked or mentioned by any guide: ${orphans.map((p) => p.id).join(', ')}`);
 if (warnings.length) console.log(`\n${warnings.length} warning(s):\n  ${warnings.join('\n  ')}`);
 if (errors.length) {
   console.error(`\n${errors.length} error(s):\n  ${errors.join('\n  ')}`);
