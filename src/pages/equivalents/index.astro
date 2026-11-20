@@ -1,0 +1,38 @@
+---
+// Hub for the equivalents charts: "<card> NVIDIA equivalent"-style searches are the site's best search
+// traffic (Bing / DuckDuckGo, Nov 2026), so every chart is one click from here and from the menu.
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { SITE } from '../../data/site';
+import { EQUIVALENTS, guidePath, categoryOf } from '../../lib/data';
+
+const charts = EQUIVALENTS().sort((a, b) => (a.category === b.category ? 0 : a.category === 'graphics-cards' ? -1 : 1));
+const groups = [...new Set(charts.map((g) => g.category))].map((c) => ({ label: categoryOf(c).label, items: charts.filter((g) => g.category === c) }));
+const title = 'GPU and CPU Equivalents Charts: AMD, NVIDIA and Intel';
+const description = `${charts.length} equivalents charts: find the NVIDIA match for any Radeon, the AMD match for any Intel CPU, and the desktop GPU that equals a console, laptop or iGPU.`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'CollectionPage', name: title, description, url: `${SITE.url}/equivalents/` },
+    { '@type': 'ItemList', itemListElement: charts.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${guidePath(g)}`, name: g.h1 })) },
+    { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.url}/` }, { '@type': 'ListItem', position: 2, name: 'Equivalents Charts', item: `${SITE.url}/equivalents/` }] },
+  ],
+};
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <div class="wrap hub">
+    <Crumbs items={[{ name: 'Home', href: '/' }, { name: 'Equivalents Charts', href: '/equivalents/' }]} />
+    <h1 class="hub-title">GPU and CPU Equivalents Charts</h1>
+    <p class="hub-dek">Which card matches which: every Radeon, GeForce and Arc GPU, every Intel and Ryzen CPU, plus consoles, laptops and integrated graphics, matched to the closest part you can buy.</p>
+    {groups.map((grp) => (
+      <section>
+        <h2>{grp.label} Equivalents</h2>
+        <div class="grid grid-2">
+          {grp.items.map((g) => (
+            <a class="card" href={guidePath(g)}><span class="card-k">Chart</span><h3>{g.h1}</h3><span class="card-sub">{g.description}</span></a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

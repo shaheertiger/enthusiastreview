@@ -172,6 +172,8 @@ export const mustProduct = (id: string) => {
   return p;
 };
 export const getGuide = (slug: string) => GUIDE_BY_SLUG.get(slug);
+/** The equivalents charts ("<card> NVIDIA equivalent" searches, the site's best search traffic), hub at /equivalents/. */
+export const EQUIVALENTS = () => GUIDES.filter((g) => !g.noindex && /-equivalents?$/.test(g.slug));
 export const getTerm = (id: string) => TERM_BY_ID.get(id);
 export const getBrand = (key: string) => BRAND_BY_KEY.get(key) ?? { key, name: key, blurb: '' };
 export const categoryOf = (key: string) => CATEGORY[key];
