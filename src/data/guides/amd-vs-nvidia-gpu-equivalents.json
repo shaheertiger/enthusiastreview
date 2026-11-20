@@ -152,6 +152,13 @@
       }
     },
     {
+      "h": "What Is the RX 7800 XT NVIDIA Equivalent?",
+      "body": [
+        "The RX 7800 XT's NVIDIA equivalent is the [RTX 4070](/gear/rtx-4070/). The Radeon is slightly faster on average in raster games and has 16 GB of VRAM against 12 GB. In raster it also lands close to an RTX 3080. With ray tracing on, it falls to about RTX 4060 Ti level.",
+        "In NVIDIA's current lineup, the [RTX 5070](/gear/rtx-5070/) is a little faster than the RX 7800 XT in raster and clearly faster with ray tracing, so it is not a worthwhile upgrade on its own. Moving to an [RX 9070 XT](/gear/rx-9070-xt/) or RTX 5070 Ti is."
+      ]
+    },
+    {
       "h": "RX 6000 Series NVIDIA Equivalents",
       "body": [
         "The RX 6000 series is the most searched, because so many of these cards are in use or on the used market. In raster, RDNA 2 lined up with NVIDIA's RTX 30 series. In ray tracing, it is generally the weakest of the cards here, often landing two tiers below its raster match."
@@ -269,6 +276,20 @@
       ]
     },
     {
+      "h": "What Is the RX 6600 NVIDIA Equivalent?",
+      "body": [
+        "The [RX 6600](/gear/rx-6600/)'s NVIDIA equivalent is the RTX 3060 12GB, which is a little faster on average in raster games and has more VRAM. The RX 6600 is faster than an RTX 2060 and clearly faster than an RTX 3050. With ray tracing on, it performs closer to an RTX 3050.",
+        "Against NVIDIA's newer cards, the [RTX 4060](/gear/rtx-4060/) is roughly 20 to 25 percent faster in raster by the broad pattern of independent reviews, and the RTX 5060 faster again. Whether that is worth the extra money is covered in [RX 6600 vs RTX 4060](/compare/rx-6600-vs-rtx-4060/)."
+      ]
+    },
+    {
+      "h": "What Is the RX 6800 XT NVIDIA Equivalent?",
+      "body": [
+        "The RX 6800 XT's NVIDIA equivalent is the RTX 3080 10GB: the two have been roughly even in raster since launch, and the RX 6800 XT has 16 GB against 10 GB. Against the next generation it lands close to an RTX 4070. With ray tracing on, it falls to between an RTX 3060 Ti and RTX 3070.",
+        "The plain RX 6800 is a step lower, slightly faster than an RTX 3070 Ti in raster. Both are strong used buys for 1440p if you rarely turn ray tracing on."
+      ]
+    },
+    {
       "h": "RX 5000, RX 500 and Vega NVIDIA Equivalents (RX 580 Included)",
       "body": [
         "These cards have no ray-tracing hardware at all, so only raster applies. Driver support has also moved on: AMD moved RX 400, RX 500 and Vega cards to legacy support in late 2023, so they get critical fixes rather than regular game optimizations.",
@@ -358,6 +379,160 @@
           ]
         ]
       }
+    },
+    {
+      "h": "NVIDIA to AMD: Which Radeon Matches Your GeForce Card?",
+      "body": [
+        "Going the other way, this table starts from the GeForce card you have, or are looking at, and lists the closest Radeon and Intel Arc card in raster games. The same rule applies in reverse: with ray tracing on, the NVIDIA card pulls ahead of its Radeon match.",
+        "The RTX 5090 and RTX 4090 have no AMD equivalent. AMD's fastest current card, the RX 9070 XT, sits level with an RTX 5070 Ti."
+      ],
+      "table": {
+        "caption": "GeForce to Radeon and Intel Arc, raster",
+        "head": [
+          "NVIDIA card",
+          "Closest AMD (raster)",
+          "Closest Intel Arc (raster)"
+        ],
+        "rows": [
+          [
+            "RTX 5090 / RTX 4090",
+            "None (RX 9070 XT and RX 7900 XTX are far behind)",
+            "None"
+          ],
+          [
+            "RTX 5080",
+            "RX 7900 XTX (a little slower)",
+            "None"
+          ],
+          [
+            "RTX 5070 Ti",
+            "RX 9070 XT (roughly even)",
+            "None"
+          ],
+          [
+            "RTX 5070",
+            "RX 9070 (AMD slightly faster)",
+            "None"
+          ],
+          [
+            "RTX 5060 Ti 16GB",
+            "RX 9060 XT 16GB (roughly even)",
+            "None"
+          ],
+          [
+            "RTX 5060 Ti 8GB",
+            "RX 9060 XT 8GB (roughly even)",
+            "None"
+          ],
+          [
+            "RTX 5060",
+            "Between RX 7600 XT and RX 9060 XT 8GB",
+            "Arc B580 (a little slower)"
+          ],
+          [
+            "RTX 4080 Super / RTX 4080",
+            "RX 7900 XTX (roughly even)",
+            "None"
+          ],
+          [
+            "RTX 4070 Ti Super",
+            "RX 7900 XT (roughly)",
+            "None"
+          ],
+          [
+            "RTX 4070 Super",
+            "RX 7900 GRE (NVIDIA a little faster)",
+            "None"
+          ],
+          [
+            "RTX 4070",
+            "RX 7800 XT (AMD slightly faster)",
+            "None"
+          ],
+          [
+            "RTX 4060 Ti",
+            "RX 7700 XT (AMD a little faster)",
+            "None"
+          ],
+          [
+            "RTX 4060",
+            "RX 7600 (AMD a little slower)",
+            "Arc B580 (roughly even)"
+          ],
+          [
+            "RTX 3090 / RTX 3090 Ti",
+            "RX 6950 XT (roughly)",
+            "None"
+          ],
+          [
+            "RTX 3080 Ti",
+            "RX 6900 XT (roughly)",
+            "None"
+          ],
+          [
+            "RTX 3080",
+            "RX 6800 XT (roughly even)",
+            "None"
+          ],
+          [
+            "RTX 3070 Ti",
+            "RX 6800 (AMD slightly faster)",
+            "None"
+          ],
+          [
+            "RTX 3070",
+            "RX 6750 XT (AMD a little slower)",
+            "None"
+          ],
+          [
+            "RTX 3060 Ti",
+            "RX 6700 XT (roughly even)",
+            "None"
+          ],
+          [
+            "RTX 3060 12GB",
+            "RX 6600 XT (AMD a bit faster at 1080p)",
+            "Arc A750 to A770, or B570"
+          ],
+          [
+            "RTX 3050 8GB",
+            "Between RX 6500 XT and RX 6600",
+            "Arc A580 (Arc faster)"
+          ],
+          [
+            "RTX 2070 Super",
+            "RX 5700 XT (AMD a little slower)",
+            "None"
+          ],
+          [
+            "RTX 2060",
+            "RX 5600 XT (roughly)",
+            "None"
+          ],
+          [
+            "GTX 1080 Ti",
+            "Radeon VII (roughly)",
+            "None"
+          ],
+          [
+            "GTX 1060 6GB",
+            "RX 580 (roughly even)",
+            "None"
+          ],
+          [
+            "GTX 1650",
+            "RX 6400 (roughly)",
+            "Arc A380 (roughly)"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "What About Intel Arc?",
+      "body": [
+        "Intel's Arc cards slot into the same chart at the low and middle tiers. The Arc B580 roughly matches an RTX 4060 and is a little faster than an RX 7600 XT, the A750 lands near an RTX 3060 and RX 6600, and the A380 matches a GTX 1650. Arc holds up better than Radeon with ray tracing at the same tier, but it needs Resizable BAR and loses more performance on older CPUs.",
+        "The full chart, with every Arc card from the A310 to the B580, is in [Intel Arc GPU equivalents](/intel-arc-gpu-equivalents/)."
+      ]
     }
   ],
   "mistakes": [
@@ -405,12 +580,12 @@
       "a": "The RTX 3060 Ti, roughly even in raster games. The RX 6700 XT has 12 GB against 8 GB, which helps with high textures, while the RTX 3060 Ti is faster with ray tracing and supports DLSS. The RTX 4060 Ti is also close in raster."
     },
     {
-      "q": "What is the RX 6500 XT equivalent to in NVIDIA?",
-      "a": "The GTX 1650 Super, roughly, when the RX 6500 XT runs on a PCIe 4.0 motherboard. On PCIe 3.0 its four-lane link and 4 GB of memory cost noticeable performance. The RTX 3050 8GB is clearly faster."
-    },
-    {
       "q": "Are AMD GPUs worse at ray tracing than NVIDIA?",
       "a": "Yes, at each raster tier. RX 9000 cards closed much of the gap and usually perform like the NVIDIA card one tier below their raster match. Older RX 7000 and RX 6000 cards fall further behind, especially in path-traced games."
+    },
+    {
+      "q": "What AMD card is equal to the RTX 4070?",
+      "a": "The RX 7800 XT, which is slightly faster in raster games and has 16 GB of VRAM against 12 GB. The RX 6800 XT is also close in raster. With ray tracing on, the RTX 4070 is about a tier ahead of both."
     }
   ],
   "sources": [

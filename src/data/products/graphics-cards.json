@@ -91,6 +91,13 @@
       "Owner reports of melted 16-pin connectors",
       "Overkill below 4K"
     ],
+    "equivalent": {
+      "heading": "RTX 5090 AMD Equivalent",
+      "body": [
+        "AMD has no equivalent to the RTX 5090. Its fastest current card, the RX 9070 XT, performs like an RTX 5070 Ti, and the older RX 7900 XTX like an RTX 4080 Super. By the broad pattern of independent reviews, the RTX 5090 is well over 50 percent faster than either at 4K, and it has 32 GB of VRAM against 16 GB or 24 GB.",
+        "If you want the fastest Radeon anyway, the RX 9070 XT is the one to buy for its FSR 4 support. The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) lists the GeForce match for every Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -226,6 +233,13 @@
       "Costs 30–45% more than the RTX 5070 Ti for about 15% more speed",
       "16 GB may limit 4K path tracing over time"
     ],
+    "equivalent": {
+      "heading": "RTX 5080 AMD Equivalent",
+      "body": [
+        "AMD has no current card that matches the RTX 5080. The closest is the last-generation RX 7900 XTX, which is a little slower in raster games and much slower with ray tracing, though it carries 24 GB of VRAM against 16 GB. The RX 9070 XT, AMD's fastest RDNA 4 card, sits a tier lower, level with the RTX 5070 Ti.",
+        "For the price gap between the two, see [RX 9070 XT vs RTX 5080](/compare/rx-9070-xt-vs-rtx-5080/). The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) matches every other Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -361,6 +375,13 @@
       "Street prices often above the $749 launch price",
       "No Founders Edition, so prices vary widely by model"
     ],
+    "equivalent": {
+      "heading": "RTX 5070 Ti AMD Equivalent",
+      "body": [
+        "The RTX 5070 Ti's AMD equivalent is the RX 9070 XT. Independent reviews put the two roughly level in raster games at 1440p and 4K, and both have 16 GB of VRAM. With heavy ray tracing, the RTX 5070 Ti pulls ahead, and the RX 9070 XT behaves more like an RTX 5070. Among older Radeons, the RX 7900 XTX is roughly even in raster.",
+        "The full trade-off is in [RTX 5070 Ti vs RX 9070 XT](/compare/rtx-5070-ti-vs-rx-9070-xt/). The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) matches every Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -492,6 +513,13 @@
       "RX 9070 offers 16 GB at a similar price",
       "Small gain over the RTX 4070 Super"
     ],
+    "equivalent": {
+      "heading": "RTX 5070 AMD Equivalent",
+      "body": [
+        "The RTX 5070's closest AMD equivalent is the RX 9070, which is slightly faster in raster games and has 16 GB of VRAM against 12 GB. With ray tracing on, the two land roughly level. The RX 9070 XT is a tier above in raster, and from the previous generation the RX 7900 GRE and RX 7800 XT are close but a little slower.",
+        "See [RTX 5070 vs RX 9070](/compare/rtx-5070-vs-rx-9070/) and [RTX 5070 vs RX 9070 XT](/compare/rtx-5070-vs-rx-9070-xt/) for the head-to-heads, or the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) for every Radeon match."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -623,6 +651,13 @@
       "128-bit bus limits 1440p headroom",
       "Usually costs more than the RX 9060 XT 16GB"
     ],
+    "equivalent": {
+      "heading": "RTX 5060 Ti 16GB AMD Equivalent",
+      "body": [
+        "The RTX 5060 Ti 16GB's AMD equivalent is the RX 9060 XT 16GB. Both have 16 GB, and independent reviews put them roughly even in raster games; the Radeon usually costs less, while the GeForce is ahead with ray tracing and has wider DLSS 4 support. From the previous generation, the RX 7700 XT is close in raster.",
+        "The full comparison is [RTX 5060 Ti 16GB vs RX 9060 XT 16GB](/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/). The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) matches every Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -749,6 +784,13 @@
       "x8 link hurts more on PCIe 3.0 boards when VRAM runs out",
       "16 GB cards cost only $50 to $100 more"
     ],
+    "equivalent": {
+      "heading": "RTX 5060 AMD Equivalent",
+      "body": [
+        "The RTX 5060 has no exact AMD twin. In raster games it sits between the RX 7600 XT and the RX 9060 XT 8GB, which is a little faster, and it is roughly level with the older RX 6750 XT. With ray tracing on, the RTX 5060 is ahead of all three. Its 8 GB of VRAM matches the RX 9060 XT 8GB; the RX 9060 XT 16GB costs more but has twice the memory.",
+        "See [RTX 5060 vs RX 9060 XT 16GB](/compare/rtx-5060-vs-rx-9060-xt-16gb/), or the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) for every Radeon match."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -881,6 +923,13 @@
       "FSR 4 is in fewer games than DLSS",
       "Street prices often above the $599 launch price"
     ],
+    "equivalent": {
+      "heading": "RX 9070 XT NVIDIA Equivalent",
+      "body": [
+        "The RX 9070 XT's NVIDIA equivalent is the RTX 5070 Ti. Independent reviews put the two roughly level in raster games at 1440p and 4K, and both have 16 GB of VRAM. Against the previous generation, it lands close to an RTX 4080 in raster. With ray tracing on, it behaves more like an RTX 5070.",
+        "See [RTX 5070 Ti vs RX 9070 XT](/compare/rtx-5070-ti-vs-rx-9070-xt/) for the head-to-head. The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) lists the GeForce match for every Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -1016,6 +1065,13 @@
       "Often only $50 to $100 below the RX 9070 XT",
       "FSR 4 is in fewer games than DLSS"
     ],
+    "equivalent": {
+      "heading": "RX 9070 NVIDIA Equivalent",
+      "body": [
+        "The RX 9070's NVIDIA equivalent is the RTX 5070. The Radeon is slightly faster in raster games and has 16 GB of VRAM against 12 GB; with ray tracing on the two are roughly level. In raster it also sits near the older RTX 4070 Ti Super.",
+        "See [RTX 5070 vs RX 9070](/compare/rtx-5070-vs-rx-9070/), or the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) for every Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -1143,6 +1199,13 @@
       "128-bit bus limits 1440p headroom",
       "Easy to confuse with the 8 GB version"
     ],
+    "equivalent": {
+      "heading": "RX 9060 XT 16GB NVIDIA Equivalent",
+      "body": [
+        "The RX 9060 XT 16GB's NVIDIA equivalent is the RTX 5060 Ti 16GB. Both have 16 GB, and they are roughly even in raster games; the Radeon usually costs less. With ray tracing on, it behaves more like an RTX 5060.",
+        "See [RTX 5060 Ti 16GB vs RX 9060 XT 16GB](/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/). The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) lists the GeForce match for every Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -1274,6 +1337,13 @@
       "PCIe 4.0 x8 loses a little on PCIe 3.0 boards",
       "Less consistent in older games"
     ],
+    "equivalent": {
+      "heading": "Arc B580 NVIDIA and AMD Equivalents",
+      "body": [
+        "The Arc B580's NVIDIA equivalent is the RTX 4060: independent reviews put the B580 roughly even at 1080p and a little faster at 1440p, where its 12 GB helps. Its AMD equivalent is the RX 7600 XT, with the B580 slightly faster in most games. The RTX 5060 is a little faster than the B580 in raster.",
+        "The [Intel Arc GPU equivalents chart](/intel-arc-gpu-equivalents/) matches every Arc card, A380 to B580, against GeForce and Radeon. For head-to-heads, see [RTX 5060 vs Arc B580](/compare/rtx-5060-vs-arc-b580/) and [Arc B580 vs RX 9060 XT 16GB](/compare/arc-b580-vs-rx-9060-xt-16gb/)."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -1401,6 +1471,13 @@
       "New stock is thin and availability varies",
       "x8 link hurts more on PCIe 3.0 boards"
     ],
+    "equivalent": {
+      "heading": "RX 6600 NVIDIA Equivalent",
+      "body": [
+        "The RX 6600's NVIDIA equivalent is the RTX 3060 12GB, which is a little faster on average in raster games. The RX 6600 is faster than an RTX 2060 and well ahead of an RTX 3050. With ray tracing on, it performs closer to an RTX 3050. In NVIDIA's current lineup, the RTX 4060 and RTX 5060 are both clearly faster.",
+        "See [RX 6600 vs RTX 4060](/compare/rx-6600-vs-rtx-4060/) to judge whether the upgrade is worth the money. The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) lists the GeForce match for every Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -1532,6 +1609,13 @@
       "Mostly used or clearance stock",
       "Driver features now arrive on newer Radeons first"
     ],
+    "equivalent": {
+      "heading": "RX 6700 XT NVIDIA Equivalent",
+      "body": [
+        "The RX 6700 XT's NVIDIA equivalent is the RTX 3060 Ti. They are roughly even in raster games, and the RTX 4060 Ti is also close. The RX 6700 XT has 12 GB against 8 GB, which helps with high textures. With ray tracing on, it falls to about RTX 3060 level, and it cannot use DLSS.",
+        "The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) lists the GeForce match for every Radeon card, including the RX 6700 10GB and RX 6750 XT."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -1659,6 +1743,13 @@
       "x8 link hurts more on PCIe 3.0 boards",
       "No Multi Frame Generation"
     ],
+    "equivalent": {
+      "heading": "RTX 4060 AMD Equivalent",
+      "body": [
+        "The RTX 4060's AMD equivalent is the RX 7600, which is a little slower on average in raster games; both have 8 GB. The RX 6650 XT is roughly even, and the RX 6700 10GB is slightly faster. With ray tracing on, the RTX 4060 is ahead of all three, and it supports DLSS 3 frame generation.",
+        "If you are weighing a cheaper Radeon, see [RX 6600 vs RTX 4060](/compare/rx-6600-vs-rtx-4060/). The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) lists the match for every Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -1790,6 +1881,13 @@
       "Stock is thinning",
       "No Multi Frame Generation"
     ],
+    "equivalent": {
+      "heading": "RTX 4070 AMD Equivalent",
+      "body": [
+        "The RTX 4070's AMD equivalent is the RX 7800 XT, which is slightly faster in raster games and has 16 GB of VRAM against 12 GB. The RX 6800 XT is also close in raster. With ray tracing, the RTX 4070 is clearly ahead of both, roughly a tier above. In the current generation, the RX 9070 is faster in raster and close in ray tracing.",
+        "The [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) lists the match for every Radeon card, RX 580 to RX 9070 XT."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -1917,6 +2015,13 @@
       "Only $50 to $80 cheaper than the 16 GB model",
       "PCIe 5.0 x8 loses more on PCIe 3.0 boards when VRAM fills"
     ],
+    "equivalent": {
+      "heading": "RTX 5060 Ti 8GB AMD Equivalent",
+      "body": [
+        "The RTX 5060 Ti 8GB's AMD equivalent is the RX 9060 XT 8GB. The two are roughly even in raster games, and both run into the same 8 GB limit with ultra textures at 1440p. The RTX 5060 Ti is faster with ray tracing; the Radeon is usually cheaper.",
+        "See [RTX 5060 Ti 8GB vs RX 9060 XT 8GB](/compare/rtx-5060-ti-8gb-vs-rx-9060-xt-8gb/), or the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) for every Radeon match."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [
@@ -2027,6 +2132,13 @@
       "The 16 GB model costs only $60 to $90 more",
       "FSR 4 is in fewer games than DLSS 4"
     ],
+    "equivalent": {
+      "heading": "RX 9060 XT 8GB NVIDIA Equivalent",
+      "body": [
+        "The RX 9060 XT 8GB's NVIDIA equivalent is the RTX 5060 Ti 8GB: the two are roughly even in raster games and share the same 8 GB limit. It is a little faster than the RTX 5060 in raster, and closer to it with ray tracing on.",
+        "See [RTX 5060 Ti 8GB vs RX 9060 XT 8GB](/compare/rtx-5060-ti-8gb-vs-rx-9060-xt-8gb/), or the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) for every Radeon card."
+      ]
+    },
     "extra": {
       "heading": "Drivers and Updates",
       "body": [

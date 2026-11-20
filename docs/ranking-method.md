@@ -81,6 +81,20 @@ What it adds to 1b:
 4. **Product snippets show at position 10.4** (168 impressions): the comparison and guide pages carry the
    products as structured data, as ours now do.
 
+### 1d. This domain's own search clicks (Vercel Analytics, 20 Oct to 20 Nov 2026)
+
+Search referrers: DuckDuckGo 57 visitors, Bing 25, Google 6, Yahoo 6, Ecosia 3 (DuckDuckGo and Yahoo use Bing's
+index, so Bing drives about 90% of search visits). Leaving out the 410'd dehumidifier URLs, the page that earns
+the most is `/amd-vs-nvidia-gpu-equivalents/` (6 search visitors in the month, 5 of them in the last 24 hours),
+then single visits to comparisons, long-tail guides, how-tos and a glossary term.
+
+**Doubled down (20 Nov 2026):** the equivalents format is now a cluster. The GPU chart gained a GeForce →
+Radeon → Arc reverse table and RX 7800 XT / RX 6800 XT / RX 6600 question H2s; the CPU chart gained a Ryzen →
+Intel reverse table; a new `/intel-arc-gpu-equivalents/` covers Arc. Every GPU and CPU model page has a
+"<model> NVIDIA / AMD / Intel Equivalent" H2 (`equivalent` in the product JSON) linking to the chart, and
+cross-brand comparisons list the matching chart first under Related. Next in the same format: laptop vs desktop
+GPU equivalents, and "<card> equivalent" H2s for any GPU added later.
+
 ## 2. Site structure (copied from the sister sites)
 
 | Sister-site pattern | Here |

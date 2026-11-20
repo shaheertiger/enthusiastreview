@@ -132,6 +132,38 @@
       }
     },
     {
+      "h": "AMD to Intel: Which Intel CPU Matches Your Ryzen?",
+      "body": [
+        "Going the other way, this table starts from the Ryzen chip you have, or are looking at, and lists the closest Intel chip for gaming and for multi-threaded work. The same split applies: Intel's hybrid chips win multi-thread tests with extra efficient cores, so a Ryzen usually matches a higher-tier Intel chip in games than in rendering.",
+        "AMD's X3D chips are the exception in games. The [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/), [Ryzen 9 9950X3D](/gear/ryzen-9-9950x3d/) and [Ryzen 7 7800X3D](/gear/ryzen-7-7800x3d/) have no Intel gaming equivalent, because their stacked [3D V-Cache](/glossary/3d-v-cache/) puts them ahead of the Core i9-14900K and Core Ultra 9 285K in most games."
+      ],
+      "table": {
+        "caption": "AMD Ryzen to Intel Core, gaming and multi-thread",
+        "head": ["AMD CPU", "Closest Intel for gaming", "Closest Intel for multi-thread"],
+        "rows": [
+          ["Ryzen 9 9950X3D", "None (faster in games than every Intel chip)", "Core Ultra 9 285K (roughly)"],
+          ["Ryzen 9 9950X", "Core Ultra 7 265K (roughly)", "Core Ultra 9 285K (roughly)"],
+          ["Ryzen 9 9900X", "Core Ultra 7 265K (roughly)", "Core i7-14700K (Intel a little faster)"],
+          ["Ryzen 7 9800X3D", "None (faster in games than every Intel chip)", "Core i5-14600K or Core Ultra 5 245K"],
+          ["Ryzen 7 9700X", "Core Ultra 7 265K or Core i7-14700K", "Core Ultra 5 245K (roughly)"],
+          ["Ryzen 5 9600X", "Core i5-14600K (roughly)", "Core i5-14400F (roughly)"],
+          ["Ryzen 9 7950X", "Core i7-13700K (roughly)", "Core i9-14900K (roughly)"],
+          ["Ryzen 7 7800X3D", "None (a little faster than Core i9-14900K)", "Core i5-14400F (roughly)"],
+          ["Ryzen 7 7700X", "Core i7-13700K (roughly)", "Core i5-13600K (roughly)"],
+          ["Ryzen 5 7600X", "Core i5-13600K or Core Ultra 5 245K", "Core i5-13400F to i5-14400F"],
+          ["Ryzen 5 7600", "Core i5-14400F (AMD a bit faster)", "Between Core i5-12400F and i5-13400F"],
+          ["Ryzen 7 5800X3D", "Core i9-12900K (roughly)", "Core i5-12600K (Intel a little faster)"],
+          ["Ryzen 7 5700X3D", "Core i7-12700K (roughly)", "Core i5-13400F (roughly)"],
+          ["Ryzen 7 5800X", "Core i9-11900K (roughly)", "Core i5-12600K (roughly)"],
+          ["Ryzen 7 5700X", "Core i7-11700K (roughly)", "Core i5-13400F (roughly)"],
+          ["Ryzen 5 5600X", "Core i5-12400F (Intel a little faster)", "Core i5-12400F (roughly)"],
+          ["Ryzen 5 5600", "Core i5-11400F (AMD a little faster)", "Core i5-11400F (roughly)"],
+          ["Ryzen 5 5500", "Core i3-12100F (roughly)", "Core i5-10400F (roughly)"],
+          ["Ryzen 5 3600", "Core i5-10400F (roughly)", "Core i5-10400F (roughly)"]
+        ]
+      }
+    },
+    {
       "h": "Does the Graphics Card Change the Match?",
       "body": [
         "Yes, it shrinks the differences. The gaming matches above reflect CPU-limited testing with a fast graphics card at 1080p. At 1440p or 4K, or with a mid-range GPU, the graphics card sets the frame rate, and chips one or two rows apart can look nearly identical.",
@@ -170,6 +202,10 @@
     {
       "q": "What is the AMD equivalent of the i5-14600K?",
       "a": "The Ryzen 5 9600X in games and the Ryzen 7 9700X in multi-threaded work. The i5-14600K's 14 cores and 20 threads give it a clear multi-thread lead over the six-core 9600X, while gaming performance is roughly level."
+    },
+    {
+      "q": "What is the Intel equivalent of the Ryzen 7 9800X3D?",
+      "a": "In games, Intel has none: the 9800X3D is faster than the Core i9-14900K and Core Ultra 9 285K in most titles. In multi-threaded work, its eight cores land closer to a Core i5-14600K or Core Ultra 5 245K."
     },
     {
       "q": "Is Ryzen 5 equivalent to Core i5?",

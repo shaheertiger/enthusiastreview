@@ -121,6 +121,13 @@ const jsonLd = {
         <div class="cons"><h3>Cons</h3><ul>{p.cons.map((t) => <li>{t}</li>)}</ul></div>
       </div>
 
+      {p.equivalent && (
+        <>
+          <h2 id="equivalent">{p.equivalent.heading}</h2>
+          {p.equivalent.body.map((t) => <p set:html={inline(t, ctx)} />)}
+        </>
+      )}
+
       {p.extra && (
         <>
           <h2 id="extra">{p.extra.heading.includes(p.short) ? p.extra.heading : `${p.short} ${p.extra.heading}`}</h2>

@@ -1,0 +1,127 @@
+{
+  "slug": "intel-arc-gpu-equivalents",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Intel Arc GPU Equivalents: NVIDIA and AMD Match for Every Card",
+  "h1": "Intel Arc GPU Equivalents",
+  "query": "intel arc nvidia equivalent",
+  "description": "The Arc B580 roughly equals an RTX 4060 and RX 7600 XT, and the A750 an RTX 3060. Find the NVIDIA and AMD match for every Intel Arc card, A310 to B580.",
+  "dek": "Find the closest GeForce and Radeon card to any Intel Arc GPU, with the driver and CPU catches that change the answer.",
+  "quickAnswer": "In modern games, the Arc B580 roughly equals an RTX 4060 and is a little faster than an RX 7600 XT. The B570 sits near an RTX 3060 12GB and RX 7600. The A770 matches an RTX 3060 to RX 6600 XT, the A750 an RTX 3060 and RX 6600, the A580 sits just below the RX 6600, and the A380 roughly equals a GTX 1650 or RX 6400.",
+  "intro": [
+    "This chart matches every desktop Intel Arc card, from the current Battlemage B580 and B570 back to the Alchemist A770, A750, A580, A380 and A310, to the NVIDIA and AMD cards that perform most like it in raster games. A separate column covers ray tracing, where Arc does better than its price suggests.",
+    "Equivalents follow the broad pattern of published independent reviews, rounded to the nearest card. We have not bench-tested these GPUs. Arc results swing more from game to game than NVIDIA or AMD results do, so read the notes under each table before you buy."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart, and Why Arc Results Vary More",
+      "body": [
+        "Each row shows the GeForce and Radeon card with the closest average raster performance at the resolution the Arc card was built for: 1080p for the A380 and A310, 1080p and 1440p for the rest. Roughly means within about 5 to 10 percent on average.",
+        "Arc cards are newer to the market than GeForce and Radeon, and their drivers matured in public. Intel's driver updates since 2022 have raised performance in DirectX 11 and older games a great deal, but the spread between games is still wider than on NVIDIA or AMD. A card that matches an RTX 4060 on average can be well ahead in one modern DirectX 12 title and behind in an older one.",
+        "Two platform conditions change the match more than anything else. Arc needs [Resizable BAR](/glossary/resizable-bar/) turned on in the BIOS, and without it performance drops sharply. And the B580 and B570 lean harder on the CPU than GeForce or Radeon cards do, so on an older processor they fall further behind their usual match. Both are covered below."
+      ]
+    },
+    {
+      "h": "Arc B-Series (Battlemage) NVIDIA and AMD Equivalents",
+      "body": [
+        "Intel's second-generation Arc cards compete in the $200 to $300 band against the RTX 4060, RTX 5060, RX 7600 and RX 9060 XT 8GB. They bring more VRAM than their NVIDIA match at the same price."
+      ],
+      "table": {
+        "caption": "Intel Arc B-series to GeForce and Radeon, raster and ray tracing",
+        "head": ["Arc card", "VRAM", "Closest NVIDIA (raster)", "Closest AMD (raster)", "With ray tracing, closer to"],
+        "rows": [
+          ["Arc B580", "12 GB", "RTX 4060 (Arc a little faster at 1440p)", "RX 7600 XT (Arc slightly faster)", "RTX 4060; ahead of RX 7600 XT"],
+          ["Arc B570", "10 GB", "RTX 3060 12GB (roughly)", "RX 7600 (roughly)", "RTX 3060"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Arc B580 NVIDIA Equivalent?",
+      "body": [
+        "The [Arc B580](/gear/arc-b580/)'s NVIDIA equivalent is the [RTX 4060](/gear/rtx-4060/). Independent reviews put the two roughly level at 1080p, with the B580 a little ahead at 1440p, where its 12 GB of VRAM and wider memory bus help. The newer [RTX 5060](/gear/rtx-5060/) is a little faster than the B580 in raster, and has DLSS 4 with multi frame generation, but only 8 GB.",
+        "With ray tracing on, the B580 stays close to the RTX 4060, which is unusual for a non-NVIDIA card: Intel's ray-tracing hardware holds up better than AMD's at this price. For the head-to-head with NVIDIA's current card, see [RTX 5060 vs Arc B580](/compare/rtx-5060-vs-arc-b580/)."
+      ]
+    },
+    {
+      "h": "What Is the Arc B580 AMD Equivalent?",
+      "body": [
+        "The B580's AMD equivalent is the RX 7600 XT, with the Arc card slightly faster on average in raster and clearly faster with ray tracing. The RX 7600 XT has 16 GB against 12 GB. The older RX 6700 10GB is also close in raster.",
+        "AMD's current RX 9060 XT 8GB is a little faster than the B580 in raster and costs about the same; the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) is a tier above both and costs more. That comparison is in [Arc B580 vs RX 9060 XT 16GB](/compare/arc-b580-vs-rx-9060-xt-16gb/)."
+      ]
+    },
+    {
+      "h": "Arc A-Series (Alchemist) NVIDIA and AMD Equivalents",
+      "body": [
+        "The first Arc cards launched in 2022 and are now mostly found used or on clearance. Their raster matches improved with each driver release, so older reviews undersell them in DirectX 11 games."
+      ],
+      "table": {
+        "caption": "Intel Arc A-series to GeForce and Radeon, raster and ray tracing",
+        "head": ["Arc card", "VRAM", "Closest NVIDIA (raster)", "Closest AMD (raster)", "With ray tracing, closer to"],
+        "rows": [
+          ["Arc A770 16GB", "16 GB", "RTX 3060 to RTX 3060 Ti", "RX 6600 XT to RX 6650 XT", "RTX 3060"],
+          ["Arc A770 8GB", "8 GB", "RTX 3060 (roughly)", "RX 6600 XT (roughly)", "RTX 3060 or a little below"],
+          ["Arc A750", "8 GB", "RTX 3060 (a little slower)", "RX 6600 (Arc a bit faster)", "RTX 3050 to RTX 3060"],
+          ["Arc A580", "8 GB", "Between RTX 3050 8GB and RTX 3060", "RX 6600 (a little slower)", "RTX 3050"],
+          ["Arc A380", "6 GB", "GTX 1650 (roughly)", "RX 6400 (roughly)", "Not practical"],
+          ["Arc A310", "4 GB", "GTX 1050 (roughly)", "Below RX 6400", "Not practical"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Arc A770 NVIDIA Equivalent?",
+      "body": [
+        "The Arc A770 16GB's NVIDIA equivalent is the RTX 3060 12GB in most games, edging toward an RTX 3060 Ti in recent DirectX 12 and Vulkan titles at 1440p. Its AMD equivalent is the RX 6600 XT to RX 6650 XT. The 16 GB of VRAM is its strongest point: it handles high texture settings that 8 GB cards cannot.",
+        "The 8 GB A770 performs a little below the 16 GB card and lines up with the RTX 3060 and RX 6600 XT. Today, a B580 is faster than either A770 at a lower price, so the A770 only makes sense used and cheap."
+      ]
+    },
+    {
+      "h": "What Is the Arc A750 NVIDIA Equivalent?",
+      "body": [
+        "The Arc A750's NVIDIA equivalent is the RTX 3060, which is a little faster on average in raster. Its AMD equivalent is the [RX 6600](/gear/rx-6600/), which the A750 beats by a small margin in most modern games. With ray tracing on, the A750 sits between an RTX 3050 and RTX 3060, ahead of the RX 6600.",
+        "The A580 uses a cut-down version of the same chip and lands just below the RX 6600, between an RTX 3050 8GB and an RTX 3060. Both are 1080p cards with 8 GB."
+      ]
+    },
+    {
+      "h": "What Is the Arc A380 Equivalent?",
+      "body": [
+        "The Arc A380 roughly matches a GTX 1650 and an RX 6400 in games, with 6 GB of VRAM against 4 GB on both. It is a 1080p low-to-medium settings card. Its real strength is the media engine: hardware AV1 encoding, which makes it a popular second card for streaming and video servers. The A310 is slower again, around a GTX 1050."
+      ]
+    },
+    {
+      "h": "Does Your CPU Change the Arc Equivalent?",
+      "body": [
+        "Yes, more than with NVIDIA or AMD. Independent testing found that the B580 and B570 lose more performance than an RTX 4060 or RX 7600 when paired with an older or slower CPU, because the Arc driver puts more load on the processor. On a Ryzen 5 2600 or Ryzen 5 3600, the B580 can fall behind an RTX 4060 that it beats on a fast CPU.",
+        "On a Ryzen 5 7600, Ryzen 7 9800X3D or a recent Core i5 or better, the matches in the tables hold. On an older platform, treat the B580 as roughly an RX 7600 instead. Our [GPU guide for the Ryzen 5 2600 and 3600](/best-gpu-for-ryzen-5-2600-and-3600/) covers that pairing, and the [bottleneck calculator](/tools/bottleneck-calculator/) shows how much headroom your CPU has.",
+        "Resizable BAR is the other must. It needs a 10th-gen Intel or Ryzen 3000 platform or newer with the setting enabled in the BIOS. Without it, Arc cards lose a large share of their performance, and the equivalents in this chart no longer apply."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying Arc for an older PC without Resizable BAR", "If your board cannot enable Resizable BAR, an Arc card will perform well below its match in this chart. Check the BIOS before you buy; an RTX 4060 or RX 7600 does not depend on it."],
+    ["Pairing a B580 with an old CPU", "The B580 loses more frames on a slow processor than its GeForce and Radeon rivals do. On a Ryzen 5 2600 or similar, the cheaper RX 7600 can match it, and an upgrade to the CPU may help more than the GPU."],
+    ["Judging Alchemist by 2022 reviews", "Arc A-series performance in DirectX 11 and older games improved a lot through driver updates. Launch-era reviews undersell the A750 and A770 today; use recent testing."],
+    ["Ignoring the upscaler", "Arc cards use XeSS, which runs on any modern GPU but works best on Arc. NVIDIA's DLSS is supported in more games. If a game you play has DLSS but not XeSS, the GeForce match is the safer buy."]
+  ],
+  "bottomLine": "For raster gaming on a modern CPU, the quick matches are: Arc B580 to RTX 4060 and RX 7600 XT, B570 to RTX 3060 12GB and RX 7600, A770 16GB to RTX 3060 and RX 6600 XT, A750 to RTX 3060 and RX 6600, A580 just below RX 6600, and A380 to GTX 1650 and RX 6400. Arc holds up better than AMD with ray tracing at the same tier. Check Resizable BAR and your CPU before buying: on an older platform, drop each Arc card a tier.",
+  "faqs": [
+    {"q": "What is the Arc B580 equivalent to in NVIDIA?", "a": "The RTX 4060. The two are roughly level at 1080p, and the B580 is a little faster at 1440p thanks to 12 GB of VRAM against 8 GB. The newer RTX 5060 is slightly faster than the B580 in raster."},
+    {"q": "What is the Arc B580 equivalent to in AMD?", "a": "The RX 7600 XT, with the B580 slightly faster in raster games and clearly faster with ray tracing. The RX 9060 XT 8GB is a little faster than the B580 at a similar price."},
+    {"q": "What NVIDIA card is the Arc A750 equal to?", "a": "The RTX 3060 12GB, which is a little faster on average in raster games. The A750 is faster than an RTX 3050 and slightly ahead of an AMD RX 6600."},
+    {"q": "What is the Arc A770 equivalent to?", "a": "The RTX 3060 in most games, closer to an RTX 3060 Ti in recent DirectX 12 titles. On the AMD side it matches an RX 6600 XT to RX 6650 XT. The 16 GB version ages better than 8 GB rivals."},
+    {"q": "What is the Arc A380 equivalent to?", "a": "Roughly a GTX 1650 or an RX 6400 in games, with 6 GB of VRAM. It is better known as a cheap AV1 encoding card for streaming and media servers."},
+    {"q": "Is Intel Arc better than AMD at ray tracing?", "a": "At the same raster tier, usually yes. The B580 stays close to an RTX 4060 with ray tracing on, while the RX 7600 XT falls behind it. Arc still trails NVIDIA in heavy path-traced games."},
+    {"q": "Does Intel Arc work on older PCs?", "a": "It works best on a 10th-gen Intel or Ryzen 3000 system or newer with Resizable BAR enabled. On older platforms without it, or with a slow CPU, Arc cards lose more performance than GeForce or Radeon cards."},
+    {"q": "Is the Arc B570 worth it over the B580?", "a": "Only when it is at least $30 to $40 cheaper. The B570 has 10 GB against 12 GB and is about 10 to 15 percent slower, landing near an RTX 3060 12GB and RX 7600."}
+  ],
+  "sources": [
+    "Intel Arc B-series and A-series graphics specifications",
+    "NVIDIA GeForce RTX 50, RTX 40, RTX 30 and GTX 16 series specifications",
+    "AMD Radeon RX 9000, RX 7000 and RX 6000 series specifications",
+    "TechPowerUp GPU database relative performance listings",
+    "Independent GPU reviews from Hardware Unboxed, Gamers Nexus, TechPowerUp and Tom's Hardware GPU hierarchy, including CPU-scaling tests of the Arc B580",
+    "Intel Arc graphics driver release notes"
+  ],
+  "products": ["arc-b580", "rtx-4060", "rtx-5060", "rx-9060-xt-8gb", "rx-6600"],
+  "related": ["amd-vs-nvidia-gpu-equivalents", "best-budget-graphics-card", "nvidia-vs-amd"]
+}
