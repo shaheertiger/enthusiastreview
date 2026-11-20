@@ -54,6 +54,33 @@ Author: the same named author as the sister site, Justin Lee (Person with `alumn
 `knowsAbout`, `sameAs` LinkedIn), on every Article, Review and the `/authors/justin-lee/` ProfilePage.
 Only facts from his real profile go in `src/data/authors.ts`.
 
+### 1c. best-proteinpowder.com (last 24 hours to 19 Nov 2026, 6 clicks / 1,776 impressions)
+
+| Page type | Pages | Clicks | Impressions | Avg position | CTR |
+|---|---|---|---|---|---|
+| Comparison `/compare/a-vs-b/` | 64 | **3** | 207 | **6.6** | **1.4%** |
+| Brand review `/<brand>-review/` | 43 | 1 | 297 | 11.6 | 0.3% |
+| Brand hub `/brands/<brand>/` + `/brands/` | 30 | 0 | 148 | 14–16 | 0% |
+| Buyer's guide `/best-x/` | 62 | 2 | 958 | 34.0 | 0.2% |
+
+What it adds to 1b:
+
+1. **Comparisons are the best page type here: half the clicks at position 6.6.** Each pair gets only a
+   few impressions, but dozens of pairs rank 1–9, so the number of pairs people search is what scales.
+   The searches are short names, "isopure vs dymatize", "ghost vs optimum nutrition", and **sibling
+   pairs** inside one brand ("dymatize elite whey vs iso 100"). Here that means "rtx 5060 ti 8gb vs
+   16gb", "9600 vs 9600x", "b650 tomahawk vs b850 tomahawk".
+2. **Its comparison H2s state the answer**, built from data: "Price: Gold Standard 100% Whey is 32%
+   cheaper per gram of protein", "Sugar: Whey Protein has more", "Testing: only Gold Standard is
+   sport-certified". Copied as `compareDiffs()`: every comparison now opens with "Price: the RTX 5070
+   costs about $230 less (27% cheaper)", "VRAM: the RTX 5070 Ti has 4 GB more VRAM" and so on, generated
+   from the spec data.
+3. **Long-tail guides win; head terms don't yet.** "best protein powder for baristas" (2.6), "for coffee"
+   (7.5), "for diabetics" and "for teens" (both clicked) against "best chocolate protein powder" (34) and
+   "best tasting protein powder" (69). Same lesson as the restored 2020 URLs here.
+4. **Product snippets show at position 10.4** (168 impressions): the comparison and guide pages carry the
+   products as structured data, as ours now do.
+
 ## 2. Site structure (copied from the sister sites)
 
 | Sister-site pattern | Here |
@@ -151,12 +178,14 @@ card under 300 / gpu under 500" (390–480), "best motherboard for amd ryzen 7 9
 ## 6. What to do next (in order)
 
 1. **Submit** the sitemap in Search Console and Bing Webmaster Tools; request indexing for the seven restored URLs.
-2. **More comparisons and brand hubs** — the best-ranking page types on both sister sites. Add pairs people
-   search ("rtx 5070 vs rtx 5070 ti", "9800x3d vs 9700x", "nh-d15 g2 vs phantom spirit"). Each needs only a
+2. **More comparisons** — the best-ranking page type (1c). 20 Nov 2026 added 14, including sibling pairs
+   (RTX 5060 Ti 8GB vs 16GB, RX 9060 XT 8GB vs 16GB, Ryzen 5 9600 vs 9600X, B650 vs B850 Tomahawk) and
+   upgrade pairs (RTX 4060 vs 5060, 5800X3D vs 9800X3D). Next: "rtx 5070 ti vs rtx 5080", "9800x3d vs
+   9950x3d" exists, "rx 9070 vs rtx 5070 ti", "7800x3d vs 9700x", "rm850x vs rm850e". Each needs only a
    `compares.json` entry.
 3. **More brand reviews** once a brand has 4+ products: NVIDIA, AMD, Lian Li, Noctua, G.Skill.
-4. **More model pages** for parts people search by name (RTX 5060 Ti 8GB, RX 9060 XT 8GB, Ryzen 5 9600,
-   B850 Tomahawk), each linked into a guide and a comparison.
+4. **More model pages** for parts people search by name. Added 20 Nov 2026: RTX 5060 Ti 8GB, RX 9060 XT 8GB,
+   Ryzen 5 9600, MSI B850 Tomahawk MAX WiFi (each with comparisons). Next: pick them in a guide where they fit.
 5. **Long-tail guides** in the 2020 pattern: "best cpu cooler for ryzen 7 9700x", "best psu for rtx 5070",
    "best gpu for ryzen 7 5800x3d".
 6. **Review at 4 weeks.** Position 5–20 with impressions → add answered questions and internal links.

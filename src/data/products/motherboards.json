@@ -624,5 +624,78 @@
       { "q": "Is the TUF X570-Plus good for a Ryzen 9 3950X?", "a": "It works, but it is not the best choice. Its power delivery is the lightest of the X570 boards here, so a 3950X needs good case airflow." },
       { "q": "TUF X570-Plus or B550 Tomahawk?", "a": "The B550 Tomahawk is the better board for most builds, with stronger power delivery and 2.5 GbE. The TUF X570-Plus wins only on built-in Wi-Fi." }
     ]
+  },
+  {
+    "id": "msi-mag-b850-tomahawk-max-wifi",
+    "name": "MSI MAG B850 Tomahawk MAX WiFi",
+    "short": "B850 Tomahawk MAX",
+    "brand": "msi",
+    "category": "motherboards",
+    "released": "2025",
+    "price": [210, 250],
+    "amazon": "MSI MAG B850 Tomahawk MAX WiFi motherboard",
+    "description": "The MSI B850 Tomahawk MAX WiFi is the AM5 board to beat around $230: 80 A power stages, PCIe 5.0 for the GPU and an M.2 SSD, Wi-Fi 7 and 5 GbE networking.",
+    "quick": "The MAG B850 Tomahawk MAX WiFi is an ATX AM5 board with 80 A smart power stages, a PCIe 5.0 x16 slot and a PCIe 5.0 M.2 slot. It adds Wi-Fi 7, 5 GbE and MSI's Flash BIOS button.",
+    "bestFor": "Ryzen 7000 and 9000 gaming builds, including a Ryzen 7 9800X3D, that want current connectivity without X870 prices",
+    "skipIf": "you need USB4 ports, or a $170 B650 board already covers what you use",
+    "specs": [
+      ["Socket", "AM5"],
+      ["Chipset", "AMD B850"],
+      ["Form factor", "ATX"],
+      ["Memory", "4x DDR5 DIMM"],
+      ["PCIe x16 slot", "PCIe 5.0 x16"],
+      ["M.2 slots", "Includes PCIe 5.0 x4"],
+      ["Networking", "Wi-Fi 7, 5 GbE"],
+      ["BIOS flashback", "Yes (Flash BIOS button)"],
+      ["Power stages", "80 A smart power stages"]
+    ],
+    "score": {
+      "overall": 88,
+      "parts": [["Power delivery", 92], ["Features", 89], ["Connectivity", 91], ["Value", 82]]
+    },
+    "verdict": [
+      "The MSI MAG B850 Tomahawk MAX WiFi takes the formula that made the [B650 Tomahawk](/gear/msi-mag-b650-tomahawk-wifi/) the default AM5 board and brings it up to date. MSI lists 80 A smart power stages, which is more than enough for a Ryzen 7 9800X3D or a 16-core Ryzen 9 at stock or with PBO. The graphics slot and one M.2 slot run at PCIe 5.0, and networking steps up to Wi-Fi 7 and 5 GbE.",
+      "Be honest about how much of that you will use. Independent reviews show current graphics cards, including the RTX 5090, losing only a percent or two on PCIe 4.0 x16, so the Gen5 slot is future-proofing rather than a speed boost today. A PCIe 5.0 SSD such as the [Samsung 9100 Pro](/gear/samsung-9100-pro/) loads games about as fast as a good Gen4 drive. What you will notice is the faster networking and the Flash BIOS button, which updates the board from a USB stick without a CPU or memory installed.",
+      "At $210 to $250 it costs $30 to $60 more than the B650 Tomahawk and sits close to the [ASRock B850 Steel Legend WiFi](/gear/asrock-b850-steel-legend-wifi/), which is often a little cheaper with 2.5 GbE instead of 5 GbE. The [MSI X870 Tomahawk WiFi](/gear/msi-mag-x870-tomahawk-wifi/) adds USB4 for another $40 to $60. For most AM5 gaming builds, the B850 Tomahawk MAX is the sweet spot. MSI also lists V1 and II revisions; check the exact name on the listing."
+    ],
+    "pros": [
+      "80 A power stages handle any AM5 chip",
+      "PCIe 5.0 x16 and PCIe 5.0 M.2",
+      "Wi-Fi 7 and 5 GbE",
+      "Flash BIOS button",
+      "Strong value for the feature set"
+    ],
+    "cons": [
+      "No USB4, unlike X870 boards",
+      "Costs $30 to $60 more than a B650 Tomahawk",
+      "Gen5 slots add little speed with today's parts"
+    ],
+    "extra": {
+      "heading": "BIOS Updates",
+      "body": [
+        "Update the BIOS before you install Windows, especially with a Ryzen 9000 chip. Newer AGESA releases improve memory compatibility and boost behavior, and the first boot with DDR5 memory training can take a minute or two, which is normal.",
+        "The Flash BIOS button lets you update without a CPU or memory installed."
+      ],
+      "steps": [
+        ["Download the BIOS", "Get the latest BIOS for the MAG B850 Tomahawk MAX WiFi from MSI's support page, matching the exact board name and revision."],
+        ["Prepare a USB stick", "Format a USB drive as FAT32, extract the file and rename it as MSI's instructions specify for this board."],
+        ["Use the Flash BIOS port", "Plug the stick into the rear USB port marked Flash BIOS, connect the 24-pin and CPU power cables, and press the Flash BIOS button."],
+        ["Wait for the light", "The LED flashes during the update. When it stops, the update is done; do not cut power while it flashes."]
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What is the difference between the B850 Tomahawk MAX WiFi and B650 Tomahawk WiFi?",
+        "a": "PCIe 5.0 and networking. The B850 board has a PCIe 5.0 graphics slot and PCIe 5.0 M.2, plus Wi-Fi 7 and 5 GbE, against PCIe 4.0, Wi-Fi 6E and 2.5 GbE on the B650 board."
+      },
+      {
+        "q": "Can the B850 Tomahawk MAX WiFi run a Ryzen 7 9800X3D?",
+        "a": "Yes. Its 80 A power stages are more than enough for the 9800X3D at stock or with PBO. Update to a current BIOS first."
+      },
+      {
+        "q": "Is the B850 Tomahawk MAX WiFi worth it over X870?",
+        "a": "For most gaming builds, yes. X870 boards like the X870 Tomahawk add USB4 for about $40 to $60 more; if you do not use USB4 devices, the B850 board gives up nothing else that matters."
+      }
+    ]
   }
 ]

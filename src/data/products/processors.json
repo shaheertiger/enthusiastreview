@@ -1439,5 +1439,115 @@
         "a": "A 360 mm AIO or a top dual-tower air cooler. At its 253 W limit it runs very hot in all-core work, though gaming loads are lower."
       }
     ]
+  },
+  {
+    "id": "ryzen-5-9600",
+    "name": "AMD Ryzen 5 9600",
+    "short": "Ryzen 5 9600",
+    "brand": "amd",
+    "category": "processors",
+    "released": "2025",
+    "price": [
+      175,
+      210
+    ],
+    "amazon": "AMD Ryzen 5 9600 processor",
+    "description": "The Ryzen 5 9600 is the 9600X with a 5.2 GHz boost instead of 5.4 GHz: six Zen 5 cores and a 65 W TDP on AM5, a few percent slower for usually less money.",
+    "quick": "The Ryzen 5 9600 has six Zen 5 cores and 12 threads, a 3.8 GHz base and 5.2 GHz boost, and 32 MB of L3 cache. It is rated at 65 W on socket AM5.",
+    "bestFor": "AM5 gaming builds around $1,000 to $1,400 that want Zen 5 for the lowest price",
+    "skipIf": "the 9600X is within about $15, or you want the 3D V-Cache gaming lead of a 7800X3D or 9800X3D",
+    "specs": [
+      [
+        "Cores / threads",
+        "6 / 12"
+      ],
+      [
+        "Boost clock",
+        "5.2 GHz"
+      ],
+      [
+        "L3 cache",
+        "32 MB"
+      ],
+      [
+        "TDP",
+        "65 W"
+      ],
+      [
+        "Socket",
+        "AM5"
+      ],
+      [
+        "Memory support",
+        "DDR5-5600 (rated)"
+      ],
+      [
+        "Integrated graphics",
+        "AMD Radeon Graphics (2 CUs)"
+      ],
+      [
+        "Base clock",
+        "3.8 GHz"
+      ]
+    ],
+    "score": {
+      "overall": 83,
+      "parts": [
+        [
+          "Gaming performance",
+          80
+        ],
+        [
+          "Multi-thread",
+          64
+        ],
+        [
+          "Efficiency",
+          93
+        ],
+        [
+          "Value",
+          88
+        ]
+      ]
+    },
+    "verdict": [
+      "The Ryzen 5 9600 is the same six-core Zen 5 chip as the [Ryzen 5 9600X](/gear/ryzen-5-9600x/), with a lower boost clock: 5.2 GHz instead of 5.4 GHz, a 3.8 GHz base and the same 32 MB of L3 cache and 65 W TDP. That 200 MHz is about a 4% clock difference, and in games, where the graphics card usually sets the pace, the gap in independent reviews is a few percent or less. Like every Ryzen chip it is unlocked, so Precision Boost Overdrive can close most of the gap on a board with decent power delivery.",
+      "The value case depends on street prices. When the 9600 sells $15 to $30 below the 9600X, it is the smarter buy: you will not notice the difference with an RTX 5070 or RX 9070 at 1440p. When the two cost the same, buy the X. The other rival is the older [Ryzen 5 7600](/gear/ryzen-5-7600/), which often costs a little less. Zen 5 gives the 9600 a modest lead in games and a larger one in AVX-512 workloads, and it is rated for faster DDR5-5600 memory.",
+      "Six cores are enough for gaming in 2026, but streamers and anyone who compiles code or edits video will feel the limit. For those buyers, the eight-core [Ryzen 7 9700X](/gear/ryzen-7-9700x/) is the step up, and for the best gaming CPU, the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) with its 3D V-Cache is in a different class. Pair the 9600 with a B650 or B850 board and 32 GB of DDR5-6000."
+    ],
+    "pros": [
+      "Six Zen 5 cores for less than the 9600X",
+      "65 W TDP, easy to cool",
+      "Unlocked, with PBO support",
+      "AM5 upgrade path",
+      "Rated for DDR5-5600"
+    ],
+    "cons": [
+      "Six cores limit heavy multitasking",
+      "Only worth it below the 9600X's price",
+      "Far behind X3D chips in CPU-bound games"
+    ],
+    "extra": {
+      "heading": "Platform and Upgrade Path",
+      "body": [
+        "The Ryzen 5 9600 uses socket AM5, so it fits any B650, B850, X670 or X870 board. Older boards may need a BIOS update to recognize Ryzen 9000 chips; boards with a BIOS flashback button can be updated without a CPU installed.",
+        "AM5 is the reason to buy here rather than a cheaper AM4 chip. A later drop-in upgrade to a Ryzen 7 9800X3D or a future AM5 processor needs only a BIOS update, not a new board and memory. Check the listing for whether a cooler is in the box; a $35 to $45 dual-tower air cooler is a worthwhile upgrade either way."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What is the difference between the Ryzen 5 9600 and 9600X?",
+        "a": "Clock speed. The 9600 boosts to 5.2 GHz and the 9600X to 5.4 GHz. Both have six Zen 5 cores, 32 MB of L3 cache and a 65 W TDP, so the gaming gap is a few percent."
+      },
+      {
+        "q": "Is the Ryzen 5 9600 good for gaming?",
+        "a": "Yes. It drives an RTX 5070 or RX 9070 at 1440p without holding it back in most games. For the highest frame rates with a fast GPU at 1080p, an X3D chip is faster."
+      },
+      {
+        "q": "What motherboard should I pair with the Ryzen 5 9600?",
+        "a": "A B650 or B850 board. A $170 to $250 board such as the [MSI MAG B850 Tomahawk MAX WiFi](/gear/msi-mag-b850-tomahawk-max-wifi/) or B650 Tomahawk has more than enough power delivery."
+      }
+    ]
   }
 ]

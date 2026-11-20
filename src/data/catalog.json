@@ -203,6 +203,12 @@
     "title": "MSI MAG B650 Tomahawk WiFi Gaming Motherboard (AMD Ryzen 9000/8000/7000 Series Processors, AM5, DDR5, PCIe 4.0, M.2, SATA 6Gb/s, USB 3.2 Gen 2, HDMI/DP, Wi-Fi 6E, Bluetooth 5.3, 2.5Gbps LAN, ATX)",
     "checked": "2026-11-19"
   },
+  "msi-mag-b850-tomahawk-max-wifi": {
+    "asin": "B0DT58JK2W",
+    "image": "https://m.media-amazon.com/images/I/41pQwz4pGBL._SL500_.jpg",
+    "title": "MSI MAG B850 Tomahawk MAX WiFi Motherboard, ATX - Supports AMD Ryzen 9000/8000 / 7000 Processors, AM5-80A SPS VRM, DDR5 Memory Boost 8400+ MT/s (OC), PCIe 5.0 x16, M.2 Gen5, Wi-Fi 7, 5G LAN",
+    "checked": "2026-11-20"
+  },
   "msi-mag-x870-tomahawk-wifi": {
     "asin": "B0DG3HK897",
     "image": "https://m.media-amazon.com/images/I/51CYkD+31mL._SL500_.jpg",
@@ -263,6 +269,12 @@
     "title": "PNY NVIDIA GeForce RTX™ 5060 Ti 16GB OC Dual-Fan Graphics Card | 16GB G7, 128-bit, Boost Speed: 2692 MHz, SFF-Ready, PCIe® 5.0, HDMI®/DP 2.1, 2-Slot, NVIDIA Blackwell Architecture, DLSS 4.5",
     "checked": "2026-11-19"
   },
+  "rtx-5060-ti-8gb": {
+    "asin": "B0F7W1KVT3",
+    "image": "https://m.media-amazon.com/images/I/41LK8D7pR7L._SL500_.jpg",
+    "title": "ASUS Dual GeForce RTX 5060 Ti 8GB GDDR7 OC Edition Gaming Graphics Card | PCIe 5.0, HDMI 2.1b, DisplayPort 2.1b, 2.5-slot, Axial-tech Fans, 0dB Technology, Dual BIOS",
+    "checked": "2026-11-20"
+  },
   "rtx-5070": {
     "asin": "B0DS6WPTLL",
     "image": "https://m.media-amazon.com/images/I/41zeOBYIU9L._SL500_.jpg",
@@ -305,6 +317,12 @@
     "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Gaming Graphics Card | PCIe 5.0, HDMI 2.1b, DisplayPort 2.1a, 2.5-slot design, Axial-tech Fans, 0dB Technology",
     "checked": "2026-11-19"
   },
+  "rx-9060-xt-8gb": {
+    "asin": "B0FBX7FB1T",
+    "image": "https://m.media-amazon.com/images/I/415hUE-O+3L._SL500_.jpg",
+    "title": "ASRock Radeon RX 9060 XT Challenger 8GB GDDR6 OC Graphics Card | 3290 MHz Boost | Dual Fan | 0dB Cooling | Metal Backplate | PCIe 5.0 | DisplayPort 2.1a, HDMI 2.1b",
+    "checked": "2026-11-20"
+  },
   "rx-9070": {
     "asin": "B0DTTKCTRD",
     "image": "https://m.media-amazon.com/images/I/413cBkwCGyL._SL500_.jpg",
@@ -322,6 +340,12 @@
     "image": "https://m.media-amazon.com/images/I/41LSnKT1MXL._SL500_.jpg",
     "title": "AMD Ryzen 5 7600 6-Core, 12-Thread Unlocked Desktop Processor",
     "checked": "2026-11-19"
+  },
+  "ryzen-5-9600": {
+    "asin": "B0FHDXP318",
+    "image": "https://m.media-amazon.com/images/I/41ofWSOZcZL._SL500_.jpg",
+    "title": "AMD Ryzen 5 9000 9600 Hexa-core (6 Core) 3.80 GHz Processor - 32 MB L3 Cache - 6 MB L2 Cache - 480 KB L1-64-bit Processing - 5.20 GHz Overclocking Speed - 4 nm - Socket AM5 - AMD Radeon Graphics Dua",
+    "checked": "2026-11-20"
   },
   "ryzen-5-9600x": {
     "asin": "B0D6NN6TM7",
