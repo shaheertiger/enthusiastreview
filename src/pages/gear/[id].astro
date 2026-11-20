@@ -27,8 +27,12 @@ const { rank, of } = rankOf(p);
 const updated = productUpdated(p);
 const featured = guidesFeaturing(p.id);
 const compares = comparesFor(p.id);
-const higher = productsIn(p.category).filter((x) => x.id !== p.id && x.score.overall > p.score.overall).slice(-3).reverse();
-const alts = higher.length ? higher : productsIn(p.category).filter((x) => x.id !== p.id).slice(0, 3);
+// Alternatives, the sister-site way: "Cheaper options" first (same category, lower price band, best
+// score first); for the cheapest parts, fall back to higher-scoring ones, then to anything else we track.
+const others = productsIn(p.category).filter((x) => x.id !== p.id);
+const cheaper = others.filter((x) => x.price[0] < p.price[0]).sort((a, b) => b.score.overall - a.score.overall).slice(0, 3);
+const higher = others.filter((x) => x.score.overall > p.score.overall).slice(-3).reverse();
+const [altHead, alts] = cheaper.length ? ['Cheaper options', cheaper] : higher.length ? ['Higher-scoring options', higher] : [`Other ${cat.plural} we track`, others.slice(0, 3)];
 const sameBrand = productsOfBrand(p.brand).filter((x) => x.id !== p.id).slice(0, 4);
 const worth = {
   q: `Is the ${p.name} worth it?`,
@@ -126,14 +130,14 @@ const jsonLd = {
       )}
 
       <h2 id="alternatives">Alternatives to the {p.name}</h2>
-      <h3>{higher.length ? 'Higher-scoring options' : `Other ${cat.plural} we track`}</h3>
-      <ul class="alt-list">
-        {alts.map((x) => <li><a href={productPath(x)}>{x.name}</a> <span>{x.score.overall}/100 · {priceBand(x)}</span></li>)}
-      </ul>
+      <h3>{altHead}</h3>
+      <div class="alt-cards">
+        {alts.map((x) => <a class="alt-card" href={productPath(x)}><ProductImage p={x} size={64} /><span><strong>{x.name}</strong><small><Score value={x.score.overall} /> · {priceBand(x)}</small></span></a>)}
+      </div>
       {sameBrand.length > 0 && (
         <>
           <h3>More from {brand.name}</h3>
-          <ul class="alt-list">{sameBrand.map((x) => <li><a href={productPath(x)}>{x.name}</a> <span>{x.score.overall}/100 · {priceBand(x)}</span></li>)}</ul>
+          <div class="alt-cards">{sameBrand.map((x) => <a class="alt-card" href={productPath(x)}><ProductImage p={x} size={64} /><span><strong>{x.name}</strong><small><Score value={x.score.overall} /> · {priceBand(x)}</small></span></a>)}</div>
         </>
       )}
 
@@ -161,8 +165,10 @@ const jsonLd = {
     </div>
 
     <div class="sticky-buy" aria-label="Price">
-      <span><strong>{p.short}</strong> · {SITE.score} {p.score.overall}/100 · {priceBand(p)}</span>
+      <ProductImage p={p} size={40} />
+      <span class="sb-text"><span class="sb-k">{SITE.score} {p.score.overall}/100 · {priceBand(p)}</span><strong>{p.name}</strong></span>
       <a class="buy buy-sm" href={amazonLink(p)} rel="sponsored nofollow noopener" target="_blank">Check Price</a>
+      <button class="sb-close" type="button" aria-label="Dismiss" onclick="this.parentElement.hidden=true">×</button>
     </div>
   </article>
 </Base>

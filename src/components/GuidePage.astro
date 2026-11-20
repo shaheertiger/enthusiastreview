@@ -32,6 +32,8 @@ const tracked = isBrand && brand ? productsOfBrand(brand.key) : productsIn(g.cat
 const pickIds = new Set(picks.map((x) => x.id));
 const related = (g.related ?? []).map(getGuide).filter((x): x is Guide => Boolean(x && !x.noindex));
 const sameCat = GUIDES.filter((x) => x.slug !== g.slug && x.category === g.category && !related.includes(x)).slice(0, 3);
+const shownRelated = [...related, ...sameCat].slice(0, 6);
+const moreInCat = GUIDES.filter((x) => x.slug !== g.slug && x.category === g.category && !x.noindex && !shownRelated.includes(x));
 const headToHead = [...new Map(picks.flatMap((x) => comparesFor(x.id)).map((c) => [comparePath(c), c])).values()].filter((c) => pickIds.has(c.a) && pickIds.has(c.b));
 
 // Numbered H2 outline (Short Answer first, the Bing rule; then the sister sites' order).
@@ -136,7 +138,7 @@ const jsonLd = {
                 <a class="sl-name" href={`#${pickAnchor(x.id)}`}>{x.p.name}</a>
                 <div class="sl-for">{x.bestFor ?? x.p.bestFor}</div>
               </div>
-              <div class="sl-side"><Score value={x.p.score.overall} /><span class="sl-price">{priceBand(x.p)}</span></div>
+              <div class="sl-side"><Score value={x.p.score.overall} /><span class="sl-price">{priceBand(x.p)}</span><a class="sl-view" href={amazonLink(x.p)} rel="sponsored nofollow noopener" target="_blank">View</a></div>
             </li>
           ))}
         </ol>
@@ -148,7 +150,7 @@ const jsonLd = {
       </nav>
     </div>
 
-    <div class="col body numbered">
+    <div class="col body">
       <h2 id="short-answer">{num('short-answer')}{H.short}</h2>
       <div class="answer-box"><p set:html={inline(g.quickAnswer, ctx)} /></div>
       <div class="table-wrap">
@@ -162,7 +164,7 @@ const jsonLd = {
                 <td>{x.bestFor ?? x.p.bestFor}</td>
                 <td>{x.skipIf ?? x.p.skipIf}</td>
                 <td><Score value={x.p.score.overall} /></td>
-                <td class="nowrap">{priceBand(x.p)}</td>
+                <td class="nowrap">{priceBand(x.p)}<br /><a class="cell-link" href={productPath(x.p)}>Specs</a></td>
               </tr>
             ))}
           </tbody>
@@ -214,12 +216,12 @@ const jsonLd = {
       ))}
     </div>
 
-    <div class="col body numbered">
+    <div class="col body">
       <h2 id="specs">{num('specs')}{H.specs}</h2>
       <div class="table-wrap">
         <table class="spec-table">
           <caption>Key specs for every pick, from the manufacturers' spec sheets</caption>
-          <thead><tr><th>Model</th>{(g.tableSpecs ?? []).map((s) => <th>{s}</th>)}<th>Score</th><th>Price</th></tr></thead>
+          <thead><tr><th>Model</th>{(g.tableSpecs ?? []).map((s) => <th>{s}</th>)}<th>Score</th><th>Price</th><th>Buy</th></tr></thead>
           <tbody>
             {picks.map((x) => (
               <tr>
@@ -227,6 +229,7 @@ const jsonLd = {
                 {(g.tableSpecs ?? []).map((s) => <td>{spec(x.p, s) ?? '—'}</td>)}
                 <td>{x.p.score.overall}</td>
                 <td class="nowrap">{priceBand(x.p)}</td>
+                <td class="nowrap"><a class="cell-link" href={amazonLink(x.p)} rel="sponsored nofollow noopener" target="_blank">Amazon →</a></td>
               </tr>
             ))}
           </tbody>
@@ -239,9 +242,13 @@ const jsonLd = {
           {g.mentions.map((m) => {
             const mp = m.id ? getProduct(m.id) : undefined;
             return (
-              <div class="mention">
-                <h3>{mp ? <a href={productPath(mp)}>{mp.name}</a> : m.name}</h3>
-                <p set:html={inline(m.text, ctx)} />
+              <div class={`mention${mp ? ' has-thumb' : ''}`}>
+                {mp && <ProductImage p={mp} size={72} />}
+                <div class="mention-main">
+                  <h3>{mp ? <a href={productPath(mp)}>{mp.name}</a> : m.name}</h3>
+                  {mp && <p class="mention-meta"><Score value={mp.score.overall} /> · {priceBand(mp)}</p>}
+                  <p set:html={inline(m.text, ctx)} />
+                </div>
               </div>
             );
           })}
@@ -316,18 +323,35 @@ const jsonLd = {
     <aside class="wrap related">
       <h2 class="section-title">Related Guides</h2>
       <div class="grid grid-3">
-        {[...related, ...sameCat].slice(0, 6).map((r) => {
+        {shownRelated.map((r) => {
           const rp = r.picks?.[0] ? getProduct(r.picks[0].id) : getProduct(r.products?.[0] ?? '');
           return (
             <a class="card" href={guidePath(r)}>
               {rp ? <ProductImage p={rp} size={72} /> : <CatIcon cat={r.category} size={44} />}
               <span class="card-k">{r.type === 'brand' ? 'Brand Review' : r.type === 'article' ? 'Guide' : categoryOf(r.category).label}</span>
               <h3>{r.h1}</h3>
+              <span class="card-sub">{r.dek}</span>
               {rp && r.picks?.length && <span class="card-sub">Top pick: {rp.short}</span>}
             </a>
           );
         })}
       </div>
+      {moreInCat.length > 0 && (
+        <div class="more-in">
+          <p class="mini">More in {cat.label}</p>
+          <div class="chips">
+            {moreInCat.map((r) => <a href={guidePath(r)}>{r.h1}</a>)}
+            <a href={`/gear/#${cat.key}`}>All {cat.plural} we track</a>
+          </div>
+        </div>
+      )}
     </aside>
+
+    <div class="sticky-buy" id="sticky-buy" aria-label="Top pick">
+      <ProductImage p={top.p} size={40} />
+      <span class="sb-text"><span class="sb-k">{top.label} · {SITE.score} {top.p.score.overall}/100 · {priceBand(top.p)}</span><strong>{top.p.name}</strong></span>
+      <a class="buy buy-sm" href={amazonLink(top.p)} rel="sponsored nofollow noopener" target="_blank">Check Price</a>
+      <button class="sb-close" type="button" aria-label="Dismiss" onclick="this.parentElement.hidden=true">×</button>
+    </div>
   </article>
 </Base>
