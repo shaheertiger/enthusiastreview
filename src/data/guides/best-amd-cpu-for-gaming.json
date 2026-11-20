@@ -196,6 +196,10 @@
   },
   "mentions": [
     {
+      "id": "ryzen-5-9600",
+      "text": "The non-X Ryzen 5 9600 boosts to 5.2 GHz against 5.4 GHz on the 9600X, with the same six Zen 5 cores, 32 MB of L3 cache and 65 W TDP. That costs a few percent in games at most. Treat the two as one pick and buy the cheaper; a $15 to $30 saving is better spent on the graphics card."
+    },
+    {
       "id": "ryzen-7-8700f",
       "text": "The Ryzen 7 8700F offers 8 Zen 4 cores on AM5 for $200 to $240, but it uses a laptop-derived design with only 16 MB of L3 cache, PCIe 4.0 and no integrated graphics. In games it trails the cheaper Ryzen 5 7600, which has twice the cache, so the extra cores rarely help."
     },
