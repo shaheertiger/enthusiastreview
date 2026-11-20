@@ -7,7 +7,7 @@ import BuyButton from '../../components/BuyButton.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
-import { publisherRef, productItemList } from '../../lib/schema';
+import { publisherRef, productItemList, reviewedPage } from '../../lib/schema';
 import { authorSchema } from '../../data/authors';
 import {
   COMPARES, mustProduct, categoryOf, getBrand, comparesFor, guidesFeaturing, comparePath, productPath, guidePath,
@@ -56,6 +56,7 @@ const crumbs = [
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
+    reviewedPage(path, updated),
     {
       '@type': 'Article',
       headline: c.title,
@@ -84,7 +85,7 @@ const jsonLd = {
       <Crumbs items={crumbs} />
       <div class="kicker">{cat.label} · Head to head</div>
       <h1 class="a-title">{a.name} vs {b.name}</h1>
-      <div class="byline">By the Hardware Desk · Updated <time datetime={updated}>{fmtDate(updated)}</time> · Specs from the manufacturers; we have not bench-tested either. <a href="/disclosure/">Disclosure</a></div>
+      <div class="byline">By the Hardware Desk · Updated <time datetime={updated}>{fmtDate(updated)}</time> · Specs from the manufacturers; we have not bench-tested either. Reviewed by <a href="/authors/adam-franczyk/">Adam Franczyk, PhD</a>. <a href="/disclosure/">Disclosure</a></div>
     </header>
 
     <div class="col">
