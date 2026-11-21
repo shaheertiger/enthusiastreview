@@ -1,0 +1,183 @@
+{
+  "slug": "is-ibuypower-good",
+  "type": "article",
+  "kind": "explainer",
+  "category": "gaming-pcs",
+  "title": "Is iBuyPower Good? Reviews, Warranty and the Parts It Uses",
+  "h1": "Is iBuyPower Good?",
+  "query": "is ibuypower good",
+  "description": "Yes, iBuyPower is a legit, good-value prebuilt brand, but check 3 parts first: the power supply, RAM channels and SSD. Here is what buyers report and why.",
+  "dek": "What iBuyPower gets right, where its cheaper listings cut corners, and how to tell a good configuration from a weak one before you pay.",
+  "quickAnswer": "Yes, iBuyPower is a legitimate and generally good-value prebuilt gaming PC brand, in business since 1999 and sold through its own site, Amazon, Best Buy and Walmart. The graphics card and CPU are standard retail parts, so performance matches any PC with the same GPU. The catch is the parts it doesn't name: on cheaper listings, check the power supply brand, whether RAM runs in dual channel, and the SSD model before you buy.",
+  "intro": [
+    "iBuyPower is one of the three prebuilt brands most people compare, alongside CyberPowerPC and Skytech. Its desktops range from budget Element and Slate models with an RTX 5060 class card to Y40 and Y60 builds with an RTX 5070 Ti or faster.",
+    "This page answers whether iBuyPower is good, based on the components it lists, its published warranty terms and the broad pattern of buyer reports. We have not bench-tested iBuyPower systems. Where a detail varies by listing, we say so and tell you what to check."
+  ],
+  "sections": [
+    {
+      "h": "Is iBuyPower Legit or a Scam?",
+      "body": [
+        "iBuyPower is legit. It is a US system builder that has sold gaming PCs since 1999, lists its headquarters in Southern California, and sells through major retailers including Amazon, Best Buy, Walmart and Newegg, which all run their own seller checks and return policies. Searches for \"is iBuyPower a scam\" usually come from long build-to-order shipping times on its own site or a support delay, not from people who never received a PC.",
+        "The bigger risk is not fraud but buying a configuration that cuts the wrong corner. Prebuilt brands compete on the headline parts, the graphics card and CPU, and save money on the parts listings mention in small print. That is true of every brand in this price range, not only iBuyPower."
+      ]
+    },
+    {
+      "h": "Is iBuyPower Reliable?",
+      "body": [
+        "For most buyers, yes. The parts that fail most often in any PC, the graphics card, SSD and power supply, come from the same suppliers other builders use, and the graphics card carries its own maker's warranty on top of iBuyPower's. Buyer reports in retail reviews are mostly positive about performance for the price, with the recurring complaints being shipping damage, loose cables after transit and slow support responses rather than systems failing outright.",
+        "Two habits make any prebuilt more reliable. When it arrives, open the side panel and check that the graphics card, RAM and power cables are fully seated, because shipping can loosen them. Then update the BIOS, chipset and graphics drivers before installing games. Our [NVIDIA driver guide](/how-to-update-nvidia-drivers/) covers the graphics side step by step."
+      ]
+    },
+    {
+      "h": "What Parts Does iBuyPower Use?",
+      "body": [
+        "The graphics card and processor are standard retail parts: an RTX 5060 in an iBuyPower is the same chip as in any other PC, so frame rates match independent GPU benchmarks within a few percent. Where configurations differ is the supporting cast, and these are the four parts worth checking on every listing.",
+        "Power supply: budget listings often name only the wattage, such as \"600 W 80 Plus\", without a brand. That is usually adequate for an RTX 5060 or RX 9060 XT, but for an RTX 5070 Ti or above you want a named, Gold-rated unit with enough headroom. Our [PSU calculator](/tools/psu-calculator/) shows what your GPU needs.",
+        "RAM: a listing with \"16 GB (1 x 16 GB)\" runs in single channel, which costs noticeable frame rate in CPU-heavy games. Two sticks (2 x 8 GB or 2 x 16 GB) is what you want. Adding a matching stick later is a cheap fix if you buy a single-stick model.",
+        "Storage and motherboard: a 500 GB or 1 TB NVMe SSD is typical; check whether it is a known brand, and whether the board has a second M.2 slot for an upgrade. Our [SSD guide](/best-ssd-for-gaming/) lists drives worth adding."
+      ],
+      "table": {
+        "caption": "What to check on an iBuyPower listing",
+        "head": [
+          "Part",
+          "Good sign",
+          "Red flag"
+        ],
+        "rows": [
+          [
+            "Power supply",
+            "Named brand, 80 Plus Gold, 650–850 W",
+            "Wattage only, no brand, on an RTX 5070 Ti or faster"
+          ],
+          [
+            "RAM",
+            "2 sticks, DDR5-5600 or faster",
+            "1 x 16 GB (single channel)"
+          ],
+          [
+            "SSD",
+            "1 TB NVMe, named model",
+            "500 GB unnamed SSD on a $1,000+ PC"
+          ],
+          [
+            "Cooling",
+            "Tower cooler or 240 mm AIO on a Ryzen 7 / Core i7",
+            "Stock cooler on a hot high-end CPU"
+          ],
+          [
+            "Motherboard",
+            "Chipset named, 2+ M.2 slots",
+            "No chipset listed"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Which iBuyPower Lines Are Worth Buying?",
+      "body": [
+        "iBuyPower sells several desktop lines, and the names change faster than the parts inside them. In general, the Element and Slate families cover the budget and mid-range price points with an RTX 5060 to RTX 5070 class card, the Y40 is a mid-to-high tier with a more airflow-focused case and stronger GPUs, and the Y60 and Trace models sit higher with glass showcase cases and RTX 5070 Ti to RTX 5080 class cards.",
+        "Pick by the graphics card first, then by the parts in the table above. For 1080p high settings, an [RTX 5060](/gear/rtx-5060/) class card is enough; for 1440p, look for an [RTX 5070](/gear/rtx-5070/) or RX 9070; for high refresh at 1440p or entry 4K, an [RTX 5070 Ti](/gear/rtx-5070-ti/). Our [best prebuilt gaming PC](/best-prebuilt-gaming-pc/) roundup compares current configurations across brands."
+      ]
+    },
+    {
+      "h": "How Long Is the iBuyPower Warranty?",
+      "body": [
+        "iBuyPower has typically advertised a limited warranty covering labor for three years and parts for a shorter period, often one year, plus lifetime technical support, on PCs bought directly from it. That is per iBuyPower's warranty page at the time of writing; terms change, and systems sold through retailers can carry different terms, so check the listing and iBuyPower's current warranty page before you buy.",
+        "In practice, many failing parts are also covered by their own makers: graphics card makers commonly offer three years, and SSDs and power supplies often carry three to ten years. If iBuyPower's parts coverage has lapsed, a part's own warranty may still apply. Keep the order number and the system's serial number, which iBuyPower support asks for."
+      ]
+    },
+    {
+      "h": "What Do iBuyPower Buyers Say?",
+      "body": [
+        "Across retail listings and forums, buyers mostly praise value: the price is close to what the parts would cost separately, and the PC works out of the box. The recurring complaints follow a clear pattern: units arriving with a loose graphics card or cable, long build-and-ship times on custom orders from iBuyPower's own site, and support that can be slow to respond during busy periods.",
+        "Complaints about bundled peripherals, such as a keyboard whose lighting is hard to change or a stiff mouse scroll wheel, come up often too; they say little about the PC itself. iBuyPower's lighting is controlled through its own RGB software, which you can download from its support site."
+      ]
+    },
+    {
+      "h": "iBuyPower vs CyberPowerPC vs Skytech: Which Is Better?",
+      "body": [
+        "They are closer than their marketing suggests. All three use retail graphics cards and CPUs, sell through the same retailers and cut similar corners at the budget end. The differences are in the published warranty, how much each listing tells you about the power supply and RAM, and the case designs. For a full side-by-side, see [CyberPowerPC vs iBuyPower](/cyberpowerpc-vs-ibuypower/), and for the others, [is CyberPowerPC good](/is-cyberpowerpc-good/) and our [Skytech gaming PC review](/skytech-gaming-pc-review/).",
+        "The honest rule: compare the exact configuration, not the brand. A well-specified Skytech beats a weak iBuyPower listing, and the reverse is just as true."
+      ]
+    },
+    {
+      "h": "Who Should Buy iBuyPower, and Who Should Skip It?",
+      "body": [
+        "Buy iBuyPower if you want a working gaming PC without building one, you find a listing with a named power supply and dual-channel RAM, and its price is within about 10 percent of the same parts bought separately. It is also a sensible choice if you want to buy in a store with an easy return window.",
+        "Skip it if you are comfortable building, because the savings and part choice are better doing it yourself, or if a listing hides the power supply and RAM details. Also skip any listing priced far above an equivalent build; our guide to [how much a gaming PC costs](/how-much-does-a-gaming-pc-cost/) shows what each tier should cost."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Comparing brands instead of configurations",
+      "Two iBuyPower PCs with the same name can have different power supplies, RAM and SSDs. Compare the exact parts list of each listing; the graphics card alone does not tell you whether it is a good buy."
+    ],
+    [
+      "Accepting single-channel RAM",
+      "A 1 x 16 GB listing can cost noticeable frame rate in CPU-heavy games. If the price is right otherwise, budget about $40 for a matching second stick."
+    ],
+    [
+      "Skipping the post-delivery check",
+      "Shipping can loosen the graphics card or power cables. Open the panel and reseat anything loose before the first power-on; it prevents most \"won't display\" problems."
+    ],
+    [
+      "Assuming the warranty is the same everywhere",
+      "PCs bought through a retailer can carry different terms from those bought from iBuyPower directly. Read the warranty on the listing you are buying from."
+    ],
+    [
+      "Overpaying for RGB",
+      "Showcase cases and lighting add cost without frames. At the same price, a model with a faster GPU and plain case is the better gaming PC."
+    ]
+  ],
+  "bottomLine": "iBuyPower is a legitimate, generally good-value prebuilt brand. Its graphics cards and CPUs perform exactly like the same parts anywhere else, and its warranty and support are in line with its main rivals. Treat each listing on its own merits: look for a named power supply, two RAM sticks and a known SSD, and a price close to building the same PC yourself. Do that and an iBuyPower is a good way to get a gaming PC without building one.",
+  "faqs": [
+    {
+      "q": "Is iBuyPower a good brand?",
+      "a": "Yes, for value. iBuyPower uses retail graphics cards and CPUs and prices most systems close to the cost of their parts. Check each listing's power supply, RAM configuration and SSD, which vary more than the headline specs."
+    },
+    {
+      "q": "Is iBuyPower legit?",
+      "a": "Yes. It has sold gaming PCs since 1999 and sells through Amazon, Best Buy, Walmart and Newegg as well as its own site. Complaints are mostly about shipping times and support speed, not missing orders."
+    },
+    {
+      "q": "Are iBuyPower PCs reliable?",
+      "a": "Generally, yes. They use the same major components as other builders. The common early problems, a loose graphics card or cable after shipping, are easy to fix by reseating parts before first use."
+    },
+    {
+      "q": "How long is the iBuyPower warranty?",
+      "a": "iBuyPower has typically advertised three years of labor and a shorter parts term, often one year, plus lifetime tech support, per its warranty page at the time of writing. Check current terms and the listing, since retail units can differ."
+    },
+    {
+      "q": "Is iBuyPower better than CyberPowerPC?",
+      "a": "Neither is better across the board. Both use retail GPUs and CPUs and similar warranties. Compare the exact configurations: the power supply, RAM and price usually decide it. See our CyberPowerPC vs iBuyPower comparison."
+    },
+    {
+      "q": "Can you upgrade an iBuyPower PC?",
+      "a": "Usually, yes. Most use standard ATX or micro-ATX parts, so RAM, SSDs and the graphics card can be upgraded. Check the power supply's wattage and connectors before adding a bigger GPU."
+    },
+    {
+      "q": "Where is the best place to buy an iBuyPower PC?",
+      "a": "Wherever the exact configuration is cheapest with a return window you are comfortable with. Retailers often sell fixed configurations at a discount; iBuyPower's own site offers more customization."
+    },
+    {
+      "q": "Is an iBuyPower PC good for gaming?",
+      "a": "Yes, when the graphics card fits your resolution: an RTX 5060 class card for 1080p, an RTX 5070 or RX 9070 for 1440p, and an RTX 5070 Ti or faster for high refresh 1440p or 4K."
+    }
+  ],
+  "sources": [
+    "iBuyPower product listings and warranty information on ibuypower.com, checked at the time of writing",
+    "Retail listings for iBuyPower desktops on Amazon, Best Buy and Walmart",
+    "Independent GPU and CPU reviews from TechPowerUp, Hardware Unboxed and Gamers Nexus for component performance",
+    "Buyer reviews and forum reports, summarized as patterns rather than quoted ratings"
+  ],
+  "products": [
+    "ibuypower-slate-rtx-4060",
+    "ibuypower-y40-rtx-5070"
+  ],
+  "related": [
+    "best-prebuilt-gaming-pc",
+    "best-gaming-pc-under-1000",
+    "best-budget-gaming-pc"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "slug": "best-buy-prebuilt-gaming-pc",
+  "type": "article",
+  "kind": "explainer",
+  "category": "gaming-pcs",
+  "title": "Best Buy Prebuilt Gaming PC: What to Buy and What to Check",
+  "h1": "Best Buy Prebuilt Gaming PCs",
+  "query": "best buy prebuilt gaming pc",
+  "description": "Best Buy is a good place for a prebuilt gaming PC if you check 3 things: the GPU tier, the PSU and RAM, and the price against Amazon. Brands and return tips.",
+  "dek": "Which CyberPowerPC, iBuyPower, Skytech and other prebuilts Best Buy sells, what to check on the listing, and how it compares with Amazon, Newegg, Micro Center and Costco.",
+  "quickAnswer": "Best Buy is a solid place to buy a prebuilt gaming PC: it stocks CyberPowerPC, iBuyPower, Skytech, HP Omen, Alienware and others, and you can return a problem system in-store. Pick by the graphics card first, check the listing names the power supply and has two RAM sticks, and compare the price of the same configuration on Amazon and the brand's own site before you buy.",
+  "intro": [
+    "Prebuilt gaming PCs are one of Best Buy's biggest computer categories, and the same brands appear at Amazon, Newegg and on their own websites. This page covers what Best Buy sells, how to pick a good configuration, and when another store is the better place to buy.",
+    "We have not bench-tested these systems. Advice here is based on listed parts, the brands' published warranties and the broad pattern of buyer reports. Our product links go to Amazon, where we earn a commission; that does not change which store we say is best for you."
+  ],
+  "sections": [
+    {
+      "h": "Which Prebuilt Gaming PC Brands Does Best Buy Sell?",
+      "body": [
+        "Best Buy's lineup typically includes CyberPowerPC (Gamer Xtreme, Gamer Supreme, Gamer Master), iBuyPower (Slate, Y40 and others), Skytech, HP Omen, Alienware, Lenovo Legion, ASUS ROG and MSI. The exact models change constantly, and many are Best Buy-specific configurations with model numbers you won't find elsewhere, which makes price comparison harder.",
+        "The system-builder brands, CyberPowerPC, iBuyPower and Skytech, usually offer the most GPU for the money. Big OEMs such as HP, Lenovo and Alienware sometimes use proprietary cases, motherboards or power supplies, which can make later upgrades harder. For brand-by-brand detail, see [is CyberPowerPC good](/is-cyberpowerpc-good/), [is iBuyPower good](/is-ibuypower-good/) and our [Skytech gaming PC review](/skytech-gaming-pc-review/)."
+      ]
+    },
+    {
+      "h": "Is a CyberPowerPC or iBuyPower From Best Buy Any Good?",
+      "body": [
+        "Yes, when the configuration is right. A CyberPowerPC or iBuyPower at Best Buy uses the same retail graphics cards and CPUs as one from the brand's site, so it performs the same. What differs is the fixed configuration: Best Buy units can't be customized, so check the parts list carefully. Our [CyberPowerPC vs iBuyPower](/cyberpowerpc-vs-ibuypower/) comparison explains why the listing matters more than the brand.",
+        "One difference to check is the warranty. Systems sold through retailers can carry different terms from those bought directly, so read the warranty on the Best Buy listing, not only the brand's website."
+      ]
+    },
+    {
+      "h": "What Should You Check on a Best Buy Gaming PC Listing?",
+      "body": [
+        "Start with the graphics card, because it sets gaming performance. Then use the full specifications tab to check the parts that vary. The table below is the checklist we use."
+      ],
+      "table": {
+        "caption": "Checklist for a Best Buy prebuilt listing",
+        "head": [
+          "Check",
+          "What you want",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Graphics card",
+            "RTX 5060 / RX 9060 XT for 1080p; RTX 5070 / RX 9070 for 1440p; RTX 5070 Ti+ for 4K",
+            "Sets your frame rate"
+          ],
+          [
+            "RAM",
+            "16 GB minimum, as 2 sticks; 32 GB above $1,500",
+            "Single channel costs frames"
+          ],
+          [
+            "SSD",
+            "1 TB NVMe or more",
+            "Games often exceed 100 GB"
+          ],
+          [
+            "Power supply",
+            "Named brand and 80 Plus rating, enough watts for the GPU",
+            "Stability and upgrade room"
+          ],
+          [
+            "Case and cooling",
+            "Mesh front or enough fans; tower or AIO cooler on a high-end CPU",
+            "Noise and temperatures"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Which GPU Tier Should You Buy at Best Buy?",
+      "body": [
+        "Match the graphics card to your monitor. For 1080p at high settings, an [RTX 5060](/gear/rtx-5060/) or RX 9060 XT system is enough and usually sits around $800 to $1,000. For 1440p, look for an [RTX 5070](/gear/rtx-5070/) or RX 9070, typically $1,200 to $1,500. For high-refresh 1440p or 4K, an [RTX 5070 Ti](/gear/rtx-5070-ti/) or faster, usually $1,700 and up. These ranges move with sales; our guide to [how much a gaming PC costs](/how-much-does-a-gaming-pc-cost/) explains each tier.",
+        "If you're not sure how a card compares with a console you know, our [PS5 GPU equivalent](/console-gpu-equivalents/) chart shows which PC graphics cards match or beat each console."
+      ]
+    },
+    {
+      "h": "Where Is the Best Place to Buy a Prebuilt Gaming PC?",
+      "body": [
+        "It depends on what you value most. Best Buy is strongest for in-store returns and pickup; Amazon for selection and frequent discounts; the brands' own sites for customization; Micro Center for its in-house PowerSpec systems and in-store deals; Newegg for selection and bundles; and Costco for its generous return policy on the limited models it stocks. Return windows and policies change and often differ for membership tiers, so check the current policy before buying.",
+        "A practical approach: find the configuration you want, then check the same or a closely matched model across two or three stores. The price gap for the same parts is often $100 or more during sales."
+      ],
+      "table": {
+        "caption": "Where to buy a prebuilt gaming PC (check current policies)",
+        "head": [
+          "Store",
+          "Best for",
+          "Watch out for"
+        ],
+        "rows": [
+          [
+            "Best Buy",
+            "In-store returns, pickup, open-box deals",
+            "Fixed configurations, store-specific models"
+          ],
+          [
+            "Amazon",
+            "Selection, frequent discounts, Skytech range",
+            "Third-party sellers; check who ships it"
+          ],
+          [
+            "Brand site (CyberPowerPC, iBuyPower)",
+            "Custom configurations",
+            "Longer build and shipping times"
+          ],
+          [
+            "Micro Center",
+            "PowerSpec systems, in-store deals",
+            "Limited locations"
+          ],
+          [
+            "Newegg",
+            "Selection, bundles",
+            "Marketplace sellers vary"
+          ],
+          [
+            "Costco",
+            "Return policy",
+            "Small, changing selection"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "When Are the Best Times to Buy a Gaming PC at Best Buy?",
+      "body": [
+        "Prebuilt gaming PC prices move most around big sales events: Black Friday and Cyber Monday, back-to-school season and spring sales, and after new graphics cards launch, when systems with the previous generation get discounted. Outside those periods, individual weekly deals still appear, so it pays to watch a specific configuration for a week or two rather than buying the day you start looking.",
+        "Whenever you buy, compare the sale price with the parts list. A discount on an overpriced system can still be worse value than a full-price system with better parts. Our [best prebuilt gaming PC](/best-prebuilt-gaming-pc/) page tracks which configurations are good value at their usual prices."
+      ]
+    },
+    {
+      "h": "What Should You Do When You Get the PC Home?",
+      "body": [
+        "Spend 30 minutes on setup before you play. Remove the side panel and take out any shipping foam around the graphics card, check the graphics card and power cables are firmly seated, and plug the monitor into the graphics card's ports, not the motherboard's. Then run Windows Update, update the graphics driver from NVIDIA or AMD, and check the RAM shows its rated speed in Task Manager.",
+        "Use the return window as a test period. Play the games you bought the PC for, listen for loud fans or coil whine, and check temperatures with a free monitoring tool. If something is wrong, returning to the store is faster than a warranty claim."
+      ]
+    },
+    {
+      "h": "Are Best Buy Open-Box Gaming PCs Worth It?",
+      "body": [
+        "They can be. Open-box systems are returns that Best Buy inspects and resells at a discount, often graded by condition. Check that the discount is meaningful, that the full warranty still applies, and that the listing includes all accessories. Before using one, reinstall or reset Windows and update the graphics driver; our [NVIDIA driver guide](/how-to-update-nvidia-drivers/) covers that."
+      ]
+    },
+    {
+      "h": "Is It Cheaper to Build Than to Buy at Best Buy?",
+      "body": [
+        "Usually a little, but not always. Building saves money mainly on the supporting parts and lets you choose a better power supply and RAM, while prebuilts include Windows and assembly and sometimes undercut part prices during sales. If you don't want to build, a well-configured prebuilt at a fair price is a good choice. Our [best prebuilt gaming PC](/best-prebuilt-gaming-pc/), [best gaming PC under $1,000](/best-gaming-pc-under-1000/) and [best budget gaming PC](/best-budget-gaming-pc/) pages compare current configurations, and [rent to own](/rent-to-own-gaming-pc/) explains the financing options if paying up front isn't possible."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Buying on the store's 'gaming' label",
+      "Some PCs sold as gaming systems have weak graphics cards. Check the GPU tier against your monitor before anything else."
+    ],
+    [
+      "Not comparing the same configuration elsewhere",
+      "Store-specific model numbers hide identical parts lists. Compare the GPU, CPU, RAM and SSD across stores, not the model number."
+    ],
+    [
+      "Missing the return window",
+      "Test the PC thoroughly in the first days: run games, check temperatures and noise. Problems are easiest to fix with a return within the store's window."
+    ],
+    [
+      "Overlooking proprietary parts",
+      "Some OEM systems use custom motherboards, cases or power supplies that limit upgrades. System-builder brands usually use standard parts."
+    ],
+    [
+      "Paying for extended plans by default",
+      "Extended protection can be useful, but many components already carry long warranties from their makers. Read what the plan adds before buying it."
+    ]
+  ],
+  "bottomLine": "Best Buy is a good place to buy a prebuilt gaming PC if you value in-store returns and pickup. It sells the same CyberPowerPC, iBuyPower and Skytech systems found elsewhere, plus big OEM brands. Choose the GPU for your monitor, check the listing for two RAM sticks, a 1 TB SSD and a named power supply, and compare the same parts list on Amazon and the brand's own site before paying.",
+  "faqs": [
+    {
+      "q": "Is Best Buy a good place to buy a prebuilt gaming PC?",
+      "a": "Yes, especially for in-store returns and pickup. Its prices are competitive during sales, but compare the same configuration on Amazon and the brand's site first."
+    },
+    {
+      "q": "Does Best Buy sell CyberPowerPC and iBuyPower?",
+      "a": "Yes, both, usually as fixed configurations. They use the same retail GPUs and CPUs as the brands' own systems; check the warranty on the Best Buy listing."
+    },
+    {
+      "q": "Where is the best place to buy a prebuilt gaming PC?",
+      "a": "Best Buy for returns, Amazon for selection and discounts, brand sites for customization, and Micro Center for PowerSpec deals. Compare the same parts list across stores."
+    },
+    {
+      "q": "What should I look for in a Best Buy gaming PC?",
+      "a": "The right GPU for your monitor, 16 GB of RAM in two sticks, a 1 TB NVMe SSD and a named power supply with enough wattage for the graphics card."
+    },
+    {
+      "q": "Are Best Buy open-box gaming PCs safe to buy?",
+      "a": "Usually, if the discount is meaningful and the warranty still applies. Reset Windows and update drivers before use."
+    },
+    {
+      "q": "Does Best Buy sell Skytech gaming PCs?",
+      "a": "Skytech sells mainly through Amazon, but some models appear at Best Buy. Availability changes, so check both."
+    },
+    {
+      "q": "How much is a good gaming PC at Best Buy?",
+      "a": "Roughly $800 to $1,000 for 1080p, $1,200 to $1,500 for 1440p and $1,700 and up for high-refresh 1440p or 4K, depending on sales."
+    },
+    {
+      "q": "Is it cheaper to build a PC than buy one at Best Buy?",
+      "a": "Usually somewhat, mostly on supporting parts, but sales can make prebuilts cheaper. Building lets you choose a better PSU and RAM."
+    }
+  ],
+  "sources": [
+    "Best Buy prebuilt gaming desktop listings and return-policy pages, checked at the time of writing",
+    "CyberPowerPC, iBuyPower and Skytech product and warranty pages",
+    "Amazon, Newegg, Micro Center and Costco listings for comparable systems",
+    "Independent GPU reviews from TechPowerUp and Hardware Unboxed for tier guidance"
+  ],
+  "products": [
+    "cyberpowerpc-gamer-supreme-rtx-5070-ti",
+    "ibuypower-y40-rtx-5070",
+    "hp-omen-16l-rtx-5060",
+    "alienware-aurora-rtx-5080"
+  ],
+  "related": [
+    "best-prebuilt-gaming-pc",
+    "best-gaming-pc-under-1000",
+    "best-budget-gaming-pc"
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "slug": "how-much-does-a-gaming-pc-cost",
+  "type": "article",
+  "kind": "explainer",
+  "category": "gaming-pcs",
+  "title": "How Much Does a Gaming PC Cost? Build and Prebuilt by Tier",
+  "h1": "How Much Does a Gaming PC Cost?",
+  "query": "how much does a gaming pc cost",
+  "description": "A good gaming PC costs about $750 to $1,350 to build for 1080p, $1,600 to $2,000 for 1440p and $2,350+ for 4K. Part-by-part prices and prebuilt costs.",
+  "dek": "Real price bands for every part in a 1080p, 1440p and 4K gaming PC, plus Windows, a monitor, electricity and what a prebuilt adds or saves.",
+  "quickAnswer": "A good gaming PC costs about $750 to $1,000 to build for 1080p with an RX 6600-class card, and $1,050 to $1,350 for high-refresh 1080p and entry 1440p with an RX 9060 XT 16GB. A strong 1440p PC runs $1,600 to $2,000, and a 4K PC $2,350 to $3,000 with an RTX 5080. Add about $139 for Windows 11 Home if you build, plus a monitor and peripherals if you need them.",
+  "intro": [
+    "This page prices a complete gaming PC at four performance tiers, part by part, using the street price bands of the parts we track on this site rather than round guesses. Each tier lists the exact parts, so you can swap one and see how the total moves.",
+    "Prices are typical US street price bands at the time of writing, not live quotes, and graphics card and memory prices move week to week. The totals cover the tower only; a separate table adds Windows, a monitor, peripherals and running costs."
+  ],
+  "sections": [
+    {
+      "h": "How Much Does a Good Gaming PC Cost?",
+      "body": [
+        "A good gaming PC, meaning one that runs current games at high settings and 60 fps or more at 1080p, costs about $750 to $1,000 to build in 2026. That buys a Ryzen 7 5800X-class processor, 32 GB of DDR4 and an [RX 6600](/gear/rx-6600/) on a B550 board. Spending $1,050 to $1,350 moves you to AM5 with a [Ryzen 5 7600](/gear/ryzen-5-7600/) and a 16 GB [RX 9060 XT](/gear/rx-9060-xt-16gb/), which is the point where high-refresh 1080p and entry 1440p become comfortable and the PC has room to upgrade.",
+        "The graphics card sets most of the price. In every tier below it is the single most expensive part, from about 22 percent of the total in the entry build to about 45 percent in the 4K build. That is why the fastest way to change the total is to change the card, and why our [budget graphics card guide](/best-budget-graphics-card/) matters more to a tight budget than any other part.",
+        "Memory is the part that moved most recently. The DDR5 kits we track list at $110 to $200 for 32 GB, a wide band because prices rose through 2025 and 2026. If your budget is tight, the AM4 entry build saves most of that by using DDR4, which is still cheaper per gigabyte."
+      ]
+    },
+    {
+      "h": "What Does Each Part of a Gaming PC Cost?",
+      "body": [
+        "The table below totals each tier from the price bands on our part pages. The low figure assumes you catch each part near the bottom of its usual range; the high figure is what you pay if you buy everything at once without waiting for deals. Most real builds land in the middle.",
+        "The entry build uses an AM4 platform because it is the cheapest way to a fast 8-core CPU today. The other three use AM5, which keeps a CPU upgrade path open for future Ryzen chips."
+      ],
+      "table": {
+        "caption": "Gaming PC build cost by tier, US street price bands (tower only, no Windows)",
+        "head": [
+          "Part",
+          "Entry 1080p",
+          "Mainstream 1080p / 1440p",
+          "Strong 1440p",
+          "4K"
+        ],
+        "rows": [
+          [
+            "CPU",
+            "Ryzen 7 5800X ($130–$180)",
+            "Ryzen 5 7600 ($170–$200)",
+            "Ryzen 7 7800X3D ($360–$420)",
+            "Ryzen 7 9800X3D ($450–$480)"
+          ],
+          [
+            "Motherboard",
+            "MSI MAG B550 Tomahawk ($140–$180)",
+            "MSI PRO B650M-A WiFi ($130–$160)",
+            "MSI MAG B650 Tomahawk WiFi ($170–$200)",
+            "MSI MAG X870 Tomahawk WiFi ($260–$300)"
+          ],
+          [
+            "Memory (32 GB)",
+            "Crucial Pro DDR4-3200 ($55–$90)",
+            "Kingston Fury Beast DDR5-6000 ($110–$200)",
+            "Kingston Fury Beast DDR5-6000 ($110–$200)",
+            "Kingston Fury Beast DDR5-6000 ($110–$200)"
+          ],
+          [
+            "SSD (2 TB)",
+            "Kingston NV3 ($100–$140)",
+            "Kingston NV3 ($100–$140)",
+            "WD Black SN7100 ($120–$170)",
+            "Samsung 990 Pro ($150–$210)"
+          ],
+          [
+            "Graphics card",
+            "RX 6600 ($180–$230)",
+            "RX 9060 XT 16GB ($350–$400)",
+            "RX 9070 XT ($600–$730)",
+            "RTX 5080 ($1,000–$1,300)"
+          ],
+          [
+            "CPU cooler",
+            "Thermalright Assassin X 120 Refined SE ($18–$25)",
+            "Thermalright Peerless Assassin 120 SE ($35–$45)",
+            "Thermalright Phantom Spirit 120 SE ($35–$45)",
+            "Arctic Liquid Freezer III Pro 360 ($85–$110)"
+          ],
+          [
+            "Power supply",
+            "MSI MAG A750GL PCIE5 ($75–$95)",
+            "Corsair RM750e ($85–$100)",
+            "Corsair RM850e ($105–$130)",
+            "Corsair RM1000x ($170–$200)"
+          ],
+          [
+            "Case",
+            "Montech Air 100 Lite ($45–$55)",
+            "Lian Li Lancool 207 ($80–$90)",
+            "Lian Li Lancool 217 ($100–$120)",
+            "Lian Li O11 Dynamic EVO ($140–$170)"
+          ],
+          [
+            "Total",
+            "$743–$995",
+            "$1,060–$1,335",
+            "$1,600–$2,015",
+            "$2,365–$2,960"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "How Much Does a Decent Gaming PC Cost?",
+      "body": [
+        "For 1080p, budget about $750 to $1,000 for 60 fps at high settings and $1,050 to $1,350 for 100 fps and up in most games. The jump between the two is mostly the graphics card: an RX 6600 handles 1080p high in most games, while the RX 9060 XT 16GB adds about two tiers of speed and twice the VRAM, which keeps high texture settings available in new releases.",
+        "Decent is the tier most first-time buyers want: new games at 1080p high, older and esports games well above 100 fps, and no need to replace anything for a few years. The entry build gets you there today; the mainstream build gets you there with more headroom, because 16 GB of VRAM and an AM5 board are the two things that keep a PC useful longest. If you would rather buy than build, our [best gaming PC under $1,000](/best-gaming-pc-under-1000/) lists prebuilts in the same range."
+      ]
+    },
+    {
+      "h": "How Much Does a High-End Gaming PC Cost?",
+      "body": [
+        "A high-end gaming PC costs about $1,600 to $2,000 for 1440p at high refresh rates and $2,350 or more for 4K. At 1440p, the [RX 9070 XT](/gear/rx-9070-xt/) or [RTX 5070 Ti](/gear/rtx-5070-ti/) is the card that makes high refresh rates work, and the [Ryzen 7 7800X3D](/gear/ryzen-7-7800x3d/) keeps the CPU from holding it back. Swapping the RX 9070 XT for an RTX 5070 Ti adds about $150 to $170 for better ray tracing and DLSS 4.",
+        "For 4K, budget about $2,350 to $3,000 with an [RTX 5080](/gear/rtx-5080/), and roughly $1,000 to $1,400 more for an [RTX 5090](/gear/rtx-5090/) instead, which puts the total around $3,350 to $4,350. At 4K the graphics card is so dominant that a cheaper CPU barely changes frame rates; the [bottleneck calculator](/tools/bottleneck-calculator/) shows where that line sits for your parts."
+      ]
+    },
+    {
+      "h": "How Much Does a Full Gaming PC Setup Cost?",
+      "body": [
+        "A full gaming PC setup costs about $1,100 to $1,500 at the budget end and $1,650 to $2,300 for a mainstream 1440p setup: the tower from the tier table plus Windows, a monitor and peripherals. If you build, you need a Windows license: Windows 11 Home is about $139 at Microsoft's list price at the time of writing, and Pro about $199. Prebuilt PCs include a license in their price.",
+        "A first gaming PC usually also needs a monitor, keyboard, mouse and headset. The table shows typical ranges for a sensible starter setup; these are rough market ranges, not prices from our database."
+      ],
+      "table": {
+        "caption": "Extra costs beyond the tower (typical ranges, approximate)",
+        "head": [
+          "Item",
+          "Budget",
+          "Mid-range",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Windows 11 Home license",
+            "About $139",
+            "About $139",
+            "Included with prebuilts"
+          ],
+          [
+            "Monitor",
+            "$120–$200 (1080p, 144 Hz+)",
+            "$250–$450 (1440p, 165 Hz+)",
+            "Match it to the GPU tier"
+          ],
+          [
+            "Keyboard and mouse",
+            "$40–$80",
+            "$100–$200",
+            ""
+          ],
+          [
+            "Headset",
+            "$30–$60",
+            "$80–$150",
+            ""
+          ],
+          [
+            "Total extras",
+            "About $330–$480",
+            "About $570–$940",
+            "Skip any item you already own"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "How Much Does It Cost to Build a Gaming PC?",
+      "body": [
+        "It costs about $750 to $3,000 to build a gaming PC, depending on the tier, plus about $139 for Windows; the tier table above lists every part. Building is usually cheaper than buying by roughly 10 to 25 percent at the same performance, but the gap is smaller than it used to be and sometimes disappears during sales. System builders buy graphics cards in volume, include Windows, and run frequent discounts, so a well-priced prebuilt can match a self-build once you add the license.",
+        "Where prebuilts lose money is in the parts you cannot see. A listing will name the CPU and GPU, but often not the power supply, memory speed or motherboard model, and those are where costs get cut. A $1,000 prebuilt with an RTX 5060 and a no-name 500 W supply is a worse buy than its spec line suggests. Our [prebuilt gaming PC guide](/best-prebuilt-gaming-pc/) checks for exactly that.",
+        "Build if you want the lowest price per frame, control over every part and a clean upgrade path. Buy prebuilt if you want one warranty for the whole system, no assembly, or a deal that undercuts the parts. Either way, compare against the tier table above so you know what the same performance costs in parts."
+      ],
+      "table": {
+        "caption": "Build vs prebuilt: where the money goes",
+        "head": [
+          "Factor",
+          "Build it yourself",
+          "Buy prebuilt"
+        ],
+        "rows": [
+          [
+            "Parts cost",
+            "Lowest, if you shop each part",
+            "Often 10–25% more at the same performance; less on sale"
+          ],
+          [
+            "Windows",
+            "About $139 extra",
+            "Included"
+          ],
+          [
+            "Hidden parts",
+            "You choose the PSU, RAM and board",
+            "Often unnamed budget PSU, RAM or board"
+          ],
+          [
+            "Warranty",
+            "Separate per part",
+            "One system warranty"
+          ],
+          [
+            "Time",
+            "A few hours plus setup",
+            "Plug in and play"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "How Much Does a Cheap Gaming PC Cost?",
+      "body": [
+        "The cheapest new gaming PC worth buying costs about $700 to $750 to build, using the entry tier above with a Ryzen 7 5800X and an RX 6600 bought near the low end of their price bands. Below that, you are usually better served by a used PC or a discounted prebuilt than by cutting parts, because the next cuts are the ones that hurt: an older 6-core CPU, 16 GB of memory or a 4 GB graphics card.",
+        "Under $600, look at used systems with a GTX 1660 Super, RTX 2060 or RX 5700-class card, or a prebuilt sale. Our [budget gaming PC guide](/best-budget-gaming-pc/) and [best gaming PC under $1,000](/best-gaming-pc-under-1000/) list current picks. For how old cards compare to today's, see [old GeForce equivalents](/old-nvidia-gpu-equivalents/).",
+        "A console is the other cheap route. A PS5 performs roughly like a desktop RX 6700 or RTX 2070 Super; our [console GPU equivalents](/console-gpu-equivalents/) chart shows what PC matches each console, and what that PC costs to build."
+      ]
+    },
+    {
+      "h": "How Much Does a Gaming PC Cost to Run in Electricity?",
+      "body": [
+        "A mid-range gaming PC costs most US households roughly $40 to $90 a year in electricity, depending on hours played and local rates. As a worked example with a hypothetical rate of 17 cents per kWh (close to the recent US residential average; check your bill for yours): a mainstream build drawing about 350 W while gaming, played 3 hours a day, uses about 383 kWh a year, which comes to about $65. Idle and desktop use add a little more.",
+        "A 4K build with an RTX 5080 can draw 550 W or more in games, which roughly doubles that figure for the same hours. Use our [PSU calculator](/tools/psu-calculator/) to estimate your build's draw, then multiply by your hours and your electricity rate from your utility bill."
+      ],
+      "table": {
+        "caption": "Example yearly electricity cost (3 hours of gaming a day at a hypothetical 17 cents per kWh; estimates)",
+        "head": [
+          "Build",
+          "Approx. gaming draw",
+          "kWh per year",
+          "Cost per year"
+        ],
+        "rows": [
+          [
+            "Entry 1080p",
+            "About 250 W",
+            "About 274",
+            "About $47"
+          ],
+          [
+            "Mainstream 1080p / 1440p",
+            "About 350 W",
+            "About 383",
+            "About $65"
+          ],
+          [
+            "Strong 1440p",
+            "About 450 W",
+            "About 493",
+            "About $84"
+          ],
+          [
+            "4K (RTX 5080)",
+            "About 600 W",
+            "About 657",
+            "About $112"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "When Is the Cheapest Time to Buy Gaming PC Parts?",
+      "body": [
+        "Parts are usually cheapest around Black Friday and Cyber Monday, Amazon Prime Day in July, and in the months after a new generation launches, when the outgoing cards and CPUs get discounted. Graphics card prices also drop in the weeks after launch supply catches up, which is why an early buyer of a new card often pays more than someone a few months later.",
+        "The flip side is memory and storage, which follow the chip market rather than the calendar. When DDR5 and SSD prices are climbing, as they did through 2025 and 2026, buying those parts sooner beats waiting for a sale that may not come. Track the two or three parts that cost the most, and buy the rest when you are ready to build."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Budgeting for the tower only",
+      "A first gaming PC often needs a Windows license, a monitor, a keyboard, a mouse and a headset, which add roughly $330 to $940. Price the whole setup before deciding which graphics card fits."
+    ],
+    [
+      "Spending on the CPU instead of the GPU",
+      "At 1440p and 4K the graphics card sets the frame rate. A Ryzen 5 7600 with an RX 9070 XT beats a Ryzen 7 9800X3D with an RX 9060 XT in nearly every game, at a similar total."
+    ],
+    [
+      "Cutting the power supply",
+      "A cheap, unrated power supply saves $30 and puts every other part at risk. Use a known unit sized with headroom; our PSU calculator shows the wattage you need."
+    ],
+    [
+      "Comparing a prebuilt on CPU and GPU alone",
+      "Two prebuilts with the same CPU and GPU can differ by hundreds of dollars in what they hide: power supply, memory speed, storage size and motherboard. Check the full spec sheet before comparing prices."
+    ],
+    [
+      "Buying memory at the top of the market",
+      "Memory prices swing more than other parts. If a 32 GB DDR5 kit is near the top of its $110 to $200 band, consider the AM4 entry build with DDR4 or wait for a dip."
+    ]
+  ],
+  "bottomLine": "A good gaming PC costs about $750 to $1,000 to build for 1080p and $1,050 to $1,350 for high-refresh 1080p with room to grow, using the parts in our tier table. Strong 1440p costs $1,600 to $2,000, and 4K starts around $2,350 with an RTX 5080. Add about $139 for Windows if you build, and $330 or more for a monitor and peripherals if you need them. Prebuilts include Windows and can match a self-build on sale, but check the parts they do not name.",
+  "faqs": [
+    {
+      "q": "How much does a good gaming PC cost?",
+      "a": "About $750 to $1,000 to build for 1080p at high settings, and $1,050 to $1,350 for high-refresh 1080p and entry 1440p. Those totals use the street price bands of the parts on this site and cover the tower only, without Windows or a monitor."
+    },
+    {
+      "q": "How much is a gaming PC for 1440p?",
+      "a": "About $1,600 to $2,000 to build with a Ryzen 7 7800X3D and an RX 9070 XT, or about $150 more with an RTX 5070 Ti instead. Add a 1440p high-refresh monitor, typically $250 to $450."
+    },
+    {
+      "q": "How much does a 4K gaming PC cost?",
+      "a": "About $2,350 to $3,000 with an RTX 5080 and a Ryzen 7 9800X3D, and roughly $3,350 to $4,350 with an RTX 5090. The graphics card is close to half of the total at this tier."
+    },
+    {
+      "q": "How much does a decent gaming PC cost?",
+      "a": "About $750 to $1,000 to build, for 1080p at high settings with a Ryzen 7 5800X and an RX 6600. $1,000 also comes close to the AM5 tier with a Ryzen 5 7600 and RX 9060 XT 16GB if you catch parts near the low end of their bands."
+    },
+    {
+      "q": "Is it cheaper to build a gaming PC than buy one?",
+      "a": "Usually, by roughly 10 to 25 percent at the same performance, but prebuilts include a Windows license worth about $139 and sometimes undercut the parts during sales. Compare the prebuilt's price against the same parts in our tier table."
+    },
+    {
+      "q": "How much does Windows cost for a gaming PC?",
+      "a": "About $139 for Windows 11 Home and $199 for Pro at Microsoft's list prices at the time of writing. Home is enough for gaming. Prebuilt PCs include the license in their price."
+    },
+    {
+      "q": "How much does a gaming PC cost in electricity?",
+      "a": "Roughly $3 to $10 a month for most players. At a hypothetical 17 cents per kWh and 3 hours of gaming a day, a mainstream build drawing 350 W costs about $5 a month and a 4K build drawing 600 W about $9. Multiply by your own rate."
+    },
+    {
+      "q": "What is the cheapest gaming PC worth buying?",
+      "a": "About $700 to $750 built new, using a Ryzen 7 5800X, 32 GB of DDR4 and an RX 6600. Below that, a used PC or a discounted prebuilt usually gives more performance than cutting parts further."
+    }
+  ],
+  "sources": [
+    "Street price bands from the part pages on this site (graphics cards, processors, motherboards, memory, SSDs, coolers, power supplies and cases), US, at the time of writing",
+    "Microsoft Store list prices for Windows 11 Home and Pro",
+    "U.S. Energy Information Administration average residential electricity price",
+    "NVIDIA and AMD published board power and recommended power supply figures",
+    "Independent GPU and CPU reviews from TechPowerUp, Hardware Unboxed and Tom's Hardware"
+  ],
+  "products": [
+    "rx-6600",
+    "rx-9060-xt-16gb",
+    "rx-9070-xt",
+    "rtx-5080",
+    "ryzen-5-7600",
+    "ryzen-7-7800x3d"
+  ],
+  "related": [
+    "best-budget-graphics-card",
+    "best-graphics-card",
+    "console-gpu-equivalents"
+  ]
+}

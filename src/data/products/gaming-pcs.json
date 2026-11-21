@@ -1,0 +1,1201 @@
+[
+  {
+    "id": "cyberpowerpc-gamer-xtreme-rtx-3050",
+    "name": "CyberPowerPC Gamer Xtreme (RTX 3050)",
+    "short": "Gamer Xtreme RTX 3050",
+    "brand": "cyberpowerpc",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      600,
+      750
+    ],
+    "amazon": "CyberPowerPC Gamer Xtreme RTX 3050 gaming PC",
+    "description": "The CyberPowerPC Gamer Xtreme with an RTX 3050 is a $600 to $750 entry gaming PC for 1080p esports. Check the RAM layout and the 3050's VRAM before buying.",
+    "quick": "A budget CyberPowerPC tower that pairs an RTX 3050 with a recent Intel Core i5 in most listings. It plays esports and older games well at 1080p and leaves room for a later graphics card upgrade.",
+    "bestFor": "First gaming PCs on a tight budget that will mostly run esports titles at 1080p",
+    "skipIf": "You want new AAA games at high settings; an RTX 5060 system is a large step up for a few hundred dollars more",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 3050, 6 GB or 8 GB depending on the listing"
+      ],
+      [
+        "Processor",
+        "Intel Core i5 in most listings (varies)"
+      ],
+      [
+        "Memory",
+        "16 GB in most listings; check for two sticks"
+      ],
+      [
+        "Storage",
+        "500 GB to 1 TB NVMe SSD (varies)"
+      ],
+      [
+        "Power supply",
+        "Varies by listing; check brand and wattage"
+      ],
+      [
+        "Motherboard",
+        "Varies by listing"
+      ],
+      [
+        "Cooling",
+        "Air cooled in most configurations"
+      ],
+      [
+        "Warranty",
+        "Per CyberPowerPC's terms; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 70,
+      "parts": [
+        [
+          "Gaming performance",
+          58
+        ],
+        [
+          "Parts quality",
+          66
+        ],
+        [
+          "Upgradability",
+          72
+        ],
+        [
+          "Value",
+          80
+        ]
+      ]
+    },
+    "verdict": [
+      "The Gamer Xtreme with an RTX 3050 is about the least you can spend on a new prebuilt that still has a real graphics card. Listings usually pair the card with a recent Intel Core i5, 16 GB of memory and an NVMe SSD, which is a sensible base: the CPU is strong enough that a much faster graphics card can go in later without the processor holding it back.",
+      "The weak point is the RTX 3050 itself. It handles Fortnite, Valorant, Counter-Strike 2, Rocket League and Minecraft at 1080p, but new AAA games need medium or low settings, and the 6 GB version is noticeably slower than the 8 GB card. Independent reviews put an RTX 5060 roughly twice as fast, so this machine makes most sense when the budget is truly fixed near $700.",
+      "Two things decide whether a specific listing is a good buy. Check that the memory is two sticks rather than one, because single-channel memory costs frame rate in CPU-heavy games, and check the power supply's wattage and brand so you know whether an RTX 5060-class upgrade will be possible. If the price climbs past about $800, the [iBuyPower Slate with an RTX 4060](/gear/ibuypower-slate-rtx-4060/) is the better buy."
+    ],
+    "pros": [
+      "Low entry price for a new PC with a real GPU",
+      "Recent Core i5 leaves room for a GPU upgrade",
+      "NVMe SSD and 16 GB in most listings",
+      "Standard tower parts"
+    ],
+    "cons": [
+      "RTX 3050 is slow in new AAA games",
+      "6 GB and 8 GB versions are easy to confuse",
+      "Power supply details often missing"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can the CyberPowerPC Gamer Xtreme with an RTX 3050 run Fortnite?",
+        "a": "Yes. An RTX 3050 runs Fortnite comfortably at 1080p with performance-focused settings, and esports titles like Valorant and Counter-Strike 2 run at high frame rates. New AAA games need medium or low settings."
+      },
+      {
+        "q": "Is the RTX 3050 6GB or 8GB better?",
+        "a": "The 8 GB version is clearly better. The 6 GB RTX 3050 has fewer cores and less memory bandwidth as well as less VRAM, so independent reviews put it well behind the 8 GB card. Check the listing title before buying."
+      },
+      {
+        "q": "Can I upgrade the graphics card later?",
+        "a": "Usually yes, as long as the power supply has the wattage and connectors the new card needs. Check the PSU wattage in the listing; an RTX 5060-class card is the most common upgrade for this kind of system."
+      }
+    ]
+  },
+  {
+    "id": "ibuypower-slate-rtx-4060",
+    "name": "iBuyPower Slate (RTX 4060)",
+    "short": "Slate RTX 4060",
+    "brand": "ibuypower",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      800,
+      950
+    ],
+    "amazon": "iBuyPower Slate RTX 4060 gaming PC",
+    "description": "The iBuyPower Slate with an RTX 4060 is an $800 to $950 1080p gaming PC with DLSS 3 frame generation. Confirm the CPU and dual-channel memory in the listing.",
+    "quick": "An iBuyPower Slate tower with an RTX 4060, which handles 1080p high settings in most current games and supports DLSS frame generation. Listings vary on CPU, memory and storage.",
+    "bestFor": "1080p gamers who want a capable prebuilt under $1,000 with DLSS support",
+    "skipIf": "You can stretch to an RTX 5060 Ti 16GB system, which ages much better at 1440p",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 4060 8 GB"
+      ],
+      [
+        "Processor",
+        "Varies by listing (Intel Core i5 or AMD Ryzen 5 class)"
+      ],
+      [
+        "Memory",
+        "16 GB in most listings; check for two sticks"
+      ],
+      [
+        "Storage",
+        "1 TB NVMe SSD in many listings (varies)"
+      ],
+      [
+        "Power supply",
+        "Varies by listing; check brand and wattage"
+      ],
+      [
+        "Motherboard",
+        "Varies by listing"
+      ],
+      [
+        "Cooling",
+        "Air cooled in most configurations"
+      ],
+      [
+        "Warranty",
+        "Per iBuyPower's terms; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 76,
+      "parts": [
+        [
+          "Gaming performance",
+          72
+        ],
+        [
+          "Parts quality",
+          68
+        ],
+        [
+          "Upgradability",
+          72
+        ],
+        [
+          "Value",
+          82
+        ]
+      ]
+    },
+    "verdict": [
+      "The Slate with an RTX 4060 is a solid 1080p machine. The [RTX 4060](/gear/rtx-4060/) runs most current games at 1080p high settings, and DLSS 3 frame generation helps in the games that support it. Independent reviews put it roughly level with an RTX 3060 Ti in raster at 1080p, with much lower power draw, so it is easy on the power supply and quiet in a small case.",
+      "Its limit is the 8 GB of VRAM, which already forces texture settings down in some new releases, and the card is being replaced by the RTX 5060, which is somewhat faster for similar money. If you find a Slate with an RTX 5060 near the same price, take that one. iBuyPower uses standard desktop parts, so upgrading the graphics card or adding storage later is straightforward.",
+      "As with every prebuilt in this range, the details matter more than the name. Look for a current six-core CPU, two sticks of memory, at least a 1 TB SSD and a named power supply. The [Skytech Archangel with an RTX 5060](/gear/skytech-archangel-rtx-5060/) is the closest alternative and usually costs a little more."
+    ],
+    "pros": [
+      "RTX 4060 handles 1080p high settings",
+      "DLSS 3 frame generation",
+      "Low power draw and heat",
+      "Standard, upgradeable parts"
+    ],
+    "cons": [
+      "8 GB of VRAM limits new games",
+      "RTX 5060 versions are better value when priced the same",
+      "CPU varies a lot between listings"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the iBuyPower Slate good for gaming?",
+        "a": "Yes, at the right configuration. With an RTX 4060, the Slate runs most current games at 1080p high settings. Check the CPU, the memory layout and the power supply in the listing, because configurations vary under the same name."
+      },
+      {
+        "q": "Can the iBuyPower Slate with an RTX 4060 run 1440p?",
+        "a": "In lighter and older games, yes, especially with DLSS. In demanding new releases it is a 1080p card, and its 8 GB of VRAM means lowering texture settings at 1440p."
+      },
+      {
+        "q": "Is iBuyPower a good brand?",
+        "a": "iBuyPower is one of the larger US system builders and uses standard desktop parts, which makes upgrades easy. Owner reports on build quality are mostly positive, with the usual complaints about shipping damage and unbranded power supplies on some budget listings."
+      }
+    ]
+  },
+  {
+    "id": "skytech-archangel-rtx-5060",
+    "name": "Skytech Archangel (RTX 5060)",
+    "short": "Archangel RTX 5060",
+    "brand": "skytech",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      850,
+      1050
+    ],
+    "amazon": "Skytech Archangel RTX 5060 gaming PC",
+    "description": "The Skytech Archangel with an RTX 5060 is the best gaming PC around $1,000: high 1080p settings, DLSS 4 and a GPU upgrade path. Check CPU and RAM per listing.",
+    "quick": "Skytech's budget-to-midrange Archangel tower in an RTX 5060 configuration. It plays current games at 1080p high settings with DLSS 4, and Skytech uses standard parts that are easy to upgrade.",
+    "bestFor": "Most buyers who want a new gaming PC for about $1,000 and play at 1080p",
+    "skipIf": "You plan to play at 1440p for years; the 16 GB RTX 5060 Ti systems age better",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 5060 8 GB"
+      ],
+      [
+        "Processor",
+        "Varies by listing (AMD Ryzen 5 or Intel Core i5 class)"
+      ],
+      [
+        "Memory",
+        "16 GB in most listings; check for two sticks"
+      ],
+      [
+        "Storage",
+        "1 TB NVMe SSD in many listings (varies)"
+      ],
+      [
+        "Power supply",
+        "Varies by listing; check brand and wattage"
+      ],
+      [
+        "Motherboard",
+        "Varies by listing"
+      ],
+      [
+        "Cooling",
+        "Air cooled in most configurations"
+      ],
+      [
+        "Warranty",
+        "Per Skytech's terms; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 79,
+      "parts": [
+        [
+          "Gaming performance",
+          76
+        ],
+        [
+          "Parts quality",
+          70
+        ],
+        [
+          "Upgradability",
+          74
+        ],
+        [
+          "Value",
+          84
+        ]
+      ]
+    },
+    "verdict": [
+      "The Archangel with an RTX 5060 is the sweet spot for a prebuilt near $1,000. The [RTX 5060](/gear/rtx-5060/) is NVIDIA's current entry card, independent reviews put it ahead of the RTX 4060 by a clear margin, and it supports DLSS 4 with multi frame generation. That makes 1080p high settings realistic in current games, with 1440p possible in lighter titles.",
+      "The 8 GB of VRAM is the trade-off. Some new games already need lower texture settings on 8 GB cards, and that will get more common. If you keep PCs for five years or more, a 16 GB card such as the [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) in the [Skytech Shadow](/gear/skytech-shadow-rtx-5060-ti/) is the safer buy for about $250 more.",
+      "Skytech is one of the most common prebuilt brands on Amazon, and its towers use standard motherboards, power supplies and storage, so a later GPU or SSD upgrade is simple. Listings differ in CPU, memory and power supply, so check those three lines. Two sticks of memory and a named 600 W or larger supply are what you want to see."
+    ],
+    "pros": [
+      "RTX 5060 with DLSS 4",
+      "Good 1080p performance for the price",
+      "Standard parts, easy to upgrade",
+      "Widely available"
+    ],
+    "cons": [
+      "8 GB of VRAM",
+      "Configuration varies between listings",
+      "Power supply often unbranded"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Skytech Archangel good?",
+        "a": "In an RTX 5060 configuration, yes: it plays current games at 1080p high settings and costs about $850 to $1,050. Check the CPU, memory layout and power supply in the listing, because Archangel configurations vary."
+      },
+      {
+        "q": "Can the Skytech Archangel run 1440p?",
+        "a": "Lighter and older games run well at 1440p, especially with DLSS. Demanding new releases need lower settings, partly because the RTX 5060 has 8 GB of VRAM."
+      },
+      {
+        "q": "How do I upgrade storage in a Skytech Archangel?",
+        "a": "Most Archangel builds have a free M.2 slot or 2.5-inch bay. Check the motherboard model in the system information, then add an NVMe SSD from our [SSD guide](/best-ssd-for-gaming/)."
+      }
+    ]
+  },
+  {
+    "id": "hp-omen-16l-rtx-5060",
+    "name": "HP Omen 16L (RTX 5060)",
+    "short": "Omen 16L RTX 5060",
+    "brand": "hp",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      950,
+      1200
+    ],
+    "amazon": "HP Omen 16L RTX 5060 gaming desktop",
+    "description": "The HP Omen 16L with an RTX 5060 is a compact $950 to $1,200 1080p gaming desktop with HP support. Expect some HP-specific parts that make upgrades harder.",
+    "quick": "HP's compact Omen 16L gaming desktop in an RTX 5060 configuration. It is small and tidy with HP's support network, but some parts are HP-specific.",
+    "bestFor": "Buyers who want a compact desktop from a big brand with local support",
+    "skipIf": "You plan big upgrades later; a standard tower from Skytech or iBuyPower is easier to change",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 5060 8 GB (configurations vary)"
+      ],
+      [
+        "Processor",
+        "Varies by configuration"
+      ],
+      [
+        "Memory",
+        "16 GB in many configurations (varies)"
+      ],
+      [
+        "Storage",
+        "512 GB to 1 TB NVMe SSD (varies)"
+      ],
+      [
+        "Power supply",
+        "HP unit, wattage varies by configuration"
+      ],
+      [
+        "Motherboard",
+        "HP design"
+      ],
+      [
+        "Cooling",
+        "Air cooled"
+      ],
+      [
+        "Warranty",
+        "HP limited warranty; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 74,
+      "parts": [
+        [
+          "Gaming performance",
+          75
+        ],
+        [
+          "Parts quality",
+          72
+        ],
+        [
+          "Upgradability",
+          58
+        ],
+        [
+          "Value",
+          76
+        ]
+      ]
+    },
+    "verdict": [
+      "The Omen 16L is HP's small gaming desktop, and in an RTX 5060 configuration it delivers the same 1080p high-settings performance as other RTX 5060 systems. Its appeal is the package: a compact case that fits on or under a desk, HP's warranty and support, and availability at big-box stores where you can return it easily.",
+      "The cost is flexibility. HP uses its own motherboard and power supply designs in the Omen line, and a compact case limits the size of a future graphics card. Owners report that upgrading the GPU or power supply can be harder than in a standard tower, so if you expect to swap major parts, the [Skytech Archangel](/gear/skytech-archangel-rtx-5060/) or [iBuyPower Slate](/gear/ibuypower-slate-rtx-4060/) is the better base.",
+      "Prices swing a lot with HP's frequent sales, and the Omen 16L is only good value toward the bottom of its range. Configurations also vary in CPU, memory and storage, so compare the exact specification against an RTX 5060 tower before buying."
+    ],
+    "pros": [
+      "Compact case",
+      "HP warranty and support network",
+      "Easy to find and return at retail",
+      "RTX 5060 with DLSS 4"
+    ],
+    "cons": [
+      "HP-specific parts limit upgrades",
+      "Small case limits future GPU size",
+      "Good value only on sale"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the HP Omen 16L good for gaming?",
+        "a": "Yes, for 1080p. With an RTX 5060 it runs current games at high settings. Its compact case and HP-specific parts make big upgrades harder than in a standard tower."
+      },
+      {
+        "q": "Can you upgrade the GPU in an HP Omen 16L?",
+        "a": "Often yes, within limits: the card must fit the compact case and the HP power supply must have the wattage and connectors it needs. Check both before buying a new card."
+      },
+      {
+        "q": "Omen 16L or Omen 25L?",
+        "a": "The 25L is a larger case with more room for cooling and bigger graphics cards. Choose it if you want a faster GPU now or plan to upgrade later; the 16L suits small desks."
+      }
+    ]
+  },
+  {
+    "id": "skytech-shadow-rtx-5060-ti",
+    "name": "Skytech Shadow (RTX 5060 Ti 16GB)",
+    "short": "Shadow RTX 5060 Ti",
+    "brand": "skytech",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      1100,
+      1350
+    ],
+    "amazon": "Skytech Shadow RTX 5060 Ti 16GB gaming PC",
+    "description": "The Skytech Shadow with a 16 GB RTX 5060 Ti is the best-value prebuilt at $1,100 to $1,350: high 1080p and solid 1440p, with VRAM that ages well.",
+    "quick": "A Skytech Shadow tower with the 16 GB RTX 5060 Ti. It plays current games at high 1080p settings and handles 1440p well, and its 16 GB of VRAM keeps texture settings high for years.",
+    "bestFor": "1080p and 1440p gamers who want a prebuilt that will still run new games well in four or five years",
+    "skipIf": "Your budget ends at $1,000; the RTX 5060 Archangel is the better fit",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 5060 Ti 16GB (check it is the 16 GB version)"
+      ],
+      [
+        "Processor",
+        "Varies by listing (AMD Ryzen 5 or Ryzen 7 class)"
+      ],
+      [
+        "Memory",
+        "16 GB to 32 GB (varies); check for two sticks"
+      ],
+      [
+        "Storage",
+        "1 TB NVMe SSD in many listings (varies)"
+      ],
+      [
+        "Power supply",
+        "Varies by listing; check brand and wattage"
+      ],
+      [
+        "Motherboard",
+        "Varies by listing"
+      ],
+      [
+        "Cooling",
+        "Air or liquid, depending on the listing"
+      ],
+      [
+        "Warranty",
+        "Per Skytech's terms; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 83,
+      "parts": [
+        [
+          "Gaming performance",
+          80
+        ],
+        [
+          "Parts quality",
+          72
+        ],
+        [
+          "Upgradability",
+          75
+        ],
+        [
+          "Value",
+          88
+        ]
+      ]
+    },
+    "verdict": [
+      "The Shadow with an RTX 5060 Ti 16GB is the prebuilt we would point most people to if they can spend about $1,200. The [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) is a clear step above the RTX 5060 in independent reviews, and its 16 GB of VRAM is the important part: high texture settings stay available in new releases long after 8 GB cards have to drop them.",
+      "That makes it a strong 1080p machine and a capable 1440p one, with DLSS 4 to help in demanding games. The one catch is the name: the RTX 5060 Ti also comes in an 8 GB version, and some listings use it to hit a lower price. Confirm 16 GB in the listing title before you buy, because the 8 GB card loses most of the advantage.",
+      "Beyond the GPU, check that the CPU is a current six- or eight-core chip, that memory is two sticks, and that the power supply is a named unit of 650 W or more. Moving up to the [iBuyPower Y40 with an RTX 5070](/gear/ibuypower-y40-rtx-5070/) adds more speed at 1440p, but costs about $250 more and has 12 GB of VRAM."
+    ],
+    "pros": [
+      "16 GB of VRAM ages well",
+      "Strong 1080p and good 1440p",
+      "DLSS 4 support",
+      "Good value for the performance"
+    ],
+    "cons": [
+      "8 GB RTX 5060 Ti listings look similar",
+      "Configuration varies between listings",
+      "Power supply often unbranded"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Skytech Shadow good?",
+        "a": "With the 16 GB RTX 5060 Ti, yes: it is one of the best-value prebuilts for 1080p and 1440p. Check that the listing says 16 GB and look at the CPU, memory layout and power supply."
+      },
+      {
+        "q": "Is the RTX 5060 Ti 16GB good for 1440p?",
+        "a": "Yes, at high settings in most games, with DLSS helping in the most demanding ones. Its 16 GB of VRAM is what makes it a better long-term 1440p card than the 8 GB version or the RTX 5060."
+      },
+      {
+        "q": "Is a Skytech Shadow better than building your own PC?",
+        "a": "Building the same parts yourself is often similar in price or a little cheaper, and you choose every part. A prebuilt saves the assembly time and comes with a single warranty. Compare the exact parts list with our [GPU guide](/best-graphics-card/) before deciding."
+      }
+    ]
+  },
+  {
+    "id": "ibuypower-y40-rtx-5070",
+    "name": "iBuyPower Y40 (RTX 5070)",
+    "short": "Y40 RTX 5070",
+    "brand": "ibuypower",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      1300,
+      1600
+    ],
+    "amazon": "iBuyPower Y40 RTX 5070 gaming PC",
+    "description": "The iBuyPower Y40 with an RTX 5070 is a $1,300 to $1,600 prebuilt for high-refresh 1440p with DLSS 4 frame generation. Check the CPU and PSU in the listing.",
+    "quick": "An iBuyPower Y40 tower in an RTX 5070 configuration, often with an Intel Core i7. It is built for high-refresh 1440p gaming, with a glass case and standard parts.",
+    "bestFor": "1440p gamers who want a high-refresh prebuilt for about $1,500",
+    "skipIf": "You want 16 GB of VRAM at this price; look for an RX 9070 configuration or the Shadow with an RTX 5060 Ti 16GB",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 5070 12 GB"
+      ],
+      [
+        "Processor",
+        "Intel Core i7 class in many listings (varies)"
+      ],
+      [
+        "Memory",
+        "16 GB to 32 GB (varies); check for two sticks"
+      ],
+      [
+        "Storage",
+        "1 TB to 2 TB NVMe SSD (varies)"
+      ],
+      [
+        "Power supply",
+        "Varies by listing; check brand and wattage"
+      ],
+      [
+        "Motherboard",
+        "Varies by listing"
+      ],
+      [
+        "Cooling",
+        "Liquid cooled in many listings (varies)"
+      ],
+      [
+        "Warranty",
+        "Per iBuyPower's terms; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 84,
+      "parts": [
+        [
+          "Gaming performance",
+          86
+        ],
+        [
+          "Parts quality",
+          74
+        ],
+        [
+          "Upgradability",
+          76
+        ],
+        [
+          "Value",
+          84
+        ]
+      ]
+    },
+    "verdict": [
+      "The Y40 with an RTX 5070 is a good fit for high-refresh 1440p. The [RTX 5070](/gear/rtx-5070/) runs most current games at 1440p high settings, and DLSS 4 with multi frame generation lifts frame rates further in the games that support it. Many Y40 listings pair it with an Intel Core i7, which is plenty of CPU for this card.",
+      "The trade-off is memory: the RTX 5070 has 12 GB of VRAM, enough for 1440p today but less than AMD's RX 9070 offers at a similar price. If you keep a PC for five years or more and play big open-world games with high textures, that is worth weighing. Independent reviews put the RX 9070 slightly ahead in raster and the RTX 5070 ahead with ray tracing.",
+      "iBuyPower builds the Y40 with standard parts and a large glass case, so airflow and upgrades are straightforward. As always, check the power supply: an RTX 5070 system should have a named 650 W to 750 W unit. For more speed, the [Skytech Azure 3 with an RTX 5070 Ti](/gear/skytech-azure-3-rtx-5070-ti/) adds 16 GB of VRAM for about $400 more."
+    ],
+    "pros": [
+      "RTX 5070 handles high-refresh 1440p",
+      "DLSS 4 multi frame generation",
+      "Often paired with a Core i7",
+      "Roomy, upgradeable case"
+    ],
+    "cons": [
+      "12 GB of VRAM",
+      "Configuration varies between listings",
+      "Power supply details often vague"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the iBuyPower Y40 good?",
+        "a": "In an RTX 5070 configuration it is a strong 1440p gaming PC for about $1,300 to $1,600. Check the CPU, memory layout and power supply in the specific listing."
+      },
+      {
+        "q": "What does the iBuyPower Y40 model number mean?",
+        "a": "iBuyPower model codes such as Y40BI7N5701 encode the case line, the CPU and the GPU. Read the full specification table rather than relying on the code, and confirm the exact graphics card model."
+      },
+      {
+        "q": "Is 12 GB of VRAM enough for 1440p?",
+        "a": "For most games today, yes. A few recent releases with ultra textures use more, and the gap will grow over time. If you keep PCs for many years, a 16 GB card is the safer choice."
+      }
+    ]
+  },
+  {
+    "id": "msi-aegis-rtx-5070",
+    "name": "MSI Aegis (RTX 5070)",
+    "short": "Aegis RTX 5070",
+    "brand": "msi",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      1400,
+      1700
+    ],
+    "amazon": "MSI Aegis RTX 5070 gaming desktop",
+    "description": "The MSI Aegis with an RTX 5070 is a $1,400 to $1,700 1440p prebuilt built from MSI's own board, GPU and power supply, so the parts are known quantities.",
+    "quick": "MSI's Aegis gaming desktop in an RTX 5070 configuration. MSI builds it largely from its own parts, so the motherboard, graphics card and power supply are named, documented components.",
+    "bestFor": "Buyers who want a 1440p prebuilt with named, brand-name parts instead of mystery components",
+    "skipIf": "Price is your main concern; Skytech and iBuyPower usually sell similar performance for less",
+    "specs": [
+      [
+        "Graphics card",
+        "MSI RTX 5070 12 GB"
+      ],
+      [
+        "Processor",
+        "Varies by configuration"
+      ],
+      [
+        "Memory",
+        "16 GB to 32 GB (varies)"
+      ],
+      [
+        "Storage",
+        "1 TB NVMe SSD in many configurations (varies)"
+      ],
+      [
+        "Power supply",
+        "MSI unit; wattage varies by configuration"
+      ],
+      [
+        "Motherboard",
+        "MSI board (model varies)"
+      ],
+      [
+        "Cooling",
+        "Air or liquid, depending on configuration"
+      ],
+      [
+        "Warranty",
+        "MSI limited warranty; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 82,
+      "parts": [
+        [
+          "Gaming performance",
+          85
+        ],
+        [
+          "Parts quality",
+          82
+        ],
+        [
+          "Upgradability",
+          70
+        ],
+        [
+          "Value",
+          78
+        ]
+      ]
+    },
+    "verdict": [
+      "The Aegis is MSI's own gaming desktop, and its main advantage over system-builder brands is that the important parts are MSI components: the motherboard, the graphics card and the power supply. That removes the usual prebuilt worry about an unbranded power supply or an unknown motherboard, and MSI publishes BIOS updates and drivers for the parts on its support site.",
+      "In an RTX 5070 configuration, gaming performance matches any other RTX 5070 system: high settings at 1440p in most current games, with DLSS 4 multi frame generation where supported. The 12 GB of VRAM is the same limit as on the [iBuyPower Y40](/gear/ibuypower-y40-rtx-5070/), which usually costs less for similar performance.",
+      "The case is more compact and more customized than a standard ATX tower, so check graphics card length and power supply wattage if you plan a big upgrade later. Buy the Aegis when it is priced within about $100 of the system-builder alternatives; at a bigger gap, the Y40 is the better value."
+    ],
+    "pros": [
+      "Named MSI motherboard, GPU and PSU",
+      "Strong 1440p performance",
+      "MSI support and BIOS updates",
+      "DLSS 4 support"
+    ],
+    "cons": [
+      "Usually costs more than Skytech or iBuyPower",
+      "Compact case limits big upgrades",
+      "12 GB of VRAM"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the MSI Aegis a good gaming PC?",
+        "a": "Yes. Its main advantage is that the motherboard, graphics card and power supply are MSI parts, so there is no unknown component. With an RTX 5070 it is a strong 1440p machine."
+      },
+      {
+        "q": "Is MSI a good brand for prebuilt PCs?",
+        "a": "MSI is a major motherboard and graphics card maker, and its prebuilts use its own parts. That makes the Aegis a safer bet on component quality than many system-builder listings, though it often costs a little more."
+      },
+      {
+        "q": "Can you upgrade an MSI Aegis?",
+        "a": "Memory, storage and the graphics card can usually be upgraded, within the case's size limits and the power supply's wattage. Check both before buying a larger GPU."
+      }
+    ]
+  },
+  {
+    "id": "skytech-azure-3-rtx-5070-ti",
+    "name": "Skytech Azure 3 (RTX 5070 Ti)",
+    "short": "Azure 3 RTX 5070 Ti",
+    "brand": "skytech",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      1700,
+      2000
+    ],
+    "amazon": "Skytech Azure 3 RTX 5070 Ti gaming PC",
+    "description": "The Skytech Azure 3 with an RTX 5070 Ti is the best prebuilt for most high-end buyers at $1,700 to $2,000: 16 GB of VRAM for 1440p and 4K with DLSS 4.",
+    "quick": "Skytech's panoramic-glass Azure 3 tower in an RTX 5070 Ti configuration. The 16 GB card handles 1440p at high refresh rates and 4K with DLSS, and the case is roomy and easy to upgrade.",
+    "bestFor": "1440p high-refresh and 4K gamers who want 16 GB of VRAM without RTX 5080 pricing",
+    "skipIf": "You only play at 1080p; an RTX 5060 Ti 16GB system costs far less",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 5070 Ti 16 GB"
+      ],
+      [
+        "Processor",
+        "Varies by listing (AMD Ryzen 7 class in many)"
+      ],
+      [
+        "Memory",
+        "32 GB in many listings (varies); check for two sticks"
+      ],
+      [
+        "Storage",
+        "1 TB to 2 TB NVMe SSD (varies)"
+      ],
+      [
+        "Power supply",
+        "Varies by listing; check brand and wattage"
+      ],
+      [
+        "Motherboard",
+        "Varies by listing"
+      ],
+      [
+        "Cooling",
+        "Liquid cooled in many listings (varies)"
+      ],
+      [
+        "Warranty",
+        "Per Skytech's terms; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 87,
+      "parts": [
+        [
+          "Gaming performance",
+          91
+        ],
+        [
+          "Parts quality",
+          74
+        ],
+        [
+          "Upgradability",
+          80
+        ],
+        [
+          "Value",
+          86
+        ]
+      ]
+    },
+    "verdict": [
+      "The Azure 3 with an RTX 5070 Ti is the high-end prebuilt that makes the most sense in 2026. The [RTX 5070 Ti](/gear/rtx-5070-ti/) has 16 GB of VRAM and, in independent reviews, sits clearly above the RTX 5070 and within reach of the RTX 5080 at 1440p, for several hundred dollars less than 5080 systems. It runs high-refresh 1440p comfortably and 4K with DLSS 4.",
+      "Skytech's Azure 3 case is a panoramic glass design with room for the large cards and radiators this tier needs, and the parts inside are standard, so a future upgrade is simple. Listings commonly pair the card with an eight-core Ryzen 7, which is enough CPU for it; for the highest frame rates in CPU-heavy games, look for a listing with an X3D chip such as the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/).",
+      "Check the power supply carefully at this tier. NVIDIA recommends 750 W for the RTX 5070 Ti, so you want a named 750 W or 850 W unit with a native 12V-2x6 cable. The [CyberPowerPC Gamer Supreme](/gear/cyberpowerpc-gamer-supreme-rtx-5070-ti/) is the closest alternative with the same GPU."
+    ],
+    "pros": [
+      "RTX 5070 Ti with 16 GB of VRAM",
+      "Excellent 1440p, capable 4K",
+      "Roomy glass case",
+      "Standard, upgradeable parts"
+    ],
+    "cons": [
+      "Configuration varies between listings",
+      "Power supply details often vague",
+      "Glass case shows dust"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Skytech Azure 3 good?",
+        "a": "With an RTX 5070 Ti it is one of the best high-end prebuilts for the money, with 16 GB of VRAM for 1440p and 4K. Check the CPU, memory and power supply in the specific listing."
+      },
+      {
+        "q": "Is an RTX 5070 Ti gaming PC worth it over an RTX 5070?",
+        "a": "For 1440p high refresh and 4K, yes: the 5070 Ti is noticeably faster and has 16 GB of VRAM against 12 GB. For 1080p, the RTX 5070 system is enough."
+      },
+      {
+        "q": "What power supply does an RTX 5070 Ti PC need?",
+        "a": "NVIDIA recommends 750 W. A named 750 W or 850 W unit with a native 12V-2x6 cable is what to look for in the listing."
+      }
+    ]
+  },
+  {
+    "id": "cyberpowerpc-gamer-supreme-rtx-5070-ti",
+    "name": "CyberPowerPC Gamer Supreme (RTX 5070 Ti)",
+    "short": "Gamer Supreme 5070 Ti",
+    "brand": "cyberpowerpc",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      1800,
+      2100
+    ],
+    "amazon": "CyberPowerPC Gamer Supreme RTX 5070 Ti gaming PC",
+    "description": "The CyberPowerPC Gamer Supreme with an RTX 5070 Ti is an $1,800 to $2,100 1440p and 4K prebuilt with 16 GB of VRAM, often with liquid cooling. Check the PSU.",
+    "quick": "CyberPowerPC's higher-end Gamer Supreme line in an RTX 5070 Ti configuration, often with liquid cooling and 32 GB of memory. It targets high-refresh 1440p and 4K with DLSS.",
+    "bestFor": "High-end buyers who often find CyberPowerPC deals at big-box stores and want 16 GB of VRAM",
+    "skipIf": "The Skytech Azure 3 with the same GPU is cheaper at the time you buy",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 5070 Ti 16 GB"
+      ],
+      [
+        "Processor",
+        "Varies by listing (AMD Ryzen 7 or Intel Core i7 class)"
+      ],
+      [
+        "Memory",
+        "32 GB in many listings (varies)"
+      ],
+      [
+        "Storage",
+        "1 TB to 2 TB NVMe SSD (varies)"
+      ],
+      [
+        "Power supply",
+        "Varies by listing; check brand and wattage"
+      ],
+      [
+        "Motherboard",
+        "Varies by listing"
+      ],
+      [
+        "Cooling",
+        "Liquid cooled in many listings (varies)"
+      ],
+      [
+        "Warranty",
+        "Per CyberPowerPC's terms; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 85,
+      "parts": [
+        [
+          "Gaming performance",
+          91
+        ],
+        [
+          "Parts quality",
+          72
+        ],
+        [
+          "Upgradability",
+          78
+        ],
+        [
+          "Value",
+          82
+        ]
+      ]
+    },
+    "verdict": [
+      "The Gamer Supreme in an RTX 5070 Ti configuration delivers the same gaming performance as the [Skytech Azure 3](/gear/skytech-azure-3-rtx-5070-ti/): the [RTX 5070 Ti](/gear/rtx-5070-ti/) handles high-refresh 1440p and 4K with DLSS 4, and its 16 GB of VRAM keeps it relevant for years. Many listings add liquid cooling and 32 GB of memory, which suit this tier.",
+      "CyberPowerPC sells widely through big-box stores as well as online, and its frequent sales are the main reason to pick it. Between the Gamer Supreme and the Azure 3, buy whichever is cheaper for the same GPU, CPU class, memory and storage on the day.",
+      "Owner reports on CyberPowerPC are mixed in the usual system-builder way: most buyers are happy, while complaints cluster around shipping damage, cable management and unbranded components on some listings. Check that the power supply is a named 750 W or larger unit, and inspect the system when it arrives, including that the graphics card is seated firmly after shipping."
+    ],
+    "pros": [
+      "RTX 5070 Ti with 16 GB of VRAM",
+      "Often 32 GB and liquid cooling",
+      "Frequent retail sales",
+      "Standard parts"
+    ],
+    "cons": [
+      "Usually a little dearer than Skytech for the same GPU",
+      "Power supply details vary",
+      "Mixed owner reports on shipping"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is CyberPowerPC a good brand?",
+        "a": "CyberPowerPC is one of the biggest US system builders. Most buyers report good experiences, with complaints mostly about shipping damage and unbranded parts on some listings. Check the power supply and inspect the PC when it arrives."
+      },
+      {
+        "q": "Gamer Supreme or Gamer Xtreme?",
+        "a": "The Gamer Supreme is CyberPowerPC's higher-end line, with faster GPUs and often liquid cooling; the Gamer Xtreme covers budget and mid-range builds. Compare the actual parts, since both names cover many configurations."
+      },
+      {
+        "q": "Does the Gamer Supreme come with Wi-Fi?",
+        "a": "Many listings include Wi-Fi, but not all. Check the specification table for Wi-Fi and Bluetooth before you buy if the PC will not be near your router."
+      }
+    ]
+  },
+  {
+    "id": "alienware-aurora-rtx-5080",
+    "name": "Alienware Aurora (RTX 5080)",
+    "short": "Aurora RTX 5080",
+    "brand": "alienware",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      2500,
+      3000
+    ],
+    "amazon": "Alienware Aurora RTX 5080 gaming desktop",
+    "description": "The Alienware Aurora with an RTX 5080 is a $2,500 to $3,000 4K gaming desktop with Dell's support. You pay a premium, and Dell's case limits some upgrades.",
+    "quick": "Dell's Alienware Aurora gaming desktop in an RTX 5080 configuration. It targets 4K and high-refresh 1440p, with Dell's warranty and support network behind it.",
+    "bestFor": "4K gamers who value Dell's support and a polished, quiet case over the lowest price",
+    "skipIf": "You want the most performance per dollar; system-builder RTX 5080 PCs usually cost less",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 5080 16 GB"
+      ],
+      [
+        "Processor",
+        "Varies by configuration"
+      ],
+      [
+        "Memory",
+        "32 GB in many configurations (varies)"
+      ],
+      [
+        "Storage",
+        "1 TB to 2 TB NVMe SSD (varies)"
+      ],
+      [
+        "Power supply",
+        "Dell unit; wattage varies by configuration"
+      ],
+      [
+        "Motherboard",
+        "Dell design"
+      ],
+      [
+        "Cooling",
+        "Liquid cooled in many configurations (varies)"
+      ],
+      [
+        "Warranty",
+        "Dell limited warranty; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 80,
+      "parts": [
+        [
+          "Gaming performance",
+          94
+        ],
+        [
+          "Parts quality",
+          76
+        ],
+        [
+          "Upgradability",
+          62
+        ],
+        [
+          "Value",
+          70
+        ]
+      ]
+    },
+    "verdict": [
+      "The Aurora with an RTX 5080 is built for 4K and high-refresh 1440p. The [RTX 5080](/gear/rtx-5080/) is NVIDIA's second-fastest card and, with DLSS 4, handles demanding games at 4K. Alienware's case is designed for quiet running, and Dell's warranty and support options are the strongest reason to choose it over a system-builder PC.",
+      "You pay for that. Alienware desktops usually cost more than an RTX 5080 system from Skytech, CyberPowerPC or iBuyPower with similar parts, and Dell uses some of its own components and case layouts, so owners report upgrades can be less flexible than in a standard ATX tower. Watch for Dell's frequent sales, which can close much of the gap.",
+      "Because RTX 5080 systems are expensive, check the CPU carefully: for the highest frame rates, a Ryzen 7 9800X3D or a current Core Ultra 7 or 9 is what this card deserves. Compare the [RTX 5080 against the RTX 5070 Ti](/compare/rtx-5080-vs-rtx-5070-ti/) too, since the cheaper card is close at 1440p."
+    ],
+    "pros": [
+      "RTX 5080 for 4K gaming",
+      "Dell warranty and support options",
+      "Quiet, polished case design",
+      "Frequent Dell sales"
+    ],
+    "cons": [
+      "Costs more than system-builder equivalents",
+      "Some Dell-specific parts",
+      "Less upgrade flexibility"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Alienware Aurora worth it?",
+        "a": "It is worth it if you value Dell's support and a polished case. On raw performance per dollar, RTX 5080 systems from Skytech, CyberPowerPC or iBuyPower usually cost less."
+      },
+      {
+        "q": "Can the Alienware Aurora run 4K?",
+        "a": "Yes. With an RTX 5080 it runs demanding games at 4K, using DLSS 4 in the heaviest titles. The RTX 5080 has 16 GB of VRAM."
+      },
+      {
+        "q": "Can you upgrade an Alienware Aurora?",
+        "a": "Memory and storage are straightforward. Graphics card and power supply upgrades depend on the case and Dell's power supply; check card length and wattage before buying."
+      }
+    ]
+  },
+  {
+    "id": "corsair-vengeance-a8200-rtx-5080",
+    "name": "Corsair Vengeance a8200 (RTX 5080)",
+    "short": "Vengeance a8200 5080",
+    "brand": "corsair",
+    "category": "gaming-pcs",
+    "released": "2025",
+    "price": [
+      2600,
+      3100
+    ],
+    "amazon": "Corsair Vengeance a8200 RTX 5080 gaming PC",
+    "description": "The Corsair Vengeance a8200 with an RTX 5080 is a $2,600 to $3,100 4K gaming PC built from named Corsair parts, including its PSU, memory and cooling.",
+    "quick": "Corsair's AMD-based Vengeance a8200 gaming PC in an RTX 5080 configuration. Corsair builds it largely from its own power supply, memory, cooling and case.",
+    "bestFor": "4K gamers who want a premium prebuilt with named power supply, memory and cooling",
+    "skipIf": "Price per frame matters most; an RTX 5070 Ti system is close at 1440p for much less",
+    "specs": [
+      [
+        "Graphics card",
+        "RTX 5080 16 GB"
+      ],
+      [
+        "Processor",
+        "AMD Ryzen (model varies by configuration)"
+      ],
+      [
+        "Memory",
+        "Corsair Vengeance DDR5 (capacity varies)"
+      ],
+      [
+        "Storage",
+        "Corsair NVMe SSD (capacity varies)"
+      ],
+      [
+        "Power supply",
+        "Corsair unit; wattage varies by configuration"
+      ],
+      [
+        "Motherboard",
+        "Varies by configuration"
+      ],
+      [
+        "Cooling",
+        "Corsair liquid cooling in many configurations"
+      ],
+      [
+        "Warranty",
+        "Corsair warranty; check the listing"
+      ]
+    ],
+    "score": {
+      "overall": 83,
+      "parts": [
+        [
+          "Gaming performance",
+          94
+        ],
+        [
+          "Parts quality",
+          86
+        ],
+        [
+          "Upgradability",
+          78
+        ],
+        [
+          "Value",
+          68
+        ]
+      ]
+    },
+    "verdict": [
+      "The Vengeance a8200 is Corsair's AMD-based gaming PC, and its strength is the parts list. Corsair makes power supplies, memory, coolers, SSDs and cases, so a Vengeance system is built largely from named Corsair components rather than unbranded ones. That is the main reason to pay its premium over a system-builder RTX 5080 PC.",
+      "With an [RTX 5080](/gear/rtx-5080/), it is a 4K machine: demanding games run well at 4K with DLSS 4, and high-refresh 1440p is easy. If the configuration uses an X3D Ryzen such as the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/), it is also one of the fastest gaming CPU pairings available.",
+      "The case is a standard design with good airflow, so upgrades are easier than in most brand-name desktops. The cost is price: expect to pay more than for a Skytech or CyberPowerPC RTX 5080 system with similar headline specs. If 1440p is your target, the [Skytech Azure 3 with an RTX 5070 Ti](/gear/skytech-azure-3-rtx-5070-ti/) gets close for roughly $900 less."
+    ],
+    "pros": [
+      "Named Corsair PSU, memory and cooling",
+      "RTX 5080 for 4K",
+      "Standard, upgradeable case",
+      "AMD Ryzen platform"
+    ],
+    "cons": [
+      "Premium price",
+      "Configurations vary",
+      "RTX 5070 Ti systems are close at 1440p"
+    ],
+    "extra": {
+      "heading": "What to Check in the Listing",
+      "body": [
+        "Prebuilt configurations change from listing to listing, sometimes under the same product name. Before you buy, confirm five things in the specification table: the exact graphics card model and its VRAM, the CPU model, whether memory is installed as two sticks (dual channel) or one, the SSD capacity, and the power supply's wattage and brand.",
+        "If the power supply is listed only by wattage with no brand or 80 Plus rating, treat that as a reason to ask the seller or pick another listing. See our [power supply guide](/best-power-supply/) for what a good unit looks like, and the [PSU calculator](/tools/psu-calculator/) for the wattage a later GPU upgrade would need."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is the Corsair Vengeance a8200 good?",
+        "a": "Yes, if you value named parts: Corsair builds it from its own power supply, memory and cooling. With an RTX 5080 it is a 4K gaming PC, though it costs more than system-builder equivalents."
+      },
+      {
+        "q": "What is the difference between the Vengeance a8200 and i7600?",
+        "a": "The a in the name marks an AMD Ryzen platform and the i an Intel platform. Check the exact CPU and graphics card in each listing, since both names cover several configurations."
+      },
+      {
+        "q": "Is an RTX 5080 PC worth it over an RTX 5070 Ti PC?",
+        "a": "For 4K, often yes. At 1440p the RTX 5070 Ti is close in independent reviews and its systems cost several hundred dollars less, so it is the better value there."
+      }
+    ]
+  }
+]

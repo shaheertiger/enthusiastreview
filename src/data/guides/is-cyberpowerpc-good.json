@@ -1,0 +1,196 @@
+{
+  "slug": "is-cyberpowerpc-good",
+  "type": "article",
+  "kind": "explainer",
+  "category": "gaming-pcs",
+  "title": "Is CyberPowerPC Good? Reviews, Warranty and What to Check",
+  "h1": "Is CyberPowerPC Good?",
+  "query": "is cyberpowerpc good",
+  "description": "Yes, CyberPowerPC is a legit prebuilt brand selling since 1998, with fair prices for its GPUs, but check 3 parts first: the PSU, the RAM sticks and the SSD.",
+  "dek": "What CyberPowerPC does well, where budget listings cut corners, its warranty, and what to do if your CyberPowerPC won't turn on.",
+  "quickAnswer": "Yes, CyberPowerPC is a legitimate and generally good-value prebuilt gaming PC brand, building PCs since 1998 and sold through its own site, Amazon, Best Buy, Costco and Walmart. Its graphics cards and CPUs are standard retail parts, so a CyberPowerPC performs like any PC with the same GPU. On cheaper listings, check the power supply brand, the number of RAM sticks and the SSD before buying.",
+  "intro": [
+    "CyberPowerPC is the prebuilt brand many first-time PC buyers see first, because its Gamer Xtreme, Gamer Supreme and Gamer Master desktops fill retail shelves. Whether one is a good buy depends less on the logo than on the configuration you pick.",
+    "This page answers whether CyberPowerPC is good, using the parts it lists, its published warranty and the broad pattern of buyer reports. We have not bench-tested CyberPowerPC systems; where details vary by listing, we say what to check."
+  ],
+  "sections": [
+    {
+      "h": "Is CyberPowerPC Legit?",
+      "body": [
+        "Yes. CyberPowerPC is a US system builder founded in 1998 that lists its base in City of Industry, California, per its own site. It sells through major retailers, including Best Buy, Amazon, Costco and Walmart, which vet sellers and apply their own return policies, so buying a CyberPowerPC through them carries little risk of fraud.",
+        "Searches for \"is CyberPowerPC legit\" tend to follow a slow custom order or a support wait. Those are real complaints, but they are about service speed, not about whether you get the PC you paid for."
+      ]
+    },
+    {
+      "h": "Is CyberPowerPC Reliable?",
+      "body": [
+        "Generally, yes. The graphics card, CPU, SSD and power supply come from the same component makers other builders use, and the graphics card carries its own maker's warranty too. Buyer reports most often mention transit issues, such as a graphics card or cable knocked loose, rather than systems that fail after months of use.",
+        "Open the side panel when the PC arrives and remove any shipping foam, then check the graphics card, RAM and power connectors are seated. Update the graphics driver before playing; our [NVIDIA driver guide](/how-to-update-nvidia-drivers/) and [AMD driver guide](/how-to-update-amd-drivers/) cover both brands."
+      ]
+    },
+    {
+      "h": "What Parts Does CyberPowerPC Use?",
+      "body": [
+        "The headline parts are retail: an RTX 5070 in a CyberPowerPC performs like an [RTX 5070](/gear/rtx-5070/) anywhere else. The parts that vary are the ones prebuilt brands save money on, and they decide whether a listing is a good deal.",
+        "Power supply: cheaper models may list only a wattage. That is usually fine with an RTX 5060 class card, but for an RTX 5070 Ti or faster, look for a named 80 Plus Gold unit. Our [PSU calculator](/tools/psu-calculator/) shows how many watts your GPU needs.",
+        "RAM: \"16 GB (1 x 16 GB)\" means single channel, which loses frame rate in CPU-heavy games. Prefer 2 x 8 GB or 2 x 16 GB. Storage: 1 TB NVMe is the sensible minimum for a $900+ PC, because modern games often exceed 100 GB each.",
+        "Cooling: CyberPowerPC often ships liquid coolers on mid and high-end models. A good AIO is fine; a small cooler on a Ryzen 7 or Core i7 can run hot. Check the cooler size on the listing."
+      ],
+      "table": {
+        "caption": "What to check on a CyberPowerPC listing",
+        "head": [
+          "Part",
+          "Good sign",
+          "Red flag"
+        ],
+        "rows": [
+          [
+            "Power supply",
+            "Named brand, 80 Plus Gold, 650–850 W",
+            "Wattage only on an RTX 5070 Ti or faster"
+          ],
+          [
+            "RAM",
+            "2 sticks, DDR5",
+            "1 x 16 GB (single channel)"
+          ],
+          [
+            "SSD",
+            "1 TB NVMe or more",
+            "500 GB on a $1,000+ PC"
+          ],
+          [
+            "Cooler",
+            "240 mm AIO or tower cooler",
+            "Small cooler on a high-end CPU"
+          ],
+          [
+            "Motherboard",
+            "Chipset named, spare M.2 slot",
+            "No chipset listed"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Which CyberPowerPC Lines Should You Look At?",
+      "body": [
+        "Gamer Xtreme is the broadest line and usually pairs Intel CPUs with RTX 5060 to RTX 5070 Ti class cards; Gamer Supreme usually sits a tier higher with faster GPUs and liquid cooling; Gamer Master is the AMD Ryzen counterpart; and the C Series covers budget and showcase builds. Exact parts vary by retailer and month, so treat the names as price tiers, not fixed specs.",
+        "Choose by the graphics card first: an [RTX 5060](/gear/rtx-5060/) for 1080p, an RTX 5070 or RX 9070 for 1440p, and an [RTX 5070 Ti](/gear/rtx-5070-ti/) for high-refresh 1440p or entry 4K. Our [best prebuilt gaming PC](/best-prebuilt-gaming-pc/) roundup compares current configurations, and [best gaming PC under $1,000](/best-gaming-pc-under-1000/) covers the most popular price point."
+      ]
+    },
+    {
+      "h": "How Long Is the CyberPowerPC Warranty?",
+      "body": [
+        "CyberPowerPC has typically advertised a limited warranty with a longer labor term than parts term, commonly three years of labor and one year of parts, plus lifetime technical support, per its warranty page at the time of writing. Retail-store systems can carry different terms, so check the listing and CyberPowerPC's current warranty page.",
+        "To check your warranty, you need the system's serial number, usually on a sticker on the back or side of the case, and your order or receipt. Individual parts such as the graphics card, SSD and power supply often have longer warranties from their own makers, which can help after the system warranty's parts term ends."
+      ]
+    },
+    {
+      "h": "What Should You Do if Your CyberPowerPC Won't Turn On?",
+      "body": [
+        "Most new-PC no-power or no-display problems are simple. First, check the switch on the back of the power supply is on (marked I) and the wall outlet works. Second, if the fans spin but the screen is blank, make sure the monitor cable is plugged into the graphics card, not the motherboard's video port, which is a very common mistake.",
+        "If that doesn't help, open the side panel and reseat the graphics card, the RAM sticks and the power connectors, which can loosen in shipping. If the PC still shows no signs of life, contact CyberPowerPC support or the retailer within the return window rather than opening sealed components, so the warranty is not affected."
+      ]
+    },
+    {
+      "h": "What Do CyberPowerPC Buyers Say?",
+      "body": [
+        "The broad pattern of buyer reviews is positive on value and performance for the price and negative on two things: transit problems and support wait times. Buyers who chose a listing with a named power supply and dual-channel RAM report fewer issues, which is the same advice we give for every prebuilt brand.",
+        "The bundled keyboard and mouse draw their own share of questions, mostly about changing lighting colors. Those are basic peripherals; if they matter to you, budget for a better set."
+      ]
+    },
+    {
+      "h": "CyberPowerPC vs iBuyPower vs Skytech",
+      "body": [
+        "All three build with retail GPUs and CPUs, sell through the same stores and publish similar warranties, so the better buy is whichever has the stronger configuration at the same price. Our [CyberPowerPC vs iBuyPower](/cyberpowerpc-vs-ibuypower/) page compares them side by side, and [is iBuyPower good](/is-ibuypower-good/) and the [Skytech gaming PC review](/skytech-gaming-pc-review/) cover the rivals in the same format."
+      ]
+    },
+    {
+      "h": "Can You Upgrade a CyberPowerPC Later?",
+      "body": [
+        "Usually, yes. Most CyberPowerPC systems use standard motherboards, power supplies and cases, so adding RAM, a second SSD or a faster graphics card works like any home-built PC. Before a GPU upgrade, check the power supply's wattage against the new card with our [PSU calculator](/tools/psu-calculator/) and that it has the right power connector, then check the case's maximum GPU length.",
+        "Storage is the easiest upgrade: most boards have a second M.2 slot for an NVMe SSD. Our [SSD guide](/best-ssd-for-gaming/) lists drives worth adding, and our [RAM guide](/best-ram-for-gaming/) covers matching kits if your system shipped with a single stick."
+      ]
+    },
+    {
+      "h": "Who Should Buy CyberPowerPC, and Who Should Skip It?",
+      "body": [
+        "Buy a CyberPowerPC if you want a ready-to-play PC from a store with an easy return policy, and you can find a configuration with a named power supply, two RAM sticks and a 1 TB SSD at a fair price. That is most people who don't want to build.",
+        "Skip it if you are happy building, since you will get better parts for the money, or if every listing at your budget hides the PSU and RAM details. Our guide to [how much a gaming PC costs](/how-much-does-a-gaming-pc-cost/) shows a fair price for each tier."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Plugging the monitor into the motherboard",
+      "On a PC with a graphics card, the display cable goes into the card's ports, lower down on the back. Using the motherboard's port gives a blank screen or very poor performance."
+    ],
+    [
+      "Buying on the GPU alone",
+      "Two Gamer Xtreme listings with the same graphics card can have different power supplies, RAM and SSDs. Compare the whole parts list before deciding which is the better deal."
+    ],
+    [
+      "Leaving shipping foam in",
+      "Some systems ship with foam around the graphics card to protect it in transit. Remove it before first use, or airflow and temperatures suffer."
+    ],
+    [
+      "Ignoring single-channel RAM",
+      "A 1 x 16 GB configuration costs frames in CPU-heavy games. Add a matching stick, or choose a listing with two sticks."
+    ],
+    [
+      "Not keeping the serial number",
+      "Warranty claims need the system serial and proof of purchase. Photograph the case sticker and save the receipt when the PC arrives."
+    ]
+  ],
+  "bottomLine": "CyberPowerPC is a legitimate, good-value prebuilt brand whose PCs perform exactly like the graphics card and CPU inside them. Its weak points are the same as its rivals': unnamed power supplies, single-channel RAM on some budget listings and support that can be slow. Choose a configuration with a named PSU, two RAM sticks and a 1 TB SSD, check the parts are seated when it arrives, and a CyberPowerPC is a solid way to get gaming without building.",
+  "faqs": [
+    {
+      "q": "Is CyberPowerPC a good brand?",
+      "a": "Yes, for value. It uses retail graphics cards and CPUs and prices systems close to their parts cost. Check the power supply, RAM configuration and SSD on each listing, since those vary most."
+    },
+    {
+      "q": "Is CyberPowerPC legit?",
+      "a": "Yes. CyberPowerPC has built gaming PCs since 1998 and sells through Best Buy, Amazon, Costco and Walmart. Complaints are about shipping and support speed, not missing orders."
+    },
+    {
+      "q": "How long is the CyberPowerPC warranty?",
+      "a": "It has typically advertised three years of labor and one year of parts, plus lifetime tech support, per its warranty page at the time of writing. Check current terms, since retail units can differ."
+    },
+    {
+      "q": "How do I check my CyberPowerPC warranty?",
+      "a": "Find the serial number on the sticker on the case and have your order number or receipt ready, then use CyberPowerPC's support site or contact support with both."
+    },
+    {
+      "q": "Why won't my CyberPowerPC turn on?",
+      "a": "Check the power supply's rear switch and the outlet first. If fans spin but there's no picture, connect the monitor to the graphics card. Then reseat the GPU, RAM and power cables."
+    },
+    {
+      "q": "Where is CyberPowerPC located?",
+      "a": "CyberPowerPC lists City of Industry, California, as its base, per its own site at the time of writing."
+    },
+    {
+      "q": "Is CyberPowerPC better than iBuyPower?",
+      "a": "Neither wins across the board. Their parts, warranties and prices are similar, so compare exact configurations. Our CyberPowerPC vs iBuyPower page goes through the differences."
+    },
+    {
+      "q": "Can you upgrade a CyberPowerPC?",
+      "a": "Usually yes. Most use standard motherboards and cases, so RAM, SSDs and the graphics card can be upgraded. Check the PSU's wattage and connectors before adding a bigger card."
+    }
+  ],
+  "sources": [
+    "CyberPowerPC product listings and warranty information on cyberpowerpc.com, checked at the time of writing",
+    "Retail listings for CyberPowerPC desktops on Best Buy, Amazon, Costco and Walmart",
+    "Independent GPU and CPU reviews from TechPowerUp, Hardware Unboxed and Gamers Nexus for component performance",
+    "Buyer reviews and forum reports, summarized as patterns rather than quoted ratings"
+  ],
+  "products": [
+    "cyberpowerpc-gamer-xtreme-rtx-3050",
+    "cyberpowerpc-gamer-supreme-rtx-5070-ti"
+  ],
+  "related": [
+    "best-prebuilt-gaming-pc",
+    "best-gaming-pc-under-1000",
+    "best-budget-gaming-pc"
+  ]
+}
