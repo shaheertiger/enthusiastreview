@@ -1,0 +1,162 @@
+{
+  "slug": "asrock-secure-boot",
+  "type": "article",
+  "kind": "fix",
+  "category": "motherboards",
+  "title": "ASRock Secure Boot: How to Enable It and Fix 'Not Active'",
+  "h1": "ASRock Secure Boot",
+  "query": "asrock secure boot",
+  "description": "To turn on ASRock Secure Boot: disable CSM, set Secure Boot to Enabled, then install the default keys. 'Enabled but not active' means no keys are loaded yet.",
+  "dek": "How to switch on Secure Boot on an ASRock board for Windows 11 and anti-cheat games, and why it can show as enabled but not active.",
+  "quickAnswer": "On an ASRock board, Secure Boot needs three things: CSM turned off under the Boot menu, Secure Boot set to Enabled under the Security menu, and the default Secure Boot keys installed. If it says enabled but not active, the keys are missing and the board is still in Setup Mode; install the default keys, save, and reboot. Windows must also be installed on a GPT disk.",
+  "intro": [
+    "This guide is for anyone whose ASRock motherboard shows Secure Boot as off, unsupported or 'enabled but not active', usually because a game such as Battlefield 6 or Valorant refuses to start, or Windows 11 says the PC does not meet its requirements. It covers AM5, AM4 and recent Intel ASRock boards.",
+    "ASRock's UEFI wording changes between board generations, so we describe what each setting does as well as its usual name. Check your board's manual if a label on your screen differs. Nothing here requires reinstalling Windows unless your system disk uses the older MBR layout, which we show how to check first."
+  ],
+  "stepsHeading": "How to Enable Secure Boot on an ASRock Motherboard",
+  "steps": [
+    {
+      "h": "Check that Windows is on a GPT disk",
+      "body": [
+        "Secure Boot only works when Windows boots in UEFI mode, which requires a GPT-partitioned system disk. Run msinfo32 and look at BIOS Mode: if it says UEFI, you are fine. If it says Legacy, the disk is probably MBR; Microsoft's MBR2GPT tool can convert it without wiping data, but back up first."
+      ]
+    },
+    {
+      "h": "Enter the UEFI and switch to Advanced Mode",
+      "body": [
+        "Restart and press Delete or F2 at the ASRock logo. If the board opens in Easy Mode, press F6 (on most boards) to switch to Advanced Mode, where the Boot and Security menus are."
+      ]
+    },
+    {
+      "h": "Disable CSM",
+      "body": [
+        "Open the Boot menu and find CSM (Compatibility Support Module). Set it to Disabled. CSM is the legacy boot layer, and Secure Boot cannot run while it is on. If your graphics card is very old and has no UEFI firmware, the screen may stay black with CSM off; a modern GPU is fine."
+      ]
+    },
+    {
+      "h": "Turn on Secure Boot and install the default keys",
+      "body": [
+        "Open the Security menu and the Secure Boot page. Set Secure Boot to Enabled. Then look for the option to install or restore the default Secure Boot keys (often called Install Default Secure Boot Keys or Restore Factory Keys) and confirm. If there is a Secure Boot Mode option, Standard uses the factory keys and is the right choice for almost everyone."
+      ]
+    },
+    {
+      "h": "Save, reboot and confirm in Windows",
+      "body": [
+        "Press F10 to save and exit. Once Windows loads, run msinfo32 and check that Secure Boot State reads On. If it reads Off, return to the UEFI and check that CSM stayed disabled and the keys were installed."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "Why Does ASRock Say Secure Boot Is Enabled but Not Active?",
+      "body": [
+        "Because no Secure Boot keys are installed. The Secure Boot switch only allows the feature; it becomes active once the board holds a platform key and the other key databases. Without them, the firmware stays in what is called Setup Mode, and the page shows the setting as enabled while the state reads not active.",
+        "The fix is to install the default keys from the Secure Boot page, save and reboot. The keys are often cleared after a BIOS update, a CMOS reset, or by an earlier 'clear keys' choice, which is why Secure Boot can stop working on a PC where it used to be on.",
+        "If the keys are installed and it is still not active, CSM is the usual culprit: some boards keep Secure Boot inactive while CSM is enabled. Turn CSM off, save, and check again."
+      ]
+    },
+    {
+      "h": "Why Is My ASRock Board Not Asking for Secure Boot, or the Option Is Greyed Out?",
+      "body": [
+        "On many ASRock boards the Secure Boot options stay hidden or greyed out until CSM is disabled. Turn CSM off in the Boot menu, press F10 to save, re-enter the UEFI, and the Secure Boot settings should become available.",
+        "If the option is still missing, check that you are in Advanced Mode, not Easy Mode, and that your BIOS is reasonably current. Very old BIOS versions on AM4 boards handled Windows 11 settings less cleanly; updating helps, and our [ASRock BIOS update guide](/how-to-update-asrock-bios/) covers how. Note that a BIOS update usually resets Secure Boot and TPM, so recheck both afterwards."
+      ]
+    },
+    {
+      "h": "Do You Need Secure Boot for Windows 11 and Games?",
+      "body": [
+        "Windows 11 requires a PC that supports UEFI and Secure Boot, plus TPM 2.0. The installer checks that the PC is Secure Boot capable; most people turn it on anyway, and some features expect it.",
+        "Some games now refuse to run without Secure Boot actually switched on. Battlefield 6's anti-cheat requires it, and Riot's Vanguard anti-cheat for Valorant can require Secure Boot and TPM 2.0 on Windows 11, showing an error code when they are off. Other recent anti-cheat systems are moving the same way, so it is worth enabling even if nothing complains today.",
+        "Secure Boot does not cost performance. It only checks that the bootloader and early drivers are signed before Windows starts."
+      ]
+    },
+    {
+      "h": "How Do You Turn On TPM on an ASRock Board?",
+      "body": [
+        "ASRock boards use the processor's built-in firmware TPM. On AMD boards it is usually called AMD fTPM, and on Intel boards Intel PTT, found under the Advanced or Security menu, sometimes inside a Trusted Computing page. Set it to enabled, save and reboot, then run tpm.msc in Windows to confirm TPM 2.0 is ready.",
+        "Like Secure Boot, the firmware TPM can switch off after a BIOS update or CMOS reset. If you use BitLocker, make sure you have your recovery key before changing TPM settings, because Windows may ask for it."
+      ]
+    },
+    {
+      "h": "What If Windows Won't Boot After Enabling Secure Boot?",
+      "body": [
+        "If the PC goes straight back to the UEFI or shows a boot error, Windows was most likely installed in legacy mode on an MBR disk. Turn CSM back on to boot normally, check BIOS Mode in msinfo32, and convert the disk with Microsoft's MBR2GPT tool before trying again.",
+        "A black screen with no picture after disabling CSM usually means an older graphics card without UEFI firmware. Clearing the CMOS restores CSM; a modern card, such as anything from the [best budget graphics cards](/best-budget-graphics-card/), avoids the problem.",
+        "Unsigned drivers or bootloaders, such as some Linux setups and old RAID tools, can also be blocked once Secure Boot is active. Dual-boot users may need a signed shim or to leave Secure Boot off."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Turning Secure Boot on without installing keys",
+      "The switch alone leaves the board in Setup Mode, so Secure Boot shows as enabled but not active and games still refuse to launch. Install the default keys every time, especially after a BIOS update."
+    ],
+    [
+      "Leaving CSM enabled",
+      "Secure Boot cannot run alongside the legacy compatibility layer, and on many ASRock boards its options stay hidden until CSM is off. Disable CSM first, save, then come back to the Security menu."
+    ],
+    [
+      "Enabling Secure Boot on an MBR install",
+      "A Windows installation on an MBR disk boots in legacy mode and will not start with CSM off. Check BIOS Mode in msinfo32 first and convert with MBR2GPT if needed, after a backup."
+    ],
+    [
+      "Forgetting to recheck after a BIOS update",
+      "Updating or resetting the BIOS often clears keys and turns off fTPM. If an anti-cheat game suddenly stops launching after an update, Secure Boot and TPM are the first things to check."
+    ],
+    [
+      "Changing TPM settings without the BitLocker key",
+      "If the drive is encrypted, toggling the TPM or clearing keys can trigger a BitLocker recovery prompt. Save your recovery key from your Microsoft account before you start."
+    ]
+  ],
+  "bottomLine": "ASRock Secure Boot takes three settings: CSM disabled, Secure Boot enabled and the default keys installed. If it shows enabled but not active, the keys are missing; install them and reboot. Confirm in msinfo32 that BIOS Mode is UEFI and Secure Boot State is On, and turn on fTPM or PTT at the same time for Windows 11 and anti-cheat games. Recheck both after every BIOS update.",
+  "faqs": [
+    {
+      "q": "Where is Secure Boot in the ASRock BIOS?",
+      "a": "In Advanced Mode, under the Security menu on most ASRock boards, on a page called Secure Boot. Disable CSM under the Boot menu first, because the Secure Boot options can stay hidden or greyed out while it is on."
+    },
+    {
+      "q": "What does 'Secure Boot enabled but not active' mean on ASRock?",
+      "a": "The setting is on, but no Secure Boot keys are installed, so the firmware is still in Setup Mode. Install the default Secure Boot keys on the same page, save with F10 and reboot."
+    },
+    {
+      "q": "Does Battlefield 6 need Secure Boot?",
+      "a": "Yes. Battlefield 6's anti-cheat requires Secure Boot to be enabled on Windows PCs. If the game reports it is off, check that CSM is disabled, Secure Boot is enabled and the default keys are installed."
+    },
+    {
+      "q": "Does Valorant need Secure Boot on an ASRock PC?",
+      "a": "On Windows 11, Riot's Vanguard anti-cheat can require Secure Boot and TPM 2.0 and shows an error when they are off. Enable both in the ASRock UEFI and confirm with msinfo32 and tpm.msc."
+    },
+    {
+      "q": "Should Secure Boot Mode be Standard or Custom?",
+      "a": "Standard, for almost everyone. It uses the factory Microsoft and vendor keys. Custom is for people managing their own keys, typically for Linux or enterprise setups."
+    },
+    {
+      "q": "Will enabling Secure Boot delete my files?",
+      "a": "No. Secure Boot only checks signatures at startup. The only risk is that Windows won't boot if it was installed in legacy MBR mode, which you can check in msinfo32 before you change anything."
+    },
+    {
+      "q": "Why did Secure Boot turn off after a BIOS update?",
+      "a": "BIOS updates and CMOS resets usually restore defaults, which can clear the keys and re-enable CSM on some boards. Repeat the steps: disable CSM, enable Secure Boot, install the default keys."
+    },
+    {
+      "q": "Does Secure Boot affect gaming performance?",
+      "a": "No. It only verifies the bootloader and early drivers before Windows loads. Frame rates and load times are unchanged."
+    }
+  ],
+  "sources": [
+    "ASRock motherboard user manuals: Boot and Security menu sections",
+    "Microsoft support: Windows 11 system requirements, Secure Boot and TPM 2.0",
+    "Microsoft documentation: MBR2GPT disk conversion tool",
+    "EA support: Battlefield 6 Secure Boot requirement",
+    "Riot Games support: Vanguard requirements on Windows 11"
+  ],
+  "products": [
+    "asrock-b850-steel-legend-wifi",
+    "msi-mag-b850-tomahawk-max-wifi"
+  ],
+  "related": [
+    "best-am5-motherboard",
+    "how-to-update-amd-drivers",
+    "how-to-check-what-graphics-card-i-have"
+  ]
+}
