@@ -1,0 +1,207 @@
+{
+  "slug": "best-graphics-card-under-300",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best Graphics Card Under $300 (2026): 6 GPUs Ranked",
+  "h1": "Best Graphics Card Under $300",
+  "query": "best graphics card under 300",
+  "description": "The Arc B580 is the best graphics card under $300: 12 GB of VRAM for $250–$290. 6 GPUs ranked for 1080p, with the CPU and 8 GB catches spelled out.",
+  "dek": "Six cards that start at or under $300, which one fits your CPU and monitor, and when $300 is the wrong budget.",
+  "intro": [
+    "The Intel Arc B580 is the best graphics card under $300 in 2026: 12 GB of VRAM, XeSS 2 upscaling and roughly RTX 4060-class speed for $250–$290. It is the only new card at this price that does not force you onto 8 GB of memory.",
+    "This page is for 1080p gamers with $300 or less to spend, and for anyone upgrading an older PC on a tight budget. Every pick starts at or below $300 in its usual street-price band; prices move with sales, so check the live listing. Which card is right depends more on your CPU and motherboard than on the card itself, and the sections below explain why."
+  ],
+  "quickAnswer": "Buy the Arc B580 ($250–$290, 12 GB) if your CPU is a Ryzen 5 7600, Core i5-12400 or newer. On an older PC, the RX 9060 XT 8GB ($280–$320) is safer: a full x16 link and no CPU overhead problem. Want NVIDIA? The RTX 5060 ($300–$330) is the one to get. Under $230, the RX 6600 is the floor worth buying.",
+  "picks": [
+    {
+      "id": "arc-b580",
+      "label": "Best Under $300",
+      "bestFor": "1080p builds on a modern CPU that want 12 GB of VRAM without paying for 16 GB",
+      "skipIf": "your CPU is a Ryzen 5 2600, 3600 or similar older chip, or your board cannot enable Resizable BAR",
+      "writeup": [
+        "Under $300, memory is the scarce thing, and the Arc B580 is the card that has it. Its 12 GB of GDDR6 on a 192-bit bus is 4 GB more than any GeForce or Radeon you can buy new at this price, which keeps the high texture setting usable in new releases that already push 8 GB cards to medium. Independent reviews put its average 1080p speed around an RTX 4060, often a little faster at 1440p.",
+        "The catch is the processor beside it. Intel's driver leans harder on the CPU than NVIDIA's or AMD's, and testing published after launch showed the B580 losing a meaningful share of its speed on older six-core chips. On a Ryzen 5 7600, Core i5-12400F or anything newer, it behaves as reviewed. It also needs [Resizable BAR](/glossary/resizable-bar/) switched on in the BIOS, which rules out many pre-2019 boards.",
+        "Board power is about 190 W through a single 8-pin connector, so a quality 550–600 W supply is enough. XeSS 2 adds upscaling and frame generation in supported games, though fewer titles carry it than DLSS. If your system ticks the boxes, nothing else under $300 is as future-proof."
+      ],
+      "pros": ["12 GB of VRAM under $300", "RTX 4060-class speed or better at 1440p", "XeSS 2 upscaling and frame generation", "Strong for the money in ray tracing"],
+      "cons": ["Loses speed on older CPUs", "Requires Resizable BAR", "PCIe 4.0 x8 link"]
+    },
+    {
+      "id": "rx-9060-xt-8gb",
+      "label": "Best for Older PCs",
+      "bestFor": "upgrading a 2018–2021 PC with a PCIe 3.0 motherboard or an older six-core CPU",
+      "skipIf": "you play big new single-player games at high textures, where 8 GB runs short",
+      "writeup": [
+        "If your PC is a few years old, the RX 9060 XT 8GB is the safer under-$300 card. It uses all sixteen PCIe lanes, so a PCIe 3.0 board costs it very little, and AMD's driver does not have the CPU overhead problem that holds the Arc B580 back beside a Ryzen 5 3600 or Core i5-9400F.",
+        "It is a current RDNA 4 card, which brings FSR 4, AMD's machine-learning upscaler, and a 150 W board power that a decent 500–550 W supply handles easily. In esports and most games at 1080p medium to high it is a step above the RTX 4060 and close to the RTX 5060.",
+        "The limit is the 8 GB of memory. Several recent games already need the texture setting lowered at 1080p high on 8 GB cards, and that list will grow. If your budget can reach about $350–$400, the 16 GB version of the same card fixes that; see [RX 9060 XT 8GB vs 16GB](/compare/rx-9060-xt-8gb-vs-rx-9060-xt-16gb/). At $280–$320, though, it is the most reliable upgrade for an older system."
+      ],
+      "pros": ["Full x16 link for PCIe 3.0 boards", "No CPU overhead penalty", "FSR 4 support", "Runs on a 500–550 W PSU"],
+      "cons": ["8 GB limits textures in new games", "The 16 GB model is only $60–$90 more"]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Best NVIDIA Under $300",
+      "bestFor": "buyers who want DLSS 4, NVENC streaming or CUDA at the bottom of NVIDIA's current range",
+      "skipIf": "your motherboard is PCIe 3.0 and you play VRAM-hungry new releases",
+      "writeup": [
+        "The RTX 5060 sits right on the line at $300–$330, so it qualifies on sale, and it is the newest GeForce you can get at this budget. It is around 20 percent faster than the RTX 4060 it replaced, draws about 145 W from one 8-pin connector, and brings DLSS 4 with Multi Frame Generation, which is supported in far more games than FSR 4 or XeSS 2.",
+        "For streamers, NVIDIA's NVENC encoder and the NVIDIA App's recording tools are reasons on their own. For anyone using Blender, DaVinci Resolve or local AI tools, CUDA support matters more than a few frames per second.",
+        "Like the RX 9060 XT 8GB, it has 8 GB of memory, and it also uses a PCIe 5.0 x8 link, which costs more on an older PCIe 3.0 board once that memory fills. On a modern PC playing esports and current games at 1080p, it is a sound card. For the head-to-head with Intel's card, read [RTX 5060 vs Arc B580](/compare/rtx-5060-vs-arc-b580/)."
+      ],
+      "pros": ["DLSS 4 with Multi Frame Generation", "NVENC and CUDA", "145 W, one 8-pin connector"],
+      "cons": ["8 GB of VRAM", "PCIe 5.0 x8 hurts on PCIe 3.0 boards", "Usually $300 or a little over"]
+    },
+    {
+      "id": "rx-6700-xt",
+      "label": "Best Used 12 GB Pick",
+      "bestFor": "buyers comfortable with used or clearance cards who want 12 GB and 1440p raster speed",
+      "skipIf": "you want a warranty from new, FSR 4, or a low-power card",
+      "writeup": [
+        "The RX 6700 XT is a 2021 card, so it mostly appears used or as clearance stock, but at $250–$330 it remains one of the fastest raster cards you can find near $300. It carries 12 GB on a 192-bit bus and a full x16 link, and in traditional raster games it lands roughly level with an RTX 3060 Ti; see our [AMD vs NVIDIA GPU equivalents](/amd-vs-nvidia-gpu-equivalents/) chart for where it sits against newer cards.",
+        "The trade-offs are age and power. It draws about 230 W and AMD's own guidance is a 650 W supply, so it needs more from your PSU than any other pick here. It also misses FSR 4 and has weak ray tracing, and new driver features now reach the newer Radeons first.",
+        "Buy it only at the bottom of its price band, and preferably from a seller who offers returns. Check the warranty status too; our [graphics card warranty by brand](/graphics-card-warranty-by-brand/) guide covers which brands honor second-owner claims."
+      ],
+      "pros": ["12 GB of VRAM", "Strong raster speed for the price", "Full x16 link"],
+      "cons": ["230 W and a 650 W PSU recommendation", "No FSR 4, weak ray tracing", "Mostly used or clearance"]
+    },
+    {
+      "id": "rtx-4060",
+      "label": "Lowest Power Draw",
+      "bestFor": "small-form-factor PCs and systems with a 400–500 W power supply",
+      "skipIf": "you can find an RTX 5060 for $20 more, which is the faster card",
+      "writeup": [
+        "The RTX 4060 earns a place for one reason: it is the most efficient card on this list. At about 115 W through a single 8-pin connector it runs cool in cramped small-form-factor cases and fits power supplies that cannot feed anything bigger, which is common in office PCs being turned into gaming machines.",
+        "It still supports DLSS 4 upscaling and DLSS 3 frame generation, though not Multi Frame Generation, and it handles 1080p esports and most current games at medium to high settings.",
+        "As a new purchase, though, it has been overtaken. The RTX 5060 is around 20 percent faster for roughly $20 more, so the RTX 4060 only makes sense when it is clearly cheaper, used, or needed for its low power draw. The full comparison is in [RTX 4060 vs RTX 5060](/compare/rtx-4060-vs-rtx-5060/)."
+      ],
+      "pros": ["About 115 W", "Fits small cases and modest PSUs", "DLSS 4 upscaling"],
+      "cons": ["RTX 5060 is faster for about $20 more", "8 GB of VRAM", "No Multi Frame Generation"]
+    },
+    {
+      "id": "rx-6600",
+      "label": "Cheapest Worth Buying",
+      "bestFor": "1080p esports and older games on a budget near $200",
+      "skipIf": "you want to play new AAA releases at high settings for several more years",
+      "writeup": [
+        "The RX 6600 is the floor for a new gaming GPU in 2026. At $180–$230 where it is still sold new, it delivers solid 1080p raster speed, close to an RTX 3060 12GB, at only 132 W. For Fortnite, Valorant, Counter-Strike 2 and older games, that is plenty.",
+        "It is an older design, so there is no FSR 4 and ray tracing is weak, and its 8 GB of memory and PCIe 4.0 x8 link will feel tight sooner in new releases. New stock is thinning, so check that a listing is new rather than refurbished.",
+        "If $230 is your hard limit, it is the card to buy. If you can stretch by $50–$60, the Arc B580 or RX 9060 XT 8GB is a much longer-lasting card; [RX 6600 vs RTX 4060](/compare/rx-6600-vs-rtx-4060/) shows what the extra money buys."
+      ],
+      "pros": ["$180–$230", "132 W", "Good 1080p raster speed"],
+      "cons": ["No FSR 4, weak ray tracing", "8 GB and a PCIe 4.0 x8 link", "New stock is thin"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "Board power", "PCIe interface", "Upscaling"],
+  "ranking": {
+    "intro": "These rankings are built from manufacturer specifications, published independent reviews and owner reports on retailer sites and enthusiast forums. Nothing here was bench-tested by Enthusiast Review. A card qualifies when its usual street-price band starts at or below $300; prices change with sales and stock, so treat the bands as a guide and check the live price.",
+    "criteria": [
+      ["Memory for the money", "VRAM decides how long a sub-$300 card stays useful in new games, so 12 GB cards rank above otherwise similar 8 GB cards."],
+      ["Fit with older PCs", "Many buyers at this price are upgrading a 2018–2021 system, so PCIe link width and CPU overhead weigh heavily."],
+      ["1080p speed", "We use the broad pattern of independent 1080p results, not a single game or launch-day numbers."],
+      ["Features", "Current upscalers (DLSS 4, FSR 4, XeSS 2), encoders and driver support."],
+      ["Power and size", "Board power and connectors, because many upgrade PCs have modest power supplies."]
+    ],
+    "why": "The Arc B580 wins because it is the only new card under $300 with more than 8 GB of VRAM, at RTX 4060-class speed or better."
+  },
+  "mentions": [
+    { "id": "rx-9060-xt-16gb", "text": "The RX 9060 XT 16GB is the card most under-$300 buyers should stretch for. It costs $350–$400, so it misses this page's budget, but it doubles the memory of every 8 GB pick here and keeps a full x16 link. If you can wait for a sale or add $60–$90, it is the better long-term buy." },
+    { "id": "rtx-5060-ti-8gb", "text": "The RTX 5060 Ti 8GB starts at about $360, well over this budget, and carries the same 8 GB as the RTX 5060. Its extra speed rarely justifies the gap, and the 16 GB version costs only a little more again." }
+  ],
+  "sections": [
+    {
+      "h": "What Is the Best Graphics Card Under $300 for 1080p?",
+      "body": [
+        "For 1080p on a modern PC, the Arc B580 is the best graphics card under $300: 12 GB of memory and speed around an RTX 4060 or better. On an older PC, the RX 9060 XT 8GB is the better choice because it keeps its speed on PCIe 3.0 boards and older CPUs. The RTX 5060 is the pick if you specifically want NVIDIA features.",
+        "At 1080p, all six picks run esports games at high frame rates. The difference shows in big new single-player releases at high settings, where 8 GB cards increasingly need the texture setting lowered and the 12 GB cards do not."
+      ],
+      "table": {
+        "caption": "Which under-$300 card fits your PC",
+        "head": ["Your PC", "Best pick", "Why"],
+        "rows": [
+          ["Ryzen 5 7600, Core i5-12400 or newer", "Arc B580", "12 GB and full speed on a modern CPU"],
+          ["Ryzen 5 2600 / 3600, Core i5-9400 or older", "RX 9060 XT 8GB", "No CPU overhead penalty, full x16 link"],
+          ["Small case or 400–500 W PSU", "RTX 4060", "About 115 W, one 8-pin connector"],
+          ["Stream, edit or use CUDA", "RTX 5060", "NVENC, CUDA and DLSS 4"],
+          ["Hard limit near $200", "RX 6600", "Cheapest new card worth buying"]
+        ]
+      }
+    },
+    {
+      "h": "Is 8 GB of VRAM Enough Under $300?",
+      "body": [
+        "8 GB is enough for esports and most current games at 1080p medium to high, but not for every new release at high textures. Several 2025 and 2026 games already show stutter or missing textures on 8 GB cards at 1080p high, and lowering the texture setting one step fixes it. That is fine for some buyers and a deal-breaker for others.",
+        "Under $300, the only new card that avoids the issue is the Arc B580 with 12 GB. The used RX 6700 XT also has 12 GB. If you plan to keep the card for four or more years, or you play big single-player games, favor one of those, or stretch to a 16 GB card such as the RX 9060 XT 16GB."
+      ]
+    },
+    {
+      "h": "Should You Buy a New or Used Graphics Card Under $300?",
+      "body": [
+        "Buy new if you want a warranty from day one and current features such as FSR 4 or DLSS 4 Multi Frame Generation; buy used if raw raster speed per dollar matters most. Under $300, used cards like the RX 6700 XT give more speed than new 8 GB cards, but they draw more power and miss newer upscalers.",
+        "With a used card, check that it runs a stress test or game for at least 15 minutes, look at the fans and fins for damage, and confirm the warranty terms. Many brands honor warranties by serial number, which can carry over to a second owner, but not all do; our [warranty by brand](/graphics-card-warranty-by-brand/) guide covers the differences.",
+        "Upgrading from a much older card? The [old GeForce equivalents](/old-nvidia-gpu-equivalents/) and [old Radeon equivalents](/old-amd-gpu-equivalents/) charts show how much faster each pick here is than a GTX 1060, RX 580 or similar card."
+      ]
+    },
+    {
+      "h": "Is It Worth Spending More Than $300 on a Graphics Card?",
+      "body": [
+        "Yes, if you can add $60–$100. The jump from the best $300 card to the RX 9060 XT 16GB at $350–$400 buys twice the memory of the 8 GB picks and a card that stays at high textures for years longer. That is the best value step in the whole GPU market right now.",
+        "Going from $300 to $500 or more only makes sense if you game at 1440p. Our [best graphics card under $400](/best-graphics-card-under-400/) and [under $500](/best-graphics-card-under-500/) guides cover those budgets."
+      ]
+    },
+    {
+      "h": "What Power Supply Do You Need for a Graphics Card Under $300?",
+      "body": [
+        "A quality 550 W power supply covers every pick here except the RX 6700 XT, which AMD pairs with 650 W. The RTX 4060 runs on about 115 W and the RX 6600 on 132 W, so even a decent 450 W unit can work with a modest CPU; the Arc B580 at about 190 W wants more headroom.",
+        "What matters more than the wattage on the label is the unit's quality and its connectors. Every pick uses one 8-pin PCIe connector, except the RX 6700 XT, which often needs an 8-pin plus a 6-pin. Check yours with the [PSU calculator](/tools/psu-calculator/)."
+      ]
+    },
+    {
+      "h": "Will an Under-$300 GPU Work in My Older PC?",
+      "body": [
+        "Usually yes, but the card you choose matters. Three things decide it: the PCIe generation of your motherboard, whether your BIOS supports Resizable BAR, and how old your CPU is.",
+        "On a PCIe 3.0 board, cards with an x8 link (the RTX 5060, RTX 4060, RX 6600 and Arc B580) lose some speed when they run out of memory, while the RX 9060 XT 8GB and RX 6700 XT, with full x16 links, are barely affected. Without Resizable BAR, avoid the Arc B580. With a CPU older than a Ryzen 5 5600 or Core i5-12400, avoid the Arc B580 and check the [bottleneck calculator](/tools/bottleneck-calculator/) before buying anything."
+      ],
+      "list": [
+        "PCIe 3.0 board: RX 9060 XT 8GB or RX 6700 XT",
+        "No Resizable BAR: anything except the Arc B580",
+        "Ryzen 5 2600 / 3600 era CPU: RX 9060 XT 8GB first",
+        "Small case or 450 W PSU: RTX 4060 or RX 6600"
+      ]
+    },
+    {
+      "h": "Which Brand Should You Buy an Under-$300 GPU From?",
+      "body": [
+        "At this price, the brand matters less than the GPU inside. Partner cards from ASUS, MSI, Gigabyte, Sapphire, PowerColor, Zotac and others use the same chip, and performance differences between them are usually a few percent at most. What changes is the cooler, noise, size and warranty.",
+        "Pick the cheapest model that fits your case and has a dual-fan cooler, and favor brands with a clear warranty process. Our [best graphics card brands](/best-graphics-card-brands/) guide ranks each maker's budget lines."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Pairing an Arc B580 with an old CPU", "The B580's speed depends on a modern processor. Beside a Ryzen 5 2600 or 3600 it can fall behind cards it beats on a newer chip. On those systems, buy the RX 9060 XT 8GB instead."],
+    ["Forgetting Resizable BAR", "Arc cards need Resizable BAR enabled in the BIOS. Many boards from before 2019 cannot turn it on. Check the BIOS settings before buying an Arc card, not after it arrives."],
+    ["Ignoring the PSU connectors", "Most picks need one 8-pin PCIe cable, but the RX 6700 XT often needs an 8-pin plus a 6-pin. Old or prebuilt power supplies may not have them. Count the cables before you order."],
+    ["Buying an RTX 4060 when the RTX 5060 is $20 more", "The RTX 5060 is around 20 percent faster for about $20 extra. Only buy the RTX 4060 for its low power draw, or when it is clearly cheaper."],
+    ["Trusting old price comparisons", "Street prices move weekly. A card listed at $300 today may be $270 or $340 next month, and that can change the best pick. Check current prices on the day you buy."]
+  ],
+  "bottomLine": "The Arc B580 is the best graphics card under $300 because it alone pairs 12 GB of memory with RTX 4060-class speed for $250–$290, as long as your CPU is modern and Resizable BAR is on. On older PCs, the RX 9060 XT 8GB is the safer upgrade. Choose the RTX 5060 for NVIDIA features, the RTX 4060 for low power, and the RX 6600 only at a hard $200 limit. If you can add $60–$100, the RX 9060 XT 16GB is the better buy.",
+  "faqs": [
+    { "q": "What is the best graphics card under $300?", "a": "The Arc B580 is the best graphics card under $300 for a modern PC, with 12 GB of VRAM for $250–$290. On older PCs, the RX 9060 XT 8GB is the better pick because it does not lose speed on older CPUs or PCIe 3.0 boards." },
+    { "q": "What is the best NVIDIA graphics card under $300?", "a": "The RTX 5060 at $300–$330, bought on sale. It is around 20 percent faster than the RTX 4060 and supports DLSS 4 with Multi Frame Generation. The RTX 4060 only makes sense when it is clearly cheaper or you need its 115 W power draw." },
+    { "q": "What is the best AMD graphics card under $300?", "a": "The RX 9060 XT 8GB at $280–$320. It has FSR 4, a full x16 PCIe link and a 150 W board power. Under $230, the older RX 6600 is the cheapest AMD card worth buying for 1080p." },
+    { "q": "Can a $300 graphics card run 1440p?", "a": "Yes, in esports and lighter games, and in many newer games with upscaling and medium settings. For high settings at 1440p, budget closer to $400–$500; the 12 GB Arc B580 is the best of the under-$300 picks at 1440p." },
+    { "q": "Is the Arc B580 better than the RTX 4060?", "a": "On a modern CPU, yes: it is roughly level at 1080p and a little faster at 1440p, with 12 GB against 8 GB. On older CPUs like a Ryzen 5 3600, the RTX 4060 can be the faster card because of the B580's driver overhead." },
+    { "q": "Is 8 GB of VRAM enough in 2026?", "a": "For esports and most games at 1080p medium to high, yes. Some new releases already need lower textures on 8 GB cards at 1080p high. If you keep cards for four years or more, choose 12 GB or 16 GB." },
+    { "q": "What PSU do I need for a $300 graphics card?", "a": "A quality 550 W power supply covers every pick here except the RX 6700 XT, which AMD pairs with 650 W. Check that your PSU has the right PCIe connectors: one 8-pin for most cards." },
+    { "q": "Is a used RX 6700 XT better than a new RX 9060 XT 8GB?", "a": "In raw raster speed and memory, the used RX 6700 XT is often ahead, with 12 GB. The new RX 9060 XT 8GB uses far less power, has FSR 4 and a full warranty. Pick the used card only at a clearly lower price." }
+  ],
+  "sources": [
+    "Intel Arc B580 product page and Resizable BAR requirements",
+    "AMD Radeon RX 9060 XT, RX 6700 XT and RX 6600 product pages",
+    "NVIDIA GeForce RTX 5060 and RTX 4060 product pages",
+    "Independent budget GPU reviews from TechPowerUp, Hardware Unboxed and Tom's Hardware",
+    "Published testing of Arc B580 performance with older CPUs",
+    "Owner reports on retailer listings and enthusiast forums"
+  ],
+  "related": ["best-budget-graphics-card", "best-gpu-for-ryzen-5-2600-and-3600", "intel-arc-gpu-equivalents"]
+}

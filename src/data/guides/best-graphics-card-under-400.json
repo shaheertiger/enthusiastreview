@@ -1,0 +1,199 @@
+{
+  "slug": "best-graphics-card-under-400",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best Graphics Card Under $400 (2026): 6 GPUs for 1080p High",
+  "h1": "Best Graphics Card Under $400",
+  "query": "best graphics card under 400",
+  "description": "The RX 9060 XT 16GB is the best graphics card under $400: 16 GB of VRAM for $350–$400. 6 GPUs ranked, with when an 8 GB card at $300 is enough instead.",
+  "dek": "$400 is the first budget where 16 GB of memory is on the table. Here is how to spend it, and which cards to skip.",
+  "intro": [
+    "The AMD Radeon RX 9060 XT 16GB is the best graphics card under $400 in 2026. For $350–$400 it gives you 16 GB of VRAM, FSR 4 and a full x16 PCIe link, and nothing else at this price matches that memory. Memory is the reason a $400 card should still play new games at high textures in 2029.",
+    "This guide is for 1080p high-settings gamers and light 1440p players with up to $400. Each pick's usual price band starts at or below $400; street prices change weekly, so check the live listing. We also cover when a cheaper 8 GB card is enough, and why one card that fits the budget is a poor buy."
+  ],
+  "quickAnswer": "Buy the RX 9060 XT 16GB ($350–$400) for 1080p high and entry 1440p. If you want NVIDIA under $400, the RTX 5060 ($300–$330) is the value pick; skip the RTX 5060 Ti 8GB unless it is discounted to near RTX 5060 money. On a modern CPU, the Arc B580 ($250–$290) saves $100 with 12 GB.",
+  "picks": [
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Under $400",
+      "bestFor": "1080p at high settings and entry-level 1440p for the next four or five years",
+      "skipIf": "you need CUDA or NVENC for editing, streaming or local AI",
+      "writeup": [
+        "At $400, the question is no longer whether you can afford a fast card but whether it will run out of memory. The RX 9060 XT 16GB answers that: its 16 GB frame buffer is double what the RTX 5060 and RTX 5060 Ti 8GB carry, so high texture settings stay available in new releases instead of dropping to medium.",
+        "Its speed lands within a few percent of the RTX 5060 Ti 16GB in raster games by the broad pattern of independent reviews, at a lower price. FSR 4, AMD's machine-learning upscaler, is supported, and its image quality is a large step over FSR 3. Ray tracing is improved on RDNA 4 but still behind the matching GeForce card.",
+        "It is also an easy upgrade. Board power is about 160 W, up to roughly 180 W on factory-overclocked models, through one 8-pin connector, and it uses all sixteen PCIe lanes, so a PCIe 3.0 board costs it almost nothing. Read the listing carefully: the 8 GB version shares the name."
+      ],
+      "pros": ["16 GB of VRAM under $400", "Full x16 link for older boards", "FSR 4", "About 160–180 W"],
+      "cons": ["Ray tracing behind NVIDIA", "8 GB version shares the name", "No CUDA"]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Best NVIDIA Value",
+      "bestFor": "1080p players who want DLSS 4 and NVENC and are fine lowering textures in some new games",
+      "skipIf": "you play VRAM-heavy single-player games at high textures",
+      "writeup": [
+        "If you want a GeForce card and $400 is the limit, the RTX 5060 is the sensible one. At $300–$330 it leaves $70–$100 in your pocket and delivers about 20 percent more speed than the RTX 4060, with DLSS 4 Multi Frame Generation supported in a large and growing list of games.",
+        "Its weakness is the same as every 8 GB card: some new games at 1080p high need the texture setting dropped one notch. For esports and most current games, that never comes up. It draws about 145 W from a single 8-pin connector.",
+        "The comparison that matters at this budget is against the Radeon above it. [RTX 5060 vs RX 9060 XT 16GB](/compare/rtx-5060-vs-rx-9060-xt-16gb/) lays out what the extra memory and extra $50–$70 get you."
+      ],
+      "pros": ["DLSS 4 with Multi Frame Generation", "NVENC and CUDA", "$70–$100 under budget"],
+      "cons": ["8 GB of VRAM", "PCIe 5.0 x8 link hurts on PCIe 3.0 boards"]
+    },
+    {
+      "id": "arc-b580",
+      "label": "Best for Saving $100",
+      "bestFor": "modern-CPU builds that want 12 GB without spending the full $400",
+      "skipIf": "your CPU is older than a Ryzen 5 5600 or Core i5-12400, or your board lacks Resizable BAR",
+      "writeup": [
+        "Not every $400 budget should be spent on the GPU. If your monitor is 1080p and your CPU is modern, the Arc B580 at $250–$290 gives you 12 GB of memory and speed around an RTX 4060 or better, and the $100 you keep can go to a faster SSD or a better CPU cooler.",
+        "The B580 needs Resizable BAR enabled and does best with a modern processor; on a Ryzen 5 2600 or 3600 its driver overhead costs it noticeable speed. With a Ryzen 5 7600 or newer, it is a strong card for the money, and its ray tracing is good for the price.",
+        "For the full Intel-versus-AMD picture, see [Arc B580 vs RX 9060 XT 16GB](/compare/arc-b580-vs-rx-9060-xt-16gb/), and our [Intel Arc GPU equivalents](/intel-arc-gpu-equivalents/) chart for where it sits against GeForce and Radeon."
+      ],
+      "pros": ["12 GB for $250–$290", "Leaves budget for other parts", "Good ray tracing for the price"],
+      "cons": ["Needs a modern CPU", "Requires Resizable BAR", "PCIe 4.0 x8 link"]
+    },
+    {
+      "id": "rtx-5060-ti-8gb",
+      "label": "Only If Discounted",
+      "bestFor": "esports players who find it within about $30 of the RTX 5060",
+      "skipIf": "it costs within $50–$80 of the 16 GB model, which is nearly always",
+      "writeup": [
+        "The RTX 5060 Ti 8GB is on this list because it fits the budget and many shoppers will see it at $360–$400, not because it is a good default. It uses the same GPU as the RTX 5060 Ti 16GB, at about 180 W, so it is faster than the RTX 5060, but it shares the 8 GB limit that holds that card back.",
+        "At full price, you pay RX 9060 XT 16GB money for half the memory, and the 16 GB version of the same NVIDIA card is only $50–$80 more. That makes it hard to recommend.",
+        "It earns a place in one case: a clear discount that puts it near the RTX 5060's price, for a buyer who plays esports titles at high frame rates. Otherwise, read [RTX 5060 Ti 8GB vs 16GB](/compare/rtx-5060-ti-8gb-vs-rtx-5060-ti-16gb/) before buying."
+      ],
+      "pros": ["Faster than the RTX 5060", "DLSS 4 and NVENC"],
+      "cons": ["8 GB at near-16 GB prices", "16 GB model is only $50–$80 more"]
+    },
+    {
+      "id": "rx-9060-xt-8gb",
+      "label": "Best for Esports",
+      "bestFor": "high-refresh 1080p esports on an older PC with a PCIe 3.0 board",
+      "skipIf": "you can afford the 16 GB version, which is only $60–$90 more",
+      "writeup": [
+        "The RX 9060 XT 8GB uses the same chip as our top pick, with half the memory, for $280–$320. In esports games at 1080p, where memory never runs short, it plays like its 16 GB sibling and keeps the full x16 link that suits older boards.",
+        "Its 150 W board power and single 8-pin connector make it an easy fit for upgrade PCs with modest power supplies. FSR 4 is supported.",
+        "The trouble is the price gap to the 16 GB model. At $60–$90, it is one of the best-value upgrades in the GPU market, so only choose the 8 GB card if your games are all competitive titles. [RX 9060 XT 8GB vs 16GB](/compare/rx-9060-xt-8gb-vs-rx-9060-xt-16gb/) compares them side by side."
+      ],
+      "pros": ["Full x16 link", "FSR 4", "150 W"],
+      "cons": ["8 GB limits new games", "16 GB model is a small step up in price"]
+    },
+    {
+      "id": "rx-6700-xt",
+      "label": "Best Used Pick",
+      "bestFor": "buyers happy with used stock who want 12 GB and strong raster speed for about $250",
+      "skipIf": "you want low power draw, FSR 4 or a full new warranty",
+      "writeup": [
+        "On the used market, the RX 6700 XT is the card that undercuts everything new under $400 on raw raster speed. It has 12 GB on a 192-bit bus and a full x16 link, and it lands roughly at RTX 3060 Ti level in traditional raster games.",
+        "Its weaknesses are age-related: about 230 W of board power with a 650 W PSU recommendation, weak ray tracing, no FSR 4, and new driver features arriving on newer Radeons first.",
+        "At $250 or less from a seller who accepts returns, it is a strong value. At $330, the RX 9060 XT 16GB is the better buy for not much more."
+      ],
+      "pros": ["12 GB", "Strong raster speed for the price", "Full x16 link"],
+      "cons": ["230 W, 650 W PSU recommended", "No FSR 4", "Mostly used or clearance"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "Board power", "Memory bus", "Upscaling"],
+  "ranking": {
+    "intro": "These picks come from manufacturer specifications, published independent reviews and owner reports. Nothing here was bench-tested by Enthusiast Review. A card qualifies when its usual street-price band starts at or below $400; real prices swing with sales, so treat the bands as a guide.",
+    "criteria": [
+      ["VRAM at this budget", "At $400, a 16 GB card is affordable, so 8 GB cards near this price are marked down for value."],
+      ["1080p high and entry 1440p speed", "The broad pattern of independent results at the settings people buy a $400 card for."],
+      ["Value of the money left over", "A cheaper card that leaves $70–$100 for other parts can beat a pricier one."],
+      ["Features", "DLSS 4, FSR 4 and XeSS 2 upscaling, encoders and software support."],
+      ["Compatibility", "PCIe link width, Resizable BAR and CPU overhead for upgrade buyers."]
+    ],
+    "why": "The RX 9060 XT 16GB wins because it is the cheapest current card with 16 GB of VRAM and a full x16 link, at speed close to the more expensive RTX 5060 Ti 16GB."
+  },
+  "mentions": [
+    { "id": "rtx-5060-ti-16gb", "text": "The RTX 5060 Ti 16GB is the NVIDIA card with the same memory as our top pick, but at $430–$480 it lands just over this page's budget. It is the right choice if you need DLSS 4, NVENC or CUDA and can stretch; see our under-$500 guide." },
+    { "id": "rtx-4060", "text": "The RTX 4060 fits easily at $280–$310, but the RTX 5060 is around 20 percent faster for about $20 more. Buy it only for its 115 W power draw in a small case." }
+  ],
+  "sections": [
+    {
+      "h": "What Is the Best Graphics Card Under $400 for 1080p and 1440p?",
+      "body": [
+        "The RX 9060 XT 16GB is the best graphics card under $400 for both 1080p high and entry-level 1440p. At 1080p it runs new games at high settings without the texture compromises 8 GB cards need. At 1440p it handles most games at medium to high, with FSR 4 upscaling where supported.",
+        "For true 1440p high-refresh gaming, $400 is not quite enough; the RX 9070 and RTX 5070 start around $550. The table below matches the budget to your monitor."
+      ],
+      "table": {
+        "caption": "What $400 buys at each resolution",
+        "head": ["Monitor", "Best pick under $400", "Expect"],
+        "rows": [
+          ["1080p 60–144 Hz", "RX 9060 XT 16GB", "High settings in new games"],
+          ["1080p 240 Hz esports", "RTX 5060 or RX 9060 XT 8GB", "High frame rates in competitive titles"],
+          ["1440p 144 Hz", "RX 9060 XT 16GB", "Medium to high, upscaling in heavy games"],
+          ["4K", "None under $400", "Budget $600 or more"]
+        ]
+      }
+    },
+    {
+      "h": "Should You Pay More for 16 GB of VRAM?",
+      "body": [
+        "Yes, at this budget. The step from an 8 GB card to the RX 9060 XT 16GB is usually $50–$90, and it is the difference between lowering textures in new games and not. Games released since 2024 increasingly use more than 8 GB at 1080p high, and that trend has only one direction.",
+        "The one exception is a player who only runs competitive esports games, which use far less memory. For them, an 8 GB card is fine, and the savings can go to a faster monitor."
+      ]
+    },
+    {
+      "h": "Is the RTX 5060 Ti 8GB Worth It Under $400?",
+      "body": [
+        "Rarely. The RTX 5060 Ti 8GB is faster than the RTX 5060, but it costs close to the RX 9060 XT 16GB and only $50–$80 less than its own 16 GB version. You pay a premium price and keep the 8 GB limit.",
+        "Buy it only when a sale puts it within about $30 of the RTX 5060. In every other case, the RX 9060 XT 16GB or, with a little more money, the RTX 5060 Ti 16GB is the better card."
+      ]
+    },
+    {
+      "h": "New or Used: What Gets You More Under $400?",
+      "body": [
+        "Used cards stretch $400 further in raw speed, but new cards win on memory per dollar, efficiency and features. A used RX 6700 XT at about $250 is quick in raster games, yet a new RX 9060 XT 16GB has more memory, FSR 4, far lower power draw and a fresh warranty.",
+        "If you buy used, test the card under load, inspect the fans, and confirm the brand's warranty policy for second owners; our [graphics card warranty by brand](/graphics-card-warranty-by-brand/) guide covers which makers allow it.",
+        "Coming from an older GPU? Our [old GeForce](/old-nvidia-gpu-equivalents/) and [old Radeon](/old-amd-gpu-equivalents/) equivalents charts show how big the jump is from a GTX 1070, RX 580 or similar card, and the [AMD vs NVIDIA equivalents](/amd-vs-nvidia-gpu-equivalents/) chart matches each pick to its rival."
+      ]
+    },
+    {
+      "h": "Is It Worth Stretching From $400 to $500?",
+      "body": [
+        "Only if you need NVIDIA's features or play at 1440p. The extra $50–$80 for an RTX 5060 Ti 16GB buys DLSS 4, NVENC and CUDA with the same memory as the RX 9060 XT 16GB, but little extra raster speed.",
+        "The bigger jump comes at about $550, where the RX 9070 and RTX 5070 bring real 1440p high-refresh speed. If that is your goal, see [best graphics card under $500](/best-graphics-card-under-500/) and save toward the next tier. If $400 is already a stretch, [best graphics card under $300](/best-graphics-card-under-300/) covers the cheaper options."
+      ]
+    },
+    {
+      "h": "What PSU Do You Need for a $400 Graphics Card?",
+      "body": [
+        "A quality 550–650 W power supply is enough for every pick here. The RX 9060 XT 16GB draws about 160–180 W, the RTX 5060 Ti 8GB about 180 W, and the RTX 5060 about 145 W, all from a single 8-pin connector. The used RX 6700 XT is the exception, at about 230 W with a 650 W recommendation.",
+        "If you are replacing an old or unbranded unit anyway, a 750 W Gold model such as the [Corsair RM750e](/gear/corsair-rm750e/) leaves room for a future upgrade. The [PSU calculator](/tools/psu-calculator/) works out your exact need."
+      ]
+    },
+    {
+      "h": "Which Brands Make the Best Cards at $400?",
+      "body": [
+        "Performance between partner cards with the same GPU is usually within a few percent, so pick on cooler, size, noise and warranty. Sapphire and PowerColor have strong reputations for Radeon cards; ASUS, MSI, Gigabyte, Zotac and PNY all sell RTX 5060-family cards.",
+        "Choose a dual-fan model that fits your case, and avoid single-fan versions of the 180 W cards if your case runs warm. Our [best graphics card brands](/best-graphics-card-brands/) guide ranks each maker's lines."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Grabbing the 8 GB RX 9060 XT by accident", "The 8 GB and 16 GB versions share a name and often a product page. Check the memory size in the listing title and the order confirmation before it ships."],
+    ["Paying 16 GB money for an 8 GB card", "The RTX 5060 Ti 8GB often sells close to the RX 9060 XT 16GB. At this budget, memory is worth more than a few percent of speed."],
+    ["Buying an Arc B580 for an old PC", "Spending less on the B580 makes sense only with a modern CPU and Resizable BAR. On a Ryzen 5 3600-era system, its driver overhead erases the savings."],
+    ["Expecting $400 to cover 4K", "No card under $400 is a 4K card. If 4K is the goal, plan for $600 or more, or use upscaling and medium settings."],
+    ["Skipping the PSU check", "A $400 card in a PC with an old, unbranded power supply is a risk. Check the unit's brand, age and connectors before you buy."]
+  ],
+  "bottomLine": "The RX 9060 XT 16GB is the best graphics card under $400 because it is the cheapest current card with 16 GB of VRAM, at speed close to the RTX 5060 Ti 16GB and with a full x16 link for older boards. Choose the RTX 5060 if you want NVIDIA and can live with 8 GB, or the Arc B580 to save $100 on a modern PC. Skip the RTX 5060 Ti 8GB unless it is clearly discounted.",
+  "faqs": [
+    { "q": "What is the best graphics card under $400?", "a": "The RX 9060 XT 16GB at $350–$400. It has 16 GB of VRAM, FSR 4 and a full x16 PCIe link, and its speed is close to the more expensive RTX 5060 Ti 16GB in raster games." },
+    { "q": "What is the best NVIDIA graphics card under $400?", "a": "The RTX 5060 at $300–$330 is the best value. The RTX 5060 Ti 8GB is faster but has the same 8 GB of memory at a much higher price; the RTX 5060 Ti 16GB starts just over $400." },
+    { "q": "Can a $400 GPU run 1440p?", "a": "Yes, at medium to high settings in most games, with upscaling in the heaviest titles. The RX 9060 XT 16GB is the best under-$400 card for 1440p. For high-refresh 1440p at high settings, budget about $550." },
+    { "q": "Is the RX 9060 XT 16GB better than the RTX 5060?", "a": "For most games, yes. It has twice the memory and is faster once a game needs more than 8 GB. The RTX 5060 is cheaper and has DLSS 4 and NVENC, which matter for streamers and editors." },
+    { "q": "Is the RTX 5060 Ti 8GB worth buying?", "a": "Only on a clear discount. It costs close to the RX 9060 XT 16GB and only $50–$80 less than its own 16 GB version, while keeping the 8 GB limit." },
+    { "q": "Is a $400 graphics card good for 4K?", "a": "No. At 4K, cards under $400 need low settings and heavy upscaling in new games. Plan for $600 or more, such as the RX 9070 XT, for a real 4K experience." },
+    { "q": "What power supply do I need for a $400 graphics card?", "a": "A quality 550–650 W unit is enough for every pick on this page except a used RX 6700 XT, which AMD pairs with 650 W. Check for the right 8-pin connectors." },
+    { "q": "Should I buy a used GPU instead for $400?", "a": "A used card can be faster in raw raster, but a new RX 9060 XT 16GB has more memory, lower power draw, FSR 4 and a full warranty. Buy used only at a clear discount from a seller who takes returns." }
+  ],
+  "sources": [
+    "AMD Radeon RX 9060 XT and RX 6700 XT product pages",
+    "NVIDIA GeForce RTX 5060 and RTX 5060 Ti product pages",
+    "Intel Arc B580 product page",
+    "Independent GPU reviews from TechPowerUp, Hardware Unboxed and Tom's Hardware",
+    "Owner reports on retailer listings and enthusiast forums"
+  ],
+  "related": ["best-budget-graphics-card", "best-graphics-card-for-1440p", "best-amd-graphics-card"]
+}

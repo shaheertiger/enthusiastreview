@@ -1,0 +1,187 @@
+{
+  "slug": "best-graphics-card-under-500",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best Graphics Card Under $500 (2026): 5 GPUs, 1080p to 1440p",
+  "h1": "Best Graphics Card Under $500",
+  "query": "best graphics card under 500",
+  "description": "The RTX 5060 Ti 16GB is the best graphics card under $500: 16 GB, DLSS 4 and NVENC for $430–$480. 5 GPUs ranked, plus why no card under $500 does 4K well.",
+  "dek": "$500 buys 16 GB and NVIDIA's full feature set, or a cheaper card and money left over. Here is how to choose.",
+  "intro": [
+    "The NVIDIA GeForce RTX 5060 Ti 16GB is the best graphics card under $500 in 2026. For $430–$480 it pairs 16 GB of GDDR7 with DLSS 4 Multi Frame Generation, NVENC and CUDA, so it is as good for streaming and editing as it is for 1080p and 1440p gaming.",
+    "This page is for buyers with up to $500 who game at 1080p high or 1440p, and for creators who need NVIDIA's tools. Each pick's usual price band starts at or below $500; sales move prices every week, so check before you buy. We also explain when the cheaper RX 9060 XT 16GB is the smarter buy, and when to save for $550."
+  ],
+  "quickAnswer": "Buy the RTX 5060 Ti 16GB ($430–$480) for 16 GB plus DLSS 4, NVENC and CUDA. For pure gaming value, the RX 9060 XT 16GB ($350–$400) is nearly as fast for about $80 less. Find an RTX 4070 at $500 and it is the fastest 1440p raster card here. No card under $500 is a true 4K card.",
+  "picks": [
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best Under $500",
+      "bestFor": "1080p high and 1440p gaming plus streaming, editing or local AI on CUDA",
+      "skipIf": "you only game and want the most speed per dollar, where the RX 9060 XT 16GB costs less",
+      "writeup": [
+        "The RTX 5060 Ti 16GB is the most complete card under $500. Its 16 GB of GDDR7 removes the memory ceiling that 8 GB cards hit in new games, and it brings the whole NVIDIA package: DLSS 4 with Multi Frame Generation in a large list of games, NVENC for streaming and recording, and CUDA for Blender, DaVinci Resolve and local AI tools.",
+        "In raster games it trades blows with the RX 9060 XT 16GB, and it pulls ahead with ray tracing on. At 1440p it handles most games at high settings, and DLSS makes the heaviest titles playable. Board power is about 180 W, usually through one 8-pin connector, so a quality 550–650 W supply is enough.",
+        "Its PCIe 5.0 x8 link costs a little on older PCIe 3.0 boards, though the 16 GB of memory keeps that penalty small. For the direct AMD comparison, see [RTX 5060 Ti 16GB vs RX 9060 XT 16GB](/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/)."
+      ],
+      "pros": ["16 GB of GDDR7", "DLSS 4 Multi Frame Generation", "NVENC and CUDA", "About 180 W"],
+      "cons": ["Usually $80 more than the RX 9060 XT 16GB", "PCIe 5.0 x8 link", "128-bit bus limits 1440p headroom"]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Value Under $500",
+      "bestFor": "gamers who want 16 GB and would rather keep $80–$100 than pay for NVIDIA extras",
+      "skipIf": "you stream, edit video or run CUDA software",
+      "writeup": [
+        "If you only game, the RX 9060 XT 16GB is the card that makes a $500 budget go further. It has the same 16 GB as the RTX 5060 Ti 16GB and lands within a few percent in raster games, for $350–$400. The money you keep can buy a better CPU cooler, more storage or a faster monitor.",
+        "FSR 4, AMD's machine-learning upscaler, is supported in a growing list of games, and its full x16 PCIe link makes it the better choice for an older PCIe 3.0 motherboard. Board power is about 160–180 W from one 8-pin connector.",
+        "Where it gives ground is ray tracing and creator software: NVIDIA's encoder and CUDA support are stronger. For gaming value, though, nothing under $500 beats it."
+      ],
+      "pros": ["16 GB for $350–$400", "Full x16 link", "FSR 4", "Leaves money for other parts"],
+      "cons": ["Ray tracing behind NVIDIA", "No CUDA", "FSR 4 in fewer games than DLSS 4"]
+    },
+    {
+      "id": "rtx-4070",
+      "label": "Fastest at $500",
+      "bestFor": "1440p raster gaming when you find one at the bottom of its $500–$600 band",
+      "skipIf": "it costs over $500, where the RTX 5070 is around 20 percent faster for about $50 more",
+      "writeup": [
+        "The RTX 4070 is the fastest card that can still be found near $500. It is a 1440p card at heart, with a 192-bit bus, 12 GB of GDDR6X and a full x16 link, and in raster games it is clearly quicker than the RTX 5060 Ti 16GB at 1440p. At about 200 W it is efficient, and many partner models use a single 8-pin connector.",
+        "It is a previous-generation card, so stock is thinning and it lacks Multi Frame Generation, though DLSS 4 upscaling and frame generation are supported. Its 12 GB is fine in nearly every game but tighter than the 16 GB picks in a few new releases.",
+        "Buy it only at $500 or less. Above that, the RTX 5070 is around 20 percent faster for about $50 more; see [RTX 4070 vs RTX 5070](/compare/rtx-4070-vs-rtx-5070/)."
+      ],
+      "pros": ["Fastest 1440p raster card near $500", "About 200 W", "Full x16 link"],
+      "cons": ["Stock is thinning", "12 GB is tight in a few games", "No Multi Frame Generation"]
+    },
+    {
+      "id": "arc-b580",
+      "label": "Best for Splitting the Budget",
+      "bestFor": "new builds on a modern CPU that need the $500 to cover more than the GPU",
+      "skipIf": "your PC has an older CPU or no Resizable BAR",
+      "writeup": [
+        "A $500 budget does not have to go on the graphics card. For a 1080p player on a modern CPU, the Arc B580 at $250–$290 gives 12 GB of memory and speed around an RTX 4060 or better, leaving $200 or more for a CPU upgrade, a 1440p monitor or a second SSD.",
+        "It needs Resizable BAR and does best beside a Ryzen 5 7600, Core i5-12400 or newer; on older chips it loses more speed than its rivals. Its ray tracing is good for the money, and XeSS 2 adds upscaling and frame generation in supported games.",
+        "Our [Intel Arc GPU equivalents](/intel-arc-gpu-equivalents/) chart shows where it lands against GeForce and Radeon cards."
+      ],
+      "pros": ["12 GB for under $300", "Frees up budget", "Good ray tracing for the price"],
+      "cons": ["Needs a modern CPU", "Requires Resizable BAR", "Slower than the other picks"]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Best for 1080p Esports",
+      "bestFor": "high-refresh 1080p competitive gaming with DLSS 4",
+      "skipIf": "you play big single-player games at high textures",
+      "writeup": [
+        "For a competitive player on a 1080p high-refresh monitor, the RTX 5060 at $300–$330 delivers the frame rates that matter and leaves well over $150 of a $500 budget unspent. It is around 20 percent faster than the RTX 4060, draws about 145 W, and supports DLSS 4 with Multi Frame Generation and NVIDIA Reflex.",
+        "Its 8 GB of memory is no problem in esports titles but will need lower textures in some new single-player games.",
+        "If you are deciding between this and spending more, [RTX 5060 vs RX 9060 XT 16GB](/compare/rtx-5060-vs-rx-9060-xt-16gb/) shows what the extra memory buys."
+      ],
+      "pros": ["High esports frame rates", "DLSS 4 and Reflex", "145 W"],
+      "cons": ["8 GB of VRAM", "PCIe 5.0 x8 link"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "Board power", "Memory bus", "PCIe interface", "Upscaling"],
+  "ranking": {
+    "intro": "These picks are based on manufacturer specifications, published independent reviews and owner reports. Nothing here was bench-tested by Enthusiast Review. A card qualifies when its usual street-price band starts at or below $500; street prices change, so check the live listing.",
+    "criteria": [
+      ["Memory and longevity", "At $500, 16 GB is affordable, so cards with less memory need a clear speed or price advantage to rank high."],
+      ["1080p high and 1440p speed", "The broad pattern of independent results at the resolutions $500 buyers use."],
+      ["Features beyond games", "NVENC, CUDA and upscaler support, which matter to streamers and creators."],
+      ["Price within the band", "How much of the $500 a card leaves for other parts."],
+      ["Compatibility", "PCIe link width, Resizable BAR, CPU overhead and power connectors."]
+    ],
+    "why": "The RTX 5060 Ti 16GB wins because it is the only card under $500 with 16 GB plus DLSS 4 Multi Frame Generation, NVENC and CUDA."
+  },
+  "mentions": [
+    { "id": "rx-9070", "text": "The RX 9070 starts around $550, just over this budget, but it is the card that makes 1440p high-refresh gaming easy, with 16 GB on a 256-bit bus. If you can stretch $50–$100, it is a bigger step up than anything on this list." },
+    { "id": "rtx-5070", "text": "The RTX 5070 at $550–$650 is around 20 percent faster than the RTX 4070 and has DLSS 4 Multi Frame Generation. It misses this budget, and its 12 GB is less than the 16 GB picks here, but it is the next NVIDIA tier up." }
+  ],
+  "sections": [
+    {
+      "h": "What Is the Best Graphics Card Under $500 for 1440p?",
+      "body": [
+        "For 1440p under $500, the RTX 5060 Ti 16GB is the best all-round card, and the RTX 4070 is the fastest in raster games if you find it at $500. The RX 9060 XT 16GB is close behind for about $80 less. All three run most games at 1440p high, with upscaling in the heaviest titles.",
+        "For 1440p at high refresh rates with high settings, $500 is the edge of what works. The RX 9070 and RTX 5070, at about $550, are the cards that make it comfortable."
+      ],
+      "table": {
+        "caption": "Matching a $500 budget to your use",
+        "head": ["Use", "Best pick under $500", "Price"],
+        "rows": [
+          ["1440p gaming and streaming", "RTX 5060 Ti 16GB", "$430–$480"],
+          ["1440p gaming, best value", "RX 9060 XT 16GB", "$350–$400"],
+          ["1440p raster, most speed", "RTX 4070 at $500", "$500–$600"],
+          ["1080p esports", "RTX 5060", "$300–$330"],
+          ["New build, split budget", "Arc B580", "$250–$290"]
+        ]
+      }
+    },
+    {
+      "h": "Is There a Good 4K Graphics Card Under $500?",
+      "body": [
+        "No card under $500 is a true 4K card in new games. The 16 GB picks here can run older and lighter games at 4K, and many new ones at 4K with heavy upscaling and medium settings, but you will not get high settings at a smooth frame rate.",
+        "For real 4K gaming, plan on at least the RX 9070 XT, which starts around $600, or higher. If you own a 4K monitor and have $500, the RTX 5060 Ti 16GB with DLSS upscaling is the most usable option here."
+      ]
+    },
+    {
+      "h": "Is 16 GB of VRAM Worth Paying For at $500?",
+      "body": [
+        "Yes. At this budget, 16 GB costs little extra and protects the card from the memory limits that already affect 8 GB cards in new games. It also matters for creators: video editing, 3D work and local AI models use VRAM heavily.",
+        "The RTX 4070's 12 GB is a reasonable middle ground for gaming, and it is enough for nearly every current game at 1440p. The 8 GB RTX 5060 only makes sense for esports at this budget."
+      ]
+    },
+    {
+      "h": "Should You Buy New or Used With $500?",
+      "body": [
+        "New is the better default at $500, because the new 16 GB cards bring current upscalers, low power draw and a full warranty. A used card can deliver more raw speed for the money, such as a previous-generation high-end card, but often with high power draw and an unclear warranty.",
+        "If you buy used, test it under load, check the fans, and confirm whether the brand honors second-owner warranties; see our [graphics card warranty by brand](/graphics-card-warranty-by-brand/) guide.",
+        "Upgrading from an older card? Our [old GeForce equivalents](/old-nvidia-gpu-equivalents/) and [old Radeon equivalents](/old-amd-gpu-equivalents/) charts show what each pick replaces, and the [AMD vs NVIDIA equivalents](/amd-vs-nvidia-gpu-equivalents/) chart matches current cards across brands."
+      ]
+    },
+    {
+      "h": "Is It Worth Stretching Past $500?",
+      "body": [
+        "For 1440p high-refresh gaming, yes: about $550 gets you the RX 9070 or RTX 5070, a real tier above everything on this list. If you play at 1080p, no; the 16 GB cards here are more than fast enough.",
+        "If $500 is already a stretch, our [best graphics card under $400](/best-graphics-card-under-400/) guide covers the RX 9060 XT 16GB in depth, and [under $300](/best-graphics-card-under-300/) covers the cheapest good options."
+      ]
+    },
+    {
+      "h": "What Power Supply Do You Need for a $500 Graphics Card?",
+      "body": [
+        "A quality 650 W power supply covers every card on this list. The RTX 5060 Ti 16GB draws about 180 W, the RX 9060 XT 16GB about 160–180 W and the RTX 4070 about 200 W, with NVIDIA pairing the RTX 4070 with a 650 W unit.",
+        "If you are buying a new supply, a 750 W Gold unit such as the [Corsair RM750e](/gear/corsair-rm750e/) leaves headroom for a future upgrade to a 300 W card. Use the [PSU calculator](/tools/psu-calculator/) to check your system."
+      ]
+    },
+    {
+      "h": "Does the Brand Matter for a $500 Graphics Card?",
+      "body": [
+        "Less than the GPU, but more than at $300. At this price, partner cards differ in cooler size, noise, coil whine and warranty, while performance between them is usually within a few percent.",
+        "Pick a dual- or triple-fan model that fits your case, and check the brand's warranty terms. Our [best graphics card brands](/best-graphics-card-brands/) guide ranks ASUS, MSI, Gigabyte, Zotac, PNY, Sapphire and others."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Paying over $500 for an RTX 4070", "Above $500, the RTX 5070 is around 20 percent faster for about $50 more. The RTX 4070 is only a good buy at or under $500."],
+    ["Buying 8 GB at this budget", "With 16 GB cards available from $350, an 8 GB card at $400–$500 is poor value for anything beyond esports."],
+    ["Expecting 4K from a $500 card", "These cards run 4K only in lighter games or with heavy upscaling. Plan on the RX 9070 XT or higher for real 4K."],
+    ["Overlooking NVENC and CUDA", "If you stream, edit or run local AI, the RTX 5060 Ti 16GB's extras are worth the premium over the RX 9060 XT 16GB."],
+    ["Forgetting the old PSU", "A $500 card deserves a trustworthy power supply. Check the brand, age and connectors of your unit before upgrading."]
+  ],
+  "bottomLine": "The RTX 5060 Ti 16GB is the best graphics card under $500 because it combines 16 GB of memory with DLSS 4, NVENC and CUDA, making it as strong for creators as for 1440p gamers. Gamers who do not need those extras should save about $80 with the RX 9060 XT 16GB, and anyone who finds an RTX 4070 at $500 gets the most raster speed. For 1440p high refresh, stretch to about $550.",
+  "faqs": [
+    { "q": "What is the best graphics card under $500?", "a": "The RTX 5060 Ti 16GB at $430–$480. It has 16 GB of GDDR7, DLSS 4 with Multi Frame Generation, NVENC and CUDA. For gaming value only, the RX 9060 XT 16GB is close in speed for about $80 less." },
+    { "q": "What is the best AMD graphics card under $500?", "a": "The RX 9060 XT 16GB at $350–$400. It has 16 GB, FSR 4 and a full x16 PCIe link. The faster RX 9070 starts around $550, just over the budget." },
+    { "q": "What is the best 4K graphics card under $500?", "a": "None is a true 4K card. The RTX 5060 Ti 16GB with DLSS upscaling is the most usable option for a 4K monitor, but expect medium settings in new games. Real 4K starts around the RX 9070 XT." },
+    { "q": "Is the RTX 5060 Ti 16GB good for 1440p?", "a": "Yes, at high settings in most games, with DLSS upscaling in the heaviest titles. Its 128-bit bus limits headroom compared with cards like the RX 9070, so high-refresh 1440p is better served at about $550." },
+    { "q": "Is the RTX 4070 still worth buying?", "a": "Only at $500 or less. It is a fast 1440p raster card with 12 GB, but the RTX 5070 is around 20 percent faster for about $50 more and adds Multi Frame Generation." },
+    { "q": "RTX 5060 Ti 16GB or RX 9060 XT 16GB?", "a": "Choose the RTX 5060 Ti 16GB for DLSS 4, ray tracing, streaming and CUDA. Choose the RX 9060 XT 16GB to save about $80 with nearly the same raster speed and a full x16 link." },
+    { "q": "What power supply do I need for a $500 GPU?", "a": "A quality 650 W unit is enough for every card on this page. A 750 W Gold supply leaves headroom if you may move to a 300 W card later." },
+    { "q": "Should I spend $500 on a GPU for 1080p?", "a": "Not necessarily. At 1080p, the RX 9060 XT 16GB at $350–$400 runs new games at high settings, and the savings can go to other parts. Spend $500 if you also stream, edit or plan a 1440p monitor." }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 5060 Ti, RTX 5060 and RTX 4070 product pages",
+    "AMD Radeon RX 9060 XT product page",
+    "Intel Arc B580 product page",
+    "Independent GPU reviews from TechPowerUp, Hardware Unboxed and Tom's Hardware",
+    "Owner reports on retailer listings and enthusiast forums"
+  ],
+  "related": ["best-graphics-card-for-1440p", "best-nvidia-graphics-card", "best-graphics-card"]
+}
