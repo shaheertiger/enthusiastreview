@@ -1,0 +1,324 @@
+{
+  "slug": "best-gpu-for-core-i7-14700k",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for i7-14700K (2026): 5 Cards From 1440p to 4K Max",
+  "h1": "Best GPU for i7-14700K",
+  "query": "best gpu for i7 14700k",
+  "description": "The RTX 5080 is the best GPU for an i7-14700K: 16 GB and DLSS 4 for $1,000–$1,300, and the CPU keeps it busy at 1440p and 4K. 5 picks, $550 to the RTX 5090.",
+  "dek": "A 20-core Raptor Lake chip can feed nearly any graphics card. These five picks match it from 1440p to 4K, with the power supply and BIOS steps this CPU needs.",
+  "intro": [
+    "The GeForce RTX 5080 is the best GPU for a Core i7-14700K in 2026. For $1,000–$1,300 it drives 4K well and high-refresh 1440p easily, with 16 GB, DLSS 4 and strong ray tracing, and the 14700K is fast enough that the card, not the CPU, sets the frame rate in most games.",
+    "This page is for owners of Intel's 20-core 14th-generation i7. Few graphics cards outrun it, so the choice comes down to resolution, budget and power. It also covers the step every 13th and 14th generation owner should take first: the BIOS update with Intel's microcode fix for instability reports."
+  ],
+  "quickAnswer": "Buy the RTX 5080 ($1,000–$1,300) for 4K and high-refresh 1440p. The RTX 5070 Ti ($750–$900) is the best 1440p value. The RX 9070 XT ($600–$730) matches the 5070 Ti in raster for less. The RTX 5090 ($2,000–$2,700) is for maximum 4K. On a budget, the RTX 5070 ($550–$650). Update the BIOS for Intel's microcode fix before anything else.",
+  "picks": [
+    {
+      "id": "rtx-5080",
+      "label": "Best Overall Match",
+      "bestFor": "4K gaming and high-refresh 1440p on a 14700K",
+      "skipIf": "you play at 1080p, where the card is more than any monitor needs",
+      "writeup": [
+        "The Core i7-14700K games roughly like a Ryzen 7 9700X, per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/), with eight performance cores and twelve efficient cores. That is enough speed to keep an RTX 5080 busy at 1440p in most games and at 4K in nearly all of them.",
+        "The RTX 5080 is the card that makes full use of that without the RTX 5090's price. It carries 16 GB, leads AMD's current cards in both raster and ray tracing, and supports DLSS 4 with multi frame generation, which makes path-traced games playable at 4K.",
+        "On a Z790 board the main slot is often wired for PCIe 5.0, and the card is designed for it, though PCIe 4.0 x16 costs it very little.",
+        "Power is the planning point. NVIDIA recommends an 850 W supply for the RTX 5080's 360 W rating, and the 14700K can draw well over 200 W at full load. A quality 850 W unit is the minimum; 1,000 W leaves more headroom."
+      ],
+      "pros": [
+        "Fully used by the 14700K at 1440p and 4K",
+        "Strong ray tracing",
+        "DLSS 4 multi frame generation",
+        "16 GB of VRAM"
+      ],
+      "cons": [
+        "$1,000+ price",
+        "Needs an 850 W supply or larger"
+      ]
+    },
+    {
+      "id": "rtx-5070-ti",
+      "label": "Best for 1440p",
+      "bestFor": "high-refresh 1440p with ray tracing at a lower price",
+      "skipIf": "you game at 4K with maximum settings",
+      "writeup": [
+        "For 1440p, the RTX 5070 Ti delivers most of what an RTX 5080 does for several hundred dollars less. A 14700K keeps it fully busy at that resolution, so every frame you pay for shows up.",
+        "It has the same 16 GB, DLSS 4 and ray tracing feature set as the RTX 5080, one tier slower. At 4K it remains capable with DLSS, but the RTX 5080 is the better 4K card.",
+        "NVIDIA recommends 750 W; with a 14700K, an 850 W unit is the more comfortable choice. Our [RTX 5070 Ti vs RTX 5080 comparison](/compare/rtx-5080-vs-rtx-5070-ti/) shows how far apart the two are."
+      ],
+      "pros": [
+        "Best 1440p value",
+        "16 GB, DLSS 4",
+        "Lower power than the RTX 5080"
+      ],
+      "cons": [
+        "A step behind the 5080 at 4K",
+        "12V-2x6 connector on most models"
+      ]
+    },
+    {
+      "id": "rx-9070-xt",
+      "label": "Best AMD Pick",
+      "bestFor": "raster-heavy 1440p gaming for the lowest price in this tier",
+      "skipIf": "you play heavily ray-traced games, where it behaves more like an RTX 5070",
+      "writeup": [
+        "The RX 9070 XT matches the RTX 5070 Ti in raster games for less money, and with a 14700K it has all the CPU it needs at 1440p. It carries 16 GB and supports FSR 4.",
+        "Its weakness is ray tracing: with heavy RT effects, it falls to about RTX 5070 level. If you mainly play competitive shooters and raster games, that matters little; if you play path-traced showcases, choose NVIDIA.",
+        "AMD rates it at 304 W and partner cards often run higher. With a 14700K, an 850 W supply is the sensible size."
+      ],
+      "pros": [
+        "RTX 5070 Ti-class raster for less",
+        "16 GB",
+        "FSR 4"
+      ],
+      "cons": [
+        "Weaker ray tracing",
+        "High power draw"
+      ]
+    },
+    {
+      "id": "rtx-5090",
+      "label": "Best Without Limits",
+      "bestFor": "maximum settings at 4K, path tracing and high-refresh 4K",
+      "skipIf": "you play at 1440p, where an RTX 5080 delivers nearly as much for far less",
+      "writeup": [
+        "The RTX 5090 is the fastest consumer graphics card, with 32 GB of memory, and a 14700K is one of the few CPUs where pairing it is reasonable. At 4K with maximum settings and path tracing, the card is the limit and the 14700K keeps up.",
+        "Below 4K, it is a different picture. At 1440p the CPU limits an RTX 5090 in many games, and the gap over an RTX 5080 shrinks. Buy it for 4K, for very high-refresh 4K monitors, or for the 32 GB in AI and creative work.",
+        "Power needs care: NVIDIA recommends a 1,000 W supply for its 575 W rating. Use a quality ATX 3.1 unit with a native 12V-2x6 cable, and seat the connector fully."
+      ],
+      "pros": [
+        "Fastest consumer GPU",
+        "32 GB of VRAM",
+        "Best path-tracing performance"
+      ],
+      "cons": [
+        "$2,000+ price",
+        "575 W; needs a 1,000 W supply"
+      ]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best Budget Pick",
+      "bestFor": "1440p at high settings when the budget stops near $600",
+      "skipIf": "you can stretch to an RTX 5070 Ti; 12 GB is the RTX 5070's limit",
+      "writeup": [
+        "Not every 14700K owner needs a high-end card, especially if the CPU was chosen for work rather than games. The RTX 5070 gives good 1440p performance with DLSS 4 for $550–$650, and the 14700K keeps it fully busy.",
+        "Its 12 GB is enough for 1440p today but less than the 16 GB cards above. At 250 W, it runs on a 650 W supply, though with a 14700K's high peak draw, 750 W is the safer choice.",
+        "It is also a sensible holding card: the 14700K will still suit an RTX 5080-class card later."
+      ],
+      "pros": [
+        "Lowest cost here",
+        "DLSS 4",
+        "Easy to power"
+      ],
+      "cons": [
+        "12 GB of VRAM",
+        "Leaves the CPU underused"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "VRAM",
+    "PCIe interface",
+    "Board power",
+    "Recommended PSU"
+  ],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling reviews of Raptor Lake processors, and owner reports from LGA1700 builds. None of these pairings were bench-tested by Enthusiast Review; statements about where the 14700K limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      [
+        "Resolution fit",
+        "The 14700K rarely limits cards below RTX 5080 level, so we matched picks to the resolution where they are fully used."
+      ],
+      [
+        "Features",
+        "Ray tracing and DLSS 4 counted strongly at this tier, where buyers expect to use them."
+      ],
+      [
+        "Memory",
+        "16 GB or more ranked above 12 GB for longevity at 1440p and 4K."
+      ],
+      [
+        "Power",
+        "The 14700K can draw over 200 W, so we sized supplies for the full system, not just the card."
+      ],
+      [
+        "Value",
+        "Performance per dollar decided between cards of similar capability."
+      ]
+    ],
+    "why": "The RTX 5080 won because the 14700K can use nearly all of its speed at 1440p and 4K, and it costs far less than the RTX 5090."
+  },
+  "mentions": [
+    {
+      "id": "rx-9070",
+      "text": "The RX 9070 is an efficient 1440p card with 16 GB, but on a 14700K it leaves a lot of CPU unused. It makes sense only if your supply is 650 W and you want to avoid replacing it."
+    },
+    {
+      "id": "core-i9-14900k",
+      "text": "The Core i9-14900K is only slightly faster than the 14700K in games and draws more power. It is not worth upgrading to for gaming; the graphics card is the better place for the money."
+    },
+    {
+      "id": "ryzen-7-9800x3d",
+      "text": "If you are choosing a platform rather than upgrading, the Ryzen 7 9800X3D is the faster gaming CPU for an RTX 5080 or RTX 5090, especially at 1440p. Our 9800X3D vs 14900K comparison shows the gap."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Update the BIOS First: What Is the 13th and 14th Gen Microcode Fix?",
+      "body": [
+        "Before installing a new graphics card, update the motherboard BIOS. In 2024, Intel attributed instability reports on 13th and 14th generation desktop processors, including the i7-14700K, to elevated operating voltage, and released microcode updates through motherboard BIOS updates to address it. Intel also extended the warranty on affected boxed processors, per its announcements; check the current terms.",
+        "Install the latest BIOS from your board maker's support page, then load the default or Intel-recommended power profile. If your system crashed in games or shader compilation before, the fix may resolve it; if crashes continue on the latest BIOS, contact Intel support."
+      ],
+      "list": [
+        "Download the newest BIOS for your exact board model.",
+        "Update with the current graphics card still installed.",
+        "Load the Intel default power settings after updating.",
+        "Then install the new card and the latest GPU driver."
+      ]
+    },
+    {
+      "h": "Will an i7-14700K Bottleneck an RTX 5090?",
+      "body": [
+        "At 4K, rarely. At 1440p, in CPU-heavy games, yes, as nearly every CPU does with an RTX 5090. The 14700K keeps an RTX 5080 busy at 1440p in most games, which is why that card is our top pick.",
+        "Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any pairing and resolution. For gaming alone at 1440p with an RTX 5090, a Ryzen 7 9800X3D extracts more; see our [9800X3D vs 14900K comparison](/compare/ryzen-7-9800x3d-vs-core-i9-14900k/)."
+      ]
+    },
+    {
+      "h": "What Power Supply Do You Need?",
+      "body": [
+        "More than the graphics card alone suggests. The 14700K has a 125 W base power and a maximum turbo power of 253 W, so under heavy load it draws far more than older chips. Combined with a high-end card, the total adds up quickly.",
+        "As a guide: 750 W for an RTX 5070, 850 W for an RTX 5070 Ti or RX 9070 XT, 850–1,000 W for an RTX 5080, and 1,000 W or more for an RTX 5090. Our [PSU calculator](/tools/psu-calculator/) adds up your build, and our [best PSU for RTX 5080](/best-psu-for-rtx-5080/) guide lists suitable units."
+      ],
+      "table": {
+        "caption": "Each pick with an i7-14700K",
+        "head": [
+          "Card",
+          "Best resolution",
+          "VRAM",
+          "Board power",
+          "Suggested supply with a 14700K"
+        ],
+        "rows": [
+          [
+            "RTX 5080",
+            "1440p to 4K",
+            "16 GB",
+            "360 W",
+            "850–1,000 W"
+          ],
+          [
+            "RTX 5070 Ti",
+            "1440p",
+            "16 GB",
+            "300 W",
+            "850 W"
+          ],
+          [
+            "RX 9070 XT",
+            "1440p",
+            "16 GB",
+            "304 W",
+            "850 W"
+          ],
+          [
+            "RTX 5090",
+            "4K",
+            "32 GB",
+            "575 W",
+            "1,000 W+"
+          ],
+          [
+            "RTX 5070",
+            "1440p",
+            "12 GB",
+            "250 W",
+            "750 W"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Does the i7-14700K Support PCIe 5.0 Graphics Cards?",
+      "body": [
+        "Yes, on boards that wire the main slot for it, mostly Z790 and some Z690 models. B760 boards typically run the graphics slot at PCIe 4.0. Every current card runs at full speed on PCIe 4.0 x16, so this is not a reason to change boards.",
+        "Resizable BAR is supported; enable it with Above 4G Decoding in the BIOS for a small gain in some games."
+      ]
+    },
+    {
+      "h": "Is the 14700K Good for Streaming and Gaming at Once?",
+      "body": [
+        "Yes. Its twelve efficient cores handle background tasks such as encoding, voice chat and browsers, leaving the eight performance cores for the game. With an NVIDIA card, the NVENC hardware encoder takes most of the streaming load off the CPU entirely.",
+        "That combination is one of the 14700K's strengths, and a reason NVIDIA cards top this list for creators."
+      ]
+    },
+    {
+      "h": "What Is the Most Powerful GPU Worth Pairing With an i7-14700K?",
+      "body": [
+        "Any card, including the RTX 5090, at 4K. At 1440p, the RTX 5080 is the sensible ceiling; an RTX 5090 adds less there than its price suggests.",
+        "For buyers moving from an older card, our [old GeForce equivalents chart](/old-nvidia-gpu-equivalents/) shows how much faster each new card is."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Skipping the microcode BIOS update",
+      "Intel's fix for 13th and 14th generation instability reports arrives through BIOS updates. Install it before anything else; it is the most common cause of unexplained crashes on these chips."
+    ],
+    [
+      "Sizing the supply for the GPU only",
+      "The 14700K can draw over 200 W at full load. A supply that suits the card's recommendation alone can be marginal with this CPU."
+    ],
+    [
+      "Buying an RTX 5090 for 1440p",
+      "At 1440p, the RTX 5090's lead over an RTX 5080 shrinks in many games, while the price doubles. Save it for 4K."
+    ],
+    [
+      "Using an adapter loosely on 12V-2x6 cards",
+      "High-end NVIDIA cards draw a lot through one connector. Use a native cable where possible and make sure it is fully seated."
+    ]
+  ],
+  "bottomLine": "For an i7-14700K, the RTX 5080 is the card to buy in 2026: 16 GB, DLSS 4 and strong ray tracing, fully used by the CPU at 1440p and 4K. Choose the RTX 5070 Ti for 1440p value, the RX 9070 XT for raster per dollar, the RTX 5090 for maximum 4K, and the RTX 5070 on a budget. Update the BIOS for Intel's microcode fix first.",
+  "faqs": [
+    {
+      "q": "What is the best GPU for an i7-14700K?",
+      "a": "The RTX 5080. The 14700K keeps it busy at 1440p and 4K, and it has 16 GB, DLSS 4 and strong ray tracing. The RTX 5070 Ti is the best 1440p value, and the RTX 5090 the choice for maximum 4K."
+    },
+    {
+      "q": "Will an i7-14700K bottleneck an RTX 5090?",
+      "a": "At 4K, rarely. At 1440p, in CPU-heavy games, it limits an RTX 5090 somewhat, as most CPUs do. For 1440p, an RTX 5080 is the better value on this CPU."
+    },
+    {
+      "q": "What PSU do I need for an i7-14700K and RTX 5080?",
+      "a": "A quality 850 W supply at minimum, and 1,000 W for more headroom. The RTX 5080 is rated at 360 W and the 14700K can draw over 200 W under heavy load."
+    },
+    {
+      "q": "Do I need a BIOS update for the i7-14700K?",
+      "a": "Yes. Intel released microcode updates, delivered through motherboard BIOS updates, to address instability reports on 13th and 14th generation desktop chips. Install the latest BIOS for your board before other upgrades."
+    },
+    {
+      "q": "Is the i7-14700K good for gaming?",
+      "a": "Yes. It games roughly like a Ryzen 7 9700X and keeps high-end cards busy at 1440p and 4K. Its 20 cores also make it strong for streaming and creative work."
+    },
+    {
+      "q": "Is the RX 9070 XT good with an i7-14700K?",
+      "a": "Yes, for raster-heavy 1440p gaming. It matches the RTX 5070 Ti in raster for less money. Its ray tracing is weaker, so NVIDIA cards are the better pick for ray-traced games."
+    },
+    {
+      "q": "Should I upgrade from an i7-14700K to an i9-14900K?",
+      "a": "Not for gaming. The 14900K is only slightly faster in games and draws more power. Spend the money on the graphics card instead."
+    }
+  ],
+  "sources": [
+    "Intel Core i7-14700K product specifications (ark.intel.com)",
+    "Intel statements on 13th and 14th generation desktop processor instability, microcode updates and warranty extension",
+    "Intel 700-series chipset specifications",
+    "NVIDIA GeForce RTX 5070, 5070 Ti, 5080 and 5090 and AMD Radeon RX 9070 XT product pages and power recommendations",
+    "Published Raptor Lake CPU scaling reviews from TechPowerUp and Hardware Unboxed",
+    "Owner reports from LGA1700 builds on enthusiast forums"
+  ],
+  "related": [
+    "best-nvidia-graphics-card",
+    "best-psu-for-rtx-5080",
+    "best-graphics-card-for-1440p"
+  ]
+}
