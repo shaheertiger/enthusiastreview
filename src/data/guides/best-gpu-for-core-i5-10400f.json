@@ -1,0 +1,180 @@
+{
+  "slug": "best-gpu-for-core-i5-10400f",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for i5-10400F (2026): 5 Cards for a PCIe 3.0 Six-Core",
+  "h1": "Best GPU for i5-10400F",
+  "query": "best gpu for i5 10400f",
+  "description": "The RX 9060 XT 16GB is the best GPU for an i5-10400F: full x16 lanes for its PCIe 3.0 slot and 16 GB for $350–$400. 5 picks, including small-PSU prebuilts.",
+  "dek": "Intel's 2020 six-core still powers millions of desktops, many of them prebuilts. These five cards fit its PCIe 3.0 link, its speed and the power supplies it usually ships with.",
+  "intro": [
+    "The Radeon RX 9060 XT 16GB is the best GPU for a Core i5-10400F in 2026. For $350–$400 it gives 1080p high settings, keeps a full sixteen-lane link on the 10400F's PCIe 3.0 slot, and carries enough memory to avoid the stutter 8 GB cards show on older platforms.",
+    "This page is for owners of Intel's 10th-generation six-core, whether in a self-built B460 system or a store-bought prebuilt. It explains what PCIe 3.0 means for newer cards, how much GPU the 10400F can feed, which cards suit the small or proprietary power supplies common in prebuilts, and when a platform upgrade beats a new card."
+  ],
+  "quickAnswer": "Buy the RX 9060 XT 16GB ($350–$400) for most 10400F systems. The RTX 5060 Ti 16GB ($430–$480) is the NVIDIA choice. For 1440p, the RX 9070 ($550–$620) is the ceiling. A discounted RX 6700 XT is the value pick. In a prebuilt with a 300–400 W supply, the 115 W RTX 4060 fits where the others may not.",
+  "picks": [
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Overall Match",
+      "bestFor": "self-built or prebuilt 10400F systems with a 500 W or larger supply",
+      "skipIf": "your supply has no 8-pin PCIe cable; see the RTX 4060 below",
+      "writeup": [
+        "Tenth-generation Core processors provide only PCIe 3.0 to the graphics slot, whatever the motherboard. That is the starting point for any upgrade on an i5-10400F, and it is why the RX 9060 XT 16GB leads this list: it is wired for sixteen lanes, so it keeps the full 3.0 x16 bandwidth that x8 cards cannot.",
+        "Its 16 GB matters for the same reason. When an 8 GB card runs out of memory in a new game, it pulls data across the PCIe bus, and on a 3.0 link that turns into visible stutter. Sixteen gigabytes keeps that from happening at 1080p and 1440p.",
+        "Its speed suits the CPU, too. The 10400F games roughly like a Ryzen 5 3600, per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/), and at 1080p a card of this class is close to what it can feed. Faster cards mostly help at higher resolutions.",
+        "At roughly 160–180 W it suits a decent 500–550 W supply with one 8-pin cable."
+      ],
+      "pros": ["Full x16 link on PCIe 3.0", "16 GB avoids bus-bound stutter", "Matches the CPU at 1080p", "FSR 4"],
+      "cons": ["Needs an 8-pin cable some prebuilts lack", "Weaker ray tracing than NVIDIA"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best NVIDIA Pick",
+      "bestFor": "players who want DLSS 4, ray tracing and NVIDIA's encoder",
+      "skipIf": "you want the most frames per dollar; the RX 9060 XT 16GB is close and cheaper",
+      "writeup": [
+        "The RTX 5060 Ti 16GB is the NVIDIA card that works best on this platform, despite being wired for eight lanes. On a PCIe 3.0 slot it runs at 3.0 x8, a quarter of the bandwidth it was designed for, and independent PCIe scaling tests showed a measurable loss on older boards in some games.",
+        "What saves it is the memory. With 16 GB, the card rarely needs to move data across that narrower link, which keeps the penalty modest. The 8 GB version of the same card does not have that cushion, which is why it is not on this list.",
+        "DLSS 4 with multi frame generation helps on a CPU that limits frame rates in busy scenes, and NVIDIA's ray tracing is a tier ahead of AMD's at this price. At 180 W, it runs on a quality 500–550 W supply."
+      ],
+      "pros": ["16 GB offsets the x8 link", "DLSS 4 multi frame generation", "Strong ray tracing for the class"],
+      "cons": ["Runs at PCIe 3.0 x8 here", "Costs more than the RX 9060 XT 16GB"]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Best for 1440p",
+      "bestFor": "10400F owners with a 1440p monitor",
+      "skipIf": "you game at 1080p, where the 10400F caps it in CPU-heavy titles",
+      "writeup": [
+        "At 1440p, more of the work moves from the CPU to the graphics card, which lets a 10400F drive more GPU than it can at 1080p. The RX 9070 is about as far as that goes: a 16 GB card with a full x16 link that runs at an efficient 220 W.",
+        "It is also a sensible card to carry into a future build. Because it uses sixteen lanes, PCIe 3.0 costs it very little now, and it will be a good match for any newer CPU later.",
+        "AMD recommends a 650 W supply. At 1080p in CPU-heavy games, the 10400F will hold it back noticeably; there, the RX 9060 XT 16GB is the better buy."
+      ],
+      "pros": ["Full x16 link and 16 GB", "Efficient for its speed", "Strong at 1440p"],
+      "cons": ["CPU-limited at 1080p", "Needs a 650 W supply"]
+    },
+    {
+      "id": "rtx-4060",
+      "label": "Best for Prebuilts",
+      "bestFor": "OEM desktops with 300–400 W supplies or compact cases",
+      "skipIf": "your supply is 500 W or more with an 8-pin cable; buy a faster card",
+      "writeup": [
+        "Many i5-10400F systems are store-bought desktops from big brands, and those often use modest power supplies, sometimes proprietary, with limited cables and small cases. The RTX 4060 is the card most likely to fit: about 115 W, a single 8-pin connector on most models, and short, dual-slot versions.",
+        "On PCIe 3.0 it runs at 3.0 x8, and its 8 GB is the limit. In most games at 1080p medium to high settings, published scaling tests showed the link costs a small amount. Keep textures sensible and it is a big step from the GTX 1650 or GTX 1660 many prebuilts shipped with.",
+        "Before buying, check the supply's label for its wattage and whether a PCIe power cable is available. Some OEM units have none, which limits you to cards powered by the slot alone."
+      ],
+      "pros": ["About 115 W", "Compact models available", "DLSS 3 frame generation"],
+      "cons": ["8 GB over a PCIe 3.0 x8 link", "Slower than the RTX 5060 at similar prices"]
+    },
+    {
+      "id": "rx-6700-xt",
+      "label": "Best Value If Discounted",
+      "bestFor": "self-builders who find one on sale or used, with a 650 W supply",
+      "skipIf": "it costs about as much as an RX 9060 XT 16GB, which is newer and more efficient",
+      "writeup": [
+        "The RX 6700 XT is the older card that suits PCIe 3.0 well: sixteen lanes and 12 GB. Its speed sits near an RTX 3060 Ti in raster games, roughly what a 10400F can use at 1080p and 1440p.",
+        "It makes sense only at a clear discount. It draws about 230 W, needs a 650 W supply and two 8-pin cables on many models, and does not support FSR 4. At similar prices, the RX 9060 XT 16GB is the better card.",
+        "For an older self-built B460 or Z490 system with a solid supply, though, a cheap RX 6700 XT is a strong upgrade over a GTX 10 or 16 series card."
+      ],
+      "pros": ["x16 link and 12 GB", "Good speed for the CPU", "Often discounted"],
+      "cons": ["About 230 W", "No FSR 4"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "PCIe interface", "Board power", "Memory bus"],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published PCIe-scaling and CPU-scaling reviews, and owner reports from 10th-generation Intel systems, including prebuilts. None of these pairings were bench-tested by Enthusiast Review; statements about PCIe losses and bottlenecks reflect what independent reviewers have widely reported.",
+    "criteria": [
+      ["PCIe 3.0 fit", "The 10400F runs every graphics slot at PCIe 3.0, so x16 cards and 16 GB cards ranked above x8 cards with 8 GB."],
+      ["CPU balance", "We matched each card to the resolution where a 10400F can keep it busy."],
+      ["Power and fit", "Prebuilt systems often have small supplies and cases, so low-power and compact options earned a place."],
+      ["Features", "DLSS 4, FSR 4 and ray tracing counted for buyers who use them."],
+      ["Future use", "Cards that remain good matches after a platform upgrade ranked above stopgaps."]
+    ],
+    "why": "The RX 9060 XT 16GB won because it combines a full x16 link and 16 GB with speed the 10400F can use, at a reasonable price."
+  },
+  "mentions": [
+    {"id": "arc-b580", "text": "The Arc B580 needs Resizable BAR, which many 400- and 500-series boards added for 10th-generation chips through BIOS updates, but independent reviews found its driver overhead costs it heavily on CPUs of this era. It would also run at PCIe 3.0 x8. Choose a Radeon or GeForce card instead."},
+    {"id": "rtx-5060", "text": "The RTX 5060 is faster than the RTX 4060 for similar money, but on PCIe 3.0 its 8 GB over an x8 link is the weak combination this page tries to avoid. It is fine at 1080p medium to high textures if the price is right."},
+    {"id": "rtx-5070", "text": "An RTX 5070 can make sense on a 10400F at 1440p, but at 1080p the CPU limits it in many games. The RX 9070 is the better 1440p match here, with more memory and a full x16 link."}
+  ],
+  "sections": [
+    {
+      "h": "Does the i5-10400F Support PCIe 4.0?",
+      "body": [
+        "No. Tenth-generation Core processors provide PCIe 3.0 to the graphics slot on every board, including B460, H470 and Z490 models whose later 11th-generation support enabled PCIe 4.0. With a 10400F installed, the slot runs at 3.0.",
+        "For x16 cards this costs very little. For x8 cards it halves the bandwidth compared with a PCIe 4.0 system. Published scaling tests showed the loss is small in most games for cards of RTX 4060 class, but it grows when an 8 GB card runs out of memory."
+      ],
+      "table": {
+        "caption": "Each pick's link on an i5-10400F",
+        "head": ["Card", "Interface", "Runs at", "VRAM", "Board power"],
+        "rows": [
+          ["RX 9060 XT 16GB", "PCIe 5.0 x16", "PCIe 3.0 x16", "16 GB", "160–180 W"],
+          ["RTX 5060 Ti 16GB", "PCIe 5.0 x8", "PCIe 3.0 x8", "16 GB", "180 W"],
+          ["RX 9070", "PCIe 5.0 x16", "PCIe 3.0 x16", "16 GB", "220 W"],
+          ["RTX 4060", "PCIe 4.0 x8", "PCIe 3.0 x8", "8 GB", "115 W"],
+          ["RX 6700 XT", "PCIe 4.0 x16", "PCIe 3.0 x16", "12 GB", "230 W"]
+        ]
+      }
+    },
+    {
+      "h": "Will an i5-10400F Bottleneck an RTX 5070?",
+      "body": [
+        "At 1080p, often yes; at 1440p, less so. The 10400F is a six-core, twelve-thread chip that games roughly like a Ryzen 5 3600. In CPU-heavy titles at 1080p, it caps frame rates below what an RTX 5070 could deliver. At 1440p the graphics card carries more of the load and the pairing is more even.",
+        "Our [bottleneck calculator](/tools/bottleneck-calculator/) shows where the balance falls for any card. As a rule, an RX 9060 XT 16GB or RTX 5060 Ti 16GB is the 1080p ceiling, and an RX 9070 the 1440p one."
+      ]
+    },
+    {
+      "h": "Does the i5-10400F Support Resizable BAR?",
+      "body": [
+        "Often, after a BIOS update. Intel and motherboard makers added Resizable BAR support for 10th-generation systems on many 400- and 500-series boards, but it depends on your board's firmware. Look for Above 4G Decoding and Re-Size BAR Support in the BIOS, and make sure Windows boots in UEFI mode.",
+        "For Radeon and GeForce cards, it adds a few percent in some games. For Intel Arc it is required, and prebuilt systems from large brands do not always expose the setting, which is another reason to avoid Arc here."
+      ]
+    },
+    {
+      "h": "Do You Need a New PSU?",
+      "body": [
+        "Check before you buy, especially in a prebuilt. A self-built 10400F system with a quality 550 W supply runs every card on this page except the RX 9070 and RX 6700 XT, which call for 650 W. The 10400F itself is a 65 W chip.",
+        "Prebuilts are less predictable. Some use 300–400 W supplies, some have no PCIe power cable, and some use proprietary connectors that make replacement awkward. In those cases, the RTX 4060 is the safe choice. Our [PSU calculator](/tools/psu-calculator/) works out what any pairing needs."
+      ]
+    },
+    {
+      "h": "Should You Upgrade the CPU Instead?",
+      "body": [
+        "Within LGA1200, the options are limited. Z490 and H470 boards accept 11th-generation Core chips after a BIOS update, while B460 and H410 boards do not, per Intel's chipset support. Even where it is possible, an 11th-generation upgrade is a modest step.",
+        "For most owners, the better order is a graphics card now, then a full platform upgrade later. Choose an x16 card, such as the RX 9060 XT 16GB or RX 9070, so it moves into the next system without losing anything. Our [old GeForce equivalents chart](/old-nvidia-gpu-equivalents/) shows how much faster each new card is than what you have now."
+      ]
+    },
+    {
+      "h": "What Is the Most Powerful GPU Worth Pairing With an i5-10400F?",
+      "body": [
+        "An RX 9060 XT 16GB or RTX 5060 Ti 16GB at 1080p, and an RX 9070 at 1440p. Faster cards are not harmful, but the 10400F leaves much of their extra speed unused in CPU-heavy games.",
+        "For other options by price, see our [best graphics cards under $400](/best-graphics-card-under-400/) and [under $500](/best-graphics-card-under-500/), and compare with our guide for the similar [Ryzen 5 2600 and 3600](/best-gpu-for-ryzen-5-2600-and-3600/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Ignoring a prebuilt's power supply", "Many OEM desktops ship with small or proprietary supplies and few cables. Check the label and connectors before buying a card that needs 500 W and an 8-pin."],
+    ["Buying an 8 GB x8 card for high textures", "On PCIe 3.0, an 8 GB card wired for eight lanes stutters when its memory fills. Use medium-to-high textures on those cards, or buy a 16 GB or x16 card."],
+    ["Expecting PCIe 4.0 from a newer board", "A B560 or Z590 board only runs PCIe 4.0 with an 11th-generation chip. With a 10400F installed, the slot is PCIe 3.0."],
+    ["Overspending on the GPU at 1080p", "Above RTX 5060 Ti 16GB level, a 10400F limits frame rates in many games at 1080p. Save the difference toward a platform upgrade."]
+  ],
+  "bottomLine": "For an i5-10400F, the RX 9060 XT 16GB is the card to buy in 2026: a full x16 link for the PCIe 3.0 slot, 16 GB of memory, and speed the CPU can use at 1080p. Choose the RTX 5060 Ti 16GB for NVIDIA features, the RX 9070 for 1440p, a discounted RX 6700 XT for value, and the RTX 4060 for prebuilts with small supplies.",
+  "faqs": [
+    {"q": "What is the best GPU for an i5-10400F?", "a": "The RX 9060 XT 16GB. It keeps a full x16 link on the 10400F's PCIe 3.0 slot, has 16 GB of memory and suits the CPU at 1080p. The RTX 5060 Ti 16GB is the best NVIDIA option, and the RX 9070 the best for 1440p."},
+    {"q": "Can an i5-10400F handle an RTX 5070?", "a": "Yes, but at 1080p it limits the card in CPU-heavy games. At 1440p the pairing is more balanced. The RX 9070 is a better 1440p match on this CPU, with a full x16 link and 16 GB."},
+    {"q": "Does the i5-10400F bottleneck an RTX 4060?", "a": "Very little at 1080p. The RTX 4060 and the 10400F are a balanced pair, and the card's low power draw suits the small supplies in many prebuilt desktops."},
+    {"q": "Does the i5-10400F support PCIe 4.0?", "a": "No. Tenth-generation Core chips run the graphics slot at PCIe 3.0 on every board. That mainly affects x8 cards, which get half the bandwidth they would on PCIe 4.0."},
+    {"q": "What power supply do I need with an i5-10400F?", "a": "A quality 550 W supply covers the RX 9060 XT 16GB, RTX 5060 Ti 16GB and RTX 4060. The RX 9070 and RX 6700 XT call for 650 W. Prebuilt supplies are often smaller, so check the label first."},
+    {"q": "Is the Arc B580 good with an i5-10400F?", "a": "Not really. It needs Resizable BAR, runs at PCIe 3.0 x8 on this platform, and independent tests found it loses much more performance than Radeon and GeForce cards on CPUs of this era."},
+    {"q": "Is the i5-10400F still good for gaming in 2026?", "a": "Yes, for 1080p and 1440p at 60 fps and above in most games. It games roughly like a Ryzen 5 3600. CPU-heavy games and high-refresh play are where it starts to limit a fast card."}
+  ],
+  "sources": [
+    "Intel Core i5-10400F product specifications (ark.intel.com)",
+    "Intel 400- and 500-series chipset specifications and motherboard CPU support lists",
+    "Motherboard maker BIOS notes adding Resizable BAR support for 10th-generation Core",
+    "AMD Radeon RX 9060 XT, RX 9070 and RX 6700 XT and NVIDIA GeForce RTX 5060 Ti and RTX 4060 product pages",
+    "Published PCIe scaling and CPU scaling reviews from TechPowerUp and Hardware Unboxed",
+    "Owner reports from 10th-generation Intel systems and prebuilt upgrades on enthusiast forums"
+  ],
+  "related": ["best-gpu-for-ryzen-5-2600-and-3600", "best-graphics-card-under-400", "old-nvidia-gpu-equivalents"]
+}

@@ -28,9 +28,13 @@ export const config = {
 };
 
 const GONE = /^\/(?:best|guides)(?:\/.*)?$|^\/compare\/(?:alorair\-vs\-aprilaire\-dehumidifier|amana\-vs\-friedrich\-dehumidifier|aprilaire\-vs\-santa\-fe\-dehumidifier|frigidaire\-vs\-honeywell\-dehumidifier|haier\-vs\-ge\-dehumidifier|midea\-vs\-frigidaire\-dehumidifier)(?:\/|\.md)?$|^\/authors\/home-air-desk(?:\/|\.md)?$|^\/(?:how-to-overclock-a-gpu|how-to-benchmark-.+|how-to-get-windows-.+|how-to-choose-best-drone-.+|methodology|og)(?:\/.*)?$/;
-// The Nov 2026 bottleneck-finder pages, except the 2020 guide that is live again and the one
-// vercel.json redirects to /best-graphics-card/.
-const BOTTLENECK = /^\/best-gpu-for-(?!(?:ryzen-5-2600-and-3600|ryzen-9-3900x-and-3950x)(?:\/|\.md)?$)[a-z0-9-]+(?:\/|\.md)?$/;
+// The Nov 2026 bottleneck-finder pages, except the guides that are live at their own URL: the 2020
+// guide restored earlier, the one vercel.json redirects to /best-graphics-card/, and the eight Bing
+// still ranked with clicks (Bing Webmaster, 21 Nov 2026), rebuilt as real roundups.
+const LIVE_GPU_FOR = 'ryzen-5-2600-and-3600|ryzen-9-3900x-and-3950x|ryzen-5-1600|core-i3-12100f|ryzen-5-9600x|core-i5-10400f|ryzen-7-3700x|ryzen-7-5700x|core-i5-12600k|core-i7-14700k';
+const BOTTLENECK = new RegExp(`^/best-gpu-for-(?!(?:${LIVE_GPU_FOR})(?:/|\\.md)?$)[a-z0-9-]+(?:/|\\.md)?$`);
+// Old single-CPU URLs whose CPU an existing guide covers.
+const GPU_FOR_MOVED = { '/best-gpu-for-ryzen-5-3600': '/best-gpu-for-ryzen-5-2600-and-3600/', '/best-gpu-for-ryzen-5-2600': '/best-gpu-for-ryzen-5-2600-and-3600/' };
 const GONE_HTML =
   '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page removed | Enthusiast Review</title></head>' +
   '<body style="font-family:system-ui,sans-serif;max-width:640px;margin:auto;padding:32px 16px;color:#1f1f1f">' +
@@ -96,6 +100,8 @@ export default async function middleware(request) {
   const { pathname } = new URL(request.url);
   const { method } = request;
 
+  const moved = GPU_FOR_MOVED[pathname.replace(/(\/|\.md)$/, '')];
+  if (moved) return Response.redirect(new URL(moved, 'https://www.enthusiastreview.com'), 301);
   if (BOTTLENECK.test(pathname)) {
     return Response.redirect(new URL('/tools/bottleneck-calculator/', 'https://www.enthusiastreview.com'), 301);
   }

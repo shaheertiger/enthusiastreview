@@ -1,0 +1,179 @@
+{
+  "slug": "best-gpu-for-ryzen-7-5700x",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 7 5700X (2026): 5 Picks for AM4 Builds",
+  "h1": "Best GPU for Ryzen 7 5700X",
+  "query": "best gpu for ryzen 7 5700x",
+  "description": "The RX 9070 XT is the best GPU for a Ryzen 7 5700X: 16 GB and a full x16 link for $600–$730, fast enough to use Zen 3 at 1440p. 5 picks from $350 to $900.",
+  "dek": "The eight-core Zen 3 5700X is the fastest non-X3D chip many AM4 owners have. These five cards use that speed, on B450 and B550 boards alike.",
+  "intro": [
+    "The Radeon RX 9070 XT is the best GPU for a Ryzen 7 5700X in 2026. At $600–$730 it matches an RTX 5070 Ti in raster games, carries 16 GB, and uses all sixteen PCIe lanes, so it gives up almost nothing on the PCIe 3.0 slots of older AM4 boards.",
+    "This page is for owners of AMD's eight-core Zen 3 chip, a popular late upgrade for AM4 systems. The 5700X can drive considerably more GPU than Zen 2 chips, so the shortlist reaches higher. It covers the B450 versus B550 PCIe question, where the 5700X starts to limit a card, and whether a 5700X3D is still worth adding."
+  ],
+  "quickAnswer": "Buy the RX 9070 XT ($600–$730) for 1440p. The RX 9070 ($550–$620) is the efficient alternative for 650 W supplies. The RTX 5070 Ti ($750–$900) is the NVIDIA pick with stronger ray tracing. For 1080p, the RX 9060 XT 16GB ($350–$400), or the RTX 5060 Ti 16GB ($430–$480) for DLSS 4. Above the RX 9070 XT, the 5700X becomes the limit below 4K.",
+  "picks": [
+    {
+      "id": "rx-9070-xt",
+      "label": "Best Overall Match",
+      "bestFor": "1440p high-refresh gaming on a 5700X with a 750 W supply",
+      "skipIf": "your supply is 650 W or smaller; the RX 9070 is the better fit",
+      "writeup": [
+        "The Ryzen 7 5700X is a far stronger gaming chip than the Zen 2 parts it often replaced. It games roughly like a Core i7-11700K, per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/), which means it can keep a genuinely fast graphics card busy at 1440p.",
+        "The RX 9070 XT is the card that suits that best. It lands close to an RTX 5070 Ti in raster games for less money, carries 16 GB, and supports FSR 4. Most importantly for AM4 owners, it uses sixteen lanes: on a B450 board, where a 5700X runs the slot at PCIe 3.0, it keeps the full 3.0 x16 bandwidth.",
+        "At 1440p, this is about where the 5700X and the GPU balance. At 1080p in CPU-heavy games, the processor starts to cap frame rates; at 4K, the card sets the pace.",
+        "AMD rates it at 304 W, and partner cards often draw more, so a quality 750 W supply is the minimum."
+      ],
+      "pros": ["RTX 5070 Ti-class raster for less", "16 GB and a full x16 link", "Balanced with the 5700X at 1440p", "FSR 4"],
+      "cons": ["Needs a 750 W supply", "Ray tracing behind NVIDIA"]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Best Efficient Pick",
+      "bestFor": "5700X systems with a 650 W supply or a compact case",
+      "skipIf": "you can power the RX 9070 XT; it is the faster card for a little more",
+      "writeup": [
+        "The RX 9070 gives most of the RX 9070 XT's performance at a much lower 220 W, which makes it the easier card to add to an existing AM4 build. A quality 650 W supply is enough, and cooler-running models suit smaller cases.",
+        "It keeps the same strengths that matter on this platform: sixteen lanes, 16 GB of memory and FSR 4. Independent reviews put it slightly ahead of the RTX 5070 in raster games.",
+        "On a 5700X, it is an excellent 1440p card. Our [RX 9070 vs RX 9070 XT comparison](/compare/rx-9070-vs-rx-9070-xt/) shows whether the XT is worth the extra power and money for your build."
+      ],
+      "pros": ["220 W; runs on 650 W", "16 GB and x16", "Slightly faster than RTX 5070 in raster"],
+      "cons": ["Slower than the 9070 XT", "Ray tracing behind NVIDIA"]
+    },
+    {
+      "id": "rtx-5070-ti",
+      "label": "Best NVIDIA Pick",
+      "bestFor": "1440p players who use ray tracing, DLSS 4 or NVIDIA's encoder",
+      "skipIf": "price per frame in raster games is the priority",
+      "writeup": [
+        "If you want NVIDIA's features, the RTX 5070 Ti is the highest card that makes sense on a 5700X below 4K. It matches the RX 9070 XT in raster and pulls ahead with ray tracing, and DLSS 4 multi frame generation adds headroom in games where the CPU limits the real frame rate.",
+        "It uses sixteen lanes and carries 16 GB, so PCIe 3.0 boards cost it very little. NVIDIA recommends a 750 W supply, and most models use a 12V-2x6 power connector with an adapter in the box for older supplies.",
+        "Above this card, the 5700X leaves more performance unused at 1440p; an RTX 5080 only makes sense here at 4K."
+      ],
+      "pros": ["Strong ray tracing", "DLSS 4 multi frame generation", "16 GB and x16"],
+      "cons": ["Costs more than the RX 9070 XT", "Needs a 750 W supply"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best NVIDIA for 1080p",
+      "bestFor": "1080p high-refresh play with DLSS 4 on a B550 board",
+      "skipIf": "your board is a B450 and you dislike the x8 link's small PCIe 3.0 penalty",
+      "writeup": [
+        "For 1080p, the RTX 5060 Ti 16GB is the NVIDIA card that suits a 5700X. It has enough memory for high textures, DLSS 4 with multi frame generation, and a 180 W draw that fits almost any supply.",
+        "Its one platform caveat is its eight-lane wiring. On a B550 or X570 board it runs at PCIe 4.0 x8, which is fine. On a B450 board it drops to PCIe 3.0 x8, and published scaling tests showed a small loss in some games; its 16 GB keeps that from turning into stutter.",
+        "At 1080p, the 5700X keeps this card fully busy in nearly every game."
+      ],
+      "pros": ["16 GB with DLSS 4", "180 W", "Good 1080p match"],
+      "cons": ["x8 link; small loss on PCIe 3.0", "Costs more than the RX 9060 XT 16GB"]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Budget Pick",
+      "bestFor": "1080p gaming for under $400 on any AM4 board",
+      "skipIf": "you play at 1440p and want high settings",
+      "writeup": [
+        "The RX 9060 XT 16GB is the lowest-cost card on this list that does not compromise on this platform. It uses sixteen lanes, so it keeps full bandwidth even on B450, and its 16 GB avoids texture limits.",
+        "On a 5700X at 1080p, the graphics card sets the frame rate almost everywhere, so you get everything the card can deliver. It draws about 160–180 W and runs on a 550 W supply.",
+        "For more choices at this price, see our [best graphics cards under $400](/best-graphics-card-under-400/)."
+      ],
+      "pros": ["16 GB under $400", "Full x16 link on B450", "Efficient"],
+      "cons": ["A 1080p card", "Weaker ray tracing"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "PCIe interface", "Board power", "Recommended PSU"],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling and PCIe-scaling reviews of Zen 3 chips, and owner reports from AM4 builds. None of these pairings were bench-tested by Enthusiast Review; statements about where the 5700X limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      ["CPU balance", "The 5700X can feed a fast card at 1440p, so we ranked cards by how fully it uses them at each resolution."],
+      ["PCIe fit", "Many 5700X systems run B450 boards at PCIe 3.0, so x16 cards earned credit over x8 cards."],
+      ["Memory", "16 GB cards ranked above 12 GB and 8 GB alternatives for longevity."],
+      ["Power", "We weighed each card's supply requirement, since AM4 builds range from 550 W to 850 W."],
+      ["Features", "Ray tracing, DLSS 4 and FSR 4 counted for buyers who will use them."]
+    ],
+    "why": "The RX 9070 XT won because it gives RTX 5070 Ti-class speed and 16 GB for less, with a full x16 link that suits older AM4 boards."
+  },
+  "mentions": [
+    {"id": "ryzen-7-5700x3d", "text": "The Ryzen 7 5700X3D is a smaller step from a 5700X than from Zen 2, since both are Zen 3, but its 96 MB cache still lifts frame rates noticeably in CPU-heavy games. It is worth it for high-refresh or simulation players; most others should put the money into the GPU."},
+    {"id": "rtx-5080", "text": "An RTX 5080 works on a 5700X at 4K, where the card does nearly all the work. At 1440p and below, the CPU leaves much of its speed unused; an RTX 5070 Ti or RX 9070 XT is the better buy there."},
+    {"id": "arc-b580", "text": "The Arc B580 is a budget card, and Zen 3 handles its driver overhead better than older chips, but it runs at PCIe 3.0 x8 on B450 boards. The RX 9060 XT 16GB is the safer choice on this platform."}
+  ],
+  "sections": [
+    {
+      "h": "Does the Ryzen 7 5700X Run PCIe 4.0 on a B450 Board?",
+      "body": [
+        "No. The 5700X supports PCIe 4.0, but AMD's 400-series chipsets, B450 and X470, run the graphics slot at PCIe 3.0 even with a Ryzen 5000 chip. B550 and X570 boards enable PCIe 4.0.",
+        "Because so many 5700X upgrades went into existing B450 systems, this page favors cards wired for sixteen lanes, which lose very little on PCIe 3.0. Cards wired for eight lanes get half the bandwidth there, which matters most when their memory fills."
+      ],
+      "table": {
+        "caption": "Each pick's link on a 5700X system",
+        "head": ["Card", "Interface", "On B450 / X470", "On B550 / X570", "VRAM"],
+        "rows": [
+          ["RX 9070 XT", "PCIe 5.0 x16", "PCIe 3.0 x16", "PCIe 4.0 x16", "16 GB"],
+          ["RX 9070", "PCIe 5.0 x16", "PCIe 3.0 x16", "PCIe 4.0 x16", "16 GB"],
+          ["RTX 5070 Ti", "PCIe 5.0 x16", "PCIe 3.0 x16", "PCIe 4.0 x16", "16 GB"],
+          ["RTX 5060 Ti 16GB", "PCIe 5.0 x8", "PCIe 3.0 x8", "PCIe 4.0 x8", "16 GB"],
+          ["RX 9060 XT 16GB", "PCIe 5.0 x16", "PCIe 3.0 x16", "PCIe 4.0 x16", "16 GB"]
+        ]
+      }
+    },
+    {
+      "h": "Will a Ryzen 7 5700X Bottleneck an RTX 5070 Ti?",
+      "body": [
+        "Not much at 1440p in most games; somewhat at 1080p in CPU-heavy titles. Zen 3's single-thread speed was a large step over Zen 2, and eight cores suit modern games. The 5700X keeps an RTX 5070 Ti or RX 9070 XT reasonably busy at 1440p.",
+        "Above that tier, or at 1080p with a high-refresh monitor, the CPU starts to set the limit. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any card."
+      ]
+    },
+    {
+      "h": "Do You Need a New Power Supply?",
+      "body": [
+        "Size it to the card. The 5700X is a 65 W chip, so the graphics card is the big load: an RX 9070 runs on 650 W, the RX 9070 XT and RTX 5070 Ti call for 750 W, and the RX 9060 XT and RTX 5060 Ti on 550 W.",
+        "Check the cables too: the RTX 5070 Ti uses a 12V-2x6 connector on most models, with an adapter included for older supplies. Our [PSU calculator](/tools/psu-calculator/) and [best PSU for RX 9070 XT](/best-psu-for-rx-9070-xt/) guide cover the details."
+      ]
+    },
+    {
+      "h": "Is a Ryzen 7 5700X3D Worth It Over a 5700X?",
+      "body": [
+        "Only for certain players. Both are eight-core Zen 3 chips, so the 5700X3D's advantage comes entirely from its large L3 cache. That helps most in CPU-heavy games, such as simulation, strategy and some large open-world titles, and at high refresh rates.",
+        "If you mostly play at 1440p or 4K where the graphics card sets the pace, the money usually does more as part of a better GPU. Our [5800X3D vs 5700X3D comparison](/compare/ryzen-7-5800x3d-vs-ryzen-7-5700x3d/) covers the X3D options."
+      ]
+    },
+    {
+      "h": "Should You Move to AM5 Instead?",
+      "body": [
+        "Not yet, for most 5700X owners. The 5700X still keeps upper-mid-range cards busy at 1440p, and AM4 parts are paid for. A new graphics card gives more frames per dollar than a new platform in most cases.",
+        "If you are planning an RTX 5080 or faster, or you play at very high refresh rates in CPU-heavy games, AM5 with a Ryzen 7 9800X3D becomes the better long-term choice."
+      ]
+    },
+    {
+      "h": "What Is the Most Powerful GPU Worth Pairing With a Ryzen 7 5700X?",
+      "body": [
+        "An RX 9070 XT or RTX 5070 Ti at 1440p. An RTX 5080 at 4K is reasonable, since the card does most of the work there. Beyond that, the 5700X leaves too much performance unused.",
+        "For budget-led shopping, see our [best graphics cards under $500](/best-graphics-card-under-500/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Assuming a B450 board runs PCIe 4.0", "With a Ryzen 5000 chip, B450 and X470 still run the graphics slot at PCIe 3.0. Prefer x16 cards on those boards, or accept a small loss with x8 cards that have 16 GB."],
+    ["Underestimating the 5700X", "Zen 3 can keep an RX 9070 XT busy at 1440p. Buying a 1080p-class card for a 1440p monitor leaves performance on the table."],
+    ["Undersizing the supply for an RX 9070 XT", "The CPU is frugal, but the RX 9070 XT and RTX 5070 Ti call for 750 W. An older 550–650 W unit is the most common reason these upgrades become unstable."],
+    ["Buying a 5700X3D for a GPU-bound setup", "At 1440p and 4K, a better graphics card usually adds more frames than an X3D chip does over a 5700X."]
+  ],
+  "bottomLine": "For a Ryzen 7 5700X, the RX 9070 XT is the card to buy in 2026: RTX 5070 Ti-class speed, 16 GB, and a full x16 link that suits B450 and B550 boards alike. Choose the RX 9070 for a 650 W supply, the RTX 5070 Ti for NVIDIA features, and the RX 9060 XT 16GB or RTX 5060 Ti 16GB for 1080p. The 5700X has more headroom than many owners expect.",
+  "faqs": [
+    {"q": "What is the best GPU for a Ryzen 7 5700X?", "a": "The RX 9070 XT for 1440p. It is close to an RTX 5070 Ti in raster games, has 16 GB, and keeps a full x16 link on B450 boards. The RX 9070 is the better pick if your supply is 650 W."},
+    {"q": "Will a Ryzen 7 5700X bottleneck an RTX 5070?", "a": "Very little at 1440p. The 5700X keeps an RTX 5070 busy in most games at that resolution. At 1080p in CPU-heavy titles, it can cap frame rates at high refresh rates."},
+    {"q": "Is the Ryzen 7 5700X good for gaming in 2026?", "a": "Yes. It games roughly like a Core i7-11700K and keeps upper-mid-range cards busy at 1440p. CPU-heavy, high-refresh play is where newer chips and X3D models pull ahead."},
+    {"q": "Does the Ryzen 7 5700X support PCIe 4.0?", "a": "Yes, on B550 and X570 boards. On B450 and X470 boards, the graphics slot runs at PCIe 3.0, which mainly affects cards wired for eight lanes."},
+    {"q": "What PSU do I need for a 5700X and RX 9070 XT?", "a": "A quality 750 W supply. The RX 9070 XT is rated at 304 W and partner models often draw more. The 5700X itself is a 65 W chip."},
+    {"q": "Is the RTX 5060 Ti 16GB good for a Ryzen 7 5700X?", "a": "Yes, for 1080p. It has 16 GB and DLSS 4. On a B450 board it runs at PCIe 3.0 x8, which costs a little in some games; on B550 it runs at PCIe 4.0 x8."},
+    {"q": "Should I upgrade from a 5700X to a 5700X3D?", "a": "Only if you play CPU-heavy games or at very high refresh rates. Both are Zen 3, so the gain comes from the X3D's cache. For GPU-bound play at 1440p and 4K, a better graphics card adds more."}
+  ],
+  "sources": [
+    "AMD Ryzen 7 5700X product specifications",
+    "AMD 400- and 500-series chipset specifications and Smart Access Memory documentation",
+    "AMD Radeon RX 9070 XT, RX 9070 and RX 9060 XT and NVIDIA GeForce RTX 5070 Ti and RTX 5060 Ti product pages",
+    "Published Zen 3 CPU scaling and PCIe scaling reviews from TechPowerUp and Hardware Unboxed",
+    "Owner reports from AM4 upgrades on enthusiast forums"
+  ],
+  "related": ["best-graphics-card-for-1440p", "best-graphics-card-under-500", "best-psu-for-rx-9070-xt"]
+}

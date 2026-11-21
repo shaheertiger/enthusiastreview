@@ -1,0 +1,294 @@
+{
+  "slug": "best-gpu-for-ryzen-7-3700x",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 7 3700X (2026): 5 Cards for 1080p and 1440p",
+  "h1": "Best GPU for Ryzen 7 3700X",
+  "query": "best gpu for ryzen 7 3700x",
+  "description": "The RX 9070 is the best GPU for a Ryzen 7 3700X: 16 GB and a full x16 link for B450 boards at 220 W, for $550–$620. 5 picks from $280, and the CPU swap first.",
+  "dek": "Eight Zen 2 cores give the 3700X more staying power than six-core chips of its era. These five cards fit its PCIe link and its speed at 1080p and 1440p.",
+  "intro": [
+    "The Radeon RX 9070 is the best GPU for a Ryzen 7 3700X in 2026. For $550–$620 it gives 1440p high settings, carries 16 GB, and keeps a full sixteen-lane link whether your board runs the slot at PCIe 3.0 or 4.0. At 220 W it also suits the supplies many 2019 builds use.",
+    "This page is for owners of AMD's eight-core Zen 2 chip who want to upgrade the graphics card without rebuilding. It covers how the chipset decides your PCIe speed, where the 3700X starts to hold a card back, and why a drop-in Zen 3 X3D chip can be worth more than a bigger GPU."
+  ],
+  "quickAnswer": "Buy the RX 9070 ($550–$620) for 1440p. The RTX 5070 ($550–$650) is the NVIDIA alternative with DLSS 4. For 1080p, the RX 9060 XT 16GB ($350–$400). A discounted RTX 4070 is a strong x16 NVIDIA option. On a tight budget, the RX 9060 XT 8GB ($280–$320) keeps the full x16 link. Above this tier, a Ryzen 7 5700X3D comes first.",
+  "picks": [
+    {
+      "id": "rx-9070",
+      "label": "Best Overall Match",
+      "bestFor": "3700X systems gaming at 1440p, on B450 or B550 boards",
+      "skipIf": "you play mostly CPU-heavy games at 1080p; the RX 9060 XT 16GB is enough there",
+      "writeup": [
+        "The Ryzen 7 3700X games a little faster than a Ryzen 5 3600, close to a Core i5-9600K per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/), and its eight cores hold up better in newer, thread-heavy games. That makes it a reasonable partner for a card one tier above what six-core chips of its era suit, at least at 1440p.",
+        "The RX 9070 fits that role well. It is wired for sixteen lanes, so on a B450 or X470 board, where the 3700X runs the slot at PCIe 3.0, it loses almost nothing. Its 16 GB of memory means it rarely needs to move data across the bus at all.",
+        "At 1440p, much of the load moves to the graphics card, and this card is where the 3700X and GPU roughly balance. At 1080p, in CPU-heavy titles, the 3700X will cap it, so 1080p players should look at the RX 9060 XT 16GB instead.",
+        "Its 220 W rating means a quality 650 W supply is enough, which many 3700X builds already have."
+      ],
+      "pros": [
+        "Full x16 link on PCIe 3.0 or 4.0",
+        "16 GB of VRAM",
+        "Efficient at 220 W",
+        "FSR 4"
+      ],
+      "cons": [
+        "CPU-limited at 1080p in heavy games",
+        "Ray tracing behind NVIDIA"
+      ]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best NVIDIA Option",
+      "bestFor": "1440p players who want DLSS 4, stronger ray tracing and NVIDIA's encoder",
+      "skipIf": "you keep cards many years and play texture-heavy games; 12 GB is its limit",
+      "writeup": [
+        "The RTX 5070 is the NVIDIA card that pairs best with a 3700X. It uses a full x16 link, so PCIe 3.0 boards cost it little, and at 1440p it is roughly level with the RX 9070 overall: slightly slower in raster, faster with ray tracing.",
+        "DLSS 4 with multi frame generation is genuinely useful on a CPU of this age. When the 3700X caps the real frame rate in a busy scene, generated frames still smooth what you see, though with some added latency.",
+        "Its weak point is 12 GB of memory, which is enough for 1440p today but less than the RX 9070's 16 GB. NVIDIA recommends a 650 W supply. Our [RTX 5070 vs RX 9070 comparison](/compare/rtx-5070-vs-rx-9070/) covers the choice in detail."
+      ],
+      "pros": [
+        "x16 link",
+        "DLSS 4 multi frame generation",
+        "Better ray tracing than the RX 9070"
+      ],
+      "cons": [
+        "12 GB of VRAM",
+        "Slightly slower in raster"
+      ]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best for 1080p",
+      "bestFor": "1080p players who want high settings and long-term texture headroom",
+      "skipIf": "you have a 1440p monitor and want high settings; the RX 9070 suits it better",
+      "writeup": [
+        "At 1080p, the 3700X reaches its limit sooner, and the RX 9060 XT 16GB is the card that matches it there. It gives high settings in current games, keeps a full x16 link on any AM4 board, and carries 16 GB, so it will not be the reason to lower textures in new releases.",
+        "It is also the lower-cost route if a CPU upgrade is on the way. Put the savings toward a Ryzen 7 5700X3D and this card still pairs well with that chip at 1080p.",
+        "At about 160–180 W, a 550 W supply is enough. For more cards in this price band, see our [best graphics cards under $400](/best-graphics-card-under-400/)."
+      ],
+      "pros": [
+        "16 GB at a mid-range price",
+        "Full x16 link",
+        "Efficient"
+      ],
+      "cons": [
+        "Mainly a 1080p card",
+        "Weaker ray tracing"
+      ]
+    },
+    {
+      "id": "rtx-4070",
+      "label": "Best Discounted NVIDIA Card",
+      "bestFor": "buyers who find one well below RTX 5070 pricing",
+      "skipIf": "it costs about the same as an RTX 5070, which is faster and supports DLSS 4",
+      "writeup": [
+        "The previous generation's RTX 4070 remains a good fit for older AM4 boards because it uses sixteen lanes and draws only about 200 W. On a 3700X it is a capable 1440p card, a little behind the RTX 5070.",
+        "It supports DLSS 3 frame generation rather than DLSS 4's multi frame generation, and has the same 12 GB of memory as the RTX 5070. Buy it only at a clear discount; at similar prices, the newer card is the better choice.",
+        "Its low power draw makes it one of the easiest 1440p cards to add to a 2019 build without replacing the supply; a quality 650 W unit is recommended."
+      ],
+      "pros": [
+        "x16 link, about 200 W",
+        "DLSS 3 frame generation",
+        "Often discounted"
+      ],
+      "cons": [
+        "12 GB of VRAM",
+        "Slower than the RTX 5070"
+      ]
+    },
+    {
+      "id": "rx-9060-xt-8gb",
+      "label": "Best Budget x16 Card",
+      "bestFor": "1080p medium-to-high settings on PCIe 3.0 boards for under $320",
+      "skipIf": "you want ultra textures in new releases; 8 GB is the limit",
+      "writeup": [
+        "If the budget stops near $300, the 8 GB RX 9060 XT is the card to get for a 3700X on a B450 board. Unlike the RTX 5060 and RX 6600 at similar prices, it is wired for sixteen lanes, so it keeps the full PCIe 3.0 x16 bandwidth.",
+        "That matters most when its 8 GB fills: an x16 card handles the resulting bus traffic better than an x8 card does. At 1080p with textures one notch below maximum, it runs current games well.",
+        "It draws about 150 W and runs on almost any decent supply."
+      ],
+      "pros": [
+        "Full x16 link under $320",
+        "About 150 W",
+        "FSR 4"
+      ],
+      "cons": [
+        "8 GB of VRAM",
+        "Shares a name with the 16 GB card"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "VRAM",
+    "PCIe interface",
+    "Board power",
+    "Memory bus"
+  ],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published PCIe-scaling and CPU-scaling reviews of Zen 2 chips, and owner reports from AM4 systems. None of these pairings were bench-tested by Enthusiast Review; statements about where the 3700X limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      [
+        "PCIe fit",
+        "Many 3700X systems use B450 or X470 boards that run PCIe 3.0, so x16 cards ranked above x8 cards."
+      ],
+      [
+        "CPU balance",
+        "We matched each card to the resolution where an eight-core Zen 2 chip keeps it busy."
+      ],
+      [
+        "Memory",
+        "Cards with 16 GB ranked above 12 GB and 8 GB alternatives at similar speed."
+      ],
+      [
+        "Power",
+        "Efficient cards earned credit, since many 2019 builds use 550–650 W supplies."
+      ],
+      [
+        "Upgrade path",
+        "Cards that remain good matches after a drop-in Zen 3 X3D upgrade ranked higher."
+      ]
+    ],
+    "why": "The RX 9070 won because it gives a 3700X the most 1440p performance it can use, with 16 GB and a full x16 link, at an efficient 220 W."
+  },
+  "mentions": [
+    {
+      "id": "ryzen-7-5700x3d",
+      "text": "The Ryzen 7 5700X3D is the most effective upgrade many 3700X owners can make. It drops into B450, B550 and X570 boards after a BIOS update, keeps your DDR4, and its large cache lifts frame rates in CPU-heavy games well beyond what any GPU upgrade can."
+    },
+    {
+      "id": "rx-9070-xt",
+      "text": "The RX 9070 XT is faster than the RX 9070, but on a 3700X much of that extra speed goes unused below 4K, and its 304 W rating calls for a 750 W supply. Pair it with a Zen 3 X3D chip instead."
+    },
+    {
+      "id": "arc-b580",
+      "text": "The Arc B580 is not a good fit. Independent reviews found its driver overhead costs it heavily on Zen 2 chips, and it runs at PCIe 3.0 x8 on B450 boards. Radeon and GeForce cards at the same price do better here."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Does the Ryzen 7 3700X Run PCIe 4.0 or 3.0?",
+      "body": [
+        "Both, depending on the board. The 3700X supports PCIe 4.0, but only B550 and X570 boards enable it for the graphics slot. On B450, X470 and older boards, the slot runs at PCIe 3.0.",
+        "The difference matters mainly for x8 cards, such as the RTX 5060, RTX 5060 Ti and RX 6600, which get half the bandwidth on PCIe 3.0. Every pick on this page uses sixteen lanes, including the budget RX 9060 XT 8GB, so none of them loses much on a PCIe 3.0 board."
+      ],
+      "table": {
+        "caption": "Graphics slot speed with a Ryzen 7 3700X",
+        "head": [
+          "Chipset",
+          "Slot runs at",
+          "x8 card gets",
+          "x16 card gets"
+        ],
+        "rows": [
+          [
+            "B350, X370, B450, X470",
+            "PCIe 3.0",
+            "3.0 x8",
+            "3.0 x16"
+          ],
+          [
+            "B550, X570",
+            "PCIe 4.0",
+            "4.0 x8",
+            "4.0 x16"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Will a Ryzen 7 3700X Bottleneck an RTX 5070?",
+      "body": [
+        "Partly, at 1080p; much less at 1440p. In CPU-heavy games, such as large multiplayer shooters and strategy titles, the 3700X caps frame rates at 1080p below what an RTX 5070 can deliver. At 1440p, the graphics card does more of the work and the pair is reasonably balanced.",
+        "Eight cores help the 3700X more than its age suggests: newer games spread work across more threads, which suits it better than six-core chips from the same year. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any card and resolution."
+      ]
+    },
+    {
+      "h": "Does the 3700X Support Smart Access Memory?",
+      "body": [
+        "Yes, on most boards after a BIOS update. AMD extended Smart Access Memory, its name for Resizable BAR, to Ryzen 3000-series desktop chips on 400- and 500-series boards. Enable it in the BIOS along with Above 4G Decoding.",
+        "It adds a few percent to Radeon cards in some games and a smaller gain to GeForce cards. It is required for Intel Arc cards, though Arc's driver overhead on Zen 2 is the bigger reason to avoid them here."
+      ]
+    },
+    {
+      "h": "Do You Need a New Power Supply?",
+      "body": [
+        "Usually not, if your current supply is a quality 650 W unit. The 3700X is a 65 W chip, and the RX 9070, RTX 5070 and RTX 4070 all fall in the 200–250 W range, with 650 W supplies recommended. The RX 9060 XT models run on 550 W.",
+        "If your build has an older or unbranded supply, replace it before adding a new card. Our [PSU calculator](/tools/psu-calculator/) adds up any combination."
+      ]
+    },
+    {
+      "h": "Should You Upgrade to a Ryzen 7 5700X3D First?",
+      "body": [
+        "If you play CPU-heavy games or target high refresh rates, yes. A Ryzen 7 5700X3D is a drop-in upgrade on most AM4 boards after a BIOS update, and its 96 MB of L3 cache lifts frame rates in exactly the games where a 3700X falls behind. It costs $200–$260 where available.",
+        "The practical order: update the BIOS, swap in the 5700X3D, then choose a card. With that chip, the ceiling moves up to RX 9070 XT or RTX 5070 Ti level at 1440p. Our [5800X3D vs 5700X3D comparison](/compare/ryzen-7-5800x3d-vs-ryzen-7-5700x3d/) helps choose between the two X3D chips."
+      ]
+    },
+    {
+      "h": "What Is the Most Powerful GPU Worth Pairing With a Ryzen 7 3700X?",
+      "body": [
+        "About RX 9070 or RTX 5070 level at 1440p, and RX 9060 XT 16GB level at 1080p. Faster cards work, but the 3700X leaves more of their speed unused, especially below 4K.",
+        "For upgraders coming from an older card, our [old GeForce](/old-nvidia-gpu-equivalents/) and [old Radeon](/old-amd-gpu-equivalents/) equivalents charts show how much faster each new card is."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Buying an x8 card for a B450 board",
+      "On PCIe 3.0, cards wired for eight lanes get half the bandwidth, which hurts most when their memory fills. Prefer x16 cards like the RX 9070 or RX 9060 XT on older boards."
+    ],
+    [
+      "Pairing a flagship card with Zen 2",
+      "An RX 9070 XT or RTX 5070 Ti on a 3700X below 4K leaves much of its speed unused. A 5700X3D plus an RX 9070 usually beats a flagship card on the old CPU for similar money."
+    ],
+    [
+      "Skipping the BIOS update",
+      "Smart Access Memory and Zen 3 X3D support both arrive through BIOS updates on many AM4 boards. Update before installing a new card or CPU."
+    ],
+    [
+      "Judging the CPU only by average frame rate",
+      "A 3700X often shows its age as lower 1% lows in busy scenes. If games feel uneven, the CPU is the likely cause, not the graphics card."
+    ]
+  ],
+  "bottomLine": "For a Ryzen 7 3700X, the RX 9070 is the card to buy in 2026: a full x16 link for B450 and B550 boards, 16 GB of memory and an efficient 220 W draw, matched to what the CPU can use at 1440p. Choose the RTX 5070 for NVIDIA features, the RX 9060 XT 16GB for 1080p, and a Ryzen 7 5700X3D before anything faster.",
+  "faqs": [
+    {
+      "q": "What is the best GPU for a Ryzen 7 3700X?",
+      "a": "The RX 9070 for 1440p. It has 16 GB, a full x16 link that suits PCIe 3.0 boards, and roughly matches what a 3700X can feed at that resolution. For 1080p, the RX 9060 XT 16GB is the better match."
+    },
+    {
+      "q": "Will a Ryzen 7 3700X bottleneck an RTX 5070 Ti?",
+      "a": "Yes, in many games below 4K. The 3700X caps frame rates in CPU-heavy titles before an RTX 5070 Ti is fully used. Upgrading to a Ryzen 7 5700X3D first makes that card a sensible match."
+    },
+    {
+      "q": "Is the Ryzen 7 3700X still good for gaming?",
+      "a": "Yes, for 60 fps and above in most games. Its eight cores age better than six-core chips of its era. It games roughly like a Core i5-9600K and falls behind newer chips in CPU-heavy, high-refresh play."
+    },
+    {
+      "q": "Does the Ryzen 7 3700X support PCIe 4.0?",
+      "a": "Yes, on B550 and X570 boards. On B450, X470 and older boards, the graphics slot runs at PCIe 3.0, which mainly affects cards wired for eight lanes."
+    },
+    {
+      "q": "What PSU do I need for a 3700X and RX 9070?",
+      "a": "A quality 650 W supply. The RX 9070 is rated at 220 W and the 3700X is a 65 W chip, leaving comfortable headroom. Use our PSU calculator to check your full build."
+    },
+    {
+      "q": "Should I upgrade my 3700X or my GPU first?",
+      "a": "If you play CPU-heavy games or want high refresh rates, a Ryzen 7 5700X3D first. If your current card is a GTX 10 or 16 series model and you play at 1440p, the GPU first."
+    },
+    {
+      "q": "Is an RTX 4070 good for a Ryzen 7 3700X?",
+      "a": "Yes, at 1440p. It uses sixteen lanes, draws about 200 W and supports DLSS 3. Buy it only at a clear discount, since the RTX 5070 is faster for similar money."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 7 3700X product specifications",
+    "AMD Smart Access Memory support documentation and AM4 motherboard BIOS notes",
+    "AMD Ryzen 7 5700X3D product page and AM4 CPU support lists",
+    "AMD Radeon RX 9070 and RX 9060 XT and NVIDIA GeForce RTX 5070 and RTX 4070 product pages",
+    "Published Zen 2 CPU scaling and PCIe scaling reviews from TechPowerUp and Hardware Unboxed",
+    "Owner reports from AM4 systems on enthusiast forums"
+  ],
+  "related": [
+    "best-gpu-for-ryzen-5-2600-and-3600",
+    "best-graphics-card-for-1440p",
+    "best-graphics-card-under-500"
+  ]
+}
