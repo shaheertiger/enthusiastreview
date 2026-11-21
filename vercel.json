@@ -161,6 +161,51 @@
       ],
       "destination": "https://www.enthusiastreview.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/gear/ibuypower-slate-rtx-4060/",
+      "destination": "https://www.enthusiastreview.com/gear/ibuypower-scale-rtx-4060/",
+      "permanent": true
+    },
+    {
+      "source": "/gear/ibuypower-slate-rtx-4060",
+      "destination": "https://www.enthusiastreview.com/gear/ibuypower-scale-rtx-4060/",
+      "permanent": true
+    },
+    {
+      "source": "/gear/ibuypower-slate-rtx-4060.md",
+      "destination": "https://www.enthusiastreview.com/gear/ibuypower-scale-rtx-4060.md",
+      "permanent": true
+    },
+    {
+      "source": "/gear/ibuypower-y40-rtx-5070/",
+      "destination": "https://www.enthusiastreview.com/gear/ibuypower-element-rtx-5070/",
+      "permanent": true
+    },
+    {
+      "source": "/gear/ibuypower-y40-rtx-5070",
+      "destination": "https://www.enthusiastreview.com/gear/ibuypower-element-rtx-5070/",
+      "permanent": true
+    },
+    {
+      "source": "/gear/ibuypower-y40-rtx-5070.md",
+      "destination": "https://www.enthusiastreview.com/gear/ibuypower-element-rtx-5070.md",
+      "permanent": true
+    },
+    {
+      "source": "/gear/corsair-vengeance-a8200-rtx-5080/",
+      "destination": "https://www.enthusiastreview.com/gear/corsair-vengeance-i5100-rtx-5080/",
+      "permanent": true
+    },
+    {
+      "source": "/gear/corsair-vengeance-a8200-rtx-5080",
+      "destination": "https://www.enthusiastreview.com/gear/corsair-vengeance-i5100-rtx-5080/",
+      "permanent": true
+    },
+    {
+      "source": "/gear/corsair-vengeance-a8200-rtx-5080.md",
+      "destination": "https://www.enthusiastreview.com/gear/corsair-vengeance-i5100-rtx-5080.md",
+      "permanent": true
     }
   ],
   "headers": [

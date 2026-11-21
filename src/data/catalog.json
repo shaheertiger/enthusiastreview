@@ -101,6 +101,12 @@
     "title": "CORSAIR Vengeance DDR5 RAM 32GB (2x16GB) 6000MHz CL30-36-36-76 1.40V Intel XMP Desktop Computer Memory - Black (CMK32GX5M2B6000C30)",
     "checked": "2026-11-19"
   },
+  "corsair-vengeance-i5100-rtx-5080": {
+    "asin": "B0DXVSRCTP",
+    "image": "https://m.media-amazon.com/images/I/41c08eJSjYL._SL500_.jpg",
+    "title": "Corsair Vengeance i5100 Gaming PC – Liquid Cooled Intel Core i9-14900KF CPU – NVIDIA GeForce RTX 5080 GPU – 32GB Dominator Titanium RGB DDR5 Memory – 2TB M.2 SSD – Black",
+    "checked": "2026-11-21"
+  },
   "corsair-vengeance-lpx-ddr4-3200-cl16": {
     "asin": "B07RW6Z692",
     "image": "https://m.media-amazon.com/images/I/31Hq8-Z9oWL._SL500_.jpg",
@@ -171,6 +177,18 @@
     "asin": "B0G6VBD6QP",
     "image": "https://m.media-amazon.com/images/I/41mBMxxCK6L._SL500_.jpg",
     "title": "HP OMEN 16L Gaming Desktop PC, AMD Ryzen 7 8700F, 32 GB RAM, 1 TB SSD, NVIDIA GeForce RTX 5060, Windows 11 Pro, Microsoft Copilot, Panda Metal",
+    "checked": "2026-11-21"
+  },
+  "ibuypower-element-rtx-5070": {
+    "asin": "B0GP2ZPSLJ",
+    "image": "https://m.media-amazon.com/images/I/41UqOV8Ha6L._SL500_.jpg",
+    "title": "iBUYPOWER Element Gaming PC Desktop Computer Intel Core i7 14700F CPU, NVIDIA GeForce RTX 5070 12GB GPU, 32GB DDR5 RAM, 1TB NVMe SSD, Windows 11 Home, Gamer Keyboard and Mouse - EBI7N5704",
+    "checked": "2026-11-21"
+  },
+  "ibuypower-scale-rtx-4060": {
+    "asin": "B0FNMKGVCB",
+    "image": "https://m.media-amazon.com/images/I/41G2bpSAk+L._SL500_.jpg",
+    "title": "iBUYPOWER Scale Gaming PC Desktop Computer Intel Core i5 14400F CPU, NVIDIA GeForce RTX 4060 8GB GPU, 16GB DDR5 RGB 5200MHz RAM, 1TB NVMe SSD, Windows 11 Home, Gamer Keyboard and Mouse - SCI5N4601",
     "checked": "2026-11-21"
   },
   "kingston-fury-beast-ddr5-6000-cl30": {

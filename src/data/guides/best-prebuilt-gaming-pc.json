@@ -78,13 +78,13 @@
       ]
     },
     {
-      "id": "ibuypower-y40-rtx-5070",
+      "id": "ibuypower-element-rtx-5070",
       "label": "Best for 1440p Under $1,600",
       "bestFor": "high-refresh 1440p at a mid-range price",
       "skipIf": "you want 16 GB of VRAM",
       "writeup": [
-        "The Y40 with an [RTX 5070](/gear/rtx-5070/) is a strong 1440p system, often paired with an Intel Core i7. The RTX 5070 runs most games at 1440p high settings, with DLSS 4 multi frame generation lifting frame rates further in supported games.",
-        "Its 12 GB of VRAM is enough for today but less than the 16 GB on the Azure 3's RTX 5070 Ti. iBuyPower uses standard parts and a large glass case, so airflow and upgrades are easy."
+        "The Element with an [RTX 5070](/gear/rtx-5070/) is a strong 1440p system; the listing we link pairs it with a Core i7-14700F and 32 GB of DDR5. The RTX 5070 runs most games at 1440p high settings, with DLSS 4 multi frame generation lifting frame rates further in supported games.",
+        "Its 12 GB of VRAM is enough for today but less than the 16 GB on the Azure 3's RTX 5070 Ti. iBuyPower uses standard parts and a glass case, so airflow and upgrades are easy."
       ],
       "pros": [
         "Strong 1440p",
@@ -103,7 +103,7 @@
       "skipIf": "you want the lowest price",
       "writeup": [
         "The MSI Aegis removes the biggest prebuilt worry: unknown parts. MSI builds it from its own motherboard, graphics card and power supply, all of which are documented and supported on MSI's site. With an RTX 5070 it performs like any other RTX 5070 system at 1440p.",
-        "It usually costs more than the iBuyPower Y40 for similar performance. Buy it when the gap is about $100 or less."
+        "It usually costs more than the iBuyPower Element for similar performance. Buy it when the gap is about $100 or less."
       ],
       "pros": [
         "Named MSI board, GPU and PSU",
@@ -153,12 +153,12 @@
       ]
     },
     {
-      "id": "corsair-vengeance-a8200-rtx-5080",
+      "id": "corsair-vengeance-i5100-rtx-5080",
       "label": "Best Premium Build",
-      "bestFor": "4K buyers who want named PSU, memory and cooling",
+      "bestFor": "4K buyers who want named memory and liquid cooling",
       "skipIf": "price per frame matters most",
       "writeup": [
-        "The Vengeance a8200 is built largely from Corsair's own power supply, memory, cooling and case, so the parts that usually go unnamed in a prebuilt are known quantities. With an RTX 5080 and an AMD Ryzen, it is one of the strongest prebuilt gaming PCs you can buy.",
+        "The Vengeance i5100 is built largely from Corsair's own memory, liquid cooling and case, so the parts that usually go unnamed in a prebuilt are known quantities. With an RTX 5080 and, in the listing we link, a liquid-cooled Core i9-14900KF, it is one of the strongest prebuilt gaming PCs you can buy.",
         "It costs more than system-builder RTX 5080 PCs. At 1440p, the Azure 3 with an RTX 5070 Ti gets close for roughly $900 less."
       ],
       "pros": [
@@ -192,8 +192,8 @@
   ],
   "mentions": [
     {
-      "id": "ibuypower-slate-rtx-4060",
-      "text": "The iBuyPower Slate with an RTX 4060 is a capable 1080p system at $800 to $950. When a Slate or Archangel with an RTX 5060 costs about the same, take the RTX 5060 version, which is faster and supports DLSS 4."
+      "id": "ibuypower-scale-rtx-4060",
+      "text": "The iBuyPower Scale with an RTX 4060 is a capable 1080p system at $800 to $950. When a Scale or Archangel with an RTX 5060 costs about the same, take the RTX 5060 version, which is faster and supports DLSS 4."
     },
     {
       "id": "hp-omen-16l-rtx-5060",

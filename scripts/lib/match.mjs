@@ -127,16 +127,16 @@ export const RULES = {
   'wd-black-sn7100': { q: 'WD Black SN7100 2TB WDS200T4X0E', all: [String.raw`sn7100\b`, String.raw`\b2\s*tb\b`], none: [String.raw`heatsink`] },
   // ---- prebuilt gaming PCs: brand + line + exact GPU must all be in the title (configs vary by listing)
   'cyberpowerpc-gamer-xtreme-rtx-3050': { system: true, all: [String.raw`cyberpower`, String.raw`gamer\s*xtreme`, String.raw`rtx\W*3050\b`], none: [SYS_NOT] },
-  'ibuypower-slate-rtx-4060': { system: true, all: [String.raw`ibuypower`, String.raw`\bslate\b`, String.raw`rtx\W*4060\b`], none: [String.raw`4060\s*ti`, SYS_NOT] },
+  'ibuypower-scale-rtx-4060': { system: true, all: [String.raw`ibuypower`, String.raw`\bscale\b`, String.raw`rtx\W*4060\b`], none: [String.raw`4060\s*ti`, SYS_NOT] },
   'skytech-archangel-rtx-5060': { system: true, all: [String.raw`skytech`, String.raw`archangel`, String.raw`rtx\W*5060\b`], none: [String.raw`5060\s*ti`, SYS_NOT] },
   'hp-omen-16l-rtx-5060': { system: true, all: [String.raw`\bomen\b`, String.raw`\b16l\b`, String.raw`rtx\W*5060\b`], none: [String.raw`5060\s*ti`, SYS_NOT] },
   'skytech-shadow-rtx-5060-ti': { system: true, all: [String.raw`skytech`, String.raw`\bshadow\b`, String.raw`rtx\W*5060\s*ti\b`], none: [String.raw`\b8\s*gb\b`, SYS_NOT] },
-  'ibuypower-y40-rtx-5070': { system: true, all: [String.raw`ibuypower`, String.raw`\by40\b`, String.raw`rtx\W*5070\b`], none: [String.raw`5070\s*ti`, SYS_NOT] },
+  'ibuypower-element-rtx-5070': { system: true, all: [String.raw`ibuypower`, String.raw`\belement\b`, String.raw`rtx\W*5070\b`], none: [String.raw`5070\s*ti|element\s*se\b`, SYS_NOT] },
   'msi-aegis-rtx-5070': { system: true, all: [String.raw`^msi`, String.raw`\baegis\b`, String.raw`rtx\W*5070\b`], none: [String.raw`5070\s*ti`, SYS_NOT] },
   'skytech-azure-3-rtx-5070-ti': { system: true, all: [String.raw`skytech`, String.raw`azure\s*3\b`, String.raw`rtx\W*5070\s*ti\b`], none: [SYS_NOT] },
   'cyberpowerpc-gamer-supreme-rtx-5070-ti': { system: true, all: [String.raw`cyberpower`, String.raw`gamer\s*supreme`, String.raw`rtx\W*5070\s*ti\b`], none: [SYS_NOT] },
   'alienware-aurora-rtx-5080': { system: true, all: [String.raw`alienware`, String.raw`aurora`, String.raw`rtx\W*5080\b`], none: [SYS_NOT] },
-  'corsair-vengeance-a8200-rtx-5080': { system: true, all: [String.raw`^corsair`, String.raw`vengeance\s*a8200`, String.raw`rtx\W*5080\b`], none: [SYS_NOT] },
+  'corsair-vengeance-i5100-rtx-5080': { system: true, all: [String.raw`^corsair`, String.raw`vengeance\s*i5100`, String.raw`rtx\W*5080\b`], none: [SYS_NOT] },
 };
 
 /** Does this Amazon title pass the product's rule? */

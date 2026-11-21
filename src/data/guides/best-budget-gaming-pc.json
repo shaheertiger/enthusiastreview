@@ -21,7 +21,7 @@
     "A budget gaming PC in 2026 starts around $600 for a new system with a real graphics card. Below that, new prebuilts rarely include a GPU worth having, and used or refurbished systems become the better route.",
     "These three picks cover $600 to about $1,050. The sections below explain what each budget tier buys, from $500 to $800, and how to get the most from a small budget."
   ],
-  "quickAnswer": "The best budget gaming PC is the Skytech Archangel with an RTX 5060, at about $850 to $1,050, for 1080p high settings with DLSS 4. Under $950, the iBuyPower Slate with an RTX 4060 is the value pick. Under $750, the CyberPowerPC Gamer Xtreme with an RTX 3050 is the cheapest new PC worth buying; under $600, look at used systems.",
+  "quickAnswer": "The best budget gaming PC is the Skytech Archangel with an RTX 5060, at about $850 to $1,050, for 1080p high settings with DLSS 4. Under $950, the iBuyPower Scale with an RTX 4060 is the value pick. Under $750, the CyberPowerPC Gamer Xtreme with an RTX 3050 is the cheapest new PC worth buying; under $600, look at used systems.",
   "picks": [
     {
       "id": "skytech-archangel-rtx-5060",
@@ -42,12 +42,12 @@
       ]
     },
     {
-      "id": "ibuypower-slate-rtx-4060",
+      "id": "ibuypower-scale-rtx-4060",
       "label": "Best Under $950",
       "bestFor": "1080p gaming with a little less to spend",
       "skipIf": "an RTX 5060 system costs the same",
       "writeup": [
-        "The Slate with an [RTX 4060](/gear/rtx-4060/) is a capable 1080p machine that usually costs a bit less than RTX 5060 systems. It runs most current games at 1080p high settings and draws little power, so it stays cool and quiet.",
+        "The Scale with an [RTX 4060](/gear/rtx-4060/) is a capable 1080p machine that usually costs a bit less than RTX 5060 systems. It runs most current games at 1080p high settings and draws little power, so it stays cool and quiet.",
         "Only buy it when it is clearly cheaper than an RTX 5060 system with the same CPU, memory and storage, since the newer card is faster."
       ],
       "pros": [
@@ -107,7 +107,7 @@
     {
       "h": "What Is the Best Gaming PC Under $800?",
       "body": [
-        "Around $800, the target is an RTX 4060 system such as the iBuyPower Slate, which runs most current games at 1080p high settings. Sales sometimes bring RTX 5060 systems close to $850, and those are the better buy when the gap is small.",
+        "Around $800, the target is an RTX 4060 system such as the iBuyPower Scale, which runs most current games at 1080p high settings. Sales sometimes bring RTX 5060 systems close to $850, and those are the better buy when the gap is small.",
         "At this budget, check the memory layout and SSD size carefully: builders often save money with a single memory stick or a 500 GB drive, and both are worth fixing."
       ],
       "table": {
@@ -200,7 +200,7 @@
       "Budget prebuilts go on sale often. Prices that sit $100 above the usual band are common outside sale periods, so compare across stores before buying."
     ]
   ],
-  "bottomLine": "The best budget gaming PC is the Skytech Archangel with an RTX 5060 at about $850 to $1,050, which handles current games at 1080p high settings. The iBuyPower Slate with an RTX 4060 is the pick under $950, and the CyberPowerPC Gamer Xtreme with an RTX 3050 is the cheapest new gaming PC worth buying, under $750. Below $600, a used or refurbished system, or a console, gives better gaming performance for the money.",
+  "bottomLine": "The best budget gaming PC is the Skytech Archangel with an RTX 5060 at about $850 to $1,050, which handles current games at 1080p high settings. The iBuyPower Scale with an RTX 4060 is the pick under $950, and the CyberPowerPC Gamer Xtreme with an RTX 3050 is the cheapest new gaming PC worth buying, under $750. Below $600, a used or refurbished system, or a console, gives better gaming performance for the money.",
   "faqs": [
     {
       "q": "What is the best budget gaming PC?",
