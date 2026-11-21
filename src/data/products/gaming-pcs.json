@@ -73,7 +73,7 @@
     "verdict": [
       "The Gamer Xtreme with an RTX 3050 is about the least you can spend on a new prebuilt that still has a real graphics card. Listings usually pair the card with a recent Intel Core i5, 16 GB of memory and an NVMe SSD, which is a sensible base: the CPU is strong enough that a much faster graphics card can go in later without the processor holding it back.",
       "The weak point is the RTX 3050 itself. It handles Fortnite, Valorant, Counter-Strike 2, Rocket League and Minecraft at 1080p, but new AAA games need medium or low settings, and the 6 GB version is noticeably slower than the 8 GB card. Independent reviews put an RTX 5060 roughly twice as fast, so this machine makes most sense when the budget is truly fixed near $700.",
-      "Two things decide whether a specific listing is a good buy. Check that the memory is two sticks rather than one, because single-channel memory costs frame rate in CPU-heavy games, and check the power supply's wattage and brand so you know whether an RTX 5060-class upgrade will be possible. If the price climbs past about $800, the [iBuyPower Slate with an RTX 4060](/gear/ibuypower-slate-rtx-4060/) is the better buy."
+      "Two things decide whether a specific listing is a good buy. Check that the memory is two sticks rather than one, because single-channel memory costs frame rate in CPU-heavy games, and check the power supply's wattage and brand so you know whether an RTX 5060-class upgrade will be possible. If the price climbs past about $800, the [iBuyPower Slate with an RTX 4060](/gear/ibuypower-scale-rtx-4060/) is the better buy."
     ],
     "pros": [
       "Low entry price for a new PC with a real GPU",
@@ -109,9 +109,9 @@
     ]
   },
   {
-    "id": "ibuypower-slate-rtx-4060",
-    "name": "iBuyPower Slate (RTX 4060)",
-    "short": "Slate RTX 4060",
+    "id": "ibuypower-scale-rtx-4060",
+    "name": "iBuyPower Scale (RTX 4060)",
+    "short": "Scale RTX 4060",
     "brand": "ibuypower",
     "category": "gaming-pcs",
     "released": "2025",
@@ -119,9 +119,9 @@
       800,
       950
     ],
-    "amazon": "iBuyPower Slate RTX 4060 gaming PC",
-    "description": "The iBuyPower Slate with an RTX 4060 is an $800 to $950 1080p gaming PC with DLSS 3 frame generation. Confirm the CPU and dual-channel memory in the listing.",
-    "quick": "An iBuyPower Slate tower with an RTX 4060, which handles 1080p high settings in most current games and supports DLSS frame generation. Listings vary on CPU, memory and storage.",
+    "amazon": "iBuyPower Scale RTX 4060 gaming PC",
+    "description": "The iBuyPower Scale with an RTX 4060 is an $800 to $950 1080p gaming PC with DLSS 3 frame generation. Confirm the CPU and dual-channel memory in the listing.",
+    "quick": "An iBuyPower Scale tower with an RTX 4060 and, in the Amazon listing we link, an Intel Core i5-14400F, 16 GB of DDR5 and a 1 TB SSD. It handles 1080p high settings in most current games.",
     "bestFor": "1080p gamers who want a capable prebuilt under $1,000 with DLSS support",
     "skipIf": "You can stretch to an RTX 5060 Ti 16GB system, which ages much better at 1440p",
     "specs": [
@@ -131,27 +131,27 @@
       ],
       [
         "Processor",
-        "Varies by listing (Intel Core i5 or AMD Ryzen 5 class)"
+        "Intel Core i5-14400F (in the Amazon listing we link)"
       ],
       [
         "Memory",
-        "16 GB in most listings; check for two sticks"
+        "16 GB DDR5-5200; check for two sticks"
       ],
       [
         "Storage",
-        "1 TB NVMe SSD in many listings (varies)"
+        "1 TB NVMe SSD"
       ],
       [
         "Power supply",
-        "Varies by listing; check brand and wattage"
+        "Check the listing for brand and wattage"
       ],
       [
         "Motherboard",
-        "Varies by listing"
+        "Check the listing"
       ],
       [
-        "Cooling",
-        "Air cooled in most configurations"
+        "Extras",
+        "Keyboard and mouse, Windows 11 Home"
       ],
       [
         "Warranty",
@@ -180,8 +180,8 @@
       ]
     },
     "verdict": [
-      "The Slate with an RTX 4060 is a solid 1080p machine. The [RTX 4060](/gear/rtx-4060/) runs most current games at 1080p high settings, and DLSS 3 frame generation helps in the games that support it. Independent reviews put it roughly level with an RTX 3060 Ti in raster at 1080p, with much lower power draw, so it is easy on the power supply and quiet in a small case.",
-      "Its limit is the 8 GB of VRAM, which already forces texture settings down in some new releases, and the card is being replaced by the RTX 5060, which is somewhat faster for similar money. If you find a Slate with an RTX 5060 near the same price, take that one. iBuyPower uses standard desktop parts, so upgrading the graphics card or adding storage later is straightforward.",
+      "The Scale with an RTX 4060 is a solid 1080p machine. The [RTX 4060](/gear/rtx-4060/) runs most current games at 1080p high settings, and DLSS 3 frame generation helps in the games that support it. Independent reviews put it roughly level with an RTX 3060 Ti in raster at 1080p, with much lower power draw, so it is easy on the power supply and quiet in a small case.",
+      "Its limit is the 8 GB of VRAM, which already forces texture settings down in some new releases, and the card is being replaced by the RTX 5060, which is somewhat faster for similar money. If you find a Scale with an RTX 5060 near the same price, take that one. iBuyPower uses standard desktop parts, so upgrading the graphics card or adding storage later is straightforward.",
       "As with every prebuilt in this range, the details matter more than the name. Look for a current six-core CPU, two sticks of memory, at least a 1 TB SSD and a named power supply. The [Skytech Archangel with an RTX 5060](/gear/skytech-archangel-rtx-5060/) is the closest alternative and usually costs a little more."
     ],
     "pros": [
@@ -204,11 +204,11 @@
     },
     "faqs": [
       {
-        "q": "Is the iBuyPower Slate good for gaming?",
-        "a": "Yes, at the right configuration. With an RTX 4060, the Slate runs most current games at 1080p high settings. Check the CPU, the memory layout and the power supply in the listing, because configurations vary under the same name."
+        "q": "Is the iBuyPower Scale good for gaming?",
+        "a": "Yes, at the right configuration. With an RTX 4060, the Scale runs most current games at 1080p high settings. Check the CPU, the memory layout and the power supply in the listing, because configurations vary under the same name."
       },
       {
-        "q": "Can the iBuyPower Slate with an RTX 4060 run 1440p?",
+        "q": "Can the iBuyPower Scale with an RTX 4060 run 1440p?",
         "a": "In lighter and older games, yes, especially with DLSS. In demanding new releases it is a 1080p card, and its 8 GB of VRAM means lowering texture settings at 1440p."
       },
       {
@@ -399,7 +399,7 @@
     },
     "verdict": [
       "The Omen 16L is HP's small gaming desktop, and in an RTX 5060 configuration it delivers the same 1080p high-settings performance as other RTX 5060 systems. Its appeal is the package: a compact case that fits on or under a desk, HP's warranty and support, and availability at big-box stores where you can return it easily.",
-      "The cost is flexibility. HP uses its own motherboard and power supply designs in the Omen line, and a compact case limits the size of a future graphics card. Owners report that upgrading the GPU or power supply can be harder than in a standard tower, so if you expect to swap major parts, the [Skytech Archangel](/gear/skytech-archangel-rtx-5060/) or [iBuyPower Slate](/gear/ibuypower-slate-rtx-4060/) is the better base.",
+      "The cost is flexibility. HP uses its own motherboard and power supply designs in the Omen line, and a compact case limits the size of a future graphics card. Owners report that upgrading the GPU or power supply can be harder than in a standard tower, so if you expect to swap major parts, the [Skytech Archangel](/gear/skytech-archangel-rtx-5060/) or [iBuyPower Slate](/gear/ibuypower-scale-rtx-4060/) is the better base.",
       "Prices swing a lot with HP's frequent sales, and the Omen 16L is only good value toward the bottom of its range. Configurations also vary in CPU, memory and storage, so compare the exact specification against an RTX 5060 tower before buying."
     ],
     "pros": [
@@ -509,7 +509,7 @@
     "verdict": [
       "The Shadow with an RTX 5060 Ti 16GB is the prebuilt we would point most people to if they can spend about $1,200. The [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) is a clear step above the RTX 5060 in independent reviews, and its 16 GB of VRAM is the important part: high texture settings stay available in new releases long after 8 GB cards have to drop them.",
       "That makes it a strong 1080p machine and a capable 1440p one, with DLSS 4 to help in demanding games. The one catch is the name: the RTX 5060 Ti also comes in an 8 GB version, and some listings use it to hit a lower price. Confirm 16 GB in the listing title before you buy, because the 8 GB card loses most of the advantage.",
-      "Beyond the GPU, check that the CPU is a current six- or eight-core chip, that memory is two sticks, and that the power supply is a named unit of 650 W or more. Moving up to the [iBuyPower Y40 with an RTX 5070](/gear/ibuypower-y40-rtx-5070/) adds more speed at 1440p, but costs about $250 more and has 12 GB of VRAM."
+      "Beyond the GPU, check that the CPU is a current six- or eight-core chip, that memory is two sticks, and that the power supply is a named unit of 650 W or more. Moving up to the [iBuyPower Y40 with an RTX 5070](/gear/ibuypower-element-rtx-5070/) adds more speed at 1440p, but costs about $250 more and has 12 GB of VRAM."
     ],
     "pros": [
       "16 GB of VRAM ages well",
@@ -545,9 +545,9 @@
     ]
   },
   {
-    "id": "ibuypower-y40-rtx-5070",
-    "name": "iBuyPower Y40 (RTX 5070)",
-    "short": "Y40 RTX 5070",
+    "id": "ibuypower-element-rtx-5070",
+    "name": "iBuyPower Element (RTX 5070)",
+    "short": "Element RTX 5070",
     "brand": "ibuypower",
     "category": "gaming-pcs",
     "released": "2025",
@@ -555,9 +555,9 @@
       1300,
       1600
     ],
-    "amazon": "iBuyPower Y40 RTX 5070 gaming PC",
-    "description": "The iBuyPower Y40 with an RTX 5070 is a $1,300 to $1,600 prebuilt for high-refresh 1440p with DLSS 4 frame generation. Check the CPU and PSU in the listing.",
-    "quick": "An iBuyPower Y40 tower in an RTX 5070 configuration, often with an Intel Core i7. It is built for high-refresh 1440p gaming, with a glass case and standard parts.",
+    "amazon": "iBuyPower Element RTX 5070 gaming PC",
+    "description": "The iBuyPower Element with an RTX 5070 is a $1,300 to $1,600 prebuilt for high-refresh 1440p with DLSS 4 frame generation. Check the CPU and PSU in the listing.",
+    "quick": "An iBuyPower Element tower with an RTX 5070 and, in the Amazon listing we link, an Intel Core i7-14700F, 32 GB of DDR5 and a 1 TB SSD. It is built for high-refresh 1440p gaming.",
     "bestFor": "1440p gamers who want a high-refresh prebuilt for about $1,500",
     "skipIf": "You want 16 GB of VRAM at this price; look for an RX 9070 configuration or the Shadow with an RTX 5060 Ti 16GB",
     "specs": [
@@ -567,27 +567,27 @@
       ],
       [
         "Processor",
-        "Intel Core i7 class in many listings (varies)"
+        "Intel Core i7-14700F (in the Amazon listing we link)"
       ],
       [
         "Memory",
-        "16 GB to 32 GB (varies); check for two sticks"
+        "32 GB DDR5; check for two sticks"
       ],
       [
         "Storage",
-        "1 TB to 2 TB NVMe SSD (varies)"
+        "1 TB NVMe SSD"
       ],
       [
         "Power supply",
-        "Varies by listing; check brand and wattage"
+        "Check the listing for brand and wattage"
       ],
       [
         "Motherboard",
-        "Varies by listing"
+        "Check the listing"
       ],
       [
-        "Cooling",
-        "Liquid cooled in many listings (varies)"
+        "Extras",
+        "Keyboard and mouse, Windows 11 Home"
       ],
       [
         "Warranty",
@@ -616,14 +616,14 @@
       ]
     },
     "verdict": [
-      "The Y40 with an RTX 5070 is a good fit for high-refresh 1440p. The [RTX 5070](/gear/rtx-5070/) runs most current games at 1440p high settings, and DLSS 4 with multi frame generation lifts frame rates further in the games that support it. Many Y40 listings pair it with an Intel Core i7, which is plenty of CPU for this card.",
+      "The Element with an RTX 5070 is a good fit for high-refresh 1440p. The [RTX 5070](/gear/rtx-5070/) runs most current games at 1440p high settings, and DLSS 4 with multi frame generation lifts frame rates further in the games that support it. The Amazon listing we link pairs it with a 20-core Intel Core i7-14700F and 32 GB of DDR5, which is plenty for this card.",
       "The trade-off is memory: the RTX 5070 has 12 GB of VRAM, enough for 1440p today but less than AMD's RX 9070 offers at a similar price. If you keep a PC for five years or more and play big open-world games with high textures, that is worth weighing. Independent reviews put the RX 9070 slightly ahead in raster and the RTX 5070 ahead with ray tracing.",
-      "iBuyPower builds the Y40 with standard parts and a large glass case, so airflow and upgrades are straightforward. As always, check the power supply: an RTX 5070 system should have a named 650 W to 750 W unit. For more speed, the [Skytech Azure 3 with an RTX 5070 Ti](/gear/skytech-azure-3-rtx-5070-ti/) adds 16 GB of VRAM for about $400 more."
+      "iBuyPower builds the Element with standard parts and a glass case, so airflow and upgrades are straightforward. As always, check the power supply: an RTX 5070 system should have a named 650 W to 750 W unit. For more speed, the [Skytech Azure 3 with an RTX 5070 Ti](/gear/skytech-azure-3-rtx-5070-ti/) adds 16 GB of VRAM for about $400 more."
     ],
     "pros": [
       "RTX 5070 handles high-refresh 1440p",
       "DLSS 4 multi frame generation",
-      "Often paired with a Core i7",
+      "Core i7-14700F and 32 GB DDR5 in the linked listing",
       "Roomy, upgradeable case"
     ],
     "cons": [
@@ -640,16 +640,16 @@
     },
     "faqs": [
       {
-        "q": "Is the iBuyPower Y40 good?",
+        "q": "Is the iBuyPower Element good?",
         "a": "In an RTX 5070 configuration it is a strong 1440p gaming PC for about $1,300 to $1,600. Check the CPU, memory layout and power supply in the specific listing."
-      },
-      {
-        "q": "What does the iBuyPower Y40 model number mean?",
-        "a": "iBuyPower model codes such as Y40BI7N5701 encode the case line, the CPU and the GPU. Read the full specification table rather than relying on the code, and confirm the exact graphics card model."
       },
       {
         "q": "Is 12 GB of VRAM enough for 1440p?",
         "a": "For most games today, yes. A few recent releases with ultra textures use more, and the gap will grow over time. If you keep PCs for many years, a 16 GB card is the safer choice."
+      },
+      {
+        "q": "Does the Core i7-14700F need a BIOS update?",
+        "a": "Intel released microcode updates for 13th and 14th gen Core processors to address instability reports. Check that the system's BIOS is current when you set it up, using the motherboard maker's update tool or support page."
       }
     ]
   },
@@ -726,7 +726,7 @@
     },
     "verdict": [
       "The Aegis is MSI's own gaming desktop, and its main advantage over system-builder brands is that the important parts are MSI components: the motherboard, the graphics card and the power supply. That removes the usual prebuilt worry about an unbranded power supply or an unknown motherboard, and MSI publishes BIOS updates and drivers for the parts on its support site.",
-      "In an RTX 5070 configuration, gaming performance matches any other RTX 5070 system: high settings at 1440p in most current games, with DLSS 4 multi frame generation where supported. The 12 GB of VRAM is the same limit as on the [iBuyPower Y40](/gear/ibuypower-y40-rtx-5070/), which usually costs less for similar performance.",
+      "In an RTX 5070 configuration, gaming performance matches any other RTX 5070 system: high settings at 1440p in most current games, with DLSS 4 multi frame generation where supported. The 12 GB of VRAM is the same limit as on the [iBuyPower Y40](/gear/ibuypower-element-rtx-5070/), which usually costs less for similar performance.",
       "The case is more compact and more customized than a standard ATX tower, so check graphics card length and power supply wattage if you plan a big upgrade later. Buy the Aegis when it is priced within about $100 of the system-builder alternatives; at a bigger gap, the Y40 is the better value."
     ],
     "pros": [
@@ -1090,9 +1090,9 @@
     ]
   },
   {
-    "id": "corsair-vengeance-a8200-rtx-5080",
-    "name": "Corsair Vengeance a8200 (RTX 5080)",
-    "short": "Vengeance a8200 5080",
+    "id": "corsair-vengeance-i5100-rtx-5080",
+    "name": "Corsair Vengeance i5100 (RTX 5080)",
+    "short": "Vengeance i5100 5080",
     "brand": "corsair",
     "category": "gaming-pcs",
     "released": "2025",
@@ -1100,9 +1100,9 @@
       2600,
       3100
     ],
-    "amazon": "Corsair Vengeance a8200 RTX 5080 gaming PC",
-    "description": "The Corsair Vengeance a8200 with an RTX 5080 is a $2,600 to $3,100 4K gaming PC built from named Corsair parts, including its PSU, memory and cooling.",
-    "quick": "Corsair's AMD-based Vengeance a8200 gaming PC in an RTX 5080 configuration. Corsair builds it largely from its own power supply, memory, cooling and case.",
+    "amazon": "Corsair Vengeance i5100 RTX 5080 gaming PC",
+    "description": "The Corsair Vengeance i5100 with an RTX 5080 is a $2,600 to $3,100 4K gaming PC with a liquid-cooled Core i9-14900KF and named Corsair memory and cooling.",
+    "quick": "Corsair's Intel-based Vengeance i5100 in an RTX 5080 configuration: in the Amazon listing we link, a liquid-cooled Core i9-14900KF, 32 GB of Dominator Titanium DDR5 and a 2 TB SSD.",
     "bestFor": "4K gamers who want a premium prebuilt with named power supply, memory and cooling",
     "skipIf": "Price per frame matters most; an RTX 5070 Ti system is close at 1440p for much less",
     "specs": [
@@ -1112,27 +1112,27 @@
       ],
       [
         "Processor",
-        "AMD Ryzen (model varies by configuration)"
+        "Intel Core i9-14900KF, liquid cooled (in the Amazon listing we link)"
       ],
       [
         "Memory",
-        "Corsair Vengeance DDR5 (capacity varies)"
+        "32 GB Corsair Dominator Titanium RGB DDR5"
       ],
       [
         "Storage",
-        "Corsair NVMe SSD (capacity varies)"
+        "2 TB M.2 NVMe SSD"
       ],
       [
         "Power supply",
-        "Corsair unit; wattage varies by configuration"
+        "Corsair unit; check the listing for wattage"
       ],
       [
         "Motherboard",
-        "Varies by configuration"
+        "Check the listing"
       ],
       [
         "Cooling",
-        "Corsair liquid cooling in many configurations"
+        "Corsair liquid cooling"
       ],
       [
         "Warranty",
@@ -1140,11 +1140,11 @@
       ]
     ],
     "score": {
-      "overall": 83,
+      "overall": 82,
       "parts": [
         [
           "Gaming performance",
-          94
+          93
         ],
         [
           "Parts quality",
@@ -1152,7 +1152,7 @@
         ],
         [
           "Upgradability",
-          78
+          76
         ],
         [
           "Value",
@@ -1161,19 +1161,19 @@
       ]
     },
     "verdict": [
-      "The Vengeance a8200 is Corsair's AMD-based gaming PC, and its strength is the parts list. Corsair makes power supplies, memory, coolers, SSDs and cases, so a Vengeance system is built largely from named Corsair components rather than unbranded ones. That is the main reason to pay its premium over a system-builder RTX 5080 PC.",
-      "With an [RTX 5080](/gear/rtx-5080/), it is a 4K machine: demanding games run well at 4K with DLSS 4, and high-refresh 1440p is easy. If the configuration uses an X3D Ryzen such as the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/), it is also one of the fastest gaming CPU pairings available.",
-      "The case is a standard design with good airflow, so upgrades are easier than in most brand-name desktops. The cost is price: expect to pay more than for a Skytech or CyberPowerPC RTX 5080 system with similar headline specs. If 1440p is your target, the [Skytech Azure 3 with an RTX 5070 Ti](/gear/skytech-azure-3-rtx-5070-ti/) gets close for roughly $900 less."
+      "The Vengeance i5100 is Corsair's Intel-based gaming PC, and its strength is the parts list. Corsair makes power supplies, memory, coolers, SSDs and cases, so a Vengeance system is built largely from named Corsair components rather than unbranded ones. In the listing we link that means Dominator Titanium DDR5 and Corsair liquid cooling, the main reasons to pay its premium over a system-builder RTX 5080 PC.",
+      "With an [RTX 5080](/gear/rtx-5080/), it is a 4K machine: demanding games run well at 4K with DLSS 4, and high-refresh 1440p is easy. The Core i9-14900KF is a fast 24-core chip for gaming and heavy work, though for gaming alone the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) is faster in most games, as our [9800X3D vs 14900K comparison](/compare/ryzen-7-9800x3d-vs-core-i9-14900k/) shows. Intel issued microcode updates for 13th and 14th gen chips after instability reports, so update the BIOS when you set it up.",
+      "The cost is price: expect to pay more than for a Skytech or CyberPowerPC RTX 5080 system with similar headline specs. If 1440p is your target, the [Skytech Azure 3 with an RTX 5070 Ti](/gear/skytech-azure-3-rtx-5070-ti/) gets close for roughly $900 less."
     ],
     "pros": [
-      "Named Corsair PSU, memory and cooling",
+      "Named Corsair memory and liquid cooling",
       "RTX 5080 for 4K",
-      "Standard, upgradeable case",
-      "AMD Ryzen platform"
+      "24-core Core i9-14900KF for work as well as games",
+      "2 TB SSD in the linked listing"
     ],
     "cons": [
       "Premium price",
-      "Configurations vary",
+      "Core i9-14900KF runs hot and needs a current BIOS",
       "RTX 5070 Ti systems are close at 1440p"
     ],
     "extra": {
@@ -1185,12 +1185,12 @@
     },
     "faqs": [
       {
-        "q": "Is the Corsair Vengeance a8200 good?",
-        "a": "Yes, if you value named parts: Corsair builds it from its own power supply, memory and cooling. With an RTX 5080 it is a 4K gaming PC, though it costs more than system-builder equivalents."
+        "q": "Is the Corsair Vengeance i5100 good?",
+        "a": "Yes, if you value named parts: Corsair builds it with its own memory and liquid cooling. With an RTX 5080 it is a 4K gaming PC, though it costs more than system-builder equivalents."
       },
       {
-        "q": "What is the difference between the Vengeance a8200 and i7600?",
-        "a": "The a in the name marks an AMD Ryzen platform and the i an Intel platform. Check the exact CPU and graphics card in each listing, since both names cover several configurations."
+        "q": "What is the difference between the Vengeance i5100 and a-series models?",
+        "a": "The i in the name marks an Intel platform and the a an AMD Ryzen platform. Check the exact CPU and graphics card in each listing, since each name covers several configurations."
       },
       {
         "q": "Is an RTX 5080 PC worth it over an RTX 5070 Ti PC?",

@@ -18,7 +18,7 @@
     "A $1,000 gaming PC in 2026 buys an RTX 5060-class graphics card, a current six-core CPU, 16 GB of memory and a 1 TB SSD. That is enough for current games at 1080p high settings and lighter games at 1440p.",
     "These four systems are ranked by the parts inside at the price they usually sell for. Configurations change, so each pick lists what to confirm in the listing."
   ],
-  "quickAnswer": "The best gaming PC under $1,000 is the Skytech Archangel with an RTX 5060, which sells for about $850 to $1,050 and runs current games at 1080p high settings with DLSS 4. The iBuyPower Slate with an RTX 4060 costs a little less, and the CyberPowerPC Gamer Xtreme with an RTX 3050 is the pick under $750.",
+  "quickAnswer": "The best gaming PC under $1,000 is the Skytech Archangel with an RTX 5060, which sells for about $850 to $1,050 and runs current games at 1080p high settings with DLSS 4. The iBuyPower Scale with an RTX 4060 costs a little less, and the CyberPowerPC Gamer Xtreme with an RTX 3050 is the pick under $750.",
   "picks": [
     {
       "id": "skytech-archangel-rtx-5060",
@@ -41,13 +41,13 @@
       ]
     },
     {
-      "id": "ibuypower-slate-rtx-4060",
+      "id": "ibuypower-scale-rtx-4060",
       "label": "Best Value Under $950",
       "bestFor": "1080p gaming when the budget is closer to $900",
       "skipIf": "an RTX 5060 system costs the same",
       "writeup": [
-        "The Slate with an [RTX 4060](/gear/rtx-4060/) is a capable 1080p PC that often sells for $100 or so less than RTX 5060 systems. The RTX 4060 runs most current games at 1080p high settings, uses little power and supports DLSS 3 frame generation.",
-        "It is being replaced by the RTX 5060, which is faster for similar money. Buy the Slate only when it is clearly cheaper than an RTX 5060 system with the same CPU, memory and storage."
+        "The Scale with an [RTX 4060](/gear/rtx-4060/) is a capable 1080p PC that often sells for $100 or so less than RTX 5060 systems. The RTX 4060 runs most current games at 1080p high settings, uses little power and supports DLSS 3 frame generation.",
+        "It is being replaced by the RTX 5060, which is faster for similar money. Buy the Scale only when it is clearly cheaper than an RTX 5060 system with the same CPU, memory and storage."
       ],
       "pros": [
         "Lower price",
@@ -215,7 +215,7 @@
       "Under $1,000, a 1440p monitor is ambitious in new games. Pair these PCs with a 1080p high-refresh monitor, or stretch to a 16 GB RTX 5060 Ti system for 1440p."
     ]
   ],
-  "bottomLine": "The best gaming PC under $1,000 is the Skytech Archangel with an RTX 5060, at about $850 to $1,050, which runs current games at 1080p high settings with DLSS 4. The iBuyPower Slate with an RTX 4060 is the value pick when it is clearly cheaper, the HP Omen 16L suits small desks on sale, and the CyberPowerPC Gamer Xtreme with an RTX 3050 is the choice under $750. If you can stretch to about $1,200, a 16 GB RTX 5060 Ti system lasts noticeably longer.",
+  "bottomLine": "The best gaming PC under $1,000 is the Skytech Archangel with an RTX 5060, at about $850 to $1,050, which runs current games at 1080p high settings with DLSS 4. The iBuyPower Scale with an RTX 4060 is the value pick when it is clearly cheaper, the HP Omen 16L suits small desks on sale, and the CyberPowerPC Gamer Xtreme with an RTX 3050 is the choice under $750. If you can stretch to about $1,200, a 16 GB RTX 5060 Ti system lasts noticeably longer.",
   "faqs": [
     {
       "q": "What is the best gaming PC under $1,000?",
