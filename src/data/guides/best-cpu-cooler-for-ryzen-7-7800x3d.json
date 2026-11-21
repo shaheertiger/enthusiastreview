@@ -1,0 +1,291 @@
+{
+  "slug": "best-cpu-cooler-for-ryzen-7-7800x3d",
+  "type": "roundup",
+  "category": "cpu-coolers",
+  "title": "Best CPU Cooler for Ryzen 7 7800X3D (2026): 6 Coolers Ranked",
+  "h1": "Best CPU Cooler for Ryzen 7 7800X3D",
+  "query": "best cpu cooler for ryzen 7 7800x3d",
+  "description": "A $35–$45 Peerless Assassin 120 SE is the best 7800X3D cooler: 6 heat pipes for a chip that draws far under its 120 W rating in games. 6 picks from $18.",
+  "dek": "The 7800X3D sips power but reads warm, and that mix decides which cooler is worth buying. Here are six that suit it, from $18 to $110.",
+  "intro": [
+    "The Thermalright Peerless Assassin 120 SE is the best cooler for the Ryzen 7 7800X3D. For $35 to $45 it brings six heat pipes and two 120 mm fans to a chip that independent reviews show drawing well under its 120 W rating in most games, so it runs quietly and leaves real headroom for long all-core work.",
+    "This guide is for 7800X3D owners and buyers who want to stop worrying about temperatures that look high on paper. We explain why this chip reads warm at low power, how hot it should run, and which cooler class fits each way of using it, from a $20 single tower to a 360 mm AIO."
+  ],
+  "quickAnswer": "Buy the Thermalright Peerless Assassin 120 SE ($35–$45) for a 7800X3D gaming build. On a tight budget, the $18–$25 Assassin X 120 Refined SE is enough at stock. Pick the Arctic Freezer 36 for tall RGB memory, and the Arctic Liquid Freezer III Pro 360 ($85–$110) only for long all-core work or a quieter rendering PC.",
+  "picks": [
+    {
+      "id": "thermalright-peerless-assassin-120-se",
+      "label": "Best Overall",
+      "bestFor": "a stock 7800X3D gaming PC in a standard mid-tower",
+      "skipIf": "your case allows less than about 158 mm of cooler height",
+      "writeup": [
+        "The 7800X3D is an easy chip to cool in terms of raw power, and the Peerless Assassin 120 SE has more capacity than it will ever ask for at stock settings. AMD rates the processor at 120 W, but reviews consistently show it drawing far less in games, often well under 100 W. A six-pipe dual tower with two 120 mm fans handles that while turning its fans slowly, which is the real goal on this CPU.",
+        "That headroom matters because of how the 7800X3D behaves. Its extra cache sits on top of the cores, so heat has a slightly harder path out and the temperature reading climbs faster than the power figure suggests. A cooler with plenty of fin area does not change that physics, but it does keep fan noise steady instead of letting it chase every reading.",
+        "At 155 mm it fits most mid-towers, uses the AM5 backplate already on your board, and costs about a tenth of the CPU. Its front fan overhangs the first DIMM slot, so low-profile DDR5 is the simple pairing. If the Phantom Spirit is cheaper on the day, buy that instead; on a 7800X3D the two are interchangeable."
+      ],
+      "pros": [
+        "Six heat pipes for $35–$45",
+        "Quiet at stock gaming loads",
+        "Uses the stock AM5 backplate"
+      ],
+      "cons": [
+        "Front fan can crowd tall RGB RAM",
+        "Fans audible at full speed"
+      ]
+    },
+    {
+      "id": "thermalright-assassin-x-120-refined-se",
+      "label": "Best Budget",
+      "bestFor": "budget 7800X3D gaming builds where the GPU gets every spare dollar",
+      "skipIf": "the PC also renders or compiles for long stretches",
+      "writeup": [
+        "The 7800X3D is one of the few high-end CPUs where an $18 to $25 cooler is a reasonable choice. The Assassin X 120 Refined SE is a single tower with four heat pipes and one 120 mm fan, and in games the 7800X3D rarely pushes enough heat to strain it. AMD also locks the chip's multiplier, so there is no overclocking load to plan for.",
+        "Where it gives ground is sustained all-core work. Run a long render or a shader-heavy compile and the single fan has to spin up, and the chip will sit closer to its temperature limit than it would under a dual tower. It will still run within AMD's limits, but louder. If that describes your week, spend the extra $15 to $20 on the Peerless Assassin.",
+        "The upside beyond price is clearance. At 148 mm it is the shortest cooler on this list, and as a single tower it sits clear of every memory slot, so tall RGB kits and small mid-towers are no problem. For a gaming-only 7800X3D, it does the job and frees money for a faster graphics card, which is what actually limits frame rates with this CPU."
+      ]
+    },
+    {
+      "id": "arctic-freezer-36",
+      "label": "Best for Tall RAM",
+      "bestFor": "7800X3D builds with tall RGB DDR5 or a window-first look",
+      "skipIf": "you want the quietest possible fans in long all-core loads",
+      "writeup": [
+        "The Freezer 36 solves a specific 7800X3D problem: many owners pair it with a showy DDR5-6000 kit, and dual-tower coolers hang a fan over the first memory slot. This Arctic is a single tower with two P12 Pressure-optimised fans in push-pull, so the memory stays fully visible and clear while the cooler still gets two fans of airflow.",
+        "Its four heat pipes are plenty for gaming on this chip. Push-pull helps a single tower hold lower fan speeds than a one-fan design, which narrows the gap to the dual towers in the light, bursty loads games create. In long all-core work the Thermalright duals keep a small advantage.",
+        "It costs $30 to $40, stands 159 mm tall and is one of the simpler coolers to mount on AM5. Arctic sells standard, A-RGB and CO versions; the CO uses dual ball bearing fans meant for PCs that run around the clock, which is useful if your 7800X3D doubles as a home server."
+      ]
+    },
+    {
+      "id": "thermalright-phantom-spirit-120-se",
+      "label": "Best for a Future Upgrade",
+      "bestFor": "owners who may drop in a 9800X3D or a later Ryzen on the same board",
+      "skipIf": "you are sure the 7800X3D is your last AM5 chip and want the cheapest dual tower",
+      "writeup": [
+        "On a 7800X3D alone, the Phantom Spirit 120 SE does nothing the Peerless Assassin cannot. Its case is the next chip. AMD has said AM5 will be supported through at least 2027, and a 9800X3D or later Ryzen can use more power than the 7800X3D does, especially with Precision Boost Overdrive enabled.",
+        "The Phantom Spirit's seventh heat pipe gives it a little more capacity than its sibling, and reviews often put it slightly ahead on hotter processors. Buying it now means you will not need to touch the cooler when you swap CPUs; you clean off the paste, apply fresh, and bolt it back into the same AM5 mount.",
+        "It is 154 mm tall, costs the same $35 to $45 as the Peerless Assassin, and has the same front-fan overhang on the first DIMM slot. If the two are the same price, this is the one to take. Our [Peerless Assassin vs Phantom Spirit comparison](/compare/thermalright-peerless-assassin-120-se-vs-thermalright-phantom-spirit-120-se/) covers the small differences in detail."
+      ]
+    },
+    {
+      "id": "noctua-nh-u12s-redux",
+      "label": "Best Slim Tower",
+      "bestFor": "smaller mid-towers and owners who value Noctua's mounting and 6-year warranty",
+      "skipIf": "you can fit a dual tower, which cools better for the same money",
+      "writeup": [
+        "The NH-U12S redux is the cooler for a 7800X3D in a case where a 150-plus mm dual tower feels cramped. It is a slim single tower with four heat pipes and one NF-P12 redux fan, so it leaves the memory slots and the top of the board open for cables and fans.",
+        "For gaming on this chip it has enough capacity, and Noctua's SecuFirm2 mounting and 6-year warranty are the reasons to pay $45 to $55 for it. The trade-off is value: the Freezer 36 adds a second fan for less money, and the Thermalright dual towers carry more heat pipes at a lower price.",
+        "It stands 158 mm tall despite its slim profile, so check clearance in compact cases. Treat it as the quiet, low-fuss pick for a 7800X3D gaming build in a tidy case rather than the best cooler per dollar."
+      ]
+    },
+    {
+      "id": "arctic-liquid-freezer-iii-pro-360",
+      "label": "Best AIO",
+      "bestFor": "7800X3D workstations that render or encode for hours, or builds that want the CPU area clear",
+      "skipIf": "the PC is for gaming only, where a $35 tower gives the same result",
+      "writeup": [
+        "An AIO is the least necessary upgrade on a 7800X3D, and we list it for two reasons. The first is sustained all-core work: long renders or CPU video encodes keep the chip near its 162 W package power limit, and a 360 mm radiator holds that with slow, quiet fans. The second is looks and space, for builders who want an open view of the board and memory.",
+        "If you go liquid, the Liquid Freezer III Pro 360 is the one to buy. Its offset mount moves the cold plate toward where the compute die sits under AM5's heat spreader, which reviews report gives a small improvement on Ryzen 7000 chips. The pump block also has a little VRM fan, a real help on B650 boards whose power-stage heatsinks lose the airflow a tower used to provide.",
+        "It costs $85 to $110, has a 6-year warranty, and the radiator is 38 mm thick before fans, so check top-mount clearance above tall memory. In games it will not move the 7800X3D's frame rate at all; the chip's speed is set by its cache and the graphics card, not by an extra few degrees."
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "Type",
+    "Fans",
+    "Heat pipes",
+    "Height"
+  ],
+  "ranking": {
+    "intro": "We ranked these coolers for the Ryzen 7 7800X3D using AMD's published specs, cooler makers' spec sheets, independent reviews of the CPU and the coolers, and AM5 owner reports. None of these coolers were bench-tested by us. The ER Score weighs that evidence against price and fit for this chip specifically, which rewards cheaper coolers more than our general cooler guide does.",
+    "criteria": [
+      [
+        "Stock gaming noise",
+        "How slowly the fans can run in games, where the 7800X3D spends most of its time and draws well under its 120 W rating."
+      ],
+      [
+        "All-core headroom",
+        "Whether the cooler holds the 162 W package power limit in long renders without loud fans."
+      ],
+      [
+        "Price against a $360–$420 CPU",
+        "A cooler for a locked, efficient chip should cost a small fraction of it."
+      ],
+      [
+        "AM5 and DDR5 fit",
+        "AM5 mounting in the box, height, and overhang over the first memory slot."
+      ],
+      [
+        "Upgrade path",
+        "Whether the cooler will still suit a hotter AM5 chip later."
+      ]
+    ],
+    "why": "The Peerless Assassin 120 SE won because it keeps a stock 7800X3D quiet in games with spare capacity for all-core work, for under $45."
+  },
+  "mentions": [
+    {
+      "id": "noctua-nh-d15-g2",
+      "text": "A superb, quiet cooler, but on a 7800X3D its $140–$160 price buys almost nothing the $40 Thermalright towers do not. It makes more sense if you plan to move to a 16-core Ryzen later. Buy the LBC version for AM5."
+    },
+    {
+      "id": "be-quiet-dark-rock-pro-5",
+      "text": "A handsome all-black dual tower with quiet Silent Wings fans. It suits a near-silent 7800X3D build, but at $90–$100 and 168 mm tall it costs twice the Thermalright towers for a cooler this chip does not need."
+    }
+  ],
+  "sections": [
+    {
+      "h": "How Much Cooling Does a 7800X3D Need?",
+      "body": [
+        "Less than most 8-core chips of its price. AMD rates the 7800X3D at 120 W, which on AM5 allows up to 162 W of package power, but independent reviews show it drawing far less in games, typically well under 100 W. AMD also locks its multiplier, so you cannot overclock it in the traditional way and push power beyond stock.",
+        "That makes the 7800X3D a gaming chip that rarely stresses a cooler. A single tower with four heat pipes is enough for stock gaming, and a $35 to $45 dual tower gives comfortable headroom for all-core work too. Anything bigger is buying quiet or looks, not performance."
+      ]
+    },
+    {
+      "h": "Why Does the 7800X3D Run Hot at Low Power?",
+      "body": [
+        "Because of where AMD put the extra cache. On the 7800X3D, the 64 MB of 3D V-Cache is stacked on top of the compute die, between the cores and the heat spreader. Heat has to pass through that extra layer, so the cores read warmer at a given power than a standard Ryzen would.",
+        "AMD set a lower temperature limit for this chip, 89°C, partly for the same reason. The result is a processor that can report 80°C or more in an all-core test while drawing modest power. That is normal. The newer 9800X3D moved the cache underneath the cores, which is why it handles heat more easily; our [9800X3D cooler guide](/best-cpu-cooler-for-ryzen-7-9800x3d/) covers that chip."
+      ]
+    },
+    {
+      "h": "What Temperature Should a 7800X3D Run At?",
+      "body": [
+        "In games, a 7800X3D on a decent air cooler usually runs somewhere in the 60s to mid-70s °C, depending on the game, room temperature and case airflow. In an all-core stress test it can reach the high 70s or 80s. Treat these as typical ranges from owner reports and reviews, not guarantees for your system.",
+        "What matters is staying under AMD's 89°C limit in normal use. If you see sustained readings at the limit in games, check cooler mounting, paste coverage and case airflow before buying anything new."
+      ],
+      "table": {
+        "caption": "Typical 7800X3D temperatures by load (owner-reported ranges)",
+        "head": [
+          "Load",
+          "What it looks like",
+          "Typical range",
+          "Action needed?"
+        ],
+        "rows": [
+          [
+            "Idle desktop",
+            "Spiky readings, low power",
+            "40s to 50s °C",
+            "No"
+          ],
+          [
+            "Gaming",
+            "Moderate, bursty load",
+            "60s to mid-70s °C",
+            "No"
+          ],
+          [
+            "All-core render or stress test",
+            "Sustained near the 162 W limit",
+            "High 70s to 80s °C",
+            "Only if it sits at 89°C"
+          ],
+          [
+            "Any load at 89°C constantly",
+            "At AMD's limit",
+            "89°C",
+            "Check mounting, paste and airflow"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Is a $20 Single-Tower Cooler Enough for the 7800X3D?",
+      "body": [
+        "For a gaming PC, yes. The Thermalright Assassin X 120 Refined SE keeps a stock 7800X3D within AMD's limits in games, and that is the job. You lose fan noise and a few degrees in long all-core loads, not frame rate.",
+        "The case for spending $15 to $20 more on a dual tower is comfort, not necessity: lower fan speeds in summer, more headroom if you stream with CPU encoding, and a cooler that will still suit a hotter AM5 chip later. If the budget is fixed, put the money into the graphics card instead."
+      ]
+    },
+    {
+      "h": "Air Cooler or AIO for the 7800X3D?",
+      "body": [
+        "Air, for almost every 7800X3D build. A good dual tower matches a 240 mm or 360 mm AIO in games on this chip, costs less, has no pump to wear out, and has nothing to leak. Because the 7800X3D's temperature is limited partly by the cache layer inside the chip, a bigger radiator does less here than it would on a 16-core processor.",
+        "Choose the AIO for practical reasons: a case built around a radiator, a build where you want the board and memory on show, or long all-core workloads where a 360 mm radiator can keep fans slower than a tower."
+      ]
+    },
+    {
+      "h": "Should You Buy a Bigger Cooler in Case You Upgrade Later?",
+      "body": [
+        "Only up to a point. A $35 to $45 dual tower is the sensible ceiling for a 7800X3D bought with an upgrade in mind; it also handles a stock 9800X3D comfortably. Spending $150 on a flagship air cooler for a chip you might replace makes sense only if your next processor is a 12- or 16-core Ryzen.",
+        "AM5 keeps the same cooler mounting from one Ryzen generation to the next, so whatever you buy now moves straight across. Our [AM5 motherboard guide](/best-am5-motherboard/) covers which boards are ready for later chips."
+      ]
+    },
+    {
+      "h": "Can You Lower 7800X3D Temperatures Without a New Cooler?",
+      "body": [
+        "Often, yes. Before replacing a working cooler, try the cheaper fixes:"
+      ],
+      "list": [
+        "Apply a negative Curve Optimizer offset in the BIOS, where your board supports it for the 7800X3D. Many owners report lower temperatures at the same performance.",
+        "Smooth the fan curve so fans respond to sustained heat instead of momentary spikes.",
+        "Check case airflow: front intake and rear or top exhaust matter as much as the cooler.",
+        "Remount the cooler with a pea-sized dot of fresh paste and even screw pressure."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Reading 80°C as a problem",
+      "The 7800X3D's stacked cache makes it read warm at modest power, and AMD's 89°C limit reflects that. All-core temperatures in the high 70s or 80s are normal. Judge your cooler by whether the chip holds the limit and stays quiet, not by one high number."
+    ],
+    [
+      "Buying a 360 mm AIO for gaming",
+      "In games the 7800X3D draws far less than its 120 W rating, and its locked multiplier rules out heavy overclocking. A large radiator does not raise frame rates on this chip. The $70 saved by buying a tower is better spent on the graphics card."
+    ],
+    [
+      "Removing the AM5 backplate",
+      "The AM5 backplate is part of the socket's retention. Every cooler here is designed to bolt into it with the AM5 standoffs in the box. Unscrewing it to fit an old cooler's own backplate risks a poor socket seal and bent pins."
+    ],
+    [
+      "Forgetting the BIOS update",
+      "Some early B650 and X670 boards need a newer BIOS for the 7800X3D, and later updates added fixes for X3D voltage limits. Update the BIOS before you blame the cooler for odd temperatures or boot problems."
+    ]
+  ],
+  "bottomLine": "The Ryzen 7 7800X3D is a low-power gaming chip that reads warm, and the right cooler is a cheap, capable tower rather than a big radiator. Buy the Thermalright Peerless Assassin 120 SE, or the Phantom Spirit if it costs the same. The $20 Assassin X 120 Refined SE is enough for gaming alone, the Freezer 36 suits tall RAM, and the Liquid Freezer III Pro 360 is for long all-core workloads.",
+  "faqs": [
+    {
+      "q": "Does the Ryzen 7 7800X3D come with a cooler?",
+      "a": "No. AMD sells the 7800X3D without a cooler, so you need to buy one. A $35 to $45 dual tower such as the Thermalright Peerless Assassin 120 SE is the best value, and an $18 to $25 single tower is enough for gaming alone."
+    },
+    {
+      "q": "What is the maximum temperature for a 7800X3D?",
+      "a": "AMD lists 89°C as the maximum operating temperature for the Ryzen 7 7800X3D, lower than most Ryzen 7000 chips because of the cache stacked on its compute die. The chip limits its own boost to stay under it. Readings in the 80s during all-core tests are normal."
+    },
+    {
+      "q": "Is the Peerless Assassin 120 SE enough for a 7800X3D?",
+      "a": "Yes, with room to spare. Its six heat pipes and two 120 mm fans comfortably handle the 7800X3D's 120 W rating and 162 W package limit. In games the chip draws far less, so the fans stay slow. The Phantom Spirit 120 SE is an equal alternative."
+    },
+    {
+      "q": "Is a 240 mm AIO good for a 7800X3D?",
+      "a": "It works well, but it does not cool meaningfully better than a good dual-tower air cooler on this chip. Because the 7800X3D's temperature is partly limited by the cache layer inside it, a radiator gains less here than on a high-core-count CPU. Buy one for looks or space, not temperatures."
+    },
+    {
+      "q": "Why is my 7800X3D so hot at idle?",
+      "a": "Short idle spikes into the 50s or higher are common. The temperature sensor reacts instantly when Windows wakes a core for a background task, then drops back. Smooth your fan curve so fans ignore brief spikes. Sustained idle temperatures well above 60°C point to a mounting or paste problem."
+    },
+    {
+      "q": "Can I overclock a 7800X3D with a better cooler?",
+      "a": "Not in the traditional way. AMD locks the 7800X3D's multiplier, so a bigger cooler does not unlock higher clocks. Many boards allow a negative Curve Optimizer offset, which can lower temperatures or let the chip hold boost slightly longer, but the gains are small."
+    },
+    {
+      "q": "Will my 7800X3D cooler work on a 9800X3D?",
+      "a": "Yes. Both chips use AM5 with the same cooler mounting, and the 9800X3D handles heat more easily because its cache sits below the cores. A dual tower that suits a 7800X3D will suit a stock 9800X3D. Clean off the old paste and apply fresh when you swap."
+    },
+    {
+      "q": "Is the NH-D15 G2 worth it for a 7800X3D?",
+      "a": "Only if quiet and build quality matter more than price. It is an excellent cooler, but a stock 7800X3D does not need its capacity, and a $40 Thermalright dual tower gives very similar results in games. It makes more sense if you plan to move to a 16-core Ryzen."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 7 7800X3D product specifications (TDP, maximum operating temperature, socket)",
+    "AMD statements on AM5 platform support through 2027",
+    "Thermalright, Arctic and Noctua cooler spec sheets",
+    "Arctic Liquid Freezer III Pro product page and offset mounting notes",
+    "Independent Ryzen 7 7800X3D reviews reporting gaming and all-core power and temperatures",
+    "Owner reports from AM5 builders on forums and retailer listings"
+  ],
+  "related": [
+    "best-cpu-cooler",
+    "best-cpu-cooler-for-ryzen-7-9800x3d",
+    "best-am5-motherboard"
+  ]
+}
