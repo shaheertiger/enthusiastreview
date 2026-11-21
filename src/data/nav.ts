@@ -1,4 +1,4 @@
-// The "Best Lists" menu: five groups, the sister-site structure (besthometheaterreview.com).
+// The "Best Lists" menu: six groups, the sister-site structure (besthometheaterreview.com).
 // Used by the header mega menu, the mobile drawer and the home page's "Browse by Category".
 // Guide entries name a slug; the build fails if that guide no longer exists.
 import { GUIDES } from '../lib/data';
@@ -35,6 +35,16 @@ const guide = (slug: string, label: string, tagline: string): NavItem => {
 };
 
 export const NAV_GROUPS: NavGroup[] = [
+  {
+    label: 'Gaming PCs',
+    home: true,
+    items: [
+      guide('best-prebuilt-gaming-pc', 'Best Prebuilt Gaming PCs', '$600 to $3,000, parts checked'),
+      guide('best-gaming-pc-under-1000', 'Best Gaming PCs Under $1,000', 'RTX 5060 systems and cheaper'),
+      guide('best-budget-gaming-pc', 'Best Budget Gaming PCs', 'What $500 to $800 buys'),
+      { label: 'All Gaming PCs We Track', href: '/gear/#gaming-pcs', tagline: 'Every prebuilt, scored', icon: 'gaming-pcs' },
+    ],
+  },
   {
     label: 'Graphics Cards',
     home: true,

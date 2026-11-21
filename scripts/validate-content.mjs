@@ -11,7 +11,7 @@ const warnings = [];
 const err = (where, msg) => errors.push(`${where}: ${msg}`);
 const warn = (where, msg) => warnings.push(`${where}: ${msg}`);
 
-const CATS = ['graphics-cards', 'processors', 'cpu-coolers', 'power-supplies', 'pc-cases', 'memory', 'motherboards', 'storage'];
+const CATS = ['gaming-pcs', 'graphics-cards', 'processors', 'cpu-coolers', 'power-supplies', 'pc-cases', 'memory', 'motherboards', 'storage'];
 
 // ---- load ---------------------------------------------------------------------------------
 const products = [];

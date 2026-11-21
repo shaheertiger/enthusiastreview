@@ -1,0 +1,176 @@
+{
+  "slug": "how-to-update-asrock-bios",
+  "type": "article",
+  "kind": "howto",
+  "category": "motherboards",
+  "title": "How to Update BIOS on ASRock Motherboard: With or Without USB",
+  "h1": "How to Update BIOS on an ASRock Motherboard",
+  "query": "how to update bios on asrock motherboard",
+  "description": "Update an ASRock BIOS in 3 ways: Instant Flash from a USB drive, Internet Flash with no USB at all, or BIOS Flashback with no CPU. Steps and fixes inside.",
+  "dek": "Three ways to flash a newer BIOS on an ASRock board, including the one that needs no USB drive, and what to do when an update fails.",
+  "quickAnswer": "Download the BIOS for your exact board from ASRock's support page, copy the unzipped file to a FAT32 USB drive, then open Instant Flash in the UEFI and pick the file. To update without a USB drive, use Internet Flash, which downloads the BIOS inside the UEFI over a wired network connection. Boards with a BIOS Flashback button can update with no CPU or memory installed.",
+  "intro": [
+    "This guide covers every way to update the BIOS (UEFI firmware) on an ASRock motherboard: Instant Flash from USB, Internet Flash with no USB drive, and the BIOS Flashback button some boards have. It applies to AM5, AM4 and recent Intel boards, from the budget Pro and HDV models to Steel Legend, Phantom Gaming and Taichi.",
+    "The exact menu names and layout differ between board generations, so where the wording varies we describe what to look for rather than quoting a label that may not match your screen. Always check your board's manual and ASRock's support page for the specific model before you start."
+  ],
+  "stepsHeading": "How to Update an ASRock BIOS With Instant Flash, Step by Step",
+  "steps": [
+    {
+      "h": "Find your exact board model and current BIOS version",
+      "body": [
+        "The model name is printed on the board, usually between the PCIe slots, and it shows in the UEFI main screen. In Windows, open System Information (msinfo32) and read BaseBoard Product and BIOS Version/Date. Revision matters: a B450M-HDV R4.0 takes a different file from the original B450M-HDV, and flashing the wrong one can brick the board."
+      ]
+    },
+    {
+      "h": "Download the BIOS from ASRock's support page",
+      "body": [
+        "Search for your model on asrock.com, open Support, then the BIOS section. Each version lists its date and what it changes, such as new CPU support, AGESA or microcode updates and memory fixes. Download the newest version unless the notes say you must install an earlier one first; some AM4 boards require an intermediate version before a big jump."
+      ]
+    },
+    {
+      "h": "Copy the file to a FAT32 USB drive",
+      "body": [
+        "Unzip the download and copy the BIOS file to the root of a USB drive formatted as FAT32, not inside a folder. A small, plain USB 2.0 or 3.0 drive is the most reliable. Leave the file name as ASRock supplied it."
+      ]
+    },
+    {
+      "h": "Enter the UEFI and open Instant Flash",
+      "body": [
+        "Restart and press Delete or F2 as the ASRock logo appears. Switch to Advanced Mode if the board opens in Easy Mode (F6 toggles it on many boards), then open the Tool menu and choose Instant Flash. On some boards F6 or a shortcut on the Easy Mode screen opens it directly."
+      ]
+    },
+    {
+      "h": "Select the file and let it finish",
+      "body": [
+        "Instant Flash scans the USB drive and lists the files that match your board. Select the newest one, confirm, and wait. The flash takes a few minutes, and the PC may restart more than once. Do not turn it off or press reset during this time."
+      ]
+    },
+    {
+      "h": "Reload defaults and reapply your settings",
+      "body": [
+        "After the update, enter the UEFI again, load the optimized defaults, then re-enable what you use: EXPO or XMP memory profiles, fan curves, Resizable BAR, Secure Boot and TPM. A BIOS update usually resets these, and Windows features such as BitLocker may ask for a recovery key after the firmware changes."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "How Do You Update an ASRock BIOS Without a USB Drive?",
+      "body": [
+        "Use Internet Flash. It is built into the UEFI of most recent ASRock boards and downloads the BIOS straight from ASRock's servers, so you never need a USB drive. It works over a wired Ethernet connection; Wi-Fi is usually not supported inside the UEFI, so plug in a network cable before you start.",
+        "Enter the UEFI with Delete or F2, open the Tool menu in Advanced Mode and choose Internet Flash. Depending on the board, it may ask you to pick a download server and set the network to DHCP, which is the automatic setting most home routers expect. It then lists the latest BIOS for your board; select it and let the update finish without interruption.",
+        "If Internet Flash does not find your network, check that the cable is in the motherboard's own Ethernet port, not an add-in card, and that your router hands out addresses automatically. If it still fails, Instant Flash with a USB drive is the fallback. ASRock has also offered Windows-based flashing utilities on some older boards, but flashing from inside the UEFI is the method ASRock recommends and the safer one."
+      ]
+    },
+    {
+      "h": "What Is ASRock BIOS Flashback, and When Should You Use It?",
+      "body": [
+        "BIOS Flashback is a button on the rear I/O panel of many mid-range and high-end ASRock boards that flashes the BIOS from a USB drive with no CPU, memory or graphics card installed. It exists for one main case: you bought a new processor that the board's shipped BIOS does not support, so the PC will not boot to the UEFI at all.",
+        "The process differs from Instant Flash. The file usually has to be renamed to a specific name that the manual gives for your model, and the drive must go into a particular USB port, often labelled near the button. With the PSU connected and switched on but the PC off, hold the button for a few seconds until its LED starts flashing, then wait until the light stops. That can take several minutes.",
+        "Not every board has it. Many budget ASRock boards, including several HDV and Pro models, do not. Check the rear I/O diagram in the manual before you buy a new CPU for an older board, or ask the retailer whether the board ships with a new enough BIOS."
+      ]
+    },
+    {
+      "h": "Why Update the BIOS on an ASRock Board?",
+      "body": [
+        "The main reason is CPU support. A board made before a processor launched needs a newer BIOS to boot with it: an AM4 B450 or B550 board needs an update for Ryzen 5000 and the Ryzen 7 5700X3D, and early AM5 boards need one for Ryzen 9000 chips such as the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/).",
+        "Updates also bring AMD AGESA and Intel microcode fixes, better memory compatibility and stability with EXPO and XMP kits, and security patches. AM5 updates in 2023 and 2024 fixed SoC voltage limits and cut long memory training times on first boot.",
+        "If your PC is stable, you already have the CPU support you need and the notes list nothing that affects you, there is no rule that says you must update. Most problems after an update come from settings that reset, not from the new firmware."
+      ]
+    },
+    {
+      "h": "What Should You Do If an ASRock BIOS Update Fails?",
+      "body": [
+        "First, don't panic and don't keep power-cycling. If the update stopped before it started writing, the old BIOS is still there: restart, clear the CMOS and try again with a freshly formatted FAT32 drive and a re-downloaded file.",
+        "If the board no longer posts, try BIOS Flashback if your board has it, because it works without the old firmware running. Some ASRock boards also have dual BIOS chips with a switch to boot from the backup. If neither applies, contact ASRock support or the retailer; a board that cannot recover needs its BIOS chip reprogrammed, which ASRock's RMA service can do.",
+        "The most common causes of a failed update are the wrong file for the board revision, a drive formatted as NTFS or exFAT, the file inside a folder, and a power cut or forced shutdown during the flash."
+      ]
+    },
+    {
+      "h": "How Do You Clear the CMOS on an ASRock Board?",
+      "body": [
+        "Clearing the CMOS resets every BIOS setting to defaults; it does not undo a BIOS update. Use it when the PC won't post after changing settings, or before retrying a failed flash.",
+        "Shut down, switch off the PSU and unplug it. Many ASRock boards have a Clear CMOS button on the rear I/O; press it for a few seconds. Others have a two-pin jumper labelled CLRMOS1 or similar near the battery: short the two pins with a screwdriver or the jumper cap for about 10 seconds. If neither is present, remove the coin battery for a few minutes. Then reconnect power and boot. Expect a longer first boot on AM5 while the memory retrains."
+      ]
+    },
+    {
+      "h": "How Long Does an ASRock BIOS Update Take?",
+      "body": [
+        "Instant Flash and Internet Flash usually take two to five minutes, plus one or more restarts. BIOS Flashback can take longer, up to around eight minutes on some boards, and the LED is the only sign it is working. On AM5, the first boot after any update can take a minute or more with a black screen while the memory trains. That is normal; wait for it rather than resetting.",
+        "For the board choices this guide refers to, see our [best AM5 motherboard guide](/best-am5-motherboard/) and the [ASRock B850 Steel Legend WiFi](/gear/asrock-b850-steel-legend-wifi/), which has BIOS Flashback. If you are deciding whether ASRock boards are worth buying at all, read [is ASRock a good brand](/is-asrock-a-good-brand/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Flashing the file for a different revision",
+      "ASRock often sells several revisions under one model name, such as R2.0 and R4.0. Each takes its own BIOS. Read the revision printed on the board and match it on the support page before downloading anything."
+    ],
+    [
+      "Using an NTFS or exFAT drive",
+      "Instant Flash and Flashback read FAT32. A large drive formatted NTFS or exFAT will not show the file at all, which looks like the update is missing. Format a small drive as FAT32 and copy only the BIOS file to its root."
+    ],
+    [
+      "Turning the PC off during the flash",
+      "An interrupted flash is the one way an update can leave a board unbootable. Avoid updating during storms, close nothing, and wait for the board to finish restarting on its own."
+    ],
+    [
+      "Panicking at a long black screen on AM5",
+      "After a BIOS update, AM5 boards retrain memory and can show nothing for a minute or more. Resetting during that time just restarts the training. Wait at least three minutes before assuming something went wrong."
+    ],
+    [
+      "Forgetting Secure Boot and TPM after the update",
+      "Loading defaults can switch off Secure Boot or the firmware TPM that Windows 11 and some anti-cheat systems need. Check both after every update; our [ASRock Secure Boot guide](/asrock-secure-boot/) covers the settings."
+    ]
+  ],
+  "bottomLine": "The easiest ASRock BIOS update is Instant Flash: download the file for your exact board and revision, copy it to the root of a FAT32 USB drive, and select it under Tool in the UEFI. With no USB drive, Internet Flash does the same over a wired connection. If the board won't boot because the CPU is too new, BIOS Flashback is the fix, but only on boards that have the button. Afterwards, reload defaults and turn EXPO, Resizable BAR, Secure Boot and TPM back on.",
+  "faqs": [
+    {
+      "q": "Can you update an ASRock BIOS without a USB drive?",
+      "a": "Yes. Internet Flash, under the Tool menu in the UEFI on most recent ASRock boards, downloads and installs the newest BIOS over a wired Ethernet connection. Wi-Fi usually does not work inside the UEFI, so plug in a cable first."
+    },
+    {
+      "q": "Do I need a CPU to update an ASRock BIOS?",
+      "a": "Only for Instant Flash and Internet Flash, which run inside the UEFI. Boards with a BIOS Flashback button can update with no CPU, memory or GPU installed, as long as the power supply is connected and switched on."
+    },
+    {
+      "q": "What format should the USB drive be for an ASRock BIOS update?",
+      "a": "FAT32, with the unzipped BIOS file in the root of the drive, not in a folder. Smaller, older USB drives tend to be the most reliable for this."
+    },
+    {
+      "q": "How do I know which ASRock BIOS version I have?",
+      "a": "It shows on the UEFI's main screen. In Windows, open System Information by running msinfo32 and read the BIOS Version/Date line, which lists the version ASRock uses on its support page."
+    },
+    {
+      "q": "Is it safe to update an ASRock BIOS?",
+      "a": "Yes, when you use the right file for your board and revision and don't interrupt the flash. The main risk is losing power partway through. Boards with BIOS Flashback or a backup BIOS chip are easier to recover if it goes wrong."
+    },
+    {
+      "q": "Should I update my ASRock BIOS if nothing is wrong?",
+      "a": "Not necessarily. Update for new CPU support, a stability or memory fix that affects you, or a security patch. If the PC is stable and the notes list nothing relevant, waiting is reasonable."
+    },
+    {
+      "q": "Why is my ASRock board not showing the BIOS file in Instant Flash?",
+      "a": "Usually the drive is not FAT32, the file is inside a folder, or the file is for a different board revision. Instant Flash only lists files that match the board it is running on."
+    },
+    {
+      "q": "Does an ASRock BIOS update reset my settings?",
+      "a": "Usually, yes. Memory profiles, fan curves, Resizable BAR, Secure Boot and TPM can return to defaults. Note your settings before updating and re-enable them afterwards."
+    }
+  ],
+  "sources": [
+    "ASRock support pages: BIOS downloads, Instant Flash and Internet Flash instructions",
+    "ASRock motherboard user manuals: BIOS Flashback and Clear CMOS sections",
+    "AMD AGESA release notes and processor support lists for AM4 and AM5",
+    "Microsoft support: checking BIOS version with System Information"
+  ],
+  "products": [
+    "asrock-b850-steel-legend-wifi",
+    "msi-mag-b850-tomahawk-max-wifi",
+    "ryzen-7-9800x3d"
+  ],
+  "related": [
+    "best-am5-motherboard",
+    "how-to-update-amd-drivers",
+    "best-cpu-for-gaming"
+  ]
+}

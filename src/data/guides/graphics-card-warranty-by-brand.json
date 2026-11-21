@@ -1,0 +1,238 @@
+{
+  "slug": "graphics-card-warranty-by-brand",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Graphics Card Warranty by Brand: ASUS, MSI, Zotac, PNY & More",
+  "h1": "Graphics Card Warranty by Brand",
+  "query": "graphics card warranty",
+  "description": "Most GPU brands give 2 to 3 years, some more if you register. Compare ASUS, MSI, Gigabyte, Zotac, PNY and ASRock, check status by serial and file an RMA.",
+  "dek": "How long each GPU brand covers its cards, what registration adds, whether a second owner can claim, and how to start an RMA.",
+  "quickAnswer": "Most graphics card brands cover their cards for two to three years in the US. Several, including Zotac and Gigabyte on some lines, offer extra coverage if you register the card soon after purchase. Some brands date the warranty from the card's serial number, others from your receipt. Always check the brand's own warranty page for your region before you buy.",
+  "intro": [
+    "A graphics card is often the most expensive part in a PC, and warranty terms differ more between brands than performance does. This page compares the warranty approach of the main GPU brands, explains how to check whether your card is still covered, and walks through an RMA.",
+    "Warranty terms change and vary by country and product line. Where we could not confirm a current term, the table says to check the brand's page rather than guessing. Treat this as a guide to what to look for, and confirm on the manufacturer's site before you rely on it."
+  ],
+  "sections": [
+    {
+      "h": "How Long Is a Graphics Card Warranty?",
+      "body": [
+        "Most graphics cards sold in the US carry a warranty of two to three years from the board partner, the company whose name is on the box. ASUS, MSI and Gigabyte commonly list three years for their graphics cards. Zotac's standard term has commonly been two years, with an extension for registering. Other brands vary by line and region.",
+        "The warranty comes from the brand, not from NVIDIA, AMD or Intel, unless you bought a card the chip maker sells itself, such as NVIDIA's Founders Edition. Retailers add their own return window on top, usually 15 to 30 days, which is the easiest way to deal with a card that is faulty out of the box."
+      ]
+    },
+    {
+      "h": "Graphics Card Warranty by Brand",
+      "body": [
+        "The table summarizes the general pattern for US buyers at the time of writing. Brands set different terms for different lines and countries, and they update policies, so use the last column as your instruction: confirm on the brand's own page with your card's model and serial number."
+      ],
+      "table": {
+        "caption": "GPU warranty by brand, US (general pattern; confirm on each brand's page)",
+        "head": [
+          "Brand",
+          "Typical length",
+          "Registration extends it?",
+          "Dated from",
+          "Check"
+        ],
+        "rows": [
+          [
+            "ASUS",
+            "3 years (commonly listed)",
+            "Check the brand's page",
+            "Serial number or proof of purchase",
+            "ASUS support site, by serial"
+          ],
+          [
+            "MSI",
+            "3 years (commonly listed)",
+            "Check the brand's page",
+            "Serial number (manufacture date), or proof of purchase",
+            "MSI warranty check, by serial"
+          ],
+          [
+            "Gigabyte",
+            "3 years (commonly listed)",
+            "On some lines, such as AORUS",
+            "Serial number or proof of purchase",
+            "Gigabyte warranty check and registration"
+          ],
+          [
+            "Zotac",
+            "2 years standard (commonly listed)",
+            "Yes, if registered within the stated window",
+            "Proof of purchase",
+            "Zotac warranty registration page"
+          ],
+          [
+            "PNY",
+            "Check the brand's page",
+            "Check the brand's page",
+            "Proof of purchase",
+            "PNY warranty page"
+          ],
+          [
+            "ASRock",
+            "Check the brand's page",
+            "Check the brand's page",
+            "Check the brand's page",
+            "ASRock support site"
+          ],
+          [
+            "Sapphire",
+            "Check the brand's page",
+            "Check the brand's page",
+            "Check the brand's page",
+            "Sapphire support site"
+          ],
+          [
+            "XFX",
+            "Check the brand's page",
+            "Check the brand's page",
+            "Check the brand's page",
+            "XFX support site"
+          ],
+          [
+            "PowerColor",
+            "Check the brand's page",
+            "Check the brand's page",
+            "Check the brand's page",
+            "PowerColor support site"
+          ],
+          [
+            "NVIDIA Founders Edition / Intel Arc",
+            "Check the brand's page",
+            "No",
+            "Proof of purchase",
+            "NVIDIA or Intel support"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "How Do I Check My Graphics Card Warranty by Serial Number?",
+      "body": [
+        "Find the serial number first. It is printed on a sticker on the card, usually on the back plate or the edge near the PCIe connector, and on the box. If the card is installed, the box is the easier place to look.",
+        "Then use the brand's warranty or support lookup. MSI, ASUS and Gigabyte all have support pages where you enter the serial number and see the product and, for brands that date warranty by serial, the coverage end date. Zotac and PNY rely more on registration and proof of purchase, so log in to the account you registered with, or keep the invoice ready.",
+        "If the lookup shows an earlier end date than you expect, that usually means the warranty is dated from manufacture rather than sale. Most of these brands accept a dated receipt to correct it, which is another reason to keep the invoice for the life of the card."
+      ]
+    },
+    {
+      "h": "Does Registering a GPU Extend the Warranty?",
+      "body": [
+        "For some brands, yes. Zotac has long offered extended coverage when you register a card within a set number of days of purchase, and Gigabyte has run extended warranties for registered cards on some of its premium lines. The window is short, often a few weeks, so register on the day you install the card.",
+        "Searches such as Zotac RTX 5090 warranty upgrade point to exactly this: the extra time depends on registering in time. Check the brand's current terms for your model and region, because the extension, the window and the eligible lines change over time."
+      ]
+    },
+    {
+      "h": "Is a Graphics Card Warranty Transferable to a Second Owner?",
+      "body": [
+        "It depends on the brand, and the way a brand dates its warranty is the best clue. Brands that date coverage from the serial number generally let the card's coverage follow the card, so a second owner can often claim within the remaining period. Brands that rely on the original receipt or registration may limit claims to the first buyer, or ask the second owner for the original invoice.",
+        "If you are buying a used card, ask the seller for the original receipt and check the serial on the brand's lookup before paying. If you are selling, include the invoice: it can add real value to the sale."
+      ]
+    },
+    {
+      "h": "Does Overclocking or Removing the Cooler Void a GPU Warranty?",
+      "body": [
+        "Overclocking through software generally does not void a graphics card warranty by itself; brands supply their own overclocking utilities. Physical damage, flashing an unsupported BIOS, or modifications such as a broken warranty sticker can give a brand grounds to refuse a claim.",
+        "Removing the cooler to replace thermal paste is a grey area. Some brands allow it as long as nothing is damaged; others treat a broken screw sticker as tampering. In the US, the Magnuson-Moss Warranty Act limits a company's ability to void a warranty just because a seal was broken, but you may still need to show your work caused no damage. If you are unsure, ask the brand's support before opening the card."
+      ]
+    },
+    {
+      "h": "How Do I File a GPU RMA?",
+      "body": [
+        "Start with the retailer if you are still inside its return window; a straight exchange is faster than any manufacturer RMA. After that window, the claim goes to the brand.",
+        "Before filing, rule out the simple causes: reseat the card, check both power connectors, try another display cable and port, and do a clean driver install. Our guides on [how to update NVIDIA drivers](/how-to-update-nvidia-drivers/) and [NVIDIA green lines on screen](/nvidia-green-lines-on-screen/) cover common driver and display faults.",
+        "Then open an RMA on the brand's support site with the serial number, a copy of the invoice and a short description of the fault. Expect to pay shipping to the brand in many cases, and expect the process to take one to several weeks. Pack the card in anti-static material inside a sturdy box; damage in transit is usually your responsibility."
+      ],
+      "list": [
+        "Confirm the fault with a second PC or a known-good PSU if you can",
+        "Note the serial number and photograph the card and its stickers",
+        "Gather the invoice and any registration confirmation",
+        "Open the RMA on the brand's support site and wait for an RMA number before shipping",
+        "Ship insured, packed in anti-static material"
+      ]
+    },
+    {
+      "h": "Which GPU Brand Has the Best Warranty?",
+      "body": [
+        "There is no single winner, because terms differ by line and region. For most US buyers, the practical ranking is: a three-year term that follows the card by serial number is the most useful, because it helps both you and a future buyer. A shorter base term with an extension for registering can match it, but only if you register in time.",
+        "Warranty is one factor in choosing a brand, alongside cooler quality and price. Our [graphics card brand ranking](/best-graphics-card-brands/) weighs all three, and brand pages such as [is PNY a good GPU brand](/is-pny-a-good-gpu-brand/), [is Zotac a good GPU brand](/is-zotac-a-good-gpu-brand/) and [is ASRock a good brand](/is-asrock-a-good-brand/) cover each one in more detail."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Missing the registration window",
+      "Brands that extend coverage for registered cards usually allow only a few weeks after purchase. Register the card on the day you install it, and save the confirmation email."
+    ],
+    [
+      "Throwing away the receipt",
+      "Even brands that date coverage by serial number may need an invoice to correct the start date. Keep the receipt or order email for as long as you own the card."
+    ],
+    [
+      "Shipping to the brand before the retailer window closes",
+      "Inside the retailer's return period, an exchange is faster and free. Manufacturer RMAs take longer and often cost you shipping."
+    ],
+    [
+      "Buying a used card without checking the serial",
+      "A second-hand card may be out of warranty or limited to the first owner. Check the serial on the brand's lookup and ask for the original invoice before you pay."
+    ],
+    [
+      "Damaging the card while repasting",
+      "A cracked component or broken sticker can give a brand grounds to refuse a claim. If the card is in warranty and has a thermal problem, file a claim before opening it."
+    ]
+  ],
+  "bottomLine": "Most GPU brands cover their cards for two to three years in the US, and some add time if you register quickly. The details that matter are whether coverage is dated by serial number or receipt, whether it transfers to a second owner, and what voids it, and those differ by brand, line and country. Register your card on day one, keep the invoice, use the retailer's return window first, and confirm the terms on the brand's own page before relying on any summary, including this one.",
+  "faqs": [
+    {
+      "q": "How long is a graphics card warranty?",
+      "a": "Usually two to three years in the US, from the brand on the box. ASUS, MSI and Gigabyte commonly list three years, and Zotac has commonly offered two years plus an extension for registering. Check the brand's page for your model and region."
+    },
+    {
+      "q": "How do I check my GPU warranty?",
+      "a": "Find the serial number on the card's sticker or the box, then enter it on the brand's support or warranty lookup. Brands that rely on registration or receipts need your account login or invoice instead."
+    },
+    {
+      "q": "Does Zotac's warranty need registration?",
+      "a": "Zotac has long offered extended coverage only when you register the card within a set period after purchase. Check Zotac's current warranty page for the window and eligible models in your region."
+    },
+    {
+      "q": "What is PNY's GPU warranty?",
+      "a": "PNY covers its GeForce cards with a limited warranty whose length depends on the product line and region. Check PNY's warranty page for your card and keep proof of purchase, which PNY generally requests for claims."
+    },
+    {
+      "q": "Is a GPU warranty transferable?",
+      "a": "Sometimes. Brands that date coverage from the serial number often let it follow the card to a second owner. Brands that rely on registration or the original receipt may not. Ask the seller for the invoice."
+    },
+    {
+      "q": "Does overclocking void a GPU warranty?",
+      "a": "Software overclocking alone generally does not; brands ship their own tuning tools. Physical damage, unsupported BIOS flashes and other modifications can give a brand grounds to refuse a claim."
+    },
+    {
+      "q": "Does replacing thermal paste void a GPU warranty?",
+      "a": "It depends on the brand. Some allow it if nothing is damaged; others treat broken stickers as tampering. US law limits voiding a warranty over a broken seal alone, but ask the brand before opening a card under warranty."
+    },
+    {
+      "q": "Should I return a faulty GPU to the store or the manufacturer?",
+      "a": "Use the store if you are still inside its return window, usually 15 to 30 days. It is faster and normally free. After that, file an RMA with the brand using your serial number and invoice."
+    }
+  ],
+  "sources": [
+    "ASUS, MSI, Gigabyte, Zotac, PNY, ASRock, Sapphire, XFX and PowerColor warranty and support pages",
+    "NVIDIA and Intel support pages for Founders Edition and Limited Edition cards",
+    "US Federal Trade Commission guidance on the Magnuson-Moss Warranty Act"
+  ],
+  "products": [
+    "rtx-5070-ti",
+    "rtx-5070",
+    "rx-9070-xt",
+    "rtx-5060",
+    "arc-b580"
+  ],
+  "related": [
+    "best-graphics-card",
+    "how-to-update-nvidia-drivers",
+    "nvidia-green-lines-on-screen"
+  ]
+}

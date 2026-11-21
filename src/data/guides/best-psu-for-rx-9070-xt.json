@@ -1,0 +1,193 @@
+{
+  "slug": "best-psu-for-rx-9070-xt",
+  "type": "roundup",
+  "category": "power-supplies",
+  "title": "Best PSU for RX 9070 XT (2026): 6 Power Supplies Ranked",
+  "h1": "Best PSU for RX 9070 XT",
+  "query": "best psu for 9070 xt",
+  "description": "The Corsair RM850e is the best PSU for an RX 9070 XT: 850 W for $105–$130, over AMD's 750 W guidance. 6 PSUs ranked, with the 8-pin cable count to check.",
+  "dek": "Most RX 9070 XT cards use two or three 8-pin plugs, not a 16-pin. That changes which power supply fits.",
+  "intro": [
+    "The Corsair RM850e is the best PSU for an RX 9070 XT: 850 W, ATX 3.1 and fully modular for $105–$130. AMD's guidance for the 304 W card is a 750 W supply, and the extra 100 W covers factory-overclocked partner cards that draw well above the reference figure.",
+    "This guide is for anyone building around an RX 9070 XT. Unlike most current GeForce cards, most RX 9070 XT models use two or three standard 8-pin PCIe plugs, so the thing to check is how many separate 8-pin cables your supply provides, not whether it has a 16-pin cable. Each pick below is judged on that."
+  ],
+  "quickAnswer": "Buy the Corsair RM850e ($105–$130) for 850 W at a fair price. The Corsair RM850x ($120–$150) adds a 10-year warranty and a quieter 140 mm fan. On a budget, the Corsair RM750e ($85–$100) meets AMD's 750 W guidance for reference-clocked cards. Whatever you buy, confirm it has enough separate 8-pin PCIe cables for your card.",
+  "picks": [
+    {
+      "id": "corsair-rm850e",
+      "label": "Best Overall",
+      "bestFor": "most RX 9070 XT builds, including factory-overclocked three-connector cards",
+      "skipIf": "you want a 10-year warranty, where the RM850x is worth the extra $20",
+      "writeup": [
+        "The RX 9070 XT is rated at 304 W, but many partner cards ship with higher power limits, and AMD's guidance is a 750 W supply. The RM850e gives 850 W for $105–$130, which leaves comfortable room for an overclocked card, a Ryzen 7 9800X3D and the short power spikes modern GPUs produce.",
+        "It meets [ATX 3.1](/glossary/atx-3-1/) and is fully modular, so you only connect the cables you use. That matters with the RX 9070 XT: most models need two or three 8-pin PCIe plugs, and each should come from its own cable. Check the listing's cable list for at least three PCIe 8-pin outputs if your card has three connectors.",
+        "It costs about $20 less than the RM850x because it has a 7-year warranty and a 120 mm fan. For most RX 9070 XT builds, that is the right trade. See [RM850x vs RM850e](/compare/corsair-rm850x-vs-corsair-rm850e/) for the details."
+      ],
+      "pros": ["850 W for $105–$130", "ATX 3.1, fully modular", "Room for overclocked partner cards"],
+      "cons": ["7-year warranty", "120 mm fan", "Older stock may lack ATX 3.1"]
+    },
+    {
+      "id": "corsair-rm850x",
+      "label": "Best Premium",
+      "bestFor": "quiet RX 9070 XT builds that want a 10-year warranty",
+      "skipIf": "you want to keep the PSU budget near $100",
+      "writeup": [
+        "The RM850x is the step up from our top pick: the same 850 W, Gold efficiency and ATX 3.1 design, plus a 140 mm fan that stops entirely at light loads and a 10-year warranty, for $120–$150.",
+        "For an RX 9070 XT, the extra money buys quieter running and a longer warranty rather than any performance. It also includes a native 12V-2x6 cable, which most RX 9070 XT cards will not use, but which keeps the door open for a future GeForce card.",
+        "If the price gap to the RM850e is $15 or less on the day, the RM850x is the better buy."
+      ],
+      "pros": ["10-year warranty", "140 mm zero-RPM fan", "12V-2x6 cable for future GeForce cards"],
+      "cons": ["About $20 more than the RM850e"]
+    },
+    {
+      "id": "seasonic-focus-gx-850",
+      "label": "Best Alternative 850 W",
+      "bestFor": "buyers who find it on sale below the Corsair 850 W units",
+      "skipIf": "you want the quietest fan",
+      "writeup": [
+        "The Seasonic Focus GX-850 is an 850 W, 80 Plus Gold, fully modular unit with a 10-year warranty, and for an RX 9070 XT it is the equal of the RM850x.",
+        "Its hybrid fan mode keeps it silent at idle, and Seasonic's long track record is a major reason it is so widely recommended. Its fan is 120 mm.",
+        "At $120–$140, it is often the cheaper of the two premium 850 W units. Treat them as interchangeable and buy on price; [RM850x vs Seasonic Focus GX-850](/compare/corsair-rm850x-vs-seasonic-focus-gx-850/) compares them."
+      ],
+      "pros": ["850 W, 10-year warranty", "Hybrid silent mode", "Strong track record"],
+      "cons": ["120 mm fan"]
+    },
+    {
+      "id": "corsair-rm750e",
+      "label": "Best 750 W",
+      "bestFor": "RX 9070 XT builds with a reference-clocked card and a 65–120 W CPU",
+      "skipIf": "your card is a heavily factory-overclocked model",
+      "writeup": [
+        "AMD's guidance for the RX 9070 XT is 750 W, and the RM750e is the best 750 W unit to meet it. It is 80 Plus Gold, ATX 3.1 and fully modular for $85–$100, with a 7-year warranty.",
+        "750 W is enough for an RX 9070 XT at or near its 304 W rating with a Ryzen 7 9700X or 9800X3D; the worked example below lands around 480–510 W at gaming load. With a heavily factory-overclocked card, the 850 W picks are safer.",
+        "As with every pick here, check that it supplies enough separate 8-pin PCIe cables for your card. [RM750e vs RM850e](/compare/corsair-rm750e-vs-corsair-rm850e/) shows what the extra 100 W costs."
+      ],
+      "pros": ["Meets AMD's 750 W guidance", "ATX 3.1", "$85–$100"],
+      "cons": ["Less margin for overclocked cards", "7-year warranty"]
+    },
+    {
+      "id": "be-quiet-pure-power-12-m-750",
+      "label": "Quietest 750 W",
+      "bestFor": "quiet RX 9070 XT builds that want a 10-year warranty at 750 W",
+      "skipIf": "you have a high-power partner card or want the lowest price",
+      "writeup": [
+        "The be quiet! Pure Power 12 M 750W is a calm, fully modular Gold unit with a 10-year warranty for $95–$110. For a reference-clocked RX 9070 XT build that prioritizes low noise, it is a good fit.",
+        "Its 10-year warranty is the edge it holds over the RM750e. It also includes a 16-pin GPU cable that most RX 9070 XT cards will not need, which is useful if a GeForce card comes later.",
+        "Confirm its 8-pin cable count against your card's connectors before ordering."
+      ],
+      "pros": ["10-year warranty at 750 W", "Quiet", "Fully modular"],
+      "cons": ["Costs more than cheaper 750 W Gold units", "Tighter margin for overclocked cards"]
+    },
+    {
+      "id": "montech-century-ii-850",
+      "label": "Best Budget 850 W",
+      "bestFor": "budget builds with an overclocked RX 9070 XT that want 850 W near $100",
+      "skipIf": "you want ATX 3.1 or a long-established PSU brand",
+      "writeup": [
+        "The Montech Century II 850W is the cheapest 850 W unit on this list at $95–$115, with 80 Plus Gold, full modularity and a 10-year warranty. For a three-connector, factory-overclocked RX 9070 XT on a budget, that capacity is useful.",
+        "Its compromises are that it is ATX 3.0 rather than 3.1, and Montech's record in power supplies is shorter than Corsair's or Seasonic's.",
+        "Buy it only when it is clearly cheaper than the RM850e; when the gap narrows, the Corsair is the safer choice."
+      ],
+      "pros": ["850 W near $100", "10-year warranty", "Fully modular"],
+      "cons": ["ATX 3.0", "Shorter track record"]
+    }
+  ],
+  "tableSpecs": ["Wattage", "Efficiency", "ATX version", "Modularity", "Warranty"],
+  "ranking": {
+    "intro": "These picks are based on manufacturer specifications, independent power supply reviews and owner reports. Nothing here was bench-tested by Enthusiast Review. Wattage guidance follows AMD's 750 W recommendation for the RX 9070 XT; partner cards vary, so we favor 850 W for overclocked models. Prices are street-price bands.",
+    "criteria": [
+      ["Capacity", "At least 750 W, with credit for 850 W headroom for factory-overclocked cards."],
+      ["8-pin cable supply", "Enough separate PCIe 8-pin cables for two- and three-connector cards."],
+      ["Spike handling", "ATX 3.1 and 3.x units handle short GPU power spikes."],
+      ["Warranty and record", "Longer warranties and proven brands score higher."],
+      ["Value", "What the extra money over a cheaper unit actually buys."]
+    ],
+    "why": "The RM850e wins because it gives 850 W of ATX 3.1 headroom for overclocked RX 9070 XT cards at a price close to good 750 W units."
+  },
+  "mentions": [
+    { "id": "msi-mag-a750gl-pcie5", "text": "The MSI MAG A750GL PCIE5 is a good budget 750 W unit, but its selling point is a native 16-pin cable that most RX 9070 XT cards do not use. For this card, the RM750e is the better 750 W choice." },
+    { "id": "corsair-rm1000x", "text": "The Corsair RM1000x is more than an RX 9070 XT build needs. Consider it only if a 170 W CPU and a heavily overclocked card share the system, or an RTX 5090 is planned." }
+  ],
+  "sections": [
+    {
+      "h": "What Wattage PSU Do You Need for an RX 9070 XT?",
+      "body": [
+        "You need at least a 750 W power supply for an RX 9070 XT, which is AMD's guidance for the 304 W card. Choose 850 W for factory-overclocked partner models, which can run well above the reference power limit, or for a high-power CPU.",
+        "The worked example below adds up a typical build using rated figures, not measurements. Use the [PSU calculator](/tools/psu-calculator/) for your exact parts."
+      ],
+      "table": {
+        "caption": "Worked example: RX 9070 XT power budget",
+        "head": ["Part", "Typical load", "Notes"],
+        "rows": [
+          ["RX 9070 XT (reference)", "About 304 W", "Rated board power"],
+          ["Factory-overclocked partner card", "Often higher", "Check the card's spec page"],
+          ["Ryzen 7 9800X3D", "Up to about 120 W", "Its rated TDP"],
+          ["Motherboard, RAM, SSD, fans", "About 50–80 W", "More with many fans"],
+          ["Total under gaming load", "About 480–510 W", "Reference card, before spikes"],
+          ["Recommended PSU", "750 W minimum, 850 W for OC cards", "Headroom for spikes"]
+        ]
+      }
+    },
+    {
+      "h": "Does the RX 9070 XT Use 8-Pin or 16-Pin Power?",
+      "body": [
+        "Most RX 9070 XT cards use two or three standard 8-pin PCIe connectors; a few partner models use a 16-pin connector instead. Check the spec page of the exact card you are buying, because the connector differs by brand and model.",
+        "For 8-pin cards, the key is cable count. Connect each 8-pin plug on the card to its own cable from the power supply rather than using both ends of one daisy-chained cable. A three-connector card therefore needs a supply with at least three separate PCIe 8-pin outputs."
+      ]
+    },
+    {
+      "h": "Is 750 W Enough for an RX 9070 XT?",
+      "body": [
+        "Yes, for a reference-clocked RX 9070 XT with a typical CPU. A build with a Ryzen 7 9800X3D draws around 480–510 W while gaming, which leaves a reasonable margin on a quality 750 W ATX 3.x unit.",
+        "With a heavily factory-overclocked card, a hot CPU under all-core load, or a lot of fans and drives, move up to 850 W. The price difference is often $20–$30."
+      ]
+    },
+    {
+      "h": "Do You Need ATX 3.1 for an RX 9070 XT?",
+      "body": [
+        "It is recommended rather than required. Like modern GeForce cards, the RX 9070 XT can draw short spikes above its rated power during sudden load changes. ATX 3.x supplies are designed to ride through them, while some older units shut down.",
+        "If your current supply predates ATX 3, the upgrade to an RX 9070 XT is a good time to replace it."
+      ]
+    },
+    {
+      "h": "Which Efficiency Rating and Warranty Should You Choose?",
+      "body": [
+        "80 Plus Gold is the right tier for an RX 9070 XT build; Platinum saves little at gaming loads. The [80 Plus](/glossary/80-plus/) explainer has the numbers.",
+        "Warranty is the better place to spend extra money: 10-year warranties on the RM850x, Seasonic Focus GX-850, be quiet! Pure Power 12 M and Montech Century II signal confidence in the design, against 7 years on the Corsair RMe units."
+      ]
+    },
+    {
+      "h": "Can You Keep Your Old PSU for an RX 9070 XT?",
+      "body": [
+        "Possibly. If your current supply is 750 W or more from a reputable brand, is under about five years old, and has enough separate 8-pin PCIe cables for your card, it can work. If it is older, unbranded, below 750 W, or short on PCIe cables, replace it.",
+        "For more choices, see our [best power supply](/best-power-supply/) and [best PSU under $100](/best-psu-under-100/) guides. Choosing between this card and NVIDIA's rival? [RTX 5070 Ti vs RX 9070 XT](/compare/rtx-5070-ti-vs-rx-9070-xt/) covers the GPUs."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Daisy-chaining 8-pin plugs", "Using both ends of one PCIe cable for a two- or three-connector RX 9070 XT concentrates the load on one cable. Run a separate cable to each plug."],
+    ["Not counting PCIe outputs", "A three-connector card needs three separate 8-pin cables. Some power supplies, especially older or cheaper ones, do not have enough."],
+    ["Sizing for the reference card", "Many RX 9070 XT partner cards run above the 304 W reference figure. For a factory-overclocked model, buy 850 W."],
+    ["Paying for a 16-pin cable you will not use", "Most RX 9070 XT cards use 8-pin plugs, so a unit's native 16-pin cable is only a bonus here. Do not pay extra for it unless a GeForce upgrade is planned."],
+    ["Reusing an unbranded supply", "A no-name supply from an old prebuilt is a poor partner for a 304 W card. Replace it with a quality ATX 3.x unit."]
+  ],
+  "bottomLine": "The Corsair RM850e is the best PSU for an RX 9070 XT because it gives 850 W of ATX 3.1 headroom, enough for overclocked partner cards, for close to the price of a good 750 W unit. Choose the RM850x for a 10-year warranty and quieter fan, or the RM750e if your card is reference-clocked and the budget is tight. Whatever you buy, check you have a separate 8-pin cable for every connector on the card.",
+  "faqs": [
+    { "q": "What PSU do I need for an RX 9070 XT?", "a": "AMD's guidance is a 750 W power supply. An 850 W unit such as the Corsair RM850e is the better choice for factory-overclocked partner cards or a high-power CPU." },
+    { "q": "Is 750 W enough for an RX 9070 XT?", "a": "Yes, for a reference-clocked card with a typical CPU. A build with a Ryzen 7 9800X3D draws around 480–510 W while gaming. Use 850 W for a heavily overclocked model." },
+    { "q": "Is 650 W enough for an RX 9070 XT?", "a": "It is below AMD's 750 W guidance. An efficient build may run, but there is little margin for the card's power spikes or an overclocked model. Buy at least 750 W." },
+    { "q": "Does the RX 9070 XT need a 16-pin connector?", "a": "Most RX 9070 XT cards use two or three 8-pin connectors, and a few use a 16-pin. Check the exact card's spec page before choosing a power supply." },
+    { "q": "How many 8-pin cables does the RX 9070 XT need?", "a": "Two or three, depending on the model. Connect each plug to its own PSU cable rather than daisy-chaining one cable." },
+    { "q": "What is the best PSU for an RX 9070 XT and 9800X3D?", "a": "The Corsair RM850e: 850 W, ATX 3.1 and fully modular for $105–$130. The RM750e is enough for a reference-clocked card if you want to spend less." },
+    { "q": "Is 850 W overkill for an RX 9070 XT?", "a": "No. It covers factory-overclocked cards and short power spikes, runs quieter at partial load, and costs only $20–$30 more than a good 750 W unit." },
+    { "q": "Is Gold efficiency enough for an RX 9070 XT?", "a": "Yes. 80 Plus Gold is the sensible tier for gaming builds; the extra efficiency of Platinum saves little on electricity at gaming loads." }
+  ],
+  "sources": [
+    "AMD Radeon RX 9070 XT specifications and recommended system power",
+    "Partner RX 9070 XT spec pages for power connectors",
+    "Corsair RMx and RMe, Seasonic Focus GX, be quiet! Pure Power 12 M and Montech Century II product pages",
+    "Intel ATX 3.x power supply design guide summaries",
+    "Independent power supply reviews and owner reports"
+  ],
+  "related": ["best-power-supply", "best-psu-under-100", "best-amd-graphics-card"]
+}

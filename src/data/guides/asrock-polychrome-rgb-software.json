@@ -1,0 +1,172 @@
+{
+  "slug": "asrock-polychrome-rgb-software",
+  "type": "article",
+  "kind": "howto",
+  "category": "motherboards",
+  "title": "ASRock RGB Software: Polychrome Download, Setup and Fixes",
+  "h1": "ASRock RGB Software",
+  "query": "asrock rgb software",
+  "description": "ASRock's RGB software is Polychrome, downloaded free from your board's support page. How to install it, sync lights, use ARGB safely and fix detection.",
+  "dek": "Where to get ASRock Polychrome, how to set it up, how to sync other brands' lights, and what to do when it does not see your RGB.",
+  "quickAnswer": "ASRock's RGB software is Polychrome (sold as Polychrome Sync and, on newer boards, Polychrome RGB). Download the version listed on your motherboard's support page on asrock.com, under Utilities, install it, restart, and it controls the board's lighting and any strip on its RGB or ARGB headers. Match 12 V RGB strips to RGB headers and 5 V ARGB strips to ARGB headers, never the other way round.",
+  "intro": [
+    "ASRock motherboards control lighting through Polychrome, a free Windows utility. It runs the LEDs on the board and anything plugged into the board's RGB and addressable RGB headers, and it can sync with some compatible fans, coolers and memory.",
+    "This guide covers which version to download, the install steps, header safety, syncing with other software, ASRock's Auto Driver Installer, and the fixes for Polychrome not detecting devices. Menu names differ between versions, so where they vary we describe what to look for rather than an exact label."
+  ],
+  "stepsHeading": "How to Install ASRock Polychrome, Step by Step",
+  "steps": [
+    {
+      "h": "Find your exact motherboard model",
+      "body": [
+        "The model name is printed on the board, usually between the slots, and shown in the BIOS main screen. In Windows, open System Information and read the BaseBoard Product line. The version of Polychrome you need depends on the board, so get the model exactly right, including suffixes like WiFi or /M.2."
+      ]
+    },
+    {
+      "h": "Open the board's support page",
+      "body": [
+        "On asrock.com, search for the model and open its Support or Download section. Choose your Windows version, then look in the Utilities list for Polychrome. Download from ASRock's site rather than a mirror, because third-party copies may be outdated or bundled with other software."
+      ]
+    },
+    {
+      "h": "Remove older RGB tools first",
+      "body": [
+        "If you had a previous Polychrome version or another RGB program installed, uninstall it and restart. Two lighting tools fighting over the same controller is the most common cause of flicker and missing devices."
+      ]
+    },
+    {
+      "h": "Install and restart",
+      "body": [
+        "Run the installer as administrator, accept any driver prompts, and restart Windows. Polychrome installs a background service that talks to the board's lighting controller, and it needs a restart to start cleanly."
+      ]
+    },
+    {
+      "h": "Set your effects and sync",
+      "body": [
+        "Open Polychrome. You should see the onboard lighting and each header listed separately. Pick an effect and color for each, or use the sync option to apply one effect to everything. Changes are usually saved to the board, so they persist without the app running."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Is ASRock's RGB Software Called?",
+      "body": [
+        "ASRock's lighting software is called Polychrome. Older boards list it as Polychrome Sync or Polychrome RGB Sync; newer AM5 and Intel 700-series boards may list a newer Polychrome RGB app. ASRock has rebranded it more than once, so the right name is whatever your board's support page lists.",
+        "Polychrome is separate from ASRock's other utilities. The motherboard utility handles fan curves and some tuning, and the App Shop or Auto Driver Installer handles drivers. You need only Polychrome for lighting."
+      ]
+    },
+    {
+      "h": "Where Do You Download ASRock RGB Software?",
+      "body": [
+        "From your motherboard's support page on asrock.com. Search for the model, open Support, choose Download, select your Windows version, and look under Utilities for Polychrome. The same page lists the BIOS, chipset and audio drivers.",
+        "Some newer boards offer the download through ASRock's app center instead of a direct file. Either way it is free. If the page lists two Polychrome versions, pick the newest one marked for your Windows version. For BIOS updates from the same page, see [how to update ASRock BIOS](/how-to-update-asrock-bios/)."
+      ]
+    },
+    {
+      "h": "Which RGB Header Should You Use: 12 V RGB or 5 V ARGB?",
+      "body": [
+        "Match the strip to the header, every time. A 12 V RGB header has four pins (12 V, G, R, B) and drives non-addressable strips that show one color at a time. A 5 V addressable RGB (ARGB) header has three pins, with one pin missing in the 4-pin row, and drives strips where each LED can be a different color.",
+        "Plugging a 5 V ARGB strip into a 12 V RGB header can burn out the LEDs instantly. Check the strip's connector and the label next to the header on the board (often printed as RGB_LED or ADDR_LED). If a device has both connector types, use the 3-pin ARGB one for full effects.",
+        "Most headers are rated for a limited current, often around 3 A, which covers a few fans or a strip or two. Daisy-chaining many fans can exceed it; use a powered ARGB hub instead. Your board manual lists the exact rating."
+      ]
+    },
+    {
+      "h": "How Do You Sync ASRock RGB With Other Brands?",
+      "body": [
+        "Polychrome syncs anything connected to the board's headers, regardless of brand, as long as the connector type matches. It also directly supports some partner devices, such as certain memory and coolers, but support lists change; check the compatibility notes on ASRock's site.",
+        "For a full system that mixes brands, such as Corsair memory, an NZXT cooler and a Gigabyte GPU, a third-party tool can control everything from one place. SignalRGB and OpenRGB both support many ASRock boards. Run only one lighting program at a time; close or uninstall Polychrome if another tool takes over the controller."
+      ]
+    },
+    {
+      "h": "What Is the ASRock Auto Driver Installer?",
+      "body": [
+        "ASRock Auto Driver Installer is a small tool on many newer boards that detects your board and offers to download the right chipset, LAN, Wi-Fi, Bluetooth and audio drivers. On some boards the BIOS offers to install it on first boot in Windows; you can turn that option off in the BIOS if you prefer to download drivers manually.",
+        "It is convenient on a fresh Windows install, especially when the network driver is missing. If you do not want extra software, download the same drivers from the board's support page instead. Either way, it does not install Polychrome unless you select it."
+      ]
+    },
+    {
+      "h": "Why Is Polychrome Not Detecting My RGB?",
+      "body": [
+        "The usual causes, in order: another RGB program is controlling the same controller; the device is on the wrong header type; the Polychrome version is wrong for the board; or the lighting controller needs a BIOS update. Close or uninstall other RGB apps, check the header label against the connector, and reinstall the version from your board's own support page.",
+        "If the board LEDs work but a strip does not, check the cable direction (the arrow or 5 V marking should line up with the header's 5 V pin) and test the strip on the other ARGB header. If nothing appears at all, confirm that the board's LED setting in the BIOS is not turned off, then update the BIOS, which often includes lighting controller fixes.",
+        "Fans and strips connected to a case hub, not the board, need the hub's own ARGB cable plugged into a board ARGB header before Polychrome can see them. Some hubs also need their SATA power cable connected."
+      ]
+    },
+    {
+      "h": "Do You Need ASRock RGB Software at All?",
+      "body": [
+        "No. If you are happy with the default rainbow or want lighting off, you do not need Polychrome. Many ASRock boards let you set a basic effect or turn LEDs off in the BIOS, and the setting stays in place without any app.",
+        "Install it if you want custom colors, sync across fans and strips, or effects that react to temperature or music. Uninstall it if you switch to SignalRGB or OpenRGB."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Plugging ARGB into a 12 V RGB header",
+      "A 5 V addressable strip on a 12 V header can burn out its LEDs. Match three-pin ARGB connectors to ADDR headers and four-pin RGB connectors to RGB headers."
+    ],
+    [
+      "Running two RGB programs at once",
+      "Polychrome, iCUE, SignalRGB and other tools can fight over the same controller and cause flicker or lost devices. Keep one in charge."
+    ],
+    [
+      "Downloading Polychrome from a mirror site",
+      "Copies on third-party sites may be old or bundled with adware. Download from your board's page on asrock.com."
+    ],
+    [
+      "Overloading one header",
+      "Many fans on one ARGB header can exceed its current rating. Use a powered hub for more than a few fans or long strips."
+    ],
+    [
+      "Installing the wrong version for the board",
+      "ASRock lists the Polychrome version tested with each board. A version from another model may not detect your controller."
+    ]
+  ],
+  "bottomLine": "ASRock's RGB software is Polychrome, free from your motherboard's support page on asrock.com. Uninstall other lighting tools, install the version listed for your board, restart, and set effects per header or synced. Match 5 V ARGB strips to ARGB headers and 12 V RGB to RGB headers to avoid damage. If Polychrome does not see a device, check other RGB apps, the header type and the BIOS version, or use SignalRGB or OpenRGB for mixed-brand builds.",
+  "faqs": [
+    {
+      "q": "What is ASRock RGB software called?",
+      "a": "Polychrome. Depending on the board and year it is listed as Polychrome Sync, Polychrome RGB Sync or Polychrome RGB. Use whichever version your motherboard's support page lists."
+    },
+    {
+      "q": "Where can I download ASRock Polychrome?",
+      "a": "From asrock.com: search for your motherboard model, open its Support or Download page, choose your Windows version, and look under Utilities. It is free."
+    },
+    {
+      "q": "Is ASRock Polychrome safe?",
+      "a": "Yes, when downloaded from ASRock's own site. Avoid third-party mirrors, which may host outdated or bundled installers."
+    },
+    {
+      "q": "Why is Polychrome not detecting my RGB fans?",
+      "a": "Usually another RGB app is running, the fans are on the wrong header type, the hub is not connected to an ARGB header or powered, or the Polychrome version does not match the board. Fix those first, then update the BIOS."
+    },
+    {
+      "q": "Can I sync Corsair or NZXT RGB with ASRock?",
+      "a": "Devices on the board's headers sync through Polychrome. Devices on their own controllers usually need their own software, or a tool like SignalRGB or OpenRGB that controls several brands at once."
+    },
+    {
+      "q": "What is the ASRock Auto Driver Installer?",
+      "a": "A tool on many newer ASRock boards that detects the board and downloads its chipset, network, audio and other drivers. It is optional; the same drivers are on the board's support page."
+    },
+    {
+      "q": "Can I turn off ASRock RGB without software?",
+      "a": "On many ASRock boards, yes: the BIOS has an LED or RGB lighting option to turn onboard lights off. Check your board manual for where it is."
+    },
+    {
+      "q": "What is the difference between RGB and ARGB headers?",
+      "a": "An RGB header is 12 V with four pins and shows one color at a time. An ARGB header is 5 V with three pins and controls each LED separately. They are not interchangeable."
+    }
+  ],
+  "sources": [
+    "ASRock motherboard support and download pages (Utilities: Polychrome, Auto Driver Installer)",
+    "ASRock motherboard user manuals: RGB and addressable LED header specifications",
+    "SignalRGB and OpenRGB supported device lists"
+  ],
+  "products": [
+    "asrock-b850-steel-legend-wifi"
+  ],
+  "related": [
+    "best-am5-motherboard",
+    "best-graphics-card-brands",
+    "how-to-check-what-graphics-card-i-have"
+  ]
+}

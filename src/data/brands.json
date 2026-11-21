@@ -156,5 +156,32 @@
     "name": "WD",
     "hq": "San Jose, California",
     "blurb": "WD is known in PC hardware for its WD Black gaming SSDs, such as the SN850X and SN7100. Its flash business, including these drives, was spun off as SanDisk in early 2025."
+  },
+  "skytech": {
+    "name": "Skytech Gaming",
+    "blurb": "Skytech Gaming sells prebuilt gaming PCs, mostly through Amazon and other retailers. Its Archangel, Shadow and Azure lines pair current GeForce and Radeon cards with standard, upgradeable desktop parts.",
+    "review": "skytech-gaming-pc-review"
+  },
+  "cyberpowerpc": {
+    "name": "CyberPowerPC",
+    "hq": "City of Industry, California",
+    "blurb": "CyberPowerPC builds custom and prebuilt gaming PCs sold online and through big-box retailers. The Gamer Xtreme and Gamer Supreme lines cover budget to high-end configurations.",
+    "review": "is-cyberpowerpc-good"
+  },
+  "ibuypower": {
+    "name": "iBuyPower",
+    "blurb": "iBuyPower builds custom and prebuilt gaming PCs, from budget Slate systems to high-end Y40 and Y60 builds. Its prebuilts use standard ATX-style parts that are easy to upgrade.",
+    "review": "is-ibuypower-good"
+  },
+  "hp": {
+    "name": "HP",
+    "founded": "1939",
+    "hq": "Palo Alto, California",
+    "blurb": "HP sells the Omen line of gaming desktops alongside its business and home PCs. Omen towers use some HP-specific parts, which can make later upgrades harder than in a standard build."
+  },
+  "alienware": {
+    "name": "Alienware",
+    "founded": "1996",
+    "blurb": "Alienware is Dell's gaming brand. Its Aurora desktops pair high-end GeForce and Radeon cards with Dell's own case designs and support network."
   }
 }

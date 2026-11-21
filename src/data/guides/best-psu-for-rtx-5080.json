@@ -1,0 +1,180 @@
+{
+  "slug": "best-psu-for-rtx-5080",
+  "type": "roundup",
+  "category": "power-supplies",
+  "title": "Best PSU for RTX 5080 (2026): 5 Power Supplies, 850 W Up",
+  "h1": "Best PSU for RTX 5080",
+  "query": "best psu for 5080",
+  "description": "The Corsair RM850x is the best PSU for an RTX 5080: 850 W, matching NVIDIA's guidance, ATX 3.1 and a native 12V-2x6 cable. 5 PSUs ranked, 850 W to 1,000 W.",
+  "dek": "NVIDIA pairs the 360 W RTX 5080 with an 850 W supply. Here is when that is enough, when 1,000 W makes sense, and the five units worth buying.",
+  "intro": [
+    "The Corsair RM850x is the best PSU for an RTX 5080: 850 W, 80 Plus Gold, ATX 3.1, a native 12V-2x6 cable and a 10-year warranty for $120–$150. That matches NVIDIA's 850 W recommendation for the 360 W card exactly, from a unit with a strong track record.",
+    "This guide is for anyone building around an RTX 5080 or upgrading to one. The picks run from budget 850 W units near $100 to the 1,000 W RM850x's bigger sibling for builds that want extra headroom. We also explain why 750 W is not the place to save money with this card."
+  ],
+  "quickAnswer": "Buy the Corsair RM850x ($120–$150): 850 W, as NVIDIA recommends, with a native 12V-2x6 cable and a 10-year warranty. Step up to the Corsair RM1000x ($170–$200) for a 170 W CPU, a heavily overclocked card or a possible RTX 5090. The Seasonic Focus GX-850 matches the RM850x on sale, and the RM850e and Montech Century II 850W save money.",
+  "picks": [
+    {
+      "id": "corsair-rm850x",
+      "label": "Best Overall",
+      "bestFor": "most RTX 5080 builds with a CPU up to about 120 W, such as the Ryzen 7 9800X3D",
+      "skipIf": "you run a 170 W CPU at full load or plan to move to an RTX 5090",
+      "writeup": [
+        "NVIDIA recommends an 850 W power supply for the RTX 5080, a card rated at 360 W, and the RM850x is the 850 W unit we would put in most of those builds. It is 80 Plus Gold, meets [ATX 3.1](/glossary/atx-3-1/) for the short power spikes modern GPUs produce, and ships with a native 12V-2x6 cable that plugs straight into the RTX 5080's 16-pin connector.",
+        "For a typical RTX 5080 build with a Ryzen 7 9800X3D, gaming load lands around 530–560 W, so 850 W leaves plenty of room. The 140 mm fan stops at light loads, and the 10-year warranty is among the longest available.",
+        "Its only limit is the top end: with a 170 W CPU pushed hard in all-core work alongside the card, or a future RTX 5090, a 1,000 W unit is the safer choice. [RM850x vs RM1000x](/compare/corsair-rm850x-vs-corsair-rm1000x/) compares the two."
+      ],
+      "pros": ["Matches NVIDIA's 850 W guidance", "Native 12V-2x6 cable", "10-year warranty", "Fan stops at low load"],
+      "cons": ["Not enough for a future RTX 5090", "Less headroom with a 170 W CPU"]
+    },
+    {
+      "id": "corsair-rm1000x",
+      "label": "Best for Headroom",
+      "bestFor": "RTX 5080 builds with a Ryzen 9 9950X3D-class CPU, heavy overclocks or an RTX 5090 in the plan",
+      "skipIf": "your build is a typical gaming PC with a 120 W or smaller CPU",
+      "writeup": [
+        "The RM1000x is the RTX 5080 pick for builds that push beyond the typical. If you pair the card with a 170 W CPU such as the Ryzen 9 9950X3D and run long all-core workloads, or you have a heavily factory-overclocked RTX 5080, 1,000 W keeps the supply in its comfortable middle range.",
+        "It shares the RM850x's strengths: 80 Plus Gold, ATX 3.1, fully modular, a native 12V-2x6 cable and a 10-year warranty, for $170–$200. It is also the unit NVIDIA's 1,000 W guidance calls for if you later move to an RTX 5090.",
+        "For a standard gaming build, though, it is $40–$60 of capacity you will not use. Buy it for a reason, not by default."
+      ],
+      "pros": ["1,000 W headroom", "Covers a future RTX 5090", "Native 12V-2x6, 10-year warranty"],
+      "cons": ["$40–$60 more than the RM850x", "Wasted capacity in typical builds"]
+    },
+    {
+      "id": "seasonic-focus-gx-850",
+      "label": "Best Alternative",
+      "bestFor": "buyers who find it cheaper than the RM850x",
+      "skipIf": "you want the quietest unit or need 1,000 W",
+      "writeup": [
+        "The Seasonic Focus GX-850 is the RM850x's direct rival: 850 W, 80 Plus Gold, fully modular, with a 12V-2x6 cable included and a 10-year warranty. It meets NVIDIA's RTX 5080 guidance just as the Corsair does.",
+        "Its hybrid fan mode keeps it silent at idle, though it uses a smaller 120 mm fan. Seasonic's record in power supplies is excellent, and for an RTX 5080 the two units are effectively interchangeable.",
+        "At $120–$140, it is often the slightly cheaper option. Buy whichever is lower on the day; see [RM850x vs Seasonic Focus GX-850](/compare/corsair-rm850x-vs-seasonic-focus-gx-850/)."
+      ],
+      "pros": ["850 W, 10-year warranty", "12V-2x6 cable included", "Hybrid fan mode"],
+      "cons": ["120 mm fan", "No room for an RTX 5090"]
+    },
+    {
+      "id": "corsair-rm850e",
+      "label": "Best Value",
+      "bestFor": "RTX 5080 builds that want a trusted 850 W unit for about $20 less",
+      "skipIf": "you want a 10-year warranty",
+      "writeup": [
+        "The RM850e meets NVIDIA's 850 W guidance for the RTX 5080 for $105–$130, about $20 under the RM850x. It keeps ATX 3.1, full modularity and a native 12V-2x6 cable, so the card connects directly.",
+        "The savings come from a 7-year warranty and a 120 mm fan instead of the RM850x's 140 mm. Neither changes whether it can run the card.",
+        "Check that the listing is a current ATX 3.1 model, since older stock may predate it. The two Corsair units are compared in [RM850x vs RM850e](/compare/corsair-rm850x-vs-corsair-rm850e/)."
+      ],
+      "pros": ["850 W for less", "ATX 3.1, native 12V-2x6", "Fully modular"],
+      "cons": ["7-year warranty", "Older stock may lack ATX 3.1"]
+    },
+    {
+      "id": "montech-century-ii-850",
+      "label": "Best Budget 850 W",
+      "bestFor": "tight RTX 5080 budgets that still want 850 W and a 10-year warranty near $100",
+      "skipIf": "you want ATX 3.1 or a brand with a long power supply record",
+      "writeup": [
+        "The Montech Century II 850W is the cheapest way to meet the RTX 5080's 850 W guidance on this list, at $95–$115. It is 80 Plus Gold, fully modular, ships with a native 12VHPWR cable for the card's 16-pin connector, and carries a 10-year warranty.",
+        "Its trade-offs are certification and history: it is ATX 3.0 rather than 3.1, and Montech has a shorter record in power supplies than Corsair or Seasonic.",
+        "It earns its place only when priced well below the RM850e. When the gap is under $15, buy the Corsair."
+      ],
+      "pros": ["850 W near $100", "Native 16-pin cable", "10-year warranty"],
+      "cons": ["ATX 3.0, not 3.1", "Shorter track record", "Loses its edge near RM850e prices"]
+    }
+  ],
+  "tableSpecs": ["Wattage", "Efficiency", "ATX version", "GPU connector", "Warranty"],
+  "ranking": {
+    "intro": "These picks come from manufacturer specifications, independent power supply reviews and owner reports. Nothing here was bench-tested by Enthusiast Review. Wattage guidance follows NVIDIA's published 850 W recommendation for the RTX 5080, and prices are street-price bands.",
+    "criteria": [
+      ["Meets NVIDIA's guidance", "Every pick is at least 850 W, as NVIDIA recommends for the RTX 5080."],
+      ["Native 16-pin connection", "A 12V-2x6 or 12VHPWR cable connects the card without an adapter."],
+      ["Transient handling", "ATX 3.1 units rank above ATX 3.0 for their spike-handling design."],
+      ["Warranty and record", "Longer warranties and well-known brands score higher."],
+      ["Value", "Price per watt and what the extra money buys."]
+    ],
+    "why": "The RM850x wins because it meets NVIDIA's 850 W guidance with a native 12V-2x6 cable, ATX 3.1 and a 10-year warranty from a proven line."
+  },
+  "mentions": [
+    { "id": "corsair-rm750e", "text": "The Corsair RM750e is an excellent 750 W unit, but it is below NVIDIA's 850 W guidance for the RTX 5080. It suits an RTX 5070 Ti, not this card." },
+    { "id": "be-quiet-pure-power-12-m-750", "text": "The be quiet! Pure Power 12 M 750W is quiet and has a 10-year warranty, but at 750 W it falls short of the RTX 5080's guidance. Look at 850 W units instead." }
+  ],
+  "sections": [
+    {
+      "h": "What Wattage PSU Do You Need for an RTX 5080?",
+      "body": [
+        "You need an 850 W power supply for an RTX 5080, which is NVIDIA's recommendation for the 360 W card. A 1,000 W unit makes sense with a 170 W CPU under heavy all-core load, a heavily overclocked card, or a planned RTX 5090 upgrade.",
+        "The worked example below adds up a typical build. The figures are rated or typical loads, not measurements; partner cards and CPUs vary. The [PSU calculator](/tools/psu-calculator/) works out your own build."
+      ],
+      "table": {
+        "caption": "Worked example: RTX 5080 power budget",
+        "head": ["Part", "Typical load", "Notes"],
+        "rows": [
+          ["RTX 5080", "About 360 W", "Rated board power; overclocked models can draw more"],
+          ["Ryzen 7 9800X3D", "Up to about 120 W", "Its rated TDP"],
+          ["Ryzen 9 9950X3D instead", "Up to about 170 W", "Its rated TDP; adds about 50 W"],
+          ["Motherboard, RAM, SSD, fans", "About 50–80 W", "More with lots of fans and RGB"],
+          ["Total under gaming load", "About 530–610 W", "Before short GPU spikes"],
+          ["Recommended PSU", "850 W; 1,000 W for heavy builds", "Headroom for spikes"]
+        ]
+      }
+    },
+    {
+      "h": "Is 750 W Enough for an RTX 5080?",
+      "body": [
+        "Not as a plan. NVIDIA recommends 850 W for the RTX 5080, and a 750 W unit leaves little margin once you add a high-end CPU and the card's short power spikes. Some efficient builds may run on 750 W, but an unexpected shutdown under load is the usual result when the margin runs out.",
+        "The price difference between a good 750 W and a good 850 W unit is often $20–$40. For a $1,000-plus graphics card, that is not where to save."
+      ]
+    },
+    {
+      "h": "Is a 1000 W PSU Better for an RTX 5080?",
+      "body": [
+        "Only for specific builds. With a Ryzen 7 9800X3D or similar CPU, an 850 W unit runs the RTX 5080 comfortably, and a 1,000 W supply mostly adds cost. With a 170 W CPU such as the Ryzen 9 9950X3D under sustained all-core load, a heavily overclocked card, or a likely RTX 5090 upgrade, 1,000 W is worth it.",
+        "There is no performance gain from extra wattage. A larger unit simply runs at a lower share of its capacity, which can be quieter, and leaves room for future parts."
+      ]
+    },
+    {
+      "h": "Does the RTX 5080 Need a 12V-2x6 Cable?",
+      "body": [
+        "The RTX 5080 uses a single 16-pin connector, so a supply with a native [12V-2x6](/glossary/12v-2x6/) or 12VHPWR cable is the cleanest fit, and every pick here has one. A native cable replaces the multi-plug adapter in the box.",
+        "Whatever cable you use, push the 16-pin plug in until it is fully seated with no visible gap, and avoid tight bends right at the connector. If you use the adapter, give each 8-pin plug its own cable from the power supply."
+      ]
+    },
+    {
+      "h": "Do You Need ATX 3.1 for an RTX 5080?",
+      "body": [
+        "It is strongly recommended. Cards in the RTX 5080's class can briefly pull far above their rated power during sudden load changes, and older supplies sometimes shut down when that happens. ATX 3.0 and 3.1 units are designed to handle those spikes.",
+        "If your current supply predates ATX 3, an RTX 5080 upgrade is the time to replace it, even if its wattage looks adequate."
+      ]
+    },
+    {
+      "h": "Which Efficiency Rating Is Best for an RTX 5080 Build?",
+      "body": [
+        "80 Plus Gold is the right tier for most builds. Platinum and Titanium units are slightly more efficient, but at gaming loads the difference in your electricity bill is small, and the premium is better spent on capacity or warranty. See our [80 Plus](/glossary/80-plus/) explainer for the details.",
+        "More important than the badge are the unit's design, its brand's record, and the warranty. Every pick on this page is Gold or equivalent."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Saving $20 with a 750 W unit", "NVIDIA's guidance for the RTX 5080 is 850 W. A 750 W unit leaves too little margin with a high-end CPU and the card's power spikes."],
+    ["Buying 1,000 W by default", "For a typical RTX 5080 build with a 120 W CPU, 850 W is enough. Spend the extra $40–$60 on 1,000 W only for a 170 W CPU, heavy overclocks or an RTX 5090 plan."],
+    ["Leaving the 16-pin plug partly seated", "A connector that is not fully pushed in is the most common cause of 16-pin problems. Check for any gap before closing the case."],
+    ["Using one cable for two 8-pin plugs", "If you use the adapter, connect each 8-pin plug to its own PSU cable rather than both ends of a single cable."],
+    ["Reusing an old, unbranded supply", "A supply that came with an old prebuilt or has no known brand is a poor partner for a $1,000-plus card. Replace it."]
+  ],
+  "bottomLine": "The Corsair RM850x is the best PSU for an RTX 5080 because it meets NVIDIA's 850 W guidance with a native 12V-2x6 cable, ATX 3.1 and a 10-year warranty. Choose the RM1000x for a 170 W CPU, a heavy overclock or a future RTX 5090. The Seasonic Focus GX-850 is an equal alternative, and the RM850e and Montech Century II 850W save money while still meeting the guidance. Skip 750 W units for this card.",
+  "faqs": [
+    { "q": "What PSU do I need for an RTX 5080?", "a": "NVIDIA recommends an 850 W power supply for the RTX 5080. The Corsair RM850x is the best fit; step up to 1,000 W only for a 170 W CPU, a heavy overclock or a future RTX 5090." },
+    { "q": "Is 850 W enough for an RTX 5080?", "a": "Yes. 850 W is NVIDIA's recommendation, and a typical RTX 5080 build with a Ryzen 7 9800X3D draws around 530–560 W while gaming, leaving room for power spikes." },
+    { "q": "Is 750 W enough for an RTX 5080?", "a": "It is below NVIDIA's 850 W guidance. Some efficient builds may run, but you have little margin for spikes or a hotter CPU. Buy at least 850 W." },
+    { "q": "What is the best 1000 W PSU for an RTX 5080?", "a": "The Corsair RM1000x: 1,000 W, 80 Plus Gold, ATX 3.1, a native 12V-2x6 cable and a 10-year warranty. It suits heavy builds and leaves room for an RTX 5090." },
+    { "q": "Does the RTX 5080 use a 16-pin connector?", "a": "Yes, one 16-pin 12V-2x6 connector. A PSU with a native 12V-2x6 or 12VHPWR cable connects it directly; otherwise use the included adapter with separate 8-pin cables." },
+    { "q": "What PSU do I need for an RTX 5080 and Ryzen 9 9950X3D?", "a": "A quality 1,000 W unit such as the Corsair RM1000x is the safer choice, since the 170 W CPU under all-core load adds about 50 W over a 9800X3D. A good 850 W unit can work for gaming-only use." },
+    { "q": "Is Gold good enough for an RTX 5080?", "a": "Yes. 80 Plus Gold is the right tier; Platinum saves little on electricity at gaming loads. Spend the difference on capacity or a longer warranty." },
+    { "q": "Can I use my old PSU with an RTX 5080?", "a": "Only if it is at least 850 W, from a reputable brand, fairly recent and ideally ATX 3.x. Older or unbranded supplies can shut down on the card's power spikes." }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 5080 specifications and recommended system power",
+    "Corsair RMx and RMe product pages",
+    "Seasonic Focus GX and Montech Century II product pages",
+    "Intel ATX 3.x power supply design guide summaries",
+    "Independent power supply reviews and owner reports"
+  ],
+  "related": ["best-power-supply", "best-psu-for-rtx-5070-ti", "best-nvidia-graphics-card"]
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "is-asrock-a-good-brand",
+  "type": "article",
+  "kind": "explainer",
+  "category": "motherboards",
+  "title": "Is ASRock a Good Brand? Motherboards, GPUs and Warranty",
+  "h1": "Is ASRock a Good Brand?",
+  "query": "is asrock a good brand",
+  "description": "Yes: ASRock is a solid, value-focused brand. Its Steel Legend boards and Challenger GPUs often undercut ASUS and MSI by $20 to $50. Where it falls short.",
+  "dek": "What ASRock does well, where it trails ASUS and MSI, and which of its motherboard and graphics card lines are worth buying.",
+  "quickAnswer": "Yes. ASRock is a reputable Taiwanese maker whose motherboards and Radeon and Arc graphics cards usually cost less than equivalent ASUS, MSI or Gigabyte models with similar core hardware. Its mid-range Steel Legend boards and Challenger and Steel Legend GPUs are good value. The trade-offs are plainer software, thinner support in some regions, and a 2025 wave of Ryzen 7 9800X3D failure reports on its AM5 boards that ASRock addressed with BIOS updates.",
+  "intro": [
+    "This page answers whether ASRock is a good brand for the two things it is best known for: motherboards and graphics cards. It covers its history and its link to ASUS, each product line from budget to flagship, warranty, software, and how it compares with ASUS, MSI and Gigabyte.",
+    "Our verdicts come from spec sheets, pricing, published independent reviews and owner reports. We have not bench-tested ASRock hardware ourselves, and we say where a claim depends on reports rather than measurements."
+  ],
+  "sections": [
+    {
+      "h": "Is ASRock Owned by ASUS?",
+      "body": [
+        "No, not today. ASRock started in 2002 as a budget motherboard brand spun off from ASUS, which is why the names look alike. It was later grouped under Pegatron, the manufacturer that ASUS separated from its own business in 2008, and it has operated as its own brand with separate products, support and warranty ever since.",
+        "So an ASRock board is not an ASUS board under another name. The two compete directly, and ASRock's designs, BIOS and software are its own. The family history mainly explains why ASRock was known as a value brand for years before its higher-end lines arrived."
+      ]
+    },
+    {
+      "h": "Are ASRock Motherboards Good?",
+      "body": [
+        "Yes, especially for the money. ASRock boards tend to offer the same chipset, similar power delivery and more ports or M.2 slots than ASUS or MSI boards at the same price. Its range runs from budget HDV and Pro models through Steel Legend and Phantom Gaming to the Taichi flagships.",
+        "The value is clearest in the mid-range. The [ASRock B850 Steel Legend WiFi](/gear/asrock-b850-steel-legend-wifi/) gives a well-cooled VRM, Wi-Fi 7 and plenty of storage for less than many rivals; see how it stacks up in [B850 Steel Legend vs MSI B850 Tomahawk MAX](/compare/asrock-b850-steel-legend-wifi-vs-msi-mag-b850-tomahawk-max-wifi/), and in our [best AM5 motherboard](/best-am5-motherboard/) guide.",
+        "Budget ASRock boards are fine for mainstream chips but skimp where you'd expect: weaker VRM cooling, fewer fan headers and often no BIOS Flashback button. For an eight-core gaming CPU that is rarely a problem. For a 16-core chip under sustained load, step up to a Steel Legend or above."
+      ]
+    },
+    {
+      "h": "What Happened With ASRock Boards and the Ryzen 7 9800X3D?",
+      "body": [
+        "In 2025 a cluster of owners reported Ryzen 7 9800X3D processors that died or stopped booting in ASRock AM5 boards, at a noticeably higher rate in public reports than on other brands. ASRock responded with BIOS updates that changed memory and power-related settings, and both ASRock and AMD said they were investigating.",
+        "What we can say with confidence: if you own an ASRock AM5 board, install the newest BIOS before pairing it with an X3D chip, and keep it updated. Our [ASRock BIOS update guide](/how-to-update-asrock-bios/) covers how. The reports do not show ASRock boards as unsafe in general, but they are a reason to stay current on firmware rather than leave the shipped BIOS in place."
+      ]
+    },
+    {
+      "h": "Is ASRock a Good GPU Brand?",
+      "body": [
+        "Yes, for Radeon and Intel Arc cards. ASRock does not sell GeForce cards to consumers, so its GPU range is AMD and Intel only. Independent reviews have generally rated its cards well on cooling and noise for the price, and they often list for less than Sapphire, PowerColor or XFX equivalents.",
+        "The lines run from cheapest to most premium: Challenger (two or three fans, plain design, the value pick), Steel Legend (white styling, a step up in cooling), Phantom Gaming (bigger coolers and factory overclocks) and Taichi (the flagship). For the [RX 9070 XT](/gear/rx-9070-xt/), the Challenger is one of the cheaper ways to get the chip, and the Taichi one of the most expensive.",
+        "Because the GPU chip is the same across brands, performance differences between partner cards are small: usually a few percent from clock speeds and cooling. Choose on price, size, noise and warranty. For how ASRock compares with other board partners, see our [best graphics card brands](/best-graphics-card-brands/) ranking."
+      ]
+    },
+    {
+      "h": "ASRock Challenger vs Steel Legend: Which Should You Buy?",
+      "body": [
+        "Buy the Challenger if you want the lowest price; buy the Steel Legend if you want a white build or slightly better cooling. The two use the same GPU, and the gap in frame rates is usually within a few percent.",
+        "The Challenger is the plainer card with a simpler cooler and little or no RGB. The Steel Legend adds a white shroud and backplate, RGB and typically a larger heatsink, which helps keep fan noise down under long gaming sessions. If the price gap is more than about $30, the Challenger is the better value for most people."
+      ]
+    },
+    {
+      "h": "What Warranty Does ASRock Offer?",
+      "body": [
+        "ASRock usually lists a three-year limited warranty on motherboards and graphics cards in North America, but terms vary by region and product, so check ASRock's warranty page for your country. Warranty claims go through ASRock's RMA service or, in the first weeks, often through the retailer.",
+        "ASRock's warranty is based on the serial number, so keep the box and receipt. For how this compares with other GPU makers, see [graphics card warranty by brand](/graphics-card-warranty-by-brand/)."
+      ]
+    },
+    {
+      "h": "Is ASRock Better Than ASUS, MSI and Gigabyte?",
+      "body": [
+        "ASRock is usually the better value; ASUS and MSI are usually the more polished. At the same price, ASRock often gives more hardware, while ASUS and MSI tend to have more refined BIOS menus, better-known software and wider support networks.",
+        "Against ASUS, ASRock costs less for similar features, while ASUS's ROG and TUF lines have stronger resale value. Against MSI, the B850 Steel Legend and B850 Tomahawk MAX are close, and the cheaper of the two on the day is the one to buy. Gigabyte sits between them on price.",
+        "Software is ASRock's weakest point. Its RGB tool, Polychrome, and its driver utilities work but feel dated next to rivals; see our [ASRock Polychrome RGB software](/asrock-polychrome-rgb-software/) guide if you need it. Most people only use them once."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Assuming ASRock is ASUS under another name",
+      "ASRock began as an ASUS spin-off but is a separate brand with its own BIOS, support and warranty. Compare it on its own products and prices, not on the ASUS name."
+    ],
+    [
+      "Leaving the shipped BIOS on an AM5 board",
+      "Given the 2025 9800X3D reports and steady AGESA fixes, update an ASRock AM5 board's BIOS before installing an X3D chip, and check for updates every few months."
+    ],
+    [
+      "Buying a budget ASRock board for a 16-core CPU",
+      "HDV and Pro boards are fine for six- and eight-core chips but have lighter VRM cooling. For a Ryzen 9 under sustained load, a Steel Legend or higher is the safer choice."
+    ],
+    [
+      "Paying a lot extra for a Taichi GPU",
+      "The Taichi's bigger cooler and higher clocks add only a few percent over a Challenger with the same chip. Unless you want the looks or the quietest card, the money is better spent on a higher GPU tier."
+    ],
+    [
+      "Expecting GeForce cards from ASRock",
+      "ASRock's consumer graphics cards are Radeon and Intel Arc only. If you want an NVIDIA card, look at ASUS, MSI, Gigabyte, Zotac or PNY instead."
+    ]
+  ],
+  "bottomLine": "ASRock is a good brand, and often the best value one. Its mid-range Steel Legend motherboards and its Challenger and Steel Legend Radeon cards give as much hardware as ASUS and MSI for less money. You give up some polish in BIOS and software, and you should keep AM5 boards on the latest BIOS after the 2025 9800X3D reports. For GeForce cards, ASRock is not an option; for Radeon and value AM5 boards, it should be on your shortlist.",
+  "faqs": [
+    {
+      "q": "Is ASRock a reliable brand?",
+      "a": "Generally yes. Its boards and Radeon cards have a good track record for the price. The main exception was the 2025 reports of Ryzen 7 9800X3D failures on ASRock AM5 boards, which ASRock addressed with BIOS updates, so keep firmware current."
+    },
+    {
+      "q": "Is ASRock owned by ASUS?",
+      "a": "No. ASRock was spun off from ASUS in 2002 and later grouped under Pegatron. It is a separate brand with its own products, BIOS, support and warranty."
+    },
+    {
+      "q": "Are ASRock GPUs good?",
+      "a": "Yes. ASRock's Radeon and Intel Arc cards are generally rated well for cooling and noise and often cost less than rival partner cards. The Challenger is the value line and the Taichi the flagship."
+    },
+    {
+      "q": "Is ASRock better than MSI?",
+      "a": "They are close. ASRock usually gives more hardware for the money; MSI usually has the more polished BIOS and software. Between similar boards like the B850 Steel Legend and B850 Tomahawk MAX, buy whichever is cheaper."
+    },
+    {
+      "q": "Does ASRock make NVIDIA graphics cards?",
+      "a": "Not for consumers. ASRock's consumer graphics cards use AMD Radeon and Intel Arc chips. For GeForce cards, look at ASUS, MSI, Gigabyte, Zotac or PNY."
+    },
+    {
+      "q": "What is ASRock's warranty?",
+      "a": "Usually three years on motherboards and graphics cards in North America, but it varies by region and product. Check ASRock's warranty page for your country and keep your receipt."
+    },
+    {
+      "q": "Is the ASRock Challenger RX 9070 XT good?",
+      "a": "Yes, for the money. It uses the same RX 9070 XT chip as pricier cards, so performance is within a few percent of them. You give up some cooling headroom, RGB and looks, not meaningful speed."
+    },
+    {
+      "q": "Are ASRock motherboards good for gaming?",
+      "a": "Yes. A gaming PC depends mainly on the CPU and GPU, and ASRock boards support both fully. Mid-range models like the B850 Steel Legend add Wi-Fi 7, strong VRMs and plenty of M.2 slots for less than rivals."
+    }
+  ],
+  "sources": [
+    "ASRock company and product pages: motherboard and graphics card lines",
+    "ASRock warranty and RMA pages (North America)",
+    "Independent motherboard and GPU reviews from TechPowerUp, Hardware Unboxed and Gamers Nexus",
+    "Public reports and ASRock BIOS release notes on Ryzen 7 9800X3D failures, 2025"
+  ],
+  "products": [
+    "asrock-b850-steel-legend-wifi",
+    "msi-mag-b850-tomahawk-max-wifi",
+    "rx-9070-xt",
+    "rx-9060-xt-16gb"
+  ],
+  "related": [
+    "best-am5-motherboard",
+    "best-amd-graphics-card",
+    "msi-review"
+  ]
+}

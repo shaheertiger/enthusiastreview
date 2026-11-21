@@ -1,4 +1,10 @@
 {
+  "alienware-aurora-rtx-5080": {
+    "asin": "B0F9MPVT38",
+    "image": "https://m.media-amazon.com/images/I/41p8Ay5zcqL._SL500_.jpg",
+    "title": "Alienware Aurora Gaming Desktop, RTX 5080, Intel Core Ultra 9 285 | 1TB SSD, 32GB DDR5 RAM, 2.5Gb Ethernet, Wi‑Fi 7, Windows 11 Home, Wired Keyboard, ACT1250",
+    "checked": "2026-11-21"
+  },
   "arctic-freezer-36": {
     "asin": "B09VG6NBSJ",
     "image": "https://m.media-amazon.com/images/I/41qj1razI1L._SL500_.jpg",
@@ -113,6 +119,18 @@
     "title": "Crucial T500 PCIe Gen4 NVMe 2TB SSD, Up to 7,400MB/s, TLC NAND, Laptop & Desktop (PC) Compatible, for Creatives and Gamers, Solid State Drive, Includes 1Mo Adobe CC – CT2000T500SSD8",
     "checked": "2026-11-19"
   },
+  "cyberpowerpc-gamer-supreme-rtx-5070-ti": {
+    "asin": "B0HM22J17Z",
+    "image": "https://m.media-amazon.com/images/I/413tmQXS96L._SL500_.jpg",
+    "title": "CyberPowerPC Gaming PC, AMD Ryzen 7 9800X3D, GeForce RTX 5070 Ti 16GB | Gamer Supreme, 32GB DDR5, 2TB PCIe 4.0 SSD, WiFi Ready & Windows 11 Home (SLC8480A10)",
+    "checked": "2026-11-21"
+  },
+  "cyberpowerpc-gamer-xtreme-rtx-3050": {
+    "asin": "B0B782FGFC",
+    "image": "https://m.media-amazon.com/images/I/51ODmWZicsL._SL500_.jpg",
+    "title": "CYBERPOWERPC Gamer Xtreme VR Gaming PC, Intel Core i5-12400F 2.5GHz, GeForce RTX 3050 8GB, 16GB DDR4, 500GB NVMe SSD, WiFi & Win 11 Home (GXiVR8060A16), Black",
+    "checked": "2026-11-21"
+  },
   "fractal-design-north": {
     "asin": "B09V8HNWW9",
     "image": "https://m.media-amazon.com/images/I/417KIaaHKWL._SL500_.jpg",
@@ -148,6 +166,12 @@
     "image": "https://m.media-amazon.com/images/I/41gRCMNX9yL._SL500_.jpg",
     "title": "G.SKILL Trident Z5 Neo RGB Series DDR5 RAM (AMD EXPO) 64GB (2x32GB) Up to 6000MT/s* CL30-36-36-96 1.40V Desktop Computer Memory U-DIMM - Matte White (F5-6000J3036G32GX2-TZ5NRW)",
     "checked": "2026-11-19"
+  },
+  "hp-omen-16l-rtx-5060": {
+    "asin": "B0G6VBD6QP",
+    "image": "https://m.media-amazon.com/images/I/41mBMxxCK6L._SL500_.jpg",
+    "title": "HP OMEN 16L Gaming Desktop PC, AMD Ryzen 7 8700F, 32 GB RAM, 1 TB SSD, NVIDIA GeForce RTX 5060, Windows 11 Pro, Microsoft Copilot, Panda Metal",
+    "checked": "2026-11-21"
   },
   "kingston-fury-beast-ddr5-6000-cl30": {
     "asin": "B0CYHC58P6",
@@ -196,6 +220,12 @@
     "image": "https://m.media-amazon.com/images/I/41EQBUlNKML._SL500_.jpg",
     "title": "MONTECH XR Panoramic ATX Gaming PC Case, Mid Tower, 3 ARGB PWM Fans, Black | High Airflow; 2 Reverse-Blade Side & 1 Rear ARGB PWM Fan; Magnetic Filter; 420mm GPU, 360mm Radiator; USB-C; Up to 9 Fans",
     "checked": "2026-11-19"
+  },
+  "msi-aegis-rtx-5070": {
+    "asin": "B0DYRDH7RJ",
+    "image": "https://m.media-amazon.com/images/I/319j+Ts7e3L._SL500_.jpg",
+    "title": "msi Aegis RS2 AI Gaming Desktop: Intel Ultra 7 265K, Geforce RTX 5070, 32GB DDR5, 1TB M.2 NVMe SSD, Liquid Cooling, Wi-Fi 7, VR-Ready, Window 11 Home: C2NVP7-1445US",
+    "checked": "2026-11-21"
   },
   "msi-mag-a750gl-pcie5": {
     "asin": "B0CC3QBGDL",
@@ -424,6 +454,24 @@
     "image": "https://m.media-amazon.com/images/I/41a1x2C18rL._SL500_.jpg",
     "title": "Seasonic FOCUS GX-850 850W Power Supply ATX 3.1 & PCIe 5.1 Ready | 80 Plus Gold & Cybenetics Platinum Fully Modular 12V-2x6 RTX 5080 AMD RX 9000 Ready Japanese Capacitors 10 Years Warranty",
     "checked": "2026-11-19"
+  },
+  "skytech-archangel-rtx-5060": {
+    "asin": "B0G2RDZ7F1",
+    "image": "https://m.media-amazon.com/images/I/41YQ9Ld+b0L._SL500_.jpg",
+    "title": "Skytech Gaming PC Desktop, Intel i5 14400F, RTX 5060, 16GB RAM, 1TB SSD | Windows 11, NVMe SSD, DDR5 6000, 750W GOLD PSU, Wi-Fi 5, Archangel 5 Series",
+    "checked": "2026-11-21"
+  },
+  "skytech-azure-3-rtx-5070-ti": {
+    "asin": "B0GZN5FVK8",
+    "image": "https://m.media-amazon.com/images/I/41A-AKTXluL._SL500_.jpg",
+    "title": "Skytech Gaming PC Azure 3, Ryzen 7, RTX 5070 Ti, 32GB RAM, 1TB SSD | Windows 11, AMD 7800X3D, NVIDIA 5070 Ti, Gen4 NVMe SSD, DDR5 5600, 850W GOLD ATX 3 PSU, 360 ARGB AIO , Wi-Fi 5",
+    "checked": "2026-11-21"
+  },
+  "skytech-shadow-rtx-5060-ti": {
+    "asin": "B0GSZC8QGB",
+    "image": "https://m.media-amazon.com/images/I/41r9ePuW8TL._SL500_.jpg",
+    "title": "Skytech Gaming PC Shadow 5, Ryzen 7, RTX 5060 Ti 16GB, 16GB RAM, 1TB SSD | Windows 11, AMD 9700X, NVIDIA 5060 Ti 16G, NVMe SSD, DDR5 6000, 750W GOLD PSU, 360 ARGB AIO , Wi-Fi 5, Desktop",
+    "checked": "2026-11-21"
   },
   "teamgroup-t-force-delta-rgb-ddr5-6000": {
     "asin": "B0B3HGJ4V7",

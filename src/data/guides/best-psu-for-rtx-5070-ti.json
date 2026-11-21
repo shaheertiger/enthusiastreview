@@ -1,0 +1,192 @@
+{
+  "slug": "best-psu-for-rtx-5070-ti",
+  "type": "roundup",
+  "category": "power-supplies",
+  "title": "Best PSU for RTX 5070 Ti (2026): 6 Power Supplies Ranked",
+  "h1": "Best PSU for RTX 5070 Ti",
+  "query": "best psu for 5070 ti",
+  "description": "The Corsair RM850x is the best PSU for an RTX 5070 Ti: 850 W, ATX 3.1 and a native 12V-2x6 cable. NVIDIA asks for 750 W; 6 PSUs ranked, $75 to $150.",
+  "dek": "NVIDIA's 750 W guidance is the floor, not the target. Here is how much power a 5070 Ti build really needs, and the six units that fit it.",
+  "intro": [
+    "The Corsair RM850x is the best PSU for an RTX 5070 Ti: 850 W, 80 Plus Gold, ATX 3.1, a native 12V-2x6 cable and a 10-year warranty for $120–$150. NVIDIA recommends a 750 W power supply for the 300 W card, and the extra 100 W buys quieter running, room for a hot CPU like the Ryzen 7 9800X3D and margin for a future upgrade.",
+    "This guide is for anyone building around an RTX 5070 Ti or upgrading to one. Every pick is a fully modular Gold unit that can feed the card's 16-pin connector directly. If you want to spend less, a quality 750 W supply meets NVIDIA's guidance, and three are on this list."
+  ],
+  "quickAnswer": "Buy the Corsair RM850x ($120–$150) for headroom and a 10-year warranty. The Corsair RM750e ($85–$100) is the best 750 W unit and meets NVIDIA's guidance. The Seasonic Focus GX-850 matches the RM850x on sale, the RM850e saves about $20 at 850 W, and the MSI MAG A750GL PCIE5 is the cheapest good 750 W option.",
+  "picks": [
+    {
+      "id": "corsair-rm850x",
+      "label": "Best Overall",
+      "bestFor": "RTX 5070 Ti builds with a Ryzen 7 9800X3D or Core Ultra 7 265K that want headroom and silence",
+      "skipIf": "your budget is tight and the rest of the build is modest, where a 750 W unit is enough",
+      "writeup": [
+        "An RTX 5070 Ti draws about 300 W, and NVIDIA's own guidance is a 750 W supply. The RM850x adds 100 W on top of that, which matters for three reasons: modern graphics cards spike above their rated power for milliseconds, a high-end CPU such as the 120 W Ryzen 7 9800X3D adds its own load, and a supply running at a lower share of its capacity stays cooler and quieter.",
+        "It ships with a native 12V-2x6 cable, so the card's 16-pin connector plugs straight in with no adapter. It meets [ATX 3.1](/glossary/atx-3-1/), is fully modular, and its 140 mm fan stops entirely at light loads. Corsair backs it with a 10-year warranty.",
+        "The cost over a good 750 W unit is $20–$50. For a $750–$900 graphics card, that is a small price for headroom that also covers an RTX 5080 later. Its main rival is compared in [RM850x vs Seasonic Focus GX-850](/compare/corsair-rm850x-vs-seasonic-focus-gx-850/)."
+      ],
+      "pros": ["850 W headroom over NVIDIA's 750 W guidance", "Native 12V-2x6 cable", "10-year warranty", "Fan stops at low load"],
+      "cons": ["$20–$50 more than good 750 W units"]
+    },
+    {
+      "id": "corsair-rm750e",
+      "label": "Best 750 W",
+      "bestFor": "RTX 5070 Ti builds with a 65–120 W CPU that want to meet NVIDIA's guidance for under $100",
+      "skipIf": "you plan to move up to an RTX 5080, which NVIDIA pairs with 850 W",
+      "writeup": [
+        "If you want to spend exactly what NVIDIA asks for, the RM750e is the 750 W unit to buy. It is 80 Plus Gold, ATX 3.1 and fully modular, includes a 12V-2x6 cable for the RTX 5070 Ti's 16-pin connector, and sells for $85–$100 with a 7-year warranty.",
+        "750 W is genuinely enough for an RTX 5070 Ti with a Ryzen 7 9700X, Ryzen 7 9800X3D or similar CPU. The worked example below shows a typical build lands around 500 W at full gaming load, leaving room for spikes.",
+        "Where it gives ground to the RM850x is headroom, warranty length and its smaller 120 mm fan. If you might upgrade to an RTX 5080, buy 850 W now. Otherwise, it is the best value pick; see [RM750e vs RM850e](/compare/corsair-rm750e-vs-corsair-rm850e/)."
+      ],
+      "pros": ["Meets NVIDIA's 750 W guidance", "ATX 3.1 with a 12V-2x6 cable", "$85–$100"],
+      "cons": ["Less headroom for an RTX 5080 later", "7-year warranty", "Smaller fan"]
+    },
+    {
+      "id": "seasonic-focus-gx-850",
+      "label": "Best Alternative 850 W",
+      "bestFor": "buyers who find it cheaper than the RM850x on the day",
+      "skipIf": "you want the quietest possible unit, where the RM850x's 140 mm fan helps",
+      "writeup": [
+        "The Seasonic Focus GX-850 is the RM850x's equal on paper: 850 W, 80 Plus Gold, fully modular, a 12V-2x6 cable and a 10-year warranty. Seasonic's long record in power supplies is a large part of why it is recommended so often.",
+        "Its hybrid fan mode keeps it silent at idle, though its 120 mm fan is smaller than the RM850x's. For an RTX 5070 Ti, either unit gives the same headroom and the same direct 16-pin connection.",
+        "Treat the two as interchangeable and buy whichever is cheaper. At $120–$140, it often is."
+      ],
+      "pros": ["850 W, 10-year warranty", "12V-2x6 cable included", "Hybrid silent fan mode"],
+      "cons": ["120 mm fan"]
+    },
+    {
+      "id": "corsair-rm850e",
+      "label": "Best Value 850 W",
+      "bestFor": "builders who want 850 W headroom for less than the RM850x",
+      "skipIf": "you want a 10-year warranty",
+      "writeup": [
+        "The RM850e is the cheapest way into a trusted 850 W unit for an RTX 5070 Ti. At $105–$130 it is about $20 under the RM850x, and it keeps ATX 3.1, full modularity and a native 12V-2x6 cable.",
+        "The savings come from a shorter 7-year warranty and a smaller 120 mm fan. For most builds, neither is a deal-breaker, and the 850 W of capacity leaves room for an RTX 5080 if you upgrade.",
+        "Older stock may predate ATX 3.1, so check the listing. The two Corsair 850 W units are compared directly in [RM850x vs RM850e](/compare/corsair-rm850x-vs-corsair-rm850e/)."
+      ],
+      "pros": ["850 W for about $20 less", "ATX 3.1, native 12V-2x6", "Fully modular"],
+      "cons": ["7-year warranty", "Older stock may lack ATX 3.1"]
+    },
+    {
+      "id": "be-quiet-pure-power-12-m-750",
+      "label": "Quietest 750 W",
+      "bestFor": "quiet RTX 5070 Ti builds that want a 10-year warranty at 750 W",
+      "skipIf": "you want the lowest price at 750 W",
+      "writeup": [
+        "be quiet! builds its reputation on noise, and the Pure Power 12 M 750W is a calm 750 W Gold unit with a native 16-pin GPU cable and a 10-year warranty for $95–$110.",
+        "For a 5070 Ti build that meets NVIDIA's 750 W guidance and spends a lot of time at moderate load, it is a good fit, and the longer warranty is the edge it holds over the RM750e.",
+        "Like any 750 W unit, it leaves less headroom than the 850 W picks if you later move to a bigger card."
+      ],
+      "pros": ["10-year warranty at 750 W", "Native 16-pin cable", "Quiet operation"],
+      "cons": ["Costs more than the cheapest 750 W Gold units", "Not for an RTX 5080 later"]
+    },
+    {
+      "id": "msi-mag-a750gl-pcie5",
+      "label": "Best Budget",
+      "bestFor": "budget RTX 5070 Ti builds that need a native 16-pin cable for under $95",
+      "skipIf": "you want a long warranty or plan a bigger GPU",
+      "writeup": [
+        "The MSI MAG A750GL PCIE5 is often the cheapest good 750 W unit you can buy, at about $75–$95. It is 80 Plus Gold and fully modular, with a native 16-pin GPU cable that connects to the RTX 5070 Ti without an adapter.",
+        "It meets NVIDIA's 750 W guidance for the card, but its fan and internal design are more basic than the other picks. Check that the listing says PCIE5; older A750GL stock without it lacks the native 16-pin cable.",
+        "For the direct comparison with the RM750e, see [RM750e vs MSI MAG A750GL PCIE5](/compare/corsair-rm750e-vs-msi-mag-a750gl-pcie5/)."
+      ],
+      "pros": ["Native 16-pin cable", "$75–$95", "Fully modular Gold"],
+      "cons": ["Budget fan and design", "Check the listing says PCIE5"]
+    }
+  ],
+  "tableSpecs": ["Wattage", "Efficiency", "ATX version", "GPU connector", "Warranty"],
+  "ranking": {
+    "intro": "These picks are based on manufacturer specifications, independent power supply reviews and owner reports. Nothing here was bench-tested by Enthusiast Review. Wattage guidance comes from NVIDIA's published recommendation of 750 W for the RTX 5070 Ti, and prices are street-price bands that move with sales.",
+    "criteria": [
+      ["Capacity for the card", "At least NVIDIA's 750 W guidance, with extra credit for 850 W headroom."],
+      ["Native 16-pin connection", "A 12V-2x6 or 16-pin cable avoids adapters on the RTX 5070 Ti's connector."],
+      ["Standards", "ATX 3.1 or 3.x units are designed for the short power spikes modern GPUs produce."],
+      ["Warranty and track record", "A longer warranty signals the maker's confidence in the unit."],
+      ["Noise and price", "Fan size, zero-RPM modes and value for money."]
+    ],
+    "why": "The RM850x wins because it pairs 100 W of headroom over NVIDIA's guidance with a native 12V-2x6 cable and a 10-year warranty."
+  },
+  "mentions": [
+    { "id": "corsair-rm1000x", "text": "The Corsair RM1000x is more power supply than an RTX 5070 Ti needs. Buy it only if you plan to move to an RTX 5090, which NVIDIA pairs with 1,000 W." },
+    { "id": "montech-century-ii-850", "text": "The Montech Century II 850W offers 850 W and a 10-year warranty for close to $100, but it is ATX 3.0 rather than 3.1 and comes from a brand with a shorter power supply record. It is a reasonable budget 850 W option when priced well below the RM850e." }
+  ],
+  "sections": [
+    {
+      "h": "What Wattage PSU Do You Need for an RTX 5070 Ti?",
+      "body": [
+        "You need at least a 750 W power supply for an RTX 5070 Ti, which is NVIDIA's recommendation for the 300 W card. An 850 W unit is the better choice if you pair it with a high-power CPU, want quieter running, or might upgrade to an RTX 5080.",
+        "The table below adds up a typical build. The figures are rated or typical gaming loads, not measurements; your exact numbers depend on the CPU, the partner card and what else is installed. The [PSU calculator](/tools/psu-calculator/) works it out for your parts."
+      ],
+      "table": {
+        "caption": "Worked example: RTX 5070 Ti power budget",
+        "head": ["Part", "Typical load", "Notes"],
+        "rows": [
+          ["RTX 5070 Ti", "About 300 W", "Rated board power; factory-overclocked cards can draw more"],
+          ["Ryzen 7 9800X3D", "Up to about 120 W", "Its rated TDP; gaming load is often lower"],
+          ["Motherboard, RAM, SSD, fans", "About 50–80 W", "More with lots of fans and RGB"],
+          ["Total under gaming load", "About 470–500 W", "Before short GPU spikes"],
+          ["Recommended PSU", "750 W minimum, 850 W ideal", "Headroom for spikes and upgrades"]
+        ]
+      }
+    },
+    {
+      "h": "Is 750 W Enough for an RTX 5070 Ti and a Ryzen 7 9800X3D?",
+      "body": [
+        "Yes. A quality 750 W unit handles an RTX 5070 Ti with a Ryzen 7 9800X3D, since a typical gaming load lands around 470–500 W. That leaves a margin of roughly 250 W for transient spikes and the rest of the system.",
+        "Choose 850 W instead if you also use a CPU that can draw far more under all-core load, such as a Core Ultra 7 265K with high power limits, if your 5070 Ti is a heavily factory-overclocked model, or if an RTX 5080 upgrade is likely. The RM850x and RM850e are the picks for that."
+      ]
+    },
+    {
+      "h": "Does the RTX 5070 Ti Need a 12V-2x6 Cable?",
+      "body": [
+        "Most RTX 5070 Ti cards use a single 16-pin power connector, so a power supply with a native [12V-2x6](/glossary/12v-2x6/) or 12VHPWR cable is the cleanest option. Every pick on this page has one. A native cable avoids the bulky adapter that ships with the card and reduces the number of connections that can work loose.",
+        "If you keep an older power supply without a 16-pin cable, use the adapter that came with the card, connect each 8-pin plug to its own cable from the PSU, and make sure the 16-pin end is fully seated with no visible gap."
+      ]
+    },
+    {
+      "h": "Why Do ATX 3.1 and Transient Spikes Matter?",
+      "body": [
+        "Modern graphics cards can briefly pull well above their rated power for a few milliseconds when load changes suddenly. Older power supplies sometimes read those spikes as a fault and shut down, which looks like a random crash or reboot in games.",
+        "ATX 3.0 and 3.1 units are designed to ride through those spikes. That is the main reason to replace an older supply when moving to an RTX 5070 Ti, even if its wattage looks sufficient."
+      ]
+    },
+    {
+      "h": "Should You Get Gold or Platinum for an RTX 5070 Ti?",
+      "body": [
+        "Gold is the sensible tier. The efficiency difference between [80 Plus](/glossary/80-plus/) Gold and Platinum at gaming loads is small, so the electricity savings over the life of the supply rarely cover the extra cost. Spend the difference on build quality and a longer warranty instead.",
+        "What matters more than the efficiency badge is the unit's design, the brand's record and the warranty length. Every pick here is Gold or equivalent, with warranties of 7 to 10 years where stated."
+      ]
+    },
+    {
+      "h": "Can You Reuse Your Old PSU for an RTX 5070 Ti?",
+      "body": [
+        "Sometimes. If your existing supply is 750 W or more from a reputable brand, less than about five years old, and has at least two separate 8-pin PCIe cables for the adapter, it can work. If it is older, unbranded, below 750 W, or came with a prebuilt PC and lists no brand, replace it.",
+        "A $750–$900 card deserves a supply you trust. Our [best power supply](/best-power-supply/) guide covers more units, and [best PSU under $100](/best-psu-under-100/) covers the cheaper end."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying less than 750 W", "NVIDIA's guidance for the RTX 5070 Ti is 750 W. Going below it to save $20 risks shutdowns under load and leaves no room for spikes."],
+    ["Daisy-chaining one PCIe cable", "If you use the adapter, give each 8-pin plug its own cable from the PSU. Using one cable with two ends concentrates the load and can cause instability."],
+    ["Not seating the 16-pin plug fully", "Push the connector in until it clicks with no gap. A partly seated 16-pin plug is the most common cause of connector problems."],
+    ["Keeping an old pre-ATX 3 supply", "Older units can trip on the 5070 Ti's power spikes and reboot mid-game. An ATX 3.x supply is designed for them."],
+    ["Buying the old A750GL by mistake", "The MSI MAG A750GL comes in versions with and without the native 16-pin cable. Make sure the listing says PCIE5."]
+  ],
+  "bottomLine": "The Corsair RM850x is the best PSU for an RTX 5070 Ti because it adds 100 W of headroom over NVIDIA's 750 W guidance, connects to the card with a native 12V-2x6 cable, and carries a 10-year warranty. If you want to meet the guidance exactly, the RM750e is the best 750 W unit, and the MSI MAG A750GL PCIE5 is the cheapest good option. Choose 850 W if an RTX 5080 upgrade is likely.",
+  "faqs": [
+    { "q": "What PSU do I need for an RTX 5070 Ti?", "a": "NVIDIA recommends a 750 W power supply for the RTX 5070 Ti. A quality 850 W unit such as the Corsair RM850x is the better choice for a high-power CPU, quieter running or a future upgrade." },
+    { "q": "Is 750 W enough for an RTX 5070 Ti?", "a": "Yes, for a quality ATX 3.x unit. A typical RTX 5070 Ti and Ryzen 7 9800X3D build draws around 470–500 W while gaming, leaving room for short power spikes." },
+    { "q": "What is the best PSU for an RTX 5070 Ti and 9800X3D?", "a": "The Corsair RM850x. It gives 850 W of capacity, a native 12V-2x6 cable and a 10-year warranty. The Corsair RM750e is the best 750 W alternative if you want to spend less." },
+    { "q": "Is 850 W overkill for an RTX 5070 Ti?", "a": "No. It is more than the card strictly needs, but the extra headroom keeps the fan quieter, covers power spikes and allows an RTX 5080 upgrade, for $20–$50 more than a good 750 W unit." },
+    { "q": "Does the RTX 5070 Ti need a 16-pin cable?", "a": "Most RTX 5070 Ti cards use one 16-pin connector. A PSU with a native 12V-2x6 or 12VHPWR cable is the cleanest fit; otherwise use the adapter in the box with separate 8-pin cables." },
+    { "q": "Is 650 W enough for an RTX 5070 Ti?", "a": "It is below NVIDIA's 750 W guidance. A very efficient build might run, but you have little margin for power spikes or a hotter CPU. Buy at least 750 W." },
+    { "q": "Is ATX 3.1 required for an RTX 5070 Ti?", "a": "Not required, but recommended. ATX 3.x units are designed for the short power spikes modern graphics cards produce, which can make older units shut down." },
+    { "q": "Is a 1000 W PSU better for an RTX 5070 Ti?", "a": "Only if you plan to move to an RTX 5090, which NVIDIA pairs with 1,000 W. For an RTX 5070 Ti or RTX 5080, a quality 850 W unit is enough." }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 5070 Ti specifications and recommended system power",
+    "Corsair RMx, RMe and Seasonic Focus GX product pages",
+    "be quiet! Pure Power 12 M and MSI MAG A750GL PCIE5 product pages",
+    "Intel ATX 3.x power supply design guide summaries",
+    "Independent power supply reviews and owner reports"
+  ],
+  "related": ["best-power-supply", "best-psu-under-100", "best-psu-for-rtx-5080"]
+}

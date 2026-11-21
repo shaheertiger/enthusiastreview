@@ -69,7 +69,7 @@ td .tag { display: block; width: max-content; margin-bottom: .35rem; }
 .mega[hidden] { display: none; }
 .mega-top { display: flex; justify-content: flex-end; padding: .9rem 0 0; font: 700 .85rem/1 var(--head); letter-spacing: .06em; text-transform: uppercase; }
 .mega-top a { color: var(--teal-ink); text-decoration: none; }
-.mega-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.5rem; padding: .5rem 0 1.5rem; }
+.mega-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr)); gap: 1.5rem; padding: .5rem 0 1.5rem; }
 .mega-h { font: 800 .78rem/1 var(--head); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--rule); padding-bottom: .55rem; margin: 0 0 .5rem; }
 .mega-col ul { list-style: none; margin: 0; padding: 0; }
 .mega-col a { display: grid; grid-template-columns: auto 1fr; gap: .6rem; align-items: center; padding: .45rem 0; text-decoration: none; color: var(--ink); }

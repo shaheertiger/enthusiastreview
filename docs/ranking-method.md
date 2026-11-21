@@ -116,6 +116,26 @@ Every chart links the others ("More Equivalents Charts") and the hub `/equivalen
 Not yet covered: Apple M-series GPU and CPU equivalents (M4/M5 family, about 500 searches combined), PS6
 (unreleased). Update the Steam Machine page when independent benchmarks are out; its match is a spec estimate.
 
+### 1f. Money pages, copied from the sister sites (21 Nov 2026)
+
+Sister-site analytics: treadmillreviewsusa's DuckDuckGo winner is a narrow "best X without Y" roundup;
+best-proteinpowder's DuckDuckGo and Bing winners are "is <brand> good" / "<brand> review" pages, store pages
+(Aldi) and one-diet roundups. Their playbook (Proteinpowder repo, `.claude/skills/daily-publish/ARTICLE-FORMAT.md`):
+exact query first in the title, answer + number first in the description, question H2s, brand reviews that answer
+reliability / parts / warranty / vs / who should skip, store pages, cost and fix pages (best CTR), hubs with spokes.
+
+Built from Semrush US exports (brand, gaming pc, prebuilt, cost, cooler, PSU, GPU-under):
+
+| Cluster | Pages |
+|---|---|
+| Prebuilt PCs (new `gaming-pcs` category, 11 lines, Amazon search links) | `/best-prebuilt-gaming-pc/`, `/best-gaming-pc-under-1000/`, `/best-budget-gaming-pc/`, `/is-ibuypower-good/`, `/is-cyberpowerpc-good/`, `/skytech-gaming-pc-review/`, `/cyberpowerpc-vs-ibuypower/`, `/best-buy-prebuilt-gaming-pc/`, `/how-much-does-a-gaming-pc-cost/`, `/rent-to-own-gaming-pc/` |
+| GPU brands (hub `/best-graphics-card-brands/`) | `/is-pny-a-good-gpu-brand/` ("what is pny gpu" 4,400, KD 16), `/is-zotac-a-good-gpu-brand/`, `/is-asrock-a-good-brand/`, `/graphics-card-warranty-by-brand/`, `/zotac-firestorm/`, `/how-to-update-asrock-bios/`, `/asrock-secure-boot/`, `/asrock-polychrome-rgb-software/` |
+| Narrow roundups (existing products) | GPU under $300 / $400 / $500; PSU for RTX 5070 Ti / RTX 5080 / RX 9070 XT; cooler for 7800X3D / 9950X3D / 9600X |
+
+Next: set ASINs on the prebuilt products once exact listings are checked; "best psu for 5090" (390, KD 16) needs
+1,000 W+ PSUs in the catalog; Skytech / iBuyPower RGB and keyboard how-tos; "is msi / gigabyte a good brand" if the
+hub ranks.
+
 ## 2. Site structure (copied from the sister sites)
 
 | Sister-site pattern | Here |
