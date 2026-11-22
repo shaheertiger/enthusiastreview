@@ -30,8 +30,9 @@ export const config = {
 const GONE = /^\/(?:best|guides)(?:\/.*)?$|^\/compare\/(?:alorair\-vs\-aprilaire\-dehumidifier|amana\-vs\-friedrich\-dehumidifier|aprilaire\-vs\-santa\-fe\-dehumidifier|frigidaire\-vs\-honeywell\-dehumidifier|haier\-vs\-ge\-dehumidifier|midea\-vs\-frigidaire\-dehumidifier)(?:\/|\.md)?$|^\/authors\/home-air-desk(?:\/|\.md)?$|^\/(?:how-to-overclock-a-gpu|how-to-benchmark-.+|how-to-get-windows-.+|how-to-choose-best-drone-.+|methodology|og)(?:\/.*)?$/;
 // The Nov 2026 bottleneck-finder pages, except the guides that are live at their own URL: the 2020
 // guide restored earlier, the one vercel.json redirects to /best-graphics-card/, and the eight Bing
-// still ranked with clicks (Bing Webmaster, 21 Nov 2026), rebuilt as real roundups.
-const LIVE_GPU_FOR = 'ryzen-5-2600-and-3600|ryzen-9-3900x-and-3950x|ryzen-5-1600|core-i3-12100f|ryzen-5-9600x|core-i5-10400f|ryzen-7-3700x|ryzen-7-5700x|core-i5-12600k|core-i7-14700k';
+// still ranked with clicks (Bing Webmaster, 21 Nov 2026), rebuilt as real roundups, and seven more Bing
+// still showed with impressions on 22 Nov 2026 (5600, 5500, 7800X3D, 7700X, 11400F, 13400F, 7600).
+const LIVE_GPU_FOR = 'ryzen-5-2600-and-3600|ryzen-9-3900x-and-3950x|ryzen-5-1600|core-i3-12100f|ryzen-5-9600x|core-i5-10400f|ryzen-7-3700x|ryzen-7-5700x|core-i5-12600k|core-i7-14700k|ryzen-5-5600|ryzen-5-5500|ryzen-7-7800x3d|ryzen-7-7700x|core-i5-11400f|core-i5-13400f|ryzen-5-7600';
 const BOTTLENECK = new RegExp(`^/best-gpu-for-(?!(?:${LIVE_GPU_FOR})(?:/|\\.md)?$)[a-z0-9-]+(?:/|\\.md)?$`);
 // Old single-CPU URLs whose CPU an existing guide covers.
 const GPU_FOR_MOVED = { '/best-gpu-for-ryzen-5-3600': '/best-gpu-for-ryzen-5-2600-and-3600/', '/best-gpu-for-ryzen-5-2600': '/best-gpu-for-ryzen-5-2600-and-3600/' };
