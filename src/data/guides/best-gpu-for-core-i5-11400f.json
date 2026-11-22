@@ -1,0 +1,223 @@
+{
+  "slug": "best-gpu-for-core-i5-11400f",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Core i5-11400F (2026): 6 Cards for 1080p Gaming",
+  "h1": "Best GPU for Core i5-11400F",
+  "query": "best gpu for core i5 11400f",
+  "description": "The RX 9060 XT 16GB is the best GPU for an i5-11400F: 16 GB and a full x16 link for $350–$400, a close match at 1080p. 6 picks from $180 to 1440p.",
+  "dek": "Intel's 2021 six-core sits in a lot of budget builds and prebuilts. These six cards match its speed at 1080p, its PCIe 4.0 slot on B560 boards and the power supplies it usually ships with.",
+  "intro": [
+    "The Radeon RX 9060 XT 16GB is the best GPU for a Core i5-11400F in 2026. For $350–$400 it runs 1080p at high settings, uses all sixteen PCIe lanes on any board, and carries 16 GB, so it never leans on the PCIe bus the way 8 GB cards do.",
+    "This page is for owners of Intel's 11th-generation six-core, in a self-built B560 or H510 system or a store-bought desktop. It covers the best card for 1080p gaming, what GPU is good with an i5-11400F at each budget, the most GPU it can sensibly take, and what PCIe 4.0 and Resizable BAR mean on your board."
+  ],
+  "quickAnswer": "Buy the RX 9060 XT 16GB ($350–$400) for most 11400F systems. The RTX 5060 Ti 16GB ($430–$480) is the NVIDIA choice. The RTX 5060 ($300–$330) is the budget 1080p pick on a B560 board. For 1440p, the RX 9070 ($550–$620) is the ceiling. In a prebuilt with a small supply, the 115 W RTX 4060 fits, and the RX 6600 ($180–$230) is the cheapest upgrade.",
+  "picks": [
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Overall Match",
+      "bestFor": "most 11400F systems used for 1080p high settings, with a 500 W or larger supply",
+      "skipIf": "your supply has no 8-pin PCIe cable; see the RTX 4060 below",
+      "writeup": [
+        "The RX 9060 XT 16GB is the card that fits the i5-11400F best, whichever motherboard it sits in. That matters on this platform, because the graphics slot runs at PCIe 4.0 on B560, H570 and Z590 boards but only at PCIe 3.0 on H510 boards, which are common in budget builds and prebuilts. A card wired for sixteen lanes, as this one is, keeps plenty of bandwidth either way.",
+        "Its 16 GB is the other half of the case. When an 8 GB card runs out of memory in a new game, it pulls data across the PCIe bus and frame times get uneven. Sixteen gigabytes keeps that from happening at 1080p with high textures, and leaves room for 1440p.",
+        "Its speed suits the CPU. The 11400F games roughly like a Ryzen 5 5600, per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/), and at 1080p a card of this class is close to what it can feed in most games. Faster cards help mainly at higher resolutions.",
+        "At roughly 160–180 W it runs on a quality 500–550 W supply with one 8-pin cable, and FSR 4 gives it a good upscaler for demanding games."
+      ],
+      "pros": ["Full x16 link on any LGA1200 board", "16 GB for high textures", "Matches the CPU at 1080p", "FSR 4"],
+      "cons": ["Needs an 8-pin cable some prebuilts lack", "Weaker ray tracing than NVIDIA"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best NVIDIA Pick",
+      "bestFor": "players who want DLSS 4, stronger ray tracing and NVIDIA's encoder",
+      "skipIf": "you want the most frames per dollar; the RX 9060 XT 16GB is close and cheaper",
+      "writeup": [
+        "The RTX 5060 Ti 16GB is the NVIDIA card that pairs best with an i5-11400F. It is wired for eight PCIe lanes, which works well on a B560 or Z590 board: at PCIe 4.0 x8, independent scaling tests showed only a small loss compared with a newer PCIe 5.0 slot.",
+        "On an H510 board the link drops to PCIe 3.0 x8, a narrower pipe. What protects it is the memory. With 16 GB, the card rarely needs to pull data over the bus, so the penalty stays modest. The 8 GB version does not have that cushion, which is why it is not recommended here.",
+        "DLSS 4 with multi frame generation is useful on a CPU that limits frame rates in busy scenes, and NVIDIA's ray tracing is a tier ahead of AMD's at this price. At 180 W it runs on a quality 500–550 W supply with one 8-pin cable on most models."
+      ],
+      "pros": ["16 GB offsets the x8 link", "DLSS 4 multi frame generation", "Strong ray tracing for the class"],
+      "cons": ["Runs at PCIe 3.0 x8 on H510 boards", "Costs more than the RX 9060 XT 16GB"]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Best Budget 1080p Pick",
+      "bestFor": "B560 or Z590 owners who play esports and older games at 1080p",
+      "skipIf": "you have an H510 board or want high textures in new games; buy a 16 GB card",
+      "writeup": [
+        "The RTX 5060 is the cheapest card that feels like a real upgrade for 1080p on an 11400F. It is about as fast as the CPU can use in most games at that resolution, draws about 145 W, and brings DLSS 4 with multi frame generation.",
+        "Its limits are 8 GB of memory and an eight-lane link. On a B560 or Z590 board the slot runs at PCIe 4.0 x8, which suits it. On an H510 board it drops to PCIe 3.0 x8, and once its 8 GB fills in a new game, that narrow link makes stutter worse. Keep textures at medium to high and it does well; push them to ultra and a 16 GB card is the safer buy.",
+        "For esports titles, older games and 1080p at 60 to 144 fps, it is a sensible way to spend about $300 and leave money for a platform upgrade later."
+      ],
+      "pros": ["About $300", "About 145 W on one 8-pin", "DLSS 4 frame generation"],
+      "cons": ["8 GB limits high textures", "PCIe 3.0 x8 on H510 boards"]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Best for 1440p",
+      "bestFor": "11400F owners with a 1440p monitor and a 650 W supply",
+      "skipIf": "you game at 1080p, where the 11400F caps it in CPU-heavy games",
+      "writeup": [
+        "At 1440p, more of the work moves from the CPU to the graphics card, which lets an i5-11400F drive more GPU than it can at 1080p. The RX 9070 is about as far as that goes: a 16 GB card with a full x16 link that runs at an efficient 220 W.",
+        "It is also the card to buy if you plan to replace the platform within a couple of years. Its sixteen lanes lose little on any LGA1200 board, and it will still be a good match for a newer CPU later.",
+        "AMD recommends a 650 W supply, and most models use two 8-pin connectors. At 1080p in CPU-heavy games, the 11400F holds it back noticeably; there, the RX 9060 XT 16GB is the better buy."
+      ],
+      "pros": ["Full x16 link and 16 GB", "Efficient for its speed", "Strong at 1440p"],
+      "cons": ["CPU-limited at 1080p", "Needs a 650 W supply"]
+    },
+    {
+      "id": "rtx-4060",
+      "label": "Best for Prebuilts",
+      "bestFor": "OEM desktops with 300–450 W supplies or compact cases",
+      "skipIf": "your supply is 500 W or more with an 8-pin cable; buy a faster card",
+      "writeup": [
+        "Many i5-11400F systems are store-bought desktops, and those often use modest power supplies, sometimes proprietary, with few cables and tight cases. The RTX 4060 is the card most likely to fit: about 115 W, a single 8-pin connector on most models, and short, dual-slot versions.",
+        "Its 8 GB and eight-lane link are the trade-off. Many prebuilts use H510 boards, where it runs at PCIe 3.0 x8; in most games at 1080p medium to high settings, published scaling tests showed the narrower link costs little. It is a big step from the GTX 1650 or GTX 1660 Super that many of these systems shipped with.",
+        "Before buying, check the supply's label for its wattage and whether a PCIe power cable is available. Some OEM units have none, which limits you to cards powered by the slot alone."
+      ],
+      "pros": ["About 115 W", "Compact models available", "DLSS 3 frame generation"],
+      "cons": ["8 GB over an x8 link", "Slower than the RTX 5060 at similar prices"]
+    },
+    {
+      "id": "rx-6600",
+      "label": "Lowest-Cost Upgrade",
+      "bestFor": "tight budgets and 1080p medium settings",
+      "skipIf": "you can stretch to an RTX 5060 or RX 9060 XT 16GB",
+      "writeup": [
+        "The RX 6600 is the cheapest card worth putting next to an i5-11400F. For $180–$230 it handles 1080p at medium to high settings in most games, and at 132 W it runs on almost any supply with a single 8-pin cable.",
+        "It is slower than the 11400F can use, so the CPU will rarely be the limit. Its 8 GB and eight-lane link are the weak spots, mainly on H510 boards at PCIe 3.0 x8, so keep textures sensible. It has no FSR 4 support, though FSR 3 works.",
+        "Our [RX 6600 vs RTX 4060 comparison](/compare/rx-6600-vs-rtx-4060/) shows when the extra money for the NVIDIA card is worth it."
+      ],
+      "pros": ["$180–$230", "132 W, runs on small supplies", "Solid at 1080p medium"],
+      "cons": ["8 GB and an x8 link", "No FSR 4"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "PCIe interface", "Board power", "Memory bus"],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling and PCIe-scaling reviews, and owner reports from 11th-generation Intel systems, including prebuilts. None of these pairings were bench-tested by Enthusiast Review; statements about bottlenecks and PCIe losses reflect what independent reviewers have widely reported.",
+    "criteria": [
+      ["CPU balance", "We matched each card to the resolution where an 11400F can keep it busy, with 1080p as the main target."],
+      ["Board and PCIe fit", "The slot runs at PCIe 4.0 on B560 and Z590 but PCIe 3.0 on H510, so x16 cards and 16 GB cards ranked above 8 GB x8 cards."],
+      ["Memory", "Cards with 12 GB or more ranked higher for new games with high textures."],
+      ["Power and fit", "Prebuilt systems often have small supplies and cases, so low-power and compact options earned a place."],
+      ["Future use", "Cards that stay good matches after a platform upgrade ranked above stopgaps."]
+    ],
+    "why": "The RX 9060 XT 16GB won because it combines a full x16 link and 16 GB with speed the 11400F can use at 1080p, for a reasonable price."
+  },
+  "mentions": [
+    {"id": "arc-b580", "text": "The Arc B580 has 12 GB for about $250–$290, and 500-series boards support the Resizable BAR it needs. But independent reviews found its driver overhead costs it more on older six-cores like the 11400F than Radeon or GeForce cards lose, and it runs at x8. The RTX 5060 is the safer pick at this price."},
+    {"id": "rtx-5070", "text": "An RTX 5070 can make sense on an 11400F at 1440p, but at 1080p the CPU limits it in many games and its 12 GB is less than the RX 9070's 16 GB. The RX 9070 is the better 1440p match here for similar money."},
+    {"id": "rx-9070-xt", "text": "The RX 9070 XT is a strong card, but an 11400F leaves a good share of its speed unused below 4K, and it wants a 750 W supply. Buy it only if a platform upgrade is coming soon and the card will move with you."}
+  ],
+  "sections": [
+    {
+      "h": "What GPU Is Good With an i5-11400F?",
+      "body": [
+        "Any card from an RX 6600 to an RX 9070 is a sensible match, depending on your budget and resolution. The 11400F is a six-core, twelve-thread chip that games a little behind a Ryzen 5 5600, which is enough for 1080p at high frame rates in most games and for 1440p with a mid-range card.",
+        "The table below lays out the matches. Prices are typical street-price bands and move often."
+      ],
+      "table": {
+        "caption": "GPU matches for an i5-11400F by budget",
+        "head": ["Budget", "Card", "Best resolution", "Board power", "Supply"],
+        "rows": [
+          ["$180–$230", "RX 6600", "1080p medium", "132 W", "450 W"],
+          ["$280–$310", "RTX 4060", "1080p high", "115 W", "400–450 W"],
+          ["$300–$330", "RTX 5060", "1080p high", "145 W", "500 W"],
+          ["$350–$400", "RX 9060 XT 16GB", "1080p high to 1440p", "160–180 W", "500–550 W"],
+          ["$430–$480", "RTX 5060 Ti 16GB", "1080p high to 1440p", "180 W", "550 W"],
+          ["$550–$620", "RX 9070", "1440p", "220 W", "650 W"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Best GPU for i5-11400F for 1080p Gaming?",
+      "body": [
+        "The RX 9060 XT 16GB. At 1080p it is about as fast as the 11400F can feed in most games, so you are not paying for speed the CPU cannot use, and its 16 GB handles high textures in new releases. The RTX 5060 Ti 16GB is the NVIDIA equivalent for about $80 more.",
+        "On a tighter budget, the RTX 5060 is the best 1080p card under $350 on a B560 or Z590 board. If you play mostly esports games at high refresh rates, the CPU matters more than the GPU, and an RTX 5060 or RX 9060 XT 16GB already gets close to the frame rates an 11400F can reach. Our [best graphics cards under $400](/best-graphics-card-under-400/) list covers more options in this range."
+      ]
+    },
+    {
+      "h": "What Is the Maximum GPU an i5-11400F Can Take?",
+      "body": [
+        "There is no hard maximum. Any modern graphics card works in an 11400F system, from an RTX 5060 to an RTX 5090, as long as the case fits it and the power supply can run it. The real question is how much GPU the CPU can keep busy.",
+        "At 1080p, that ceiling is roughly an RX 9060 XT 16GB or RTX 5060 Ti 16GB. At 1440p it rises to an RX 9070 or RTX 5070. At 4K the graphics card does most of the work, so even an RX 9070 XT or RTX 5070 Ti can be paired sensibly, though the 11400F will still cap frame rates in CPU-heavy games such as large strategy titles and busy online shooters.",
+        "Spending beyond those levels is not harmful, but it buys speed you will only see after a CPU upgrade. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows where the balance falls for any pairing."
+      ]
+    },
+    {
+      "h": "Does the i5-11400F Support PCIe 4.0?",
+      "body": [
+        "Yes, on the right board. The 11400F provides PCIe 4.0 x16 to the graphics slot on B560, H570 and Z590 motherboards. H510 boards limit it to PCIe 3.0, and on the 400-series boards that accept 11th-generation chips (Z490 and H470), PCIe 4.0 depends on how the board maker wired the slot.",
+        "For cards wired for sixteen lanes, the difference is small either way. For x8 cards it matters more: PCIe 3.0 x8 is half the bandwidth of PCIe 4.0 x8, and the loss grows when an 8 GB card runs out of memory. If you are not sure which chipset you have, check the motherboard model in your system information tool or on the board itself."
+      ],
+      "table": {
+        "caption": "Each pick's link on an i5-11400F",
+        "head": ["Card", "Interface", "On B560 / Z590", "On H510", "VRAM"],
+        "rows": [
+          ["RX 9060 XT 16GB", "PCIe 5.0 x16", "PCIe 4.0 x16", "PCIe 3.0 x16", "16 GB"],
+          ["RTX 5060 Ti 16GB", "PCIe 5.0 x8", "PCIe 4.0 x8", "PCIe 3.0 x8", "16 GB"],
+          ["RTX 5060", "PCIe 5.0 x8", "PCIe 4.0 x8", "PCIe 3.0 x8", "8 GB"],
+          ["RX 9070", "PCIe 5.0 x16", "PCIe 4.0 x16", "PCIe 3.0 x16", "16 GB"],
+          ["RTX 4060", "PCIe 4.0 x8", "PCIe 4.0 x8", "PCIe 3.0 x8", "8 GB"],
+          ["RX 6600", "PCIe 4.0 x8", "PCIe 4.0 x8", "PCIe 3.0 x8", "8 GB"]
+        ]
+      }
+    },
+    {
+      "h": "Will an i5-11400F Bottleneck an RTX 5070?",
+      "body": [
+        "At 1080p, often yes; at 1440p, much less. In CPU-heavy games at 1080p, the 11400F caps frame rates below what an RTX 5070 can deliver, so part of the card's speed goes unused. At 1440p the graphics card carries more of the load and the pairing is reasonably balanced.",
+        "Your board also plays a part. Independent reviews of the 11400F found that many low-cost H510 boards enforce Intel's power limits or have weak power delivery, so the chip cannot hold its 4.4 GHz boost under load, while many B560 boards let it boost longer. On a B560 board with fast DDR4, the 11400F gets closer to its best."
+      ]
+    },
+    {
+      "h": "Does the i5-11400F Support Resizable BAR?",
+      "body": [
+        "Yes. Intel supports Resizable BAR on 11th-generation Core chips, and most B560, H570 and Z590 boards offer it, often after a BIOS update. Turn on Above 4G Decoding and Re-Size BAR Support in the BIOS, and make sure Windows boots in UEFI mode.",
+        "For Radeon and GeForce cards it adds a few percent in some games. For Intel Arc, including the Arc B580, it is required. The platform meets that requirement, but Arc's driver overhead is the bigger issue on a CPU of this class, which is why the B580 sits in our notable mentions rather than the picks."
+      ]
+    },
+    {
+      "h": "Do You Need a New PSU?",
+      "body": [
+        "Check before you buy, especially in a prebuilt. The 11400F is rated at 65 W base power, and a self-built system with a quality 550 W supply runs every card on this page except the RX 9070, which calls for 650 W.",
+        "Prebuilts are less predictable. Some use 300–400 W supplies, some have no PCIe power cable, and some use proprietary connectors that make replacement awkward. In those cases, the RTX 4060 or RX 6600 is the safe choice. Our [PSU calculator](/tools/psu-calculator/) works out what any pairing needs."
+      ]
+    },
+    {
+      "h": "Should You Upgrade the CPU Instead?",
+      "body": [
+        "Not first. LGA1200 ends with 11th-generation chips, so the only upgrades in the socket are an i5-11600K, i7-11700F or i9-11900K, and those are modest steps for the money. The 11400F is still capable at 1080p and 1440p.",
+        "For most owners, the better order is a graphics card now and a full platform upgrade later. Choose an x16 card with plenty of memory, such as the RX 9060 XT 16GB or RX 9070, so it moves into the next system without losing anything. Compare our guide for the slightly older [Core i5-10400F](/best-gpu-for-core-i5-10400f/) if you have that chip in another machine, and our [old GeForce equivalents chart](/old-nvidia-gpu-equivalents/) to see how much faster a new card is than what you have now."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Ignoring a prebuilt's power supply", "Many OEM desktops ship with small or proprietary supplies and few cables. Check the label and connectors before buying a card that needs 500 W and an 8-pin cable."],
+    ["Assuming PCIe 4.0 on an H510 board", "The 11400F only runs PCIe 4.0 on B560, H570 and Z590 boards. On H510 the slot is PCIe 3.0, which hurts 8 GB cards wired for eight lanes the most."],
+    ["Buying an 8 GB card for ultra textures", "Cards such as the RTX 5060 and RX 6600 run out of memory in new games at high texture settings. Use medium to high textures on them, or buy a 16 GB card."],
+    ["Overspending on the GPU at 1080p", "Above RTX 5060 Ti 16GB level, an 11400F limits frame rates in many games at 1080p. Save the difference toward a new platform."],
+    ["Leaving the RAM at its default speed", "Many 11400F systems run memory at a low default. On a B560 board, turn on the XMP profile in the BIOS so DDR4 runs at its rated speed; it lifts CPU-limited frame rates."]
+  ],
+  "bottomLine": "For a Core i5-11400F, the RX 9060 XT 16GB is the card to buy in 2026: a full x16 link that suits both PCIe 4.0 and PCIe 3.0 boards, 16 GB of memory, and speed the CPU can use at 1080p. Choose the RTX 5060 Ti 16GB for NVIDIA features, the RTX 5060 for budget 1080p on a B560 board, the RX 9070 for 1440p, the RTX 4060 for prebuilts with small supplies, and the RX 6600 when every dollar counts.",
+  "faqs": [
+    {"q": "What is the best GPU for an i5-11400F?", "a": "The RX 9060 XT 16GB. It keeps a full x16 link on any LGA1200 board, has 16 GB of memory and suits the CPU at 1080p. The RTX 5060 Ti 16GB is the best NVIDIA option, and the RX 9070 the best for 1440p."},
+    {"q": "What is the best GPU for an i5-11400F for 1080p gaming?", "a": "The RX 9060 XT 16GB for $350–$400, or the RTX 5060 Ti 16GB if you want NVIDIA. Both run 1080p at high settings and are close to what the 11400F can feed. On a budget, the RTX 5060 is the best card under $350."},
+    {"q": "What is the maximum graphics card an i5-11400F can take?", "a": "Any card fits if your case and power supply allow it; there is no hard limit. The sensible ceiling is an RX 9060 XT 16GB or RTX 5060 Ti 16GB at 1080p, and an RX 9070 or RTX 5070 at 1440p. Beyond that, the CPU leaves extra speed unused."},
+    {"q": "Can an i5-11400F handle an RTX 5070?", "a": "Yes, but at 1080p it limits the card in CPU-heavy games. At 1440p the pairing is more balanced. The RX 9070 is a slightly better 1440p match on this CPU, with 16 GB instead of 12 GB."},
+    {"q": "Does the i5-11400F support PCIe 4.0?", "a": "Yes, on B560, H570 and Z590 boards. H510 boards limit the slot to PCIe 3.0. That mainly affects cards wired for eight lanes, such as the RTX 5060 and RTX 4060."},
+    {"q": "Is the Arc B580 good with an i5-11400F?", "a": "It works, and 500-series boards support the Resizable BAR it needs. But independent tests found Arc's driver overhead costs it more on CPUs of this class than Radeon or GeForce cards lose, so the RTX 5060 or RX 9060 XT 16GB is the safer buy."},
+    {"q": "What power supply do I need with an i5-11400F?", "a": "A quality 550 W supply covers the RX 9060 XT 16GB, RTX 5060 Ti 16GB, RTX 5060, RTX 4060 and RX 6600. The RX 9070 calls for 650 W. Prebuilt supplies are often smaller, so check the label first."},
+    {"q": "Is the i5-11400F still good for gaming in 2026?", "a": "Yes, for 1080p and 1440p at 60 fps and above in most games. It games a little behind a Ryzen 5 5600. CPU-heavy games and high-refresh play are where it starts to limit a fast card."}
+  ],
+  "sources": [
+    "Intel Core i5-11400F product specifications (ark.intel.com)",
+    "Intel 500-series chipset specifications (H510, B560, H570, Z590) and motherboard CPU support lists",
+    "Intel and motherboard maker notes on Resizable BAR support for 11th-generation Core",
+    "AMD Radeon RX 9060 XT, RX 9070 and RX 6600 and NVIDIA GeForce RTX 5060 Ti, RTX 5060 and RTX 4060 product pages",
+    "Published CPU scaling, PCIe scaling and H510 versus B560 reviews from Hardware Unboxed and TechPowerUp",
+    "Owner reports from 11th-generation Intel builds and prebuilt upgrades on enthusiast forums"
+  ],
+  "related": ["best-gpu-for-core-i5-10400f", "best-graphics-card-under-400", "intel-vs-amd-cpu-equivalents"]
+}

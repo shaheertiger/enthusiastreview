@@ -1,0 +1,194 @@
+{
+  "slug": "how-to-update-gigabyte-bios",
+  "type": "article",
+  "kind": "howto",
+  "category": "motherboards",
+  "title": "How to Update Gigabyte BIOS: Q-Flash or Q-Flash Plus (No CPU)",
+  "h1": "How to Update the BIOS on a Gigabyte Motherboard",
+  "query": "how to update gigabyte bios",
+  "description": "Update a Gigabyte BIOS in 2 ways: Q-Flash from a FAT32 USB drive (End key or F8), or Q-Flash Plus with no CPU and the file renamed GIGABYTE.bin. Steps inside.",
+  "dek": "The two reliable ways to flash a newer BIOS on a Gigabyte or Aorus board, the no-CPU option, and what to do when an update fails.",
+  "quickAnswer": "Download the BIOS for your exact board and revision from Gigabyte's support page, unzip it and copy the file to a FAT32 USB drive. Press End during boot, or F8 inside the BIOS, to open Q-Flash, choose Update BIOS and pick the file. If the board won't boot because the CPU is too new, rename the file to GIGABYTE.bin and use the Q-Flash Plus button; no CPU or memory is needed.",
+  "intro": [
+    "This guide covers every practical way to update the BIOS (UEFI firmware) on a Gigabyte motherboard: Q-Flash inside the BIOS, Q-Flash Plus with no CPU installed, and the Windows tools @BIOS and Gigabyte Control Center. It applies to AM5, AM4 and recent Intel boards, from the budget UD and Gaming X models to Aorus Elite, Pro and Master.",
+    "Gigabyte's BIOS screens change between board generations, so where a label varies we describe what to look for rather than quote text that may not match your screen. Check your board's manual and its Gigabyte support page before you start, especially for Q-Flash Plus, whose port and button placement differ by model."
+  ],
+  "stepsHeading": "How to Update a Gigabyte BIOS With Q-Flash, Step by Step",
+  "steps": [
+    {
+      "h": "Find your exact board model, revision and BIOS version",
+      "body": [
+        "The model name is printed on the board, and the revision, such as rev. 1.0 or rev. 1.1, is printed nearby, often near a PCIe slot or the bottom edge. In Windows, run msinfo32 and read BaseBoard Product and BIOS Version/Date. Gigabyte publishes separate BIOS files for some revisions of the same model, and flashing the wrong one can leave the board unbootable."
+      ]
+    },
+    {
+      "h": "Download the BIOS from Gigabyte's support page",
+      "body": [
+        "Search for your model on gigabyte.com, select the matching revision, then open Support and the BIOS section. Gigabyte numbers versions with an F followed by digits, and each lists its date and changes such as new CPU support, an AGESA or microcode update and memory fixes. Skip versions marked beta unless you need a specific fix, and read any note that you cannot roll back after updating."
+      ]
+    },
+    {
+      "h": "Unzip and copy the file to a FAT32 USB drive",
+      "body": [
+        "Extract the ZIP and copy the BIOS file to the root of a USB drive formatted as FAT32, not inside a folder. The file's extension is the version number, which is normal. For Q-Flash you can leave the name as Gigabyte supplied it. The ZIP may also contain a flashing utility and a batch file; you don't need those for Q-Flash."
+      ]
+    },
+    {
+      "h": "Open Q-Flash with End or F8",
+      "body": [
+        "Plug in the drive and restart. Press End repeatedly as the Gigabyte or Aorus logo appears to go straight to Q-Flash, or press Delete to enter the BIOS and then press F8 or click the Q-Flash button. If the board opens in Easy Mode, F2 switches to Advanced Mode on most recent Gigabyte boards."
+      ]
+    },
+    {
+      "h": "Choose Update BIOS, select the file and wait",
+      "body": [
+        "In Q-Flash, choose Update BIOS, select the USB drive and the BIOS file, and confirm. Q-Flash checks the file and then writes it, which takes a few minutes. The board restarts afterwards, sometimes more than once. Do not turn the PC off, press reset or unplug the drive until it boots back to the logo or the BIOS."
+      ]
+    },
+    {
+      "h": "Reload defaults and reapply your settings",
+      "body": [
+        "Enter the BIOS again, load optimized defaults (F7 on most Gigabyte boards), save and restart, then turn back on what you use: EXPO or XMP memory profiles, fan curves, Resizable BAR, Secure Boot and the firmware TPM. A BIOS update usually resets these, and BitLocker may ask for its recovery key after the firmware changes."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "How Do You Use Gigabyte Q-Flash Plus With No CPU?",
+      "body": [
+        "Q-Flash Plus flashes the BIOS from a USB drive with no CPU, memory or graphics card installed, using a dedicated button and a dedicated USB port. Its main use is a new processor that the board's shipped BIOS does not support, so the PC will not reach the BIOS at all. It is also the recovery route after a failed flash.",
+        "The file must be renamed. Unzip the download, rename the BIOS file to GIGABYTE.bin and copy it to the root of a FAT32 USB drive. If Windows hides file extensions, make sure the result is not GIGABYTE.bin followed by the old version extension.",
+        "Connect the 24-pin ATX cable and the CPU power cable to the board, switch the power supply on but leave the PC off, and plug the drive into the Q-Flash Plus port on the rear I/O. On many boards it is a white USB port labelled BIOS or Q-Flash Plus, but check the rear I/O diagram in your manual. Press the Q-Flash Plus button. Its LED flashes while the board checks and writes the file, which can take several minutes. When the light stops, the update is done and you can install the CPU and boot."
+      ],
+      "list": [
+        "Rename the file to GIGABYTE.bin, nothing else.",
+        "Use the one USB port marked for Q-Flash Plus, not any other port.",
+        "Connect the 24-pin and CPU power cables; the CPU itself is optional.",
+        "Wait until the LED stops flashing before you touch anything."
+      ]
+    },
+    {
+      "h": "Which Gigabyte Motherboards Have Q-Flash Plus?",
+      "body": [
+        "Most recent Gigabyte boards from the Gaming X and Aorus Elite up have it, on AM5, AM4 and Intel 600- and 700-series chipsets. Both Gigabyte boards we track list it: the AM5 [B650 Aorus Elite AX](/gear/gigabyte-b650-aorus-elite-ax/) and the AM4 [X570S Aorus Elite AX](/gear/gigabyte-x570s-aorus-elite-ax/).",
+        "Some entry-level models leave it out, so check the spec page or the manual's rear I/O diagram for Q-Flash Plus before you buy a new CPU for an older or budget board. Without it, you need a CPU the current BIOS already supports to run Q-Flash."
+      ]
+    },
+    {
+      "h": "Can You Update a Gigabyte BIOS From Windows With @BIOS or GCC?",
+      "body": [
+        "Gigabyte's Windows utility @BIOS, now offered through Gigabyte Control Center (GCC) on recent boards and through the older App Center on earlier ones, can check for a newer BIOS, download it and flash it from Windows. It works for many people, but we suggest using it only to check for and download updates, then flashing with Q-Flash.",
+        "A Windows-based flash depends on the OS, drivers and the app all behaving while the firmware is written, and a crash or forced restart at that moment is the classic way to corrupt a BIOS. GCC is also a large install with background services that many owners remove. Q-Flash runs outside Windows and only needs a USB drive.",
+        "If you do flash from Windows, close other programs, disable sleep and leave the PC alone until it has restarted and booted back into Windows."
+      ]
+    },
+    {
+      "h": "Does Your Gigabyte Board Have Dual BIOS?",
+      "body": [
+        "Gigabyte's DualBIOS puts a second BIOS chip on the board as a backup. Depending on the model, the board can restore the main BIOS from the backup automatically when it detects corruption, or a switch lets you choose which chip to boot from. It has been a Gigabyte feature for years, but it is not on every board, especially recent budget and mid-range models.",
+        "Don't assume your board has it. Check the spec page or manual for DualBIOS, a BIOS switch or two labelled BIOS chips. If it isn't listed, Q-Flash Plus is your recovery option, and the advice to never interrupt a flash applies in full."
+      ]
+    },
+    {
+      "h": "When Should You Update a Gigabyte BIOS?",
+      "body": [
+        "Update when the release notes list something you need. The common reasons are new CPU support, platform fixes and security patches. If the PC is stable and the notes list nothing that affects you, waiting is reasonable."
+      ],
+      "list": [
+        "Ryzen 9000 on a B650 or X670 board: early AM5 boards shipped before these chips existed and need a BIOS whose notes list Ryzen 9000 support, including the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/).",
+        "Later Ryzen 5000 chips on AM4: B450, B550 and X570 boards may need an update for chips such as the [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/); check the CPU support list for your board.",
+        "Intel 13th and 14th gen instability: install a BIOS with Intel's 0x12B microcode or later, which addresses the elevated voltage requests behind the Vmin shift problem on chips such as the [Core i9-14900K](/gear/core-i9-14900k/).",
+        "AGESA fixes on AM5: updates have improved EXPO memory compatibility, shortened memory training and adjusted SoC voltage limits."
+      ]
+    },
+    {
+      "h": "What Should You Do If a Gigabyte BIOS Update Fails?",
+      "body": [
+        "Don't keep power-cycling. If Q-Flash stopped before it started writing, for example because it rejected the file, the old BIOS is still there: restart, clear the CMOS and try again with a freshly formatted FAT32 drive and a re-downloaded file for the right revision.",
+        "If the board no longer posts, use Q-Flash Plus with the file renamed to GIGABYTE.bin, which does not rely on the old firmware. On a board with DualBIOS, follow the manual's steps to boot from the backup chip. If neither works, contact Gigabyte support or the retailer; a board that cannot recover needs its BIOS chip reprogrammed through an RMA.",
+        "The usual causes of failure are the wrong file for the board revision, an NTFS or exFAT drive, the file inside a folder, a misnamed file for Q-Flash Plus, and a power cut during the flash."
+      ]
+    },
+    {
+      "h": "How Long Does a Gigabyte BIOS Update Take?",
+      "body": [
+        "Q-Flash usually takes two to five minutes plus one or more restarts. Q-Flash Plus can take longer, up to around eight minutes on some boards, and the flashing LED is the only sign it is working. On AM5, the first boot after any update can show a black screen for a minute or more while the memory trains. That is normal; wait rather than reset.",
+        "To clear the CMOS on a Gigabyte board, use the Clear CMOS button on the rear I/O if it has one, or short the two-pin CLR_CMOS jumper near the battery with the PSU switched off. For board choices, see our [best AM5 motherboard guide](/best-am5-motherboard/), the [MAG B650 Tomahawk WiFi vs B650 Aorus Elite AX](/compare/msi-mag-b650-tomahawk-wifi-vs-gigabyte-b650-aorus-elite-ax/) comparison and all [Gigabyte products we track](/brands/gigabyte/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Not renaming the file for Q-Flash Plus",
+      "Q-Flash reads the file under its original name, but Q-Flash Plus only looks for GIGABYTE.bin in the root of the drive. A file left with its version extension, or saved as GIGABYTE.bin with a hidden extension, is ignored and the update never starts."
+    ],
+    [
+      "Flashing the file for a different revision",
+      "Gigabyte sells several revisions of some boards under one name, and some have their own BIOS. Read the revision printed on the board, select it on the support page, and only then download the file."
+    ],
+    [
+      "Using the wrong USB port or an NTFS drive",
+      "Q-Flash Plus reads only its own marked port, and both Q-Flash methods need FAT32. A large drive formatted NTFS or exFAT will not show the file. Format a small drive as FAT32 and copy only the BIOS file to its root."
+    ],
+    [
+      "Turning the PC off during the flash",
+      "An interrupted flash is the main way an update leaves a board unbootable. Don't update during a storm, don't press reset, and wait for the board to restart on its own, even if a restart takes longer than you expect."
+    ],
+    [
+      "Assuming DualBIOS will save you",
+      "Many current Gigabyte boards have a single BIOS chip. Check the manual before you rely on a backup chip, and keep a FAT32 drive with GIGABYTE.bin ready if your board has Q-Flash Plus."
+    ]
+  ],
+  "bottomLine": "The easiest Gigabyte BIOS update is Q-Flash: download the file for your exact board and revision, copy it to the root of a FAT32 USB drive, press End at boot or F8 in the BIOS, and choose Update BIOS. If the board won't boot because the CPU is too new, rename the file to GIGABYTE.bin, use the Q-Flash Plus port and press its button; no CPU is needed. Use @BIOS or GCC to check for updates rather than to flash. Afterwards, load defaults and turn EXPO, Resizable BAR, Secure Boot and TPM back on.",
+  "faqs": [
+    {
+      "q": "Do I need a CPU to update a Gigabyte BIOS?",
+      "a": "Not on boards with Q-Flash Plus. Rename the file to GIGABYTE.bin, connect the 24-pin and CPU power cables, and press the Q-Flash Plus button. Q-Flash and @BIOS do need a working, supported CPU."
+    },
+    {
+      "q": "What do I rename the Gigabyte BIOS file to?",
+      "a": "GIGABYTE.bin, but only for Q-Flash Plus. Q-Flash reads the file under the name Gigabyte gave it, so you don't need to rename it there."
+    },
+    {
+      "q": "What key opens Q-Flash on a Gigabyte board?",
+      "a": "Press End during boot to go straight to Q-Flash, or enter the BIOS with Delete and press F8 or click the Q-Flash button. If a key doesn't work on an older board, check the manual."
+    },
+    {
+      "q": "What format should the USB drive be for a Gigabyte BIOS update?",
+      "a": "FAT32, with the unzipped BIOS file in the root of the drive, not in a folder. Smaller, older USB drives tend to be the most reliable."
+    },
+    {
+      "q": "How do I check my Gigabyte BIOS version?",
+      "a": "It shows on the BIOS main screen as an F-number. In Windows, run msinfo32 and read the BIOS Version/Date line, which matches the versions on Gigabyte's support page."
+    },
+    {
+      "q": "Is it safe to update a Gigabyte BIOS with @BIOS or GCC?",
+      "a": "It usually works, but flashing from Windows adds risk if an app crashes or the PC restarts mid-update. Use the app to check for and download the BIOS, then flash it with Q-Flash."
+    },
+    {
+      "q": "Why is Q-Flash Plus not working?",
+      "a": "Usually the file is not named GIGABYTE.bin, the drive is not FAT32, the drive is in the wrong USB port, or the CPU power cable is not connected. Fix those and press the button again."
+    },
+    {
+      "q": "Does a Gigabyte BIOS update reset my settings?",
+      "a": "Usually, yes. Memory profiles, fan curves, Resizable BAR, Secure Boot and TPM can return to defaults. Note your settings before updating and re-enable them afterwards."
+    }
+  ],
+  "sources": [
+    "Gigabyte support pages: BIOS downloads and release notes per board and revision",
+    "Gigabyte motherboard user manuals: Q-Flash, Q-Flash Plus, DualBIOS and Clear CMOS sections",
+    "Intel community statement on the 0x12B microcode for 13th and 14th gen desktop processors",
+    "AMD AGESA release notes and processor support lists for AM4 and AM5",
+    "Microsoft support: checking BIOS version with System Information"
+  ],
+  "products": [
+    "gigabyte-b650-aorus-elite-ax",
+    "gigabyte-x570s-aorus-elite-ax",
+    "ryzen-7-9800x3d"
+  ],
+  "related": [
+    "how-to-update-msi-bios",
+    "how-to-update-asrock-bios",
+    "best-am5-motherboard"
+  ]
+}

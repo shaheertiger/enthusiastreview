@@ -1,0 +1,219 @@
+{
+  "slug": "best-gpu-for-ryzen-7-7800x3d",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 7 7800X3D (2026): 7 Cards From 1080p to 4K",
+  "h1": "Best GPU for Ryzen 7 7800X3D",
+  "query": "best gpu for ryzen 7 7800x3d",
+  "description": "The RX 9070 XT is the best GPU for a Ryzen 7 7800X3D: 16 GB and RTX 5070 Ti-class speed for $600–$730. 7 picks, from $300 esports cards to an RTX 5090.",
+  "dek": "The 7800X3D is fast enough that no current graphics card is truly wasted on it. These seven picks run from cheap 1080p esports cards to the RTX 5090, matched to the resolution you play at.",
+  "intro": [
+    "The Radeon RX 9070 XT is the best GPU for a Ryzen 7 7800X3D for most people in 2026. At $600–$730 it matches an RTX 5070 Ti in raster games, carries 16 GB of memory, and gives a 1440p high-refresh system where the CPU and the card are both fully used.",
+    "This page is for anyone who owns or is buying AMD's eight-core gaming chip with 96 MB of 3D V-Cache. Because the 7800X3D is still one of the fastest gaming CPUs, the real question is not which card avoids a bottleneck but which card fits your monitor and budget. Picks span cheap 1080p esports builds to 4K, and cover AM5 boards such as the MSI MAG B650 Tomahawk WiFi."
+  ],
+  "quickAnswer": "Buy the RX 9070 XT ($600–$730) for 1440p. The RTX 5070 Ti ($750–$900) is the NVIDIA pick. For 4K, the RTX 5080 ($1,000–$1,300) or, with no budget limit, the RTX 5090 ($2,000–$2,700), which the 7800X3D can drive. The RTX 5070 is the value pick, the RX 9060 XT 16GB the 1080p pick, and the RTX 5060 ($300–$330) the cheap esports card.",
+  "picks": [
+    {
+      "id": "rx-9070-xt",
+      "label": "Best Overall Match",
+      "bestFor": "1440p high-refresh gaming on a 7800X3D system",
+      "skipIf": "you play heavily path-traced games, where NVIDIA cards hold a clear lead",
+      "writeup": [
+        "The RX 9070 XT is the card that gets the most out of a 7800X3D for the money. In raster games, independent reviews put it close to an RTX 5070 Ti, which usually costs more, and it has 16 GB of memory for long-term 1440p and entry 4K use.",
+        "The pairing is balanced in the best way. At 1440p, the 7800X3D's large cache keeps frame rates high even in CPU-heavy games, so the graphics card sets the pace and you get the performance you paid for. At 1080p, the CPU still has room to spare, which makes this a strong choice for high-refresh 1080p monitors too.",
+        "It supports FSR 4, AMD's machine-learning upscaler, which reviewers rate far above earlier FSR versions, and it uses a full PCIe x16 link on any AM5 board. If you were looking for the best Radeon card for a 7800X3D, this is it.",
+        "Plan for its power: AMD rates it at 304 W, and partner cards often run higher. A quality 750 W supply covers it with the 7800X3D, which draws well under its 120 W TDP in games."
+      ],
+      "pros": ["RTX 5070 Ti-class raster for less", "16 GB of VRAM", "Fully used by the 7800X3D at 1440p", "FSR 4"],
+      "cons": ["Ray tracing a tier behind NVIDIA", "About 304 W; needs a 750 W supply"]
+    },
+    {
+      "id": "rtx-5070-ti",
+      "label": "Best NVIDIA Pick",
+      "bestFor": "1440p and entry 4K with ray tracing and DLSS 4",
+      "skipIf": "raster performance per dollar is what matters most",
+      "writeup": [
+        "If you want NVIDIA's feature set, the RTX 5070 Ti is the natural partner for a 7800X3D. It matches the RX 9070 XT in raster games and pulls ahead once ray tracing is turned on, with DLSS 4 and multi frame generation on top.",
+        "Frame generation works best when the base frame rate is already high, and that is where a fast gaming CPU helps. The 7800X3D keeps the base frame rate up in CPU-heavy games, so generated frames feel smoother and add less input lag than they would on a slower chip.",
+        "Its 16 GB of memory covers 1440p and most 4K settings for years. NVIDIA recommends a 750 W supply, and most models use a 12V-2x6 connector, so a modern ATX 3.x supply with a native cable is the cleanest choice. Our [RTX 5070 Ti vs RX 9070 XT comparison](/compare/rtx-5070-ti-vs-rx-9070-xt/) covers the choice between the top two picks."
+      ],
+      "pros": ["Strong ray tracing", "DLSS 4 multi frame generation", "16 GB of VRAM"],
+      "cons": ["Usually costs more than the RX 9070 XT", "12V-2x6 connector on most models"]
+    },
+    {
+      "id": "rtx-5080",
+      "label": "Best for 4K",
+      "bestFor": "4K gaming and high-refresh 1440p with ray tracing",
+      "skipIf": "your monitor is 1080p; the money is better spent elsewhere",
+      "writeup": [
+        "The RTX 5080 is where a 7800X3D starts to show why it costs more than a regular eight-core chip. With a six-core CPU, a card this fast is mostly a 4K-only buy. With the 7800X3D, it also makes sense for high-refresh 1440p, because the CPU keeps up in games where weaker chips would cap frame rates.",
+        "At 4K, the graphics card does almost all the work, and the RTX 5080 handles high settings in most games, with DLSS 4 covering the most demanding ray-traced titles. Its 16 GB of memory is enough for 4K today.",
+        "NVIDIA rates it at 360 W and recommends an 850 W supply. If you are weighing it against AMD's top card, our [RX 9070 XT vs RTX 5080 comparison](/compare/rx-9070-xt-vs-rtx-5080/) shows what the extra money buys."
+      ],
+      "pros": ["Top 4K performance short of the RTX 5090", "Makes sense at 1440p with this CPU", "DLSS 4"],
+      "cons": ["Costs far more than the RX 9070 XT", "Needs an 850 W supply"]
+    },
+    {
+      "id": "rtx-5090",
+      "label": "Fastest Card It Can Drive",
+      "bestFor": "4K at maximum settings, path tracing and high-refresh 4K monitors",
+      "skipIf": "you play at 1440p or below, where an RTX 5080 gives most of the result for half the price",
+      "writeup": [
+        "Yes, a 7800X3D can drive an RTX 5090. It is one of the few CPUs where pairing the fastest consumer graphics card makes sense, because at 4K the card sets the frame rate and the 7800X3D gives up only a small amount compared with the newer Ryzen 7 9800X3D, which independent reviews put about 10% ahead in CPU-limited games.",
+        "The RTX 5090 has 32 GB of memory, by far the most of any gaming card, and it is the strongest choice for path-traced games at 4K. At 1440p, its lead over the RTX 5080 shrinks because even the fastest CPUs start to limit it, which is why it is a 4K card first.",
+        "The cost goes beyond the card. NVIDIA rates it at 575 W and recommends a 1,000 W supply, and it is physically large, so check your case clearance. Our [RTX 5090 vs RTX 5080 comparison](/compare/rtx-5090-vs-rtx-5080/) covers whether the step up is worth it."
+      ],
+      "pros": ["Fastest gaming card available", "32 GB of VRAM", "The 7800X3D keeps it busy at 4K"],
+      "cons": ["$2,000–$2,700", "575 W; needs a 1,000 W supply", "Lead shrinks below 4K"]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best Value Pick",
+      "bestFor": "1440p gaming at a mid-range price",
+      "skipIf": "you keep cards five years or more and play texture-heavy games; 12 GB is its limit",
+      "writeup": [
+        "The RTX 5070 is the lower-cost way to get a capable 1440p system on a 7800X3D. It handles high settings at that resolution in most games, and DLSS 4 with multi frame generation stretches it further where supported.",
+        "Some buyers worry a mid-range card is a waste next to a top gaming CPU. It is not. The 7800X3D keeps paying off in CPU-heavy games, such as strategy and simulation titles, regardless of the card, and AM5 makes a graphics card upgrade later straightforward.",
+        "The trade-off is 12 GB of memory, enough for 1440p today but less than the 16 GB on the cards above. At 250 W it runs on a 650 W supply. Against AMD's RX 9070 at a similar price, the Radeon has more memory and slightly faster raster, while the RTX 5070 wins on ray tracing; see our [RTX 5070 vs RX 9070 comparison](/compare/rtx-5070-vs-rx-9070/)."
+      ],
+      "pros": ["Good 1440p performance for the price", "DLSS 4", "Runs on a 650 W supply"],
+      "cons": ["12 GB of VRAM", "RX 9070 is faster in raster"]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best for 1080p",
+      "bestFor": "1080p high settings on a budget, with room to grow",
+      "skipIf": "you play at 1440p and want high settings; step up to an RX 9070 or RTX 5070",
+      "writeup": [
+        "If you bought a 7800X3D for its gaming speed but have a 1080p monitor and a limited budget, the RX 9060 XT 16GB is the sensible card. It runs high settings at 1080p in most games for $350–$400, and its 16 GB of memory avoids the texture problems 8 GB cards hit in newer releases.",
+        "With a CPU this fast, the card sets the frame rate in nearly every game. That is fine: the 7800X3D will still be a top-tier gaming chip when you upgrade the graphics card in a few years, so this is a good way to spread the cost of a high-end build.",
+        "It keeps a full x16 link on any AM5 board and draws around 160–180 W, so a 550–650 W supply is enough. For more budget options, see our [best graphics cards under $400](/best-graphics-card-under-400/)."
+      ],
+      "pros": ["16 GB at a budget price", "Full x16 link", "Efficient"],
+      "cons": ["A 1080p card at heart", "Weaker ray tracing"]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Best Cheap Esports Card",
+      "bestFor": "1080p competitive shooters such as Fortnite, Valorant and Counter-Strike 2",
+      "skipIf": "you play new single-player games at high settings, where 8 GB of memory runs short",
+      "writeup": [
+        "The cheapest card worth pairing with a 7800X3D depends on what you play. In esports games at 1080p with low settings, or Fortnite's Performance mode, the CPU does much of the work, and this is exactly where the 7800X3D's cache gives it an edge. A modest card like the RTX 5060 is enough to reach very high frame rates.",
+        "The RTX 5060 costs $300–$330 and supports NVIDIA Reflex, which cuts input lag in Fortnite, Valorant, Counter-Strike 2 and many other shooters. At 145 W, it runs on a 550 W supply and suits small cases.",
+        "Know its limits. It has 8 GB of memory, which is tight for new single-player games at high settings, and it uses a PCIe x8 link. On a board like the MSI MAG B650 Tomahawk WiFi, which runs the slot at PCIe 4.0, that link is not a problem. If you also play big single-player games, spend the extra on the RX 9060 XT 16GB; our [RTX 5060 vs RX 9060 XT 16GB comparison](/compare/rtx-5060-vs-rx-9060-xt-16gb/) lays out the trade."
+      ],
+      "pros": ["Low price", "NVIDIA Reflex for competitive games", "145 W; easy to power"],
+      "cons": ["8 GB of VRAM", "PCIe x8 link"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "PCIe interface", "Board power", "Recommended PSU"],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling reviews that used X3D chips, and owner reports from AM5 builds. None of these pairings were bench-tested by Enthusiast Review; statements about where the 7800X3D limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      ["Resolution fit", "The 7800X3D rarely limits any card, so we matched each pick to the resolution and games where it makes the most sense."],
+      ["Value", "Raster performance per dollar counted heavily, since that is what most games still use."],
+      ["Memory", "Cards with 16 GB ranked above 12 GB and 8 GB alternatives at similar speed, for longevity."],
+      ["Features", "Ray tracing, DLSS 4, FSR 4 and Reflex counted for buyers who will use them."],
+      ["Power", "We note the supply each card needs, because builds on this CPU range from 550 W to 1,000 W."]
+    ],
+    "why": "The RX 9070 XT won because it gives RTX 5070 Ti-class raster speed and 16 GB for less, and the 7800X3D uses all of it at 1440p."
+  },
+  "mentions": [
+    {"id": "rx-9070", "text": "The RX 9070 is a strong alternative to the RTX 5070 at a similar price, with 16 GB of memory and slightly faster raster. It also runs on a 650 W supply at 220 W. It missed the list only because the RX 9070 XT is often a small step up in price for a bigger jump in speed."},
+    {"id": "arc-b580", "text": "The Arc B580 works well on a fast CPU like the 7800X3D, where its driver overhead matters far less than on older chips, and AM5 supports the Resizable BAR it needs. It is a decent 1080p budget card, but the RX 9060 XT 16GB is faster for not much more."},
+    {"id": "ryzen-7-9800x3d", "text": "If you are still choosing a CPU and plan an RTX 5090, the Ryzen 7 9800X3D is about 10% faster in CPU-limited games. For anything up to an RTX 5080, or any card at 4K, the 7800X3D is close enough that the savings are better spent on the graphics card."}
+  ],
+  "sections": [
+    {
+      "h": "What GPU Doesn't Bottleneck a Ryzen 7 7800X3D?",
+      "body": [
+        "Any of them. The question is usually asked the wrong way round: with the [Ryzen 7 7800X3D](/gear/ryzen-7-7800x3d/), the CPU is rarely the part holding the system back, so almost every graphics card will be the limit in most games. That is what you want, because it means you get the full performance of the card you bought.",
+        "Even an RTX 5090, the fastest gaming card available, is kept busy by a 7800X3D at 4K. At 1440p, the very fastest cards can outrun it in some games, but independent reviews show the 7800X3D is still among the fastest few CPUs in those situations, behind only newer X3D chips. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any pairing and resolution."
+      ]
+    },
+    {
+      "h": "What Is the Best Cheap GPU for a 7800X3D With No Bottleneck?",
+      "body": [
+        "For 1080p esports, an RTX 5060 or RX 9060 XT 8GB at about $280–$330 is enough. In Fortnite's Performance mode and other competitive games at low settings, the CPU sets much of the frame rate, which plays to the 7800X3D's strength, so a modest graphics card reaches very high frame rates.",
+        "There is no meaningful bottleneck with a cheap card either: the GPU will simply be the limit, and the 7800X3D will still be fast enough when you upgrade it. If you also play new single-player games, the RX 9060 XT 16GB ($350–$400) is the safer budget pick because its 16 GB of memory lasts longer.",
+        "Cards older than these, such as an RX 6600, still work, but at current prices the newer cards offer better value and newer upscaling."
+      ]
+    },
+    {
+      "h": "What Is the Best Radeon GPU for the 7800X3D?",
+      "body": [
+        "The RX 9070 XT. It is AMD's fastest current card, competes with the RTX 5070 Ti in raster games, and has 16 GB of memory. On a budget, the RX 9060 XT 16GB is the best Radeon for 1080p, and the RX 9070 sits between the two for 1440p at a lower price than the XT.",
+        "An all-AMD system has one small advantage: Smart Access Memory, AMD's name for Resizable BAR, is tuned for Radeon cards on Ryzen CPUs. NVIDIA and Intel cards also use Resizable BAR on AM5, so the advantage is modest. Make sure it is enabled in the BIOS either way."
+      ]
+    },
+    {
+      "h": "Which GPU Pairs Best With a 7800X3D and an MSI MAG B650 Tomahawk WiFi?",
+      "body": [
+        "Any card on this page. The [MSI MAG B650 Tomahawk WiFi](/gear/msi-mag-b650-tomahawk-wifi/) runs its main slot at PCIe 4.0 x16, and every current card, including the RTX 5090, runs at full or near-full speed on that link. The RX 9070 XT is the best match for most 1440p builds on this board.",
+        "PCIe 4.0 only matters for cards with an x8 link, such as the RTX 5060, and even those run close to full speed at PCIe 4.0. The bigger factor on any B650 board is your power supply and case, not the slot. If you are still choosing a board, our [B650 Tomahawk vs X870 Tomahawk comparison](/compare/msi-mag-b650-tomahawk-wifi-vs-msi-mag-x870-tomahawk-wifi/) covers whether PCIe 5.0 is worth paying for."
+      ],
+      "table": {
+        "caption": "Each pick on a 7800X3D system",
+        "head": ["Card", "Best resolution", "VRAM", "Board power", "Recommended PSU"],
+        "rows": [
+          ["RX 9070 XT", "1440p", "16 GB", "304 W", "750 W"],
+          ["RTX 5070 Ti", "1440p to 4K", "16 GB", "300 W", "750 W"],
+          ["RTX 5080", "1440p high refresh to 4K", "16 GB", "360 W", "850 W"],
+          ["RTX 5090", "4K", "32 GB", "575 W", "1,000 W"],
+          ["RTX 5070", "1440p", "12 GB", "250 W", "650 W"],
+          ["RX 9060 XT 16GB", "1080p", "16 GB", "160–180 W", "550 W class"],
+          ["RTX 5060", "1080p esports", "8 GB", "145 W", "550 W class"]
+        ]
+      }
+    },
+    {
+      "h": "Is the 7800X3D Good Enough for an RTX 5090?",
+      "body": [
+        "Yes. At 4K, the resolution an RTX 5090 is built for, the graphics card sets the frame rate in almost every game, and the 7800X3D gives up very little to the Ryzen 7 9800X3D. At 1440p, the newer chip pulls further ahead in CPU-heavy games.",
+        "If you already own a 7800X3D, upgrading to a 9800X3D for an RTX 5090 is rarely worth the cost. If you are buying both parts now, the 9800X3D is the better partner when the price gap is small. Our [9800X3D vs 7800X3D comparison](/compare/ryzen-7-9800x3d-vs-ryzen-7-7800x3d/) covers the difference."
+      ]
+    },
+    {
+      "h": "Do You Need a New PSU for These Cards?",
+      "body": [
+        "Size the supply to the card. The 7800X3D is rated at 120 W, and independent reviews show it draws well under that in games, so the graphics card is the large and variable load.",
+        "Use the manufacturer's recommendation as a floor: 550 W class for an RTX 5060 or RX 9060 XT, 650 W for an RTX 5070, 750 W for an RTX 5070 Ti or RX 9070 XT, 850 W for an RTX 5080, and 1,000 W for an RTX 5090. Our [PSU calculator](/tools/psu-calculator/) adds up a full build, and our [best PSU for RTX 5080](/best-psu-for-rtx-5080/) guide lists units for the high end."
+      ]
+    },
+    {
+      "h": "Should You Change Windows Timer Resolution on a 7800X3D?",
+      "body": [
+        "Usually not. Windows already raises its timer resolution when a game asks for it, and since Windows 10 version 2004 one program's request no longer applies system-wide. Tools that force a lower value report mixed, game-specific results, and none of this depends on which graphics card you choose.",
+        "Settings that reliably help a 7800X3D are simpler: turn on EXPO for your DDR5 kit, enable Resizable BAR, keep the BIOS and chipset drivers current, and cap frame rates just below your monitor's refresh rate if you use adaptive sync."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Overspending to avoid a bottleneck", "The 7800X3D does not need a top card to be balanced. A $350 card at 1080p is fine; the GPU simply sets the frame rate. Buy the card your monitor and budget call for, and upgrade later on the same AM5 platform."],
+    ["Buying an RTX 5090 for a 1080p monitor", "At 1080p, even the 7800X3D cannot keep an RTX 5090 fully busy in many games, and the card's advantages over an RTX 5080 shrink. A 5090 belongs on a 4K monitor, ideally a high-refresh one."],
+    ["Choosing 8 GB for single-player games", "8 GB cards like the RTX 5060 are fine for esports but run short in new single-player games at high settings. If you play both, the RX 9060 XT 16GB costs a little more and lasts longer."],
+    ["Undersizing the power supply", "The 7800X3D is frugal, but an RX 9070 XT calls for 750 W, an RTX 5080 for 850 W and an RTX 5090 for 1,000 W. Size the supply to the card, not the CPU."],
+    ["Leaving EXPO and Resizable BAR off", "Many AM5 boards ship with memory at its slower default speed and Resizable BAR disabled. Turn on EXPO and Smart Access Memory in the BIOS for free performance with any card."]
+  ],
+  "bottomLine": "For a Ryzen 7 7800X3D, the RX 9070 XT is the card to buy in 2026: RTX 5070 Ti-class raster speed, 16 GB, and full use of the CPU at 1440p. Choose the RTX 5070 Ti for ray tracing and DLSS 4, the RTX 5080 or RTX 5090 for 4K, the RTX 5070 for value, the RX 9060 XT 16GB for 1080p, and the RTX 5060 for cheap esports builds. No current card is wasted on this CPU.",
+  "faqs": [
+    {"q": "What is the best GPU for a Ryzen 7 7800X3D?", "a": "The RX 9070 XT for 1440p. It matches an RTX 5070 Ti in raster games, has 16 GB of memory and costs $600–$730. The RTX 5070 Ti is the best NVIDIA option, and the RTX 5080 or RTX 5090 are the picks for 4K."},
+    {"q": "Can a 7800X3D handle an RTX 5090?", "a": "Yes. At 4K the RTX 5090 sets the frame rate in almost every game, and the 7800X3D gives up only a little to the newer Ryzen 7 9800X3D. Plan on a 1,000 W power supply for the card's 575 W rating."},
+    {"q": "Will a 7800X3D bottleneck an RTX 5080?", "a": "Rarely. At 1440p and 4K the RTX 5080 is the limit in most games. Only in very CPU-heavy games at 1080p does the CPU become the limit, and at frame rates well above what most monitors show."},
+    {"q": "What is the cheapest GPU worth pairing with a 7800X3D?", "a": "For 1080p esports like Fortnite or Valorant, an RTX 5060 or RX 9060 XT 8GB at about $280–$330. For newer single-player games, the RX 9060 XT 16GB at $350–$400 is the safer floor because of its extra memory."},
+    {"q": "Does the 7800X3D have integrated graphics?", "a": "Yes, a basic AMD Radeon iGPU with 2 compute units. It is fine for the desktop and troubleshooting, but not for gaming, so a dedicated graphics card is needed for any game on this page."},
+    {"q": "Is the 7800X3D good for 1440p gaming?", "a": "Yes. It is one of the fastest gaming CPUs available and keeps high-end cards like the RX 9070 XT, RTX 5070 Ti and RTX 5080 busy at 1440p, including at high refresh rates."},
+    {"q": "Does the MSI MAG B650 Tomahawk WiFi support PCIe 5.0 graphics cards?", "a": "Every PCIe 5.0 card works in it. Its main slot runs at PCIe 4.0 x16, which is enough for every current card to run at or near full speed."},
+    {"q": "What PSU do I need for a 7800X3D and RX 9070 XT?", "a": "A quality 750 W supply. The RX 9070 XT is rated at 304 W and partner cards often run higher, while the 7800X3D draws well under its 120 W rating in games. Use our PSU calculator to check your full build."}
+  ],
+  "sources": [
+    "AMD Ryzen 7 7800X3D product specifications",
+    "AMD AM5 chipset specifications and Smart Access Memory documentation",
+    "MSI MAG B650 Tomahawk WiFi product specifications",
+    "NVIDIA GeForce RTX 5060, 5070, 5070 Ti, 5080 and 5090 and AMD Radeon RX 9070 XT and RX 9060 XT product pages and power recommendations",
+    "Published CPU scaling and X3D gaming reviews from TechPowerUp and Hardware Unboxed",
+    "Microsoft documentation on Windows timer resolution changes",
+    "Owner reports from AM5 builds on enthusiast forums"
+  ],
+  "related": ["best-graphics-card-for-1440p", "best-cpu-cooler-for-ryzen-7-7800x3d", "best-psu-for-rx-9070-xt"]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "apple-m-series-gpu-equivalents",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Apple M4 GPU Equivalent: M1 to M5 vs NVIDIA and AMD Chart",
+  "h1": "Apple M-Series GPU Equivalents",
+  "query": "apple m4 gpu equivalent",
+  "description": "The 10-core Apple M4 GPU roughly equals a GTX 1660 Ti to RTX 3050, and the 40-core M4 Max an RTX 4060 Ti to RTX 4070. NVIDIA and AMD matches, M1 to M5.",
+  "dek": "Find the GeForce and Radeon card that performs most like any Apple silicon GPU, from the M1 to the M5, with the gaming catches that change the answer on a Mac.",
+  "quickAnswer": "Roughly, in graphics benchmarks: the 10-core M4 GPU lands near a GTX 1660 Ti to RTX 3050, the 20-core M4 Pro near an RTX 3060 to RTX 4060, and the 40-core M4 Max near an RTX 4060 Ti to RTX 4070. The M1 sits near a GTX 1050 Ti to GTX 1650, and the 80-core M3 Ultra near an RTX 4070 to RTX 4070 Ti. In real Mac games, expect less.",
+  "intro": [
+    "This chart matches every Apple silicon GPU, from the M1, M2, M3 and M4 families (base, Pro, Max and Ultra) to the base M5, to the NVIDIA and AMD desktop cards that perform most like it. A short table at the end does the same for Apple's CPU cores.",
+    "Equivalents are approximate. They follow the broad pattern of widely reported independent benchmarks, mainly 3DMark Wild Life Extreme and Steel Nomad, which run natively on macOS and Windows, and Blender's Open Data results, rounded to the nearest card. We have not bench-tested these Macs. Read the gaming section before you use a match to judge a Mac for games."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart, and Why Mac Matches Are Rougher",
+      "body": [
+        "Each row shows the GeForce and Radeon desktop card with the closest results in cross-platform graphics benchmarks. Roughly means within about 10 to 15 percent; a range means the Apple GPU lands between the two cards depending on the test. Apple's chips come in several GPU core counts, so the rows list the core count each match assumes. Cut-down versions with fewer cores land lower.",
+        "These are wider bands than our [AMD vs NVIDIA GPU equivalents](/amd-vs-nvidia-gpu-equivalents/) chart for a reason. A Mac runs a different operating system, a different graphics API (Metal instead of DirectX or Vulkan) and, for many games, translation layers that cost performance. The same Apple GPU can look like one card in a native benchmark and a card a tier lower in a translated Windows game.",
+        "Power matters too, as with [laptop GPUs](/laptop-gpu-equivalents/). Apple's GPUs run inside a shared chip power budget in a laptop or small desktop, so they use far less power than the desktop cards they match. A MacBook Air has no fan, so long gaming sessions can drop its GPU below the match shown here."
+      ]
+    },
+    {
+      "h": "Apple M4 and M5 GPU Equivalents",
+      "body": [
+        "The M4 family launched in 2024 and covers most Macs sold new today. The M4 Max is the highest M4 tier; Apple did not release an M4 Ultra, and the 2025 Mac Studio paired the M4 Max with an M3 Ultra option instead. The base M5 followed in late 2025 with a 10-core GPU that adds a neural accelerator to each GPU core."
+      ],
+      "table": {
+        "caption": "Apple M4 and M5 GPUs to GeForce and Radeon (approximate, graphics benchmarks)",
+        "head": ["Apple chip", "GPU cores", "Max unified memory", "Closest NVIDIA", "Closest AMD"],
+        "rows": [
+          ["M5", "10", "32 GB", "RTX 3050 to RTX 2060 (early results)", "RX 6600 class or a little below"],
+          ["M4", "10 (8 on some models)", "32 GB", "GTX 1660 Ti to RTX 3050", "RX 5500 XT to RX 6500 XT class"],
+          ["M4 Pro", "20 (16 on some models)", "64 GB", "RTX 3060 to RTX 4060", "RX 6600 XT to RX 7600"],
+          ["M4 Max", "40 (32 on some models)", "128 GB", "RTX 4060 Ti to RTX 4070", "RX 7700 XT (roughly)"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Apple M4 GPU Equivalent?",
+      "body": [
+        "The 10-core Apple M4 GPU's equivalent is roughly a desktop GTX 1660 Ti to RTX 3050 in cross-platform graphics benchmarks, which puts it near an entry gaming laptop GPU. The 8-core version, found in some base MacBook Air and iMac configurations, lands a little lower. On the AMD side it sits in RX 5500 XT to RX 6500 XT territory.",
+        "In games, that means 1080p at low to medium settings in native Mac titles, often with MetalFX upscaling. The M4 adds hardware ray tracing and mesh shading, which arrived with the M3, but at this tier ray tracing is more of a demo than a setting most players leave on. Compared with a budget Windows PC, a desktop [RTX 4060](/gear/rtx-4060/) is well over a tier faster."
+      ]
+    },
+    {
+      "h": "What Is the M4 Pro GPU Equivalent?",
+      "body": [
+        "The 20-core M4 Pro GPU lands roughly between a desktop RTX 3060 and an RTX 4060, and near an RX 6600 XT to RX 7600 on the AMD side. That makes it a capable 1080p GPU and a usable 1440p one in native Mac games with upscaling. The 16-core version found in the base Mac mini M4 Pro and some MacBook Pro configurations lands a step lower, closer to an RTX 3060 or [RX 6600](/gear/rx-6600/).",
+        "Its bigger advantage over a desktop card is memory: up to 64 GB of unified memory, shared between CPU and GPU, against 8 GB on an RTX 4060. That matters little in games and a great deal in large 3D scenes and local AI models."
+      ]
+    },
+    {
+      "h": "What Is the M4 Max GPU Equivalent?",
+      "body": [
+        "The 40-core M4 Max GPU roughly matches a desktop RTX 4060 Ti to [RTX 4070](/gear/rtx-4070/) in 3DMark and Blender, and an RX 7700 XT on the AMD side. In Blender's GPU benchmark it runs close to a desktop RTX 4070 class card, which makes it the fastest laptop GPU Apple has shipped for 3D work. The 32-core version lands a step lower.",
+        "For gaming, treat it as a strong 1440p GPU in native Mac titles, a little below what a desktop RTX 4070 would deliver in the same game on Windows. Up to 128 GB of unified memory is the reason it is popular for local AI work, where no consumer NVIDIA card has that much memory."
+      ]
+    },
+    {
+      "h": "What Is the Apple M5 GPU Equivalent?",
+      "body": [
+        "Early independent results put the 10-core M5 GPU a clear step above the M4, roughly in RTX 3050 to RTX 2060 territory in cross-platform graphics benchmarks. Apple's own claims focus on AI and ray tracing, where each GPU core now includes a neural accelerator; treat its larger AI speedup figures as a separate topic from gaming.",
+        "This chart covers only the base M5, because it is the M5 chip with enough independent results to match with confidence. We will add higher M5 tiers when the same benchmarks are widely published."
+      ]
+    },
+    {
+      "h": "Apple M3 GPU Equivalents",
+      "body": [
+        "The M3 family, from 2023, brought hardware ray tracing, mesh shading and Dynamic Caching to Apple GPUs. The M3 Ultra arrived later, in the 2025 Mac Studio, and is the largest Apple GPU in this chart."
+      ],
+      "table": {
+        "caption": "Apple M3 GPUs to GeForce and Radeon (approximate, graphics benchmarks)",
+        "head": ["Apple chip", "GPU cores", "Max unified memory", "Closest NVIDIA", "Closest AMD"],
+        "rows": [
+          ["M3", "10 (8 on some models)", "24 GB", "GTX 1650 Super to GTX 1660", "RX 6500 XT class"],
+          ["M3 Pro", "18 (14 on some models)", "36 GB", "GTX 1660 Super to RTX 3060", "RX 5600 XT to RX 6600"],
+          ["M3 Max", "40 (30 on some models)", "128 GB", "RTX 3060 Ti to RTX 3070", "RX 6700 XT (roughly)"],
+          ["M3 Ultra", "80 (60 on some models)", "512 GB", "RTX 4070 to RTX 4070 Ti", "RX 7800 XT to RX 7900 GRE"]
+        ]
+      }
+    },
+    {
+      "h": "Apple M2 and M1 GPU Equivalents",
+      "body": [
+        "M1 and M2 Macs are now mostly found used or refurbished, and many are still in daily use. The M1 Ultra is the chip Apple once compared with an RTX 3090; independent reviews found it far behind that card in games and most GPU benchmarks, and the match below reflects those reviews."
+      ],
+      "table": {
+        "caption": "Apple M2 and M1 GPUs to GeForce and Radeon (approximate, graphics benchmarks)",
+        "head": ["Apple chip", "GPU cores", "Max unified memory", "Closest NVIDIA", "Closest AMD"],
+        "rows": [
+          ["M2", "10 (8 on some models)", "24 GB", "GTX 1650 to GTX 1650 Super", "RX 6400 to RX 6500 XT"],
+          ["M2 Pro", "19 (16 on some models)", "32 GB", "GTX 1660 Super to RTX 3050", "RX 5600 XT class"],
+          ["M2 Max", "38 (30 on some models)", "96 GB", "RTX 3060 (roughly)", "RX 6600 XT (roughly)"],
+          ["M2 Ultra", "76 (60 on some models)", "192 GB", "RTX 3070 to RTX 3070 Ti", "RX 6750 XT to RX 6800"],
+          ["M1", "8 (7 on some models)", "16 GB", "GTX 1050 Ti to GTX 1650", "RX 560 to RX 6400"],
+          ["M1 Pro", "16 (14 on some models)", "32 GB", "GTX 1650 Super to GTX 1660", "RX 5500 XT class"],
+          ["M1 Max", "32 (24 on some models)", "64 GB", "RTX 2060 to RTX 2060 Super", "RX 5700 to RX 6600 XT"],
+          ["M1 Ultra", "64 (48 on some models)", "128 GB", "RTX 3060 Ti (roughly)", "RX 6700 XT (roughly)"]
+        ]
+      }
+    },
+    {
+      "h": "Can You Game on a Mac With These GPUs?",
+      "body": [
+        "Yes, with limits that matter more than the GPU match. The Mac game library is much smaller than Windows. A growing list of recent titles runs natively on Apple silicon with Metal and MetalFX upscaling, and those come closest to the matches in this chart. Many other Windows games run through translation tools such as Apple's Game Porting Toolkit or CrossOver, which cost performance and do not work with every game.",
+        "Games with kernel-level anti-cheat, including many popular competitive shooters, generally do not run on macOS at all. Boot Camp is not available on Apple silicon, so there is no native Windows option. If gaming is the main use and your list includes those titles, a Windows PC with a card from the right-hand columns is the safer buy; our [best graphics card](/best-graphics-card/) guide is the place to start.",
+        "In other words, an M4 Max that matches a desktop RTX 4070 in 3DMark does not play every game like an RTX 4070. In native ports it can come close; in translated games, expect it to perform like a card a tier or two lower, if the game runs at all."
+      ]
+    },
+    {
+      "h": "Do Apple GPUs Support CUDA, DLSS or FSR?",
+      "body": [
+        "No CUDA, and no DLSS. CUDA is NVIDIA's own computing platform, so software that needs it, including many AI training tools and some 3D renderers, does not run on a Mac GPU. Apple's GPUs use Metal instead, and major creative apps such as Blender, DaVinci Resolve and the Adobe suite support it. For local AI, Apple's MLX framework and Metal-backed tools run models on the GPU.",
+        "For upscaling, Apple has MetalFX, which plays the role [DLSS](/glossary/dlss/) and [FSR](/glossary/fsr/) do on Windows, but only in games that add it. DLSS is NVIDIA-only. If your work depends on CUDA, the GeForce side of this chart is the only real option."
+      ]
+    },
+    {
+      "h": "Why Does Unified Memory Change the Comparison?",
+      "body": [
+        "Apple's CPU and GPU share one pool of memory. On a desktop PC, the graphics card has its own [VRAM](/glossary/vram/): 8 GB on an RTX 4060, 12 GB on an RTX 4070 or [RTX 5070](/gear/rtx-5070/). An M4 Max can give its GPU most of up to 128 GB, and an M3 Ultra most of up to 512 GB.",
+        "For games, this rarely changes the match, because games are built for the memory budgets of PCs and consoles. For large AI models and huge 3D scenes, it can matter more than raw GPU speed: a Mac Studio can load models that do not fit on any consumer graphics card, even though an RTX 5090 runs smaller models much faster."
+      ]
+    },
+    {
+      "h": "Apple M-Series CPU Equivalents",
+      "body": [
+        "Apple's CPU cores are among the fastest for single-thread work. In Geekbench 6 single-core, the M4 family matches or beats the fastest desktop chips from Intel and AMD, which is why Macs feel quick in everyday use. Multi-thread performance depends on core count, so the rough desktop matches below use Cinebench 2024 and Geekbench 6 multi-core results."
+      ],
+      "table": {
+        "caption": "Apple chips to desktop CPUs, multi-thread (approximate)",
+        "head": ["Apple chip", "CPU cores (performance + efficiency)", "Closest desktop CPU, multi-thread"],
+        "rows": [
+          ["M1", "8 (4 + 4)", "Ryzen 5 3600 (a little slower)"],
+          ["M2", "8 (4 + 4)", "Ryzen 5 3600 (roughly)"],
+          ["M3", "8 (4 + 4)", "Ryzen 5 5600X (roughly)"],
+          ["M4", "10 (4 + 6)", "Ryzen 5 7600X (roughly)"],
+          ["M4 Pro", "14 (10 + 4)", "Between Ryzen 7 9700X and Ryzen 9 7900X"],
+          ["M4 Max", "16 (12 + 4)", "Close to Ryzen 9 9950X, a little behind"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Reading a benchmark match as a gaming match", "An Apple GPU that matches a desktop card in 3DMark plays native Mac games near that level, but translated Windows games run slower, and some do not run at all. Check that your games run on macOS before using this chart to choose."],
+    ["Trusting launch-day comparison charts", "Apple's keynote charts compare against specific laptop or desktop cards under chosen conditions. Independent benchmarks have repeatedly placed Apple GPUs lower in games, as with the M1 Ultra and RTX 3090. Use independent results."],
+    ["Ignoring the GPU core count", "Each Apple chip comes in more than one GPU configuration. A base M4 Pro with 16 GPU cores and the 20-core version land a step apart. Check the exact core count in About This Mac or the original order."],
+    ["Buying a Mac for CUDA work", "If your software needs CUDA, a Mac cannot run it on the GPU at any price. Check that your renderer or AI tool supports Metal or MLX before choosing a Mac over an NVIDIA system."]
+  ],
+  "bottomLine": "As rough matches from cross-platform benchmarks: M1 to a GTX 1050 Ti to GTX 1650, M2 to a GTX 1650, M3 to a GTX 1660, the 10-core M4 to a GTX 1660 Ti to RTX 3050, M4 Pro to an RTX 3060 to RTX 4060, M4 Max to an RTX 4060 Ti to RTX 4070, and M3 Ultra to an RTX 4070 to RTX 4070 Ti. In translated Mac games, drop a tier or two. No Apple GPU runs CUDA or DLSS.",
+  "faqs": [
+    {"q": "What is the Apple M4 GPU equivalent to?", "a": "The 10-core M4 GPU roughly equals a desktop GTX 1660 Ti to RTX 3050 in cross-platform graphics benchmarks. The 8-core version lands a little lower. In Mac games, expect 1080p at low to medium settings, often with MetalFX upscaling."},
+    {"q": "What NVIDIA GPU is the M4 Max equal to?", "a": "Roughly a desktop RTX 4060 Ti to RTX 4070 for the 40-core version, based on 3DMark and Blender results. The 32-core M4 Max lands a step lower. In translated Windows games it performs below that."},
+    {"q": "What is the M4 Pro GPU equivalent to?", "a": "The 20-core M4 Pro roughly matches a desktop RTX 3060 to RTX 4060, or an RX 6600 XT to RX 7600 on the AMD side. The 16-core version is closer to an RTX 3060 or RX 6600."},
+    {"q": "What graphics card is the M1 equivalent to?", "a": "Roughly a GTX 1050 Ti to GTX 1650 for the 8-core M1 GPU, or an RX 560 to RX 6400 on the AMD side. The M1 Max lands near an RTX 2060 class card, and the M1 Ultra near an RTX 3060 Ti."},
+    {"q": "Is the M3 Ultra as fast as an RTX 4090?", "a": "No. The 80-core M3 Ultra lands roughly near an RTX 4070 to RTX 4070 Ti in graphics benchmarks, well below an RTX 4090. Its advantage is up to 512 GB of unified memory, which matters for large AI models."},
+    {"q": "Is the M1 Ultra equal to an RTX 3090?", "a": "No. Apple compared the two at launch, but independent reviews found the M1 Ultra far behind the RTX 3090 in games and most GPU benchmarks. It lands closer to an RTX 3060 Ti."},
+    {"q": "Can Apple M-series Macs run CUDA?", "a": "No. CUDA only runs on NVIDIA GPUs, and Apple silicon Macs cannot use NVIDIA cards. Apple GPUs use Metal, which Blender, DaVinci Resolve and many AI tools support through Metal and Apple's MLX framework."},
+    {"q": "Is a Mac with an M4 good for gaming?", "a": "For casual and native Mac games, yes, at 1080p with modest settings. For the widest game library, competitive shooters with anti-cheat, or high settings, a Windows PC with an RTX 4060 class card or better is the better buy for the money."}
+  ],
+  "sources": [
+    "Apple M1, M2, M3, M4 and M5 chip specifications and Mac technical specifications",
+    "UL 3DMark Wild Life Extreme and Steel Nomad cross-platform results as published in independent reviews",
+    "Blender Open Data GPU benchmark results",
+    "Independent Mac and GPU reviews from Notebookcheck, AnandTech, Ars Technica and Tom's Hardware",
+    "Cinebench 2024 and Geekbench 6 results as published in independent reviews",
+    "NVIDIA GeForce and AMD Radeon desktop GPU specifications"
+  ],
+  "products": ["rtx-4060", "rtx-4070", "rtx-5070", "rx-6600"],
+  "related": ["laptop-gpu-equivalents", "integrated-graphics-equivalents", "amd-vs-nvidia-gpu-equivalents"]
+}

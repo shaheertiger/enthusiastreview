@@ -1,0 +1,196 @@
+{
+  "slug": "how-to-update-msi-bios",
+  "type": "article",
+  "kind": "howto",
+  "category": "motherboards",
+  "title": "How to Update MSI BIOS: M-FLASH or Flash BIOS Button (No CPU)",
+  "h1": "How to Update the BIOS on an MSI Motherboard",
+  "query": "how to update msi bios",
+  "description": "Update an MSI BIOS in 2 ways: M-FLASH from a FAT32 USB drive inside the BIOS, or the Flash BIOS Button with no CPU and the file renamed MSI.ROM. Steps inside.",
+  "dek": "The two reliable ways to flash a newer BIOS on an MSI board, which boards have the no-CPU button, and what to do when an update fails.",
+  "quickAnswer": "Download the BIOS for your exact board from MSI's support page, unzip it and copy the file to a FAT32 USB drive. Press Delete at boot, click M-FLASH, let the board restart into flash mode and pick the file. If the board won't boot because the CPU is too new, rename the file to MSI.ROM, plug the drive into the Flash BIOS port and press the Flash BIOS Button; no CPU or memory is needed.",
+  "intro": [
+    "This guide covers every practical way to update the BIOS (UEFI firmware) on an MSI motherboard: M-FLASH inside the BIOS, the Flash BIOS Button that works with no CPU installed, and MSI Center's Live Update in Windows. It applies to AM5, AM4 and recent Intel boards, from the PRO line to MAG Tomahawk, MPG and MEG.",
+    "MSI's BIOS screens change between board generations, so where a label varies we describe what to look for rather than quote text that may not match your screen. Check your board's manual and its MSI support page before you start, because the steps for the Flash BIOS Button in particular depend on the model."
+  ],
+  "stepsHeading": "How to Update an MSI BIOS With M-FLASH, Step by Step",
+  "steps": [
+    {
+      "h": "Find your exact board model and current BIOS version",
+      "body": [
+        "The model name is printed on the board and shows on the BIOS main screen. In Windows, run msinfo32 and read BaseBoard Product and BIOS Version/Date. MSI also prints an MS-number such as MS-7Dxx on the board, and its BIOS files are named after it. Some boards come in versions that look alike, such as a WiFi and non-WiFi model or a MAX refresh, and each takes its own file."
+      ]
+    },
+    {
+      "h": "Download the BIOS from MSI's support page",
+      "body": [
+        "Search for your model on msi.com, open Support, then the BIOS tab. Each version lists its date and what it changes, such as new CPU support, an AMD AGESA or Intel microcode update and memory fixes. Download the newest stable version unless the notes say you need an earlier one first, and read any warning that you cannot roll back once updated."
+      ]
+    },
+    {
+      "h": "Unzip and copy the file to a FAT32 USB drive",
+      "body": [
+        "Extract the ZIP and copy the BIOS file, whose name is a code based on the board's MS-number with the version as the extension, to the root of a USB drive formatted as FAT32, not inside a folder. For M-FLASH you can leave the file name as MSI supplied it. A small, plain USB drive is the most reliable choice."
+      ]
+    },
+    {
+      "h": "Enter the BIOS and click M-FLASH",
+      "body": [
+        "Plug in the drive, restart and press Delete repeatedly as the MSI logo appears. Switch to Advanced mode if the board opens in EZ Mode (F7 toggles it on most boards). Click the M-FLASH button, usually at the lower left of the screen, and confirm that you want to reboot into flash mode."
+      ]
+    },
+    {
+      "h": "Select the file and let it finish",
+      "body": [
+        "In flash mode, choose the USB drive, select the BIOS file and confirm. The flash takes a few minutes, then the board restarts, sometimes more than once. Do not turn the PC off, press reset or unplug the drive until it boots back to the MSI logo or the BIOS."
+      ]
+    },
+    {
+      "h": "Reload defaults and reapply your settings",
+      "body": [
+        "Enter the BIOS again, load optimized defaults (F6 on most MSI boards), save and restart, then turn back on what you use: EXPO or XMP memory profiles, fan curves, Resizable BAR, Secure Boot and the firmware TPM. A BIOS update usually resets these, and BitLocker may ask for its recovery key after the firmware changes."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "How Do You Use the MSI Flash BIOS Button With No CPU?",
+      "body": [
+        "The Flash BIOS Button is a small button on the rear I/O panel, next to a USB port labelled for it, that flashes the BIOS from a USB drive with no CPU, memory or graphics card installed. Its main use is a new processor that the board's shipped BIOS does not support, so the PC will not reach the BIOS at all.",
+        "The file must be renamed. Unzip the download, rename the BIOS file to MSI.ROM and copy it to the root of a FAT32 USB drive. If Windows hides file extensions, make sure the result is not MSI.ROM followed by the old extension.",
+        "Connect the 24-pin ATX cable and the 8-pin CPU power cable to the board, switch the power supply on but leave the PC off, and plug the drive into the Flash BIOS port. Press the Flash BIOS Button. Its LED starts flashing while the update runs, and that can take around five minutes. When the light stops, the update is done. If it lights solid or stops after a few seconds, the board did not accept the file; check the name, the port and the FAT32 format, then try again."
+      ],
+      "list": [
+        "Rename the file to MSI.ROM, nothing else.",
+        "Use the USB port marked for Flash BIOS on the rear I/O, not any other port.",
+        "Connect the 24-pin and 8-pin CPU power cables; the CPU itself is optional.",
+        "Wait until the LED stops flashing before you touch anything."
+      ]
+    },
+    {
+      "h": "Which MSI Motherboards Have the Flash BIOS Button?",
+      "body": [
+        "Most mid-range and higher MSI boards have it, including MAG Tomahawk, MPG and MEG models and many PRO boards on AM5 and recent Intel chipsets. All five MSI boards we track list it: the [MAG B650 Tomahawk WiFi](/gear/msi-mag-b650-tomahawk-wifi/), [PRO B650M-A WiFi](/gear/msi-pro-b650m-a-wifi/), [MAG X870 Tomahawk WiFi](/gear/msi-mag-x870-tomahawk-wifi/), [MAG B850 Tomahawk MAX WiFi](/gear/msi-mag-b850-tomahawk-max-wifi/) and the AM4 [MAG B550 Tomahawk](/gear/msi-mag-b550-tomahawk/), where MSI calls it BIOS Flashback+.",
+        "Some of MSI's cheapest boards leave it out, especially entry-level PRO models on A-series and H-series chipsets. Before you buy a new CPU for an older or budget board, check the rear I/O diagram in the manual or the spec page for Flash BIOS Button or BIOS Flashback. If the board lacks it, you need a supported CPU installed to update it with M-FLASH."
+      ]
+    },
+    {
+      "h": "Can You Update an MSI BIOS From Windows With MSI Center?",
+      "body": [
+        "MSI Center's Live Update feature can scan for a newer BIOS for your board and download it, and depending on the version it may offer to install it from Windows. We suggest using it only to see whether a new version exists and to download the file, then flashing from M-FLASH.",
+        "The reasons are practical. A Windows-based flash depends on the OS, drivers and MSI Center all behaving while the firmware is written, and an app crash or forced restart at the wrong moment is exactly what corrupts a BIOS. MSI Center is also a large install that many owners remove for performance or privacy reasons. M-FLASH runs outside Windows and only needs a USB drive.",
+        "If you do flash from MSI Center, close other programs, disable sleep, and don't touch the PC until it has restarted and booted back into Windows."
+      ]
+    },
+    {
+      "h": "When Should You Update an MSI BIOS?",
+      "body": [
+        "Update when the release notes list something you need. The common reasons are new CPU support, platform fixes and security patches. If the PC is stable and the notes list nothing that affects you, waiting is reasonable."
+      ],
+      "list": [
+        "Ryzen 9000 on a B650 or X670 board: early AM5 boards shipped before these chips existed and need a BIOS whose notes list Ryzen 9000 support, including the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/). Newer B850 and X870 boards support them out of the box.",
+        "Ryzen 5000 on AM4: B450 and some B550 boards need an update for later chips such as the [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/).",
+        "Intel 13th and 14th gen instability: Intel's 0x12B microcode, delivered in MSI BIOS updates from late 2024, addresses the elevated voltage requests behind the Vmin shift problem on chips such as the [Core i9-14900K](/gear/core-i9-14900k/). Install 0x12B or a later microcode on any 700- or 600-series board running these CPUs.",
+        "AGESA fixes on AM5: updates have improved memory compatibility with EXPO kits, shortened memory training and adjusted SoC voltage limits."
+      ]
+    },
+    {
+      "h": "What Should You Do If an MSI BIOS Update Fails?",
+      "body": [
+        "Don't keep power-cycling. If M-FLASH stopped before it started writing, the old BIOS is still there: restart, clear the CMOS and try again with a freshly formatted FAT32 drive and a re-downloaded file.",
+        "If the board no longer posts after a failed flash, use the Flash BIOS Button with the file renamed to MSI.ROM. It does not rely on the old firmware, so it is the standard recovery path on boards that have it. If your board has no button, contact MSI support or the retailer; a board that cannot recover needs its BIOS chip reprogrammed, which MSI's RMA service can do.",
+        "The usual causes of failure are the wrong file for the board, an NTFS or exFAT drive, the file inside a folder, a misnamed file for the Flash BIOS Button, and a power cut during the flash."
+      ]
+    },
+    {
+      "h": "How Do You Clear the CMOS on an MSI Board?",
+      "body": [
+        "Clearing the CMOS resets every BIOS setting to defaults; it does not undo a BIOS update. Use it when the PC won't post after a settings change or before retrying a failed flash.",
+        "Shut down, switch off the PSU and unplug it. Many MSI boards have a Clear CMOS button on the rear I/O; press it for a few seconds. Others have a two-pin JBAT1 jumper near the battery: short the two pins with a screwdriver or jumper cap for about 10 seconds. If you can't find either, remove the coin battery for a few minutes. Reconnect power and boot, and expect a long first boot on AM5 while the memory retrains."
+      ]
+    },
+    {
+      "h": "How Long Does an MSI BIOS Update Take?",
+      "body": [
+        "M-FLASH usually takes two to five minutes plus one or more restarts. The Flash BIOS Button can take around five minutes or a little longer, and the flashing LED is the only sign it is working. On AM5, the first boot after any update can show a black screen for a minute or more while the memory trains. That is normal; wait rather than reset.",
+        "For board choices, see our [best AM5 motherboard guide](/best-am5-motherboard/), the [MAG B650 Tomahawk WiFi vs MAG B850 Tomahawk MAX WiFi](/compare/msi-mag-b650-tomahawk-wifi-vs-msi-mag-b850-tomahawk-max-wifi/) comparison and all [MSI products we track](/brands/msi/). If you are deciding whether to buy MSI at all, read our [MSI review](/msi-review/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Not renaming the file for the Flash BIOS Button",
+      "M-FLASH reads the file under its original name, but the Flash BIOS Button only looks for MSI.ROM in the root of the drive. A file left under MSI's original name or saved as MSI.ROM with a hidden extension is ignored, and the LED stops almost at once."
+    ],
+    [
+      "Using the wrong USB port or an NTFS drive",
+      "The Flash BIOS Button only reads the one rear port marked for it, and both methods need FAT32. A large drive formatted NTFS or exFAT will not show the file at all. Format a small drive as FAT32 and copy only the BIOS file to its root."
+    ],
+    [
+      "Flashing the file for a similar-looking board",
+      "MSI sells near-identical names, such as WiFi and non-WiFi versions or a MAX refresh, and each has its own BIOS. Match the exact model, and the MS-number printed on the board, on the support page before you download anything."
+    ],
+    [
+      "Turning the PC off during the flash",
+      "An interrupted flash is the main way an update leaves a board unbootable. Don't update during a storm, don't press reset, and wait for the board to restart on its own. On boards with the Flash BIOS Button, that button is the recovery route if it does go wrong."
+    ],
+    [
+      "Panicking at a long black screen on AM5",
+      "After a BIOS update, AM5 boards retrain memory and can show nothing for a minute or more. Resetting during that time just restarts the training. Wait at least three minutes before assuming something went wrong."
+    ]
+  ],
+  "bottomLine": "The easiest MSI BIOS update is M-FLASH: download the file for your exact board, copy it to the root of a FAT32 USB drive, press Delete at boot and click M-FLASH. If the board won't boot because the CPU is too new, rename the file to MSI.ROM, use the Flash BIOS port and press the Flash BIOS Button; no CPU is needed. Use MSI Center to check for updates rather than to flash. Afterwards, load defaults and turn EXPO, Resizable BAR, Secure Boot and TPM back on.",
+  "faqs": [
+    {
+      "q": "Do I need a CPU to update an MSI BIOS?",
+      "a": "Not on boards with the Flash BIOS Button. Rename the file to MSI.ROM, connect the 24-pin and 8-pin CPU power cables, and press the button. M-FLASH and MSI Center do need a working, supported CPU because they run inside the BIOS or Windows."
+    },
+    {
+      "q": "What do I rename the MSI BIOS file to?",
+      "a": "MSI.ROM, but only for the Flash BIOS Button. M-FLASH reads the file under the name MSI gave it, so you don't need to rename it there."
+    },
+    {
+      "q": "What format should the USB drive be for an MSI BIOS update?",
+      "a": "FAT32, with the unzipped BIOS file in the root of the drive, not in a folder. Smaller, older USB drives tend to be the most reliable."
+    },
+    {
+      "q": "How do I get into M-FLASH on an MSI board?",
+      "a": "Press Delete as the PC starts to enter the BIOS, then click the M-FLASH button, usually at the lower left of the screen. The board restarts into flash mode, where you pick the file from your USB drive."
+    },
+    {
+      "q": "How do I check my MSI BIOS version?",
+      "a": "It shows on the BIOS main screen. In Windows, run msinfo32 and read the BIOS Version/Date line, which matches the version names on MSI's support page."
+    },
+    {
+      "q": "Does my B650 board need a BIOS update for Ryzen 9000?",
+      "a": "Usually, yes, unless it was made recently enough to ship with Ryzen 9000 support. Check the BIOS version in the CPU support list on MSI's page for your board. If the board won't boot with the new CPU, use the Flash BIOS Button."
+    },
+    {
+      "q": "Is it safe to update an MSI BIOS with MSI Center?",
+      "a": "It usually works, but flashing from inside Windows adds risk if an app crashes or the PC restarts mid-update. Use MSI Center to check for and download the BIOS, then flash it with M-FLASH."
+    },
+    {
+      "q": "Why is my MSI Flash BIOS Button light not flashing?",
+      "a": "Usually the file is not named MSI.ROM, the drive is not FAT32, the drive is in the wrong port, or the 8-pin CPU power cable is not connected. Fix those and press the button again."
+    }
+  ],
+  "sources": [
+    "MSI support pages: BIOS downloads and release notes per board",
+    "MSI motherboard user manuals: M-FLASH, Flash BIOS Button and Clear CMOS sections",
+    "Intel community statement on the 0x12B microcode for 13th and 14th gen desktop processors",
+    "AMD AGESA release notes and processor support lists for AM4 and AM5",
+    "Microsoft support: checking BIOS version with System Information"
+  ],
+  "products": [
+    "msi-mag-b650-tomahawk-wifi",
+    "msi-mag-x870-tomahawk-wifi",
+    "msi-pro-b650m-a-wifi",
+    "msi-mag-b550-tomahawk",
+    "msi-mag-b850-tomahawk-max-wifi"
+  ],
+  "related": [
+    "how-to-update-gigabyte-bios",
+    "how-to-update-asrock-bios",
+    "msi-review"
+  ]
+}

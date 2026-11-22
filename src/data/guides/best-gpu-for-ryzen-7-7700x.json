@@ -1,0 +1,202 @@
+{
+  "slug": "best-gpu-for-ryzen-7-7700x",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 7 7700X (2026): 6 Cards From 1080p to 4K",
+  "h1": "Best GPU for Ryzen 7 7700X",
+  "query": "best gpu for ryzen 7 7700x",
+  "description": "The RX 9070 XT is the best GPU for a Ryzen 7 7700X: 16 GB and RTX 5070 Ti-class speed for $600–$730, a balanced 1440p match. 6 picks from $300 to 4K.",
+  "dek": "An eight-core Zen 4 chip still drives a fast graphics card well. These six cards cover 1080p to 4K, and show where the 7700X starts to become the limit.",
+  "intro": [
+    "The Radeon RX 9070 XT is the best GPU for a Ryzen 7 7700X in 2026. At $600–$730 it matches an RTX 5070 Ti in raster games, has 16 GB of memory, and at 1440p it and the 7700X are well matched, so neither part wastes the other's speed.",
+    "This page is for anyone with AMD's eight-core Zen 4 chip on an AM5 board, whether you are building new or replacing an older card. The 7700X has 8 cores, a 5.4 GHz boost clock and 32 MB of L3 cache, which is enough to keep most current cards busy. The right pick depends mainly on your monitor and budget, with the PCIe and power details for AM5 covered below."
+  ],
+  "quickAnswer": "Buy the RX 9070 XT ($600–$730) for 1440p. The RTX 5070 Ti ($750–$900) is the NVIDIA pick, with stronger ray tracing. The RX 9070 ($550–$620) is the value choice. For 1080p, the RX 9060 XT 16GB ($350–$400), or the RTX 5060 ($300–$330) for esports. For 4K, the RTX 5080 ($1,000–$1,300) is the highest card worth pairing.",
+  "picks": [
+    {
+      "id": "rx-9070-xt",
+      "label": "Best Overall Match",
+      "bestFor": "1440p high-refresh gaming on a 7700X system",
+      "skipIf": "you play heavily path-traced games, where NVIDIA cards hold a clear lead",
+      "writeup": [
+        "The Ryzen 7 7700X games in the same class as the newer Ryzen 5 9600X and Ryzen 7 9700X, which independent reviews put only a few percent ahead in most games. That means it can keep a fast graphics card busy at 1440p, and the RX 9070 XT is the card that uses that headroom best for the money.",
+        "In raster games, reviews put it close to an RTX 5070 Ti, which usually costs more. It has 16 GB of memory, a full x16 link, and supports FSR 4, AMD's machine-learning upscaler, which reviewers rate far above earlier FSR versions.",
+        "At 1440p, most games are limited by the graphics card rather than the 7700X, so you get the frame rates you paid for. At 1080p in fast esports titles, the CPU can become the limit, but at frame rates above what most monitors show.",
+        "Plan for its power: AMD rates it at 304 W, and partner cards often run higher. A quality 750 W supply covers it with the 7700X, which has a 105 W TDP."
+      ],
+      "pros": ["RTX 5070 Ti-class raster for less", "16 GB of VRAM", "Balanced with the 7700X at 1440p", "FSR 4"],
+      "cons": ["Ray tracing a tier behind NVIDIA", "About 304 W; needs a 750 W supply"]
+    },
+    {
+      "id": "rtx-5070-ti",
+      "label": "Best NVIDIA Pick",
+      "bestFor": "1440p and entry 4K with ray tracing and DLSS 4",
+      "skipIf": "raster performance per dollar is what matters most",
+      "writeup": [
+        "If you prefer NVIDIA, the RTX 5070 Ti is the card that suits a 7700X best. It matches the RX 9070 XT in raster games and pulls ahead once ray tracing is turned on, with DLSS 4 and multi frame generation on top.",
+        "Ray tracing also loads the CPU, so a modern chip like the 7700X helps here compared with older CPUs. At 1440p, the 7700X keeps the card well fed in most games; at 4K, the graphics card is so clearly the limit that the CPU hardly matters.",
+        "Its 16 GB of memory covers 1440p and most 4K settings for years. NVIDIA recommends a 750 W supply, and most models use a 12V-2x6 connector, so a modern ATX 3.x supply with a native cable is the cleanest option. Our [RTX 5070 Ti vs RX 9070 XT comparison](/compare/rtx-5070-ti-vs-rx-9070-xt/) covers the choice between the top two picks."
+      ],
+      "pros": ["Strong ray tracing", "DLSS 4 multi frame generation", "16 GB of VRAM"],
+      "cons": ["Usually costs more than the RX 9070 XT", "12V-2x6 connector on most models"]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Best Value Pick",
+      "bestFor": "1440p gaming with 16 GB at a lower price",
+      "skipIf": "the RX 9070 XT is within about $80, where the faster card is the better buy",
+      "writeup": [
+        "The RX 9070 is the lower-cost way to a capable 1440p system on a 7700X. It handles high settings at that resolution in most games and keeps the same 16 GB of memory as the RX 9070 XT, which matters if you keep cards for several years.",
+        "At 220 W it is also far easier to power and cool than the XT, and it runs on a 650 W supply, which can save money in a new build. Many partner cards are compact two-fan designs that fit smaller cases.",
+        "Against NVIDIA's RTX 5070 at a similar price, the Radeon has more memory and slightly faster raster, while the RTX 5070 wins on ray tracing and DLSS 4. Our [RTX 5070 vs RX 9070 comparison](/compare/rtx-5070-vs-rx-9070/) covers that choice, and our [RX 9070 vs RX 9070 XT comparison](/compare/rx-9070-vs-rx-9070-xt/) shows when the step up is worth it."
+      ],
+      "pros": ["16 GB of VRAM", "Efficient at 220 W", "Runs on a 650 W supply"],
+      "cons": ["RX 9070 XT is notably faster for a little more", "Ray tracing behind NVIDIA"]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best for 1080p",
+      "bestFor": "1080p high settings on a budget",
+      "skipIf": "you play at 1440p and want high settings; step up to an RX 9070 or RTX 5070",
+      "writeup": [
+        "For a 1080p monitor, the RX 9060 XT 16GB is the card most 7700X owners should look at first. It runs high settings at 1080p in most games for $350–$400, and its 16 GB of memory avoids the texture problems 8 GB cards hit in newer releases.",
+        "With a CPU as fast as the 7700X, the card sets the frame rate in nearly every game, so the processor will not hold it back. That also makes it a good starting point: AM5 builds can take a much faster card later without changing anything else.",
+        "It keeps a full x16 link on any AM5 board and draws around 160–180 W, so a 550–650 W supply is enough. For more budget options, see our [best graphics cards under $400](/best-graphics-card-under-400/)."
+      ],
+      "pros": ["16 GB at a budget price", "Full x16 link", "Efficient"],
+      "cons": ["A 1080p card at heart", "Weaker ray tracing"]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Best Cheap Esports Card",
+      "bestFor": "1080p competitive games on a tight budget",
+      "skipIf": "you play new single-player games at high settings, where 8 GB of memory runs short",
+      "writeup": [
+        "If you mainly play esports games at 1080p, such as Fortnite, Valorant or Counter-Strike 2, you do not need a large card. Those games lean on the CPU at low settings, and the 7700X's high clocks handle them well, so the RTX 5060 at $300–$330 reaches high frame rates.",
+        "It supports NVIDIA Reflex, which cuts input lag in many competitive shooters, and DLSS 4 for heavier games. At 145 W it runs on a 550 W supply and suits small cases.",
+        "The limits are its 8 GB of memory, which is tight in new single-player games at high settings, and its PCIe x8 link. On AM5 that link runs at PCIe 4.0 or 5.0, so bandwidth is not a concern. If you play a mix of games, the RX 9060 XT 16GB is the safer buy; our [RTX 5060 vs RX 9060 XT 16GB comparison](/compare/rtx-5060-vs-rx-9060-xt-16gb/) lays out the trade."
+      ],
+      "pros": ["Low price", "NVIDIA Reflex and DLSS 4", "145 W; easy to power"],
+      "cons": ["8 GB of VRAM", "PCIe x8 link"]
+    },
+    {
+      "id": "rtx-5080",
+      "label": "Best for 4K",
+      "bestFor": "4K gaming where the graphics card does nearly all the work",
+      "skipIf": "you play at 1080p, where the 7700X and the card's speed are badly mismatched",
+      "writeup": [
+        "The RTX 5080 is the highest card that makes sense with a 7700X, and mainly at 4K. At that resolution the graphics card sets the frame rate in almost every game, so the 7700X gives up little compared with an X3D chip.",
+        "At 1440p it still works well in most games, but CPU-heavy titles start to show the 7700X's limit, and a Ryzen 7 9800X3D or 7800X3D would extract more from the card. At 1080p, an RTX 5080 is a poor match for this CPU; an RTX 5070 Ti or RX 9070 XT is the better buy there.",
+        "NVIDIA recommends an 850 W supply for the RTX 5080's 360 W rating. Its 16 GB of memory and DLSS 4 make it a strong long-term 4K card. Our [RTX 5080 vs RTX 5070 Ti comparison](/compare/rtx-5080-vs-rtx-5070-ti/) shows what the extra money buys."
+      ],
+      "pros": ["Top 4K performance short of the RTX 5090", "DLSS 4", "16 GB of VRAM"],
+      "cons": ["CPU-limited in some games below 4K", "Needs an 850 W supply"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "PCIe interface", "Board power", "Recommended PSU"],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling reviews of Zen 4 and Zen 5 chips, and owner reports from AM5 builds. None of these pairings were bench-tested by Enthusiast Review; statements about where the 7700X limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      ["Resolution fit", "The 7700X rarely limits mid-range cards, so we matched each pick to the resolution where it is fully used."],
+      ["Value", "Raster performance per dollar counted heavily, since that is what most games still use."],
+      ["Memory", "Cards with 16 GB ranked above 12 GB and 8 GB alternatives at similar speed, for longevity."],
+      ["Features", "Ray tracing, DLSS 4, FSR 4 and Reflex counted for buyers who will use them."],
+      ["Power", "We note the supply each card needs, because AM5 builds range from 550 W to 850 W."]
+    ],
+    "why": "The RX 9070 XT won because it gives RTX 5070 Ti-class raster speed and 16 GB for less, and it balances the 7700X at 1440p."
+  },
+  "mentions": [
+    {"id": "rtx-5070", "text": "The RTX 5070 is a good 1440p card with DLSS 4 and runs on a 650 W supply. It missed the list because the RX 9070 costs about the same, has 16 GB instead of 12 GB, and is slightly faster in raster. Choose the RTX 5070 if you value ray tracing and DLSS over memory."},
+    {"id": "rtx-5090", "text": "An RTX 5090 runs on a 7700X but makes sense only at 4K with maximum settings, and even then an X3D chip is the better partner. Its 575 W rating also calls for a 1,000 W supply. For this CPU, the RTX 5080 is the sensible ceiling."},
+    {"id": "ryzen-7-9800x3d", "text": "If you plan an RTX 5080 or faster at 1440p, a drop-in upgrade to the Ryzen 7 9800X3D on the same AM5 board gives clearly more frames in CPU-heavy games. For anything up to an RTX 5070 Ti, the 7700X is enough."}
+  ],
+  "sections": [
+    {
+      "h": "What GPU Is Compatible With a Ryzen 7 7700X?",
+      "body": [
+        "Every current desktop graphics card. The 7700X is an AM5 chip with PCIe 5.0 support, and any PCIe graphics card from AMD, NVIDIA or Intel works in an AM5 board's main slot. Compatibility comes down to your case, which must fit the card's length, and your power supply, which must meet the card's rating and have the right connectors.",
+        "The 7700X also has a small built-in AMD Radeon GPU based on RDNA 2 with 2 compute units. It drives a display for the desktop, video and troubleshooting, but it is not meant for gaming, so plan on a dedicated card for any game on this page."
+      ]
+    },
+    {
+      "h": "Will a Ryzen 7 7700X Bottleneck an RX 9070 XT or RTX 5070 Ti?",
+      "body": [
+        "Not at 1440p or 4K in most games. The 7700X boosts to 5.4 GHz and games close to the newer Zen 5 chips, so at those resolutions the graphics card sets the frame rate. At 1080p, in fast esports and CPU-heavy simulation games, the CPU can become the limit, but at frame rates above what most monitors display.",
+        "The point where a 7700X starts to hold cards back is around RTX 5080 level at 1440p. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any pairing and resolution."
+      ]
+    },
+    {
+      "h": "What GPU Should You Pair With a 7700X for 1080p?",
+      "body": [
+        "The RX 9060 XT 16GB for high settings in all kinds of games, or the RTX 5060 if you mainly play esports titles. Both are fully used by the 7700X at 1080p, and the CPU has plenty left for high-refresh monitors.",
+        "Going bigger at 1080p makes sense only with a 240 Hz or faster monitor in competitive games. Even then, an RX 9070 or RTX 5070 is about the most you need; beyond that, the CPU sets much of the frame rate at 1080p and the extra GPU speed goes unused."
+      ]
+    },
+    {
+      "h": "Should You Pair an RX 9070 XT With a 7700X, or Upgrade the CPU?",
+      "body": [
+        "Buy the graphics card first. If you have a 7700X and an older card, an RX 9070 XT is a large upgrade and a balanced match at 1440p. Replacing the CPU first would give little, because the old card would still set the frame rate.",
+        "A CPU upgrade makes sense later if you play CPU-heavy games, such as large strategy and simulation titles, or competitive shooters at very high refresh rates. AM5 lets you drop in a Ryzen 7 9800X3D or 7800X3D on the same board after a BIOS update. Our [7800X3D vs 9700X comparison](/compare/ryzen-7-7800x3d-vs-ryzen-7-9700x/) shows how much the extra cache helps in games."
+      ]
+    },
+    {
+      "h": "Does Your AM5 Board Give the GPU PCIe 5.0?",
+      "body": [
+        "It depends on the chipset and board. The 7700X provides PCIe 5.0 lanes, but whether the graphics slot uses them is up to the board: X670E, B650E and X870E boards wire the main slot for PCIe 5.0, while many B650 and X870 boards run it at PCIe 4.0.",
+        "In practice this hardly matters. Every card on this page runs at full or near-full speed on PCIe 4.0 x16, and x8 cards such as the RTX 5060 are only bandwidth-limited on PCIe 3.0 boards, which AM5 does not use. Resizable BAR, AMD's Smart Access Memory, is supported across AM5; make sure it is enabled in the BIOS."
+      ],
+      "table": {
+        "caption": "Each pick on a 7700X system",
+        "head": ["Card", "Best resolution", "VRAM", "Board power", "Recommended PSU"],
+        "rows": [
+          ["RX 9070 XT", "1440p", "16 GB", "304 W", "750 W"],
+          ["RTX 5070 Ti", "1440p to 4K", "16 GB", "300 W", "750 W"],
+          ["RX 9070", "1440p", "16 GB", "220 W", "650 W"],
+          ["RX 9060 XT 16GB", "1080p", "16 GB", "160–180 W", "550 W class"],
+          ["RTX 5060", "1080p esports", "8 GB", "145 W", "550 W class"],
+          ["RTX 5080", "4K", "16 GB", "360 W", "850 W"]
+        ]
+      }
+    },
+    {
+      "h": "Do You Need a New PSU for These Cards?",
+      "body": [
+        "Size the supply to the card. The 7700X has a 105 W TDP and can draw more than that under heavy all-core loads, but in games it uses far less than the graphics card, which is the large and variable load.",
+        "Use the manufacturer's recommendation as a floor: 550 W class for an RTX 5060 or RX 9060 XT, 650 W for an RX 9070, 750 W for an RTX 5070 Ti or RX 9070 XT, and 850 W for an RTX 5080. Our [PSU calculator](/tools/psu-calculator/) adds up a full build, and our [best PSU for RX 9070 XT](/best-psu-for-rx-9070-xt/) guide lists units that fit."
+      ]
+    },
+    {
+      "h": "What Is the Most Powerful GPU Worth Pairing With a Ryzen 7 7700X?",
+      "body": [
+        "An RTX 5080 at 4K. At 1440p, the sensible ceiling is an RTX 5070 Ti or RX 9070 XT; beyond that, the 7700X begins to limit frame rates in CPU-heavy games.",
+        "An RTX 5090 can run on a 7700X, but only makes sense at 4K with maximum settings, and an X3D CPU is the better partner for that card."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying a 1080p card for a 1440p monitor", "The 7700X can drive far more GPU than an RX 9060 XT. If your monitor is 1440p, an RX 9070 or RX 9070 XT is where the pairing starts to make full use of it."],
+    ["Upgrading the CPU before the graphics card", "With an older card, swapping a 7700X for an X3D chip barely changes frame rates at 1440p, because the card is the limit. Upgrade the graphics card first, then the CPU if you play CPU-heavy games."],
+    ["Choosing 8 GB for single-player games", "8 GB cards like the RTX 5060 are fine for esports but run short in new single-player games at high settings. If you play both, the RX 9060 XT 16GB costs a little more and lasts longer."],
+    ["Undersizing the power supply", "An RX 9070 XT or RTX 5070 Ti calls for 750 W and an RTX 5080 for 850 W. Size the supply to the card, and check it has the right connectors, including 12V-2x6 for most NVIDIA cards."],
+    ["Leaving EXPO and Resizable BAR off", "Many AM5 boards ship with DDR5 at its slower default speed and Resizable BAR disabled. Turn on EXPO and Smart Access Memory in the BIOS for free performance with any card."]
+  ],
+  "bottomLine": "For a Ryzen 7 7700X, the RX 9070 XT is the card to buy in 2026: RTX 5070 Ti-class raster speed, 16 GB, and a balanced match at 1440p. Choose the RTX 5070 Ti for ray tracing and DLSS 4, the RX 9070 for value, the RX 9060 XT 16GB for 1080p, the RTX 5060 for cheap esports builds, and the RTX 5080 only for 4K. The 7700X rarely limits anything below that.",
+  "faqs": [
+    {"q": "What is the best GPU for a Ryzen 7 7700X?", "a": "The RX 9070 XT for 1440p. It matches an RTX 5070 Ti in raster games, has 16 GB of memory and balances the 7700X well. The RTX 5070 Ti is the best NVIDIA option, and the RX 9060 XT 16GB the best for 1080p."},
+    {"q": "What GPU should I get for a 7700X at 1080p?", "a": "The RX 9060 XT 16GB at $350–$400 for high settings in most games, or the RTX 5060 at $300–$330 if you mainly play esports titles. The 7700X keeps both fully busy at 1080p."},
+    {"q": "Is the RX 9070 XT a good match for a Ryzen 7 7700X?", "a": "Yes. At 1440p the graphics card sets the frame rate in most games, so the 7700X uses the RX 9070 XT well. Upgrade the CPU later only if you play CPU-heavy games or competitive shooters at very high refresh rates."},
+    {"q": "Will a Ryzen 7 7700X bottleneck an RTX 5080?", "a": "At 4K, rarely. At 1440p it can limit an RTX 5080 in CPU-heavy games, and at 1080p the mismatch is large. Below 4K, an RTX 5070 Ti or RX 9070 XT is the better match, or pair the RTX 5080 with an X3D chip."},
+    {"q": "Does the Ryzen 7 7700X have integrated graphics?", "a": "Yes, a basic AMD Radeon iGPU based on RDNA 2 with 2 compute units. It handles the desktop and video, but not gaming, so you need a dedicated graphics card to play games."},
+    {"q": "Is the Ryzen 7 7700X still good for gaming in 2026?", "a": "Yes. Its 8 Zen 4 cores and 5.4 GHz boost game close to the newer Ryzen 7 9700X, and it keeps an upper-mid-range graphics card busy at 1440p. X3D chips are faster in CPU-heavy games."},
+    {"q": "What PSU do I need for a 7700X and RX 9070 XT?", "a": "A quality 750 W supply. The RX 9070 XT is rated at 304 W and partner cards often run higher, while the 7700X has a 105 W TDP. Use our PSU calculator to check your full build."},
+    {"q": "Does the 7700X support PCIe 5.0 graphics cards?", "a": "The CPU does, but the graphics slot's speed depends on the board. X670E, B650E and X870E boards run it at PCIe 5.0; many B650 and X870 boards use PCIe 4.0, which is enough for every current card."}
+  ],
+  "sources": [
+    "AMD Ryzen 7 7700X product specifications",
+    "AMD AM5 chipset specifications and Smart Access Memory documentation",
+    "NVIDIA GeForce RTX 5060, 5070 Ti and 5080 and AMD Radeon RX 9070 XT, RX 9070 and RX 9060 XT product pages and power recommendations",
+    "Published Zen 4 and Zen 5 CPU scaling reviews from TechPowerUp and Hardware Unboxed",
+    "Owner reports from AM5 builds on enthusiast forums"
+  ],
+  "related": ["best-graphics-card-for-1440p", "best-am5-motherboard", "best-gpu-for-ryzen-5-9600x"]
+}

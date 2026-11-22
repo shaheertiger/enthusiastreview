@@ -1,0 +1,218 @@
+{
+  "slug": "best-gpu-for-core-i5-13400f",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Core i5-13400F (2026): 6 Cards for 1080p to 1440p",
+  "h1": "Best GPU for Core i5-13400F",
+  "query": "best gpu for core i5 13400f",
+  "description": "The RX 9070 is the best GPU for an i5-13400F: 16 GB at 220 W for $550–$620, a balanced pair at 1080p and 1440p. 6 picks from a $300 RTX 5060 to the 9070 XT.",
+  "dek": "Intel's 10-core i5 is one of the most common chips in budget and mid-range builds. These six cards match its speed at 1080p and 1440p, its LGA1700 boards and the supplies it usually runs on.",
+  "intro": [
+    "The Radeon RX 9070 is the best GPU for a Core i5-13400F in 2026. For $550–$620 it gives 16 GB, runs at an efficient 220 W, and is fast enough for high-refresh 1080p and high settings at 1440p, which is about where a 13400F stops being able to keep a faster card busy.",
+    "This page is for anyone who owns or is building around Intel's 13th-generation i5, whether on a DDR4 or DDR5 board. It covers the best GPU pair for 1080p, the NVIDIA alternatives, the most GPU the 13400F can sensibly take, what PCIe 5.0 means on B760 and Z790 boards, and what to do if you have the 13400H laptop chip instead."
+  ],
+  "quickAnswer": "Buy the RX 9070 ($550–$620) for the best balance. The RTX 5070 ($550–$650) is the NVIDIA choice with DLSS 4. For 1080p on a smaller budget, the RX 9060 XT 16GB ($350–$400) or RTX 5060 Ti 16GB ($430–$480) is the best pair. The RX 9070 XT ($600–$730) is the 1440p ceiling, and the RTX 5060 ($300–$330) the budget pick.",
+  "picks": [
+    {
+      "id": "rx-9070",
+      "label": "Best Overall Match",
+      "bestFor": "13400F builds for high-refresh 1080p or 1440p, with a 650 W supply",
+      "skipIf": "you want DLSS 4 and stronger ray tracing; see the RTX 5070",
+      "writeup": [
+        "The RX 9070 is the card that gets the most out of a Core i5-13400F without paying for speed the CPU cannot use. The 13400F has six performance cores and four efficient cores, and it games roughly like a Ryzen 7 5700X3D or a little behind a Ryzen 5 7600, per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/). That is enough to feed a card of this class at 1440p and at high refresh rates in most games at 1080p.",
+        "Its 16 GB gives it headroom for high textures in new games for years, and its 220 W board power is modest for its speed, so a quality 650 W supply is enough. It uses a full sixteen-lane link, so it runs at full speed in any LGA1700 board, whether the slot is PCIe 4.0 or PCIe 5.0.",
+        "FSR 4 brings AMD's upscaling much closer to DLSS than earlier versions. If you mostly play ray-traced games or stream with NVIDIA's encoder, the RTX 5070 is the alternative at a similar price; our [RTX 5070 vs RX 9070 comparison](/compare/rtx-5070-vs-rx-9070/) covers the trade-offs."
+      ],
+      "pros": ["16 GB for long-term textures", "220 W, runs on 650 W", "Balanced with the 13400F at 1440p", "FSR 4"],
+      "cons": ["Weaker ray tracing than the RTX 5070", "Two 8-pin cables on most models"]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best NVIDIA Pick",
+      "bestFor": "players who want DLSS 4, ray tracing and NVIDIA's encoder",
+      "skipIf": "you keep cards for many years and want 16 GB; the RX 9070 has more memory",
+      "writeup": [
+        "The RTX 5070 is the NVIDIA card that pairs best with an i5-13400F. It is close to the RX 9070 in most games, stronger in ray tracing, and DLSS 4 with multi frame generation helps in the busy scenes where the CPU, not the GPU, limits frame rates.",
+        "The trade-off is 12 GB of memory. That is fine at 1080p and 1440p in almost every game today, but it leaves less headroom than the RX 9070's 16 GB for the next few years of high-texture releases.",
+        "At 250 W, NVIDIA recommends a 650 W supply. The Founders Edition uses a 16-pin 12V-2x6 connector, while many partner cards use 8-pin plugs, so check which cables your supply has. It runs at full speed on any LGA1700 board."
+      ],
+      "pros": ["DLSS 4 multi frame generation", "Strong ray tracing", "Balanced with the 13400F at 1440p"],
+      "cons": ["12 GB, less than the RX 9070", "16-pin connector on some models"]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best 1080p Pair",
+      "bestFor": "1080p gaming at high settings on a $350–$400 budget",
+      "skipIf": "you have a 1440p high-refresh monitor; step up to the RX 9070",
+      "writeup": [
+        "If the goal is a solid 1080p pair for a 13400F, the RX 9060 XT 16GB is the best value. It runs 1080p at high settings in nearly every game, and its 16 GB means new releases with heavy textures do not push it into stutter the way 8 GB cards can be pushed.",
+        "The 13400F has speed to spare with this card, so the GPU will usually be the limit, which is the right way round: you can lower a setting or turn on FSR 4 to gain frames, while a CPU limit is harder to work around. That spare CPU speed also means the card can be replaced later without changing the platform.",
+        "It draws about 160–180 W, runs on a quality 500–550 W supply with one 8-pin cable, and uses sixteen lanes, so it loses nothing on a PCIe 4.0 B660 or B760 board."
+      ],
+      "pros": ["16 GB at under $400", "Full x16 link", "Runs on a 550 W supply", "FSR 4"],
+      "cons": ["Leaves CPU speed unused at 1080p", "Weaker ray tracing than NVIDIA"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best NVIDIA Under $500",
+      "bestFor": "1080p and light 1440p with DLSS 4, on a 550 W supply",
+      "skipIf": "you want the most frames per dollar; the RX 9060 XT 16GB is close and cheaper",
+      "writeup": [
+        "The RTX 5060 Ti 16GB is the NVIDIA answer for a 13400F at 1080p. It is a little faster than the RX 9060 XT 16GB in many games, adds DLSS 4 with multi frame generation and stronger ray tracing, and keeps 16 GB so high textures are not a problem.",
+        "It is wired for eight PCIe lanes. On a 13400F that is not a concern: every LGA1700 board gives the slot at least PCIe 4.0, and independent scaling tests showed only a small loss at PCIe 4.0 x8. Only buy the 16 GB version; the 8 GB model leans on that narrower link much more once its memory fills.",
+        "At 180 W it runs on a quality 550 W supply with one 8-pin cable on most models."
+      ],
+      "pros": ["16 GB", "DLSS 4 multi frame generation", "180 W on one 8-pin"],
+      "cons": ["About $80 more than the RX 9060 XT 16GB", "x8 link"]
+    },
+    {
+      "id": "rx-9070-xt",
+      "label": "Highest Sensible Ceiling",
+      "bestFor": "1440p high-refresh and 4K players with a 750 W supply",
+      "skipIf": "you play at 1080p, where the 13400F caps it in many games",
+      "writeup": [
+        "The RX 9070 XT is about as much GPU as a 13400F can use well, and only at 1440p and above. There the graphics card carries most of the load, and this card's extra speed over the RX 9070 shows up as higher frame rates or higher settings.",
+        "At 1080p it is a different story. In CPU-heavy games, a 13400F caps frame rates below what the 9070 XT can deliver, so much of the extra money buys nothing. Pair it with a 1440p or 4K monitor or choose the RX 9070 instead.",
+        "It draws about 304 W, AMD recommends a 750 W supply, and most models use two or three 8-pin connectors. Our [RX 9070 vs RX 9070 XT comparison](/compare/rx-9070-vs-rx-9070-xt/) shows how much the step up gains."
+      ],
+      "pros": ["16 GB", "Strong at 1440p and 4K", "Full x16 link"],
+      "cons": ["CPU-limited at 1080p", "Needs a 750 W supply"]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Best Budget Pick",
+      "bestFor": "esports and 1080p medium-to-high settings for about $300",
+      "skipIf": "you want ultra textures in new games; an 8 GB card runs short",
+      "writeup": [
+        "The RTX 5060 is the cheapest card that pairs sensibly with a 13400F. For $300–$330 it runs 1080p at medium to high settings in new games and very high frame rates in esports titles, and DLSS 4 frame generation helps in demanding ones.",
+        "Its 8 GB is the limit. In some new games at high texture settings, it runs out of memory, so plan on medium to high textures. On a 13400F it runs at PCIe 4.0 x8 or better, which suits it.",
+        "It draws about 145 W and runs on a quality 500 W supply with one 8-pin cable. It is a good starting point for a budget build, since the CPU has room for a much faster card later."
+      ],
+      "pros": ["About $300", "145 W", "DLSS 4 frame generation"],
+      "cons": ["8 GB limits high textures", "Leaves CPU speed unused"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "Board power", "PCIe interface", "Memory bus"],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling reviews, and owner reports from 12th- and 13th-generation Intel builds. None of these pairings were bench-tested by Enthusiast Review; statements about bottlenecks reflect what independent reviewers have widely reported.",
+    "criteria": [
+      ["CPU balance", "We matched each card to the resolution where a 13400F can keep it busy, from budget 1080p to 1440p high refresh."],
+      ["Memory", "Cards with 16 GB ranked higher for new games with high textures; 8 GB cards were limited to the budget slot."],
+      ["Power", "We favored cards that run on the 550–650 W supplies most 13400F builds use."],
+      ["Features", "DLSS 4, FSR 4, ray tracing and video encoding counted for buyers who use them."],
+      ["Value", "Cards whose extra speed the 13400F cannot use at your resolution ranked lower."]
+    ],
+    "why": "The RX 9070 won because it pairs 16 GB and efficient 220 W power with speed the 13400F can feed at both 1080p and 1440p."
+  },
+  "mentions": [
+    {"id": "rtx-5070-ti", "text": "The RTX 5070 Ti works well with a 13400F at 1440p and 4K, but at $750–$900 it costs more than the RX 9070 XT for similar raster speed, and at 1080p the CPU leaves much of it unused. Buy it if ray tracing at 1440p is the priority."},
+    {"id": "arc-b580", "text": "The Arc B580 is a better fit on a 13400F than on older chips: LGA1700 supports Resizable BAR and the CPU is fast enough to soften Arc's driver overhead. Independent reviews still found it loses more on mid-range CPUs than Radeon or GeForce cards, so the RTX 5060 is the safer pick near $300."},
+    {"id": "rtx-4070", "text": "A used or discounted RTX 4070 pairs well with a 13400F: 12 GB, 200 W and DLSS 3. New, it costs about the same as an RTX 5070, which is faster and adds multi frame generation."}
+  ],
+  "sections": [
+    {
+      "h": "What GPU Pairs Best With an i5-13400F at 1080p?",
+      "body": [
+        "The RX 9060 XT 16GB or RTX 5060 Ti 16GB for 1080p at high settings, and the RX 9070 or RTX 5070 for 1080p at high refresh rates. The 13400F is fast enough that, at 1080p, a mid-range card is usually the limit rather than the CPU, so you can choose by budget.",
+        "The table below lays out the matches. Prices are typical street-price bands and move often."
+      ],
+      "table": {
+        "caption": "GPU pairs for an i5-13400F by budget",
+        "head": ["Budget", "Card", "Best resolution", "Board power", "Supply"],
+        "rows": [
+          ["$300–$330", "RTX 5060", "1080p medium to high", "145 W", "500 W"],
+          ["$350–$400", "RX 9060 XT 16GB", "1080p high", "160–180 W", "500–550 W"],
+          ["$430–$480", "RTX 5060 Ti 16GB", "1080p high, light 1440p", "180 W", "550 W"],
+          ["$550–$620", "RX 9070", "1080p high refresh, 1440p", "220 W", "650 W"],
+          ["$550–$650", "RTX 5070", "1080p high refresh, 1440p", "250 W", "650 W"],
+          ["$600–$730", "RX 9070 XT", "1440p high refresh, 4K", "304 W", "750 W"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Most Powerful GPU Worth Pairing With an i5-13400F?",
+      "body": [
+        "An RX 9070 or RTX 5070 at 1080p, and an RX 9070 XT or RTX 5070 Ti at 1440p and 4K. Any card works in the system, from an RTX 5060 to an RTX 5090, but beyond those levels the 13400F leaves much of the extra speed unused in CPU-heavy games.",
+        "At 4K the graphics card does nearly all the work, so an RTX 5080 is not wasted there, but most 13400F owners would get more from spending the difference on a faster CPU first. For other options by price, see our [best graphics cards under $500](/best-graphics-card-under-500/) and our [best graphics card for 1440p](/best-graphics-card-for-1440p/) guide."
+      ]
+    },
+    {
+      "h": "Will an i5-13400F Bottleneck an RTX 5070 Ti?",
+      "body": [
+        "At 1080p, yes, in many games; at 1440p, only a little. The 13400F's six performance cores reach 4.6 GHz, which is solid but well behind a Core i5-14600K or Ryzen 7 9800X3D. In CPU-heavy games at 1080p it caps frame rates below what an RTX 5070 Ti can deliver. At 1440p the card carries more of the load, and at 4K the CPU rarely matters.",
+        "Memory also plays a part. On a DDR5 board the 13400F has more headroom in CPU-limited games than on DDR4, though the difference varies by game. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows where the balance falls for any pairing."
+      ]
+    },
+    {
+      "h": "Does the i5-13400F Support PCIe 5.0?",
+      "body": [
+        "Yes, the CPU does, but your board decides. The 13400F provides sixteen PCIe 5.0 lanes for the graphics slot. Z690 and Z790 boards usually wire that slot for PCIe 5.0, while most B660 and B760 boards wire it for PCIe 4.0, and H610 boards are PCIe 4.0.",
+        "For gaming, this makes almost no difference. No current graphics card is meaningfully limited by PCIe 4.0 x16, and even eight-lane cards such as the RTX 5060 Ti lose only a little at PCIe 4.0 x8. There is no reason to pay for a Z790 board just for a PCIe 5.0 slot."
+      ],
+      "table": {
+        "caption": "Typical graphics slot by LGA1700 chipset with a 13400F",
+        "head": ["Chipset", "Typical GPU slot", "Memory", "Effect on these picks"],
+        "rows": [
+          ["H610", "PCIe 4.0 x16", "DDR4 or DDR5", "None worth noticing"],
+          ["B660 / B760", "PCIe 4.0 x16 on most boards", "DDR4 or DDR5", "None worth noticing"],
+          ["Z690 / Z790", "PCIe 5.0 x16 on most boards", "DDR4 or DDR5", "None worth noticing"]
+        ]
+      }
+    },
+    {
+      "h": "Do the Efficient Cores Matter for Gaming?",
+      "body": [
+        "A little. The 13400F has six performance cores with Hyper-Threading and four efficient cores, for ten cores and sixteen threads. Games run mainly on the performance cores, while the efficient cores handle background tasks such as voice chat, a browser or a stream encoder, which helps keep frame rates steady.",
+        "Use Windows 11, which schedules work across the two core types better than Windows 10, and keep chipset drivers and the BIOS current."
+      ]
+    },
+    {
+      "h": "Do You Need a New PSU?",
+      "body": [
+        "Probably not for the 1080p picks. The 13400F is rated at 65 W base power and up to 148 W at maximum turbo, so a quality 550 W supply runs the RTX 5060, RX 9060 XT 16GB and RTX 5060 Ti 16GB with room to spare.",
+        "The RX 9070 and RTX 5070 call for 650 W, and the RX 9070 XT for 750 W. Check your supply's cables too: most of these cards use 8-pin connectors, while the RTX 5070 Founders Edition uses a 16-pin plug. Our [PSU calculator](/tools/psu-calculator/) works out what any pairing needs."
+      ]
+    },
+    {
+      "h": "Should You Upgrade the CPU Instead?",
+      "body": [
+        "Not before the graphics card, in most cases. But LGA1700 gives the 13400F a real upgrade path: a Core i5-14600K or i7-14700K drops into the same board and lifts CPU-limited frame rates noticeably. Install the latest BIOS first for Intel's 13th- and 14th-generation microcode fixes.",
+        "A sensible order is the GPU now, matched to your resolution, and a CPU swap later if you move to high-refresh 1440p with an RX 9070 XT class card. Our guide for the [Core i5-12600K](/best-gpu-for-core-i5-12600k/) covers that faster tier."
+      ]
+    },
+    {
+      "h": "What About the i5-13400H Laptop Chip?",
+      "body": [
+        "Laptop processors with an H suffix are a different case. A laptop's graphics chip is soldered to the board, so you cannot add or swap a desktop card; the GPU is chosen when you choose the laptop.",
+        "If you are shopping for a laptop in that class, look at the GPU model and its power limit on the spec sheet, since the same laptop GPU name can perform very differently at different wattages. Our [laptop GPU equivalents chart](/laptop-gpu-equivalents/) shows how laptop GPUs line up against desktop cards. Everything else on this page applies to the desktop i5-13400F."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Overspending on the GPU at 1080p", "Above RX 9070 or RTX 5070 level, a 13400F limits frame rates in many games at 1080p. Pair faster cards with a 1440p or 4K monitor."],
+    ["Buying a Z790 board for PCIe 5.0", "PCIe 5.0 does not make current graphics cards faster in games. A B760 board with a PCIe 4.0 slot runs every pick here at full speed."],
+    ["Choosing an 8 GB card for ultra textures", "The RTX 5060 and 8 GB versions of the RTX 5060 Ti and RX 9060 XT run short in some new games at high textures. Buy 16 GB if you want ultra settings."],
+    ["Skipping the BIOS update", "13th-generation chips need current firmware for Intel's microcode fixes and stability. Update before installing a new card or swapping CPUs."],
+    ["Leaving memory at its default speed", "Many builds run RAM below its rating. Turn on the XMP profile in the BIOS; CPU-limited games run faster with memory at its rated speed."]
+  ],
+  "bottomLine": "For a Core i5-13400F, the RX 9070 is the card to buy in 2026: 16 GB, efficient 220 W power, and speed the CPU can feed at high-refresh 1080p and 1440p. Choose the RTX 5070 for DLSS 4 and ray tracing, the RX 9060 XT 16GB or RTX 5060 Ti 16GB for a 1080p pair under $500, the RX 9070 XT for 1440p high refresh, and the RTX 5060 for a budget build with room to grow.",
+  "faqs": [
+    {"q": "What is the best GPU for an i5-13400F?", "a": "The RX 9070. It has 16 GB, draws 220 W and suits the 13400F at both 1080p and 1440p. The RTX 5070 is the best NVIDIA option, and the RX 9060 XT 16GB the best value for 1080p."},
+    {"q": "What is the best i5-13400F GPU pair for 1080p?", "a": "The RX 9060 XT 16GB for $350–$400, or the RTX 5060 Ti 16GB if you want NVIDIA. Both run 1080p at high settings with 16 GB of memory. For high-refresh 1080p, step up to the RX 9070 or RTX 5070."},
+    {"q": "Will an i5-13400F bottleneck an RTX 5070?", "a": "Only a little, mostly in CPU-heavy games at 1080p. At 1440p the pairing is well balanced. The RTX 5070 and RX 9070 are about the highest cards the 13400F feeds fully at 1080p."},
+    {"q": "Can an i5-13400F handle an RTX 5070 Ti or RX 9070 XT?", "a": "Yes, at 1440p and 4K. At 1080p the CPU caps frame rates in many games, so much of the extra speed goes unused. Pair these cards with a 1440p high-refresh or 4K monitor."},
+    {"q": "Does the i5-13400F support PCIe 5.0?", "a": "Yes, the CPU supports PCIe 5.0 x16 for the graphics slot, but most B660 and B760 boards run that slot at PCIe 4.0. For gaming the difference is negligible with current cards."},
+    {"q": "Does the i5-13400F have integrated graphics?", "a": "No. The F suffix means no integrated graphics, so you need a graphics card to get any display output. The non-F Core i5-13400 includes Intel UHD 730 graphics."},
+    {"q": "What power supply do I need for an i5-13400F build?", "a": "A quality 550 W supply for cards up to the RTX 5060 Ti 16GB, 650 W for the RX 9070 or RTX 5070, and 750 W for the RX 9070 XT. Check that it has the right PCIe power cables."},
+    {"q": "What GPU goes with an i5-13400H?", "a": "The i5-13400H is a laptop processor, so its GPU is built into the laptop and cannot be swapped. Choose the laptop by its GPU model and power limit; our laptop GPU equivalents chart compares them to desktop cards."}
+  ],
+  "sources": [
+    "Intel Core i5-13400F product specifications (ark.intel.com)",
+    "Intel 600- and 700-series chipset specifications and motherboard CPU support lists",
+    "Intel statements on 13th and 14th generation microcode updates",
+    "AMD Radeon RX 9070, RX 9070 XT and RX 9060 XT and NVIDIA GeForce RTX 5070, RTX 5060 Ti and RTX 5060 product pages",
+    "Published CPU scaling and Arc B580 overhead analysis from Hardware Unboxed and TechPowerUp",
+    "Owner reports from LGA1700 mid-range builds on enthusiast forums"
+  ],
+  "related": ["best-gpu-for-core-i5-12600k", "best-graphics-card-for-1440p", "intel-vs-amd-cpu-equivalents"]
+}
