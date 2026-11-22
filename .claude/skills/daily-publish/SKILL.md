@@ -86,5 +86,8 @@ Fix every error. Spot-check one built page in `dist/`.
 
 - Add a dated row to `docs/daily-log.md`: date, Bing impressions/clicks (last day and 30 days), top Vercel
   search landing pages, the 10 pages written.
-- Commit, push the branch, open a PR into `claude/pc-hardware-seo-pages-i8ihjg` titled
-  `Daily publish YYYY-MM-DD: 10 pages from Bing + Vercel data`. Do not merge it yourself.
+- Push only when all 10 pages are written and validate, build and audit pass. Then commit, push the branch,
+  open a PR into `claude/pc-hardware-seo-pages-i8ihjg` titled
+  `Daily publish YYYY-MM-DD: 10 pages from Bing + Vercel data`, and merge it: the site owner asked (22 Nov
+  2026) for the daily run to merge its own PR once everything passes. If any check fails and can't be fixed,
+  push nothing and report why.
