@@ -1,0 +1,187 @@
+{
+  "slug": "how-to-update-asus-bios",
+  "published": "2026-11-22",
+  "type": "article",
+  "kind": "howto",
+  "category": "motherboards",
+  "title": "How to Update ASUS BIOS: EZ Flash 3 or USB FlashBack",
+  "h1": "How to Update ASUS BIOS",
+  "query": "how to update asus bios",
+  "description": "Update an ASUS BIOS in 2 ways: EZ Flash 3 from a FAT32 USB drive inside the UEFI, or USB BIOS FlashBack with no CPU and a BIOSRenamer file. Steps inside.",
+  "dek": "The two safe ways to flash a newer BIOS on an ASUS ROG, TUF, Prime or ProArt board, what Armoury Crate does and does not do, and how to recover when an update goes wrong.",
+  "quickAnswer": "Download the BIOS for your exact board from the ASUS support page, unzip it and copy the .CAP file to a FAT32 USB drive. Press Delete at boot, switch to Advanced Mode with F7, open Tool and run ASUS EZ Flash 3 Utility. If the CPU is too new for the board to boot, run BIOSRenamer, plug the drive into the FlashBack port and hold the USB BIOS FlashBack button.",
+  "intro": [
+    "This guide covers the two methods ASUS builds into its desktop motherboards: EZ Flash 3, which runs inside the UEFI, and USB BIOS FlashBack, a rear-panel button that flashes the board with no CPU, memory or graphics card installed. It applies to AM5, AM4 and Intel boards across the ROG, TUF Gaming, Prime and ProArt lines.",
+    "It also explains where Armoury Crate and MyASUS fit in, which updates matter for Ryzen 9000 and Intel Core chips, and what not to do. Menu layouts shift between board generations, so where a label varies we describe what to look for rather than quote one that may not match your screen."
+  ],
+  "stepsHeading": "How to Update an ASUS BIOS With EZ Flash 3, Step by Step",
+  "steps": [
+    {
+      "h": "Identify the board and the BIOS it runs now",
+      "body": [
+        "ASUS prints the model on the board, usually near the PCIe slots or the chipset heatsink, and the UEFI shows both the model and the BIOS version on its first screen. From Windows, run msinfo32 and read BaseBoard Product and BIOS Version/Date. Small suffixes matter on ASUS boards: a WIFI model, a WIFI II refresh and a non-WiFi model can each take a different file."
+      ]
+    },
+    {
+      "h": "Get the file from the ASUS support page",
+      "body": [
+        "On asus.com (or rog.asus.com for ROG boards), search for the model, open Support, then Driver & Utility, and choose the BIOS and firmware section. Each release lists its date and a short change log, such as new processor support, an AGESA or microcode update, or memory fixes. ASUS marks some releases as beta; skip those unless the notes fix a problem you actually have."
+      ]
+    },
+    {
+      "h": "Unzip it onto a FAT32 USB drive",
+      "body": [
+        "The download is a zip that holds a .CAP file and, on most recent boards, a small BIOSRenamer program. For EZ Flash 3 you only need the .CAP file, copied to the root of a USB drive formatted FAT32. You do not need to rename it for this method. A small, ordinary flash drive is the least likely to cause trouble."
+      ]
+    },
+    {
+      "h": "Open EZ Flash 3 from the Tool menu",
+      "body": [
+        "Restart and press Delete (F2 also works on many boards) as the ASUS or ROG logo appears. If the UEFI opens in EZ Mode, press F7 for Advanced Mode, then go to the Tool tab and choose ASUS EZ Flash 3 Utility. If it offers a choice between a storage device and the internet, pick the storage device."
+      ]
+    },
+    {
+      "h": "Pick the .CAP file and confirm",
+      "body": [
+        "Browse to the USB drive in the left pane, select the .CAP file and confirm when EZ Flash asks whether to read and update the BIOS. It checks that the file belongs to your board before it writes anything. The flash takes a few minutes and the PC restarts on its own when it is done. Do not cut power or press reset in the meantime."
+      ]
+    },
+    {
+      "h": "Load defaults and turn your settings back on",
+      "body": [
+        "On the next boot, enter the UEFI, load optimized defaults (F5 on most ASUS boards), then re-enable what you use: EXPO, XMP or DOCP memory profiles, fan curves, Resizable BAR, Secure Boot and the firmware TPM. If you use BitLocker, have the recovery key ready, because a firmware change can trigger the recovery prompt."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "How Do You Use ASUS USB BIOS FlashBack With No CPU?",
+      "body": [
+        "USB BIOS FlashBack writes a new BIOS from a USB drive using only standby power from the PSU. It is the fix for the classic problem of a board that shipped before your processor launched and therefore cannot boot far enough to run EZ Flash 3.",
+        "The file has to carry a specific name, which is different on each board. Run the BIOSRenamer program that comes in the BIOS zip, in the same folder as the .CAP file, and it renames the file for you. On older boards without BIOSRenamer, the manual lists the exact name to type. Copy the renamed file to the root of a FAT32 drive.",
+        "Connect the 24-pin and the CPU power cables, switch the PSU on, and leave the PC shut down. Plug the drive into the USB port marked for BIOS FlashBack on the rear panel, then hold the FlashBack button for about three seconds until its light starts blinking. The light keeps blinking while the BIOS is written and goes out when it is finished, which can take several minutes. If the light stays on solid or stops after a few seconds, the board did not accept the file: check the name, the drive format and the port, then try again."
+      ]
+    },
+    {
+      "h": "Which ASUS Motherboards Have BIOS FlashBack?",
+      "body": [
+        "Most ROG and ProArt boards have it, and so do many TUF Gaming and Prime boards from the AM5 and Intel 600 and 700 series onward. Some lower-cost Prime and older TUF models do not. The only reliable check is the board's spec page or manual: look for USB BIOS FlashBack in the BIOS or rear I/O section and for a small labelled button on the back panel.",
+        "Among boards in our catalog, the [ASUS TUF Gaming B650-Plus WiFi](/gear/asus-tuf-gaming-b650-plus-wifi/) and the [ASUS ROG Strix X570-E Gaming](/gear/asus-rog-strix-x570-e-gaming/) list BIOS FlashBack. For the [ASUS TUF Gaming X570-Plus WiFi](/gear/asus-tuf-gaming-x570-plus-wifi/), check the manual for your revision before you rely on it.",
+        "If your board lacks FlashBack and needs an update for a new CPU, the workaround is to borrow or buy a cheap processor the current BIOS supports, update with EZ Flash 3, then fit the new chip. Some retailers will also flash a board before shipping it."
+      ]
+    },
+    {
+      "h": "Can You Update an ASUS BIOS From Windows With Armoury Crate?",
+      "body": [
+        "Armoury Crate, the ASUS Windows app for desktop boards, can check for driver and BIOS updates on supported boards, and older boards offered EZ Update inside AI Suite 3 for the same job. They are useful for finding out that a new version exists. For the flash itself, EZ Flash 3 inside the UEFI is the safer route, because it does not depend on Windows, background apps and drivers behaving while the firmware is written.",
+        "Many ASUS boards also have a BIOS option, enabled by default, that offers to download and install Armoury Crate the first time Windows boots. If you do not want it, turn that option off in the Tool menu before installing Windows. Owner reports often describe Armoury Crate as heavy, and you do not need it to update the BIOS.",
+        "MyASUS is a different app. It manages ASUS laptops and some ASUS-built desktops, and it can deliver BIOS updates for those systems. It is not the tool for a retail ASUS motherboard you installed yourself; use the board's support page and EZ Flash 3 instead."
+      ]
+    },
+    {
+      "h": "Which ASUS BIOS Do You Need for Ryzen 9000 or a New Intel CPU?",
+      "body": [
+        "On AM5, ASUS boards made in 2022 and 2023 shipped with firmware for Ryzen 7000. Ryzen 8000G APUs need an early-2024 BIOS, Ryzen 9000 needs a mid-2024 or later release, and the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) needs a late-2024 release or newer. The CPU support list on each board's support page names the first BIOS version for every processor, so check it rather than guessing.",
+        "On AM4, B450, X470, B550 and X570 boards need a late-2020 or later BIOS for Ryzen 5000, and the Ryzen 7 5700X3D, released in early 2024, needs a newer release still. Some older AM4 boards dropped support for early Ryzen chips to make room in the BIOS chip, so read the notes before updating a board that still holds an older processor.",
+        "On Intel, 600-series boards need an update to run 13th and 14th Gen Core chips. ASUS also released BIOS updates in 2024 carrying Intel's microcode fixes for 13th and 14th Gen instability, along with Intel's default power settings. If you run one of those CPUs, installing the latest stable BIOS for your board is worth doing even if the PC seems fine."
+      ]
+    },
+    {
+      "h": "What Should You Do If an ASUS BIOS Update Fails?",
+      "body": [
+        "Leave it alone for a few minutes first. AM5 boards can sit on a black screen after an update while memory trains, and resetting restarts that process. If EZ Flash stopped before it started writing, the old BIOS is intact: re-download the file, reformat the drive as FAT32 and try again.",
+        "If the board will not post after a real interruption, USB BIOS FlashBack is the best recovery tool because it does not need the old firmware to run. ASUS boards also include CrashFree BIOS 3, which can restore a damaged BIOS from a USB drive on boot; the manual for your board explains the file it expects. If neither works, contact ASUS support, since a board whose BIOS chip cannot be rewritten in place needs service.",
+        "The usual causes of a failed or refused update are a file for a different model, a drive formatted NTFS or exFAT, a .CAP file tucked inside a folder, and power loss mid-flash."
+      ]
+    },
+    {
+      "h": "How Do You Clear the CMOS on an ASUS Board?",
+      "body": [
+        "Clearing the CMOS resets BIOS settings to defaults. It does not roll back a BIOS update, but it fixes a board that will not post after a bad setting. Shut down, switch the PSU off and unplug it.",
+        "Higher-end ASUS boards have a Clear CMOS button on the rear I/O; press it. Most others have a two-pin header labelled CLRTC near the battery or the bottom edge of the board: touch both pins with a screwdriver for about 10 seconds. If you cannot find it, remove the coin battery for a few minutes. Expect a long first boot on AM5 afterwards while the memory retrains."
+      ]
+    },
+    {
+      "h": "How Long Does an ASUS BIOS Update Take?",
+      "body": [
+        "EZ Flash 3 usually finishes in two to five minutes, followed by one or more automatic restarts. USB BIOS FlashBack can take longer, and the blinking light is the only sign it is working. The first boot on AM5 can show a black screen for a minute or more while the memory trains, which is normal.",
+        "If you are still choosing a board, our [best AM5 motherboard guide](/best-am5-motherboard/) notes which picks have a no-CPU flash button. The same process on other brands is covered in [how to update MSI BIOS](/how-to-update-msi-bios/), [how to update Gigabyte BIOS](/how-to-update-gigabyte-bios/) and [how to update ASRock BIOS](/how-to-update-asrock-bios/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Renaming the file for EZ Flash 3",
+      "Only USB BIOS FlashBack needs the renamed file. EZ Flash 3 reads the .CAP file under its original name. Running BIOSRenamer does no harm, but if FlashBack fails, the file name is the first thing to check, and BIOSRenamer is the safe way to set it."
+    ],
+    [
+      "Using the wrong port for FlashBack",
+      "FlashBack only reads from one specific rear USB port, outlined or labelled near the button. A drive in any other port leaves the light blinking briefly or not at all. Check the rear I/O diagram in the manual."
+    ],
+    [
+      "Flashing a WiFi II file onto a WiFi board",
+      "ASUS sells refreshed versions of some boards, such as WIFI II models, that look nearly identical but take different BIOS files. Match the full model name from msinfo32 to the support page before you download."
+    ],
+    [
+      "Flashing from Windows with other apps running",
+      "A Windows-based update depends on the OS staying up while the firmware is written. A crash or forced restart at that moment can corrupt the BIOS. Use Armoury Crate to check for updates if you like, then flash with EZ Flash 3."
+    ],
+    [
+      "Installing beta firmware without a reason",
+      "ASUS posts beta BIOS releases for early fixes and new features. Unless the notes address a problem you have, wait for the stable release that follows."
+    ]
+  ],
+  "bottomLine": "The safest ASUS BIOS update is EZ Flash 3: download the file for your exact board, copy the .CAP file to the root of a FAT32 drive, press Delete at boot, go to Advanced Mode and run EZ Flash 3 from the Tool menu. If a new CPU stops the board from booting, run BIOSRenamer and use USB BIOS FlashBack, if your board has the button. Use Armoury Crate only to check for updates, not to flash, and turn EXPO, Resizable BAR, Secure Boot and TPM back on afterwards.",
+  "faqs": [
+    {
+      "q": "How do I update my ASUS BIOS?",
+      "a": "Download the BIOS for your board from the ASUS support page, copy the .CAP file to a FAT32 USB drive, press Delete at boot, switch to Advanced Mode with F7 and open EZ Flash 3 from the Tool menu. Select the file, confirm and wait for the board to restart."
+    },
+    {
+      "q": "Do I need a CPU to update an ASUS BIOS?",
+      "a": "Not on boards with USB BIOS FlashBack. With the PSU connected and switched on, a renamed BIOS file on a FAT32 drive in the FlashBack port and a press of the button is enough. EZ Flash 3 needs a working, supported CPU because it runs inside the UEFI."
+    },
+    {
+      "q": "What is BIOSRenamer?",
+      "a": "BIOSRenamer is a small program ASUS includes in the BIOS download for most recent boards. Run it in the same folder as the .CAP file and it gives the file the exact name USB BIOS FlashBack looks for on your model. EZ Flash 3 does not need it."
+    },
+    {
+      "q": "Why is the ASUS FlashBack light not blinking?",
+      "a": "Usually the file name is wrong, the drive is not FAT32, the drive is in the wrong port, or the PSU is switched off or missing a power cable. Run BIOSRenamer again, reformat the drive, use the port marked for FlashBack and hold the button for about three seconds."
+    },
+    {
+      "q": "Can I update my ASUS BIOS with Armoury Crate?",
+      "a": "Armoury Crate can check for and download BIOS updates on supported boards, but flashing from inside the UEFI with EZ Flash 3 is safer. It does not rely on Windows staying stable during the write."
+    },
+    {
+      "q": "Does MyASUS update the BIOS on an ASUS motherboard?",
+      "a": "No, not on a retail desktop motherboard. MyASUS is for ASUS laptops and some ASUS-built desktops. For a board you installed yourself, download the BIOS from its support page and flash it with EZ Flash 3 or FlashBack."
+    },
+    {
+      "q": "Does an ASUS BIOS update reset my settings?",
+      "a": "Usually, yes. Memory profiles, fan curves, Resizable BAR, Secure Boot and the firmware TPM can go back to defaults. Write your settings down or save a profile in the UEFI before you update, then re-enable them."
+    },
+    {
+      "q": "Should I update my ASUS BIOS if nothing is wrong?",
+      "a": "Update for new CPU support, a stability or security fix that applies to you, or the 2024 Intel microcode fixes if you run a 13th or 14th Gen Core chip. If the PC is stable and the notes list nothing relevant, waiting is fine."
+    }
+  ],
+  "sources": [
+    "ASUS motherboard support pages: BIOS downloads, CPU support lists and release notes",
+    "ASUS support articles: EZ Flash 3 and USB BIOS FlashBack instructions",
+    "ASUS motherboard user manuals: BIOS FlashBack, CrashFree BIOS 3 and Clear CMOS sections",
+    "AMD AGESA release notes and Intel 13th and 14th Gen microcode update announcements",
+    "Microsoft support: checking the BIOS version with System Information"
+  ],
+  "products": [
+    "asus-tuf-gaming-b650-plus-wifi",
+    "asus-rog-strix-x570-e-gaming",
+    "asus-tuf-gaming-x570-plus-wifi",
+    "ryzen-7-9800x3d"
+  ],
+  "related": [
+    "how-to-update-msi-bios",
+    "how-to-update-gigabyte-bios",
+    "best-am5-motherboard"
+  ]
+}

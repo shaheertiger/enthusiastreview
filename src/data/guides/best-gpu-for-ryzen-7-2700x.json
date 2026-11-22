@@ -1,0 +1,362 @@
+{
+  "slug": "best-gpu-for-ryzen-7-2700x",
+  "published": "2026-11-22",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 7 2700X (2026): 5 Cards for PCIe 3.0",
+  "h1": "Best GPU for Ryzen 7 2700X",
+  "query": "best gpu for ryzen 7 2700x",
+  "description": "The RX 9060 XT 16GB is the best GPU for a Ryzen 7 2700X: a full x16 link for its PCIe 3.0 slot and 16 GB for $350–$400. 5 picks, plus the X3D upgrade path.",
+  "dek": "The 2700X runs every graphics slot at PCIe 3.0, which changes which cards make sense. These five keep their full speed on it, and a cheap CPU swap opens up faster ones.",
+  "intro": [
+    "The Radeon RX 9060 XT 16GB is the best GPU for a Ryzen 7 2700X in 2026. It costs $350–$400, has 16 GB of memory, and uses all sixteen PCIe lanes, so the 2700X's PCIe 3.0 slot costs it very little. Many budget cards use only eight lanes and lose more.",
+    "This page is for owners of AMD's 2018 eight-core Zen+ chip who want a new graphics card, or who are deciding whether to upgrade the card or the CPU first. It covers which cards are compatible, why link width matters on this platform, whether an RTX 4060 is worth it over an RTX 2080, and the Ryzen 7 5700X3D drop-in that fits the same AM4 board."
+  ],
+  "quickAnswer": "Buy the RX 9060 XT 16GB ($350–$400): full x16 lanes and 16 GB. The RTX 4070 ($500–$600) is the NVIDIA pick with a full x16 link. If you will swap in a Ryzen 7 5700X3D, the RX 9070 ($550–$620) is the better long-term card. Budget: RX 9060 XT 8GB ($280–$320) or a discounted RX 6700 XT ($250–$330).",
+  "picks": [
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Overall Match",
+      "bestFor": "1080p at high settings on a 2700X, with room for a later CPU upgrade",
+      "skipIf": "you already own an RTX 2080 or similar card, where the gain is moderate; upgrade the CPU first",
+      "writeup": [
+        "The Ryzen 7 2700X has eight Zen+ cores and a 4.3 GHz boost, and it runs the graphics slot at PCIe 3.0 on every board. That makes the link width of your next card matter, and the RX 9060 XT 16GB is the best match because it keeps all sixteen lanes.",
+        "Most budget cards from NVIDIA, including the RTX 5060, RTX 5060 Ti and RTX 4060, use an x8 link. On PCIe 3.0, an x8 card has a quarter of the bandwidth it would have on PCIe 5.0, and independent reviews show losses in some games, larger on 8 GB models. The RX 9060 XT runs at PCIe 3.0 x16, which is a much smaller step down.",
+        "At 1080p, it gives high settings in current games, and its 16 GB of memory means it is not short of texture space. The 2700X will be the limit in CPU-heavy titles, but the card's speed is not so far ahead of the CPU that the money is wasted.",
+        "It also carries forward. If you later drop a Ryzen 7 5700X3D into the same board, this card keeps working at full potential. AMD rates it at about 160 W, so most existing 550 W supplies handle it."
+      ],
+      "pros": [
+        "Full x16 link suits PCIe 3.0",
+        "16 GB of VRAM",
+        "Low power draw",
+        "Good match before and after a CPU upgrade"
+      ],
+      "cons": [
+        "Moderate gain over an RTX 2080-class card",
+        "Weaker ray tracing than NVIDIA"
+      ]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Best With an X3D Upgrade",
+      "bestFor": "owners who will swap the 2700X for a 5700X3D or 5800X3D",
+      "skipIf": "you are keeping the 2700X long term; it limits this card in many games",
+      "writeup": [
+        "The RX 9070 is the card to buy if you plan to upgrade the CPU as well, in either order. On a 2700X alone, it is faster than the CPU can fully use in many games. Paired with a Ryzen 7 5700X3D or 5800X3D on the same board, it becomes a balanced 1440p system.",
+        "It has 16 GB of memory on a 256-bit bus, a full x16 link that runs at PCIe 3.0 x16 on the 2700X's boards without much loss, and FSR 4 support. AMD rates it at 220 W and recommends a 650 W supply, which is modest for this level of performance.",
+        "For an owner coming from an RTX 2080, this is a real upgrade: far more memory and a large step in speed. The catch is that the 2700X will hold it back until the CPU changes. That is why the most efficient plan is often a 5700X3D first, then this card.",
+        "If you want NVIDIA at this level, the RTX 5070 is the alternative, also with a full x16 link. Our [RTX 5070 vs RX 9070 comparison](/compare/rtx-5070-vs-rx-9070/) covers the choice."
+      ],
+      "pros": [
+        "16 GB on a 256-bit bus",
+        "Full x16 link",
+        "Efficient for its speed",
+        "Strong 1440p card after a CPU swap"
+      ],
+      "cons": [
+        "CPU-limited on a 2700X in many games",
+        "Higher price than the budget picks"
+      ]
+    },
+    {
+      "id": "rtx-4070",
+      "label": "Best NVIDIA x16 Card",
+      "bestFor": "NVIDIA buyers who want DLSS without an x8 link",
+      "skipIf": "you can find an RTX 5070 at a similar price; it is faster and also uses x16",
+      "writeup": [
+        "Most of NVIDIA's affordable current cards use an x8 link, which is the wrong fit for a PCIe 3.0 system. The RTX 4070 is the exception at a sensible price: 12 GB of memory and a full PCIe 4.0 x16 interface, which runs at PCIe 3.0 x16 on a 2700X.",
+        "It supports DLSS upscaling and frame generation, though not multi frame generation, and at 200 W it is easy on older power supplies. NVIDIA recommends 650 W. That makes it a good fit for an AM4 build where the supply is a few years old.",
+        "On a 2700X, the RTX 4070 will be CPU-limited in demanding games at 1080p, but at 1440p the balance is better. Frame generation also helps, because the generated frames do not depend on CPU speed.",
+        "Buy it only at a clear discount. The RTX 5070, which replaced it, is faster and also uses x16, so compare prices before you buy. Our [RTX 4070 vs RTX 5070 comparison](/compare/rtx-4070-vs-rtx-5070/) shows the gap."
+      ],
+      "pros": [
+        "Full x16 link",
+        "Efficient at 200 W",
+        "DLSS upscaling and frame generation"
+      ],
+      "cons": [
+        "No multi frame generation",
+        "Only worth it at a discount to the RTX 5070"
+      ]
+    },
+    {
+      "id": "rx-6700-xt",
+      "label": "Best 12 GB on a Budget",
+      "bestFor": "used or clearance buyers who want 12 GB and x16 for little money",
+      "skipIf": "the price is close to an RX 9060 XT 16GB, which is newer and more efficient",
+      "writeup": [
+        "The RX 6700 XT is an older card that suits the 2700X well. It has 12 GB of memory and a full x16 link, so it avoids both problems that hurt cheap cards on PCIe 3.0: running out of memory and moving data over half the lanes.",
+        "It handles 1080p at high settings in most games and light 1440p, a level the 2700X can keep reasonably busy. Its age shows in other ways: no FSR 4, weak ray tracing, and a 230 W rating that is high for its speed. AMD recommends a 650 W supply.",
+        "Its value depends entirely on price. At $250–$330 used or on clearance, it is a solid upgrade for an aging card. If a new RX 9060 XT 16GB costs only a little more, take the newer card."
+      ],
+      "pros": [
+        "12 GB of VRAM",
+        "Full x16 link",
+        "Often cheap used"
+      ],
+      "cons": [
+        "No FSR 4",
+        "Weak ray tracing",
+        "Higher power than newer cards"
+      ]
+    },
+    {
+      "id": "rx-9060-xt-8gb",
+      "label": "Lowest-Cost x16 Pick",
+      "bestFor": "1080p at medium to high settings on a tight budget",
+      "skipIf": "you play new single-player games at high texture settings; 8 GB runs out",
+      "writeup": [
+        "If $350 is too much, the RX 9060 XT 8GB is the cheapest current card that keeps a full x16 link. That matters more for an 8 GB card than a 16 GB one: when a game runs short of memory, it moves data over the PCIe bus, and on a 2700X's PCIe 3.0 slot, sixteen lanes soften the hit compared with eight.",
+        "It has the same GPU as the 16 GB model, so in games that fit in 8 GB, it performs much the same. In newer games at high texture settings, you will need to turn textures down. AMD rates it at about 150 W.",
+        "Compare it with the RTX 5060 at a similar price. The RTX 5060 is a capable card on newer systems, but it uses x8, which is a poor fit for this platform. Our [RX 9060 XT 8GB vs 16GB comparison](/compare/rx-9060-xt-8gb-vs-rx-9060-xt-16gb/) explains when the extra memory is worth it."
+      ],
+      "pros": [
+        "Cheapest current x16 card",
+        "FSR 4",
+        "Low power"
+      ],
+      "cons": [
+        "8 GB limits texture settings",
+        "The 16 GB model ages much better"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "VRAM",
+    "PCIe interface",
+    "Board power",
+    "Recommended PSU"
+  ],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published PCIe-scaling and CPU-scaling reviews of older Ryzen chips, and owner reports from AM4 systems. None of these pairings were bench-tested by Enthusiast Review; statements about where the 2700X limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      [
+        "PCIe link width",
+        "The 2700X runs the slot at PCIe 3.0 on every board, so full x16 cards ranked well above x8 cards."
+      ],
+      [
+        "Balance with the CPU",
+        "We favored cards a Zen+ chip can keep reasonably busy, and flagged the ones that only make sense after a CPU swap."
+      ],
+      [
+        "Memory",
+        "Cards with 12 GB or more ranked higher, because memory shortfalls cost more over a PCIe 3.0 link."
+      ],
+      [
+        "Power",
+        "Many 2700X builds still use their original supply, so efficient cards counted in their favor."
+      ],
+      [
+        "Value",
+        "Performance per dollar, with the cost of a later CPU upgrade in mind."
+      ]
+    ],
+    "why": "The RX 9060 XT 16GB won because it pairs 16 GB with a full x16 link at a budget price, and it stays a good match after a CPU upgrade."
+  },
+  "mentions": [
+    {
+      "id": "rtx-4060",
+      "text": "The RTX 4060 is efficient and supports DLSS frame generation, but it uses 8 GB and an x8 link that runs at PCIe 3.0 x8 on a 2700X. For an RTX 2080 owner, it is not an upgrade: independent reviews put it roughly level with an RTX 2080 in raster games."
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "text": "The RTX 5060 Ti 16GB is a good card on newer platforms, and its 16 GB spares it the worst of the PCIe 3.0 penalty. It still runs at PCIe 3.0 x8 on a 2700X, so the RX 9060 XT 16GB is the safer choice at a similar or lower price."
+    },
+    {
+      "id": "arc-b580",
+      "text": "The Arc B580 is a strong value card on newer CPUs, but it relies on Resizable BAR, and independent reviews found its driver overhead costs more on older processors. AMD does not list Ryzen 2000 chips for Smart Access Memory, so skip it for a 2700X."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Graphics Cards Are Compatible With a Ryzen 7 2700X?",
+      "body": [
+        "Any current desktop graphics card will work with a Ryzen 7 2700X. PCIe is backward compatible, so a PCIe 4.0 or 5.0 card runs in the 2700X's PCIe 3.0 slot, just at PCIe 3.0 speed. The 2700X has no integrated graphics, so you need a dedicated card for any display output.",
+        "Compatibility in the strict sense is rarely the problem. The practical checks are the physical fit in your case, the power supply's wattage and connectors, and whether the card uses a full x16 link or only x8. Those decide whether a card is a good choice, not just whether it boots.",
+        "Before installing a new card, update the motherboard BIOS and remove old drivers with a clean install. Some older AM4 boards shipped with early firmware that does not handle newer cards well, and a BIOS update usually fixes it."
+      ],
+      "list": [
+        "Case: check the card's length and slot width against your case's GPU clearance.",
+        "Power: check the wattage and that you have the right PCIe or 12V-2x6 connectors.",
+        "Link width: prefer x16 cards on a 2700X.",
+        "BIOS: update to a recent release before the swap."
+      ]
+    },
+    {
+      "h": "Can a Ryzen 7 2700X Use Any Graphics Card?",
+      "body": [
+        "It can run any of them, but some are poor value on it. Two groups lose the most. The first is cards with an x8 link, such as the RTX 5060, RTX 5060 Ti, RTX 4060 and RX 6600. On PCIe 3.0, they lose bandwidth, and independent reviews show performance drops in some games, especially on 8 GB models when they run out of memory.",
+        "The second is high-end cards. An RTX 5080 or RX 9070 XT will run on a 2700X, but the CPU caps frame rates in many games, especially at 1080p. You pay for speed the CPU cannot use.",
+        "A smaller group to avoid is Intel's Arc cards. They depend on Resizable BAR, which AMD's Smart Access Memory officially supports on Ryzen 3000-series and newer, not on Ryzen 2000 chips."
+      ],
+      "table": {
+        "caption": "How common cards run on a 2700X's PCIe 3.0 slot",
+        "head": [
+          "Card",
+          "Native link",
+          "On a 2700X",
+          "Fit"
+        ],
+        "rows": [
+          [
+            "RX 9060 XT 16GB",
+            "PCIe 5.0 x16",
+            "PCIe 3.0 x16",
+            "Good"
+          ],
+          [
+            "RX 9060 XT 8GB",
+            "PCIe 5.0 x16",
+            "PCIe 3.0 x16",
+            "Good for the price"
+          ],
+          [
+            "RX 9070",
+            "PCIe 5.0 x16",
+            "PCIe 3.0 x16",
+            "Good after a CPU swap"
+          ],
+          [
+            "RTX 4070",
+            "PCIe 4.0 x16",
+            "PCIe 3.0 x16",
+            "Good"
+          ],
+          [
+            "RTX 5060 Ti 16GB",
+            "PCIe 5.0 x8",
+            "PCIe 3.0 x8",
+            "Workable, some loss"
+          ],
+          [
+            "RTX 5060",
+            "PCIe 5.0 x8",
+            "PCIe 3.0 x8",
+            "Poor fit"
+          ],
+          [
+            "RTX 4060",
+            "PCIe 4.0 x8",
+            "PCIe 3.0 x8",
+            "Poor fit"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Why Do x8 Cards Like the RTX 5060 Lose Speed on a 2700X?",
+      "body": [
+        "Because the 2700X only offers PCIe 3.0, and an x8 card uses half the slot's lanes. PCIe 3.0 x8 has a quarter of the bandwidth of PCIe 5.0 x8, the link these cards were designed around.",
+        "Most of the time, a graphics card does not need all that bandwidth. The problem shows up when the card runs short of its own memory and has to pull data from system RAM over the PCIe bus. On an 8 GB card in a new game at high texture settings, that happens often, and a narrow, slow link makes stutters and frame drops worse. Independent PCIe scaling reviews have shown this pattern on PCIe 3.0 systems.",
+        "A 16 GB x8 card such as the RTX 5060 Ti 16GB suffers less, because it rarely runs out of memory. A full x16 card, like the RX 9060 XT, avoids most of the issue. The x16 slot on your board does not help an x8 card; the card itself only connects eight lanes."
+      ]
+    },
+    {
+      "h": "Ryzen 7 2700X and RTX 2080: Is an RTX 4060 Worth It?",
+      "body": [
+        "No. Independent reviews put the RTX 4060 roughly level with an RTX 2080 in raster games, and both have 8 GB of memory. On a 2700X, the RTX 4060 also runs at PCIe 3.0 x8, while the RTX 2080 uses a full x16 link. You would gain DLSS frame generation and lower power draw, and little else.",
+        "For an RTX 2080 owner, the more efficient upgrade is the CPU. The 2700X limits an RTX 2080 in many CPU-heavy games, so a Ryzen 7 5700X3D or 5800X3D on the same board often raises frame rates and smooths out stutters without touching the graphics card.",
+        "When you do replace the RTX 2080, skip a full tier. An RX 9070 or RTX 5070 is a large step up with 16 GB or 12 GB of memory and a full x16 link. The RX 9060 XT 16GB is a moderate step up in speed but doubles the memory, which matters in newer games."
+      ]
+    },
+    {
+      "h": "How Do You Most Efficiently Upgrade From a Ryzen 7 2700X?",
+      "body": [
+        "Upgrade the CPU first, within AM4. A Ryzen 7 5700X3D, at $200–$260, or the slightly faster 5800X3D, at $280–$350, fits the same socket and uses the same DDR4 memory. Both have 8 cores and 96 MB of L3 cache, against the 2700X's 16 MB, and independent reviews show large gains over Zen+ chips in games.",
+        "Check board support before buying. Most X470 and B450 boards, and many X370 and B350 boards, support Ryzen 5000 chips after a BIOS update; look for the exact CPU on your board's support list. Flash the new BIOS with the 2700X still installed, unless your board has BIOS flashback. Our guides to updating [MSI](/how-to-update-msi-bios/), [Gigabyte](/how-to-update-gigabyte-bios/) and [ASRock](/how-to-update-asrock-bios/) boards walk through it.",
+        "The 2700X shipped with AMD's Wraith Prism cooler, but the 5700X3D and 5800X3D do not include one. The Wraith Prism can work on them, but a good tower cooler keeps the X3D chips cooler and quieter. Our [5800X3D vs 5700X3D comparison](/compare/ryzen-7-5800x3d-vs-ryzen-7-5700x3d/) helps you choose between the two."
+      ],
+      "list": [
+        "Step 1: Update the BIOS to a version that lists the 5700X3D or 5800X3D.",
+        "Step 2: Swap the CPU, re-apply thermal paste and check memory settings.",
+        "Step 3: Enable Resizable BAR in the BIOS, which Ryzen 5000 chips support.",
+        "Step 4: Buy the graphics card, now matched to a much faster CPU."
+      ]
+    },
+    {
+      "h": "Will a 2700X Bottleneck an RX 9070 or RTX 5070?",
+      "body": [
+        "Yes, in many games. At 1080p, the 2700X caps frame rates well before either card is fully used in CPU-heavy titles. At 1440p, the balance improves because the card does more work per frame, but the CPU still limits high-refresh play.",
+        "That is why the RX 9070 is listed here as a card to pair with a CPU upgrade. On a 2700X alone, the RX 9060 XT 16GB delivers much of the same in-game experience at 1080p for less. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for your pairing and resolution."
+      ]
+    },
+    {
+      "h": "Will Your Existing Power Supply Handle a New Card?",
+      "body": [
+        "Usually, for the budget picks. The 2700X has a 105 W TDP, and many builds from its era used a 550 W or 650 W supply. That covers an RX 9060 XT at about 150–180 W. The RX 9070, RTX 4070 and RX 6700 XT call for 650 W.",
+        "Check the supply's age and connectors as well as its wattage. A unit that has run daily since 2018 is worth replacing alongside a bigger card. Our [PSU calculator](/tools/psu-calculator/) adds up a full build, and our [best PSU under $100](/best-psu-under-100/) guide lists affordable replacements."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Buying an x8 card for a PCIe 3.0 system",
+      "The RTX 5060, RTX 4060 and RX 6600 use eight lanes. On a 2700X, they run at PCIe 3.0 x8 and lose speed in some games. Choose an x16 card such as the RX 9060 XT or RTX 4070."
+    ],
+    [
+      "Replacing an RTX 2080 with an RTX 4060",
+      "Independent reviews put the RTX 4060 roughly level with an RTX 2080, with the same 8 GB and a narrower link on this platform. Upgrade the CPU or jump to an RX 9070 or RTX 5070 class card."
+    ],
+    [
+      "Pairing a high-end card with a 2700X",
+      "An RX 9070 XT or RTX 5080 will be held back by a Zen+ CPU in most games. Put part of that budget into a 5700X3D first."
+    ],
+    [
+      "Swapping to an X3D chip without updating the BIOS",
+      "Older AM4 boards need a newer BIOS to recognize Ryzen 5000 chips. Flash it while the 2700X is still installed, or the system may not start with the new CPU."
+    ],
+    [
+      "Buying an Intel Arc card for a 2700X",
+      "Arc cards depend on Resizable BAR, which AMD does not officially support on Ryzen 2000 chips, and their driver overhead costs more on older CPUs. Choose AMD or NVIDIA instead."
+    ]
+  ],
+  "bottomLine": "For a Ryzen 7 2700X, the RX 9060 XT 16GB is the GPU to buy in 2026: 16 GB and a full x16 link that suits the PCIe 3.0 slot. Choose the RTX 4070 for NVIDIA with x16, the RX 9070 if you will add a 5700X3D, and the RX 9060 XT 8GB or a discounted RX 6700 XT on a tight budget. If you already own an RTX 2080, upgrade the CPU first; an RTX 4060 is not a step up.",
+  "faqs": [
+    {
+      "q": "What is the best GPU for a Ryzen 7 2700X?",
+      "a": "The RX 9060 XT 16GB. It has 16 GB of memory and a full x16 link, so the 2700X's PCIe 3.0 slot costs it little. The RTX 4070 is the best NVIDIA option with x16, and the RX 9070 suits owners planning a 5700X3D upgrade."
+    },
+    {
+      "q": "Is any graphics card compatible with a Ryzen 7 2700X?",
+      "a": "Yes. Any current desktop card works, because PCIe is backward compatible. The card runs at PCIe 3.0 speed, which costs x16 cards little but slows some x8 cards. Check your case clearance, power supply and connectors before buying."
+    },
+    {
+      "q": "Is an RTX 4060 worth it over an RTX 2080 with a 2700X?",
+      "a": "No. Independent reviews put the RTX 4060 roughly level with an RTX 2080 in raster games, both have 8 GB, and the RTX 4060 runs at PCIe 3.0 x8 on a 2700X. Upgrade to a 5700X3D first, then an RX 9070 or RTX 5070 class card."
+    },
+    {
+      "q": "Does the Ryzen 7 2700X support PCIe 4.0?",
+      "a": "No. The 2700X supports PCIe 3.0 only, on every AM4 board. A PCIe 4.0 or 5.0 card still works, at PCIe 3.0 speed. Ryzen 5000 chips such as the 5700X3D enable PCIe 4.0 only on X570 and B550 boards."
+    },
+    {
+      "q": "Can I put a 5800X3D in my 2700X motherboard?",
+      "a": "Usually, after a BIOS update. Most X470 and B450 boards, and many X370 and B350 boards, support the 5800X3D and 5700X3D. Check your board's CPU support list for the exact chip and flash the BIOS before swapping."
+    },
+    {
+      "q": "Does the 2700X support Resizable BAR?",
+      "a": "Not officially. AMD lists Smart Access Memory support for Ryzen 3000-series and newer chips. Some boards show a Resizable BAR option with a 2700X, but do not count on it, and avoid Intel Arc cards that depend on it."
+    },
+    {
+      "q": "Will a Ryzen 7 2700X bottleneck an RTX 5070?",
+      "a": "Yes, in many games, especially at 1080p. At 1440p, the balance is better, but the 2700X still limits high-refresh play. Pair an RTX 5070 with a 5700X3D or 5800X3D upgrade to use it fully."
+    },
+    {
+      "q": "What PSU do I need for a 2700X and a new GPU?",
+      "a": "A quality 550 W supply covers an RX 9060 XT. The RX 9070, RTX 4070 and RX 6700 XT call for 650 W. The 2700X has a 105 W TDP. Replace an old supply if it has run daily since the build was new."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 7 2700X product specifications",
+    "AMD Ryzen 7 5700X3D and 5800X3D product pages and AM4 motherboard CPU support lists",
+    "AMD Smart Access Memory support documentation",
+    "AMD Radeon RX 9070, RX 9060 XT and RX 6700 XT product pages",
+    "NVIDIA GeForce RTX 4070, RTX 4060 and RTX 5060 series product pages",
+    "Published PCIe-scaling and CPU-scaling reviews from TechPowerUp and Hardware Unboxed",
+    "Owner reports from AM4 users on enthusiast forums"
+  ],
+  "related": [
+    "best-gpu-for-ryzen-7-3700x",
+    "best-gpu-for-ryzen-5-2600-and-3600",
+    "best-gpu-for-ryzen-7-5800x3d"
+  ]
+}

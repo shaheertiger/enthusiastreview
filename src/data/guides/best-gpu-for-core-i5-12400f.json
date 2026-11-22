@@ -1,0 +1,394 @@
+{
+  "slug": "best-gpu-for-core-i5-12400f",
+  "published": "2026-11-22",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for i5-12400F (2026): 6 Cheap but Good Cards",
+  "h1": "Best GPU for i5-12400F",
+  "query": "best gpu for i5 12400f",
+  "description": "The RX 9060 XT 16GB is the best cheap GPU for an i5-12400F: 16 GB and a full x16 link for $350–$400, a close 1080p match. 6 picks from $180 to 1440p.",
+  "dek": "Intel's six-core Alder Lake chip is still a capable budget gaming CPU. These six cards match it without overspending, from a $180 upgrade to a 1440p step-up.",
+  "intro": [
+    "The Radeon RX 9060 XT 16GB is the best GPU for a Core i5-12400F in 2026 if you want cheap but good. For $350–$400 it runs 1080p at high settings, has 16 GB of memory, and is about as fast as the 12400F can keep busy in CPU-heavy games.",
+    "This page is for budget LGA 1700 builds and for owners upgrading an older card in a 12400F system. The 12400F has six performance cores and no integrated graphics, so it suits mid-range cards rather than flagship ones. Each pick is matched to a budget and a resolution, with the power supply and PCIe questions answered."
+  ],
+  "quickAnswer": "Buy the RX 9060 XT 16GB ($350–$400) for the best mix of price, speed and memory. The RTX 5060 ($300–$330) is the NVIDIA pick with DLSS 4. The Arc B580 ($250–$290) is the best under $300. The RX 6600 ($180–$230) is the cheapest worthwhile upgrade. For 1440p, the RX 9070 ($550–$620) is the highest card worth pairing.",
+  "picks": [
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Cheap but Good Pick",
+      "bestFor": "1080p at high settings with room for newer games",
+      "skipIf": "your budget stops at $300; the Arc B580 or RTX 5060 costs less",
+      "writeup": [
+        "The Core i5-12400F games roughly like a Ryzen 5 5600X, per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/). Its six performance cores keep a mid-range card busy at 1080p, and the RX 9060 XT 16GB sits close to the point where a faster card starts to wait on the CPU in demanding games.",
+        "Its 16 GB is the main reason it tops this list. Some new games already need lower texture settings on 8 GB cards, and the extra memory lets this card age better on a budget build. It also supports FSR 4, AMD's machine-learning upscaler.",
+        "It uses a full x16 link, so it runs at full speed on any LGA 1700 board, including PCIe 4.0 boards. At around 160–180 W it runs on a 550–650 W supply, and the 12400F adds little to that.",
+        "Our [RTX 5060 vs RX 9060 XT 16GB comparison](/compare/rtx-5060-vs-rx-9060-xt-16gb/) covers the closest NVIDIA alternative."
+      ],
+      "pros": [
+        "16 GB at a budget price",
+        "Full x16 link",
+        "Close match for the 12400F at 1080p",
+        "FSR 4"
+      ],
+      "cons": [
+        "Costs more than the RTX 5060",
+        "Ray tracing behind NVIDIA"
+      ]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Best NVIDIA Under $350",
+      "bestFor": "1080p gaming with DLSS 4 on a tight budget",
+      "skipIf": "you want to keep the card four years or more; 8 GB is its limit",
+      "writeup": [
+        "The RTX 5060 is the cheapest current NVIDIA card worth buying, and it suits a 12400F well at 1080p. DLSS 4 and frame generation help in supported games, and NVENC is useful if you stream or record.",
+        "Its weak point is 8 GB of memory. At 1080p with sensible texture settings that is workable today, but it leaves less room than the RX 9060 XT 16GB for future games.",
+        "It uses a PCIe 5.0 x8 link. On the PCIe 4.0 boards most 12400F owners have, current x8 cards lose very little; it is on PCIe 3.0 boards that x8 cards are held back. At 145 W it runs on a 500–550 W supply."
+      ],
+      "pros": [
+        "DLSS 4 and frame generation",
+        "Low power",
+        "NVENC encoder"
+      ],
+      "cons": [
+        "8 GB of VRAM",
+        "x8 link"
+      ]
+    },
+    {
+      "id": "arc-b580",
+      "label": "Best Under $300",
+      "bestFor": "1080p gaming with 12 GB for under $300",
+      "skipIf": "you play CPU-heavy games, where the Arc driver's extra CPU load costs frames on a six-core chip",
+      "writeup": [
+        "The Arc B580 gives 12 GB of memory for $250–$290, more than any other card at that price, and the 12400F supports the Resizable BAR it needs. That makes it a strong value card for a cheap build.",
+        "There is a catch. Independent reviews found the B580 loses more performance than AMD and NVIDIA cards on slower CPUs, because its driver puts more load on the processor. The 12400F is a mid-range chip, so in CPU-heavy games expect the B580 to fall behind an RTX 5060 by more than it would on a faster CPU.",
+        "At 190 W it needs a 550 W supply. Our [RTX 5060 vs Arc B580 comparison](/compare/rtx-5060-vs-arc-b580/) covers the trade-off."
+      ],
+      "pros": [
+        "12 GB under $300",
+        "XeSS upscaling",
+        "Good value at 1080p"
+      ],
+      "cons": [
+        "Driver overhead on mid-range CPUs",
+        "Needs Resizable BAR enabled"
+      ]
+    },
+    {
+      "id": "rx-9060-xt-8gb",
+      "label": "Best for Esports",
+      "bestFor": "high-refresh esports and lighter games at 1080p",
+      "skipIf": "you play new AAA games with high textures; the 16 GB version is the safer buy",
+      "writeup": [
+        "If you mainly play esports titles such as competitive shooters and MOBAs, video memory matters less, and the RX 9060 XT 8GB gives the same chip as the 16 GB model for less money.",
+        "In those games, the 12400F and the card are well matched at high refresh rates. In newer AAA games, 8 GB means lower texture settings. Our [RX 9060 XT 8GB vs 16GB comparison](/compare/rx-9060-xt-8gb-vs-rx-9060-xt-16gb/) shows when the extra memory pays off.",
+        "It keeps a full x16 link and draws about 150 W, so it runs on a 500–550 W supply."
+      ],
+      "pros": [
+        "Current RDNA 4 chip for less",
+        "Full x16 link",
+        "Efficient"
+      ],
+      "cons": [
+        "8 GB of VRAM",
+        "Small saving over the 16 GB model"
+      ]
+    },
+    {
+      "id": "rx-6600",
+      "label": "Cheapest Worthwhile Upgrade",
+      "bestFor": "replacing an old card for the least money",
+      "skipIf": "you can spend $300; the RTX 5060 or Arc B580 is much faster",
+      "writeup": [
+        "The RX 6600 is the lowest-cost card that still makes sense with a 12400F. For $180–$230 it plays most games at 1080p with medium to high settings, and it is a large step up from cards such as the GTX 1060 or RX 580.",
+        "It is an older design with 8 GB, no FSR 4 and weak ray tracing, so it is a stopgap rather than a long-term card. The 12400F will rarely hold it back.",
+        "At 132 W it is one of the easiest cards to power, which suits prebuilt 12400F systems with small supplies. Our [RX 6600 vs RTX 4060 comparison](/compare/rx-6600-vs-rtx-4060/) covers the other common budget choice."
+      ],
+      "pros": [
+        "Lowest price here",
+        "Very low power",
+        "Fits small supplies"
+      ],
+      "cons": [
+        "Older architecture",
+        "8 GB, weak ray tracing"
+      ]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Best Step-Up for 1440p",
+      "bestFor": "1440p gaming on a 12400F",
+      "skipIf": "you play at 1080p, where the 12400F limits it in CPU-heavy games",
+      "writeup": [
+        "The RX 9070 is the highest card worth pairing with a 12400F, and only at 1440p. At that resolution the graphics card does more of the work, so the six-core CPU holds it back less often.",
+        "It has 16 GB and is efficient for its speed at 220 W, so it runs on a 650 W supply. At 1080p it is a poor match: the 12400F caps frame rates in many games before the card is fully used.",
+        "It is not cheap, but if you plan to keep the card through a later CPU upgrade, it is the sensible ceiling for this build."
+      ],
+      "pros": [
+        "16 GB of VRAM",
+        "Good 1440p performance",
+        "Runs on 650 W"
+      ],
+      "cons": [
+        "Not a budget price",
+        "CPU-limited at 1080p"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "VRAM",
+    "PCIe interface",
+    "Board power",
+    "Recommended PSU"
+  ],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling reviews of Alder Lake processors and budget graphics cards, and owner reports from LGA 1700 builds. None of these pairings were bench-tested by Enthusiast Review; statements about where the 12400F limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      [
+        "Price",
+        "This page targets cheap but good, so cards under $400 were favored, with one 1440p step-up."
+      ],
+      [
+        "CPU match",
+        "We favored cards the 12400F can keep busy at 1080p, and flagged cards whose drivers lean on the CPU."
+      ],
+      [
+        "Memory",
+        "16 GB ranked above 8 GB at a similar speed, because new games are pushing past 8 GB."
+      ],
+      [
+        "Platform fit",
+        "Full x16 links and Resizable BAR support counted, since many 12400F boards run PCIe 4.0."
+      ],
+      [
+        "Power",
+        "Low draw counted, because many 12400F systems are prebuilts with 450–550 W supplies."
+      ]
+    ],
+    "why": "The RX 9060 XT 16GB won because it gives 16 GB and a full x16 link at a budget price, and it is about as fast as the 12400F can feed."
+  },
+  "mentions": [
+    {
+      "id": "rtx-5060-ti-16gb",
+      "text": "The RTX 5060 Ti 16GB is a strong 1080p card with DLSS 4, and it suits the 12400F well. At $430–$480 it costs more than the RX 9060 XT 16GB for a modest gain, which is why it misses a cheap-but-good list."
+    },
+    {
+      "id": "rtx-4060",
+      "text": "The RTX 4060 is still common in prebuilt 12400F systems and runs on very small supplies. New, it costs about the same as the RTX 5060, which is faster, so buy the RTX 5060 instead."
+    },
+    {
+      "id": "rx-6700-xt",
+      "text": "A used or discounted RX 6700 XT gives 12 GB and solid 1080p speed. It draws 230 W and lacks FSR 4, so the RX 9060 XT 16GB is the better new buy at a similar price."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Is a Cheap but Good GPU for an i5-12400F?",
+      "body": [
+        "The RX 9060 XT 16GB at $350–$400, or the RTX 5060 at $300–$330 if you prefer NVIDIA. Both are current cards that run 1080p at high settings, and both are close to the speed a 12400F can keep busy. Below $300, the Arc B580 gives the most memory, and below $250, the RX 6600 is the cheapest upgrade worth making.",
+        "Spending much more rarely pays off at 1080p on this CPU, because faster cards end up waiting on the processor in CPU-heavy games. For more options, see our [best graphics cards under $300](/best-graphics-card-under-300/)."
+      ],
+      "table": {
+        "caption": "Cheap GPUs for an i5-12400F at a glance",
+        "head": [
+          "Card",
+          "Price band",
+          "VRAM",
+          "Board power",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "RX 6600",
+            "$180–$230",
+            "8 GB",
+            "132 W",
+            "Cheapest upgrade"
+          ],
+          [
+            "Arc B580",
+            "$250–$290",
+            "12 GB",
+            "190 W",
+            "Most memory under $300"
+          ],
+          [
+            "RX 9060 XT 8GB",
+            "$280–$320",
+            "8 GB",
+            "150 W",
+            "Esports"
+          ],
+          [
+            "RTX 5060",
+            "$300–$330",
+            "8 GB",
+            "145 W",
+            "NVIDIA features"
+          ],
+          [
+            "RX 9060 XT 16GB",
+            "$350–$400",
+            "16 GB",
+            "160–180 W",
+            "Best overall"
+          ],
+          [
+            "RX 9070",
+            "$550–$620",
+            "16 GB",
+            "220 W",
+            "1440p"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Will an i5-12400F Bottleneck an RTX 5070?",
+      "body": [
+        "At 1080p, in CPU-heavy games, yes. The 12400F's six cores limit an RTX 5070 in large strategy, simulation and some open-world games, so you pay for speed you do not see. At 1440p the card does more of the work, and the pairing is more balanced.",
+        "If you play at 1080p, a card from the RX 9060 XT 16GB or RTX 5060 tier is the better match. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any pairing and resolution."
+      ]
+    },
+    {
+      "h": "Does the i5-12400F Support PCIe 4.0 and Resizable BAR?",
+      "body": [
+        "Yes to both. The 12400F's graphics lanes support PCIe 5.0 on boards built for it, mostly Z690 and Z790 models, but most budget B660, B760 and H610 boards run the slot at PCIe 4.0. That is enough for every card on this page.",
+        "Resizable BAR is supported on LGA 1700 and is required for good Arc B580 performance. Enable it with Above 4G Decoding in the BIOS; some boards ship with it off. Update the BIOS first if the option is missing."
+      ]
+    },
+    {
+      "h": "Does the 12400F Need a Graphics Card to Work?",
+      "body": [
+        "Yes. The F means it has no integrated graphics, so the system will not show a picture without a graphics card. Plug the monitor into the card, not the motherboard's video outputs.",
+        "That also means there is no fallback display if a card fails, which is worth knowing when troubleshooting. The non-F i5-12400 has integrated graphics and otherwise games the same."
+      ]
+    },
+    {
+      "h": "Do You Need a New PSU?",
+      "body": [
+        "Often not. The 12400F has a 65 W base power rating and draws little in games, so the graphics card is the main load. A quality 550 W supply covers an RX 6600, RTX 5060, RX 9060 XT or Arc B580, and 650 W covers an RX 9070.",
+        "Prebuilt 12400F systems sometimes ship with low-quality or 450 W supplies. Check the label before upgrading, and use our [PSU calculator](/tools/psu-calculator/) to add up the build."
+      ],
+      "table": {
+        "caption": "Suggested supply with an i5-12400F",
+        "head": [
+          "Card",
+          "Board power",
+          "Suggested supply"
+        ],
+        "rows": [
+          [
+            "RX 6600",
+            "132 W",
+            "450–500 W"
+          ],
+          [
+            "RTX 5060",
+            "145 W",
+            "500–550 W"
+          ],
+          [
+            "RX 9060 XT 8GB",
+            "150 W",
+            "500–550 W"
+          ],
+          [
+            "RX 9060 XT 16GB",
+            "160–180 W",
+            "550 W"
+          ],
+          [
+            "Arc B580",
+            "190 W",
+            "550 W"
+          ],
+          [
+            "RX 9070",
+            "220 W",
+            "650 W"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Should You Upgrade the CPU Instead?",
+      "body": [
+        "Not yet, for most players. A 12400F with an RX 9060 XT 16GB or RTX 5060 is a balanced 1080p system, and the graphics card is usually the part that gives more frames per dollar.",
+        "If you later want a faster card, LGA 1700 boards accept 13th and 14th generation chips such as the [i5-14600K](/best-gpu-for-core-i5-14600k/) after a BIOS update, as a drop-in step up. Install Intel's latest microcode BIOS before using one of those chips."
+      ]
+    },
+    {
+      "h": "Is the 12400F Still Good for Gaming in 2026?",
+      "body": [
+        "Yes, at 1080p and 1440p with mid-range cards. Six performance cores with twelve threads handle current games, though CPU-heavy titles run better on newer chips.",
+        "It works with DDR4 or DDR5 depending on the board. DDR4 boards keep the build cheaper, which matters more since DRAM prices swung hard in late 2025, and the gaming difference on this CPU is small."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Overspending on the graphics card",
+      "At 1080p, cards above the RX 9060 XT 16GB tier often wait on the 12400F in CPU-heavy games. Spend the difference on a better monitor or storage instead."
+    ],
+    [
+      "Leaving Resizable BAR off with an Arc card",
+      "The Arc B580 loses a lot of performance without Resizable BAR. Enable it and Above 4G Decoding in the BIOS before judging the card."
+    ],
+    [
+      "Plugging the monitor into the motherboard",
+      "The 12400F has no integrated graphics, so the board's video outputs do nothing. Connect the display to the graphics card."
+    ],
+    [
+      "Trusting a prebuilt's power supply",
+      "Some prebuilt 12400F systems use basic 450 W units. Check the model and rating before adding a card that draws 180 W or more."
+    ]
+  ],
+  "bottomLine": "For a Core i5-12400F, the RX 9060 XT 16GB is the cheap but good card to buy in 2026: 16 GB, a full x16 link and a close 1080p match for $350–$400. Choose the RTX 5060 for NVIDIA features, the Arc B580 under $300, the RX 9060 XT 8GB for esports, and the RX 6600 for the cheapest upgrade. For 1440p, the RX 9070 is the ceiling.",
+  "faqs": [
+    {
+      "q": "What is the best GPU for an i5-12400F?",
+      "a": "The RX 9060 XT 16GB. It runs 1080p at high settings, has 16 GB of memory and a full x16 link, and is close to the speed the 12400F can keep busy. The RTX 5060 is the NVIDIA alternative."
+    },
+    {
+      "q": "What is a cheap but good GPU for an i5-12400F?",
+      "a": "The RTX 5060 at $300–$330 or the Arc B580 at $250–$290. Both run 1080p well. Below $250, the RX 6600 is the cheapest upgrade that still makes sense."
+    },
+    {
+      "q": "Is the RTX 5060 good with an i5-12400F?",
+      "a": "Yes, for 1080p. The pairing is balanced, and the RTX 5060's DLSS 4 helps in supported games. Its 8 GB of memory is the main limit for future games."
+    },
+    {
+      "q": "Is the Arc B580 good with an i5-12400F?",
+      "a": "It works well in many games, and the 12400F supports the Resizable BAR it needs. Reviews found its driver costs more frames on mid-range CPUs in CPU-heavy titles, so it can trail an RTX 5060 there."
+    },
+    {
+      "q": "What is the most powerful GPU for an i5-12400F?",
+      "a": "The RX 9070 at 1440p. Faster cards are increasingly limited by the six-core CPU, and at 1080p the sensible ceiling is the RX 9060 XT 16GB or RTX 5060 Ti 16GB."
+    },
+    {
+      "q": "What PSU do I need for an i5-12400F and RX 9060 XT?",
+      "a": "A quality 550 W supply. The card draws around 160–180 W and the 12400F has a 65 W base power rating."
+    },
+    {
+      "q": "Does the i5-12400F have integrated graphics?",
+      "a": "No. The F models have none, so you need a graphics card for any display output. The i5-12400 without the F includes integrated graphics."
+    }
+  ],
+  "sources": [
+    "Intel Core i5-12400F product specifications (ark.intel.com)",
+    "Intel 600- and 700-series chipset specifications",
+    "AMD Radeon RX 9060 XT, RX 9070 and RX 6600 product pages",
+    "NVIDIA GeForce RTX 5060 product page",
+    "Intel Arc B580 product page and Resizable BAR guidance",
+    "Published Arc B580 CPU overhead and Alder Lake scaling reviews from Hardware Unboxed and TechPowerUp",
+    "Owner reports from LGA 1700 budget builds on enthusiast forums"
+  ],
+  "related": [
+    "best-gpu-for-core-i5-13400f",
+    "best-graphics-card-under-300",
+    "best-budget-graphics-card"
+  ]
+}
