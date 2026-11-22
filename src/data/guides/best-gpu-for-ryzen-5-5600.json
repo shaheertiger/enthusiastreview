@@ -1,0 +1,235 @@
+{
+  "slug": "best-gpu-for-ryzen-5-5600",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 5 5600 (2026): 6 Picks for 1080p and 1440p",
+  "h1": "Best GPU for Ryzen 5 5600",
+  "query": "best gpu for ryzen 5 5600",
+  "description": "The RX 9060 XT 16GB is the best GPU for a Ryzen 5 5600: 16 GB and a full x16 link for $350–$400, no bottleneck at 1080p. 6 picks, plus 5600X and 5600G advice.",
+  "dek": "The six-core Zen 3 Ryzen 5 5600 is one of the most common AM4 chips. These six cards suit it at 1080p and 1440p, on B450, A520 and B550 boards, and on the 5600X and 5600G too.",
+  "intro": [
+    "The Radeon RX 9060 XT 16GB is the best GPU for a Ryzen 5 5600 in 2026. At $350–$400 it carries 16 GB of VRAM, the 5600 keeps it fully busy at 1080p, and it uses all sixteen PCIe lanes, so it loses almost nothing on the PCIe 3.0 slot of a B450 or A520 board.",
+    "This page is for owners of the Ryzen 5 5600, 5600X or 5600G who want a card that fits the platform. It covers which card the 5600 runs without a bottleneck, the budget picks for 1080p, how far up the range is worth going for 1440p, and why the 5600G and A520 boards change the advice for eight-lane cards like the RTX 5060."
+  ],
+  "quickAnswer": "Buy the RX 9060 XT 16GB ($350–$400) for 1080p with no bottleneck. For 1440p, the RX 9070 ($550–$620) or the RTX 5070 ($550–$650). The RTX 5060 Ti 16GB ($430–$480) is the NVIDIA 1080p pick. On a tight budget, the RX 9060 XT 8GB ($280–$320) or RX 6600 ($180–$230). An RX 9070 XT or RTX 5070 Ti is the sensible ceiling.",
+  "picks": [
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Overall Match",
+      "bestFor": "1080p high-settings gaming on a Ryzen 5 5600, 5600X or 5600G, on any AM4 board",
+      "skipIf": "you play at 1440p and want high settings in new games; the RX 9070 is the better fit",
+      "writeup": [
+        "The Ryzen 5 5600 is a six-core, twelve-thread Zen 3 chip with 32 MB of L3 cache and a 4.4 GHz boost clock. It games roughly like a Core i5-12400F, per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/). At 1080p, that is enough to keep a card of the RX 9060 XT's class busy in nearly every game, so the graphics card, not the CPU, sets your frame rate.",
+        "The RX 9060 XT 16GB is the pick because it gets every detail of this platform right. It uses sixteen PCIe lanes, so on a B450 or A520 board, or with a 5600G in any board, it keeps the full PCIe 3.0 x16 bandwidth. Its 16 GB of memory means new games at high textures rarely have to spill data across the bus, which is the situation that hurts older platforms most. It also supports FSR 4.",
+        "Independent reviews put it a little behind the RTX 5060 Ti 16GB in raster games, at a lower price. AMD rates it at 160 W, up to about 180 W on factory-overclocked models, so a decent 550 W supply is enough. Check that the listing says 16 GB: the 8 GB model shares the name."
+      ],
+      "pros": ["No bottleneck with a 5600 at 1080p", "Full x16 link on PCIe 3.0 boards", "16 GB of VRAM", "Runs on a 550 W supply"],
+      "cons": ["Ray tracing behind NVIDIA", "8 GB version shares the name"]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Best for 1440p",
+      "bestFor": "Ryzen 5 5600 or 5600X owners with a 1440p monitor and a 650 W supply",
+      "skipIf": "you play at 1080p on a high-refresh monitor; the CPU caps it more often there",
+      "writeup": [
+        "At 1440p, more of the work moves to the graphics card, and the 5600 can drive a faster one. The RX 9070 is the best match there: 16 GB on a 256-bit bus, a full x16 link and a 220 W rating, with independent reviews putting it slightly ahead of the RTX 5070 in raster games.",
+        "On a 5600, it will not hit every number in reviews run on a Ryzen 7 9800X3D. In CPU-heavy games, such as large multiplayer shooters, strategy titles and simulators, the processor sets the ceiling. In GPU-heavy single-player games at 1440p, the card does most of the work and the 5600 keeps up.",
+        "It is also the card that keeps paying off if you later drop a Ryzen 7 5700X3D into the same board. A quality 650 W supply covers it. Our [RTX 5070 vs RX 9070 comparison](/compare/rtx-5070-vs-rx-9070/) covers the choice between the two 1440p picks."
+      ],
+      "pros": ["Strong 1440p raster speed", "16 GB and a full x16 link", "220 W; runs on 650 W"],
+      "cons": ["CPU-limited in some games at 1080p", "Ray tracing behind NVIDIA"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best NVIDIA for 1080p",
+      "bestFor": "1080p play with DLSS 4, NVENC or CUDA on a 5600 in a B550 or X570 board",
+      "skipIf": "you have a 5600G or a B450 or A520 board and want the most frames per dollar",
+      "writeup": [
+        "If you prefer NVIDIA, the RTX 5060 Ti 16GB is the GeForce that suits a Ryzen 5 5600 at 1080p. It has 16 GB of GDDR7, DLSS 4 with multi frame generation, NVENC for streaming, and a 180 W rating that fits almost any supply.",
+        "Its one platform caveat is its eight-lane wiring. With a 5600 or 5600X in a B550 or X570 board, it runs at PCIe 4.0 x8, which has the same bandwidth as 3.0 x16, so there is no real loss. On a B450 or A520 board, or with a 5600G in any board, it drops to PCIe 3.0 x8. Published PCIe scaling reviews found the 16 GB version loses only a few percent on average there, more in some games, because its memory rarely runs out.",
+        "That small loss erases most of its lead over the RX 9060 XT 16GB, which costs about $80 less. Our [RTX 5060 Ti 16GB vs RX 9060 XT 16GB comparison](/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/) covers the trade-off."
+      ],
+      "pros": ["DLSS 4, NVENC and CUDA", "16 GB keeps PCIe 3.0 losses small", "180 W"],
+      "cons": ["Runs at 3.0 x8 on B450, A520 and with a 5600G", "About $80 more than the RX 9060 XT 16GB"]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best NVIDIA for 1440p",
+      "bestFor": "1440p players on a 5600 who want ray tracing and DLSS 4",
+      "skipIf": "you want 16 GB for the long run; the RX 9070 has it",
+      "writeup": [
+        "The RTX 5070 is the NVIDIA card for a Ryzen 5 5600 at 1440p. It has 12 GB of GDDR7, a 250 W rating and DLSS 4 with multi frame generation, which raises displayed frame rates even in games where the 5600 caps the real ones, though it does not lower input lag.",
+        "It uses a full x16 link, so a B450 or A520 board costs it very little. NVIDIA recommends a 650 W supply, and depending on the model it uses either standard 8-pin plugs or a 12V-2x6 connector, so check your cables before you buy.",
+        "Its weak point is 12 GB of memory, fine at 1440p today but tighter than the RX 9070's 16 GB as games grow. On a 5600 at 1080p, much of its speed goes unused in CPU-heavy titles; it earns its price at 1440p."
+      ],
+      "pros": ["DLSS 4 multi frame generation", "Better ray tracing than the RX 9070", "Full x16 link"],
+      "cons": ["12 GB is tighter than 16 GB", "Wasted at 1080p in CPU-heavy games"]
+    },
+    {
+      "id": "rx-9060-xt-8gb",
+      "label": "Best Budget Pick",
+      "bestFor": "budget 1080p builds on a 5600 or 5600G, especially on PCIe 3.0 boards",
+      "skipIf": "you play new AAA releases at high textures; spend the extra on 16 GB",
+      "writeup": [
+        "For a budget 1080p build, the RX 9060 XT 8GB is the safest low-cost card for this platform. It uses the same chip as the 16 GB model, and it keeps the full sixteen PCIe lanes. That matters on a B450 or A520 board, or with a 5600G: when an 8 GB card runs out of memory, a x16 link moves the overflow at twice the speed of an x8 card on PCIe 3.0.",
+        "The 8 GB of VRAM is the real limit. Esports games and most older titles fit easily, but some new releases at high or ultra textures need more, and you will have to lower texture settings. The 5600 will not hold this card back at 1080p.",
+        "AMD rates it at 150 W, so most existing 450–550 W supplies handle it. If you can stretch to $350–$400, the 16 GB model is the better long-term buy; our [RX 9060 XT 8GB vs 16GB comparison](/compare/rx-9060-xt-8gb-vs-rx-9060-xt-16gb/) shows where the gap appears."
+      ],
+      "pros": ["x16 link, unlike most 8 GB cards", "No bottleneck with a 5600 at 1080p", "150 W"],
+      "cons": ["8 GB limits textures in new games", "The 16 GB model is a better long-term buy"]
+    },
+    {
+      "id": "rx-6600",
+      "label": "Cheapest Good Option",
+      "bestFor": "esports and older games at 1080p on the smallest budget",
+      "skipIf": "you want high settings in new AAA games",
+      "writeup": [
+        "At $180–$230, the RX 6600 is the cheapest card worth putting next to a Ryzen 5 5600. It is an older RDNA 2 card with 8 GB of memory and a 132 W rating, so it runs on almost any supply and in compact cases.",
+        "For Counter-Strike 2, Valorant, Fortnite and older single-player games at 1080p, it is enough, and the 5600 has plenty of headroom above it. New releases need medium settings and upscaling.",
+        "Like most budget cards, it uses eight PCIe lanes, so on a B450 or A520 board or with a 5600G it runs at PCIe 3.0 x8. Independent reviews found the loss small while games fit in its 8 GB. For a few dollars more, see our [best graphics cards under $300](/best-graphics-card-under-300/)."
+      ],
+      "pros": ["Lowest price on this list", "132 W", "Plenty for esports at 1080p"],
+      "cons": ["Older card, no FSR 4", "x8 link and 8 GB on PCIe 3.0"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "PCIe interface", "Board power", "Memory bus"],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling and PCIe-scaling reviews of Zen 3 chips and recent graphics cards, and owner reports from AM4 builds. None of these pairings were bench-tested by Enthusiast Review; statements about where the Ryzen 5 5600 limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      ["CPU balance", "We ranked cards by how fully a six-core Zen 3 chip keeps them busy at 1080p and 1440p, so little of what you pay for goes unused."],
+      ["PCIe fit", "Many 5600 systems run B450 or A520 boards, and the 5600G is PCIe 3.0 on every board, so x16 cards earned credit over x8 cards."],
+      ["Memory", "16 GB cards ranked above 8 GB and 12 GB cards at similar prices, since memory overflow hurts most on PCIe 3.0."],
+      ["Power", "Most 5600 builds have a 550–650 W supply, so cards that run on what owners already have scored higher."],
+      ["Value", "Price per frame at the resolution each card targets, using current street-price bands."]
+    ],
+    "why": "The RX 9060 XT 16GB won because the 5600 keeps it fully busy at 1080p, its 16 GB and full x16 link avoid every PCIe 3.0 pitfall, and it costs under $400."
+  },
+  "mentions": [
+    {"id": "rx-9070-xt", "text": "The RX 9070 XT works with a Ryzen 5 5600 at 1440p and 4K, and it is the sensible ceiling for this chip. At 1440p the 5600 limits it more often than it limits an RX 9070, and its 304 W rating calls for a 750 W supply, so the RX 9070 gives most of the speed for less."},
+    {"id": "rtx-5060", "text": "The RTX 5060 is fast for its price and the 5600 drives it easily, but it pairs 8 GB with an eight-lane link. On a B450 or A520 board, or with a 5600G, that becomes PCIe 3.0 x8, where reviews showed sharp drops once a game overflows its memory. The RX 9060 XT 8GB avoids that."},
+    {"id": "ryzen-7-5700x3d", "text": "The Ryzen 7 5700X3D is a later upgrade, not a first one, for most 5600 owners. Both are Zen 3, so the gain comes from its 96 MB of L3 cache, which helps most in CPU-heavy and high-refresh games. If you play at 1440p, put the money into the graphics card first."}
+  ],
+  "sections": [
+    {
+      "h": "What GPU Can a Ryzen 5 5600 Run Without a Bottleneck?",
+      "body": [
+        "At 1080p, anything up to about the RX 9060 XT 16GB or RTX 5060 Ti 16GB runs with little or no CPU bottleneck in nearly every game. At 1440p, the 5600 keeps an RX 9070 or RTX 5070 busy in most titles. Above that, the CPU starts to set the frame rate in more games.",
+        "Every system has a bottleneck somewhere; the goal is a card the CPU can feed at your resolution and refresh rate. CPU-heavy games, such as large multiplayer shooters, city builders and simulators, lean on the processor more, so they hit the 5600's limit sooner. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any card, and the [CPU bottleneck glossary entry](/glossary/cpu-bottleneck/) explains how to spot one."
+      ],
+      "table": {
+        "caption": "How far up the range a Ryzen 5 5600 goes, by resolution",
+        "head": ["Resolution", "Good match", "Sensible ceiling"],
+        "rows": [
+          ["1080p", "RX 9060 XT 16GB, RTX 5060 Ti 16GB", "RX 9070, RTX 5070"],
+          ["1440p", "RX 9070, RTX 5070", "RX 9070 XT, RTX 5070 Ti"],
+          ["4K", "RX 9070 XT, RTX 5070 Ti", "RTX 5080, where the card does most of the work"]
+        ]
+      }
+    },
+    {
+      "h": "What Is a Good Budget GPU for a Ryzen 5 5600 at 1080p?",
+      "body": [
+        "The RX 9060 XT 8GB at $280–$320 is the best budget card for this platform, and the RX 6600 at $180–$230 is the cheapest one worth buying. If your budget reaches $350–$400, the RX 9060 XT 16GB is the better long-term buy.",
+        "At this price, the 5600 never holds the card back at 1080p, so put every dollar you can into the GPU. Prefer x16 cards if your board is a B450 or A520 or your CPU is a 5600G, and avoid 8 GB cards with eight-lane links on those systems if you play new releases."
+      ],
+      "list": [
+        "Under $230: RX 6600, for esports and older games",
+        "$280–$320: RX 9060 XT 8GB, with a full x16 link",
+        "$350–$400: RX 9060 XT 16GB, the best value for most 5600 owners",
+        "$430–$480: RTX 5060 Ti 16GB, if you want NVIDIA features"
+      ]
+    },
+    {
+      "h": "Ryzen 5 5600 vs 5600X vs 5600G: Does the GPU Choice Change?",
+      "body": [
+        "For the 5600 and 5600X, no. Both are six-core Zen 3 chips with 32 MB of L3 cache and PCIe 4.0; the 5600X boosts to 4.6 GHz against the 5600's 4.4 GHz, a gap of a few percent in games. Every pick on this page fits both the same way.",
+        "The 5600G is different. It is a Cezanne APU: six Zen 3 cores and Radeon Vega 7 integrated graphics, but only 16 MB of L3 cache, and its PCIe lanes run at PCIe 3.0 on every motherboard, including B550 and X570. Its graphics slot is still wired x16, so x16 cards get full 3.0 x16 bandwidth, while x8 cards such as the RTX 5060, RTX 5060 Ti and RX 6600 run at 3.0 x8.",
+        "With a discrete card, the 5600G games slower than a 5600 because of its smaller cache, landing between a Ryzen 5 3600 and a 5600X in independent reviews. Aim one tier lower with it: the RX 9060 XT 16GB at 1080p is its natural match, and an RX 9070 at 1440p is about as high as it makes sense."
+      ],
+      "table": {
+        "caption": "The three Ryzen 5 5600 models compared",
+        "head": ["Chip", "Cores / threads", "Boost clock", "L3 cache", "GPU slot", "Integrated graphics"],
+        "rows": [
+          ["Ryzen 5 5600", "6 / 12", "4.4 GHz", "32 MB", "PCIe 4.0 x16 on B550 / X570", "None"],
+          ["Ryzen 5 5600X", "6 / 12", "4.6 GHz", "32 MB", "PCIe 4.0 x16 on B550 / X570", "None"],
+          ["Ryzen 5 5600G", "6 / 12", "4.4 GHz", "16 MB", "PCIe 3.0 x16 on every board", "Radeon Vega 7"]
+        ]
+      }
+    },
+    {
+      "h": "Does a B450 or A520 Board Limit Your Graphics Card?",
+      "body": [
+        "A little, and only with some cards. AMD's A520, B450, X470 and older chipsets run the graphics slot at PCIe 3.0 even with a Ryzen 5000 chip. B550 and X570 boards run it at PCIe 4.0 with a 5600 or 5600X, but not with a 5600G.",
+        "Cards wired for sixteen lanes, like the RX 9060 XT, RX 9070 and RTX 5070, keep 3.0 x16 bandwidth and lose almost nothing. Cards wired for eight lanes, like the RTX 5060, RTX 5060 Ti and RX 6600, get half that. With 16 GB of memory the loss stays small; with 8 GB it can turn into heavy stutter once a game runs out of VRAM."
+      ],
+      "table": {
+        "caption": "Each card's link on a Ryzen 5 5600 system",
+        "head": ["Card", "Interface", "5600 on B450 / A520, or any 5600G", "5600 on B550 / X570", "VRAM"],
+        "rows": [
+          ["RX 9060 XT 16GB", "PCIe 5.0 x16", "PCIe 3.0 x16", "PCIe 4.0 x16", "16 GB"],
+          ["RX 9070", "PCIe 5.0 x16", "PCIe 3.0 x16", "PCIe 4.0 x16", "16 GB"],
+          ["RTX 5060 Ti 16GB", "PCIe 5.0 x8", "PCIe 3.0 x8", "PCIe 4.0 x8", "16 GB"],
+          ["RTX 5070", "PCIe 5.0 x16", "PCIe 3.0 x16", "PCIe 4.0 x16", "12 GB"],
+          ["RX 9060 XT 8GB", "PCIe 5.0 x16", "PCIe 3.0 x16", "PCIe 4.0 x16", "8 GB"],
+          ["RX 6600", "PCIe 4.0 x8", "PCIe 3.0 x8", "PCIe 4.0 x8", "8 GB"],
+          ["RTX 5060", "PCIe 5.0 x8", "PCIe 3.0 x8", "PCIe 4.0 x8", "8 GB"]
+        ]
+      }
+    },
+    {
+      "h": "What Is a Good GPU for a Ryzen 5 5600G on an A520M Board?",
+      "body": [
+        "The RX 9060 XT 16GB, or the RX 9060 XT 8GB on a tighter budget. A 5600G in an A520M board runs at PCIe 3.0 no matter what, so x16 cards are the safe choice, and the 5600G's smaller cache means a mid-range card is about as high as it pays to go at 1080p.",
+        "Check three things on a small A520M build. First, the supply: many budget builds shipped with 450–550 W units, which suit the RX 9060 XT but not an RX 9070. Second, the case: micro-ATX cases can be short on length for large triple-fan cards. Third, Resizable BAR, which AMD calls Smart Access Memory; enable it in the BIOS after a BIOS update, since AMD supports it on the 5600G. Our [Resizable BAR glossary entry](/glossary/resizable-bar/) covers the setting."
+      ]
+    },
+    {
+      "h": "Do You Need a New Power Supply for a 5600 GPU Upgrade?",
+      "body": [
+        "Often not, for 1080p cards. The Ryzen 5 5600 is a 65 W chip, so the graphics card is the main load. The RX 6600, RX 9060 XT and RTX 5060 Ti run on a quality 550 W supply. The RX 9070 and RTX 5070 call for 650 W, and an RX 9070 XT for 750 W.",
+        "Age matters as much as wattage. A budget unit from 2020 or earlier may lack the connectors or the headroom for a modern card's power spikes. Our [PSU calculator](/tools/psu-calculator/) sizes a supply for any pairing."
+      ]
+    },
+    {
+      "h": "Should You Install RAID With a Ryzen 5 5600?",
+      "body": [
+        "No, not for a gaming PC. RAID combines drives into one volume, either for speed (RAID 0) or for a mirrored copy (RAID 1). A single NVMe SSD already loads games quickly, and RAID 0 adds a point of failure without a noticeable gain in game load times.",
+        "AMD's RAID drivers are only needed if you have set up an array in the BIOS. If an installer offers them, leave them unselected and install the standard AMD chipset driver. If you want protection for your files, a backup to a second drive or cloud storage does more than RAID 1."
+      ]
+    },
+    {
+      "h": "Is the Ryzen 5 5600 Still Good for Gaming in 2026?",
+      "body": [
+        "Yes, for 1080p and 1440p with a mid-range card. Zen 3's single-thread speed and six cores still handle current games, and the 5600 keeps cards up to the RX 9070 and RTX 5070 busy at 1440p in most titles.",
+        "Where it falls behind is high-refresh play in CPU-heavy games, where newer Zen 5 chips and X3D models pull ahead. For those players, a Ryzen 7 5700X3D on the same board, or a move to AM5, is the next step. For everyone else, a better graphics card adds more frames per dollar."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying an 8 GB x8 card for a PCIe 3.0 system", "On a B450 or A520 board, or with a 5600G, an RTX 5060 runs at PCIe 3.0 x8. Once a game fills its 8 GB, frame rates can drop sharply. The RX 9060 XT 8GB keeps a x16 link at a similar price."],
+    ["Treating the 5600G like a 5600", "The 5600G has half the L3 cache and runs PCIe 3.0 on every board. It games slower than a 5600 with a discrete card, so aim one tier lower and prefer x16 cards."],
+    ["Overspending at 1080p", "At 1080p, a 5600 leaves much of an RX 9070 XT's speed unused in CPU-heavy games. Above the RX 9060 XT and RTX 5060 Ti class, a faster card makes most sense at 1440p."],
+    ["Skipping the supply check", "The 5600 draws little, but an RX 9070 or RTX 5070 needs a quality 650 W unit. An older 450–550 W supply is the most common cause of instability after a GPU upgrade."],
+    ["Leaving Resizable BAR off", "Many AM4 boards ship with Resizable BAR disabled. After a BIOS update, turning it on usually adds a small, free gain on AMD cards, and Intel Arc cards need it."]
+  ],
+  "bottomLine": "For a Ryzen 5 5600, the RX 9060 XT 16GB is the card to buy in 2026: no bottleneck at 1080p, 16 GB, and a full x16 link that suits B450, A520 and 5600G systems. Choose the RX 9070 or RTX 5070 for 1440p, the RTX 5060 Ti 16GB for NVIDIA features at 1080p, and the RX 9060 XT 8GB or RX 6600 on a tight budget. Stop at the RX 9070 XT or RTX 5070 Ti.",
+  "faqs": [
+    {"q": "What is the best GPU for a Ryzen 5 5600?", "a": "The RX 9060 XT 16GB for 1080p. The 5600 keeps it fully busy, it has 16 GB, and it keeps a full x16 link on PCIe 3.0 boards. For 1440p, the RX 9070 or RTX 5070 is the better match."},
+    {"q": "What GPU does not bottleneck a Ryzen 5 5600 at 1080p?", "a": "Cards up to about the RX 9060 XT 16GB and RTX 5060 Ti 16GB. At 1080p the 5600 keeps them busy in nearly every game. Faster cards still work, but CPU-heavy games will cap them at high refresh rates."},
+    {"q": "Can a Ryzen 5 5600 handle an RTX 5070?", "a": "Yes, at 1440p. The 5600 keeps an RTX 5070 busy in most games at that resolution. At 1080p it caps the card in CPU-heavy titles, so 1440p is where the pairing makes sense."},
+    {"q": "What is the most powerful GPU worth pairing with a Ryzen 5 5600?", "a": "An RX 9070 XT or RTX 5070 Ti at 1440p. At 4K an RTX 5080 is reasonable, since the card does most of the work there. Beyond that, the 5600 leaves too much performance unused."},
+    {"q": "Is the Ryzen 5 5600G good with a graphics card?", "a": "Yes, for 1080p with a mid-range card. Its 16 MB of L3 cache makes it slower than a 5600 in games, and it runs PCIe 3.0 on every board. An x16 card such as the RX 9060 XT 16GB suits it best."},
+    {"q": "Does the Ryzen 5 5600 support PCIe 4.0?", "a": "Yes, on B550 and X570 boards. On A520, B450, X470 and older boards, the graphics slot runs at PCIe 3.0. The 5600G runs PCIe 3.0 on every board."},
+    {"q": "What GPU is best for a Ryzen 5 5600 under $300?", "a": "The RX 9060 XT 8GB at $280–$320, or the RX 6600 at $180–$230 for esports. The RX 9060 XT 8GB keeps a full x16 link, which matters on PCIe 3.0 boards."},
+    {"q": "What PSU do I need for a Ryzen 5 5600 and RX 9070?", "a": "A quality 650 W supply. The RX 9070 is rated at 220 W, and the 5600 is a 65 W chip. For an RX 9060 XT or RTX 5060 Ti, a good 550 W unit is enough."}
+  ],
+  "sources": [
+    "AMD Ryzen 5 5600, Ryzen 5 5600X and Ryzen 5 5600G product specifications",
+    "AMD 400-, 500-series and A520 chipset specifications and Smart Access Memory documentation",
+    "AMD Radeon RX 9070, RX 9060 XT and RX 6600 and NVIDIA GeForce RTX 5070, RTX 5060 Ti and RTX 5060 product pages",
+    "Published Zen 3 CPU scaling and PCIe scaling reviews from TechPowerUp and Hardware Unboxed",
+    "AMD chipset driver and RAID documentation",
+    "Owner reports from AM4 upgrades on enthusiast forums"
+  ],
+  "related": ["best-budget-graphics-card", "best-graphics-card-under-400", "best-gpu-for-ryzen-5-5500"]
+}

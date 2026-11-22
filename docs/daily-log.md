@@ -5,3 +5,4 @@ Bing Webmaster API (`scripts/search-report.mjs`), search landing pages from Verc
 
 | Date | Bing (last day / 30 days) | Top search landing pages (Vercel, 30 days) | Pages written |
 |---|---|---|---|
+| 2026-11-22 | 1,826 impr / 12 clicks on 21 Nov (Bing's best day so far; 496 the day before) · 16 old `/best-gpu-for-<cpu>/` URLs still shown while 301'd | Vercel 30 days: DuckDuckGo 86, Bing 57, Yahoo 8, Ecosia 6, Google 6 visitors. Top: `/compare/rx-9070-xt-vs-rtx-5080` 7, `/amd-vs-nvidia-gpu-equivalents` 6, `/console-gpu-equivalents` 5, `/how-to-update-asrock-bios` 5, `/intel-arc-gpu-equivalents` 4 | Rebuilt from Bing: best GPU for Ryzen 5 5600 (40 impr), 7800X3D (23), 7700X (18), i5-11400F (10, 1 click), 7600 (5), 5500 (5), i5-13400F (4). From Vercel winners: how to update MSI BIOS, how to update Gigabyte BIOS, Apple M-series GPU equivalents |

@@ -1,0 +1,218 @@
+{
+  "slug": "best-gpu-for-ryzen-5-7600",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 5 7600 and 7600X (2026): 5 Cards Ranked",
+  "h1": "Best GPU for Ryzen 5 7600",
+  "query": "best gpu for ryzen 5 7600",
+  "description": "The RX 9070 is the best GPU for a Ryzen 5 7600: 16 GB and strong 1440p speed for $550–$620 at 220 W. 5 picks from $350, and the 7600X takes the same cards.",
+  "dek": "AMD's budget six-core AM5 chip can feed far more graphics card than its price suggests. These five cards match it from 1080p to high-refresh 1440p, and show where it starts to hold a GPU back.",
+  "intro": [
+    "The Radeon RX 9070 is the best GPU for a Ryzen 5 7600 in 2026. For $550–$620 it brings 16 GB of memory and strong 1440p performance at a 220 W rating, so it runs on a 650 W supply and keeps a budget AM5 build balanced from CPU to power supply.",
+    "This page is for anyone who built or is planning a system around the Ryzen 5 7600 or the Ryzen 5 7600X. Both are six-core Zen 4 chips that game within a few percent of each other, so every pick applies to both. We matched each card to the resolution where the 7600 keeps it busy, and cover the bottleneck, PCIe and power questions owners ask most."
+  ],
+  "quickAnswer": "Buy the RX 9070 ($550–$620) for 1440p. The RTX 5070 ($550–$650) is the NVIDIA pick, with DLSS 4 and better ray tracing. For 1080p on a budget, the RX 9060 XT 16GB ($350–$400). The RTX 5060 Ti 16GB ($430–$480) is the NVIDIA middle ground. The RX 9070 XT ($600–$730) is the fastest card worth pairing with a 7600 at 1440p.",
+  "picks": [
+    {
+      "id": "rx-9070",
+      "label": "Best Overall Match",
+      "bestFor": "1440p gaming on a Ryzen 5 7600 or 7600X build",
+      "skipIf": "you rely on heavy ray tracing or path tracing, where NVIDIA cards hold a clear lead",
+      "writeup": [
+        "The Ryzen 5 7600 games roughly like a Core i5-14400F, a little faster on average, per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/). That is enough speed to keep a capable 1440p card busy, and the RX 9070 is the card that fits both its performance and its budget-build spirit best.",
+        "Independent reviews put the RX 9070 slightly ahead of an RTX 5070 in raster games, and it carries 16 GB of memory against the RTX 5070's 12 GB. It uses a full x16 link, so it runs at full speed on the PCIe 4.0 slot many B650 boards use, and it supports FSR 4, AMD's machine-learning upscaler.",
+        "The pairing is balanced at 1440p: in most games the graphics card sets the frame rate, not the 7600. At 1080p in fast esports titles, the CPU can become the limit, but only at frame rates above what most monitors show.",
+        "Power is the other reason it suits this chip. AMD rates it at 220 W and recommends a 650 W supply, so a cost-conscious 7600 build does not need a bigger PSU. For the head-to-head with NVIDIA, see [RTX 5070 vs RX 9070](/compare/rtx-5070-vs-rx-9070/)."
+      ],
+      "pros": ["Slightly faster than an RTX 5070 in raster", "16 GB of VRAM", "220 W; runs on a 650 W supply", "Full x16 link", "FSR 4"],
+      "cons": ["Ray tracing behind NVIDIA", "Prices sit close to the faster RX 9070 XT"]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best NVIDIA Pick",
+      "bestFor": "1440p gaming with DLSS 4 and stronger ray tracing",
+      "skipIf": "you keep cards five years or more and play texture-heavy games; 12 GB is its limit",
+      "writeup": [
+        "If you want NVIDIA's feature set on a 7600, the RTX 5070 is the card to buy. It handles high settings at 1440p in most games, and DLSS 4 with multi frame generation stretches it further in the titles that support it. With ray tracing on, it pulls ahead of the RX 9070.",
+        "The 7600 keeps it fed at 1440p. Independent CPU-scaling reviews show six-core Zen 4 chips leaving little performance on the table with a card of this class at that resolution, so you get close to what the RTX 5070 delivers on far more expensive CPUs.",
+        "The trade-off is 12 GB of memory, enough for 1440p today but less than the 16 GB on the RX 9070. At 250 W it runs on a 650 W supply, like the Radeon. Founders Edition cards use a 12V-2x6 connector; many partner cards use standard 8-pin plugs. Our [RTX 4070 vs RTX 5070 comparison](/compare/rtx-4070-vs-rtx-5070/) helps if you are weighing a used RTX 4070 instead."
+      ],
+      "pros": ["DLSS 4 multi frame generation", "Better ray tracing than the RX 9070", "Runs on a 650 W supply"],
+      "cons": ["12 GB of VRAM", "RX 9070 is slightly faster in raster"]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best for 1080p",
+      "bestFor": "budget 1080p high-refresh builds that may upgrade later",
+      "skipIf": "you play at 1440p with high settings; step up to an RX 9070 or RTX 5070",
+      "writeup": [
+        "Many Ryzen 5 7600 builds are budget builds, and for 1080p the RX 9060 XT 16GB is the card that fits. For $350–$400 it gives high settings at that resolution and 16 GB of memory, which means texture settings that 8 GB cards struggle with are not a problem.",
+        "It keeps a full x16 link, unlike many cards in this price range, so it loses nothing on a PCIe 4.0 slot. With a CPU as fast as the 7600, the card sets the frame rate in nearly every game, so the 7600 will not hold it back.",
+        "At around 160–180 W, it runs on a 550–650 W supply, and it pairs well with the Wraith Stealth cooler that ships with the 7600, since the whole system stays modest on power and heat. Our [RTX 5060 vs RX 9060 XT 16GB comparison](/compare/rtx-5060-vs-rx-9060-xt-16gb/) covers NVIDIA's cheaper alternative, and [best graphics cards under $400](/best-graphics-card-under-400/) lists more options."
+      ],
+      "pros": ["16 GB at a budget price", "Full x16 link", "Efficient", "FSR 4"],
+      "cons": ["A 1080p card at heart", "Weaker ray tracing than NVIDIA"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best NVIDIA Under $500",
+      "bestFor": "1080p max settings and entry 1440p with DLSS 4",
+      "skipIf": "your board is PCIe 3.0, or you can stretch to an RTX 5070 for 1440p",
+      "writeup": [
+        "The RTX 5060 Ti 16GB sits between the RX 9060 XT 16GB and the RTX 5070. It is a strong 1080p card at high to maximum settings and a capable entry 1440p card, especially with DLSS 4 and multi frame generation in supported games.",
+        "Make sure you buy the 16 GB version. The 8 GB model costs less but runs out of memory in some recent games at high settings; our [RTX 5060 Ti 8GB vs 16GB comparison](/compare/rtx-5060-ti-8gb-vs-rtx-5060-ti-16gb/) explains where it shows.",
+        "This card uses a PCIe 5.0 x8 link. On AM5 that is no issue: the 7600's boards run the graphics slot at PCIe 4.0 or 5.0, and independent tests show no meaningful loss at PCIe 4.0 x8. It only becomes a concern on PCIe 3.0 systems, which a 7600 build never is. At 180 W it runs comfortably on a quality 650 W supply.",
+        "Against the RX 9060 XT 16GB, independent reviews put the RTX 5060 Ti 16GB a little faster on average and clearly ahead with ray tracing, for more money; see [RTX 5060 Ti 16GB vs RX 9060 XT 16GB](/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/)."
+      ],
+      "pros": ["16 GB of VRAM", "DLSS 4 multi frame generation", "180 W; efficient"],
+      "cons": ["x8 link", "Costs more than the RX 9060 XT 16GB for a small raster gain"]
+    },
+    {
+      "id": "rx-9070-xt",
+      "label": "Best High-End Match",
+      "bestFor": "the most GPU a 7600 can sensibly drive at 1440p, and entry 4K",
+      "skipIf": "you play mostly at 1080p, where the 7600 and this card's speed are mismatched",
+      "writeup": [
+        "The RX 9070 XT is the fastest card that still makes sense with a Ryzen 5 7600 at 1440p. In raster games independent reviews put it close to an RTX 5070 Ti, and at 1440p and 4K the graphics card is still the main limit in most titles, so the 7600 gives up relatively little.",
+        "Above this level, the picture changes. With an RTX 5070 Ti or faster at 1440p, a six-core Zen 4 chip begins to cap frame rates in CPU-heavy games, and the money is better split between the card and a faster CPU later. AM5 makes that easy: a Ryzen 7 9800X3D drops into the same board.",
+        "Plan for its power: AMD rates it at 304 W and partner cards often run higher, so use a quality 750 W supply. Its 16 GB of memory, full x16 link and FSR 4 support make it a card you can keep when you upgrade the CPU. For the NVIDIA alternative at this tier, see [RTX 5070 Ti vs RX 9070 XT](/compare/rtx-5070-ti-vs-rx-9070-xt/)."
+      ],
+      "pros": ["RTX 5070 Ti-class raster", "16 GB of VRAM", "Survives a later CPU upgrade"],
+      "cons": ["About 304 W; needs a 750 W supply", "CPU-limited at 1080p"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "PCIe interface", "Board power", "Recommended PSU"],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling reviews of Zen 4 chips, and owner reports from AM5 builds. None of these pairings were bench-tested by Enthusiast Review; statements about where the Ryzen 5 7600 limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      ["Resolution fit", "We matched each pick to the resolution where the 7600 keeps it fully busy, so you do not pay for performance the CPU cannot use."],
+      ["Budget balance", "The 7600 is a budget chip. Cards that keep the whole build sensible, including the power supply, ranked above faster cards that need a bigger PSU."],
+      ["Memory", "Cards with 16 GB ranked above 8 GB and 12 GB alternatives at similar speed, for longevity."],
+      ["Value", "Raster performance per dollar counted heavily, since that is what most games still use."],
+      ["Features", "Ray tracing, DLSS 4 and FSR 4 counted for buyers who will use them."]
+    ],
+    "why": "The RX 9070 won because it gives 16 GB and slightly better raster speed than an RTX 5070, balances the 7600 at 1440p, and runs on a 650 W supply."
+  },
+  "mentions": [
+    {"id": "rtx-5070-ti", "text": "The RTX 5070 Ti is a great card, but on a Ryzen 5 7600 it only stretches its legs at 4K or with heavy ray tracing. At 1440p the RX 9070 XT gets most of the way for less, and the difference is better spent on a CPU upgrade later."},
+    {"id": "rtx-5060", "text": "The RTX 5060 is a fine 1080p card for $300–$330 and the 7600 has no trouble feeding it. Its 8 GB of memory is the catch: in some recent games at high settings it runs short, which is why the 16 GB RX 9060 XT gets the 1080p spot."},
+    {"id": "arc-b580", "text": "The Arc B580 works well on a 7600, since its driver overhead matters far less on a fast CPU than on older chips, and AM5 supports the Resizable BAR it needs. It is a good budget card at $250–$290, but the RX 9060 XT 16GB is faster for not much more."}
+  ],
+  "sections": [
+    {
+      "h": "What GPU Will Not Bottleneck a Ryzen 5 7600?",
+      "body": [
+        "Any card up to about an RX 9070 XT or RTX 5070 Ti at 1440p, and nearly anything at 4K. At those resolutions the graphics card sets the frame rate in most games, so the [Ryzen 5 7600](/gear/ryzen-5-7600/) is rarely the limit. At 1080p, the balance tips toward the CPU sooner: an RX 9070 or RTX 5070 is roughly where it starts to cap frame rates in fast esports and CPU-heavy games, though at frame rates above what most monitors display.",
+        "A bottleneck is not all or nothing. Every system is limited by something in each scene, and a little CPU limit at 1080p with a fast card is normal. What you want to avoid is spending a lot on a card the CPU leaves idle much of the time. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any pairing and resolution, and the [CPU bottleneck](/glossary/cpu-bottleneck/) entry explains how to spot one."
+      ],
+      "table": {
+        "caption": "Highest sensible GPU for a Ryzen 5 7600 by resolution",
+        "head": ["Resolution", "Sweet spot", "Highest sensible card", "Beyond that"],
+        "rows": [
+          ["1080p", "RX 9060 XT 16GB, RTX 5060 Ti 16GB", "RX 9070 or RTX 5070", "CPU limits frame rates in fast games"],
+          ["1440p", "RX 9070, RTX 5070", "RX 9070 XT or RTX 5070 Ti", "A faster CPU gains more than a faster card"],
+          ["4K", "RX 9070 XT, RTX 5070 Ti", "RTX 5080", "Only at maximum settings, and a faster CPU fits better"]
+        ]
+      }
+    },
+    {
+      "h": "Is the Ryzen 5 7600X Different for GPU Pairing?",
+      "body": [
+        "Barely. The Ryzen 5 7600X has the same six Zen 4 cores, 12 threads and 32 MB of L3 cache as the 7600, with a higher 5.3 GHz boost against 5.1 GHz and a 105 W TDP against 65 W. Independent reviews show the two within a few percent in games, so every card on this page suits both chips, and the bottleneck thresholds above apply to either.",
+        "The difference is power and cooling, not graphics. The 7600X has no cooler in the box and runs hotter at stock, so plan a $35 to $45 dual-tower cooler; our [cooler guide for the 9600X](/best-cpu-cooler-for-ryzen-5-9600x/) covers the 7600X too. The 7600 ships with a Wraith Stealth, which is fine for gaming but gets loud in long all-core work."
+      ],
+      "table": {
+        "caption": "Ryzen 5 7600 vs 7600X for a gaming build",
+        "head": ["Spec", "Ryzen 5 7600", "Ryzen 5 7600X"],
+        "rows": [
+          ["Cores / threads", "6 / 12", "6 / 12"],
+          ["Boost clock", "5.1 GHz", "5.3 GHz"],
+          ["L3 cache", "32 MB", "32 MB"],
+          ["TDP", "65 W", "105 W"],
+          ["Cooler included", "Yes, Wraith Stealth", "No"],
+          ["Gaming difference", "Within a few percent", "Within a few percent"]
+        ]
+      }
+    },
+    {
+      "h": "Does Your AM5 Board Give the GPU PCIe 5.0?",
+      "body": [
+        "It depends on the board, not the CPU. The 7600 provides PCIe 5.0 lanes, but whether the graphics slot uses them is up to the chipset and the maker: X670E, B650E and X870E boards wire the main slot for PCIe 5.0, while most B650 boards, the most common partner for a 7600, run it at PCIe 4.0. AMD's budget B840 chipset is more limited, so check its specification if you have one.",
+        "In practice this hardly matters. The RX 9070, RX 9070 XT, RTX 5070 and RX 9060 XT 16GB all use a full x16 link and run at full speed on PCIe 4.0. The RTX 5060 Ti 16GB uses x8, which independent tests show is fine on PCIe 4.0. Resizable BAR, AMD's Smart Access Memory, is supported across AM5; make sure it is enabled in the BIOS. Our [best AM5 motherboard guide](/best-am5-motherboard/) covers which boards do what."
+      ],
+      "table": {
+        "caption": "Each pick on a Ryzen 5 7600 system",
+        "head": ["Card", "Best resolution", "VRAM", "Link", "Board power", "Suggested PSU"],
+        "rows": [
+          ["RX 9070", "1440p", "16 GB", "x16", "220 W", "650 W"],
+          ["RTX 5070", "1440p", "12 GB", "x16", "250 W", "650 W"],
+          ["RX 9060 XT 16GB", "1080p", "16 GB", "x16", "160–180 W", "550–650 W"],
+          ["RTX 5060 Ti 16GB", "1080p to entry 1440p", "16 GB", "x8", "180 W", "650 W"],
+          ["RX 9070 XT", "1440p to entry 4K", "16 GB", "x16", "304 W", "750 W"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Best Budget GPU for a Ryzen 5 7600 at 1080p?",
+      "body": [
+        "The RX 9060 XT 16GB. At $350–$400 it gives high settings at 1080p with 16 GB of memory and a full x16 link, and the 7600 keeps it fully busy. If your budget is closer to $300, the RTX 5060 is the NVIDIA option, with DLSS 4 but only 8 GB, and the Arc B580 is the cheapest card here that still runs recent games well at 1080p.",
+        "Avoid spending less than this on a 7600 build if you can. Older 8 GB cards such as the RX 6600 still run 1080p at medium settings, but they leave much of the CPU's speed unused and age faster as games demand more memory."
+      ]
+    },
+    {
+      "h": "Do You Need a New PSU for These Cards?",
+      "body": [
+        "Size the supply to the card, because the 7600 itself is frugal: AMD rates it at a 65 W TDP, and the 7600X at 105 W. The graphics card is the large and variable load in either build.",
+        "Use the manufacturer's recommendation as a floor: 650 W for an RX 9070 or RTX 5070, and 750 W for an RX 9070 XT. The RX 9060 XT 16GB and RTX 5060 Ti 16GB run comfortably on a quality 550 to 650 W unit. Our [PSU calculator](/tools/psu-calculator/) adds up a full build, and our [best PSU for RX 9070 XT](/best-psu-for-rx-9070-xt/) guide lists units that fit the top pick here."
+      ]
+    },
+    {
+      "h": "Is the Ryzen 5 7600 Enough for 1440p High Refresh?",
+      "body": [
+        "Yes, for most games. Paired with an RX 9070 or RTX 5070, a 7600 reaches well above 60 fps at 1440p in nearly every current title and past 100 fps in many. The exceptions are CPU-heavy games, such as large strategy, simulation and some open-world titles, where chips with more cache, like the Ryzen 7 7800X3D, help noticeably.",
+        "If you mainly play competitive shooters at 240 Hz or more, the CPU matters more than the card. In that case, a faster CPU is often a better use of money than a bigger graphics card."
+      ]
+    },
+    {
+      "h": "Should You Upgrade the CPU Instead?",
+      "body": [
+        "Not yet, for most owners. The 7600 is a current-platform chip, and for anything up to an RX 9070 XT at 1440p, putting money into the graphics card gives more frames. AM5's long support means you can add a faster CPU later without changing the board or memory.",
+        "When you do upgrade, the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) and Ryzen 7 7800X3D are the gaming upgrades that matter most, thanks to their extra cache. A [Ryzen 5 9600X](/gear/ryzen-5-9600x/) is only a modest step; our [9600X vs 7600 comparison](/compare/ryzen-5-9600x-vs-ryzen-5-7600/) shows the gap is small in games."
+      ]
+    },
+    {
+      "h": "What Is the Most Powerful GPU Worth Pairing With a Ryzen 5 7600?",
+      "body": [
+        "An RX 9070 XT or RTX 5070 Ti at 1440p, and an RTX 5080 at 4K. Beyond that, the 7600 leaves expensive cards waiting in CPU-heavy games, and you are better off upgrading the CPU first.",
+        "An RTX 5090 will run on a 7600, but it only makes sense at 4K with maximum settings, and even then a Ryzen 7 9800X3D is the better partner. Its 575 W rating also calls for a 1,000 W supply, more than most 7600 builds have."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying a 1080p card for a 1440p monitor", "The 7600 can drive far more than an entry card. If your monitor is 1440p, an RX 9070 or RTX 5070 is where the pairing starts to make full use of it; an RX 9060 XT will need lower settings."],
+    ["Pairing a flagship card with a budget CPU", "Outside 4K at maximum settings, a 7600 leaves an RTX 5080 or RTX 5090 waiting in CPU-heavy games. The same money buys an RX 9070 XT now and a Ryzen 7 9800X3D upgrade later."],
+    ["Choosing an 8 GB card to save $50", "An 8 GB card is fine today at 1080p medium, but recent games at high settings can exceed it. On a platform you plan to keep, a 16 GB RX 9060 XT or RTX 5060 Ti ages far better."],
+    ["Undersizing the power supply", "The 7600 draws little, but an RX 9070 XT calls for 750 W. Size the supply to the graphics card, not the CPU, and leave headroom for a later upgrade."],
+    ["Leaving Resizable BAR off", "AM5 supports Smart Access Memory, but some boards ship with it disabled. Turn on Above 4G Decoding and Resizable BAR in the BIOS for a small free gain with any card."]
+  ],
+  "bottomLine": "For a Ryzen 5 7600 or 7600X, the RX 9070 is the card to buy in 2026: 16 GB, slightly faster than an RTX 5070 in raster, balanced at 1440p and fine on a 650 W supply. Choose the RTX 5070 for DLSS 4 and ray tracing, the RX 9060 XT 16GB for budget 1080p, the RTX 5060 Ti 16GB as the NVIDIA middle ground, and the RX 9070 XT as the highest sensible match at 1440p. Past that, upgrade the CPU first.",
+  "faqs": [
+    {"q": "What is the best graphics card for a Ryzen 5 7600?", "a": "The RX 9070 for 1440p. It has 16 GB of memory, is slightly faster than an RTX 5070 in raster games and runs on a 650 W supply. The RTX 5070 is the best NVIDIA option, and the RX 9060 XT 16GB the best for 1080p on a budget."},
+    {"q": "What GPU does not bottleneck a Ryzen 5 7600X?", "a": "At 1440p, anything up to an RX 9070 XT or RTX 5070 Ti stays mostly GPU-limited with a 7600X. At 4K, an RTX 5080 is fine. At 1080p, the CPU starts to cap frame rates around RX 9070 or RTX 5070 level in fast games."},
+    {"q": "Can a Ryzen 5 7600 handle an RTX 5070?", "a": "Yes. At 1440p the RTX 5070 sets the frame rate in most games, and the 7600 leaves little performance on the table. At 1080p in CPU-heavy titles you may see a small CPU limit, at frame rates most monitors cannot show anyway."},
+    {"q": "Will a Ryzen 5 7600 bottleneck an RX 9070 XT?", "a": "Only a little, mainly at 1080p and in CPU-heavy games. At 1440p and 4K the RX 9070 XT is the main limit in most titles. It is the most powerful card we suggest for a 7600 at 1440p."},
+    {"q": "Is the Ryzen 5 7600 good for gaming in 2026?", "a": "Yes. Its six Zen 4 cores game a little faster than a Core i5-14400F on average and keep mid-range cards busy at 1440p. AM5 also lets you drop in a faster Ryzen chip later without a new board."},
+    {"q": "Is there a gaming difference between the 7600 and 7600X?", "a": "Very little. The 7600X boosts to 5.3 GHz against 5.1 GHz and has a 105 W TDP, but independent reviews show the two within a few percent in games. The 7600 includes a cooler, which makes it the better value."},
+    {"q": "What PSU do I need for a Ryzen 5 7600 and RX 9070?", "a": "A quality 650 W supply, which is AMD's recommendation for the RX 9070. The 7600 draws far less than the card. Step up to 750 W for an RX 9070 XT, and use our PSU calculator to check your full build."},
+    {"q": "What is the best budget GPU for a Ryzen 5 7600?", "a": "The RX 9060 XT 16GB at $350 to $400. It handles 1080p at high settings with 16 GB of memory and a full x16 link. Under $300, the RTX 5060 or Arc B580 work, with 8 GB and 12 GB respectively."}
+  ],
+  "sources": [
+    "AMD Ryzen 5 7600 and Ryzen 5 7600X product specifications",
+    "AMD AM5 chipset specifications and Smart Access Memory documentation",
+    "AMD Radeon RX 9070, RX 9070 XT and RX 9060 XT product pages and power recommendations",
+    "NVIDIA GeForce RTX 5070 and RTX 5060 Ti product pages and power recommendations",
+    "Published Zen 4 CPU scaling and GPU reviews from TechPowerUp and Hardware Unboxed",
+    "Owner reports from AM5 builds on enthusiast forums"
+  ],
+  "related": ["best-gpu-for-ryzen-5-9600x", "best-graphics-card-for-1440p", "best-am5-motherboard"]
+}
