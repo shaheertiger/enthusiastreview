@@ -148,7 +148,7 @@
       "h": "Which Brands Make the Best Software and Support?",
       "body": [
         "Every brand ships a tuning and lighting tool: ASUS GPU Tweak, MSI Afterburner (the most widely used, and it works on other brands' cards), Gigabyte Control Center, Zotac FireStorm, Sapphire TriXX and ASRock's Polychrome tools for its boards; see our [ASRock RGB software guide](/asrock-polychrome-rgb-software/). You do not need any of them for the card to work; the NVIDIA or AMD driver is what matters.",
-        "ASRock also makes motherboards, and its two most searched support tasks are covered in [how to update ASRock BIOS](/how-to-update-asrock-bios/) and [ASRock Secure Boot](/asrock-secure-boot/)."
+        "ASRock also makes motherboards, and its two most searched support tasks are covered in [how to update ASRock BIOS](/how-to-update-asrock-bios/) and [ASRock Secure Boot](/asrock-secure-boot/). For ASUS and MSI boards, see [how to update ASUS BIOS](/how-to-update-asus-bios/) and our [MSI Mystic Light RGB software](/msi-mystic-light-rgb-software/) guide."
       ]
     }
   ],

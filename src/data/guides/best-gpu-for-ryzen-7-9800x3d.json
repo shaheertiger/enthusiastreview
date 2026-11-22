@@ -1,0 +1,410 @@
+{
+  "slug": "best-gpu-for-ryzen-7-9800x3d",
+  "published": "2026-11-22",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 7 9800X3D (2026): 6 Cards, No Bottleneck",
+  "h1": "Best GPU for Ryzen 7 9800X3D",
+  "query": "best gpu for ryzen 7 9800x3d",
+  "description": "The RTX 5080 is the best GPU for a Ryzen 7 9800X3D: 16 GB, DLSS 4 and enough speed to use the CPU fully at 1440p and 4K. 6 picks from $350 to the RTX 5090.",
+  "dek": "The 9800X3D is the CPU reviewers use to remove CPU limits from GPU testing. That changes the question: the card is almost always the limit, so buy for your monitor.",
+  "intro": [
+    "The GeForce RTX 5080 is the best GPU for a Ryzen 7 9800X3D in 2026. It costs $1,000–$1,300, has 16 GB of GDDR7, and is fast enough at 1440p and 4K that the 9800X3D's gaming speed is put to real use rather than wasted on a mid-range card.",
+    "This page is for anyone who bought or plans to buy AMD's eight-core Zen 5 X3D chip. Independent reviews rank it among the fastest gaming CPUs available, so no current graphics card is meaningfully held back by it. The real question is which card suits your resolution, refresh rate and budget, from a 1080p esports build to an RTX 5090 at 4K."
+  ],
+  "quickAnswer": "Buy the RTX 5080 ($1,000–$1,300) for 1440p high refresh and 4K. The RTX 5090 ($2,000–$2,700) is the fastest card and the one the 9800X3D suits best. The RX 9070 XT ($600–$730) is the value pick. The RTX 5070 Ti ($750–$900) is the NVIDIA 1440p choice. For 1080p esports, the RX 9060 XT 16GB ($350–$400) is enough.",
+  "picks": [
+    {
+      "id": "rtx-5080",
+      "label": "Best Overall Match",
+      "bestFor": "1440p at high refresh rates and 4K with DLSS 4",
+      "skipIf": "you play at 1080p only, where a card half the price gives a similar experience",
+      "writeup": [
+        "The RTX 5080 is the card that makes the most sense with a 9800X3D for most buyers. It is the second-fastest GeForce card in the RTX 50 series, with 16 GB of GDDR7 on a 256-bit bus, and it supports DLSS 4 with multi frame generation.",
+        "The pairing works because both parts are aimed at the same player. The 9800X3D is a chip people buy for high frame rates, and at 1440p it can keep an RTX 5080 fed in CPU-heavy games where slower CPUs would hold it back. At 4K, the RTX 5080 handles high settings in most games, with DLSS covering the most demanding ones.",
+        "With a slower CPU, an RTX 5080 at 1440p often runs into a CPU limit in strategy, simulation and large open-world games. With a 9800X3D, that limit moves much higher, so you see more of the card's speed in exactly those games.",
+        "NVIDIA rates it at 360 W and recommends an 850 W supply. It uses the 12V-2x6 power connector, so an ATX 3.x supply with a native cable is the tidiest choice. Our [best PSU for RTX 5080](/best-psu-for-rtx-5080/) guide lists units that fit."
+      ],
+      "pros": [
+        "Uses the 9800X3D well at 1440p and 4K",
+        "DLSS 4 with multi frame generation",
+        "16 GB of GDDR7",
+        "Far cheaper than the RTX 5090"
+      ],
+      "cons": [
+        "16 GB is less than the RTX 5090's 32 GB",
+        "Needs an 850 W supply"
+      ]
+    },
+    {
+      "id": "rtx-5090",
+      "label": "Fastest Card It Can Drive",
+      "bestFor": "4K at maximum settings, path tracing and high-refresh 4K monitors",
+      "skipIf": "your monitor is 1440p at 165 Hz or below, where an RTX 5080 already reaches the refresh rate in most games",
+      "writeup": [
+        "The RTX 5090 is the fastest consumer graphics card, and the 9800X3D is the CPU it is most often paired with. With 32 GB of GDDR7 on a 512-bit bus and 21,760 CUDA cores, it is the card for 4K at maximum settings, including path-traced games.",
+        "This is the pairing where the CPU matters most. Even an RTX 5090 can be CPU-limited at 1440p in some games, because it renders frames so quickly, and a 9800X3D pushes that limit further out than almost any other chip. At 4K, the card sets the pace in nearly every game.",
+        "The costs are large. It sells for $2,000–$2,700, NVIDIA rates it at 575 W and recommends a 1,000 W supply, and it is a big card, so check your case clearance. Its 32 GB of memory is also useful outside gaming, for video work and local AI models.",
+        "If you game at 4K and want the highest settings without compromise, this is the card. For anything less, the RTX 5080 gives most of the experience for about half the price. Our [RTX 5090 vs RTX 5080 comparison](/compare/rtx-5090-vs-rtx-5080/) covers the gap."
+      ],
+      "pros": [
+        "Fastest gaming card available",
+        "32 GB of GDDR7",
+        "Best path-tracing performance",
+        "Pairs with the fastest gaming CPUs"
+      ],
+      "cons": [
+        "$2,000 or more",
+        "575 W, needs a 1,000 W supply",
+        "Large card"
+      ]
+    },
+    {
+      "id": "rx-9070-xt",
+      "label": "Best Value Pick",
+      "bestFor": "1440p high-refresh gaming without spending four figures on the card",
+      "skipIf": "you want strong path tracing or DLSS 4 multi frame generation",
+      "writeup": [
+        "Not every 9800X3D build needs a four-figure graphics card. The RX 9070 XT gives raster speed close to an RTX 5070 Ti for $600–$730, with 16 GB of memory and FSR 4 upscaling.",
+        "It is also a common choice for players who bought the 9800X3D for competitive shooters and CPU-heavy games rather than for maximum visual settings. In those games, a fast CPU and a strong mid-to-upper card at 1440p give high frame rates without the cost of an RTX 5080.",
+        "At 1440p, the card is the limit almost everywhere on a 9800X3D, so it will run at its full potential. If you later move to a faster card, the CPU will still have plenty of headroom.",
+        "AMD rates it at 304 W, and partner cards often run higher. A quality 750 W supply covers it. Our [RX 9070 XT vs RTX 5080 comparison](/compare/rx-9070-xt-vs-rtx-5080/) shows what the extra money buys."
+      ],
+      "pros": [
+        "RTX 5070 Ti-class raster for less",
+        "16 GB of VRAM",
+        "FSR 4",
+        "Leaves budget for a better monitor"
+      ],
+      "cons": [
+        "Ray tracing behind NVIDIA",
+        "About 304 W; needs a 750 W supply"
+      ]
+    },
+    {
+      "id": "rtx-5070-ti",
+      "label": "Best NVIDIA for 1440p",
+      "bestFor": "1440p with ray tracing and DLSS 4 at a mid-high price",
+      "skipIf": "you play mostly at 4K with high settings; the RTX 5080 is the better long-term buy",
+      "writeup": [
+        "The RTX 5070 Ti is the NVIDIA card for a 9800X3D build that stops short of RTX 5080 money. It matches the RX 9070 XT in raster and leads with ray tracing on, with DLSS 4 multi frame generation available in supported games.",
+        "It has 16 GB of GDDR7 on a 256-bit bus, the same memory configuration as the RTX 5080, so it will not run short of memory at 1440p. On a 9800X3D, the card sets the frame rate in nearly every game at that resolution.",
+        "Think of it as the balanced choice: it gets close to RTX 5080 behavior at 1440p in many games, costs noticeably less, and runs on a 750 W supply. Our [RTX 5080 vs RTX 5070 Ti comparison](/compare/rtx-5080-vs-rtx-5070-ti/) shows where the bigger card pulls ahead.",
+        "Most models use the 12V-2x6 connector; an adapter is included."
+      ],
+      "pros": [
+        "Strong ray tracing",
+        "16 GB of GDDR7",
+        "DLSS 4 with multi frame generation",
+        "Runs on 750 W"
+      ],
+      "cons": [
+        "Costs more than the RX 9070 XT",
+        "A step below the RTX 5080 at 4K"
+      ]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best Mid-Range Start",
+      "bestFor": "1440p builds that will add a faster card later",
+      "skipIf": "you want to keep the card five years or more; 12 GB is its limit",
+      "writeup": [
+        "Some buyers spend on the CPU first and plan to upgrade the graphics card later. The RTX 5070 fits that plan. It handles high settings at 1440p in most games, supports DLSS 4 with multi frame generation, and costs $550–$650.",
+        "A 9800X3D will never be what holds it back, so the frame rate you see is entirely the card. When you replace it, the CPU will still have the headroom for a much faster card, which is the main argument for buying an X3D chip up front.",
+        "The limit is 12 GB of memory. That is enough for 1440p today but tighter than the 16 GB cards above. NVIDIA rates it at 250 W and recommends a 650 W supply. If you want more raster speed and 16 GB at a similar price, consider the RX 9070; our [RTX 5070 vs RX 9070 comparison](/compare/rtx-5070-vs-rx-9070/) sets out the choice."
+      ],
+      "pros": [
+        "Lower entry price",
+        "DLSS 4",
+        "650 W supply is enough",
+        "Easy to upgrade from later"
+      ],
+      "cons": [
+        "12 GB of VRAM",
+        "Leaves most of the CPU's speed unused at 1440p"
+      ]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best for 1080p Esports",
+      "bestFor": "Valorant, Counter-Strike 2 and other esports titles at 1080p",
+      "skipIf": "you play demanding single-player games at 1440p; step up to an RX 9070 XT",
+      "writeup": [
+        "If you mainly play esports games at 1080p, you do not need a large graphics card to make use of a 9800X3D. Games like Valorant, Counter-Strike 2 and League of Legends are light on the graphics card and heavy on the CPU, which is exactly where the 9800X3D's cache helps.",
+        "The RX 9060 XT 16GB costs $350–$400, runs high settings at 1080p in current games, and has 16 GB of memory for heavier titles. AMD rates it at about 160 W, so it runs on a modest supply and keeps the build quiet.",
+        "This is also a sensible way to stage a build. Buy the CPU and a budget card now, and add a faster card when prices or your monitor change. The 9800X3D will still be fast enough for an RTX 5080-class card years from now.",
+        "If you prefer NVIDIA, the RTX 5060 Ti 16GB is the equivalent. On AM5 its x8 link runs at PCIe 4.0 or 5.0, which is plenty, so the PCIe 3.0 concern that affects older platforms does not apply here."
+      ],
+      "pros": [
+        "Cheap way into a 9800X3D build",
+        "16 GB of VRAM",
+        "Low power and noise",
+        "Easy to replace later"
+      ],
+      "cons": [
+        "Leaves most of the CPU unused outside esports",
+        "Weak at 1440p in demanding games"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "VRAM",
+    "Board power",
+    "Recommended PSU",
+    "PCIe interface"
+  ],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published GPU and CPU-scaling reviews that used the 9800X3D, and owner reports from AM5 builds. None of these pairings were bench-tested by Enthusiast Review; statements about CPU and GPU limits reflect what independent reviewers have widely reported.",
+    "criteria": [
+      [
+        "Use of the CPU",
+        "The 9800X3D is bought for gaming speed, so cards that let it make a difference ranked higher, especially at 1440p."
+      ],
+      [
+        "Resolution and refresh rate",
+        "Each pick is matched to the monitor where it makes sense, from 1080p esports to 4K at high settings."
+      ],
+      [
+        "Memory",
+        "16 GB or more ranked above 12 GB at similar speed, because 9800X3D builds tend to be kept for years."
+      ],
+      [
+        "Features",
+        "DLSS 4, multi frame generation, FSR 4 and ray tracing counted for players who will use them."
+      ],
+      [
+        "Value and power",
+        "Price per frame and power supply needs were weighed against the performance gained."
+      ]
+    ],
+    "why": "The RTX 5080 won because it is fast enough at 1440p and 4K for the 9800X3D to matter, while costing about half as much as the RTX 5090."
+  },
+  "mentions": [
+    {
+      "id": "rx-9070",
+      "text": "The RX 9070 is a strong 1440p card with 16 GB and a 220 W rating, and it pairs well with a 9800X3D. It sits between the RTX 5070 and RX 9070 XT; if the price gap to the RX 9070 XT is small, the faster card is the better buy for this CPU."
+    },
+    {
+      "id": "ryzen-7-7800x3d",
+      "text": "If you already own a 7800X3D, there is little reason to switch to a 9800X3D for a new graphics card. Independent reviews show the 9800X3D ahead, but the same cards suit both. Our 9800X3D vs 7800X3D comparison covers the gap."
+    },
+    {
+      "id": "arc-b580",
+      "text": "The Arc B580 runs well on a fast CPU like the 9800X3D, where Intel's driver overhead matters less, and AM5 supports the Resizable BAR it needs. For esports at 1080p it is a cheap option, but the RX 9060 XT 16GB is faster and has more memory."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What GPU Doesn't Bottleneck a Ryzen 7 9800X3D?",
+      "body": [
+        "Every current GPU, in practice. Independent reviewers routinely use the 9800X3D for graphics card testing precisely because it removes the CPU as a limit in most games. Whichever card you choose, the 9800X3D will let it run at or near its full speed at 1440p and 4K.",
+        "If the question is the reverse, which card stops the GPU from being the limit, the answer is none. In nearly every game at 1440p and 4K, the graphics card is the limiting part even with an RTX 5090. That is normal and expected; it means you are getting the CPU performance you paid for.",
+        "The exception is 1080p with the very fastest cards. An RTX 5090 or RTX 5080 at 1080p can render frames faster than any CPU can prepare them in some games, so even a 9800X3D becomes the limit there. That says more about the resolution than the CPU. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any pairing."
+      ],
+      "table": {
+        "caption": "Which card suits which 9800X3D build",
+        "head": [
+          "Monitor",
+          "Good match",
+          "Step up",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "1080p esports",
+            "RX 9060 XT 16GB",
+            "RTX 5070",
+            "CPU speed matters most here"
+          ],
+          [
+            "1440p 144–180 Hz",
+            "RX 9070 XT",
+            "RTX 5070 Ti",
+            "Card is the limit"
+          ],
+          [
+            "1440p 240 Hz+",
+            "RTX 5080",
+            "RTX 5090",
+            "Where the 9800X3D shines"
+          ],
+          [
+            "4K",
+            "RTX 5080",
+            "RTX 5090",
+            "Card does most of the work"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Can You Run an RX 580 With a Ryzen 7 9800X3D in Valorant?",
+      "body": [
+        "Yes. An RX 580 works in any AM5 board, and Valorant is one of the lightest popular shooters, with modest minimum requirements from Riot. The pairing will run the game, and the 9800X3D will not be the limit; the RX 580 will be.",
+        "That is the catch. The 9800X3D is one of the fastest gaming CPUs available, and an RX 580 is a 2017 mid-range card. In a CPU-heavy game like Valorant, a fast CPU helps, but a high-refresh monitor still needs a graphics card that can render the frames. AMD has also moved RX 400 and RX 500 series cards to a maintenance driver schedule, so they get fewer updates for new games.",
+        "Use the RX 580 as a stopgap if you already own it, and plan a replacement. For Valorant and other esports titles at 1080p, an RX 9060 XT 16GB or RTX 5060 Ti 16GB is a large step up for a modest price. For a 1440p monitor, aim for an RX 9070 XT.",
+        "One Valorant-specific note: on Windows 11, Riot's Vanguard anti-cheat requires TPM 2.0 and Secure Boot to be enabled. AM5 boards support both through the BIOS. If your board is an ASRock model, our [ASRock Secure Boot guide](/asrock-secure-boot/) walks through it."
+      ]
+    },
+    {
+      "h": "Is the 9800X3D Overkill for a Mid-Range GPU?",
+      "body": [
+        "For a single build, partly. With an RTX 5070 or RX 9070 XT at 1440p, most games are limited by the card, so a cheaper CPU like the Ryzen 5 9600X would deliver similar frame rates in many games. The 9800X3D still helps in CPU-heavy titles and in minimum frame rates.",
+        "It makes more sense as a long-term choice. A 9800X3D will keep up with several generations of graphics cards, so you can upgrade the card alone later. If you are on a tight budget and play graphically demanding games at 1440p or 4K, spending the difference on a faster card is usually the better trade."
+      ]
+    },
+    {
+      "h": "Does the 9800X3D Need PCIe 5.0 for an RTX 5090?",
+      "body": [
+        "No. The 9800X3D provides PCIe 5.0 lanes, but whether the main slot runs at PCIe 5.0 depends on the board. X670E, B650E and X870E boards wire it for PCIe 5.0, while many B650 and X870 boards run it at PCIe 4.0.",
+        "Independent PCIe scaling reviews of the RTX 5090 show only a small difference between PCIe 5.0 x16 and PCIe 4.0 x16, typically a few percent at most. Every card on this page runs well on PCIe 4.0 x16. What matters more is that Resizable BAR is enabled in the BIOS, which AM5 supports across the board."
+      ],
+      "table": {
+        "caption": "Each pick on a 9800X3D system",
+        "head": [
+          "Card",
+          "Best resolution",
+          "VRAM",
+          "Board power",
+          "Recommended PSU"
+        ],
+        "rows": [
+          [
+            "RTX 5080",
+            "1440p high refresh, 4K",
+            "16 GB",
+            "360 W",
+            "850 W"
+          ],
+          [
+            "RTX 5090",
+            "4K",
+            "32 GB",
+            "575 W",
+            "1,000 W"
+          ],
+          [
+            "RX 9070 XT",
+            "1440p",
+            "16 GB",
+            "304 W",
+            "750 W"
+          ],
+          [
+            "RTX 5070 Ti",
+            "1440p",
+            "16 GB",
+            "300 W",
+            "750 W"
+          ],
+          [
+            "RTX 5070",
+            "1440p",
+            "12 GB",
+            "250 W",
+            "650 W"
+          ],
+          [
+            "RX 9060 XT 16GB",
+            "1080p",
+            "16 GB",
+            "160–180 W",
+            "550 W class"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "How Big a Power Supply Does a 9800X3D Build Need?",
+      "body": [
+        "Size it to the graphics card. AMD rates the 9800X3D at a 120 W TDP, so the CPU adds a predictable load, while the card is the large one. Use the card maker's recommendation as a floor: 650 W for an RTX 5070, 750 W for an RX 9070 XT or RTX 5070 Ti, 850 W for an RTX 5080 and 1,000 W for an RTX 5090.",
+        "For the RTX 5080 and 5090, choose an ATX 3.x supply with a native 12V-2x6 cable and make sure the connector is fully seated. Our [PSU calculator](/tools/psu-calculator/) adds up the rest of the build."
+      ]
+    },
+    {
+      "h": "9800X3D vs 7800X3D: Does It Change Which GPU to Buy?",
+      "body": [
+        "Not much. Both have 8 cores and 96 MB of L3 cache, and the same cards suit both chips. The 9800X3D moves its cache below the cores, which lets it run higher clocks and opens it up to overclocking, and independent reviews show it ahead of the 7800X3D in games.",
+        "That extra speed matters most with the fastest cards at 1440p and high refresh rates. With an RTX 5090 or RTX 5080, the 9800X3D gets more out of the card. With an RX 9070 XT or slower, the two CPUs behave almost the same. Our [9800X3D vs 7800X3D comparison](/compare/ryzen-7-9800x3d-vs-ryzen-7-7800x3d/) and [best GPU for Ryzen 7 7800X3D](/best-gpu-for-ryzen-7-7800x3d/) cover the details."
+      ]
+    },
+    {
+      "h": "Can You Game on the 9800X3D's Integrated Graphics?",
+      "body": [
+        "Only lightly. The 9800X3D includes AMD Radeon Graphics with 2 compute units, which is meant for display output, troubleshooting and basic desktop use. It is useful for getting into the BIOS or installing drivers before a graphics card arrives.",
+        "It is not a gaming GPU. Even light esports titles run poorly on it, so treat it as a backup display adapter rather than a way to delay buying a card."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Pairing a 9800X3D with an old card for years",
+      "An RX 580 or GTX 1060-class card runs on a 9800X3D, but it wastes most of the CPU. Use an old card as a short stopgap only, and budget for a current card."
+    ],
+    [
+      "Buying an RTX 5090 for a 1440p 144 Hz monitor",
+      "At 1440p and moderate refresh rates, an RTX 5080 or RX 9070 XT already reaches the monitor's limit in most games. Match the card to your monitor before paying for the fastest one."
+    ],
+    [
+      "Undersizing the supply for an RTX 5080 or 5090",
+      "NVIDIA recommends 850 W for the RTX 5080 and 1,000 W for the RTX 5090. Use a quality ATX 3.x supply with a native 12V-2x6 cable."
+    ],
+    [
+      "Leaving EXPO and Resizable BAR off",
+      "Many AM5 boards ship with memory running at its base speed and Resizable BAR disabled. Turn on EXPO for your DDR5 kit and enable Resizable BAR, or you leave gaming performance unused."
+    ],
+    [
+      "Expecting no CPU limit at 1080p with a top card",
+      "Even a 9800X3D can be the limit with an RTX 5090 at 1080p. That is a sign the resolution is too low for the card, not that the CPU is slow."
+    ]
+  ],
+  "bottomLine": "For a Ryzen 7 9800X3D, the RTX 5080 is the GPU to buy in 2026: 16 GB, DLSS 4 and enough speed at 1440p and 4K for the CPU to make a real difference. Choose the RTX 5090 for 4K at maximum settings, the RX 9070 XT for value, the RTX 5070 Ti for NVIDIA at 1440p, and the RX 9060 XT 16GB for 1080p esports. No current card is meaningfully held back by this CPU.",
+  "faqs": [
+    {
+      "q": "What is the best GPU for a Ryzen 7 9800X3D?",
+      "a": "The RTX 5080 for 1440p high refresh and 4K. It has 16 GB of GDDR7 and DLSS 4, and it is fast enough for the 9800X3D's gaming speed to matter. The RX 9070 XT is the value pick and the RTX 5090 the fastest option."
+    },
+    {
+      "q": "What GPU doesn't bottleneck a Ryzen 7 9800X3D?",
+      "a": "In practice, every current graphics card runs at or near full speed with a 9800X3D at 1440p and 4K. Reviewers use it for GPU testing for that reason. Only the fastest cards at 1080p can run into a CPU limit, and that is true of any CPU."
+    },
+    {
+      "q": "Can a 9800X3D run an RX 580?",
+      "a": "Yes. An RX 580 works on any AM5 board and runs light games such as Valorant. The RX 580 will be the limit, not the CPU, and AMD has moved it to a maintenance driver schedule. Use it as a stopgap and plan an upgrade."
+    },
+    {
+      "q": "Is the RTX 5090 overkill for a 9800X3D?",
+      "a": "No, the 9800X3D is one of the CPUs best suited to an RTX 5090. The card is overkill for the monitor if you play at 1440p and moderate refresh rates; at 4K with maximum settings, it is the right match."
+    },
+    {
+      "q": "Is the RX 9070 XT good with a 9800X3D?",
+      "a": "Yes. It is the best value pairing for 1440p, with raster speed close to an RTX 5070 Ti and 16 GB of memory. The card will be the limit in almost every game, and the CPU leaves room for a faster card later."
+    },
+    {
+      "q": "Does the 9800X3D have integrated graphics?",
+      "a": "Yes, a small AMD Radeon GPU with 2 compute units. It drives a display for setup and troubleshooting, but it is not suitable for gaming. Plan on a dedicated graphics card."
+    },
+    {
+      "q": "What PSU do I need for a 9800X3D and RTX 5080?",
+      "a": "A quality 850 W supply, as NVIDIA recommends for the RTX 5080. The 9800X3D has a 120 W TDP. An ATX 3.x unit with a native 12V-2x6 cable is the cleanest choice."
+    },
+    {
+      "q": "Is the 9800X3D worth it over the 9600X for gaming?",
+      "a": "With an RTX 5080 or faster, or for high-refresh competitive play, yes. With a mid-range card at 1440p, a 9600X gives similar results in many games and the savings buy a better card."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 7 9800X3D product specifications",
+    "AMD AM5 chipset specifications and Smart Access Memory documentation",
+    "NVIDIA GeForce RTX 5090, 5080, 5070 Ti and 5070 product pages and power recommendations",
+    "AMD Radeon RX 9070 XT and RX 9060 XT product pages and AMD driver support notices for Polaris cards",
+    "Riot Games Valorant system requirements and Vanguard support documentation",
+    "Published GPU, CPU-scaling and PCIe-scaling reviews from TechPowerUp and Hardware Unboxed",
+    "Owner reports from AM5 builds on enthusiast forums"
+  ],
+  "related": [
+    "best-gpu-for-ryzen-7-7800x3d",
+    "best-cpu-cooler-for-ryzen-7-9800x3d",
+    "best-psu-for-rtx-5080"
+  ]
+}

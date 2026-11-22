@@ -1,0 +1,435 @@
+{
+  "slug": "best-gpu-for-ryzen-7-5800x3d",
+  "published": "2026-11-22",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 7 5800X3D (2026): 7 Cards, 1080p to 1440p",
+  "h1": "Best GPU for Ryzen 7 5800X3D",
+  "query": "best gpu for ryzen 7 5800x3d",
+  "description": "The RX 9070 XT is the best GPU for a Ryzen 7 5800X3D: 16 GB, a full x16 link and RTX 5070 Ti-class raster for $600–$730. 7 picks, incl. older cards.",
+  "dek": "AMD's first 3D V-Cache chip still games like a much newer CPU. These seven cards, new and last-gen, match it at 1080p and 1440p on any AM4 board.",
+  "intro": [
+    "The Radeon RX 9070 XT is the best GPU for a Ryzen 7 5800X3D in 2026. For $600–$730 it brings 16 GB of memory and raster speed close to an RTX 5070 Ti, and its full x16 link keeps it at full speed even on older B450 and X470 boards that run PCIe 3.0.",
+    "This page is for AM4 owners who bought the 5800X3D to stretch their platform and now want a graphics card that matches it. The chip's 96 MB of L3 cache keeps it competitive with newer CPUs in games, so it can drive more card than its age suggests. We also cover the 1080p question, older and discounted cards, and how the cheaper 5700X3D changes the picture."
+  ],
+  "quickAnswer": "Buy the RX 9070 XT ($600–$730) for 1440p. The RTX 5070 Ti ($750–$900) is the NVIDIA pick and about the highest card worth pairing. The RTX 5070 ($550–$650) is the value 1440p choice. For 1080p, the RX 9060 XT 16GB ($350–$400). For an older card, a discounted RX 6700 XT ($250–$330) or RTX 4070 ($500–$600).",
+  "picks": [
+    {
+      "id": "rx-9070-xt",
+      "label": "Best Overall Match",
+      "bestFor": "1440p high-refresh gaming on a 5800X3D, on any AM4 board",
+      "skipIf": "you rely on heavy ray tracing or path tracing, where NVIDIA keeps a clear lead",
+      "writeup": [
+        "The Ryzen 7 5800X3D was the first desktop chip with AMD's stacked 3D V-Cache, and at launch independent reviews put it level with Intel's Core i9-12900K in many games. That gaming speed is why it can still keep an upper mid-range card busy at 1440p, and the RX 9070 XT is the card that uses it best for the money.",
+        "In raster games, reviewers place the RX 9070 XT close to an RTX 5070 Ti, which usually costs more. It has 16 GB of memory on a 256-bit bus and supports FSR 4, AMD's machine-learning upscaler, which reviewers rate far above the older FSR 3.",
+        "It also suits the platform. Many 5800X3D owners kept a B450 or X470 board, which runs the graphics slot at PCIe 3.0. Because the RX 9070 XT uses a full x16 link, it has twice the bandwidth of an x8 card on those boards, so the older slot costs it very little.",
+        "At 1440p, the card sets the frame rate in most games, which is the balance you want. In CPU-heavy simulation and strategy titles, the 5800X3D's cache helps it hold up better than a regular Ryzen 5000 chip would.",
+        "Plan the power: AMD rates it at 304 W, and many partner cards run higher. A quality 750 W supply is the floor. If your current unit is an older 550 W or 650 W model, budget for a replacement."
+      ],
+      "pros": [
+        "Close to RTX 5070 Ti raster speed for less",
+        "16 GB of VRAM",
+        "Full x16 link suits PCIe 3.0 boards",
+        "FSR 4 support"
+      ],
+      "cons": [
+        "Ray tracing a tier behind NVIDIA",
+        "Needs a 750 W supply"
+      ]
+    },
+    {
+      "id": "rtx-5070-ti",
+      "label": "Best NVIDIA Pick",
+      "bestFor": "1440p with ray tracing, DLSS 4 and multi frame generation",
+      "skipIf": "you only play at 1080p, where the 5800X3D sets the limit before this card does",
+      "writeup": [
+        "The RTX 5070 Ti is about the fastest card that still makes sense with a 5800X3D. It matches the RX 9070 XT in raster games and moves ahead when ray tracing is on, with DLSS 4 and multi frame generation available in supported titles.",
+        "At 1440p, the pairing is close to balanced. In lighter games, the card is the limit. In CPU-heavy games, the 5800X3D starts to cap frame rates before the RTX 5070 Ti is fully used, and that point arrives sooner at 1080p. Frame generation helps here, because the generated frames do not depend on CPU speed.",
+        "It has 16 GB of GDDR7 and a full PCIe 5.0 x16 interface, which drops to PCIe 4.0 x16 on X570 and B550 boards and PCIe 3.0 x16 on older ones. Independent PCIe scaling reviews show only small losses for x16 cards at those speeds.",
+        "NVIDIA recommends a 750 W supply. Most models use the 12V-2x6 connector; an adapter ships in the box, but a modern ATX 3.x supply with a native cable is the cleaner option."
+      ],
+      "pros": [
+        "Strong ray tracing",
+        "DLSS 4 with multi frame generation",
+        "16 GB of VRAM",
+        "Full x16 link"
+      ],
+      "cons": [
+        "Usually costs more than the RX 9070 XT",
+        "Partly CPU-limited at 1080p"
+      ]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best 1440p Value",
+      "bestFor": "1440p at high settings for a mid-range budget",
+      "skipIf": "you keep cards for many years and play texture-heavy games; 12 GB is its ceiling",
+      "writeup": [
+        "The RTX 5070 is the cheaper way to get a strong 1440p card on a 5800X3D. It handles high settings in most games at that resolution, and DLSS 4 extends it further in titles that support it.",
+        "It is also an easy fit for an older AM4 build. NVIDIA rates it at 250 W and recommends a 650 W supply, so many existing systems can keep their power supply. It uses a full x16 link, so a PCIe 3.0 board costs little.",
+        "The trade-off is 12 GB of memory. That is fine for 1440p today, but less than the 16 GB on the RX 9070 XT and RX 9070. If raster speed and memory matter more than DLSS, the RX 9070 at a similar price is the alternative; our [RTX 5070 vs RX 9070 comparison](/compare/rtx-5070-vs-rx-9070/) covers that choice.",
+        "With a 5800X3D, this card and CPU are well matched at 1440p. Very few games will leave the RTX 5070 waiting on the processor at that resolution."
+      ],
+      "pros": [
+        "Good 1440p speed for the price",
+        "DLSS 4",
+        "Works with a 650 W supply",
+        "Full x16 link"
+      ],
+      "cons": [
+        "12 GB of VRAM",
+        "RX 9070 is faster in raster"
+      ]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best for 1080p",
+      "bestFor": "1080p high-refresh gaming at a budget price",
+      "skipIf": "you are moving to a 1440p monitor soon; an RX 9070 or RTX 5070 fits the CPU better there",
+      "writeup": [
+        "For a 1080p monitor, the RX 9060 XT 16GB is the best GPU for a 5800X3D. It costs $350–$400, runs high settings at 1080p in current games, and has 16 GB of memory, which protects it as games use more texture memory.",
+        "It is also one of the few budget cards that uses a full x16 link. Many cheaper cards, including the RTX 5060 and RTX 5060 Ti, use only eight lanes, which costs them bandwidth on a PCIe 3.0 B450 or X470 board. The RX 9060 XT keeps all sixteen.",
+        "At 1080p, a faster card shifts more of the work onto the CPU. The 5800X3D handles that better than most AM4 chips thanks to its cache, so the pairing makes sense if you want high frame rates in esports titles. If your monitor is 240 Hz or faster and you play competitive shooters, this card will usually be the limit, not the CPU.",
+        "AMD rates it at about 160 W, so it runs on a decent 550 W supply. For more cards at this price, see our [best graphics cards under $400](/best-graphics-card-under-400/)."
+      ],
+      "pros": [
+        "16 GB at a budget price",
+        "Full x16 link for PCIe 3.0 boards",
+        "Low power draw",
+        "FSR 4"
+      ],
+      "cons": [
+        "A 1080p card first",
+        "Weaker ray tracing than NVIDIA"
+      ]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best NVIDIA for 1080p",
+      "bestFor": "1080p on X570 or B550 boards with DLSS 4",
+      "skipIf": "your board is a B450 or X470 running PCIe 3.0; the RX 9060 XT 16GB keeps all 16 lanes",
+      "writeup": [
+        "If you want NVIDIA at 1080p, the RTX 5060 Ti 16GB is the card to get. It has 16 GB of GDDR7, DLSS 4 with multi frame generation, and a 180 W rating that suits older power supplies.",
+        "The catch is its PCIe 5.0 x8 interface. On X570 and B550 boards, it runs at PCIe 4.0 x8, which independent reviews show is enough for this class of card. On B450, X470 and A520 boards, it drops to PCIe 3.0 x8, and that loses some performance in certain games. The 16 GB version is less affected than the 8 GB model, because it rarely needs to move textures over the bus.",
+        "Check your board before you buy. If it is a 500-series board, this is a good NVIDIA pick. If it is a 400-series board, the RX 9060 XT 16GB is the safer choice. Our [RTX 5060 Ti 16GB vs RX 9060 XT 16GB comparison](/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/) sets the two side by side.",
+        "Avoid the 8 GB version on a 5800X3D build. Eight gigabytes is already tight at 1080p in some new games, and on an older PCIe 3.0 slot the penalty grows."
+      ],
+      "pros": [
+        "16 GB of VRAM",
+        "DLSS 4 with multi frame generation",
+        "180 W, easy on older supplies"
+      ],
+      "cons": [
+        "x8 link loses some speed on PCIe 3.0",
+        "Costs more than the RX 9060 XT 16GB"
+      ]
+    },
+    {
+      "id": "rx-6700-xt",
+      "label": "Best Older Card",
+      "bestFor": "buyers shopping used or clearance stock for 1080p and light 1440p",
+      "skipIf": "you can stretch to an RX 9060 XT 16GB, which adds FSR 4 and better ray tracing",
+      "writeup": [
+        "Not everyone wants a new card. If you are looking for the best outdated GPU for a 5800X3D, the RX 6700 XT is the one to look for. It launched in 2021, and it still has two things many newer budget cards lack: 12 GB of memory and a full x16 link.",
+        "That combination matters on older boards. On a PCIe 3.0 B450 or X470 system, a 12 GB x16 card avoids both the memory pressure and the bus penalty that hit 8 GB x8 cards. It handles 1080p at high settings in most games and lighter 1440p work.",
+        "Its weaknesses are age-related. It does not support FSR 4, its ray tracing is weak, and AMD rates it at 230 W, more than an RX 9060 XT for similar or lower speed. AMD recommends a 650 W supply.",
+        "Pay used or clearance prices only. At $250–$330, it makes sense; if the gap to a new RX 9060 XT 16GB is small, the newer card is the better buy."
+      ],
+      "pros": [
+        "12 GB of VRAM",
+        "Full x16 link",
+        "Often cheap used or on clearance"
+      ],
+      "cons": [
+        "No FSR 4",
+        "Weak ray tracing",
+        "230 W for its speed"
+      ]
+    },
+    {
+      "id": "rtx-4070",
+      "label": "Best Last-Gen NVIDIA",
+      "bestFor": "1440p with DLSS on a discounted or used card",
+      "skipIf": "it costs about the same as a new RTX 5070, which is faster and has multi frame generation",
+      "writeup": [
+        "The RTX 4070 is the other outdated GPU worth considering for a 5800X3D. It is a 12 GB, 200 W card with a PCIe 4.0 x16 interface, so it loses little on an older PCIe 3.0 board, and it supports DLSS 4 upscaling and frame generation, though not multi frame generation.",
+        "At 1440p, it is a good match for the 5800X3D. The card sets the frame rate in most games, and its low power draw means most 650 W supplies handle it without trouble.",
+        "Price is the deciding factor. The RTX 5070 replaced it and is faster, so the RTX 4070 only makes sense at a clear discount, either used or as leftover stock. Our [RTX 4070 vs RTX 5070 comparison](/compare/rtx-4070-vs-rtx-5070/) shows the gap.",
+        "If you find one well below RTX 5070 pricing, it is a sensible way to get a balanced 1440p system on an AM4 board you plan to keep for a few more years."
+      ],
+      "pros": [
+        "Efficient at 200 W",
+        "Full x16 link",
+        "DLSS upscaling and frame generation"
+      ],
+      "cons": [
+        "No multi frame generation",
+        "Only worth it at a clear discount"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "VRAM",
+    "PCIe interface",
+    "Board power",
+    "Recommended PSU"
+  ],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling and PCIe-scaling reviews, and owner reports from AM4 builds with X3D chips. None of these pairings were bench-tested by Enthusiast Review; statements about where the 5800X3D limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      [
+        "Balance with the CPU",
+        "We favored cards the 5800X3D can keep busy at their intended resolution, and stopped at the point where the CPU becomes the main limit."
+      ],
+      [
+        "PCIe link width",
+        "Many 5800X3D systems use PCIe 3.0 boards, so full x16 cards ranked above x8 cards at similar speed."
+      ],
+      [
+        "Memory",
+        "Cards with 12 GB or more ranked ahead of 8 GB cards, because AM4 owners tend to keep parts for years."
+      ],
+      [
+        "Value",
+        "Raster performance per dollar counted heavily, with ray tracing and upscaling as tie-breakers."
+      ],
+      [
+        "Power",
+        "Older AM4 builds often have 550 W to 650 W supplies, so we note what each card needs."
+      ]
+    ],
+    "why": "The RX 9070 XT won because it pairs RTX 5070 Ti-class raster speed and 16 GB with a full x16 link that works well on any AM4 board."
+  },
+  "mentions": [
+    {
+      "id": "rtx-5080",
+      "text": "The RTX 5080 runs fine on a 5800X3D at 4K, where the card does most of the work. At 1440p and 1080p, the CPU limits it in many games, so the RTX 5070 Ti or RX 9070 XT delivers nearly the same experience for less. It also needs an 850 W supply."
+    },
+    {
+      "id": "rx-6600",
+      "text": "The RX 6600 is a cheap 1080p card, and owners pair it with a 5800X3D for esports. It has only 8 GB and an x8 link, which loses some speed on PCIe 3.0 boards. Spending a little more on an RX 9060 XT 16GB is a better match for this CPU."
+    },
+    {
+      "id": "ryzen-7-9800x3d",
+      "text": "If you are thinking about an RTX 5080 or faster, a move to AM5 with a Ryzen 7 9800X3D makes more sense than a bigger card on AM4. Independent reviews show it well ahead of the 5800X3D in CPU-limited games, but it needs a new board and DDR5."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Is the Best GPU for a 5800X3D in 1080p?",
+      "body": [
+        "The RX 9060 XT 16GB. It has 16 GB of memory, a full x16 link that works well on PCIe 3.0 boards, and costs $350–$400. If you prefer NVIDIA and have an X570 or B550 board, the RTX 5060 Ti 16GB is the alternative.",
+        "At 1080p, more of the load falls on the CPU, because the graphics card renders each frame faster. This is where the 5800X3D's 96 MB of L3 cache helps most. Independent reviews have long shown the X3D chips holding higher and steadier frame rates than regular Ryzen 5000 chips in CPU-heavy games, especially in minimum frame rates.",
+        "That does not mean a 1080p player should buy an RX 9070 XT. Above roughly RTX 5070 speed, the 5800X3D becomes the limit at 1080p in many games, and you pay for performance you cannot use. A high-refresh 1080p monitor is the one case where a card like the RTX 5070 makes sense at that resolution."
+      ],
+      "table": {
+        "caption": "Which card fits which 5800X3D build",
+        "head": [
+          "Monitor",
+          "Good match",
+          "Step up",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "1080p 60–144 Hz",
+            "RX 9060 XT 16GB",
+            "RTX 5060 Ti 16GB",
+            "16 GB cards age better"
+          ],
+          [
+            "1080p 240 Hz",
+            "RTX 5070",
+            "RX 9070",
+            "CPU starts to set the limit"
+          ],
+          [
+            "1440p 144 Hz",
+            "RX 9070 XT",
+            "RTX 5070 Ti",
+            "Balanced with the 5800X3D"
+          ],
+          [
+            "4K 60–120 Hz",
+            "RTX 5070 Ti",
+            "RTX 5080",
+            "Card does most of the work"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Best Outdated GPU for a 5800X3D?",
+      "body": [
+        "The RX 6700 XT for budget builds and the RTX 4070 for 1440p, as long as each is clearly cheaper than its newer replacement. Both have 12 GB of memory and a full x16 link, which is what matters most on an older AM4 board.",
+        "Other last-generation cards that suit a 5800X3D on the used market include the Radeon RX 6800 and RX 6800 XT, both with 16 GB, and the RTX 3080. They are reasonable buys used if the price is well below a new RX 9060 XT 16GB or RTX 5070, but check power needs first: the RTX 3080 and RX 6800 XT draw considerably more than current cards of similar speed.",
+        "Avoid older 8 GB cards with an x8 link, such as the RX 6600 XT or RX 6650 XT, unless the price is very low. On a PCIe 3.0 board, the combination of limited memory and half the lanes hurts more in newer games. Our [old AMD GPU equivalents](/old-amd-gpu-equivalents/) and [old NVIDIA GPU equivalents](/old-nvidia-gpu-equivalents/) charts help you compare older cards with current ones."
+      ]
+    },
+    {
+      "h": "Ryzen 7 5700X3D vs 5800X3D: Does It Change Which GPU to Buy?",
+      "body": [
+        "No. The Ryzen 7 5700X3D and 5800X3D have the same 8 cores, the same 96 MB of L3 cache and the same 105 W TDP. The difference is clock speed: AMD rates the 5800X3D at up to 4.5 GHz and the 5700X3D at up to 4.1 GHz.",
+        "Independent reviews put the 5700X3D slightly behind in games, a gap most players would not notice at 1440p. The same cards suit both chips, and the same ceiling applies: an RTX 5070 Ti or RX 9070 XT is about the most you should pair with either at 1440p.",
+        "If you are still choosing between them for an AM4 upgrade, the 5700X3D is usually the better buy because it costs less, often $200–$260 against $280–$350 for the 5800X3D. Our [5800X3D vs 5700X3D comparison](/compare/ryzen-7-5800x3d-vs-ryzen-7-5700x3d/) covers the details."
+      ]
+    },
+    {
+      "h": "Will a 5800X3D Bottleneck an RTX 5070 Ti or RX 9070 XT?",
+      "body": [
+        "Only a little, and mostly at 1080p. At 1440p, these cards set the frame rate in most games on a 5800X3D. In CPU-heavy games such as large strategy titles, city builders and some open-world games, the CPU can cap frame rates before the card is fully used.",
+        "At 4K, the 5800X3D is rarely the limit with either card. At 1080p, the CPU becomes the limit more often, which is why a cheaper card makes more sense at that resolution.",
+        "Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for your exact pairing and resolution. Remember that a small CPU limit is normal: some part of every system is always the limiting factor, and what matters is whether the frame rate meets your monitor's refresh rate."
+      ]
+    },
+    {
+      "h": "Does Your AM4 Board Run the GPU at PCIe 4.0 or 3.0?",
+      "body": [
+        "It depends on the chipset. X570 and B550 boards run the main graphics slot at PCIe 4.0 with a 5800X3D. B450, X470 and A520 boards run it at PCIe 3.0, even though the CPU itself supports PCIe 4.0.",
+        "For x16 cards, PCIe 3.0 costs little, as independent PCIe scaling reviews have shown repeatedly. For x8 cards, such as the RTX 5060, RTX 5060 Ti and RX 6600, PCIe 3.0 halves the available bandwidth and can cost performance in some games, more so on 8 GB models.",
+        "Resizable BAR, called Smart Access Memory by AMD, is supported with the 5800X3D on 500-series boards and on many 400-series boards after a BIOS update. Enable it, along with Above 4G Decoding, in the BIOS for a small gain with modern cards."
+      ],
+      "table": {
+        "caption": "Each pick on a 5800X3D system",
+        "head": [
+          "Card",
+          "Link",
+          "On a PCIe 3.0 board",
+          "VRAM",
+          "Recommended PSU"
+        ],
+        "rows": [
+          [
+            "RX 9070 XT",
+            "x16",
+            "Full width, minor loss",
+            "16 GB",
+            "750 W"
+          ],
+          [
+            "RTX 5070 Ti",
+            "x16",
+            "Full width, minor loss",
+            "16 GB",
+            "750 W"
+          ],
+          [
+            "RTX 5070",
+            "x16",
+            "Full width, minor loss",
+            "12 GB",
+            "650 W"
+          ],
+          [
+            "RX 9060 XT 16GB",
+            "x16",
+            "Full width, minor loss",
+            "16 GB",
+            "550 W class"
+          ],
+          [
+            "RTX 5060 Ti 16GB",
+            "x8",
+            "Some loss in certain games",
+            "16 GB",
+            "550 W class"
+          ],
+          [
+            "RX 6700 XT",
+            "x16",
+            "Full width, minor loss",
+            "12 GB",
+            "650 W"
+          ],
+          [
+            "RTX 4070",
+            "x16",
+            "Full width, minor loss",
+            "12 GB",
+            "650 W"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Do You Need a New Power Supply?",
+      "body": [
+        "Possibly. The 5800X3D has a 105 W TDP, and many AM4 builds from 2018 to 2021 used 550 W or 650 W supplies sized for an older graphics card. That is enough for an RX 9060 XT 16GB, RTX 5060 Ti or RTX 5070, but not for an RX 9070 XT or RTX 5070 Ti.",
+        "Use the manufacturer's recommendation as the floor: 650 W for an RTX 5070 or RTX 4070, 750 W for an RX 9070 XT or RTX 5070 Ti. Also check the age of your supply. A unit that has run daily for five or more years is worth replacing when you add a much more power-hungry card. Our [PSU calculator](/tools/psu-calculator/) adds up a full build."
+      ]
+    },
+    {
+      "h": "Is It Worth Moving to a Ryzen 7 9800X3D Instead?",
+      "body": [
+        "Not for most 5800X3D owners. The 5800X3D still keeps cards up to an RTX 5070 Ti or RX 9070 XT busy at 1440p, and a move to AM5 means a new CPU, motherboard and DDR5 memory. DDR5 prices have swung hard since late 2025, which makes the full platform change more expensive than it was.",
+        "The case for AM5 is a high-end card. If you want an RTX 5080 or RTX 5090 at 1440p, or you play CPU-heavy games at very high refresh rates, the 9800X3D extracts noticeably more. Our [5800X3D vs 9800X3D comparison](/compare/ryzen-7-5800x3d-vs-ryzen-7-9800x3d/) covers how far apart they are."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Buying an 8 GB x8 card for a B450 board",
+      "Cards like the RTX 5060 and RX 6600 use eight PCIe lanes. On a PCIe 3.0 B450 or X470 board, that halves their bandwidth, and 8 GB of memory makes it worse in new games. Choose an x16 card or a 16 GB model."
+    ],
+    [
+      "Pairing an RTX 5080 or 5090 for 1080p",
+      "At 1080p, the 5800X3D limits top cards in many games, so much of the extra money is wasted. Stop at an RTX 5070 or RX 9070 for 1080p, and at an RTX 5070 Ti or RX 9070 XT for 1440p."
+    ],
+    [
+      "Keeping an old 550 W supply for a 300 W card",
+      "An RX 9070 XT or RTX 5070 Ti calls for 750 W. Many AM4 builds still run the supply they launched with, and an aging unit under a much heavier load is the most common cause of crashes after a GPU upgrade."
+    ],
+    [
+      "Skipping the BIOS and Resizable BAR check",
+      "Update to a recent BIOS for your board, then enable Resizable BAR and Above 4G Decoding. Many boards ship with them off, and modern cards, especially Intel Arc, rely on them."
+    ]
+  ],
+  "bottomLine": "For a Ryzen 7 5800X3D, the RX 9070 XT is the GPU to buy in 2026: 16 GB, RTX 5070 Ti-class raster speed and a full x16 link that works on any AM4 board. Choose the RTX 5070 Ti for ray tracing and DLSS 4, the RTX 5070 for value, and the RX 9060 XT 16GB for 1080p. If you are buying older, an RX 6700 XT or RTX 4070 at a clear discount is a sensible match. Anything faster than an RTX 5070 Ti belongs on AM5.",
+  "faqs": [
+    {
+      "q": "What is the best GPU for a Ryzen 7 5800X3D?",
+      "a": "The RX 9070 XT for 1440p. It has 16 GB of memory, raster speed close to an RTX 5070 Ti, and a full x16 link that works well on PCIe 3.0 boards. The RTX 5070 Ti is the NVIDIA option, and the RX 9060 XT 16GB is the best pick for 1080p."
+    },
+    {
+      "q": "What is the best GPU for a 5800X3D at 1080p?",
+      "a": "The RX 9060 XT 16GB. It runs high settings at 1080p, has 16 GB of memory and keeps all 16 PCIe lanes, which matters on B450 and X470 boards. For a 240 Hz monitor in competitive games, an RTX 5070 is the step up."
+    },
+    {
+      "q": "What is the best outdated GPU for a 5800X3D?",
+      "a": "The RX 6700 XT for budget builds and the RTX 4070 for 1440p, bought used or on clearance. Both have 12 GB of memory and a full x16 link. Only buy them at a clear discount to the RX 9060 XT 16GB and RTX 5070 that replaced them."
+    },
+    {
+      "q": "Can a 5800X3D handle an RTX 5080?",
+      "a": "Yes, at 4K, where the graphics card sets the frame rate. At 1440p and 1080p, the 5800X3D limits an RTX 5080 in many games, so an RTX 5070 Ti or RX 9070 XT gives a similar experience for less. The card also needs an 850 W supply."
+    },
+    {
+      "q": "Is the 5700X3D or 5800X3D better for gaming?",
+      "a": "The 5800X3D is slightly faster because of its higher 4.5 GHz boost clock, but both have 8 cores and 96 MB of L3 cache. Independent reviews show a small gap in games. The 5700X3D usually costs less, so it is the better value upgrade for most AM4 owners."
+    },
+    {
+      "q": "Does the 5800X3D support PCIe 4.0?",
+      "a": "Yes, but only on X570 and B550 boards. On B450, X470 and A520 boards, the graphics slot runs at PCIe 3.0. That costs x16 cards very little but can slow x8 cards like the RTX 5060 Ti in some games."
+    },
+    {
+      "q": "Does the 5800X3D have integrated graphics?",
+      "a": "No. The Ryzen 7 5800X3D has no integrated graphics, so you need a graphics card to get a display at all. Keep your old card until the new one is installed if you need to update the BIOS or drivers first."
+    },
+    {
+      "q": "What PSU do I need for a 5800X3D and RX 9070 XT?",
+      "a": "A quality 750 W supply. AMD rates the RX 9070 XT at 304 W, and partner cards often draw more, while the 5800X3D has a 105 W TDP. If your current supply is an older 550 W or 650 W unit, replace it."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 7 5800X3D and Ryzen 7 5700X3D product specifications",
+    "AMD AM4 chipset specifications and Smart Access Memory documentation",
+    "AMD Radeon RX 9070 XT, RX 9060 XT and RX 6700 XT product pages and power recommendations",
+    "NVIDIA GeForce RTX 5070 Ti, RTX 5070, RTX 5060 Ti and RTX 4070 product pages and power recommendations",
+    "Published CPU-scaling and PCIe-scaling reviews from TechPowerUp and Hardware Unboxed",
+    "Owner reports from AM4 X3D builds on enthusiast forums"
+  ],
+  "related": [
+    "best-gpu-for-ryzen-7-5700x",
+    "best-graphics-card-for-1440p",
+    "best-psu-for-rx-9070-xt"
+  ]
+}

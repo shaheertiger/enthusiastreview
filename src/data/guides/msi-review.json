@@ -134,7 +134,7 @@
       "h": "Where MSI Falls Short",
       "body": [
         "MSI's naming is confusing. The same board can come in WiFi and non-WiFi versions, with MAX or II suffixes for later revisions, and PRO boards use letters like -A, -P and -E that are easy to mix up. Always check the full model name against MSI's spec page before buying.",
-        "MSI Center, the company's Windows utility, is a frequent complaint in owner reports: it is large, installs many modules and is not required for most users. You can control fans and RGB in the BIOS and skip it. In 2023, MSI also suffered a ransomware breach in which firmware signing keys were reported stolen, and it advised customers to get BIOS updates only from its official site. That is good advice for any brand.",
+        "MSI Center, the company's Windows utility, is a frequent complaint in owner reports: it is large, installs many modules and is not required for most users. You can control fans and RGB in the BIOS and skip it; if you want software lighting, our [MSI Mystic Light guide](/msi-mystic-light-rgb-software/) shows how to install just that module. In 2023, MSI also suffered a ransomware breach in which firmware signing keys were reported stolen, and it advised customers to get BIOS updates only from its official site. That is good advice for any brand.",
         "Finally, MSI's midrange boards rarely include premium extras like a POST code display or a large number of rear USB ports. That is common across brands, but ASUS and Gigabyte sometimes include more at similar prices."
       ]
     },
