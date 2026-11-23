@@ -1,0 +1,251 @@
+{
+  "slug": "best-gpu-for-ryzen-5-3600",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 5 3600 (2026): 5 Cards That Fit Zen 2",
+  "h1": "Best GPU for Ryzen 5 3600",
+  "query": "best gpu for ryzen 5 3600",
+  "description": "The RX 9060 XT 16GB is the best GPU for a Ryzen 5 3600: 16 GB and a full x16 link for B450 or B550 boards at $350–$400. 5 picks, 1080p to 1440p.",
+  "dek": "The Ryzen 5 3600 is still in millions of gaming PCs. These five cards suit its six Zen 2 cores, its PCIe 4.0 support and the B450 boards most of them sit on.",
+  "intro": [
+    "The Radeon RX 9060 XT 16GB is the best GPU for a Ryzen 5 3600 in 2026. It costs $350–$400, has 16 GB of VRAM and a full sixteen-lane connection, so it runs at full speed on a B550 board and loses almost nothing on the PCIe 3.0 slot of a B450 board.",
+    "This page is only about the Ryzen 5 3600, the six-core Zen 2 chip AMD released in July 2019. It covers which card the CPU can actually feed at 1080p and 1440p, what your chipset does to the graphics slot, where the 3600 starts to hold a card back, and when a Ryzen 7 5700X3D is a better buy than a bigger GPU."
+  ],
+  "quickAnswer": "Buy the RX 9060 XT 16GB ($350–$400) for 1080p on a Ryzen 5 3600. Choose the RX 9070 ($550–$620) if you play at 1440p, or the RTX 5060 Ti 16GB ($430–$480) if you want DLSS 4 and NVENC. On a tight budget the RX 6700 XT ($250–$330) is the safe x16 pick. Save an RTX 5070 for after a Ryzen 7 5700X3D swap.",
+  "picks": [
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best Overall Match",
+      "bestFor": "Ryzen 5 3600 owners gaming at 1080p on a B450, B550 or X570 board",
+      "skipIf": "you need CUDA for editing or local AI tools",
+      "writeup": [
+        "The RX 9060 XT 16GB is the card a Ryzen 5 3600 is best matched to. Its performance tier sits right where a six-core Zen 2 chip runs out of breath at 1080p, so very little of what you pay for goes unused. Independent reviews put it a small step behind the RTX 5060 Ti 16GB in raster games, for roughly $80 less.",
+        "The connection matters more on a 3600 than on a new PC. Most 3600 systems use a B450 or X470 board, which runs the graphics slot at PCIe 3.0. The RX 9060 XT uses all sixteen lanes, so it still gets about 16 GB/s each way there. On a B550 or X570 board the same card runs at PCIe 4.0 x16 and the question disappears.",
+        "Sixteen gigabytes of memory is the other half of the case. When a card runs out of VRAM, it has to pull textures across the PCIe bus, and an older bus makes that worse. With 16 GB, current games at high textures stay on the card. AMD's driver also asks less of the CPU than Intel's Arc driver, which matters on a chip with six cores.",
+        "It draws roughly 160–180 W depending on the model, so the 550 W supply many 2019 builds shipped with is usually enough. Buy the 16 GB model; the 8 GB version shares the name and is a worse fit for an older platform."
+      ],
+      "pros": ["Full x16 link on PCIe 3.0 or 4.0", "16 GB keeps textures off the bus", "Speed tier the 3600 can feed at 1080p", "Runs on most 550 W supplies"],
+      "cons": ["Ray tracing trails NVIDIA", "8 GB model shares the name"]
+    },
+    {
+      "id": "rx-9070",
+      "label": "Best for 1440p",
+      "bestFor": "Ryzen 5 3600 owners with a 1440p monitor and a 650 W supply",
+      "skipIf": "you play esports titles at 1080p",
+      "writeup": [
+        "At 1440p the graphics card does more work per frame, and that is when a Ryzen 5 3600 can use a stronger GPU. The RX 9070 has 16 GB of GDDR6 on a 256-bit bus, a full x16 link and a 220 W rating. Reviewers generally place it slightly ahead of the RTX 5070 with ray tracing off.",
+        "Be realistic about the ceiling. Review charts for this card are built around a Ryzen 7 9800X3D, and a 3600 will not match them in CPU-heavy games: large multiplayer shooters, strategy games, city builders and simulators. In graphically heavy single-player games at 1440p the card carries most of the load, and the step up from an RX 5700 or GTX 1660-class card is large.",
+        "It is also the card that keeps paying off after a CPU swap. Drop a Ryzen 7 5700X3D into the same board later and the RX 9070 has the headroom to use it. AMD recommends a 650 W supply, and many 3600 builds came with 550 W units, so check the label first. At 1080p this card is more than the 3600 can use; buy the RX 9060 XT 16GB there instead."
+      ],
+      "pros": ["16 GB on a full x16 link", "Strong 1440p raster performance", "Room to grow after a 5700X3D swap"],
+      "cons": ["CPU-limited in many games", "Needs a 650 W supply"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best NVIDIA Match",
+      "bestFor": "owners who stream, edit or want DLSS 4 and NVENC",
+      "skipIf": "you are on a B450 board and want the most frames per dollar",
+      "writeup": [
+        "If you want a GeForce card for a Ryzen 5 3600, the RTX 5060 Ti 16GB is the sensible one. It is rated at 180 W, carries 16 GB of GDDR7 and brings DLSS 4, NVIDIA Reflex, the NVENC encoder and CUDA support for Blender, DaVinci Resolve and local AI tools. In a modern PC it edges the RX 9060 XT 16GB on average in independent reviews.",
+        "Your motherboard decides how good a match it is. The card has an eight-lane PCIe 5.0 interface. With a 3600 on a B550 or X570 board it runs at PCIe 4.0 x8, which carries the same bandwidth as 3.0 x16, so there is no real penalty. On a B450 or X470 board it drops to PCIe 3.0 x8. Published PCIe scaling reviews found the 16 GB model loses only a few percent on average there, because its large memory rarely needs the bus.",
+        "That small loss, plus a price about $80 higher, is why the RX 9060 XT 16GB ranks first for most 3600 owners. If you record gameplay, stream or edit, NVENC and CUDA are worth the difference. DLSS frame generation can also raise the displayed frame rate when the 3600 is the limit, though it does not lower input lag."
+      ],
+      "pros": ["DLSS 4, NVENC and CUDA", "16 GB keeps PCIe 3.0 losses small", "No penalty on B550 or X570"],
+      "cons": ["Runs at 3.0 x8 on B450", "About $80 more than the RX 9060 XT 16GB"]
+    },
+    {
+      "id": "rx-6700-xt",
+      "label": "Best Budget Pick",
+      "bestFor": "1080p players with about $300 to spend who want a full x16 card",
+      "skipIf": "you can stretch to the RX 9060 XT 16GB",
+      "writeup": [
+        "The RX 6700 XT is an older card, released in 2021, and that is why it suits a Ryzen 5 3600 on a budget. It has 12 GB of GDDR6, a 192-bit bus and a full x16 PCIe 4.0 link, so it keeps full bandwidth on a B450 board. Remaining stock sells for about $250–$330.",
+        "Its 12 GB is the reason to pick it over the cheaper 8 GB cards. An 8 GB card that runs out of memory on a PCIe 3.0 board stutters badly; a 12 GB card avoids that in most current games at 1080p high settings. Its raster performance is a good match for what the 3600 can deliver at 1080p.",
+        "The trade-offs are age and power. It is rated at 230 W, more than the newer RX 9060 XT, and AMD recommends a 650 W supply. It lacks official FSR 4 support, which AMD limits to RDNA 4 cards, and its ray tracing is weak. Check prices carefully: if an RX 9060 XT 16GB is within about $50, the newer card is the better buy."
+      ],
+      "pros": ["12 GB on a full x16 link", "Good 1080p match for the 3600", "Low price where still stocked"],
+      "cons": ["230 W, wants a 650 W supply", "No FSR 4, weak ray tracing", "Stock is shrinking"]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best With a CPU Upgrade",
+      "bestFor": "owners adding a Ryzen 7 5700X3D to the same board",
+      "skipIf": "you are keeping the 3600 and play at 1080p",
+      "writeup": [
+        "The RTX 5070 belongs on this list with a condition: buy it as part of a two-step upgrade. On a Ryzen 5 3600 at 1080p, much of its performance goes unused in demanding games, because the CPU cannot prepare frames fast enough. At 1440p it does better, but the 3600 still caps it in CPU-heavy titles.",
+        "Pair it with a Ryzen 7 5700X3D and the balance changes. That chip drops into the same AM4 board after a BIOS update, keeps your DDR4 and adds 96 MB of L3 cache, which lifts frame rates in the exact games where the 3600 struggles. Together the two parts turn an old AM4 build into a high-refresh 1440p PC without a new board or memory.",
+        "On paper the RTX 5070 has 12 GB of GDDR7, DLSS 4 with multi frame generation and a 250 W rating, with NVIDIA recommending a 650 W supply. It uses a full x16 link, so a B450 board costs it little. The caution is memory: 12 GB is fine at 1440p today but tighter than the RX 9070's 16 GB over a long ownership. Check your pairing with the [bottleneck calculator](/tools/bottleneck-calculator/)."
+      ],
+      "pros": ["Full x16 link", "DLSS 4 multi frame generation", "Strong match for a 5700X3D"],
+      "cons": ["Held back by the 3600 at 1080p", "12 GB is less than the RX 9070"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "PCIe interface", "Board power", "Memory bus"],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published CPU-scaling and PCIe-scaling reviews, and reports from owners running a Ryzen 5 3600. None of these pairings were bench-tested by Enthusiast Review. Statements about bottlenecks and PCIe losses reflect what independent reviewers have widely reported, not data of our own.",
+    "criteria": [
+      ["CPU balance", "We favored cards whose performance tier a six-core Zen 2 chip can feed at 1080p and 1440p, so little of the purchase price sits idle."],
+      ["Slot fit", "Most 3600 systems run PCIe 3.0 on B450 or X470. Full x16 cards, or x8 cards with 16 GB, ranked higher."],
+      ["Memory", "Cards with 12 GB or more scored higher because running out of VRAM hurts most on an older bus."],
+      ["Power supply reality", "Many 2019 builds have 450 W to 550 W supplies, so board power and the maker's PSU advice counted."],
+      ["Upgrade path", "Cards that stay useful after a Ryzen 7 5700X3D swap earned credit."]
+    ],
+    "why": "A full x16 link, 16 GB of memory and a speed tier the Ryzen 5 3600 can feed made the RX 9060 XT 16GB the clear first pick."
+  },
+  "mentions": [
+    {
+      "id": "arc-b580",
+      "text": "The Arc B580 looks like a bargain at $250–$290 with 12 GB, but independent reviews in early 2025 widely reported that its driver overhead costs it a large share of its performance on older CPUs, the Ryzen 5 3600 among them. It also runs at 3.0 x8 on B450 boards. Buy the RX 6700 XT or RX 9060 XT 16GB instead."
+    },
+    {
+      "id": "rtx-5060",
+      "text": "The RTX 5060 is fine for Counter-Strike 2, Valorant and Fortnite at $300–$330, but it pairs 8 GB with an eight-lane link. On a B450 board that means 3.0 x8, and newer games that overflow 8 GB stutter badly in that setup. The RX 9060 XT 16GB costs about $50 more and avoids the problem."
+    },
+    {
+      "id": "ryzen-7-5700x3d",
+      "text": "Not a graphics card, but for many 3600 owners the better first purchase. It drops into B450, B550 and X570 boards after a BIOS update, adds two cores and 96 MB of L3 cache and keeps your DDR4. At $200–$260 where available, it often adds more frames in CPU-heavy games than a GPU upgrade."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What GPU Is Best for a Ryzen 5 3600 Without a Bottleneck?",
+      "body": [
+        "At 1080p, a card in the RX 9060 XT 16GB or RTX 5060 Ti 16GB tier is about as fast as a Ryzen 5 3600 can keep busy in most games. At 1440p you can step up to an RX 9070 or RTX 5070, because the higher resolution gives the graphics card more work per frame. Above that, the 3600 sets the frame rate in many games and the extra money buys little.",
+        "No pairing is free of bottlenecks in every game. A light esports title at low settings will be CPU-limited on almost any modern card, while a heavy single-player game at 1440p will be GPU-limited even on a fast card. The table below is a practical ceiling: going beyond it is money better spent on a CPU upgrade first."
+      ],
+      "table": {
+        "caption": "Sensible GPU ceiling for a Ryzen 5 3600",
+        "head": ["Resolution", "Good match", "Upper limit", "Beyond this"],
+        "rows": [
+          ["1080p", "RX 9060 XT 16GB", "RTX 5060 Ti 16GB", "Upgrade the CPU first"],
+          ["1440p", "RX 9070", "RTX 5070", "Pair with a Ryzen 7 5700X3D"],
+          ["4K", "RX 9070", "RX 9070 XT", "Mostly GPU-limited, but check your PSU"]
+        ]
+      }
+    },
+    {
+      "h": "Does the Ryzen 5 3600 Support PCIe 4.0?",
+      "body": [
+        "Yes, the CPU supports PCIe 4.0, but only B550 and X570 boards turn it on. The Ryzen 5 3600 was one of the first desktop chips with PCIe 4.0. On a B450, X470, B350 or X370 board the graphics slot runs at PCIe 3.0, because those boards were designed before PCIe 4.0 and AMD disabled it on them.",
+        "This is the single most useful thing to check before you buy a card. On B550 or X570 every card on this page runs at its best. On a 400-series board, choose a full x16 card or a 16 GB x8 card. You can confirm the live link speed in the free GPU-Z tool; run a load first, because cards drop to a slower link at idle."
+      ],
+      "table": {
+        "caption": "Graphics slot speed with a Ryzen 5 3600",
+        "head": ["Chipset", "Slot runs at", "x8 card gets", "x16 card gets"],
+        "rows": [
+          ["B350, X370", "PCIe 3.0", "3.0 x8 (about 8 GB/s)", "3.0 x16 (about 16 GB/s)"],
+          ["B450, X470", "PCIe 3.0", "3.0 x8 (about 8 GB/s)", "3.0 x16 (about 16 GB/s)"],
+          ["B550", "PCIe 4.0", "4.0 x8 (about 16 GB/s)", "4.0 x16 (about 32 GB/s)"],
+          ["X570", "PCIe 4.0", "4.0 x8 (about 16 GB/s)", "4.0 x16 (about 32 GB/s)"]
+        ]
+      }
+    },
+    {
+      "h": "Will a Ryzen 5 3600 Bottleneck an RTX 5070 or RX 9070 XT?",
+      "body": [
+        "Yes, at 1080p in most demanding games, and at 1440p in CPU-heavy ones. A bottleneck means the processor cannot prepare frames as fast as the card can draw them, so the card waits. An RTX 5070 or RX 9070 XT can draw far more frames at 1080p than a six-core Zen 2 chip supplies in modern open-world and multiplayer games.",
+        "It is not wasted money in every case. If you play graphically heavy single-player games at 1440p or 4K, the card will be busy most of the time. If you plan to add a Ryzen 7 5700X3D within a year, buying the bigger card first is reasonable. The RX 9070 XT also has a 304 W rating, and AMD recommends a 750 W supply, which few 3600 builds have. Run your pair through the [bottleneck calculator](/tools/bottleneck-calculator/) for a quick read."
+      ]
+    },
+    {
+      "h": "Is the Ryzen 5 3600 Still Good for Gaming in 2026?",
+      "body": [
+        "It is still a capable 60 fps gaming CPU, but it is now entry level. Six Zen 2 cores at up to 4.2 GHz with 32 MB of L3 cache run almost every current game, and many at well above 60 fps. Where it falls short is high-refresh play and CPU-heavy games, where newer chips with more cache pull clearly ahead in independent reviews.",
+        "That makes the GPU choice simple: buy a card whose tier the 3600 can feed, and plan a cheap CPU swap later. AM4 boards support the Ryzen 5000 series after a BIOS update, so the 3600 is one of the few older CPUs with a drop-in upgrade that changes the picture."
+      ],
+      "table": {
+        "caption": "Ryzen 5 3600 at a glance (AMD specifications)",
+        "head": ["Spec", "Ryzen 5 3600"],
+        "rows": [
+          ["Released", "July 2019"],
+          ["Architecture", "Zen 2, 7 nm"],
+          ["Cores / threads", "6 / 12"],
+          ["Base / boost clock", "3.6 GHz / 4.2 GHz"],
+          ["L3 cache", "32 MB"],
+          ["TDP", "65 W"],
+          ["PCIe", "4.0 (on B550 and X570 boards)"],
+          ["Cooler in box", "Wraith Stealth"]
+        ]
+      }
+    },
+    {
+      "h": "Which GPU Should You Buy for Minecraft, Roblox or Fortnite on a 3600?",
+      "body": [
+        "For light and esports games, you do not need much card. Minecraft without shaders, Roblox, Valorant and Counter-Strike 2 lean on the CPU more than the GPU, so a Ryzen 5 3600 sets the frame rate long before a mid-range card runs out. A budget card like the RX 6700 XT, or even an existing GTX 1660-class card, is enough for these at 1080p.",
+        "The picture changes with shader packs in Minecraft or with Fortnite at high settings and Nanite or Lumen effects on. Those load the graphics card hard, and an RX 9060 XT 16GB or RTX 5060 Ti 16GB is the right tier. If your goal is the highest possible frame rate in competitive shooters, the CPU is the better upgrade; a 5700X3D does more for 240 Hz play than a faster GPU."
+      ]
+    },
+    {
+      "h": "Do You Need a New Power Supply for a New GPU?",
+      "body": [
+        "Often not for the first two picks, but check. Many Ryzen 5 3600 builds from 2019 and 2020 have a 450 W to 550 W supply. The RX 9060 XT 16GB and RTX 5060 Ti 16GB are fine on a good 550 W unit. The RX 9070, RX 6700 XT and RTX 5070 call for 650 W, and the RX 9070 XT for 750 W according to their makers.",
+        "Age matters as much as wattage. A budget supply that has run for five or six years may not deliver its label rating cleanly under a modern card's power spikes. Check the label, the connectors and the warranty, then run the [PSU calculator](/tools/psu-calculator/). If you need a new unit, our [power supply guide](/best-power-supply/) covers current options."
+      ]
+    },
+    {
+      "h": "Should You Upgrade the 3600 Before the GPU?",
+      "body": [
+        "Upgrade whichever part is further behind. If your card is a GTX 1060, RX 580 or older, buy the graphics card first: almost every game will improve. If you already own an RTX 3060, RX 6600 or similar, and frame rates stall in CPU-heavy games, a Ryzen 7 5700X3D gives the bigger gain for the money.",
+        "The 5700X3D swap is simple on most boards, but follow the order below. It uses the same AM4 socket, so your memory and board stay."
+      ],
+      "list": [
+        "Check your board's CPU support list for the 5700X3D and download the newest stable BIOS.",
+        "Flash the BIOS with the 3600 still installed, unless the board has a flashback button.",
+        "Plan a cooler: the 5700X3D has a 105 W TDP and ships without one. A tower like the [Thermalright Assassin X 120 Refined SE](/gear/thermalright-assassin-x-120-refined-se/) is enough.",
+        "Swap the CPU, re-enable your memory's XMP profile and check temperatures under load."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying an 8 GB x8 card for a B450 board", "Cards like the RTX 5060 and RTX 5060 Ti 8GB use eight lanes. On a B450 board with a 3600 they run at 3.0 x8, and when their memory fills, performance drops into stutter. Pick a 16 GB card or a full x16 card for these systems."],
+    ["Spending flagship money on a six-core Zen 2 chip", "An RX 9070 XT or RTX 5070 Ti on a 3600 at 1080p waits on the processor in most demanding games. A Ryzen 7 5700X3D plus an RX 9070 usually delivers more for similar total money."],
+    ["Assuming PCIe 4.0 on every board", "The 3600 supports PCIe 4.0, but B450 and X470 boards run it at 3.0. Check the chipset before buying an x8 card, and confirm the link in GPU-Z under load."],
+    ["Choosing the Arc B580 on price", "Its 12 GB for under $300 is tempting, but its driver overhead was widely reported to hit older CPUs like the 3600 hardest. The RX 6700 XT or RX 9060 XT 16GB are safer choices."],
+    ["Ignoring an old power supply", "A five-year-old 500 W budget unit may struggle with a 220 W to 250 W card. Check the wattage and connectors, and replace a doubtful supply before it takes other parts with it."]
+  ],
+  "bottomLine": "For a Ryzen 5 3600, the RX 9060 XT 16GB is the card to buy in 2026: a full x16 link that ignores the B450 versus B550 question, 16 GB of memory and a speed the CPU can feed at 1080p. Choose the RX 9070 at 1440p, the RTX 5060 Ti 16GB if you need NVIDIA software, and the RX 6700 XT if $300 is the limit. Save the RTX 5070 for a build that is getting a Ryzen 7 5700X3D too.",
+  "faqs": [
+    {
+      "q": "What is the best GPU for a Ryzen 5 3600?",
+      "a": "The RX 9060 XT 16GB is the best GPU for a Ryzen 5 3600 at 1080p, at $350–$400. At 1440p the RX 9070 is the better match. Both use full x16 links, so they work at full speed on B450 and B550 boards, and both have 16 GB of memory."
+    },
+    {
+      "q": "What is the most powerful GPU a Ryzen 5 3600 can handle?",
+      "a": "Any current card will work, but an RX 9070 or RTX 5070 at 1440p is the sensible upper limit. Faster cards like the RX 9070 XT or RTX 5080 spend much of their time waiting for the 3600, especially at 1080p. Pair them with a Ryzen 7 5700X3D or a new platform instead."
+    },
+    {
+      "q": "Can a Ryzen 5 3600 run an RTX 5060?",
+      "a": "Yes, and the pairing is balanced for esports games at 1080p. The concern is the RTX 5060's 8 GB of memory on an eight-lane link: on a B450 board it runs at PCIe 3.0 x8, and new games that overflow 8 GB can stutter. The RX 9060 XT 16GB avoids that for about $50 more."
+    },
+    {
+      "q": "Is the RX 9060 XT good with a Ryzen 5 3600?",
+      "a": "Yes, the 16 GB RX 9060 XT is the best overall match. Its speed suits what the 3600 can feed at 1080p, its x16 link avoids PCIe 3.0 losses on B450 boards, and it runs on most 550 W supplies. Avoid the 8 GB model for an older board."
+    },
+    {
+      "q": "Does a Ryzen 5 3600 work with PCIe 4.0 graphics cards?",
+      "a": "Yes. Every current card works in any 3600 system. On B550 and X570 boards the slot runs at PCIe 4.0; on B450 and older boards it runs at PCIe 3.0. Full x16 cards lose almost nothing at 3.0, while 8 GB x8 cards are the ones to avoid there."
+    },
+    {
+      "q": "Will a Ryzen 5 3600 bottleneck an RX 9070?",
+      "a": "In CPU-heavy games, yes, and at 1080p in most demanding games. At 1440p the RX 9070 does most of the work in graphically heavy titles, which is why it is our 1440p pick. A Ryzen 7 5700X3D on the same board removes most of the limit."
+    },
+    {
+      "q": "Do I need Resizable BAR with a Ryzen 5 3600?",
+      "a": "It is optional for AMD and NVIDIA cards but worth enabling. AMD supports Smart Access Memory on Ryzen 3000 CPUs with a BIOS update on most 400-series and 500-series boards. Turn on Above 4G Decoding and Re-Size BAR Support, with CSM disabled. Intel Arc cards need it to run well."
+    },
+    {
+      "q": "Should I upgrade my Ryzen 5 3600 or my GPU?",
+      "a": "Upgrade the GPU first if it is a GTX 1060, RX 580 or older. If you already have an RTX 3060 or RX 6600 class card, a Ryzen 7 5700X3D gives the bigger gain in CPU-heavy games and keeps your board and memory."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 5 3600 product specifications",
+    "AMD Ryzen 7 5700X3D product page and AM4 motherboard CPU support lists",
+    "AMD Smart Access Memory support documentation",
+    "AMD Radeon RX 9060 XT, RX 9070 and RX 6700 XT and NVIDIA GeForce RTX 5060 Ti and RTX 5070 product pages",
+    "Published PCIe scaling reviews from TechPowerUp and Hardware Unboxed",
+    "Independent analysis of Arc B580 performance on older CPUs (Hardware Unboxed and others, 2025)",
+    "Owner reports from Ryzen 5 3600 users on enthusiast forums"
+  ],
+  "related": ["best-gpu-for-ryzen-5-2600", "best-gpu-for-ryzen-5-5600", "best-gpu-for-ryzen-7-3700x"]
+}
