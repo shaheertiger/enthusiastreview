@@ -1,0 +1,180 @@
+{
+  "slug": "how-much-does-a-graphics-card-cost",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "How Much Does a Graphics Card Cost? GPU Prices by Tier",
+  "h1": "How Much Does a Graphics Card Cost?",
+  "query": "how much does a graphics card cost",
+  "description": "A good graphics card costs $350 to $480 for 1080p, $550 to $730 for 1440p and $750 to $1,300 for 4K. Street price bands for 16 current GPUs, tier by tier.",
+  "dek": "Street price bands for every current gaming GPU, what each tier buys you, launch prices versus what cards sell for, and what a card costs to run.",
+  "quickAnswer": "A good graphics card costs about $350 to $480 for high-settings 1080p (RX 9060 XT 16GB, RTX 5060 Ti 16GB), $550 to $730 for 1440p (RX 9070, RTX 5070, RX 9070 XT) and $750 to $1,300 for 4K (RTX 5070 Ti, RTX 5080). Entry cards start around $180, and the RTX 5090 sells for $2,000 to $2,700.",
+  "intro": [
+    "This page answers what a graphics card costs in 2026, using the street price bands of the 16 GPUs we track rather than launch prices alone. Each tier lists real cards, the resolution they suit and the power supply they need, so you can see what each extra $100 buys.",
+    "Prices are typical US street price bands, not live quotes. Memory prices rose through 2025 and 2026, and some cards drift above these bands for weeks at a time. Check the current price on the card's page before buying."
+  ],
+  "sections": [
+    {
+      "h": "How Much Does a Good Graphics Card Cost?",
+      "body": [
+        "A good graphics card for most people costs $350 to $650. At $350 to $400 the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) runs current games at high settings at 1080p and handles lighter 1440p play, with 16 GB of memory that keeps it useful for years. At $550 to $650 the [RTX 5070](/gear/rtx-5070/) and [RX 9070](/gear/rx-9070/) are the cards most people should buy for 1440p.",
+        "Spending less than about $300 means 8 GB of memory, or an older card, which is fine for esports games but tight for new releases at high textures. Spending more than about $750 buys 4K and high-refresh 1440p, but each step costs more per frame than the one before. The table below sets out the full range."
+      ],
+      "table": {
+        "caption": "Graphics card prices by tier, US street price bands",
+        "head": ["Tier", "Price band", "Example cards", "Good for"],
+        "rows": [
+          ["Entry", "$180–$330", "RX 6600, Arc B580, RX 9060 XT 8GB, RTX 5060", "1080p esports and medium settings"],
+          ["Mainstream", "$350–$480", "RX 9060 XT 16GB, RTX 5060 Ti 16GB", "1080p high settings, light 1440p"],
+          ["Upper mid-range", "$550–$730", "RX 9070, RTX 5070, RX 9070 XT", "1440p high refresh"],
+          ["High end", "$750–$1,300", "RTX 5070 Ti, RTX 5080", "4K and 1440p at very high refresh"],
+          ["Flagship", "$2,000–$2,700", "RTX 5090", "4K with path tracing, AI work"]
+        ]
+      }
+    },
+    {
+      "h": "What Does Each Graphics Card Cost in 2026?",
+      "body": [
+        "These are the street price bands for every gaming card we track, cheapest first. The launch price is what AMD, NVIDIA or Intel set at release; the street band is what the card typically sells for now. Most 2025 cards sell at or a little above launch price, while older cards like the RX 6600 and RX 6700 XT now sell well below theirs.",
+        "Model-to-model gaps matter more than the brand. Partner cards from ASUS, MSI, Gigabyte, Sapphire and others can cost $50 to $150 more than the base model for larger coolers and factory overclocks that add only a few percent."
+      ],
+      "table": {
+        "caption": "Street price band versus launch price (US)",
+        "head": ["Card", "VRAM", "Launch price", "Street band"],
+        "rows": [
+          ["RX 6600", "8 GB", "$329 (2021)", "$180–$230"],
+          ["Arc B580", "12 GB", "$249", "$250–$290"],
+          ["RX 6700 XT", "12 GB", "$479 (2021)", "$250–$330"],
+          ["RX 9060 XT 8GB", "8 GB", "$299", "$280–$320"],
+          ["RTX 4060", "8 GB", "$299 (2023)", "$280–$310"],
+          ["RTX 5060", "8 GB", "$299", "$300–$330"],
+          ["RX 9060 XT 16GB", "16 GB", "$349", "$350–$400"],
+          ["RTX 5060 Ti 8GB", "8 GB", "$379", "$360–$400"],
+          ["RTX 5060 Ti 16GB", "16 GB", "$429", "$430–$480"],
+          ["RTX 4070", "12 GB", "$599 (2023)", "$500–$600"],
+          ["RX 9070", "16 GB", "$549", "$550–$620"],
+          ["RTX 5070", "12 GB", "$549", "$550–$650"],
+          ["RX 9070 XT", "16 GB", "$599", "$600–$730"],
+          ["RTX 5070 Ti", "16 GB", "$749", "$750–$900"],
+          ["RTX 5080", "16 GB", "$999", "$1,000–$1,300"],
+          ["RTX 5090", "32 GB", "$1,999", "$2,000–$2,700"]
+        ]
+      }
+    },
+    {
+      "h": "How Much Is a Graphics Card for 1080p, 1440p and 4K?",
+      "body": [
+        "For 1080p, budget $300 to $400. The RX 9060 XT 16GB at $350 to $400 is the best-balanced choice, and the [RTX 5060](/gear/rtx-5060/) at $300 to $330 is enough for esports games. For 1440p, budget $550 to $730: the RX 9070, RTX 5070 and [RX 9070 XT](/gear/rx-9070-xt/) all handle high settings at high refresh rates in independent reviews.",
+        "For 4K, budget $750 to $1,300. The [RTX 5070 Ti](/gear/rtx-5070-ti/) is the entry point for 4K with upscaling, and the [RTX 5080](/gear/rtx-5080/) adds headroom. Native 4K with path tracing in the heaviest games is where the RTX 5090 earns its price, and almost nowhere else. Our [best graphics card for 1440p](/best-graphics-card-for-1440p/) guide ranks the middle tier in detail."
+      ],
+      "table": {
+        "caption": "What to budget by resolution",
+        "head": ["Resolution", "Budget", "Best value", "Step up"],
+        "rows": [
+          ["1080p", "$300–$480", "RX 9060 XT 16GB", "RTX 5060 Ti 16GB"],
+          ["1440p", "$550–$730", "RX 9070", "RX 9070 XT or RTX 5070"],
+          ["4K", "$750–$1,300", "RTX 5070 Ti", "RTX 5080"],
+          ["4K, no compromise", "$2,000+", "RTX 5090", "None"]
+        ]
+      }
+    },
+    {
+      "h": "Why Are Graphics Cards So Expensive?",
+      "body": [
+        "Three things set GPU prices in 2026. First, the chips are large and built on advanced manufacturing processes that cost more each generation. Second, graphics memory is in demand from AI data centers, and memory prices rose through 2025 and 2026, which pushes up the cost of 16 GB and larger cards. Third, NVIDIA and AMD sell the same silicon to AI and workstation buyers who pay far more per chip, so gaming cards compete for supply.",
+        "The result is that the cheapest new cards have stayed near $250 to $300 for several years while the top end has climbed. The good news is in the middle: a $350 to $650 card in 2026 is much faster than what the same money bought in 2020, with more memory."
+      ]
+    },
+    {
+      "h": "Is a Cheaper 8 GB Card Worth It?",
+      "body": [
+        "For esports and older games, yes. For new releases at high settings, an 8 GB card increasingly runs out of memory, and independent reviews have shown stutter and low texture quality in that case. That is why the price gap between 8 GB and 16 GB versions of the same card is usually worth paying.",
+        "The clearest example is the RX 9060 XT: the 16 GB model costs about $50 to $80 more than the 8 GB model for the same chip. The RTX 5060 Ti 16GB costs about $50 to $80 more than its 8 GB twin. Our comparisons of the [RTX 5060 Ti 8GB vs 16GB](/compare/rtx-5060-ti-8gb-vs-rtx-5060-ti-16gb/) and [RX 9060 XT 8GB vs 16GB](/compare/rx-9060-xt-8gb-vs-rx-9060-xt-16gb/) cover the trade-off."
+      ]
+    },
+    {
+      "h": "How Much Does a Graphics Card Cost to Run?",
+      "body": [
+        "Less than most people expect. Electricity cost is board power times hours times your rate. At about 17 cents per kWh, near the recent US residential average, three hours of gaming a day for a year costs about $27 for a 145 W RTX 5060, about $47 for a 250 W RTX 5070 and about $107 for a 575 W RTX 5090 at full load.",
+        "Real figures are usually lower, because cards rarely sit at full rated power for every minute. The bigger hidden cost is the power supply: moving from a 145 W card to a 300 W card can mean a new $90 to $150 PSU. Check yours with the [PSU calculator](/tools/psu-calculator/)."
+      ],
+      "table": {
+        "caption": "Yearly electricity at 3 hours a day, 17 cents per kWh, full rated power",
+        "head": ["Card", "Board power", "kWh per year", "Cost per year"],
+        "rows": [
+          ["RTX 5060", "145 W", "about 159", "about $27"],
+          ["RX 9070", "220 W", "about 241", "about $41"],
+          ["RTX 5070", "250 W", "about 274", "about $47"],
+          ["RX 9070 XT", "304 W", "about 333", "about $57"],
+          ["RTX 5090", "575 W", "about 630", "about $107"]
+        ]
+      }
+    },
+    {
+      "h": "Should You Buy a Used Graphics Card?",
+      "body": [
+        "A used card can save money, but compare it with the new price bands above, not with the card's launch price. A used card that sells for close to a new card with a warranty is rarely a deal. Prices for used cards vary widely by region and by marketplace, so compare several listings.",
+        "Check four things before buying used: the exact model and memory size, whether any warranty transfers (our [graphics card warranty by brand](/graphics-card-warranty-by-brand/) page lists the policies), the seller's return terms, and that the card runs a game or stress test without artifacts. Green lines or flickering are a reason to walk away; our page on [NVIDIA green lines on screen](/nvidia-green-lines-on-screen/) explains what they mean."
+      ]
+    },
+    {
+      "h": "When Is the Cheapest Time to Buy a Graphics Card?",
+      "body": [
+        "Sales around Black Friday and Cyber Monday, and the weeks after a new generation launches, are the most reliable times for lower prices. Black Friday 2026 is Friday, November 27, and Cyber Monday is November 30. Our [Black Friday GPU deals guide](/black-friday-gpu-deals/) lists what a good price looks like for each card.",
+        "Outside those windows, the safest approach is to know the street band for the card you want and buy when it sits at or below the low end. A card at its launch price from a reputable seller is usually a fair buy; paying above the top of the band rarely is."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Comparing against launch prices only", "Launch prices are a starting point, not what cards sell for. Older cards often sell far below theirs and new ones at or above. Compare current street bands across the cards you are considering."],
+    ["Paying extra for a premium partner model", "Larger coolers and factory overclocks can add $50 to $150 for a few percent more speed. A base model with a decent cooler is usually the better value unless noise matters to you."],
+    ["Saving $50 by buying 8 GB", "The 8 GB versions of the RTX 5060 Ti and RX 9060 XT save about $50 to $80 but run out of memory in more new games. For a card you plan to keep three or more years, 16 GB is worth it."],
+    ["Forgetting the power supply", "A 300 W card in a PC with an old 500 W supply can mean an extra $90 to $150 purchase. Check the maker's PSU recommendation before comparing prices."],
+    ["Buying more card than your CPU can feed", "A fast card on an older CPU spends much of its time waiting. Check the pair in the bottleneck calculator before spending more."]
+  ],
+  "bottomLine": "A graphics card costs about $180 to $330 at the entry level, $350 to $480 for good 1080p, $550 to $730 for 1440p and $750 to $1,300 for 4K, with the RTX 5090 alone at $2,000 or more. For most people the best money is spent in the middle: an RX 9060 XT 16GB for 1080p or an RX 9070 or RTX 5070 for 1440p. Buy near the low end of a card's band, and budget for a power supply if you move up a tier.",
+  "faqs": [
+    {
+      "q": "How much does a good graphics card cost?",
+      "a": "A good graphics card costs $350 to $650 in 2026. The RX 9060 XT 16GB at $350 to $400 is the best value for 1080p, and the RX 9070 and RTX 5070 at $550 to $650 are the best value for 1440p."
+    },
+    {
+      "q": "How much does an RTX 5090 cost?",
+      "a": "The RTX 5090 launched at $1,999 and typically sells for $2,000 to $2,700 in the US. Partner models with larger coolers sit at the top of that band. It is the only consumer card with 32 GB of memory."
+    },
+    {
+      "q": "What is the cheapest graphics card worth buying?",
+      "a": "The RX 6600 at about $180 to $230 is the cheapest card we would buy for gaming. It handles 1080p esports and older games well. For new releases, the RX 9060 XT 16GB at $350 to $400 is a much safer long-term choice."
+    },
+    {
+      "q": "How much should I spend on a graphics card for 1440p?",
+      "a": "Plan on $550 to $730. The RX 9070, RTX 5070 and RX 9070 XT all suit 1440p at high settings. The RX 9070 has 16 GB of memory for the same price as the 12 GB RTX 5070."
+    },
+    {
+      "q": "How much does a 4K graphics card cost?",
+      "a": "About $750 to $1,300. The RTX 5070 Ti at $750 to $900 is the entry point for 4K with upscaling, and the RTX 5080 at $1,000 to $1,300 adds headroom. Native 4K with heavy ray tracing calls for the RTX 5090."
+    },
+    {
+      "q": "Why are graphics cards so expensive in 2026?",
+      "a": "Large chips on advanced processes, rising memory prices driven by AI demand, and competition for supply from AI and workstation buyers all push prices up. Mid-range cards still offer much more speed per dollar than they did five years ago."
+    },
+    {
+      "q": "Do graphics card prices drop on Black Friday?",
+      "a": "Often, though not on every model. Black Friday 2026 falls on November 27 and Cyber Monday on November 30. A real deal is a price below the low end of the card's usual street band, not a discount from an inflated list price."
+    },
+    {
+      "q": "How much does it cost to replace a graphics card?",
+      "a": "The card itself costs $180 to $2,700 depending on tier. Installing it yourself is free and takes about 20 minutes. Add $90 to $150 if your power supply is too small for the new card."
+    }
+  ],
+  "sources": [
+    "Street price bands from the graphics card pages on this site, US, at the time of writing",
+    "NVIDIA GeForce RTX 50 series launch announcements and product pages",
+    "AMD Radeon RX 9000 series launch announcements and product pages",
+    "Intel Arc B580 launch announcement",
+    "U.S. Energy Information Administration average residential electricity price",
+    "Independent reviews of 8 GB versus 16 GB graphics cards"
+  ],
+  "products": ["rx-6600", "rx-9060-xt-16gb", "rtx-5070", "rx-9070", "rtx-5070-ti", "rtx-5090"],
+  "related": ["black-friday-gpu-deals", "best-budget-graphics-card", "how-much-does-a-gaming-pc-cost"]
+}

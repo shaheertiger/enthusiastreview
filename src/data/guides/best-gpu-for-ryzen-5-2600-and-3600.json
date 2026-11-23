@@ -4,12 +4,12 @@
   "category": "graphics-cards",
   "title": "Best GPU for Ryzen 5 2600 and 3600 (2026): 5 Safe Upgrades",
   "h1": "Best GPU for Ryzen 5 2600 and 3600",
-  "query": "best gpu for ryzen 5 3600",
+  "query": "best gpu for ryzen 5 2600 and 3600",
   "description": "The RX 9060 XT 16GB is the best GPU for a Ryzen 5 2600 or 3600: 16 GB and full x16 lanes for PCIe 3.0 boards at $350–$400. 5 picks, plus when to swap the CPU.",
   "dek": "Still running a 2018 or 2019 six-core Ryzen? These five cards suit its PCIe link and CPU speed, and one is a reason to upgrade the chip first.",
   "intro": [
     "The Radeon RX 9060 XT 16GB is the best GPU for a Ryzen 5 2600 or 3600 in 2026. It costs $350–$400, carries 16 GB of VRAM and uses all sixteen PCIe lanes, so it loses almost nothing on the PCIe 3.0 slot most of these systems have.",
-    "This page is for people who still own one of these six-core AM4 chips and want a graphics card that fits the platform rather than fighting it. It covers PCIe 3.0 versus 4.0, x8 versus x16 cards, where each CPU starts to hold a GPU back, and when a Ryzen 7 5700X3D is the smarter first upgrade."
+    "This page is for people who still own one of these six-core AM4 chips and want a graphics card that fits the platform rather than fighting it. It covers PCIe 3.0 versus 4.0, x8 versus x16 cards, where each CPU starts to hold a GPU back, and when a Ryzen 7 5700X3D is the smarter first upgrade. For one CPU only, see the [Ryzen 5 3600 guide](/best-gpu-for-ryzen-5-3600/) or the [Ryzen 5 2600 guide](/best-gpu-for-ryzen-5-2600/)."
   ],
   "quickAnswer": "Buy the RX 9060 XT 16GB ($350–$400) for 1080p on either CPU. The RTX 5060 Ti 16GB ($430–$480) is the NVIDIA option, with a small PCIe 3.0 penalty. A Ryzen 5 3600 at 1440p can use an RX 9070 ($550–$620). Plan an RTX 5070 only alongside a Ryzen 7 5700X3D. Skip the Arc B580: its driver overhead hurts these CPUs.",
   "picks": [
@@ -194,7 +194,7 @@
     }
   ],
   "mistakes": [
-    ["Buying an 8 GB x8 card for a B450 board", "Both the RTX 5060 and the cheaper RX 9060 XT variant are wired for eight lanes. When their memory fills on a PCIe 3.0 board, performance collapses into stutter. Choose a 16 GB card or a full x16 card for these systems instead."],
+    ["Buying an 8 GB x8 card for a B450 board", "Both the RTX 5060 and the RTX 5060 Ti 8GB are wired for eight lanes. When their memory fills on a PCIe 3.0 board, performance collapses into stutter. Choose a 16 GB card or a full x16 card for these systems instead."],
     ["Overspending on the GPU before the CPU", "An RX 9070 XT or RTX 5070 Ti on a Ryzen 5 2600 at 1080p is mostly waiting for the processor. A Ryzen 7 5700X3D plus a mid-range card usually beats a flagship card on the old chip for similar total money."],
     ["Choosing the Arc B580 for its price", "The B580's 12 GB for under $300 is tempting, but its driver overhead was widely reported to hit exactly these CPUs. On a 2600 or 3600, the RX 9060 XT 16GB is the safer purchase despite costing more. It also skips the Resizable BAR question."],
     ["Forgetting the BIOS", "Older B450 boards may need a BIOS update for Resizable BAR or a 5700X3D. Update before swapping parts, keep the old CPU installed while flashing, and never cut power during the update. A failed flash can leave the board unbootable."],
