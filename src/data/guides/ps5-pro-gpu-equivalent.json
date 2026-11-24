@@ -1,0 +1,146 @@
+{
+  "slug": "ps5-pro-gpu-equivalent",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "PS5 Pro GPU Equivalent: PC Graphics Card and CPU Match",
+  "h1": "PS5 Pro GPU Equivalent",
+  "query": "ps5 pro gpu equivalent",
+  "description": "The PS5 Pro's 60-CU GPU is roughly a desktop RX 7700 XT, between an RTX 4060 Ti and RTX 4070. Its 8-core Zen 2 CPU is the same as the base PS5's.",
+  "dek": "The closest desktop graphics card and processor to Sony's PS5 Pro, worked out from its published specs, with the current PC parts that match or beat it.",
+  "quickAnswer": "The PS5 Pro's GPU has 60 compute units, 16 GB of GDDR6 at 576 GB/s, upgraded ray tracing and PSSR upscaling, and Sony rates its rendering up to about 45 percent faster than the PS5. That lands it roughly at a desktop RX 7700 XT, between an RTX 4060 Ti and an RTX 4070. An RX 9060 XT 16GB or RTX 5060 Ti 16GB is about level with it today, and an RTX 5070 or RX 9070 clearly beats it. Its CPU is the same 8-core Zen 2 design as the base PS5, near a Ryzen 5 3600 in games.",
+  "intro": [
+    "The PS5 Pro is Sony's upgraded PS5, released in November 2024. Sony kept the CPU and changed the graphics: the GPU grows from 36 to 60 compute units, memory bandwidth rises from 448 GB/s to 576 GB/s, ray tracing gets new hardware, and a machine-learning upscaler called PSSR (PlayStation Spectral Super Resolution) joins the system. Sony's headline figure is up to about 45 percent faster rendering than the PS5.",
+    "This page matches those parts to the desktop GPU and CPU that perform most like them. These are rough, widely reported equivalents, built from Sony's published specs and from independent console-versus-PC comparisons. We have not tested the console. Console games are tuned for one fixed GPU, so a well-made port can beat a PC card that looks faster on paper, and a poor one can fall short."
+  ],
+  "sections": [
+    {
+      "h": "How We Matched the PS5 Pro to Desktop Parts",
+      "body": [
+        "The cleanest starting point is the base PS5. Its 36-CU RDNA 2 GPU sits roughly at a desktop RX 6700 or RTX 2070 Super, a match that years of side-by-side tests have settled (see [what GPU the PS5 has](/ps5-gpu-equivalent/)). Sony rates the Pro up to about 45 percent faster in rendering. Applied to a PS5 at RX 6700 level, that lands in RX 7700 XT territory, between an RTX 4060 Ti and an RTX 4070.",
+        "Independent side-by-side comparisons, such as those published by Digital Foundry, broadly agree with that placement in raster games. Roughly means within about 10 percent on average, and it varies by game: titles with a strong PS5 Pro patch and PSSR can look better than the raster match suggests, while games without a Pro patch gain little.",
+        "Unit counts alone overstate the Pro. Its 60 compute units are the same count as a desktop RX 6800, but it runs them inside a console power budget and at clocks Sony has not published in the same detail as the PS5's. That is why the widely reported match is a step below an RX 6800, not level with it. We have left out a TFLOPS figure for the same reason: Sony's own comparisons are in rendering speed, not TFLOPS."
+      ]
+    },
+    {
+      "h": "PS5 Pro GPU Equivalents: NVIDIA, AMD and Intel",
+      "body": [
+        "The table lists the closest desktop card from each brand by raster performance, with the current cards just above and below it. To see how these cards line up against each other, use the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/). With heavy ray tracing on, NVIDIA cards of the same raster tier still lead, though the Pro narrows that gap compared with the PS5."
+      ],
+      "table": {
+        "caption": "PS5 Pro GPU (60 CUs) to desktop graphics cards, rough equivalents",
+        "head": ["Brand", "Closest desktop card (raster)", "Faster than the PS5 Pro", "Slower than the PS5 Pro"],
+        "rows": [
+          ["AMD", "RX 7700 XT (roughly)", "RX 9070, RX 7800 XT", "RX 6700 XT, RX 7600 XT"],
+          ["AMD, current cards", "RX 9060 XT 16GB (about level)", "RX 9070", "RX 9060 XT 8GB"],
+          ["NVIDIA", "RTX 4060 Ti to RTX 4070", "RTX 5070", "RTX 4060, RTX 5060"],
+          ["NVIDIA, current cards", "RTX 5060 Ti 16GB (about level)", "RTX 5070", "RTX 5060"],
+          ["Intel Arc", "None (above Arc B580)", "None", "Arc B580"]
+        ]
+      }
+    },
+    {
+      "h": "What GPU Does the PS5 Pro Have?",
+      "body": [
+        "The PS5 Pro has a custom AMD GPU with 60 compute units, up from 36 in the PS5. It sits on the same kind of single chip as before, sharing the package with the CPU, and keeps 16 GB of GDDR6 for games and graphics, now at 576 GB/s instead of 448 GB/s. Sony added 2 GB of DDR5 memory for the system, which moves background tasks out of the GDDR6 pool and leaves a little more of it for games.",
+        "Two additions matter as much as the extra compute units. The first is upgraded ray tracing hardware: Sony quoted two to three times the PS5's ray tracing speed in some cases, a bigger jump than in raster. The second is PSSR, Sony's machine-learning upscaler, which renders below the output resolution and reconstructs a sharper image, playing the same role as DLSS on NVIDIA cards or FSR 4 on recent Radeon cards.",
+        "Sony describes the result as up to about 45 percent faster rendering than the PS5. In practice, most Pro-enhanced games use that headroom to run their higher-quality graphics mode closer to 60 fps, or to sharpen their performance mode with PSSR."
+      ],
+      "table": {
+        "caption": "PS5 Pro vs PS5, published specs",
+        "head": ["Spec", "PS5 Pro", "PS5"],
+        "rows": [
+          ["GPU", "Custom AMD, 60 CUs, upgraded ray tracing", "Custom AMD RDNA 2, 36 CUs, up to 2.23 GHz"],
+          ["Rendering (Sony)", "Up to about 45% faster than PS5", "Baseline"],
+          ["Graphics memory", "16 GB GDDR6, 576 GB/s", "16 GB GDDR6, 448 GB/s"],
+          ["System memory", "2 GB DDR5", "None (shares the GDDR6)"],
+          ["Upscaling", "PSSR (machine learning)", "Game-specific upscaling"],
+          ["CPU", "8-core Zen 2, same design", "8-core Zen 2, up to 3.5 GHz"],
+          ["Closest desktop GPU", "RX 7700 XT / RTX 4060 Ti to 4070 (roughly)", "RX 6700 / RTX 2070 Super (roughly)"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the PS5 Pro GPU Equivalent in NVIDIA?",
+      "body": [
+        "The PS5 Pro GPU's NVIDIA equivalent is roughly between an RTX 4060 Ti and an [RTX 4070](/gear/rtx-4070/) in raster games. In the current lineup, the [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) sits about there, and the [RTX 5070](/gear/rtx-5070/) is clearly faster.",
+        "With heavy ray tracing, NVIDIA cards still lead at the same raster tier, even after the Pro's ray tracing upgrade. PSSR closes part of the image-quality gap to DLSS, but DLSS on an RTX card is supported in far more games, and is the more mature upscaler."
+      ]
+    },
+    {
+      "h": "What Is the PS5 Pro GPU Equivalent in AMD?",
+      "body": [
+        "On the AMD side, the widely reported match is an RX 7700 XT. The current [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) lands at about the same level in raster with the same 16 GB of memory, and adds FSR 4, AMD's machine-learning upscaler, which is the closest PC counterpart to PSSR.",
+        "The [RX 9070](/gear/rx-9070/) clearly beats the PS5 Pro in both raster and ray tracing. Older cards with the same 60 compute units, such as the RX 6800, are close on paper, but run at higher clocks and power than the console, so they tend to land a little above it rather than level."
+      ]
+    },
+    {
+      "h": "Does the PS5 Pro Have a Better CPU Than the PS5?",
+      "body": [
+        "Barely. The PS5 Pro keeps the same 8-core, 16-thread AMD Zen 2 CPU design as the PS5, with a mode that raises the clock slightly, to up to 3.85 GHz from 3.5 GHz. Its CPU equivalent is the same class: roughly a Ryzen 7 3700X held to lower clocks, landing closer to a Ryzen 5 3600 in games, or a Core i5-10400F to i7-10700 on the Intel side.",
+        "That is why some games run at the same frame-rate target on both consoles: the Pro's extra power goes to resolution, ray tracing and image quality, not to CPU-limited frame rates. Any current desktop CPU is much faster; a [Ryzen 5 7600](/gear/ryzen-5-7600/) comfortably beats it. Check any CPU and GPU pairing with the [bottleneck calculator](/tools/bottleneck-calculator/)."
+      ]
+    },
+    {
+      "h": "PS5 Pro vs Xbox Series X vs Steam Machine: Which GPU Is Fastest?",
+      "body": [
+        "The PS5 Pro has the fastest GPU of the current consoles. The [Xbox Series X](/xbox-series-x-gpu-equivalent/) has 52 RDNA 2 compute units at about 12.1 TFLOPS and performs roughly like an RTX 2080, a little above the base PS5 and clearly below the Pro. Valve's [Steam Machine](/steam-machine-gpu-equivalent/) has a newer RDNA 3 GPU with 28 compute units, roughly an RX 6600 XT by its specs, but a much faster Zen 4 CPU than either PlayStation.",
+        "For the base PS5 in detail, see [what GPU the PS5 has](/ps5-gpu-equivalent/). The [console GPU equivalents chart](/console-gpu-equivalents/) puts every console and handheld, including older generations, in one table."
+      ],
+      "table": {
+        "caption": "Current console GPUs, published specs and rough desktop match",
+        "head": ["Console", "GPU", "Memory", "Closest desktop card"],
+        "rows": [
+          ["PS5 Pro", "Custom AMD, 60 CUs, upgraded RT, PSSR", "16 GB GDDR6 (576 GB/s) + 2 GB DDR5", "RX 7700 XT / RTX 4060 Ti to 4070"],
+          ["Xbox Series X", "RDNA 2, 52 CUs, 1.825 GHz, 12.1 TFLOPS", "16 GB GDDR6 (10 GB at 560 GB/s)", "RTX 2080 (roughly)"],
+          ["PS5", "RDNA 2, 36 CUs, up to 2.23 GHz, 10.28 TFLOPS", "16 GB GDDR6, 448 GB/s", "RX 6700 / RTX 2070 Super"],
+          ["Steam Machine", "RDNA 3, 28 CUs, up to 2.45 GHz", "16 GB DDR5 + 8 GB GDDR6", "RX 6600 XT / RTX 3060 (estimate)"]
+        ]
+      }
+    },
+    {
+      "h": "What PC Matches a PS5 Pro?",
+      "body": [
+        "A PC that matches a PS5 Pro in most games needs a 16 GB graphics card at RX 9060 XT 16GB or RTX 5060 Ti 16GB level, a recent 6-core CPU such as a Ryzen 5 7600, and 16 GB of system RAM. To clearly beat it, step up to an RTX 5070 or RX 9070. Prefer 16 GB of VRAM at this level: the Pro gives games most of its 16 GB GDDR6 pool, and ports built for it can use more than 8 GB of video memory.",
+        "If you already have a PC with a recent CPU, a 16 GB card gets you to PS5 Pro class graphics for less than the console. Starting from nothing, a whole PC at this level costs more once you add a CPU, motherboard, memory, storage, power supply, case and Windows. The [best budget graphics cards](/best-budget-graphics-card/) list ranks the cheaper options. Street prices below are USD bands and move week to week."
+      ],
+      "table": {
+        "caption": "Desktop graphics cards at or above PS5 Pro level",
+        "head": ["Target", "Graphics card", "Street price band", "Notes"],
+        "rows": [
+          ["Match a PS5 Pro, AMD", "RX 9060 XT 16GB", "$350 to $400", "16 GB; FSR 4"],
+          ["Match a PS5 Pro, NVIDIA", "RTX 5060 Ti 16GB", "$430 to $480", "16 GB; DLSS 4"],
+          ["A little above a PS5 Pro", "RTX 4070", "$500 to $600", "12 GB; DLSS"],
+          ["Clearly beat a PS5 Pro", "RTX 5070 or RX 9070", "$550 to $650", "1440p high refresh"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Matching on compute units alone", "The PS5 Pro has 60 compute units, the same as a desktop RX 6800, but runs them inside a console power budget. Widely reported comparisons put it a step below an RX 6800, near an RX 7700 XT."],
+    ["Assuming the PS5 Pro has a faster CPU", "The Pro keeps the same 8-core Zen 2 CPU design at a slightly higher clock. Its gains are in graphics, so CPU-limited games run at much the same frame rate as on a base PS5."],
+    ["Reading 45 percent faster as 45 percent more fps everywhere", "Sony's figure is up to about 45 percent faster rendering. Games without a PS5 Pro patch gain little, and patched games often spend the headroom on resolution and image quality instead of frame rate."],
+    ["Matching the Pro with an 8 GB card", "PS5 Pro games are built around a 16 GB GDDR6 pool. On PC, an 8 GB card at the same speed runs out of video memory at high textures in big ports, so a 16 GB card is the better match."]
+  ],
+  "bottomLine": "The PS5 Pro's 60-CU GPU, with 16 GB of GDDR6 at 576 GB/s, upgraded ray tracing and PSSR, is rated by Sony up to about 45 percent faster than the PS5. That puts it roughly at a desktop RX 7700 XT, between an RTX 4060 Ti and an RTX 4070. An RX 9060 XT 16GB or RTX 5060 Ti 16GB is about level today, and an RTX 5070 or RX 9070 clearly beats it. Its Zen 2 CPU is the same class as the base PS5's, near a Ryzen 5 3600 in games.",
+  "faqs": [
+    {"q": "What GPU is equivalent to the PS5 Pro?", "a": "Roughly a desktop RX 7700 XT, or between an RTX 4060 Ti and an RTX 4070. In current cards, the RX 9060 XT 16GB and RTX 5060 Ti 16GB are about level with it, and the RTX 5070 and RX 9070 clearly beat it."},
+    {"q": "What GPU does the PS5 Pro have?", "a": "A custom AMD GPU with 60 compute units, up from 36 on the PS5, with upgraded ray tracing hardware and Sony's PSSR upscaler. It uses 16 GB of GDDR6 at 576 GB/s, plus 2 GB of DDR5 for the system."},
+    {"q": "What is the PS5 Pro GPU equivalent in NVIDIA?", "a": "Between an RTX 4060 Ti and an RTX 4070 in raster games, about where the RTX 5060 Ti 16GB sits today. NVIDIA cards of the same raster tier still lead with heavy ray tracing."},
+    {"q": "How much faster is the PS5 Pro GPU than the PS5?", "a": "Sony rates it up to about 45 percent faster in rendering, with ray tracing two to three times faster in some cases. The gain shows mainly in Pro-patched games, usually as higher resolution or steadier 60 fps."},
+    {"q": "Does the PS5 Pro have a better CPU than the PS5?", "a": "Only slightly. It uses the same 8-core Zen 2 design with a mode at up to 3.85 GHz instead of 3.5 GHz. In games it lands near a Ryzen 5 3600, the same class as the base PS5."},
+    {"q": "What is PSSR on the PS5 Pro?", "a": "PlayStation Spectral Super Resolution, Sony's machine-learning upscaler. Games render below the output resolution and PSSR reconstructs a sharper image, the same idea as DLSS on NVIDIA cards or FSR 4 on recent Radeon cards."},
+    {"q": "How much memory does the PS5 Pro have?", "a": "16 GB of GDDR6 at 576 GB/s for games and graphics, up from 448 GB/s on the PS5, plus 2 GB of DDR5 for system tasks, which frees a little more of the GDDR6 pool for games."},
+    {"q": "What graphics card do I need to match a PS5 Pro?", "a": "A 16 GB card such as the RX 9060 XT 16GB or RTX 5060 Ti 16GB lands at PS5 Pro class raster, and an RTX 5070 or RX 9070 clearly beats it. Pair it with a recent 6-core CPU such as a Ryzen 5 7600."}
+  ],
+  "sources": [
+    "Sony Interactive Entertainment PS5 Pro published specifications and Mark Cerny's PS5 Pro technical briefing",
+    "Sony Interactive Entertainment PS5 published specifications",
+    "AMD Radeon RX 6800, RX 7700 XT, RX 9060 XT and RX 9070 specifications",
+    "NVIDIA GeForce RTX 40 and 50 series specifications",
+    "TechPowerUp GPU database relative performance listings",
+    "Independent console-versus-PC comparisons from Digital Foundry and GPU reviews from Hardware Unboxed and TechPowerUp"
+  ],
+  "products": ["rx-9060-xt-16gb", "rtx-5060-ti-16gb", "rtx-4070", "rtx-5070", "rx-9070", "ryzen-5-7600"],
+  "related": ["ps5-gpu-equivalent", "console-gpu-equivalents", "xbox-series-x-gpu-equivalent", "steam-machine-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents"]
+}

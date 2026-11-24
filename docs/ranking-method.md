@@ -105,8 +105,8 @@ amd zen 4 6c / 12t equivalent" 1,900, the Steam Machine's spec line), "xbox seri
 
 | Cluster | Page |
 |---|---|
-| Consoles, handhelds, console CPUs | `/console-gpu-equivalents/` (query "console gpu equivalent" since 24 Nov 2026) |
-| Single-device pages (Brave rewards these) | `/ps5-gpu-equivalent/` (PS5 + Pro), `/xbox-series-x-gpu-equivalent/` (X + S), `/steam-deck-gpu-equivalent/` (LCD + OLED) |
+| Consoles, handhelds, console CPUs | `/console-gpu-equivalents/` (query "ps5 gpu equivalent"; a 24 Nov 2026 retitle to "console gpu equivalent" was reverted at the owner's request, so leave its title and query as they are) |
+| Single-device pages (Brave rewards these) | `/ps5-gpu-equivalent/` (base PS5, query "what gpu does the ps5 have" 590 + variants), `/ps5-pro-gpu-equivalent/` (query "ps5 pro gpu equivalent" 1,300), `/xbox-series-x-gpu-equivalent/` (X + S), `/steam-deck-gpu-equivalent/` (LCD + OLED) |
 | Steam Machine GPU and CPU | `/steam-machine-gpu-equivalent/` |
 | Laptop GPU → desktop | `/laptop-gpu-equivalents/` |
 | iGPUs and APUs | `/integrated-graphics-equivalents/` |

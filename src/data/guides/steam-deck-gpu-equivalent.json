@@ -131,5 +131,5 @@
     "Independent handheld and low-end GPU reviews from Digital Foundry, Hardware Unboxed and TechPowerUp"
   ],
   "products": ["rx-6600", "arc-b580", "rtx-5060", "ryzen-5-7600"],
-  "related": ["integrated-graphics-equivalents", "console-gpu-equivalents", "steam-machine-gpu-equivalent", "ps5-gpu-equivalent", "xbox-series-x-gpu-equivalent"]
+  "related": ["integrated-graphics-equivalents", "console-gpu-equivalents", "steam-machine-gpu-equivalent", "ps5-gpu-equivalent", "ps5-pro-gpu-equivalent", "xbox-series-x-gpu-equivalent"]
 }

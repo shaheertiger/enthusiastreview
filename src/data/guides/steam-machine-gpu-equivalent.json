@@ -64,7 +64,7 @@
       "body": [
         "In GPU power, probably not. The PS5's GPU is roughly a desktop RX 6700 (36 RDNA 2 compute units at up to 2.23 GHz), which sits above an RX 7600 in raster games. By the spec estimate above, the Steam Machine's GPU lands a step below an RX 7600, so the PS5 likely has the stronger graphics hardware, by something like 15 to 25 percent. The PS5 also has more memory available to games: 16 GB shared, of which roughly 12 to 13.5 GB goes to a game, against 8 GB of dedicated VRAM on the Steam Machine.",
         "In CPU power, the Steam Machine is clearly ahead. Its Zen 4 cores at 4.8 GHz are much faster per core than the PS5's 8 Zen 2 cores at up to 3.5 GHz, which helps in CPU-heavy games and at high frame rates.",
-        "The result depends on the game: GPU-bound games at 4K should favour the PS5's console-optimized versions, while CPU-heavy PC games and anything chasing 90 to 120 fps at lower resolutions may favour the Steam Machine. For the PS5 and PS5 Pro in detail, see [PS5 GPU equivalent](/ps5-gpu-equivalent/); for the Xbox side, [Xbox Series X GPU equivalent](/xbox-series-x-gpu-equivalent/); and for every console's GPU match, the [console GPU equivalents chart](/console-gpu-equivalents/)."
+        "The result depends on the game: GPU-bound games at 4K should favour the PS5's console-optimized versions, while CPU-heavy PC games and anything chasing 90 to 120 fps at lower resolutions may favour the Steam Machine. For the PS5 in detail, see [what GPU the PS5 has](/ps5-gpu-equivalent/), and for the Pro, [PS5 Pro GPU equivalent](/ps5-pro-gpu-equivalent/); for the Xbox side, [Xbox Series X GPU equivalent](/xbox-series-x-gpu-equivalent/); and for every console's GPU match, the [console GPU equivalents chart](/console-gpu-equivalents/)."
       ]
     },
     {
@@ -127,5 +127,5 @@
     "Independent GPU and CPU reviews from Hardware Unboxed, Digital Foundry, TechPowerUp and Tom's Hardware"
   ],
   "products": ["arc-b580", "rtx-5060", "rx-9060-xt-8gb", "ryzen-5-7600", "rtx-4060"],
-  "related": ["console-gpu-equivalents", "ps5-gpu-equivalent", "xbox-series-x-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents", "best-budget-graphics-card"]
+  "related": ["console-gpu-equivalents", "ps5-gpu-equivalent", "ps5-pro-gpu-equivalent", "xbox-series-x-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents", "best-budget-graphics-card"]
 }

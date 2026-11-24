@@ -3,139 +3,145 @@
   "type": "article",
   "kind": "explainer",
   "category": "graphics-cards",
-  "title": "PS5 GPU Equivalent: PS5 and PS5 Pro PC Graphics Card Match",
-  "h1": "PS5 GPU Equivalent",
-  "query": "ps5 gpu equivalent",
-  "description": "The PS5's 36-CU, 10.3 TFLOPS GPU roughly equals an RX 6700 or RTX 2070 Super. The 60-CU PS5 Pro lands near an RX 7700 XT, between an RTX 4060 Ti and 4070.",
-  "dek": "The closest desktop graphics card and processor to the PS5 and PS5 Pro, worked out from Sony's published specs, with the PC parts that match or beat each one today.",
-  "quickAnswer": "The PS5's GPU (36 RDNA 2 compute units at up to 2.23 GHz, about 10.3 TFLOPS) is roughly a desktop RX 6700 or RTX 2070 Super, and an RTX 4060, RTX 5060 or Arc B580 matches or slightly beats it. The PS5 Pro's 60-CU GPU, which Sony rates about 45 percent faster, lands roughly at an RX 7700 XT, between an RTX 4060 Ti and an RTX 4070.",
+  "title": "What GPU Does the PS5 Have? Specs and PC Equivalent",
+  "h1": "What GPU Does the PS5 Have?",
+  "query": "what gpu does the ps5 have",
+  "description": "The PS5 has a custom AMD RDNA 2 GPU: 36 CUs at up to 2.23 GHz, 10.28 TFLOPS, 448 GB/s. It is roughly a desktop RX 6700 or RTX 2070 Super. Specs inside.",
+  "dek": "The graphics chip inside the PlayStation 5, from Sony's published specs: what it is, how powerful it is, and the desktop graphics card it is closest to.",
+  "quickAnswer": "The PS5 has a custom AMD GPU based on RDNA 2, the architecture of the Radeon RX 6000 series. It has 36 compute units at up to 2.23 GHz for 10.28 TFLOPS, and shares 16 GB of GDDR6 at 448 GB/s with the CPU. On PC, it is roughly a Radeon RX 6700 or GeForce RTX 2070 Super, and an RTX 4060, RTX 5060 or Arc B580 matches or slightly beats it.",
   "intro": [
-    "Sony published the key specs for both consoles. The PS5 has a custom AMD RDNA 2 GPU with 36 compute units at up to 2.23 GHz, 16 GB of GDDR6 shared with the CPU at 448 GB/s, and an 8-core Zen 2 CPU at up to 3.5 GHz. The PS5 Pro raises the GPU to 60 compute units, with memory Sony rates 28 percent faster and rendering it rates up to 45 percent faster. This page matches both to the desktop GPU and CPU that perform most like them.",
-    "These are rough, widely reported equivalents, built from the published specs and from how the closest desktop RDNA 2 and RDNA 3 cards perform in independent reviews. We have not tested either console. Console games are tuned for one fixed GPU, so a well-made port can beat a PC card that looks faster on paper, and a poor one can fall short."
+    "The PS5's graphics are not a separate card. Sony and AMD built them into one custom chip, an APU, alongside an 8-core AMD Zen 2 CPU, and both share the same 16 GB pool of GDDR6 memory. Sony published the key numbers in Mark Cerny's Road to PS5 presentation: 36 RDNA 2 compute units, a variable clock of up to 2.23 GHz, 10.28 TFLOPS, and 448 GB/s of memory bandwidth.",
+    "Every PS5 model has that same GPU: the original 2020 console, the Digital Edition, and the smaller PS5 Slim. This page explains what those specs mean, how powerful the GPU is, and which desktop graphics card it matches. The PC matches are rough, widely reported equivalents built from the published specs and from independent console-versus-PC comparisons. We have not tested the console."
   ],
   "sections": [
     {
-      "h": "How We Matched the PS5 to Desktop Parts",
+      "h": "The PS5 GPU: Custom AMD RDNA 2 With 36 Compute Units",
       "body": [
-        "The PS5's GPU uses AMD's RDNA 2 architecture, the same design as the Radeon RX 6000 series, so the cleanest comparison is the desktop card with the same number of compute units. That card is the RX 6700, the 10 GB model, which also has 36 RDNA 2 compute units. It runs at a higher boost clock and adds an Infinity Cache the PS5 lacks, but has a narrower 160-bit memory bus at 320 GB/s against the PS5's 256-bit bus at 448 GB/s. On paper the two land close together, which is why the RX 6700 is the match most comparisons settle on.",
-        "On the NVIDIA side, the widely reported match is an RTX 2070 Super, which also has 448 GB/s of memory bandwidth. Side-by-side tests of the same games on PS5 and PC, such as those published by Digital Foundry, generally place the PS5 around a 2070 Super, sometimes reaching RTX 2080 level in a well-optimized port. Roughly means within about 10 percent on average.",
-        "The CPU is the easy part. The PS5's 8-core, 16-thread Zen 2 chip runs at up to 3.5 GHz with less cache than desktop Zen 2, so in games it lands near a Ryzen 5 3600 or a Ryzen 7 3700X held to lower clocks. Any current desktop CPU is much faster."
-      ]
-    },
-    {
-      "h": "PS5 and PS5 Pro GPU Equivalents: NVIDIA, AMD and Intel",
-      "body": [
-        "The table lists the closest desktop card from each brand, by raster performance. For how these cards line up against each other, use the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/). With ray tracing on, both consoles fall further behind NVIDIA cards of the same raster tier."
+        "The PS5's GPU is made by AMD, not NVIDIA. It uses AMD's RDNA 2 architecture, the same generation as the desktop Radeon RX 6000 series and the Xbox Series X. Sony calls it a custom design: AMD supplied the graphics cores, and Sony chose the size, clock behaviour and a few additions of its own, such as cache scrubbers tied to the fast SSD.",
+        "It has 36 compute units, each with 64 shaders, for 2,304 shaders in total. RDNA 2 includes hardware ray tracing, so the PS5 has one ray accelerator per compute unit, the same arrangement as an RX 6000 card. That is enough for ray-traced reflections and shadows in many games, though it is the weakest part of the GPU next to NVIDIA cards.",
+        "The clock is variable. Instead of a fixed frequency, the PS5 runs on a fixed power budget and lets the CPU and GPU clocks move within it. The GPU runs at up to 2.23 GHz and, by Sony's description, stays at or close to that most of the time, dropping a little only in the heaviest scenes. At 2.23 GHz, 36 compute units give the 10.28 TFLOPS figure Sony quotes."
       ],
       "table": {
-        "caption": "PS5 and PS5 Pro GPU to desktop graphics cards, rough equivalents",
-        "head": ["Console", "Published GPU spec", "Closest AMD", "Closest NVIDIA", "Closest Intel Arc"],
+        "caption": "PS5 GPU and system specs, as published by Sony",
+        "head": ["Spec", "PS5", "What it means"],
         "rows": [
-          ["PS5", "RDNA 2, 36 CUs, up to 2.23 GHz, 10.3 TFLOPS, 448 GB/s shared", "RX 6700 (roughly)", "RTX 2070 Super (roughly)", "Arc B570 to B580"],
-          ["PS5 Pro", "60 CUs, about 45% faster rendering than PS5 (Sony), 28% more bandwidth", "RX 7700 XT (roughly)", "RTX 4060 Ti to RTX 4070", "None (above B580)"],
-          ["PS5 (ray tracing on)", "Same hardware", "RX 6700 (roughly)", "RTX 2060 Super to RTX 3060", "Arc B570 class"]
+          ["GPU architecture", "Custom AMD RDNA 2", "Same generation as the Radeon RX 6000 series"],
+          ["Compute units", "36 (2,304 shaders)", "Same count as the desktop RX 6700"],
+          ["GPU clock", "Up to 2.23 GHz (variable)", "Shares a power budget with the CPU"],
+          ["Compute", "10.28 TFLOPS (FP32)", "Compare only within the same architecture"],
+          ["Memory", "16 GB GDDR6, shared with the CPU", "Games get roughly 12 to 13.5 GB"],
+          ["Memory bandwidth", "448 GB/s (256-bit bus)", "Same as an RTX 2070 Super"],
+          ["Ray tracing", "Hardware, one ray accelerator per CU", "RX 6000 class"],
+          ["CPU", "8-core, 16-thread AMD Zen 2, up to 3.5 GHz", "Same chip as the GPU (an APU)"]
         ]
       }
     },
     {
-      "h": "What Is the PS5 GPU Equivalent?",
+      "h": "How Powerful Is the PS5 GPU?",
       "body": [
-        "The PS5 GPU's closest desktop equivalent is an AMD Radeon RX 6700, the 10 GB card that shares its 36 RDNA 2 compute units. In NVIDIA terms it is roughly an RTX 2070 Super. That is the card to picture when you read 10.3 TFLOPS: comfortable at 1080p and 1440p with upscaling, and reliant on dynamic resolution or upscaling for the 4K output most PS5 games advertise.",
-        "In today's lineup, an [RTX 4060](/gear/rtx-4060/) or [Arc B580](/gear/arc-b580/) roughly matches or slightly beats a PS5 in raster, and the [RTX 5060](/gear/rtx-5060/) is a little faster again. All three add DLSS or XeSS, which usually look sharper than the upscaling most PS5 games use. The [RX 6600](/gear/rx-6600/) is somewhat slower than a PS5, and the [RX 6700 XT](/gear/rx-6700-xt/) a little faster.",
-        "The 2070 Super comparison has one catch: that card has 8 GB of VRAM, and so does the RTX 4060. The PS5 gives games roughly 12 to 13.5 GB of its 16 GB pool, so ports built around it can ask for more than 8 GB of video memory at high textures."
+        "The PS5 GPU is a capable mid-range graphics chip by today's standards. It was close to high-end PC graphics at launch in late 2020, and it now sits around the level of a current entry-level desktop card such as an RTX 4060 or RTX 5060 in raster games.",
+        "In practice, most PS5 games target 4K output on a TV but do not render natively at 4K. They use dynamic resolution or upscaling, typically rendering somewhere between 1080p and 1440p in performance modes and higher in quality modes. That is the right frame of reference for the PS5 GPU: comfortable at 1080p and 1440p, and dependent on upscaling for 4K.",
+        "The 10.28 TFLOPS number is useful against other RDNA 2 chips, such as the Xbox Series X at about 12.1 TFLOPS, but not against NVIDIA cards or newer AMD designs. RDNA 3 and NVIDIA's recent cards count throughput differently, so a card with a much higher TFLOPS figure can perform only a little better. Use game tests, not TFLOPS, to compare across brands."
       ]
     },
     {
-      "h": "What Is the PS5 Pro GPU Equivalent?",
+      "h": "PS5 GPU PC Equivalent: AMD, NVIDIA and Intel",
       "body": [
-        "The PS5 Pro GPU's closest desktop equivalent is roughly an RX 7700 XT, or between an RTX 4060 Ti and an RTX 4070 on the NVIDIA side. Sony's own figure is that the Pro renders up to 45 percent faster than the PS5. Applied to a PS5 that sits near an RX 6700, that lands in RX 7700 XT territory, and independent side-by-side tests broadly agree.",
-        "On paper the Pro has 60 compute units, the same count as a desktop RX 6800, but it runs them at lower clocks within a console power budget, so the unit count overstates it. Sony rates its memory bandwidth 28 percent higher than the PS5's 448 GB/s, and it adds 2 GB of DDR5 for system tasks, which frees more of the 16 GB GDDR6 pool for games.",
-        "Ray tracing improved more than raster. Sony quotes two to three times the PS5's ray tracing speed in some cases, which narrows the gap to NVIDIA but does not close it: an [RTX 5070](/gear/rtx-5070/) still leads clearly with heavy RT. The Pro also adds PSSR, Sony's machine-learning upscaler, which plays the same role as DLSS or FSR 4."
-      ]
-    },
-    {
-      "h": "What Is the PS5 GPU Equivalent in NVIDIA?",
-      "body": [
-        "The PS5 GPU's NVIDIA equivalent is roughly an RTX 2070 Super, sometimes an RTX 2080 in well-optimized ports. In current cards, the RTX 4060 is about even in raster and the RTX 5060 a little faster. For the PS5 Pro, the NVIDIA match is between an RTX 4060 Ti and an [RTX 4070](/gear/rtx-4070/), about where the [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) sits today.",
-        "With ray tracing on, the PS5 drops closer to an RTX 2060 Super or RTX 3060, because its RDNA 2 graphics have the same limited ray-tracing hardware as the RX 6000 series. DLSS widens the gap further: at the same internal resolution, DLSS usually gives a sharper image than the upscaling most PS5 games use."
-      ]
-    },
-    {
-      "h": "Is the PS5 Pro Worth It Over a PC Graphics Card?",
-      "body": [
-        "It depends on what you already own. If you have a PC with a recent 6-core or 8-core CPU, a 16 GB card such as the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) or [RTX 5060 Ti 16GB](/gear/rtx-5060-ti-16gb/) gets you to PS5 Pro class raster for less than the console, with more VRAM for games to use and an upscaler that is as good or better. An RTX 5070 or [RX 9070](/gear/rx-9070/) clearly beats it.",
-        "If you are starting from nothing, a whole PC at PS5 Pro level costs more than the console once you add a CPU, motherboard, memory, storage, power supply, case and Windows. DRAM and SSD prices have swung hard since late 2025, which widens that gap. The console's advantages are price for the whole box, a fixed target that developers tune for, and Sony's exclusives on day one."
-      ]
-    },
-    {
-      "h": "What Is the PS5 CPU Equivalent?",
-      "body": [
-        "The PS5 CPU is an 8-core, 16-thread AMD Zen 2 design at up to 3.5 GHz, with a smaller L3 cache than desktop Zen 2. It performs roughly like a Ryzen 7 3700X held to lower clocks, or a Ryzen 7 4700G; in games it lands closer to a Ryzen 5 3600. In Intel terms, that is roughly a Core i5-10400F to i7-10700 for gaming.",
-        "The PS5 Pro keeps the same 8-core Zen 2 design at up to 3.85 GHz, a small step up, so its CPU equivalent is the same class. That is why some games run at the same frame rate target on both consoles: the Pro's extra power goes to resolution and image quality, not to CPU-limited frame rates.",
-        "Any current desktop CPU is much faster. A [Ryzen 5 7600](/gear/ryzen-5-7600/) or [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) comfortably beats both consoles' CPUs. Check any CPU and GPU pairing with the [bottleneck calculator](/tools/bottleneck-calculator/)."
-      ]
-    },
-    {
-      "h": "PS5 vs Xbox Series X vs Steam Machine: Which GPU Is Fastest?",
-      "body": [
-        "Among standard consoles, the PS5 and Xbox Series X are close. The Series X has more compute units (52) at a lower clock, about 12.1 TFLOPS against the PS5's 10.3, and performs roughly like an RTX 2080; the PS5's higher clock lets it match or win in some games. See [Xbox Series X GPU equivalent](/xbox-series-x-gpu-equivalent/) for that breakdown.",
-        "Valve's Steam Machine has a newer RDNA 3 GPU but only 28 compute units, and lands roughly at an RX 6600 XT, a step below the PS5 in GPU power but well ahead in CPU power. The [Steam Machine GPU equivalent](/steam-machine-gpu-equivalent/) page covers it. The PS5 Pro is the fastest of the four in graphics."
+        "Because the PS5 uses RDNA 2, the cleanest match is the desktop card with the same number of compute units: the Radeon RX 6700, the 10 GB model, which also has 36 RDNA 2 compute units. It boosts higher and adds an Infinity Cache the PS5 lacks, but has a narrower 160-bit bus at 320 GB/s against the PS5's 256-bit bus at 448 GB/s. On paper the two land close together.",
+        "On the NVIDIA side, the widely reported match is an RTX 2070 Super, which also has 448 GB/s of memory bandwidth. Side-by-side tests of the same games on PS5 and PC, such as those published by Digital Foundry, generally place the PS5 around a 2070 Super, sometimes reaching RTX 2080 level in a well-optimized port. Roughly means within about 10 percent on average. For how these cards line up against each other, use the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/)."
       ],
       "table": {
-        "caption": "Current console GPUs, published specs and rough desktop match",
+        "caption": "PS5 GPU to desktop graphics cards, rough equivalents",
+        "head": ["Brand", "Closest desktop card", "A little faster than the PS5", "A little slower than the PS5"],
+        "rows": [
+          ["AMD", "RX 6700 (roughly)", "RX 6700 XT", "RX 6600"],
+          ["NVIDIA", "RTX 2070 Super (roughly)", "RTX 5060", "RTX 3060 12GB"],
+          ["NVIDIA, current cards", "RTX 4060 (about even)", "RTX 5060", "RTX 3050 8GB"],
+          ["Intel Arc", "Arc B570 to B580", "Arc B580", "Arc A750"]
+        ]
+      }
+    },
+    {
+      "h": "Which Current Graphics Cards Match the PS5 GPU?",
+      "body": [
+        "In today's lineup, an [RTX 4060](/gear/rtx-4060/) or [Arc B580](/gear/arc-b580/) roughly matches or slightly beats the PS5 GPU in raster, and the [RTX 5060](/gear/rtx-5060/) is a little faster again. All three add DLSS or XeSS, which usually look sharper than the upscaling most PS5 games use. The [RX 6600](/gear/rx-6600/) is somewhat slower than a PS5, and the [RX 6700 XT](/gear/rx-6700-xt/) a little faster.",
+        "With ray tracing on, the PS5 drops closer to an RTX 2060 Super or RTX 3060, because its RDNA 2 graphics have the same limited ray-tracing hardware as the RX 6000 series. Current NVIDIA cards pull further ahead in heavy RT.",
+        "Memory is the catch. The PS5 gives games roughly 12 to 13.5 GB of its 16 GB pool, and ports built around that pool can ask for more than 8 GB of video memory on PC at high textures. The RTX 4060 and RTX 5060 have 8 GB, so a 12 GB B580 or a 16 GB card such as the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) matches the PS5 experience more reliably. See [VRAM](/glossary/vram/) for why."
+      ]
+    },
+    {
+      "h": "What About the PS5 Pro GPU?",
+      "body": [
+        "The PS5 Pro has a different, bigger GPU: 60 compute units, 576 GB/s of memory bandwidth and Sony's PSSR upscaling, with rendering Sony rates up to about 45 percent faster than the PS5. It lands roughly at an RX 7700 XT, between an RTX 4060 Ti and an RTX 4070. The [PS5 Pro GPU equivalent](/ps5-pro-gpu-equivalent/) page covers it in full."
+      ]
+    },
+    {
+      "h": "What CPU Does the PS5 Have?",
+      "body": [
+        "The GPU shares its chip with an 8-core, 16-thread AMD Zen 2 CPU at up to 3.5 GHz, with a smaller L3 cache than desktop Zen 2. It performs roughly like a Ryzen 7 3700X held to lower clocks, or a Ryzen 7 4700G, and in games it lands closer to a Ryzen 5 3600. In Intel terms, that is roughly a Core i5-10400F to i7-10700 for gaming.",
+        "Any current desktop CPU is much faster. A [Ryzen 5 7600](/gear/ryzen-5-7600/) or [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) comfortably beats it, which matters in games locked to 30 or 60 fps on console by the CPU rather than the GPU. Check any CPU and GPU pairing with the [bottleneck calculator](/tools/bottleneck-calculator/)."
+      ]
+    },
+    {
+      "h": "PS5 GPU vs Xbox Series X and Steam Machine",
+      "body": [
+        "The PS5 and Xbox Series X have GPUs from the same RDNA 2 generation. The Series X has more compute units (52) at a lower fixed clock, about 12.1 TFLOPS against the PS5's 10.28, and performs roughly like an RTX 2080; the PS5's higher clock lets it match or win in some games. See [Xbox Series X GPU equivalent](/xbox-series-x-gpu-equivalent/) for that breakdown.",
+        "Valve's Steam Machine has a newer RDNA 3 GPU but only 28 compute units, and lands roughly at an RX 6600 XT by its specs, a step below the PS5 in GPU power but well ahead in CPU power. The [Steam Machine GPU equivalent](/steam-machine-gpu-equivalent/) page covers it, and the [console GPU equivalents chart](/console-gpu-equivalents/) puts every console, handheld and older generation in one table."
+      ],
+      "table": {
+        "caption": "PS5, Xbox Series X and Steam Machine GPUs, published specs and rough desktop match",
         "head": ["Console", "GPU", "Memory", "Closest desktop card"],
         "rows": [
-          ["PS5 Pro", "60 CUs, RDNA 2 base with newer RT", "16 GB GDDR6 + 2 GB DDR5", "RX 7700 XT / RTX 4060 Ti to 4070"],
-          ["Xbox Series X", "52 CUs, 1.825 GHz, 12.1 TFLOPS", "16 GB GDDR6 (10 GB at 560 GB/s)", "RTX 2080 (roughly)"],
-          ["PS5", "36 CUs, up to 2.23 GHz, 10.3 TFLOPS", "16 GB GDDR6, 448 GB/s", "RX 6700 / RTX 2070 Super"],
-          ["Steam Machine", "28 CUs RDNA 3, up to 2.45 GHz", "16 GB DDR5 + 8 GB GDDR6", "RX 6600 XT / RTX 3060 (estimate)"]
+          ["Xbox Series X", "RDNA 2, 52 CUs, 1.825 GHz, 12.1 TFLOPS", "16 GB GDDR6 (10 GB at 560 GB/s)", "RTX 2080 (roughly)"],
+          ["PS5", "RDNA 2, 36 CUs, up to 2.23 GHz, 10.28 TFLOPS", "16 GB GDDR6, 448 GB/s", "RX 6700 / RTX 2070 Super"],
+          ["Steam Machine", "RDNA 3, 28 CUs, up to 2.45 GHz", "16 GB DDR5 + 8 GB GDDR6", "RX 6600 XT / RTX 3060 (estimate)"]
         ]
       }
     },
     {
-      "h": "What PC Matches a PS5 or PS5 Pro?",
+      "h": "What PC Has a GPU Like the PS5?",
       "body": [
         "A PC that matches or slightly beats a PS5 in most games needs a GPU at RTX 4060 level or better, a 6-core CPU from the last few years, and 16 GB of system RAM. With new parts, that means an RTX 5060 or Arc B580 with a Ryzen 5 7600. For PS5 ports with heavy textures, the 12 GB B580 or a 16 GB card is the safer pick than an 8 GB one. See [RTX 5060 vs Arc B580](/compare/rtx-5060-vs-arc-b580/) for that trade-off.",
-        "To match a PS5 Pro, step up to an RTX 5060 Ti 16GB or RX 9060 XT 16GB; to clearly beat it, an RTX 5070 or RX 9070. The [best budget graphics cards](/best-budget-graphics-card/) list ranks the cheaper options by price. Street prices below are USD bands and move week to week."
+        "The [best budget graphics cards](/best-budget-graphics-card/) list ranks the cheaper options by price. Street prices below are USD bands and move week to week."
       ],
       "table": {
-        "caption": "Desktop graphics cards at or above PS5 and PS5 Pro level",
+        "caption": "Desktop graphics cards at or near PS5 GPU level",
         "head": ["Target", "Graphics card", "Street price band", "Notes"],
         "rows": [
           ["Close to a PS5", "RX 6600", "$180 to $230", "Somewhat slower; 1080p medium to high"],
           ["Match a PS5", "RTX 4060 or RTX 5060", "$280 to $330", "8 GB; DLSS"],
           ["Match a PS5, more VRAM", "Arc B580", "$250 to $290", "12 GB; safer for big ports"],
-          ["Match a PS5 Pro", "RX 9060 XT 16GB or RTX 5060 Ti 16GB", "$350 to $480", "16 GB VRAM"],
-          ["Clearly beat a PS5 Pro", "RTX 5070 or RX 9070", "$550 to $650", "1440p high refresh"]
+          ["Beat a PS5 with room to spare", "RX 9060 XT 16GB", "$350 to $400", "16 GB VRAM; FSR 4"]
         ]
       }
     }
   ],
   "mistakes": [
-    ["Comparing TFLOPS across architectures", "10.3 TFLOPS on RDNA 2 does not equal 10.3 TFLOPS on an NVIDIA or RDNA 3 card. Newer designs count throughput differently, so use the RDNA 2 cards with the same compute units, then performance tests, to match the PS5."],
+    ["Comparing TFLOPS across architectures", "10.28 TFLOPS on RDNA 2 does not equal 10.28 TFLOPS on an NVIDIA or RDNA 3 card. Newer designs count throughput differently, so use the RDNA 2 card with the same compute units, then game tests, to match the PS5."],
+    ["Thinking the PS5 has a separate graphics card", "The PS5's GPU is part of one custom AMD chip with the CPU, and both share 16 GB of GDDR6. There is no removable or upgradeable graphics card inside."],
+    ["Assuming the Slim or Digital Edition has a weaker GPU", "The PS5 Slim and both Digital Editions use the same 36-CU GPU as the original PS5. The PS5 Pro is the only model with a different, faster GPU."],
     ["Matching the PS5 with an 8 GB card for big ports", "PS5 games can use roughly 12 to 13.5 GB of memory. On PC, ports built for that pool ask for more than 8 GB of VRAM at high textures, so a 12 GB or 16 GB card matches the PS5 experience more reliably."],
-    ["Treating console 4K as native 4K", "Most PS5 games reach 4K output with dynamic resolution or upscaling. Compare a PS5 to desktop cards at 1440p with upscaling, not native 4K results."],
-    ["Assuming the PS5 Pro has a faster CPU", "The Pro keeps the same 8-core Zen 2 CPU at a slightly higher clock. Its gains are in graphics, so CPU-limited games run at much the same frame rate as on a base PS5."]
+    ["Treating console 4K as native 4K", "Most PS5 games reach 4K output with dynamic resolution or upscaling. Compare the PS5 GPU to desktop cards at 1440p with upscaling, not native 4K results."]
   ],
-  "bottomLine": "The PS5's GPU, 36 RDNA 2 compute units at up to 2.23 GHz and about 10.3 TFLOPS, is roughly a desktop RX 6700 or RTX 2070 Super, and an RTX 4060, RTX 5060 or Arc B580 matches or slightly beats it today. The PS5 Pro's 60-CU GPU, rated about 45 percent faster by Sony, lands near an RX 7700 XT, between an RTX 4060 Ti and an RTX 4070. Both consoles' Zen 2 CPUs sit near a Ryzen 5 3600 in games. For PC builds, prefer 12 GB or more of VRAM to match the PS5's memory pool.",
+  "bottomLine": "The PS5 has a custom AMD RDNA 2 GPU with 36 compute units at up to 2.23 GHz, 10.28 TFLOPS, sharing 16 GB of GDDR6 at 448 GB/s with an 8-core Zen 2 CPU. Every PS5 model except the Pro uses it. On PC it is roughly an RX 6700 or RTX 2070 Super, and an RTX 4060, RTX 5060 or Arc B580 matches or slightly beats it today; prefer 12 GB or more of VRAM to match its memory pool. The PS5 Pro's bigger 60-CU GPU has its own page.",
   "faqs": [
-    {"q": "What GPU is the PS5 equivalent to?", "a": "Roughly a desktop RX 6700 or RTX 2070 Super. The PS5 has 36 RDNA 2 compute units at up to 2.23 GHz, about 10.3 TFLOPS, the same unit count as the RX 6700. Current cards that match or slightly beat it include the RTX 4060, RTX 5060 and Arc B580."},
-    {"q": "What GPU is the PS5 Pro equivalent to?", "a": "Roughly an RX 7700 XT, or between an RTX 4060 Ti and an RTX 4070. Sony rates the Pro's 60-CU GPU up to 45 percent faster than the PS5 in rendering, with 28 percent more memory bandwidth."},
-    {"q": "What is the PS5 GPU equivalent in NVIDIA?", "a": "An RTX 2070 Super in raster, sometimes reaching RTX 2080 level in well-optimized ports. With ray tracing on, it falls closer to an RTX 2060 Super or RTX 3060. Today, the RTX 4060 is about even and the RTX 5060 a little faster."},
-    {"q": "Is an RTX 4060 better than a PS5?", "a": "Roughly even in raster, ahead with ray tracing and DLSS. Its weak spot is 8 GB of VRAM: PS5 ports with heavy textures can need more, where the PS5's shared 16 GB pool gives games roughly 12 to 13.5 GB."},
-    {"q": "How many TFLOPS is the PS5?", "a": "About 10.3 TFLOPS, from 36 RDNA 2 compute units at up to 2.23 GHz. The Xbox Series X is about 12.1 TFLOPS. TFLOPS only compare fairly within the same architecture, so use them alongside game tests."},
-    {"q": "What CPU is the PS5 equivalent to?", "a": "A Ryzen 7 3700X held to lower clocks, landing closer to a Ryzen 5 3600 in games: 8 Zen 2 cores at up to 3.5 GHz with less cache. The PS5 Pro runs the same design at up to 3.85 GHz."},
-    {"q": "Is the PS5 more powerful than the Steam Machine?", "a": "In GPU power, probably yes: the PS5 sits near an RX 6700, the Steam Machine near an RX 6600 XT by its specs. The Steam Machine's 6-core Zen 4 CPU is much faster than the PS5's Zen 2 chip."},
-    {"q": "What graphics card do I need to match a PS5 Pro?", "a": "A 16 GB card such as the RX 9060 XT 16GB or RTX 5060 Ti 16GB lands at PS5 Pro class raster, and an RTX 5070 or RX 9070 clearly beats it. Pair it with a recent 6-core CPU such as a Ryzen 5 7600."}
+    {"q": "What GPU does the PS5 have?", "a": "A custom AMD GPU based on RDNA 2, built into the same chip as the CPU. It has 36 compute units at up to 2.23 GHz for 10.28 TFLOPS, and shares 16 GB of GDDR6 at 448 GB/s. On PC it is roughly an RX 6700 or RTX 2070 Super."},
+    {"q": "Is the PS5 GPU made by AMD or NVIDIA?", "a": "AMD. Both the GPU and the CPU are AMD designs, combined in one custom chip for Sony. The GPU uses RDNA 2, the same architecture as the Radeon RX 6000 series and the Xbox Series X."},
+    {"q": "How powerful is the PS5 GPU?", "a": "About as powerful as a desktop RX 6700 or RTX 2070 Super, or a current RTX 4060 in raster games. That is comfortable at 1080p and 1440p, and most PS5 games reach 4K output with dynamic resolution or upscaling."},
+    {"q": "How many TFLOPS is the PS5?", "a": "10.28 TFLOPS, from 36 RDNA 2 compute units at up to 2.23 GHz. The Xbox Series X is about 12.1 TFLOPS. TFLOPS only compare fairly within the same architecture, so use them alongside game tests."},
+    {"q": "How much VRAM does the PS5 have?", "a": "The PS5 has no separate VRAM. Its 16 GB of GDDR6 at 448 GB/s is shared between the CPU and GPU, and games get roughly 12 to 13.5 GB of it, with the rest reserved for the system."},
+    {"q": "Does the PS5 Slim have the same GPU as the original PS5?", "a": "Yes. The PS5 Slim and the Digital Editions use the same 36-CU RDNA 2 GPU at up to 2.23 GHz, so games perform the same. Only the PS5 Pro has a different, larger GPU."},
+    {"q": "Does the PS5 GPU support ray tracing?", "a": "Yes. RDNA 2 adds hardware ray tracing, with one ray accelerator per compute unit. With ray tracing on, the PS5 performs closer to an RTX 2060 Super or RTX 3060 than to an RTX 2070 Super."},
+    {"q": "What CPU does the PS5 have?", "a": "An 8-core, 16-thread AMD Zen 2 CPU at up to 3.5 GHz, on the same chip as the GPU. In games it lands near a desktop Ryzen 5 3600; any current desktop CPU is much faster."}
   ],
   "sources": [
-    "Sony Interactive Entertainment PS5 and PS5 Pro published specifications",
-    "Mark Cerny PS5 technical presentation (Road to PS5) and PS5 Pro technical briefing",
-    "AMD Radeon RX 6700, RX 6700 XT, RX 6800 and RX 7700 XT specifications",
+    "Sony Interactive Entertainment PS5 published specifications",
+    "Mark Cerny PS5 technical presentation (Road to PS5), March 2020",
+    "AMD Radeon RX 6600, RX 6700 and RX 6700 XT specifications",
     "NVIDIA GeForce RTX 20, 40 and 50 series specifications",
     "TechPowerUp GPU database relative performance listings",
     "Independent console-versus-PC comparisons from Digital Foundry and GPU reviews from Hardware Unboxed and TechPowerUp"
   ],
-  "products": ["rtx-4060", "rtx-5060", "arc-b580", "rx-9060-xt-16gb", "rtx-5060-ti-16gb", "rtx-5070", "ryzen-5-7600"],
-  "related": ["console-gpu-equivalents", "xbox-series-x-gpu-equivalent", "steam-machine-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents"]
+  "products": ["rtx-4060", "rtx-5060", "arc-b580", "rx-6600", "rx-6700-xt", "rx-9060-xt-16gb", "ryzen-5-7600"],
+  "related": ["ps5-pro-gpu-equivalent", "console-gpu-equivalents", "xbox-series-x-gpu-equivalent", "steam-machine-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents"]
 }
