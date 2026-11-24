@@ -79,7 +79,7 @@
       "h": "Is the Xbox Series X More Powerful Than a PS5?",
       "body": [
         "On paper, yes: about 12.1 TFLOPS against the PS5's 10.3, from 52 compute units against 36, plus a faster CPU clock (3.8 GHz against 3.5 GHz). In games the gap is smaller than those numbers suggest. The PS5 runs its fewer units at a much higher clock, which helps parts of the GPU that do not scale with unit count, and many cross-platform games look and run about the same on both.",
-        "Both sit in the RX 6700 to RX 6700 XT range, with the PS5 near an RTX 2070 Super and the Series X near an RTX 2080. The PS5 Pro is clearly faster than both. See [PS5 GPU equivalent](/ps5-gpu-equivalent/) for the PS5 and PS5 Pro breakdown, and the [console GPU equivalents chart](/console-gpu-equivalents/) for every console in one table."
+        "Both sit in the RX 6700 to RX 6700 XT range, with the PS5 near an RTX 2070 Super and the Series X near an RTX 2080. The PS5 Pro is clearly faster than both. See [what GPU the PS5 has](/ps5-gpu-equivalent/) and [PS5 Pro GPU equivalent](/ps5-pro-gpu-equivalent/) for the PlayStation breakdowns, and the [console GPU equivalents chart](/console-gpu-equivalents/) for every console in one table."
       ]
     },
     {
@@ -132,5 +132,5 @@
     "Independent console-versus-PC comparisons from Digital Foundry and GPU reviews from Hardware Unboxed and TechPowerUp"
   ],
   "products": ["arc-b580", "rtx-5060", "rtx-4060", "rx-6700-xt", "rx-6600", "ryzen-5-7600"],
-  "related": ["console-gpu-equivalents", "ps5-gpu-equivalent", "steam-machine-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents"]
+  "related": ["console-gpu-equivalents", "ps5-gpu-equivalent", "ps5-pro-gpu-equivalent", "steam-machine-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents"]
 }
