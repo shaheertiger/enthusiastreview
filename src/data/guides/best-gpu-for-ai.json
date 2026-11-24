@@ -1,0 +1,214 @@
+{
+  "slug": "best-gpu-for-ai",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for AI (2026): 6 Cards for LLMs and Stable Diffusion",
+  "h1": "Best GPU for AI",
+  "query": "best gpu for ai",
+  "description": "The RTX 5090 is the best GPU for AI at home: 32 GB of VRAM runs 30B-class LLMs. The 16 GB RTX 5060 Ti is the budget pick; 6 GPUs ranked by VRAM tier.",
+  "dek": "For local AI, video memory decides what you can run and CUDA decides how easily. Here is how to match a card to the models you want, from 8 GB to 32 GB.",
+  "intro": [
+    "The RTX 5090 is the best GPU for local AI: its 32 GB of VRAM holds 30B-class language models at 4-bit with room for long context, and its 1,792 GB/s of memory bandwidth is the highest of any consumer card. At $2,000–$2,700 it is a big spend, so the 16 GB RTX 5070 Ti and RTX 5060 Ti are the value picks for most people.",
+    "This guide is for people who want to run large language models with tools like Ollama, LM Studio or llama.cpp, or generate images with Stable Diffusion, SDXL or Flux, on their own PC. We rank cards by VRAM first, then software support (CUDA vs ROCm), then memory bandwidth and price. We do not quote speed figures we cannot stand behind."
+  ],
+  "quickAnswer": "Buy the RTX 5090 (32 GB, $2,000–$2,700) to run the largest models on one card. The RTX 5070 Ti (16 GB, $750–$900) is the best value high-end pick and the RTX 5060 Ti 16GB ($430–$480) the budget pick. The RX 9070 XT (16 GB) suits Linux users happy with ROCm, the Arc B580 (12 GB) is the cheapest way in, and an 8 GB RTX 5060 runs 7B–8B models.",
+  "picks": [
+    {
+      "id": "rtx-5090",
+      "label": "Best Overall",
+      "bestFor": "running 30B-class LLMs fully on the GPU, long context windows and full-size Flux image models",
+      "skipIf": "you mainly run 7B–14B models, which a 16 GB card handles for a fraction of the price",
+      "writeup": [
+        "For local AI, video memory is the hard limit. A model that fits in VRAM runs on the GPU; one that does not spills into system RAM and slows sharply. The RTX 5090's 32 GB is the most on any consumer graphics card, and it changes which models you can run: 30B to 32B-parameter LLMs at 4-bit quantization fit with room left for a long context window, and image models such as Flux.1 dev run at full precision without workarounds.",
+        "It also has the most [memory bandwidth](/glossary/vram/) of any consumer card, 1,792 GB/s on a 512-bit bus. Text generation speed in LLMs is largely limited by how fast the card can read the model's weights, so bandwidth matters as much as compute once a model fits. Add 21,760 CUDA cores and fifth-generation Tensor cores with FP4 support, and nothing else on the desktop comes close.",
+        "The costs are real: $2,000–$2,700, a 575 W rating and NVIDIA's 1,000 W PSU guidance. For 70B models it is still not enough on its own; those need about 40 GB at 4-bit, so you either offload part of the model to system RAM or use two cards. Our [RTX 5090 vs RTX 5080](/compare/rtx-5090-vs-rtx-5080/) page covers the gap to the next card down."
+      ],
+      "pros": ["32 GB VRAM, the most on a consumer card", "1,792 GB/s bandwidth", "CUDA: every AI tool supports it"],
+      "cons": ["$2,000–$2,700", "575 W and a 1,000 W PSU", "Still short of 70B models on one card"]
+    },
+    {
+      "id": "rtx-5070-ti",
+      "label": "Best Value 16 GB",
+      "bestFor": "serious local AI on a budget under $1,000: 14B–24B LLMs, SDXL and quantized Flux",
+      "skipIf": "you need to run 30B-class models without offloading",
+      "writeup": [
+        "The RTX 5070 Ti is the sweet spot for most people who take local AI seriously. It has the same 16 GB of GDDR7 as the RTX 5080 on a 256-bit bus with 896 GB/s of bandwidth, only about 7% less than the 5080's 960 GB/s, for $250–$400 less.",
+        "16 GB holds 14B-parameter models at 4-bit with plenty of context, and 20B to 24B models at 4-bit with shorter context. OpenAI says its gpt-oss-20b model runs within 16 GB of memory. For images, SDXL runs comfortably, and Flux runs in its FP8 or GGUF quantized forms.",
+        "Because it is an NVIDIA card, every major tool works without fuss: Ollama, LM Studio, llama.cpp, ComfyUI, PyTorch and most training scripts assume CUDA first. It is rated at 300 W with a 750 W PSU recommendation. The [RTX 5080 vs RTX 5070 Ti](/compare/rtx-5080-vs-rtx-5070-ti/) page explains why the 5080 rarely makes sense for AI."
+      ],
+      "pros": ["16 GB with 896 GB/s bandwidth", "Full CUDA support", "$250–$400 less than the RTX 5080"],
+      "cons": ["16 GB caps you below 30B-class models", "$750–$900"]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best Budget for AI",
+      "bestFor": "learning local AI, 7B–14B chat models and Stable Diffusion for under $500",
+      "skipIf": "you want fast generation from 20B+ models",
+      "writeup": [
+        "The RTX 5060 Ti 16GB is the cheapest current NVIDIA card with 16 GB of VRAM, at $430–$480. For AI, that is what counts: it fits the same models as the RTX 5070 Ti, just more slowly.",
+        "The slowdown comes from its 128-bit bus, which gives 448 GB/s of bandwidth, half that of the 5070 Ti. LLMs that fit will run, but text appears at a lower rate on larger models. For 7B to 14B models at 4-bit, which cover most everyday chat, coding help and summarizing, it is a capable card, and it runs SDXL and quantized Flux.",
+        "It draws only 180 W and uses a single 8-pin plug on most models, so it drops into older PCs. Make sure you buy the 16GB version; the 8GB card has the same name and much less room for models. See [RTX 5060 Ti 8GB vs 16GB](/compare/rtx-5060-ti-8gb-vs-rtx-5060-ti-16gb/)."
+      ],
+      "pros": ["Cheapest 16 GB NVIDIA card", "180 W, easy to power", "Full CUDA support"],
+      "cons": ["448 GB/s bandwidth slows larger models", "Easy to confuse with the 8GB version"]
+    },
+    {
+      "id": "rx-9070-xt",
+      "label": "Best AMD Card for AI",
+      "bestFor": "Linux users and gamers who also run LLMs through Ollama, llama.cpp or LM Studio",
+      "skipIf": "you rely on CUDA-only tools or Windows training scripts",
+      "writeup": [
+        "The RX 9070 XT gives you 16 GB of VRAM on a 256-bit bus with 640 GB/s of bandwidth for $600–$730, and independent reviews put it close to the RTX 5070 Ti in games for less money. For AI the question is software, not hardware.",
+        "AMD's ROCm platform added official support for RDNA 4 cards, including the RX 9070 XT, during 2025, with Linux as the primary platform and Windows support arriving more gradually. Ollama supports AMD GPUs through ROCm, and llama.cpp and LM Studio can also use Vulkan, which works on AMD and Intel cards without ROCm. For running LLMs, that covers most needs.",
+        "Image generation and training are rougher. Many ComfyUI workflows, extensions and research scripts assume CUDA, and getting them running on AMD can take extra steps. If LLM chat is your main use and you also game, it is good value; if you want everything to just work, buy NVIDIA. Our [best PSU for RX 9070 XT](/best-psu-for-rx-9070-xt/) guide covers its 304 W power needs."
+      ],
+      "pros": ["16 GB and 640 GB/s for $600–$730", "Strong gaming card too", "Works with Ollama, llama.cpp and LM Studio"],
+      "cons": ["ROCm support is best on Linux", "Many image and training tools assume CUDA"]
+    },
+    {
+      "id": "arc-b580",
+      "label": "Cheapest 12 GB Card",
+      "bestFor": "trying local AI for under $300 with 7B–12B models",
+      "skipIf": "you want the widest software support with the least setup",
+      "writeup": [
+        "The Arc B580 is the cheapest new card with 12 GB of VRAM, at $250–$290. It has a 192-bit bus with 456 GB/s of bandwidth, slightly more than the RTX 5060 Ti's 448 GB/s, so models that fit can generate text at a reasonable pace.",
+        "12 GB fits 7B to 12B LLMs at 4-bit with good context, and SDXL. Intel supports AI workloads through its oneAPI and OpenVINO software and its IPEX-LLM project, and llama.cpp and LM Studio run on Arc through SYCL or Vulkan. Setup is less polished than CUDA, and fewer tutorials assume Intel.",
+        "It is a sensible first AI card if you also game at 1080p and want more VRAM than an 8 GB card for the money. Compare it with the closest NVIDIA option in [RTX 5060 vs Arc B580](/compare/rtx-5060-vs-arc-b580/)."
+      ],
+      "pros": ["12 GB for $250–$290", "456 GB/s bandwidth", "Good 1080p gaming card"],
+      "cons": ["Less mature AI software than CUDA", "Fewer guides and tutorials"]
+    },
+    {
+      "id": "rtx-5060",
+      "label": "Entry-Level 8 GB",
+      "bestFor": "running 7B–8B chat models and Stable Diffusion 1.5 or SDXL on a gaming PC you already own",
+      "skipIf": "you are buying a card mainly for AI, where 12–16 GB is worth the extra money",
+      "writeup": [
+        "Many people asking about local AI already own an 8 GB card like the RTX 5060, often in a prebuilt with 16 GB or 32 GB of system RAM. The answer to what it can run is clear: 7B to 8B-parameter models at 4-bit, such as Llama 3.1 8B, Qwen 7B-class models or Mistral 7B, fit fully on the GPU with a moderate context window.",
+        "Larger models still run if you offload some layers to system RAM, which tools like Ollama and LM Studio do automatically, but generation slows a lot once part of the model sits outside the card. With 32 GB of system RAM, 12B to 14B models are usable this way; 30B-class models will run, slowly. For images, Stable Diffusion 1.5 and SDXL run on 8 GB.",
+        "It has full CUDA support, 448 GB/s of bandwidth and a 145 W rating, all for $300–$330. If you are buying new specifically for AI, spend about $130 more on the 16 GB RTX 5060 Ti; double the VRAM matters more than anything else on this page. [RTX 4060 vs RTX 5060](/compare/rtx-4060-vs-rtx-5060/) covers the older 8 GB card."
+      ],
+      "pros": ["Runs 7B–8B models fully on the GPU", "Full CUDA support", "$300–$330"],
+      "cons": ["8 GB rules out 14B+ models without offloading", "Poor value if bought mainly for AI"]
+    }
+  ],
+  "tableSpecs": ["VRAM", "Memory bus", "Shader cores", "Board power"],
+  "ranking": {
+    "intro": "These rankings are based on manufacturer specifications (VRAM, memory bus and bandwidth, power), the documented hardware support of AI software such as CUDA, ROCm, Ollama and llama.cpp, and independent reviews and owner reports. None of these cards were bench-tested by Enthusiast Review, and we do not quote tokens-per-second or image-time figures. Prices are street-price bands.",
+    "criteria": [
+      ["VRAM", "The biggest factor: it decides which models fit on the GPU without offloading to system RAM."],
+      ["Software support", "CUDA works with nearly every AI tool; ROCm and Intel's stack work with fewer, with more setup."],
+      ["Memory bandwidth", "LLM text generation is largely limited by how fast the card reads model weights."],
+      ["Price per GB of VRAM", "What each gigabyte of usable model memory costs."],
+      ["Power and fit", "Board power, PSU needs and whether the card suits an existing PC."]
+    ],
+    "why": "The RTX 5090 won because its 32 GB of VRAM and 1,792 GB/s of bandwidth run models no other consumer card can hold, with full CUDA support."
+  },
+  "mentions": [
+    { "id": "rtx-5080", "text": "The RTX 5080 has the same 16 GB of VRAM as the RTX 5070 Ti and only about 7% more bandwidth, for $250–$400 more. It fits exactly the same models. Buy it for gaming at 4K, not for AI." },
+    { "id": "rx-9060-xt-16gb", "text": "The RX 9060 XT 16GB is the cheapest new 16 GB card at $350–$400, but its 128-bit bus gives only 320 GB/s, and it shares the RX 9070 XT's ROCm caveats. A reasonable choice for Vulkan-based LLM tools on a tight budget." },
+    { "name": "Used RTX 3090 (24 GB)", "text": "A used RTX 3090 offers 24 GB of VRAM, more than any current card below the RTX 5090, and full CUDA support. It is popular for local LLMs, but it is a 350 W card with no warranty in most used sales. Check the seller and the card's condition carefully." }
+  ],
+  "sections": [
+    {
+      "h": "How Much VRAM Do You Need for AI?",
+      "body": [
+        "16 GB is the sweet spot for local AI in 2026, 12 GB is workable and 8 GB is the minimum. The rule of thumb for LLMs is simple arithmetic: at 4-bit quantization, a model needs roughly 0.5–0.6 GB of VRAM per billion parameters, plus 1–2 GB or more for the context window. At 8-bit it is about 1 GB per billion; at 16-bit, about 2 GB.",
+        "The table applies that rule to common model sizes. Treat it as a guide, not a guarantee; actual use depends on the quantization format, context length and the tool you run. Our [VRAM](/glossary/vram/) explainer covers the basics."
+      ],
+      "table": {
+        "caption": "VRAM tiers for local LLMs at 4-bit quantization (approximate)",
+        "head": ["VRAM", "Fits fully on the GPU", "Example cards"],
+        "rows": [
+          ["8 GB", "7B–8B models", "RTX 5060, RTX 4060, RTX 5060 Ti 8GB"],
+          ["12 GB", "Up to about 12B–14B models", "Arc B580, RTX 5070, RTX 4070"],
+          ["16 GB", "14B comfortably; 20B–24B with shorter context", "RTX 5060 Ti 16GB, RTX 5070 Ti, RTX 5080, RX 9070 XT"],
+          ["24 GB", "Up to about 32B models", "Used RTX 3090 or 4090"],
+          ["32 GB", "32B with long context; 70B only with offloading", "RTX 5090"]
+        ]
+      }
+    },
+    {
+      "h": "CUDA vs ROCm: Does NVIDIA or AMD Matter for AI?",
+      "body": [
+        "Yes. NVIDIA's CUDA is the platform almost every AI tool is built and tested on first: PyTorch, ComfyUI, llama.cpp, Ollama, vLLM and most training and fine-tuning scripts. On an NVIDIA card, installation guides usually just work.",
+        "AMD's ROCm is the equivalent for Radeon cards. It supports the RX 9070 XT and other RDNA 4 cards, is strongest on Linux and has been extending Windows support. For running LLMs, AMD is now a practical choice, since Ollama supports ROCm and llama.cpp and LM Studio can use Vulkan. For image generation and training, expect more setup and fewer guides. Intel Arc sits further behind, with oneAPI, OpenVINO and Vulkan support."
+      ]
+    },
+    {
+      "h": "What LLM Can Run on an RTX 5060 With 8 GB and 32 GB of RAM?",
+      "body": [
+        "7B to 8B-parameter models at 4-bit run fully on an 8 GB RTX 5060, and that is the best experience the card offers. Llama 3.1 8B, Mistral 7B and Qwen models in the 7B class are good starting points in Ollama or LM Studio.",
+        "With 32 GB of system RAM, as in a Core Ultra 7 265 build with an RTX 5060, you can also run 12B to 14B models and some MoE models such as gpt-oss-20b by offloading part of the model to the CPU. They work, but generation is noticeably slower than a model that fits entirely in VRAM. The CPU matters less than the GPU's memory here. Our [best GPU for Core Ultra 7 265K](/best-gpu-for-core-ultra-7-265k/) guide covers gaming upgrades for that platform."
+      ]
+    },
+    {
+      "h": "What Is the Best GPU for Stable Diffusion and Flux?",
+      "body": [
+        "For image generation, a 16 GB NVIDIA card is the best balance, and the RTX 5070 Ti is the pick. Stable Diffusion 1.5 runs on 6–8 GB, SDXL is comfortable on 12 GB or more, and Flux.1 dev needs about 24 GB at full precision or 12–16 GB in FP8 or GGUF quantized form.",
+        "CUDA matters more for images than for LLMs. ComfyUI and its extensions, along with most image-model tutorials, assume NVIDIA. The RTX 5090's 32 GB runs Flux and large SDXL batches without compromise."
+      ]
+    },
+    {
+      "h": "Does Memory Bandwidth Matter for Local LLMs?",
+      "body": [
+        "Yes, once the model fits. Generating each token means reading the model's weights from VRAM, so text generation speed rises with memory bandwidth. That is why a card with more VRAM but a narrow bus can feel slower than its size suggests.",
+        "Bandwidth is set by memory speed and bus width. The figures below come from the cards' published specifications."
+      ],
+      "table": {
+        "caption": "VRAM and memory bandwidth by card",
+        "head": ["Card", "VRAM", "Memory bus", "Bandwidth"],
+        "rows": [
+          ["RTX 5090", "32 GB GDDR7", "512-bit", "1,792 GB/s"],
+          ["RTX 5080", "16 GB GDDR7", "256-bit", "960 GB/s"],
+          ["RTX 5070 Ti", "16 GB GDDR7", "256-bit", "896 GB/s"],
+          ["RX 9070 XT", "16 GB GDDR6", "256-bit", "640 GB/s"],
+          ["Arc B580", "12 GB GDDR6", "192-bit", "456 GB/s"],
+          ["RTX 5060 Ti 16GB", "16 GB GDDR7", "128-bit", "448 GB/s"],
+          ["RTX 5060", "8 GB GDDR7", "128-bit", "448 GB/s"]
+        ]
+      }
+    },
+    {
+      "h": "Is a Gaming GPU Good for AI?",
+      "body": [
+        "Yes. Consumer GeForce and Radeon cards run local LLMs and image models well, and they cost far less per gigabyte of VRAM than workstation cards. Workstation cards add more VRAM, ECC memory and certified drivers, which matter for professional deployments, not for running models at home.",
+        "If you game too, pick from the cards here based on your resolution as well. Our [best graphics card](/best-graphics-card/) and [best NVIDIA graphics card](/best-nvidia-graphics-card/) guides rank the same cards for games."
+      ]
+    },
+    {
+      "h": "Can You Use Two GPUs for AI?",
+      "body": [
+        "For LLM inference, yes. Tools such as llama.cpp, Ollama and vLLM can split a model across two cards, so two 16 GB cards together hold models that one cannot. Each card still needs its own PCIe slot, power and cooling.",
+        "For gaming, multi-GPU is effectively dead, so a second card helps only AI work. Check that your motherboard has a second full-length slot with usable lanes and that your power supply can handle both; our [best power supply](/best-power-supply/) guide covers high-wattage units."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Buying for speed instead of VRAM", "A faster card with less memory runs fewer models. A 16 GB RTX 5060 Ti fits models an RTX 5070 with 12 GB cannot. Decide which model sizes you want, then buy the VRAM for them."],
+    ["Buying the 8GB 5060 Ti by mistake", "The RTX 5060 Ti comes in 8GB and 16GB versions with the same name. For AI, only the 16GB card makes sense. Check the listing."],
+    ["Assuming AMD works like NVIDIA", "ROCm runs LLMs well on Linux, but many image and training tools assume CUDA. If you want guides to work as written, buy NVIDIA."],
+    ["Ignoring system RAM", "When a model does not fit in VRAM, tools offload it to system RAM. 32 GB of RAM gives room to try larger models; 16 GB limits you. DRAM prices have swung hard since late 2025, so budget for it."],
+    ["Underpowering an RTX 5090", "The RTX 5090 is rated at 575 W and NVIDIA recommends a 1,000 W PSU. Long AI jobs hold the card at high load for hours, so do not cut corners on the power supply."]
+  ],
+  "bottomLine": "The RTX 5090 is the best GPU for AI because its 32 GB of VRAM and 1,792 GB/s of bandwidth run 30B-class models on one card with full CUDA support. Most people should buy a 16 GB card instead: the RTX 5070 Ti for speed, or the RTX 5060 Ti 16GB on a budget. The RX 9070 XT suits Linux users comfortable with ROCm, the Arc B580 is the cheapest 12 GB option, and an 8 GB RTX 5060 runs 7B–8B models.",
+  "faqs": [
+    { "q": "What is the best GPU for running AI locally?", "a": "The RTX 5090, because its 32 GB of VRAM holds 30B-class LLMs and full-size Flux models on one card. For most budgets, a 16 GB card such as the RTX 5070 Ti or RTX 5060 Ti 16GB is the better buy." },
+    { "q": "Is 8 GB of VRAM enough for AI?", "a": "It is enough to start. An 8 GB card runs 7B–8B LLMs at 4-bit and Stable Diffusion 1.5 or SDXL. Larger models need offloading to system RAM, which slows generation a lot. Buy 12–16 GB if AI is the main reason for the card." },
+    { "q": "Is the RTX 5060 Ti 16GB good for AI?", "a": "Yes. It is the cheapest current NVIDIA card with 16 GB of VRAM, so it fits 14B models comfortably and runs SDXL and quantized Flux. Its 448 GB/s bandwidth makes larger models generate more slowly than on an RTX 5070 Ti." },
+    { "q": "Is AMD good for AI?", "a": "For running LLMs, increasingly yes. ROCm supports the RX 9070 XT, mainly on Linux, and Ollama, llama.cpp and LM Studio run on AMD. For image generation and training, NVIDIA's CUDA has much wider support." },
+    { "q": "How much VRAM do I need for a 70B model?", "a": "About 40 GB or more at 4-bit quantization, plus room for context. No single consumer card has that; the 32 GB RTX 5090 needs to offload part of the model, or you can split it across two GPUs." },
+    { "q": "Is the RTX 5080 good for AI?", "a": "It works well, but it has the same 16 GB of VRAM as the RTX 5070 Ti and only about 7% more bandwidth, for $250–$400 more. For AI, the 5070 Ti is better value." },
+    { "q": "What GPU do I need for Stable Diffusion?", "a": "SD 1.5 runs on 6–8 GB, SDXL is comfortable on 12 GB or more, and Flux needs 12–16 GB in quantized form or about 24 GB at full precision. A 16 GB NVIDIA card covers all of them." },
+    { "q": "Is a used RTX 3090 still good for AI?", "a": "Yes, for its 24 GB of VRAM and CUDA support, which fit 30B-class models at 4-bit. It is an older 350 W card usually sold without warranty, so buy carefully." }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 50 series specifications (VRAM, memory bus, power)",
+    "AMD Radeon RX 9070 XT specifications and ROCm system requirements",
+    "Intel Arc B580 specifications and Intel AI software documentation (oneAPI, OpenVINO, IPEX-LLM)",
+    "Ollama, llama.cpp and LM Studio GPU support documentation",
+    "OpenAI gpt-oss model card (memory requirements)",
+    "Independent reviews and owner reports on local LLM and Stable Diffusion hardware"
+  ],
+  "related": ["best-graphics-card", "best-nvidia-graphics-card", "best-graphics-card-under-500"]
+}

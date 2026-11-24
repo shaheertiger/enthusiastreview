@@ -281,7 +281,7 @@
       "h": "What NVIDIA Does Well",
       "body": [
         "NVIDIA's biggest advantage is software. DLSS is supported in far more games than AMD's FSR 4 or Intel's XeSS, and NVIDIA's override settings in the NVIDIA App can apply the newer DLSS model to many older DLSS titles. Ray tracing and especially path tracing still run better on GeForce cards at every price point.",
-        "Outside gaming, CUDA remains the default for many creative and AI tools, and the NVENC encoder is widely used for streaming. That makes a GeForce card the low-risk choice if your PC does more than play games, and the RTX 5090 gives NVIDIA the only answer at the very top."
+        "Outside gaming, CUDA remains the default for many creative and AI tools, and the NVENC encoder is widely used for streaming. That makes a GeForce card the low-risk choice if your PC does more than play games, and the RTX 5090 gives NVIDIA the only answer at the very top. CUDA is also why NVIDIA leads for local AI; our [best GPU for AI](/best-gpu-for-ai/) guide ranks cards by VRAM for LLMs and Stable Diffusion."
       ]
     },
     {
@@ -419,6 +419,7 @@
   "related": [
     "best-graphics-card",
     "best-graphics-card-for-1440p",
-    "best-budget-graphics-card"
+    "best-budget-graphics-card",
+    "best-gpu-for-ai"
   ]
 }

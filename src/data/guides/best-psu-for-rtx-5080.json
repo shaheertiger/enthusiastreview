@@ -119,7 +119,7 @@
       "h": "Is 750 W Enough for an RTX 5080?",
       "body": [
         "Not as a plan. NVIDIA recommends 850 W for the RTX 5080, and a 750 W unit leaves little margin once you add a high-end CPU and the card's short power spikes. Some efficient builds may run on 750 W, but an unexpected shutdown under load is the usual result when the margin runs out.",
-        "The price difference between a good 750 W and a good 850 W unit is often $20–$40. For a $1,000-plus graphics card, that is not where to save."
+        "The price difference between a good 750 W and a good 850 W unit is often $20–$40. For a $1,000-plus graphics card, that is not where to save. For the smaller RTX 5070, which NVIDIA pairs with 650 W, see our [best PSU for RTX 5070](/best-psu-for-rtx-5070/) guide."
       ]
     },
     {
@@ -176,5 +176,5 @@
     "Intel ATX 3.x power supply design guide summaries",
     "Independent power supply reviews and owner reports"
   ],
-  "related": ["best-power-supply", "best-psu-for-rtx-5070-ti", "best-nvidia-graphics-card"]
+  "related": ["best-power-supply", "best-psu-for-rtx-5070-ti", "best-nvidia-graphics-card", "best-psu-for-rtx-5070"]
 }

@@ -156,7 +156,7 @@
       "h": "When Does Moving to AM5 Make More Sense?",
       "body": [
         "Move to AM5 if you do not yet own a 3950X, if your DDR4 kit also needs replacing, or if gaming is your main workload. A modern Ryzen 7 on AM5 is much faster in games than any Zen 2 chip, and AM5 has years of CPU upgrades ahead. Stay on AM4 if you already own the 3950X and good DDR4 and just need a working board.",
-        "There is also a middle path for gaming. The [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) drops into the same AM4 board after a BIOS update and is much faster than the 3950X in games, though slower in heavily threaded work. A Ryzen 9 5950X keeps 16 cores with newer Zen 3 cores, if you can find one at a fair price."
+        "There is also a middle path for gaming. The [Ryzen 7 5700X3D](/gear/ryzen-7-5700x3d/) drops into the same AM4 board after a BIOS update and is much faster than the 3950X in games, though slower in heavily threaded work. A Ryzen 9 5950X keeps 16 cores with newer Zen 3 cores, if you can find one at a fair price. For a gaming-first AM5 build, our [best motherboard for Ryzen 7 9800X3D](/best-motherboard-for-ryzen-7-9800x3d/) guide is the place to start."
       ],
       "table": {
         "caption": "Rough cost of staying on AM4 vs moving to AM5 (street-price bands)",
@@ -223,5 +223,5 @@
     "Independent X570 and B550 VRM thermal reviews from established hardware outlets",
     "Owner reports on chipset fan noise and long-term reliability"
   ],
-  "related": ["best-cpu-cooler-for-ryzen-9-3900x-and-3950x", "best-ram-for-ryzen-9-3900x-and-3950x", "best-am5-motherboard"]
+  "related": ["best-cpu-cooler-for-ryzen-9-3900x-and-3950x", "best-ram-for-ryzen-9-3900x-and-3950x", "best-am5-motherboard", "best-motherboard-for-ryzen-7-9800x3d"]
 }

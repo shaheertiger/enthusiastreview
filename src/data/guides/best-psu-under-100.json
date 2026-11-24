@@ -119,7 +119,7 @@
       "h": "Is 750 W Enough for an RTX 5070 or RX 9070 XT?",
       "body": [
         "Yes. A 750 W unit is enough for every current midrange card, including the RTX 5070 Ti, which is the card where NVIDIA sets its recommendation at exactly 750 W. The RX 9070 XT is rated at 304 W, very close to the 5070 Ti, so the same advice applies.",
-        "The table below maps common budget and midrange GPUs to the picks on this page. If you want to check your exact CPU and GPU combination, the [PSU calculator](/tools/psu-calculator/) adds up the parts for you."
+        "The table below maps common budget and midrange GPUs to the picks on this page. If you want to check your exact CPU and GPU combination, the [PSU calculator](/tools/psu-calculator/) adds up the parts for you. Card-specific picks are in our [best PSU for RTX 5070](/best-psu-for-rtx-5070/) and [best PSU for RTX 5060 Ti](/best-psu-for-rtx-5060-ti/) guides."
       ],
       "table": {
         "caption": "Which under-$100 power supply fits which graphics card",
@@ -237,5 +237,5 @@
     "80 Plus program efficiency requirements",
     "Published independent PSU reviews and community PSU tier lists"
   ],
-  "related": ["best-power-supply", "best-psu-for-rtx-2080-and-2080-ti", "best-budget-graphics-card"]
+  "related": ["best-power-supply", "best-psu-for-rtx-2080-and-2080-ti", "best-budget-graphics-card", "best-psu-for-rtx-5060-ti"]
 }

@@ -1,0 +1,201 @@
+{
+  "slug": "best-motherboard-for-ryzen-7-9800x3d",
+  "type": "roundup",
+  "category": "motherboards",
+  "title": "Best Motherboard for Ryzen 7 9800X3D (2026): 6 Boards Ranked",
+  "h1": "Best Motherboard for Ryzen 7 9800X3D",
+  "query": "best motherboard for ryzen 7 9800x3d",
+  "description": "The MSI MAG B650 Tomahawk WiFi is the best motherboard for a Ryzen 7 9800X3D: strong VRM, Wi-Fi 6E and BIOS Flashback for $170–$200. 6 AM5 boards ranked.",
+  "dek": "The 9800X3D is a 120 W, eight-core chip, so it does not need an expensive board. Spend on the features you will use, not on power delivery it cannot stress.",
+  "intro": [
+    "The MSI MAG B650 Tomahawk WiFi is the best motherboard for a Ryzen 7 9800X3D. The chip is rated at 120 W, and this $170–$200 board has power delivery that independent reviews rank among the strongest at its price, plus Wi-Fi 6E, 2.5 GbE and a Flash BIOS button that updates firmware without a CPU installed.",
+    "This guide is for anyone pairing a motherboard with AMD's fastest gaming CPU. Because the 9800X3D's frame rate comes from its 96 MB of L3 cache rather than high power, a midrange B650 or B850 board runs it at full speed. We rank boards on what changes your experience: BIOS support out of the box, networking, storage, PCIe 5.0 and price."
+  ],
+  "quickAnswer": "Buy the MSI MAG B650 Tomahawk WiFi ($170–$200) for most 9800X3D builds. The MSI MAG B850 Tomahawk MAX WiFi ($210–$250) adds PCIe 5.0 graphics and storage, Wi-Fi 7 and 5 GbE. The MSI MAG X870 Tomahawk WiFi ($260–$300) adds USB4. The Gigabyte B650 Aorus Elite AX is the cheapest with a Gen5 SSD slot, and the MSI PRO B650M-A WiFi ($130–$160) is the micro-ATX budget pick.",
+  "picks": [
+    {
+      "id": "msi-mag-b650-tomahawk-wifi",
+      "label": "Best Overall",
+      "bestFor": "most 9800X3D gaming builds that want strong power delivery and Wi-Fi for under $200",
+      "skipIf": "you want PCIe 5.0 for the graphics card or a Gen5 SSD",
+      "writeup": [
+        "The 9800X3D is the CPU most gamers want on AM5, and the B650 Tomahawk WiFi is the board most of them should pair it with. AMD rates the chip at 120 W, with a 162 W package limit, and independent VRM reviews put this board's power delivery among the strongest at its price. It runs the 9800X3D at full boost all day, and it has margin for Precision Boost Overdrive, which the 9800X3D supports.",
+        "It also covers the practical things: Wi-Fi 6E, 2.5 GbE, three PCIe 4.0 M.2 slots, four DDR5 slots and a good spread of rear USB. The Flash BIOS button matters for this chip in particular. Older B650 stock can ship with firmware that predates the 9800X3D, and the button lets you update from a USB stick before the CPU is even in the socket.",
+        "What it lacks is PCIe 5.0. Its graphics slot runs at PCIe 4.0 x16, which costs current cards very little, and its M.2 slots are Gen4. At $170–$200 it is the best value for a gaming 9800X3D build. The [B650 Tomahawk vs B850 Tomahawk MAX](/compare/msi-mag-b650-tomahawk-wifi-vs-msi-mag-b850-tomahawk-max-wifi/) page shows what the newer board adds."
+      ],
+      "pros": ["Power delivery with headroom for PBO", "Flash BIOS button", "Wi-Fi 6E, 2.5 GbE, three M.2 slots", "$170–$200"],
+      "cons": ["No PCIe 5.0 graphics or SSD slot", "Older stock may need a BIOS update"]
+    },
+    {
+      "id": "msi-mag-b850-tomahawk-max-wifi",
+      "label": "Best B850 Board",
+      "bestFor": "9800X3D builds that want PCIe 5.0, Wi-Fi 7 and a board that supports the chip out of the box",
+      "skipIf": "you would rather put $30–$60 toward the graphics card",
+      "writeup": [
+        "The B850 Tomahawk MAX WiFi keeps what makes the B650 Tomahawk the top pick and adds the newer features. MSI lists 80 A smart power stages, and the board has a PCIe 5.0 x16 graphics slot, a PCIe 5.0 M.2 slot, Wi-Fi 7 and 5 GbE.",
+        "For a 9800X3D the biggest practical gain is that B850 boards launched after the chip, so they ship with firmware that supports it. That removes the one step that sometimes trips up first-time builders on older B650 stock.",
+        "At $210–$250 it costs $30 to $60 more than the B650 Tomahawk. Current graphics cards lose only a percent or two on PCIe 4.0, and a Gen5 SSD loads games about as fast as a good Gen4 drive, so the extra money mainly buys newer networking and future-proofing. If you want those, this is the B850 to buy; the [B850 Steel Legend vs B850 Tomahawk MAX](/compare/asrock-b850-steel-legend-wifi-vs-msi-mag-b850-tomahawk-max-wifi/) page compares it with ASRock's board."
+      ],
+      "pros": ["PCIe 5.0 graphics and M.2", "Wi-Fi 7 and 5 GbE", "Supports the 9800X3D from launch", "80 A power stages"],
+      "cons": ["$30–$60 more than the B650 Tomahawk", "PCIe 5.0 adds little for gaming today"]
+    },
+    {
+      "id": "msi-mag-x870-tomahawk-wifi",
+      "label": "Best X870 Board",
+      "bestFor": "high-end 9800X3D builds that want USB4 and an RTX 5090-class card",
+      "skipIf": "you do not need USB4 or 5 GbE networking",
+      "writeup": [
+        "X870 is the chipset AMD launched alongside the 9800X3D's generation, and it requires PCIe 5.0 for the graphics slot and at least one M.2 slot, plus USB4. The X870 Tomahawk WiFi adds Wi-Fi 7 and 5 GbE for $260–$300.",
+        "USB4 is the feature that sets it apart from the B850 Tomahawk MAX. It gives two 40 Gbps Type-C ports for fast external SSDs, docks and some displays. If you have none of those, the B850 board gives you almost everything else for less.",
+        "For a no-compromise build with an RTX 5090 or RTX 5080, it is the sensible top end; X870E boards cost far more for extra lanes and USB that a gaming PC rarely uses. See [B650 Tomahawk vs X870 Tomahawk](/compare/msi-mag-b650-tomahawk-wifi-vs-msi-mag-x870-tomahawk-wifi/) for the full gap."
+      ],
+      "pros": ["Two USB4 40 Gbps ports", "PCIe 5.0 graphics and storage", "Wi-Fi 7, 5 GbE"],
+      "cons": ["About $90 more than the B650 Tomahawk", "No frame rate gain over cheaper boards"]
+    },
+    {
+      "id": "gigabyte-b650-aorus-elite-ax",
+      "label": "Cheapest Gen5 SSD Slot",
+      "bestFor": "9800X3D builds that want a PCIe 5.0 SSD slot for under $190",
+      "skipIf": "you want the most VRM margin for heavy PBO tuning",
+      "writeup": [
+        "The B650 Aorus Elite AX is the cheapest board here with a PCIe 5.0 M.2 slot, at $160–$190. It pairs that with Wi-Fi 6E, 2.5 GbE and Q-Flash Plus, Gigabyte's version of BIOS flashback, which handles the 9800X3D firmware update on older stock.",
+        "Power delivery is comfortable with an eight-core 120 W chip like the 9800X3D. The B650 Tomahawk has more margin for long all-core loads and aggressive PBO, but at stock or with mild tuning you will not see a difference.",
+        "Gigabyte has sold more than one revision of this board, so check the revision on the listing. It is compared head to head in [B650 Tomahawk vs B650 Aorus Elite AX](/compare/msi-mag-b650-tomahawk-wifi-vs-gigabyte-b650-aorus-elite-ax/)."
+      ],
+      "pros": ["PCIe 5.0 M.2 slot", "Q-Flash Plus", "Wi-Fi 6E, 2.5 GbE", "$160–$190"],
+      "cons": ["Less VRM margin than the Tomahawk", "Several board revisions on sale"]
+    },
+    {
+      "id": "asus-tuf-gaming-b650-plus-wifi",
+      "label": "Best ASUS Board",
+      "bestFor": "9800X3D builders who prefer the ASUS BIOS or already run ASUS hardware",
+      "skipIf": "you want Wi-Fi 6E or 7 rather than Wi-Fi 6",
+      "writeup": [
+        "The TUF Gaming B650-Plus WiFi is ASUS's value AM5 board, and it covers a 9800X3D well for $160–$190. It includes a PCIe 5.0 M.2 slot, 2.5 GbE, Wi-Fi 6 and BIOS FlashBack, ASUS's no-CPU firmware update.",
+        "The TUF line favors heavier heatsinks and a plain look over RGB. Owners rate the ASUS BIOS as clear, with EXPO memory profiles and fan control easy to find, which helps if this is your first AM5 build.",
+        "Its Wi-Fi is a generation behind the MSI and Gigabyte boards, which matters only if your router supports the 6 GHz band. For updating the firmware, see [how to update ASUS BIOS](/how-to-update-asus-bios/)."
+      ],
+      "pros": ["PCIe 5.0 M.2 slot", "BIOS FlashBack", "Clear, familiar BIOS"],
+      "cons": ["Wi-Fi 6, not 6E or 7"]
+    },
+    {
+      "id": "msi-pro-b650m-a-wifi",
+      "label": "Best Micro-ATX",
+      "bestFor": "compact or budget 9800X3D builds with one graphics card",
+      "skipIf": "you need more than two M.2 slots or plan heavy all-core tuning",
+      "writeup": [
+        "The PRO B650M-A WiFi is the cheapest sensible board for a 9800X3D, at $130–$160. It includes Wi-Fi 6E, 2.5 GbE and a Flash BIOS button, and it fits the micro-ATX cases that are common in budget builds.",
+        "Its smaller VRM heatsinks are fine for an eight-core 120 W chip; the 9800X3D does not come close to stressing it at stock. What you give up is expansion: two M.2 slots instead of three or more, fewer PCIe slots and fewer rear USB ports.",
+        "Putting a $450 CPU on a $140 board can feel wrong, but for gaming it costs you nothing in frame rates, and the $40–$60 saved over the Tomahawk can move you up a graphics card tier. Our [best GPU for Ryzen 7 9800X3D](/best-gpu-for-ryzen-7-9800x3d/) guide shows where that money goes."
+      ],
+      "pros": ["$130–$160", "Wi-Fi 6E, 2.5 GbE", "Flash BIOS button"],
+      "cons": ["Two M.2 slots", "Fewer rear USB ports"]
+    }
+  ],
+  "tableSpecs": ["Chipset", "Form factor", "M.2 slots", "Networking", "BIOS flashback"],
+  "ranking": {
+    "intro": "We ranked these boards for the Ryzen 7 9800X3D using AMD's chipset and CPU specifications, motherboard makers' spec sheets and manuals, independent VRM and motherboard reviews, and AM5 owner reports. None of these boards were bench-tested by us. Prices are street-price bands that move with sales.",
+    "criteria": [
+      ["Power delivery", "Whether the board runs a 120 W, 162 W package-limit chip at full boost with margin for PBO."],
+      ["BIOS support", "Out-of-the-box 9800X3D support, or a no-CPU BIOS flashback button for older stock."],
+      ["Connectivity", "Wi-Fi generation, wired networking, rear USB and USB4."],
+      ["Storage and PCIe", "Number of M.2 slots and whether any run at PCIe 5.0."],
+      ["Value", "What the board costs against a $450–$480 CPU and the graphics card it competes with for budget."]
+    ],
+    "why": "The B650 Tomahawk WiFi won because it pairs top-tier power delivery for its price with Wi-Fi 6E, three M.2 slots and a Flash BIOS button for under $200."
+  },
+  "mentions": [
+    { "id": "asrock-b850-steel-legend-wifi", "text": "A good-value B850 board with PCIe 5.0 storage and BIOS Flashback for $180–$220. In 2025, owners reported a number of failed 9800X3D chips, most of them on ASRock AM5 boards, and ASRock released BIOS updates in response. If you choose it, flash the latest BIOS before first boot." },
+    { "name": "X870E boards (such as the Gigabyte X870E Aorus Master)", "text": "X870E uses two chipsets for more PCIe lanes and USB ports, with premium VRMs and extra M.2 slots. They suit workstations with many drives or add-in cards. For a 9800X3D gaming PC they cost far more than the X870 Tomahawk with no frame rate gain." },
+    { "id": "msi-mag-b550-tomahawk", "text": "The B550 Tomahawk is an AM4 board and cannot run a 9800X3D, which needs AM5 and DDR5. If you want to keep an AM4 board, the Ryzen 7 5800X3D or 5700X3D is the upgrade path instead." }
+  ],
+  "sections": [
+    {
+      "h": "Which Chipset Is Best for the Ryzen 7 9800X3D?",
+      "body": [
+        "B650 or B850 is the best match for most 9800X3D builds. Both run the chip at full speed and support PBO and EXPO memory profiles. X870 adds USB4 and requires PCIe 5.0 graphics, which is worth it only if you use those features. A620 boards work but often have weaker power delivery and fewer features, so they are a poor match for a $450 CPU.",
+        "The [chipset](/glossary/chipset/) mainly decides connectivity, not gaming speed. A 9800X3D delivers the same frame rates on a $140 B650 board as on a $300 X870 board."
+      ],
+      "table": {
+        "caption": "AM5 chipsets for a 9800X3D",
+        "head": ["Chipset", "Typical price", "PCIe 5.0", "Best for"],
+        "rows": [
+          ["B650", "$130–$200", "Not required (some boards add a Gen5 M.2 slot)", "Best value gaming builds"],
+          ["B850", "$180–$250", "At least one Gen5 M.2 slot required", "Out-of-box 9800X3D support, newer features"],
+          ["X870", "$260–$300+", "Gen5 graphics and M.2, plus USB4", "High-end builds that use USB4"],
+          ["X870E", "$350+", "Gen5 graphics and M.2, extra lanes", "Workstations, many drives"]
+        ]
+      }
+    },
+    {
+      "h": "Does a B650 Motherboard Need a BIOS Update for the 9800X3D?",
+      "body": [
+        "Possibly. B650 boards built before late 2024 can ship with firmware that predates the 9800X3D, and they will not boot with the chip until the BIOS is updated. Many boards on store shelves now ship with newer firmware, but you cannot tell from the box in every case.",
+        "Every board on this list has a no-CPU BIOS flashback feature, so you can update from a USB stick with only the power supply connected. Our guides on [how to update MSI BIOS](/how-to-update-msi-bios/) and [how to update Gigabyte BIOS](/how-to-update-gigabyte-bios/) walk through it. B850 and X870 boards ship with support."
+      ]
+    },
+    {
+      "h": "Does the 9800X3D Need a Strong VRM?",
+      "body": [
+        "No. AMD rates the 9800X3D at 120 W with a 162 W package limit, which any good midrange AM5 board handles. A strong [VRM](/glossary/vrm/) matters more for 16-core chips under long all-core loads.",
+        "The 9800X3D is the first X3D chip AMD fully unlocked for overclocking, and it supports Precision Boost Overdrive. Even with PBO, the boards on this list have margin. Spend the difference on the graphics card or a good cooler; see our [best CPU cooler for Ryzen 7 9800X3D](/best-cpu-cooler-for-ryzen-7-9800x3d/) guide."
+      ]
+    },
+    {
+      "h": "Do You Need PCIe 5.0 for a 9800X3D Build?",
+      "body": [
+        "Not for gaming today. Independent PCIe scaling reviews show current graphics cards lose only a percent or two running at PCIe 4.0 x16, and a Gen5 SSD loads games about as fast as a good Gen4 drive.",
+        "PCIe 5.0 is future-proofing. If you keep a board for five years and expect to buy two more graphics cards on it, a B850 or X870 board with a Gen5 graphics slot is a reasonable hedge. Otherwise, a B650 board is the better value."
+      ]
+    },
+    {
+      "h": "What RAM Should You Use With a 9800X3D?",
+      "body": [
+        "A 32 GB DDR5-6000 CL30 kit with an EXPO profile is the common recommendation. AMD rates the chip for DDR5-5600, and DDR5-6000 is widely reported as the speed that runs the memory controller in sync on AM5. The 9800X3D's large L3 cache makes it less sensitive to memory speed than other Ryzen chips, so faster kits add little.",
+        "Every board here has four DDR5 slots and supports EXPO. Two sticks are easier to run at full speed than four. DRAM prices have swung hard since late 2025, so check our [best RAM for gaming](/best-ram-for-gaming/) guide for current kits."
+      ]
+    },
+    {
+      "h": "ATX or Micro-ATX for a 9800X3D?",
+      "body": [
+        "Either works. A micro-ATX board like the PRO B650M-A WiFi runs the 9800X3D at full speed and saves $40 to $60. You give up M.2 slots, PCIe slots and rear USB ports, which matters only if you plan to add several drives or cards.",
+        "ATX boards like the Tomahawks are easier to build in, have bigger VRM heatsinks and more expansion. For most mid-tower builds, the small price premium is worth it."
+      ]
+    },
+    {
+      "h": "Is the 9800X3D Worth Pairing With an Expensive Board?",
+      "body": [
+        "Rarely. The 9800X3D's advantage comes from its 3D V-Cache, which works the same on any AM5 board. Our comparisons of the [9800X3D vs 7800X3D](/compare/ryzen-7-9800x3d-vs-ryzen-7-7800x3d/) and [9800X3D vs 9950X3D](/compare/ryzen-7-9800x3d-vs-ryzen-9-9950x3d/) explain where the chip's speed comes from.",
+        "Buy an expensive board for features you will use, such as USB4, more M.2 slots or 5 GbE. For a gaming PC, the money is better spent on the graphics card. The wider [best AM5 motherboard](/best-am5-motherboard/) guide covers boards for other Ryzen chips."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Booting without a BIOS update", "An older B650 board may not recognize a 9800X3D. Use the flashback button to update before installing the CPU, or buy a B850 or X870 board that supports it out of the box."],
+    ["Buying an AM4 board", "The 9800X3D needs an AM5 board and DDR5 memory. AM4 boards such as the B550 Tomahawk will not fit it."],
+    ["Overspending on X870E for gaming", "X870E boards cost $350 or more and add lanes and ports a gaming PC rarely uses. The 9800X3D runs the same frame rates on a $170 B650 board."],
+    ["Skipping EXPO", "DDR5 runs at a slow default speed until you enable the EXPO profile in the BIOS. Turn it on after the first boot."],
+    ["Filling all four RAM slots", "Four DDR5 sticks are harder to run at full speed than two. Buy 2x 16 GB or 2x 32 GB instead of four smaller sticks."]
+  ],
+  "bottomLine": "The MSI MAG B650 Tomahawk WiFi is the best motherboard for a Ryzen 7 9800X3D because it runs the 120 W chip at full speed with margin for PBO, adds Wi-Fi 6E and three M.2 slots, and has a Flash BIOS button for older stock, all for $170–$200. Step up to the B850 Tomahawk MAX for PCIe 5.0 and Wi-Fi 7, or the X870 Tomahawk for USB4. On a budget, the PRO B650M-A WiFi gives up nothing in games.",
+  "faqs": [
+    { "q": "What motherboard is best for the Ryzen 7 9800X3D?", "a": "The MSI MAG B650 Tomahawk WiFi for most builds. It has strong power delivery, Wi-Fi 6E, 2.5 GbE, three M.2 slots and a Flash BIOS button for $170–$200. The B850 Tomahawk MAX adds PCIe 5.0 and Wi-Fi 7." },
+    { "q": "Is B650 good enough for a 9800X3D?", "a": "Yes. A good B650 board runs the 9800X3D at full speed and supports PBO and EXPO. The chip's 120 W rating is easy for midrange boards. Check that the BIOS supports it, or use flashback to update." },
+    { "q": "Does the 9800X3D work on B650 without a BIOS update?", "a": "Only if the board already has a BIOS from late 2024 or later. Older B650 stock needs an update first. Boards with a flashback button can update from a USB stick without a CPU installed." },
+    { "q": "Is X870 worth it for the 9800X3D?", "a": "Only if you use USB4 or want PCIe 5.0 graphics for future cards. The 9800X3D runs the same frame rates on B650. The X870 Tomahawk costs about $90 more than the B650 Tomahawk." },
+    { "q": "Can the 9800X3D run on an A620 motherboard?", "a": "It can on many A620 boards with an updated BIOS, but A620 boards often have weaker power delivery and fewer features. For a $450 CPU, a $130–$160 B650 board is the better match." },
+    { "q": "Is micro-ATX fine for a 9800X3D?", "a": "Yes. The MSI PRO B650M-A WiFi runs it at full speed. You give up M.2 slots, PCIe slots and rear USB ports, not gaming performance." },
+    { "q": "What RAM speed is best for the 9800X3D?", "a": "DDR5-6000 CL30 in a 2x 16 GB or 2x 32 GB kit is the common choice. AMD rates the chip for DDR5-5600, and its large cache makes faster memory matter less than on other Ryzen CPUs." },
+    { "q": "Can the 9800X3D be overclocked?", "a": "Yes. It is the first X3D chip AMD unlocked for overclocking, and it supports Precision Boost Overdrive. Any board on this list handles mild PBO tuning; gains in games are small." }
+  ],
+  "sources": [
+    "AMD Ryzen 7 9800X3D product specifications (TDP, memory support, overclocking)",
+    "AMD AM5 chipset specifications for A620, B650, B850, X870 and X870E",
+    "MSI MAG B650 Tomahawk WiFi, MAG B850 Tomahawk MAX WiFi, MAG X870 Tomahawk WiFi and PRO B650M-A WiFi spec pages",
+    "Gigabyte B650 Aorus Elite AX and ASUS TUF Gaming B650-Plus WiFi spec pages",
+    "ASRock BIOS release notes and 2025 reports of failed 9800X3D chips",
+    "Independent AM5 motherboard and VRM reviews",
+    "Independent PCIe 4.0 vs 5.0 GPU scaling reviews"
+  ],
+  "related": ["best-am5-motherboard", "best-cpu-cooler-for-ryzen-7-9800x3d", "best-gpu-for-ryzen-7-9800x3d"]
+}

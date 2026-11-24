@@ -127,7 +127,7 @@
       "h": "How Much Cooler Does Your CPU Need?",
       "body": [
         "Start with your processor's power rating, not the cooler's marketing. AMD lists a TDP, but an AM5 chip at stock actually runs up to its PPT, which is 1.35 times the TDP: 88 W for a 65 W part, 162 W for a 120 W part and 230 W for a 170 W part. Intel lists a base power and a maximum turbo power, and the second number is what matters for cooling.",
-        "Match the cooler class to that real number with some headroom. A cooler running near its limit has to spin its fans fast, which is where noise comes from. A cooler with spare capacity can stay quiet at the same load."
+        "Match the cooler class to that real number with some headroom. A cooler running near its limit has to spin its fans fast, which is where noise comes from. A cooler with spare capacity can stay quiet at the same load. For chip-specific picks, see our guides for the [Ryzen 7 9700X](/best-cpu-cooler-for-ryzen-7-9700x/) and [Ryzen 5 9600X](/best-cpu-cooler-for-ryzen-5-9600x/)."
       ],
       "table": {
         "caption": "CPU power class vs the cooler class to buy",
@@ -217,5 +217,5 @@
     "Owner reports on US retailer listings and PC building forums",
     "Case manufacturer CPU cooler height and radiator support specs"
   ],
-  "related": ["best-cpu-cooler-for-ryzen-7-9800x3d", "thermalright-review", "best-pc-case"]
+  "related": ["best-cpu-cooler-for-ryzen-7-9800x3d", "thermalright-review", "best-pc-case", "best-cpu-cooler-for-ryzen-7-9700x"]
 }

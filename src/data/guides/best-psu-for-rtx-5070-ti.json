@@ -159,7 +159,7 @@
       "h": "Can You Reuse Your Old PSU for an RTX 5070 Ti?",
       "body": [
         "Sometimes. If your existing supply is 750 W or more from a reputable brand, less than about five years old, and has at least two separate 8-pin PCIe cables for the adapter, it can work. If it is older, unbranded, below 750 W, or came with a prebuilt PC and lists no brand, replace it.",
-        "A $750–$900 card deserves a supply you trust. Our [best power supply](/best-power-supply/) guide covers more units, and [best PSU under $100](/best-psu-under-100/) covers the cheaper end."
+        "A $750–$900 card deserves a supply you trust. Our [best power supply](/best-power-supply/) guide covers more units, and [best PSU under $100](/best-psu-under-100/) covers the cheaper end. If you are still deciding between cards, the RTX 5070 needs less: see our [best PSU for RTX 5070](/best-psu-for-rtx-5070/) guide for its 650 W guidance."
       ]
     }
   ],
@@ -188,5 +188,5 @@
     "Intel ATX 3.x power supply design guide summaries",
     "Independent power supply reviews and owner reports"
   ],
-  "related": ["best-power-supply", "best-psu-under-100", "best-psu-for-rtx-5080"]
+  "related": ["best-power-supply", "best-psu-under-100", "best-psu-for-rtx-5080", "best-psu-for-rtx-5070"]
 }

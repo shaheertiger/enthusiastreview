@@ -131,7 +131,7 @@
     {
       "h": "What Cooler Does Each 9800X3D Setup Need?",
       "body": [
-        "Match the cooler to how you use the chip, not to its price tag. A gaming-only 9800X3D and one tuned with PBO for rendering are different thermal problems."
+        "Match the cooler to how you use the chip, not to its price tag. A gaming-only 9800X3D and one tuned with PBO for rendering are different thermal problems. If you chose the 65 W Ryzen 7 9700X instead, our [best CPU cooler for Ryzen 7 9700X](/best-cpu-cooler-for-ryzen-7-9700x/) guide covers its lighter cooling needs."
       ],
       "table": {
         "caption": "9800X3D use case vs the cooler class to buy",
@@ -204,5 +204,5 @@
     "Independent Ryzen 7 9800X3D reviews reporting gaming and all-core power behavior",
     "Owner reports from AM5 builders on forums and retailer listings"
   ],
-  "related": ["best-cpu-cooler", "best-cpu-for-gaming", "best-am5-motherboard"]
+  "related": ["best-cpu-cooler", "best-cpu-for-gaming", "best-am5-motherboard", "best-cpu-cooler-for-ryzen-7-9700x", "best-motherboard-for-ryzen-7-9800x3d"]
 }

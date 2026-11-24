@@ -125,7 +125,7 @@
       "h": "Is 16 GB of VRAM Worth Paying For at $500?",
       "body": [
         "Yes. At this budget, 16 GB costs little extra and protects the card from the memory limits that already affect 8 GB cards in new games. It also matters for creators: video editing, 3D work and local AI models use VRAM heavily.",
-        "The RTX 4070's 12 GB is a reasonable middle ground for gaming, and it is enough for nearly every current game at 1440p. The 8 GB RTX 5060 only makes sense for esports at this budget."
+        "The RTX 4070's 12 GB is a reasonable middle ground for gaming, and it is enough for nearly every current game at 1440p. The 8 GB RTX 5060 only makes sense for esports at this budget. The extra memory matters even more for local AI models; our [best GPU for AI](/best-gpu-for-ai/) guide explains why the 16GB RTX 5060 Ti is the budget pick there."
       ]
     },
     {
@@ -147,7 +147,7 @@
       "h": "What Power Supply Do You Need for a $500 Graphics Card?",
       "body": [
         "A quality 650 W power supply covers every card on this list. The RTX 5060 Ti 16GB draws about 180 W, the RX 9060 XT 16GB about 160–180 W and the RTX 4070 about 200 W, with NVIDIA pairing the RTX 4070 with a 650 W unit.",
-        "If you are buying a new supply, a 750 W Gold unit such as the [Corsair RM750e](/gear/corsair-rm750e/) leaves headroom for a future upgrade to a 300 W card. Use the [PSU calculator](/tools/psu-calculator/) to check your system."
+        "If you are buying a new supply, a 750 W Gold unit such as the [Corsair RM750e](/gear/corsair-rm750e/) leaves headroom for a future upgrade to a 300 W card. Use the [PSU calculator](/tools/psu-calculator/) to check your system. For the RTX 5060 Ti in particular, see our [best PSU for RTX 5060 Ti](/best-psu-for-rtx-5060-ti/) guide."
       ]
     },
     {
@@ -183,5 +183,5 @@
     "Independent GPU reviews from TechPowerUp, Hardware Unboxed and Tom's Hardware",
     "Owner reports on retailer listings and enthusiast forums"
   ],
-  "related": ["best-graphics-card-for-1440p", "best-nvidia-graphics-card", "best-graphics-card"]
+  "related": ["best-graphics-card-for-1440p", "best-nvidia-graphics-card", "best-graphics-card", "best-gpu-for-ai", "best-psu-for-rtx-5060-ti"]
 }

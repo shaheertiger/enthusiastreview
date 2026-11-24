@@ -179,7 +179,7 @@
       "h": "Does the Same Cooler Work for the Ryzen 5 7600X?",
       "body": [
         "Yes, with one adjustment. The 7600X is rated at 105 W, so it runs at the same 142 W package limit the 9600X uses in its 105 W mode. That makes a dual tower like the Peerless Assassin 120 SE the better default for a 7600X, while a single tower is still fine for gaming.",
-        "Like the 9600X, the 7600X ships without a cooler, uses the same AM5 mounting and lists the same 95°C maximum temperature. If you move from a 7600X to a 9600X later, your cooler moves with it."
+        "Like the 9600X, the 7600X ships without a cooler, uses the same AM5 mounting and lists the same 95°C maximum temperature. If you move from a 7600X to a 9600X later, your cooler moves with it. The eight-core Ryzen 7 9700X shares the same power modes; see our [best CPU cooler for Ryzen 7 9700X](/best-cpu-cooler-for-ryzen-7-9700x/) guide."
       ]
     },
     {
@@ -261,6 +261,7 @@
   "related": [
     "best-cpu-cooler",
     "best-cpu-for-gaming",
-    "best-am5-motherboard"
+    "best-am5-motherboard",
+    "best-cpu-cooler-for-ryzen-7-9700x"
   ]
 }
