@@ -198,5 +198,5 @@
     "Wagnardsoft Display Driver Uninstaller documentation"
   ],
   "products": ["rtx-5070", "rtx-5060-ti-16gb", "rtx-5080"],
-  "related": ["how-to-update-amd-drivers", "nvidia-control-panel-not-opening", "how-to-turn-off-nvidia-overlay"]
+  "related": ["how-to-update-intel-graphics-drivers", "how-to-update-amd-drivers", "nvidia-control-panel-not-opening", "how-to-turn-off-nvidia-overlay"]
 }

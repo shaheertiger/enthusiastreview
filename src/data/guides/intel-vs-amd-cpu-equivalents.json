@@ -251,5 +251,5 @@
     "Independent multi-threaded results from Puget Systems and Cinebench result databases"
   ],
   "products": ["ryzen-7-9800x3d", "ryzen-7-7800x3d", "ryzen-9-9950x3d", "ryzen-7-9700x", "ryzen-5-9600x", "ryzen-5-7600", "core-ultra-7-265k", "core-ultra-5-245k", "ryzen-7-5700x3d"],
-  "related": ["amd-vs-intel", "best-cpu-for-gaming", "best-am5-motherboard"]
+  "related": ["laptop-cpu-equivalents", "amd-vs-intel", "best-cpu-for-gaming", "best-am5-motherboard"]
 }

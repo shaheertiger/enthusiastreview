@@ -1,0 +1,168 @@
+{
+  "slug": "how-to-update-intel-graphics-drivers",
+  "type": "article",
+  "kind": "howto",
+  "category": "graphics-cards",
+  "title": "How to Update Intel Graphics Drivers: Arc and Integrated",
+  "h1": "How to Update Intel Graphics Drivers",
+  "query": "how to update intel graphics drivers",
+  "description": "Update Intel graphics drivers 3 ways: Intel Driver and Support Assistant, the Intel Graphics Software app or a manual download. For Arc cards and Intel iGPUs.",
+  "dek": "Arc graphics cards, Core Ultra and Iris Xe integrated graphics, older UHD graphics, and the fixes for installs that go wrong.",
+  "quickAnswer": "The easiest way is Intel Driver & Support Assistant: install it from intel.com, run a scan, and it offers the right graphics driver for your Arc card or Intel processor graphics. Arc and Core Ultra owners can also update from the Intel Graphics Software app. To pick a version yourself, download the driver package from Intel's Download Center. On laptops, check the maker's support page first.",
+  "intro": [
+    "This page is for anyone with Intel graphics on Windows 10 or 11: an Arc A-series or B-series graphics card, the Arc graphics built into Core Ultra processors, or the Iris Xe and UHD graphics built into older Core chips. It covers the three ways to update, which driver package fits which chip, laptop and OEM caveats, clean installs, rollbacks, and the settings Arc cards need to perform properly.",
+    "Intel renames its apps and download pages more often than NVIDIA or AMD. Where a label may have changed, we describe what to look for rather than quote an exact menu name."
+  ],
+  "stepsHeading": "How to Update Intel Graphics Drivers With Driver & Support Assistant",
+  "steps": [
+    {
+      "h": "Download Intel Driver & Support Assistant",
+      "body": [
+        "Go to Intel's support site and search for Intel Driver & Support Assistant, often shortened to Intel DSA. Download and install it. It is free, made by Intel, and runs a small background service with an icon in the system tray."
+      ]
+    },
+    {
+      "h": "Run a scan",
+      "body": [
+        "Open DSA from the tray icon or the Start menu. It opens a page in your browser that lists your Intel hardware, including graphics, Wi-Fi, Bluetooth and chipset components, and checks each one against Intel's current drivers."
+      ]
+    },
+    {
+      "h": "Download the graphics driver it offers",
+      "body": [
+        "Find the graphics entry and choose to download it. If DSA shows a message that your computer maker provides a customized driver, see the laptop section below before going further. Install other updates later, one at a time, so a problem is easy to trace."
+      ]
+    },
+    {
+      "h": "Install and let the screen flicker",
+      "body": [
+        "Close games and video apps, then run the install. The screen will go black or flicker a few times while the display driver reloads. Do not shut down during this step. If the installer offers a clean installation option and you have had problems, tick it; otherwise the default install is fine."
+      ]
+    },
+    {
+      "h": "Restart and confirm the version",
+      "body": [
+        "Restart when asked. Then open Device Manager, expand Display adapters, open your Intel graphics entry and read the driver version on the Driver tab, or rescan in DSA, which should now report the graphics driver as current."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "Which way of updating Intel graphics drivers should you use?",
+      "body": [
+        "Use Driver & Support Assistant if you are not sure which package you need; it matches your hardware for you. Use the Intel Graphics Software app if you have an Arc card or Core Ultra and it is already installed. Use a manual download from the Download Center when you want a specific version, an offline installer, or when the other two methods fail. Windows Update is a fallback."
+      ],
+      "table": {
+        "caption": "Four ways to get Intel graphics drivers",
+        "head": ["Method", "Best for", "Trade-off"],
+        "rows": [
+          ["Intel Driver & Support Assistant", "Most PCs; unsure of the exact package", "Installs a background service"],
+          ["Intel Graphics Software app", "Arc cards and Core Ultra graphics", "Only on hardware the app supports"],
+          ["Manual download from Intel's Download Center", "Specific versions, offline installs, failed installs", "You must pick the right package"],
+          ["Windows Update or the laptop maker's site", "Laptops with customized drivers; fresh Windows installs", "Usually older than Intel's current release"]
+        ]
+      }
+    },
+    {
+      "h": "How do you update Intel Arc drivers in the Intel Graphics Software app?",
+      "body": [
+        "Intel's current companion app for Arc graphics cards and Core Ultra graphics is Intel Graphics Software, which replaced the earlier Arc Control app. It installs with the full driver package. Open it from the Start menu or the system tray, find its driver or updates area, and it shows your installed version and offers newer releases to download and install.",
+        "If you still have Arc Control from an older driver, it updates the same way, and installing a current driver package brings the newer app. On older Intel integrated graphics that these apps do not support, the settings app is Intel Graphics Command Center, and updates come through DSA or a manual download instead."
+      ]
+    },
+    {
+      "h": "How do you download Intel graphics drivers manually?",
+      "body": [
+        "The manual download gives you the full installer, which is the most reliable option when an install keeps failing or the PC has a poor connection."
+      ],
+      "list": [
+        "Find your exact graphics: Arc card model, or your processor model for integrated graphics. Not sure? See [how to check what graphics card you have](/how-to-check-what-graphics-card-i-have/).",
+        "Open Intel's Download Center and search for graphics drivers for Windows.",
+        "Choose the package whose supported-products list includes your hardware. Current Arc cards, Core Ultra graphics and Iris Xe graphics share one main package; older UHD and HD graphics use a separate legacy package.",
+        "Download the installer (.exe) for the version you want.",
+        "Run it, choose a standard or clean installation, and restart when it finishes."
+      ]
+    },
+    {
+      "h": "Which Intel driver package fits your graphics?",
+      "body": [
+        "Intel splits its graphics drivers by generation. Arc A-series and B-series cards, the Arc graphics in Core Ultra processors, and Iris Xe and UHD graphics from 11th gen Core onward use Intel's main Arc and Iris Xe package. Integrated graphics on 6th to 10th gen Core processors, such as UHD Graphics 630, moved to a separate legacy package that is updated far less often.",
+        "Intel has continued moving older generations onto slower legacy update schedules, so check the supported-products list on the download page against your chip rather than assume. If DSA offers no newer driver for an older chip, that usually means you already have the last release for it, not that something is wrong."
+      ],
+      "table": {
+        "caption": "Intel graphics and where their drivers come from",
+        "head": ["Graphics", "Found in", "Driver source"],
+        "rows": [
+          ["Arc B-series (B580, B570)", "Desktop graphics cards", "Main Arc package; Intel Graphics Software"],
+          ["Arc A-series (A770, A750, A380)", "Desktop graphics cards", "Main Arc package; Intel Graphics Software"],
+          ["Arc and Arc 140V/130V integrated", "Core Ultra laptop and desktop chips", "Main package or the laptop maker"],
+          ["Iris Xe and UHD (11th to 14th gen)", "Core processors with integrated graphics", "Main package or legacy package, per Intel's product list"],
+          ["UHD and HD (6th to 10th gen)", "Older Core processors", "Legacy package"]
+        ]
+      }
+    },
+    {
+      "h": "Laptops and prebuilt PCs: should you use Intel's driver or the maker's?",
+      "body": [
+        "Start with the maker's support page. Laptop makers sometimes ship customized Intel graphics drivers tuned for their display panel, power settings or switchable graphics. Intel's generic driver usually installs on those laptops, and DSA may warn that it will replace the maker's driver.",
+        "Install Intel's driver when the maker's version is old and you need a fix or game support it lacks. If brightness controls, external displays or sleep misbehave afterward, roll back to the maker's driver. On laptops that also have an NVIDIA or AMD graphics card, update both drivers; the Intel graphics still drive the built-in screen on many models. See [how to update NVIDIA drivers](/how-to-update-nvidia-drivers/) and [how to update AMD drivers](/how-to-update-amd-drivers/)."
+      ]
+    },
+    {
+      "h": "When should you do a clean install, and how?",
+      "body": [
+        "Do a clean install after crashes, display glitches, a failed install, or when you are moving to an Arc card from an NVIDIA or AMD card. For routine updates, installing over the old driver is normal.",
+        "For a light reset, use the clean installation option in Intel's installer if it is offered. For a full reset, use Display Driver Uninstaller (DDU) in Safe Mode, which can remove Intel, NVIDIA and AMD drivers. Download the new Intel installer first, disconnect from the internet so Windows Update cannot add its own driver, run DDU, restart, and then install."
+      ]
+    },
+    {
+      "h": "How do you roll back an Intel graphics driver?",
+      "body": [
+        "In Device Manager, open Display adapters, right-click your Intel graphics, choose Properties, open the Driver tab and click Roll Back Driver. The button only works when Windows kept the previous version; if it is greyed out, download the older version you want from Intel's Download Center, where previous releases are usually listed, and install it, using a clean install if needed.",
+        "To stop Windows Update replacing a version you chose, keep the PC offline during the install and check Device Manager afterward. Problems that start right after a new release are often fixed in the next one, so read the release notes' known issues."
+      ]
+    },
+    {
+      "h": "Arc cards: what else do you need besides the driver?",
+      "body": [
+        "Resizable BAR. Arc cards depend on it far more than GeForce or Radeon cards, and without it performance drops sharply. It needs a 10th gen Intel or Ryzen 3000 platform or newer, with Resizable BAR and Above 4G Decoding enabled in the BIOS. Older boards may need a BIOS update to offer it; our [how to update ASRock BIOS](/how-to-update-asrock-bios/) guide shows the process on one brand, and ASUS, MSI and Gigabyte boards follow similar steps.",
+        "The CPU matters too: Arc drivers put more load on the processor than NVIDIA or AMD drivers, so an Arc card loses more performance on an older chip. Our [Intel Arc GPU equivalents](/intel-arc-gpu-equivalents/) chart covers how that changes the card's match, and the [Arc B580](/gear/arc-b580/) page has its full specs."
+      ]
+    },
+    {
+      "h": "Intel chipset and graphics drivers: what is the difference?",
+      "body": [
+        "They are separate downloads. The graphics driver runs Arc cards and integrated graphics. Intel's chipset software and Management Engine driver support the motherboard platform, and Windows installs basic versions of both on its own. DSA lists them separately.",
+        "Updating the graphics driver does not update the chipset software, the BIOS or the CPU's microcode. Those come from Intel and, for the BIOS, from your motherboard or laptop maker."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Installing the wrong package for an older chip", "6th to 10th gen integrated graphics use Intel's legacy package. The main Arc and Iris Xe package will not install on them; check the supported-products list against your processor."],
+    ["Overwriting a laptop maker's customized driver blindly", "Some laptops depend on the maker's driver for brightness, display or switchable-graphics behavior. Try the maker's latest first, and keep it handy in case you need to roll back."],
+    ["Leaving Resizable BAR off with an Arc card", "Without Resizable BAR, an Arc card runs far below its rated performance. Enable it, with Above 4G Decoding, in the BIOS."],
+    ["Letting Windows Update interfere with a clean install", "Windows can add its own Intel driver after a restart. Stay offline between removing the old driver and installing the new one."]
+  ],
+  "bottomLine": "Most people should use Intel Driver & Support Assistant: install it, scan, and install the graphics driver it offers, about 5 to 10 minutes. Arc and Core Ultra owners can update from the Intel Graphics Software app instead. Use a manual download for a specific version or a failed install, and check your laptop maker's driver first on laptops. Older 6th to 10th gen chips use Intel's legacy package. For Arc cards, enable Resizable BAR, and use DDU for a full clean install when problems persist.",
+  "faqs": [
+    {"q": "How do I update my Intel graphics driver?", "a": "Install Intel Driver & Support Assistant from Intel's support site, run a scan and install the graphics driver it offers, then restart. You can also download the package for your hardware from Intel's Download Center, or use the Intel Graphics Software app on Arc and Core Ultra graphics."},
+    {"q": "How do I update Intel Arc drivers?", "a": "Open the Intel Graphics Software app, which installs with the Arc driver, and use its driver update section, or run Intel Driver & Support Assistant. For a specific version, download the Arc and Iris Xe graphics package from Intel's Download Center."},
+    {"q": "Is Intel Driver & Support Assistant safe?", "a": "Yes. It is Intel's own tool, downloaded from intel.com. It runs a small background service to check for updates; you can uninstall it after updating if you prefer."},
+    {"q": "Can I update Intel UHD Graphics 630?", "a": "Yes, through Intel's legacy driver package for 6th to 10th gen processor graphics, or DSA. Updates for that generation are much less frequent, so you may already have the latest release."},
+    {"q": "Should I use Intel's driver or my laptop maker's driver?", "a": "Start with the maker's. If it is old and you need a fix or game support, Intel's generic driver usually installs; roll back if brightness, displays or sleep stop working properly."},
+    {"q": "How do I check my Intel graphics driver version?", "a": "Open Device Manager, expand Display adapters, open the Intel entry and read the Driver tab. The version is a long number; the last part, such as 101 followed by four digits, is the build Intel quotes in its release notes."},
+    {"q": "Does Windows Update install Intel graphics drivers?", "a": "Yes, but often an older version. It is fine for getting a picture after a fresh Windows install. For gaming on Arc, install Intel's current driver instead."},
+    {"q": "Do I need to uninstall the old Intel driver first?", "a": "No, for routine updates. Use the installer's clean installation option or DDU in Safe Mode only after crashes, a failed install, or when switching from another brand's graphics card."}
+  ],
+  "sources": [
+    "Intel Driver & Support Assistant support pages",
+    "Intel Download Center: Intel Arc and Iris Xe graphics driver and 7th to 10th gen processor graphics driver pages, release notes and supported-products lists",
+    "Intel support articles on Intel Graphics Software, Arc Control and Intel Graphics Command Center",
+    "Intel support articles on Resizable BAR requirements for Arc graphics",
+    "Intel support guidance on computer-manufacturer customized graphics drivers",
+    "Microsoft support: roll back and update drivers in Device Manager",
+    "Display Driver Uninstaller (Wagnardsoft) documentation"
+  ],
+  "products": ["arc-b580"],
+  "related": ["how-to-update-amd-drivers", "how-to-update-nvidia-drivers", "intel-arc-gpu-equivalents"]
+}

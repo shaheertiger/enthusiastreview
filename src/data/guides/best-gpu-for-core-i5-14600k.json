@@ -217,7 +217,7 @@
     {
       "h": "Which GPU Pairs With an i5-13600K to Minimize Bottleneck in 4K Video Editing?",
       "body": [
-        "An RTX 5070 Ti, or an RTX 5080 for heavy effects work. The i5-13600K has the same 14-core layout as the 14600K with slightly lower clocks, so the same cards suit it. In 4K editing, the bottleneck is usually decoding the camera footage and the timeline's effects, not raw CPU speed.",
+        "An RTX 5070 Ti, or an RTX 5080 for heavy effects work. The i5-13600K has the same 14-core layout as the 14600K with slightly lower clocks, so the same cards suit it; our [best GPU for i5-13600K](/best-gpu-for-core-i5-13600k/) guide covers that chip in full. In 4K editing, the bottleneck is usually decoding the camera footage and the timeline's effects, not raw CPU speed.",
         "That is where NVIDIA's hardware helps: NVDEC and NVENC handle decoding and exporting, and CUDA speeds up effects in Premiere Pro and DaVinci Resolve. On the K models (not KF), Intel's integrated UHD Graphics 770 adds Quick Sync, which many editing apps use to decode H.264 and HEVC footage. Use 16 GB of video memory or more for 4K timelines with grading and noise reduction, and 32 GB of system RAM or more."
       ]
     },
@@ -360,6 +360,7 @@
     "Published Raptor Lake CPU scaling reviews from TechPowerUp and Hardware Unboxed"
   ],
   "related": [
+    "best-gpu-for-core-i5-13600k",
     "best-gpu-for-core-i5-12600k",
     "best-gpu-for-core-i7-14700k",
     "best-graphics-card-for-1440p"
