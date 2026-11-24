@@ -159,7 +159,7 @@
       ],
       [
         "What about power and noise?",
-        "NVIDIA rates the RTX 5060 Ti 16GB at 180 W. AMD's RX 9060 XT 16GB lands around 160 to 180 W depending on the partner card. Both run comfortably on a 550 W to 650 W power supply and both come in compact two-fan designs. In practice neither card is loud or hard to cool, so this is close to a tie."
+        "NVIDIA rates the RTX 5060 Ti 16GB at 180 W. AMD's RX 9060 XT 16GB lands around 160 to 180 W depending on the partner card. Both run comfortably on a 550 W to 650 W power supply and both come in compact two-fan designs. In practice neither card is loud or hard to cool, so this is close to a tie. Either card runs on a 650 W to 750 W unit; see our [best PSU for RTX 5060 Ti](/best-psu-for-rtx-5060-ti/) guide."
       ]
     ],
     "buyA": [
@@ -1914,7 +1914,7 @@
       ],
       [
         "What power supply does each card need?",
-        "NVIDIA rates the RTX 5070 at 250 W and recommends a 650 W power supply. The RTX 5070 Ti is rated at 300 W with a 750 W recommendation. If your current PSU is a 650 W unit, the 5070 is the drop-in upgrade; the Ti may mean a new PSU too, which adds $90 to $130 to its real cost."
+        "NVIDIA rates the RTX 5070 at 250 W and recommends a 650 W power supply. The RTX 5070 Ti is rated at 300 W with a 750 W recommendation. If your current PSU is a 650 W unit, the 5070 is the drop-in upgrade; the Ti may mean a new PSU too, which adds $90 to $130 to its real cost. Unit-by-unit picks are in our [best PSU for RTX 5070](/best-psu-for-rtx-5070/) and [best PSU for RTX 5070 Ti](/best-psu-for-rtx-5070-ti/) guides."
       ]
     ],
     "buyA": [
@@ -1996,7 +1996,7 @@
       ],
       [
         "How long will each one last?",
-        "Game memory use has climbed every year, and 8 GB is already the limit at 1080p in some releases. The 16 GB card has room for several more years of new games at medium to high settings. Over a four-year life, the extra $50 to $80 is the cheapest insurance in this price range."
+        "Game memory use has climbed every year, and 8 GB is already the limit at 1080p in some releases. The 16 GB card has room for several more years of new games at medium to high settings. Over a four-year life, the extra $50 to $80 is the cheapest insurance in this price range. For local AI models the gap is larger still: see our [best GPU for AI](/best-gpu-for-ai/) guide."
       ]
     ],
     "buyA": [
@@ -2189,7 +2189,7 @@
       ],
       [
         "Can both boards run a Ryzen 9000 chip?",
-        "Yes. Both have strong power delivery for any AM5 chip, including a Ryzen 7 9800X3D or 16-core Ryzen 9, and both have MSI's Flash BIOS button to update without a CPU installed. Older B650 stock may need a BIOS update for Ryzen 9000."
+        "Yes. Both have strong power delivery for any AM5 chip, including a Ryzen 7 9800X3D or 16-core Ryzen 9, and both have MSI's Flash BIOS button to update without a CPU installed. Older B650 stock may need a BIOS update for Ryzen 9000. Both rank in our [best motherboard for Ryzen 7 9800X3D](/best-motherboard-for-ryzen-7-9800x3d/) guide."
       ]
     ],
     "buyA": [
@@ -2374,7 +2374,7 @@
       ],
       [
         "What about power and cooling?",
-        "Both are rated at 65 W TDP with an optional 105 W mode. A $35 to $45 dual-tower air cooler handles either one quietly."
+        "Both are rated at 65 W TDP with an optional 105 W mode. A $35 to $45 dual-tower air cooler handles either one quietly. Cooler picks for each chip: [Ryzen 5 9600X](/best-cpu-cooler-for-ryzen-5-9600x/) and [Ryzen 7 9700X](/best-cpu-cooler-for-ryzen-7-9700x/)."
       ]
     ],
     "buyA": [

@@ -257,7 +257,7 @@
       "h": "Does the 9800X3D Need PCIe 5.0 for an RTX 5090?",
       "body": [
         "No. The 9800X3D provides PCIe 5.0 lanes, but whether the main slot runs at PCIe 5.0 depends on the board. X670E, B650E and X870E boards wire it for PCIe 5.0, while many B650 and X870 boards run it at PCIe 4.0.",
-        "Independent PCIe scaling reviews of the RTX 5090 show only a small difference between PCIe 5.0 x16 and PCIe 4.0 x16, typically a few percent at most. Every card on this page runs well on PCIe 4.0 x16. What matters more is that Resizable BAR is enabled in the BIOS, which AM5 supports across the board."
+        "Independent PCIe scaling reviews of the RTX 5090 show only a small difference between PCIe 5.0 x16 and PCIe 4.0 x16, typically a few percent at most. Every card on this page runs well on PCIe 4.0 x16. What matters more is that Resizable BAR is enabled in the BIOS, which AM5 supports across the board. Board choices for this chip are ranked in our [best motherboard for Ryzen 7 9800X3D](/best-motherboard-for-ryzen-7-9800x3d/) guide."
       ],
       "table": {
         "caption": "Each pick on a 9800X3D system",
@@ -405,6 +405,7 @@
   "related": [
     "best-gpu-for-ryzen-7-7800x3d",
     "best-cpu-cooler-for-ryzen-7-9800x3d",
-    "best-psu-for-rtx-5080"
+    "best-psu-for-rtx-5080",
+    "best-motherboard-for-ryzen-7-9800x3d"
   ]
 }

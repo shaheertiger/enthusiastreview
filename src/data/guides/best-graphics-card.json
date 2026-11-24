@@ -282,7 +282,7 @@
       "body": [
         "Only for 1080p, and only if you accept lower texture settings in some new releases. Several big games from 2025 and 2026 exceed 8 GB at high textures even at 1080p. When that happens the card spills data into system memory over the PCIe bus, and the result is stutter, textures that load late or blurry, and frame-time spikes that an average FPS figure hides.",
         "Esports titles like Counter-Strike 2, Valorant and Fortnite at competitive settings run comfortably in 8 GB, so the RTX 5060 is not a bad card for that use. The problem is longevity. Game memory budgets only grow, and an 8 GB card bought today will need settings cuts sooner than a 12 GB or 16 GB one.",
-        "For a new purchase, treat 12 GB as the minimum and 16 GB as the comfortable target if you plan to keep the card four years or more. The price gap between 8 GB and 16 GB versions of the same chip is usually $50–$80, which is cheap insurance."
+        "For a new purchase, treat 12 GB as the minimum and 16 GB as the comfortable target if you plan to keep the card four years or more. The price gap between 8 GB and 16 GB versions of the same chip is usually $50–$80, which is cheap insurance. For local AI models, VRAM matters even more; see our [best GPU for AI](/best-gpu-for-ai/) guide."
       ]
     },
     {
@@ -444,6 +444,7 @@
   "related": [
     "best-graphics-card-for-1440p",
     "best-budget-graphics-card",
-    "best-power-supply"
+    "best-power-supply",
+    "best-gpu-for-ai"
   ]
 }

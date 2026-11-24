@@ -299,7 +299,7 @@
       "h": "Which AM5 Board Suits a Ryzen 7 9800X3D?",
       "body": [
         "Any board on this list runs the 9800X3D at full speed. At 120 W, it does not need a premium VRM, so the choice comes down to features. The B650 Tomahawk is the value pick, and the X870 Tomahawk is the choice if you want USB4 and Gen5 everything.",
-        "Pair it with a DDR5-6000 CL30 kit and enable the EXPO profile in the BIOS. Our [best CPU for gaming](/best-cpu-for-gaming/) guide covers why the 9800X3D leads for gaming, and our [best RAM for gaming](/best-ram-for-gaming/) guide covers memory kits that work well on AM5."
+        "Pair it with a DDR5-6000 CL30 kit and enable the EXPO profile in the BIOS. Our [best CPU for gaming](/best-cpu-for-gaming/) guide covers why the 9800X3D leads for gaming, and our [best RAM for gaming](/best-ram-for-gaming/) guide covers memory kits that work well on AM5. Our [best motherboard for Ryzen 7 9800X3D](/best-motherboard-for-ryzen-7-9800x3d/) guide ranks six boards for that chip in detail."
       ]
     }
   ],
@@ -374,6 +374,7 @@
   "related": [
     "best-cpu-for-gaming",
     "best-ram-for-gaming",
-    "msi-review"
+    "msi-review",
+    "best-motherboard-for-ryzen-7-9800x3d"
   ]
 }

@@ -139,7 +139,7 @@
       "h": "Is 750 W Enough for an RX 9070 XT?",
       "body": [
         "Yes, for a reference-clocked RX 9070 XT with a typical CPU. A build with a Ryzen 7 9800X3D draws around 480–510 W while gaming, which leaves a reasonable margin on a quality 750 W ATX 3.x unit.",
-        "With a heavily factory-overclocked card, a hot CPU under all-core load, or a lot of fans and drives, move up to 850 W. The price difference is often $20–$30."
+        "With a heavily factory-overclocked card, a hot CPU under all-core load, or a lot of fans and drives, move up to 850 W. The price difference is often $20–$30. The rival RTX 5070 is a 250 W card that NVIDIA pairs with 650 W; our [best PSU for RTX 5070](/best-psu-for-rtx-5070/) guide covers it."
       ]
     },
     {
@@ -189,5 +189,5 @@
     "Intel ATX 3.x power supply design guide summaries",
     "Independent power supply reviews and owner reports"
   ],
-  "related": ["best-power-supply", "best-psu-under-100", "best-amd-graphics-card"]
+  "related": ["best-power-supply", "best-psu-under-100", "best-amd-graphics-card", "best-psu-for-rtx-5070"]
 }

@@ -1,0 +1,197 @@
+{
+  "slug": "best-cpu-cooler-for-ryzen-7-9700x",
+  "type": "roundup",
+  "category": "cpu-coolers",
+  "title": "Best CPU Cooler for Ryzen 7 9700X (2026): 6 Picks Ranked",
+  "h1": "Best CPU Cooler for Ryzen 7 9700X",
+  "query": "best cpu cooler for ryzen 7 9700x",
+  "description": "A $35–$45 Thermalright Peerless Assassin 120 SE is the best cooler for a 65 W Ryzen 7 9700X, with room for its 105 W mode. 6 coolers ranked from $18.",
+  "dek": "The 9700X ships without a cooler and runs at 65 W by default, but eight cores and an optional 105 W mode change the math compared with a six-core chip.",
+  "intro": [
+    "The Thermalright Peerless Assassin 120 SE is the best cooler for most Ryzen 7 9700X builds. AMD rates the 9700X at 65 W by default, with an 88 W package limit, and this $35 to $45 dual tower with six heat pipes handles that quietly while keeping enough capacity for the chip's optional 105 W mode.",
+    "This guide is for anyone buying a 9700X, which comes without a cooler in the box. Eight cores at 65 W are easy to cool for gaming, so a $20 single tower works, but the 9700X is also bought for rendering and compiling, where the 105 W mode helps and a dual tower keeps the fans calm. We match a cooler to each use."
+  ],
+  "quickAnswer": "Buy the Thermalright Peerless Assassin 120 SE ($35–$45) for most 9700X builds. For a gaming-only build at stock 65 W, the Assassin X 120 Refined SE ($18–$25) is enough. Use the Phantom Spirit 120 SE for long 105 W workloads or a later X3D upgrade, the Arctic Freezer 36 with tall RGB memory, and the Liquid Freezer III Pro 360 if you want an AIO.",
+  "picks": [
+    {
+      "id": "thermalright-peerless-assassin-120-se",
+      "label": "Best Overall",
+      "bestFor": "9700X builds that game at 65 W and sometimes render or compile",
+      "skipIf": "you want every RAM kit to fit with no fan adjustment",
+      "writeup": [
+        "The 9700X sits between two kinds of buyer. At its default 65 W it is an easy chip to cool in games, but it has eight cores and is often bought for work as well as play, and AMD's optional 105 W mode raises the package limit from 88 W to about 142 W. A cooler that only just handles 65 W becomes loud the moment you enable it.",
+        "The Peerless Assassin 120 SE covers both cases for $35 to $45. Six 6 mm heat pipes and two 120 mm fans keep a stock 9700X quiet, and the same cooler runs the 105 W mode through long renders without the fans racing. That flexibility is why it ranks first here, while the cheaper single tower wins for the six-core 9600X.",
+        "It stands 155 mm tall and mounts into the stock AM5 backplate. The front fan overhangs the first DIMM slot, so low-profile DDR5 is the easy match; tall RGB kits may need the fan raised a few millimeters. If that matters, the Freezer 36 below avoids it. The [Peerless Assassin vs Phantom Spirit](/compare/thermalright-peerless-assassin-120-se-vs-thermalright-phantom-spirit-120-se/) page covers its seven-pipe sibling."
+      ],
+      "pros": ["Quiet at 65 W, capable at 105 W", "$35–$45", "Stock AM5 backplate mounting"],
+      "cons": ["Front fan overhangs the first DIMM slot", "Basic mounting hardware"]
+    },
+    {
+      "id": "thermalright-assassin-x-120-refined-se",
+      "label": "Best Budget",
+      "bestFor": "gaming-only 9700X builds left at the default 65 W",
+      "skipIf": "you plan to enable the 105 W mode for long all-core work",
+      "writeup": [
+        "If your 9700X will spend its life in games at the default 65 W, the Assassin X 120 Refined SE is enough. Its four 6 mm heat pipes and single 120 mm fan handle the chip's 88 W package limit, and games rarely load all eight cores to that point.",
+        "At $18 to $25, it is the cheapest sensible cooler for the chip. The $20 saved over the Peerless Assassin can go into the graphics card, which matters more for frame rates on an eight-core gaming PC.",
+        "At 148 mm tall it fits most compact cases, and as a single tower it never covers the memory. Where it falls short is the 105 W mode: it will run the chip, but the fan gets loud under long all-core loads. If you might use that mode, buy a dual tower now."
+      ],
+      "pros": ["$18–$25", "Clears every RAM kit", "148 mm tall"],
+      "cons": ["Loud in the 105 W mode", "Least headroom on the list"]
+    },
+    {
+      "id": "thermalright-phantom-spirit-120-se",
+      "label": "Best for 105 W Mode",
+      "bestFor": "9700X owners who render, compile or encode in the 105 W mode, or plan an X3D upgrade",
+      "skipIf": "you leave the chip at 65 W and only game",
+      "writeup": [
+        "The Phantom Spirit 120 SE is the dual tower to buy if the 105 W mode will be on most of the time. Its seven heat pipes give a little more capacity than the Peerless Assassin's six, which helps most in long all-core jobs where the 9700X sits at its 142 W limit for minutes at a time.",
+        "It is also the efficient choice if the 9700X is a stepping stone. AM5 keeps the same mounting across generations, and this cooler comfortably handles a 120 W Ryzen 7 9800X3D; our [9800X3D cooler guide](/best-cpu-cooler-for-ryzen-7-9800x3d/) ranks it first for that chip.",
+        "It costs $35 to $45 and stands 154 mm tall, with the same front-fan overhang on the first memory slot as the Peerless Assassin. For a stock 9700X it is more than you need; for heavy work or a later upgrade, it is the one to buy once."
+      ],
+      "pros": ["Seven heat pipes for long 142 W loads", "Ready for a 9800X3D later", "$35–$45"],
+      "cons": ["Overkill for stock gaming", "Front fan overhangs the first DIMM slot"]
+    },
+    {
+      "id": "arctic-freezer-36",
+      "label": "Best for Tall RAM",
+      "bestFor": "9700X builds with tall RGB DDR5 that still want a quiet PC",
+      "skipIf": "you want the most all-core headroom for the money",
+      "writeup": [
+        "The Freezer 36 is a single tower with two fans in push-pull across four heat pipes. That lets its fans spin slower than a single-fan cooler for the same heat, so a 65 W 9700X runs close to silent in games.",
+        "Because it is a single tower, it sits behind the memory instead of over it, so tall RGB kits fit without moving a fan. That is the main reason to choose it over the Peerless Assassin, which costs about the same.",
+        "It handles the 105 W mode at moderate noise, though the Thermalright dual towers have more capacity for long renders. It costs $30 to $40 and stands 159 mm tall. Arctic sells standard, A-RGB and CO versions; the CO's dual ball bearing fans suit a 9700X that runs around the clock. The [Freezer 36 vs Peerless Assassin](/compare/arctic-freezer-36-vs-thermalright-peerless-assassin-120-se/) page compares the two."
+      ],
+      "pros": ["No RAM clearance issues", "Quiet push-pull fans", "$30–$40"],
+      "cons": ["Less capacity than dual towers at 142 W"]
+    },
+    {
+      "id": "arctic-liquid-freezer-iii-pro-360",
+      "label": "Best AIO",
+      "bestFor": "9700X builds that want a liquid cooler for looks, a clear view of the board or heavy PBO tuning",
+      "skipIf": "you only game at 65 W, where air cooling does the same job for less",
+      "writeup": [
+        "A 360 mm AIO is not needed for a 9700X at stock, but if you want liquid cooling, the Liquid Freezer III Pro 360 is the one to buy. It has three P12 Pro fans on a 38 mm thick radiator, an integrated fan on the pump block that blows over the VRM, and an offset AM5 mount in the box.",
+        "It makes the most sense for owners who enable the 105 W mode and then add Precision Boost Overdrive, which pushes power beyond 142 W. In that case the extra radiator area keeps fan speeds down in long all-core loads where even a good dual tower gets louder.",
+        "It costs $85 to $110 and carries a 6-year warranty. Check that your case takes a 360 mm radiator before you order; the [Liquid Freezer III Pro vs NH-D15 G2](/compare/arctic-liquid-freezer-iii-pro-360-vs-noctua-nh-d15-g2/) page weighs it against the best air cooler."
+      ],
+      "pros": ["Headroom for 105 W plus PBO", "VRM fan and AM5 offset mount", "6-year warranty"],
+      "cons": ["$85–$110 on a 65 W chip", "Needs 360 mm radiator space", "A pump that can fail"]
+    },
+    {
+      "id": "noctua-nh-u12s-redux",
+      "label": "Best Warranty",
+      "bestFor": "buyers who want Noctua's mounting and a 6-year warranty at a modest price",
+      "skipIf": "you want the most cooling per dollar",
+      "writeup": [
+        "The NH-U12S redux is a slim single tower with four heat pipes and one NF-P12 redux fan, backed by Noctua's 6-year warranty and SecuFirm2 mounting. It runs a 65 W 9700X quietly and handles the 105 W mode at moderate noise.",
+        "On cooling per dollar it trails the Thermalright towers and the Freezer 36, so the $45 to $55 price buys support and build quality rather than lower temperatures. For a work PC that will run for many years, that can be worth it.",
+        "At 158 mm tall in a slim tower that clears the memory slots, it fits most mid-tower cases and any DDR5 kit."
+      ],
+      "pros": ["6-year warranty", "Clears every RAM kit", "Proven mounting"],
+      "cons": ["Less capacity than $35 dual towers", "$45–$55"]
+    }
+  ],
+  "tableSpecs": ["Type", "Fans", "Heat pipes", "Height"],
+  "ranking": {
+    "intro": "We ranked these coolers for the Ryzen 7 9700X using AMD's published specs, cooler makers' spec sheets, independent reviews of the CPU and the coolers, and AM5 owner reports. None of these coolers were bench-tested by us. The ER Score weighs that evidence against price and fit for an eight-core chip that runs at 65 W by default and 105 W on request.",
+    "criteria": [
+      ["Fit for 65 W", "Whether the cooler handles the 9700X's default 88 W package limit quietly."],
+      ["105 W mode headroom", "How it copes with the optional limit of about 142 W in long all-core work."],
+      ["Price against a $290–$330 CPU", "The cooler should be a modest share of the processor's price."],
+      ["Memory and case fit", "Height, AM5 mounting in the box and overhang over the first DIMM slot."],
+      ["Warranty and upgrade path", "Fan quality, warranty and whether it suits a later X3D or 16-core AM5 chip."]
+    ],
+    "why": "The Peerless Assassin 120 SE won because it keeps a 65 W 9700X quiet and still has the capacity for the 105 W mode, for about $40."
+  },
+  "mentions": [
+    { "id": "noctua-nh-d15-g2", "text": "Noctua's flagship air cooler can handle anything a 9700X does, including 105 W with PBO, but at $140–$160 it costs about half as much as the CPU. Buy it for a 16-core chip or if you want the quietest air cooler regardless of price." },
+    { "id": "be-quiet-dark-rock-pro-5", "text": "The Dark Rock Pro 5 is a quiet, all-black dual tower that cools a 9700X well. At $90–$100 it costs more than twice the Thermalright towers for similar results, so it suits buyers who care most about looks and low noise." },
+    { "name": "AMD Wraith Prism or Wraith Stealth", "text": "The 9700X does not include a cooler. If you have an old AMD box cooler, it fits AM5 and can run a 65 W 9700X, but it is louder under load and not suited to the 105 W mode. A $20 to $40 tower is a clear upgrade." }
+  ],
+  "sections": [
+    {
+      "h": "Does the Ryzen 7 9700X Come With a Cooler?",
+      "body": [
+        "No. AMD sells the Ryzen 7 9700X without a cooler, so you need to budget for one. The good news is that at its default 65 W the chip is easy to cool, and a $20 to $45 air cooler is all most builds need.",
+        "Budget around $310 to $375 for the CPU and cooler together. If you are still choosing a CPU, the [Ryzen 7 9700X vs Ryzen 7 9800X3D](/compare/ryzen-7-9700x-vs-ryzen-7-9800x3d/) page explains when the X3D chip's extra cache is worth the money for gaming."
+      ]
+    },
+    {
+      "h": "How Much Cooling Does a 65 W 9700X Need?",
+      "body": [
+        "Less than its eight cores suggest. At 65 W TDP, the 9700X's package power limit on AM5 is 88 W. Games rarely reach that, and a four-heat-pipe single tower handles it in all-core work with a moderate fan speed.",
+        "AMD lists the chip's maximum operating temperature as 95°C. Precision Boost raises clocks until it reaches the power limit or that temperature, and at 65 W with any cooler on this list the power limit is reached first. That is why a bigger cooler adds little at stock settings, and why the extra money only pays off in the 105 W mode."
+      ]
+    },
+    {
+      "h": "Should You Turn On the 9700X's 105 W Mode?",
+      "body": [
+        "Only if you do sustained multi-thread work. AMD added an optional 105 W mode through BIOS updates for the Ryzen 5 9600X and Ryzen 7 9700X, raising the package limit to about 142 W. Independent reviews found it speeds up rendering, compiling and encoding, while games gain little, since they rarely load all eight cores.",
+        "With eight cores, the 9700X uses that extra power more fully than the six-core 9600X, so the cooler matters more. A dual tower like the Peerless Assassin 120 SE or Phantom Spirit 120 SE is the right match."
+      ],
+      "table": {
+        "caption": "9700X power modes and the cooler each needs",
+        "head": ["Mode", "TDP / package limit", "Best for", "Cooler to buy"],
+        "rows": [
+          ["Default", "65 W / 88 W", "Gaming, everyday use", "Assassin X 120 Refined SE or Freezer 36"],
+          ["105 W mode", "105 W / about 142 W", "Rendering, compiling, encoding", "Peerless Assassin 120 SE or Phantom Spirit 120 SE"],
+          ["105 W mode plus PBO", "Above 142 W", "Tuning and long all-core work", "Phantom Spirit 120 SE or Liquid Freezer III Pro 360"]
+        ]
+      }
+    },
+    {
+      "h": "Is the 9700X Cooler Different From the 9600X Cooler?",
+      "body": [
+        "Slightly. Both chips share the same 65 W default and 105 W option, so the same coolers fit. The difference is that the 9700X has two more cores and is more often bought for work, so it spends more time near its limits. That is why we rank a $35 to $45 dual tower first here, while our [Ryzen 5 9600X cooler guide](/best-cpu-cooler-for-ryzen-5-9600x/) ranks the $20 single tower first.",
+        "For a gaming-only 9700X, the 9600X advice still holds: the Assassin X 120 Refined SE is enough. The [Ryzen 5 9600X vs Ryzen 7 9700X](/compare/ryzen-5-9600x-vs-ryzen-7-9700x/) page covers the CPUs themselves."
+      ]
+    },
+    {
+      "h": "Will an AM4 Cooler Fit the Ryzen 7 9700X?",
+      "body": [
+        "Usually. AM5 kept AM4's cooler mounting holes, so coolers that bolt into AMD's stock backplate fit a 9700X. Coolers that use their own backplate need an AM5 kit from the maker, and you should never remove the AM5 backplate, which holds the socket.",
+        "Every cooler on this list supports AM5 out of the box."
+      ]
+    },
+    {
+      "h": "Air or Liquid Cooling for a 9700X?",
+      "body": [
+        "Air, for nearly every build. A $35 to $45 dual tower handles the 9700X at both 65 W and 105 W, costs less than half as much as a 360 mm AIO and has no pump to fail.",
+        "Choose liquid if you want the look, need clearance around the socket for tall memory and a clear view of the board, or run the 105 W mode with PBO for long periods. The [best CPU cooler](/best-cpu-cooler/) guide covers both types in more depth."
+      ]
+    },
+    {
+      "h": "Will a 9700X Cooler Work With a Later AM5 Upgrade?",
+      "body": [
+        "Yes. AM5 keeps the same cooler mounting between generations, and AMD has said it will support the socket through at least 2027. If you might move to a Ryzen 7 9800X3D, a seven-pipe dual tower like the Phantom Spirit 120 SE covers it.",
+        "For a later 16-core chip, look at the Liquid Freezer III Pro 360 or the Noctua NH-D15 G2. Our [Ryzen 7 7800X3D vs Ryzen 7 9700X](/compare/ryzen-7-7800x3d-vs-ryzen-7-9700x/) page covers another common choice at this price."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Forgetting the cooler is not in the box", "The 9700X ships without a cooler. Order one with the CPU, or the build will stall on day one. Budget $20 to $45 for air."],
+    ["Using a small cooler in the 105 W mode", "The 105 W mode lifts the package limit to about 142 W. On a single-fan tower or an old box cooler, that means loud fans in long renders. Use a dual tower, or leave the chip at 65 W."],
+    ["Buying an AIO for a stock gaming build", "At 65 W, a 360 mm AIO cools no better in games than a $40 dual tower. It adds cost, a pump and a failure point."],
+    ["Ignoring RAM clearance", "Dual towers with a front fan overhang the first DIMM slot. With tall RGB memory, raise the fan or choose a single tower like the Freezer 36."],
+    ["Too much thermal paste", "AM5's heat spreader has notches that trap excess paste. A pea-sized dot in the center spreads well under mounting pressure."]
+  ],
+  "bottomLine": "The Thermalright Peerless Assassin 120 SE is the best cooler for the Ryzen 7 9700X because it keeps the chip quiet at its default 65 W and still has the capacity for the 105 W mode, for about $40. For a gaming-only build, the $20 Assassin X 120 Refined SE is enough. Choose the Phantom Spirit 120 SE for heavy work or a later X3D upgrade, the Freezer 36 for tall RAM and the Liquid Freezer III Pro 360 for liquid cooling.",
+  "faqs": [
+    { "q": "Does the Ryzen 7 9700X need a good cooler?", "a": "A sensible one, not an expensive one. At its default 65 W a $20 single tower is enough for gaming. If you enable the 105 W mode for rendering or compiling, a $35 to $45 dual tower such as the Peerless Assassin 120 SE keeps it quiet." },
+    { "q": "What is the max temperature for the Ryzen 7 9700X?", "a": "AMD lists 95°C as the maximum operating temperature. At 65 W the chip reaches its power limit well before that with any decent cooler, so gaming temperatures sit far below 95°C." },
+    { "q": "Is a 240 mm AIO good for a 9700X?", "a": "It works well, but a $35 to $45 dual-tower air cooler matches it for the 9700X at both 65 W and 105 W, for less money and without a pump. Choose an AIO for looks or clearance, not because the chip needs it." },
+    { "q": "Does the 9700X run hot?", "a": "No. At its default 65 W it is one of the easier eight-core chips to cool. Short temperature spikes when cores wake are normal on Ryzen; set a smoother fan curve so the fans do not react to them." },
+    { "q": "Can I use a Wraith Prism on the Ryzen 7 9700X?", "a": "Yes, at 65 W. AMD's old box coolers fit AM5 and run the chip within limits, but they are louder under load and not suited to the 105 W mode. A $20 to $40 tower is a worthwhile upgrade." },
+    { "q": "Is the 9700X's 105 W mode worth it?", "a": "For multi-thread work, often yes; for gaming, rarely. Reviews found faster rendering and compiling with little change in games. If you enable it, pair the chip with a dual-tower cooler." },
+    { "q": "What thermal paste should I use on a 9700X?", "a": "The paste that comes with your cooler is fine. Every cooler on this list includes paste or ships with it pre-applied. Use a pea-sized dot in the center; more does not cool better." }
+  ],
+  "sources": [
+    "AMD Ryzen 7 9700X product specifications (TDP, maximum operating temperature, box contents)",
+    "AMD announcement of the optional 105 W TDP mode for Ryzen 5 9600X and Ryzen 7 9700X",
+    "Thermalright, Arctic, Noctua and be quiet! cooler spec sheets",
+    "Independent Ryzen 7 9700X reviews covering 65 W and 105 W power behavior",
+    "Owner reports from AM5 builders"
+  ],
+  "related": ["best-cpu-cooler-for-ryzen-5-9600x", "best-cpu-cooler-for-ryzen-7-9800x3d", "best-cpu-cooler"]
+}

@@ -205,7 +205,7 @@
       "h": "Is an RTX 5060 8GB Enough for a Core Ultra 7 265K With 32 GB of RAM?",
       "body": [
         "For 1080p, yes. A 265K with 32 GB of DDR5 and an RTX 5060 is a common prebuilt and budget configuration, and it plays current games at 1080p with sensible settings. The 32 GB of system memory is the right amount for gaming and editing; that part of the build is not the problem.",
-        "The limits are the card's 8 GB of video memory and its speed. Some newer games already need lower texture settings on 8 GB cards, and at 1440p the RTX 5060 falls short of high settings. The 265K can drive a card several tiers faster, so the RTX 5060 is the first part to upgrade. A 650–750 W supply in a prebuilt usually leaves room for an RTX 5070 or RTX 5060 Ti 16GB; check the label before buying."
+        "The limits are the card's 8 GB of video memory and its speed. Some newer games already need lower texture settings on 8 GB cards, and at 1440p the RTX 5060 falls short of high settings. The 265K can drive a card several tiers faster, so the RTX 5060 is the first part to upgrade. A 650–750 W supply in a prebuilt usually leaves room for an RTX 5070 or RTX 5060 Ti 16GB; check the label before buying. If you want to run local AI models on this setup, 8 GB fits 7B to 8B LLMs; our [best GPU for AI](/best-gpu-for-ai/) guide covers what each VRAM tier runs."
       ]
     },
     {
@@ -351,6 +351,7 @@
   "related": [
     "best-gpu-for-core-i7-14700k",
     "best-graphics-card-for-1440p",
-    "intel-vs-amd-cpu-equivalents"
+    "intel-vs-amd-cpu-equivalents",
+    "best-gpu-for-ai"
   ]
 }
