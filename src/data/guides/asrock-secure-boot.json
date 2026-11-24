@@ -24,7 +24,7 @@
     {
       "h": "Enter the UEFI and switch to Advanced Mode",
       "body": [
-        "Restart and press Delete or F2 at the ASRock logo. If the board opens in Easy Mode, press F6 (on most boards) to switch to Advanced Mode, where the Boot and Security menus are."
+        "Restart and press Delete or F2 at the ASRock logo; if the keys do nothing, see [how to enter the ASRock BIOS](/how-to-enter-asrock-bios/). If the board opens in Easy Mode, press F6 (on most boards) to switch to Advanced Mode, where the Boot and Security menus are."
       ]
     },
     {
@@ -155,8 +155,10 @@
     "msi-mag-b850-tomahawk-max-wifi"
   ],
   "related": [
-    "best-am5-motherboard",
-    "how-to-update-amd-drivers",
-    "how-to-check-what-graphics-card-i-have"
+    "how-to-enter-asrock-bios",
+    "how-to-update-asrock-bios",
+    "is-asrock-a-good-brand",
+    "asrock-polychrome-rgb-software",
+    "best-am5-motherboard"
   ]
 }

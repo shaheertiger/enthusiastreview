@@ -1,0 +1,138 @@
+{
+  "slug": "how-to-enter-asrock-bios",
+  "type": "article",
+  "kind": "howto",
+  "category": "motherboards",
+  "title": "How to Enter ASRock BIOS: F2 or Del Key, Boot Menu and Windows",
+  "h1": "How to Enter the BIOS on an ASRock Motherboard",
+  "query": "how to enter asrock bios",
+  "description": "Press F2 or Del at the ASRock logo to enter the BIOS, or F11 for the boot menu. If fast boot skips the key, restart into UEFI settings from Windows instead.",
+  "dek": "The keys that open the BIOS and boot menu on an ASRock board, the Windows route that works when the keys do not, and the fast-boot settings that hide them.",
+  "quickAnswer": "Restart the PC and press F2 or Delete repeatedly as soon as the ASRock logo appears; either key opens the UEFI setup. Press F11 instead for the one-time boot menu. If the PC boots too fast to catch the key, open Windows Settings, then System, Recovery, Advanced startup, Restart now, and choose Troubleshoot, Advanced options, UEFI Firmware Settings.",
+  "intro": [
+    "This guide covers every way into the BIOS (UEFI setup) on an ASRock motherboard: the F2 and Delete keys, the F11 boot menu, the Windows Advanced Startup route, and a command that restarts straight into firmware. It applies to AM5, AM4 and recent Intel boards, from Pro and HDV models to Steel Legend, Phantom Gaming and Taichi.",
+    "It also covers why the keys sometimes do nothing: Ultra Fast Boot, Windows Fast Startup, wireless keyboards and a monitor plugged into the wrong port. Menu names differ between board generations, so where they vary we describe what to look for."
+  ],
+  "stepsHeading": "How to Enter the ASRock BIOS With the Keyboard, Step by Step",
+  "steps": [
+    {
+      "h": "Use a wired keyboard in a rear USB port",
+      "body": [
+        "Plug a wired USB keyboard into one of the motherboard's rear USB ports. Front-panel ports and some wireless receivers start too late in the boot to register a key press, especially on fast boot settings."
+      ]
+    },
+    {
+      "h": "Restart, rather than shut down and power on",
+      "body": [
+        "Choose Restart from the Windows Start menu. A full restart always goes through the board's firmware start-up. Shutting down and powering on can skip the window for the key if Windows Fast Startup is on, which is the default on many installs."
+      ]
+    },
+    {
+      "h": "Press F2 or Delete repeatedly at the ASRock logo",
+      "body": [
+        "As soon as the screen lights up, tap F2 or Delete about twice a second until the UEFI setup appears. Either key works on current ASRock boards. Holding the key down does not work as well as tapping it."
+      ]
+    },
+    {
+      "h": "Switch to Advanced Mode if needed",
+      "body": [
+        "Many ASRock boards open in Easy Mode, a one-page summary. Press F6 on most boards, or click the Advanced Mode button, to reach the full menus: Main, OC Tweaker, Advanced, Tool, H/W Monitor, Security, Boot and Exit."
+      ]
+    },
+    {
+      "h": "Save and exit with F10",
+      "body": [
+        "After changing settings, press F10 and confirm to save and restart. To leave without saving, use the Exit menu and choose the discard option. If a change stops the PC from booting, the board usually falls back to defaults after a few failed starts; if not, clear the CMOS."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Is the ASRock BIOS Key?",
+      "body": [
+        "F2 or Delete. Both open the UEFI setup on current ASRock motherboards, and the boot screen usually shows the keys at the bottom while the logo is up. If the logo flashes by too fast to read, tap both keys alternately.",
+        "ASRock prebuilt mini PCs and some older boards follow the same pattern, but check the manual if neither key works. The manual's BIOS section opens with the key for that model."
+      ],
+      "table": {
+        "caption": "ASRock motherboard keys at start-up",
+        "head": ["Key", "What it does", "When to use it"],
+        "rows": [
+          ["F2 or Delete", "Opens the UEFI setup (BIOS)", "Changing settings: EXPO or XMP, fans, boot order, Secure Boot"],
+          ["F11", "Opens the one-time boot menu", "Booting a USB installer or another drive once"],
+          ["F6 (in the UEFI)", "Switches between Easy Mode and Advanced Mode", "Reaching the full menus"],
+          ["F10 (in the UEFI)", "Saves changes and restarts", "Leaving the BIOS with your changes"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the ASRock Boot Menu Key?",
+      "body": [
+        "F11. Tap it at the ASRock logo to open a list of bootable drives, then pick one with the arrow keys and Enter. The choice applies to that one boot only, so it is the safe way to start a Windows or Linux installer from a USB drive without changing the boot order.",
+        "If your USB drive appears twice, once with a UEFI prefix and once without, choose the UEFI entry for a modern Windows install. The non-UEFI entry boots in legacy mode, which only appears when CSM is on, and installs Windows in a way that blocks Secure Boot. Our [ASRock Secure Boot guide](/asrock-secure-boot/) explains why that matters for Windows 11 and some anti-cheat."
+      ]
+    },
+    {
+      "h": "How Do You Enter the ASRock BIOS From Windows?",
+      "body": [
+        "Use Advanced Startup. In Windows 11, open Settings, then System, then Recovery, and click Restart now next to Advanced startup. In Windows 10, it is under Settings, Update and Security, Recovery. After the restart, choose Troubleshoot, then Advanced options, then UEFI Firmware Settings, and click Restart. The PC restarts directly into the ASRock UEFI.",
+        "A faster route: hold Shift while clicking Restart in the Start menu's power options, which opens the same blue menu. Or open Command Prompt or Terminal as administrator and run shutdown /r /fw /t 0, which restarts straight into the firmware setup.",
+        "If UEFI Firmware Settings is missing from the list, Windows was installed in legacy (CSM) mode. Use the F2 or Delete key instead, and consider converting the disk to GPT so Secure Boot can work."
+      ]
+    },
+    {
+      "h": "Why Can't I Enter the ASRock BIOS? Fast Boot Gotchas",
+      "body": [
+        "The most common cause is a fast boot setting. ASRock boards have a Fast Boot option under the Boot menu, usually with Disabled, Fast and Ultra Fast settings. Fast shortens the start-up checks. Ultra Fast goes further and skips USB initialization, so the keyboard does not work at all until Windows loads, and F2, Delete and F11 do nothing.",
+        "With Ultra Fast on, get into the BIOS from Windows with Advanced Startup or shutdown /r /fw /t 0, then set Fast Boot back to Disabled or Fast. If Windows will not boot either, clear the CMOS, which resets Fast Boot along with every other setting.",
+        "Windows Fast Startup is a separate setting. It makes shutdown work like a hibernate, so the next power-on can skip the moment where the board reads keys. Use Restart instead of Shut down, or turn Fast Startup off in Control Panel under Power Options, Choose what the power buttons do."
+      ]
+    },
+    {
+      "h": "What If the Screen Stays Black When You Press F2?",
+      "body": [
+        "Check where the monitor is plugged in. With a graphics card installed, the display must connect to the card, not the motherboard's video outputs, or you will see nothing until Windows loads. Some monitors also take a few seconds to wake and miss the logo entirely; let the PC sit at the logo, or tap the key from the moment you press power.",
+        "On AM5 boards, the first boot after a BIOS update, a memory change or a CMOS clear can show a black screen for a minute or more while the memory trains. Wait at least three minutes before assuming something is wrong. Pressing reset during training just starts it again."
+      ]
+    },
+    {
+      "h": "How Do You Clear the CMOS on an ASRock Board?",
+      "body": [
+        "Clearing the CMOS resets every BIOS setting to its default, including Fast Boot, which is why it is the fallback when you cannot get into the BIOS any other way. It does not change the BIOS version.",
+        "Shut down, switch off the PSU and unplug it. Many ASRock boards have a Clear CMOS button on the rear I/O; press it for a few seconds. Others have a two-pin jumper labelled CLRMOS1 or similar near the battery: short the two pins for about 10 seconds. If neither is there, remove the coin battery for a few minutes. Reconnect power and boot, and press F2 or Delete at the logo."
+      ]
+    },
+    {
+      "h": "What Should You Change Once You Are in the ASRock BIOS?",
+      "body": [
+        "Most people visit for a handful of settings. Turn on EXPO or XMP under OC Tweaker so memory runs at its rated speed. Set the boot order under Boot. Turn on Resizable BAR under Advanced, often in the PCI or chipset configuration. Check that Secure Boot and the firmware TPM (AMD fTPM or Intel PTT) are on if Windows 11 or a game needs them.",
+        "Updating the BIOS also starts here: Instant Flash and Internet Flash are under the Tool menu. See [how to update ASRock BIOS](/how-to-update-asrock-bios/) for the full steps. Lighting has a basic on and off switch in many ASRock BIOS versions, and the [ASRock Polychrome RGB software](/asrock-polychrome-rgb-software/) handles colors and effects in Windows. If you are still choosing a board, read [is ASRock a good brand](/is-asrock-a-good-brand/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Pressing the key after a shutdown with Fast Startup on", "Windows Fast Startup can skip the window where the board reads the BIOS key. Use Restart instead of Shut down, or use Advanced Startup from Windows."],
+    ["Turning on Ultra Fast Boot", "Ultra Fast skips USB initialization, so the keyboard does nothing until Windows loads. Leave Fast Boot on Disabled or Fast unless you are sure you can reach the BIOS from Windows."],
+    ["Plugging the monitor into the motherboard", "With a graphics card installed, the motherboard's video outputs usually show nothing. Connect the display to the graphics card to see the ASRock logo and the BIOS."],
+    ["Using a wireless keyboard", "Some wireless receivers start too late to catch the key press. Use a wired keyboard in a rear USB port when entering the BIOS."],
+    ["Booting the non-UEFI USB entry from F11", "Picking the legacy entry installs Windows in a mode that blocks Secure Boot. Choose the UEFI-labelled entry for the USB drive."]
+  ],
+  "bottomLine": "On an ASRock motherboard, tap F2 or Delete at the logo to enter the BIOS, and F11 for the one-time boot menu. Use Restart, not Shut down, and a wired keyboard in a rear USB port. If the keys do nothing, the usual cause is Ultra Fast Boot or Windows Fast Startup: get in from Windows through Settings, Recovery, Advanced startup, UEFI Firmware Settings, or run shutdown /r /fw /t 0 as administrator. If Windows will not boot, clear the CMOS to reset Fast Boot.",
+  "faqs": [
+    {"q": "What key do you press to enter the ASRock BIOS?", "a": "F2 or Delete. Tap either one repeatedly as soon as the ASRock logo appears after a restart. Both open the UEFI setup on current ASRock motherboards."},
+    {"q": "What is the ASRock boot menu key?", "a": "F11. Tap it at the logo to choose a drive to boot from once, such as a USB installer, without changing the saved boot order."},
+    {"q": "How do I get into the ASRock BIOS from Windows 11?", "a": "Open Settings, System, Recovery, and click Restart now next to Advanced startup. Then choose Troubleshoot, Advanced options, UEFI Firmware Settings, and Restart. Running shutdown /r /fw /t 0 as administrator does the same."},
+    {"q": "Why is F2 not working on my ASRock motherboard?", "a": "Usually Ultra Fast Boot is on, Windows Fast Startup skipped the key window, the keyboard is wireless or in a front port, or the monitor is on the wrong output. Enter from Windows instead, or clear the CMOS."},
+    {"q": "How do I turn off fast boot on an ASRock board?", "a": "Enter the BIOS, open the Boot menu, and set Fast Boot to Disabled. If Ultra Fast Boot is blocking the keyboard, enter through Windows Advanced Startup first."},
+    {"q": "How do I switch the ASRock BIOS to Advanced Mode?", "a": "Press F6 on most ASRock boards, or click the Advanced Mode button on the Easy Mode screen. The full menus, including Tool, Boot and Security, are in Advanced Mode."},
+    {"q": "Does clearing the CMOS let me into the BIOS?", "a": "Yes, when a setting such as Ultra Fast Boot blocks the keyboard. Clearing the CMOS resets every setting to defaults, so the F2 and Delete keys work again at the next start."},
+    {"q": "What does UEFI Firmware Settings missing mean?", "a": "Windows was installed in legacy (CSM) mode, so it cannot restart into the firmware. Use the F2 or Delete key, and consider converting the disk to GPT so Secure Boot works."}
+  ],
+  "sources": [
+    "ASRock motherboard user manuals: UEFI setup utility, boot menu and Fast Boot sections",
+    "ASRock support FAQ: entering the UEFI setup with Ultra Fast Boot enabled",
+    "Microsoft support: Advanced startup options and UEFI Firmware Settings in Windows 11 and Windows 10",
+    "Microsoft documentation: shutdown command /fw option"
+  ],
+  "products": ["asrock-b850-steel-legend-wifi"],
+  "related": ["how-to-update-asrock-bios", "asrock-secure-boot", "asrock-polychrome-rgb-software", "is-asrock-a-good-brand"]
+}

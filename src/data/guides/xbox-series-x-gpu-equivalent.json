@@ -1,0 +1,136 @@
+{
+  "slug": "xbox-series-x-gpu-equivalent",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Xbox Series X GPU Equivalent: Series X and S PC Graphics Match",
+  "h1": "Xbox Series X GPU Equivalent",
+  "query": "xbox series x gpu equivalent",
+  "description": "The Xbox Series X's 52-CU, 12.1 TFLOPS GPU roughly equals an RTX 2080, between an RX 6700 and RX 6700 XT. The 4 TFLOPS Series S is near a GTX 1650 Super.",
+  "dek": "The closest desktop graphics card and processor to the Xbox Series X and Series S, worked out from Microsoft's published specs, with the PC parts that match or beat each one.",
+  "quickAnswer": "The Xbox Series X GPU (52 RDNA 2 compute units at 1.825 GHz, about 12.1 TFLOPS) is roughly a desktop RTX 2080, sitting between an RX 6700 and an RX 6700 XT; an Arc B580 or RTX 5060 matches or slightly beats it today. The Series S GPU (20 compute units at 1.565 GHz, about 4 TFLOPS) is roughly a GTX 1650 Super or RX 6500 XT.",
+  "intro": [
+    "Microsoft published detailed specs for both consoles. The Series X has a custom AMD RDNA 2 GPU with 52 compute units at a fixed 1.825 GHz, 16 GB of GDDR6 (10 GB of it at 560 GB/s for graphics) and an 8-core Zen 2 CPU at up to 3.8 GHz. The Series S cuts the GPU to 20 compute units at 1.565 GHz and the memory to 10 GB. This page matches both to the desktop GPU and CPU that perform most like them.",
+    "These are rough, widely reported equivalents, built from the published specs and from how the closest desktop RDNA 2 cards perform in independent reviews. We have not tested either console. Console games are tuned for one fixed GPU, so the match moves from game to game; treat each one as a range."
+  ],
+  "sections": [
+    {
+      "h": "How We Matched the Xbox Series X to Desktop Parts",
+      "body": [
+        "The Series X GPU uses RDNA 2, the architecture of the Radeon RX 6000 series, so the starting point is the RDNA 2 desktop cards. It has more compute units than an RX 6700 XT (52 against 40) but a much lower clock: a fixed 1.825 GHz against the 6700 XT's boost of up to about 2.58 GHz. Multiply units by clock and the Series X lands at about 12.1 TFLOPS, below the 6700 XT's roughly 13.2 and above the RX 6700's roughly 11.3.",
+        "Memory goes the other way. The Series X gives graphics 10 GB on a 320-bit bus at 560 GB/s, more raw bandwidth than the RX 6700 XT's 384 GB/s, though the desktop card adds an Infinity Cache the console lacks. Taken together, the specs put the Series X between the two desktop cards.",
+        "Side-by-side tests of the same games on Xbox and PC generally place it near an RTX 2080, a little ahead of the PS5 in many titles. Roughly means within about 10 percent on average; the PS5's higher clock lets it match or win in some games."
+      ]
+    },
+    {
+      "h": "Xbox Series X and Series S GPU Equivalents: NVIDIA, AMD and Intel",
+      "body": [
+        "The table lists the closest desktop card from each brand, by raster performance. For how these cards line up against each other, use the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/). Ray tracing is the weak spot of both consoles, as it is for every RDNA 2 card."
+      ],
+      "table": {
+        "caption": "Xbox Series X and Series S GPU to desktop graphics cards, rough equivalents",
+        "head": ["Console", "Published GPU spec", "Closest AMD", "Closest NVIDIA", "Closest Intel Arc"],
+        "rows": [
+          ["Xbox Series X", "RDNA 2, 52 CUs, 1.825 GHz, 12.1 TFLOPS, 560 GB/s", "Between RX 6700 and RX 6700 XT", "RTX 2080 (roughly)", "Arc B580 (roughly)"],
+          ["Xbox Series S", "RDNA 2, 20 CUs, 1.565 GHz, 4 TFLOPS, 224 GB/s", "RX 6500 XT (roughly)", "GTX 1650 Super (roughly)", "Arc A380 (console a bit faster)"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Xbox Series X GPU Equivalent?",
+      "body": [
+        "The Xbox Series X GPU's closest desktop equivalent is roughly an RTX 2080, or a card between the RX 6700 and [RX 6700 XT](/gear/rx-6700-xt/) on the AMD side. That is a capable 1440p GPU that relies on dynamic resolution or upscaling for the 4K output most Series X games advertise.",
+        "In today's lineup, the [RTX 4060](/gear/rtx-4060/) is close but slightly behind in raster, the [Arc B580](/gear/arc-b580/) is roughly even, and the [RTX 5060](/gear/rtx-5060/) and RX 6700 XT are a little faster. The RTX cards add DLSS and much stronger ray tracing.",
+        "Memory matters as much as speed. The Series X gives games about 13.5 GB of its 16 GB, with 10 GB in the fast pool for graphics. Ports built around that can ask for more than 8 GB of VRAM at high textures, so a 12 GB card such as the B580 or RX 6700 XT matches the Series X experience more reliably than an 8 GB RTX 4060."
+      ]
+    },
+    {
+      "h": "What Is the Xbox Series X GPU Equivalent in NVIDIA?",
+      "body": [
+        "The Series X GPU's NVIDIA equivalent is roughly an RTX 2080 in raster games. Among current cards, the RTX 4060 is just behind and the RTX 5060 a little ahead. With ray tracing on, the Series X falls closer to an RTX 2060 Super or RTX 3060, because RDNA 2's ray-tracing hardware is limited.",
+        "There is a feature gap too: Series X games mostly use their own upscaling or FSR, not DLSS. On a PC with an RTX card, DLSS usually gives a sharper image at the same internal resolution, which narrows the effective difference further in NVIDIA's favour."
+      ]
+    },
+    {
+      "h": "What Is the Xbox Series S GPU Equivalent?",
+      "body": [
+        "The Xbox Series S GPU's closest desktop equivalent is roughly a GTX 1650 Super or an RX 6500 XT. It has 20 RDNA 2 compute units at 1.565 GHz, about 4 TFLOPS, a third of a Series X. Its memory is 10 GB in total, with 8 GB at 224 GB/s for games and 2 GB at a much slower 56 GB/s.",
+        "Microsoft markets the Series S for 1440p, but most demanding games run nearer 1080p or below on it, often with lower settings than the Series X. That is a fair match for a GTX 1650 Super, which handles 1080p at medium to high settings in most games. The Series S is a little faster than an Arc A380.",
+        "Any current graphics card from the [RX 6600](/gear/rx-6600/) up is far faster than a Series S. If your PC has a GTX 1650 or GTX 1060 class card, it is close to Series S level; our [old GeForce equivalents chart](/old-nvidia-gpu-equivalents/) shows where those sit today."
+      ]
+    },
+    {
+      "h": "Xbox Series X vs Series S: Spec by Spec",
+      "body": [
+        "The two consoles share the same CPU design and the same generation of graphics, which is why the same games run on both. The difference is scale: the Series X has about three times the GPU throughput and more than twice the graphics memory bandwidth."
+      ],
+      "table": {
+        "caption": "Xbox Series X vs Series S, Microsoft's published specs",
+        "head": ["Spec", "Xbox Series X", "Xbox Series S"],
+        "rows": [
+          ["CPU", "8 Zen 2 cores at up to 3.8 GHz", "8 Zen 2 cores at up to 3.6 GHz"],
+          ["GPU", "52 CUs at 1.825 GHz, 12.1 TFLOPS", "20 CUs at 1.565 GHz, 4 TFLOPS"],
+          ["Memory", "16 GB GDDR6 (10 GB at 560 GB/s, 6 GB at 336 GB/s)", "10 GB GDDR6 (8 GB at 224 GB/s, 2 GB at 56 GB/s)"],
+          ["Closest desktop GPU", "RTX 2080 (roughly)", "GTX 1650 Super (roughly)"]
+        ]
+      }
+    },
+    {
+      "h": "Is the Xbox Series X More Powerful Than a PS5?",
+      "body": [
+        "On paper, yes: about 12.1 TFLOPS against the PS5's 10.3, from 52 compute units against 36, plus a faster CPU clock (3.8 GHz against 3.5 GHz). In games the gap is smaller than those numbers suggest. The PS5 runs its fewer units at a much higher clock, which helps parts of the GPU that do not scale with unit count, and many cross-platform games look and run about the same on both.",
+        "Both sit in the RX 6700 to RX 6700 XT range, with the PS5 near an RTX 2070 Super and the Series X near an RTX 2080. The PS5 Pro is clearly faster than both. See [PS5 GPU equivalent](/ps5-gpu-equivalent/) for the PS5 and PS5 Pro breakdown, and the [console GPU equivalents chart](/console-gpu-equivalents/) for every console in one table."
+      ]
+    },
+    {
+      "h": "What Is the Xbox Series X CPU Equivalent?",
+      "body": [
+        "The Series X CPU is an 8-core, 16-thread AMD Zen 2 design at up to 3.8 GHz, or 3.66 GHz with simultaneous multithreading on, with a smaller cache than desktop Zen 2. In games it performs roughly like a Ryzen 5 3600 or a Ryzen 7 3700X held to lower clocks. In Intel terms, that is roughly a Core i5-10400F to i7-10700 class chip for gaming.",
+        "The Series S uses the same design at up to 3.6 GHz, so its CPU is nearly as fast, which is why it runs the same games at lower resolution rather than lower frame-rate targets. Any current desktop CPU, such as a [Ryzen 5 7600](/gear/ryzen-5-7600/), is much faster than either."
+      ]
+    },
+    {
+      "h": "What PC Matches an Xbox Series X?",
+      "body": [
+        "A PC that matches or slightly beats a Series X needs a GPU at RTX 2080 level or better, a recent 6-core CPU and 16 GB of system RAM. With new parts, that is an Arc B580 or RTX 5060 with a Ryzen 5 7600. For big ports with heavy textures, the 12 GB B580 or a 16 GB card is the safer pick than an 8 GB one.",
+        "A PC that matches a Series S is much cheaper: almost any current graphics card, even an RX 6600, is far ahead. The [best budget graphics cards](/best-budget-graphics-card/) list ranks options by price, and the [bottleneck calculator](/tools/bottleneck-calculator/) checks your CPU and GPU pairing. Street prices below are USD bands."
+      ],
+      "table": {
+        "caption": "Desktop graphics cards at or above Xbox Series X and S level",
+        "head": ["Target", "Graphics card", "Street price band", "Notes"],
+        "rows": [
+          ["Clearly beat a Series S", "RX 6600", "$180 to $230", "Below a Series X; 1080p high"],
+          ["Match a Series X", "RTX 4060 or RTX 5060", "$280 to $330", "8 GB; DLSS"],
+          ["Match a Series X, more VRAM", "Arc B580 or RX 6700 XT", "$250 to $330", "12 GB"],
+          ["Clearly beat a Series X", "RX 9060 XT 16GB", "$350 to $400", "16 GB; FSR 4"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Comparing TFLOPS across architectures", "12.1 TFLOPS on RDNA 2 is not the same as 12.1 TFLOPS on an NVIDIA or RDNA 3 card, which count throughput differently. Match within RDNA 2 first, then use performance tests for other brands."],
+    ["Treating the Series S as a small Series X", "The Series S has about a third of the GPU throughput and far less memory bandwidth. It lands near a GTX 1650 Super, not near a Series X with lower settings."],
+    ["Ignoring the 8 GB VRAM limit", "The Series X gives graphics 10 GB of fast memory. An 8 GB card of similar speed can run out at high textures in big ports, so 12 GB or more is the safer match."],
+    ["Treating console 4K as native 4K", "Most Series X games reach 4K output with dynamic resolution or upscaling. Compare it to desktop cards at 1440p with upscaling, not native 4K results."]
+  ],
+  "bottomLine": "The Xbox Series X's GPU, 52 RDNA 2 compute units at 1.825 GHz and about 12.1 TFLOPS, is roughly a desktop RTX 2080, between an RX 6700 and an RX 6700 XT. An Arc B580 or RTX 5060 matches or slightly beats it today, and the 12 GB B580 is safer for heavy textures. The Series S, 20 compute units and about 4 TFLOPS, is roughly a GTX 1650 Super or RX 6500 XT. Both consoles' Zen 2 CPUs sit near a Ryzen 5 3600 in games.",
+  "faqs": [
+    {"q": "What GPU is the Xbox Series X equivalent to?", "a": "Roughly an RTX 2080, or between an RX 6700 and RX 6700 XT on the AMD side. The Series X has 52 RDNA 2 compute units at 1.825 GHz, about 12.1 TFLOPS. Current cards that match or slightly beat it include the Arc B580 and RTX 5060."},
+    {"q": "What GPU is the Xbox Series S equivalent to?", "a": "Roughly a GTX 1650 Super or RX 6500 XT. The Series S has 20 RDNA 2 compute units at 1.565 GHz, about 4 TFLOPS, with 8 GB of fast memory for games."},
+    {"q": "What is the Xbox Series X GPU equivalent in NVIDIA?", "a": "An RTX 2080 in raster games. The RTX 4060 is just behind and the RTX 5060 a little ahead. With ray tracing on, the Series X falls closer to an RTX 2060 Super or RTX 3060."},
+    {"q": "Is the Xbox Series X more powerful than a PS5?", "a": "On paper, yes: about 12.1 TFLOPS against 10.3, and a faster CPU clock. In games the two are close, and the PS5's higher GPU clock lets it match or win in some titles. The PS5 Pro is faster than both."},
+    {"q": "How many TFLOPS is the Xbox Series X?", "a": "About 12.1 TFLOPS, from 52 compute units at 1.825 GHz. The Series S is about 4 TFLOPS. TFLOPS only compare fairly within the same architecture."},
+    {"q": "What CPU is the Xbox Series X equivalent to?", "a": "Roughly a Ryzen 5 3600 or a Ryzen 7 3700X held to lower clocks: 8 Zen 2 cores at up to 3.8 GHz with less cache than desktop Zen 2. In Intel terms, roughly a Core i5-10400F for gaming."},
+    {"q": "Is an RTX 4060 better than an Xbox Series X?", "a": "It is close but slightly behind in raster, and ahead with ray tracing and DLSS. Its 8 GB of VRAM can also fall short where the Series X gives graphics 10 GB of fast memory."},
+    {"q": "What graphics card do I need to match an Xbox Series S?", "a": "Almost any current card. An RX 6600 is far faster than a Series S, and an old GTX 1650 Super is about level with it."}
+  ],
+  "sources": [
+    "Microsoft Xbox Series X and Series S published specifications and Hot Chips 2020 presentation",
+    "AMD Radeon RX 6500 XT, RX 6700 and RX 6700 XT specifications",
+    "NVIDIA GeForce RTX 20, 40 and 50 series and GTX 16 series specifications",
+    "TechPowerUp GPU database relative performance listings",
+    "Independent console-versus-PC comparisons from Digital Foundry and GPU reviews from Hardware Unboxed and TechPowerUp"
+  ],
+  "products": ["arc-b580", "rtx-5060", "rtx-4060", "rx-6700-xt", "rx-6600", "ryzen-5-7600"],
+  "related": ["console-gpu-equivalents", "ps5-gpu-equivalent", "steam-machine-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents"]
+}

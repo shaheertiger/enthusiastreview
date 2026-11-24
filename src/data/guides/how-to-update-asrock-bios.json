@@ -36,7 +36,7 @@
     {
       "h": "Enter the UEFI and open Instant Flash",
       "body": [
-        "Restart and press Delete or F2 as the ASRock logo appears. Switch to Advanced Mode if the board opens in Easy Mode (F6 toggles it on many boards), then open the Tool menu and choose Instant Flash. On some boards F6 or a shortcut on the Easy Mode screen opens it directly."
+        "Restart and press Delete or F2 as the ASRock logo appears (if fast boot skips the key, see [how to enter the ASRock BIOS](/how-to-enter-asrock-bios/)). Switch to Advanced Mode if the board opens in Easy Mode (F6 toggles it on many boards), then open the Tool menu and choose Instant Flash. On some boards F6 or a shortcut on the Easy Mode screen opens it directly."
       ]
     },
     {
@@ -169,8 +169,10 @@
     "ryzen-7-9800x3d"
   ],
   "related": [
-    "best-am5-motherboard",
-    "how-to-update-amd-drivers",
-    "best-cpu-for-gaming"
+    "how-to-enter-asrock-bios",
+    "asrock-secure-boot",
+    "asrock-polychrome-rgb-software",
+    "is-asrock-a-good-brand",
+    "best-am5-motherboard"
   ]
 }

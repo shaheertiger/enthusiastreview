@@ -74,7 +74,7 @@
       "body": [
         "Aura Sync controls anything plugged into the board's headers, regardless of brand, as long as the connector type matches. It also directly supports ASUS graphics cards with lighting and a list of partner products sold as Aura Sync compatible, such as certain memory kits, coolers and cases. That list changes, so check the product's own page.",
         "Devices with their own controller and software, such as many Corsair, NZXT or Lian Li products, usually stay in their own app. For a mixed-brand build, SignalRGB or OpenRGB can control many ASUS boards and other brands from one place. Run one lighting program at a time; if a third-party tool takes over, close Armoury Crate's lighting or remove it.",
-        "The same rule applies on other brands' boards. Our guides to [ASRock Polychrome](/asrock-polychrome-rgb-software/) and [MSI Mystic Light](/msi-mystic-light-rgb-software/) cover their headers and apps."
+        "The same rule applies on other brands' boards. Our guides to [ASRock Polychrome](/asrock-polychrome-rgb-software/), [MSI Mystic Light](/msi-mystic-light-rgb-software/) and [Gigabyte RGB Fusion](/gigabyte-rgb-fusion-software/) cover their headers and apps."
       ]
     },
     {
@@ -133,5 +133,5 @@
     "SignalRGB and OpenRGB supported device lists"
   ],
   "products": ["asus-tuf-gaming-b650-plus-wifi", "asus-rog-strix-x570-e-gaming", "asus-tuf-gaming-x570-plus-wifi"],
-  "related": ["asrock-polychrome-rgb-software", "msi-mystic-light-rgb-software", "how-to-update-asus-bios"]
+  "related": ["asrock-polychrome-rgb-software", "msi-mystic-light-rgb-software", "gigabyte-rgb-fusion-software", "how-to-update-asus-bios"]
 }

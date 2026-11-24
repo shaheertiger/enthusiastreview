@@ -77,7 +77,7 @@
       "body": [
         "Anything plugged into the board's JRGB or ARGB headers syncs with Mystic Light whatever brand made it, as long as the connector and voltage match. That covers most case fans, strips and cooler pumps that use standard headers.",
         "Mystic Light also supports some partner products directly, including certain memory kits, coolers and MSI graphics cards. Support lists change, so check MSI's Mystic Light compatibility information before buying a part for that reason.",
-        "Devices that run on their own controller, such as many Corsair, NZXT or Lian Li parts, usually need their own software. To control a mixed system from one app, SignalRGB and OpenRGB support many MSI boards. If you switch to one of them, remove the Mystic Light module so the two do not fight. For the same task on ASRock boards, see our [ASRock RGB software guide](/asrock-polychrome-rgb-software/)."
+        "Devices that run on their own controller, such as many Corsair, NZXT or Lian Li parts, usually need their own software. To control a mixed system from one app, SignalRGB and OpenRGB support many MSI boards. If you switch to one of them, remove the Mystic Light module so the two do not fight. For the same task on ASRock boards, see our [ASRock RGB software guide](/asrock-polychrome-rgb-software/); for Gigabyte boards, see [Gigabyte RGB Fusion](/gigabyte-rgb-fusion-software/)."
       ]
     },
     {
@@ -175,6 +175,7 @@
   "related": [
     "asus-aura-sync-rgb-software",
     "asrock-polychrome-rgb-software",
+    "gigabyte-rgb-fusion-software",
     "how-to-update-msi-bios",
     "msi-review"
   ]
