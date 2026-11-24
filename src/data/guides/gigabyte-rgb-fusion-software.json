@@ -1,0 +1,129 @@
+{
+  "slug": "gigabyte-rgb-fusion-software",
+  "type": "article",
+  "kind": "howto",
+  "category": "motherboards",
+  "title": "Gigabyte RGB Software: RGB Fusion and Control Center Setup",
+  "h1": "Gigabyte RGB Software",
+  "query": "gigabyte rgb software",
+  "description": "Gigabyte's RGB software is RGB Fusion 2.0 on older boards and a module in Gigabyte Control Center on newer ones. How to install it, sync lights and fix it.",
+  "dek": "Which Gigabyte lighting app your board uses, where to download it, how to wire RGB and ARGB safely, and what to do when RGB Fusion does not see your lights.",
+  "quickAnswer": "Gigabyte's RGB software is RGB Fusion. Older Aorus and Gaming boards use the standalone RGB Fusion 2.0 app; newer boards run RGB Fusion as a module inside Gigabyte Control Center (GCC). Download whichever your motherboard's support page on gigabyte.com lists under Utility, install it, restart, and it controls the board's LEDs and any strip on its LED_C (12 V RGB) and D_LED (5 V ARGB) headers. Never plug a 5 V ARGB strip into a 12 V header.",
+  "intro": [
+    "Gigabyte motherboards and Aorus graphics cards control lighting through RGB Fusion, a free Windows utility. It runs the LEDs on the board and anything plugged into the board's RGB and addressable RGB headers, and it can sync with some compatible memory, coolers, fans and Gigabyte graphics cards.",
+    "This guide covers which version your board needs, the install steps, header safety, Gigabyte Control Center, syncing with other software, and the fixes for RGB Fusion not detecting devices. Menu names change between versions, so where they vary we describe what to look for rather than an exact label."
+  ],
+  "stepsHeading": "How to Install Gigabyte RGB Fusion, Step by Step",
+  "steps": [
+    {
+      "h": "Find your exact motherboard model and revision",
+      "body": [
+        "The model name is printed on the board, and the revision, such as rev. 1.0 or rev. 1.1, is printed nearby. In Windows, open System Information (msinfo32) and read the BaseBoard Product line. Gigabyte lists utilities per model and revision, so get both right before downloading."
+      ]
+    },
+    {
+      "h": "Open the board's support page",
+      "body": [
+        "On gigabyte.com, search for the model, select the revision, and open Support. Choose your Windows version and look in the Utility list. Older boards list RGB Fusion 2.0 as its own download; newer boards list Gigabyte Control Center, which includes RGB Fusion. Download from Gigabyte's site rather than a mirror."
+      ]
+    },
+    {
+      "h": "Remove other RGB tools first",
+      "body": [
+        "If you have an older RGB Fusion, App Center, or another brand's lighting program installed, uninstall it and restart. Two lighting tools fighting over the same controller is the most common cause of flicker, missing devices and settings that will not stick."
+      ]
+    },
+    {
+      "h": "Install and restart",
+      "body": [
+        "Run the installer as administrator. If you are installing Gigabyte Control Center, let it finish, then open it and add the RGB Fusion module if it is not already listed; GCC installs some features as separate modules. Restart Windows so the lighting service starts cleanly."
+      ]
+    },
+    {
+      "h": "Set your effects and sync",
+      "body": [
+        "Open RGB Fusion. You should see the board's lighting zones and each header listed. Pick an effect and color per zone, or use the sync or all-zones option to apply one effect to everything. On most boards the chosen effect is saved to the board, so it stays in place without the app running."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Is Gigabyte's RGB Software Called?",
+      "body": [
+        "Gigabyte's lighting software is called RGB Fusion. Boards from roughly the 300-series and 400-series chipset era onward used RGB Fusion 2.0, a standalone app often installed through Gigabyte's older App Center. Newer boards, including AM5 and recent Intel boards, run RGB Fusion inside Gigabyte Control Center, Gigabyte's all-in-one utility.",
+        "Gigabyte Control Center, often shortened to GCC, also handles driver and BIOS update checks, fan control and other board features. Aorus graphics cards have used Gigabyte's own GPU tools for lighting and tuning, and recent ones can be controlled through GCC as well. The right name for your board is whatever its support page lists."
+      ]
+    },
+    {
+      "h": "Where Do You Download Gigabyte RGB Software?",
+      "body": [
+        "From your motherboard's support page on gigabyte.com. Search for the model, pick the revision, open Support, choose your Windows version and look under Utility for RGB Fusion 2.0 or Gigabyte Control Center. Both are free.",
+        "Many recent Gigabyte boards also have a BIOS option that offers to download Gigabyte's utilities automatically on the first Windows boot. It is convenient on a fresh install; turn it off in the BIOS if you would rather choose what to install. The same support page lists the BIOS, chipset and LAN drivers. For BIOS updates, see [how to update Gigabyte BIOS](/how-to-update-gigabyte-bios/)."
+      ]
+    },
+    {
+      "h": "Which RGB Header Should You Use: LED_C or D_LED?",
+      "body": [
+        "Match the strip to the header, every time. Gigabyte labels its 12 V RGB headers LED_C (four pins: 12 V, G, R, B), for non-addressable strips that show one color at a time. Its 5 V addressable headers are labelled D_LED (three pins, with one position missing in the 4-pin row), for strips where each LED can be a different color.",
+        "Plugging a 5 V ARGB strip into a 12 V LED_C header can burn out its LEDs instantly. Check the strip's connector and the label next to the header.",
+        "Each header has a current limit that the board manual lists. A few fans or a strip or two are fine; daisy-chaining many ARGB fans can exceed it, so use a powered ARGB hub instead."
+      ]
+    },
+    {
+      "h": "What Is Gigabyte Control Center, and Do You Need All of It?",
+      "body": [
+        "Gigabyte Control Center is the utility Gigabyte now ships for its boards, laptops and some graphics cards. RGB Fusion is one of its modules; others cover fan control, updates and performance tuning. Some owners find it heavy and slow to start, and it runs background services.",
+        "You do not need every module. Install GCC, add only the RGB Fusion module (and any others you will use), set your lighting, and leave it. If you only need lighting set once, many boards keep the effect after you uninstall GCC, though some effects that need software running, such as temperature or music-reactive modes, will stop."
+      ]
+    },
+    {
+      "h": "How Do You Sync Gigabyte RGB With Other Brands?",
+      "body": [
+        "RGB Fusion syncs anything on the board's LED_C and D_LED headers, regardless of brand, as long as the connector type matches. It also directly supports some partner devices, such as certain memory and coolers; support lists change, so check Gigabyte's compatibility notes for your board.",
+        "For a system that mixes brands, such as Corsair memory, an NZXT cooler and an ASUS graphics card, a third-party tool can control everything from one place. SignalRGB and OpenRGB both support many Gigabyte boards. Run only one lighting program at a time.",
+        "Switching boards? Our guides to [ASRock Polychrome](/asrock-polychrome-rgb-software/), [ASUS Aura Sync](/asus-aura-sync-rgb-software/) and [MSI Mystic Light](/msi-mystic-light-rgb-software/) cover the same steps on those brands."
+      ]
+    },
+    {
+      "h": "Why Is RGB Fusion Not Detecting My RGB?",
+      "body": [
+        "The usual causes, in order: another RGB program is controlling the same controller; the device is on the wrong header type; the app version is wrong for the board; or the lighting controller needs a BIOS update. Close or uninstall other RGB apps, check the header label against the connector, and reinstall the version from your board's own support page.",
+        "If the board's LEDs work but a strip does not, check the cable direction (the arrow or 5 V mark on the plug should line up with the header's 5 V pin) and try the other D_LED header. If nothing appears at all, check that board lighting is not turned off in the BIOS, then update the BIOS, which often includes lighting fixes.",
+        "Fans connected to a case hub need the hub's ARGB cable plugged into a D_LED header before RGB Fusion can see them, and many hubs also need their SATA power cable connected. If GCC shows no RGB Fusion page at all, the module may not be installed; add it from GCC's module or update list."
+      ]
+    },
+    {
+      "h": "Can You Turn Off Gigabyte RGB Without Software?",
+      "body": [
+        "Yes, on most Gigabyte boards. The BIOS has lighting options, usually under the Settings or Peripherals area, to turn board LEDs off or choose whether they stay on in sleep and soft-off states. The setting is stored on the board, so it works without any app installed.",
+        "Install RGB Fusion only if you want custom colors, sync across fans and strips, or reactive effects. Uninstall it if you move to SignalRGB or OpenRGB."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Plugging ARGB into a 12 V LED_C header", "A 5 V addressable strip on a 12 V header can burn out its LEDs. Match three-pin ARGB connectors to D_LED headers and four-pin RGB connectors to LED_C headers."],
+    ["Running two RGB programs at once", "RGB Fusion, iCUE, SignalRGB and other tools can fight over the same controller and cause flicker or lost devices. Keep one in charge and uninstall the rest."],
+    ["Installing the wrong app for the board", "Older boards expect RGB Fusion 2.0; newer boards expect Gigabyte Control Center. Use the one your board's support page lists for your revision and Windows version."],
+    ["Downloading RGB Fusion from a mirror site", "Copies on third-party download sites may be outdated or bundled with other software. Download RGB Fusion or Gigabyte Control Center from your board's own page on gigabyte.com."],
+    ["Overloading one header", "Many fans on one D_LED header can exceed its current rating. Use a powered ARGB hub for more than a few fans or long strips."]
+  ],
+  "bottomLine": "Gigabyte's RGB software is RGB Fusion: the standalone RGB Fusion 2.0 on older boards, and a module inside Gigabyte Control Center on newer ones. Download whichever your board's support page on gigabyte.com lists, uninstall other lighting tools, install, restart and set effects per zone or synced. Match 5 V ARGB strips to D_LED headers and 12 V RGB strips to LED_C headers. If RGB Fusion does not see a device, check other RGB apps, the header type, the hub cabling and the BIOS version.",
+  "faqs": [
+    {"q": "What is Gigabyte RGB software called?", "a": "RGB Fusion. Older boards use the standalone RGB Fusion 2.0 app; newer boards include RGB Fusion as a module in Gigabyte Control Center (GCC). Use whichever your board's support page lists."},
+    {"q": "Where can I download Gigabyte RGB Fusion?", "a": "From gigabyte.com: search for your motherboard, select its revision, open Support, choose your Windows version and look under Utility for RGB Fusion 2.0 or Gigabyte Control Center. Both are free."},
+    {"q": "Is RGB Fusion part of Gigabyte Control Center?", "a": "On newer boards, yes. GCC installs features as modules, and RGB Fusion is the lighting module. If it is missing, add it from GCC's module or update list."},
+    {"q": "Why is RGB Fusion not detecting my fans?", "a": "Usually another RGB app is running, the fans are on the wrong header type, the hub is not connected to a D_LED header or powered, or the app version does not match the board. Fix those first, then update the BIOS."},
+    {"q": "What is the difference between LED_C and D_LED on Gigabyte boards?", "a": "LED_C is a 12 V, four-pin RGB header for strips that show one color at a time. D_LED is a 5 V, three-pin addressable header for strips where each LED is controlled separately. They are not interchangeable."},
+    {"q": "Can I sync Corsair or NZXT RGB with Gigabyte?", "a": "Devices on the board's headers sync through RGB Fusion. Devices on their own controllers usually need their own software, or a tool like SignalRGB or OpenRGB that controls several brands at once."},
+    {"q": "Can I turn off Gigabyte RGB without software?", "a": "On most boards, yes. The BIOS has lighting options to turn board LEDs off, including in sleep and soft-off states, and the setting stays without any app."},
+    {"q": "Is Gigabyte Control Center safe?", "a": "Yes, when downloaded from Gigabyte's own site. Keep it updated, install only the modules you use, and avoid third-party mirrors."}
+  ],
+  "sources": [
+    "Gigabyte motherboard support and download pages (Utility: RGB Fusion 2.0, Gigabyte Control Center)",
+    "Gigabyte motherboard user manuals: LED_C and D_LED header specifications and BIOS lighting settings",
+    "Gigabyte Control Center product page",
+    "SignalRGB and OpenRGB supported device lists"
+  ],
+  "products": ["gigabyte-b650-aorus-elite-ax", "gigabyte-x570s-aorus-elite-ax"],
+  "related": ["asrock-polychrome-rgb-software", "asus-aura-sync-rgb-software", "msi-mystic-light-rgb-software", "how-to-update-gigabyte-bios"]
+}

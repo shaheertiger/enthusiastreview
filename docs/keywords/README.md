@@ -2,7 +2,7 @@
 
 Raw Semrush exports for picking new pages. Nothing in the build reads these files.
 
-All files: Semrush broad match, US database, exported 24 Nov 2026. Columns: Keyword, Intent, Volume, Keyword
+Broad-match files: Semrush broad match, US database, exported 24 Nov 2026. Columns: Keyword, Intent, Volume, Keyword
 Difficulty, CPC (USD), SERP Features.
 
 | File | Seed | Rows |
@@ -11,6 +11,14 @@ Difficulty, CPC (USD), SERP Features.
 | `semrush-best-gpu-broad-match-us-2026-11-24.csv` | best gpu | 919 |
 | `semrush-best-cpu-broad-match-us-2026-11-24.csv` | best cpu | 1,335 |
 | `semrush-best-graphics-card-broad-match-us-2026-11-24.csv` | best graphics card | 1,219 |
+
+A competitor export with different columns (Semrush Organic Research, US database, exported 23 Nov 2026):
+
+| File | What it is | Rows |
+|---|---|---|
+| `semrush-newegg-organic-positions-us-2026-11-23.csv` | newegg.com's ranking keywords, mostly "best X" commercial queries. Columns: Keyword, Position, Previous position, Search Volume, Keyword Difficulty, CPC, URL, Traffic, Traffic (%), Traffic Cost, Competition, Number of Results, Trends, Timestamp, SERP Features by Keyword, Keyword Intents, Position Type | 17,321 |
+
+Use it to find "best X" queries a big retailer ranks for that we have no page for. It has no Intent or Volume column: filter on `Search Volume` and `Keyword Difficulty` instead, and read `Position` / `URL` as Newegg's ranking, not ours.
 
 How to use them: combine with the daily Bing Webmaster report (`scripts/search-report.mjs`), which shows what
 Bing already ranks. Filter for KD under 30, check that no page in `src/data/guides/` or pair in `compares.json`

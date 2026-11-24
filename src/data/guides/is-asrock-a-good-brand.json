@@ -33,7 +33,7 @@
       "h": "What Happened With ASRock Boards and the Ryzen 7 9800X3D?",
       "body": [
         "In 2025 a cluster of owners reported Ryzen 7 9800X3D processors that died or stopped booting in ASRock AM5 boards, at a noticeably higher rate in public reports than on other brands. ASRock responded with BIOS updates that changed memory and power-related settings, and both ASRock and AMD said they were investigating.",
-        "What we can say with confidence: if you own an ASRock AM5 board, install the newest BIOS before pairing it with an X3D chip, and keep it updated. Our [ASRock BIOS update guide](/how-to-update-asrock-bios/) covers how. The reports do not show ASRock boards as unsafe in general, but they are a reason to stay current on firmware rather than leave the shipped BIOS in place."
+        "What we can say with confidence: if you own an ASRock AM5 board, install the newest BIOS before pairing it with an X3D chip, and keep it updated. Our [ASRock BIOS update guide](/how-to-update-asrock-bios/) covers how, and [how to enter the ASRock BIOS](/how-to-enter-asrock-bios/) covers getting into the setup. The reports do not show ASRock boards as unsafe in general, but they are a reason to stay current on firmware rather than leave the shipped BIOS in place."
       ]
     },
     {
@@ -137,8 +137,11 @@
     "rx-9060-xt-16gb"
   ],
   "related": [
+    "how-to-enter-asrock-bios",
+    "how-to-update-asrock-bios",
+    "asrock-secure-boot",
+    "asrock-polychrome-rgb-software",
     "best-am5-motherboard",
-    "best-amd-graphics-card",
     "msi-review"
   ]
 }

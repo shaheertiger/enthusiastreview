@@ -74,7 +74,7 @@
       "body": [
         "Polychrome syncs anything connected to the board's headers, regardless of brand, as long as the connector type matches. It also directly supports some partner devices, such as certain memory and coolers, but support lists change; check the compatibility notes on ASRock's site.",
         "For a full system that mixes brands, such as Corsair memory, an NZXT cooler and a Gigabyte GPU, a third-party tool can control everything from one place. SignalRGB and OpenRGB both support many ASRock boards. Run only one lighting program at a time; close or uninstall Polychrome if another tool takes over the controller.",
-        "Switching boards? Our guides to [ASUS Aura Sync](/asus-aura-sync-rgb-software/) and [MSI Mystic Light](/msi-mystic-light-rgb-software/) cover the same steps on those brands."
+        "Switching boards? Our guides to [ASUS Aura Sync](/asus-aura-sync-rgb-software/), [MSI Mystic Light](/msi-mystic-light-rgb-software/) and [Gigabyte RGB Fusion](/gigabyte-rgb-fusion-software/) cover the same steps on those brands."
       ]
     },
     {
@@ -95,7 +95,7 @@
     {
       "h": "Do You Need ASRock RGB Software at All?",
       "body": [
-        "No. If you are happy with the default rainbow or want lighting off, you do not need Polychrome. Many ASRock boards let you set a basic effect or turn LEDs off in the BIOS, and the setting stays in place without any app.",
+        "No. If you are happy with the default rainbow or want lighting off, you do not need Polychrome. Many ASRock boards let you set a basic effect or turn LEDs off in the BIOS, and the setting stays in place without any app. See [how to enter the ASRock BIOS](/how-to-enter-asrock-bios/) for the keys.",
         "Install it if you want custom colors, sync across fans and strips, or effects that react to temperature or music. Uninstall it if you switch to SignalRGB or OpenRGB."
       ]
     }
@@ -168,8 +168,9 @@
   "related": [
     "asus-aura-sync-rgb-software",
     "msi-mystic-light-rgb-software",
-    "best-am5-motherboard",
-    "best-graphics-card-brands",
-    "how-to-check-what-graphics-card-i-have"
+    "gigabyte-rgb-fusion-software",
+    "how-to-enter-asrock-bios",
+    "is-asrock-a-good-brand",
+    "best-am5-motherboard"
   ]
 }
