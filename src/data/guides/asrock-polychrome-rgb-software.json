@@ -73,7 +73,8 @@
       "h": "How Do You Sync ASRock RGB With Other Brands?",
       "body": [
         "Polychrome syncs anything connected to the board's headers, regardless of brand, as long as the connector type matches. It also directly supports some partner devices, such as certain memory and coolers, but support lists change; check the compatibility notes on ASRock's site.",
-        "For a full system that mixes brands, such as Corsair memory, an NZXT cooler and a Gigabyte GPU, a third-party tool can control everything from one place. SignalRGB and OpenRGB both support many ASRock boards. Run only one lighting program at a time; close or uninstall Polychrome if another tool takes over the controller."
+        "For a full system that mixes brands, such as Corsair memory, an NZXT cooler and a Gigabyte GPU, a third-party tool can control everything from one place. SignalRGB and OpenRGB both support many ASRock boards. Run only one lighting program at a time; close or uninstall Polychrome if another tool takes over the controller.",
+        "Switching boards? Our guides to [ASUS Aura Sync](/asus-aura-sync-rgb-software/) and [MSI Mystic Light](/msi-mystic-light-rgb-software/) cover the same steps on those brands."
       ]
     },
     {
@@ -165,6 +166,8 @@
     "asrock-b850-steel-legend-wifi"
   ],
   "related": [
+    "asus-aura-sync-rgb-software",
+    "msi-mystic-light-rgb-software",
     "best-am5-motherboard",
     "best-graphics-card-brands",
     "how-to-check-what-graphics-card-i-have"

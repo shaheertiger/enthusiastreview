@@ -1,0 +1,137 @@
+{
+  "slug": "asus-aura-sync-rgb-software",
+  "type": "article",
+  "kind": "howto",
+  "category": "motherboards",
+  "title": "ASUS RGB Software: Aura Sync and Armoury Crate Setup and Fixes",
+  "h1": "ASUS RGB Software",
+  "query": "asus rgb software",
+  "description": "ASUS RGB software is Aura Sync in Armoury Crate, set up in 5 steps from your board's support page. How to install it, sync lights, use ARGB safely and fix it.",
+  "dek": "Where to get ASUS Aura Sync, how to install only what you need in Armoury Crate, how to sync other brands, and what to do when it does not see your RGB.",
+  "quickAnswer": "ASUS RGB software is Aura Sync, which on current boards lives inside the Armoury Crate app. Download Armoury Crate from your motherboard's support page on asus.com, or accept the BIOS prompt to install it, then open its Aura Sync section to set effects for the board and anything on its RGB headers. Match 12 V RGB strips to Aura RGB headers and 5 V ARGB strips to addressable headers, never the other way round.",
+  "intro": [
+    "ASUS motherboards control lighting through Aura Sync, a free Windows feature that runs the LEDs on the board and anything plugged into its RGB and addressable RGB headers. It can also sync compatible ASUS graphics cards and partner devices marked Aura Sync compatible.",
+    "This guide covers where Aura Sync lives today, the install steps, header safety, syncing with other brands, the BIOS lighting options, removing Armoury Crate cleanly, and the fixes for Aura not detecting devices. Menu names change between Armoury Crate versions, so where they vary we describe what to look for rather than an exact label."
+  ],
+  "stepsHeading": "How to Install ASUS Aura Sync, Step by Step",
+  "steps": [
+    {
+      "h": "Find your exact motherboard model",
+      "body": [
+        "The model name is printed on the board and shown on the BIOS main screen. In Windows, open System Information and read the BaseBoard Product line. ASUS lists software per board, so get the full name right, including suffixes like WIFI, II or -PLUS."
+      ]
+    },
+    {
+      "h": "Get Armoury Crate from ASUS",
+      "body": [
+        "On asus.com, search for the model, open its support page and go to the driver and utility downloads. Choose your Windows version and look for Armoury Crate in the software list. Many recent ASUS boards also offer to install it on the first Windows boot through a BIOS option; that downloads the same app from ASUS. Avoid mirror sites."
+      ]
+    },
+    {
+      "h": "Remove other RGB tools first",
+      "body": [
+        "Uninstall any other lighting program that controls the same devices, such as an old standalone Aura app, SignalRGB or OpenRGB, then restart. Two tools fighting over one controller is the most common cause of flicker and missing devices."
+      ]
+    },
+    {
+      "h": "Install Armoury Crate and its lighting components",
+      "body": [
+        "Run the installer, let it download its components, and restart when it asks. After the restart, open Armoury Crate. If it offers to install device-specific components or a lighting service, accept them; Aura Sync needs them to talk to the board's controller."
+      ]
+    },
+    {
+      "h": "Set your effects and sync",
+      "body": [
+        "Open the Aura Sync section. You should see the board and its headers as separate devices. Pick an effect for each, or keep sync turned on so one effect runs across everything. For layered or timed effects, Armoury Crate also includes Aura Creator. Basic effects are usually stored on the board, so they persist without the app running."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Is ASUS RGB Software Called?",
+      "body": [
+        "ASUS's lighting software is Aura Sync. On boards from the last several years it is part of Armoury Crate, ASUS's all-in-one app for lighting, driver and update checks, and device settings. Older boards used a standalone app simply called Aura, and some very old boards shipped lighting control inside AI Suite.",
+        "Aura Creator is a separate, more advanced editor inside Armoury Crate for building layered and timeline-based effects. Most people only need the main Aura Sync page. The right version is whatever your board's support page lists; if it lists Armoury Crate, use that rather than an old standalone Aura installer."
+      ]
+    },
+    {
+      "h": "Where Do You Download ASUS Aura Sync?",
+      "body": [
+        "From your motherboard's support page on asus.com, in the driver and utility section, choosing your Windows version. On many current boards, Armoury Crate appears under software and utilities. ASUS also publishes Armoury Crate on its dedicated Armoury Crate page.",
+        "On boards with the BIOS install option, the first Windows boot shows a prompt to download Armoury Crate. If you do not want it, turn the option off in the BIOS Tool menu before installing Windows; our [how to update ASUS BIOS](/how-to-update-asus-bios/) guide covers that menu. Either way the app is free."
+      ]
+    },
+    {
+      "h": "Which ASUS Header Should You Use: Aura RGB or Addressable?",
+      "body": [
+        "Match the strip to the header, every time. An Aura RGB header is a 12 V, four-pin header that drives non-addressable strips showing one color at a time. An addressable header, labeled ADD_GEN2 or similar on recent ASUS boards, is a 5 V three-pin header for strips where each LED can be a different color.",
+        "Plugging a 5 V addressable strip into a 12 V header can burn out its LEDs instantly. Check the connector and the label printed next to the header on the board. If a device offers both connector types, use the three-pin addressable one for full effects.",
+        "Each header has a current limit, often around 3 A, which covers a few fans or a strip or two. Many fans daisy-chained on one header can exceed it; use a powered ARGB hub instead. Your board manual lists the exact rating and LED count for each header."
+      ]
+    },
+    {
+      "h": "How Do You Sync ASUS Aura With Other Brands?",
+      "body": [
+        "Aura Sync controls anything plugged into the board's headers, regardless of brand, as long as the connector type matches. It also directly supports ASUS graphics cards with lighting and a list of partner products sold as Aura Sync compatible, such as certain memory kits, coolers and cases. That list changes, so check the product's own page.",
+        "Devices with their own controller and software, such as many Corsair, NZXT or Lian Li products, usually stay in their own app. For a mixed-brand build, SignalRGB or OpenRGB can control many ASUS boards and other brands from one place. Run one lighting program at a time; if a third-party tool takes over, close Armoury Crate's lighting or remove it.",
+        "The same rule applies on other brands' boards. Our guides to [ASRock Polychrome](/asrock-polychrome-rgb-software/) and [MSI Mystic Light](/msi-mystic-light-rgb-software/) cover their headers and apps."
+      ]
+    },
+    {
+      "h": "Why Is Aura Sync Not Detecting My RGB?",
+      "body": [
+        "The usual causes, in order: another RGB program is controlling the same controller; the device is on the wrong header type; Armoury Crate is missing a component or its lighting service is not running; or the board needs a BIOS update. Close other RGB apps, check each connector against the header label, and in Armoury Crate check for updates to its own components.",
+        "If the board LEDs work but a strip does not, check the cable direction, with the arrow or 5 V marking lined up with the header's 5 V pin, and try the strip on the other addressable header. If nothing lights at all, check that the board's LED options in the BIOS are not turned off, then update the BIOS.",
+        "Fans and strips connected to a case hub need the hub's addressable cable plugged into a board ARGB header, and many hubs also need SATA power, before Aura Sync can see them. If Armoury Crate itself is broken, a clean reinstall, below, fixes most cases."
+      ]
+    },
+    {
+      "h": "How Do You Uninstall Armoury Crate Completely?",
+      "body": [
+        "Use the Armoury Crate Uninstall Tool, a free download from ASUS's support site. Uninstalling from Windows Settings alone can leave services and components behind, which can block a clean reinstall or interfere with another RGB program.",
+        "Run the tool, restart, and if you plan to reinstall, download a fresh copy from your board's support page. If you are switching to SignalRGB or OpenRGB, also turn off the Armoury Crate download option in the BIOS so it is not offered again after a Windows reinstall."
+      ]
+    },
+    {
+      "h": "How Do You Turn Off ASUS RGB Without Software?",
+      "body": [
+        "In the BIOS. Most recent ASUS boards have onboard LED or RGB lighting options in the Advanced settings, often under onboard devices, which control whether the lights stay on while the PC runs, sleeps or is shut down. Turning them off there works with no app installed.",
+        "Strips and fans on the headers may keep their last effect or default to rainbow when no software sets them. If you want everything dark, set it once in Aura Sync, then uninstall the app; many boards keep the setting."
+      ]
+    },
+    {
+      "h": "Do You Need ASUS RGB Software at All?",
+      "body": [
+        "No. If you are happy with the default effect or want the lights off, set it in the BIOS and skip Armoury Crate. Owner reports often describe Armoury Crate as heavy, with background services you may not want.",
+        "Install it if you want custom colors, synced effects across fans, strips, memory and an ASUS graphics card, or effects that react to temperature or music. Once your effect is saved, you can keep it installed for updates or remove it with the uninstall tool."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Plugging ARGB into a 12 V Aura RGB header", "A 5 V addressable strip on a 12 V header can burn out its LEDs. Match three-pin addressable connectors to ADD_GEN2-style headers and four-pin RGB connectors to Aura RGB headers."],
+    ["Running two RGB programs at once", "Armoury Crate, iCUE, SignalRGB and other tools can fight over the same controller and cause flicker or missing devices. Keep one in charge."],
+    ["Installing an old standalone Aura app on a new board", "Older Aura installers may not detect current controllers. Use the version your board's support page lists, which on recent boards is Armoury Crate."],
+    ["Removing Armoury Crate from Settings only", "Leftover services can break a reinstall or a third-party tool. Use ASUS's Armoury Crate Uninstall Tool and restart."],
+    ["Overloading one header", "Many fans on one addressable header can exceed its current rating. Use a powered hub for more than a few fans or long strips."]
+  ],
+  "bottomLine": "ASUS RGB software is Aura Sync, which on current boards lives inside Armoury Crate, free from your board's support page or the BIOS install prompt. Remove other lighting tools, install Armoury Crate, restart, and set effects per device or synced. Match 5 V addressable strips to addressable headers and 12 V RGB to Aura RGB headers. If Aura does not see a device, check other RGB apps, the header type, Armoury Crate's components and the BIOS, or use the uninstall tool for a clean reinstall.",
+  "faqs": [
+    {"q": "What is ASUS RGB software called?", "a": "Aura Sync. On recent ASUS boards it is part of Armoury Crate, with Aura Creator for advanced effects. Older boards used a standalone Aura app or AI Suite."},
+    {"q": "Where can I download ASUS Aura Sync?", "a": "From your motherboard's support page on asus.com, under drivers and utilities for your Windows version, where it appears as Armoury Crate on current boards. Many boards also offer it through a BIOS prompt on first boot. It is free."},
+    {"q": "Can I use Aura Sync without Armoury Crate?", "a": "On current boards, generally no; Aura Sync is delivered inside Armoury Crate. You can set basic lighting or turn it off in the BIOS instead, or use SignalRGB or OpenRGB, which support many ASUS boards."},
+    {"q": "Why is Aura Sync not detecting my RGB fans?", "a": "Usually another RGB app is running, the fans are on the wrong header type, the hub is not connected to an addressable header or powered, or an Armoury Crate component is missing. Fix those, then update the BIOS."},
+    {"q": "How do I completely remove Armoury Crate?", "a": "Download the Armoury Crate Uninstall Tool from ASUS's support site, run it and restart. Then turn off the BIOS option that offers to install Armoury Crate if you do not want it back."},
+    {"q": "Can I turn off ASUS motherboard RGB without software?", "a": "Yes, on most recent boards. The BIOS Advanced settings include onboard LED options for when the PC is on, asleep or off. Check your board manual for the exact location."},
+    {"q": "Does Aura Sync work with non-ASUS fans and strips?", "a": "Yes, when they connect to the board's headers and the connector type matches. Devices with their own controller usually need their own software or a multi-brand tool."},
+    {"q": "What is the difference between Aura RGB and ADD_GEN2 headers?", "a": "An Aura RGB header is 12 V with four pins and shows one color at a time. An ADD_GEN2 addressable header is 5 V with three pins and controls each LED separately. They are not interchangeable."}
+  ],
+  "sources": [
+    "ASUS motherboard support and download pages (Armoury Crate, Aura Sync)",
+    "ASUS Armoury Crate and Aura Sync product pages and FAQ articles",
+    "ASUS Armoury Crate Uninstall Tool support article",
+    "ASUS motherboard user manuals: Aura RGB and addressable header specifications and BIOS LED settings",
+    "SignalRGB and OpenRGB supported device lists"
+  ],
+  "products": ["asus-tuf-gaming-b650-plus-wifi", "asus-rog-strix-x570-e-gaming", "asus-tuf-gaming-x570-plus-wifi"],
+  "related": ["asrock-polychrome-rgb-software", "msi-mystic-light-rgb-software", "how-to-update-asus-bios"]
+}

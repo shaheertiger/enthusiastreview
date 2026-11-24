@@ -1,0 +1,195 @@
+{
+  "slug": "laptop-cpu-equivalents",
+  "type": "article",
+  "kind": "explainer",
+  "category": "processors",
+  "title": "Laptop CPU Equivalents: Intel vs AMD vs Apple Chart by Tier",
+  "h1": "Laptop CPU Equivalents",
+  "query": "laptop cpu equivalents",
+  "description": "The Core Ultra 9 275HX roughly equals a Ryzen 9 9955HX and M4 Max in multi-thread work. Intel, AMD and Apple laptop CPUs matched across 3 power classes.",
+  "dek": "Find the closest AMD and Apple match for any Intel laptop chip, and the other way round, with the power and naming catches that change the answer.",
+  "quickAnswer": "In multi-thread work, the Core Ultra 9 275HX roughly equals a Ryzen 9 9955HX and an Apple M4 Max; the Core i9-14900HX a Ryzen 9 7945HX and an M4 Pro. Among thin-and-light chips, the Core Ultra 9 285H sits near a Ryzen AI 9 HX 370 and an M4, the Core i7-1355U near a Ryzen 7 7730U and an M2, and the Core i5-1235U near a Ryzen 5 7530U and an M1.",
+  "intro": [
+    "This chart matches laptop processors from Intel, AMD and Apple by tier, from desktop-replacement HX chips to thin-and-light U-series and Apple's M-series. Each row gives the closest chip from the other two makers in multi-thread work such as exports, compiling and rendering, with notes where single-thread speed or gaming changes the answer.",
+    "Equivalents follow the broad pattern of published independent reviews, rounded to the nearest chip. We have not bench-tested these processors. Laptop results also depend on how much power the maker lets the chip use, so the same CPU can land a tier higher or lower in a different chassis."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart, and Why Laptops Vary So Much",
+      "body": [
+        "Each row lists chips with roughly the same multi-thread performance in typical laptop designs. Roughly means within about 10 to 15 percent, a wider band than our desktop charts, because laptop makers set different power limits and cooling for the same chip.",
+        "Power is the biggest variable. An HX chip in a thick gaming laptop with strong cooling can run far faster than the same chip in a slim design. Thin-and-light chips are built for much lower power and longer battery life. Apple controls both the chip and the laptop, so its results vary less between models, although a fanless MacBook Air slows down under long loads where a MacBook Pro with a fan does not.",
+        "Single-thread speed is a separate question. Apple's recent M-series chips lead most Windows laptop chips in single-thread benchmarks, which helps everyday responsiveness and many creative apps. Where that changes the match, the row says so."
+      ]
+    },
+    {
+      "h": "Flagship and Gaming Laptop CPU Equivalents (HX Class)",
+      "body": [
+        "These are the fastest laptop chips, found in gaming laptops and mobile workstations. Intel's HX and AMD's HX parts use desktop-class silicon at lower power; Apple's Max and Pro chips compete in multi-thread work at much lower power, but run macOS."
+      ],
+      "table": {
+        "caption": "HX-class laptop CPUs: Intel to AMD and Apple, multi-thread",
+        "head": ["Intel", "Cores / threads", "Closest AMD", "Closest Apple"],
+        "rows": [
+          ["Core Ultra 9 275HX", "24 / 24", "Ryzen 9 9955HX (roughly)", "M4 Max 16-core (roughly)"],
+          ["Core i9-14900HX", "24 / 32", "Ryzen 9 7945HX (roughly)", "M4 Pro 14-core or M3 Max (roughly)"],
+          ["Core i7-14700HX", "20 / 28", "Between Ryzen 7 8845HS and Ryzen 9 7945HX", "M4 Pro 12-core (roughly)"],
+          ["Core i7-12700H", "14 / 20", "Ryzen 7 6800H (Intel a little faster)", "M1 Pro to M2 Pro"],
+          ["Core i7-11800H", "8 / 16", "Ryzen 7 5800H (roughly)", "M1 Pro (roughly)"],
+          ["Core i7-10750H", "6 / 12", "Ryzen 5 4600H (roughly)", "M1 (Apple faster single-thread)"]
+        ]
+      }
+    },
+    {
+      "h": "Performance Thin-and-Light Laptop CPU Equivalents (H Class)",
+      "body": [
+        "These chips power most premium Windows laptops, creator laptops and lighter gaming machines. They balance strong multi-thread performance with integrated graphics good enough for light gaming."
+      ],
+      "table": {
+        "caption": "H-class laptop CPUs: Intel to AMD and Apple, multi-thread",
+        "head": ["Intel", "Cores / threads", "Closest AMD", "Closest Apple"],
+        "rows": [
+          ["Core Ultra 9 285H", "16 / 16", "Ryzen AI 9 HX 370 (roughly)", "M4 10-core or M3 Pro (roughly)"],
+          ["Core Ultra 9 185H", "16 / 22", "Ryzen AI 9 365 (roughly)", "M3 Pro (roughly)"],
+          ["Core Ultra 7 155H", "16 / 22", "Ryzen 7 8845HS (roughly)", "Between M3 and M4"],
+          ["Core i7-13700H", "14 / 20", "Ryzen 7 7840HS (roughly)", "Between M3 and M4"],
+          ["Core Ultra 5 125H", "14 / 18", "Ryzen 7 8840U (roughly)", "M3 (roughly)"],
+          ["Core i5-12500H", "12 / 16", "Ryzen 5 6600H (Intel a little faster)", "M2 (Apple faster single-thread)"]
+        ]
+      }
+    },
+    {
+      "h": "Thin-and-Light and Budget Laptop CPU Equivalents (U and V Class)",
+      "body": [
+        "Most everyday and budget laptops use these lower-power chips. They are built for battery life and quiet running, and they slow down more under long, heavy loads than H and HX chips."
+      ],
+      "table": {
+        "caption": "U and V-class laptop CPUs: Intel to AMD and Apple, multi-thread",
+        "head": ["Intel", "Cores / threads", "Closest AMD", "Closest Apple"],
+        "rows": [
+          ["Core Ultra 7 258V", "8 / 8", "Ryzen AI 7 350 (AMD faster in multi-thread)", "M3 (roughly)"],
+          ["Core Ultra 5 226V", "8 / 8", "Ryzen AI 5 340 (AMD a little faster)", "M2 to M3"],
+          ["Core i7-1355U", "10 / 12", "Ryzen 7 7730U (roughly)", "M2 (Apple faster single-thread)"],
+          ["Core i5-1335U", "10 / 12", "Ryzen 5 7530U to Ryzen 7 7730U", "M1 to M2"],
+          ["Core i5-1235U", "10 / 12", "Ryzen 5 7530U (roughly)", "M1 (roughly)"],
+          ["Core i3-1215U", "6 / 8", "Ryzen 3 7330U (roughly)", "Below M1"],
+          ["Core i7-1165G7", "4 / 8", "Ryzen 5 5500U (AMD faster in multi-thread)", "Below M1"],
+          ["Core i5-1135G7", "4 / 8", "Ryzen 5 4500U (roughly)", "Below M1"]
+        ]
+      }
+    },
+    {
+      "h": "Apple M-Series to Intel and AMD: Which Windows Chip Matches Your Mac?",
+      "body": [
+        "Read this table from the Apple side. The match is for multi-thread work; in single-thread tasks each Apple chip is faster than the Intel and AMD chips beside it, and in gaming the comparison depends far more on the graphics and the game's macOS support than on the CPU."
+      ],
+      "table": {
+        "caption": "Apple M-series CPU to Intel and AMD laptop equivalents",
+        "head": ["Apple chip", "CPU cores", "Closest Intel", "Closest AMD"],
+        "rows": [
+          ["M4 Max", "14 or 16", "Core Ultra 9 275HX (16-core, roughly)", "Ryzen 9 9955HX (16-core, roughly)"],
+          ["M4 Pro", "12 or 14", "Core i9-14900HX (14-core, roughly)", "Ryzen 9 7945HX (14-core, roughly)"],
+          ["M4", "10", "Core Ultra 9 285H", "Ryzen AI 9 HX 370"],
+          ["M3 Max", "14 or 16", "Core i9-14900HX (16-core, roughly)", "Ryzen 9 7945HX (16-core, roughly)"],
+          ["M3 Pro", "11 or 12", "Core Ultra 9 185H", "Ryzen AI 9 365"],
+          ["M3", "8", "Core Ultra 7 258V or Core Ultra 5 125H", "Ryzen 7 7840U"],
+          ["M2", "8", "Core i7-1355U", "Ryzen 7 7730U"],
+          ["M1", "8", "Core i5-1235U", "Ryzen 5 7530U"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Intel Equivalent of a Ryzen 7 8845HS?",
+      "body": [
+        "The Core Ultra 7 155H in multi-thread work, or the older Core i7-13700H. All three are common in premium thin laptops. The 8845HS is an 8-core, 16-thread Zen 4 chip with Radeon 780M graphics, the same silicon as the desktop Ryzen 7 8700G, and its integrated graphics are generally rated level with or a little stronger for games than the 155H's Intel Arc graphics.",
+        "The Ryzen 7 7840HS and 7840U are near-identical chips under an earlier name, so the same match applies, with the U version running at lower power in thinner laptops."
+      ]
+    },
+    {
+      "h": "What Is the AMD Equivalent of a Core Ultra 7 258V?",
+      "body": [
+        "The Ryzen AI 7 350, with a catch. The 258V has 8 cores and 8 threads, built for efficiency, with memory on the chip package. Independent reviews widely report strong battery life for Intel's Core Ultra 200V laptops, while AMD's Ryzen AI 300 chips are faster in multi-thread work thanks to more threads.",
+        "So the answer depends on the job. For long battery life and light work, the 258V is the stronger pick. For exports, compiling and other multi-thread tasks, the Ryzen AI 7 350 or a Ryzen AI 9 HX 370 is faster. On the Apple side, the 258V lines up most closely with an M3."
+      ]
+    },
+    {
+      "h": "Why Can a Ryzen 7000 Laptop Chip Be Older Than It Looks?",
+      "body": [
+        "Because AMD's laptop naming from 2023 onward mixes architectures inside one series. In a name like Ryzen 5 7530U, the first digit is the model year, the second the performance segment, and the third the CPU architecture: a 3 means Zen 3, a 4 means Zen 4, and a 2 means Zen 2. So a Ryzen 5 7520U is a Zen 2 chip, a 7530U is Zen 3, and a 7640U is Zen 4.",
+        "Intel has its own version of this. Core Ultra names use a series number, so a Core Ultra 7 155H is first-generation Core Ultra and a 255H or 258V is second-generation, while some newer Core 5 and Core 7 chips without Ultra reuse older designs. Always check the architecture, not just the number, before using any chart."
+      ],
+      "table": {
+        "caption": "Laptop CPU suffixes and what they mean",
+        "head": ["Suffix", "Maker", "What it means"],
+        "rows": [
+          ["HX", "Intel and AMD", "Highest-power laptop chips, desktop-class silicon, for gaming and workstations"],
+          ["H / HS", "Intel / AMD", "Performance laptop chips; AMD's HS is a lower-power H"],
+          ["P", "Intel (12th and 13th gen)", "Between H and U, for performance thin laptops"],
+          ["U", "Intel and AMD", "Low-power chips for thin and budget laptops"],
+          ["V", "Intel (Core Ultra 200V)", "Low-power chips with memory on the package"]
+        ]
+      }
+    },
+    {
+      "h": "Which Laptop CPUs Are Best for Gaming?",
+      "body": [
+        "In gaming laptops, the graphics chip matters far more than the CPU, as long as the CPU is an H or HX class part. Most RTX laptop GPUs are paired with HX or H chips that keep them busy at the laptop's screen resolution. Our [laptop GPU equivalents](/laptop-gpu-equivalents/) chart matches every RTX laptop GPU to its desktop equivalent.",
+        "At the top end, AMD's X3D laptop chips, such as the Ryzen 9 7945HX3D and 9955HX3D, add the same stacked cache as desktop X3D chips and are widely reviewed as the fastest laptop CPUs for games. For thin laptops without a dedicated GPU, integrated graphics decide gaming performance; see the next section."
+      ]
+    },
+    {
+      "h": "Integrated Graphics: Which Laptop Chip Games Best Without a GPU?",
+      "body": [
+        "The CPU equivalents above do not carry over to integrated graphics. AMD's Radeon 780M, 880M and 890M and Intel's Arc 140V are well ahead of the older Iris Xe and Vega-based Radeon graphics in U-series chips. AMD's Ryzen AI Max+ 395, with Radeon 8060S graphics, is in a class above both.",
+        "Our [integrated graphics equivalents](/integrated-graphics-equivalents/) chart matches each to a desktop card, and the [Apple M-series GPU equivalents](/apple-m-series-gpu-equivalents/) chart does the same for Mac graphics."
+      ],
+      "table": {
+        "caption": "Integrated graphics in common laptop CPUs",
+        "head": ["CPU", "Integrated graphics"],
+        "rows": [
+          ["Ryzen AI Max+ 395", "Radeon 8060S"],
+          ["Ryzen AI 9 HX 370", "Radeon 890M"],
+          ["Ryzen AI 9 365", "Radeon 880M"],
+          ["Ryzen 7 8845HS / 7840HS / 7840U", "Radeon 780M"],
+          ["Ryzen 7 6800H", "Radeon 680M"],
+          ["Core Ultra 7 258V", "Intel Arc 140V"],
+          ["Core Ultra 5 226V", "Intel Arc 130V"],
+          ["Core Ultra 7 155H", "Intel Arc graphics"],
+          ["Core i7-1355U / i5-1235U", "Intel Iris Xe"]
+        ]
+      }
+    },
+    {
+      "h": "How Do Laptop CPUs Compare With Desktop CPUs?",
+      "body": [
+        "Usually below the desktop chip with a similar name, because laptops run at lower power. Many laptop chips share silicon with desktop parts: the Ryzen 7 8845HS with the desktop Ryzen 7 8700G, the Ryzen 9 7945HX with the desktop Ryzen 9 7950X, and the Core i9-14900HX with Intel's desktop Raptor Lake chips. The laptop versions run at lower clocks and power limits.",
+        "For a desktop comparison, use our [Intel vs AMD CPU equivalents](/intel-vs-amd-cpu-equivalents/) chart for desktop chips, and expect a laptop chip to land a tier or so below its desktop namesake in sustained work."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Comparing chips without checking the laptop's power limits", "The same Core i9 or Ryzen 9 can be much slower in a slim laptop than a thick one. Read reviews of the specific laptop, not just the chip."],
+    ["Reading Ryzen 7000 names as Zen 4", "A Ryzen 5 7520U is Zen 2 and a 7530U is Zen 3. Check the third digit before assuming a 7000-series laptop chip is current."],
+    ["Matching Apple chips by gaming", "These equivalents are for CPU work. On a Mac, gaming depends on the graphics and which games support macOS, so a CPU match says little about frame rates."],
+    ["Ignoring single-thread speed", "Apple's M-series chips feel faster in everyday tasks than their multi-thread match suggests. For office work and browsing, single-thread speed and battery life matter more than core count."]
+  ],
+  "bottomLine": "For multi-thread work, the quick matches are: Core Ultra 9 275HX to Ryzen 9 9955HX and M4 Max; Core i9-14900HX to Ryzen 9 7945HX and M4 Pro; Core Ultra 9 285H to Ryzen AI 9 HX 370 and M4; Core Ultra 7 155H to Ryzen 7 8845HS; Core Ultra 7 258V to Ryzen AI 7 350 and M3; Core i7-1355U to Ryzen 7 7730U and M2; and Core i5-1235U to Ryzen 5 7530U and M1. Apple leads in single-thread speed, and a laptop's power limits can move any chip up or down a tier.",
+  "faqs": [
+    {"q": "What is the Intel equivalent of the Apple M1?", "a": "The Core i5-1235U in multi-thread work, with the M1 faster in single-thread tasks and usually far more efficient. On the AMD side, the closest match is the Ryzen 5 7530U."},
+    {"q": "What is the AMD equivalent of the Core i7-13700H?", "a": "The Ryzen 7 7840HS, or its near-twin the Ryzen 7 8845HS. Both are 8-core Zen 4 chips that land close to the 14-core 13700H in multi-thread work, with stronger integrated graphics."},
+    {"q": "Is the Apple M4 faster than a Core Ultra 7 155H?", "a": "Yes, a little in multi-thread work and clearly in single-thread work, at much lower power. The 10-core M4 is closer to a Core Ultra 9 285H or Ryzen AI 9 HX 370 overall."},
+    {"q": "What is the Ryzen equivalent of the Core i5-1235U?", "a": "The Ryzen 5 7530U, a 6-core Zen 3 chip common in budget laptops. Both are 15 W class chips with similar multi-thread performance."},
+    {"q": "Is a Core i9-14900HX as fast as an M4 Pro?", "a": "Roughly, in multi-thread work, when the Intel chip is in a laptop that lets it run at high power. The M4 Pro uses far less power and is faster in single-thread tasks."},
+    {"q": "What is the AMD equivalent of the Core Ultra 9 275HX?", "a": "The Ryzen 9 9955HX, a 16-core Zen 5 chip. For gaming, the X3D version, the Ryzen 9 9955HX3D, is widely reviewed as faster."},
+    {"q": "Are laptop CPUs as fast as desktop CPUs with the same name?", "a": "Usually not. Laptop chips run at lower power and clocks, so they land a tier or so below their desktop namesakes in sustained work, even when they share the same silicon."}
+  ],
+  "sources": [
+    "Intel Core Ultra and Core laptop processor specifications (ark.intel.com)",
+    "AMD Ryzen laptop processor specifications and AMD's mobile processor naming guide",
+    "Apple MacBook Air and MacBook Pro technical specifications",
+    "Notebookcheck CPU benchmark listings and laptop reviews",
+    "Independent laptop and processor reviews from Tom's Hardware, Hardware Canucks and Notebookcheck",
+    "Cinebench and Geekbench results as reported by independent reviewers"
+  ],
+  "related": ["laptop-gpu-equivalents", "intel-vs-amd-cpu-equivalents", "integrated-graphics-equivalents"]
+}

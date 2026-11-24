@@ -174,5 +174,5 @@
     "Microsoft support: update drivers through Windows Update and Device Manager"
   ],
   "products": ["rx-9070-xt", "rx-9070", "rx-9060-xt-16gb"],
-  "related": ["amd-software-error-182-207", "how-to-update-nvidia-drivers", "how-to-check-what-graphics-card-i-have"]
+  "related": ["how-to-update-intel-graphics-drivers", "amd-software-error-182-207", "how-to-update-nvidia-drivers", "how-to-check-what-graphics-card-i-have"]
 }
