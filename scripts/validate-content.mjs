@@ -65,7 +65,7 @@ const ROUTES = new Set([
 ]);
 
 // ---- text checks --------------------------------------------------------------------------
-const TESTING = /\b(we tested|we've tested|we have tested|in our tests?|in our testing|our testing|our benchmarks?|we benchmarked|we measured|our measurements|hands-on testing|tested in our lab|our lab|lab-tested|after testing)\b/i;
+const TESTING = /\b(we tested|we've tested|we have tested|in our tests?|in our testing|our testing|our benchmarks?|we benchmarked|we measured|our measurements|hands-on testing|tested in our lab|our lab|lab-tested|after testing (them|each|all|every|these|both))\b/i;
 function checkText(where, value) {
   if (typeof value === 'string') {
     // "not from hands-on testing" is the disclaimer, not the claim.
