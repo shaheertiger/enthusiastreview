@@ -6,7 +6,7 @@
   "title": "Zotac FireStorm: Download, Overclock, Fan Curves and RGB",
   "h1": "Zotac FireStorm",
   "query": "zotac firestorm",
-  "description": "Zotac FireStorm is Zotac's free GPU utility: download the version for your card series, then set fan curves, clock offsets and Spectra RGB in 5 steps.",
+  "description": "Zotac FireStorm is Zotac's free GPU utility, set up in 5 steps: download the version for your card series, then set fan curves, clocks and Spectra RGB.",
   "dek": "Where to download the right FireStorm for your Zotac card, how to set fans, clocks and lighting safely, and what to do when it will not detect the GPU.",
   "quickAnswer": "FireStorm is Zotac's free utility for its GeForce cards. Download it from the support or downloads section of Zotac's website, choosing the version listed for your card's generation (RTX 50, RTX 40 or RTX 30), install it, and restart. From there you can set a custom fan curve, adjust GPU and memory clock offsets and the power limit, control Spectra RGB lighting, and save profiles.",
   "intro": [

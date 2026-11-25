@@ -6,7 +6,7 @@
   "title": "ASRock RGB Software: Polychrome Download, Setup and Fixes",
   "h1": "ASRock RGB Software",
   "query": "asrock rgb software",
-  "description": "ASRock's RGB software is Polychrome, downloaded free from your board's support page. How to install it, sync lights, use ARGB safely and fix detection.",
+  "description": "ASRock's RGB software is Polychrome, set up in 5 steps from your board's support page. How to install it, sync lights, use ARGB safely and fix detection.",
   "dek": "Where to get ASRock Polychrome, how to set it up, how to sync other brands' lights, and what to do when it does not see your RGB.",
   "quickAnswer": "ASRock's RGB software is Polychrome (sold as Polychrome Sync and, on newer boards, Polychrome RGB). Download the version listed on your motherboard's support page on asrock.com, under Utilities, install it, restart, and it controls the board's lighting and any strip on its RGB or ARGB headers. Match 12 V RGB strips to RGB headers and 5 V ARGB strips to ARGB headers, never the other way round.",
   "intro": [

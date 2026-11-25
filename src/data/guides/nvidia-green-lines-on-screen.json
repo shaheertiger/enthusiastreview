@@ -6,7 +6,7 @@
   "title": "NVIDIA Green Lines on Screen: 6 Causes and How to Fix Them",
   "h1": "NVIDIA Green Lines on Screen: How to Fix It",
   "query": "nvidia green lines on screen",
-  "description": "Green lines on an NVIDIA screen are usually a loose cable or bad driver, not a dead GPU. 6 causes in order, how to test GPU vs monitor, and when to RMA.",
+  "description": "Green lines on an NVIDIA screen have 6 common causes, usually a loose cable or bad driver, not a dead GPU. How to test GPU vs monitor, and when to RMA.",
   "dek": "Work through the causes from most to least likely, and find out in a few minutes whether your graphics card, cable or monitor is to blame.",
   "quickAnswer": "Start with the cable: reseat both ends, try a different cable and another port on the graphics card. That fixes a large share of green-line cases. If the lines remain, remove any GPU overclock, do a clean driver reinstall and set your monitor's native refresh rate. If lines or green dots still show in the BIOS screen or on a second monitor, the card's memory is likely failing and it is time to RMA.",
   "intro": [

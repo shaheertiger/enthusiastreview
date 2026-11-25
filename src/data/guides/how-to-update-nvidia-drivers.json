@@ -6,7 +6,7 @@
   "title": "How to Update NVIDIA Drivers: 3 Ways, Plus Rollback Steps",
   "h1": "How to Update NVIDIA Drivers",
   "query": "how to update nvidia drivers",
-  "description": "Open the NVIDIA App, go to Drivers and click Download: most updates take about 5 minutes. Also covers nvidia.com downloads, Windows Update, rollback and DDU.",
+  "description": "Most NVIDIA driver updates take about 5 minutes: open the NVIDIA App, go to Drivers and click Download. Also covers nvidia.com, Windows Update and rollback.",
   "dek": "Three ways to get the current GeForce driver, plus what to do when a new one causes trouble.",
   "quickAnswer": "Open the NVIDIA App, select Drivers in the left menu, click Download, then choose Express Installation. The screen may go black for a few seconds while the driver loads, and the whole job usually takes about 5 minutes. No NVIDIA App? Download the same driver from the drivers page on nvidia.com, or check Optional updates in Windows Update.",
   "intro": [

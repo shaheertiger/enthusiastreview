@@ -6,7 +6,7 @@
   "title": "How to Check What Graphics Card I Have: 6 Quick Ways",
   "h1": "How to Check What Graphics Card I Have",
   "query": "how to check what graphics card i have",
-  "description": "Press Ctrl+Shift+Esc, open Performance and click GPU: Task Manager shows your graphics card name and VRAM in seconds. 5 more ways, plus Mac and Linux.",
+  "description": "Press Ctrl+Shift+Esc, open Performance and click GPU 0: Task Manager shows your graphics card name and VRAM in seconds. 5 more ways, plus Mac and Linux.",
   "dek": "Find the exact GPU model, tell integrated from dedicated graphics and read how much video memory you have.",
   "quickAnswer": "Press Ctrl + Shift + Esc to open Task Manager, click Performance, then click GPU 0 (and GPU 1 if listed). The card's name appears in the top-right corner, and Dedicated GPU memory shows its VRAM. If you see two GPUs, the one with dedicated memory in gigabytes is usually your graphics card; the other is integrated graphics.",
   "intro": [

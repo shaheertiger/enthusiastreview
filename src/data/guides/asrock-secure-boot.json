@@ -6,7 +6,7 @@
   "title": "ASRock Secure Boot: How to Enable It and Fix 'Not Active'",
   "h1": "ASRock Secure Boot",
   "query": "asrock secure boot",
-  "description": "To turn on ASRock Secure Boot: disable CSM, set Secure Boot to Enabled, then install the default keys. 'Enabled but not active' means no keys are loaded yet.",
+  "description": "ASRock Secure Boot takes 3 settings: CSM off, Secure Boot set to Enabled and the default keys installed. 'Enabled but not active' means no keys are loaded.",
   "dek": "How to switch on Secure Boot on an ASRock board for Windows 11 and anti-cheat games, and why it can show as enabled but not active.",
   "quickAnswer": "On an ASRock board, Secure Boot needs three things: CSM turned off under the Boot menu, Secure Boot set to Enabled under the Security menu, and the default Secure Boot keys installed. If it says enabled but not active, the keys are missing and the board is still in Setup Mode; install the default keys, save, and reboot. Windows must also be installed on a GPT disk.",
   "intro": [
