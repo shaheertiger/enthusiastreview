@@ -1,0 +1,311 @@
+{
+  "slug": "best-psu-for-rtx-5060",
+  "type": "roundup",
+  "category": "power-supplies",
+  "title": "Best PSU for RTX 5060 (2026): 5 Power Supplies Ranked",
+  "h1": "Best PSU for RTX 5060",
+  "query": "best psu for rtx 5060",
+  "description": "The MSI MAG A750GL PCIE5 is the best PSU for an RTX 5060: 750 W Gold and fully modular for $75–$95. NVIDIA asks for 550 W; 5 power supplies ranked.",
+  "dek": "The RTX 5060 is a 145 W card, the easiest current GeForce to power. Here is how much a typical build draws, what size to buy and the five units worth paying for.",
+  "intro": [
+    "The MSI MAG A750GL PCIE5 is the best PSU for an RTX 5060: 750 W, 80 Plus Gold and fully modular for $75–$95. NVIDIA lists 550 W of recommended system power for the 145 W card, and a typical RTX 5060 gaming build draws only about 270–320 W, so a quality 750 W unit runs at under half load and leaves room for a bigger card later.",
+    "This guide is for the plain RTX 5060, the 8 GB card that sells for about $300–$330, not the RTX 5060 Ti, which has its own page. Every pick is a Gold-rated, fully modular unit from an established brand. We explain why we rank a 750 W unit first for a card that needs far less, what most RTX 5060 cards plug in with, and when the PSU you already own is fine."
+  ],
+  "quickAnswer": "Buy the MSI MAG A750GL PCIE5 ($75–$95) for most RTX 5060 builds. The Corsair RM750e ($85–$100) adds ATX 3.1 and a 7-year warranty, and the be quiet! Pure Power 12 M 750W is the quiet pick with a 10-year warranty. If an RTX 5070 Ti or RTX 5080 is your next card, buy the Corsair RM850e ($105–$130) or RM850x ($120–$150) now.",
+  "picks": [
+    {
+      "id": "msi-mag-a750gl-pcie5",
+      "label": "Best Overall",
+      "bestFor": "most RTX 5060 builds, from a Core i5-12400F to a Ryzen 7 9800X3D",
+      "skipIf": "you want a 10-year warranty or the quietest fan you can buy",
+      "writeup": [
+        "NVIDIA recommends 550 W of system power for the RTX 5060, a figure that allows for hot CPUs and lower-quality supplies. The card itself is rated at 145 W. Paired with a 65 W Ryzen 5 7600 or Core i5-12400F, a typical build draws about 270–320 W while gaming, so almost any quality unit can run it. The question is how little you can spend without buying junk.",
+        "The MSI MAG A750GL PCIE5 is the answer for most people. At $75–$95 it is usually the cheapest good 750 W unit on sale, which suits a $300–$330 graphics card. It is 80 Plus Gold, fully modular and ATX 3.x, and it includes a native 16-pin cable, so an RTX 5070 or RTX 5070 Ti later plugs straight in. Most RTX 5060 cards use one 8-pin PCIe plug, and the A750GL has standard PCIe cables for that too.",
+        "The trade-offs are a more basic fan and internal design than the Corsair and be quiet! picks, and a shorter warranty. On a 145 W card it spends most of its life at light load, so those matter less here than on a high-end build. Check that the listing says PCIE5, since older A750GL stock lacks the 16-pin cable. The head-to-head with the next pick is in [RM750e vs MSI MAG A750GL PCIE5](/compare/corsair-rm750e-vs-msi-mag-a750gl-pcie5/)."
+      ],
+      "pros": [
+        "$75–$95 for 750 W Gold",
+        "200 W over NVIDIA's 550 W figure",
+        "Fully modular",
+        "Native 16-pin cable for a later card"
+      ],
+      "cons": [
+        "Basic fan and design",
+        "Shorter warranty than the Corsair and be quiet! picks",
+        "Check the listing says PCIE5"
+      ]
+    },
+    {
+      "id": "corsair-rm750e",
+      "label": "Best Step-Up",
+      "bestFor": "RTX 5060 buyers who will pay about $10 more for ATX 3.1 and a 7-year warranty",
+      "skipIf": "every dollar is going toward the graphics card",
+      "writeup": [
+        "The Corsair RM750e is the unit we rank first on the [RTX 5060 Ti](/best-psu-for-rtx-5060-ti/) and [RTX 5070](/best-psu-for-rtx-5070/) pages, and it is just as good a match for the RTX 5060. It drops to second here only because the plain 5060 is a $300 card, and the MSI unit usually costs less for the same capacity.",
+        "For the extra $10 or so you get [ATX 3.1](/glossary/atx-3-1/) certification, a native 12V-2x6 cable and a 7-year warranty. It is 80 Plus Gold and fully modular, with a 120 mm fan. At the 270–320 W an RTX 5060 build draws while gaming, it runs well under half load.",
+        "Buy it if the price gap to the A750GL is small on the day, or if you want a better-known warranty for a PC you plan to keep and upgrade. Owners searching for the 2025 RM750e or the MSI MAG A750GL PCIE5 are choosing between two units that both suit this card; the deciding factors are price and warranty, not power. If you are weighing the next size up, see [RM750e vs RM850e](/compare/corsair-rm750e-vs-corsair-rm850e/)."
+      ],
+      "pros": [
+        "ATX 3.1, fully modular",
+        "7-year warranty",
+        "Native 12V-2x6 cable",
+        "$85–$100"
+      ],
+      "cons": [
+        "Usually costs a little more than the A750GL",
+        "Far more capacity than an RTX 5060 needs"
+      ]
+    },
+    {
+      "id": "be-quiet-pure-power-12-m-750",
+      "label": "Quietest Pick",
+      "bestFor": "quiet or small-desk RTX 5060 builds that want a 10-year warranty",
+      "skipIf": "you want the lowest price for the PSU",
+      "writeup": [
+        "The RTX 5060 is one of the easiest current cards to build a quiet PC around. At 145 W, most partner models run cool with modest fans, so the power supply is often one of the louder parts left. be quiet! tunes its fans for low noise, and at the 270–320 W a 5060 build draws while gaming, the Pure Power 12 M 750W sits well inside its comfort zone.",
+        "It is 80 Plus Gold, fully modular and ATX 3.x, with a native 16-pin GPU cable and a 10-year warranty for $95–$110. That warranty is the main reason to choose it over the MSI and Corsair picks: it outlasts the RTX 5060 and probably the card after it.",
+        "Pair it with a quiet tower cooler and a mesh case, and an RTX 5060 PC can be close to silent outside demanding games. It costs about $20 more than the A750GL, a fair price for a decade of cover and a quieter fan."
+      ],
+      "pros": [
+        "10-year warranty",
+        "Quiet at light and gaming loads",
+        "Native 16-pin cable"
+      ],
+      "cons": [
+        "Costs $15–$25 more than the A750GL"
+      ]
+    },
+    {
+      "id": "corsair-rm850e",
+      "label": "Best for a Big Upgrade",
+      "bestFor": "RTX 5060 owners who plan to move to an RTX 5070 Ti, RTX 5080 or RX 9070 XT later",
+      "skipIf": "the RTX 5060 or a 5060 Ti-class card is the last GPU this PC will get",
+      "writeup": [
+        "Many people buy an RTX 5060 as a stopgap: a $300 card to get a new build running, with a bigger GPU planned in a year or two. If that is you, size the power supply for the next card, not this one. NVIDIA pairs the RTX 5070 Ti with 750 W and the RTX 5080 with 850 W, and AMD's guidance for the RX 9070 XT is 750 W, with many owners choosing 850 W for factory-overclocked models.",
+        "The Corsair RM850e covers all of those for $105–$130. It is ATX 3.1, fully modular, Cybenetics Gold rated and backed by a 7-year warranty, with a native 12V-2x6 cable. On an RTX 5060 today it simply runs at a very light load.",
+        "Older RM850e stock may predate ATX 3.1, so check the listing. For the next card's power needs, see the [best PSU for RTX 5070](/best-psu-for-rtx-5070/) and [best PSU for RTX 5080](/best-psu-for-rtx-5080/) guides. If a 5070-class card is the ceiling of your plans, the 750 W picks above already cover it."
+      ],
+      "pros": [
+        "Covers an RTX 5080 later",
+        "ATX 3.1, native 12V-2x6",
+        "Fully modular"
+      ],
+      "cons": [
+        "Far more capacity than an RTX 5060 needs",
+        "About a third of the card's price"
+      ]
+    },
+    {
+      "id": "corsair-rm850x",
+      "label": "Best Premium",
+      "bestFor": "buyers who want a 10-year warranty and the quietest fan for a PC they will rebuild around for years",
+      "skipIf": "the PSU budget should stay under $100",
+      "writeup": [
+        "The RM850x is far more power supply than an RTX 5060 will ever ask for, and we rank it last for that reason. It earns a place because it is the unit to buy once and carry across several builds: 850 W, 80 Plus Gold, ATX 3.1, fully modular and backed for 10 years, with a 140 mm fan that stops at light loads.",
+        "With a 145 W card, the fan will spend most of its time stopped or turning slowly, so the PSU adds almost nothing to the noise of the PC. And when the RTX 5060 is replaced, the RM850x covers any current card below an RTX 5090.",
+        "At $120–$150 it costs between a third and half as much as the graphics card, which is hard to justify in a budget build. Buy it only if the warranty and noise matter more to you than the $45–$55 over the A750GL. Its closest rivals are compared in [RM850x vs RM850e](/compare/corsair-rm850x-vs-corsair-rm850e/) and [RM850x vs Seasonic Focus GX-850](/compare/corsair-rm850x-vs-seasonic-focus-gx-850/)."
+      ],
+      "pros": [
+        "10-year warranty",
+        "140 mm fan, zero-RPM mode",
+        "Room for any card below an RTX 5090"
+      ],
+      "cons": [
+        "$120–$150 is a lot next to a $300 card"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "Wattage",
+    "Efficiency",
+    "ATX version",
+    "GPU connector",
+    "Warranty"
+  ],
+  "ranking": {
+    "intro": "These picks are based on manufacturer specifications, independent power supply reviews and owner reports. Nothing here was bench-tested by Enthusiast Review. Wattage guidance comes from NVIDIA's published 145 W total graphics power and 550 W recommended system power for the RTX 5060. Prices are street-price bands that move with sales, and because the card costs about $300, we weighted price more heavily here than on our RTX 5060 Ti and RTX 5070 pages.",
+    "criteria": [
+      [
+        "Capacity for the card",
+        "At least NVIDIA's 550 W figure, with credit for an affordable margin rather than raw wattage."
+      ],
+      [
+        "Price against the card",
+        "A $300–$330 graphics card calls for a PSU around $75–$100; anything much higher needs an upgrade plan to justify it."
+      ],
+      [
+        "Upgrade path",
+        "Whether the unit covers a 5070-class or larger card later, including a native 16-pin cable."
+      ],
+      [
+        "Standards",
+        "ATX 3.x units are designed for the short power spikes modern GPUs produce."
+      ],
+      [
+        "Warranty and noise",
+        "Warranty length, fan size and how quietly the unit runs at the light loads an RTX 5060 build produces."
+      ]
+    ],
+    "why": "The MSI MAG A750GL PCIE5 wins because it meets NVIDIA's 550 W figure with 200 W to spare, includes a 16-pin cable for the next card and is usually the cheapest good 750 W unit, which matters most next to a $300 GPU."
+  },
+  "mentions": [
+    {
+      "id": "seasonic-focus-gx-850",
+      "text": "The Seasonic Focus GX-850 is an excellent 850 W unit with a 10-year warranty, and it is interchangeable with the RM850x. For a 145 W card it is far more than you need; buy it only if it is cheaper than the RM850x on the day and a big GPU upgrade is firmly planned."
+    },
+    {
+      "id": "montech-century-ii-850",
+      "text": "The Montech Century II 850W is a low-cost 850 W unit with a 10-year warranty, but it is ATX 3.0 and comes from a brand with a shorter power supply record. For an RTX 5060, a 750 W MSI or Corsair unit costs less and is the safer choice."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What Wattage PSU Do You Need for an RTX 5060?",
+      "body": [
+        "You need at least a 550 W power supply for an RTX 5060, which is NVIDIA's recommended system power for the 145 W card. A quality 550 W to 750 W Gold unit is the practical choice, and we rank 750 W first because good ones often cost only a little more and cover an upgrade.",
+        "The table adds up a typical build. The figures are rated or typical gaming loads, not measurements. The [PSU calculator](/tools/psu-calculator/) works it out for your own parts, including a hotter CPU or a lot of fans."
+      ],
+      "table": {
+        "caption": "Worked example: RTX 5060 power budget",
+        "head": [
+          "Part",
+          "Typical load",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "RTX 5060",
+            "About 145 W",
+            "Rated total graphics power; factory-overclocked cards can draw a little more"
+          ],
+          [
+            "Ryzen 5 7600 or Core i5-12400F",
+            "About 65–117 W",
+            "Both are 65 W-class chips; games rarely push either to its limit"
+          ],
+          [
+            "Motherboard, RAM, SSD, fans",
+            "About 50–80 W",
+            "More with lots of fans and RGB"
+          ],
+          [
+            "Total under gaming load",
+            "About 270–320 W",
+            "Before short GPU spikes"
+          ],
+          [
+            "Recommended PSU",
+            "550 W minimum, 650–750 W ideal",
+            "Margin for spikes, aging and upgrades"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Is 450 W or 500 W Enough for an RTX 5060?",
+      "body": [
+        "A quality 450 W or 500 W unit will usually run an RTX 5060 with a 65 W CPU, since the whole build draws around 270–320 W in games. But both are below NVIDIA's 550 W figure, so we do not recommend buying one new for this card. NVIDIA's guidance exists to cover hotter CPUs, factory-overclocked cards and supplies that do not deliver their rated output.",
+        "If you already own a good 450 W or 500 W unit from a known brand, with an 8-pin PCIe cable and a few years of warranty left, it is a reasonable short-term option with a Ryzen 5 or Core i5. Avoid it with a high-power CPU such as a Core i7-14700K, which can draw far more than a 65 W chip on its own. If you are buying new, the price gap to a 650 W or 750 W Gold unit is small, and the larger unit leaves a path to a bigger card."
+      ]
+    },
+    {
+      "h": "Should You Buy 550 W, 650 W or 750 W for an RTX 5060?",
+      "body": [
+        "Any of the three runs the card; the choice comes down to price and plans. A quality 550 W Gold unit meets NVIDIA's figure exactly and covers the RTX 5060 with a mainstream CPU. A 650 W unit adds margin for a hotter CPU, and it is what NVIDIA pairs with the RTX 5070.",
+        "We rank 750 W units first because good ones such as the MSI MAG A750GL PCIE5 and Corsair RM750e often cost only a little more than comparable 550 W and 650 W units, and they cover an RTX 5060 Ti (600 W), RTX 5070 (650 W) or RTX 5070 Ti (750 W) later. A larger unit also runs at a lighter share of its capacity, which usually means a slower, quieter fan.",
+        "If you are certain the RTX 5060 is the last card this PC will get, a 550 W or 650 W Gold unit from an established brand is a sensible way to save a little. Our [best PSU under $100](/best-psu-under-100/) guide covers more budget units."
+      ]
+    },
+    {
+      "h": "Does the RTX 5060 Need a 16-Pin Cable?",
+      "body": [
+        "Usually not. Most partner RTX 5060 cards use a single 8-pin PCIe connector, which any modern ATX power supply has. Check the exact card's product page, since a few models use a different connector, and compact or low-profile models can differ from full-size ones.",
+        "A native 16-pin [12V-2x6](/glossary/12v-2x6/) cable is still worth having for the next card. Every pick here includes one, so an RTX 5070 or 5070 Ti that uses the 16-pin connector plugs straight in later with no adapter."
+      ]
+    },
+    {
+      "h": "RTX 5060 vs RTX 5060 Ti: Do They Need Different PSUs?",
+      "body": [
+        "Slightly. The RTX 5060 is rated at 145 W with a 550 W system recommendation, while the RTX 5060 Ti is rated at 180 W, for both its 8GB and 16GB versions, with a 600 W recommendation. That 35 W gap shows up in NVIDIA's numbers, but in practice any quality 650 W or 750 W unit covers either card with room to spare.",
+        "Where the two differ more is memory: the plain RTX 5060 has 8 GB, and several new games need lower texture settings to stay inside it. If you are still choosing a card, the 16 GB RTX 5060 Ti or the [RX 9060 XT 16GB](/gear/rx-9060-xt-16gb/) is worth the extra money for AAA games. Our [best PSU for RTX 5060 Ti](/best-psu-for-rtx-5060-ti/) guide covers that card's power needs, and the [RTX 4060 vs RTX 5060](/compare/rtx-4060-vs-rtx-5060/) comparison covers the older card it replaces."
+      ]
+    },
+    {
+      "h": "Can You Reuse Your Old PSU for an RTX 5060?",
+      "body": [
+        "Often, yes, and this is the card where reusing a PSU makes the most sense. A unit of 550 W or more from a reputable brand, under about five years old, with an 8-pin PCIe cable, can run an RTX 5060. Many people buying this card are upgrading from a GTX 1660 or an RTX 2060 or 3060, and a PSU that ran one of those comfortably will usually run a 145 W card too.",
+        "Replace it if it is unbranded, came with an older prebuilt and lists no maker, has no PCIe power cable, or is close to the end of its warranty. Never use the card in a system where the GPU power has to come from SATA or Molex adapters.",
+        "If the rest of the PC is also old, check the CPU before blaming the power supply for low frame rates. Our [best GPU for Ryzen 5 3600](/best-gpu-for-ryzen-5-3600/) guide covers how far an older CPU holds back a modern card."
+      ]
+    },
+    {
+      "h": "RTX 5060 vs RX 9060 XT and Arc B580: Same PSU?",
+      "body": [
+        "Yes. The RX 9060 XT 8GB is rated at 150 W, and the 16GB model at 160 W, with overclocked models up to about 180 W. The Arc B580 is rated at 190 W. All three sit close enough to the RTX 5060's 145 W that every pick on this page covers any of them with a mainstream CPU.",
+        "If you are still deciding between them, see [RTX 5060 vs RX 9060 XT 16GB](/compare/rtx-5060-vs-rx-9060-xt-16gb/), [RTX 5060 vs Arc B580](/compare/rtx-5060-vs-arc-b580/) and our [best graphics card under $300](/best-graphics-card-under-300/) list."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Buying 1,000 W for a 145 W card",
+      "An RTX 5060 build draws about 270–320 W in games. A 1,000 W unit costs far more and does nothing for stability or frame rates."
+    ],
+    [
+      "Spending the GPU budget on the PSU",
+      "An $80 power supply and a $300 card is a sensible split. A $150 unit only makes sense with a firm upgrade plan; otherwise that money is better spent on a 16 GB card."
+    ],
+    [
+      "Trusting an unbranded PSU",
+      "The RTX 5060 is easy to power, but a no-name unit is still the part most likely to fail and take other parts with it. Buy from an established brand with a real warranty."
+    ],
+    [
+      "Using a SATA or Molex adapter",
+      "Never power the card's 8-pin socket from SATA or Molex adapters. If your old PSU has no PCIe cable, it is too old or too small for this card. Replace it."
+    ]
+  ],
+  "bottomLine": "The MSI MAG A750GL PCIE5 is the best PSU for an RTX 5060 because it meets NVIDIA's 550 W figure with 200 W to spare, includes a 16-pin cable for your next card and is usually the cheapest good 750 W unit at $75–$95. The Corsair RM750e is the step-up for ATX 3.1 and a 7-year warranty, and the be quiet! Pure Power 12 M 750W the quietest with a 10-year warranty. Choose an 850 W RM850e or RM850x only if a big GPU upgrade is planned.",
+  "faqs": [
+    {
+      "q": "What PSU do I need for an RTX 5060?",
+      "a": "NVIDIA recommends 550 W of system power for the RTX 5060. A quality 550 W to 750 W Gold unit is the practical choice; the MSI MAG A750GL PCIE5 is our pick at $75–$95."
+    },
+    {
+      "q": "Is 550 W enough for an RTX 5060?",
+      "a": "Yes. A quality 550 W unit meets NVIDIA's recommendation, and a typical RTX 5060 build draws only about 270–320 W while gaming. Choose a larger unit only for a high-power CPU or a planned GPU upgrade."
+    },
+    {
+      "q": "Is 450 W enough for an RTX 5060?",
+      "a": "It is below NVIDIA's 550 W figure. A good 450 W unit will usually run the card with a 65 W CPU, but there is little margin and no upgrade path. Buy at least 550 W if you are buying new."
+    },
+    {
+      "q": "How many watts does the RTX 5060 use?",
+      "a": "NVIDIA rates it at 145 W total graphics power. Factory-overclocked models can draw a little more, and short spikes above the rating are normal for modern GPUs."
+    },
+    {
+      "q": "Does the RTX 5060 need an 8-pin or 16-pin connector?",
+      "a": "Most partner cards use one 8-pin PCIe connector. A few models differ, so check the product page of the exact card before you buy a PSU or reuse an old one."
+    },
+    {
+      "q": "Is 750 W overkill for an RTX 5060?",
+      "a": "For the card alone, yes, but not for the money. Good 750 W Gold units often cost only a little more than 550 W or 650 W ones, run quieter at the same load and cover an RTX 5070 Ti later."
+    },
+    {
+      "q": "Does the RTX 5060 need more power than the RTX 4060?",
+      "a": "A little. NVIDIA rates the RTX 4060 at 115 W and the RTX 5060 at 145 W, and both carry a 550 W system power recommendation. A PSU that ran an RTX 4060 well will run an RTX 5060."
+    }
+  ],
+  "sources": [
+    "NVIDIA GeForce RTX 5060 family specifications (total graphics power and recommended system power)",
+    "AMD Radeon RX 9060 XT and Intel Arc B580 product specifications",
+    "Corsair RMe and RMx product pages",
+    "MSI MAG A750GL PCIE5 and be quiet! Pure Power 12 M product pages",
+    "Intel ATX 3.x power supply design guide summaries",
+    "Independent power supply reviews and owner reports"
+  ],
+  "related": [
+    "best-psu-for-rtx-5060-ti",
+    "best-psu-for-rtx-5070",
+    "best-psu-under-100"
+  ]
+}
