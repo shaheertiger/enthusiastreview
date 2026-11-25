@@ -308,7 +308,7 @@ const jsonLd = {
             {tracked.map((p) => (
               <tr class={pickIds.has(p.id) ? 'is-pick' : undefined}>
                 <td><a href={productPath(p)}>{p.name}</a>{pickIds.has(p.id) && <span class="tag">On this list</span>}</td>
-                <td>{isBrand ? categoryOf(p.category).label : getBrand(p.brand).name}</td>
+                <td>{isBrand ? categoryOf(p.category).label : <a href={brandPath(p.brand)}>{getBrand(p.brand).name}</a>}</td>
                 <td>{p.score.overall}</td>
                 <td class="nowrap">{priceBand(p)}</td>
                 <td><a href={amazonLink(p)} rel="sponsored nofollow noopener" target="_blank">Price</a></td>

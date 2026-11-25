@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
 import { SITE } from '../../data/site';
-import { TERMS, getTerm, getGuide, termPath, guidePath, glossaryUpdated, fmtDate, newCtx, inline, type Term } from '../../lib/data';
+import { TERMS, getTerm, getGuide, guidesUsingTerm, termPath, guidePath, glossaryUpdated, fmtDate, newCtx, inline, type Term } from '../../lib/data';
 
 export function getStaticPaths() {
   return TERMS.map((t) => ({ params: { id: t.id }, props: { t } }));
@@ -12,7 +12,8 @@ const path = termPath(t);
 const ctx = newCtx(path, 12);
 const updated = glossaryUpdated();
 const related = (t.related ?? []).map(getTerm).filter((x): x is Term => Boolean(x));
-const guides = (t.guides ?? []).map(getGuide).filter((g) => g && !g.noindex);
+// Hand-picked guides first, then the guides that use the term most.
+const guides = [...new Set([...(t.guides ?? []).map(getGuide).filter((g) => g && !g.noindex), ...guidesUsingTerm(t)])].slice(0, 10);
 const others = TERMS.filter((x) => x.id !== t.id && !related.includes(x));
 const crumbs = [{ name: 'Home', href: '/' }, { name: 'Glossary', href: '/glossary/' }, { name: t.term, href: path }];
 const jsonLd = {

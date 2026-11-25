@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
 import { SITE } from '../../data/site';
 import { amazonLink } from '../../data/affiliate';
-import { BRANDS, productsOfBrand, getGuide, comparesFor, mustProduct, brandPath, productPath, guidePath, comparePath, priceBand, avgScore, categoryOf, type Brand } from '../../lib/data';
+import { BRANDS, guidesForBrand, productsOfBrand, getGuide, comparesFor, mustProduct, brandPath, productPath, guidePath, comparePath, priceBand, avgScore, categoryOf, type Brand } from '../../lib/data';
 
 export function getStaticPaths() {
   return BRANDS.map((b) => ({ params: { brand: b.key }, props: { b } }));
@@ -12,6 +12,7 @@ const { b } = Astro.props as { b: Brand };
 const list = productsOfBrand(b.key);
 const review = b.review ? getGuide(b.review) : undefined;
 const compares = [...new Map(list.flatMap((p) => comparesFor(p.id)).map((c) => [comparePath(c), c])).values()];
+const guides = guidesForBrand(b.key).filter((g) => g !== review);
 const cats = [...new Set(list.map((p) => categoryOf(p.category).plural))];
 const path = brandPath(b);
 const crumbs = [{ name: 'Home', href: '/' }, { name: 'Brands', href: '/brands/' }, { name: b.name, href: path }];
@@ -45,6 +46,12 @@ const jsonLd = {
       <>
         <h2 class="section-title">{b.name} Comparisons</h2>
         <ul class="link-list">{compares.map((c) => <li><a href={comparePath(c)}>{mustProduct(c.a).short} vs {mustProduct(c.b).short}</a></li>)}</ul>
+      </>
+    )}
+    {guides.length > 0 && (
+      <>
+        <h2 class="section-title">Guides With {b.name} Picks</h2>
+        <ul class="link-list">{guides.map((g) => <li><a href={guidePath(g)}>{g.h1}</a></li>)}</ul>
       </>
     )}
   </div>
