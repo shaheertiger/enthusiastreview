@@ -11,7 +11,7 @@ import { SITE } from '../../data/site';
 import { amazonLink } from '../../data/affiliate';
 import { productSchema } from '../../lib/schema';
 import {
-  PRODUCTS, getBrand, categoryOf, productsIn, productsOfBrand, rankOf, guidesFeaturing, comparesFor, guidesFor, equivalentsFor, mustProduct,
+  PRODUCTS, getBrand, categoryOf, productsIn, productsOfBrand, rankOf, guidesFeaturing, comparesFor, guidesFor, equivalentsFor, categoryGuidesFor, mustProduct,
   productPath, guidePath, comparePath, brandPath, productUpdated, fmtDate, priceBand, productTitle, productDescription, newCtx, inline, plain, type Product,
 } from '../../lib/data';
 
@@ -31,6 +31,8 @@ const compares = comparesFor(p.id);
 // and the equivalents chart that maps it to rivals: this site's best-performing page type.
 const builtFor = guidesFor(p.id);
 const equiv = equivalentsFor(p);
+const featuredGuides = featured.map((f) => f.guide);
+const catGuides = categoryGuidesFor(p, [...featuredGuides, ...builtFor], 6);
 // Alternatives, the sister-site way: "Cheaper options" first (same category, lower price band, best
 // score first); for the cheapest parts, fall back to higher-scoring ones, then to anything else we track.
 const others = productsIn(p.category).filter((x) => x.id !== p.id);
@@ -164,12 +166,13 @@ const jsonLd = {
         </>
       )}
 
-      {(builtFor.length > 0 || equiv) && (
+      {(builtFor.length > 0 || equiv || catGuides.length > 0) && (
         <>
-          <h2 id="guides-for">Build Guides for the {p.short}</h2>
+          <h2 id="guides-for">Guides for the {p.short}</h2>
           <ul class="link-list">
             {builtFor.map((x) => <li><a href={guidePath(x)}>{x.h1}</a></li>)}
             {equiv && <li><a href={guidePath(equiv)}>{p.short} equivalents: {equiv.h1}</a></li>}
+            {catGuides.map((x) => <li><a href={guidePath(x)}>{x.h1}</a></li>)}
           </ul>
         </>
       )}

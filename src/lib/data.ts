@@ -485,6 +485,8 @@ export const SERIES: Series[] = [
   { key: 'gaming-pc', heading: 'More Gaming PC Buying Guides', re: /gaming-pc|prebuilt|^is-(cyberpowerpc|ibuypower)-good$|^cyberpowerpc-vs-ibuypower$/ },
   { key: 'brands', heading: 'Is It a Good Brand? More Brand Reviews', re: /^is-[a-z]+-a-good(-gpu)?-brand$|-review$|^best-graphics-card-brands$|^graphics-card-warranty-by-brand$/ },
   { key: 'cpu-buying', heading: 'More CPU Buying Guides', re: /^best-(cpu-for-gaming|amd-cpu-for-gaming|am5-motherboard)$|^amd-vs-intel$/ },
+  // Category best lists for the other parts of a build (last, so the series above keep their pages).
+  { key: 'build-parts', heading: 'Best Parts for the Rest of the Build', re: /^best-(cpu-cooler|pc-case|pc-cases-under-\d+|power-supply|psu-under-\d+|ram-for-gaming|ssd-for-gaming)$/, hub: { href: '/best-of/', text: 'Every best list on the site' } },
 ];
 
 /** The series a guide belongs to (first match) and its other members. */
@@ -520,4 +522,31 @@ export function equivalentsFor(p: Product): Guide | undefined {
   const slug = p.category === 'graphics-cards' ? (p.brand === 'intel' ? 'intel-arc-gpu-equivalents' : 'amd-vs-nvidia-gpu-equivalents')
     : p.category === 'processors' ? 'intel-vs-amd-cpu-equivalents' : undefined;
   return slug ? getGuide(slug) : undefined;
+}
+
+/** Every guide covering this part's category that does not already pick it (gear pages link these too). */
+export function categoryGuidesFor(p: Product, exclude: Guide[] = [], max = 6): Guide[] {
+  return GUIDES.filter((g) => !g.noindex && g.category === p.category && !exclude.includes(g) && !subjectKeys(g.slug).length)
+    .concat(GUIDES.filter((g) => !g.noindex && g.category === p.category && !exclude.includes(g) && subjectKeys(g.slug).length > 0))
+    .slice(0, max);
+}
+
+/** Guides that pick, mention or review a brand's products. */
+export function guidesForBrand(key: string): Guide[] {
+  const ids = new Set(PRODUCTS.filter((p) => p.brand === key).map((p) => p.id));
+  return GUIDES.filter((g) => !g.noindex && (g.brand === key || (g.picks ?? []).some((pk) => ids.has(pk.id)) || (g.mentions ?? []).some((m) => m.id && ids.has(m.id)) || (g.products ?? []).some((id) => ids.has(id))));
+}
+
+/** Guides whose text uses a glossary term (or one of its aliases), most uses first. */
+export function guidesUsingTerm(t: Term, max = 8): Guide[] {
+  const words = [t.term, ...(t.aliases ?? [])].map((w) => w.toLowerCase());
+  return GUIDES.filter((g) => !g.noindex)
+    .map((g) => {
+      const text = guideText(g).join(' ').toLowerCase();
+      return { g, n: words.reduce((n, w) => n + (text.split(w).length - 1), 0) };
+    })
+    .filter((x) => x.n > 0)
+    .sort((a, b) => b.n - a.n)
+    .slice(0, max)
+    .map((x) => x.g);
 }
