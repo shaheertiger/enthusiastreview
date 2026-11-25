@@ -3,6 +3,10 @@
 /* ------------------------------------------------------------------ */
 import { CATEGORIES, CATEGORY } from '../data/categories';
 import { SITE } from '../data/site';
+import { ACRONYMS, PRODUCT_NOUNS, DIFF_RULES, SERIES, SUBJECT_RE, SUBJECT_SKIP, EQUIVALENTS_RE, equivalentsSlug, type Series } from '../data/niche';
+
+export type { Series };
+export { SERIES };
 
 export type Spec = [string, string];
 export interface FAQ { q: string; a: string }
@@ -32,7 +36,7 @@ export interface Product {
   pros: string[];
   cons: string[];
   extra?: { heading: string; body?: string[]; steps?: [string, string][] };
-  /** "<model> NVIDIA/AMD/Intel equivalent" answer, linking to the equivalents charts. */
+  /** "<model> <rival brand> equivalent" answer, linking to the equivalents charts. */
   equivalent?: { heading: string; body: string[] };
   faqs: FAQ[];
 }
@@ -172,8 +176,8 @@ export const mustProduct = (id: string) => {
   return p;
 };
 export const getGuide = (slug: string) => GUIDE_BY_SLUG.get(slug);
-/** The equivalents charts ("<card> NVIDIA equivalent" searches, the site's best search traffic), hub at /equivalents/. */
-export const EQUIVALENTS = () => GUIDES.filter((g) => !g.noindex && /-equivalents?$/.test(g.slug));
+/** The equivalents charts ("<model> <rival brand> equivalent" searches), hub at /equivalents/. */
+export const EQUIVALENTS = () => GUIDES.filter((g) => !g.noindex && EQUIVALENTS_RE.test(g.slug));
 export const getTerm = (id: string) => TERM_BY_ID.get(id);
 export const getBrand = (key: string) => BRAND_BY_KEY.get(key) ?? { key, name: key, blurb: '' };
 export const categoryOf = (key: string) => CATEGORY[key];
@@ -205,7 +209,7 @@ export const comparesFor = (id: string) => COMPARES.filter((c) => c.a === id || 
 
 /* ----------------------------- dates ------------------------------ */
 
-const LAUNCH = '2026-11-19';
+const LAUNCH = SITE.launch;
 const gitDate = (key: string) => gitDates[key];
 export const guideUpdated = (g: Guide) => gitDate(`guides/${g.slug}`) ?? LAUNCH;
 export const guidePublished = (g: Guide) => g.published ?? LAUNCH;
@@ -228,13 +232,13 @@ export const avgScore = (list: Product[]) => (list.length ? Math.round(list.redu
 /** Search wording the guide targets (lowercase), used for the Short Answer heading. */
 export const guideQuery = (g: Guide) => g.query ?? g.h1.toLowerCase();
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-export const shortAnswerHeading = (query: string) => `${cap(query).replace(/\b(cpu|gpu|psu|ssd|ram|am5|am4|aio|ddr5|ddr4|rtx|rx)\b/gi, (m) => m.toUpperCase())}: The Short Answer`;
+export const shortAnswerHeading = (query: string) => `${cap(query).replace(ACRONYMS, (m) => m.toUpperCase())}: The Short Answer`;
 
 /** Product <title>: the model name first, 50–62 characters where possible. */
 export function productTitle(p: Product) {
   const cat = CATEGORY[p.category];
   const noun = cat.singular === cat.singular.toLowerCase() ? cat.singular.replace(/\b\w/g, (c) => c.toUpperCase()) : cat.singular;
-  const named = new RegExp(`\\b(${noun.split(' ').pop()}|SSD|GPU|CPU|RAM|DDR[45]|Graphics|Processor|Cooler|Case|Motherboard)\\b`, 'i').test(p.name) ? p.name : `${p.name} ${noun}`;
+  const named = new RegExp(`\\b(${noun.split(' ').pop()}|${PRODUCT_NOUNS})\\b`, 'i').test(p.name) ? p.name : `${p.name} ${noun}`;
   const options = [
     `${p.name} Review: Specs, Score & Verdict`,
     `${named} Review: Specs, Score & Verdict`,
@@ -369,39 +373,6 @@ export const slugify = (s: string) => s.toLowerCase().replace(/&/g, 'and').repla
 /* the same way, so every comparison gets them and they never drift.  */
 /* ------------------------------------------------------------------ */
 
-type DiffRule = { label: string; topic?: string; more?: string; less?: string; dp?: number; kind?: 'lanes' | 'gen' };
-const DIFF_RULES: Record<string, DiffRule[]> = {
-  'graphics-cards': [
-    { label: 'VRAM', more: 'has {d} GB more VRAM' },
-    { label: 'Board power', less: 'is rated {d} W lower' },
-    { label: 'PCIe interface', more: 'uses a full x16 link', kind: 'lanes' },
-  ],
-  processors: [
-    { label: 'Cores / threads', topic: 'Cores', more: 'has {d} more core{s}' },
-    { label: 'Boost clock', more: 'boosts {d} GHz higher', dp: 1 },
-    { label: 'L3 cache', more: 'has {d} MB more L3 cache' },
-    { label: 'TDP', less: 'is rated {d} W lower' },
-  ],
-  'cpu-coolers': [
-    { label: 'Height', less: 'is {d} mm shorter, so it fits more cases' },
-    { label: 'Heat pipes', more: 'has {d} more heat pipe{s}' },
-  ],
-  'power-supplies': [
-    { label: 'Wattage', more: 'delivers {d} W more' },
-    { label: 'Warranty', more: 'has a {d}-year longer warranty' },
-  ],
-  memory: [
-    { label: 'Capacity', more: 'has {d} GB more' },
-    { label: 'CAS latency', less: 'has {d} lower CAS latency' },
-  ],
-  motherboards: [{ label: 'PCIe x16 slot', more: 'has a PCIe {v} graphics slot', kind: 'gen' }],
-  storage: [
-    { label: 'Sequential read', more: 'reads up to {d} MB/s faster' },
-    { label: 'Endurance', more: 'is rated for {d} TBW more endurance' },
-  ],
-  'pc-cases': [{ label: 'Max GPU length', more: 'fits a graphics card {d} mm longer' }],
-};
-
 const firstNum = (s?: string) => {
   const m = s?.replace(/(\d),(\d{3})/g, '$1$2').match(/\d+(\.\d+)?/);
   return m ? Number(m[0]) : undefined;
@@ -465,30 +436,6 @@ export function compareDiffs(a: Product, b: Product): { h: string; text: string 
 // around the same part (best GPU / RAM / cooler / motherboard for the 9800X3D, best PSU for the
 // RTX 5070, its compare pages and its /gear/ page).
 
-export interface Series {
-  key: string;
-  heading: string;
-  re: RegExp;
-  hub?: { href: string; text: string };
-}
-export const SERIES: Series[] = [
-  { key: 'equivalents', heading: 'More Equivalents Charts', re: /-equivalents?$/, hub: { href: '/equivalents/', text: 'Every GPU and CPU equivalents chart' } },
-  { key: 'gpu-for', heading: 'Best GPU for Other CPUs', re: /^best-gpu-for-(?!ai$)/, hub: { href: '/tools/bottleneck-calculator/', text: 'Bottleneck calculator: check any CPU and GPU pair' } },
-  { key: 'psu-for', heading: 'Best PSU for Other Graphics Cards', re: /^best-psu-for-/, hub: { href: '/tools/psu-calculator/', text: 'PSU calculator: wattage for any build' } },
-  { key: 'cooler-for', heading: 'Best CPU Cooler for Other CPUs', re: /^best-cpu-cooler-for-/, hub: { href: '/best-cpu-cooler/', text: 'Best CPU cooler for any build' } },
-  { key: 'board-for', heading: 'Best Motherboard for Other CPUs', re: /^best-motherboard-for-/, hub: { href: '/best-am5-motherboard/', text: 'Best AM5 motherboard' } },
-  { key: 'ram-for', heading: 'Best RAM for Other CPUs', re: /^best-ram-for-(?!gaming$)/, hub: { href: '/best-ram-for-gaming/', text: 'Best RAM for gaming' } },
-  { key: 'bios', heading: 'More BIOS Guides by Brand', re: /^how-to-(update|enter)-[a-z]+-bios$|^asrock-secure-boot$/ },
-  { key: 'rgb', heading: 'RGB Software for Other Brands', re: /-rgb-(fusion-)?software$/ },
-  { key: 'drivers', heading: 'More Driver and GPU Software Guides', re: /^how-to-update-[a-z-]+-drivers$|^how-to-turn-off-nvidia-overlay$|^nvidia-(?!vs-)|^amd-software-|^how-to-check-what-graphics-card|^zotac-firestorm$/ },
-  { key: 'gpu-buying', heading: 'Graphics Cards by Budget and Brand', re: /^best-(graphics-card(-under-\d+|-for-1440p)?|budget-graphics-card|nvidia-graphics-card|amd-graphics-card)$|^how-much-does-a-graphics-card-cost$|^black-friday-gpu-deals$|^nvidia-vs-amd$|^best-gpu-for-ai$/ },
-  { key: 'gaming-pc', heading: 'More Gaming PC Buying Guides', re: /gaming-pc|prebuilt|^is-(cyberpowerpc|ibuypower)-good$|^cyberpowerpc-vs-ibuypower$/ },
-  { key: 'brands', heading: 'Is It a Good Brand? More Brand Reviews', re: /^is-[a-z]+-a-good(-gpu)?-brand$|-review$|^best-graphics-card-brands$|^graphics-card-warranty-by-brand$/ },
-  { key: 'cpu-buying', heading: 'More CPU Buying Guides', re: /^best-(cpu-for-gaming|amd-cpu-for-gaming|am5-motherboard)$|^amd-vs-intel$/ },
-  // Category best lists for the other parts of a build (last, so the series above keep their pages).
-  { key: 'build-parts', heading: 'Best Parts for the Rest of the Build', re: /^best-(cpu-cooler|pc-case|pc-cases-under-\d+|power-supply|psu-under-\d+|ram-for-gaming|ssd-for-gaming)$/, hub: { href: '/best-of/', text: 'Every best list on the site' } },
-];
-
 /** The series a guide belongs to (first match) and its other members. */
 const seriesKey = (slug: string) => SERIES.find((s) => s.re.test(slug));
 export function seriesOf(g: Guide): { series: Series; items: Guide[] } | undefined {
@@ -500,8 +447,8 @@ export function seriesOf(g: Guide): { series: Series; items: Guide[] } | undefin
 
 /** Parts a "best <x> for <part>" guide is built around: best-cpu-cooler-for-ryzen-9-3900x-and-3950x → both CPUs. */
 export function subjectKeys(slug: string): string[] {
-  const m = slug.match(/^best-(?:gpu|psu|cpu-cooler|motherboard|ram)-for-(.+)$/);
-  if (!m || m[1] === 'ai') return [];
+  const m = slug.match(SUBJECT_RE);
+  if (!m || SUBJECT_SKIP.includes(m[1])) return [];
   const [first, ...rest] = m[1].split('-and-');
   return [first, ...rest.map((x) => (/^\d/.test(x) ? first.replace(/[^-]+$/, '') + x : x))];
 }
@@ -519,8 +466,7 @@ export const guidesFor = (id: string) => GUIDES.filter((g) => !g.noindex && subj
 
 /** The equivalents chart that maps this part to its rivals. */
 export function equivalentsFor(p: Product): Guide | undefined {
-  const slug = p.category === 'graphics-cards' ? (p.brand === 'intel' ? 'intel-arc-gpu-equivalents' : 'amd-vs-nvidia-gpu-equivalents')
-    : p.category === 'processors' ? 'intel-vs-amd-cpu-equivalents' : undefined;
+  const slug = equivalentsSlug(p);
   return slug ? getGuide(slug) : undefined;
 }
 

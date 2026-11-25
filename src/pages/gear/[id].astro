@@ -8,6 +8,7 @@ import CatIcon from '../../components/CatIcon.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
+import { listingNote } from '../../data/niche';
 import { amazonLink } from '../../data/affiliate';
 import { productSchema } from '../../lib/schema';
 import {
@@ -78,7 +79,7 @@ const jsonLd = {
           <div class="qc-hero">
             <figure class="qc-photo">
               <ProductImage p={p} size={220} buy eager />
-              <figcaption>Amazon listing: {p.listing && p.listing.length > 90 ? `${p.listing.slice(0, p.listing.lastIndexOf(' ', 88))}…` : p.listing}{p.category === 'graphics-cards' && ' (one of several partner cards)'}</figcaption>
+              <figcaption>Amazon listing: {p.listing && p.listing.length > 90 ? `${p.listing.slice(0, p.listing.lastIndexOf(' ', 88))}…` : p.listing}{listingNote(p)}</figcaption>
             </figure>
             <div>
               <h2 class="mini">Quick answer</h2>

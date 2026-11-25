@@ -3,22 +3,23 @@ import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
 import { SITE } from '../../data/site';
 import { CATEGORIES } from '../../data/categories';
+import { HUBS, NICHE } from '../../data/niche';
 import { COMPARES, mustProduct, comparePath } from '../../lib/data';
 const groups = CATEGORIES.map((c) => ({ c, list: COMPARES.filter((x) => mustProduct(x.a).category === c.key) })).filter((g) => g.list.length);
 const crumbs = [{ name: 'Home', href: '/' }, { name: 'Comparisons', href: '/compare/' }];
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: 'PC Hardware Comparisons',
+  name: `${NICHE.title} Comparisons`,
   url: `${SITE.url}/compare/`,
   mainEntity: { '@type': 'ItemList', itemListElement: COMPARES.map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${comparePath(x)}` })) },
 };
 ---
-<Base title={`PC Hardware Comparisons: ${COMPARES.length} Head-to-Heads (2026)`} description={`${COMPARES.length} head-to-head PC part comparisons: RTX 5070 vs RX 9070 XT, 9800X3D vs 7800X3D, Peerless Assassin vs NH-D15 G2 and more, with specs, scores and a verdict.`} jsonLd={jsonLd}>
+<Base title={`${NICHE.title} Comparisons: ${COMPARES.length} Head-to-Heads (2026)`} description={HUBS.compare.description(COMPARES.length)} jsonLd={jsonLd}>
   <div class="wrap hub">
     <Crumbs items={crumbs} />
-    <h1 class="hub-title">PC Hardware Comparisons</h1>
-    <p class="hub-dek">Two parts, one table, one verdict. Every comparison lines up the spec sheets, the {SITE.score} and who should buy which.</p>
+    <h1 class="hub-title">{NICHE.title} Comparisons</h1>
+    <p class="hub-dek">Two {NICHE.parts}, one table, one verdict. Every comparison lines up the spec sheets, the {SITE.score} and who should buy which.</p>
     {groups.map((g) => (
       <section id={g.c.key}>
         <h2 class="section-title">{g.c.label}</h2>

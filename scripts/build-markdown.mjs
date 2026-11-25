@@ -15,8 +15,9 @@ import path from 'node:path';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DIST = path.join(ROOT, 'dist');
-const SITE_URL = 'https://www.enthusiastreview.com';
-const SITE_NAME = 'Enthusiast Review';
+const CONFIG = JSON.parse(fs.readFileSync(path.resolve(import.meta.dirname, '../site.config.json'), 'utf8'));
+const SITE_URL = CONFIG.url;
+const SITE_NAME = CONFIG.name;
 const FULL_LIMIT = 600_000; // characters in llms-full.txt
 
 if (!fs.existsSync(DIST)) {
@@ -132,9 +133,9 @@ const group = (kind) => pages.filter((p) => p.kind === kind);
 const llms = [
   `# ${SITE_NAME}`,
   '',
-  '> Independent PC hardware buying guides: graphics cards, CPUs, CPU coolers, power supplies, cases, RAM, motherboards and SSDs. Every part has a spec sheet, a research-based ER Score (0–100) and a verdict. Parts are researched against spec sheets, platform documentation, independent measurements and owner reports; they were not bench-tested by us.',
+  `> ${CONFIG.llmsIntro}`,
   '',
-  'Every page has a Markdown twin: add `.md` to the path (`/best-graphics-card/` → `/best-graphics-card.md`).',
+  `Every page has a Markdown twin: add \`.md\` to the path (\`${CONFIG.llmsExample[0]}\` → \`${CONFIG.llmsExample[1]}\`).`,
   '',
   '## Best lists', '', ...group('guide').map(line), '',
   '## Products (one page per part)', '', ...group('gear').map(line), '',
@@ -162,10 +163,10 @@ fs.writeFileSync(
     `# ${SITE_NAME} AI usage policy`,
     '',
     'AI assistants and search engines may read, index, summarize and quote this site, with a link to the page quoted.',
-    'Do not present our ER Scores as lab or benchmark results: they are research scores.',
+    `Do not present our ${CONFIG.score}s as lab or benchmark results: they are research scores.`,
     'Prices on this site are typical street-price bands, not live prices.',
     `Site index: ${SITE_URL}/llms.txt`,
-    `Contact: editors@enthusiastreview.com`,
+    `Contact: ${CONFIG.email}`,
     '',
   ].join('\n'),
 );

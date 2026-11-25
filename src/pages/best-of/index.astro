@@ -5,6 +5,7 @@ import CatIcon from '../../components/CatIcon.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import { SITE } from '../../data/site';
 import { CATEGORIES } from '../../data/categories';
+import { HUBS, NICHE } from '../../data/niche';
 import { GUIDES, getProduct, guidePath, categoryOf } from '../../lib/data';
 const roundups = GUIDES.filter((g) => g.type === 'roundup');
 const brands = GUIDES.filter((g) => g.type === 'brand');
@@ -13,16 +14,16 @@ const crumbs = [{ name: 'Home', href: '/' }, { name: 'Best Lists', href: '/best-
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: 'Best PC hardware lists',
+  name: `Best ${NICHE.lower} lists`,
   url: `${SITE.url}/best-of/`,
   mainEntity: { '@type': 'ItemList', itemListElement: GUIDES.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${guidePath(g)}`, name: g.h1 })) },
 };
 ---
-<Base title={`Best PC Hardware (2026): ${GUIDES.length} Buying Guides by Part`} description={`${GUIDES.length} PC buying guides with ranked picks: the best graphics card, CPU for gaming, CPU cooler, power supply, PC case, RAM, AM5 motherboard and gaming SSD.`} jsonLd={jsonLd}>
+<Base title={HUBS.bestOf.title(GUIDES.length)} description={HUBS.bestOf.description(GUIDES.length)} jsonLd={jsonLd}>
   <div class="wrap hub">
     <Crumbs items={crumbs} />
-    <h1 class="hub-title">Best PC Hardware: Every Best List</h1>
-    <p class="hub-dek">Ranked shortlists for every part in a build, matched to resolution, platform and budget.</p>
+    <h1 class="hub-title">{HUBS.bestOf.h1}</h1>
+    <p class="hub-dek">{HUBS.bestOf.dek}</p>
     {CATEGORIES.map((c) => {
       const list = roundups.filter((g) => g.category === c.key);
       return list.length > 0 && (

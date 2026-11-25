@@ -5,21 +5,22 @@ import CatIcon from '../../components/CatIcon.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import { SITE } from '../../data/site';
 import { CATEGORIES } from '../../data/categories';
+import { HUBS, NICHE } from '../../data/niche';
 import { PRODUCTS, productsIn, getBrand, productPath, priceBand } from '../../lib/data';
 const crumbs = [{ name: 'Home', href: '/' }, { name: 'All Gear', href: '/gear/' }];
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: 'Every PC part we track',
+  name: `Every ${NICHE.partLower} we track`,
   url: `${SITE.url}/gear/`,
   mainEntity: { '@type': 'ItemList', numberOfItems: PRODUCTS.length, itemListElement: PRODUCTS.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${productPath(p)}`, name: p.name })) },
 };
 ---
-<Base title={`All PC Gear We Track: ${PRODUCTS.length} Parts Rated by ${SITE.score}`} description={`Every one of the ${PRODUCTS.length} PC parts we track, ranked by ${SITE.score} within its category: GPUs, CPUs, coolers, power supplies, cases, RAM, motherboards and SSDs.`} jsonLd={jsonLd}>
+<Base title={HUBS.gear.title(PRODUCTS.length, SITE.score)} description={HUBS.gear.description(PRODUCTS.length, SITE.score)} jsonLd={jsonLd}>
   <div class="wrap hub">
     <Crumbs items={crumbs} />
     <h1 class="hub-title">All Gear</h1>
-    <p class="hub-dek">{PRODUCTS.length} parts, each with a spec sheet, a research-based {SITE.score} and a verdict. Sorted by score within each category.</p>
+    <p class="hub-dek">{PRODUCTS.length} {NICHE.parts}, each with a spec sheet, a research-based {SITE.score} and a verdict. Sorted by score within each category.</p>
     <nav class="chips" aria-label="Categories">{CATEGORIES.map((c) => <a href={`#${c.key}`}>{c.label}</a>)}</nav>
     {CATEGORIES.map((c) => {
       const list = productsIn(c.key);

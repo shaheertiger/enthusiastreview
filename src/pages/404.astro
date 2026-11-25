@@ -1,7 +1,8 @@
 ---
 import Prose from '../components/Prose.astro';
+import { HUBS } from '../data/niche';
 ---
-<Prose title="Page Not Found" h1="Page not found" description="This page does not exist. Browse every PC hardware best list, the parts we track, comparisons and calculators on Enthusiast Review.">
+<Prose title="Page Not Found" h1="Page not found" description={HUBS.notFound}>
   <p>That page does not exist, or it has moved.</p>
   <ul>
     <li><a href="/best-of/">Every best list</a></li>

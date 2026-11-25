@@ -1,16 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
-const tools = [
-  { href: '/tools/bottleneck-calculator/', name: 'PC Bottleneck Calculator', text: 'Will your CPU hold back your GPU at 1080p, 1440p or 4K? Pick the parts and see which one sets the ceiling.' },
-  { href: '/tools/psu-calculator/', name: 'PSU Wattage Calculator', text: 'How many watts your build needs, with 30% headroom for GPU spikes, and the power supplies that fit.' },
-];
+import { HUBS, TOOLS as tools } from '../../data/niche';
 ---
-<Base title="Free PC Building Tools: Bottleneck and PSU Calculators" description="Two free PC building calculators: check whether your CPU bottlenecks your GPU at 1080p to 4K, and work out how many watts of power supply your build needs." >
+<Base title={HUBS.tools.title} description={HUBS.tools.description}>
   <div class="wrap hub">
     <Crumbs items={[{ name: 'Home', href: '/' }, { name: 'Tools', href: '/tools/' }]} />
-    <h1 class="hub-title">PC Building Tools</h1>
-    <p class="hub-dek">Quick calculators for the two questions every build raises.</p>
+    <h1 class="hub-title">{HUBS.tools.h1}</h1>
+    <p class="hub-dek">{HUBS.tools.dek}</p>
     <div class="grid grid-2">{tools.map((t) => <a class="card" href={t.href}><span class="card-k">Calculator</span><h3>{t.name}</h3><span class="card-sub">{t.text}</span></a>)}</div>
   </div>
 </Base>

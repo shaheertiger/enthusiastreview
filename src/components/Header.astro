@@ -5,17 +5,9 @@ import LogoMark from './LogoMark.astro';
 import NavIcon from './NavIcon.astro';
 import { SITE } from '../data/site';
 import { NAV_GROUPS } from '../data/nav';
+import { QUICK_NAV } from '../data/niche';
 const here = Astro.url.pathname;
-const QUICK = [
-  { label: 'Graphics Cards', href: '/best-graphics-card/' },
-  { label: 'CPUs', href: '/best-cpu-for-gaming/' },
-  { label: 'Coolers', href: '/best-cpu-cooler/' },
-  { label: 'Power Supplies', href: '/best-power-supply/' },
-  { label: 'Cases', href: '/best-pc-case/' },
-  { label: 'All Gear', href: '/gear/' },
-  { label: 'Compare', href: '/compare/' },
-  { label: 'Tools', href: '/tools/' },
-];
+const QUICK = QUICK_NAV;
 ---
 <a class="skip" href="#main">Skip to content</a>
 <div class="topbar">
@@ -30,7 +22,7 @@ const QUICK = [
       <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" /></svg>
       <span class="sr-only">Menu</span>
     </button>
-    <a class="logo" href="/" aria-label={`${SITE.name} home`}><LogoMark /><span class="logo-text">Enthusiast<span>Review</span></span></a>
+    <a class="logo" href="/" aria-label={`${SITE.name} home`}><LogoMark /><span class="logo-text">{SITE.logo[0]}<span>{SITE.logo[1]}</span></span></a>
     <a class="search-btn" href="/best-of/">Best Lists</a>
   </div>
 </header>

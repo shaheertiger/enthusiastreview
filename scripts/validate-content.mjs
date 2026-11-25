@@ -11,7 +11,9 @@ const warnings = [];
 const err = (where, msg) => errors.push(`${where}: ${msg}`);
 const warn = (where, msg) => warnings.push(`${where}: ${msg}`);
 
-const CATS = ['gaming-pcs', 'graphics-cards', 'processors', 'cpu-coolers', 'power-supplies', 'pc-cases', 'memory', 'motherboards', 'storage'];
+const CONFIG = read('site.config.json');
+// Category keys, read from src/data/categories.ts so the two lists can never disagree.
+const CATS = [...fs.readFileSync(path.join(ROOT, 'src/data/categories.ts'), 'utf8').matchAll(/\{ key: '([a-z0-9-]+)'/g)].map((m) => m[1]);
 
 // ---- load ---------------------------------------------------------------------------------
 const products = [];
@@ -124,7 +126,7 @@ for (const g of guides) {
   }
   const ids = (g.picks ?? []).map((p) => p.id);
   if (new Set(ids).size !== ids.length) err(w, 'the same product is picked twice');
-  const nums = [...(g.title ?? '').matchAll(/\b(\d+)\s+(?:[A-Z][\w-]*\s+){0,3}?(?:Picks|GPUs|CPUs|Cards|Coolers|Cases|Kits|Boards|Motherboards|SSDs|Drives|PSUs|Units|Models|Supplies|Processors|Options|Ranked)\b/g)].map((m) => +m[1]).filter((x) => x < 30);
+  const nums = [...(g.title ?? '').matchAll(new RegExp(String.raw`\b(\d+)\s+(?:[A-Z][\w-]*\s+){0,3}?(?:${CONFIG.pickNouns})\b`, 'g'))].map((m) => +m[1]).filter((x) => x < 30);
   const n = nums.length ? nums.reduce((a, b) => a + b, 0) : 0;
   if (n && n !== ids.length) warn(w, `title says ${n} but the page has ${ids.length} picks`);
   for (const s of g.tableSpecs ?? []) if (!ids.some((id) => byId.get(id)?.specs?.some(([k]) => k.toLowerCase() === s.toLowerCase()))) warn(w, `tableSpecs "${s}" matches no pick's spec label`);

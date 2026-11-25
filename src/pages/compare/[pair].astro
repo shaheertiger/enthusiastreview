@@ -7,6 +7,7 @@ import BuyButton from '../../components/BuyButton.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
+import { compareEquivalents } from '../../data/niche';
 import { amazonLink } from '../../data/affiliate';
 import { publisherRef, productItemList } from '../../lib/schema';
 import { authorSchema } from '../../data/authors';
@@ -51,10 +52,7 @@ const faqs = [...(c.faqs ?? []), ...genFaqs];
 const more = [...new Map([...comparesFor(a.id), ...comparesFor(b.id)].filter((x) => x !== c).map((x) => [comparePath(x), x])).values()].slice(0, 6);
 // Cross-brand pairs link the equivalents chart first: "<card> NVIDIA equivalent" searches are this
 // site's best search traffic, and the chart answers the same question for every other card.
-const brands = new Set([a.brand, b.brand]);
-const equivSlugs = brands.size < 2 ? [] : a.category === 'graphics-cards'
-  ? [...(brands.has('amd') && brands.has('nvidia') ? ['amd-vs-nvidia-gpu-equivalents'] : []), ...(brands.has('intel') ? ['intel-arc-gpu-equivalents'] : [])]
-  : a.category === 'processors' ? ['intel-vs-amd-cpu-equivalents'] : [];
+const equivSlugs = compareEquivalents(a, b);
 const equivGuides = equivSlugs.map(getGuide).filter((g): g is NonNullable<typeof g> => Boolean(g));
 // Guides built around either part (best GPU for this CPU, best PSU for this card) come right after the chart.
 const builtFor = [...guidesFor(a.id), ...guidesFor(b.id)].map((g) => ({ guide: g }));

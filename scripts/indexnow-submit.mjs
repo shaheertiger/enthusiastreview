@@ -9,14 +9,15 @@
 //                                    build, submit the URLs in the freshly built dist/sitemap.xml;
 //                                    anywhere else (previews, local builds) do nothing. Never
 //                                    fails the build.
-//   INDEXNOW_KEY=<key> SITE_URL=https://www.enthusiastreview.com npm run indexnow
+//   INDEXNOW_KEY=<key> SITE_URL=<site url> npm run indexnow
 //
 // IndexNow verifies ownership by fetching https://<host>/<key>.txt, which lives in /public.
 import fs from 'node:fs';
 import path from 'node:path';
 
-const SITE_URL = (process.env.SITE_URL || 'https://www.enthusiastreview.com').replace(/\/$/, '');
-const KEY = process.env.INDEXNOW_KEY || '7536e59e5b7e4ddbaea97af125d04122';
+const CONFIG = JSON.parse(fs.readFileSync(path.resolve(import.meta.dirname, '../site.config.json'), 'utf8'));
+const SITE_URL = (process.env.SITE_URL || CONFIG.url).replace(/\/$/, '');
+const KEY = process.env.INDEXNOW_KEY || CONFIG.indexnowKey;
 const host = new URL(SITE_URL).host;
 const postbuild = process.argv.includes('--postbuild');
 

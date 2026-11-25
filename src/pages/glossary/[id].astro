@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
 import { SITE } from '../../data/site';
+import { NICHE } from '../../data/niche';
 import { TERMS, getTerm, getGuide, guidesUsingTerm, termPath, guidePath, glossaryUpdated, fmtDate, newCtx, inline, type Term } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -24,7 +25,7 @@ const jsonLd = {
       name: t.term,
       description: t.short,
       url: `${SITE.url}${path}`,
-      inDefinedTermSet: { '@type': 'DefinedTermSet', name: `${SITE.name} PC Hardware Glossary`, url: `${SITE.url}/glossary/` },
+      inDefinedTermSet: { '@type': 'DefinedTermSet', name: `${SITE.name} ${NICHE.title} Glossary`, url: `${SITE.url}/glossary/` },
     },
     { '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: `${SITE.url}${c.href}` })) },
   ],
@@ -34,7 +35,7 @@ const jsonLd = {
   <article class="article">
     <header class="col a-head">
       <Crumbs items={crumbs} />
-      <div class="kicker">PC Hardware Glossary</div>
+      <div class="kicker">{NICHE.title} Glossary</div>
       <h1 class="a-title">{t.title.split(/[?:]/)[0]}{t.title.includes('?') ? '?' : ''}</h1>
       <p class="dek">{t.short}</p>
       <div class="byline">By <a href="/authors/justin-lee/">Justin Lee</a> · Updated <time datetime={updated}>{fmtDate(updated)}</time></div>

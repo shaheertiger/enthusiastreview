@@ -2,21 +2,22 @@
 import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
 import { SITE } from '../../data/site';
+import { HUBS, NICHE } from '../../data/niche';
 import { BRANDS, productsOfBrand, brandPath, productPath, avgScore, categoryOf } from '../../lib/data';
 const rows = BRANDS.map((b) => ({ b, list: productsOfBrand(b.key) })).sort((x, y) => y.list.length - x.list.length || avgScore(y.list) - avgScore(x.list));
 const crumbs = [{ name: 'Home', href: '/' }, { name: 'Brands', href: '/brands/' }];
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: 'PC hardware brands',
+  name: `${NICHE.lower} brands`,
   url: `${SITE.url}/brands/`,
   mainEntity: { '@type': 'ItemList', itemListElement: rows.map((r, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}${brandPath(r.b)}`, name: r.b.name })) },
 };
 ---
-<Base title={`PC Hardware Brands: ${BRANDS.length} Brands Rated by Product Score`} description={`Every PC hardware brand we track, from NVIDIA, AMD and Intel to Corsair, Noctua, Thermalright and Lian Li: each brand's lineup, average ${SITE.score} and best model.`} jsonLd={jsonLd}>
+<Base title={`${NICHE.title} Brands: ${BRANDS.length} Brands Rated by Product Score`} description={HUBS.brands.description(SITE.score)} jsonLd={jsonLd}>
   <div class="wrap hub">
     <Crumbs items={crumbs} />
-    <h1 class="hub-title">PC Hardware Brands</h1>
+    <h1 class="hub-title">{NICHE.title} Brands</h1>
     <p class="hub-dek">Each brand's lineup on this site, its average {SITE.score} and its best-scoring model.</p>
     <div class="brand-grid">
       {rows.map(({ b, list }) => (
