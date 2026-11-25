@@ -1,0 +1,455 @@
+{
+  "slug": "best-gpu-for-ryzen-7-8700f",
+  "type": "roundup",
+  "category": "graphics-cards",
+  "title": "Best GPU for Ryzen 7 8700F (2026): 6 Cards From $250 to 1440p",
+  "h1": "Best GPU for Ryzen 7 8700F",
+  "query": "best gpu for ryzen 7 8700f",
+  "description": "The RX 9070 is the best GPU for a Ryzen 7 8700F: 16 GB and strong 1440p speed for $550–$620 at 220 W. 6 picks from $250, plus what its PCIe 4.0 link means.",
+  "dek": "AMD's eight-core budget AM5 chip has no graphics of its own, half the cache of desktop Ryzen and a narrower PCIe link. These six cards fit it from $250 to high-refresh 1440p.",
+  "intro": [
+    "The Radeon RX 9070 is the best GPU for a Ryzen 7 8700F in 2026. For $550–$620 it brings 16 GB of memory and strong 1440p performance at a 220 W rating, so it runs on a 650 W supply and keeps a budget AM5 build balanced from CPU to power supply.",
+    "This page is for anyone who built or is planning a system around the Ryzen 7 8700F. It is an F chip, so a graphics card is not optional: without one, the PC shows nothing. We matched each card to the resolution where the 8700F keeps it busy, and cover the cache, PCIe link, bottleneck and power questions specific to this chip."
+  ],
+  "quickAnswer": "Buy the RX 9070 ($550–$620) for 1440p. The RTX 5070 ($550–$650) is the NVIDIA pick, with DLSS 4 and better ray tracing. The RTX 5060 Ti 16GB ($430–$480) loses nothing on the 8700F's link. For 1080p, the RX 9060 XT 16GB ($350–$400), or the Arc B580 ($250–$290) under $300. The RX 9070 XT ($600–$730) is the fastest card worth pairing.",
+  "picks": [
+    {
+      "id": "rx-9070",
+      "label": "Best Overall Match",
+      "bestFor": "1440p gaming on a Ryzen 7 8700F build",
+      "skipIf": "you rely on heavy ray tracing or path tracing, where NVIDIA cards hold a clear lead",
+      "writeup": [
+        "The Ryzen 7 8700F games roughly like a Core i5-14400F, per our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/), and independent reviews generally put it level with or a little behind a Ryzen 5 7600 in games. Its 16 MB of L3 cache, half what desktop Ryzen chips carry, sets a sensible ceiling, and the RX 9070 sits just under it at 1440p.",
+        "Independent reviews put the RX 9070 slightly ahead of an RTX 5070 in raster games, and it carries 16 GB of memory against the RTX 5070's 12 GB. At 1440p the graphics card sets the frame rate in most games, so the 8700F's smaller cache costs little. At 1080p in fast esports titles, the CPU becomes the limit sooner than with a 7600, but at frame rates above what most monitors show.",
+        "It is an x16 card, so if your board gives the 8700F a narrower graphics link, it runs at PCIe 4.0 x8. Independent PCIe scaling tests show that costs a card of this class a few percent at most; the PCIe section below explains it.",
+        "Power is the other reason it suits this chip. AMD rates it at 220 W and recommends a 650 W supply, and the 8700F itself runs at a 65 W TDP. For the head-to-head with NVIDIA, see [RTX 5070 vs RX 9070](/compare/rtx-5070-vs-rx-9070/)."
+      ],
+      "pros": [
+        "Slightly faster than an RTX 5070 in raster",
+        "16 GB of VRAM",
+        "220 W; runs on a 650 W supply",
+        "FSR 4"
+      ],
+      "cons": [
+        "Ray tracing behind NVIDIA",
+        "Gives up a little on a narrowed PCIe link"
+      ]
+    },
+    {
+      "id": "rtx-5070",
+      "label": "Best NVIDIA Pick",
+      "bestFor": "1440p gaming with DLSS 4 and stronger ray tracing",
+      "skipIf": "you keep cards five years or more and play texture-heavy games; 12 GB is its limit",
+      "writeup": [
+        "If you want NVIDIA's feature set on an 8700F, the RTX 5070 is the card to buy. It handles high settings at 1440p in most games, and DLSS 4 with multi frame generation stretches it further in the titles that support it. With ray tracing on, it pulls ahead of the RX 9070.",
+        "DLSS suits this CPU in one specific way: frame generation adds displayed frames without asking more of the CPU, which can smooth out CPU-heavy games where the 8700F's cache holds frame rates down, at the cost of some added latency.",
+        "The trade-off is 12 GB of memory, enough for 1440p today but less than the 16 GB on the RX 9070. At 250 W it runs on a 650 W supply. It is an x16 card, so like the RX 9070 it gives up a small amount if your slot runs at x8. Founders Edition cards use a 12V-2x6 connector; many partner cards use standard 8-pin plugs."
+      ],
+      "pros": [
+        "DLSS 4 multi frame generation",
+        "Better ray tracing than the RX 9070",
+        "Runs on a 650 W supply"
+      ],
+      "cons": [
+        "12 GB of VRAM",
+        "RX 9070 is slightly faster in raster"
+      ]
+    },
+    {
+      "id": "rtx-5060-ti-16gb",
+      "label": "Best Link Match",
+      "bestFor": "1080p max settings and entry 1440p with DLSS 4, at no link penalty",
+      "skipIf": "you can stretch to an RX 9070 or RTX 5070 for 1440p at high settings",
+      "writeup": [
+        "The RTX 5060 Ti 16GB is the card that fits the 8700F's PCIe situation most neatly. It only uses eight lanes, so on this chip it runs at PCIe 4.0 x8, which is exactly what it gets on any PCIe 4.0 board with a Ryzen 5 7600. Whatever width your board gives the 8700F's graphics slot, this card loses nothing extra.",
+        "It is a strong 1080p card at high to maximum settings and a capable entry 1440p card, especially with DLSS 4 and multi frame generation in supported games. At 180 W it runs comfortably on a quality 650 W supply, and most models need a single 8-pin connector.",
+        "Make sure you buy the 16 GB version. The 8 GB model costs less but runs out of memory in some recent games at high settings, and when that happens the card pulls data over the PCIe link, where an x8 connection makes the slowdown worse. Our [RTX 5060 Ti 8GB vs 16GB comparison](/compare/rtx-5060-ti-8gb-vs-rtx-5060-ti-16gb/) explains where it shows. Against the RX 9060 XT 16GB, see [RTX 5060 Ti 16GB vs RX 9060 XT 16GB](/compare/rtx-5060-ti-16gb-vs-rx-9060-xt-16gb/)."
+      ],
+      "pros": [
+        "No extra loss on the 8700F's link",
+        "16 GB of VRAM",
+        "DLSS 4 multi frame generation",
+        "180 W; efficient"
+      ],
+      "cons": [
+        "Costs more than the RX 9060 XT 16GB for a small raster gain",
+        "Not a high-settings 1440p card in the newest games"
+      ]
+    },
+    {
+      "id": "rx-9060-xt-16gb",
+      "label": "Best for 1080p",
+      "bestFor": "budget 1080p high-refresh builds that may upgrade later",
+      "skipIf": "you play at 1440p with high settings; step up to an RX 9070 or RTX 5070",
+      "writeup": [
+        "Most 8700F builds are budget builds, and for 1080p the RX 9060 XT 16GB is the card that fits. For $350–$400 it gives high settings at that resolution and 16 GB of memory, so texture settings that 8 GB cards struggle with are not a problem.",
+        "One correction to a common assumption: the RX 9060 XT is an x16 card, not an x8 card. On an 8700F with a narrowed graphics slot it runs at PCIe 4.0 x8, and for a card of this speed with 16 GB of memory, independent PCIe tests show that costs little. The 8 GB version is the one to avoid on a narrow link, for the memory reason above.",
+        "At this level the graphics card sets the frame rate in nearly every game, so the 8700F will not hold it back. At around 160–180 W it runs on a 550–650 W supply, which keeps the whole build modest on power and heat. Our [best graphics cards under $400](/best-graphics-card-under-400/) lists more options at this price."
+      ],
+      "pros": [
+        "16 GB at a budget price",
+        "Efficient",
+        "FSR 4",
+        "CPU never the limit at 1080p"
+      ],
+      "cons": [
+        "A 1080p card at heart",
+        "Weaker ray tracing than NVIDIA"
+      ]
+    },
+    {
+      "id": "arc-b580",
+      "label": "Best Under $300",
+      "bestFor": "the lowest-cost card that still runs recent games well at 1080p",
+      "skipIf": "you play older DirectX 11 or CPU-heavy games, where Radeon and GeForce drivers are more consistent",
+      "writeup": [
+        "The Arc B580 is the cheapest sensible card for an 8700F. For $250–$290 it gives 12 GB of memory, more than the 8 GB on rival cards at this price, and it handles recent games at 1080p with medium to high settings. Like the RTX 5060 Ti, it is a PCIe 4.0 x8 card, so the 8700F's link costs it nothing.",
+        "Intel's cards need Resizable BAR to perform properly. Every AM5 board supports it, but some ship with it off, so enable Above 4G Decoding and Resizable BAR in the BIOS before installing the driver.",
+        "The Arc B580 was widely reported to lose more performance on slower CPUs than rival cards, because its driver asks more of the processor. A Zen 4 chip like the 8700F is far less affected than older six-cores such as the Ryzen 5 2600 or 3600, but in CPU-heavy games the RX 9060 XT 16GB is the safer choice if you can spend about $100 more. See [Arc B580 vs RX 9060 XT 16GB](/compare/arc-b580-vs-rx-9060-xt-16gb/) for the full trade-off."
+      ],
+      "pros": [
+        "12 GB at under $300",
+        "No extra loss on the 8700F's link",
+        "XeSS upscaling"
+      ],
+      "cons": [
+        "Driver overhead in CPU-heavy games",
+        "Needs Resizable BAR enabled"
+      ]
+    },
+    {
+      "id": "rx-9070-xt",
+      "label": "Best High-End Match",
+      "bestFor": "the most GPU an 8700F can sensibly drive at 1440p, and entry 4K",
+      "skipIf": "you play mostly at 1080p, where the 8700F and this card's speed are badly mismatched",
+      "writeup": [
+        "The RX 9070 XT is the fastest card that still makes sense with a Ryzen 7 8700F, and only at 1440p or 4K. In raster games independent reviews put it close to an RTX 5070 Ti, and at those resolutions the graphics card is still the main limit in most titles.",
+        "It is also where the 8700F's two weak points add up: its 16 MB of cache caps frame rates in CPU-heavy games sooner than a Ryzen 7 9700X would, and the card gives up a little on an x8 link. Above this level, spend on a CPU upgrade instead; a [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) drops into the same board.",
+        "Plan for its power: AMD rates it at 304 W and partner cards often run higher, so use a quality 750 W supply. Its 16 GB of memory and FSR 4 make it a card you can keep when you upgrade the CPU. For the step down, see [RX 9070 vs RX 9070 XT](/compare/rx-9070-vs-rx-9070-xt/)."
+      ],
+      "pros": [
+        "RTX 5070 Ti-class raster",
+        "16 GB of VRAM",
+        "Keeps its value after a CPU upgrade"
+      ],
+      "cons": [
+        "About 304 W; needs a 750 W supply",
+        "CPU-limited at 1080p",
+        "Gives up a little on a narrowed PCIe link"
+      ]
+    }
+  ],
+  "tableSpecs": [
+    "VRAM",
+    "PCIe interface",
+    "Board power",
+    "Recommended PSU"
+  ],
+  "ranking": {
+    "intro": "These picks combine manufacturer specifications, published reviews of the Ryzen 7 8700F and other Zen 4 chips, independent PCIe scaling tests, and owner reports from AM5 builds. None of these pairings were bench-tested by Enthusiast Review; statements about where the 8700F limits a card reflect what independent reviewers have widely reported.",
+    "criteria": [
+      [
+        "Resolution fit",
+        "We matched each pick to the resolution where the 8700F keeps it fully busy, so you do not pay for performance its smaller cache cannot use."
+      ],
+      [
+        "Link fit",
+        "Cards that lose nothing on the 8700F's PCIe 4.0 link, or very little, ranked above cards that would give up more."
+      ],
+      [
+        "Budget balance",
+        "The 8700F is a budget chip. Cards that keep the whole build sensible, including the power supply, ranked above faster cards that need a bigger PSU."
+      ],
+      [
+        "Memory",
+        "Cards with 16 GB ranked above 8 GB and 12 GB alternatives at similar speed, since running out of memory hurts more on a narrow link."
+      ],
+      [
+        "Value and features",
+        "Raster performance per dollar counted most, with ray tracing, DLSS 4, FSR 4 and XeSS counted for buyers who will use them."
+      ]
+    ],
+    "why": "The RX 9070 won because it gives 16 GB and slightly better raster speed than an RTX 5070, stays GPU-limited with an 8700F at 1440p, and runs on a 650 W supply."
+  },
+  "mentions": [
+    {
+      "id": "rtx-5070-ti",
+      "text": "The RTX 5070 Ti is a great card, but on an 8700F it only stretches its legs at 4K or with heavy ray tracing. At 1440p the RX 9070 XT gets most of the way for less, and both lose a little on a narrowed link, so the difference is better spent on a CPU upgrade later."
+    },
+    {
+      "id": "rtx-5060",
+      "text": "The RTX 5060 is a fine 1080p card for $300–$330, and as an x8 card it loses nothing on the 8700F's link. Its 8 GB of memory is the catch: when recent games at high settings run short, data spills over the PCIe link, which is why the 16 GB RX 9060 XT gets the 1080p spot."
+    },
+    {
+      "id": "ryzen-5-7600",
+      "text": "If you have not bought the CPU yet, the Ryzen 5 7600 is the better gaming chip for similar money. It has twice the L3 cache, PCIe 5.0 support and integrated graphics for troubleshooting, and every card on this page suits it too."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Will a Ryzen 7 8700F Bottleneck Your GPU?",
+      "body": [
+        "Not at 1440p with anything up to about an RX 9070 XT, and rarely at 4K. At those resolutions the graphics card sets the frame rate in most games, so the [Ryzen 7 8700F](/gear/ryzen-7-8700f/) is seldom the limit. At 1080p the balance tips toward the CPU sooner than with a Ryzen 5 7600: around RX 9070 or RTX 5070 level, the 8700F starts to cap frame rates in fast esports and CPU-heavy games, though usually at frame rates above what most monitors display.",
+        "A little CPU limit at 1080p with a fast card is normal. What you want to avoid is spending a lot on a card the CPU leaves idle much of the time. Our [bottleneck calculator](/tools/bottleneck-calculator/) shows the balance for any pairing, and the [CPU bottleneck](/glossary/cpu-bottleneck/) entry explains how to spot one."
+      ],
+      "table": {
+        "caption": "Highest sensible GPU for a Ryzen 7 8700F by resolution",
+        "head": [
+          "Resolution",
+          "Sweet spot",
+          "Highest sensible card",
+          "Beyond that"
+        ],
+        "rows": [
+          [
+            "1080p",
+            "RX 9060 XT 16GB, RTX 5060 Ti 16GB",
+            "RX 9070 or RTX 5070",
+            "CPU limits frame rates in fast games"
+          ],
+          [
+            "1440p",
+            "RX 9070, RTX 5070",
+            "RX 9070 XT",
+            "A faster CPU gains more than a faster card"
+          ],
+          [
+            "4K",
+            "RX 9070 XT",
+            "RTX 5070 Ti",
+            "Upgrade the CPU before going higher"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "What CPU Is the Ryzen 7 8700F Comparable To?",
+      "body": [
+        "In games, the Ryzen 5 7600 and Intel's Core i5-14400F. The 8700F is a Zen 4 chip built from AMD's Phoenix laptop silicon with the integrated graphics turned off. It has eight cores and 16 threads, but only 16 MB of L3 cache, half of what desktop Ryzen 7000 and 9000 chips carry. Independent reviews generally show it level with or a little behind the six-core 7600 in games, while its two extra cores help in threaded work such as compiling, streaming and video export.",
+        "For GPU shopping, treat the 8700F like a Ryzen 5 7600, not like a Ryzen 7 9700X, which is the full-cache eight-core step up. Our [Intel vs AMD CPU equivalents chart](/intel-vs-amd-cpu-equivalents/) places it against every Intel chip since 10th gen."
+      ],
+      "table": {
+        "caption": "Ryzen 7 8700F against its nearest AM5 alternatives",
+        "head": [
+          "Spec",
+          "Ryzen 7 8700F",
+          "Ryzen 5 7600",
+          "Ryzen 7 9700X"
+        ],
+        "rows": [
+          [
+            "Cores / threads",
+            "8 / 16",
+            "6 / 12",
+            "8 / 16"
+          ],
+          [
+            "L3 cache",
+            "16 MB",
+            "32 MB",
+            "32 MB"
+          ],
+          [
+            "Boost clock",
+            "5.0 GHz",
+            "5.1 GHz",
+            "5.5 GHz"
+          ],
+          [
+            "TDP",
+            "65 W",
+            "65 W",
+            "65 W"
+          ],
+          [
+            "PCIe",
+            "4.0 only",
+            "5.0",
+            "5.0"
+          ],
+          [
+            "Integrated graphics",
+            "None",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Gaming level",
+            "Near a Ryzen 5 7600",
+            "Baseline",
+            "Faster"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Does the 8700F's PCIe Link Hold Back Your Graphics Card?",
+      "body": [
+        "Only slightly, and not at all for x8 cards. The 8700F supports PCIe 4.0 only, and because it comes from laptop silicon, it has fewer PCIe lanes than a desktop Ryzen 7000 or 9000 chip. On AM5 boards, that means the main graphics slot does not get the full x16 link those chips give it; board manuals typically list x8 for 8700-class Ryzen 8000 chips. Your board's manual lists the slot width for each CPU family, so check it for your exact setup.",
+        "For x8 cards, this changes nothing. The RTX 5060, RTX 5060 Ti and Arc B580 only use eight lanes anyway, so on an 8700F they run at PCIe 4.0 x8, the same link they get on any PCIe 4.0 board with a Ryzen 5 7600. The RX 9060 XT is often lumped in with them, but it is an x16 card.",
+        "For x16 cards such as the RX 9060 XT, RX 9070, RTX 5070 and RX 9070 XT, a narrowed slot means PCIe 4.0 x8. Independent PCIe scaling tests of fast cards show that costs a small amount in most games, a few percent at most, so it is no reason to avoid them. It does tilt value toward not overspending at the top, and toward 16 GB cards: an 8 GB card that runs out of memory leans on the PCIe link, and a narrow link makes that slowdown worse."
+      ],
+      "table": {
+        "caption": "Each pick on a Ryzen 7 8700F system",
+        "head": [
+          "Card",
+          "Best resolution",
+          "VRAM",
+          "Card's link",
+          "On an x8 slot",
+          "Suggested PSU"
+        ],
+        "rows": [
+          [
+            "RX 9070",
+            "1440p",
+            "16 GB",
+            "x16",
+            "Small loss",
+            "650 W"
+          ],
+          [
+            "RTX 5070",
+            "1440p",
+            "12 GB",
+            "x16",
+            "Small loss",
+            "650 W"
+          ],
+          [
+            "RTX 5060 Ti 16GB",
+            "1080p to entry 1440p",
+            "16 GB",
+            "x8",
+            "No change",
+            "650 W"
+          ],
+          [
+            "RX 9060 XT 16GB",
+            "1080p",
+            "16 GB",
+            "x16",
+            "Little or no loss",
+            "550–650 W"
+          ],
+          [
+            "Arc B580",
+            "1080p",
+            "12 GB",
+            "x8",
+            "No change",
+            "550–650 W"
+          ],
+          [
+            "RX 9070 XT",
+            "1440p to entry 4K",
+            "16 GB",
+            "x16",
+            "Small loss",
+            "750 W"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Why Does the 8700F's Smaller Cache Matter for GPU Choice?",
+      "body": [
+        "Because games lean on cache far more than most other software. L3 cache holds the data the CPU needs next, and when a game's working set does not fit, the cores wait on system memory. With 16 MB instead of 32 MB, the 8700F hits that wall sooner, which is why eight cores do not make it faster than a six-core 7600 in games.",
+        "The practical effect is that the CPU limit arrives a little earlier, so the most expensive card worth buying is a step lower than the core count suggests. It also explains why X3D chips are the upgrade that matters for gaming on AM5; see [3D V-Cache](/glossary/3d-v-cache/). AMD rates the 8700F for DDR5-5200 and many systems run DDR5-6000, but DDR5 prices have risen sharply since late 2025, so do not overspend on memory."
+      ]
+    },
+    {
+      "h": "What Is the Best Budget GPU for a Ryzen 7 8700F?",
+      "body": [
+        "The RX 9060 XT 16GB. At $350–$400 it gives high settings at 1080p with 16 GB of memory, and the 8700F keeps it fully busy. If your budget is closer to $250 to $300, the Arc B580 is the pick, with 12 GB and an x8 link that loses nothing on this chip. The RTX 5060 is the NVIDIA option at $300–$330, with DLSS 4 but only 8 GB.",
+        "Avoid going much lower. With no integrated graphics, the card you buy is the PC's only display output, and older 8 GB cards such as the RX 6600 age fast. Our [best graphics cards under $300](/best-graphics-card-under-300/) lists more options."
+      ]
+    },
+    {
+      "h": "Do You Need a New PSU for These Cards?",
+      "body": [
+        "Size the supply to the card, because the 8700F is frugal: AMD rates it at a 65 W TDP. The graphics card is the large and variable load.",
+        "Use the manufacturer's recommendation as a floor: 650 W for an RX 9070 or RTX 5070, and 750 W for an RX 9070 XT. The RX 9060 XT 16GB, RTX 5060 Ti 16GB and Arc B580 run comfortably on a quality 550 to 650 W unit. Our [PSU calculator](/tools/psu-calculator/) adds up a full build, our [best PSU for RTX 5060 Ti](/best-psu-for-rtx-5060-ti/) guide covers the efficient cards, and [best PSU for RX 9070 XT](/best-psu-for-rx-9070-xt/) covers the top pick."
+      ]
+    },
+    {
+      "h": "Should You Upgrade the CPU Instead?",
+      "body": [
+        "Not for anything up to an RX 9070 at 1440p. Putting the money into the graphics card gives more frames at that level, and AM5 lets you add a faster CPU later without changing the board or memory.",
+        "Past that, yes. If you want an RX 9070 XT or faster card to reach its potential at 1440p, the 8700F's cache becomes the limit, and the [Ryzen 7 9800X3D](/gear/ryzen-7-9800x3d/) is the upgrade that matters most for gaming. A [Ryzen 5 7600](/gear/ryzen-5-7600/) is a sideways move in games, so only consider it if you are building from scratch. Whatever you choose, the 8700F needs a BIOS that supports Ryzen 8000-series chips; a board with BIOS Flashback, covered in our [best AM5 motherboard guide](/best-am5-motherboard/), avoids a black screen on first boot."
+      ]
+    }
+  ],
+  "mistakes": [
+    [
+      "Treating it like a full Ryzen 7",
+      "The 8700F has eight cores but half the cache of a Ryzen 7 7700 or 9700X, and games behave more like a Ryzen 5 7600. Budget for the card a 7600 would get, not the card a high-end Ryzen 7 would."
+    ],
+    [
+      "Buying an 8 GB card for a narrow link",
+      "On an 8700F, cards run at PCIe 4.0, often at x8. When an 8 GB card runs out of memory, it pulls data over that link and stutters more. A 16 GB RX 9060 XT or RTX 5060 Ti avoids the problem."
+    ],
+    [
+      "Pairing a flagship card with a budget CPU",
+      "Outside 4K at maximum settings, an 8700F leaves an RTX 5080 or RTX 5090 waiting. The same money buys an RX 9070 XT now and a Ryzen 7 9800X3D upgrade later."
+    ],
+    [
+      "Forgetting the BIOS on an F chip",
+      "With no integrated graphics, a board with an old BIOS gives you a black screen and no clue why. Check the board supports Ryzen 8000-series chips, or buy one with BIOS Flashback."
+    ],
+    [
+      "Leaving Resizable BAR off",
+      "AM5 supports it, but some boards ship with it disabled. Turn on Above 4G Decoding and Resizable BAR in the BIOS; the Arc B580 in particular needs it to perform properly."
+    ]
+  ],
+  "bottomLine": "For a Ryzen 7 8700F, the RX 9070 is the card to buy in 2026: 16 GB, slightly faster than an RTX 5070 in raster, GPU-limited at 1440p and fine on a 650 W supply. Choose the RTX 5070 for DLSS 4 and ray tracing, the RTX 5060 Ti 16GB for a card that loses nothing on the 8700F's link, the RX 9060 XT 16GB or Arc B580 for budget 1080p, and the RX 9070 XT as the ceiling. Past that, upgrade the CPU first.",
+  "faqs": [
+    {
+      "q": "What is the best GPU for a Ryzen 7 8700F?",
+      "a": "The RX 9070 for 1440p. It has 16 GB of memory, is slightly faster than an RTX 5070 in raster games and runs on a 650 W supply. The RTX 5070 is the best NVIDIA option, the RX 9060 XT 16GB the best for 1080p, and the Arc B580 the pick under $300."
+    },
+    {
+      "q": "What other CPU is the Ryzen 7 8700F comparable to?",
+      "a": "In games, the Ryzen 5 7600 and Intel's Core i5-14400F. Independent reviews generally show the 8700F level with or a little behind the 7600, because it has half the L3 cache. In threaded work its eight cores put it ahead of six-core chips, but the Ryzen 7 9700X is faster in both."
+    },
+    {
+      "q": "Is the AMD Ryzen 7 8700F good for gaming?",
+      "a": "Yes, as a budget chip. It keeps mid-range cards like the RX 9070 and RTX 5070 busy at 1440p. Its 16 MB of cache holds it to roughly Ryzen 5 7600 level in games, so if gaming is the priority and you have not bought it yet, the 7600 is usually the better value."
+    },
+    {
+      "q": "Does the Ryzen 7 8700F limit PCIe bandwidth for the GPU?",
+      "a": "A little. It supports PCIe 4.0 only and has fewer lanes than desktop Ryzen 7000 and 9000 chips, so the graphics slot does not get a full x16 link; check your board's manual for the width. Native x8 cards like the RTX 5060 Ti lose nothing, and x16 cards give up only a small amount."
+    },
+    {
+      "q": "Is the Ryzen 7 8700F good for BRM5?",
+      "a": "Yes. Blackhawk Rescue Mission 5 is a Roblox game, and Roblox games lean on the CPU's main thread more than on the graphics card. The 8700F's modern Zen 4 cores handle that well, and any card on this page, even the Arc B580, is plenty at 1080p. If frame rates dip in busy areas, lowering Roblox's graphics quality setting helps more than a faster card."
+    },
+    {
+      "q": "Will a Ryzen 7 8700F bottleneck an RX 9070 XT?",
+      "a": "Somewhat, mainly at 1080p and in CPU-heavy games. At 1440p and 4K the RX 9070 XT is still the main limit in most titles. It is the most powerful card we suggest for an 8700F, and above it a CPU upgrade is the better use of money."
+    },
+    {
+      "q": "Does the Ryzen 7 8700F need a graphics card?",
+      "a": "Yes. The F means its integrated graphics are disabled, so the motherboard's video outputs do not work and you need a graphics card to get any display at all, including to enter the BIOS."
+    },
+    {
+      "q": "What PSU do I need for a Ryzen 7 8700F and RX 9070?",
+      "a": "A quality 650 W supply, which is AMD's recommendation for the RX 9070. The 8700F's 65 W TDP adds little. Step up to 750 W for an RX 9070 XT, and use our PSU calculator to check your full build."
+    }
+  ],
+  "sources": [
+    "AMD Ryzen 7 8700F product specifications",
+    "AMD AM5 chipset specifications and Smart Access Memory documentation",
+    "AM5 motherboard manuals listing graphics slot width by CPU family",
+    "AMD Radeon RX 9070, RX 9070 XT and RX 9060 XT product pages and power recommendations",
+    "NVIDIA GeForce RTX 5070 and RTX 5060 Ti and Intel Arc B580 product pages",
+    "Published Ryzen 8000-series CPU reviews and PCIe scaling tests from TechPowerUp and Hardware Unboxed",
+    "Owner reports from AM5 builds on enthusiast forums"
+  ],
+  "related": [
+    "best-gpu-for-ryzen-5-7600",
+    "best-gpu-for-ryzen-5-9600x",
+    "best-am5-motherboard",
+    "best-graphics-card-under-400"
+  ]
+}

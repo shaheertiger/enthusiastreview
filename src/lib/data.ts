@@ -457,3 +457,67 @@ export function compareDiffs(a: Product, b: Product): { h: string; text: string 
   }
   return out.slice(0, 6);
 }
+
+// ---------------------------------------------------------------------------
+// Interlinking: series and subjects.
+// The best-performing pages here (the equivalents charts) all link every sibling in their series.
+// These helpers give every other page family the same block, and tie together pages built
+// around the same part (best GPU / RAM / cooler / motherboard for the 9800X3D, best PSU for the
+// RTX 5070, its compare pages and its /gear/ page).
+
+export interface Series {
+  key: string;
+  heading: string;
+  re: RegExp;
+  hub?: { href: string; text: string };
+}
+export const SERIES: Series[] = [
+  { key: 'equivalents', heading: 'More Equivalents Charts', re: /-equivalents?$/, hub: { href: '/equivalents/', text: 'Every GPU and CPU equivalents chart' } },
+  { key: 'gpu-for', heading: 'Best GPU for Other CPUs', re: /^best-gpu-for-(?!ai$)/, hub: { href: '/tools/bottleneck-calculator/', text: 'Bottleneck calculator: check any CPU and GPU pair' } },
+  { key: 'psu-for', heading: 'Best PSU for Other Graphics Cards', re: /^best-psu-for-/, hub: { href: '/tools/psu-calculator/', text: 'PSU calculator: wattage for any build' } },
+  { key: 'cooler-for', heading: 'Best CPU Cooler for Other CPUs', re: /^best-cpu-cooler-for-/, hub: { href: '/best-cpu-cooler/', text: 'Best CPU cooler for any build' } },
+  { key: 'board-for', heading: 'Best Motherboard for Other CPUs', re: /^best-motherboard-for-/, hub: { href: '/best-am5-motherboard/', text: 'Best AM5 motherboard' } },
+  { key: 'ram-for', heading: 'Best RAM for Other CPUs', re: /^best-ram-for-(?!gaming$)/, hub: { href: '/best-ram-for-gaming/', text: 'Best RAM for gaming' } },
+  { key: 'bios', heading: 'More BIOS Guides by Brand', re: /^how-to-(update|enter)-[a-z]+-bios$|^asrock-secure-boot$/ },
+  { key: 'rgb', heading: 'RGB Software for Other Brands', re: /-rgb-(fusion-)?software$/ },
+  { key: 'drivers', heading: 'More Driver and GPU Software Guides', re: /^how-to-update-[a-z-]+-drivers$|^how-to-turn-off-nvidia-overlay$|^nvidia-(?!vs-)|^amd-software-|^how-to-check-what-graphics-card|^zotac-firestorm$/ },
+  { key: 'gpu-buying', heading: 'Graphics Cards by Budget and Brand', re: /^best-(graphics-card(-under-\d+|-for-1440p)?|budget-graphics-card|nvidia-graphics-card|amd-graphics-card)$|^how-much-does-a-graphics-card-cost$|^black-friday-gpu-deals$|^nvidia-vs-amd$|^best-gpu-for-ai$/ },
+  { key: 'gaming-pc', heading: 'More Gaming PC Buying Guides', re: /gaming-pc|prebuilt|^is-(cyberpowerpc|ibuypower)-good$|^cyberpowerpc-vs-ibuypower$/ },
+  { key: 'brands', heading: 'Is It a Good Brand? More Brand Reviews', re: /^is-[a-z]+-a-good(-gpu)?-brand$|-review$|^best-graphics-card-brands$|^graphics-card-warranty-by-brand$/ },
+  { key: 'cpu-buying', heading: 'More CPU Buying Guides', re: /^best-(cpu-for-gaming|amd-cpu-for-gaming|am5-motherboard)$|^amd-vs-intel$/ },
+];
+
+/** The series a guide belongs to (first match) and its other members. */
+const seriesKey = (slug: string) => SERIES.find((s) => s.re.test(slug));
+export function seriesOf(g: Guide): { series: Series; items: Guide[] } | undefined {
+  const series = seriesKey(g.slug);
+  if (!series) return undefined;
+  const items = GUIDES.filter((x) => x.slug !== g.slug && !x.noindex && seriesKey(x.slug) === series);
+  return items.length ? { series, items } : undefined;
+}
+
+/** Parts a "best <x> for <part>" guide is built around: best-cpu-cooler-for-ryzen-9-3900x-and-3950x → both CPUs. */
+export function subjectKeys(slug: string): string[] {
+  const m = slug.match(/^best-(?:gpu|psu|cpu-cooler|motherboard|ram)-for-(.+)$/);
+  if (!m || m[1] === 'ai') return [];
+  const [first, ...rest] = m[1].split('-and-');
+  return [first, ...rest.map((x) => (/^\d/.test(x) ? first.replace(/[^-]+$/, '') + x : x))];
+}
+
+/** Other guides built around the same part (different series), e.g. every 9800X3D build guide. */
+export function sameSubject(g: Guide): Guide[] {
+  const keys = subjectKeys(g.slug);
+  if (!keys.length) return [];
+  const own = seriesOf(g)?.series.key;
+  return GUIDES.filter((x) => x.slug !== g.slug && !x.noindex && subjectKeys(x.slug).some((k) => keys.includes(k)) && seriesKey(x.slug)?.key !== own);
+}
+
+/** Guides built around this part: best GPU / RAM / cooler / motherboard for a CPU, best PSU for a GPU. */
+export const guidesFor = (id: string) => GUIDES.filter((g) => !g.noindex && subjectKeys(g.slug).includes(id));
+
+/** The equivalents chart that maps this part to its rivals. */
+export function equivalentsFor(p: Product): Guide | undefined {
+  const slug = p.category === 'graphics-cards' ? (p.brand === 'intel' ? 'intel-arc-gpu-equivalents' : 'amd-vs-nvidia-gpu-equivalents')
+    : p.category === 'processors' ? 'intel-vs-amd-cpu-equivalents' : undefined;
+  return slug ? getGuide(slug) : undefined;
+}
