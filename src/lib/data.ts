@@ -108,6 +108,8 @@ export interface Guide {
   related?: string[];
   about?: string[];
   published?: string;
+  /** Last content change, used only when git has no date for the file (e.g. a bulk migration). */
+  updated?: string;
   noindex?: boolean;
 }
 
@@ -226,7 +228,7 @@ export const comparesFor = (id: string) => COMPARES.filter((c) => c.a === id || 
 
 const LAUNCH = SITE.launch;
 const gitDate = (key: string) => gitDates[key];
-export const guideUpdated = (g: Guide) => gitDate(`guides/${g.slug}`) ?? LAUNCH;
+export const guideUpdated = (g: Guide) => gitDate(`guides/${g.slug}`) ?? g.updated ?? LAUNCH;
 export const guidePublished = (g: Guide) => g.published ?? LAUNCH;
 export const productUpdated = (p: Product) => gitDate(`products/${p.category}`) ?? LAUNCH;
 export const compareUpdated = () => gitDate('compares') ?? LAUNCH;
