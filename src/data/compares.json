@@ -2578,5 +2578,669 @@
         "a": "Yes. NVIDIA recommends 750 W for the RTX 5070 Ti, which the RM750e meets."
       }
     ]
+  },
+  {
+    "a": "rx-9070",
+    "b": "rtx-5080",
+    "title": "RX 9070 vs RTX 5080 (2026): Is the 5080 Worth $450 More?",
+    "description": "The RTX 5080 is roughly 30% faster than the RX 9070 with stronger ray tracing, but costs $450 to $700 more. Both have 16 GB; the 9070 is the 1440p value pick.",
+    "quick": "Pick the RX 9070 for 1440p at the lowest cost: 16 GB, a 220 W rating and a 650 W PSU for $550 to $620. Pick the RTX 5080 if you play at 4K with ray tracing or path tracing and want DLSS 4 Multi Frame Generation, and the extra $450 to $700 for roughly 30% more speed is not the constraint.",
+    "differ": [
+      [
+        "How much faster is the RTX 5080?",
+        "Roughly 30% in raster games, going by independent reviews that put the RX 9070 XT about 15 to 20% behind the 5080 and the RX 9070 another 10 to 15% behind the XT. With heavy ray tracing or path tracing the gap grows. Both have 16 GB on a 256-bit bus, so memory is a tie."
+      ],
+      [
+        "Is the price gap worth it?",
+        "For 1440p, no. At $1,000 to $1,300 against $550 to $620, the RTX 5080 costs close to twice as much for roughly 30% more speed. If you are between these two, the RX 9070 XT at $600 to $730 closes about half the gap for a fraction of the extra money."
+      ],
+      [
+        "What power supply does each need?",
+        "AMD rates the RX 9070 at 220 W and recommends 650 W. NVIDIA rates the RTX 5080 at 360 W and recommends 850 W, so an older 650 W unit means a new PSU too. Most RX 9070 cards use two 8-pin plugs; the RTX 5080 uses the 16-pin 12V-2x6 connector."
+      ]
+    ],
+    "buyA": [
+      "You play at 1440p and want 16 GB for $550 to $620",
+      "Your PSU is a quality 650 W unit you want to keep",
+      "You would rather spend the $450 saved on a faster CPU"
+    ],
+    "buyB": [
+      "You play at 4K with ray tracing or path tracing",
+      "You want DLSS 4 Multi Frame Generation",
+      "You have, or will buy, an 850 W power supply"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RX 9070 as good as an RTX 5080?",
+        "a": "No. It is roughly 30% slower in raster games and further behind in ray tracing, but it costs $450 to $700 less and has the same 16 GB of VRAM."
+      },
+      {
+        "q": "Should I get the RX 9070 or RX 9070 XT against an RTX 5080?",
+        "a": "The RX 9070 XT, if it is within $50 to $80 of the RX 9070. It is about 10 to 15% faster and narrows the gap to the 5080. See our [RX 9070 XT vs RTX 5080](/compare/rx-9070-xt-vs-rtx-5080/) page."
+      }
+    ]
+  },
+  {
+    "a": "rtx-5070",
+    "b": "rtx-5080",
+    "title": "RTX 5070 vs RTX 5080 (2026): Is the Tier Upgrade Worth It?",
+    "description": "The RTX 5080 is about 35 to 45% faster than the RTX 5070 and has 16 GB instead of 12 GB, but costs $450 to $650 more. The 5070 is the 1440p value pick.",
+    "quick": "Pick the RTX 5070 for 1440p: $550 to $650, 250 W, a 650 W PSU and DLSS 4 Multi Frame Generation. Pick the RTX 5080 for 4K or high-refresh 1440p with ray tracing: it is about 35 to 45% faster and has 16 GB, but costs $1,000 to $1,300 and needs an 850 W PSU.",
+    "differ": [
+      [
+        "How much faster is the RTX 5080?",
+        "Independent reviews put the RTX 5080 about 35 to 45% ahead of the RTX 5070, with the larger gap at 4K. It has 10,752 CUDA cores against 6,144 and a 256-bit bus against 192-bit. Both have GDDR7 and the same DLSS 4 feature set, including Multi Frame Generation."
+      ],
+      [
+        "Does 12 GB or 16 GB matter?",
+        "At 1440p, 12 GB covers almost every current game; a few new releases at maximum textures push past it. At 4K, or if you keep cards four or five years, the RTX 5080's 16 GB is the safer amount. If 16 GB is the main reason to step up, the RTX 5070 Ti at $750 to $900 has it for much less."
+      ],
+      [
+        "What power supply does each need?",
+        "NVIDIA rates the RTX 5070 at 250 W with a 650 W recommendation, and the RTX 5080 at 360 W with 850 W. If you have a 650 W unit, the 5070 is a drop-in upgrade; the 5080 likely adds a new PSU to its cost. Both use the 16-pin 12V-2x6 connector on Founders Edition cards."
+      ]
+    ],
+    "buyA": [
+      "You play at 1440p and want DLSS 4 for $550 to $650",
+      "Your current 650 W power supply should stay",
+      "You upgrade every two or three years"
+    ],
+    "buyB": [
+      "You play at 4K or high-refresh 1440p with ray tracing",
+      "You want 16 GB for a card you will keep for years",
+      "You want the fastest card short of an RTX 5090"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RTX 5080 worth it over the RTX 5070?",
+        "a": "Only for 4K or heavy ray tracing. It is about 35 to 45% faster but costs close to twice as much. For 1440p, the RTX 5070 or RTX 5070 Ti is better value."
+      },
+      {
+        "q": "Is the RTX 5070 a good upgrade from an RTX 4070?",
+        "a": "It is a small one. The RTX 5070 is around 20% faster with the same 12 GB. A 4070 owner gets a bigger jump from an RTX 5070 Ti or RTX 5080."
+      }
+    ]
+  },
+  {
+    "a": "arc-b580",
+    "b": "rtx-4060",
+    "title": "Arc B580 vs RTX 4060 (2026): Which Budget GPU Should You Buy?",
+    "description": "The Arc B580 is the better buy with a modern CPU: 12 GB vs 8 GB, slightly faster at 1440p, $250 to $290. The RTX 4060 is safer on older CPUs and draws 115 W.",
+    "quick": "Pick the Arc B580 if you have a modern CPU and Resizable BAR enabled: it has 12 GB instead of 8 GB, independent reviews show it slightly ahead at 1440p, and it costs $250 to $290. Pick the RTX 4060 if you are upgrading an older Ryzen 2000 or 3000 system, want DLSS 4 support in more games or need a 115 W card for a small case.",
+    "differ": [
+      [
+        "Which is faster?",
+        "With a modern CPU, independent reviews generally show the Arc B580 slightly ahead of the RTX 4060, around 10% at 1440p, with a smaller lead at 1080p. The B580's 12 GB also avoids the stutter the 4060's 8 GB hits in some new games at high textures. With an older CPU, the order often flips."
+      ],
+      [
+        "Does my CPU matter?",
+        "Yes, for the B580. Independent reviews found that Intel's driver overhead costs it noticeably more performance with chips like the Ryzen 5 2600 or 3600. It also needs Resizable BAR enabled. The RTX 4060 is far less sensitive to the CPU, which makes it the safer drop-in for an older PC."
+      ],
+      [
+        "Which uses less power?",
+        "The RTX 4060. NVIDIA rates it at 115 W against 190 W for the B580, so it runs cooler and fits small cases and low-wattage power supplies more easily. Both use one 8-pin connector on most models and a PCIe 4.0 x8 link, so both lose a little on PCIe 3.0 boards."
+      ]
+    ],
+    "buyA": [
+      "You have a modern CPU with Resizable BAR enabled",
+      "You want 12 GB of VRAM for under $300",
+      "You play new AAA games at 1080p or 1440p"
+    ],
+    "buyB": [
+      "You are upgrading an older Ryzen 2000 or 3000 PC",
+      "You want a 115 W card for a small case or small PSU",
+      "You want DLSS 4 and NVIDIA's mature drivers"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Arc B580 better than the RTX 5060?",
+        "a": "Not usually. With a fast CPU, independent reviews show the RTX 5060 ahead in most games at 1080p, while the B580's 12 GB helps where 8 GB runs out. See [RTX 5060 vs Arc B580](/compare/rtx-5060-vs-arc-b580/)."
+      },
+      {
+        "q": "Is the RTX 4060 still worth buying new?",
+        "a": "Rarely. The RTX 5060 costs about $20 more and is around 20% faster. Buy a 4060 only on a clear clearance or used deal."
+      }
+    ]
+  },
+  {
+    "a": "rtx-4070",
+    "b": "rx-9070",
+    "title": "RTX 4070 vs RX 9070 (2026): Is the 9070 Worth the Upgrade?",
+    "description": "The RX 9070 is roughly 20 to 30% faster than the RTX 4070 in raster games and has 16 GB vs 12 GB for about the same price, so it is the better new-build pick.",
+    "quick": "Pick the RX 9070 for a new 1440p build: it has 16 GB instead of 12 GB and is roughly 20 to 30% faster in raster games for $550 to $620. Pick the RTX 4070 only on a used or clearance deal well below that, or if DLSS and ray tracing matter more to you than raw speed and VRAM. If you already own a 4070, wait for a bigger jump.",
+    "differ": [
+      [
+        "How much faster is the RX 9070?",
+        "Independent reviews put the RX 9070 a few percent to about 10% ahead of the RTX 5070 in raster games, and the 5070 around 20% ahead of the RTX 4070. That makes the 9070 roughly 20 to 30% faster than a 4070 at 1440p. With heavy ray tracing, the gap narrows."
+      ],
+      [
+        "Does 16 GB matter over 12 GB?",
+        "More each year. The RX 9070 has 16 GB on a 256-bit bus; the RTX 4070 has 12 GB of GDDR6X on a 192-bit bus. Twelve gigabytes covers most games at 1440p today, but a few new releases at maximum textures push past it. For a card you plan to keep four or five years, 16 GB is the safer buy."
+      ],
+      [
+        "Should a 4070 owner upgrade to the RX 9070?",
+        "Usually not. Roughly 20 to 30% more raster speed is noticeable but not a new tier, and you give up DLSS in games that lack FSR 4. A 4070 owner sees a bigger jump from an RX 9070 XT or RTX 5070 Ti. Both cards run on a 650 W PSU, so power is not a barrier either way."
+      ]
+    ],
+    "buyA": [
+      "A used or clearance deal puts it $100 or more below the RX 9070",
+      "Your games support DLSS but not FSR 4",
+      "You want a 200 W card, often with one 8-pin plug"
+    ],
+    "buyB": [
+      "You are building new and want the faster card for the money",
+      "You want 16 GB of VRAM for maximum textures",
+      "You want the more efficient choice in its class at 220 W"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RX 9070 better than the RTX 4070?",
+        "a": "Yes, for most buyers. It is roughly 20 to 30% faster in raster games and has 16 GB against 12 GB at a similar street price. The 4070 keeps an edge in DLSS game support."
+      },
+      {
+        "q": "Is the RX 9070 or RTX 5070 the better upgrade from an RTX 4070?",
+        "a": "The RX 9070, by a little. Both are around 20% or more faster than a 4070, but the 9070 adds 16 GB. Choose the RTX 5070 if DLSS 4 Multi Frame Generation matters more. See [RTX 5070 vs RX 9070](/compare/rtx-5070-vs-rx-9070/)."
+      }
+    ]
+  },
+  {
+    "a": "ryzen-7-5800x3d",
+    "b": "ryzen-7-7800x3d",
+    "title": "Ryzen 7 5800X3D vs 7800X3D (2026): Is AM5 and DDR5 Worth It?",
+    "description": "The Ryzen 7 7800X3D is about 15 to 20% faster in CPU-bound games than the 5800X3D, but a B650 board and DDR5 add $240 to $400. On AM4, keep the 5800X3D.",
+    "quick": "Keep or buy the Ryzen 7 5800X3D if you already own an AM4 board and DDR4: it drops in with a BIOS update and still games well at 1440p and 4K. Pick the Ryzen 7 7800X3D for a new build or a fast GPU at 1080p: it is clearly quicker in CPU-bound games and puts you on AM5, but the board and DDR5 roughly double the cost of the move.",
+    "differ": [
+      [
+        "How much faster is the 7800X3D?",
+        "Independent reviews commonly put the Ryzen 7 7800X3D about 15 to 20 percent ahead of the 5800X3D at 1080p with a high-end GPU, with some CPU-heavy games showing more. Both have 8 cores, 16 threads and 96 MB of L3 cache. The gain comes from Zen 4 cores, a 5.0 GHz boost against 4.5 GHz, and faster DDR5 memory."
+      ],
+      [
+        "What does the AM5 platform cost on top of the CPU?",
+        "The 7800X3D needs an AM5 board and DDR5. A B650 board runs about $130 to $200 and a 32 GB DDR5-6000 kit about $110 to $200, so the platform adds roughly $240 to $400 to a $360 to $420 chip. DDR5 prices have swung hard since late 2025. The 5800X3D, at $280 to $350, reuses your AM4 board and DDR4 kit, so the real gap is often $300 or more."
+      ],
+      [
+        "Will I see the gain at 1440p or 4K?",
+        "Much less. At higher resolutions the GPU sets the frame rate, so a 5800X3D with an RTX 5070 or RX 9070 XT gives up little to a 7800X3D. The gap matters at 1080p with a high refresh rate monitor, with an RTX 5080 or faster, and in simulation and strategy games that lean on the CPU."
+      ]
+    ],
+    "buyA": [
+      "You already own an AM4 board and a DDR4 kit",
+      "You game at 1440p or 4K, where the GPU sets the pace",
+      "You would rather put the $300 platform savings into a faster GPU"
+    ],
+    "buyB": [
+      "You are building a new gaming PC from scratch",
+      "You play at 1080p with a fast GPU and a high refresh rate",
+      "You want AM5, which AMD supports through at least 2027"
+    ],
+    "faqs": [
+      {
+        "q": "Is it worth upgrading from a 5800X3D to a 7800X3D?",
+        "a": "Usually not. After buying a board and DDR5 the move costs $600 or more for a gain you mainly see at 1080p. A GPU upgrade does more for most 5800X3D owners."
+      },
+      {
+        "q": "Can I use my DDR4 with the 7800X3D?",
+        "a": "No. AM5 boards support only DDR5, so moving to the 7800X3D means a new memory kit as well as a new board. Selling the AM4 board, DDR4 and 5800X3D can offset part of the cost."
+      }
+    ]
+  },
+  {
+    "a": "ryzen-7-8700f",
+    "b": "ryzen-5-7600",
+    "title": "Ryzen 7 8700F vs Ryzen 5 7600 (2026): Which AM5 CPU to Buy?",
+    "description": "The Ryzen 5 7600 matches or beats the Ryzen 7 8700F in most games thanks to 32 MB of L3, and costs less. The 8700F has 8 cores for multi-threaded work.",
+    "quick": "Pick the Ryzen 5 7600 for a budget gaming build: it has twice the L3 cache, PCIe 5.0 support, integrated graphics and a cooler in the box, for $170 to $200. Pick the Ryzen 7 8700F if you also render, encode or compile and want 8 cores at $200 to $240. It is a laptop-derived chip with 16 MB of L3, so it does not game better than the cheaper 7600.",
+    "differ": [
+      [
+        "Which is faster in games?",
+        "The Ryzen 5 7600, by a small margin in most titles. The 8700F is a Phoenix chip, the same Zen 4 design AMD uses in laptops, with only 16 MB of L3 cache. The 7600 has 32 MB, and games care more about cache than about the two extra cores. Independent reviews of the closely related Ryzen 7 8700G show it trailing the 7600 in gaming, and the 8700F is that chip with the graphics turned off."
+      ],
+      [
+        "When do the 8700F's 8 cores matter?",
+        "In multi-threaded work. With 8 cores and 16 threads against 6 and 12, the 8700F is clearly ahead in rendering, video encoding and code compiles, and it handles streaming while gaming with more headroom. Both are rated at 65 W and use AM5 and DDR5, so they cost the same to cool and build around."
+      ],
+      [
+        "What else separates them?",
+        "The 7600 supports PCIe 5.0 on boards that offer it, while the 8700F is limited to PCIe 4.0. The 7600 has a small 2 CU Radeon iGPU, which lets you run the PC while troubleshooting a graphics card, and it ships with a Wraith Stealth cooler. The 8700F has its graphics disabled, so a dedicated GPU is required from day one."
+      ]
+    ],
+    "buyA": [
+      "You stream, encode or compile as well as game",
+      "You want 8 cores on AM5 for about $200 to $240",
+      "You will pair it with a graphics card from day one"
+    ],
+    "buyB": [
+      "Gaming is your main use and you want the best frames per dollar",
+      "You want integrated graphics as a backup and a cooler in the box",
+      "You want to save $30 to $40 for a better GPU or DDR5 kit"
+    ],
+    "faqs": [
+      {
+        "q": "What other CPU is the Ryzen 7 8700F comparable to?",
+        "a": "In games, it lands close to the Ryzen 5 7600 and a little behind it. In multi-threaded work, its 8 cores put it clearly ahead of 6-core chips like the 7600, though its 16 MB L3 cache and PCIe 4.0 limit keep it a step below 8-core desktop Zen 4 parts."
+      },
+      {
+        "q": "Is the Ryzen 7 8700F good for gaming?",
+        "a": "It is fine for budget gaming with a midrange GPU, but not the best pick for the money. The Ryzen 5 7600 games as well or better for less, and the Ryzen 7 5700X3D on AM4 is faster in CPU-bound games."
+      }
+    ]
+  },
+  {
+    "a": "ryzen-7-8700f",
+    "b": "ryzen-7-5700x3d",
+    "title": "Ryzen 7 8700F vs 5700X3D (2026): AM5 or AM4 for Budget Gaming?",
+    "description": "The Ryzen 7 5700X3D is faster in most games than the 8700F thanks to 96 MB of L3, and fits AM4 boards. The 8700F wins in multi-core work and has an AM5 path.",
+    "quick": "Pick the Ryzen 7 5700X3D if you own an AM4 board, or want the most gaming speed for the least money: its 96 MB cache puts it ahead in CPU-bound games, and DDR4 is cheap. Pick the Ryzen 7 8700F for a new build that does mixed work: it is quicker in multi-threaded tasks, runs at 65 W, and sits on AM5, where a later X3D chip drops in.",
+    "differ": [
+      [
+        "Which is faster in games?",
+        "The Ryzen 7 5700X3D in most CPU-bound games. It has 96 MB of L3 cache against 16 MB on the 8700F, and that cache matters more to frame rates than the 8700F's newer Zen 4 cores and 5.0 GHz boost. Independent reviews place the 5700X3D close to the Ryzen 5 7600 in games, and the 8700F a little behind the 7600, so the gap is real but not huge. At 1440p and 4K with a midrange GPU, the two are close."
+      ],
+      [
+        "Which is better for work and everyday use?",
+        "The 8700F. Its Zen 4 cores boost to 5.0 GHz against 4.1 GHz, so it is quicker in single-threaded tasks and in rendering, encoding and code compiles. It is also rated at 65 W against 105 W, so it runs cooler on a modest tower cooler. Neither has integrated graphics, and the 5700X3D needs a separate cooler."
+      ],
+      [
+        "What does each platform cost?",
+        "For a new build, AM4 is cheaper. A 32 GB DDR4-3200 kit runs about $55 to $100 against $110 to $200 for DDR5-6000, and DDR5 prices have swung hard since late 2025. Boards are similar, with B550 at about $140 to $180 and B650 at $130 to $200. The catch is that AM4 is a dead end, while AMD supports AM5 through at least 2027, so an 8700F build can later take a Ryzen 7 9800X3D."
+      ]
+    ],
+    "buyA": [
+      "You are building new and want an upgrade path on AM5",
+      "You also render, encode or compile code",
+      "You want a cooler-running 65 W chip"
+    ],
+    "buyB": [
+      "You already own an AM4 board and DDR4 memory",
+      "Gaming is your priority and you want the most frames for $200 to $260",
+      "You want to spend the DDR5 savings on a faster GPU"
+    ],
+    "faqs": [
+      {
+        "q": "Should I buy AM4 or AM5 for a budget gaming PC in 2026?",
+        "a": "AM4 with a 5700X3D if you already own the board or want the most gaming speed now for less. AM5 if you plan to upgrade the CPU later, since AM4 has no newer chips coming."
+      },
+      {
+        "q": "Can the Ryzen 7 5700X3D run in a B450 board?",
+        "a": "Yes, with a BIOS that lists it on the board's CPU support page. Flash the update with your old CPU installed, since many B450 boards lack BIOS Flashback, and note the graphics slot runs at PCIe 3.0."
+      }
+    ]
+  },
+  {
+    "a": "ryzen-7-5800x",
+    "b": "ryzen-7-5800x3d",
+    "title": "Ryzen 7 5800X vs 5800X3D (2026): Is 3D V-Cache Worth It?",
+    "description": "The Ryzen 7 5800X3D is much faster in many games than the 5800X thanks to 96 MB of L3, but costs about $150 more. The 5800X is cheaper for mixed work.",
+    "quick": "Pick the Ryzen 7 5800X3D if gaming is the reason you are upgrading an AM4 PC: its 96 MB of L3 cache gives a large lift in CPU-bound games. Pick the Ryzen 7 5800X if you want 8 cores for work and casual gaming at $130 to $180: it clocks higher and does well in multi-threaded tasks, but trails in games.",
+    "differ": [
+      [
+        "How much faster is the 5800X3D in games?",
+        "Clearly faster in CPU-bound games. Both have 8 cores and 16 threads, but the 5800X3D triples the L3 cache from 32 MB to 96 MB. Independent reviews show it well ahead of the 5800X at 1080p with a fast GPU, with cache-hungry games such as simulators and strategy titles gaining the most. At 4K with a midrange GPU, the gap shrinks."
+      ],
+      [
+        "Where does the 5800X hold its own?",
+        "In productivity. The 5800X boosts to 4.7 GHz against 4.5 GHz and allows full overclocking, so it matches or slightly beats the 5800X3D in rendering, encoding and other work that does not benefit from extra cache. Both are rated at 105 W, so both need a solid tower cooler or a 240 mm AIO."
+      ],
+      [
+        "Is the price gap worth it?",
+        "For gaming, usually yes. The 5800X sells for about $130 to $180 and the 5800X3D for $280 to $350, roughly $150 more. That money buys the biggest gaming upgrade left on AM4. If the 5800X3D is hard to find at a fair price, a new Ryzen 7 5700X3D at $200 to $260 gives most of the same gain."
+      ]
+    ],
+    "buyA": [
+      "You split time between work apps and casual gaming",
+      "You want 8 cores on AM4 for $130 to $180",
+      "You play at 4K or with a midrange GPU, where the CPU matters less"
+    ],
+    "buyB": [
+      "Gaming is the main reason you are upgrading",
+      "You play at 1080p or 1440p with a high refresh rate monitor",
+      "You want the strongest last upgrade for an AM4 board"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Ryzen 7 5700X close to the 5800X3D?",
+        "a": "No, not in games. The 5700X is essentially a lower-power 5800X with the same 32 MB of L3, so it trails the 5800X3D by a similar margin. If gaming is the goal, compare the 5800X3D with the Ryzen 7 5700X3D instead."
+      },
+      {
+        "q": "What older GPU pairs well with a 5800X3D?",
+        "a": "A previous-generation card like the RTX 4070 or RX 6700 XT is a good match at 1440p. The 5800X3D has enough gaming speed to drive faster current cards too, so it will not hold back a later GPU upgrade at 1440p or 4K."
+      }
+    ]
+  },
+  {
+    "a": "samsung-9100-pro",
+    "b": "wd-black-sn850x",
+    "title": "Samsung 9100 Pro vs WD Black SN850X (2026): Is Gen5 Worth It?",
+    "description": "The WD Black SN850X is the better buy for gaming at $140 to $190. The Samsung 9100 Pro doubles rated speed to 14,700 MB/s but costs $90 to $120 more.",
+    "quick": "Pick the Samsung 9100 Pro if you edit high-resolution video or move huge files, and your board has a PCIe 5.0 M.2 slot: it is rated at 14,700 MB/s reads, about twice the SN850X. Pick the WD Black SN850X if you mainly game or need a PS5 drive: it loads games about as fast in independent reviews and costs $140 to $190 against $230 to $310.",
+    "differ": [
+      [
+        "How much faster is the 9100 Pro?",
+        "About twice as fast on paper. Samsung rates the 9100 Pro at 14,700 MB/s reads and 13,400 MB/s writes, against 7,300 and 6,600 MB/s for the SN850X. The gap shows up in long sequential transfers, such as copying a 100 GB video project. Everyday tasks lean on small random reads, where the difference is much smaller. Boot times feel about the same."
+      ],
+      [
+        "Will games load faster on the 9100 Pro?",
+        "Barely. Independent reviews generally show game load times within a second or two between top PCIe 4.0 and PCIe 5.0 drives, because loading leans on the CPU to decompress assets. A PS5 runs any drive at PCIe 4.0 speed. For a gaming PC or a console, the SN850X gives the same experience for much less money."
+      ],
+      [
+        "Which is the better value right now?",
+        "The SN850X, for most people. SSD prices have swung hard since late 2025, when NAND costs began rising, and the 9100 Pro now sits at $230 to $310 against $140 to $190 for the SN850X. Both have 1,200 TBW and a 5-year warranty on the 2 TB models. The 9100 Pro pays off only if you move big files often and have a PCIe 5.0 slot with a heatsink."
+      ]
+    ],
+    "buyA": [
+      "You edit video or copy 100 GB-plus projects often",
+      "Your board has a PCIe 5.0 M.2 slot with a heatsink",
+      "You want the fastest SSD Samsung sells and will use the speed"
+    ],
+    "buyB": [
+      "You mainly game and want to save $90 to $120",
+      "You need a PS5 drive: get the heatsink version",
+      "Your board has no PCIe 5.0 M.2 slot"
+    ],
+    "faqs": [
+      {
+        "q": "Is the 9100 Pro also faster than the Samsung 990 Pro?",
+        "a": "Yes, by about the same margin: roughly twice the rated sequential speed. The 990 Pro and SN850X are near equals, so the [990 Pro vs 9100 Pro](/compare/samsung-990-pro-vs-samsung-9100-pro/) answer is the same as this one."
+      },
+      {
+        "q": "Does the SN850X work in a PCIe 5.0 slot?",
+        "a": "Yes. PCIe 5.0 M.2 slots are backward compatible, so the SN850X runs at its full PCIe 4.0 speed. You can add a Gen5 drive later if prices fall."
+      }
+    ]
+  },
+  {
+    "a": "samsung-990-pro",
+    "b": "crucial-t500",
+    "title": "Samsung 990 Pro vs Crucial T500 (2026): Which 2TB SSD to Buy?",
+    "description": "The Samsung 990 Pro and Crucial T500 are near equals: PCIe 4.0, about 7,400 MB/s and 1,200 TBW. Buy the T500 if it is $20 cheaper, else the 990 Pro.",
+    "quick": "Pick the Samsung 990 Pro if prices are level or close: it matches the T500 on paper, comes from a brand still building its consumer line, and Samsung Magician handles firmware updates. Pick the Crucial T500 if it is $20 or more cheaper: it is a 2 TB PCIe 4.0 TLC drive with DRAM, rated at 7,400 MB/s reads, 1,200 TBW and a 5-year warranty.",
+    "differ": [
+      [
+        "Is one faster?",
+        "Not in a way you will notice. Samsung rates the 990 Pro at 7,450 MB/s reads and 6,900 MB/s writes; Crucial rates the T500 at 7,400 and 7,000 MB/s. Both use TLC NAND with a DRAM cache. Independent reviews put them in the same top group for game loading, boot times and file copies, so speed should not decide this one."
+      ],
+      [
+        "What changed with Crucial?",
+        "Micron, which owns Crucial, announced in December 2025 that it would exit the Crucial consumer business. It said it would keep honoring warranties on Crucial products, so the T500's 5-year warranty still applies. The catch is supply: T500 stock and prices now depend on what retailers have left, while the 990 Pro is still in Samsung's current lineup."
+      ],
+      [
+        "Which is the better value?",
+        "It depends on the gap. SSD prices have swung hard since late 2025, with the 990 Pro now at $150 to $210 and the T500 at $130 to $180. When the T500 is $20 or more cheaper, it is the better buy. When the two are within $10, the 990 Pro is the safer pick. Both have 1,200 TBW endurance on the 2 TB models."
+      ]
+    ],
+    "buyA": [
+      "The two are within $10 of each other",
+      "You want a drive from a brand still building its consumer line",
+      "You want Samsung Magician for firmware and health checks"
+    ],
+    "buyB": [
+      "You find it $20 or more cheaper than the 990 Pro",
+      "You want the higher 7,000 MB/s rated writes",
+      "You want an efficient drive for a laptop or small PC"
+    ],
+    "faqs": [
+      {
+        "q": "Do both drives work in a PS5?",
+        "a": "Yes. Both are rated well above Sony's 5,500 MB/s recommendation. Buy a heatsink version or add a heatsink within Sony's 11.25 mm height limit."
+      },
+      {
+        "q": "Will Crucial still honor the T500 warranty?",
+        "a": "Micron said it will keep honoring warranties on Crucial products already sold. Keep your receipt and register the drive if you can."
+      }
+    ]
+  },
+  {
+    "a": "corsair-rm850e",
+    "b": "seasonic-focus-gx-850",
+    "title": "Corsair RM850e vs Seasonic Focus GX-850 (2026): Pay $15 More?",
+    "description": "The Corsair RM850e saves about $15 over the Seasonic Focus GX-850, which adds a 10-year warranty and a hybrid fan switch. Both are 850 W, fully modular.",
+    "quick": "Pick the RM850e if you want 850 W for the lowest price: it has ATX 3.1 support, full modularity, a native 12V-2x6 cable and a 7-year warranty for $105 to $130. Pick the Seasonic Focus GX-850 if the gap is $15 or less: you get a 10-year warranty, a fluid-dynamic-bearing fan with a hybrid switch and Seasonic's long record for $120 to $140.",
+    "differ": [
+      [
+        "What does the Focus GX-850 add?",
+        "Three more years of warranty, 10 against seven, and a hybrid fan switch. With hybrid on, its 120 mm fluid-dynamic-bearing fan stops at low loads; with it off, the fan always spins slowly. The RM850e also uses a 120 mm fan. Seasonic designs and builds its own units and has made power supplies for other brands for decades."
+      ],
+      [
+        "Are they the same for my graphics card?",
+        "Yes. Both deliver 850 W, meet NVIDIA's recommendation for an RTX 5080 and include a 12V-2x6 cable for RTX 50 cards. The RM850e is listed as ATX 3.1; the Focus GX-850 follows ATX 3. Both have the PCIe 8-pin cables an RX 9070 XT needs. For an RTX 5090, step up to 1,000 W."
+      ],
+      [
+        "Which is better value?",
+        "It depends on the gap. The RM850e typically sells for $105 to $130 and the Focus GX-850 for $120 to $140. At $15 or less, the Seasonic's three extra years of warranty are worth it on a part you may keep through several builds. When the RM850e is $20 or more cheaper, it is the smarter buy."
+      ]
+    ],
+    "buyA": [
+      "You want 850 W at the lowest price",
+      "The gap is $20 or more",
+      "Seven years of warranty is enough for you"
+    ],
+    "buyB": [
+      "The price gap is $15 or less",
+      "You want a 10-year warranty",
+      "You want a hybrid fan switch and Seasonic's long record"
+    ],
+    "faqs": [
+      {
+        "q": "Is the RM850e good enough for an RTX 5080?",
+        "a": "Yes. It meets NVIDIA's 850 W recommendation and includes a native 12V-2x6 cable. The Focus GX-850 has a longer warranty, not more capability."
+      },
+      {
+        "q": "Should I get the RM850x instead?",
+        "a": "Only if it costs about the same as the Seasonic. The RM850x adds a 140 mm zero-RPM fan and a 10-year warranty; see [RM850x vs RM850e](/compare/corsair-rm850x-vs-corsair-rm850e/)."
+      }
+    ]
+  },
+  {
+    "a": "corsair-rm850x",
+    "b": "montech-century-ii-850",
+    "title": "Corsair RM850x vs Montech Century II 850W (2026): Worth $30?",
+    "description": "The Corsair RM850x adds ATX 3.1 and a 140 mm zero-RPM fan over the Montech Century II 850W. The Montech costs $25 to $35 less with the same 10-year warranty.",
+    "quick": "Pick the Corsair RM850x if the gap is $25 or less: it is listed as ATX 3.1, ships a native 12V-2x6 cable, has a quiet 140 mm fan that stops at low loads and comes from a brand with a long PSU record. Pick the Montech Century II 850W if you want 850 W Gold with a 10-year warranty for $95 to $115, close to 750 W prices.",
+    "differ": [
+      [
+        "Does ATX 3.1 vs 3.0 matter?",
+        "Not much in practice. The RM850x is listed as ATX 3.1 and ships a native 12V-2x6 cable. The Century II is ATX 3.0 with the original 12VHPWR cable. ATX 3.1 made small changes, including adopting 12V-2x6, and 12VHPWR plugs fit the 12V-2x6 sockets on RTX 50 cards. With either, push the plug in until it clicks and check for a gap."
+      ],
+      [
+        "How do track record and noise compare?",
+        "This is where the Corsair earns its price. Corsair's RMx line has a long record and strong independent reviews, and its 140 mm fan stays off at low loads. Montech is better known for cases, and its PSU history is short, though independent reviews of the Century II have been broadly positive for the price. Both carry 10-year warranties."
+      ],
+      [
+        "Which is better value?",
+        "It depends on the gap. The RM850x typically sells for $120 to $150 and the Century II for $95 to $115. At $25 or less, the RM850x's quieter fan and longer record are worth paying for. When the Montech is $35 or more cheaper, it is the better buy for a budget RTX 5070 Ti or RTX 5080 build."
+      ]
+    ],
+    "buyA": [
+      "The price gap is $25 or less",
+      "You want a listed ATX 3.1 unit with a native 12V-2x6 cable",
+      "You want a quiet 140 mm fan and a long PSU track record"
+    ],
+    "buyB": [
+      "You want 850 W Gold for close to $100",
+      "The gap is $35 or more",
+      "A 10-year warranty matters more to you than brand history"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Corsair RM850x ATX 3.1?",
+        "a": "Yes. The 2024 RM850x is listed as ATX 3.1 and includes a native 12V-2x6 cable for RTX 50 cards. Earlier RM850x versions are not, so check for the 2024 model."
+      },
+      {
+        "q": "Should I get the RM1000x instead?",
+        "a": "Only for an RTX 5090, for which NVIDIA recommends 1,000 W. For an RTX 5080 or below, 850 W is enough; see [RM850x vs RM1000x](/compare/corsair-rm850x-vs-corsair-rm1000x/)."
+      },
+      {
+        "q": "Does the Century II 850W work with an RTX 5080?",
+        "a": "Yes. It meets NVIDIA's 850 W recommendation, and its 12VHPWR cable plugs into the card's 12V-2x6 socket."
+      }
+    ]
+  },
+  {
+    "a": "thermalright-peerless-assassin-120-se",
+    "b": "thermalright-assassin-x-120-refined-se",
+    "title": "Peerless Assassin 120 SE vs Assassin X 120 R SE (2026)",
+    "description": "The Peerless Assassin 120 SE adds a second tower, two more heat pipes and a second fan for about $15 more. The Assassin X 120 R SE is enough for a 65 W CPU.",
+    "quick": "Pick the Peerless Assassin 120 SE if you run an eight-core chip like the Ryzen 7 9800X3D or want headroom for a CPU upgrade: two towers, six heat pipes and two 120 mm fans for $35 to $45. Pick the Assassin X 120 Refined SE if you run a 65 W chip like the Ryzen 5 9600X, your case clears less than 155 mm, or every dollar goes to the GPU, at $18 to $25.",
+    "differ": [
+      [
+        "How much more cooling does the Peerless Assassin give?",
+        "A lot more headroom. It has two towers, six 6 mm heat pipes and two 120 mm fans, against one tower, four heat pipes and one fan on the Assassin X. On a 65 W Ryzen 5 9600X or Ryzen 5 7600, both hold full boost clocks and owners report little difference at gaming loads. On a 120 W Ryzen 7 9800X3D, the Assassin X's single fan has to spin faster, so the Peerless Assassin is the cooler, quieter choice. Neither is the right pick for a 170 W Ryzen 9 under long all-core loads."
+      ],
+      [
+        "Which one fits more cases?",
+        "The Assassin X stands 148 mm tall, 7 mm shorter than the Peerless Assassin's 155 mm. That gap decides it in many micro-ATX and compact cases that list 150 to 154 mm of cooler clearance. The narrow single tower is also lighter, leaves more room around the RAM slots and is simpler to install. Both mount on AM4, AM5, LGA 1700 and LGA 1851 with the hardware in the box."
+      ],
+      [
+        "Is the Peerless Assassin worth about $15 more?",
+        "For any eight-core gaming chip, yes. The Peerless Assassin usually sells for $35 to $45 and the Assassin X for $18 to $25, so the gap buys a second tower and a second fan. For a 65 W six-core chip in a budget build, that money does more on the graphics card or a bigger SSD. Both are also sold in ARGB versions if you want lighting."
+      ]
+    ],
+    "buyA": [
+      "You run an eight-core chip like the Ryzen 7 9800X3D",
+      "Your case clears 155 mm or more",
+      "You want headroom for a faster CPU later"
+    ],
+    "buyB": [
+      "You run a 65 W chip like the Ryzen 5 9600X or Ryzen 5 7600",
+      "Your case clears less than 155 mm",
+      "You want the cheapest real upgrade over a stock cooler"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Assassin X 120 Refined SE compatible with the Ryzen 5 9600X?",
+        "a": "Yes. It supports AM5 with the hardware in the box, reusing AMD's stock backplate, and the 9600X's 65 W rating is well within its reach. The 9600X does not include a cooler, so this is a cheap way to cover it. If you enable AMD's optional 105 W mode, the single fan will ramp up more under load, and the Peerless Assassin 120 SE gives more room."
+      },
+      {
+        "q": "Will either cooler block my RAM?",
+        "a": "The Peerless Assassin's dual tower overhangs the first RAM slot, so tall RGB kits mean raising the front fan. The Assassin X's single tower leaves more room, and its fan can be moved up or to the rear face if it touches a tall kit."
+      },
+      {
+        "q": "Do both fit AM5 and LGA 1851?",
+        "a": "Yes. Both include mounting for AM4, AM5, LGA 1700 and LGA 1851. LGA 1851 keeps the LGA 1700 hole spacing, so the same Intel hardware fits Core Ultra 200S boards."
+      }
+    ]
+  },
+  {
+    "a": "thermalright-phantom-spirit-120-se",
+    "b": "arctic-freezer-36",
+    "title": "Phantom Spirit 120 SE vs Arctic Freezer 36 (2026): Best Value?",
+    "description": "The Phantom Spirit 120 SE has more cooling headroom from seven heat pipes and two towers. The Arctic Freezer 36 costs about $5 less and is easier to install.",
+    "quick": "Pick the Phantom Spirit 120 SE if you run a hot chip like the Ryzen 7 9800X3D or Core Ultra 7 265K and want the most cooling under $45: two towers, seven heat pipes, 154 mm tall. Pick the Arctic Freezer 36 if it is cheaper on the day, you want the easiest install, or a narrow tower suits a crowded micro-ATX board, at $30 to $40.",
+    "differ": [
+      [
+        "Which one cools better?",
+        "The Phantom Spirit 120 SE has more capacity: seven 6 mm heat pipes feeding two fin stacks, against four heat pipes and one tower on the Freezer 36. Independent reviews place the Freezer 36 close to budget dual towers, but the Phantom Spirit has more headroom when a hot chip runs long all-core loads. For a 65 W Ryzen 5 or a gaming-only Ryzen 7 9800X3D build, both are enough, and owners report both are quiet at gaming loads."
+      ],
+      [
+        "Which one is easier to fit?",
+        "The Freezer 36 is 159 mm tall, 5 mm taller than the Phantom Spirit's 154 mm, so your case should list at least 160 mm of clearance, ideally 165 mm. In exchange, its narrow single tower stays clear of a top PCIe slot and tall VRM heatsinks on crowded boards, and Arctic's clip-on fan holders make it one of the easiest coolers to install. On both, the front fan can crowd tall RGB RAM, and both fans can be slid up to clear it."
+      ],
+      [
+        "Which is the better value?",
+        "The Freezer 36 usually sells for $30 to $40, a few dollars under the Phantom Spirit at $35 to $45. If the gap is $5 or less, take the Phantom Spirit for its extra capacity. If the Arctic is $10 or more cheaper, or you want the simplest install, it is the smart buy. Both support AM4, AM5, LGA 1700 and LGA 1851 in the box."
+      ]
+    ],
+    "buyA": [
+      "You run a 120 W chip like the Ryzen 7 9800X3D and want the most headroom",
+      "Your case clears 154 mm but not 159 mm",
+      "Both coolers cost within $5 of each other"
+    ],
+    "buyB": [
+      "It is $10 or more cheaper on the day you buy",
+      "You want the easiest cooler and fan install",
+      "Your board has a crowded top PCIe slot or tall VRM heatsinks"
+    ],
+    "faqs": [
+      {
+        "q": "Do both coolers support AM5 and LGA 1851?",
+        "a": "Yes. Both include mounting for AM4, AM5, LGA 1700 and LGA 1851, and both use AMD's stock backplate on AM4 and AM5."
+      },
+      {
+        "q": "Which one is quieter?",
+        "a": "Owners report both are quiet at typical gaming loads. The Phantom Spirit's budget fans get louder when a long all-core job pins the CPU, and the Freezer 36's fans also ramp up because its single tower has less capacity. A gentler fan curve in the BIOS helps on either."
+      }
+    ]
+  },
+  {
+    "a": "corsair-vengeance-lpx-ddr4-3200-cl16",
+    "b": "crucial-pro-ddr4-3200",
+    "title": "Vengeance LPX 3200 CL16 vs Crucial Pro DDR4-3200 (2026)",
+    "description": "The Corsair Vengeance LPX DDR4-3200 CL16 is the better gaming kit, with far tighter timings. The Crucial Pro runs 3200 CL22 at 1.2 V with no XMP. Both 32 GB.",
+    "quick": "Pick the Vengeance LPX 3200 CL16 for a gaming PC on AM4 or an Intel DDR4 board: CL16 cuts latency well below the Crucial's CL22, and its 34 mm height clears big air coolers, at about $60 to $100. Pick the Crucial Pro DDR4-3200 for an office PC or prebuilt upgrade where you will never open the BIOS, at about $55 to $90. DRAM prices have swung hard since late 2025, so compare live prices.",
+    "differ": [
+      [
+        "How much does CL16 vs CL22 matter?",
+        "Both kits run at DDR4-3200, so bandwidth is the same; the difference is latency. True latency is CAS latency divided by the memory clock: CL16 at 3200 works out to 10 ns, and CL22 at 3200 to 13.75 ns. Ryzen 3000 and 5000 gaming builds are sensitive to memory latency, so the Vengeance LPX is the better gaming kit. For office work, browsing and video, you will not notice the gap."
+      ],
+      [
+        "Do I need to change anything in the BIOS?",
+        "The Vengeance LPX needs XMP: enable Profile 1 (D.O.C.P. on ASUS, A-XMP on MSI) to run DDR4-3200 CL16 at 1.35 V, or it falls back to DDR4-2133 or 2400. The Crucial Pro runs 3200 at 1.2 V using standard JEDEC settings, so it reaches full speed on supported platforms with no changes. That makes it the safer pick for prebuilt PCs with locked BIOS menus."
+      ],
+      [
+        "Which is the better value right now?",
+        "The price bands overlap: about $60 to $100 for the Vengeance LPX and $55 to $90 for the Crucial Pro. DRAM prices have swung hard since late 2025, and DDR4 has climbed as makers shift production toward DDR5, so the gap changes week to week. When the LPX is within $10 of the Crucial, buy the LPX for a gaming build. If a DDR4-3600 CL16 kit like the [Ripjaws V](/gear/gskill-ripjaws-v-ddr4-3600-cl16/) is within $15, it beats both for Ryzen."
+      ]
+    ],
+    "buyA": [
+      "You are building or upgrading a gaming PC on AM4 or an Intel DDR4 board",
+      "You can turn on XMP, a single BIOS setting",
+      "You run a big dual-tower air cooler over the RAM slots"
+    ],
+    "buyB": [
+      "You are upgrading a prebuilt or office PC with a locked BIOS",
+      "You want full 3200 speed with zero setup at 1.2 V",
+      "It is $10 or more cheaper and the PC is not for gaming"
+    ],
+    "faqs": [
+      {
+        "q": "Is Vengeance LPX DDR4-3200 CL16 good enough for Ryzen 5000?",
+        "a": "Yes. It sets the Infinity Fabric to 1,600 MHz instead of the 1,800 MHz a 3600 kit allows, a gap of a few percent in CPU-limited games. It is clearly faster than CL22 at the same speed."
+      },
+      {
+        "q": "Can I mix Vengeance LPX and Crucial Pro sticks?",
+        "a": "It is not recommended. Mixed kits often fall back to the slower timings or fail to run at XMP settings. Buy one matched 2x16GB kit instead."
+      }
+    ]
+  },
+  {
+    "a": "corsair-rm750e",
+    "b": "be-quiet-pure-power-12-m-750",
+    "title": "Corsair RM750e vs be quiet! Pure Power 12 M 750W (2026)",
+    "description": "The be quiet! Pure Power 12 M 750W adds a 10-year warranty and a focus on low noise for about $10 more. The Corsair RM750e is ATX 3.1 with a 7-year warranty.",
+    "quick": "Pick the Corsair RM750e if you want a trusted 750 W Gold unit at the lower price: ATX 3.1, fully modular, a 12V-2x6 cable and a 7-year warranty for $85 to $100. Pick the be quiet! Pure Power 12 M 750W if the PC sits near you or you plan to keep the PSU through several builds: it adds a 10-year warranty and a focus on low noise for $95 to $110.",
+    "differ": [
+      [
+        "How do the specs compare?",
+        "Almost line for line. Both are 750 W, 80 Plus Gold and fully modular, both use a 120 mm fan, and both include a native 16-pin cable for RTX 50 cards: Corsair lists it as 12V-2x6, be quiet! as 12VHPWR/12V-2x6, and the plug is the same. Corsair lists the RM750e as ATX 3.1; the Pure Power 12 M is listed as ATX 3.x. Both meet NVIDIA's 750 W guidance for the RTX 5070 Ti."
+      ],
+      [
+        "Is the be quiet! quieter?",
+        "It is built for it. be quiet! focuses on low noise, and owners consistently describe the Pure Power 12 M as quiet at gaming loads, which is why it scores 90 for noise against the RM750e's 84 in our research score. The RM750e is also quiet in typical gaming but more audible under long, heavy loads. In a case on the floor the gap is small; on a desk next to you it matters more."
+      ],
+      [
+        "Is the 10-year warranty worth about $10 more?",
+        "Usually, yes. A PSU often outlives two or three graphics cards, and ten years against seven covers it for longer. If the gap is $10 or less, the Pure Power 12 M is the better long-term buy. If it grows to $20 or more, or the build is a short-lived budget PC, the RM750e is the smarter spend."
+      ]
+    ],
+    "buyA": [
+      "It is $10 or more cheaper than the Pure Power on the day",
+      "You want a unit listed as ATX 3.1",
+      "Seven years of warranty covers how long you will keep it"
+    ],
+    "buyB": [
+      "The price gap is $10 or less",
+      "Your PC sits on your desk and noise matters",
+      "You want a 10-year warranty to cover several GPU upgrades"
+    ],
+    "faqs": [
+      {
+        "q": "Can either PSU run an RTX 5080?",
+        "a": "Neither meets NVIDIA's 850 W recommendation for the RTX 5080. For that card, step up to an 850 W unit such as the [Corsair RM850x](/gear/corsair-rm850x/)."
+      },
+      {
+        "q": "Do I need an adapter for an RTX 5070 Ti?",
+        "a": "No. Both include a native 16-pin cable that plugs straight into the card's 12V-2x6 socket. AMD cards such as the RX 9070 XT use the PCIe 8-pin cables both units include."
+      }
+    ]
   }
 ]
