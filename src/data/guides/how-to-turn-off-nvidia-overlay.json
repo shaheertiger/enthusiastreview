@@ -6,7 +6,7 @@
   "title": "How to Turn Off NVIDIA Overlay (and Fix FPS Showing N/A)",
   "h1": "How to Turn Off NVIDIA Overlay",
   "query": "how to turn off nvidia overlay",
-  "description": "Turn off NVIDIA Overlay in the NVIDIA App's Settings with one switch; Alt+Z opens it and Alt+R hides the FPS counter. Plus why the FPS reads N/A and 6 fixes.",
+  "description": "Turn off NVIDIA Overlay with 1 switch in the NVIDIA App's Settings; Alt+Z opens it and Alt+R hides the FPS counter. Plus why FPS reads N/A and 6 fixes.",
   "dek": "Switch the overlay off completely, hide just the statistics, or fix an FPS counter stuck on N/A.",
   "quickAnswer": "Open the NVIDIA App, go to Settings and switch NVIDIA Overlay off in the features list; Alt+Z will then do nothing. To keep the overlay but hide the FPS counter, press Alt+R in a game, or press Alt+Z, open Statistics and turn the statistics view off. FPS showing N/A usually means the overlay cannot see a game rendering on your NVIDIA GPU.",
   "intro": [

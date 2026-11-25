@@ -1226,7 +1226,7 @@
     "a": "gskill-flare-x5-ddr5-6000-cl30",
     "b": "corsair-vengeance-ddr5-6000-cl30",
     "title": "G.Skill Flare X5 vs Corsair Vengeance DDR5-6000 CL30 (2026)",
-    "description": "G.Skill Flare X5 is the better AM5 pick: EXPO, 1.35 V and a 33 mm low profile. Corsair Vengeance comes in XMP and EXPO versions, so it suits Intel builds too.",
+    "description": "At 1.35 V with EXPO and a 33 mm low profile, G.Skill Flare X5 is the better AM5 pick. Corsair Vengeance comes in XMP and EXPO versions, so it suits Intel too.",
     "quick": "Pick G.Skill Flare X5 DDR5-6000 CL30 if you are building on AM5 and want a low-profile kit that clears big air coolers, with an EXPO profile at 1.35 V. Pick Corsair Vengeance DDR5-6000 CL30 if you want a choice of XMP 3.0 for Intel or EXPO for AMD, or prefer Corsair's styling and iCUE ecosystem. Prices on both have swung widely since late 2025.",
     "differ": [
       [
@@ -1631,7 +1631,7 @@
     "a": "rx-9060-xt-16gb",
     "b": "rtx-5070",
     "title": "RX 9060 XT 16GB vs RTX 5070 (2026): Budget or 1440p Card?",
-    "description": "These sit in different tiers: the RTX 5070 is much faster for 1440p at $550 to $650, while the RX 9060 XT 16GB costs about $200 less and has 16 GB of VRAM.",
+    "description": "The RTX 5070 is a full tier faster for 1440p at $550 to $650, while the RX 9060 XT 16GB costs about $200 less and has 16 GB of VRAM. Different tiers.",
     "quick": "These cards are not direct rivals: the RTX 5070 costs roughly $200 more and sits a full tier higher. Pick the RX 9060 XT 16GB if you play at 1080p or entry 1440p and want 16 GB of VRAM for $350 to $400. Pick the RTX 5070 if you want high-refresh 1440p, stronger ray tracing and DLSS 4 Multi Frame Generation, and the budget allows $550 to $650.",
     "differ": [
       [

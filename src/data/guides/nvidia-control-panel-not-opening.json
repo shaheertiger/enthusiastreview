@@ -6,7 +6,7 @@
   "title": "NVIDIA Control Panel Not Opening or Missing? 7 Fixes in Order",
   "h1": "NVIDIA Control Panel Not Opening",
   "query": "nvidia control panel not opening",
-  "description": "NVIDIA Control Panel often fails to open because a service stopped or the Store app is missing. Restart NVIDIA Display Container LS first; 6 more fixes here.",
+  "description": "NVIDIA Control Panel fails to open for 7 common reasons, most often a stopped service or a missing Store app. Restart NVIDIA Display Container LS first.",
   "dek": "Why the NVIDIA Control Panel will not launch, disappears from menus or opens to missing pages, and the fixes in the order to try them.",
   "quickAnswer": "Start with the service: press Windows + R, type services.msc, find NVIDIA Display Container LS, set it to Automatic and click Start. If the Control Panel is missing entirely, install it from the Microsoft Store. If neither works, do a clean reinstall of the NVIDIA driver. On laptops, a message about no NVIDIA display usually means your screen is wired to the integrated graphics.",
   "intro": [

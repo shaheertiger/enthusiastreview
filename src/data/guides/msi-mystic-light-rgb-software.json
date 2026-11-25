@@ -7,7 +7,7 @@
   "title": "MSI Mystic Light RGB Software: Download, Setup, Fixes",
   "h1": "MSI Mystic Light RGB Software",
   "query": "msi mystic light",
-  "description": "MSI Mystic Light now lives inside MSI Center: install MSI Center, then add the Mystic Light module. Setup, JRGB vs ARGB headers, sync and detection fixes.",
+  "description": "MSI Mystic Light now installs in 5 steps as a module inside MSI Center, not a separate app. Setup, JRGB vs ARGB headers, syncing and detection fixes.",
   "dek": "Where to get MSI Mystic Light today, how to install only the part you need, which header each strip belongs on, and what to do when it will not see your lights.",
   "quickAnswer": "MSI Mystic Light is no longer a separate download on current boards. Install MSI Center from your motherboard's support page on msi.com, open its Features section and install the Mystic Light module, then restart. It controls the board's LEDs and anything on its RGB and ARGB headers. Put 12 V 4-pin strips on JRGB and 5 V 3-pin strips on the ARGB header, never the other way round.",
   "intro": [
