@@ -8,9 +8,16 @@
   "updated": "2026-11-19",
   "launch": "2026-11-19",
   "score": "ER Score",
-  "logo": ["Enthusiast", "Review"],
+  "logo": [
+    "Enthusiast",
+    "Review"
+  ],
   "indexnowKey": "7536e59e5b7e4ddbaea97af125d04122",
   "llmsIntro": "Independent PC hardware buying guides: graphics cards, CPUs, CPU coolers, power supplies, cases, RAM, motherboards and SSDs. Every part has a spec sheet, a research-based ER Score (0–100) and a verdict. Parts are researched against spec sheets, platform documentation, independent measurements and owner reports; they were not bench-tested by us.",
-  "llmsExample": ["/best-graphics-card/", "/best-graphics-card.md"],
-  "pickNouns": "GPUs|CPUs|Cards|Coolers|Cases|Kits|Boards|Motherboards|SSDs|Drives|PSUs|Units|Models|Supplies|Processors|Options|Ranked"
+  "llmsExample": [
+    "/best-graphics-card/",
+    "/best-graphics-card.md"
+  ],
+  "pickNouns": "GPUs|CPUs|Cards|Coolers|Cases|Kits|Boards|Motherboards|SSDs|Drives|PSUs|Units|Models|Supplies|Processors|Options|Ranked",
+  "adsense": "ca-pub-2128579868272786"
 }

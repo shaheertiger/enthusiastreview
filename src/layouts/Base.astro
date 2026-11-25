@@ -55,8 +55,8 @@ const bing = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
     {article?.section && <meta property="article:section" content={article.section} />}
     {gsc && <meta name="google-site-verification" content={gsc} />}
     {bing && <meta name="msvalidate.01" content={bing} />}
-    <meta name="google-adsense-account" content="ca-pub-2128579868272786" />
-    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2128579868272786" crossorigin="anonymous"></script>
+    {SITE.adsense && <meta name="google-adsense-account" content={SITE.adsense} />}
+    {SITE.adsense && <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsense}`} crossorigin="anonymous"></script>}
     {siteSchema().map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
