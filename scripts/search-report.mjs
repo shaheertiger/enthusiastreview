@@ -6,7 +6,7 @@
  *   BING_WEBMASTER_API_KEY=... node scripts/search-report.mjs [--days 30] [--json out.json]
  *
  * The key is also read from `apikey` (the name it has in the cloud environment).
- * Prints: daily totals, PC-hardware queries (off-topic dehumidifier queries filtered out), pages Bing shows
+ * Prints: daily totals, on-topic queries (site.config.json report.offTopic filtered out), pages Bing shows
  * with their live HTTP status on production, and OPPORTUNITIES: URLs Bing still shows that do not return 200
  * (redirected or gone), and query clusters with impressions but no matching page.
  */
@@ -14,8 +14,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const KEY = process.env.BING_WEBMASTER_API_KEY || process.env.apikey;
-const SITE = 'https://enthusiastreview.com/';
-const LIVE = 'https://www.enthusiastreview.com';
+const CONFIG = JSON.parse(fs.readFileSync(path.resolve(import.meta.dirname, '../site.config.json'), 'utf8'));
+const LIVE = CONFIG.url;
+// Bing Webmaster verifies the bare domain: https://example.com/
+const SITE = `${LIVE.replace('://www.', '://')}/`;
+const R = CONFIG.report;
 const args = process.argv.slice(2);
 const opt = (n, d) => (args.includes(n) ? args[args.indexOf(n) + 1] : d);
 const DAYS = Number(opt('--days', 30));
@@ -26,7 +29,7 @@ if (!KEY) {
   process.exit(1);
 }
 
-const OFF_TOPIC = /dehum|humid|demud|defhum|moist|pint|santa fe|pelonis|midea|frigidaire|aprilaire|alorair|kesnos|goldenrod|dri-eaz|sanidry|walmart|costco|ace hardware|clothes|mold|basement|crawl|rvingknow|sams club|aeocky|guitar|boveda|piano|whirp|hisen|toshiba|danby|meaco|haier|tosot|cellar|fhdd|drying/i;
+const OFF_TOPIC = R.offTopic ? new RegExp(R.offTopic, 'i') : /(?!)/;
 
 async function bing(method) {
   const url = `https://ssl.bing.com/webmaster/api.svc/json/${method}?apikey=${KEY}&siteUrl=${encodeURIComponent(SITE)}`;
@@ -55,7 +58,7 @@ function aggregate(rows) {
 async function status(url) {
   try {
     const u = new URL(url);
-    const r = await fetch(LIVE + u.pathname, { method: 'GET', redirect: 'manual', headers: { 'user-agent': 'er-search-report' } });
+    const r = await fetch(LIVE + u.pathname, { method: 'GET', redirect: 'manual', headers: { 'user-agent': 'search-report' } });
     return { code: r.status, to: r.headers.get('location') || '' };
   } catch (e) {
     return { code: 0, to: String(e.message) };
@@ -70,7 +73,7 @@ console.log(`# Bing search report, last ${DAYS} days (since ${since})\n`);
 console.log('## Daily totals (last 14 days)');
 for (const t of traffic.slice(-14)) console.log(`${day(t.Date)}  impressions ${String(t.Impressions).padStart(5)}  clicks ${t.Clicks}`);
 
-console.log(`\n## PC hardware queries (${queries.length})  impr clicks pos`);
+console.log(`\n## On-topic queries (${queries.length})  impr clicks pos`);
 for (const q of queries.slice(0, 120)) console.log(`${String(q.impressions).padStart(4)} ${String(q.clicks).padStart(3)} ${String(q.position).padStart(5)}  ${q.key}`);
 
 console.log(`\n## Pages Bing shows (${pages.length}) with live status`);
@@ -91,11 +94,11 @@ for (const p of lost.sort((a, b) => b.clicks - a.clicks || b.impressions - a.imp
 }
 
 // Query clusters: "gpu for <cpu>" style queries grouped by the CPU named.
-const CPU = /\b(?:r[579]|ryzen\s*[3579]|i[3579]|core\s*(?:ultra\s*)?[3579])?[\s-]*(\d{4,5}[a-z0-9]*)\b/i;
+const SUBJECT = new RegExp(R.cluster.subject, 'i');
 const clusters = new Map();
 for (const q of queries) {
-  if (!/gpu|graphics|vga|carte|card/i.test(q.key)) continue;
-  const m = CPU.exec(q.key.replace(/ryzen\s*\d\s*/i, (x) => x + ' '));
+  if (!new RegExp(R.cluster.query, 'i').test(q.key)) continue;
+  const m = SUBJECT.exec(R.cluster.prep ? q.key.replace(new RegExp(R.cluster.prep, 'i'), (x) => x + ' ') : q.key);
   if (!m) continue;
   const k = m[1].toLowerCase();
   const c = clusters.get(k) || { cpu: k, impressions: 0, clicks: 0, queries: [] };
@@ -104,9 +107,9 @@ for (const q of queries) {
   c.queries.push(q.key);
   clusters.set(k, c);
 }
-console.log('\n## OPPORTUNITIES 2: "GPU for <CPU>" query clusters (check a /best-gpu-for-<cpu>/ page exists for each)');
+console.log(`\n## OPPORTUNITIES 2: ${R.cluster.label} query clusters (check a /${R.cluster.pagePrefix}<subject>/ page exists for each)`);
 for (const c of [...clusters.values()].sort((a, b) => b.impressions - a.impressions).slice(0, 25)) {
-  const has = [...slugs].filter((s) => s.startsWith('best-gpu-for-') && s.includes(c.cpu));
+  const has = [...slugs].filter((s) => s.startsWith(R.cluster.pagePrefix) && s.includes(c.cpu));
   console.log(`${String(c.impressions).padStart(3)} impr  ${c.cpu.padEnd(8)} ${has.length ? 'page: ' + has.join(', ') : 'NO PAGE'}  e.g. ${c.queries.slice(0, 3).join(' | ')}`);
 }
 

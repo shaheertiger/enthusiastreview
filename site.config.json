@@ -19,5 +19,15 @@
     "/best-graphics-card.md"
   ],
   "pickNouns": "GPUs|CPUs|Cards|Coolers|Cases|Kits|Boards|Motherboards|SSDs|Drives|PSUs|Units|Models|Supplies|Processors|Options|Ranked",
-  "adsense": "ca-pub-2128579868272786"
+  "adsense": "ca-pub-2128579868272786",
+  "report": {
+    "offTopic": "dehum|humid|demud|defhum|moist|pint|santa fe|pelonis|midea|frigidaire|aprilaire|alorair|kesnos|goldenrod|dri-eaz|sanidry|walmart|costco|ace hardware|clothes|mold|basement|crawl|rvingknow|sams club|aeocky|guitar|boveda|piano|whirp|hisen|toshiba|danby|meaco|haier|tosot|cellar|fhdd|drying",
+    "cluster": {
+      "label": "\"GPU for <CPU>\"",
+      "query": "gpu|graphics|vga|carte|card",
+      "subject": "\\b(?:r[579]|ryzen\\s*[3579]|i[3579]|core\\s*(?:ultra\\s*)?[3579])?[\\s-]*(\\d{4,5}[a-z0-9]*)\\b",
+      "prep": "ryzen\\s*\\d\\s*",
+      "pagePrefix": "best-gpu-for-"
+    }
+  }
 }

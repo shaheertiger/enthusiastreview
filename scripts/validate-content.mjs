@@ -55,7 +55,7 @@ const termIds = new Set(terms.map((t) => t.id));
 
 // Every internal path the site will build.
 const ROUTES = new Set([
-  '/', '/best-of/', '/gear/', '/compare/', '/glossary/', '/brands/', '/tools/', '/tools/bottleneck-calculator/', '/tools/psu-calculator/',
+  '/', '/best-of/', '/gear/', '/compare/', '/glossary/', '/brands/', '/tools/', ...fs.readdirSync(path.join(ROOT, 'src/pages/tools')).filter((f) => f.endsWith('.astro') && f !== 'index.astro').map((f) => `/tools/${f.replace(/\.astro$/, '')}/`),
   '/about/', '/how-we-review/', '/disclosure/', '/privacy/', '/contact/',
   ...products.map((p) => `/gear/${p.id}/`),
   ...guides.map((g) => `/${g.slug}/`),
@@ -68,7 +68,8 @@ const ROUTES = new Set([
 const TESTING = /\b(we tested|we've tested|we have tested|in our tests?|in our testing|our testing|our benchmarks?|we benchmarked|we measured|our measurements|hands-on testing|tested in our lab|our lab|lab-tested|after testing)\b/i;
 function checkText(where, value) {
   if (typeof value === 'string') {
-    if (TESTING.test(value)) err(where, `testing claim: "${value.match(TESTING)[0]}" (we have not bench-tested these parts)`);
+    // "not from hands-on testing" is the disclaimer, not the claim.
+    if (TESTING.test(value.replace(/\b(not|rather than|never|no)\s+(from\s+|any\s+)?(hands-on testing|lab-tested|our lab)\b/gi, ''))) err(where, `testing claim: "${value.match(TESTING)[0]}" (we have not bench-tested these parts)`);
     for (const m of value.matchAll(/\[[^\]]+\]\(([^)\s]+)\)/g)) {
       const href = m[1];
       if (/^https?:/.test(href)) continue;
