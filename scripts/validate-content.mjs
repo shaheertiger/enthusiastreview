@@ -69,7 +69,7 @@ const TESTING = /\b(we tested|we've tested|we have tested|in our tests?|in our t
 function checkText(where, value) {
   if (typeof value === 'string') {
     // "not from hands-on testing" is the disclaimer, not the claim.
-    if (TESTING.test(value.replace(/\b(not|rather than|never|no)\s+(from\s+|any\s+)?(hands-on testing|lab-tested|our lab)\b/gi, ''))) err(where, `testing claim: "${value.match(TESTING)[0]}" (we have not bench-tested these parts)`);
+    if (TESTING.test(value.replace(/\b(not|rather than|never|no)\s+([a-z]+\s+){0,4}?(hands-on testing|lab-tested|our lab)\b/gi, ''))) err(where, `testing claim: "${value.match(TESTING)[0]}" (we have not bench-tested these parts)`);
     for (const m of value.matchAll(/\[[^\]]+\]\(([^)\s]+)\)/g)) {
       const href = m[1];
       if (/^https?:/.test(href)) continue;
