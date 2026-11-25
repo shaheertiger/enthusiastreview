@@ -11,7 +11,7 @@ import { amazonLink } from '../../data/affiliate';
 import { publisherRef, productItemList } from '../../lib/schema';
 import { authorSchema } from '../../data/authors';
 import {
-  COMPARES, mustProduct, getGuide, categoryOf, getBrand, comparesFor, guidesFeaturing, comparePath, productPath, guidePath,
+  COMPARES, mustProduct, getGuide, categoryOf, getBrand, comparesFor, guidesFeaturing, guidesFor, brandPath, comparePath, productPath, guidePath,
   compareUpdated, fmtDate, priceBand, spec, newCtx, inline, plain, shortAnswerHeading, compareDiffs, type Compare,
 } from '../../lib/data';
 
@@ -56,7 +56,10 @@ const equivSlugs = brands.size < 2 ? [] : a.category === 'graphics-cards'
   ? [...(brands.has('amd') && brands.has('nvidia') ? ['amd-vs-nvidia-gpu-equivalents'] : []), ...(brands.has('intel') ? ['intel-arc-gpu-equivalents'] : [])]
   : a.category === 'processors' ? ['intel-vs-amd-cpu-equivalents'] : [];
 const equivGuides = equivSlugs.map(getGuide).filter((g): g is NonNullable<typeof g> => Boolean(g));
-const guides = [...new Map([...equivGuides.map((g) => ({ guide: g })), ...guidesFeaturing(a.id), ...guidesFeaturing(b.id)].map((f) => [f.guide.slug, f.guide])).values()].slice(0, 6);
+// Guides built around either part (best GPU for this CPU, best PSU for this card) come right after the chart.
+const builtFor = [...guidesFor(a.id), ...guidesFor(b.id)].map((g) => ({ guide: g }));
+const guides = [...new Map([...equivGuides.map((g) => ({ guide: g })), ...builtFor, ...guidesFeaturing(a.id), ...guidesFeaturing(b.id)].map((f) => [f.guide.slug, f.guide])).values()].slice(0, 8);
+const brandHubs = [...new Set([a.brand, b.brand])].map(getBrand);
 const h1 = `${a.short} vs ${b.short}`;
 const crumbs = [
   { name: 'Home', href: '/' },
@@ -170,6 +173,7 @@ const jsonLd = {
         <li><a href={productPath(b)}>{b.name}: full specs and score</a></li>
         {guides.map((g) => <li><a href={guidePath(g)}>{g.h1}</a></li>)}
         {more.map((x) => <li><a href={comparePath(x)}>{mustProduct(x.a).short} vs {mustProduct(x.b).short}</a></li>)}
+        {brandHubs.map((br) => <li><a href={brandPath(br.key)}>Every {br.name} part we track</a></li>)}
       </ul>
     </div>
 

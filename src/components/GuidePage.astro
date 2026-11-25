@@ -12,7 +12,7 @@ import { getAuthor, authorSchema } from '../data/authors';
 import { amazonLink } from '../data/affiliate';
 import { publisherRef, productItemList } from '../lib/schema';
 import {
-  GUIDES, getGuide, getProduct, mustProduct, getBrand, categoryOf, productsIn, productsOfBrand, comparesFor,
+  GUIDES, getGuide, seriesOf, sameSubject, subjectKeys, getProduct as findProduct, getProduct, mustProduct, getBrand, categoryOf, productsIn, productsOfBrand, comparesFor,
   guidePath, productPath, comparePath, brandPath, guideUpdated, guidePublished, fmtDate, priceBand, spec,
   readMinutes, guideText, guideQuery, newCtx, inline, plain, slugify, type Guide,
 } from '../lib/data';
@@ -31,7 +31,13 @@ const isBrand = g.type === 'brand';
 const tracked = isBrand && brand ? productsOfBrand(brand.key) : productsIn(g.category);
 const pickIds = new Set(picks.map((x) => x.id));
 const related = (g.related ?? []).map(getGuide).filter((x): x is Guide => Boolean(x && !x.noindex));
-const sameCat = GUIDES.filter((x) => x.slug !== g.slug && x.category === g.category && !related.includes(x)).slice(0, 3);
+const series = seriesOf(g);
+const subjectGuides = sameSubject(g);
+// The part this guide is built around (best GPU for the 9800X3D → the 9800X3D): its gear page and compare pages.
+const subject = subjectKeys(g.slug).map(findProduct).find((x): x is NonNullable<typeof x> => Boolean(x));
+const subjectCompares = subject ? comparesFor(subject.id) : [];
+const sameCat = [...subjectGuides, ...GUIDES.filter((x) => x.slug !== g.slug && x.category === g.category && !related.includes(x))]
+  .filter((x, i, a) => !related.includes(x) && a.indexOf(x) === i).slice(0, 3);
 const shownRelated = [...related, ...sameCat].slice(0, 6);
 const moreInCat = GUIDES.filter((x) => x.slug !== g.slug && x.category === g.category && !x.noindex && !shownRelated.includes(x));
 const headToHead = [...new Map(picks.flatMap((x) => comparesFor(x.id)).map((c) => [comparePath(c), c])).values()].filter((c) => pickIds.has(c.a) && pickIds.has(c.b));
@@ -316,6 +322,24 @@ const jsonLd = {
         <>
           <h2 class="plain" id="head-to-head">Head-to-Head Comparisons</h2>
           <ul class="link-list">{headToHead.map((c) => <li><a href={comparePath(c)}>{mustProduct(c.a).short} vs {mustProduct(c.b).short}</a></li>)}</ul>
+        </>
+      )}
+
+      {(subject || subjectGuides.length > 0) && (
+        <>
+          <h2 class="plain" id="more-for-subject">More for the {subject ? subject.short : g.h1.replace(/^.* for /, '')}</h2>
+          <ul class="link-list">
+            {subject && <li><a href={productPath(subject)}>{subject.name}: specs, score and price</a></li>}
+            {subjectGuides.map((x) => <li><a href={guidePath(x)}>{x.h1}</a></li>)}
+            {subjectCompares.map((c) => <li><a href={comparePath(c)}>{mustProduct(c.a).short} vs {mustProduct(c.b).short}</a></li>)}
+          </ul>
+        </>
+      )}
+
+      {series && (
+        <>
+          <h2 class="plain" id={`more-${series.series.key}`}>{series.series.heading}</h2>
+          <ul class="link-list">{series.items.map((x) => <li><a href={guidePath(x)}>{x.h1}</a></li>)}{series.series.hub && <li><a href={series.series.hub.href}>{series.series.hub.text}</a></li>}</ul>
         </>
       )}
     </div>
