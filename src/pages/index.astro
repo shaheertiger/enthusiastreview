@@ -13,7 +13,7 @@ import { PRODUCTS, GUIDES, BRANDS, getGuide, getProduct, guidePath, productPath,
 const hero = getGuide(HOME.hero);
 const heroPick = hero ? getProduct(hero.picks[0].id) : undefined;
 const top10 = [...PRODUCTS].sort((a, b) => b.score.overall - a.score.overall).slice(0, 10);
-const featured = CATEGORIES.map((c) => getGuide(c.hero)).filter((g) => g && !g.noindex);
+const featured = CATEGORIES.map((c) => getGuide(c.hero)).filter((g) => g && !g.noindex && g.picks?.length);
 const latest = [...GUIDES.filter((g) => g.type !== 'article' && !g.noindex)].sort((a, b) => guideUpdated(b).localeCompare(guideUpdated(a)) || a.slug.localeCompare(b.slug)).filter((g) => !featured.includes(g)).slice(0, 6);
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const browse = NAV_GROUPS.filter((grp) => grp.home);

@@ -7,7 +7,7 @@ import BuyButton from '../../components/BuyButton.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
-import { compareEquivalents } from '../../data/niche';
+import { compareEquivalents, NICHE } from '../../data/niche';
 import { amazonLink } from '../../data/affiliate';
 import { publisherRef, productItemList } from '../../lib/schema';
 import { authorSchema } from '../../data/authors';
@@ -36,14 +36,14 @@ const genFaqs = [
   {
     q: `Which is better, the ${a.short} or the ${b.short}?`,
     a: winner
-      ? `The ${winner.short} scores higher on our ${SITE.score} (${winner.score.overall}/100 vs ${(winner === a ? b : a).score.overall}/100), but the right pick depends on the build. ${plain(c.quick)}`
-      : `They tie on our ${SITE.score} at ${a.score.overall}/100, so the right pick depends on the build. ${plain(c.quick)}`,
+      ? `The ${winner.short} scores higher on our ${SITE.score} (${winner.score.overall}/100 vs ${(winner === a ? b : a).score.overall}/100), but the right pick depends on the ${NICHE.use}. ${plain(c.quick)}`
+      : `They tie on our ${SITE.score} at ${a.score.overall}/100, so the right pick depends on the ${NICHE.use}. ${plain(c.quick)}`,
   },
   {
     q: `Which is cheaper, the ${a.short} or the ${b.short}?`,
     a: cheaper
       ? `The ${cheaper.short} usually costs less: ${priceBand(cheaper)} against ${priceBand(cheaper === a ? b : a)} for the ${(cheaper === a ? b : a).short}. Prices move often, so check the live listing before you buy.`
-      : `They sell in a similar band (${priceBand(a)} and ${priceBand(b)}), so buy whichever fits the build better and check the live price.`,
+      : `They sell in a similar band (${priceBand(a)} and ${priceBand(b)}), so buy whichever fits the ${NICHE.use} better and check the live price.`,
   },
   { q: `Who should skip the ${a.short}?`, a: `Skip the ${a.short} if ${lc(a.skipIf)}.` },
   { q: `Who should skip the ${b.short}?`, a: `Skip the ${b.short} if ${lc(b.skipIf)}.` },
@@ -171,7 +171,7 @@ const jsonLd = {
         <li><a href={productPath(b)}>{b.name}: full specs and score</a></li>
         {guides.map((g) => <li><a href={guidePath(g)}>{g.h1}</a></li>)}
         {more.map((x) => <li><a href={comparePath(x)}>{mustProduct(x.a).short} vs {mustProduct(x.b).short}</a></li>)}
-        {brandHubs.map((br) => <li><a href={brandPath(br.key)}>Every {br.name} part we track</a></li>)}
+        {brandHubs.map((br) => <li><a href={brandPath(br.key)}>Every {br.name} {NICHE.part} we track</a></li>)}
       </ul>
     </div>
 

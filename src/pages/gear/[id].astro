@@ -8,7 +8,7 @@ import CatIcon from '../../components/CatIcon.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import FaqList from '../../components/FaqList.astro';
 import { SITE } from '../../data/site';
-import { listingNote } from '../../data/niche';
+import { listingNote, NICHE } from '../../data/niche';
 import { amazonLink } from '../../data/affiliate';
 import { productSchema } from '../../lib/schema';
 import {
@@ -79,7 +79,7 @@ const jsonLd = {
           <div class="qc-hero">
             <figure class="qc-photo">
               <ProductImage p={p} size={220} buy eager />
-              <figcaption>Amazon listing: {p.listing && p.listing.length > 90 ? `${p.listing.slice(0, p.listing.lastIndexOf(' ', 88))}…` : p.listing}{listingNote(p)}</figcaption>
+              {p.listing && <figcaption>Amazon listing: {p.listing.length > 90 ? `${p.listing.slice(0, p.listing.lastIndexOf(' ', 88))}…` : p.listing}{listingNote(p)}</figcaption>}
             </figure>
             <div>
               <h2 class="mini">Quick answer</h2>
@@ -111,7 +111,7 @@ const jsonLd = {
           <tbody>{p.specs.map(([k, v]) => <tr><th scope="row">{k}</th><td>{v}</td></tr>)}<tr><th scope="row">Street price</th><td>{priceBand(p)} (typical band; check the live price)</td></tr></tbody>
         </table>
       </div>
-      <p class="fine">Specs from {brand.name}'s published spec sheet and product listings. The {p.short} has not been bench-tested by us: its score comes from the spec sheet, platform requirements, widely published independent measurements and owner reports. <a href="/how-we-review/">How we score</a>.</p>
+      <p class="fine">Specs from {brand.name}'s published spec sheet and product listings. The {p.short} has not been bench-tested by us: its score comes from {NICHE.scoreBasis}. <a href="/how-we-review/">How we score</a>.</p>
 
       <h2 id="score">{SITE.score}: {p.score.overall}/100</h2>
       <p>The {SITE.score} weighs the spec sheet against the price band and what owners report over time.</p>

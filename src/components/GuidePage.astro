@@ -9,6 +9,7 @@ import ProductImage from './ProductImage.astro';
 import FaqList from './FaqList.astro';
 import SectionBody from './SectionBody.astro';
 import { SITE } from '../data/site';
+import { NICHE } from '../data/niche';
 import { getAuthor, authorSchema } from '../data/authors';
 import { amazonLink } from '../data/affiliate';
 import { publisherRef, productItemList } from '../lib/schema';
@@ -124,7 +125,7 @@ const jsonLd = {
         {published !== updated && <> · First published <time datetime={published}>{fmtDate(published)}</time></>}
       </div>
       <p class="disclosure">
-        These picks are researched against spec sheets, platform documentation, widely published independent measurements and owner reports; we have not bench-tested them ourselves. When you buy through our links we may earn a commission, at no cost to you. <a href="/how-we-review/">How we score</a> · <a href="/disclosure/">Disclosure</a>
+        These picks are researched against {NICHE.pickBasis}; we have not bench-tested them ourselves. When you buy through our links we may earn a commission, at no cost to you. <a href="/how-we-review/">How we score</a> · <a href="/disclosure/">Disclosure</a>
       </p>
     </header>
 
@@ -287,9 +288,13 @@ const jsonLd = {
       <h2 id="sources">{num('sources')}{H.sources}</h2>
       <h3>Recent updates</h3>
       <ul><li><time datetime={updated}>{fmtDate(updated)}</time>: picks, prices and specs rechecked.</li></ul>
-      <h3>What this page is based on</h3>
-      <ul>{g.sources.map((s) => <li set:html={inline(s)} />)}</ul>
-      <p class="fine">Spotted a spec that changed or a part that went out of stock? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+      {g.sources.length > 0 && (
+        <>
+          <h3>What this page is based on</h3>
+          <ul>{g.sources.map((s) => <li set:html={inline(s)} />)}</ul>
+        </>
+      )}
+      <p class="fine">Spotted a spec that changed or a {NICHE.part} that went out of stock? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
 
       <h2 id="tracked">{num('tracked')}{H.tracked}</h2>
       <div class="table-wrap">

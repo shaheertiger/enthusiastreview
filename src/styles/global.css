@@ -394,3 +394,20 @@ td.with-thumb .cat-icon { display: none; }
 .mentioned-row { display: grid; grid-template-columns: auto 1fr auto auto; gap: .9rem; align-items: center; border-bottom: 1px solid var(--rule-2); padding: .6rem 0; font: 500 .95rem/1.4 var(--sans); }
 .mentioned-row a { color: var(--ink); font-weight: 700; }
 @media (max-width: 760px) { .mentioned-row { grid-template-columns: auto 1fr; } }
+
+/* ---------- Tools: load table ---------- */
+.tool table { width: 100%; border-collapse: collapse; font: 400 .9rem/1.4 var(--sans); }
+.tool th { background: var(--ink); color: #fff; font: 700 .76rem/1.2 var(--head); letter-spacing: .06em; text-transform: uppercase; text-align: left; padding: .6rem .7rem; }
+.tool td { border-top: 1px solid var(--rule-2); padding: .5rem .7rem; vertical-align: middle; }
+.tool tr:nth-child(even) td { background: var(--paper-2); }
+.tool td input[type='number'] { width: 6.5rem; padding: .4rem .5rem; }
+.tool input[type='checkbox'] { width: 1.15rem; height: 1.15rem; accent-color: var(--teal-dark); }
+.tool-row-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: .75rem; }
+@media (max-width: 760px) { .tool-row-2 { grid-template-columns: 1fr; } }
+
+/* ---------- Gear hub filter ---------- */
+.chips button { font: 700 .82rem/1 var(--head); letter-spacing: .05em; text-transform: uppercase; border: 1px solid var(--ink); border-radius: 999px; padding: .55rem .9rem; color: var(--ink); background: #fff; cursor: pointer; }
+.chips button:hover, .chips button[aria-pressed='true'] { background: var(--ink); color: #fff; }
+.sort-btn { background: none; border: 0; color: inherit; font: inherit; letter-spacing: inherit; text-transform: inherit; cursor: pointer; padding: 0; }
+.sitemap-cols { columns: 3 16rem; column-gap: 2rem; }
+.sitemap-cols .sm-group { break-inside: avoid; margin-bottom: 1.25rem; }

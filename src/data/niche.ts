@@ -35,6 +35,14 @@ export const NICHE = {
   part: 'part',
   parts: 'parts',
   partLower: 'PC part',
+  /** "the right pick depends on the build" */
+  use: 'build',
+  /** What every score and pick is researched against (gear pages). */
+  scoreBasis: 'the spec sheet, platform requirements, widely published independent measurements and owner reports',
+  /** Same, for guide disclosures. */
+  pickBasis: 'spec sheets, platform documentation, widely published independent measurements and owner reports',
+  /** Freshness note under an article's sources. */
+  articleChecked: "Steps and menu names checked against the vendors' current software and support pages as of",
   footerAbout: 'Every part is matched to the build it suits, scored against the spec sheet, platform requirements, independent measurements and owner reports.',
 };
 

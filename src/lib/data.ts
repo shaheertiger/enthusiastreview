@@ -3,7 +3,7 @@
 /* ------------------------------------------------------------------ */
 import { CATEGORIES, CATEGORY } from '../data/categories';
 import { SITE } from '../data/site';
-import { ACRONYMS, PRODUCT_NOUNS, DIFF_RULES, SERIES, SUBJECT_RE, SUBJECT_SKIP, EQUIVALENTS_RE, equivalentsSlug, type Series } from '../data/niche';
+import { NICHE, ACRONYMS, PRODUCT_NOUNS, DIFF_RULES, SERIES, SUBJECT_RE, SUBJECT_SKIP, EQUIVALENTS_RE, equivalentsSlug, type Series } from '../data/niche';
 
 export type { Series };
 export { SERIES };
@@ -453,7 +453,7 @@ export function compareDiffs(a: Product, b: Product): { h: string; text: string 
     const l = w === a ? b : a;
     out.push({
       h: `${SITE.score}: the ${w.short} scores higher, ${w.score.overall} to ${l.score.overall}`,
-      text: `The ${SITE.score} weighs the spec sheet against the price band and owner reports. A higher score does not make it the right pick for every build; the short answer above says which build suits each.`,
+      text: `The ${SITE.score} weighs the spec sheet against the price band and owner reports. A higher score does not make it the right pick for every ${NICHE.use}; the short answer above says which ${NICHE.use} suits each.`,
     });
   }
   return out.slice(0, 6);

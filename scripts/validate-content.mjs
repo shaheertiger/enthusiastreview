@@ -107,7 +107,7 @@ const targets = new Map();
 for (const g of guides) {
   const w = `guide ${g.slug ?? g._file}`;
   const isArticle = g.type === 'article';
-  need(w, g, ['slug', 'type', 'category', 'title', 'h1', 'description', 'dek', 'intro', 'quickAnswer', 'sections', 'bottomLine', 'faqs', 'sources', ...(isArticle ? ['kind'] : ['picks', 'tableSpecs', 'ranking', 'mistakes'])]);
+  need(w, g, ['slug', 'type', 'category', 'title', 'h1', 'description', 'dek', 'intro', 'quickAnswer', 'sections', 'bottomLine', 'faqs', ...(isArticle ? ['kind'] : ['picks', 'tableSpecs', 'ranking', 'mistakes'])]);
   if (`${g.slug}.json` !== g._file) err(w, `slug must match file name ${g._file}`);
   if (!['roundup', 'brand', 'article'].includes(g.type)) err(w, `type must be roundup, brand or article`);
   if (isArticle && !['howto', 'fix', 'explainer', 'versus'].includes(g.kind)) err(w, 'kind must be howto, fix, explainer or versus');
@@ -124,6 +124,7 @@ for (const g of guides) {
     labels.add(pk.label);
     if (!pk.writeup?.length) err(w, `pick ${pk.id} has no writeup`);
   }
+  if (!g.sources?.length) warn(w, 'no sources listed');
   const ids = (g.picks ?? []).map((p) => p.id);
   if (new Set(ids).size !== ids.length) err(w, 'the same product is picked twice');
   const nums = [...(g.title ?? '').matchAll(new RegExp(String.raw`\b(\d+)\s+(?:[A-Z][\w-]*\s+){0,3}?(?:${CONFIG.pickNouns})\b`, 'g'))].map((m) => +m[1]).filter((x) => x < 30);
