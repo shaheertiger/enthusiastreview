@@ -13,7 +13,7 @@ import { publisherRef, productItemList } from '../../lib/schema';
 import { authorSchema } from '../../data/authors';
 import {
   COMPARES, mustProduct, getGuide, categoryOf, getBrand, comparesFor, guidesFeaturing, guidesFor, brandPath, comparePath, productPath, guidePath,
-  compareUpdated, fmtDate, priceBand, spec, newCtx, inline, plain, shortAnswerHeading, compareDiffs, type Compare,
+  compareUpdated, fmtDate, priceBand, spec, newCtx, inline, plain, shortAnswerHeading, compareDiffs, cheaperOf, type Compare,
 } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -30,7 +30,7 @@ const labels = [...new Set([...a.specs.map(([k]) => k), ...b.specs.map(([k]) => 
 // Answer-first difference H2s (the best-proteinpowder.com comparison pattern).
 const diffs = compareDiffs(a, b);
 const winner = a.score.overall === b.score.overall ? undefined : a.score.overall > b.score.overall ? a : b;
-const cheaper = a.price[0] === b.price[0] ? undefined : a.price[0] < b.price[0] ? a : b;
+const cheaper = cheaperOf(a, b);
 const lc = (s: string) => s.replace(/\.$/, '').replace(/^./, (x) => x.toLowerCase());
 const genFaqs = [
   {

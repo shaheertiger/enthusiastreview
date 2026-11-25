@@ -18,7 +18,10 @@ export interface Product {
   brand: string;
   category: string;
   released?: string;
-  price: [number, number];
+  /** Street-price band in USD. Products without one show their `tier` instead. */
+  price?: [number, number];
+  /** Price tier within the category, 1 (budget) to 4 (premium), for products with no `price` band. */
+  tier?: 1 | 2 | 3 | 4;
   amazon?: string;
   asin?: string;
   url?: string;
@@ -51,12 +54,24 @@ export interface Pick {
   cons?: string[];
 }
 
+export interface Table { caption?: string; head: string[]; rows: string[][] }
+/** One block of a section written in order: sub-heading, paragraph, list or table. */
+export type Block = { h3: string } | { p: string } | { ul: string[] } | { ol: string[] } | { table: Table };
+
 export interface Section {
   h: string;
   body?: string[];
   list?: string[];
-  table?: { caption?: string; head: string[]; rows: string[][] };
+  table?: Table;
+  /** Ordered blocks; when set, they replace body, list and table. */
+  blocks?: Block[];
 }
+
+/** Every piece of text in a section, for word counts and term matching. */
+export const sectionText = (s: Section): string[] =>
+  s.blocks
+    ? s.blocks.flatMap((b) => ('h3' in b ? [b.h3] : 'p' in b ? [b.p] : 'ul' in b ? b.ul : 'ol' in b ? b.ol : []))
+    : [...(s.body ?? []), ...(s.list ?? [])];
 
 export interface Guide {
   slug: string;
@@ -225,7 +240,17 @@ export const fmtDate = (iso: string) =>
 /* ---------------------------- helpers ----------------------------- */
 
 const usd = (n: number) => `$${n.toLocaleString('en-US')}`;
-export const priceBand = (p: Product) => (p.price[0] === p.price[1] ? usd(p.price[0]) : `${usd(p.price[0])}–${usd(p.price[1])}`);
+const TIER_LABELS = ['', 'Budget', 'Mid-range', 'Upper mid-range', 'Premium'];
+export const priceBand = (p: Product) =>
+  !p.price ? TIER_LABELS[p.tier ?? 0] || 'See current price' : p.price[0] === p.price[1] ? usd(p.price[0]) : `${usd(p.price[0])}–${usd(p.price[1])}`;
+/** A number to order products by price: the band's low end, or the tier when there is no band. */
+export const priceRank = (p: Product) => (p.price ? p.price[0] : p.tier ?? 0);
+/** The cheaper of two products, or undefined when they price the same or cannot be compared. */
+export function cheaperOf(a: Product, b: Product): Product | undefined {
+  if (!a.price !== !b.price) return undefined;
+  const [ra, rb] = [priceRank(a), priceRank(b)];
+  return !ra || !rb || ra === rb ? undefined : ra < rb ? a : b;
+}
 export const spec = (p: Product, label: string) => p.specs.find(([k]) => k.toLowerCase() === label.toLowerCase())?.[1];
 export const avgScore = (list: Product[]) => (list.length ? Math.round(list.reduce((s, p) => s + p.score.overall, 0) / list.length) : 0);
 
@@ -284,7 +309,7 @@ export function guideText(g: Guide): string[] {
     g.dek, ...g.intro, g.quickAnswer, ...(g.about ?? []), g.ranking?.intro ?? '', ...(g.ranking?.criteria ?? []).flat(),
     ...(g.picks ?? []).flatMap((p) => p.writeup), ...(g.mentions ?? []).map((m) => m.text),
     ...(g.steps ?? []).flatMap((s) => [s.h, ...s.body]),
-    ...g.sections.flatMap((s) => [s.h, ...(s.body ?? []), ...(s.list ?? [])]),
+    ...g.sections.flatMap((s) => [s.h, ...sectionText(s)]),
     ...(g.mistakes ?? []).flat(), g.bottomLine, ...g.faqs.flatMap((f) => [f.q, f.a]),
   ];
 }
@@ -384,9 +409,12 @@ export function compareDiffs(a: Product, b: Product): { h: string; text: string 
   const out: { h: string; text: string }[] = [];
   const both = (va: string, vb: string) => `${a.short}: ${va}. ${b.short}: ${vb}.`;
 
-  const mid = (p: Product) => (p.price[0] + p.price[1]) / 2;
-  const gap = Math.round(Math.abs(mid(a) - mid(b)) / 10) * 10;
-  if (gap >= 10) {
+  const mid = (p: Product) => (p.price![0] + p.price![1]) / 2;
+  const gap = a.price && b.price ? Math.round(Math.abs(mid(a) - mid(b)) / 10) * 10 : 0;
+  const tierCheap = !a.price && !b.price ? cheaperOf(a, b) : undefined;
+  if (tierCheap) {
+    out.push({ h: `Price: the ${tierCheap.short} usually costs less`, text: `${both(priceBand(a), priceBand(b))} Street prices move often, so check the live listing.` });
+  } else if (gap >= 10) {
     const cheap = mid(a) < mid(b) ? a : b;
     const dear = cheap === a ? b : a;
     const pct = Math.round((1 - mid(cheap) / mid(dear)) * 100);

@@ -88,11 +88,11 @@ const need = (where, obj, fields) => fields.forEach((f) => (obj[f] === undefined
 // ---- products -----------------------------------------------------------------------------
 for (const p of products) {
   const w = `product ${p.id}`;
-  need(w, p, ['id', 'name', 'short', 'brand', 'category', 'price', 'description', 'quick', 'bestFor', 'skipIf', 'specs', 'score', 'verdict', 'pros', 'cons', 'faqs']);
+  need(w, p, ['id', 'name', 'short', 'brand', 'category', p.tier ? 'tier' : 'price', 'description', 'quick', 'bestFor', 'skipIf', 'specs', 'score', 'verdict', 'pros', 'cons', 'faqs']);
   if (!CATS.includes(p.category)) err(w, `unknown category ${p.category}`);
   if (`${p.category}.json` !== p._file) err(w, `category ${p.category} but lives in ${p._file}`);
   if (!/^[a-z0-9-]+$/.test(p.id ?? '')) err(w, 'id must be kebab-case');
-  if (!Array.isArray(p.price) || p.price.length !== 2 || p.price[0] > p.price[1]) err(w, 'price must be [low, high]');
+  if (!p.tier && (!Array.isArray(p.price) || p.price.length !== 2 || p.price[0] > p.price[1])) err(w, 'price must be [low, high]');
   if (!(p.score?.overall >= 0 && p.score?.overall <= 100)) err(w, 'score.overall must be 0-100');
   if ((p.score?.parts ?? []).length !== 4) warn(w, 'score should have 4 parts');
   if ((p.specs ?? []).some((s) => !Array.isArray(s) || s.length !== 2)) err(w, 'specs must be [label, value] pairs');

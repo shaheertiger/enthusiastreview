@@ -7,6 +7,7 @@ import BuyButton from './BuyButton.astro';
 import CatIcon from './CatIcon.astro';
 import ProductImage from './ProductImage.astro';
 import FaqList from './FaqList.astro';
+import SectionBody from './SectionBody.astro';
 import { SITE } from '../data/site';
 import { getAuthor, authorSchema } from '../data/authors';
 import { amazonLink } from '../data/affiliate';
@@ -264,17 +265,7 @@ const jsonLd = {
       {g.sections.map((s) => (
         <>
           <h2 id={slugify(s.h)}>{num(slugify(s.h))}{s.h}</h2>
-          {(s.body ?? []).map((t) => <p set:html={inline(t, ctx)} />)}
-          {s.list?.length && <ul>{s.list.map((t) => <li set:html={inline(t, ctx)} />)}</ul>}
-          {s.table && (
-            <div class="table-wrap">
-              <table>
-                {s.table.caption && <caption>{s.table.caption}</caption>}
-                <thead><tr>{s.table.head.map((h) => <th>{h}</th>)}</tr></thead>
-                <tbody>{s.table.rows.map((r) => <tr>{r.map((c) => <td set:html={inline(c)} />)}</tr>)}</tbody>
-              </table>
-            </div>
-          )}
+          <SectionBody s={s} ctx={ctx} />
         </>
       ))}
 

@@ -4,6 +4,7 @@
 import LogoMark from './LogoMark.astro';
 import { SITE } from '../data/site';
 import { CATEGORIES } from '../data/categories';
+import { productsIn } from '../lib/data';
 import { NICHE, TOOLS } from '../data/niche';
 const year = new Date().getFullYear();
 ---
@@ -16,7 +17,7 @@ const year = new Date().getFullYear();
         <p>As an Amazon Associate we earn from qualifying purchases. Rankings are never sold. <a href="/disclosure/">How we make money</a></p>
       </div>
       <div><h4>Categories</h4><ul>
-        {CATEGORIES.map((c) => <li><a href={`/${c.hero}/`}>{c.label}</a></li>)}
+        {CATEGORIES.filter((c) => productsIn(c.key).length).map((c) => <li><a href={`/${c.hero}/`}>{c.label}</a></li>)}
         <li><a href="/best-of/">All Best Lists</a></li>
       </ul></div>
       <div><h4>Database</h4><ul>

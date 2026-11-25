@@ -13,7 +13,7 @@ import { amazonLink } from '../../data/affiliate';
 import { productSchema } from '../../lib/schema';
 import {
   PRODUCTS, getBrand, categoryOf, productsIn, productsOfBrand, rankOf, guidesFeaturing, comparesFor, guidesFor, equivalentsFor, categoryGuidesFor, mustProduct,
-  productPath, guidePath, comparePath, brandPath, productUpdated, fmtDate, priceBand, productTitle, productDescription, newCtx, inline, plain, type Product,
+  productPath, guidePath, comparePath, brandPath, productUpdated, fmtDate, priceBand, productTitle, productDescription, priceRank, newCtx, inline, plain, type Product,
 } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -37,7 +37,7 @@ const catGuides = categoryGuidesFor(p, [...featuredGuides, ...builtFor], 6);
 // Alternatives, the sister-site way: "Cheaper options" first (same category, lower price band, best
 // score first); for the cheapest parts, fall back to higher-scoring ones, then to anything else we track.
 const others = productsIn(p.category).filter((x) => x.id !== p.id);
-const cheaper = others.filter((x) => x.price[0] < p.price[0]).sort((a, b) => b.score.overall - a.score.overall).slice(0, 3);
+const cheaper = others.filter((x) => !x.price === !p.price && priceRank(x) > 0 && priceRank(x) < priceRank(p)).sort((a, b) => b.score.overall - a.score.overall).slice(0, 3);
 const higher = others.filter((x) => x.score.overall > p.score.overall).slice(-3).reverse();
 const [altHead, alts] = cheaper.length ? ['Cheaper options', cheaper] : higher.length ? ['Higher-scoring options', higher] : [`Other ${cat.plural} we track`, others.slice(0, 3)];
 const sameBrand = productsOfBrand(p.brand).filter((x) => x.id !== p.id).slice(0, 4);
