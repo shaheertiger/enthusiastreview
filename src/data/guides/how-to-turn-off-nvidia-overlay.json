@@ -159,7 +159,7 @@
     },
     {
       "q": "Does NVIDIA Overlay work with AMD or Intel graphics?",
-      "a": "No. NVIDIA Overlay needs a GeForce GPU and the NVIDIA App. On AMD graphics, AMD Software: Adrenalin Edition has its own metrics overlay, and the Windows Game Bar's Performance widget works with any brand of graphics card."
+      "a": "No. NVIDIA Overlay needs a GeForce GPU and the NVIDIA App. On AMD graphics, AMD Software: Adrenalin Edition has its own overlay and metrics overlay (see [how to turn off AMD overlay](/how-to-turn-off-amd-overlay/)), and the Windows Game Bar's Performance widget works with any brand of graphics card."
     },
     {
       "q": "How do I change the Alt+Z shortcut?",
@@ -175,5 +175,5 @@
     "Owner reports on NVIDIA and gaming forums about FPS showing N/A"
   ],
   "products": ["rtx-5070", "rtx-5060"],
-  "related": ["how-to-update-nvidia-drivers", "nvidia-control-panel-not-opening", "how-to-check-what-graphics-card-i-have"]
+  "related": ["how-to-update-nvidia-drivers", "nvidia-control-panel-not-opening", "how-to-check-what-graphics-card-i-have", "how-to-turn-off-amd-overlay", "how-to-roll-back-nvidia-drivers"]
 }

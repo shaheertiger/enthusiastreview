@@ -1,0 +1,143 @@
+{
+  "slug": "how-to-turn-off-amd-overlay",
+  "type": "article",
+  "kind": "howto",
+  "category": "graphics-cards",
+  "title": "How to Turn Off AMD Overlay: Adrenalin In-Game Overlay, Alt+R",
+  "h1": "How to Turn Off AMD Overlay",
+  "query": "how to turn off amd overlay",
+  "description": "Turn off AMD overlay in 3 steps: open AMD Software, click the gear, switch In-Game Overlay off in Preferences. Ctrl+Shift+O hides the FPS metrics overlay.",
+  "dek": "Switch off the AMD Software: Adrenalin Edition overlay that Alt+R opens, hide just the performance metrics, or change the hotkeys that keep popping it up.",
+  "quickAnswer": "Open AMD Software: Adrenalin Edition, click the gear icon at the top right for Settings, open Preferences and switch In-Game Overlay off. Alt+R then stops opening AMD Software over your games. To keep the overlay but hide the FPS and temperature numbers, press Ctrl+Shift+O, or turn the metrics overlay off in the Performance tab.",
+  "intro": [
+    "This guide is for Radeon owners using AMD Software: Adrenalin Edition, the app that installs with AMD's graphics drivers. It shows how to turn off the in-game overlay that Alt+R opens, hide or change the performance metrics overlay, stop pop-up notifications, change the hotkeys, and install the driver without the overlay at all. Menu names follow recent Adrenalin versions; AMD moves items between releases, so where a label differs, look for the same words nearby."
+  ],
+  "stepsHeading": "How to Turn Off the AMD Overlay in Adrenalin",
+  "steps": [
+    {
+      "h": "Open AMD Software: Adrenalin Edition",
+      "body": [
+        "Right-click the desktop and choose AMD Software: Adrenalin Edition, or find it in the Start menu or the system tray. Use the full window, not the overlay version that Alt+R opens over a game."
+      ]
+    },
+    {
+      "h": "Click the gear icon for Settings",
+      "body": [
+        "The gear icon sits at the top right of the window. It opens the settings area with tabs such as Preferences, Graphics, Display, Hotkeys and System."
+      ]
+    },
+    {
+      "h": "Open Preferences and switch In-Game Overlay off",
+      "body": [
+        "On the Preferences tab, find In-Game Overlay and switch it off. The change applies right away. Alt+R no longer opens AMD Software over a game, and the overlay's in-game pop-ups stop."
+      ]
+    },
+    {
+      "h": "Test it in a game",
+      "body": [
+        "Launch a game and press Alt+R. Nothing should appear over the game. If a panel or an FPS counter still shows, it belongs to something else: the performance metrics overlay, covered below, or another app such as Steam, Discord, the Xbox Game Bar or MSI Afterburner."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "What is the AMD overlay, and what does Alt+R do?",
+      "body": [
+        "AMD Software has two overlays that people mix up. The in-game overlay is a version of AMD Software that slides over your game when you press Alt+R, so you can change graphics settings, record clips or check performance without leaving the game. The performance metrics overlay is the small block of numbers, usually in a corner, that shows FPS, GPU use, temperature and clock speeds.",
+        "They are switched off in different places. Turning off In-Game Overlay stops Alt+R and the pop-ups. The metrics overlay has its own toggle and hotkey. The defaults below are long-standing; you can change any of them under Hotkeys in Settings."
+      ],
+      "table": {
+        "caption": "Default AMD Software: Adrenalin Edition hotkeys",
+        "head": ["Hotkey", "What it does"],
+        "rows": [
+          ["Alt+R", "Show or hide AMD Software over a game (the in-game overlay)"],
+          ["Ctrl+Shift+O", "Show or hide the performance metrics overlay"],
+          ["Ctrl+Shift+E", "Start or stop recording"],
+          ["Ctrl+Shift+S", "Save an Instant Replay clip"],
+          ["Ctrl+Shift+I", "Take a screenshot"]
+        ]
+      }
+    },
+    {
+      "h": "How do you turn off the AMD performance metrics overlay?",
+      "body": [
+        "The fastest way is Ctrl+Shift+O, which toggles the metrics overlay on and off in a game. For a setting that stays off, open AMD Software, go to the Performance tab, open Metrics, and switch the metrics overlay off. The same page lets you choose which numbers show, change the position and size, or reduce it to FPS only.",
+        "If the numbers keep coming back, check that you are not toggling them on with the hotkey by accident, and that they are not coming from another tool. Steam's performance monitor, MSI Afterburner with RivaTuner and the Xbox Game Bar all draw similar counters."
+      ]
+    },
+    {
+      "h": "How do you change or disable the Alt+R hotkey?",
+      "body": [
+        "Open Settings with the gear icon and go to the Hotkeys tab. Find the entry for showing or hiding AMD Software, which is set to Alt+R by default, click it and set a different combination. Some versions let you clear a hotkey; if yours does not, assign a combination you never press.",
+        "This is the right fix if you like the overlay but Alt+R clashes with a game's own keys, which happens in some strategy and MMO games. It also matters if you switch between Radeon and GeForce PCs: NVIDIA's overlay uses Alt+R to show its statistics view, so the same keys mean different things on each."
+      ]
+    },
+    {
+      "h": "How do you stop AMD Software notifications and pop-ups?",
+      "body": [
+        "Turning off In-Game Overlay stops the in-game pop-ups. For desktop notifications, such as new driver alerts and feature announcements, look on the Preferences tab for the notification options and switch off the ones you do not want. Keeping driver update notifications on is useful; the promotional ones can go.",
+        "If a pop-up appears every time a game launches, it is usually the overlay's welcome or hotkey reminder. With In-Game Overlay off, it stops."
+      ]
+    },
+    {
+      "h": "Can you install AMD drivers without the overlay?",
+      "body": [
+        "Yes. AMD's installer offers a Full install, a Minimal install and a Driver Only option. Full install gives you the whole AMD Software app with the overlay, recording and tuning. Minimal installs a smaller app with fewer features. Driver Only installs just the graphics driver, with no AMD Software window and no overlay.",
+        "Driver Only suits PCs where you never use AMD's tuning or recording. The catch is that you lose Radeon features such as Radeon Super Resolution, Anti-Lag, FreeSync options and driver update checks, so you need to check for new drivers yourself. See [how to update AMD drivers](/how-to-update-amd-drivers/) for the install options in detail."
+      ]
+    },
+    {
+      "h": "Does turning off the AMD overlay improve performance?",
+      "body": [
+        "Usually by very little. The in-game overlay is idle until you open it, and the metrics overlay is lightweight. The feature with a steady cost is Instant Replay, which records in the background so it can save the last few minutes; if you never save clips, turn it off in the Record and Stream section.",
+        "The overlay can cause problems in a few games: some anti-cheat systems and older games react badly to overlays hooking into them, and several overlays running at once can conflict. If a game crashes or stutters only with overlays on, turn the AMD overlay off as a test."
+      ]
+    },
+    {
+      "h": "Why does the AMD overlay not open with Alt+R?",
+      "body": [
+        "If you want the overlay and Alt+R does nothing, In-Game Overlay is switched off in Preferences, the hotkey has been changed, or you installed Driver Only or Minimal, which do not include the full overlay. Another app can also capture Alt+R first.",
+        "Switch In-Game Overlay on, check the hotkey under Hotkeys, and restart AMD Software. If it still fails, reinstall the current driver with the Full install option. If AMD Software shows a version error instead, see [AMD Software error 182 and 207](/amd-software-error-182-207/)."
+      ]
+    },
+    {
+      "h": "Other overlays to check",
+      "body": [
+        "If something still draws over your game after the AMD overlay is off, it is coming from another app. Each has its own switch:"
+      ],
+      "list": [
+        "Xbox Game Bar: Windows + G opens it; turn it off in Windows Settings under Gaming.",
+        "Steam: the in-game overlay and performance monitor are in Steam's settings, In Game section.",
+        "Discord: its game overlay setting is under the app's settings.",
+        "MSI Afterburner with RivaTuner Statistics Server: close RivaTuner or turn off its on-screen display.",
+        "NVIDIA Overlay on a PC with a GeForce card; see [how to turn off NVIDIA overlay](/how-to-turn-off-nvidia-overlay/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Turning off the wrong overlay", "The in-game overlay (Alt+R) and the performance metrics overlay (Ctrl+Shift+O) are separate. Turning off one leaves the other working. Check which one you see: a full settings panel is the in-game overlay; a block of numbers is metrics."],
+    ["Uninstalling AMD Software entirely", "Removing the whole app loses driver update checks, FreeSync and Radeon features. If you only want the overlay gone, switch it off in Preferences, or reinstall with Driver Only if you truly want no app."],
+    ["Leaving Instant Replay on unused", "Instant Replay records continuously so it can save recent gameplay. If you never save clips, turn it off. It is the one overlay-related feature that does steady background work."],
+    ["Blaming AMD for another app's counter", "Steam, the Xbox Game Bar, Discord and RivaTuner all draw overlays and FPS counters. If the numbers stay after AMD's overlays are off, close those apps one at a time to find the source."]
+  ],
+  "bottomLine": "To turn off the AMD overlay, open AMD Software: Adrenalin Edition, click the gear icon, open Preferences and switch In-Game Overlay off; Alt+R then does nothing in games. The FPS and temperature numbers are a separate metrics overlay: press Ctrl+Shift+O or turn it off in the Performance tab. Change hotkeys on the Hotkeys tab, and if you never want the app at all, reinstall the driver with the Driver Only option.",
+  "faqs": [
+    {"q": "How do I turn off the AMD overlay?", "a": "Open AMD Software: Adrenalin Edition, click the gear icon for Settings, open Preferences and switch In-Game Overlay off. Alt+R will then stop opening AMD Software over games. The metrics overlay has its own toggle in the Performance tab."},
+    {"q": "How do I get rid of the AMD FPS counter?", "a": "Press Ctrl+Shift+O in a game to hide the performance metrics overlay, or open AMD Software, go to Performance, then Metrics, and switch the overlay off so it stays hidden. If the counter remains, it belongs to another app."},
+    {"q": "How do I disable Alt+R in AMD Software?", "a": "Either switch In-Game Overlay off in Settings, Preferences, which disables Alt+R entirely, or go to Settings, Hotkeys and assign the show or hide AMD Software hotkey to a different combination."},
+    {"q": "Does the AMD overlay lower FPS?", "a": "In most games the effect is too small to notice, because the overlay is idle until opened. Instant Replay records in the background and has a small steady cost; turn it off if you do not use it."},
+    {"q": "Can I keep AMD Software but turn off the overlay?", "a": "Yes. In-Game Overlay is one setting in Preferences. Driver updates, graphics settings, FreeSync and tuning keep working with it off. You only lose the in-game panel and its pop-ups."},
+    {"q": "Why does AMD Software pop up when I start a game?", "a": "That is the in-game overlay's notification or hotkey reminder. Turn In-Game Overlay off in Preferences, or switch off the in-game notifications, and it stops appearing."},
+    {"q": "How do I install AMD drivers without AMD Software?", "a": "Run AMD's installer and choose Driver Only. It installs the graphics driver without the AMD Software app or overlay. You lose features like Radeon Super Resolution and automatic update checks."},
+    {"q": "What is the difference between the AMD overlay and metrics overlay?", "a": "The in-game overlay, opened with Alt+R, is AMD Software's full settings panel over your game. The metrics overlay, toggled with Ctrl+Shift+O, is a small on-screen readout of FPS, GPU use and temperatures. Each is turned off separately."}
+  ],
+  "sources": [
+    "AMD Software: Adrenalin Edition user guide and release notes",
+    "AMD support documentation for hotkeys, performance metrics and Instant Replay",
+    "AMD driver installer documentation for Full, Minimal and Driver Only options",
+    "Microsoft support: Xbox Game Bar settings",
+    "Owner reports on AMD community forums about overlay and hotkey conflicts"
+  ],
+  "products": ["rx-9070-xt", "rx-9060-xt-16gb"],
+  "related": ["how-to-turn-off-nvidia-overlay", "how-to-update-amd-drivers", "amd-software-error-182-207", "how-to-roll-back-nvidia-drivers"]
+}

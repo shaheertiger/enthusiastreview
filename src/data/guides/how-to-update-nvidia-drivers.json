@@ -109,7 +109,7 @@
       "body": [
         "If a new driver breaks a game or causes crashes, you have two ways back. The quickest is Device Manager: press Windows + X, open Device Manager, expand Display adapters, right-click your GeForce card and choose Properties. On the Driver tab, click Roll Back Driver, pick a reason and confirm. The screen flickers while the previous driver loads.",
         "Roll Back Driver is grayed out if Windows did not keep the previous version, which is normal after a clean install or DDU. In that case, install an older driver from the archive of previous releases on nvidia.com, using Custom Installation with the clean installation box checked.",
-        "After rolling back, the NVIDIA App keeps offering the newer driver. Ignore it until a later release lists your problem as fixed in its release notes, which include a section of open and fixed issues."
+        "After rolling back, the NVIDIA App keeps offering the newer driver. Ignore it until a later release lists your problem as fixed in its release notes, which include a section of open and fixed issues. For every rollback option, which older version to pick and how to stop Windows reinstalling the new one, see [how to roll back NVIDIA drivers](/how-to-roll-back-nvidia-drivers/)."
       ]
     },
     {
@@ -198,5 +198,5 @@
     "Wagnardsoft Display Driver Uninstaller documentation"
   ],
   "products": ["rtx-5070", "rtx-5060-ti-16gb", "rtx-5080"],
-  "related": ["how-to-update-intel-graphics-drivers", "how-to-update-amd-drivers", "nvidia-control-panel-not-opening", "how-to-turn-off-nvidia-overlay"]
+  "related": ["how-to-update-intel-graphics-drivers", "how-to-update-amd-drivers", "nvidia-control-panel-not-opening", "how-to-turn-off-nvidia-overlay", "how-to-roll-back-nvidia-drivers"]
 }

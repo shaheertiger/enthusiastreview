@@ -98,7 +98,7 @@
       "h": "How Do You Clear the CMOS on an ASUS Board?",
       "body": [
         "Clearing the CMOS resets BIOS settings to defaults. It does not roll back a BIOS update, but it fixes a board that will not post after a bad setting. Shut down, switch the PSU off and unplug it.",
-        "Higher-end ASUS boards have a Clear CMOS button on the rear I/O; press it. Most others have a two-pin header labelled CLRTC near the battery or the bottom edge of the board: touch both pins with a screwdriver for about 10 seconds. If you cannot find it, remove the coin battery for a few minutes. Expect a long first boot on AM5 afterwards while the memory retrains."
+        "Higher-end ASUS boards have a Clear CMOS button on the rear I/O; press it. Most others have a two-pin header labelled CLRTC near the battery or the bottom edge of the board: touch both pins with a screwdriver for about 10 seconds. If you cannot find it, remove the coin battery for a few minutes. Expect a long first boot on AM5 afterwards while the memory retrains. The [clear CMOS guide](/how-to-clear-cmos/) covers every method and brand, and [how to enable XMP or EXPO](/how-to-enable-xmp-expo/) shows how to turn your memory profile back on afterward."
       ]
     },
     {
@@ -182,6 +182,8 @@
   "related": [
     "how-to-update-msi-bios",
     "how-to-update-gigabyte-bios",
-    "best-am5-motherboard"
+    "best-am5-motherboard",
+    "how-to-clear-cmos",
+    "how-to-enable-xmp-expo"
   ]
 }

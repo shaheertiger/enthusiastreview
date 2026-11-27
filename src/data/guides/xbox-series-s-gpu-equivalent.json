@@ -1,0 +1,138 @@
+{
+  "slug": "xbox-series-s-gpu-equivalent",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Xbox Series S GPU Equivalent: PC Graphics Card and CPU Match",
+  "h1": "Xbox Series S GPU Equivalent",
+  "query": "xbox series s gpu equivalent",
+  "description": "The Xbox Series S 4 TFLOPS, 20-CU RDNA 2 GPU roughly equals a GTX 1650 Super or RX 6500 XT. Its 8-core Zen 2 CPU is close to a Ryzen 7 4700G at lower clocks.",
+  "dek": "The closest desktop graphics card and processor to the Xbox Series S, from Microsoft's published specs, with what it means for building a PC that beats it.",
+  "quickAnswer": "The Xbox Series S GPU has 20 RDNA 2 compute units at 1.565 GHz, 4 TFLOPS, and performs roughly like a desktop GTX 1650 Super or RX 6500 XT, a little ahead of an Arc A380. Its CPU, 8 Zen 2 cores at up to 3.6 GHz, is close to a Ryzen 7 4700G or a Ryzen 7 3700X at lower clocks. Any current card from an RTX 3050 or RX 6600 up beats its GPU.",
+  "intro": [
+    "The Xbox Series S is Microsoft's smaller, cheaper current-generation console. Microsoft published its specs in detail: an 8-core AMD Zen 2 CPU, an RDNA 2 GPU with 20 compute units at 1.565 GHz for 4 TFLOPS, and 10 GB of GDDR6 memory split into a fast 8 GB pool and a slower 2 GB pool. This page matches those parts to the desktop graphics card and processor that perform most like them.",
+    "Matches are estimates from the published specs and from how the closest desktop RDNA 2 and Zen 2 parts perform in independent reviews, rounded to the nearest card. We have not tested a Series S. Console games are tuned for one machine, so treat each match as a range."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart, and Why the Series S Is Hard to Match",
+      "body": [
+        "The Series S uses the same RDNA 2 architecture as AMD's Radeon RX 6000 cards and the same hardware features as the Xbox Series X: hardware ray tracing, mesh shaders, variable rate shading and sampler feedback. It has fewer compute units, a lower clock and much less memory bandwidth, about 224 GB/s on its fast pool.",
+        "Memory is its real limit. Games get roughly 8 GB of total memory on the Series S, shared between game code and graphics, against about 13.5 GB on the Series X. Developers have said publicly that this is the hardest part of shipping on Series S. A desktop card with 4 GB of VRAM plus 16 GB of system RAM is not directly comparable, so the matches below are for GPU throughput only.",
+        "Ray tracing is supported, but at this tier most games use it lightly or switch it off on Series S. Compare it with desktop cards in raster games at 1080p."
+      ]
+    },
+    {
+      "h": "Xbox Series S GPU Equivalents: NVIDIA, AMD and Intel",
+      "body": [
+        "The closest desktop card from each brand, estimated from specs and independent reviews of those cards. To compare the cards against each other, use the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/)."
+      ],
+      "table": {
+        "caption": "Xbox Series S GPU (RDNA 2, 20 CUs, 4 TFLOPS) to desktop graphics cards, estimated",
+        "head": ["Brand", "Closest desktop card", "Faster than the Series S", "Slower than the Series S"],
+        "rows": [
+          ["NVIDIA", "GTX 1650 Super (roughly)", "GTX 1660 Super, RTX 3050 8GB", "GTX 1650"],
+          ["AMD", "RX 6500 XT or RX 5500 XT (roughly)", "RX 6600, RX 7600", "RX 6400"],
+          ["Intel Arc", "A little above an Arc A380", "Arc A580, Arc B580", "Arc A310"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Xbox Series S GPU Equivalent?",
+      "body": [
+        "The Xbox Series S GPU's closest desktop equivalent is roughly a GTX 1650 Super or an RX 6500 XT. Its 20 RDNA 2 compute units at 1.565 GHz give 4 TFLOPS, about a third of the Series X's 12.15 TFLOPS. In practice that is enough for 1080p in most games, often with lower settings than the Series X, and some demanding games render below 1080p and upscale.",
+        "Microsoft marketed the Series S for 1440p at up to 120 fps. A few lighter games hit that; most big releases target 1080p or lower at 30 or 60 fps. Picture a GTX 1650 Super at 1080p medium settings and you are close to what most Series S games deliver."
+      ]
+    },
+    {
+      "h": "What Is the Xbox Series S GPU Equivalent in NVIDIA?",
+      "body": [
+        "The Xbox Series S GPU's NVIDIA equivalent is roughly a GTX 1650 Super in raster games. A plain GTX 1650 is a little slower; a GTX 1660 Super and an RTX 3050 8GB are faster. The RTX 3050 also adds DLSS, which the Series S cannot use, and stronger ray tracing.",
+        "Among current NVIDIA cards, an [RTX 4060](/gear/rtx-4060/) or [RTX 5060](/gear/rtx-5060/) is far ahead, roughly two and a half times the Series S GPU in raster by the broad pattern of independent reviews, with 8 GB of dedicated VRAM on top of system memory."
+      ]
+    },
+    {
+      "h": "What Is the Xbox Series S GPU Equivalent in AMD?",
+      "body": [
+        "The Series S GPU's AMD equivalent is roughly an RX 6500 XT or the older RX 5500 XT. The RX 6500 XT is the closest in design: also RDNA 2, with 16 compute units at much higher clocks, and limited by a narrow memory bus, as the Series S is limited by its memory pool. The RX 6400 is a step slower.",
+        "The [RX 6600](/gear/rx-6600/) is the cheapest current AMD card that clearly beats it. It has 28 RDNA 2 compute units, 8 GB of dedicated GDDR6 and is roughly twice the Series S GPU in raster games."
+      ]
+    },
+    {
+      "h": "What Is the Xbox Series S CPU Equivalent?",
+      "body": [
+        "The Series S CPU is 8 Zen 2 cores with 16 threads, at 3.6 GHz with SMT on or 3.4 GHz when games use it as 8 threads. Its closest desktop match is a Ryzen 7 4700G or Ryzen 7 4750G, which are also 8-core Zen 2 chips with a small 8 MB L3 cache. A Ryzen 7 3700X has the same core count but 32 MB of L3 cache and higher clocks, so it is faster in games.",
+        "On the Intel side, that puts it roughly at a Core i7-9700 or Core i5-10400F class chip for gaming. It is the same CPU design as the Series X with a slightly lower clock, which is why both consoles run the same games with the Series S cutting resolution and graphics rather than simulation."
+      ]
+    },
+    {
+      "h": "Xbox Series S vs Series X: How Big Is the Gap?",
+      "body": [
+        "The Series X GPU is about three times the Series S in raw throughput: 52 compute units at 1.825 GHz for 12.15 TFLOPS against 20 at 1.565 GHz for 4 TFLOPS. The Series X also has more memory and much more bandwidth. The CPUs are nearly the same. For the Series X in detail, see the [Xbox Series X GPU equivalent](/xbox-series-x-gpu-equivalent/) page."
+      ],
+      "table": {
+        "caption": "Xbox Series S vs Series X, Microsoft published specs",
+        "head": ["Spec", "Xbox Series S", "Xbox Series X"],
+        "rows": [
+          ["GPU", "20 RDNA 2 CUs at 1.565 GHz, 4 TFLOPS", "52 RDNA 2 CUs at 1.825 GHz, 12.15 TFLOPS"],
+          ["CPU", "8 Zen 2 cores, up to 3.6 GHz", "8 Zen 2 cores, up to 3.8 GHz"],
+          ["Memory", "10 GB GDDR6 (8 GB at 224 GB/s, 2 GB at 56 GB/s)", "16 GB GDDR6 (10 GB at 560 GB/s, 6 GB at 336 GB/s)"],
+          ["Usual game target", "1080p to 1440p, often upscaled", "4K, often upscaled"],
+          ["Closest desktop GPU", "GTX 1650 Super or RX 6500 XT", "RTX 2080 or RX 6700 XT class"]
+        ]
+      }
+    },
+    {
+      "h": "Is the Xbox Series S More Powerful Than a PS4 Pro or Switch 2?",
+      "body": [
+        "Against the PS4 Pro, the Series S has a smaller raw TFLOPS figure, 4 against 4.2, but a much newer GPU architecture and a far faster CPU. In most games the Series S matches or beats it, and its CPU is several times the PS4 Pro's Jaguar cores. Against the Switch 2, the Series S is a step ahead in raw GPU power and well ahead in CPU power, though the Switch 2 has DLSS. See the [Switch 2 GPU equivalent](/switch-2-gpu-equivalent/) page for its docked and handheld match.",
+        "Against the PS5, the Series S is well behind: the PS5's GPU is roughly an RX 6700, more than twice the Series S. The [console GPU equivalents chart](/console-gpu-equivalents/) puts every console on one table."
+      ]
+    },
+    {
+      "h": "Graphics Card to Series S: Does Your GPU Beat It?",
+      "body": [
+        "The reverse lookup, for anyone deciding whether a PC or a Series S is the better buy. A PC with a Ryzen 5 7600 or similar six-core CPU and any card from the bottom row up clearly beats a Series S. For picks at this price, see the [best budget graphics cards](/best-budget-graphics-card/)."
+      ],
+      "table": {
+        "caption": "Desktop graphics cards against the Xbox Series S GPU, raster, estimated",
+        "head": ["Your card", "Versus the Series S GPU"],
+        "rows": [
+          ["GTX 1050 Ti, RX 570", "Clearly slower"],
+          ["GTX 1650, RX 6400, Arc A380", "A little slower"],
+          ["GTX 1650 Super, RX 6500 XT, RX 5500 XT", "About level"],
+          ["GTX 1660 Super, RTX 3050 8GB", "Faster"],
+          ["RX 6600, RTX 3060", "About twice as fast"],
+          ["RTX 4060, RTX 5060, Arc B580, RX 9060 XT", "Far faster"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Comparing TFLOPS across architectures", "The Series S's 4 TFLOPS is RDNA 2. A GTX 1650 Super's TFLOPS figure, an NVIDIA Ampere card's, or the PS4 Pro's GCN figure do not line up directly. Compare tested performance tiers, not the headline TFLOPS number."],
+    ["Treating 1440p marketing as typical", "Microsoft marketed the Series S for 1440p at up to 120 fps, but most big releases run at 1080p or below. Compare it with desktop cards at 1080p, where it actually spends its time."],
+    ["Ignoring the memory limit", "Games get roughly 8 GB on the Series S for everything. A desktop GTX 1650 Super has its own VRAM plus system memory, so it can hold larger textures even where raw GPU power is similar."],
+    ["Assuming the CPU is weak", "The Series S CPU is the same 8-core Zen 2 design as the Series X at a slightly lower clock. It is far faster than any last-generation console CPU and close to a Ryzen 7 4700G."]
+  ],
+  "bottomLine": "The Xbox Series S's 20-CU RDNA 2 GPU, at 4 TFLOPS, is roughly a desktop GTX 1650 Super or RX 6500 XT, a little ahead of an Arc A380. Its 8-core Zen 2 CPU is close to a Ryzen 7 4700G. Its biggest limit is memory, about 8 GB for games, not the GPU itself. The Series X is about three times its GPU, and the PS5 more than twice. An RX 6600 is about twice the Series S, and any current card from an RTX 4060 up is far faster.",
+  "faqs": [
+    {"q": "What GPU is the Xbox Series S equivalent to?", "a": "Roughly a desktop GTX 1650 Super or RX 6500 XT. It has 20 RDNA 2 compute units at 1.565 GHz for 4 TFLOPS, a little ahead of an Arc A380 and behind a GTX 1660 Super or RTX 3050 8GB."},
+    {"q": "What is the Xbox Series S GPU equivalent in NVIDIA?", "a": "The GTX 1650 Super is the closest NVIDIA match in raster games. A plain GTX 1650 is a little slower; a GTX 1660 Super or RTX 3050 8GB is faster, and the RTX 3050 adds DLSS."},
+    {"q": "How many TFLOPS is the Xbox Series S?", "a": "4 TFLOPS, from 20 RDNA 2 compute units at 1.565 GHz, by Microsoft's published specs. The Series X is 12.15 TFLOPS, about three times as much."},
+    {"q": "What CPU is in the Xbox Series S?", "a": "An 8-core, 16-thread AMD Zen 2 CPU at up to 3.6 GHz, or 3.4 GHz with 8 threads. Its closest desktop match is a Ryzen 7 4700G, roughly a Core i5-10400F class chip for gaming."},
+    {"q": "Is a GTX 1650 better than an Xbox Series S?", "a": "No, a plain GTX 1650 is a little slower than the Series S GPU. A GTX 1650 Super is about level. A PC with a GTX 1650 also needs a decent CPU to match the Series S's 8-core Zen 2."},
+    {"q": "Is the Xbox Series S more powerful than a PS4 Pro?", "a": "In most games, yes. Its raw TFLOPS figure is slightly lower, 4 against 4.2, but its RDNA 2 GPU is a much newer design and its Zen 2 CPU is several times faster than the PS4 Pro's Jaguar cores."},
+    {"q": "Can the Xbox Series S do ray tracing?", "a": "Yes, it has hardware ray tracing like the Series X, but at its performance level most games use it lightly or not at all. Desktop cards from an RTX 4060 up handle ray tracing far better."},
+    {"q": "What PC beats an Xbox Series S?", "a": "A six-core CPU such as a Ryzen 5 7600 with an RX 6600, RTX 4060, RTX 5060 or Arc B580 clearly beats it. The RX 6600 alone is about twice the Series S GPU in raster games."}
+  ],
+  "sources": [
+    "Microsoft Xbox Series S and Series X published specifications",
+    "Microsoft Hot Chips 2020 Xbox Series X presentation",
+    "AMD Radeon RX 6500 XT, RX 6400, RX 6600 and RX 5500 XT specifications",
+    "NVIDIA GeForce GTX 16 series specifications",
+    "AMD Ryzen 7 4700G and Ryzen 7 3700X specifications",
+    "Independent console and GPU reviews from Digital Foundry, TechPowerUp and Hardware Unboxed"
+  ],
+  "products": ["rx-6600", "rtx-4060", "rtx-5060", "arc-b580", "ryzen-5-7600"],
+  "related": ["console-gpu-equivalents", "xbox-series-x-gpu-equivalent", "switch-2-gpu-equivalent", "ps5-gpu-equivalent", "best-budget-graphics-card"]
+}

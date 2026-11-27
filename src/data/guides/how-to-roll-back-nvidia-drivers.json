@@ -1,0 +1,157 @@
+{
+  "slug": "how-to-roll-back-nvidia-drivers",
+  "type": "article",
+  "kind": "howto",
+  "category": "graphics-cards",
+  "title": "How to Roll Back NVIDIA Drivers: Device Manager or NVIDIA App",
+  "h1": "How to Roll Back NVIDIA Drivers",
+  "query": "how to roll back nvidia drivers",
+  "description": "Roll back an NVIDIA driver in 5 steps: Device Manager, Display adapters, Properties, Driver, Roll Back Driver. Grayed out? Clean-install an older driver.",
+  "dek": "Go back to the previous GeForce driver in under five minutes with Device Manager, or install any older version cleanly, and stop Windows from putting the new one back.",
+  "quickAnswer": "Press Windows + X, open Device Manager, expand Display adapters, right-click your GeForce card, choose Properties, open the Driver tab and click Roll Back Driver. If that button is grayed out, download the older driver from NVIDIA's driver archive and install it with Custom installation and the clean installation box checked. The NVIDIA App is built to install the newest driver, not to roll back.",
+  "intro": [
+    "This guide is for GeForce owners whose new driver brought crashes, stutter, black screens or a broken game. It covers the two ways back to an older driver, what the NVIDIA App can and cannot do, how to choose which older version to install, and how to stop Windows Update and the NVIDIA App from reinstalling the driver you just removed."
+  ],
+  "stepsHeading": "How to Roll Back an NVIDIA Driver in Device Manager",
+  "steps": [
+    {
+      "h": "Open Device Manager",
+      "body": [
+        "Press Windows + X, or right-click the Start button, and choose Device Manager. You can also type Device Manager into the Start menu search."
+      ]
+    },
+    {
+      "h": "Open your GeForce card's properties",
+      "body": [
+        "Expand Display adapters. Right-click your NVIDIA GeForce card and choose Properties. On a laptop you will usually see two entries, the integrated Intel or AMD graphics and the GeForce GPU; pick the NVIDIA one."
+      ]
+    },
+    {
+      "h": "Click Roll Back Driver",
+      "body": [
+        "Open the Driver tab. It shows the driver version and date currently installed. Click Roll Back Driver. Windows asks why you are rolling back; pick any reason and click Yes."
+      ]
+    },
+    {
+      "h": "Wait for the screen to flicker",
+      "body": [
+        "The screen goes black or flickers for a few seconds while Windows swaps the driver. When it comes back, the Driver tab shows the previous version and date. Restart the PC so every NVIDIA component loads the older version."
+      ]
+    },
+    {
+      "h": "Check the version and test",
+      "body": [
+        "Open the Driver tab again, or the NVIDIA Control Panel's System Information, to confirm the version. Then run the game or app that was failing. If the problem is gone, block the newer driver from coming back, as covered below."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "Can you roll back drivers through the NVIDIA App?",
+      "body": [
+        "Not reliably as a one-click option. The NVIDIA App's Drivers page is built around installing the newest Game Ready or Studio driver. It can reinstall the current driver and switch between Game Ready and Studio, but it does not consistently offer a list of older versions to go back to. Menus change between app versions, so check the options menu next to the installed driver; if an older version is not offered there, use Device Manager or the archive method on this page.",
+        "Switching driver type is a useful middle step. If a new Game Ready driver broke something, the Studio driver from around the same time is often an older, more tested branch. Choose Studio on the Drivers page and install it.",
+        "After any rollback, the NVIDIA App keeps showing the newer driver as available. That is normal. Leave it until a later release lists your problem as fixed. For the update side of the app, see [how to update NVIDIA drivers](/how-to-update-nvidia-drivers/)."
+      ]
+    },
+    {
+      "h": "Why is Roll Back Driver grayed out?",
+      "body": [
+        "Roll Back Driver only works when Windows kept a copy of the previous driver. It is grayed out when there is no previous version stored, which is normal in these cases:"
+      ],
+      "list": [
+        "You installed the current driver with the clean installation option, which removes the old one.",
+        "You used Display Driver Uninstaller (DDU) before the current driver.",
+        "This is the first NVIDIA driver on this Windows install, or the card was just installed.",
+        "Windows has already rolled back once; it keeps only one previous version.",
+        "You do not have administrator rights on the PC."
+      ]
+    },
+    {
+      "h": "How to install an older NVIDIA driver manually",
+      "body": [
+        "This method works every time, and lets you pick any older version rather than only the last one. It takes about ten minutes."
+      ],
+      "list": [
+        "Go to NVIDIA's driver download page and open the archive of older and beta drivers, or use the advanced driver search. Select your card's series, your exact card and your Windows version.",
+        "Pick the version you want. Download it and save it somewhere easy to find.",
+        "Run the installer. When asked, choose NVIDIA Graphics Driver and NVIDIA App, or Graphics Driver only if you do not want the app.",
+        "Choose Custom (Advanced) installation, then tick Perform a clean installation. This removes the newer driver and its settings before installing the older one.",
+        "Let the installer finish and restart the PC. Check the version in Device Manager or the NVIDIA Control Panel."
+      ]
+    },
+    {
+      "h": "Which older NVIDIA driver should you roll back to?",
+      "body": [
+        "Start with the driver you had before the problem began. If you do not remember it, read the release notes of the new driver: NVIDIA lists open issues and fixed issues for each release, and a known bug with your game or symptom is a strong hint.",
+        "Otherwise, choose the last driver that was out for a few weeks without widely reported problems. Owner reports on NVIDIA's forums and gaming communities usually name one quickly after a bad release. Avoid going back further than you need to: older drivers lack game optimizations and fixes for newer titles, and RTX 50 series cards need a recent driver to run at all.",
+        "For a work PC, the Studio driver closest to your date is often the safest pick, because it is released less often and built for stability in creative apps."
+      ]
+    },
+    {
+      "h": "When should you use DDU before rolling back?",
+      "body": [
+        "Display Driver Uninstaller is a free tool that removes every trace of a GPU driver from Safe Mode. Use it when a normal clean installation does not fix the problem, when installs keep failing, or when you are switching between NVIDIA and AMD cards.",
+        "Download DDU and the older driver first, disconnect from the internet, boot into Safe Mode, run DDU for NVIDIA, restart, and install the older driver before you reconnect. The full steps are in the DDU section of [how to update NVIDIA drivers](/how-to-update-nvidia-drivers/). For most rollbacks, the clean installation box in NVIDIA's installer is enough."
+      ]
+    },
+    {
+      "h": "How do you stop Windows from reinstalling the new NVIDIA driver?",
+      "body": [
+        "Windows Update can install an NVIDIA driver on its own, sometimes undoing a rollback. You have a few ways to stop it. Use one, and undo it when you want updates again."
+      ],
+      "list": [
+        "Windows 11 Pro and Windows 10 Pro: open the Group Policy editor, go to the Windows Update section and enable Do not include drivers with Windows Updates.",
+        "Microsoft's Show or hide updates troubleshooter can hide one specific driver update so Windows does not offer it again.",
+        "Check Windows Update's optional updates list after a rollback; driver updates often appear there and install only if you select them."
+      ]
+    },
+    {
+      "h": "What problems does rolling back NVIDIA drivers fix?",
+      "body": [
+        "A rollback fixes problems the new driver caused. If the trouble started right after a driver update, it is the first thing to try. Typical cases:"
+      ],
+      "list": [
+        "A game crashes, stutters or shows artifacts only on the new driver.",
+        "Black screens, flicker or a monitor that no longer runs at its full refresh rate after the update.",
+        "A creative or AI app that stops working or slows down with the new version.",
+        "Lines or colored artifacts on screen that began after an update. If they persist on an older driver, see [NVIDIA green lines on screen](/nvidia-green-lines-on-screen/) for hardware causes.",
+        "The NVIDIA Control Panel stops opening after an update; see [NVIDIA Control Panel not opening](/nvidia-control-panel-not-opening/) as well."
+      ]
+    },
+    {
+      "h": "How do you check which NVIDIA driver version you have?",
+      "body": [
+        "Three quick ways. In the NVIDIA App, the Drivers page shows the installed version at the top. In the NVIDIA Control Panel, click System Information in the bottom left. In Device Manager, the Driver tab shows a Windows-style version number whose last five digits are NVIDIA's version: 32.0.15.6094, for example, is NVIDIA 560.94.",
+        "Task Manager's Performance tab also shows the driver version for the GPU under its graph. If you are not sure which card you have, see [how to check what graphics card you have](/how-to-check-what-graphics-card-i-have/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Rolling back without testing", "Confirm the problem actually goes away on the older driver before blocking updates. If it does not, the driver was not the cause, and you are now missing fixes for nothing. Look at game updates, Windows updates and hardware next."],
+    ["Going back too far", "Very old drivers lack optimizations and bug fixes for recent games, and new cards such as the RTX 50 series need recent drivers. Roll back one or two releases, to the last version that worked for you."],
+    ["Forgetting Windows Update", "Windows can quietly install a newer NVIDIA driver after a rollback. If the problem returns a few days later, check the version, then exclude drivers from Windows Update or hide that update."],
+    ["Using DDU when it is not needed", "DDU is a strong tool for broken installs and brand switches. For a normal rollback, NVIDIA's clean installation option does the job without booting into Safe Mode."]
+  ],
+  "bottomLine": "To roll back an NVIDIA driver, open Device Manager, expand Display adapters, open your GeForce card's Properties and click Roll Back Driver on the Driver tab. If it is grayed out, download the older version from NVIDIA's driver archive and install it with Custom installation and a clean install. The NVIDIA App is for updating rather than rolling back, though switching to the Studio driver can help. Afterward, stop Windows Update from reinstalling the newer driver until a fixed release arrives.",
+  "faqs": [
+    {"q": "How do I roll back drivers through the NVIDIA App?", "a": "The NVIDIA App does not reliably offer a one-click rollback to older versions; it is built to install the newest driver. Check the options menu next to the installed driver, and if no older version is listed, use Device Manager's Roll Back Driver or install an older driver from NVIDIA's archive."},
+    {"q": "Why can't I roll back my NVIDIA driver?", "a": "Roll Back Driver is grayed out when Windows has no previous driver stored, which happens after a clean install, after using DDU, or on a fresh Windows install. Download the older version from NVIDIA's archive and install it with the clean installation option."},
+    {"q": "Does rolling back NVIDIA drivers delete my settings?", "a": "Device Manager's rollback usually keeps NVIDIA Control Panel settings. Installing an older driver with the clean installation option resets them to defaults, so note any custom settings first."},
+    {"q": "How do I install an older NVIDIA driver?", "a": "Open NVIDIA's driver archive or advanced driver search, pick your card and Windows version, download the version you want, and run it with Custom installation and Perform a clean installation ticked. Restart afterward."},
+    {"q": "Is it safe to roll back NVIDIA drivers?", "a": "Yes. Rolling back is a normal fix for driver bugs and does not risk the hardware. The only cost is losing fixes and game optimizations from the newer driver, so move forward again once a fixed release arrives."},
+    {"q": "How do I stop Windows from updating my NVIDIA driver?", "a": "On Pro editions, enable the Group Policy Do not include drivers with Windows Updates. On any edition, hide the specific driver update with Microsoft's Show or hide updates tool, and skip driver entries in Windows Update's optional updates list."},
+    {"q": "Should I use the Game Ready or Studio driver after a rollback?", "a": "If a Game Ready driver broke something, the Studio driver from a similar date is a good alternative: it is released less often and tested for stability in creative apps, and it still runs games well."},
+    {"q": "How many times can I roll back a driver in Device Manager?", "a": "Once. Windows keeps only the previous driver version, so after one rollback the button is grayed out. To go further back, install the specific older version from NVIDIA's archive."}
+  ],
+  "sources": [
+    "NVIDIA driver download page, driver archive and release notes",
+    "NVIDIA App documentation and release notes",
+    "Microsoft support: roll back a driver in Device Manager",
+    "Microsoft documentation: Windows Update driver policies and the Show or hide updates troubleshooter",
+    "Wagnardsoft Display Driver Uninstaller documentation",
+    "Owner reports on NVIDIA forums about driver regressions and rollbacks"
+  ],
+  "products": ["rtx-5070", "rtx-5060", "rtx-4060"],
+  "related": ["how-to-update-nvidia-drivers", "how-to-turn-off-nvidia-overlay", "nvidia-control-panel-not-opening", "how-to-turn-off-amd-overlay"]
+}

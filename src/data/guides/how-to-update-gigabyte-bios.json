@@ -113,7 +113,7 @@
       "h": "How Long Does a Gigabyte BIOS Update Take?",
       "body": [
         "Q-Flash usually takes two to five minutes plus one or more restarts. Q-Flash Plus can take longer, up to around eight minutes on some boards, and the flashing LED is the only sign it is working. On AM5, the first boot after any update can show a black screen for a minute or more while the memory trains. That is normal; wait rather than reset.",
-        "To clear the CMOS on a Gigabyte board, use the Clear CMOS button on the rear I/O if it has one, or short the two-pin CLR_CMOS jumper near the battery with the PSU switched off. For board choices, see our [best AM5 motherboard guide](/best-am5-motherboard/), the [MAG B650 Tomahawk WiFi vs B650 Aorus Elite AX](/compare/msi-mag-b650-tomahawk-wifi-vs-gigabyte-b650-aorus-elite-ax/) comparison and all [Gigabyte products we track](/brands/gigabyte/)."
+        "To clear the CMOS on a Gigabyte board, use the Clear CMOS button on the rear I/O if it has one, or short the two-pin CLR_CMOS jumper near the battery with the PSU switched off. For board choices, see our [best AM5 motherboard guide](/best-am5-motherboard/), the [MAG B650 Tomahawk WiFi vs B650 Aorus Elite AX](/compare/msi-mag-b650-tomahawk-wifi-vs-gigabyte-b650-aorus-elite-ax/) comparison and all [Gigabyte products we track](/brands/gigabyte/). The [clear CMOS guide](/how-to-clear-cmos/) covers every method, and [how to enable XMP or EXPO](/how-to-enable-xmp-expo/) shows the Gigabyte memory profile menu."
       ]
     }
   ],
@@ -190,6 +190,8 @@
     "gigabyte-rgb-fusion-software",
     "how-to-update-msi-bios",
     "how-to-update-asrock-bios",
-    "best-am5-motherboard"
+    "best-am5-motherboard",
+    "how-to-clear-cmos",
+    "how-to-enable-xmp-expo"
   ]
 }
