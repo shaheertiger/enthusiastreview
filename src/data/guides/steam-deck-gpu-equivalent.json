@@ -85,7 +85,7 @@
       "h": "Steam Deck vs ROG Ally, Switch 2 and Steam Machine",
       "body": [
         "The Z1 Extreme handhelds (ROG Ally, Ally X, Legion Go) have 12 RDNA 3 compute units, the same graphics as a Radeon 780M. At their higher power settings they run many games roughly 1.5 to 2 times as fast as a Deck, landing near a GTX 1650; at 15 W the gap shrinks a lot. The Z2 Extreme in the ROG Xbox Ally X is a modest step above that.",
-        "Valve says the Steam Machine is more than six times as powerful as the Steam Deck: 28 RDNA 3 compute units and dedicated GDDR6, roughly an RX 6600 XT. See [Steam Machine GPU equivalent](/steam-machine-gpu-equivalent/). The Nintendo Switch 2 is roughly level with or a little above a Deck in handheld mode and clearly ahead docked, by widely reported figures. Every console and handheld is in the [console GPU equivalents chart](/console-gpu-equivalents/)."
+        "Valve says the Steam Machine is more than six times as powerful as the Steam Deck: 28 RDNA 3 compute units and dedicated GDDR6, roughly an RX 6600 XT. See [Steam Machine GPU equivalent](/steam-machine-gpu-equivalent/). The Nintendo Switch 2 is roughly level with or a little above a Deck in handheld mode and clearly ahead docked, by widely reported figures. Every console and handheld is in the [console GPU equivalents chart](/console-gpu-equivalents/). For those devices in detail, see the [ROG Ally GPU equivalent](/rog-ally-gpu-equivalent/) and [Switch 2 GPU equivalent](/switch-2-gpu-equivalent/) pages."
       ],
       "table": {
         "caption": "Handhelds and the Steam Machine, rough desktop GPU match",
@@ -131,5 +131,5 @@
     "Independent handheld and low-end GPU reviews from Digital Foundry, Hardware Unboxed and TechPowerUp"
   ],
   "products": ["rx-6600", "arc-b580", "rtx-5060", "ryzen-5-7600"],
-  "related": ["integrated-graphics-equivalents", "console-gpu-equivalents", "steam-machine-gpu-equivalent", "ps5-gpu-equivalent", "ps5-pro-gpu-equivalent", "xbox-series-x-gpu-equivalent"]
+  "related": ["integrated-graphics-equivalents", "console-gpu-equivalents", "steam-machine-gpu-equivalent", "ps5-gpu-equivalent", "ps5-pro-gpu-equivalent", "xbox-series-x-gpu-equivalent", "rog-ally-gpu-equivalent", "switch-2-gpu-equivalent"]
 }

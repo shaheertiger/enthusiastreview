@@ -1,0 +1,155 @@
+{
+  "slug": "how-to-clear-cmos",
+  "type": "article",
+  "kind": "howto",
+  "category": "motherboards",
+  "title": "How to Clear CMOS: Button, Jumper or Battery on Any Board",
+  "h1": "How to Clear CMOS and Reset the BIOS",
+  "query": "how to clear cmos",
+  "description": "Clear CMOS in 3 ways: press the rear Clear CMOS button, short the 2-pin jumper for 10 seconds, or pull the coin battery for 5 minutes. Steps for every brand.",
+  "dek": "Reset every BIOS setting to default when a PC will not post or boot after a change, with the button, jumper or battery method and the header name on ASUS, MSI, Gigabyte and ASRock boards.",
+  "quickAnswer": "Shut down, switch the power supply off and unplug it. Then press the Clear CMOS button on the rear I/O if your board has one, or short the two-pin Clear CMOS jumper (CLRTC on ASUS, JBAT1 on MSI, CLR_CMOS on Gigabyte, CLRMOS1 on ASRock) with a screwdriver for about 10 seconds. With neither, remove the coin battery for about 5 minutes. If the PC still reaches the BIOS, Load Optimized Defaults does the same job.",
+  "intro": [
+    "Clearing the CMOS resets every BIOS setting to its factory default. It is the standard fix when a PC will not post after a memory overclock, a wrong setting or a CPU swap, and when Fast Boot locks you out of the BIOS. It does not change or roll back the BIOS version, and it does not touch your files or Windows. This guide covers the three hardware methods, the software method, where to find the jumper on each major brand, and what to set again afterward."
+  ],
+  "stepsHeading": "How to Clear CMOS With the Jumper, Step by Step",
+  "steps": [
+    {
+      "h": "Shut down and cut the power",
+      "body": [
+        "Shut down Windows, then switch the power supply off with the switch on its back and unplug the power cable. Press the case power button once to drain leftover power. Clearing the CMOS with the PSU still live can fail or, on the jumper, short the wrong thing."
+      ]
+    },
+    {
+      "h": "Ground yourself and open the case",
+      "body": [
+        "Touch a bare metal part of the case to discharge static, then remove the side panel. Work on a hard floor rather than carpet if you can."
+      ]
+    },
+    {
+      "h": "Find the Clear CMOS jumper",
+      "body": [
+        "Look for two or three pins labeled CLRTC, JBAT1, CLR_CMOS, CLRMOS1 or similar, usually near the coin battery or along the bottom edge of the board. The manual's layout diagram shows the exact spot. The brand table below lists the usual names."
+      ]
+    },
+    {
+      "h": "Short the pins for about 10 seconds",
+      "body": [
+        "On a two-pin header, touch both pins at once with the tip of a metal screwdriver and hold for about 10 seconds. On a three-pin header with a jumper cap, move the cap from pins 1-2 to pins 2-3 for about 10 seconds, then move it back. Leaving a cap in the clear position stops the board from booting."
+      ]
+    },
+    {
+      "h": "Reconnect, boot and reset your settings",
+      "body": [
+        "Close the case, plug the PSU back in, switch it on and power up. The first boot can be slow, especially on AM5 where the memory retrains, and the board may show a message that settings were reset. Enter the BIOS, set the date and time, and turn back on the settings you use."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "What is the Clear CMOS jumper called on each motherboard brand?",
+      "body": [
+        "Names vary by board, so treat these as the usual labels and confirm in your manual. Higher-end boards from every brand add a Clear CMOS button on the rear I/O, which is the easiest method of all."
+      ],
+      "table": {
+        "caption": "Clear CMOS header names and buttons by brand (typical)",
+        "head": ["Brand", "Jumper label", "Rear I/O button", "BIOS key"],
+        "rows": [
+          ["ASUS", "CLRTC (2-pin)", "On many ROG, TUF and ProArt boards", "Delete or F2"],
+          ["MSI", "JBAT1 (2-pin)", "On many MAG, MPG and MEG boards", "Delete"],
+          ["Gigabyte", "CLR_CMOS (2-pin)", "On many Aorus boards", "Delete"],
+          ["ASRock", "CLRMOS1 or CLRCMOS1", "On many Steel Legend, Phantom Gaming and Taichi boards", "F2 or Delete"]
+        ]
+      }
+    },
+    {
+      "h": "How do you clear CMOS with the rear I/O button?",
+      "body": [
+        "With the PC shut down and the PSU switched off, press and hold the Clear CMOS button on the rear I/O panel for a few seconds. It is a small button, often labeled CLR CMOS or with a circular arrow, near the USB ports. Some boards recess it so you need a pen tip.",
+        "Then switch the PSU back on and boot. Some boards also accept the button press with the PSU on but the PC off; the manual says which. Do not confuse it with the BIOS Flashback button, which sits nearby on many boards and starts a BIOS flash instead. On ASUS boards, see [how to update ASUS BIOS](/how-to-update-asus-bios/) for which button is which."
+      ]
+    },
+    {
+      "h": "How do you clear CMOS by removing the battery?",
+      "body": [
+        "If you cannot find a jumper or button, remove the CR2032 coin battery. With the PSU off and unplugged, press the small metal latch beside the battery and it pops up. On boards where the graphics card covers the battery, remove the card first.",
+        "Leave the battery out for about five minutes, and press the case power button while it is out to drain the board. Then put it back with the positive side, the one with the writing, facing up. This method is slower but works on any board. If the clock resets every time you unplug the PC, the battery is flat; replace it with a new CR2032."
+      ]
+    },
+    {
+      "h": "How do you reset the BIOS without opening the case?",
+      "body": [
+        "If the PC still reaches the BIOS, load the defaults from inside it. Every brand has a Load Optimized Defaults or Load Defaults option in the Exit or Save and Exit menu, and most assign it a key, shown at the bottom of the screen. Choose it, confirm, then save and exit with F10. This resets the same settings as a CMOS clear.",
+        "Many boards also reset themselves after a bad setting. After several failed boots, ASUS, MSI, Gigabyte and ASRock boards usually fall back to safe settings and show a message that the overclock failed. Give the PC a few tries before opening it up."
+      ]
+    },
+    {
+      "h": "When should you clear CMOS?",
+      "body": [
+        "Clear the CMOS when a settings change has left the PC unable to post or reach the BIOS. Common cases:"
+      ],
+      "list": [
+        "The PC will not post after enabling XMP or EXPO or another memory overclock; see [how to enable XMP or EXPO](/how-to-enable-xmp-expo/) for safer settings.",
+        "A CPU or GPU overclock or voltage change made the PC unstable or stuck on a black screen.",
+        "Fast Boot set to Ultra Fast skips the keyboard, so you cannot enter the BIOS; see [how to enter ASRock BIOS](/how-to-enter-asrock-bios/).",
+        "You swapped the CPU and the board hangs at a debug LED.",
+        "Before retrying a BIOS update that stopped before it started writing.",
+        "You forgot a BIOS password you set, on boards where a CMOS clear removes it."
+      ]
+    },
+    {
+      "h": "Does clearing CMOS reset the BIOS version?",
+      "body": [
+        "No. Clearing the CMOS resets settings, not firmware. The BIOS version stays the same. If a BIOS update caused a problem, you need to flash a different version, or use the board's BIOS Flashback, Q-Flash Plus or Flash BIOS button, which work without a CPU. See [how to update MSI BIOS](/how-to-update-msi-bios/), [how to update Gigabyte BIOS](/how-to-update-gigabyte-bios/) and [how to update ASRock BIOS](/how-to-update-asrock-bios/) for each brand's recovery path.",
+        "It also does not erase Windows, your files, or the firmware TPM keys in most cases. If you use BitLocker, keep the recovery key handy anyway, since a firmware settings change can trigger the recovery prompt."
+      ]
+    },
+    {
+      "h": "What should you set again after clearing CMOS?",
+      "body": [
+        "A CMOS clear turns off everything you changed. After the first boot, enter the BIOS and turn back on what you use:"
+      ],
+      "list": [
+        "XMP or EXPO memory profile, so your RAM runs at its rated speed.",
+        "Resizable BAR and Above 4G Decoding, for current graphics cards.",
+        "Secure Boot and the firmware TPM (fTPM on AMD, PTT on Intel), needed for Windows 11 and some anti-cheat; see [ASRock Secure Boot](/asrock-secure-boot/) for the steps on ASRock boards.",
+        "Fan curves and RGB settings.",
+        "Boot order, if Windows is not on the first drive.",
+        "The date and time, which reset to a default on some boards."
+      ]
+    },
+    {
+      "h": "What if clearing CMOS does not fix it?",
+      "body": [
+        "If the PC still will not post after a CMOS clear, the problem is probably not a setting. Check the debug LEDs or Q-code display on the board; most boards light a CPU, DRAM, VGA or BOOT LED to show where the start-up stops. Reseat the memory, try one stick in the slot the manual recommends, reseat the graphics card and check every power cable.",
+        "If the CPU is newer than the board's BIOS, the board needs a BIOS update before it will post, which BIOS Flashback can do without a working CPU. If nothing helps, contact the board maker or retailer for repair or RMA."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Clearing with the power on", "Shorting the jumper or pressing the button with the PSU live can fail to clear, and a slip with a screwdriver can short something else. Switch the PSU off and unplug it first."],
+    ["Leaving the jumper cap in the clear position", "On three-pin headers, the cap must go back to the normal position. Left on clear, the board keeps resetting and will not boot. Check the cap after closing up."],
+    ["Pressing BIOS Flashback by mistake", "Many boards put the Clear CMOS and BIOS Flashback buttons side by side. Flashback starts a firmware flash from USB. Read the labels before pressing either."],
+    ["Panicking at a slow first boot", "On AM5 and many DDR5 boards, the first boot after a CMOS clear retrains the memory and can show a black screen for a minute or more. Wait before trying again."],
+    ["Expecting it to undo a BIOS update", "A CMOS clear resets settings only. To change the BIOS version, flash a different file or use the board's flashback feature."]
+  ],
+  "bottomLine": "To clear the CMOS, switch off and unplug the PSU, then press the rear Clear CMOS button, short the two-pin jumper (CLRTC on ASUS, JBAT1 on MSI, CLR_CMOS on Gigabyte, CLRMOS1 on ASRock) for about 10 seconds, or remove the coin battery for about 5 minutes. If you can still reach the BIOS, Load Optimized Defaults does the same thing. It resets settings, not the BIOS version, so afterward turn XMP or EXPO, Resizable BAR, Secure Boot and TPM back on.",
+  "faqs": [
+    {"q": "How do I clear CMOS?", "a": "Switch off and unplug the PSU, then press the Clear CMOS button on the rear I/O, short the two-pin Clear CMOS jumper with a screwdriver for about 10 seconds, or remove the coin battery for about 5 minutes. Then reconnect power and boot."},
+    {"q": "How long should I short the CMOS jumper?", "a": "About 5 to 10 seconds is enough on most boards. Make sure the PSU is off and unplugged first. On a three-pin header with a cap, move it to the clear position for that time, then put it back."},
+    {"q": "How long do I remove the CMOS battery?", "a": "About five minutes, with the PSU unplugged. Press the case power button while the battery is out to drain the remaining charge, then reinsert it with the positive side up."},
+    {"q": "Does clearing CMOS delete Windows or my files?", "a": "No. It only resets BIOS settings. Windows, your drives and your files are untouched. If you use BitLocker, keep your recovery key nearby, since a firmware change can trigger the recovery screen."},
+    {"q": "Is clearing CMOS the same as resetting the BIOS?", "a": "Yes, in practice. Both return BIOS settings to defaults. Load Optimized Defaults inside the BIOS does it without opening the case, while the jumper, button or battery methods work when you cannot reach the BIOS."},
+    {"q": "Where is the Clear CMOS jumper?", "a": "Usually near the coin battery or along the bottom edge of the board, labeled CLRTC on ASUS, JBAT1 on MSI, CLR_CMOS on Gigabyte and CLRMOS1 on ASRock. Check the layout diagram in your board's manual for the exact position."},
+    {"q": "Why won't my PC boot after clearing CMOS?", "a": "First, wait: the first boot can take a minute or more while memory retrains. If it still fails, check a three-pin jumper cap is back in the normal position, reseat RAM and the graphics card, and read the board's debug LEDs."},
+    {"q": "Does clearing CMOS fix a black screen?", "a": "It fixes black screens caused by a BIOS setting, such as a failed memory overclock or Fast Boot locking you out. It does not fix a dead GPU, a loose cable or a BIOS too old for your CPU."}
+  ],
+  "sources": [
+    "ASUS, MSI, Gigabyte and ASRock motherboard manuals: Clear CMOS jumper and button sections",
+    "AMD and Intel platform notes on memory training after a settings reset",
+    "Microsoft support: BitLocker recovery after firmware changes",
+    "Owner reports on motherboard forums about CMOS clearing and boot recovery"
+  ],
+  "products": ["asrock-b850-steel-legend-wifi", "msi-mag-b650-tomahawk-wifi", "asus-tuf-gaming-b650-plus-wifi", "gigabyte-b650-aorus-elite-ax"],
+  "related": ["how-to-enable-xmp-expo", "how-to-enter-asrock-bios", "how-to-update-asus-bios", "how-to-update-msi-bios", "how-to-update-gigabyte-bios", "how-to-update-asrock-bios"]
+}

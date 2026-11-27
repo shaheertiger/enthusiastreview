@@ -3,12 +3,12 @@
   "type": "article",
   "kind": "explainer",
   "category": "graphics-cards",
-  "title": "AMD vs NVIDIA GPU Equivalents: Chart for Every Radeon Card",
+  "title": "AMD to NVIDIA GPU Equivalents: RX 9070 XT = RTX 5070 Ti",
   "h1": "AMD vs NVIDIA GPU Equivalents",
   "query": "amd to nvidia gpu equivalent",
-  "description": "The RX 9070 XT roughly equals an RTX 5070 Ti and the RX 6700 10GB an RTX 4060 in raster games. Find the NVIDIA match for every Radeon, RX 580 to RX 9000.",
+  "description": "The RX 9070 XT equals an RTX 5070 Ti, the RX 9070 an RTX 5070 (AMD slightly faster) and the RX 5500 XT a GTX 1650 Super in raster. Every Radeon to RX 550.",
   "dek": "Find the closest GeForce card to any Radeon, from the RX 9070 XT back to the RX 580, with the ray-tracing catch spelled out.",
-  "quickAnswer": "In raster games, the RX 9070 XT is roughly an RTX 5070 Ti, the RX 9060 XT 16GB an RTX 5060 Ti 16GB, the RX 6700 XT an RTX 3060 Ti, the RX 6700 10GB an RTX 4060, the RX 6600 XT an RTX 3060, and the RX 580 a GTX 1060 6GB. With ray tracing on, each Radeon falls one or more NVIDIA tiers lower.",
+  "quickAnswer": "In raster games, the RX 9070 XT is roughly an RTX 5070 Ti, the RX 9070 an RTX 5070 (AMD slightly faster), the RX 9060 XT 16GB an RTX 5060 Ti 16GB, the RX 6700 XT an RTX 3060 Ti, the RX 6700 10GB an RTX 4060, the RX 5500 XT a GTX 1650 Super, and the RX 580 a GTX 1060 6GB. With ray tracing on, each Radeon falls one or more NVIDIA tiers lower.",
   "intro": [
     "This chart matches every recent Radeon card to the GeForce card that performs most like it in traditional raster games, the kind most people still play. It covers RX 9000, RX 7000, RX 6000, RX 5000 and the RX 500 series, with a separate column for ray tracing, where the match usually changes.",
     "Equivalents are based on the broad pattern of published independent reviews, rounded to the nearest card. We have not bench-tested these GPUs. Expect any single game to swing a few percent either way."

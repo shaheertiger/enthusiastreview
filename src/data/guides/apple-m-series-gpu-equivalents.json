@@ -169,5 +169,5 @@
     "NVIDIA GeForce and AMD Radeon desktop GPU specifications"
   ],
   "products": ["rtx-4060", "rtx-4070", "rtx-5070", "rx-6600"],
-  "related": ["laptop-gpu-equivalents", "integrated-graphics-equivalents", "amd-vs-nvidia-gpu-equivalents"]
+  "related": ["laptop-gpu-equivalents", "integrated-graphics-equivalents", "amd-vs-nvidia-gpu-equivalents", "snapdragon-x-gpu-equivalent"]
 }

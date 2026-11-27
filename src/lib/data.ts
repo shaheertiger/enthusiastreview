@@ -23,6 +23,9 @@ export interface Product {
   /** Title of the Amazon listing the photo and direct link come from. */
   listing?: string;
   description: string;
+  /** Optional hand-written SEO title and meta description (CTR rewrites); override the generated ones. */
+  seoTitle?: string;
+  seoDescription?: string;
   quick: string;
   bestFor: string;
   skipIf: string;
@@ -232,6 +235,7 @@ export const shortAnswerHeading = (query: string) => `${cap(query).replace(/\b(c
 
 /** Product <title>: the model name first, 50–62 characters where possible. */
 export function productTitle(p: Product) {
+  if (p.seoTitle) return p.seoTitle;
   const cat = CATEGORY[p.category];
   const noun = cat.singular === cat.singular.toLowerCase() ? cat.singular.replace(/\b\w/g, (c) => c.toUpperCase()) : cat.singular;
   const named = new RegExp(`\\b(${noun.split(' ').pop()}|SSD|GPU|CPU|RAM|DDR[45]|Graphics|Processor|Cooler|Case|Motherboard)\\b`, 'i').test(p.name) ? p.name : `${p.name} ${noun}`;
@@ -257,6 +261,7 @@ export function productTitle(p: Product) {
  * and "<model> review" searches. Up to three specs, then the verdict line, cut at a word at 158 characters.
  */
 export function productDescription(p: Product, max = 158) {
+  if (p.seoDescription) return p.seoDescription;
   const lead = `${p.short} at a glance: `;
   const specs: string[] = [];
   for (const [k, v] of p.specs) {
@@ -478,9 +483,9 @@ export const SERIES: Series[] = [
   { key: 'cooler-for', heading: 'Best CPU Cooler for Other CPUs', re: /^best-cpu-cooler-for-/, hub: { href: '/best-cpu-cooler/', text: 'Best CPU cooler for any build' } },
   { key: 'board-for', heading: 'Best Motherboard for Other CPUs', re: /^best-motherboard-for-/, hub: { href: '/best-am5-motherboard/', text: 'Best AM5 motherboard' } },
   { key: 'ram-for', heading: 'Best RAM for Other CPUs', re: /^best-ram-for-(?!gaming$)/, hub: { href: '/best-ram-for-gaming/', text: 'Best RAM for gaming' } },
-  { key: 'bios', heading: 'More BIOS Guides by Brand', re: /^how-to-(update|enter)-[a-z]+-bios$|^asrock-secure-boot$/ },
+  { key: 'bios', heading: 'More BIOS Guides by Brand', re: /^how-to-(update|enter)-[a-z]+-bios$|^asrock-secure-boot$|^how-to-clear-cmos$|^how-to-enable-xmp-expo$/ },
   { key: 'rgb', heading: 'RGB Software for Other Brands', re: /-rgb-(fusion-)?software$/ },
-  { key: 'drivers', heading: 'More Driver and GPU Software Guides', re: /^how-to-update-[a-z-]+-drivers$|^how-to-turn-off-nvidia-overlay$|^nvidia-(?!vs-)|^amd-software-|^how-to-check-what-graphics-card|^zotac-firestorm$/ },
+  { key: 'drivers', heading: 'More Driver and GPU Software Guides', re: /^how-to-update-[a-z-]+-drivers$|^how-to-turn-off-(nvidia|amd)-overlay$|^how-to-roll-back-nvidia-drivers$|^nvidia-(?!vs-)|^amd-software-|^how-to-check-what-graphics-card|^zotac-firestorm$/ },
   { key: 'gpu-buying', heading: 'Graphics Cards by Budget and Brand', re: /^best-(graphics-card(-under-\d+|-for-1440p)?|budget-graphics-card|nvidia-graphics-card|amd-graphics-card)$|^how-much-does-a-graphics-card-cost$|^black-friday-gpu-deals$|^nvidia-vs-amd$|^best-gpu-for-ai$/ },
   { key: 'gaming-pc', heading: 'More Gaming PC Buying Guides', re: /gaming-pc|prebuilt|^is-(cyberpowerpc|ibuypower)-good$|^cyberpowerpc-vs-ibuypower$/ },
   { key: 'brands', heading: 'Is It a Good Brand? More Brand Reviews', re: /^is-[a-z]+-a-good(-gpu)?-brand$|-review$|^best-graphics-card-brands$|^graphics-card-warranty-by-brand$/ },

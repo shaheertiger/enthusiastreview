@@ -1,0 +1,135 @@
+{
+  "slug": "snapdragon-x-gpu-equivalent",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Snapdragon X Elite GPU Equivalent: Adreno vs NVIDIA and AMD",
+  "h1": "Snapdragon X Elite GPU Equivalent",
+  "query": "snapdragon x elite gpu equivalent",
+  "description": "The Snapdragon X Elite's Adreno X1-85 GPU (up to 4.6 TFLOPS) plays games roughly like a GTX 1050 to GTX 1050 Ti, a step behind a Radeon 780M or Arc 140V.",
+  "dek": "The closest desktop graphics card and integrated GPU to Qualcomm's Snapdragon X Elite, X Plus and X chips, with the game compatibility catches that matter more than the specs.",
+  "quickAnswer": "The Adreno X1-85 in Snapdragon X Elite and most X Plus laptops is rated at 3.8 to 4.6 TFLOPS, but in games it performs roughly like a desktop GTX 1050 to GTX 1050 Ti. That puts it a step behind AMD's Radeon 780M and Intel's Arc 140V and Meteor Lake Arc graphics in most games. The cut-down Adreno X1-45 in cheaper models is clearly slower, near Intel Iris Xe.",
+  "intro": [
+    "Qualcomm's Snapdragon X chips power Windows on Arm laptops such as the Surface Laptop, Dell XPS 13, Lenovo Yoga Slim and ASUS Vivobook S models sold as Copilot+ PCs. Their graphics are Qualcomm's Adreno X1 integrated GPUs. This page matches them to the desktop graphics cards and laptop integrated GPUs that perform most like them in games.",
+    "Matches are estimates from Qualcomm's published specs and the broad pattern of independent laptop reviews, rounded to the nearest card. We have not tested these laptops. Game performance on Snapdragon depends on whether a game runs natively, runs through emulation or runs at all, so read the compatibility section before buying for gaming."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart, and Why Specs Overstate Gaming",
+      "body": [
+        "On paper the Adreno X1-85 is fast for an integrated GPU: Qualcomm rates it at up to 4.6 TFLOPS in the top Snapdragon X Elite model and about 3.8 TFLOPS in the others. That is a similar headline figure to AMD's Radeon 780M.",
+        "In games it lands lower. Almost every PC game is built for x86 processors, so on a Snapdragon laptop it runs through Microsoft's Prism emulation layer, which costs CPU performance. The Adreno graphics driver is also younger than AMD's or Intel's for Windows games, and some games show graphical glitches or fail to start. The matches below assume a game that runs; many popular titles do, some do not.",
+        "The match is also for the laptop's normal power setting. Snapdragon laptops are built for battery life and quiet running, and most do not let the chip draw as much power as a gaming-focused AMD or Intel laptop. For other laptop integrated graphics, see the [integrated graphics equivalents chart](/integrated-graphics-equivalents/)."
+      ]
+    },
+    {
+      "h": "Snapdragon X GPU Equivalents: Desktop and Integrated",
+      "body": [
+        "The closest desktop card and integrated GPU for each Snapdragon X graphics tier, in games that run, estimated. Read across to the [laptop GPU equivalents chart](/laptop-gpu-equivalents/) to compare with laptops that have a dedicated GPU."
+      ],
+      "table": {
+        "caption": "Snapdragon X Adreno GPUs to desktop and integrated graphics, gaming, estimated",
+        "head": ["Chip", "GPU", "Rated throughput", "Closest desktop card in games", "Closest integrated GPU"],
+        "rows": [
+          ["Snapdragon X Elite X1E-84-100", "Adreno X1-85", "Up to 4.6 TFLOPS", "GTX 1050 Ti (roughly)", "A step below Radeon 780M"],
+          ["Other X Elite models, 10 and 12-core X Plus", "Adreno X1-85", "About 3.8 TFLOPS", "GTX 1050 to GTX 1050 Ti", "Near Radeon 760M, below Meteor Lake Arc"],
+          ["8-core Snapdragon X Plus, Snapdragon X", "Adreno X1-45", "Well under half of X1-85", "About a GT 1030", "Near Intel Iris Xe"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Snapdragon X Elite GPU Equivalent?",
+      "body": [
+        "The Snapdragon X Elite's Adreno X1-85 GPU plays games roughly like a desktop GTX 1050 to GTX 1050 Ti. The top X1E-84-100 model, at up to 4.6 TFLOPS, sits at the higher end of that range; the more common X Elite models at about 3.8 TFLOPS at the lower end.",
+        "That is enough for esports games, older titles and lighter recent games at 1080p low or 720p, where those games run. Demanding new games are a struggle: they tend to land well under 30 fps at 1080p low on the X1-85, both because of the GPU and because emulation slows the CPU side of the game.",
+        "Outside games, the GPU is perfectly capable. Video playback, photo editing, the Windows interface and browser acceleration all run well, and the Snapdragon X chips' strengths are battery life and responsiveness rather than frame rates."
+      ]
+    },
+    {
+      "h": "What Is the Snapdragon X Elite GPU Equivalent in NVIDIA?",
+      "body": [
+        "In NVIDIA terms, the Adreno X1-85 is roughly a GTX 1050 to GTX 1050 Ti in games that run well. A GTX 1650 is clearly faster. Against laptops with NVIDIA graphics, even a low-end laptop RTX 2050 or RTX 3050 is a large step up, and adds DLSS.",
+        "If gaming matters, a Windows laptop with an RTX 4050 or RTX 5050 laptop GPU is several times faster and runs the full PC game library natively. See the [laptop GPU equivalents chart](/laptop-gpu-equivalents/) for where each laptop RTX card lands."
+      ]
+    },
+    {
+      "h": "Snapdragon X Elite vs Radeon 780M and Intel Arc: Which Is Faster?",
+      "body": [
+        "For games, AMD's Radeon 780M and 890M and Intel's Arc 140V are faster in most titles, often clearly. Independent reviews comparing Snapdragon X Elite laptops with Ryzen 7 8840U and Core Ultra 7 258V laptops found the x86 laptops ahead in the large majority of games, partly from the GPU and partly from running games natively rather than through emulation.",
+        "Intel's Meteor Lake Arc graphics, in Core Ultra 100H laptops, also generally lead the X1-85 in games. In synthetic tests, which run natively on Arm, the Adreno X1-85 looks much closer. That gap between synthetic scores and games is the main reason to rely on game results, not benchmark charts, for Snapdragon laptops."
+      ],
+      "table": {
+        "caption": "Snapdragon X Elite against x86 integrated graphics, typical gaming tier, estimated",
+        "head": ["Integrated GPU", "Typical laptop chip", "Closest desktop card", "Versus Adreno X1-85 in games"],
+        "rows": [
+          ["Radeon 890M", "Ryzen AI 9 HX 370", "GTX 1650 (roughly)", "Clearly faster"],
+          ["Intel Arc 140V", "Core Ultra 7 258V", "GTX 1650 (roughly)", "Clearly faster"],
+          ["Radeon 780M", "Ryzen 7 8840U, 7840U", "GTX 1050 Ti to GTX 1650", "Faster"],
+          ["Intel Arc (Meteor Lake)", "Core Ultra 7 155H", "GTX 1050 Ti to GTX 1650", "Faster in most games"],
+          ["Adreno X1-85", "Snapdragon X Elite", "GTX 1050 to GTX 1050 Ti", "Baseline"],
+          ["Intel Iris Xe (96 EU)", "Core i7-1255U", "GT 1030 (roughly)", "Slower"]
+        ]
+      }
+    },
+    {
+      "h": "Can a Snapdragon X Elite Laptop Play Games?",
+      "body": [
+        "Many games, yes; all games, no. Most DirectX 11 and DirectX 12 games run through Prism emulation, and Qualcomm and Microsoft have worked with developers on compatibility since launch. The main blockers are kernel-level anti-cheat systems, which have to support Windows on Arm for a game to run, and some games that need drivers or launchers with no Arm version.",
+        "Support has improved since the 2024 launch, but check each game you care about before buying. Community-maintained compatibility lists, such as Works on Windows on Arm, track which games run, which run with problems and which do not start. Cloud gaming services such as GeForce Now and Xbox Cloud Gaming run on Snapdragon laptops through the browser or app and sidestep the problem.",
+        "If gaming is a main reason to buy the laptop, an x86 laptop with a Radeon 890M, Arc 140V or a dedicated GPU is the safer choice."
+      ]
+    },
+    {
+      "h": "What About Snapdragon X2 Elite?",
+      "body": [
+        "Qualcomm's second generation, Snapdragon X2 Elite and X2 Elite Extreme, uses a new Adreno X2 GPU that Qualcomm says is substantially faster than the X1-85. Independent game results were still limited when this page was written, so we do not give it a firm match yet. Expect a tier up on the X1-85 at best, with the same emulation and anti-cheat caveats, which belong to Windows on Arm rather than the GPU.",
+        "Apple's M-series chips face a similar split between strong synthetic scores and a smaller native game library. See the [Apple M-series GPU equivalents chart](/apple-m-series-gpu-equivalents/) for where those land."
+      ]
+    },
+    {
+      "h": "Graphics Card to Snapdragon: What Beats a Snapdragon X Elite?",
+      "body": [
+        "The reverse lookup. Any current desktop graphics card is far faster than the Adreno X1-85: an [RX 6600](/gear/rx-6600/) is several times faster, and an [RTX 5060](/gear/rtx-5060/) more again. Among laptops, the table below shows what clearly beats a Snapdragon X Elite for games."
+      ],
+      "table": {
+        "caption": "What beats the Snapdragon X Elite's Adreno X1-85 in games",
+        "head": ["Option", "Versus Adreno X1-85"],
+        "rows": [
+          ["Intel Iris Xe, Adreno X1-45", "Slower"],
+          ["GTX 1050 Ti, Radeon 760M", "About level"],
+          ["Radeon 780M, Meteor Lake Arc", "Faster"],
+          ["Radeon 890M, Arc 140V, GTX 1650", "Clearly faster"],
+          ["Laptop RTX 4050 or RTX 5050", "Several times faster"],
+          ["Desktop RX 6600, RTX 5060, Arc B580", "Several times faster"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Judging gaming by synthetic scores", "Graphics benchmarks often run natively on Arm and make the Adreno X1-85 look close to a Radeon 780M. Games mostly run through emulation and land lower. Look for game results, not synthetic charts."],
+    ["Assuming every game runs", "Games with kernel-level anti-cheat that has no Windows on Arm support will not start, whatever the GPU's speed. Check each game you care about on a compatibility list before buying."],
+    ["Mixing up X1-85 and X1-45", "Cheaper Snapdragon X Plus and Snapdragon X laptops use the Adreno X1-45, with well under half the throughput. The same laptop name can ship with either, so check the exact chip."],
+    ["Buying a Snapdragon laptop mainly for games", "Snapdragon X laptops are strong on battery life and day-to-day speed. For gaming, an x86 laptop with a Radeon 890M, Arc 140V or a dedicated GPU is faster and runs more of the library."]
+  ],
+  "bottomLine": "The Snapdragon X Elite's Adreno X1-85 GPU is rated at 3.8 to 4.6 TFLOPS but plays games roughly like a desktop GTX 1050 to GTX 1050 Ti, a step behind a Radeon 780M and Meteor Lake Arc, and clearly behind a Radeon 890M or Arc 140V. Emulation and anti-cheat support decide whether a game runs at all. The cheaper Adreno X1-45 is near Intel Iris Xe. For gaming, a laptop with an RTX 4050 or RTX 5050 is several times faster.",
+  "faqs": [
+    {"q": "What GPU is the Snapdragon X Elite equivalent to?", "a": "In games, roughly a desktop GTX 1050 to GTX 1050 Ti. Its Adreno X1-85 is rated at up to 4.6 TFLOPS, but emulation and younger drivers keep game results below AMD's Radeon 780M and Intel's Arc 140V."},
+    {"q": "Is the Snapdragon X Elite GPU better than a Radeon 780M?", "a": "Not in most games. The two have similar headline TFLOPS figures and are close in synthetic tests, but the Radeon 780M runs PC games natively and is faster in the large majority of games in independent laptop reviews."},
+    {"q": "Is the Snapdragon X Elite good for gaming?", "a": "It is fine for esports, older and lighter games at 1080p low or 720p, where those games run. Demanding new games struggle, and games with unsupported anti-cheat will not start. For gaming, an x86 laptop is the safer choice."},
+    {"q": "How many TFLOPS is the Snapdragon X Elite GPU?", "a": "Qualcomm rates the Adreno X1-85 at up to 4.6 TFLOPS in the top X1E-84-100 model and about 3.8 TFLOPS in the other X Elite and higher-end X Plus chips. The Adreno X1-45 in cheaper chips is well under half that."},
+    {"q": "What GPU is in the Snapdragon X Plus?", "a": "The 10 and 12-core Snapdragon X Plus chips use the Adreno X1-85 at about 3.8 TFLOPS, roughly a GTX 1050 in games. The 8-core X Plus uses the smaller Adreno X1-45, near Intel Iris Xe."},
+    {"q": "Is the Snapdragon X Elite GPU better than Intel Iris Xe?", "a": "Yes, the Adreno X1-85 is clearly faster than Intel Iris Xe in games that run on both. The smaller Adreno X1-45 in cheaper Snapdragon chips is close to Iris Xe."},
+    {"q": "Can Snapdragon laptops run Steam games?", "a": "Steam runs on Snapdragon laptops, and many Steam games run through emulation. Games with anti-cheat that lacks Windows on Arm support will not start, and some others have glitches. Check each game on a compatibility list first."},
+    {"q": "What laptop GPU beats the Snapdragon X Elite?", "a": "Any dedicated laptop GPU, from an RTX 2050 or RTX 3050 up, beats it clearly. Among integrated GPUs, the Radeon 780M and 890M and Intel Arc 140V are faster in most games."}
+  ],
+  "sources": [
+    "Qualcomm Snapdragon X Elite, X Plus and X product specifications",
+    "Qualcomm Snapdragon X2 Elite announcement",
+    "Microsoft documentation for Windows on Arm and Prism emulation",
+    "AMD Radeon 780M and 890M and Intel Arc 140V specifications",
+    "Community Works on Windows on Arm compatibility list",
+    "Independent laptop reviews from Notebookcheck, PCWorld, Tom's Hardware and Hardware Canucks"
+  ],
+  "products": ["rx-6600", "rtx-5060", "arc-b580"],
+  "related": ["integrated-graphics-equivalents", "apple-m-series-gpu-equivalents", "laptop-gpu-equivalents", "rog-ally-gpu-equivalent"]
+}

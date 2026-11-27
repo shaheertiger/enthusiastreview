@@ -98,7 +98,7 @@
       "h": "How Do You Clear the CMOS on an ASRock Board?",
       "body": [
         "Clearing the CMOS resets every BIOS setting to its default, including Fast Boot, which is why it is the fallback when you cannot get into the BIOS any other way. It does not change the BIOS version.",
-        "Shut down, switch off the PSU and unplug it. Many ASRock boards have a Clear CMOS button on the rear I/O; press it for a few seconds. Others have a two-pin jumper labelled CLRMOS1 or similar near the battery: short the two pins for about 10 seconds. If neither is there, remove the coin battery for a few minutes. Reconnect power and boot, and press F2 or Delete at the logo."
+        "Shut down, switch off the PSU and unplug it. Many ASRock boards have a Clear CMOS button on the rear I/O; press it for a few seconds. Others have a two-pin jumper labelled CLRMOS1 or similar near the battery: short the two pins for about 10 seconds. If neither is there, remove the coin battery for a few minutes. Reconnect power and boot, and press F2 or Delete at the logo. Every method, for every brand, is in the [clear CMOS guide](/how-to-clear-cmos/)."
       ]
     },
     {
@@ -134,5 +134,5 @@
     "Microsoft documentation: shutdown command /fw option"
   ],
   "products": ["asrock-b850-steel-legend-wifi"],
-  "related": ["how-to-update-asrock-bios", "asrock-secure-boot", "asrock-polychrome-rgb-software", "is-asrock-a-good-brand"]
+  "related": ["how-to-update-asrock-bios", "asrock-secure-boot", "asrock-polychrome-rgb-software", "is-asrock-a-good-brand", "how-to-clear-cmos", "how-to-enable-xmp-expo"]
 }

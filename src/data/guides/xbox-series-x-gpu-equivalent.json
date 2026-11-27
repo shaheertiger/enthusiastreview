@@ -56,7 +56,7 @@
       "body": [
         "The Xbox Series S GPU's closest desktop equivalent is roughly a GTX 1650 Super or an RX 6500 XT. It has 20 RDNA 2 compute units at 1.565 GHz, about 4 TFLOPS, a third of a Series X. Its memory is 10 GB in total, with 8 GB at 224 GB/s for games and 2 GB at a much slower 56 GB/s.",
         "Microsoft markets the Series S for 1440p, but most demanding games run nearer 1080p or below on it, often with lower settings than the Series X. That is a fair match for a GTX 1650 Super, which handles 1080p at medium to high settings in most games. The Series S is a little faster than an Arc A380.",
-        "Any current graphics card from the [RX 6600](/gear/rx-6600/) up is far faster than a Series S. If your PC has a GTX 1650 or GTX 1060 class card, it is close to Series S level; our [old GeForce equivalents chart](/old-nvidia-gpu-equivalents/) shows where those sit today."
+        "Any current graphics card from the [RX 6600](/gear/rx-6600/) up is far faster than a Series S. If your PC has a GTX 1650 or GTX 1060 class card, it is close to Series S level; our [old GeForce equivalents chart](/old-nvidia-gpu-equivalents/) shows where those sit today. The [Xbox Series S GPU equivalent](/xbox-series-s-gpu-equivalent/) page covers its NVIDIA, AMD, Intel and CPU matches in full."
       ]
     },
     {
@@ -132,5 +132,5 @@
     "Independent console-versus-PC comparisons from Digital Foundry and GPU reviews from Hardware Unboxed and TechPowerUp"
   ],
   "products": ["arc-b580", "rtx-5060", "rtx-4060", "rx-6700-xt", "rx-6600", "ryzen-5-7600"],
-  "related": ["console-gpu-equivalents", "ps5-gpu-equivalent", "ps5-pro-gpu-equivalent", "steam-machine-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents"]
+  "related": ["console-gpu-equivalents", "ps5-gpu-equivalent", "ps5-pro-gpu-equivalent", "steam-machine-gpu-equivalent", "steam-deck-gpu-equivalent", "amd-vs-nvidia-gpu-equivalents", "xbox-series-s-gpu-equivalent"]
 }

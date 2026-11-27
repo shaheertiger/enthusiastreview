@@ -1,0 +1,133 @@
+{
+  "slug": "switch-2-gpu-equivalent",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "Switch 2 GPU Equivalent: Docked and Handheld PC Graphics Match",
+  "h1": "Nintendo Switch 2 GPU Equivalent",
+  "query": "switch 2 gpu equivalent",
+  "description": "The Switch 2's 1,536-core NVIDIA Ampere GPU is roughly a GTX 1050 Ti to GTX 1650 docked (about 3 TFLOPS) and near a Steam Deck in handheld mode, plus DLSS.",
+  "dek": "The closest desktop graphics card to the Nintendo Switch 2, docked and handheld, worked out from widely reported specs, with how DLSS changes the picture.",
+  "quickAnswer": "Docked, the Switch 2's custom NVIDIA Ampere GPU (1,536 CUDA cores, about 3 TFLOPS by widely reported clocks) lands roughly at a desktop GTX 1050 Ti to GTX 1650 in raw throughput, close to a laptop RTX 2050. In handheld mode it runs at a lower clock, under 2 TFLOPS, roughly Steam Deck class. DLSS upscaling lets games look sharper than those matches suggest.",
+  "intro": [
+    "Nintendo publishes less hardware detail than Sony or Microsoft. What is widely reported, from developer documentation, teardowns and testing, is that the Switch 2 uses a custom NVIDIA chip with an Ampere-generation GPU of 1,536 CUDA cores, 12 GB of LPDDR5X memory, 8 Arm CPU cores, and hardware support for DLSS and ray tracing. This page matches that GPU to desktop and laptop graphics cards in both modes.",
+    "Matches here are estimates from those reported specs and from how similar NVIDIA Ampere parts perform in independent reviews, rounded to the nearest card. We have not tested a Switch 2. Games built for one fixed console are tuned in ways a desktop comparison cannot fully capture."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart, and Why Docked and Handheld Differ",
+      "body": [
+        "The Switch 2 runs its GPU at two different clock speeds. Widely reported figures put it at about 1 GHz docked and about 560 MHz in handheld mode. With 1,536 CUDA cores, that works out to roughly 3.1 TFLOPS docked and about 1.7 TFLOPS handheld. Those two numbers are why it has two desktop matches, not one.",
+        "TFLOPS do not compare cleanly across architectures. NVIDIA's Ampere generation doubled the FP32 units per streaming multiprocessor, which inflates its TFLOPS figure compared with older GTX cards and AMD's RDNA 2. So the Switch 2's 3.1 TFLOPS does not mean it beats a 4 TFLOPS Xbox Series S; in practice it lands below it.",
+        "The other big factor is memory bandwidth. The Switch 2 shares LPDDR5X between CPU and GPU, with far less bandwidth than any desktop card's dedicated GDDR6. That is one reason its real-world match sits below what its core count suggests."
+      ]
+    },
+    {
+      "h": "Switch 2 GPU Equivalents: Docked and Handheld",
+      "body": [
+        "The closest desktop and laptop cards for each mode, estimated from reported specs. Read across to the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) or the [old NVIDIA GPU equivalents chart](/old-nvidia-gpu-equivalents/) to translate these into the card you own."
+      ],
+      "table": {
+        "caption": "Nintendo Switch 2 GPU to PC graphics, raster performance, estimated",
+        "head": ["Mode", "Reported GPU throughput", "Closest desktop card", "Closest laptop or integrated GPU"],
+        "rows": [
+          ["Docked", "About 3.1 TFLOPS (1,536 cores at about 1 GHz)", "GTX 1050 Ti to GTX 1650", "Laptop RTX 2050; Radeon 780M at full power"],
+          ["Handheld", "About 1.7 TFLOPS (about 560 MHz)", "GTX 1050 (roughly)", "Steam Deck; Radeon 680M at low power"],
+          ["Original Switch, docked", "About 0.4 TFLOPS (256 Maxwell cores)", "Below a GT 1030", "Older Intel UHD class"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the Switch 2 GPU Equivalent?",
+      "body": [
+        "Docked, the Switch 2's GPU is roughly a desktop GTX 1050 Ti to GTX 1650 in raw performance. Its closest relative on PC is the laptop RTX 2050, which is also a cut-down Ampere chip with 2,048 CUDA cores, low clocks and a narrow memory bus. Digital Foundry used a laptop RTX 2050 as a stand-in to estimate the Switch 2's performance before launch, and that comparison is still the most common one.",
+        "It is a modern GPU in a small power budget. It supports DLSS through tensor cores and hardware ray tracing through RT cores, features no GTX card has. Those let well-made Switch 2 games render at a lower resolution, upscale with DLSS and add light ray-traced effects, which a GTX 1650 cannot do.",
+        "Nintendo lists output up to 4K at 60 fps docked. In demanding games that means DLSS upscaling from a much lower internal resolution, not native 4K rendering. Compare it to desktop cards at 1080p, not 4K."
+      ]
+    },
+    {
+      "h": "What Is the Switch 2 Handheld Mode GPU Equivalent?",
+      "body": [
+        "In handheld mode the GPU clock drops to roughly half, so the Switch 2 lands around a desktop GTX 1050, close to a Steam Deck. That suits its 7.9-inch 1080p screen, where games often render below 1080p and use DLSS to fill in the rest.",
+        "Compared with a Steam Deck, the Switch 2 in handheld mode is roughly level or a little ahead on GPU by widely reported figures, with DLSS as an edge the Deck does not have. The Deck's Zen 2 CPU cores run at higher clocks. For the Deck in detail, see the [Steam Deck GPU equivalent](/steam-deck-gpu-equivalent/) page."
+      ]
+    },
+    {
+      "h": "What Is the Switch 2 GPU Equivalent in AMD?",
+      "body": [
+        "On the AMD side, the docked Switch 2 is roughly in the class of the Radeon 780M integrated graphics at full power, or a desktop RX 6400 to RX 6500 XT, with the RX 6500 XT a little faster. There is no exact Radeon match because the Switch 2 adds DLSS, which AMD's older cards cannot use.",
+        "In handheld mode, the nearest AMD match is the Steam Deck's 8 RDNA 2 compute units, or a Radeon 680M at low power. The ROG Ally with the Z1 Extreme is in the same broad class as a docked Switch 2 at full power; see the [ROG Ally GPU equivalent](/rog-ally-gpu-equivalent/) page."
+      ]
+    },
+    {
+      "h": "How Much Faster Is the Switch 2 Than the Original Switch?",
+      "body": [
+        "Much faster. The original Switch's Tegra X1 has 256 NVIDIA Maxwell CUDA cores at 768 MHz docked, about 0.4 TFLOPS. The Switch 2 has six times as many CUDA cores on a newer architecture, plus DLSS and ray tracing. By raw throughput docked it is several times the original, and games show a clear jump from roughly 720p to 1080p and above.",
+        "The CPU and memory also step up: 8 newer Arm cores against 4 Cortex-A57 cores, and 12 GB of LPDDR5X against 4 GB of LPDDR4. The [console GPU equivalents chart](/console-gpu-equivalents/) lists the original Switch alongside older consoles."
+      ]
+    },
+    {
+      "h": "Is the Switch 2 More Powerful Than a PS4, PS5 or Xbox Series S?",
+      "body": [
+        "Docked, the Switch 2 is in the same broad range as a PS4 and PS4 Pro once DLSS is counted, and clearly below an Xbox Series S and a PS5. The PS5's GPU is roughly an RX 6700, many times the Switch 2. The Xbox Series S, roughly a GTX 1650 Super, is a step above it in raw GPU power, though the gap narrows when Switch 2 games use DLSS well.",
+        "The CPU gap is larger. The PS5 and Xbox Series consoles use 8 Zen 2 cores at over 3.4 GHz, far faster than the Switch 2's 8 Arm cores at around 1 GHz by reported clocks. That limits how easily big multi-platform games come to the Switch 2 without cuts. For each console, see the [Xbox Series S GPU equivalent](/xbox-series-s-gpu-equivalent/) and [PS5 GPU](/ps5-gpu-equivalent/) pages."
+      ],
+      "table": {
+        "caption": "Switch 2 vs other consoles, closest desktop GPU, estimated",
+        "head": ["Console", "Closest desktop GPU", "Versus the docked Switch 2"],
+        "rows": [
+          ["PS5", "RX 6700 or RTX 2070 Super", "Several times faster"],
+          ["Xbox Series S", "GTX 1650 Super or RX 6500 XT", "A step faster in raw GPU"],
+          ["Switch 2 docked", "GTX 1050 Ti to GTX 1650, with DLSS", "Baseline"],
+          ["Steam Deck", "GTX 1050", "Close to Switch 2 handheld"],
+          ["Original Switch docked", "Below a GT 1030", "Several times slower"]
+        ]
+      }
+    },
+    {
+      "h": "Graphics Card to Switch 2: Does Your GPU Beat It?",
+      "body": [
+        "The reverse lookup. Find your graphics card and see how it compares to a docked Switch 2. Any current desktop card is far faster: an [RX 6600](/gear/rx-6600/), [RTX 4060](/gear/rtx-4060/) or [RTX 5060](/gear/rtx-5060/) is several times the docked Switch 2, and RTX cards also have DLSS."
+      ],
+      "table": {
+        "caption": "Desktop graphics cards against a docked Switch 2, raster, estimated",
+        "head": ["Your card", "Versus a docked Switch 2"],
+        "rows": [
+          ["GT 1030", "Clearly slower"],
+          ["GTX 1050 / GTX 1050 Ti", "Slower to about level; no DLSS"],
+          ["GTX 1650", "About level in raw power; no DLSS"],
+          ["GTX 1650 Super / GTX 1660", "Faster in raw power"],
+          ["RTX 3050 and up", "Faster, with DLSS"],
+          ["RX 6600, RTX 4060, RTX 5060, Arc B580", "Several times faster"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Comparing TFLOPS across generations", "Ampere's doubled FP32 units make its TFLOPS figure look high next to GTX and RDNA 2 parts. The Switch 2's 3.1 TFLOPS docked lands around a 3 TFLOPS GTX 1650 in practice, below a 4 TFLOPS Xbox Series S."],
+    ["Reading 4K output as 4K rendering", "Nintendo lists 4K output docked, but demanding games render far below that and upscale with DLSS. Compare the Switch 2 to desktop cards at 1080p, where its raw performance actually sits."],
+    ["Using one match for both modes", "Docked and handheld clocks differ by roughly half. A GTX 1650 class match docked becomes roughly a GTX 1050 in handheld mode. State which mode you mean."],
+    ["Ignoring DLSS", "A GTX 1650 cannot use DLSS. The Switch 2 can, so a well-optimized game can look better on it than its raw match suggests. The match is for raw rendering, not final image quality."]
+  ],
+  "bottomLine": "By widely reported specs, the docked Switch 2's 1,536-core NVIDIA Ampere GPU lands roughly at a desktop GTX 1050 Ti to GTX 1650, close to a laptop RTX 2050, at about 3.1 TFLOPS. In handheld mode it drops to about a GTX 1050, near a Steam Deck. DLSS and hardware ray tracing let its games look better than those matches suggest. It is several times the original Switch, below an Xbox Series S and well below a PS5, and any current desktop card is several times faster.",
+  "faqs": [
+    {"q": "What GPU is the Switch 2 equivalent to?", "a": "Docked, roughly a desktop GTX 1050 Ti to GTX 1650 in raw performance, or a laptop RTX 2050, which shares its Ampere architecture. In handheld mode it is closer to a GTX 1050. DLSS support lets games look sharper than those matches suggest."},
+    {"q": "How many TFLOPS is the Switch 2?", "a": "About 3.1 TFLOPS docked and about 1.7 TFLOPS in handheld mode, by widely reported clock speeds of about 1 GHz and 560 MHz on 1,536 CUDA cores. Nintendo has not published official TFLOPS figures."},
+    {"q": "Is the Switch 2 as powerful as a PS4?", "a": "Docked, it is in the same broad range as a PS4 and PS4 Pro once DLSS is counted, with a newer GPU architecture and more memory. Its CPU is a modern Arm design but runs at low clocks, around 1 GHz by reported figures."},
+    {"q": "Is the Switch 2 stronger than a Steam Deck?", "a": "Docked, yes, clearly. In handheld mode they are roughly level, with the Switch 2 a little ahead on GPU by widely reported figures and the advantage of DLSS. The Steam Deck runs PC games; the Switch 2 runs games made for it."},
+    {"q": "Does the Switch 2 use DLSS?", "a": "Yes. Its NVIDIA Ampere GPU has tensor cores, and Nintendo and NVIDIA have confirmed DLSS support. Games can render at a lower resolution and upscale, which is how many reach 1080p handheld and 4K output docked."},
+    {"q": "Is the Switch 2 more powerful than an Xbox Series S?", "a": "No. The Series S has 20 RDNA 2 compute units at about 4 TFLOPS, roughly a GTX 1650 Super, and a much faster 8-core Zen 2 CPU. The docked Switch 2 is a step below in raw GPU power, partly offset by DLSS."},
+    {"q": "What laptop GPU is the Switch 2 like?", "a": "A laptop RTX 2050 is the closest match. Both are cut-down NVIDIA Ampere chips with low clocks and limited memory bandwidth, and Digital Foundry used an RTX 2050 laptop to estimate Switch 2 performance before launch."},
+    {"q": "Can a PC with a GTX 1650 match a Switch 2?", "a": "In raw rendering, about level with a docked Switch 2. But the GTX 1650 has no DLSS or hardware ray tracing, and PC versions are not tuned for one fixed machine, so the comparison is rough. An RTX 3050 or better clearly beats it."}
+  ],
+  "sources": [
+    "Nintendo Switch 2 published specifications",
+    "Widely reported Switch 2 developer documentation, teardown and clock-speed details",
+    "Digital Foundry Switch 2 analysis and RTX 2050 laptop stand-in testing",
+    "NVIDIA Ampere architecture and Tegra X1 specifications",
+    "NVIDIA GeForce GTX 10 and GTX 16 series specifications",
+    "Sony PS5, Microsoft Xbox Series S and Valve Steam Deck published specifications"
+  ],
+  "products": ["rtx-5060", "rtx-4060", "rx-6600"],
+  "related": ["console-gpu-equivalents", "rog-ally-gpu-equivalent", "steam-deck-gpu-equivalent", "xbox-series-s-gpu-equivalent", "ps5-gpu-equivalent"]
+}

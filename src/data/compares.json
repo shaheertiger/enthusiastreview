@@ -370,8 +370,8 @@
   {
     "a": "rx-9070",
     "b": "rx-9070-xt",
-    "title": "RX 9070 vs RX 9070 XT (2026): Is the XT Worth the Extra Cost?",
-    "description": "The RX 9070 XT is about 10 to 15% faster than the RX 9070 for $50 to $110 more, and both have 16 GB. The 9070 draws 220 W vs 304 W and is easier to cool.",
+    "title": "RX 9070 vs RX 9070 XT: Difference Is 8 CUs and 10-15% Speed",
+    "description": "The difference is 64 vs 56 compute units: the RX 9070 XT is about 10–15% faster for $50–$110 more. Both have 16 GB; the 9070 draws 220 W vs 304 W.",
     "quick": "Pick the RX 9070 if you want 16 GB at 1440p with a lower 220 W rating, a smaller card and a 650 W power supply. Pick the RX 9070 XT if the price gap is small: it has 64 compute units versus 56, higher clocks and roughly 10 to 15 percent more performance in independent reviews, but it draws 304 W and runs best on a 750 W unit.",
     "differ": [
       [

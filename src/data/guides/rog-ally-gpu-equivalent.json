@@ -1,0 +1,150 @@
+{
+  "slug": "rog-ally-gpu-equivalent",
+  "type": "article",
+  "kind": "explainer",
+  "category": "graphics-cards",
+  "title": "ROG Ally GPU Equivalent: Z1 Extreme, Legion Go and MSI Claw",
+  "h1": "ROG Ally GPU Equivalent",
+  "query": "rog ally gpu equivalent",
+  "description": "The ROG Ally's Z1 Extreme GPU roughly equals a GTX 1650 at 25-30 W and a GTX 1050 Ti at 15 W. Legion Go matches it; Ally X and Claw 8 AI+ edge ahead.",
+  "dek": "The closest desktop graphics card to every ROG Ally, Legion Go and MSI Claw handheld, by chip and power mode, with what that means in games.",
+  "quickAnswer": "The original ROG Ally and Legion Go use the Ryzen Z1 Extreme, whose 12 RDNA 3 compute units perform roughly like a desktop GTX 1650 in Turbo mode (25 to 30 W) and nearer a GTX 1050 Ti at 15 W. The ROG Ally X is the same chip with faster memory, a little quicker. The ROG Xbox Ally X (Z2 Extreme) and MSI Claw 8 AI+ (Arc 140V) sit around a GTX 1650. The base Z1 and Z2 A models are closer to a GTX 1050.",
+  "intro": [
+    "PC handhelds use laptop-style chips with integrated graphics, so their GPU match depends on two things: the chip inside and the power mode you pick. This page lists both for the ROG Ally family, the Lenovo Legion Go family and the MSI Claw family, and gives the closest desktop NVIDIA, AMD and Intel card for each.",
+    "Matches are estimates from published specs and the broad pattern of independent handheld and integrated-graphics reviews, rounded to the nearest desktop card. We have not tested these handhelds. Expect results to move by a tier with power mode, game and driver version."
+  ],
+  "sections": [
+    {
+      "h": "How to Read This Chart, and Why Power Mode Matters",
+      "body": [
+        "A desktop graphics card runs at one power level. A handheld does not. The ROG Ally's Z1 Extreme, for example, can run at around 10 W in Silent mode, 15 W in Performance mode and 25 W in Turbo, or about 30 W plugged in. The same 12 compute units deliver very different frame rates across that range, so each match below names the power level it assumes.",
+        "Memory matters too. Integrated graphics share system memory with the CPU, so faster LPDDR5X helps directly. That is most of the reason the ROG Ally X, with LPDDR5X-7500, runs the same Z1 Extreme chip a little faster than the original Ally with LPDDR5-6400.",
+        "Matches here are for raster games. Ray tracing is technically supported on the RDNA 3 and Intel Arc chips, but at this performance tier it is rarely worth switching on. For the same chips in laptops and desktops, see the [integrated graphics equivalents chart](/integrated-graphics-equivalents/)."
+      ]
+    },
+    {
+      "h": "ROG Ally, Legion Go and MSI Claw GPU Equivalents",
+      "body": [
+        "Each row gives the chip and the closest desktop card at the device's usual full-power setting, with the lower-power match where it differs a lot. Read across to the [AMD vs NVIDIA GPU equivalents chart](/amd-vs-nvidia-gpu-equivalents/) to convert any of these to the other brand."
+      ],
+      "table": {
+        "caption": "PC handheld GPUs to desktop graphics cards, raster performance, estimated",
+        "head": ["Handheld", "Chip and GPU", "Closest desktop card at full power", "At about 15 W"],
+        "rows": [
+          ["ROG Ally (Z1 Extreme)", "Ryzen Z1 Extreme, 12 RDNA 3 CUs", "GTX 1650 (roughly)", "GTX 1050 Ti (roughly)"],
+          ["ROG Ally (Z1)", "Ryzen Z1, 4 RDNA 3 CUs", "GTX 1050 or a little below", "Below a Steam Deck"],
+          ["ROG Ally X", "Ryzen Z1 Extreme, LPDDR5X-7500", "GTX 1650, a little ahead of the Ally", "GTX 1050 Ti (roughly)"],
+          ["ROG Xbox Ally X", "Ryzen AI Z2 Extreme, 16 RDNA 3.5 CUs", "GTX 1650 class, modestly ahead of Z1 Extreme", "GTX 1050 Ti to GTX 1650"],
+          ["ROG Xbox Ally", "Ryzen Z2 A, 8 RDNA 2 CUs", "GTX 1050 (Steam Deck class)", "GTX 1050 or below"],
+          ["Legion Go", "Ryzen Z1 Extreme, 12 RDNA 3 CUs", "GTX 1650 (roughly)", "GTX 1050 Ti (roughly)"],
+          ["Legion Go S (Z2 Go)", "Ryzen Z2 Go, 12 RDNA 2 CUs", "GTX 1050 Ti (roughly)", "GTX 1050"],
+          ["MSI Claw (2024)", "Core Ultra 7 155H, 8 Arc Xe-cores", "GTX 1050 Ti to GTX 1650, varies by game", "GTX 1050 class"],
+          ["MSI Claw 8 AI+ / 7 AI+", "Core Ultra 7 258V, Arc 140V (8 Xe2 cores)", "GTX 1650 (roughly)", "GTX 1050 Ti to GTX 1650"]
+        ]
+      }
+    },
+    {
+      "h": "What Is the ROG Ally GPU Equivalent?",
+      "body": [
+        "The ROG Ally with the Ryzen Z1 Extreme has a GPU roughly equal to a desktop GTX 1650 in Turbo mode at 25 to 30 W. AMD lists the chip's graphics at 12 RDNA 3 compute units and up to 8.6 TFLOPS, the same graphics design as the Radeon 780M in many thin laptops and the Ryzen 7 8700G desktop chip.",
+        "In Performance mode at 15 W it drops toward a GTX 1050 Ti, close to a Steam Deck in many games. At 10 W it falls further. That is why owners who chase frame rates usually play in Turbo or plugged in, and why the Ally's battery life drops quickly in demanding games.",
+        "The cheaper ROG Ally with the plain Ryzen Z1 is a much smaller GPU: 4 RDNA 3 compute units instead of 12. Its CPU is fine, but in graphics-heavy games it often trails a Steam Deck, roughly a GTX 1050 or below. If you are buying used, check which chip a listing has; the Z1 Extreme model is the one these comparisons usually mean."
+      ]
+    },
+    {
+      "h": "What Is the ROG Ally X GPU Equivalent?",
+      "body": [
+        "The ROG Ally X keeps the Z1 Extreme, so its GPU is also roughly a GTX 1650 at full power. The changes are 24 GB of LPDDR5X-7500 memory instead of 16 GB of LPDDR5-6400, and a much larger 80 Wh battery. The faster memory gives the integrated GPU more bandwidth, which shows up as a modest gain in most games rather than a new tier.",
+        "The bigger battery matters more for most owners: it lets the Ally X hold Turbo-level power for longer away from a charger, so in practice it spends more of its time near the GTX 1650 end of the range."
+      ]
+    },
+    {
+      "h": "What Is the ROG Xbox Ally X GPU Equivalent?",
+      "body": [
+        "The ROG Xbox Ally X uses the Ryzen AI Z2 Extreme, with 16 RDNA 3.5 compute units and 8 Zen 5 cores, the same class of graphics as the Radeon 890M. At its higher power settings it lands around a GTX 1650, ahead of the Z1 Extreme by a modest margin rather than a full tier. Both chips share the same limit: dual-channel memory bandwidth that a desktop card's dedicated GDDR memory does not have.",
+        "The cheaper ROG Xbox Ally uses the Ryzen Z2 A, with 4 Zen 2 cores and 8 RDNA 2 compute units. That is Steam Deck class hardware, so expect roughly GTX 1050 performance, with Windows rather than SteamOS. The two names are close; the GPU gap between them is large."
+      ]
+    },
+    {
+      "h": "What Is the Legion Go GPU Equivalent?",
+      "body": [
+        "The original Lenovo Legion Go uses the same Ryzen Z1 Extreme as the ROG Ally, so its GPU match is the same: roughly a GTX 1650 at its higher power settings and nearer a GTX 1050 Ti at 15 W. Its 8.8-inch 2560 x 1600 screen is the catch: running games at native resolution costs a lot of performance, so most owners run games at a lower resolution or with upscaling to reach the same frame rates as an Ally at 1080p.",
+        "The Legion Go S comes in two versions. The model with the Ryzen Z2 Go has 12 RDNA 2 compute units, close to a Radeon 680M, roughly a GTX 1050 Ti at full power. A Z1 Extreme version matches the original Legion Go. The Legion Go 2 uses the Z1 Extreme or Z2 Extreme depending on the configuration, so check the chip before comparing."
+      ]
+    },
+    {
+      "h": "What Is the MSI Claw GPU Equivalent?",
+      "body": [
+        "The first MSI Claw, from 2024, uses an Intel Core Ultra 7 155H with 8 Arc Xe-cores. On paper that is close to the Z1 Extreme, roughly GTX 1050 Ti to GTX 1650 class, but early reviews found it slower than the Ally in many games because of Intel's handheld drivers and power tuning. Later driver and firmware updates closed some of that gap, but results still vary more by game than on the AMD handhelds.",
+        "The MSI Claw 8 AI+ and Claw 7 AI+ switched to the Core Ultra 7 258V with Arc 140V graphics, 8 newer Xe2 cores. Independent reviews put it among the fastest integrated GPUs in handhelds, roughly a GTX 1650 at full power and notably better than the original Claw at low power. MSI has also sold Claw models with AMD's Z2 Extreme, which match the ROG Xbox Ally X."
+      ]
+    },
+    {
+      "h": "Is the ROG Ally Faster Than a Steam Deck?",
+      "body": [
+        "Yes, at the same or higher power. The Steam Deck's GPU has 8 RDNA 2 compute units at up to 1.6 GHz, roughly a desktop GTX 1050. The Z1 Extreme's 12 RDNA 3 compute units pull clearly ahead in Turbo mode, by enough to move many games from 30 to 45 fps or from medium to high settings at 800p.",
+        "At 15 W the gap narrows a lot, and some games run about the same on both. The Steam Deck also renders fewer pixels at 1280 x 800 than an Ally at 1920 x 1080, which helps its frame rates. For the Deck in detail, see the [Steam Deck GPU equivalent](/steam-deck-gpu-equivalent/) page."
+      ],
+      "table": {
+        "caption": "ROG Ally vs Steam Deck vs Switch 2, published and widely reported specs",
+        "head": ["Spec", "ROG Ally (Z1 Extreme)", "Steam Deck", "Switch 2"],
+        "rows": [
+          ["GPU", "12 RDNA 3 CUs, up to 8.6 TFLOPS", "8 RDNA 2 CUs, up to 1.6 GHz", "NVIDIA Ampere, 1,536 CUDA cores"],
+          ["CPU", "8 Zen 4 cores", "4 Zen 2 cores", "8 Arm cores (reported)"],
+          ["Screen", "7-inch 1080p 120 Hz", "7 or 7.4-inch 800p", "7.9-inch 1080p 120 Hz"],
+          ["Closest desktop GPU", "GTX 1650 at 25-30 W", "GTX 1050", "GTX 1050 Ti to GTX 1650 docked"]
+        ]
+      }
+    },
+    {
+      "h": "Is the ROG Ally Faster Than the Switch 2?",
+      "body": [
+        "On raw GPU throughput at full power, the Ally and the docked Switch 2 are in the same broad class, roughly GTX 1050 Ti to GTX 1650. The Switch 2 has two advantages the numbers miss: DLSS upscaling, and games built and tuned for one fixed piece of hardware. The Ally has a much faster CPU and runs the whole Windows PC library.",
+        "In handheld mode, the Switch 2 runs its GPU at a lower clock and is closer to a Steam Deck. See the [Switch 2 GPU equivalent](/switch-2-gpu-equivalent/) page for its docked and handheld match."
+      ]
+    },
+    {
+      "h": "Desktop Card to Handheld: Which Handheld Matches Your GPU?",
+      "body": [
+        "The reverse lookup: find a desktop card you know and see which handhelds land near it. Any current desktop graphics card is far faster than every handheld here. An [RX 6600](/gear/rx-6600/) is roughly four times a Z1 Extreme at full power by the broad pattern of independent reviews, and an [RTX 5060](/gear/rtx-5060/) or [Arc B580](/gear/arc-b580/) is faster still."
+      ],
+      "table": {
+        "caption": "Desktop graphics cards to the nearest PC handheld",
+        "head": ["Desktop card", "Handhelds near it"],
+        "rows": [
+          ["GTX 1650", "ROG Ally and Legion Go (Z1 Extreme, Turbo), ROG Ally X, ROG Xbox Ally X, MSI Claw 8 AI+"],
+          ["GTX 1050 Ti", "Z1 Extreme handhelds at 15 W, Legion Go S (Z2 Go), original MSI Claw at lower power"],
+          ["GTX 1050", "Steam Deck, ROG Xbox Ally (Z2 A), ROG Ally (Z1)"],
+          ["RX 6600 or RTX 3060 and up", "No handheld; several times faster than any of them"]
+        ]
+      }
+    }
+  ],
+  "mistakes": [
+    ["Comparing at the wrong power mode", "A Z1 Extreme at 10 W and the same chip at 30 W are about a full tier apart. When you read a handheld review or a forum comparison, check the wattage; most headline numbers come from Turbo mode or plugged in."],
+    ["Mixing up Z1 and Z1 Extreme", "The plain Z1 has 4 RDNA 3 compute units; the Z1 Extreme has 12. They share a name and a chassis, but the GPU gap is about three times in compute units. Check the exact model before buying used."],
+    ["Assuming ROG Xbox Ally and Ally X are close", "The ROG Xbox Ally X has a Z2 Extreme with 16 RDNA 3.5 compute units; the cheaper ROG Xbox Ally has a Z2 A with 8 RDNA 2 units, Steam Deck class. The names are nearly identical, the graphics are not."],
+    ["Running the Legion Go at native resolution", "The Legion Go's 2560 x 1600 screen has nearly twice the pixels of a 1080p Ally. Running games at native resolution makes it look slower than the same chip in an Ally. Use a lower resolution or upscaling for a fair comparison."]
+  ],
+  "bottomLine": "The ROG Ally with the Z1 Extreme has a GPU roughly equal to a desktop GTX 1650 at 25 to 30 W, falling toward a GTX 1050 Ti at 15 W. The Legion Go matches it, the Ally X edges ahead with faster memory, and the ROG Xbox Ally X and MSI Claw 8 AI+ land around a GTX 1650 too. The plain Z1 Ally and the ROG Xbox Ally are Steam Deck class, roughly a GTX 1050. Any current desktop graphics card is several times faster than all of them.",
+  "faqs": [
+    {"q": "What GPU is the ROG Ally equivalent to?", "a": "The ROG Ally with the Z1 Extreme is roughly equal to a desktop GTX 1650 in Turbo mode at 25 to 30 W, and closer to a GTX 1050 Ti at 15 W. Its 12 RDNA 3 compute units are the same graphics as the Radeon 780M."},
+    {"q": "What GPU is the ROG Ally X equivalent to?", "a": "About a GTX 1650 at full power, a little ahead of the original Ally. It uses the same Z1 Extreme chip with faster LPDDR5X-7500 memory, which helps integrated graphics, and a larger 80 Wh battery that sustains high power for longer."},
+    {"q": "Is the Z1 Extreme better than a GTX 1650?", "a": "Not quite. At 25 to 30 W it gets close to a GTX 1650 in many games and falls short in others, mainly because it shares memory bandwidth with the CPU. At 15 W it is clearly below, nearer a GTX 1050 Ti."},
+    {"q": "What GPU is the Legion Go equivalent to?", "a": "The same as the ROG Ally with the Z1 Extreme: roughly a GTX 1650 at its higher power settings. Its higher-resolution 2560 x 1600 screen means games often need a lower render resolution to reach the same frame rates."},
+    {"q": "What GPU is the MSI Claw equivalent to?", "a": "The original Claw's Arc graphics land roughly between a GTX 1050 Ti and GTX 1650, with more variation by game because of drivers. The Claw 8 AI+ with Arc 140V graphics is roughly a GTX 1650 at full power and is more efficient at low power."},
+    {"q": "Is the ROG Ally more powerful than a Steam Deck?", "a": "Yes, at full power the Z1 Extreme is clearly faster: about a GTX 1650 against the Deck's GTX 1050. At 15 W the gap narrows, and the Deck renders fewer pixels at 800p, so some games run similarly."},
+    {"q": "Can the ROG Ally run games like a desktop PC?", "a": "It runs the same Windows games, but at roughly GTX 1650 level, so expect 1080p low to medium or 720p to 800p with upscaling in demanding new games. Any current desktop card, even an RX 6600, is several times faster."},
+    {"q": "What is the ROG Xbox Ally X GPU equivalent?", "a": "Roughly a GTX 1650 at its higher power settings. Its Z2 Extreme has 16 RDNA 3.5 compute units, modestly faster than the Z1 Extreme rather than a full tier, because both are limited by shared memory bandwidth."}
+  ],
+  "sources": [
+    "AMD Ryzen Z1, Z1 Extreme, Z2 Extreme, Z2 Go and Z2 A product specifications",
+    "ASUS ROG Ally, ROG Ally X, ROG Xbox Ally and ROG Xbox Ally X specifications",
+    "Lenovo Legion Go and Legion Go S specifications",
+    "MSI Claw and Claw 8 AI+ specifications; Intel Core Ultra 7 155H and 258V specifications",
+    "Valve Steam Deck specifications",
+    "Independent handheld and integrated graphics reviews from Digital Foundry, Hardware Unboxed, Tom's Hardware and Notebookcheck"
+  ],
+  "products": ["rx-6600", "rtx-5060", "arc-b580"],
+  "related": ["console-gpu-equivalents", "steam-deck-gpu-equivalent", "switch-2-gpu-equivalent", "integrated-graphics-equivalents", "snapdragon-x-gpu-equivalent"]
+}

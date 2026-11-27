@@ -6,7 +6,7 @@
   "title": "PS5 GPU Equivalent: PC Graphics Card Match for Every Console",
   "h1": "PS5 GPU Equivalent (and Every Other Console)",
   "query": "ps5 gpu equivalent",
-  "description": "The PS5 GPU roughly equals an RX 6700 or RTX 2070 Super, and the Xbox Series X an RTX 2080. Find the PC graphics card match for every console and handheld.",
+  "description": "The PS5 GPU equals an RX 6700 or RTX 2070 Super, the PS5 Pro an RTX 4060 Ti to 4070, the Xbox Series X an RTX 2080 and the Series S a GTX 1650 Super.",
   "dek": "The closest NVIDIA, AMD and Intel Arc card to the PS5, PS5 Pro, Xbox Series X and S, Steam Deck, ROG Ally and more, with the catches that make console-to-PC matches rough.",
   "quickAnswer": "The PS5's GPU roughly equals a desktop RX 6700 or RTX 2070 Super, and a current Arc B580 or RTX 5060 matches it. The PS5 Pro lands near an RTX 4060 Ti to RTX 4070, the Xbox Series X near an RTX 2080, the Series S near a GTX 1650 Super, the Switch 2 near a GTX 1650 docked, and the Steam Deck near a GTX 1050.",
   "intro": [
@@ -100,7 +100,7 @@
       "h": "What Is the Xbox Series S GPU Equivalent?",
       "body": [
         "The Xbox Series S has 20 RDNA 2 compute units at 1.565 GHz, about 4 TFLOPS, and 10 GB of memory in total. In practice it performs roughly like a GTX 1650 Super or RX 6500 XT, and a little better than an Arc A380. Most games target 1080p or below on it, often with lower settings than the Series X.",
-        "Any current graphics card from the RTX 4060 or RX 7600 up is far faster than a Series S."
+        "Any current graphics card from the RTX 4060 or RX 7600 up is far faster than a Series S. For the full match, including its CPU, see the [Xbox Series S GPU equivalent](/xbox-series-s-gpu-equivalent/) page."
       ]
     },
     {
@@ -160,14 +160,14 @@
       "h": "What Is the Z1 Extreme and Z2 Extreme GPU Equivalent?",
       "body": [
         "The Ryzen Z1 Extreme in the ROG Ally, Ally X and Legion Go has 12 RDNA 3 compute units, the same graphics as the [Radeon 780M](/integrated-graphics-equivalents/). At 25 to 30 W it performs roughly like a GTX 1650; at 15 W it drops toward a GTX 1050 Ti, close to a Steam Deck.",
-        "The Ryzen Z2 Extreme in the ROG Xbox Ally X has 16 RDNA 3.5 compute units, the same class of graphics as the Radeon 890M, plus 8 Zen 5 cores. Expect GTX 1650 class performance at its higher power settings, ahead of the Z1 Extreme by a modest margin rather than a full tier. As with every handheld, the power mode you pick changes the match more than the chip does."
+        "The Ryzen Z2 Extreme in the ROG Xbox Ally X has 16 RDNA 3.5 compute units, the same class of graphics as the Radeon 890M, plus 8 Zen 5 cores. Expect GTX 1650 class performance at its higher power settings, ahead of the Z1 Extreme by a modest margin rather than a full tier. As with every handheld, the power mode you pick changes the match more than the chip does. Every ROG Ally, Legion Go and MSI Claw model is matched in the [ROG Ally GPU equivalent](/rog-ally-gpu-equivalent/) chart."
       ]
     },
     {
       "h": "What Is the Nintendo Switch 2 GPU Equivalent?",
       "body": [
         "Nintendo has published less detail than Sony or Microsoft. What is widely reported is that the Switch 2 uses a custom NVIDIA chip with an Ampere-generation GPU of 1,536 CUDA cores, 12 GB of LPDDR5X and support for DLSS and hardware ray tracing. Clock speeds reported by developers and testers put it at roughly 3 TFLOPS docked and under 2 TFLOPS in handheld mode.",
-        "On those figures, its raw throughput docked is roughly GTX 1050 Ti to GTX 1650 class, a clear step above the Steam Deck but well below a PS5. DLSS lets games render at a lower resolution and look sharper than that suggests. Treat this match as an estimate; games built for the Switch 2 are tuned to it in ways a desktop card comparison cannot capture."
+        "On those figures, its raw throughput docked is roughly GTX 1050 Ti to GTX 1650 class, a clear step above the Steam Deck but well below a PS5. DLSS lets games render at a lower resolution and look sharper than that suggests. Treat this match as an estimate; games built for the Switch 2 are tuned to it in ways a desktop card comparison cannot capture. The [Switch 2 GPU equivalent](/switch-2-gpu-equivalent/) page gives the docked and handheld match in detail."
       ]
     },
     {
@@ -412,6 +412,9 @@
   "related": [
     "ps5-gpu-equivalent",
     "xbox-series-x-gpu-equivalent",
-    "best-budget-graphics-card"
+    "best-budget-graphics-card",
+    "rog-ally-gpu-equivalent",
+    "switch-2-gpu-equivalent",
+    "xbox-series-s-gpu-equivalent"
   ]
 }

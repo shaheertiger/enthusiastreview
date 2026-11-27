@@ -179,5 +179,5 @@
     "Owner reports on AMD community forums"
   ],
   "products": ["rx-9070-xt", "rx-9060-xt-16gb"],
-  "related": ["how-to-update-amd-drivers", "how-to-check-what-graphics-card-i-have", "how-to-update-nvidia-drivers"]
+  "related": ["how-to-update-amd-drivers", "how-to-check-what-graphics-card-i-have", "how-to-update-nvidia-drivers", "how-to-turn-off-amd-overlay"]
 }

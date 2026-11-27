@@ -1,0 +1,148 @@
+{
+  "slug": "how-to-enable-xmp-expo",
+  "type": "article",
+  "kind": "howto",
+  "category": "memory",
+  "title": "How to Enable XMP or EXPO: ASUS, MSI, Gigabyte and ASRock",
+  "h1": "How to Enable XMP or EXPO in the BIOS",
+  "query": "how to enable xmp",
+  "description": "Enable XMP or EXPO in 4 steps: enter the BIOS with Delete, find the memory profile, pick Profile 1, save with F10. Menus for ASUS, MSI, Gigabyte, ASRock.",
+  "dek": "Run your RAM at its rated speed instead of the slow default, with the exact menu for ASUS, MSI, Gigabyte and ASRock boards and what to do if the PC will not boot after.",
+  "quickAnswer": "Restart, press Delete to enter the BIOS, and turn on the memory profile: ASUS calls it Ai Overclock Tuner (XMP I, EXPO I or DOCP), MSI has an XMP or EXPO button at the top left, Gigabyte lists Extreme Memory Profile (X.M.P.) or EXPO in Tweaker, and ASRock puts it in OC Tweaker. Choose Profile 1, press F10 to save and restart. The first boot can take a minute or more.",
+  "intro": [
+    "New RAM runs at a slow, safe default speed until you enable its profile. A DDR5-6000 kit, for example, often boots at DDR5-4800, and a DDR4-3600 kit at DDR4-2133 or 2400. XMP (Intel's Extreme Memory Profile) and EXPO (AMD's Extended Profiles for Overclocking) are one setting in the BIOS that loads the speed and timings printed on the box. This guide shows where that setting is on each major board brand, how to check it worked, and what to do if the PC will not boot afterward."
+  ],
+  "stepsHeading": "How to Enable XMP or EXPO, Step by Step",
+  "steps": [
+    {
+      "h": "Enter the BIOS",
+      "body": [
+        "Restart the PC and tap Delete as soon as the screen lights up. F2 also works on ASRock and many ASUS boards. If the PC boots straight into Windows, use Settings, System, Recovery, Advanced startup, then Troubleshoot, Advanced options, UEFI Firmware Settings."
+      ]
+    },
+    {
+      "h": "Find the memory profile setting",
+      "body": [
+        "Most boards open in a simple mode that shows the memory profile on the first screen. If yours does not, switch to the advanced mode and look in the overclocking or tweaker tab. The exact name for each brand is in the next section."
+      ]
+    },
+    {
+      "h": "Choose Profile 1",
+      "body": [
+        "Set the profile to Profile 1, XMP I or EXPO I, depending on the board. Profile 1 is the rated speed on the box. A second profile, where it exists, is usually a slightly slower or looser fallback, or a board-tuned variant of the same speed."
+      ]
+    },
+    {
+      "h": "Save with F10 and restart",
+      "body": [
+        "Press F10 and confirm to save and exit. The first boot can take longer than usual, especially with DDR5 on AM5, while the board trains the memory at the new speed. Wait at least two or three minutes before assuming anything is wrong."
+      ]
+    },
+    {
+      "h": "Check the speed in Windows",
+      "body": [
+        "Open Task Manager, go to Performance, then Memory. The speed shown should match the kit, for example 6000 MT/s. CPU-Z's Memory tab shows the DRAM frequency at half that number, such as 3000 MHz for DDR5-6000, which is normal."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "h": "Where is XMP or EXPO on ASUS, MSI, Gigabyte and ASRock boards?",
+      "body": [
+        "Each brand names and places the setting differently. Menus change a little between BIOS versions, so if a label differs, look for Memory, DRAM, XMP or EXPO on the same page."
+      ],
+      "table": {
+        "caption": "XMP and EXPO location by motherboard brand",
+        "head": ["Brand", "BIOS key", "Simple mode", "Advanced mode"],
+        "rows": [
+          ["ASUS", "Delete or F2", "X.M.P., D.O.C.P. or EXPO on the EZ Mode screen", "F7, Ai Tweaker tab, Ai Overclock Tuner"],
+          ["MSI", "Delete", "XMP or EXPO button at the top left of EZ Mode", "F7, OC tab, the XMP or EXPO profile setting"],
+          ["Gigabyte", "Delete", "X.M.P. or EXPO setting on the Easy Mode screen", "F2 to switch mode, Tweaker tab, Extreme Memory Profile (X.M.P.) or EXPO"],
+          ["ASRock", "F2 or Delete", "XMP or EXPO option on Easy Mode, where shown", "F6, OC Tweaker tab, the XMP or EXPO profile setting"]
+        ]
+      }
+    },
+    {
+      "h": "How do you enable XMP or EXPO on an ASUS motherboard?",
+      "body": [
+        "In EZ Mode, the memory profile sits in the middle of the screen, labeled X.M.P. on Intel boards and EXPO or D.O.C.P. on AMD boards. Click it and choose Profile 1, or XMP I or EXPO I. In Advanced Mode (F7), open the Ai Tweaker tab and set Ai Overclock Tuner to XMP I, XMP II, EXPO I or EXPO II, then choose the profile underneath.",
+        "XMP I and EXPO I load the kit's profile as written. XMP II and EXPO II load the same speed and main timings plus secondary timings ASUS tunes for the board, which is usually fine but can be less stable on some kits. Start with the I option. D.O.C.P. is ASUS's older name for XMP on AMD boards, used on AM4. If you are updating the board at the same time, see [how to update ASUS BIOS](/how-to-update-asus-bios/)."
+      ]
+    },
+    {
+      "h": "How do you enable XMP or EXPO on an MSI motherboard?",
+      "body": [
+        "MSI's Click BIOS 5 has an XMP or EXPO button at the top left of EZ Mode, next to the Game Boost button. Click it to turn the profile on, and pick Profile 1 if it offers a choice. Older MSI AMD boards label it A-XMP. In Advanced Mode (F7), the same setting is on the OC tab near the top, with the memory frequency and timings below it.",
+        "Leave Game Boost off while you set up memory. It is a separate CPU overclock and makes troubleshooting harder. Before a memory upgrade on an older board, it is worth checking for a newer BIOS: see [how to update MSI BIOS](/how-to-update-msi-bios/)."
+      ]
+    },
+    {
+      "h": "How do you enable XMP or EXPO on a Gigabyte motherboard?",
+      "body": [
+        "Gigabyte's Easy Mode shows the memory profile on its main screen, labeled X.M.P. on Intel boards and EXPO on AM5 boards. Click it and pick Profile1. In Advanced Mode, which F2 switches to, open the Tweaker tab and set Extreme Memory Profile (X.M.P.) or EXPO to Profile1.",
+        "Many Gigabyte AM5 boards accept XMP kits too and translate the profile. If an XMP kit is unstable on an AM5 board, set the speed and main timings by hand instead. For BIOS updates before a memory change, see [how to update Gigabyte BIOS](/how-to-update-gigabyte-bios/)."
+      ]
+    },
+    {
+      "h": "How do you enable XMP or EXPO on an ASRock motherboard?",
+      "body": [
+        "Enter the UEFI with F2 or Delete. Some ASRock boards show an XMP or EXPO option on the Easy Mode screen; if yours does not, press F6 for Advanced Mode and open the OC Tweaker tab. The memory profile setting sits near the DRAM frequency options, labeled for XMP on Intel boards and for EXPO or XMP on AM5 boards. Choose Profile 1, then save with F10.",
+        "If the UEFI will not open because Fast Boot is set to Ultra Fast, see [how to enter ASRock BIOS](/how-to-enter-asrock-bios/). After any ASRock BIOS update the profile resets to off, so turn it back on: [how to update ASRock BIOS](/how-to-update-asrock-bios/) covers what else to re-enable."
+      ]
+    },
+    {
+      "h": "What is the difference between XMP and EXPO?",
+      "body": [
+        "Both are profiles stored on the memory modules that tell the board the rated speed, timings and voltage. [XMP](/glossary/intel-xmp/) is Intel's standard and works on Intel boards for DDR4 and DDR5. [EXPO](/glossary/amd-expo/) is AMD's open standard for DDR5 on AM5. D.O.C.P. and A-XMP were board makers' names for reading XMP on older AMD platforms.",
+        "Most AM5 boards can read XMP kits, and many DDR5 kits carry both profiles. If a kit lists EXPO, it was validated for AM5 by its maker, which makes it the easier choice there. On AM5, DDR5-6000 with CL30 timings is the widely recommended sweet spot because it lets the memory controller run 1:1 with the memory; see [best RAM for gaming](/best-ram-for-gaming/) for kits."
+      ]
+    },
+    {
+      "h": "Is it safe to enable XMP or EXPO?",
+      "body": [
+        "Yes, for normal use. The profile is tested by the memory maker, and board makers list supported kits. Technically it is an overclock of the memory controller beyond the CPU maker's base spec, so Intel and AMD do not guarantee every kit at every speed, but enabling the profile on a matched kit is standard practice for gaming PCs.",
+        "Keep the voltages the profile sets. On AM5, early 2023 BIOS versions allowed excessive SoC voltage with EXPO; updates capped it, so run a current BIOS before using EXPO on an early AM5 board."
+      ]
+    },
+    {
+      "h": "What if the PC will not boot after enabling XMP or EXPO?",
+      "body": [
+        "First, wait. DDR5 memory training on AM5 can show a black screen for a minute or more, and some boards restart two or three times. Pressing reset during training starts it over. If it still does not boot after five minutes, work through these in order:"
+      ],
+      "list": [
+        "Many boards fall back to defaults after a few failed boots and show a message on screen. Enter the BIOS and try again with a lower setting.",
+        "Try the second profile if the kit has one, or set the speed one step lower, such as DDR5-5600 instead of 6000, keeping the profile's timings.",
+        "Update the BIOS. New versions often improve memory compatibility, especially on AM5 and Intel 700 and 800 series boards.",
+        "With four sticks, expect lower stable speeds than with two; many boards only reach the rated speed with two.",
+        "If the PC will not reach the BIOS at all, clear the CMOS to reset every setting; see [how to clear CMOS](/how-to-clear-cmos/)."
+      ]
+    }
+  ],
+  "mistakes": [
+    ["Never turning it on", "The most common mistake is not knowing the setting exists. A DDR5-6000 kit left at 4800 or a DDR4-3600 kit at 2133 gives up real performance, especially with Ryzen CPUs. Check Task Manager's memory speed after every new build."],
+    ["Mixing two separate kits", "Two kits of the same model are not matched like one kit, and mixing brands or speeds often fails at the rated profile. Buy the full capacity as one kit, or expect to run at a lower speed."],
+    ["Resetting during memory training", "A long black screen on the first boot after enabling EXPO is often training, not failure. Pressing reset restarts the process. Give it a few minutes before stepping in."],
+    ["Forgetting after a BIOS update", "A BIOS update or a CMOS clear resets the memory profile to off. Check the memory speed after every update and turn XMP or EXPO back on."]
+  ],
+  "bottomLine": "To enable XMP or EXPO, enter the BIOS with Delete, find the memory profile setting and choose Profile 1, then save with F10. On ASUS it is Ai Overclock Tuner in Ai Tweaker, on MSI the XMP or EXPO button in EZ Mode, on Gigabyte Extreme Memory Profile in Tweaker, and on ASRock the profile setting in OC Tweaker. Wait out a long first boot, check the speed in Task Manager, and if it will not boot, try a lower speed, update the BIOS or clear the CMOS.",
+  "faqs": [
+    {"q": "How do I enable XMP?", "a": "Restart, press Delete to enter the BIOS, find the memory profile setting (X.M.P., XMP or Ai Overclock Tuner depending on the board), choose Profile 1, then press F10 to save and restart. Check the speed in Task Manager afterward."},
+    {"q": "How do I enable EXPO on an AM5 motherboard?", "a": "Enter the BIOS with Delete and look for EXPO on the simple mode screen, or in the overclocking or tweaker tab in advanced mode. Choose EXPO Profile 1 or EXPO I, save with F10, and wait for memory training on the first boot."},
+    {"q": "Is XMP the same as EXPO?", "a": "They do the same job: load the memory kit's rated speed and timings. XMP is Intel's standard; EXPO is AMD's for DDR5 on AM5. Most AM5 boards can use XMP kits, and many DDR5 kits include both profiles."},
+    {"q": "Should I turn on XMP or EXPO?", "a": "Yes, for almost every gaming PC. Without it, your RAM runs at a slow default speed, such as DDR5-4800 for a DDR5-6000 kit. Turning it on is a standard step after building a PC and is supported by memory and board makers."},
+    {"q": "What is DOCP on ASUS?", "a": "D.O.C.P. is ASUS's name for loading an XMP profile on AMD boards, used mostly on AM4. On AM5, ASUS boards list EXPO and XMP options instead. Choose the first profile to run the kit at its rated speed."},
+    {"q": "Why is my RAM speed lower than advertised?", "a": "Because XMP or EXPO is not enabled. Memory boots at a JEDEC default speed for compatibility. Enable the profile in the BIOS to run it at the speed on the box, then check Task Manager's Memory page."},
+    {"q": "What if my PC won't boot after enabling XMP?", "a": "Wait a few minutes for memory training, then let the board fall back to defaults or clear the CMOS. Try a lower speed or the second profile, update the BIOS, and if you have four sticks, test with two."},
+    {"q": "Does XMP or EXPO void my warranty?", "a": "Memory makers support their own profiles. Intel and AMD describe memory overclocking as outside the CPU's base spec, but enabling a rated XMP or EXPO profile is standard practice and widely used. Keep the voltages the profile sets."}
+  ],
+  "sources": [
+    "ASUS, MSI, Gigabyte and ASRock motherboard manuals and BIOS documentation",
+    "Intel Extreme Memory Profile (XMP) documentation",
+    "AMD EXPO technology documentation",
+    "AMD AGESA and board maker BIOS notes on AM5 SoC voltage limits, 2023",
+    "G.Skill, Corsair and Kingston memory installation guides",
+    "Owner reports on memory training times and compatibility on AM5"
+  ],
+  "products": ["gskill-flare-x5-ddr5-6000-cl30", "corsair-vengeance-ddr5-6000-cl30", "kingston-fury-beast-ddr5-6000-cl30", "msi-mag-b650-tomahawk-wifi"],
+  "related": ["how-to-clear-cmos", "how-to-update-asus-bios", "how-to-update-msi-bios", "how-to-update-gigabyte-bios", "how-to-update-asrock-bios", "best-ram-for-gaming"]
+}
