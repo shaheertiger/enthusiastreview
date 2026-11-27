@@ -40,19 +40,28 @@ Vercel MCP, project `prj_XCFBhyjih4BMrkPN3YiyAw1m4Ixo`, team `team_pAoikpyeUpvHs
   `referrerHostname in ('duckduckgo.com','bing.com','search.yahoo.com','ecosia.org','google.com','search.brave.com')`,
   limit 60, for the last 30 days and again for the last 2 days.
 
-The winners tell you which **format** to copy (Nov 2026: equivalents charts, comparisons such as
-`/compare/rx-9070-xt-vs-rtx-5080`, brand how-tos such as `/how-to-update-asrock-bios`, PSU sibling
-comparisons). Ignore `/best/` and `/guides/` paths: those are 410'd dehumidifier pages.
+The winners tell you which **format** to copy (27 Nov 2026: equivalents charts ~10 search visitors per page,
+brand how-tos and fixes ~6 per page; comparisons ~1 per page outside two pairs; GPU-for-CPU and PSU/cooler
+buyer guides ~0, see `docs/what-works.md`). Ignore `/best/` and `/guides/` paths: those are 410'd dehumidifier pages.
 
 ## 4. Pick 10 pages
 
+**Read `docs/what-works.md` first.** Its STOP rules (R1-R7) override everything below: no new "best GPU for
+<CPU>" pages, no new "best PSU/cooler/RAM/motherboard for <part>" guides, max 2 comparisons and only for a pair
+Bing actually shows, CTR rewrites before new competing pages. If today's data changes a verdict, update that
+file in the same PR and say why.
+
 Order of priority, skipping any slug that already exists in `src/data/guides/` (or pair in `compares.json`):
 
-1. Opportunity list 1 (URLs Bing shows that aren't live), most impressions first.
-2. Opportunity list 2 (query clusters with no page).
-3. Siblings of the Vercel winners in the same format: the next equivalents chart, the next comparison pair
-   people search, the same how-to for the next brand.
-4. Next items in `docs/ranking-method.md` (§1e, §1f "Next").
+1. **CTR rewrites (R5):** up to 3 pages with 300+ Bing impressions and CTR under 1%; they count toward the 10.
+2. **Equivalents charts:** at least 3 (targets listed in `docs/what-works.md`).
+3. **Brand how-tos and fixes:** at least 3, same task across the next brand, or a new task across the four big
+   board brands.
+4. Query clusters from the Bing report with no page, **only if** the format is not on the STOP list.
+5. Up to 2 comparisons backed by an exact-pair Bing query.
+
+Opportunity list 1 (URLs Bing shows that are not live) is used only for formats not on the STOP list: do not
+rebuild `/best-gpu-for-<cpu>/` URLs from it.
 
 PC hardware only. Write the 10 picks and the numbers behind each into the PR description.
 
