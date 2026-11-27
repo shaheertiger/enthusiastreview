@@ -23,6 +23,9 @@ export interface Product {
   /** Title of the Amazon listing the photo and direct link come from. */
   listing?: string;
   description: string;
+  /** Optional hand-written SEO title and meta description (CTR rewrites); override the generated ones. */
+  seoTitle?: string;
+  seoDescription?: string;
   quick: string;
   bestFor: string;
   skipIf: string;
@@ -232,6 +235,7 @@ export const shortAnswerHeading = (query: string) => `${cap(query).replace(/\b(c
 
 /** Product <title>: the model name first, 50–62 characters where possible. */
 export function productTitle(p: Product) {
+  if (p.seoTitle) return p.seoTitle;
   const cat = CATEGORY[p.category];
   const noun = cat.singular === cat.singular.toLowerCase() ? cat.singular.replace(/\b\w/g, (c) => c.toUpperCase()) : cat.singular;
   const named = new RegExp(`\\b(${noun.split(' ').pop()}|SSD|GPU|CPU|RAM|DDR[45]|Graphics|Processor|Cooler|Case|Motherboard)\\b`, 'i').test(p.name) ? p.name : `${p.name} ${noun}`;
@@ -257,6 +261,7 @@ export function productTitle(p: Product) {
  * and "<model> review" searches. Up to three specs, then the verdict line, cut at a word at 158 characters.
  */
 export function productDescription(p: Product, max = 158) {
+  if (p.seoDescription) return p.seoDescription;
   const lead = `${p.short} at a glance: `;
   const specs: string[] = [];
   for (const [k, v] of p.specs) {

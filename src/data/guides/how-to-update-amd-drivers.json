@@ -3,10 +3,10 @@
   "type": "article",
   "kind": "howto",
   "category": "graphics-cards",
-  "title": "How to Update AMD Drivers: Adrenalin, Auto-Detect and Manual",
+  "title": "How to Update AMD Drivers: Adrenalin or Auto-Detect Tool",
   "h1": "How to Update AMD Drivers",
   "query": "how to update amd drivers",
-  "description": "Update AMD drivers 3 ways: inside AMD Software: Adrenalin Edition, with the Auto-Detect tool or a manual download. Plus Factory Reset, cleanup and timeouts.",
+  "description": "Update AMD drivers in 3 ways: in AMD Software: Adrenalin Edition (gear icon, System, check for updates), with AMD's Auto-Detect and Install tool, or manually.",
   "dek": "Radeon graphics drivers, Ryzen chipset drivers and the fixes for installs that go wrong.",
   "quickAnswer": "If AMD Software: Adrenalin Edition is installed, open it, check for updates, then download and install the new driver; it takes about 5 to 10 minutes. If it is not installed, run AMD's Auto-Detect and Install tool from amd.com, or download the full driver for your exact Radeon card from AMD's driver page. Ryzen chipset drivers are a separate download.",
   "intro": [

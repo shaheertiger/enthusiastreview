@@ -3,12 +3,12 @@
   "type": "article",
   "kind": "explainer",
   "category": "processors",
-  "title": "Intel vs AMD CPU Equivalents: Chart for Gaming and Workloads",
+  "title": "Intel to AMD CPU Equivalents: i7-14700 = Ryzen 7 9700X",
   "h1": "Intel vs AMD CPU Equivalents",
   "query": "intel to amd cpu equivalent",
-  "description": "The i7-14700F's closest AMD equivalent is the Ryzen 7 9700X for gaming and Ryzen 9 9900X for multi-thread work. Every Intel chip since 10th gen, matched.",
+  "description": "i7-14700K/F = Ryzen 7 9700X in games, Ryzen 9 9900X in multi-thread. i5-10400F = Ryzen 5 3600, i5-11400F = Ryzen 5 5600. Every Intel chip, 8th gen to Ultra.",
   "dek": "Find the Ryzen that matches your Intel CPU, from Core Ultra 200S back to 10th gen, with separate answers for games and for heavy work.",
-  "quickAnswer": "Intel chips usually have two AMD equivalents: one for gaming and one for multi-threaded work. The Core i7-14700F games like a Ryzen 7 9700X but renders like a Ryzen 9 9900X. The Core Ultra 7 265K follows the same pattern. Older chips line up with Ryzen 5000: the i5-12400F roughly matches a Ryzen 5 5600X in both.",
+  "quickAnswer": "Intel chips usually have two AMD equivalents: one for gaming and one for multi-threaded work. The Core i7-14700K and 14700F game like a Ryzen 7 9700X but render like a Ryzen 9 9900X, and the Core Ultra 7 265K follows the same pattern. Older chips line up with Ryzen 3000 and 5000: the i5-10400F matches a Ryzen 5 3600, the i5-11400F a Ryzen 5 5600 and the i5-12400F a Ryzen 5 5600X.",
   "intro": [
     "Intel and AMD build processors differently, so one Intel chip rarely has a single AMD twin. Intel's recent chips mix performance and efficient cores, which pushes their multi-threaded scores up, while AMD's chips often game better for their core count. This chart gives both matches for every mainstream Intel desktop chip from 10th gen to Core Ultra 200S.",
     "Matches follow the broad pattern of published independent reviews and the gaming tiers in our [bottleneck calculator](/tools/bottleneck-calculator/). We have not bench-tested these chips. Roughly means within about 5 percent on average."
